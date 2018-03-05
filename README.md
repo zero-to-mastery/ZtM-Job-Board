@@ -21,3 +21,5 @@ To add your name to the list, simply open `index.html` file and add your own row
 </div>
 ```
 
+Please submit a Pull Request for your row to be added to this list. If you are unsure how to do this, please check out *Contributing To Open Source* video in the course curiculum. 
+
