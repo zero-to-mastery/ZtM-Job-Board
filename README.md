@@ -2,6 +2,7 @@
 
 A place for developers to show recruiters they are available for hire.
 
+### How to add your name to the list
 To add your name to the list, simply open `index.html` file and add your own row at the bottom like the below example:
 
 ```html
