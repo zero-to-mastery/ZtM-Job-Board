@@ -219,19 +219,24 @@ iframe {
 }
 
 .row .cell:nth-child(2) {
-  width: 360px;
+  width: 160px;
+  padding-left: 20px;
 }
 
 .row .cell:nth-child(3) {
-  width: 360px;
+  width: 250px;
+  padding-left: 20px;
 }
 
 .row .cell:nth-child(4) {
-  width: 360px;
+  width: 190px;
+  padding-left: 20px;
 }
 
 .row .cell:nth-child(5) {
-  width: 390px;
+  width: 300px;
+  padding-left: 20px;
+  padding-right: 40px;
 }
 
 
