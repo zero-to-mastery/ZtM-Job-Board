@@ -13,6 +13,9 @@ To add your name to the list, simply open `index.html` file and add your own row
   <div class="cell" data-title="Portfolio">
     <a href="https://github.com/aneagoie" target="_blank">www.somewebsite.com</a>
   </div>
+   <div class="cell" data-title="LinkedIn">
+    <a href="https://linkedin.com/aneagoie" target="_blank">username</a>
+  </div>
   <div class="cell" data-title="Job Title">
     Javascript Developer
   </div>
