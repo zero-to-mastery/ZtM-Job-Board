@@ -216,6 +216,7 @@ iframe {
 .row .cell:nth-child(1) {
   width: 360px;
   padding-left: 40px;
+  text-transform: lowercase;
 }
 
 .row .cell:nth-child(2) {
