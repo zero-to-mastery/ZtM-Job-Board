@@ -1,0 +1,2 @@
+# Exclude metadata files on MacOS
+.DS_Store
