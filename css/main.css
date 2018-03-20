@@ -238,6 +238,30 @@ iframe {
   padding-right: 40px;
 }
 
+/*Full Name and Profile Avatar*/
+div.polaroid {
+  max-width: 80%;
+  height: auto;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  /*margin-bottom: 25px;*/
+}
+
+div.container {
+  text-align: center;
+  text-transform: capitalize;
+  /*padding: 10px 20px;*/
+}
+
+.row .cell .polaroid img {
+  width:100%
+  transition: all 1s;
+}
+
+.row .cell .polaroid:hover {
+  transform: scale(1.1);
+}
+
+
 
 .table, .row {
   width: 100% !important;
