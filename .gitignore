@@ -1,0 +1,3 @@
+# Exclude metadata files on MacOS
+.DS_Store
+register-form.html
