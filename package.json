@@ -2,7 +2,7 @@
   "name": "jobboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://luthermiller6042.github.io/jobboard/",
+  "homepage": "https://zero-to-mastery.github.io/ZtM-Job-Board",
   "dependencies": {
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
