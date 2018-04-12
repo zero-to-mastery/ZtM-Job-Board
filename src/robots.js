@@ -90,7 +90,7 @@ export const robots = [
     website: <div> <a href="https://github.com/googlr" target="_blank" rel="noopener noreferrer">github.com/googlr</a>
             <br></br>
 
-            <a href="https://www.linkedin.com/in/xiujia-guo-88697181/" target="_blank" rel="noopener noreferrer">James's LinkedIn</a>
+            <a href="https://www.linkedin.com/in/xiujia-guo-88697181/" target="_blank" rel="noopener noreferrer">James\'s LinkedIn</a>
             </div>,
 
     jobTitle:"Software Engineer/ Developer",
@@ -102,9 +102,9 @@ export const robots = [
     id:<img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`https://ktran031.github.io/kt_portfolio/images/khoi.jpg` }/>,
     name:"Khoi Tran",
 
-    website: <div> <a href="https://ktran031.github.io/kt_portfolio" target="_blank" rel="noopener noreferrer">Khoi Tran's Porfolio</a>
+    website: <div> <a href="https://ktran031.github.io/kt_portfolio" target="_blank" rel="noopener noreferrer">Khoi Tran\'s Porfolio</a>
     <br></br>
-    <a href="https://www.linkedin.com/in/khoi-tran-35564991/" target="_blank" rel="noopener noreferrer">Khoi Tran's LinkedIn</a>
+    <a href="https://www.linkedin.com/in/khoi-tran-35564991/" target="_blank" rel="noopener noreferrer">Khoi Tran\'s LinkedIn</a>
     </div>,
 
     jobTitle:"Front End Developer",
@@ -148,9 +148,9 @@ export const robots = [
     id: <img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`https://avatars1.githubusercontent.com/u/32341221?s=460&v=4` }/>,
     name:"Nabeel Siddiqui",
 
-    website: <div> <a href="https://github.com/nsiddiqui25" target="_blank" rel="noopener noreferrer">Nabeel's Portfolio</a>
+    website: <div> <a href="https://github.com/nsiddiqui25" target="_blank" rel="noopener noreferrer">Nabeel\'s Portfolio</a>
     <br></br>
-    <a href="https://www.linkedin.com/in/nsiddiqui25/" target="_blank" rel="noopener noreferrer">Nabeel's LinkedIn</a>
+    <a href="https://www.linkedin.com/in/nsiddiqui25/" target="_blank" rel="noopener noreferrer">Nabeel\'s LinkedIn</a>
     </div>,
     jobTitle: "Full-Stack JavaScript Developer",
 
@@ -204,9 +204,9 @@ location: "Louisiana USA (Willing to Relocate)",
 id:"",
 name:"James Chhun",
 
-wedsite: <div><a href="https://wingchhun.github.io/portfolio.github.io//" target="_blank" rel="noopener noreferrer">James's Portfolio Website</a>
+wedsite: <div><a href="https://wingchhun.github.io/portfolio.github.io//" target="_blank" rel="noopener noreferrer">James\'s Portfolio Website</a>
 <br></br>
-<a href="https://www.linkedin.com/in/james-chhun-16b1b5120/" target="_blank" rel="noopener noreferrer">James's LinkedIn</a>
+<a href="https://www.linkedin.com/in/james-chhun-16b1b5120/" target="_blank" rel="noopener noreferrer">James\'s LinkedIn</a>
 </div>,
 jobTitle:"Front-End Developer",
 
@@ -272,9 +272,9 @@ location: "Mumbai , India",
 id: <img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`https://murilomiranda.github.io/img/my_picture.jpg` }/>,
 name:"Murilo Miranda Nüßlein",
 
-website: <div><a href="https://murilomiranda.github.io/" target="_blank" rel="noopener noreferrer">Murilo's Portfolio</a>
+website: <div><a href="https://murilomiranda.github.io/" target="_blank" rel="noopener noreferrer">Murilo\'s Portfolio</a>
 <br></br>
-<a href="https://www.linkedin.com/in/murilo-miranda-nuesslein" target="_blank" rel="noopener noreferrer">Murilo's LinkedIn</a>
+<a href="https://www.linkedin.com/in/murilo-miranda-nuesslein" target="_blank" rel="noopener noreferrer">Murilo\'s LinkedIn</a>
 </div>,
 jobTitle: "Front-end Web Development",
 
@@ -285,9 +285,9 @@ location: "Berlin, Germany",
 id: <img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`https://avatars1.githubusercontent.com/u/2739361?s=460&v=4` }/>,
 name:"Christine Aqui",
 
-website: <div><a href="https://github.com/christine-aqui/" target="_blank" rel="noopener noreferrer">Christine's GitHub</a>
+website: <div><a href="https://github.com/christine-aqui/" target="_blank" rel="noopener noreferrer">Christine\'s GitHub</a>
 <br></br>
-<a href="https://ca.linkedin.com/in/christineaqui" target="_blank" rel="noopener noreferrer">Christine's Linkedin</a>
+<a href="https://ca.linkedin.com/in/christineaqui" target="_blank" rel="noopener noreferrer">Christine\'s Linkedin</a>
 </div>,
 jobTitle: "Full-Stack Javascript Developer",
 
@@ -580,9 +580,9 @@ location: "Totowa, NJ USA",
 id: <img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`https://media.licdn.com/dms/image/C5103AQEnRmgvAyGi8g/profile-displayphoto-shrink_800_800/0?e=1528552800&v=beta&t=OfUQbBBxFjOcvpZYflHT4LS5eBi3ImU1WKJZVG7zRug` }/>,
 name:"Priyanshu Tyagi",
 
-website:<div> <a href="https://github.com/priyanshugithub" target="_blank" rel="noopener noreferrer">Priyanshu's Portfolio</a>
+website:<div> <a href="https://github.com/priyanshugithub" target="_blank" rel="noopener noreferrer">Priyanshu\'s Portfolio</a>
 <br></br>
-<a href="https://www.linkedin.com/in/priyanshutyagi1996/" target="_blank" rel="noopener noreferrer">Priyanshu's LinkedIn</a>
+<a href="https://www.linkedin.com/in/priyanshutyagi1996/" target="_blank" rel="noopener noreferrer">Priyanshu\'s LinkedIn</a>
 </div>,
 jobTitle:"Full-Stack JavaScript Developer",
 
@@ -594,9 +594,9 @@ location: "New Delhi,India (Willing to Relocate)",
 id: <img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`https://avatars3.githubusercontent.com/u/33874571?s=460&v=4` }/>,
 name:"Amadi Lucky",
 
-website: <div><a href="https://github.com/w3bh4ck" target="_blank" rel="noopener noreferrer">Lucky's Portfolio</a>
+website: <div><a href="https://github.com/w3bh4ck" target="_blank" rel="noopener noreferrer">Lucky\'s Portfolio</a>
 <br></br>
-<a href="https://www.linkedin.com/in/lucky-amadi-40408b41/" target="_blank" rel="noopener noreferrer">Lucky's LinkedIn</a>
+<a href="https://www.linkedin.com/in/lucky-amadi-40408b41/" target="_blank" rel="noopener noreferrer">Lucky\'s LinkedIn</a>
 </div>,
 jobTitle:"Full-Stack Developer",
 
@@ -609,9 +609,9 @@ location: "Nigeria (Willing to Relocate & Remote)",
 id: <img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`https://pulamusic.github.io/images/JimHeadshot.jpg` }/>,
 name:"Jim Carroll",
 
-website: <div><a href="https://pulamusic.github.io/" target="_blank" rel="noopener noreferrer">Jim Carroll's Portfolio</a>
+website: <div><a href="https://pulamusic.github.io/" target="_blank" rel="noopener noreferrer">Jim Carroll\'s Portfolio</a>
 <br></br>
-<a href="https://www.linkedin.com/in/james-carroll-36001511a/" target="_blank" rel="noopener noreferrer">Jim's LinkedIn Page</a>
+<a href="https://www.linkedin.com/in/james-carroll-36001511a/" target="_blank" rel="noopener noreferrer">Jim\'s LinkedIn Page</a>
 </div>,
 jobTitle:"Academic &amp; Front-End Developer",
 
@@ -637,9 +637,9 @@ location: "Preston, UK",
 id: <img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`data:image/jpeg;base64,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` }/>,
 name: "Louise van den Berg",
 
-website: <div><a href="https://louisevdb.herokuapp.com" target="_blank" rel="noopener noreferrer">Louise's Portfolio</a>
+website: <div><a href="https://louisevdb.herokuapp.com" target="_blank" rel="noopener noreferrer">Louise\'s Portfolio</a>
 <br></br>
-<a href="https://www.linkedin.com/in/louise-van-den-berg-016179114/" target="_blank" rel="noopener noreferrer">Louise's LinkedIn Page</a>
+<a href="https://www.linkedin.com/in/louise-van-den-berg-016179114/" target="_blank" rel="noopener noreferrer">Louise\'s LinkedIn Page</a>
 </div>,
 jobTitle: "Fullstack Web Developer",
 
