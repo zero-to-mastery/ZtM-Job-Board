@@ -22,5 +22,6 @@ location: "I SUGGEST PUTTING THE COUNRTY YOUR FROM ALSO",},
 ```
 ### Please note! 
 - Profile pictures and/or images are NOW allowed.
+- If you do not have an image replace id line with id:"" .
 - Your pull request will only be accepted if it follows the example above. It <strong>cannot</strong> have anything else.
 Please submit a Pull Request for your row to be added to this list. If you are unsure how to do this, please check out *Contributing To Open Source* video in the course curiculum. 
