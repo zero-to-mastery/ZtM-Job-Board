@@ -1721,8 +1721,7 @@ export const robots = [
       <img
         className="br-100 pa1 ba b--black h4 w4"
         alt="robots"
-        src={`YOUR IMG LINK HERE `}
-      />
+        src={`YOUR IMG LINK HERE `}/>
     ),
 
     name: "Petar Dyakov",
@@ -1746,5 +1745,19 @@ export const robots = [
     jobTitle: "Web Developer",
 
     location: "Sofia, Bulgaria"
+  },
+  {
+    id: <img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`https://avatars2.githubusercontent.com/u/29685827?s=460&v=4`}/>,
+
+    name: "Wolfgang Kreminger",
+
+    website: <div> <a href="https://github.com/r4pt0s" target="_blank" rel="noopener noreferrer">My GitHub repository</a>
+      <br></br>
+    <a href="linkedin.com/in/wolfgang-kreminger-43386b151" target="_blank" rel="noopener noreferrer">Look at my references on LinkedIn</a>
+    </div>,
+
+    jobTitle: "Full Stack Developer",
+
+    location: "Austria, Burgenland"
   }
 ];
