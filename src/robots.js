@@ -307,11 +307,8 @@ export const robots = [
       </div>
     ),
 
-    jobTitle: (
-      <div>
-        {" "}Fullstack Developer <br /> Data Scientist(BigData, ML, NLP){" "}
-      </div>
-    ),
+    jobTitle:
+        "Fullstack Developer \n Data Scientist(BigData, ML, NLP)",
 
     location: "Pune, INDIA"
   },
@@ -460,7 +457,7 @@ export const robots = [
     id: "",
     name: "James Chhun",
 
-    wedsite: (
+    website: (
       <div>
         <a
           href="https://wingchhun.github.io/portfolio.github.io//"
@@ -748,7 +745,7 @@ export const robots = [
     id: "",
     name: "Oladele Olorunsola",
 
-    wesite: (
+    website: (
       <div>
         {" "}<a
           href="https://github.com/deluxscript"
@@ -890,11 +887,7 @@ export const robots = [
         </a>
       </div>
     ),
-    jobTitle: (
-      <div>
-        Web Developer<br /> (NodeJs, PHP and Magento)
-      </div>
-    ),
+    jobTitle: "Web Developer\n(NodeJs, PHP and Magento)",
 
     location: "Cape Town, South Africa"
   },
@@ -1530,7 +1523,7 @@ export const robots = [
         </a>
       </div>
     ),
-    jobTilte: "Full Stack Developer",
+    jobTitle: "Full Stack Developer",
 
     location: "Durgapur,India"
   },
