@@ -1752,5 +1752,19 @@ export const robots = [
     jobTitle: "Full Stack Developer",
 
     location: "Austria, Burgenland"
+  },
+  {
+  id:<img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fmedia-exp2.licdn.com%2Fmpr%2Fmpr%2Fshrinknp_200_200%2FAAIA_wDGAAAAAQAAAAAAAA2eAAAAJDBlNjVlYWEzLTlhNDUtNDZkZS1iN2ZhLWIwMjEwYThiMmUzMg.jpg&imgrefurl=https%3A%2F%2Fin.linkedin.com%2Fin%2Fdarryl-ferdinands-43b89671&docid=qpyLR1KLBcN3kM&tbnid=aPGNGNvpji-xLM%3A&vet=10ahUKEwiV4anwyMPaAhWBNI8KHWVTCdsQMwg1KAAwAA..i&w=200&h=200&itg=1&bih=626&biw=1366&q=Darryl%20Ferdinands&ved=0ahUKEwiV4anwyMPaAhWBNI8KHWVTCdsQMwg1KAAwAA&iact=mrc&uact=8`}/>,
+
+    name: "Darryl Steve Ferdinands",
+
+    website: <div> <a href="https://github.com/darrylferdinands" target="_blank" rel="noopener noreferrer">My GitHub Account</a>
+      <br></br>
+    <a href="https://www.linkedin.com/in/darryl-ferdinands-43b89671/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+    <a href="https://darrylferdinands.wixsite.com/education" target="_blank" rel="noopener noreferrer">My Portfolio</a>
+    </div>,
+
+    jobTitle: "Full Stack Developer",
+    location: "New Delhi, India"
   }
 ];
