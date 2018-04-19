@@ -1779,5 +1779,49 @@ export const robots = [
   
       jobTitle: "Full Stack Developer",
       location: "Lagos, Nigeria"
-    }
+  },
+  {
+    id: (
+      <img
+        className="br-100 pa1 ba b--black h4 w4"
+        alt="robots"
+        src={`https://avatars3.githubusercontent.com/u/37252418?v=4`}
+      />
+    ),
+
+    name: "Jacinto Wong",
+
+    website: (
+      <div>
+        {" "}
+        <a
+          href="https://github.com/JacintoDesign"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+        <br />        
+        <a
+          href="https://jacinto.design"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Website
+        </a>
+        <br />
+        <a
+          href="https://www.linkedin.com/in/jacintowong/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Linkedin
+        </a>
+      </div>
+    ),
+
+    jobTitle: "Full-Stack Developer",
+
+    location: "Toronto, Canada"
+  },
 ];
