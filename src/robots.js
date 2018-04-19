@@ -1766,5 +1766,18 @@ export const robots = [
 
     jobTitle: "Full Stack Developer",
     location: "New Delhi, India"
-  }
+  },
+  {
+    id:"",
+      name: "Amaechi Chuks",
+  
+      website: <div> <a href="https://github.com/amaechi-chuks" target="_blank" rel="noopener noreferrer">My GitHub Account</a>
+        <br></br>
+      <a href="https://www.codewars.com/users/amaechi-chuks" target="_blank" rel="noopener noreferrer">CodeWar Profile</a>
+      <a href="https://amaechi-chuks.github.io/part/" target="_blank" rel="noopener noreferrer">My Portfolio</a>
+      </div>,
+  
+      jobTitle: "Full Stack Developer",
+      location: "Lagos, Nigeria"
+    }
 ];
