@@ -1766,5 +1766,23 @@ export const robots = [
 
     jobTitle: "Full Stack Developer",
     location: "New Delhi, India"
-  }
+  },
+  {
+//  id: <img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`YOUR IMG LINK HERE ` }/>,
+  id:"",
+  name: "Thomas Dreyer",
+
+  website: <div> <a href="https://www.fsdev.ml" target="_blank" rel="noopener noreferrer">Portfolio Site</a>
+    <br></br>
+  <a href="https://www.linkedin.com/in/thomas-dreyer" target="_blank" rel="noopener noreferrer">Linkedin</a>
+  </div>,
+
+  jobTitle: "Full Stack Developer",
+
+  location: "Johannesburg, South Africa"},
+
+
+
+
+
 ];
