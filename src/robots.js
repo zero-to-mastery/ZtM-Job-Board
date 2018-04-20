@@ -1770,13 +1770,13 @@ export const robots = [
   {
     id:"",
       name: "Amaechi Chuks",
-  
+
       website: <div> <a href="https://github.com/amaechi-chuks" target="_blank" rel="noopener noreferrer">My GitHub Account</a>
         <br></br>
       <a href="https://www.codewars.com/users/amaechi-chuks" target="_blank" rel="noopener noreferrer">CodeWar Profile</a>
       <a href="https://amaechi-chuks.github.io/part/" target="_blank" rel="noopener noreferrer">My Portfolio</a>
       </div>,
-  
+
       jobTitle: "Full Stack Developer",
       location: "Lagos, Nigeria"
   },
@@ -1801,7 +1801,7 @@ export const robots = [
         >
           GitHub
         </a>
-        <br />        
+        <br />
         <a
           href="https://jacinto.design"
           target="_blank"
@@ -1824,4 +1824,18 @@ export const robots = [
 
     location: "Toronto, Canada"
   },
+  {
+  id: <img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`https://www.fsdev.ml/myself.jpg` }/>,
+
+  name: "Thomas Dreyer",
+
+  website: <div> <a href="https://www.fsdev.ml" target="_blank" rel="noopener noreferrer">Portfolio Site</a>
+  <a href="https://github.com/thomasdreyer" target="_blank" rel="noopener noreferrer">Github</a>
+    <br></br>
+  <a href="https://www.linkedin.com/in/thomas-dreyer" target="_blank" rel="noopener noreferrer">Linkedin</a>
+  </div>,
+
+  jobTitle: "Full Stack Developer",
+
+  location: "Johannesburg, South Africa"}
 ];
