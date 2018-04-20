@@ -1768,6 +1768,7 @@ export const robots = [
     location: "New Delhi, India"
   },
   {
+<<<<<<< HEAD
     id:"",
       name: "Amaechi Chuks",
 
