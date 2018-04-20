@@ -1772,7 +1772,7 @@ export const robots = [
 
   name: "Thomas Dreyer",
 
-   website:<div> <a href="https://github.com/thomasdreyer" target="_blank" rel="noopener noreferrer">My GitHub</a>
+   website:<div> <a href="https://github.com/thomasdreyer" target="_blank" rel="noopener noreferrer">My GitHub Profile</a>
    <a href="https://www.fsdev.ml" target="_blank" rel="noopener noreferrer">My Portfolio </a>
     <br></br>
   <a href="https://www.linkedin.com/in/thomas-dreyer" target="_blank" rel="noopener noreferrer">Linkedin</a>
