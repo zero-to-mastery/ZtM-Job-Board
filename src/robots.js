@@ -1768,18 +1768,21 @@ export const robots = [
     location: "New Delhi, India"
   },
   {
-//  id: <img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`YOUR IMG LINK HERE ` }/>,
-  id:"",
+ id: <img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`https://www.fsdev.ml/myself.jpg` }/>,
+
   name: "Thomas Dreyer",
 
-  website: <div> <a href="https://www.fsdev.ml" target="_blank" rel="noopener noreferrer">Portfolio Site</a>
+   website:<div> <a href="https://github.com/thomasdreyer" target="_blank" rel="noopener noreferrer">My GitHub</a>
+   <a href="https://www.fsdev.ml" target="_blank" rel="noopener noreferrer">My Portfolio </a>
     <br></br>
   <a href="https://www.linkedin.com/in/thomas-dreyer" target="_blank" rel="noopener noreferrer">Linkedin</a>
   </div>,
 
   jobTitle: "Full Stack Developer",
 
-  location: "Johannesburg, South Africa"},
+  location: "Johannesburg, South Africa"
+
+},
 
 
 
