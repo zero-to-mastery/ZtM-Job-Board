@@ -6,17 +6,17 @@ A place for developers to show recruiters they are available for hire. Feel free
 To add your name to the list, simply open src folder then `robots.js` file and add your own row at the bottom like the below example:
 ```html
 {
-  id: [PREVIOUS_PLUS_ONE]
+  id: [PREVIOUS_PLUS_ONE],
   name: "[YOUR FULL NAME]",
-  img: "[YOUR_IMG_URL]"
+  img: "[YOUR_IMG_URL]",
   links: {
     website: "[YOUR_WEBSITE_URL]",
     linkedin: "[YOUR_LINKEDIN_URL]",
     github: "[YOUR_GITHUB_URL]"
-  }
+  },
   jobTitle: "Web Developer",
   location: {
-    city: "[YOUR CITY]"
+    city: "[YOUR CITY]",
     state: "[YOUR_STATE_OR_PROVINCE]",
     country: "[YOUR_COUNTRY]"
   }
@@ -43,3 +43,7 @@ deprecated_location: "I ALSO SUGGEST PUTTING THE COUNTRY YOU'RE FROM",
 - If you do not have an image replace id line with id:"" .
 - Your pull request will only be accepted if it follows the example above. It <strong>cannot</strong> have anything else.
 Please submit a Pull Request for your row to be added to this list. If you are unsure how to do this, please check out *Contributing To Open Source* video in the course curriculum. 
+
+### Resources
+#### Icons
+All social media icons have been sourced from [iconfinder.com](https://www.iconfinder.com/iconsets/socialcones) 
