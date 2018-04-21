@@ -12,17 +12,22 @@ To add your name to the list, simply open src folder then `robots.js` file and a
   links: {
     website: "[YOUR_WEBSITE_URL]",
     linkedin: "[YOUR_LINKEDIN_URL]",
+    github: "[YOUR_GITHUB_URL]"
   }
-
-jobTitle: "Web Developer",
-
-location: {
-  city: "[YOUR CITY]"
-  state: "[YOUR_STATE_OR_PROVINCE]",
-  country: "[YOUR_COUNTRY]"
+  jobTitle: "Web Developer",
+  location: {
+    city: "[YOUR CITY]"
+    state: "[YOUR_STATE_OR_PROVINCE]",
+    country: "[YOUR_COUNTRY]"
+  }
 }
 
 
+```
+
+#### Deprecated keys
+Starting in version 0.2.0, the Job Board is using a better structure for handling the keys and minimizing HTML included in the developers list. For backward compatibility, previous id, website and location have been renamed respectively to deprecated_id, deprecated_website and deprecated_location as shown below: 
+```html
 // DEPRECATED
   deprecated_id: <img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`YOUR IMG LINK HERE ` }/>,
   deprecated_website: <div> <a href="YOUR LINKEDIN OR PORTFOLIO" target="_blank" rel="noopener noreferrer">Portfolio Site</a>
@@ -31,8 +36,8 @@ location: {
 </div>,
 deprecated_location: "I ALSO SUGGEST PUTTING THE COUNTRY YOU'RE FROM",
 },
-
 ```
+
 ### Please note! 
 - Profile pictures and/or images are NOW allowed.
 - If you do not have an image replace id line with id:"" .
