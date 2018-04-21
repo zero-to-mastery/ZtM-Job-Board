@@ -6,18 +6,25 @@ A place for developers to show recruiters they are available for hire. Feel free
 To add your name to the list, simply open src folder then `robots.js` file and add your own row at the bottom like the below example:
 ```html
 {
-id: <img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`YOUR IMG LINK HERE ` }/>,
-
-name: "YOUR FULL NAME",
-
-website: <div> <a href="YOUR LINKEDIN OR PORTFOLIO" target="_blank" rel="noopener noreferrer">Portfolio Site</a>
+  id: <img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`YOUR IMG LINK HERE ` }/>,
+  name: "[YOUR FULL NAME]",
+  external: {
+    website: "[YOUR_WEBSITE_URL]",
+    linkedin: "[YOUR_LINKEDIN_URL]",
+  }
+  deprecated_website: <div> <a href="YOUR LINKEDIN OR PORTFOLIO" target="_blank" rel="noopener noreferrer">Portfolio Site</a>
   <br></br>
 <a href="YOUR LINKEDIN OR PORTFOLIO" target="_blank" rel="noopener noreferrer">Linkedin</a>
 </div>,
 
 jobTitle: "Web Developer",
 
-location: "I ALSO SUGGEST PUTTING THE COUNTRY YOU'RE FROM",},
+location: {
+  city: "[YOUR CITY]"
+  state: "[YOUR_STATE_OR_PROVINCE]",
+  country: "[YOUR_COUNTRY]"
+}
+deprecated_location: "I ALSO SUGGEST PUTTING THE COUNTRY YOU'RE FROM",},
 
 ```
 ### Please note! 
