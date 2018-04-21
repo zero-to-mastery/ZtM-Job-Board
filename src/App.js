@@ -13,8 +13,8 @@ class App extends Component {
 			searchfield: "",
             category: "name", // version 0.2.0 changed from location to category to allow compatibility between old entries and new ones
 			}
-		}	
-	
+		}
+
 	onSearchChange = (event) => {
 		this.setState({searchfield:event.target.value});
 	}
@@ -23,16 +23,27 @@ class App extends Component {
 	}
 	whichCategory = (robot) => {
 		const category = this.state.category;
-        if (category === 'deprecated_location' && robot.deprecated_location != undefined) {
-            return robot.deprecated_location.toLowerCase();
+        if (category === 'location') {
+if('location' in robot && robot.location != undefined){
+	return robot.location.city.toLowerCase();
+}
+ else if(robot.deprecated_location != undefined){
+return robot.deprecated_location.toLowerCase();
+ }
+
+
 		}
-		else if(category === 'name'){
+
+	else	 if(category === 'name'){
 			return robot.name.toLowerCase();
 		}
 		else if(category === 'job title'){
 			return robot.jobTitle.toLowerCase();
-		}	
-	} 
+		}
+		// else if(category === 'deprecated_location'){
+		// 	    return robot.deprecated_location.toLowerCase();
+		// }
+	}
 	render() {
 		const filteredRobots = this.state.robots.filter(robots => {
 			const category = this.whichCategory(robots)
