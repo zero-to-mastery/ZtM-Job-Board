@@ -24,10 +24,20 @@ class App extends Component {
 	whichCategory = (robot) => {
 		const category = this.state.category;
         if (category === 'location') {
-if('location' in robot && robot.location != undefined){
+if('location' in robot && robot.location !== undefined){
+let queryw =	this.state.searchfield.toLowerCase();
+
+if( robot.location.country.toLowerCase() === queryw){
+	return robot.location.country.toLowerCase();
+}
+else if( robot.location.city.toLowerCase() === queryw){
 	return robot.location.city.toLowerCase();
 }
- else if(robot.deprecated_location != undefined){
+else if( robot.location.state.toLowerCase() === queryw){
+	return robot.location.state.toLowerCase();
+}
+}
+ else if('deprecated_location' in robot && robot.deprecated_location !== undefined){
 return robot.deprecated_location.toLowerCase();
  }
 
@@ -47,7 +57,7 @@ return robot.deprecated_location.toLowerCase();
 	render() {
 		const filteredRobots = this.state.robots.filter(robots => {
 			const category = this.whichCategory(robots)
-            if (category != undefined) {
+            if (category !== undefined) {
                 return category.includes(this.state.searchfield.toLowerCase());
             }
 		});
