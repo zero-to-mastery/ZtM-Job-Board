@@ -11,7 +11,7 @@ class App extends Component {
 		this.state = {
 			robots: robots,
 			searchfield: "",
-			category:"location",
+            category: "name", // version 0.2.0 changed from location to category to allow compatibility between old entries and new ones
 			}
 		}	
 	
@@ -23,8 +23,8 @@ class App extends Component {
 	}
 	whichCategory = (robot) => {
 		const category = this.state.category;
-		if(category === 'location'){
-			return robot.location.toLowerCase();
+        if (category === 'deprecated_location' && robot.deprecated_location != undefined) {
+            return robot.deprecated_location.toLowerCase();
 		}
 		else if(category === 'name'){
 			return robot.name.toLowerCase();
@@ -36,7 +36,9 @@ class App extends Component {
 	render() {
 		const filteredRobots = this.state.robots.filter(robots => {
 			const category = this.whichCategory(robots)
-			return category.includes(this.state.searchfield.toLowerCase())
+            if (category != undefined) {
+                return category.includes(this.state.searchfield.toLowerCase());
+            }
 		});
 		return (
 			<div className='tc'>
