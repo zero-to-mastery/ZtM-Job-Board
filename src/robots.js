@@ -1862,5 +1862,17 @@ export const robots = [
             state: "Yukon",
             country: "Canada"
         }
+    },
+    {
+      deprecated_id: <img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`https://avatars1.githubusercontent.com/u/16747938?s=460&v=4` }/>,
+      name: "Ivan Soto",
+      deprecated_website:
+        <div>
+          <a href="https://github.com/Panconpeenga" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+            <br></br>
+          <a href="https://www.linkedin.com/in/ivan-soto-851297127/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+        </div>,
+      jobTitle: "Full-Stack Webdeveloper",
+      deprecated_location: "Miami, FL USA"
     }
 ];
