@@ -1874,5 +1874,18 @@ export const robots = [
         </div>,
       jobTitle: "Full-Stack Webdeveloper",
       deprecated_location: "Miami, FL USA"
+    },
+    {
+      deprecated_id: <img className="br-100 pa1 ba b--black h4 w4" alt="robots" src={`https://avatars1.githubusercontent.com/u/19818937?s=460&v=4`} />,
+      name: "Enea Xharja",
+      deprecated_website: (
+        <div>
+          <a href="http://eneaxharja.com" target="_blank" rel="noopener noreferrer">Personal Website</a> <br/>
+          <a href="https://github.com/eneax" target="_blank" rel="noopener noreferrer">Github</a> <br/>
+          <a href="https://www.linkedin.com/in/eneax" target="_blank" rel="noopener noreferrer">Linkedin</a>
+        </div>
+      ),
+      jobTitle: "Web Developer",
+      deprecated_location: "Chiusi, Tuscany, Italy"
     }
 ];
