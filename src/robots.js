@@ -1864,6 +1864,22 @@ export const robots = [
         }
     },
     {
+        id: 58,
+        name: "Miha Kloar",
+        img: "https://scontent.flju1-1.fna.fbcdn.net/v/t1.0-9/12994372_985634201485849_1777253085278718502_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeFe4yL4O9M7ld-IdPcjskkAzI0n9V1nT7B-p3AN5-dytXDU5RVzaWCvdupCDcqyKvT7hAYxPvukieWI9WjTa2lMoh4ck4-geycYL9SEbVifkw&oh=a05d712f5036d66b73c1afa0c01a9aa4&oe=5B964B88",
+        links: {
+            website: "https://mkloar.github.io/",
+            linkedin: "https://www.linkedin.com/in/mkloar/",
+            github: "https://github.com/mkloar"
+        },
+        jobTitle: "Student",
+        location: {
+            city: "Celje",
+            state: "Celje",
+            country: "Slovenia"
+        }
+    }
+    {
       deprecated_id: <img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`https://avatars1.githubusercontent.com/u/16747938?s=460&v=4` }/>,
       name: "Ivan Soto",
       deprecated_website:
