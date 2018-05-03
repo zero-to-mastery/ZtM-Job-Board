@@ -1247,6 +1247,50 @@ export const robots = [
             <img
                 className="br-100 pa1 ba b--black h4 w4"
                 alt="robots"
+                src={`https://scontent.flju1-1.fna.fbcdn.net/v/t1.0-9/12994372_985634201485849_1777253085278718502_n.jpg?_nc_cat=0&oh=8dae54f01a3d44f5ce4f20189f6f5352&oe=5B964B88`}
+            />
+        ),
+        name: "Miha Kloar",
+
+        deprecated_website: (
+            <div>
+                {" "}<a
+                href="https://mkloar.github.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                My Portfolio
+            </a>
+                <br/>
+                <a
+                    href="https://github.com/mkloar"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Github
+                </a>
+                <br/>
+                <a
+                    href="https://www.linkedin.com/in/mkloar"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn
+                </a>
+            </div>
+        ),
+
+        jobTitle: "Front-end Web Developer",
+
+        deprecated_location: "Celje,Slovenia"
+    },
+
+    
+    {
+        deprecated_id: (
+            <img
+                className="br-100 pa1 ba b--black h4 w4"
+                alt="robots"
                 src={`https://media.licdn.com/dms/image/C4D03AQE-1w0mjbpHeA/profile-displayphoto-shrink_800_800/0?e=1528552800&v=beta&t=AQa2nhly_-ikre7ozynBY2YxWEIvo55T1a2Lj2aWB8g`}
             />
         ),
@@ -1878,7 +1922,7 @@ export const robots = [
             state: "Celje",
             country: "Slovenia"
         }
-    }
+    },
     {
       deprecated_id: <img className="br-100 pa1 ba b--black h4 w4" alt='robots' src={`https://avatars1.githubusercontent.com/u/16747938?s=460&v=4` }/>,
       name: "Ivan Soto",
