@@ -9,7 +9,7 @@ const Card = ({key, user}) => {
 
 
     // Using the new id var to filter the new developer submissions
-    if (id != undefined) {
+    if (id !== undefined) {
         return (
             <div id='{id}' className={cardClassNames}>
                 <img className={imgClassNames} alt={`${name}'s profile`}
@@ -18,11 +18,11 @@ const Card = ({key, user}) => {
                     <h2>{name}</h2>
                     <div>
                         <a href={links.website} title="Website/Portfolio"><img className={socialClassNames}
-                                                                               src="assets/images/website.svg"/></a>
+                                                                               src="assets/images/website.svg" alt='hompage icon'/></a>
                         <a href={links.github} title="Github page"><img className={socialClassNames}
-                                                                        src="assets/images/github.svg"/></a>
+                                                                        src="assets/images/github.svg" alt='github icon'/></a>
                         <a href={links.linkedin} title="LinkedIn page"><img className={socialClassNames}
-                                                                            src="assets/images/linkedin.svg"/></a>
+                                                                            src="assets/images/linkedin.svg" alt='linkedin icon'/></a>
                     </div>
                     <div>{jobTitle}</div>
                     <p>{location.city}, {location.state}, {location.country}</p>

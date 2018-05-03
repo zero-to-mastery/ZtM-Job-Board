@@ -4,3 +4,30 @@ body {
   font-family: sans-serif;
   background: linear-gradient(to right, rgb(66, 66, 238), rgb(128, 219, 238));
 }
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+	background: #ddd;
+}
+
+main {
+	margin-top: 80px;
+}
+
+#title {
+	margin: 20px;
+	float: left;
+}
+
+.SearchCategory {
+    float: right;
+    margin: 9px;
+}
+
+#searchbox {
+	float: right;
+	margin: 4px;
+}
