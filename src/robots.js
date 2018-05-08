@@ -1947,5 +1947,21 @@ export const robots = [
       ),
       jobTitle: "Web Developer",
       deprecated_location: "Chiusi, Tuscany, Italy"
-    }
+    },
+    {
+      id: [PREVIOUS_PLUS_ONE],
+      name: "[Tatyana Kasyanenko]",
+      img: "[http://www.web-max-design.com/wp-content/uploads/2018/01/photographier-1.jpg]",
+      links: {
+        website: "[http://www.web-max-design.com/]",
+        linkedin: "[https://www.linkedin.com/in/tatyana-kasyanenko-a0056a52/]",
+        github: "[https://github.com/TatyanaKasyanenko]"
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "[Haifa]",
+        state: "[Israel]",
+        country: "[Israel]"
+      }
+    }    
 ];
