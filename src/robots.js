@@ -1963,5 +1963,22 @@ export const robots = [
         state: "[Israel]",
         country: "[Israel]"
       }
-    }    
+    },
+    {
+        deprecated_id: 
+            <img className="br-100 pa1 ba b--black h4 w4" 
+            alt='robots' 
+            src={`https://avatars3.githubusercontent.com/u/24844219?s=400&u=bf1b5689c649c8009afabdb0915998b0c4cfedd0&v=4'}/>,
+        name: "Justin Grabenbauer",
+        deprecated_website: 
+            <div> 
+                <a href="https://github.com/Jgrabenbauer" 
+                target="_blank" rel="noopener noreferrer">GitHub</a>
+                <br></br>
+                <a href="https://www.linkedin.com/in/justingrabenbauer/" 
+                target="_blank" rel="noopener noreferrer">Linkedin</a>
+            </div>,
+        jobTitle: "Full-Stack Developer",
+        deprecated_location: "Quito, Ecuador",
+    },   
 ];
