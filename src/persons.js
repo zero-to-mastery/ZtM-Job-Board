@@ -1070,4 +1070,38 @@ export const persons = [
     }
   },
 
+  {
+    id: 64,
+    name: "James Nutter",
+    img: "",
+    links: {
+        website: "https://codepen.io/chaznut/#",
+        linkedin: "",
+        github: "https://github.com/chaznut"
+    },
+    jobTitle: "Full-Stack Developer",
+    location: {
+        city: "Washington DC",
+        state: "Baltimore",
+        country: "USA"
+    }
+  },
+
+  {
+    id: 65,
+    name: "Mauricio Spesot",
+    img: "https://k62.kn3.net/A/7/D/A/0/7/39C.jpg",
+    links: {
+        website: "https://codepen.io/mauriciospesot/",
+        linkedin: "https://www.linkedin.com/in/mauriciospesot/",
+        github: "https://github.com/mauriciospesot"
+    },
+    jobTitle: "Web Developer, C++ Developer, Computer Engineering student",
+    location: {
+        city: "Santa Fe",
+        state: "",
+        country: "Argentina"
+    }
+  },
+
 ];
