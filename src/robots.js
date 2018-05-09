@@ -1980,7 +1980,35 @@ export const robots = [
             </div>,
         jobTitle: "Full-Stack Developer",
         deprecated_location: "Quito, Ecuador",
-    },   
+    },
+    {
+        deprecated_id: "",
+        name: "James Nutter",
+
+        deprecated_website: (
+            <div>
+                {" "}<a
+                href="https://github.com/chaznut"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Github
+            </a>
+                <br/>
+                <a
+                    href="https://codepen.io/chaznut/#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Codepen
+                </a>
+            </div>
+        ),
+
+        jobTitle: "Full-Stack Developer",
+
+        deprecated_location: "Washington DC/Baltimore USA"
+    },
 ];
 
 {
