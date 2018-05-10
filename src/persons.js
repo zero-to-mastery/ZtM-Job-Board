@@ -1119,4 +1119,20 @@ export const persons = [
       country: "USA"
     }
   },
+  {
+    id: 67,
+    name: "Filipe Falcão",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/filipe-falcão-607924b0/",
+      github: "https://github.com/filipe-falcao"
+    },
+    jobTitle: "Front-End Developer",
+    location: {
+      city: "Braga",
+      state: "",
+      country: "Portugal"
+    }
+  },
 ];
