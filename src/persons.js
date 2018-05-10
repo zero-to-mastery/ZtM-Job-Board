@@ -1103,5 +1103,20 @@ export const persons = [
         country: "Argentina"
     }
   },
-
+  {
+    id: 66,
+    name: "Felix Markman",
+    img: "https://media.licdn.com/dms/image/C4D03AQFxk-MEoG4yHw/profile-displayphoto-shrink_200_200/0?e=1531353600&v=beta&t=7wmGTVn4ugv8QSqf7FbXE8iTcNM_A8wBaZuhsuUDYPE",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/felixmarkman/",
+      github: "https://github.com/COBETCKNN17"
+    },
+    jobTitle: "CPQ Professional",
+    location: {
+      city: "Evanston",
+      state: "IL",
+      country: "USA"
+    }
+  },
 ];
