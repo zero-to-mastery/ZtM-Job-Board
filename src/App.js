@@ -28,11 +28,14 @@ class App extends Component {
       const location = `${person.location.city} ${person.location.state} ${person.location.country}`;
       return location.toLowerCase();
     }
-    else if(category === 'name') {
+    else if (category === 'name') {
       return person.name.toLowerCase();
     }
-    else if(category === 'job title') {
+    else if (category === 'job title') {
       return person.jobTitle.toLowerCase();
+    }
+    else {
+      return null;
     }
   }
   render() {
@@ -40,6 +43,9 @@ class App extends Component {
       const category = this.whichCategory(persons);
       if (category !== undefined) {
         return category.includes(this.state.searchfield.toLowerCase());
+      }
+      else {
+        return null;
       }
     });
     return (

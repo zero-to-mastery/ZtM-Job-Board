@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({key, user}) => {
+const Card = ({user}) => {
 
   let {id, img, name, jobTitle, location, links} = user;
 
