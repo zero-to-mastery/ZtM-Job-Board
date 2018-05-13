@@ -229,6 +229,10 @@ header .SearchCategory {
   transform: translateY(-50%);
 }
 
+header #title svg {
+  fill: #FFFFFF;
+}
+
 header .SearchCategory .radio-box input {
   cursor: pointer;
   visibility: hidden;
