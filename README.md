@@ -1,4 +1,4 @@
-# ZtM-Job-Board
+# ZtM-Job-Board &emsp; [![TravisCI Build Status](https://travis-ci.org/zero-to-mastery/ZtM-Job-Board.svg?branch=master)](https://travis-ci.org/zero-to-mastery/ZtM-Job-Board)
 A place for developers to show recruiters that they are available for hire. Feel free to contribute and improve this in any way you see fit.
 
 ### How to add your name to the list
