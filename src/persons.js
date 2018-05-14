@@ -1159,7 +1159,7 @@ export const persons = [
         name: "Zachary Fons",
         img: "https://i.imgur.com/a0tBLzl.jpg",
         links: {
-            website: "zacharyfons.me",
+            website: "http://zacharyfons.me",
             linkedin: "https://www.linkedin.com/in/zacharyfons/",
             github: "https://www.github.com/nofcaz/"
         },
