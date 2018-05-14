@@ -1154,5 +1154,21 @@ export const persons = [
       country: "USA"
     }
   },
+    {
+        id: 69,
+        name: "Zachary Fons",
+        img: "https://i.imgur.com/a0tBLzl.jpg",
+        links: {
+            website: "zacharyfons.me",
+            linkedin: "https://www.linkedin.com/in/zacharyfons/",
+            github: "https://www.github.com/nofcaz/"
+        },
+        jobTitle: "Front-End Web Developer/Software Engineer/UI Developer",
+        location: {
+            city: "Simsbury",
+            state: "Connecticut",
+            country: "USA"
+        }
+   },
 
 ];
