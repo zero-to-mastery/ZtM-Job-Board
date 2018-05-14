@@ -1138,4 +1138,21 @@ export const persons = [
     }
   },
 
+  {
+    id: 68,
+    name: "Puja Gaharwar",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/puja-gaharwar-1635711a/",
+      github: "https://github.com/pgakk"
+    },
+    jobTitle: "Web Developer, Front-End Developer",
+    location: {
+      city: "Atlanta",
+      state: "GA",
+      country: "USA"
+    }
+  },
+
 ];
