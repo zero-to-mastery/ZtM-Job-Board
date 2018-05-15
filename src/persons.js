@@ -1176,7 +1176,7 @@ export const persons = [
     img: "https://imgur.com/a/9UrnbzU",
     links: {
       website: "www.oliverdelaviadev.com",
-      linkedin: "https://www.linkedin.com/in/odelavia/",
+      linkedin: "https://www.linkedin.com/in/oliver-de-la-via-9bb2b39a/",
       github: "https://www.github.com/odelavia/"
     },
     jobTitle: "Front-End Developer/Software Engineer/UI Developer",
