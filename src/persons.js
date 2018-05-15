@@ -1170,5 +1170,21 @@ export const persons = [
             country: "USA"
         }
    },
+   {
+    id: 70,
+    name: "Oliver De La Via",
+    img: "https://imgur.com/a/9UrnbzU",
+    links: {
+      website: "www.oliverdelaviadev.com",
+      linkedin: "https://www.linkedin.com/in/odelavia/",
+      github: "https://www.github.com/odelavia/"
+    },
+    jobTitle: "Front-End Developer/Software Engineer/UI Developer",
+    location: {
+      city: "Arlington (DC Area)",
+      state: "Virginia",
+      country: "USA"
+    }
+  },
 
 ];
