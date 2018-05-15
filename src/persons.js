@@ -1204,4 +1204,20 @@ export const persons = [
     }
 },
 
+  {
+    id: [72],
+    name: "[Saifeddin Matoui]",
+    img: "[https://k62.kn3.net/E/9/6/5/B/0/2D9.png]",
+    links: {
+      website: "[saifeddin1.github.io]",
+      linkedin: "[https://www.linkedin.com/in/saifeddin-matoui-b34a58148/]",
+      github: "[http://https://github.com/saifeddin1]"
+    },
+    jobTitle: "[Full stack web developer]",
+    location: {
+      city: "[Zraoua Nouvelle]",
+      state: "[Gabès]",
+      country: "[Tunisia]"
+    }
+  },
 ];
