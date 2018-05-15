@@ -1175,7 +1175,7 @@ export const persons = [
     name: "Oliver De La Via",
     img: "https://i.imgur.com/B6GNZjt.jpg",
     links: {
-      website: "www.oliverdelaviadev.com",
+      website: "http://www.oliverdelaviadev.com",
       linkedin: "https://www.linkedin.com/in/oliver-de-la-via-9bb2b39a/",
       github: "https://www.github.com/odelavia/"
     },
