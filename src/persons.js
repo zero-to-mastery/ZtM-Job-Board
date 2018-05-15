@@ -155,10 +155,10 @@ export const persons = [
 
   {
     id: 10,
-    name: "Nabeel Sdiqui",
+    name: "Nabeel Siddiqui",
     img: "https://avatars1.githubusercontent.com/u/32341221?s=460&v=4",
     links: {
-        website: "",
+        website: "https://nsiddiqui25.github.io/",
         linkedin: "https://www.linkedin.com/in/nsdiqui25/",
         github: "https://github.com/nsdiqui25"
     },
