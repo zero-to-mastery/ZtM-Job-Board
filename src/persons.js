@@ -1170,5 +1170,21 @@ export const persons = [
             country: "USA"
         }
    },
+   {
+    id: 70,
+    name: "Alex Nielsen",
+    img: "http://alexnielsen.com/wp-content/uploads/2018/02/me-bw-cropped-200x200.jpg",
+    links: {
+        website: "http://alexnielsen.com",
+        linkedin: "https://www.linkedin.com/in/alex-nielsen-9a93b113/",
+        github: "https://github.com/bushbass"
+    },
+    jobTitle: "Full Stack JavaScript",
+    location: {
+        city: "Sparta (New York City area)",
+        state: "New Jersey",
+        country: "USA"
+    }
+},
 
 ];
