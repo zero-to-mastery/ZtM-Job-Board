@@ -1237,4 +1237,21 @@ export const persons = [
       country: "Netherlands"
     }
   },
+
+  {
+    id: 74,
+    name: "Ik Egharevba",
+    img: "",
+    links: {
+      website: "https://ik2478.github.io/myportfolio",
+      linkedin: "www.linkedin.com/in/ik-egharevba",
+      github: "https://github.com/ik2478"
+    },
+    jobTitle: "Fullstack Developer",
+    location: {
+      city: "Chicago",
+      state: "",
+      country: "USA"
+    }
+  },
 ];
