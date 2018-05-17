@@ -1254,4 +1254,20 @@ export const persons = [
       country: "USA"
     }
   },
+    {
+    id: 75,
+    name: "Slavo Popovic",
+    img: "https://github.com/slavo7",
+    links: {
+      website: "http://www.slavo7.com/",
+      linkedin: "https://www.linkedin.com/in/slavoljub-popovic-b38404102/",
+      github: "https://github.com/slavo7"
+    },
+    jobTitle: "Software Developer",
+    location: {
+      city: "Miami",
+      state: "FL",
+      country: "United States"
+    }
+  },
 ];
