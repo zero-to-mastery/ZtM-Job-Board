@@ -1271,3 +1271,20 @@ export const persons = [
     }
   },
 ];
+
+  {
+    id: [76],
+    name: "[Marcin Pikul]",
+    img: "[https://github.com/settings/profile]",
+    links: {
+      website: "",
+      linkedin: "[https://www.linkedin.com/in/marcin-pikul-2a86ba120/]",
+      github: "[https://github.com/Pajkul]"
+    },
+    jobTitle: "[Freelancer]",
+    location: {
+      city: "[Kraków]",
+      state: "[]",
+      country: "[Poland]"
+    }
+  }
