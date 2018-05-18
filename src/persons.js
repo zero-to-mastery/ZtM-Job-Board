@@ -1270,4 +1270,20 @@ export const persons = [
       country: "United States"
     }
   },
+  {
+    id: 76,
+    name: "Krunal Bhadresha",
+    img: "https://www.google.ca/search?q=krunal+bhadresa&tbm=isch&source=iu&ictx=1&fir=1uYG6He0IqKEGM%253A%252CBsBd-_jVZ6fFSM%252C_&usg=__tahco2-iR5sPTB9Q2JeTCGDQSrk%3D&sa=X&ved=0ahUKEwj8l9jF94_bAhUC34MKHawZBMYQ9QEINjAG#imgrc=1uYG6He0IqKEGM:",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/krunal-bhadresha-7701a892/",
+      github: "https://github.com/krunalbhadresa"
+    },
+    jobTitle: "Web Developer/Software Developer",
+    location: {
+      city: "Kitchener",
+      state: "Ontario",
+      country: "Canada"
+    }
+  },
 ];
