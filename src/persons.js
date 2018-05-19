@@ -1205,36 +1205,36 @@ export const persons = [
 },
 
   {
-    id: [72],
-    name: "[Saifeddin Matoui]",
-    img: "[https://k62.kn3.net/E/9/6/5/B/0/2D9.png]",
+    id: 72,
+    name: "Saifeddin Matoui",
+    img: "https://k62.kn3.net/E/9/6/5/B/0/2D9.png",
     links: {
-      website: "[saifeddin1.github.io]",
-      linkedin: "[https://www.linkedin.com/in/saifeddin-matoui-b34a58148/]",
-      github: "[http://https://github.com/saifeddin1]"
+      website: "saifeddin1.github.io",
+      linkedin: "https://www.linkedin.com/in/saifeddin-matoui-b34a58148/",
+      github: "http://https://github.com/saifeddin1"
     },
-    jobTitle: "[Full stack web developer]",
+    jobTitle: "Full stack web developer",
     location: {
-      city: "[Zraoua Nouvelle]",
-      state: "[Gabès]",
-      country: "[Tunisia]"
+      city: "Zraoua Nouvelle",
+      state: "Gabès",
+      country: "Tunisia"
     }
   },
 
   {
-    id: [73],
-    name: "[Denise Recofka]",
-    img: "[https://media.licdn.com/dms/image/C5103AQGK2vR45hNmRg/profile-displayphoto-shrink_200_200/0?e=1531958400&v=beta&t=TA6FXa3SVFcbhjcrJ47zwUiDIT6RlQYdO7w8Kuj7V2I]",
+    id: 73,
+    name: "Denise Recofka",
+    img: "https://media.licdn.com/dms/image/C5103AQGK2vR45hNmRg/profile-displayphoto-shrink_200_200/0?e=1531958400&v=beta&t=TA6FXa3SVFcbhjcrJ47zwUiDIT6RlQYdO7w8Kuj7V2I",
     links: {
-      website: "[recofka.github.io]",
-      linkedin: "[https://www.linkedin.com/in/deniserecofka/]",
-      github: "[http://https://github.com/recofka]"
+      website: "recofka.github.io",
+      linkedin: "https://www.linkedin.com/in/deniserecofka/",
+      github: "http://https://github.com/recofka"
     },
-    jobTitle: "[Front-end  Developer]",
+    jobTitle: "Front-end  Developer",
     location: {
-      city: "[Amsterdam]",
+      city: "Amsterdam",
       state: "",
-      country: "[Netherlands]"
+      country: "Netherlands"
     }
   },
 ],
