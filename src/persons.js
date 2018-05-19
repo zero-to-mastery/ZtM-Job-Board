@@ -1316,4 +1316,4 @@ export const persons = [
       state: "New York",
       country: "Poland <-> USA"
     }
-  };
+  }
