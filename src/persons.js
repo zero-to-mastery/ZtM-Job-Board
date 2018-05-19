@@ -1211,7 +1211,7 @@ export const persons = [
     links: {
       website: "saifeddin1.github.io",
       linkedin: "https://www.linkedin.com/in/saifeddin-matoui-b34a58148/",
-      github: "http://https://github.com/saifeddin1"
+      github: "https://github.com/saifeddin1"
     },
     jobTitle: "Full stack web developer",
     location: {
@@ -1226,9 +1226,9 @@ export const persons = [
     name: "Denise Recofka",
     img: "https://media.licdn.com/dms/image/C5103AQGK2vR45hNmRg/profile-displayphoto-shrink_200_200/0?e=1531958400&v=beta&t=TA6FXa3SVFcbhjcrJ47zwUiDIT6RlQYdO7w8Kuj7V2I",
     links: {
-      website: "recofka.github.io",
+      website: "https://recofka.github.io",
       linkedin: "https://www.linkedin.com/in/deniserecofka/",
-      github: "http://https://github.com/recofka"
+      github: "https://github.com/recofka"
     },
     jobTitle: "Front-end  Developer",
     location: {
@@ -1236,7 +1236,6 @@ export const persons = [
       state: "",
       country: "Netherlands"
     }
-  },
   },
   {
     id: 74,
