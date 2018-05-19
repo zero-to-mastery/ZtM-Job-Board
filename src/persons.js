@@ -1237,10 +1237,73 @@ export const persons = [
       country: "Netherlands"
     }
   },
-],
-      
+  },
   {
     id: 74,
+    name: "Ik Egharevba",
+    img: "",
+    links: {
+      website: "https://ik2478.github.io/myportfolio",
+      linkedin: "www.linkedin.com/in/ik-egharevba",
+      github: "https://github.com/ik2478"
+    },
+    jobTitle: "Fullstack Developer",
+    location: {
+      city: "Chicago",
+      state: "",
+      country: "USA"
+    }
+  },
+    {
+    id: 75,
+    name: "Slavo Popovic",
+    img: "https://github.com/slavo7",
+    links: {
+      website: "http://www.slavo7.com/",
+      linkedin: "https://www.linkedin.com/in/slavoljub-popovic-b38404102/",
+      github: "https://github.com/slavo7"
+    },
+    jobTitle: "Software Developer",
+    location: {
+      city: "Miami",
+      state: "FL",
+      country: "United States"
+    }
+  },
+  {
+    id: 76,
+    name: "Krunal Bhadresha",
+    img: "https://www.google.ca/search?q=krunal+bhadresa&tbm=isch&source=iu&ictx=1&fir=1uYG6He0IqKEGM%253A%252CBsBd-_jVZ6fFSM%252C_&usg=__tahco2-iR5sPTB9Q2JeTCGDQSrk%3D&sa=X&ved=0ahUKEwj8l9jF94_bAhUC34MKHawZBMYQ9QEINjAG#imgrc=1uYG6He0IqKEGM:",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/krunal-bhadresha-7701a892/",
+      github: "https://github.com/krunalbhadresa"
+    },
+    jobTitle: "Web Developer/Software Developer",
+    location: {
+      city: "Kitchener",
+      state: "Ontario",
+      country: "Canada"
+    }
+  },
+  {
+    id: 77,
+    name: "Ronald Fortmann",
+    img: "https://avatars0.githubusercontent.com/u/24876060?s=460&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/ronaldfortmann/",
+      github: "https://github.com/A-Sm1th"
+    },
+    jobTitle: "Web Analyst/Full Stack Dev 'Student'",
+    location: {
+      city: "Bielefeld",
+      state: "Nord-Rhine Westfalen",
+      country: "Germany"
+    }
+  },
+ {
+    id: 78,
     name: "Michal Lewoc",
     img: "https://raw.githubusercontent.com/JavaMajk/portfolio-site/master/img/my-photo.png",
     links: {
