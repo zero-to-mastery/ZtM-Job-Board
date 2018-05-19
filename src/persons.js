@@ -1286,4 +1286,20 @@ export const persons = [
       country: "Canada"
     }
   },
+  {
+    id: 77,
+    name: "Ronald Fortmann",
+    img: "https://avatars0.githubusercontent.com/u/24876060?s=460&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/ronaldfortmann/",
+      github: "https://github.com/A-Sm1th"
+    },
+    jobTitle: "Web Analyst/Full Stack Dev 'Student'",
+    location: {
+      city: "Bielefeld",
+      state: "Nord-Rhine Westfalen",
+      country: "Germany"
+    }
+  },
 ];
