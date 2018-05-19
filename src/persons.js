@@ -1205,19 +1205,19 @@ export const persons = [
 },
 
   {
-    id: [72],
-    name: "[Saifeddin Matoui]",
-    img: "[https://k62.kn3.net/E/9/6/5/B/0/2D9.png]",
+    id: 72,
+    name: "Saifeddin Matoui",
+    img: "https://k62.kn3.net/E/9/6/5/B/0/2D9.png",
     links: {
-      website: "[saifeddin1.github.io]",
-      linkedin: "[https://www.linkedin.com/in/saifeddin-matoui-b34a58148/]",
-      github: "[http://https://github.com/saifeddin1]"
+      website: "saifeddin1.github.io",
+      linkedin: "https://www.linkedin.com/in/saifeddin-matoui-b34a58148/",
+      github: "https://github.com/saifeddin1"
     },
-    jobTitle: "[Full stack web developer]",
+    jobTitle: "Full stack web developer",
     location: {
-      city: "[Zraoua Nouvelle]",
-      state: "[Gabès]",
-      country: "[Tunisia]"
+      city: "Zraoua Nouvelle",
+      state: "Gabès",
+      country: "Tunisia"
     }
   },
 
@@ -1227,7 +1227,7 @@ export const persons = [
     img: "https://media.licdn.com/dms/image/C5103AQGK2vR45hNmRg/profile-displayphoto-shrink_200_200/0?e=1531958400&v=beta&t=TA6FXa3SVFcbhjcrJ47zwUiDIT6RlQYdO7w8Kuj7V2I",
     links: {
       website: "https://recofka.github.io",
-      linkedin: "https://www.linkedin.com/in/deniserecofka",
+      linkedin: "https://www.linkedin.com/in/deniserecofka/",
       github: "https://github.com/recofka"
     },
     jobTitle: "Front-end  Developer",
@@ -1237,7 +1237,6 @@ export const persons = [
       country: "Netherlands"
     }
   },
-
   {
     id: 74,
     name: "Ik Egharevba",
@@ -1302,4 +1301,20 @@ export const persons = [
       country: "Germany"
     }
   },
-];
+ {
+    id: 78,
+    name: "Michal Lewoc",
+    img: "https://raw.githubusercontent.com/JavaMajk/portfolio-site/master/img/my-photo.png",
+    links: {
+      website: "https://javamajk.github.io/portfolio-site/",
+      linkedin: "https://www.linkedin.com/in/michal-lewoc-074615114/",
+      github: "https://github.com/JavaMajk"
+    },
+    jobTitle: "Web Developer & IT Specialist",
+    location: {
+      city: "Bialystok, Poland",
+      state: "New York",
+      country: "Poland <-> USA"
+    }
+  }
+  ];
