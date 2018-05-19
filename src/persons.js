@@ -1205,19 +1205,19 @@ export const persons = [
 },
 
   {
-    id: [72],
-    name: "[Saifeddin Matoui]",
-    img: "[https://k62.kn3.net/E/9/6/5/B/0/2D9.png]",
+    id: 72,
+    name: "Saifeddin Matoui",
+    img: "https://k62.kn3.net/E/9/6/5/B/0/2D9.png",
     links: {
-      website: "[saifeddin1.github.io]",
-      linkedin: "[https://www.linkedin.com/in/saifeddin-matoui-b34a58148/]",
-      github: "[http://https://github.com/saifeddin1]"
+      website: "saifeddin1.github.io",
+      linkedin: "https://www.linkedin.com/in/saifeddin-matoui-b34a58148/",
+      github: "https://github.com/saifeddin1"
     },
-    jobTitle: "[Full stack web developer]",
+    jobTitle: "Full stack web developer",
     location: {
-      city: "[Zraoua Nouvelle]",
-      state: "[Gabès]",
-      country: "[Tunisia]"
+      city: "Zraoua Nouvelle",
+      state: "Gabès",
+      country: "Tunisia"
     }
   },
 
@@ -1227,7 +1227,7 @@ export const persons = [
     img: "https://media.licdn.com/dms/image/C5103AQGK2vR45hNmRg/profile-displayphoto-shrink_200_200/0?e=1531958400&v=beta&t=TA6FXa3SVFcbhjcrJ47zwUiDIT6RlQYdO7w8Kuj7V2I",
     links: {
       website: "https://recofka.github.io",
-      linkedin: "https://www.linkedin.com/in/deniserecofka",
+      linkedin: "https://www.linkedin.com/in/deniserecofka/",
       github: "https://github.com/recofka"
     },
     jobTitle: "Front-end  Developer",
@@ -1237,7 +1237,6 @@ export const persons = [
       country: "Netherlands"
     }
   },
-
   {
     id: 74,
     name: "Ik Egharevba",
@@ -1270,21 +1269,68 @@ export const persons = [
       country: "United States"
     }
   },
-];
-
   {
-    id: [76],
-    name: "[Marcin Pikul]",
-    img: "[https://github.com/settings/profile]",
+    id: 76,
+    name: "Krunal Bhadresha",
+    img: "https://www.google.ca/search?q=krunal+bhadresa&tbm=isch&source=iu&ictx=1&fir=1uYG6He0IqKEGM%253A%252CBsBd-_jVZ6fFSM%252C_&usg=__tahco2-iR5sPTB9Q2JeTCGDQSrk%3D&sa=X&ved=0ahUKEwj8l9jF94_bAhUC34MKHawZBMYQ9QEINjAG#imgrc=1uYG6He0IqKEGM:",
     links: {
       website: "",
-      linkedin: "[https://www.linkedin.com/in/marcin-pikul-2a86ba120/]",
-      github: "[https://github.com/Pajkul]"
+      linkedin: "https://www.linkedin.com/in/krunal-bhadresha-7701a892/",
+      github: "https://github.com/krunalbhadresa"
     },
-    jobTitle: "[Freelancer]",
+    jobTitle: "Web Developer/Software Developer",
     location: {
-      city: "[Kraków]",
-      state: "[]",
-      country: "[Poland]"
+      city: "Kitchener",
+      state: "Ontario",
+      country: "Canada"
     }
-  }
+  },
+  {
+    id: 77,
+    name: "Ronald Fortmann",
+    img: "https://avatars0.githubusercontent.com/u/24876060?s=460&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/ronaldfortmann/",
+      github: "https://github.com/A-Sm1th"
+    },
+    jobTitle: "Web Analyst/Full Stack Dev 'Student'",
+    location: {
+      city: "Bielefeld",
+      state: "Nord-Rhine Westfalen",
+      country: "Germany"
+    }
+  },
+ {
+    id: 78,
+    name: "Michal Lewoc",
+    img: "https://raw.githubusercontent.com/JavaMajk/portfolio-site/master/img/my-photo.png",
+    links: {
+      website: "https://javamajk.github.io/portfolio-site/",
+      linkedin: "https://www.linkedin.com/in/michal-lewoc-074615114/",
+      github: "https://github.com/JavaMajk"
+    },
+    jobTitle: "Web Developer & IT Specialist",
+    location: {
+      city: "Bialystok, Poland",
+      state: "New York",
+      country: "Poland <-> USA"
+    }
+  },
+  {
+    id: 79,
+    name: "Marcin Pikul",
+    img: "https://github.com/settings/profile",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/marcin-pikul-2a86ba120/",
+      github: "https://github.com/Pajkul"
+    },
+    jobTitle: "Freelancer",
+    location: {
+      city: "Kraków",
+      state: "",
+      country: "Poland"
+    }
+  },
+  ];
