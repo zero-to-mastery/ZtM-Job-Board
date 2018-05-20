@@ -10,7 +10,7 @@ class App extends Component {
     this.state = {
       persons: persons,
       searchfield: '',
-      category: 'name' // version 0.2.0 changed from location to category to allow compatibility between old entries and new ones
+      category: 'name'
     }
   }
 
