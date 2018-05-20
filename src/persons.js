@@ -1154,23 +1154,25 @@ export const persons = [
       country: "USA"
     }
   },
-    {
-        id: 69,
-        name: "Zachary Fons",
-        img: "https://i.imgur.com/a0tBLzl.jpg",
-        links: {
-            website: "http://zacharyfons.me",
-            linkedin: "https://www.linkedin.com/in/zacharyfons/",
-            github: "https://www.github.com/nofcaz/"
-        },
-        jobTitle: "Front-End Web Developer/Software Engineer/UI Developer",
-        location: {
-            city: "Simsbury",
-            state: "Connecticut",
-            country: "USA"
-        }
-   },
-   {
+
+  {
+    id: 69,
+    name: "Zachary Fons",
+    img: "https://i.imgur.com/a0tBLzl.jpg",
+    links: {
+      website: "http://zacharyfons.me",
+      linkedin: "https://www.linkedin.com/in/zacharyfons/",
+      github: "https://www.github.com/nofcaz/"
+    },
+    jobTitle: "Front-End Web Developer/Software Engineer/UI Developer",
+    location: {
+      city: "Simsbury",
+      state: "Connecticut",
+      country: "USA"
+    }
+  },
+
+  {
     id: 70,
     name: "Oliver De La Via",
     img: "https://i.imgur.com/B6GNZjt.jpg",
@@ -1186,23 +1188,23 @@ export const persons = [
       country: "USA"
     }
   },
-    
+
   {
     id: 71,
     name: "Alex Nielsen",
     img: "http://alexnielsen.com/wp-content/uploads/2018/02/me-bw-cropped-200x200.jpg",
     links: {
-        website: "http://alexnielsen.com",
-        linkedin: "https://www.linkedin.com/in/alex-nielsen-9a93b113/",
-        github: "https://github.com/bushbass"
+      website: "http://alexnielsen.com",
+      linkedin: "https://www.linkedin.com/in/alex-nielsen-9a93b113/",
+      github: "https://github.com/bushbass"
     },
     jobTitle: "Full Stack JavaScript",
     location: {
-        city: "Sparta (New York City area)",
-        state: "New Jersey",
-        country: "USA"
+      city: "Sparta (New York City area)",
+      state: "New Jersey",
+      country: "USA"
     }
-},
+  },
 
   {
     id: 72,
@@ -1237,6 +1239,7 @@ export const persons = [
       country: "Netherlands"
     }
   },
+
   {
     id: 74,
     name: "Ik Egharevba",
@@ -1253,10 +1256,11 @@ export const persons = [
       country: "USA"
     }
   },
-    {
+
+  {
     id: 75,
     name: "Slavo Popovic",
-    img: "https://github.com/slavo7",
+    img: "",
     links: {
       website: "http://www.slavo7.com/",
       linkedin: "https://www.linkedin.com/in/slavoljub-popovic-b38404102/",
@@ -1269,10 +1273,11 @@ export const persons = [
       country: "United States"
     }
   },
+
   {
     id: 76,
     name: "Krunal Bhadresha",
-    img: "https://www.google.ca/search?q=krunal+bhadresa&tbm=isch&source=iu&ictx=1&fir=1uYG6He0IqKEGM%253A%252CBsBd-_jVZ6fFSM%252C_&usg=__tahco2-iR5sPTB9Q2JeTCGDQSrk%3D&sa=X&ved=0ahUKEwj8l9jF94_bAhUC34MKHawZBMYQ9QEINjAG#imgrc=1uYG6He0IqKEGM:",
+    img: "https://lh3.googleusercontent.com/CWv7hU4YNNaisjnxjQV5-Ts06QBPwelEFhVkttCCEPZcq1GjBjNyhfcYaom6lUgNtOX49izrgRB0YA=w1170-h1175-rw-no",
     links: {
       website: "",
       linkedin: "https://www.linkedin.com/in/krunal-bhadresha-7701a892/",
@@ -1285,6 +1290,7 @@ export const persons = [
       country: "Canada"
     }
   },
+
   {
     id: 77,
     name: "Ronald Fortmann",
@@ -1301,7 +1307,8 @@ export const persons = [
       country: "Germany"
     }
   },
- {
+
+  {
     id: 78,
     name: "Michal Lewoc",
     img: "https://raw.githubusercontent.com/JavaMajk/portfolio-site/master/img/my-photo.png",
@@ -1317,10 +1324,11 @@ export const persons = [
       country: "Poland <-> USA"
     }
   },
+
   {
     id: 79,
     name: "Marcin Pikul",
-    img: "https://github.com/settings/profile",
+    img: "",
     links: {
       website: "",
       linkedin: "https://www.linkedin.com/in/marcin-pikul-2a86ba120/",
@@ -1333,4 +1341,5 @@ export const persons = [
       country: "Poland"
     }
   },
-  ];
+
+];
