@@ -9,7 +9,7 @@ const Card = ({user}) => {
     return (
       <div id={`person-${id}`} className="card ma4 w5 tc bg-white br2 custom--shadow-2 custom--shadow-hover-8">
         <div className="header pt3 br2 br--top">
-          <div className="photo br-100 h4 w4 pt3 bw2 b--solid custom--b--light-green bg-center cover" title={name} style={img !== '' ? {backgroundImage: 'url("' + img + '")'} : {}}></div>
+          <div className="photo br-100 h4 w4 bw2 b--solid custom--b--primary bg-center cover" title={name} style={img !== '' ? {backgroundImage: 'url("' + img + '")'} : {}}></div>
           <h2 className="name mt3 mb1 ph3 w-100 flex items-center justify-center">{name}</h2>
           <div className="title ph3 w-100 flex items-center justify-center">{jobTitle}</div>
         </div>

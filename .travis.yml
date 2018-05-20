@@ -8,7 +8,7 @@ cache:
   directories:
   - node_modules
 script:
-  - npm test
+  - npm run test
   - npm run build
   - mv ./build/favicons/* ./build/ && rm -r ./build/favicons
 deploy:
