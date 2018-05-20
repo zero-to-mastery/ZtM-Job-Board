@@ -1342,4 +1342,21 @@ export const persons = [
     }
   },
 
+   {
+    id: 80,
+    name: "Diego Salas",
+    img: "https://scontent.flim9-1.fna.fbcdn.net/v/t1.0-9/17155983_10211022884500815_795863402198977247_n.jpg?_nc_cat=0&oh=54644d4d9cd9b4f7240834c995f1c4ce&oe=5BC44182",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/diego-salas-noain-b11837146/",
+      github: "https://github.com/DiegoSalas27"
+    },
+    jobTitle: "Web developer",
+    location: {
+      city: "Lima",
+      state: "Lima",
+      country: "Perú"
+    }
+  },
+
 ];
