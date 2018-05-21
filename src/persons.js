@@ -1358,5 +1358,20 @@ export const persons = [
       country: "Perú"
     }
   },
-
+  {
+    id: 81,
+    name: "Diane Leigh",
+    img: "https://media.licdn.com/dms/image/C4E03AQFgUvSby_1jbg/profile-displayphoto-shrink_100_100/0?e=1532563200&v=beta&t=Y3Ktzlje0h70haWz50AXEeVnb1kwIiXUcFAfBdSFTx4",
+    links: {
+      website: "https://leighd2008.github.io/My_Profile/",
+      linkedin: "https://www.linkedin.com/in/diane-leigh-5251a275/",
+      github: "https://github.com/leighd2008"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Leavittsburg",
+      state: "Ohio",
+      country: "USA"
+    }
+  },
 ];
