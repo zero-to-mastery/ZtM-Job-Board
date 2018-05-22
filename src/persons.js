@@ -37,6 +37,7 @@ export const persons = [
   {
     id: 3,
     name: "Piyush Gupta",
+    img: "",
     links: {
       website: "http://pdshah.com",
       linkedin: "https://www.linkedin.com/in/piyush-gupta-3a268826",
