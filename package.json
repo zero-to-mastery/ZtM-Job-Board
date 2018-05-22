@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://zero-to-mastery.github.io/ZtM-Job-Board",
   "dependencies": {
+    "node-sass-chokidar": "^1.3.0",
+    "npm-run-all": "^4.1.3",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-favicon": "0.0.14",
@@ -11,12 +13,15 @@
     "tachyons": "^4.9.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "npm-run-all -p watch-css start-js",
+      "watch-css": "npm run build-css && node-sass-chokidar ./src/ --output ./src/ --output-style compressed --watch --recursive",
+      "start-js": "react-scripts start",
+    "build": "npm-run-all build-css build-js",
+      "build-css": "node-sass-chokidar ./src/ --output ./src/ --output-style compressed",
+      "build-js": "react-scripts build",
+      "postbuild": "mv ./build/favicons/* ./build/ && rm -r ./build/favicons",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "gh-pages": "^1.1.0"
