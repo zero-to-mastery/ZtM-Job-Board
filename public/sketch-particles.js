@@ -2,8 +2,6 @@
 // Particle
 // ----------------------------------------
 
-
-
 function Particle(x, y, radius) {
   this.init(x, y, radius);
 }
@@ -59,6 +57,7 @@ Particle.prototype = {
 // ----------------------------------------
 // Example
 // ----------------------------------------
+
 var particles = [];
 var pool = [];
 
