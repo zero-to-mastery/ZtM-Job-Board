@@ -8,7 +8,7 @@ const CardList = ({persons}) => {
   });
 
   return (
-    <div className="flex flex-wrap justify-center">
+    <div id="sketch-particles" className="flex flex-wrap justify-center">
       {cardCom}
     </div>
   );

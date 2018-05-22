@@ -7,7 +7,7 @@ const Card = ({user}) => {
   // Using the new id var to filter the new developer submissions
   if (id !== undefined) {
     return (
-      <div id={`person-${id}`} className="card ma4 w5 tc bg-white br2 custom--shadow-2 custom--shadow-hover-8">
+      <div id={`person-${id}`} className="card ma4 w5 tc bg-white br2 custom--shadow-2 custom--shadow-hover-8 custom--o-95 z-1">
         <div className="header pt3 br2 br--top">
           <div className="photo br-100 h4 w4 bw2 b--solid custom--b--primary bg-center cover" title={name} style={img !== '' ? {backgroundImage: 'url("' + img + '")'} : {}}></div>
           <h2 className="name mt3 mb1 ph3 w-100 flex items-center justify-center">{name}</h2>

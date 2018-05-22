@@ -59,6 +59,8 @@ svg {
   transition: fill 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
+
+
 body {
   min-width: 22.25rem;
   font-family: "Roboto Condensed", sans-serif;
@@ -247,7 +249,17 @@ main {
 
   }
 
+  canvas.sketch {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
 }
+
+
 
 footer {
 
@@ -284,6 +296,9 @@ footer {
 }
 
 
+.custom--o-95 {
+  opacity: 0.95;
+}
 
 .custom--shadow-0,
 .custom--shadow-hover-0:hover {
