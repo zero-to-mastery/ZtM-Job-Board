@@ -56,6 +56,7 @@ $colors: (
   transition: inherit;
 }
 svg {
+  fill: currentColor;
   transition: fill 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
@@ -86,29 +87,24 @@ header {
     transform: translateY(-50%);
   }
 
-  #title {
+  #title:hover {
 
-    svg {
-      fill: #FFFFFF;
+    span:nth-child(2) {
+      color: $color--secondary;
     }
-
-    &:hover {
-
-      span:nth-child(2) {
-        color: $color--secondary;
-      }
-      span:nth-child(3) {
-        color: currentColor;
-      }
-
+    span:nth-child(3) {
+      color: currentColor;
     }
 
   }
 
   .SearchCategory .radio-box {
 
-    input {
+    input,
+    label {
       cursor: pointer;
+    }
+    input {
       visibility: hidden;
       margin: 0 -0.05rem 0 0.6rem;
     }
@@ -145,10 +141,6 @@ header {
   #searchbox {
 
     margin: 0 0.6rem 0 0;
-
-    svg {
-      fill: currentColor;
-    }
 
     input {
       width: 11rem;
@@ -211,6 +203,11 @@ main {
     .main a {
       position: relative;
       z-index: 1;
+
+      svg {
+        fill: #000000;
+      }
+
     }
     .main a::before {
       content: "";
@@ -240,7 +237,7 @@ main {
       background-color: $color--additional1;
     }
 
-    .main a:hover {
+    .main a:hover svg {
       fill: #FFFFFF;
     }
     .main a:hover::before {
@@ -296,9 +293,12 @@ footer {
 }
 
 
+
 .custom--o-95 {
   opacity: 0.95;
 }
+
+
 
 .custom--shadow-0,
 .custom--shadow-hover-0:hover {
