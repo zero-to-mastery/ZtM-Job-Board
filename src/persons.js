@@ -260,9 +260,9 @@ export const persons = [
     name: "Adrian Wagener",
     img: "https://media.licdn.com/dms/image/C4D03AQEdhmhOXXRi7g/profile-displayphoto-shrink_800_800/0?e=1528477200&v=beta&t=Ibu6t9ZiYsqch12H9_wwvvx4bT8vU95QPAq1Mubl0Dc",
     links: {
-        website: "https://www.adrian-wagener.com",
+        website: "https://wagad22.github.io/",
         linkedin: "https://www.linkedin.com/in/adrian-wagener-45b741134/",
-        github: "https://wagad22.github.io/"
+        github: "https://github.com/wagad22"
     },
     jobTitle: "Fullstack Webdeveloper",
     location: {
@@ -1358,5 +1358,20 @@ export const persons = [
       country: "Perú"
     }
   },
-
+  {
+    id: 81,
+    name: "Diane Leigh",
+    img: "https://media.licdn.com/dms/image/C4E03AQFgUvSby_1jbg/profile-displayphoto-shrink_100_100/0?e=1532563200&v=beta&t=Y3Ktzlje0h70haWz50AXEeVnb1kwIiXUcFAfBdSFTx4",
+    links: {
+      website: "https://leighd2008.github.io/My_Profile/",
+      linkedin: "https://www.linkedin.com/in/diane-leigh-5251a275/",
+      github: "https://github.com/leighd2008"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Leavittsburg",
+      state: "Ohio",
+      country: "USA"
+    }
+  },
 ];
