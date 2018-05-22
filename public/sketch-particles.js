@@ -2,6 +2,8 @@
 // Particle
 // ----------------------------------------
 
+
+
 function Particle(x, y, radius) {
   this.init(x, y, radius);
 }
@@ -57,30 +59,34 @@ Particle.prototype = {
 // ----------------------------------------
 // Example
 // ----------------------------------------
+var particles = [];
+var pool = [];
 
-var MAX_PARTICLES = 300;
 var COLOURS = [
   '#E3F2FD', '#BBDEFB', '#90CAF9', '#64B5F6', '#42A5F5', '#2196F3', '#1E88E5', '#1976D2', '#1565C0', '#0D47A1', // Blue 50->900
   '#FFF8E1', '#FFECB3', '#FFE082', '#FFD54F', '#FFCA28', '#FFC107', '#FFB300', '#FFA000', '#FF8F00', '#FF6F00' // Amber 50->900
 ];
 
-var particles = [];
-var pool = [];
+var CONTAINER = document.getElementById('sketch-particles');
+var EVENT_TARGET = CONTAINER.getElementsByClassName('sketch');
 
 if ((typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1)) {
 
   console.info("Sketch particles: detected mobile device");
 
+  var MAX_PARTICLES = 100;
+
   var liveBg = Sketch.create({
     fullscreen: true,
     autostart: true,
     autoclear: true,
-    autopause: false,
-    container: document.getElementById('sketch-particles'),
+    autopause: true,
+    container: CONTAINER,
     interval: 1,
     globals: true,
     retina: 'auto',
-    type: Sketch.CANVAS
+    type: Sketch.CANVAS,
+    eventTaget: EVENT_TARGET
   });
 
 }
@@ -88,17 +94,19 @@ else {
 
   console.info("Sketch particles: detected device other than mobile");
 
+  var MAX_PARTICLES = 300;
+
   var liveBg = Sketch.create({
     fullscreen: true,
     autostart: true,
     autoclear: true,
     autopause: false,
-    container: document.getElementById('sketch-particles'),
+    container: CONTAINER,
     interval: 1,
     globals: true,
     retina: 'auto',
     type: Sketch.CANVAS,
-    eventTarget: document.getElementById('sketch-particles')
+    eventTaget: EVENT_TARGET
   });
 
 }
