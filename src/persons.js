@@ -260,9 +260,9 @@ export const persons = [
     name: "Adrian Wagener",
     img: "https://media.licdn.com/dms/image/C4D03AQEdhmhOXXRi7g/profile-displayphoto-shrink_800_800/0?e=1528477200&v=beta&t=Ibu6t9ZiYsqch12H9_wwvvx4bT8vU95QPAq1Mubl0Dc",
     links: {
-        website: "https://github.com/wagad22",
+        website: "https://wagad22.github.io/",
         linkedin: "https://www.linkedin.com/in/adrian-wagener-45b741134/",
-        github: "https://wagad22.github.io/"
+        github: "https://github.com/wagad22"
     },
     jobTitle: "Fullstack Webdeveloper",
     location: {
