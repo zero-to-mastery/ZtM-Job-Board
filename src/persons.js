@@ -1375,4 +1375,20 @@ export const persons = [
       country: "USA"
     }
   },
+  {
+    id: 82,
+    name: "Andy Lin",
+    img: "https://www.ahsuan.com/img/profile2.jpeg",
+    links: {
+      website: "https://www.ahsuan.com/",
+      linkedin: "https://www.linkedin.com/in/andy-lin-28731413b/",
+      github: "https://github.com/TzuHsuan"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Sydney",
+      state: "NSW",
+      country: "Australia"
+    }
+  }
 ];
