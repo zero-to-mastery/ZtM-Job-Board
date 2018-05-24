@@ -1390,5 +1390,21 @@ export const persons = [
       state: "NSW",
       country: "Australia"
     }
+  },
+  {
+    id: 83,
+    name: "Vito Mendoza",
+    img: "https://image.ibb.co/iapLko/DSC_0019ps1.png",
+    links: {
+      website: "http://www.vito-mendoza.com/",
+      linkedin: "https://www.linkedin.com/in/vitomendoza/",
+      github: "https://github.com/VitoMendoza"
+    },
+    jobTitle: "Web Developer & QA Engineer",
+    location: {
+      city: "Santa Cruz",
+      state: "",
+      country: "Bolivia"
+    }
   }
 ];
