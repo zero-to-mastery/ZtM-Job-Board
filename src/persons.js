@@ -1407,6 +1407,23 @@ export const persons = [
       country: "Bolivia"
     }
   },
+  {
+    id: 84,
+    name: "Vijay Chacko",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/vijaychacko",
+      github: "https://github.com/vijaychacko56"
+    },
+    jobTitle: "Software Developer",
+    location: {
+      city: "San Francisco",
+      state: "California",
+      country: "USA"
+    }
+  },
+
     {
     id: 84,
     name: "Angela Mizero",
