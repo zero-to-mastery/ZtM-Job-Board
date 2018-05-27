@@ -1406,5 +1406,21 @@ export const persons = [
       state: "",
       country: "Bolivia"
     }
+  },
+    {
+    id: 84,
+    name: "Angela Mizero",
+    img: "https://github.com/AngieHM/AngieHM.github.io/blob/master/profile.png",
+    links: {
+      website: "https://angiehm.github.io",
+      linkedin: "www.linkedin.com/in/angela-mizero",
+      github: "https://github.com/AngieHM/"
+    },
+    jobTitle: "Full stack Developer",
+    location: {
+      city: "Antwerp",
+      state: "Antwerp",
+      country: "Belgium"
+    }
   }
 ];
