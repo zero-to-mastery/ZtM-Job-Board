@@ -1425,7 +1425,7 @@ export const persons = [
   },
 
     {
-    id: 84,
+    id: 85,
     name: "Angela Mizero",
     img: "https://github.com/AngieHM/AngieHM.github.io/blob/master/profile.png",
     links: {
@@ -1438,6 +1438,23 @@ export const persons = [
       city: "Antwerp",
       state: "Antwerp",
       country: "Belgium"
+    }
+  },
+
+    {
+    id: 86,
+    name: "Dirk Jansen van Rensburg",
+    img: "https://dirk005.github.io/resume/images/profile.png",
+    links: {
+      website: "https://codepen.io/dirk005/full/QrgMJB/",
+      linkedin: "https://www.linkedin.com/in/dirk-jansen-van-rensburg-597547120",
+      github: "https://github.com/dirk005"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Johannesburg",
+      state: "",
+      country: "South Africa"
     }
   }
 ];
