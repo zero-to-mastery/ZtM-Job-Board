@@ -1458,3 +1458,20 @@ export const persons = [
     }
   }
 ];
+
+  {
+    id: 87,
+    name: "Harry Gillen",
+    img: "https://avatars1.githubusercontent.com/u/34924822?s=460&v=4",
+    links: {
+      website: "http://www.harrygillen.com",
+      linkedin: "https://www.linkedin.com/in/harrygillen",
+      github: "https://github.com/gillenha"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Traverse City",
+      state: "Michigan",
+      country: "United States"
+    }
+  },
