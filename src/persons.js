@@ -1456,9 +1456,7 @@ export const persons = [
       state: "",
       country: "South Africa"
     }
-  }
-];
-
+  },
   {
     id: 87,
     name: "Harry Gillen",
@@ -1475,3 +1473,5 @@ export const persons = [
       country: "United States"
     }
   },
+];
+
