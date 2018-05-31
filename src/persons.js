@@ -1473,5 +1473,21 @@ export const persons = [
       country: "United States"
     }
   },
+  {
+    id: 88,
+    name: "Stephen St.Pierre",
+    img: "https://avatars1.githubusercontent.com/u/19779234?s=460&v=4",
+    links: {
+      website: "https://sstpierre2.github.io/",
+      linkedin: "https://www.linkedin.com/in/stevecstpierre",
+      github: "https://github.com/SSTPIERRE2"
+    },
+    jobTitle: "Programmer Analyst",
+    location: {
+      city: "Boston",
+      state: "Massachusetts",
+      country: "United States"
+    }
+  },
 ];
 
