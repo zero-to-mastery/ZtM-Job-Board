@@ -1489,5 +1489,21 @@ export const persons = [
       country: "United States"
     }
   },
+  {
+    id: 89,
+    name: "Sam Alsmadi",
+    img: "https://avatars0.githubusercontent.com/u/26729976?s=460&v=4",
+    links: {
+      website: "https://lntellimed.github.io/",
+      linkedin: "https://www.linkedin.com/in/samalsmadi",
+      github: "https://github.com/lntelliMed"
+    },
+    jobTitle: "Fullstack Software Engineer",
+    location: {
+      city: "New York City",
+      state: "New York",
+      country: "USA"
+    }
+  },
 ];
 
