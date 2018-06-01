@@ -1505,5 +1505,21 @@ export const persons = [
       country: "USA"
     }
   },
+   {
+    id: 90,
+    name: "Ankur Anant",
+    img: "[YOUR_IMG_URL]",
+    links: {
+      website: "",
+      linkedin: "",
+      github: "https://github.com/anantankur"
+    },
+    jobTitle: "Front-End Web Developer, Android Developer",
+    location: {
+      city: "",
+      state: "",
+      country: "India"
+    }
+  },
 ];
 
