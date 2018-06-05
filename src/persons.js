@@ -1562,9 +1562,9 @@ export const persons = [
       state: "",
       country: "Italy"
     }
-  }
+  },
     {
-    id: [PREVIOUS_PLUS_ONE],
+    id: 92,
     name: "Daniel Puiatti",
     img: "https://avatars1.githubusercontent.com/u/6855638?s=460&v=4",
     links: {
