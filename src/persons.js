@@ -1562,5 +1562,21 @@ export const persons = [
       state: "",
       country: "Italy"
     }
-  }
+  },
+    {
+    id: 92,
+    name: "Daniel Puiatti",
+    img: "https://avatars1.githubusercontent.com/u/6855638?s=460&v=4",
+    links: {
+      website: "http://danskii.com",
+      linkedin: "https://www.linkedin.com/in/daniel-puiatti-15688312/",
+      github: "https://github.com/Danskii"
+    },
+    jobTitle: "Digital Media Specialist",
+    location: {
+      city: "Toronto",
+      state: "Ontario",
+      country: "Canada"
+    }
+  },
 ];
