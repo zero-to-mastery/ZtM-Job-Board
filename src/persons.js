@@ -1627,5 +1627,21 @@ export const persons = [
       country: "Costa Rica"
     }
   },
+  {
+    id: [96],
+    name: "Shane Granger",
+    img: "https://media.licdn.com/dms/image/C4D03AQF8AqYGdt0ABw/profile-displayphoto-shrink_200_200/0?e=1533772800&v=beta&t=7KjsSWUvGockYWZkt7xTy5vLbY_HqB-yGMsx1kG1LNo",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/shane-granger-8334b6136/",
+      github: "https://github.com/HelmsDeap"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Beaumont",
+      state: "TX",
+      country: "USA"
+    }
+  },
 
 ];
