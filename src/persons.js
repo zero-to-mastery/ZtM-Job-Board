@@ -1628,7 +1628,7 @@ export const persons = [
     }
   },
   {
-    id: [96],
+    id: 96,
     name: "Shane Granger",
     img: "https://media.licdn.com/dms/image/C4D03AQF8AqYGdt0ABw/profile-displayphoto-shrink_200_200/0?e=1533772800&v=beta&t=7KjsSWUvGockYWZkt7xTy5vLbY_HqB-yGMsx1kG1LNo",
     links: {
