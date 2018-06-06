@@ -1640,7 +1640,7 @@ export const persons = [
     location: {
       city: "Beaumont",
       state: "TX",
-      country: "USA"
+      country: "USA (willing to relocate!)"
     }
   },
 
