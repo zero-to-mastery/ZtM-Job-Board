@@ -1579,4 +1579,20 @@ export const persons = [
       country: "Canada"
     }
   },
+  {
+    id: 93,
+    name: "Josh Broomfield",
+    img: "https://avatars2.githubusercontent.com/u/38929259",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/josh-broomfield-62387690/",
+      github: "https://github.com/Josh-Broomfield/"
+    },
+    jobTitle: "Software Developer",
+    location: {
+      city: "Paris",
+      state: "Ontario",
+      country: "Canada"
+    }
+  },
 ];
