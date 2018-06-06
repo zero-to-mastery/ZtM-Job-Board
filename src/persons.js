@@ -1595,4 +1595,21 @@ export const persons = [
       country: "Canada"
     }
   },
+  {
+    id: 94,
+    name: "Daniil Osmolovskiy",
+    img: "https://avatars0.githubusercontent.com/u/26023430?s=400&u=34d870283d7fbecf55dd737fd139d138700354cd&v=4",
+    links: {
+      website: "https://www.facebook.com/daniel.osmolovskiy",
+      linkedin: "",
+      github: "https://github.com/daniilosmolovskiy"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Kyiv",
+      state: "",
+      country: "Ukraine"
+    }
+  },
+
 ];
