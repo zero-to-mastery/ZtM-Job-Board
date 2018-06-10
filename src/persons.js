@@ -1643,5 +1643,21 @@ export const persons = [
       country: "USA (willing to relocate!)"
     }
   },
+  {
+    id: 97,
+    name: "YiFang Lo",
+    img: "https://bellalo12.github.io/portfolio/static/media/bella.88500d7a.png",
+    links: {
+      website: "https://bellalo12.github.io/portfolio/",
+      linkedin: "https://www.linkedin.com/in/yifang-lo-a0a183158/",
+      github: "https://github.com/bellalo12"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "",
+      state: "",
+      country: "Taiwan (Willing to relocate!)"
+    }
+  }
 
 ];
