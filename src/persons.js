@@ -1658,6 +1658,22 @@ export const persons = [
       state: "",
       country: "Taiwan (Willing to relocate!)"
     }
+  },
+   {
+    id: 98,
+    name: "Jobe Thomas",
+    img: "",
+    links: {
+      website: "http://www.jobethomas.com",
+      linkedin: "https://www.linkedin.com/in/jobethomas/",
+      github: "https://github.com/DeveloperJobe"
+    },
+    jobTitle: "(Full Stack/Game) Developer",
+    location: {
+      city: "Silver Spring",
+      state: "MD",
+      country: "USA (Willing to relocate!)"
+    }
   }
 
 ];
