@@ -1674,6 +1674,23 @@ export const persons = [
       state: "MD",
       country: "USA (Willing to relocate!)"
     }
-  }
+  },
+  {
+    id: 99,
+    name: "Wilfred Morgan",
+    img: "https://wilfredmorgan.com/images/wmeheadshot.jpg",
+    links: {
+      website: "https://wilfredmorgan.com",
+      linkedin: "https://www.linkedin.com/in/wilfredmorgan",
+      github: "https://github.com/wmemorgan"
+    },
+    jobTitle: "Software & Data Engineer",
+    location: {
+      city: "Orlando",
+      state: "FL",
+      country: "USA (Willing to relocate!)"
+    }
+  },  
+  
 
 ];
