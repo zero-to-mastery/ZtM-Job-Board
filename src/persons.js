@@ -1646,7 +1646,7 @@ export const persons = [
   {
     id: 97,
     name: "YiFang Lo",
-    img: "https://bellalo12.github.io/portfolio/static/media/bella.88500d7a.png",
+    img: "https://bellalo12.github.io/portfolio/static/media/bella.35be8e14.png",
     links: {
       website: "https://bellalo12.github.io/portfolio/",
       linkedin: "https://www.linkedin.com/in/yifang-lo-a0a183158/",
@@ -1690,7 +1690,7 @@ export const persons = [
       state: "FL",
       country: "USA (Willing to relocate!)"
     }
-  },  
-  
+  },
+
 
 ];
