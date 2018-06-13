@@ -1,24 +1,30 @@
 {
-  "name": "jobboard",
-  "version": "0.2.0",
+  "name": "job-board-react",
+  "version": "0.1.0",
   "private": true,
-  "homepage": "https://zero-to-mastery.github.io/ZtM-Job-Board",
   "dependencies": {
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
-    "react-favicon": "0.0.14",
-    "react-scripts": "1.1.4",
-    "tachyons": "^4.9.1"
+    "@material-ui/core": "^1.0.0",
+    "@material-ui/icons": "^1.0.0",
+    "axios": "^0.18.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-particles-js": "^2.1.3",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "precommit": "pretty-quick --staged"
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0"
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.5",
+    "prettier": "^1.12.1",
+    "pretty-quick": "^1.4.1"
   }
 }
