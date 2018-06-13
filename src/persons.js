@@ -1691,6 +1691,22 @@ export const persons = [
       country: "USA (Willing to relocate!)"
     }
   },
-
+  {
+    id: 100,
+    name: "Andre Boothe",
+    img: "https://avatars0.githubusercontent.com/u/9014508?s=400&u=e12cfe727881743885c1ce40e595afc4e6069177&v=4",
+    links: {
+      website: "https://andreboothe-portfolio.herokuapp.com/",
+      linkedin: "https://www.linkedin.com/in/andre-boothe-552b6549/",
+      github: "https://github.com/andreboothe"
+    },
+    jobTitle: "Front End React Developer",
+    location: {
+      city: "Kingston",
+      state: "",
+      country: "Jamaica (Willing to relocate!)"
+    }
+  },
+  
 
 ];
