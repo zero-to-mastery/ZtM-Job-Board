@@ -1724,7 +1724,7 @@ export const persons = [
     }
   },
     {
-    id: [102],
+    id: 102,
     name: "Zach Sotak",
     img: "https://avatars0.githubusercontent.com/u/26771962?s=460&v=4",
     links: {
