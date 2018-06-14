@@ -1736,7 +1736,7 @@ export const persons = [
     location: {
       city: "Austin",
       state: "Texas",
-      country: USA"
+      country: "USA"
     }
   },
 
