@@ -1707,6 +1707,21 @@ export const persons = [
       country: "Jamaica (Willing to relocate!)"
     }
   },
-  
+  {
+    id: 101,
+    name: "Djordje Bukvic",
+    img: "https://avatars1.githubusercontent.com/u/31882265?s=40&u=0669030af633ca5112a4ca40c0aba08a019ede4c&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/djordje-bukvic-5a0814164/",
+      github: "https://github.com/madcoyot"
+    },
+    jobTitle: "Front End Developer, React.js",
+    location: {
+      city: "Banja Luka",
+      state: "",
+      country: "Bosnia and Herzegovina (Willing to relocate!)"
+    }
+  },
 
 ];
