@@ -1723,5 +1723,21 @@ export const persons = [
       country: "Bosnia and Herzegovina (Willing to relocate!)"
     }
   },
+    {
+    id: [102],
+    name: "Zach Sotak",
+    img: "https://avatars0.githubusercontent.com/u/26771962?s=460&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/zachariah-sotak/",
+      github: "https://github.com/zs1046"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Austin",
+      state: "Texas",
+      country: USA"
+    }
+  },
 
 ];
