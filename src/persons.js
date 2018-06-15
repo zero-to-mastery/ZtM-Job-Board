@@ -1646,7 +1646,7 @@ export const persons = [
   {
     id: 97,
     name: "YiFang Lo",
-    img: "https://bellalo12.github.io/portfolio/static/media/bella.88500d7a.png",
+    img: "https://bellalo12.github.io/portfolio/static/media/bella.35be8e14.png",
     links: {
       website: "https://bellalo12.github.io/portfolio/",
       linkedin: "https://www.linkedin.com/in/yifang-lo-a0a183158/",
@@ -1674,6 +1674,70 @@ export const persons = [
       state: "MD",
       country: "USA (Willing to relocate!)"
     }
-  }
+  },
+  {
+    id: 99,
+    name: "Wilfred Morgan",
+    img: "https://wilfredmorgan.com/images/wmeheadshot.jpg",
+    links: {
+      website: "https://wilfredmorgan.com",
+      linkedin: "https://www.linkedin.com/in/wilfredmorgan",
+      github: "https://github.com/wmemorgan"
+    },
+    jobTitle: "Software & Data Engineer",
+    location: {
+      city: "Orlando",
+      state: "FL",
+      country: "USA (Willing to relocate!)"
+    }
+  },
+  {
+    id: 100,
+    name: "Andre Boothe",
+    img: "https://avatars0.githubusercontent.com/u/9014508?s=400&u=e12cfe727881743885c1ce40e595afc4e6069177&v=4",
+    links: {
+      website: "https://andreboothe-portfolio.herokuapp.com/",
+      linkedin: "https://www.linkedin.com/in/andre-boothe-552b6549/",
+      github: "https://github.com/andreboothe"
+    },
+    jobTitle: "Front End React Developer",
+    location: {
+      city: "Kingston",
+      state: "",
+      country: "Jamaica (Willing to relocate!)"
+    }
+  },
+  {
+    id: 101,
+    name: "Djordje Bukvic",
+    img: "https://avatars1.githubusercontent.com/u/31882265?s=40&u=0669030af633ca5112a4ca40c0aba08a019ede4c&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/djordje-bukvic-5a0814164/",
+      github: "https://github.com/madcoyot"
+    },
+    jobTitle: "Front End Developer, React.js",
+    location: {
+      city: "Banja Luka",
+      state: "",
+      country: "Bosnia and Herzegovina (Willing to relocate!)"
+    }
+  },
+    {
+    id: 102,
+    name: "Zach Sotak",
+    img: "https://avatars0.githubusercontent.com/u/26771962?s=460&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/zachariah-sotak/",
+      github: "https://github.com/zs1046"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Austin",
+      state: "Texas",
+      country: "USA"
+    }
+  },
 
 ];
