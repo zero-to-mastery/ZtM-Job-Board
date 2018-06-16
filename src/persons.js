@@ -1739,5 +1739,21 @@ export const persons = [
       country: "USA"
     }
   },
+     {
+    id: 103,
+    name: "Ritesh Deshmukh",
+    img: "https://avatars2.githubusercontent.com/u/22695463?s=460&v=4",
+    links: {
+      website: "http://riteshd.com/",
+      linkedin: "https://www.linkedin.com/in/ritesh-deshmukh/",
+      github: "https://github.com/ritesh-deshmukh"
+    },
+    jobTitle: "Front-End Developer",
+    location: {
+      city: "Arlington",
+      state: "Texas",
+      country: "USA (Willing to relocate)"
+    }
+  },
 
 ];
