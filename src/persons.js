@@ -1740,4 +1740,21 @@ export const persons = [
     }
   },
 
+  {
+    id: 103,
+    name: "Flavia Nunes",
+    img: "https://scontent.fplu14-1.fna.fbcdn.net/v/t1.0-9/20664000_1985232535055509_7622612280580069264_n.jpg?_nc_cat=0&oh=e604935b16d251c7ec60c12383ebddd2&oe=5BB11B9B",
+    links: {
+      website: "flavianunes.github.io",
+      linkedin: "https://www.linkedin.com/in/flanunes/",
+      github: "https://github.com/flavianunes"
+    },
+    jobTitle: "Computer sciene student, freelancer developer",
+    location: {
+      city: "",
+      state: "",
+      country: "Brazil"
+    }
+  },
+
 ];
