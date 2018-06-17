@@ -1771,5 +1771,21 @@ export const persons = [
       country: "Canada"
     }
   },
+  {
+    id: [105],
+    name: "Abhinand",
+    img: "http://findabhinand.com/images/profile-pic.jpg",
+    links: {
+      website: "http://www.findabhinand.com",
+      linkedin: "https://www.linkedin.com/in/abhinand-05/",
+      github: "https://github.com/abhinand5"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Coimbatore",
+      state: "Tamilnadu",
+      country: "India"
+    }
+  },
 
 ];
