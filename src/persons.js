@@ -1771,5 +1771,21 @@ export const persons = [
       country: "India"
     }
   },
+  {
+    id: 105,
+    name: "David Ogbeide",
+    img: "https://avatars1.githubusercontent.com/u/13965870",
+    links: {
+      website: "https://dogbeide.github.io",
+      linkedin: "https://www.linkedin.com/in/david-ogbeide-037528a5/",
+      github: "https://dogbeide.github.com"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Toronto",
+      state: "Ontario",
+      country: "Canada"
+    }
+  },
 
 ];
