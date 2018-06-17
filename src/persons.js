@@ -1755,5 +1755,21 @@ export const persons = [
       country: "USA (Willing to relocate)"
     }
   },
+  {
+    id: 105,
+    name: "Abhinand",
+    img: "https://media.licdn.com/dms/image/C5103AQEB_f15z5dHPQ/profile-displayphoto-shrink_200_200/0?e=1534982400&v=beta&t=d_o1_63WnZpZ8JEaDiy-SmWzvgPb_lcuZ2SqqMwj_w4",
+    links: {
+      website: "http://findabhinand.com/",
+      linkedin: "https://www.linkedin.com/in/abhinand-05/",
+      github: "https://github.com/abhinand5"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Coimbatore",
+      state: "Tamilnadu",
+      country: "India"
+    }
+  },
 
 ];
