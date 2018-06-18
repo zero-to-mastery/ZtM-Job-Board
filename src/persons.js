@@ -1814,7 +1814,7 @@ export const persons = [
     linkedin: "https://www.linkedin.com/in/rahul-kumar943/",
     github: "https://github.com/rahuls321"
   },
-  jobTitle: "Web Developer",
+  jobTitle: "Web Developer ",
   location: {
     city: "Patna",
     state: "Bihar",
