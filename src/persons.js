@@ -1805,4 +1805,21 @@ export const persons = [
   }
 },
 
+  {
+  id: [107],
+  name: "Rahul Kumar",
+  img: "https://drive.google.com/open?id=1OEUFmLK_HXLOTq9QlwFobcybmPB1HY4c",
+  links: {
+    website: "",
+    linkedin: "https://www.linkedin.com/in/rahul-kumar943/",
+    github: "https://github.com/rahuls321"
+  },
+  jobTitle: "Web Developer",
+  location: {
+    city: "Patna",
+    state: "Bihar",
+    country: "India"
+  }
+},
+
 ];
