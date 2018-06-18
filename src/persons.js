@@ -1788,4 +1788,21 @@ export const persons = [
     }
   },
 
+  {
+  id: [106],
+  name: "Don Macarthur",
+  img: "https://en.gravatar.com/userimage/114762270/d89de0ecb7c354950b4191d024469db3.jpeg",
+  links: {
+    website: "https://donatron.github.io/portfolio",
+    linkedin: "https://www.linkedin.com/in/don-macarthur-652045a9/",
+    github: "https://github.com/Donatron"
+  },
+  jobTitle: "Web Developer",
+  location: {
+    city: "Gold Coast",
+    state: "Queensland",
+    country: "Australia"
+  }
+},
+
 ];
