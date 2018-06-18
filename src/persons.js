@@ -1821,5 +1821,21 @@ export const persons = [
     country: "India"
   }
 },
+{
+  id: [108],
+  name: "Marlon Ercillo",
+  img: "https://media.licdn.com/dms/image/C4E03AQGxX4p5AqIyNg/profile-displayphoto-shrink_100_100/0?e=1534982400&v=beta&t=oUxM2RdpAf59F1vrRnA7j7YWGJwdeVkO7dPGxl8o6yE",
+  links: {
+    website: "www.mercillo.com",
+    linkedin: "https://www.linkedin.com/in/marlon-ercillo-58057596/",
+    github: "https://github.com/mercillo"
+  },
+  jobTitle: "Front End Developer",
+  location: {
+    city: "San Diego",
+    state: "CA",
+    country: "United States"
+  }
+},
 
 ];
