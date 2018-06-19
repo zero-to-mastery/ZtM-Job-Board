@@ -1840,7 +1840,7 @@ export const persons = [
 {
     id: [109],
     name: "Kumar Anurag",
-    img: "https://drive.google.com/open?id=1I93jkYzwKpebWfcxHxhCdvB-o2Eoh0dj",
+    img: "https://avatars0.githubusercontent.com/u/31153544?s=400&v=4",
     links: {
       website: "https://kmranrg.github.io/MyBlog/",
       linkedin: "https://www.linkedin.com/in/kmranrg",
