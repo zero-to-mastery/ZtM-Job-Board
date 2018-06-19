@@ -1837,5 +1837,21 @@ export const persons = [
     country: "United States"
   }
 },
-
+{
+    id: [109],
+    name: "Kumar Anurag",
+    img: "https://drive.google.com/open?id=1I93jkYzwKpebWfcxHxhCdvB-o2Eoh0dj",
+    links: {
+      website: "https://kmranrg.github.io/MyBlog/",
+      linkedin: "https://www.linkedin.com/in/kmranrg",
+      github: "https://github.com/kmranrg"
+    },
+    jobTitle: "Full-Stack Web Developer",
+    location: {
+      city: "Delhi",
+      state: "New Delhi",
+      country: "India"
+    }
+},
+ 
 ];
