@@ -1853,7 +1853,7 @@ export const persons = [
       country: "India"
     }
 },
-{
+ {
     id: 110,
     name: "Gabriel Lomba Aguiar Costa",
     img: "https://media.licdn.com/dms/image/C5103AQEvo6KOpjKDPw/profile-displayphoto-shrink_200_200/0?e=1534982400&v=beta&t=LFwHESjCRP7p7JXDGU-3sYO_pZ0YQfhWu7lk8G8ZBRI",
