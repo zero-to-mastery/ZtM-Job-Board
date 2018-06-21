@@ -1853,5 +1853,20 @@ export const persons = [
       country: "India"
     }
 },
- 
+ {
+    id: [110],
+    name: "Scott Whitney",
+    img: "https://avatars0.githubusercontent.com/u/28842432?s=460&v=4",
+    links: {
+      website: "http://www.aslexpress.net/quizDev/",
+      linkedin: "www.linkedin.com/in/scott-whitney",
+      github: "https://github.com/whitneyscott"
+    },
+    jobTitle: "Full-Stack Web Developer",
+    location: {
+      city: "Nacogdoches",
+      state: "TX",
+      country: "USA"
+    }
+},
 ];
