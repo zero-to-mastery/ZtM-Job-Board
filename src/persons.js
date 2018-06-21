@@ -1756,7 +1756,7 @@ export const persons = [
     }
   },
   {
-    id: [104],
+    id: 104,
     name: "David Ogbeide",
     img: "https://avatars1.githubusercontent.com/u/13965870",
     links: {
@@ -1772,7 +1772,7 @@ export const persons = [
     }
   },
   {
-    id: [105],
+    id: 105,
     name: "Abhinand",
     img: "http://findabhinand.com/images/profile-pic.jpg",
     links: {
@@ -1789,7 +1789,7 @@ export const persons = [
   },
 
   {
-  id: [106],
+  id: 106,
   name: "Don Macarthur",
   img: "https://en.gravatar.com/userimage/114762270/d89de0ecb7c354950b4191d024469db3.jpeg",
   links: {
@@ -1806,7 +1806,7 @@ export const persons = [
 },
 
   {
-  id: [107],
+  id: 107,
   name: "Rahul Kumar",
   img: "https://drive.google.com/open?id=1OEUFmLK_HXLOTq9QlwFobcybmPB1HY4c",
   links: {
@@ -1822,7 +1822,7 @@ export const persons = [
   }
 },
 {
-  id: [108],
+  id: 108,
   name: "Marlon Ercillo",
   img: "https://media.licdn.com/dms/image/C4E03AQGxX4p5AqIyNg/profile-displayphoto-shrink_100_100/0?e=1534982400&v=beta&t=oUxM2RdpAf59F1vrRnA7j7YWGJwdeVkO7dPGxl8o6yE",
   links: {
@@ -1838,7 +1838,7 @@ export const persons = [
   }
 },
 {
-    id: [109],
+    id: 109,
     name: "Kumar Anurag",
     img: "https://avatars0.githubusercontent.com/u/31153544?s=400&v=4",
     links: {
@@ -1854,7 +1854,23 @@ export const persons = [
     }
 },
  {
-    id: [111],
+    id: 110,
+    name: "Gabriel Lomba Aguiar Costa",
+    img: "https://media.licdn.com/dms/image/C5103AQEvo6KOpjKDPw/profile-displayphoto-shrink_200_200/0?e=1534982400&v=beta&t=LFwHESjCRP7p7JXDGU-3sYO_pZ0YQfhWu7lk8G8ZBRI",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/gabriel-lomba-aguiar-costa",
+      github: "https://github.com/GabrielLomba"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Juiz de Fora",
+      state: "Minas Gerais",
+      country: "Brazil"
+    }
+},
+  {
+    id: 111,
     name: "Scott Whitney",
     img: "https://avatars0.githubusercontent.com/u/28842432?s=460&v=4",
     links: {
@@ -1870,3 +1886,4 @@ export const persons = [
     }
 },
 ];
+
