@@ -1912,7 +1912,7 @@ export const persons = [
     },
     jobTitle: "Full-Stack Web Developer",
     location: {
-      city: "Banhkok",
+      city: "Bangkok",
       state: "",
       country: "Thailand"
     }
