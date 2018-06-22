@@ -1901,5 +1901,22 @@ export const persons = [
       country: "India"
     }
   },
+  {
+    id: 113,
+    name: "BalalonKs",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "",
+      github: "https://github.com/BalalonKs"
+    },
+    jobTitle: "Full-Stack Web Developer",
+    location: {
+      city: "Bangkok",
+      state: "",
+      country: "Thailand"
+    }
+  },
+
 ];
 
