@@ -1917,6 +1917,21 @@ export const persons = [
       country: "Thailand"
     }
   },
-
+  {
+    id: 114,
+    name: "Reiz Ariva-Hale",
+    img: "https://res.cloudinary.com/r31z/image/upload/v1459058107/1_ghor9t.jpg",
+    links: {
+      website: "https://frontendreiz.com/",
+      linkedin: "https://www.linkedin.com/in/rariva-hale/",
+      github: "https://github.com/reizariva-hale"
+    },
+    jobTitle: "Front End Developer",
+    location: {
+      city: "Sydney",
+      state: "NSW",
+      country: "Australia"
+    }
+  },
 ];
 
