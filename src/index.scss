@@ -82,14 +82,12 @@ header {
 
   .header-items {
     margin-top: 0.7rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     height: 3rem;
     transition: height 0.3s ease;
   }
 
-  @media screen and (max-width:48rem) {
+  /* Some custom media queries below to properly show/hide menu bar stuff. Using tachyons size classes left the menu's layout broken on certain widths*/
+  @media screen and (max-width:47.5rem) {
         .hidden {
           position: absolute;
           top: -9999px;
@@ -98,7 +96,7 @@ header {
   }    
   
   .expand {
-    height: 10rem; 
+    height: 9rem; 
   }
 
   @media screen and (min-width:32rem) {
@@ -118,18 +116,13 @@ header {
     transition: opacity ease-in 0.1s;
   }
 
-  .search-area {
-    margin-left: 2rem;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+  @media screen and (max-width: 32rem) {
+     .SearchCategory {
+        margin: 1rem 0;
+    }
   }
 
-  .SearchCategory {
-    margin: 0.5rem 0;
-  }
-
-  /* Menu icon stuff*/
+  /* Menu icon stuff from https://www.w3schools.com/howto/howto_css_menu_icon.asp*/
   .menu-icon {
     cursor: pointer;
     margin-left: 2rem;
