@@ -1917,6 +1917,22 @@ export const persons = [
       country: "Thailand"
     }
   },
+  {
+    id: 114,
+    name: "James Saligbon",
+    img: "https://avatars1.githubusercontent.com/u/40145293?s=400&u=b772b12e1b18e4ca477b7f35a3bc29b0364996dd&v=4",
+    links: {
+      website: "",
+      linkedin: "",
+      github: "https://github.com/jsaligbon"
+    },
+    jobTitle: "Software Test Engineer, Web Developer, Python Developer",
+    location: {
+      city: "Manila",
+      state: "",
+      country: "Philippines"
+    }
+  },
 
 ];
 
