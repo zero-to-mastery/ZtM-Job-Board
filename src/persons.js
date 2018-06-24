@@ -1919,6 +1919,22 @@ export const persons = [
   },
   {
     id: 114,
+    name: "Reiz Ariva-Hale",
+    img: "https://res.cloudinary.com/r31z/image/upload/v1459058107/1_ghor9t.jpg",
+    links: {
+      website: "https://frontendreiz.com/",
+      linkedin: "https://www.linkedin.com/in/rariva-hale/",
+      github: "https://github.com/reizariva-hale"
+    },
+    jobTitle: "Front End Developer",
+    location: {
+      city: "Sydney",
+      state: "NSW",
+      country: "Australia"
+    }
+  },
+  {
+    id: 115,
     name: "James Saligbon",
     img: "https://avatars1.githubusercontent.com/u/40145293?s=400&u=b772b12e1b18e4ca477b7f35a3bc29b0364996dd&v=4",
     links: {
@@ -1933,6 +1949,5 @@ export const persons = [
       country: "Philippines"
     }
   },
-
 ];
 
