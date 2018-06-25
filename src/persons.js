@@ -1958,7 +1958,7 @@ export const persons = [
       linkedin: "https://www.linkedin.com/in/harkediansa/",
       github: "https://github.com/harked"
     },
-    jobTitle: "Full stack web/javascript developer",
+    jobTitle: "Full stack web(Javascript) developer",
     location: {
       city: "Batam",
       state: "Riau Islands",
