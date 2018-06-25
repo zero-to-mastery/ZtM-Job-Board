@@ -1949,5 +1949,21 @@ export const persons = [
       country: "Philippines"
     }
   },
+  {
+    id: 116,
+    name: "Randy Harkediansa",
+    img: "https://avatars3.githubusercontent.com/u/5647602?s=460&v=4",
+    links: {
+      website: "http://harked.name",
+      linkedin: "https://www.linkedin.com/in/harkediansa/",
+      github: "https://github.com/harked"
+    },
+    jobTitle: "Full stack web(Javascript) developer",
+    location: {
+      city: "Batam",
+      state: "Riau Islands",
+      country: "Indonesia"
+    }
+  },
 ];
 
