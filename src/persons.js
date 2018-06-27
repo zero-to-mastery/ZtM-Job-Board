@@ -1965,5 +1965,22 @@ export const persons = [
       country: "Indonesia"
     }
   },
+
+  {
+    id: 117,
+    name: "M S Srinivas",
+    img: "https://avatars2.githubusercontent.com/u/12976376?s=400&u=813cf8efbecc9962515b6303f57796011698c176&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/mssrinivasbhargav/",
+      github: "https://github.com/mssrinivas"
+      },
+      jobTitle: "Cloud Application Engineer",
+      location: {
+         city: "Hyderbad",
+         state: "",
+         country: "India"
+      }
+  }
 ];
 
