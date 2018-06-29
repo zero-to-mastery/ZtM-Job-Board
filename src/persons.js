@@ -1998,6 +1998,23 @@ export const persons = [
          state: "",
          country: "India"
       }
+  },
+  {
+    id: 118,
+    name: "Beverly Atijera",
+    img: "https://avatars0.githubusercontent.com/u/35483525?s=460&v=4",
+    links: {
+      website: "beverlyatijera.com",
+      linkedin: "https://linkedin.com/in/beverly-atijera/",
+      github: "https://github.com/bevssss"
+      },
+      jobTitle: "Web Developer|Wordpress Developer|Electronics Engineer",
+      location: {
+         city: "",
+         state: "",
+         country: "Philippines(Willing to relocate)"
+      }
   }
+  
 ];
 
