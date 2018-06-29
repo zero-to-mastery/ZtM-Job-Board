@@ -2014,7 +2014,21 @@ export const persons = [
          state: "",
          country: "Philippines(Willing to relocate)"
       }
-  }
-  
+  },
+  {
+    id: 119,
+    name: "Brittani Gongre",
+    img: "",
+    links: {
+      website: "https://brittanigongre.com",
+      linkedin: "https://www.linkedin.com/in/brittani-gongre-2b82b982/",
+      github: "https://github.com/bgongre"
+      },
+      jobTitle: "Front End Developer|Software Developer",
+      location: {
+         city: "Atlanta",
+         state: "Georgia",
+         country: "United States of America"
+      }
+    }
 ];
-
