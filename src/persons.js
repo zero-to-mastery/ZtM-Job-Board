@@ -2031,4 +2031,23 @@ export const persons = [
          country: "United States of America"
       }
     }
+
+    {
+    id: 120,
+    name: "Lang Gao",
+    img: "",
+    links: {
+      website: "www.langgao.org",
+      linkedin: "https://www.linkedin.com/in/lang-gao-294b1087/",
+      github: "https://github.com/ambitiousbird"
+      },
+      jobTitle: "Full Stack Web Developer|Software Engineer",
+      location: {
+         city: "Philadelphia",
+         state: "Pennnsylvania",
+         country: "United States of America"
+      }
+    }
+  
+  
 ];
