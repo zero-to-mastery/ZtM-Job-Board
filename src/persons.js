@@ -2030,7 +2030,7 @@ export const persons = [
          state: "Georgia",
          country: "United States of America"
       }
-    }
+    },
 
     {
     id: 120,
@@ -2047,7 +2047,7 @@ export const persons = [
          state: "Pennnsylvania",
          country: "United States of America"
       }
-    }
+    },
   
   
 ];
