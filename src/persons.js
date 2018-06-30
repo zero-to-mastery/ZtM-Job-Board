@@ -2049,18 +2049,18 @@ export const persons = [
     },
     {
       id: [121],
-      name: "[Aviwe Ngqukumba]",
-      img: "[YOUR_IMG_URL]",
+      name: "Aviwe Ngqukumba",
+      img: "YOUR_IMG_URL",
       links: {
-        website: "[https://aviwembekeni.github.io/]",
-        linkedin: "[https://www.linkedin.com/in/aviwe-ngqukumba-519369150]",
-        github: "[https://github.com/aviwembekeni]"
+        website: "https://aviwembekeni.github.io/",
+        linkedin: "https://www.linkedin.com/in/aviwe-ngqukumba-519369150",
+        github: "https://github.com/aviwembekeni"
       },
-      jobTitle: "[Full Stack Web Developer]",
+      jobTitle: "Full Stack Web Developer",
       location: {
-        city: "[Cape Town]",
-        state: "[Western Cape]",
-        country: "[South Africa]"
+        city: "Cape Town",
+        state: "Western Cape",
+        country: "South Africa"
       }
     },
   
