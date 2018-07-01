@@ -1853,5 +1853,21 @@ export const persons = [
       country: "India"
     }
 },
+{
+  id:[110],
+  name: "Gadfrey Balacy",
+  img: "https://avatars3.githubusercontent.com/u/18605878?s=400&u=43ce2aa03beb74884ac1270974cd019823abcfc5&v=4",
+  links: {
+    website: "https://gadfrey13.github.io/portfolio/",
+    linkedin: "www.linkedin.com/in/gadfreybalacy",
+    github: "https://github.com/gadfrey13",
+  },
+  jobTitle: "Java Developer Web Developer",
+  location: {
+    city: "Sacramento",
+    state: "California",
+    contry: "United States"
+  }
+}
  
 ];
