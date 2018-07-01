@@ -933,7 +933,6 @@ export const persons = [
       country: "Austria"
     }
   },
-
   {
     id: 55,
     name: "Darryl Steve Ferdinands",
@@ -1756,7 +1755,7 @@ export const persons = [
     }
   },
   {
-    id: [104],
+    id: 104,
     name: "David Ogbeide",
     img: "https://avatars1.githubusercontent.com/u/13965870",
     links: {
@@ -1772,7 +1771,7 @@ export const persons = [
     }
   },
   {
-    id: [105],
+    id: 105,
     name: "Abhinand",
     img: "http://findabhinand.com/images/profile-pic.jpg",
     links: {
@@ -1789,7 +1788,24 @@ export const persons = [
   },
 
   {
-  id: [106],
+    id: 103,
+    name: "Flavia Nunes",
+    img: "https://scontent.fplu14-1.fna.fbcdn.net/v/t1.0-9/20664000_1985232535055509_7622612280580069264_n.jpg?_nc_cat=0&oh=e604935b16d251c7ec60c12383ebddd2&oe=5BB11B9B",
+    links: {
+      website: "flavianunes.github.io",
+      linkedin: "https://www.linkedin.com/in/flanunes/",
+      github: "https://github.com/flavianunes"
+    },
+    jobTitle: "Computer sciene student, freelancer developer",
+    location: {
+      city: "",
+      state: "",
+      country: "Brazil"
+    }
+  },
+
+  {
+  id: 106,
   name: "Don Macarthur",
   img: "https://en.gravatar.com/userimage/114762270/d89de0ecb7c354950b4191d024469db3.jpeg",
   links: {
@@ -1806,7 +1822,7 @@ export const persons = [
 },
 
   {
-  id: [107],
+  id: 107,
   name: "Rahul Kumar",
   img: "https://drive.google.com/open?id=1OEUFmLK_HXLOTq9QlwFobcybmPB1HY4c",
   links: {
@@ -1822,7 +1838,7 @@ export const persons = [
   }
 },
 {
-  id: [108],
+  id: 108,
   name: "Marlon Ercillo",
   img: "https://media.licdn.com/dms/image/C4E03AQGxX4p5AqIyNg/profile-displayphoto-shrink_100_100/0?e=1534982400&v=beta&t=oUxM2RdpAf59F1vrRnA7j7YWGJwdeVkO7dPGxl8o6yE",
   links: {
@@ -1838,7 +1854,7 @@ export const persons = [
   }
 },
 {
-    id: [109],
+    id: 109,
     name: "Kumar Anurag",
     img: "https://avatars0.githubusercontent.com/u/31153544?s=400&v=4",
     links: {
@@ -1853,8 +1869,203 @@ export const persons = [
       country: "India"
     }
 },
+  
+ {
+    id: 110,
+    name: "Gabriel Lomba Aguiar Costa",
+    img: "https://media.licdn.com/dms/image/C5103AQEvo6KOpjKDPw/profile-displayphoto-shrink_200_200/0?e=1534982400&v=beta&t=LFwHESjCRP7p7JXDGU-3sYO_pZ0YQfhWu7lk8G8ZBRI",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/gabriel-lomba-aguiar-costa",
+      github: "https://github.com/GabrielLomba"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Juiz de Fora",
+      state: "Minas Gerais",
+      country: "Brazil"
+    }
+},
+  {
+    id: 111,
+    name: "Scott Whitney",
+    img: "https://avatars0.githubusercontent.com/u/28842432?s=460&v=4",
+    links: {
+      website: "http://www.aslexpress.net/quizDev/",
+      linkedin: "www.linkedin.com/in/scott-whitney",
+      github: "https://github.com/whitneyscott"
+    },
+    jobTitle: "Full-Stack Web Developer",
+    location: {
+      city: "Nacogdoches",
+      state: "TX",
+      country: "USA"
+    }
+},
 {
-  id:[110],
+    id: 112,
+    name: "Sanidhya Samadhiya",
+    img: "https://scontent.fbho1-1.fna.fbcdn.net/v/t1.0-0/p206x206/28167086_2018682501737168_5897662160270067359_n.jpg?_nc_cat=0&oh=7c5850e643d5f1b6b2bc335e2f682f2a&oe=5BB9B5AD",
+    links: {
+      website: "",
+      linkedin: "",
+      github: "https://github.com/sanidhya2000"
+    },
+    jobTitle: "Full-Stack Web Developer",
+    location: {
+      city: "Guna",
+      state: "Madhya Pradesh",
+      country: "India"
+    }
+  },
+  {
+    id: 113,
+    name: "BalalonKs",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "",
+      github: "https://github.com/BalalonKs"
+    },
+    jobTitle: "Full-Stack Web Developer",
+    location: {
+      city: "Bangkok",
+      state: "",
+      country: "Thailand"
+    }
+  },
+  {
+    id: 114,
+    name: "Reiz Ariva-Hale",
+    img: "https://res.cloudinary.com/r31z/image/upload/v1459058107/1_ghor9t.jpg",
+    links: {
+      website: "https://frontendreiz.com/",
+      linkedin: "https://www.linkedin.com/in/rariva-hale/",
+      github: "https://github.com/reizariva-hale"
+    },
+    jobTitle: "Front End Developer",
+    location: {
+      city: "Sydney",
+      state: "NSW",
+      country: "Australia"
+    }
+  },
+  {
+    id: 115,
+    name: "James Saligbon",
+    img: "https://avatars1.githubusercontent.com/u/40145293?s=400&u=b772b12e1b18e4ca477b7f35a3bc29b0364996dd&v=4",
+    links: {
+      website: "",
+      linkedin: "",
+      github: "https://github.com/jsaligbon"
+    },
+    jobTitle: "Software Test Engineer, Web Developer, Python Developer",
+    location: {
+      city: "Manila",
+      state: "",
+      country: "Philippines"
+    }
+  },
+  {
+    id: 116,
+    name: "Randy Harkediansa",
+    img: "https://avatars3.githubusercontent.com/u/5647602?s=460&v=4",
+    links: {
+      website: "http://harked.name",
+      linkedin: "https://www.linkedin.com/in/harkediansa/",
+      github: "https://github.com/harked"
+    },
+    jobTitle: "Full stack web(Javascript) developer",
+    location: {
+      city: "Batam",
+      state: "Riau Islands",
+      country: "Indonesia"
+    }
+  },
+
+  {
+    id: 117,
+    name: "M S Srinivas",
+    img: "https://avatars2.githubusercontent.com/u/12976376?s=400&u=813cf8efbecc9962515b6303f57796011698c176&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/mssrinivasbhargav/",
+      github: "https://github.com/mssrinivas"
+      },
+      jobTitle: "Cloud Application Engineer",
+      location: {
+         city: "Hyderbad",
+         state: "",
+         country: "India"
+      }
+  },
+  {
+    id: 118,
+    name: "Beverly Atijera",
+    img: "https://avatars0.githubusercontent.com/u/35483525?s=460&v=4",
+    links: {
+      website: "beverlyatijera.com",
+      linkedin: "https://linkedin.com/in/beverly-atijera/",
+      github: "https://github.com/bevssss"
+      },
+      jobTitle: "Web Developer|Wordpress Developer|Electronics Engineer",
+      location: {
+         city: "",
+         state: "",
+         country: "Philippines(Willing to relocate)"
+      }
+  },
+  {
+    id: 119,
+    name: "Brittani Gongre",
+    img: "",
+    links: {
+      website: "https://brittanigongre.com",
+      linkedin: "https://www.linkedin.com/in/brittani-gongre-2b82b982/",
+      github: "https://github.com/bgongre"
+      },
+      jobTitle: "Front End Developer|Software Developer",
+      location: {
+         city: "Atlanta",
+         state: "Georgia",
+         country: "United States of America"
+      }
+    },
+
+    {
+    id: 120,
+    name: "Lang Gao",
+    img: "",
+    links: {
+      website: "www.langgao.org",
+      linkedin: "https://www.linkedin.com/in/lang-gao-294b1087/",
+      github: "https://github.com/ambitiousbird"
+      },
+      jobTitle: "Full Stack Web Developer|Software Engineer",
+      location: {
+         city: "Philadelphia",
+         state: "Pennnsylvania",
+         country: "United States of America"
+      }
+    },
+    {
+      id: [121],
+      name: "Aviwe Ngqukumba",
+      img: "YOUR_IMG_URL",
+      links: {
+        website: "https://aviwembekeni.github.io/",
+        linkedin: "https://www.linkedin.com/in/aviwe-ngqukumba-519369150",
+        github: "https://github.com/aviwembekeni"
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Cape Town",
+        state: "Western Cape",
+        country: "South Africa"
+      }
+    },
+  {
+  id: 122,
   name: "Gadfrey Balacy",
   img: "https://avatars3.githubusercontent.com/u/18605878?s=400&u=43ce2aa03beb74884ac1270974cd019823abcfc5&v=4",
   links: {
@@ -1868,6 +2079,6 @@ export const persons = [
     state: "California",
     contry: "United States"
   }
-}
+},
  
 ];
