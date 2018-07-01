@@ -2080,5 +2080,20 @@ export const persons = [
     contry: "United States"
   }
 },
+  {
+    id: 123,
+    name: "Nathan Freney",
+    img: "https://media.licdn.com/dms/image/C5603AQFZZ5eUxdAe5A/profile-displayphoto-shrink_100_100/0?e=1536192000&v=beta&t=YoOErrwwFmwD8ZrQYhH0mIxAbxl7LQlthvV6mJ3u1gc",
+    links: {
+      linkedin: "https://www.linkedin.com/in/nfreney/",
+      github: "https://github.com/nathanfr"
+    },
+    jobTitle: "Data Scientist",
+    location: {
+      city: "Seattle",
+      state: "Washington",
+      country: "United States"
+    }
+  },
  
 ];
