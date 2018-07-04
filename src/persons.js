@@ -2111,4 +2111,21 @@ export const persons = [
       country: "Argentina"
     }
   },
+    
+    {
+    id: 125,
+    name: "Rocío Sirvent",
+    img: "https://photos.app.goo.gl/E5f9qz5YCRWkdmQa8",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/miperfilenlinkedin/?locale=en_US",
+      github: "https://github.com/Ro008"
+    },
+    jobTitle: "Full stack web developer",
+    location: {
+      city: "Luxembourg",
+      state: "",
+      country: ""
+    }
+  },
 ];
