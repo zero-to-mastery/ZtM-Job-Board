@@ -2128,4 +2128,21 @@ export const persons = [
       country: ""
     }
   },
+
+  {
+    id: 126,
+    name: "Ihar Mashniakou",
+    img: "https://avatars3.githubusercontent.com/u/39849452?s=460&v=4",
+    links: {
+      website: "http://iharson.ru/",
+      linkedin: "https://www.linkedin.com/in/%D0%B8%D0%B3%D0%BE%D1%80%D1%8C-%D0%BC%D0%BE%D1%88%D0%BD%D1%8F%D0%BA%D0%BE%D0%B2-5b0574b1/",
+      github: "https://github.com/Iharson"
+    },
+    jobTitle: "Front End Developer",
+    location: {
+      city: "Minsk",
+      state: "",
+      country: "Belarus"
+    }
+  },
 ];
