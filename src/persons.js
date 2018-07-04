@@ -2049,7 +2049,7 @@ export const persons = [
       }
     },
     {
-      id: [121],
+      id: 121,
       name: "Aviwe Ngqukumba",
       img: "YOUR_IMG_URL",
       links: {
@@ -2096,7 +2096,7 @@ export const persons = [
     }
   },
   {
-    id: [124,
+    id: 124,
     name: "Pablo Weisbek",
     img: "https://avatars3.githubusercontent.com/u/36734796?s=400&u=4bb889fdafe7a1ba83c03dd6642db9de06f09c7b&v=4",
     links: {
