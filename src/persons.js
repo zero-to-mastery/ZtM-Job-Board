@@ -1869,7 +1869,7 @@ export const persons = [
       country: "India"
     }
 },
-  
+
  {
     id: 110,
     name: "Gabriel Lomba Aguiar Costa",
@@ -2049,7 +2049,7 @@ export const persons = [
       }
     },
     {
-      id: [121],
+      id: 121,
       name: "Aviwe Ngqukumba",
       img: "YOUR_IMG_URL",
       links: {
@@ -2095,5 +2095,54 @@ export const persons = [
       country: "United States"
     }
   },
- 
+  {
+    id: 124,
+    name: "Pablo Weisbek",
+    img: "https://avatars3.githubusercontent.com/u/36734796?s=400&u=4bb889fdafe7a1ba83c03dd6642db9de06f09c7b&v=4",
+    links: {
+      website: "pablowbk.github.io",
+      linkedin: "",
+      github: "https://github.com/pablowbk"
+    },
+    jobTitle: "Front End Developer / Photographer",
+    location: {
+      city: "Santa Clara del Mar",
+      state: "Buenos Aires",
+      country: "Argentina"
+    }
+  },
+    
+    {
+    id: 125,
+    name: "Rocío Sirvent",
+    img: "https://photos.app.goo.gl/E5f9qz5YCRWkdmQa8",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/miperfilenlinkedin/?locale=en_US",
+      github: "https://github.com/Ro008"
+    },
+    jobTitle: "Full stack web developer",
+    location: {
+      city: "Luxembourg",
+      state: "",
+      country: ""
+    }
+  },
+
+  {
+    id: 126,
+    name: "Ihar Mashniakou",
+    img: "https://avatars3.githubusercontent.com/u/39849452?s=460&v=4",
+    links: {
+      website: "http://iharson.ru/",
+      linkedin: "https://www.linkedin.com/in/%D0%B8%D0%B3%D0%BE%D1%80%D1%8C-%D0%BC%D0%BE%D1%88%D0%BD%D1%8F%D0%BA%D0%BE%D0%B2-5b0574b1/",
+      github: "https://github.com/Iharson"
+    },
+    jobTitle: "Front End Developer",
+    location: {
+      city: "Minsk",
+      state: "",
+      country: "Belarus"
+    }
+  },
 ];
