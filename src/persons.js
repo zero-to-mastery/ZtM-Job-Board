@@ -2100,18 +2100,18 @@ export const persons = [
     name: "Pablo Weisbek",
     img: "https://avatars3.githubusercontent.com/u/36734796?s=400&u=4bb889fdafe7a1ba83c03dd6642db9de06f09c7b&v=4",
     links: {
-      website: "pablowbk.github.io",
+      website: "https://pablowbk.github.io",
       linkedin: "",
       github: "https://github.com/pablowbk"
     },
-    jobTitle: "Front End Developer / Photographer",
+    jobTitle: "Front End Developer | Photographer",
     location: {
       city: "Santa Clara del Mar",
       state: "Buenos Aires",
       country: "Argentina"
     }
   },
-    
+
     {
     id: 125,
     name: "Rocío Sirvent",
