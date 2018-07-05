@@ -2037,7 +2037,7 @@ export const persons = [
     name: "Lang Gao",
     img: "",
     links: {
-      website: "www.langgao.org",
+      website: "http://langgao.org",
       linkedin: "https://www.linkedin.com/in/lang-gao-294b1087/",
       github: "https://github.com/ambitiousbird"
       },
