@@ -2134,7 +2134,7 @@ export const persons = [
     name: "Ihar Mashniakou",
     img: "https://avatars3.githubusercontent.com/u/39849452?s=460&v=4",
     links: {
-      website: "http://iharson.ru/",
+      website: "",
       linkedin: "https://www.linkedin.com/in/%D0%B8%D0%B3%D0%BE%D1%80%D1%8C-%D0%BC%D0%BE%D1%88%D0%BD%D1%8F%D0%BA%D0%BE%D0%B2-5b0574b1/",
       github: "https://github.com/Iharson"
     },
@@ -2143,6 +2143,23 @@ export const persons = [
       city: "Minsk",
       state: "",
       country: "Belarus"
+    }
+  },
+
+  {
+    id: 127,
+    name: "Christian Marca",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/christian-marca-663605167/",
+      github: "https://github.com/ChristianMarca"
+    },
+    jobTitle: "Electronic Engineer in Telecommunications | WEB Developer",
+    location: {
+      city: "Cuenca",
+      state: "",
+      country: "Ecuador"
     }
   },
 ];
