@@ -2162,4 +2162,20 @@ export const persons = [
       country: "Ecuador"
     }
   },
+  {
+    id: 128,
+    name: "Sivaram Pandariganthan",
+    img: "",
+    links: {
+      website: "sivarampg.github.io",
+      linkedin: "https://www.linkedin.com/in/sivaram-pandariganthan-b753a2145/",
+      github: "https://github.com/SivaramPg"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Panvel",
+      state: "Maharashtra",
+      country: "India"
+    }
+  },
 ];
