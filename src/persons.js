@@ -2167,7 +2167,7 @@ export const persons = [
     name: "Sivaram Pandariganthan",
     img: "",
     links: {
-      website: "sivarampg.github.io",
+      website: "https://sivarampg.github.io",
       linkedin: "https://www.linkedin.com/in/sivaram-pandariganthan-b753a2145/",
       github: "https://github.com/SivaramPg"
     },
