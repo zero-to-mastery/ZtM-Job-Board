@@ -2209,5 +2209,5 @@ export const persons = [
       state: "Colorado",
       country: "USA"
     }
-  }
+  },
 ];
