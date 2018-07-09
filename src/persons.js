@@ -2194,4 +2194,20 @@ export const persons = [
       country: "Australia"
     }
   },
+  {
+    id: 130,
+    name: "Taiwei Ko",
+    img: "https://3gengagement.com/wp-content/uploads/2017/10/staff-780x500-taiwei_ko.png",
+    links: {
+      website: "http://taiweiko.com/",
+      linkedin: "https://www.linkedin.com/in/taiweiko/",
+      github: "https://github.com/macgeek30"
+    },
+    jobTitle: "Full Stack UI/UX Developer | Full Stack Web Developer",
+    location: {
+      city: "Colorado Springs",
+      state: "Colorado",
+      country: "USA"
+    }
+  }
 ];
