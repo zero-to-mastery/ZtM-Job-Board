@@ -2178,8 +2178,6 @@ export const persons = [
       country: "India"
     }
   },
-];
-
 {
     id: 129,
     name: "Radhika Maheshwari",
