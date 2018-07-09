@@ -2178,4 +2178,20 @@ export const persons = [
       country: "India"
     }
   },
+{
+    id: 129,
+    name: "Radhika Maheshwari",
+    img: "",
+    links: {
+      website: "https://Radhika8818.github.io",
+      linkedin: "https://www.linkedin.com/in/radhika-maheshwari-601a0515a/",
+      github: "https://github.com/Radhika8818"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Sydney",
+      state: "New South Wales",
+      country: "Australia"
+    }
+  },
 ];
