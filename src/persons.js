@@ -2226,4 +2226,20 @@ export const persons = [
       country: ""
     }
   },
+  {
+    id: 132,
+    name: "Kaemon Lovendahl",
+    img: "https://kaemonisland.github.io/home/resources/images/Profileglasses.jpeg",
+    links: {
+      website: "https://kaemonisland.github.io/home/",
+      linkedin: "https://www.linkedin.com/in/kaemon-lovendahl-08150564/",
+      github: "https://github.com/KaemonIsland"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Salt Lake City",
+      state: "UT",
+      country: "USA"
+    }
+  },
 ];
