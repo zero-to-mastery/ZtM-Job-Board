@@ -2210,4 +2210,20 @@ export const persons = [
       country: "USA"
     }
   },
+  {
+    id: 131,
+    name: "Jorge Goris",
+    img: "https://avatars3.githubusercontent.com/u/25212548?s=460&v=4",
+    links: {
+      website: "http://jorgegoris.com/",
+      linkedin: "https://www.linkedin.com/in/jorge-goris/",
+      github: "https://github.com/JorgeG1105"
+    },
+    jobTitle: "Full-Stack Developer",
+    location: {
+      city: "Bronx",
+      state: "NY",
+      country: ""
+    }
+  },
 ];
