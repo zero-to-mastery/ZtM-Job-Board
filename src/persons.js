@@ -2242,4 +2242,21 @@ export const persons = [
       country: "USA"
     }
   },
+
+  {
+    id: 133,
+    name: "Nhan Pham",
+    img: "#",
+    links: {
+      website: "#",
+      linkedin: "https://www.linkedin.com/in/nhan-pham-7315a8148/",
+      github: "https://github.com/vinpearland"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Kansas City",
+      state: "MO",
+      country: "USA"
+    }
+  },
 ];

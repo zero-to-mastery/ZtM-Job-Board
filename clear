@@ -1,0 +1,26 @@
+[1mdiff --git a/src/persons.js b/src/persons.js[m
+[1mindex 079427c..d108df0 100644[m
+[1m--- a/src/persons.js[m
+[1m+++ b/src/persons.js[m
+[36m@@ -2242,4 +2242,21 @@[m [mexport const persons = [[m
+       country: "USA"[m
+     }[m
+   },[m
+[32m+[m
+[32m+[m[32m  {[m
+[32m+[m[32m    id: 133,[m
+[32m+[m[32m    name: "Nhan Pham",[m
+[32m+[m[32m    img: "#",[m
+[32m+[m[32m    links: {[m
+[32m+[m[32m      website: "#",[m
+[32m+[m[32m      linkedin: "https://www.linkedin.com/in/nhan-pham-7315a8148/",[m
+[32m+[m[32m      github: "https://github.com/vinpearland"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    jobTitle: "Web Developer",[m
+[32m+[m[32m    location: {[m
+[32m+[m[32m      city: "Kansas City",[m
+[32m+[m[32m      state: "MO",[m
+[32m+[m[32m      country: "USA"[m
+[32m+[m[32m    }[m
+[32m+[m[32m  },[m
+ ];[m
