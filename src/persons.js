@@ -4519,7 +4519,7 @@ export const persons = [
     },
 
     {
-        id: [134],
+        id: 134,
         name: "Justin Lin",
         img: "https://photos.google.com/search/prom/photo/AF1QipPfkjqn0y2L8zWuqeqmZ2MBZmY5bGzav2FZ9rFE",
         links: {
