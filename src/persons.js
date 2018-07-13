@@ -4517,4 +4517,22 @@ export const persons = [
             country: "India"
         }
     },
+
+    {
+        id: 134,
+        name: "Justin Lin",
+        img: "https://photos.google.com/search/prom/photo/AF1QipPfkjqn0y2L8zWuqeqmZ2MBZmY5bGzav2FZ9rFE",
+        links: {
+          website: "",
+          linkedin: "https://www.linkedin.com/in/justinlinw/",
+          github: "github.com/justinwlin"
+        },
+        jobTitle: "FullStack Developer | Software Engineer | Student",
+        location: {
+          city: "Irvine | NYC",
+          state: "CA | NY",
+          country: "USA"
+        }
+      },
+
 ];
