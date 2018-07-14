@@ -4535,4 +4535,22 @@ export const persons = [
         }
       },
 
+    {
+        id: 135,
+        name: "Viaceslav Vasiljev",
+        img: "https://www.theacshop.com/vvasiljevAvatar.jpg",
+        links: {
+            website: "",
+            linkedin: "www.linkedin.com/in/vjvasiljev",
+            github: "https://github.com/vjvasiljev"
+        },
+        jobTitle: "Front End Developer",
+        location: {
+            city: "Klaipeda",
+            state: "",
+            country: "Lithuania"
+        }
+    },
+
+
 ];
