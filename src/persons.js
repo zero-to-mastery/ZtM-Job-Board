@@ -4569,4 +4569,21 @@ export const persons = [
     }
   },
 
+    {
+    id: 137,
+    name: "Anish Ojha",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/anish-ojha-281a1a100",
+      github: "https://www.github.com/Anishgoofle"
+    },
+    jobTitle: "Software-Developer",
+    location: {
+      city: "",
+      state: "",
+      country: "India"
+    }
+  },
+
 ];
