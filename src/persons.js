@@ -4551,7 +4551,7 @@ export const persons = [
             country: "Lithuania"
         }
     },
-    
+
   {
     id: 136,
     name: "Matt Gaddes",
@@ -4602,5 +4602,21 @@ export const persons = [
       country: "Venezuela"
     }
   },
+  {
+      id: 139,
+      name: "Brittany French",
+      img: "https://media.licdn.com/dms/image/C5603AQGZf9jlQAIqWw/profile-displayphoto-shrink_200_200/0?e=1537401600&v=beta&t=UpkDFyEub9vZ1i8cGBbJVh5X1omTitszSRYGig6w8n8",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/brittanyfrench/",
+        github: "https://github.com/frenchie048"
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Scottsdale",
+        state: "AZ",
+        country: "USA"
+      }
+    },
 
 ];
