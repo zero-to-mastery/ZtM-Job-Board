@@ -4586,4 +4586,21 @@ export const persons = [
     }
   },
 
+    {
+    id: 138,
+    name: "Jacobo Martinez",
+    img: "https://raw.githubusercontent.com/cobimr/cobimr.github.io/master/assets/images/profile.jpg",
+    links: {
+      website: "https://cobimr.github.io/",
+      linkedin: "https://linkedin.com/in/cobimr",
+      github: "https://github.com/cobimr"
+    },
+    jobTitle: "Front-End Developer",
+    location: {
+      city: "Caracas",
+      state: "",
+      country: "Venezuela"
+    }
+  },
+
 ];
