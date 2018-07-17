@@ -4618,5 +4618,21 @@ export const persons = [
         country: "USA"
       }
     },
+    {
+    id: 140,
+    name: "Meet Patel",
+    img: "https://avatars0.githubusercontent.com/u/35022070?s=400&u=b76dfbc5a10ab985fde4671a2dd55236c01a3c2d&v=4",
+    links: {
+      website: "https://mdpatel7.github.io",
+      linkedin: "https://www.linkedin.com/in/mdpatel7",
+      github: "https://github.com/mdpatel7"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Phoenix",
+      state: "AZ",
+      country: "USA"
+    }
+  },
 
 ];
