@@ -4619,4 +4619,22 @@ export const persons = [
       }
     },
 
+    {
+      id: 141,
+      name: "Maitreyi Thakkar",
+      img: " "      
+      links: {
+        website: "https://maitreyithakkar.000webhostapp.com/",
+        linkedin: "https://www.linkedin.com/in/maitreyithakkar/",
+        github: "https://github.com/mthakka2"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Tempe",
+        state: "Arizona",
+        country: "Unites States of America"
+      }
+    },
+
+
 ];
