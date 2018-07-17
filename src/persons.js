@@ -4622,7 +4622,7 @@ export const persons = [
     {
       id: 141,
       name: "Maitreyi Thakkar",
-      img: " "      
+      img: " ",      
       links: {
         website: "https://maitreyithakkar.000webhostapp.com/",
         linkedin: "https://www.linkedin.com/in/maitreyithakkar/",
