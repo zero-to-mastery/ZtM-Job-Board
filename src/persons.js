@@ -4667,5 +4667,20 @@ export const persons = [
     country: "Philippines"
   }
 },
-
+ {
+    id: 143,
+    name: "Luca Castelnuovo",
+    img: "https://avatars1.githubusercontent.com/u/26206253?s=400&u=acf60656ff9f2d7b8cba01001fa8e2e7ff2a03b5&v=4",
+    links: {
+      website: "https://lucacastelnuovo.nl",
+      linkedin: "https://www.linkedin.com/in/ltcastelnuovo",
+      github: "https://github.com/Luca-Castelnuovo"
+    },
+    jobTitle: "Full-Stack dev in training",
+    location: {
+      city: "Amsterdam",
+      state: "",
+      country: "The Netherlands"
+    }
+  },
 ];
