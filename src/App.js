@@ -20,7 +20,13 @@ class App extends Component {
   }
 
   onCategoryChange = (event) =>{
-    this.setState({category:event.target.value})
+    this.setState({
+      category:event.target.value,
+      searchfield:''
+    });
+    let searchInput = document.querySelector('#searchbox input'); 
+    searchInput.value = '';
+    searchInput.focus();
   }
 
   toggleMenu = () => {
