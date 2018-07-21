@@ -4683,4 +4683,20 @@ export const persons = [
       country: "The Netherlands"
     }
   },
+  {
+    id: 144,
+    name: "Mark Anthony Saromines",
+    img: "https://avatars1.githubusercontent.com/u/40188798?s=460&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/tonysaromines",
+      github: "https://github.com/tonvlad88"
+    },
+    jobTitle: "PHP Developer, Delphi Developer, Full-Stack Developer in training",
+    location: {
+      city: "Cebu",
+      state: "",
+      country: "Philippines"
+    }
+  },
 ];
