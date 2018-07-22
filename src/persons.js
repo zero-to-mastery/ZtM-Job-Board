@@ -4699,4 +4699,20 @@ export const persons = [
       country: "Philippines"
     }
   },
+  {
+    id: 145,
+    name: "Miguel Ben",
+    img:"https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/17796423_10154826007246077_8781580105085699644_n.jpg?_nc_cat=0&oh=3024a1cf3b3be9b901d6131011905bfc&oe=5BDF60BA",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/miguelben",
+      github: "https://www.github.com/mius00"
+    },
+    jobTitle: "Front-End Dev",
+    location: {
+      city: "Manhattan",
+      state: "New York",
+      country: "United States"
+    }
+  },
 ];
