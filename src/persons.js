@@ -4715,4 +4715,20 @@ export const persons = [
       country: "United States"
     }
   },
+  {
+    id: 146,
+    name: "Saniyad Hussain",
+    img:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/1736121/profile/profile-512.jpg?1528177882",
+    links: {
+      website: "https://saniyad-hussain.github.io/portfolio/",
+      linkedin: "https://www.linkedin.com/in/saniyad-hussain-5aaa6914b/",
+      github: "https://www.github.com/saniyad-hussain"
+    },
+    jobTitle: "Front-End & WordPress Developer",
+    location: {
+      city: "Sylhet",
+      state: "",
+      country: "Bangladesh"
+    }
+  },
 ];
