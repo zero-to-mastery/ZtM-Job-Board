@@ -4638,7 +4638,7 @@ export const persons = [
 {
   id: 141,
   name: "Maitreyi Thakkar",
-  img: " ",      
+  img: " ",
   links: {
     website: "https://maitreyithakkar.000webhostapp.com/",
     linkedin: "https://www.linkedin.com/in/maitreyithakkar/",
@@ -4654,7 +4654,7 @@ export const persons = [
 {
   id: 142,
   name: "Efraim A. Lorenzana",
-  img: "https://drive.google.com/open?id=1AwOIao9RBBIdhC7FRK0ZIkwOyB6OB6uZ",      
+  img: "https://drive.google.com/open?id=1AwOIao9RBBIdhC7FRK0ZIkwOyB6OB6uZ",
   links: {
     website: "https://efraimlorenzana.github.io/portfolio/",
     linkedin: "https://www.linkedin.com/in/efraim-lorenzana-4bbb2575/",
@@ -4713,6 +4713,22 @@ export const persons = [
       city: "Manhattan",
       state: "New York",
       country: "United States"
+    }
+  },
+  {
+    id: 145,
+    name: "Ignacio Rodrigues",
+    img:"https://avatars2.githubusercontent.com/u/22848246?s=460&v=4",
+    links: {
+      website: "http://www.ignaciorodrigues.com/",
+      linkedin: "https://www.linkedin.com/in/ignaciorodriguesoficial/",
+      github: "https://www.github.com/IgnacioRodrigues"
+    },
+    jobTitle: "UX Full Stack Developer",
+    location: {
+      city: "Mar del Plata",
+      state: "Buenos Aires",
+      country: "Argentina"
     }
   },
 ];
