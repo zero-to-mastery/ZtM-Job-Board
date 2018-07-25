@@ -4731,4 +4731,20 @@ export const persons = [
       country: "Argentina"
     }
   },
+   {
+    id: 147,
+    name: "Weiqiang Wang",
+    img: "https://avatars1.githubusercontent.com/u/40891002?s=400&u=ffa50586a621bc5fa14ac1fab485129031ec3129&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/为强-王-92155a166/",
+      github: "https://github.com/Toro2018"
+    },
+    jobTitle: "Javascript Engineer",
+    location: {
+      city: "Hangzhou",
+      state: "Zhejiang",
+      country: "China"
+    }
+  },
 ];
