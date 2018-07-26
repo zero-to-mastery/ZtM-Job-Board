@@ -4763,4 +4763,20 @@ export const persons = [
       country: "United States"
     }
   },
+  {
+    id: 149,
+    name: "Luca Lo Forte",
+    img: "https://avatars3.githubusercontent.com/u/26909188?s=400&u=ea2607b5e760996b7bc8cb3009baafb2f30a8732&v=4",
+    links: {
+      website: "https://loforteluca.github.io/",
+      linkedin: "https://www.linkedin.com/in/luca-lo-forte-172462127/",
+      github: "https://github.com/Pizzu"
+    },
+    jobTitle: "Full Stack Web Developer & iOS Dev",
+    location: {
+      city: "Milan",
+      state: "",
+      country: "Italy"
+    }
+  },
 ];
