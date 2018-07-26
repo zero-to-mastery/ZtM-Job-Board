@@ -4747,4 +4747,20 @@ export const persons = [
       country: "China"
     }
   },
+  {
+    id: 148,
+    name: "Jonathan Sou",
+    img: "http://i64.tinypic.com/34pmlpv.jpg",
+    links: {
+      website: "http://www.jonathansou.com",
+      linkedin: "https://www.linkedin.com/in/jonathan-sou-ab7738132/",
+      github: "https://github.com/Jonaphant"
+    },
+    jobTitle: "Front End Developer",
+    location: {
+      city: "Sacramento",
+      state: "California",
+      country: "United States"
+    }
+  },
 ];
