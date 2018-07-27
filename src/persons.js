@@ -4795,4 +4795,21 @@ export const persons = [
       country: "USA"
     }
   },
+  {
+    id: 151,
+    name: "Carl-johan Landin",
+    img: "[https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/13466497_10154160626281145_6570608543054940946_n.jpg?_nc_cat=0&oh=3e33b159e007be5b9ade772d2b393640&oe=5BD90A04",
+    links: {
+      website: "[YOUR_WEBSITE_URL]",
+      linkedin: "[YOUR_LINKEDIN_URL]",
+      github: "https://github.com/carljohanlandin/ZtM-Job-Board"
+    },
+    jobTitle: "Electrical engineer, Full stack web developer",
+    location: {
+      city: "Gothenburg",
+      state: "[YOUR_STATE_OR_PROVINCE]",
+      country: "Sweden"
+    }
+  },
 ];
+ 
