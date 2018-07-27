@@ -4811,5 +4811,21 @@ export const persons = [
       country: "Sweden"
     }
   },
+  {
+    id: 152,
+    name: "Grigore Oleinicov",
+    img: "http://ogrigore.com/assets/images/cm1.jpg",
+    links: {
+      website: "http://ogrigore.com/",
+      linkedin: "https://www.linkedin.com/in/grigoreoleinicov/",
+      github: ""
+    },
+    jobTitle: "Front End Developer",
+    location: {
+      city: "Chisinau",
+      state: "",
+      country: "Moldova"
+    }
+  },
 ];
  
