@@ -4858,6 +4858,22 @@ export const persons = [
       state: "PA",
       country: "USA"
     }
-  }
+  },
+{
+    id: 155,
+    name: "Satyam Dhawam",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "",
+      github: "https://github.com/satyamdhawan"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "New Delhi",
+      state: "Delhi",
+      country: "India"
+    }
+  },
 ];
 
