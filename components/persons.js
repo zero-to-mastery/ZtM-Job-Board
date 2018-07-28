@@ -4841,7 +4841,8 @@ export const persons = [
       city: "Los Angeles",
       state: "CA",
       country: "USA"
-    },
+    }
+  },
     {
     id: 154,
     name: "William Peragine",
