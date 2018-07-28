@@ -4870,9 +4870,9 @@ export const persons = [
     },
     jobTitle: "Full Stack Developer",
     location: {
-      city: "new delhi",
+      city: "New Delhi",
       state: "Delhi",
-      country: "india"
+      country: "India"
     }
   },
 
