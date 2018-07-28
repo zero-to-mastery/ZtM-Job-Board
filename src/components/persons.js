@@ -4843,20 +4843,20 @@ export const persons = [
       country: "USA"
     }
   },
-    {
+  {
     id: 154,
-    name: "William Peragine",
+    name: "William Chance Peragine",
     img: "",
     links: {
       website: "",
       linkedin: "",
-      github: ""
+      github: "https://github.com/WCPeragine"
     },
     jobTitle: "Full Stack Developer",
     location: {
       city: "Oxford",
       state: "PA",
-      country: "USA" 
+      country: "USA"
     }
   },
 {
@@ -4875,7 +4875,5 @@ export const persons = [
       country: "India"
     }
   },
-
-
 ];
 
