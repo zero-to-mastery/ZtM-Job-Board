@@ -4841,6 +4841,21 @@ export const persons = [
       city: "Los Angeles",
       state: "CA",
       country: "USA"
+    },
+    {
+    id: 154,
+    name: "William Peragine",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "",
+      github: ""
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Oxford",
+      state: "PA",
+      country: "USA" 
     }
   },
 ];
