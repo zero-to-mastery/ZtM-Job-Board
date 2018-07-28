@@ -2,7 +2,7 @@
 A place for developers to show recruiters that they are available for hire. Feel free to contribute and improve this in any way you see fit.
 
 ### How to add your name to the list
-To add your name to the list, simply open `persons.js` file in the `src` folder, and then add your own row at the bottom, using the below template:    
+To add your name to the list, simply open `persons.js` file in the `src/components` folder, and then add your own row at the bottom, using the below template:    
 ( **Don't include the square brackets "[ ]" !!! They are just there to indicate an example placeholder.** )
 
 ```moonscript
