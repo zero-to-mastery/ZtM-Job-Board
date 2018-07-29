@@ -4859,7 +4859,7 @@ export const persons = [
       country: "USA"
     }
   },
-{
+  {
     id: 155,
     name: "Satyam Dhawam",
     img: "",
@@ -4873,6 +4873,22 @@ export const persons = [
       city: "New Delhi",
       state: "Delhi",
       country: "India"
+    }
+  },
+  {
+    id: 156,
+    name: "Raymond Lim",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/raymonddev0/",
+      github: "https://github.com/raymonddev0"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "",
+      state: "",
+      country: "Singapore"
     }
   },
 ];
