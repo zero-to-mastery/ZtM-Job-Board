@@ -4846,7 +4846,7 @@ export const persons = [
   {
     id: 154,
     name: "William Chance Peragine",
-    img: "",
+    img: "https://avatars3.githubusercontent.com/u/38982502?s=400&u=34ebd1402c29b1222e203539eb830f7ffdd97229&v=4",
     links: {
       website: "",
       linkedin: "",
