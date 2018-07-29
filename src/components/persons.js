@@ -4919,7 +4919,8 @@ export const persons = [
     jobTitle: "Web-Developer (Intern)",
     location: {
       city: "San Francisco",
-      state: "California"
+      state: "California",
+      country: ""
     }
   },
 ];
