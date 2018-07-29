@@ -4891,5 +4891,21 @@ export const persons = [
       country: "Singapore"
     }
   },
+  {
+    id: 157,
+    name: "Donald Haguma",
+    img: "",
+    links: {
+      website: "https://www.hagthedon.com",
+      linkedin: "https://www.linkedin.com/in/hagthedon/",
+      github: "https://github.com/HagTheDon"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Gangnam",
+      state: "Seoul",
+      country: "South Korea"
+    }
+  },
 ];
 
