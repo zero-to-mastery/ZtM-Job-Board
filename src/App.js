@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import CardList from './components/CardList';
-import SearchBox from './components/SearchBox';
 import Navbar from './components/Navbar';
 import {persons} from './components/persons';
-import SearchCategory from './components/SearchCategory';
 
 class App extends Component {
   constructor() {
@@ -88,7 +86,7 @@ class App extends Component {
           <CardList 
             persons={filteredPersons} 
           />
-          
+
         </main>
         <footer className="custom--unselectable w-100 h3 flex items-center justify-center justify-end-l white custom--bg-additional3 z-2">
           <a href="https://github.com/zero-to-mastery/ZtM-Job-Board" title="Repository">
