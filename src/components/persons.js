@@ -4907,5 +4907,21 @@ export const persons = [
       country: "South Korea"
     }
   },
+  {
+    id: 158,
+    name: "David Michael Hanover",
+    img: "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/39689_424147188258_3544124_n.jpg?_nc_cat=0&oh=fe7455a0655c38d17e9e01fa4886c9b4&oe=5BDB4C47",
+    links: {
+      website: "http://DavidHanover89.com",
+      linkedin: "https://linkedin.com/in/DavidHanover",
+      github: "https://github.com/DavidHanover"
+    },
+    jobTitle: "Web-Developer (Intern)",
+    location: {
+      city: "San Francisco",
+      state: "California",
+      country: ""
+    }
+  },
 ];
 
