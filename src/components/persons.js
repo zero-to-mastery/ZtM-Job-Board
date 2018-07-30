@@ -4923,5 +4923,22 @@ export const persons = [
       country: ""
     }
   },
+   {
+    id: 159,
+    name: "Jayagovind.E",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "www.linkedin.com/in/jayzonline",
+      github: "https://github.com/jayagovinde"
+    },
+    jobTitle: "Web-Developer",
+    location: {
+      city: "Kochi",
+      state: "Kerala",
+      country: "India"
+    }
+  },
+
 ];
 
