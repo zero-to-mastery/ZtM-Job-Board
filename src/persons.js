@@ -4715,8 +4715,7 @@ export const persons = [
       country: "United States"
     }
   },
-];
-  {
+    {
     id: 146,
     name: "Cedric Liu",
     img: "https://avatars0.githubusercontent.com/u/19866555?s=400&v=4",
@@ -4732,3 +4731,5 @@ export const persons = [
       country: "United Sates"
     }
   },
+];
+
