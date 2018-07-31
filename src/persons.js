@@ -4716,3 +4716,19 @@ export const persons = [
     }
   },
 ];
+  {
+    id: 146,
+    name: "Cedric Liu",
+    img: "https://avatars0.githubusercontent.com/u/19866555?s=400&v=4",
+    links: {
+      website: "http://cedricliu.github.io/",
+      linkedin: "www.linkedin.com/in/cedricliu0019",
+      github: "https://github.com/cedricliu"
+    },
+    jobTitle: "Web Design/ Developer",
+    location: {
+      city: "Los Angeles",
+      state: "California",
+      country: "United Sates"
+    }
+  },
