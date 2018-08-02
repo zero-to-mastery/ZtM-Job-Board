@@ -4964,7 +4964,7 @@ export const persons = [
       linkedin: "https://www.linkedin.com/in/ehtsham333/",
       github: "https://github.com/ehtsham333"
     },
-    jobTitle: "[Full Stack Developer",
+    jobTitle: "Full Stack Developer",
     location: {
       city: "Islamabad",
       state: "",
