@@ -4955,5 +4955,21 @@ export const persons = [
       country: "United Sates"
     }
   },
+  {
+    id: 161,
+    name: "Ehtisham Shahid Abbasi",
+    img: "https://avatars0.githubusercontent.com/u/41646180?s=460&v=4",
+    links: {
+      website: "http://www.competeagainstme.com/",
+      linkedin: "https://www.linkedin.com/in/ehtsham333/",
+      github: "https://github.com/ehtsham333"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Islamabad",
+      state: "",
+      country: "Pakistan"
+    }
+  },
 ];
 
