@@ -4971,5 +4971,21 @@ export const persons = [
       country: "Pakistan"
     }
   },
+  {
+    id: 162,
+    name: "Sean Dees",
+    img: "https://pbs.twimg.com/profile_images/815688059211677696/nTFVI3is_400x400.jpg",
+    links: {
+      website: "https://seandees.tech/",
+      linkedin: "https://ca.linkedin.com/in/sean-dees-666475105",
+      github: "https://github.com/sdees82"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Detroit",
+      state: "Michigan",
+      country: "United States"
+    }
+  },
 ];
 
