@@ -4987,5 +4987,21 @@ export const persons = [
       country: "United States"
     }
   },
+  {
+    id: 163,
+    name: "Luberenga John",
+    img: "https://avatars0.githubusercontent.com/u/41646180?s=460&v=4",
+    links: {
+      website: " ",
+      linkedin: "https://www.linkedin.com/in/luberenga/",
+      github: "https://github.com/john-luberenga/"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Kampala",
+      state: "",
+      country: "Uganda"
+    }
+  },
 ];
 
