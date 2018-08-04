@@ -4971,5 +4971,20 @@ export const persons = [
       country: "Pakistan"
     }
   },
+  {
+    id: 162,
+    name: "Muhammed Tijani",
+    img: "https://avatars0.githubusercontent.com/u/28782324?s=400&u=25bc95f019256adaed99f0cee69dcc8d26a4b6d8&v=4",
+    links: {
+      website: "http://coolzyte.com/",
+      linkedin: "https://www.linkedin.com/in/coolzyte/",
+      github: "https://github.com/coolzyte"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "",
+      state: "Lagos",
+      country: "Nigeria"
+    }
+  },
 ];
-
