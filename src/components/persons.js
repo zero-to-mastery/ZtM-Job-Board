@@ -4973,18 +4973,18 @@ export const persons = [
   },
   {
     id: 162,
-    name: "Sean Dees",
-    img: "https://pbs.twimg.com/profile_images/815688059211677696/nTFVI3is_400x400.jpg",
+    name: "Muhammed Tijani",
+    img: "https://avatars0.githubusercontent.com/u/28782324?s=400&u=25bc95f019256adaed99f0cee69dcc8d26a4b6d8&v=4",
     links: {
-      website: "https://seandees.tech/",
-      linkedin: "https://ca.linkedin.com/in/sean-dees-666475105",
-      github: "https://github.com/sdees82"
+      website: "http://coolzyte.com/",
+      linkedin: "https://www.linkedin.com/in/coolzyte/",
+      github: "https://github.com/coolzyte"
     },
     jobTitle: "Full Stack Developer",
     location: {
-      city: "Detroit",
-      state: "Michigan",
-      country: "United States"
+      city: "",
+      state: "Lagos",
+      country: "Nigeria"
     }
   },
   {
@@ -5003,5 +5003,20 @@ export const persons = [
       country: "Uganda"
     }
   },
+    {
+    id: 164,
+    name: "Sean Dees",
+    img: "https://pbs.twimg.com/profile_images/815688059211677696/nTFVI3is_400x400.jpg",
+    links: {
+      website: "https://seandees.tech/",
+      linkedin: "https://ca.linkedin.com/in/sean-dees-666475105",
+      github: "https://github.com/sdees82"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Detroit",
+      state: "Michigan",
+      country: "United States"
+    }
+  },
 ];
-
