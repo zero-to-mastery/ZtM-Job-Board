@@ -5018,5 +5018,20 @@ export const persons = [
       state: "Michigan",
       country: "United States"
     }
+  },  
+  {
+    id: 165,
+    name: "Firat Tale",
+    img: "https://media.licdn.com/dms/image/C4D03AQG4ep1f6b2KuA/profile-displayphoto-shrink_200_200/0?e=1539216000&v=beta&t=u-4n8_CP3k15CVvkSCKufdC3vYdIx_q2L5f7O3wgt5w",
+    links: {
+      linkedin: "https://www.linkedin.com/in/f%C4%B1rat-tale-85328013a/",
+      github: "https://github.com/firattale"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Istanbul",
+      state: "",
+      country: "Turkey"
+    }
   },
 ];
