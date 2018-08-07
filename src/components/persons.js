@@ -5034,4 +5034,20 @@ export const persons = [
       country: "Turkey"
     }
   },
+  {
+    id: 166,
+    name: "Andrius Mankauskas",
+    img: "https://andriusm.com/p_images/ztm_jb.JPG",
+    links: {
+      website: "https://andriusm.com/",
+      linkedin: "https://www.linkedin.com/in/andrius-mankauskas-06b684163/",
+      github: "https://github.com/Gandrius"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Vilnius",
+      state: "",
+      country: "Lithuania"
+    }
+  },
 ];
