@@ -5051,4 +5051,20 @@ export const persons = [
       country: "Lithuania"
     }
   },
+    {
+    id: 167,
+    name: "Andra Strachinaru",
+    img: "",
+    links: {
+      website: "https://andrapetronela.github.io/andraS.github.io/",
+      linkedin: "https://www.linkedin.com/in/andra-strachinaru/",
+      github: "https://github.com/andrapetronela"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Luton",
+      state: "",
+      country: "United Kingdom"
+    }
+  },
 ];
