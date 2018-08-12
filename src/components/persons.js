@@ -5068,9 +5068,9 @@ export const persons = [
     }
   },
   {
-    id: [168],
+    id: 168,
     name: "Julian Rios",
-    img: "[https://photos.app.goo.gl/u9srU73MwUXs2qiR6]",
+    img: "https://avatars1.githubusercontent.com/u/10436307?s=400&u=79c7deee6fa75261de40d3ab85af9684becb2808&v=4",
     links: {
       website: "https://eastcoastninja.github.io/",
       linkedin: "https://www.linkedin.com/in/riosjulian/",
