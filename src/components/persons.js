@@ -5067,4 +5067,20 @@ export const persons = [
       country: "United Kingdom"
     }
   },
+  {
+    id: [168],
+    name: "Julian Rios",
+    img: "[https://photos.app.goo.gl/u9srU73MwUXs2qiR6]",
+    links: {
+      website: "https://eastcoastninja.github.io/",
+      linkedin: "https://www.linkedin.com/in/riosjulian/",
+      github: "https://github.com/eastcoastninja"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Philadelphia",
+      state: "PA",
+      country: "USA"
+    }
+  },
 ];
