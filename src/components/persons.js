@@ -5019,7 +5019,7 @@ export const persons = [
       state: "Michigan",
       country: "United States"
     }
-  },  
+  },
   {
     id: 165,
     name: "Firat Tale",
@@ -5084,3 +5084,19 @@ export const persons = [
     }
   },
 ];
+{
+   id: 168,
+   name: "Asam Shan",
+   img: "https://image.ibb.co/faPFi9/profile.png",
+   links: {
+     website: "https://shan5742.github.io/",
+     linkedin: "https://www.linkedin.com/in/asamshan/",
+     github: "https://github.com/shan5742"
+   },
+   jobTitle: "Front End Developer",
+   location: {
+     city: "Middlesbrough",
+     state: "",
+     country: "U.K."
+   }
+ },
