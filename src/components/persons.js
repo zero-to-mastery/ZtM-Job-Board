@@ -5083,7 +5083,6 @@ export const persons = [
       country: "USA"
     }
   },
-];
 {
    id: 168,
    name: "Asam Shan",
@@ -5100,3 +5099,20 @@ export const persons = [
      country: "U.K."
    }
  },
+ {
+   id: 169,
+   name: "John Fichera",
+   img: "https://avatars3.githubusercontent.com/u/24895699?s=460&v=4",
+   links: {
+     website: "",
+     linkedin: "www.linkedin.com/in/johnpaulfichera",
+     github: "https://github.com/JohnPaulFich"
+   },
+   jobTitle: "Web Content Specialist & Marketing Coordinator",
+   location: {
+     city: "St. Johnsbury",
+     state: "VT",
+     country: "United States"
+   }
+ },
+];
