@@ -5083,7 +5083,6 @@ export const persons = [
       country: "USA"
     }
   },
-];
 {
    id: 168,
    name: "Asam Shan",
@@ -5116,3 +5115,4 @@ export const persons = [
      country: "United States"
    }
  },
+];
