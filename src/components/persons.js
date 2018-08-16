@@ -1824,16 +1824,16 @@ export const persons = [
   {
     id: 107,
     name: "Rahul Kumar",
-    img: "https://drive.google.com/open?id=1OEUFmLK_HXLOTq9QlwFobcybmPB1HY4c",
+    img: "https://media.licdn.com/dms/image/C5103AQENiohRy39XzQ/profile-displayphoto-shrink_200_200/0?e=1539820800&v=beta&t=FCh-bKc-Ag-fZqh2v-Xk_Tyfigg_zQpTBoV282tbQc0",
     links: {
-      website: "",
+      website: "https://kumarrahul123.herokuapp.com/",
       linkedin: "https://www.linkedin.com/in/rahul-kumar943/",
       github: "https://github.com/rahuls321"
     },
     jobTitle: "Web Developer ",
     location: {
-      city: "Patna",
-      state: "Bihar",
+      city: "",
+      state: "",
       country: "India"
     }
   },
@@ -4077,23 +4077,6 @@ export const persons = [
       city: "Gold Coast",
       state: "Queensland",
       country: "Australia"
-    }
-  },
-
-  {
-    id: 107,
-    name: "Rahul Kumar",
-    img: "https://drive.google.com/open?id=1OEUFmLK_HXLOTq9QlwFobcybmPB1HY4c",
-    links: {
-      website: "",
-      linkedin: "https://www.linkedin.com/in/rahul-kumar943/",
-      github: "https://github.com/rahuls321"
-    },
-    jobTitle: "Web Developer ",
-    location: {
-      city: "Patna",
-      state: "Bihar",
-      country: "India"
     }
   },
   {
