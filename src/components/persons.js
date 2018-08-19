@@ -5098,4 +5098,20 @@ export const persons = [
      country: "United States"
    }
  },
+ {
+   id: 170,
+   name: "Richard Meadows",
+   img: "https://avatars0.githubusercontent.com/u/679034?v=4",
+   links: {
+     website: "",
+     linkedin: "https://www.linkedin.com/in/richardmeadows/",
+     github: "https://github.com/rjmead23"
+   },
+   jobTitle: "Scrum Master and Web Developer",
+   location: {
+     city: "Portland",
+     state: "Oregon",
+     country: "United States"
+   }
+ },
 ];
