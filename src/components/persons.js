@@ -5114,4 +5114,20 @@ export const persons = [
      country: "United States"
    }
  },
+ {
+    id: 171,
+    name: "Lawrence Fidelino",
+    img: "https://avatars2.githubusercontent.com/u/42109686?s=400&u=94c83124dd077b0b6a09c226f2e87377afa9f619&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/lawrence-fidelino-383727153/",
+      github: "https://github.com/lfidelino"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Davao",
+      state: "",
+      country: "Philippines"
+    }
+  },
 ];
