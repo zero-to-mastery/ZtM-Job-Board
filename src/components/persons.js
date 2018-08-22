@@ -5130,4 +5130,20 @@ export const persons = [
       country: "Philippines"
     }
   },
+  {
+    id: 172,
+    name: "Winter Meng",
+    img: "https://pixabay.com/p-1246611/?no_redirect",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/winter-meng-347797121/",
+      github: "https://github.com/qm3"
+    },
+    jobTitle: "Full Stack Web Developer and Software Engineer",
+    location: {
+      city: "Seattle",
+      state: "Washington",
+      country: "United States"
+    }
+  }
 ];
