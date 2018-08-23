@@ -5131,7 +5131,7 @@ export const persons = [
     }
   },
   {
-    id: 172,
+    id: 172
     name: "Winter Meng",
     img: "https://pixabay.com/p-1246611/?no_redirect",
     links: {
@@ -5145,5 +5145,20 @@ export const persons = [
       state: "Washington",
       country: "United States of America"
     }
-  }
+  },
+  {
+    name: "Paul Okonko",
+    img: "https://paulokonko.com/images/contact-img.jpg",
+    links: {
+      website: "",
+      linkedin: "https://www.paulokonko.com",
+      github: "https://github.com/emppas"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Port Harcourt",
+      state: "Rivers",
+      country: "Nigeria"
+    }
+  },
 ];
