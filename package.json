@@ -14,16 +14,16 @@
   },
   "scripts": {
     "start": "npm-run-all -p watch-css start-js",
-      "watch-css": "npm run build-css && node-sass-chokidar ./src/ --output ./src/ --output-style compressed --watch --recursive",
-      "start-js": "react-scripts start",
+    "watch-css": "npm run build-css && node-sass-chokidar ./src/ --output ./src/ --output-style compressed --watch --recursive",
+    "start-js": "react-scripts start",
     "build": "npm-run-all build-css build-js",
-      "build-css": "node-sass-chokidar ./src/ --output ./src/ --output-style compressed",
-      "build-js": "react-scripts build",
-      "postbuild": "mv ./build/favicons/* ./build/ && rm -r ./build/favicons",
+    "build-css": "node-sass-chokidar ./src/ --output ./src/ --output-style compressed",
+    "build-js": "react-scripts build",
+    "postbuild": "mv ./build/favicons/* ./build/ && rm -r ./build/favicons",
     "test": "react-scripts test --env=jsdom",
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0"
+    "gh-pages": "^1.2.0"
   }
 }
