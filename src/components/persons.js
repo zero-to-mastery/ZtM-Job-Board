@@ -5130,4 +5130,20 @@ export const persons = [
       country: "Philippines"
     }
   },
+  {
+    id: 172,
+    name: "Paul Okonko",
+    img: "https://paulokonko.com/images/contact-img.jpg",
+    links: {
+      website: "",
+      linkedin: "https://www.paulokonko.com",
+      github: "https://github.com/emppas"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Port Harcourt",
+      state: "Rivers",
+      country: "Nigeria"
+    }
+  },
 ];
