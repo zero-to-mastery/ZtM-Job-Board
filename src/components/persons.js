@@ -5132,6 +5132,22 @@ export const persons = [
   },
   {
     id: 172,
+    name: "Winter Meng",
+    img: "https://pixabay.com/p-1246611/?no_redirect",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/winter-meng-347797121/",
+      github: "https://github.com/qm3"
+    },
+    jobTitle: "Full Stack Web Developer and Software Engineer",
+    location: {
+      city: "Seattle",
+      state: "Washington",
+      country: "United States of America"
+    }
+  },
+  {
+    id: 173,
     name: "Paul Okonko",
     img: "https://paulokonko.com/images/contact-img.jpg",
     links: {
