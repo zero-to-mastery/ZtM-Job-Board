@@ -2939,8 +2939,8 @@ export const persons = [
 
   {
     id: 176,
-    name: "Stephen Lonergn",
-    img: "https://github.com/lonergans/lonergans.github.io/blob/master/ProfilePic.jpg",
+    name: "Stephen Lonergan",
+    img: "https://photos.app.goo.gl/CkBYENtw5qDW7dC27",
     links: {
       website: "",
       linkedin: "https://www.linkedin.com/in/stephen-lonergan-8401b95a/",
