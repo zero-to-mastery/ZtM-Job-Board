@@ -2936,4 +2936,21 @@ export const persons = [
       country: "Nigeria"
     }
   },
+
+  {
+    id: 176,
+    name: "Stephen Lonergn",
+    img: "https://github.com/lonergans/lonergans.github.io/blob/master/ProfilePic.jpg",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/stephen-lonergan-8401b95a/",
+      github: "https://github.com/lonergans"
+    },
+    jobTitle: "Senior SharePoint/Full Stack Developer",
+    location: {
+      city: "Dublin",
+      state: "",
+      country: "Ireland"
+    }
+  },
 ];
