@@ -2953,4 +2953,22 @@ export const persons = [
       country: "Ireland"
     }
   },
+
+  {
+    id: 177,
+    name: "Nathan Brown",
+    img: "https://avatars1.githubusercontent.com/u/34713147?s=460&v=4",
+    links: {
+      website: "https://www.nathanabrown.com",
+      linkedin: "https://www.linkedin.com/in/nathan-a-brown",
+      github: "https://n8brown1.github.io/"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Wells",
+      state: "Maine",
+      country: "United States"
+    }
+  },
+
 ];
