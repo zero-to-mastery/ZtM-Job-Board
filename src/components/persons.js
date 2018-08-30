@@ -2971,4 +2971,21 @@ export const persons = [
     }
   },
 
+  {
+    id: 178,
+    name: "Cristian Iosif",
+    img: "https://avatars1.githubusercontent.com/u/7920412?s=400&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/ciosif",
+      github: "https://github.com/cristake"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Bucharest",
+      state: "Bucharest",
+      country: "Romania"
+    }
+  },
+
 ];
