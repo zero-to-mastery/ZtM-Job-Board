@@ -2988,4 +2988,21 @@ export const persons = [
     }
   },
 
+  {
+    id: 179,
+    name: "Martin Fassi",
+    img: "https://photos.app.goo.gl/eKFPLsqu2P4cJtJDA",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/martinfassi/",
+      github: "https://github.com/mfassi"
+    },
+    jobTitle: "Web Developer/Help Desk Technician",
+    location: {
+      city: "Catania",
+      state: "Catania",
+      country: "Italy",
+    }
+  }
+
 ];
