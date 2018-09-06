@@ -3003,6 +3003,23 @@ export const persons = [
       state: "Catania",
       country: "Italy",
     }
-  }
+  },
+
+  {
+    id: 180,
+    name: "Bucataru Eduard",
+    img: "https://avatars3.githubusercontent.com/u/41817383?s=400&u=c228945a296d278d62c95d688c81b0c158c29a41&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/eduard-bucataru-8400ab16b/",
+      github: "https://github.com/edybn22"
+    },
+    jobTitle: "Full Full-stack developer",
+    location: {
+      city: "Bucharest",
+      state: "Bucharest",
+      country: "Romania",
+    }
+  },
 
 ];
