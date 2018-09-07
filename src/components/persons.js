@@ -3039,3 +3039,20 @@ export const persons = [
   },
 
 ];
+
+{
+    id: 182,
+    name: "Keaton McCune",
+    img: "https://avatars2.githubusercontent.com/u/42250790?s=400&u=5ff48ddb3fbe7a50e247958687ffc6c9b3640771&v=4",
+    links: {
+      website: "https://mccunex.github.io/",
+      linkedin: "linkedin.com/in/keaton-mccune-15010616b",
+      github: "https://github.com/mccunex"
+    },
+    jobTitle: "FREELANCE FULL STACK WEB DEVELOPER",
+    location: {
+      city: "Salt Lake City",
+      state: "UT",
+      country: "United States"
+    }
+  },
