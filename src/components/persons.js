@@ -3037,10 +3037,7 @@ export const persons = [
       country: "Austria"
     }
   },
-
-];
-
-{
+  {
     id: 182,
     name: "Keaton McCune",
     img: "https://avatars2.githubusercontent.com/u/42250790?s=400&u=5ff48ddb3fbe7a50e247958687ffc6c9b3640771&v=4",
@@ -3056,3 +3053,7 @@ export const persons = [
       country: "United States"
     }
   },
+
+
+];
+
