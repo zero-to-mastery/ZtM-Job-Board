@@ -3021,5 +3021,21 @@ export const persons = [
       country: "Romania",
     }
   },
+  {
+    id: 181,
+    name: "Ivan Taghavi Espinosa",
+    img: "https://avatars3.githubusercontent.com/u/28016157?s=400&v=4",
+    links: {
+      website: "",
+      linkedin: "www.linkedin.com/in/ivan-taghavi-espinosa",
+      github: "https://github.com/skatersezo"
+    },
+    jobTitle: "Full-Stack Developer",
+    location: {
+      city: "Salzburg",
+      state: "Salzburg",
+      country: "Austria"
+    }
+  },
 
 ];
