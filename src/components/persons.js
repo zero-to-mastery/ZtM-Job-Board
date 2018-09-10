@@ -333,7 +333,7 @@ export const persons = [
     name: "Christine Aqui",
     img: "https://avatars1.githubusercontent.com/u/2739361?s=460&v=4",
     links: {
-      website: "",
+      website: "https://rocketgirl.herokuapp.com",
       linkedin: "https://ca.linkedin.com/in/christineaqui",
       github: "https://github.com/christine-aqui"
     },
