@@ -3053,7 +3053,22 @@ export const persons = [
       country: "United States"
     }
   },
-
+  {
+    id: 183,
+    name: "Lauren Mayers",
+    img: "https://avatars3.githubusercontent.com/u/35752699?s=460&v=4",
+    links: {
+      website: "https://laurenmayers.github.io/",
+      linkedin: "https://www.linkedin.com/in/laurenmayers/",
+      github: "https://github.com/laurenmayers"
+    },
+    jobTitle: "Front-End Developer",
+    location: {
+      city: "Ottawa",
+      state: "ON",
+      country: "Canada"
+    }
+  },
 
 ];
 
