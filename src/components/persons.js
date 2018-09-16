@@ -3077,7 +3077,7 @@ export const persons = [
       github:"htpps://github.com/midnightgamer"
     },
     jobTitle:"Javascript Developer",
-    location{
+    location:{
       city:"Mumbai",
       state:"Maharastra",
       country:"India"
