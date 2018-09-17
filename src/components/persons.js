@@ -3111,7 +3111,7 @@ export const persons = [
     jobTitle: "Full-Stack Developer",
     location: {
       city: "Barcelona",
-      state: "",
+      state: "Barcelona",
       country: "Spain"
     }
   },
