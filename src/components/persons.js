@@ -3098,7 +3098,22 @@ export const persons = [
       state: "New York",
       country: "USA"
     }
-  }
-
+  },
+ {
+    id: 186,
+    name: "Kostiantyn Borodach",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/kostiantyn-borodach-4a3859152/",
+      github: "https://github.com/Kostiantyn777"
+    },
+    jobTitle: "Full-Stack Developer",
+    location: {
+      city: "Barcelona",
+      state: "",
+      country: "Spain"
+    }
+  },
 ];
 
