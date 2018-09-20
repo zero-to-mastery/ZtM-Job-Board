@@ -3137,7 +3137,7 @@ export const persons = [
     img: "http://www.alexissj.com/assets/images/blackandwhite.jpg",
     links: {
       website: "http://www.alexissj.com",
-      linkedin: "www.linkedin.com/in/alexissj",
+      linkedin: "https://www.linkedin.com/in/alexissj",
       github: "https://github.com/code-guy21"
     },
     jobTitle: "Web Developer",
