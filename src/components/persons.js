@@ -3131,6 +3131,22 @@ export const persons = [
       country: "Bulgaria"
     }
   },
+  {
+    id: [188],
+    name: "Alexis San Javier",
+    img: "http://www.alexissj.com/assets/images/blackandwhite.jpg",
+    links: {
+      website: "http://www.alexissj.com",
+      linkedin: "www.linkedin.com/in/alexissj",
+      github: "https://github.com/code-guy21"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Orlando",
+      state: "FL",
+      country: "USA"
+    }
+  },
 
 ];
 
