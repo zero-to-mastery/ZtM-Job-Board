@@ -3115,5 +3115,22 @@ export const persons = [
       country: "Spain"
     }
   },
+  {
+    id: 187,
+    name: "Ivaylo Tsochev",
+    img: "https://www.ivaylotsochev.com/img/me.png",
+    links: {
+      website: "https://www.ivaylotsochev.com/",
+      linkedin: "https://www.linkedin.com/in/ivaylotsochev/",
+      github: "https://github.com/IvoTsochev"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Sofia",
+      state: "Sofia",
+      country: "Bulgaria"
+    }
+  },
+
 ];
 
