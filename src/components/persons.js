@@ -3132,7 +3132,7 @@ export const persons = [
     }
   },
   {
-    id: [188],
+    id: 188,
     name: "Alexis San Javier",
     img: "http://www.alexissj.com/assets/images/blackandwhite.jpg",
     links: {
@@ -3146,7 +3146,21 @@ export const persons = [
       state: "FL",
       country: "USA"
     }
+  },{
+    id: 189,
+    name: "Yassire Mtioui",
+    img: "https://yassiremt.github.io/pf/static/media/mypic.befc31d5.jpg",
+    links: {
+      website: "https://yassiremt.github.io/pf/",
+      linkedin: "https://www.linkedin.com/in/yassiremt/",
+      github: "https://github.com/Yassiremt"
+    },
+    jobTitle: "Front-end Developer",
+    location: {
+      city: "Fez",
+      state: "",
+      country: "Morocco"
+    }
   },
 
 ];
-
