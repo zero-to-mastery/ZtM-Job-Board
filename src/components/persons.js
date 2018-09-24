@@ -3162,5 +3162,21 @@ export const persons = [
       country: "Morocco"
     }
   },
+  {
+    id: 190,
+    name: "Faiz Hameed",
+    img: "https://i.postimg.cc/XNzKhnyV/DSC_6402_1_copy.jpg",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/faizhameed/",
+      github: "https://github.com/faizhameed"
+    },
+    jobTitle: "Full Stack Web-Developer",
+    location: {
+      city: "Kottakal",
+      state: "Kerala",
+      country: "India"
+    }
+  },
 
 ];
