@@ -3178,5 +3178,21 @@ export const persons = [
       country: "India"
     }
   },
+  {
+    id: 191,
+    name: "Saumya Sharma",
+    img: "http://iamsaumya.co/wp-content/uploads/2018/09/download.png",
+    links: {
+      website: "iamsaumya.co",
+      linkedin: "https://www.linkedin.com/in/saumya-sharma-488a4356/",
+      github: "https://github.com/saumya010"
+    },
+    jobTitle: "Front-end Developer",
+    location: {
+      city: "New York",
+      state: "NY",
+      country: "USA"
+    }
+  },
 
 ];
