@@ -3194,5 +3194,21 @@ export const persons = [
       country: "USA"
     }
   },
+  {
+    id: 192,
+    name: "Caio Vilas Boas",
+    img: "https://media.licdn.com/dms/image/C4D03AQGtAQ0_ZSl0Sg/profile-displayphoto-shrink_200_200/0?e=1543449600&v=beta&t=ScJg8ABsUNqIPpzA78vWEGadnaZgWbHT9HKMS1atvyQ",
+    links: {
+      website: "http://valutti.co,",
+      linkedin: "https://www.linkedin.com/in/caiovilas/",
+      github: "https://github.com/caiovilas"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Toronto",
+      state: "ON",
+      country: "Canada"
+    }
+  },
 
 ];
