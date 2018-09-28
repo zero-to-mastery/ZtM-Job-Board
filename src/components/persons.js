@@ -3210,5 +3210,21 @@ export const persons = [
       country: "Canada"
     }
   },
+  {
+    id: 193,
+    name: "Carlos Samuel Hernandez",
+    img: "https://carls13.github.io/mypage/myself.jpg",
+    links: {
+      website: "https://carls13.github.io/mypage/",
+      linkedin: "https://www.linkedin.com/in/carlos-samuel-hern%C3%A1ndez-blanco-b35075152/",
+      github: "https://github.com/Carls13"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Valencia",
+      state: "",
+      country: "Venezuela"
+    }
+  },
 
 ];
