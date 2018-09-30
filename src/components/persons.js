@@ -3226,5 +3226,22 @@ export const persons = [
       country: "Venezuela"
     }
   },
+  {
+    id: 194,
+    name: "Dmitry Mironov",
+    img: "https://media.licdn.com/dms/image/C4E03AQGCI_gPvAqKNg/profile-displayphoto-shrink_200_200/0?e=1544054400&v=beta&t=KmH6YtxhvQNxnYsJ8jiN7Wuclx3-fWveZe11xCfb4bc",
+    links: {
+      website: "https://www.linkedin.com/in/mironovdmitry",
+      linkedin: "https://www.linkedin.com/in/mironovdmitry/",
+      github: "https://github.com/antonykidis"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Tel-Aviv",
+      state: "IL",
+      country: "Israel"
+    }
+  },
+  
 
 ];
