@@ -3242,6 +3242,22 @@ export const persons = [
       country: "Israel"
     }
   },
+  {
+    id: 195,
+    name: "Hamza Benzaoui",
+    img: "https://raw.githubusercontent.com/HBenzaoui/HTML-Signature/master/images/image6.png",
+    links: {
+      website: "https://www.linkedin.com/in/HamzaBenzaoui",
+      linkedin: "https://www.linkedin.com/in/HamzaBenzaoui/",
+      github: "https://github.com/HBenzaoui"
+    },
+    jobTitle: "Full-Stack JavaScript/Java Developer",
+    location: {
+      city: "Bab Ezzouar",
+      state: "Algiers",
+      country: "Algeria"
+    }
+  },
   
 
 ];
