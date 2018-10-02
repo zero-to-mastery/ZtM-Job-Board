@@ -3292,6 +3292,19 @@ export const persons = [
       country: "Georgia (Remote or Willing to Relocate)"
     }
   },
-  
-
+  {
+    id: 198,
+    name: "Kennith Nichol",
+    img: "https://secure.gravatar.com/avatar/5d8cc0c05f351bd587222bccf38380a8",
+    links: {
+      linkedin: "https://ca.linkedin.com/in/kennithnichol",
+      github: "https://github.com/kennithnichol"
+    },
+    jobTitle: "Remote Full Stack Developer",
+    location: {
+      city: "",
+      state: "BC",
+      country: "Canada"
+    }
+  }
 ];
