@@ -3258,6 +3258,23 @@ export const persons = [
       country: "Algeria"
     }
   },
+
+    {
+      id: 196,
+      name: "Shruti Shastri",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/shruti-shastri-307279141",
+        github: "https://github.com/shruti49"
+      },
+      jobTitle: "Front-End Developer",
+      location: {
+        city: "",
+        state: "Delhi-NCR",
+        country: "India"
+      }
+    },
   
 
 ];
