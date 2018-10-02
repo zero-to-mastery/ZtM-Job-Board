@@ -3275,6 +3275,23 @@ export const persons = [
         country: "India"
       }
     },
+
+    {
+    id: 197,
+    name: "Thea Mushambadze",
+    img: "https://avatars0.githubusercontent.com/u/6440158?s=400&u=145dc909f52cac0c93f24a5e15fb22e2dc9edb5a&v=4",
+    links: {
+      website: "https://theamax.me/",
+      linkedin: "www.linkedin.com/in/theamushambadze",
+      github: "https://github.com/highflyer910"
+    },
+    jobTitle: "Front-End Developer",
+    location: {
+      city: "Tbilisi",
+      state: "",
+      country: "Georgia (Remote or Willing to Relocate)"
+    }
+  },
   
 
 ];
