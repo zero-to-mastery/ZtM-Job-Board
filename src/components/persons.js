@@ -3306,5 +3306,21 @@ export const persons = [
       state: "BC",
       country: "Canada"
     }
+  },
+{
+  id: 199,
+  name: "Yesenia Gonzalez",
+  img: "",
+  links: {
+    website: "",
+    linkedin: "www.linkedin.com/in/yglez",
+    github: "https://github.com/Yglez"
+  },
+  jobTitle: "Full Stack Developer",
+  location: {
+    city: "San Diego",
+    state: "CA",
+    country: "USA"
   }
+}
 ];
