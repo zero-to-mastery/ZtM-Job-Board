@@ -3338,5 +3338,21 @@ export const persons = [
       state: "",
       country: "Poland"
     }
-  }
+  },
+  {
+    id: 201,
+    name: "Andrew Diedrich",
+    img: "https://i.postimg.cc/MGxfvFmm/14271_C5_F-5151-492_A-_B98_C-_CF7_BB1_DAA290.jpg",
+    links: {
+      website: "https://andrewdiedrich.herokuapp.com/",
+      linkedin: "https://www.linkedin.com/in/andrew-diedrich-a0a58893/",
+      github: "https://github.com/AndrewDiedrich"
+    },
+    jobTitle: "Developer/Analyst",
+    location: {
+      city: "Duluth",
+      state: "Minnesota",
+      country: "USA"
+    }
+  },
 ];
