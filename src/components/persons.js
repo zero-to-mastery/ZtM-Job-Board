@@ -3355,4 +3355,20 @@ export const persons = [
       country: "USA"
     }
   },
+  {
+   id: 202,
+   name: "Italo Aurelio",
+   img: "https://i.postimg.cc/WbGXtqh0/italo-inoweb.png",
+   links: {
+     website: "https://www.inoweb.com.br",
+     linkedin: "https://www.linkedin.com/in/italo-aurelio-13b97172/",
+     github: "https://github.com/Italox"
+   },
+   jobTitle: "Front-End Developer",
+   location: {
+     city: "Curitiba",
+     state: "Paraná",
+     country: "Brazil"
+   }
+  },
 ];
