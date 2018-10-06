@@ -3386,4 +3386,20 @@ export const persons = [
       country: "USA"
     }
   },
+  {
+    id: 204,
+    name: "Diogo Carvalho",
+    img: "",
+    links: {
+      website: "https://diogo-p-carvalho.github.io/portfolio",
+      linkedin: "https://www.linkedin.com/in/diogo-carvalho-83a96a14a",
+      github: "https://github.com/Diogo-P-Carvalho"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Aveiro",
+      state: "",
+      country: "Portugal"
+    }
+  },
 ];
