@@ -3370,5 +3370,20 @@ export const persons = [
      state: "Paraná",
      country: "Brazil"
    }
+  },{
+    id: 203,
+    name: "Vincent Yan",
+    img: "https://github.com/envincebal/my_portfolio/blob/master/build/img/pic.jpg?raw=true",
+    links: {
+      website: "https://envincebal.github.io/my_portfolio/",
+      linkedin: "https://www.linkedin.com/in/vincent-yan/",
+      github: "https://github.com/envincebal"
+    },
+    jobTitle: "Front-End Developer",
+    location: {
+      city: "Portland",
+      state: "Oregon",
+      country: "USA"
+    }
   },
 ];
