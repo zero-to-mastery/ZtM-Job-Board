@@ -3402,4 +3402,20 @@ export const persons = [
       country: "Portugal"
     }
   },
+  {
+    id: 205,
+    name: "Thiago Marinho",
+    img: "https://avatars2.githubusercontent.com/u/380327?s=150&v=3",
+    links: {
+      website: "http://tgmarinho.com",
+      linkedin: "https://www.linkedin.com/in/tgmarinho",
+      github: "https://github.com/tgmarinho"
+    },
+    jobTitle: "React Developer - Home Office",
+    location: {
+      city: "Dourados",
+      state: "MS",
+      country: "Brazil"
+    }
+  },
 ];
