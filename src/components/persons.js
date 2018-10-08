@@ -3418,4 +3418,20 @@ export const persons = [
       country: "Brazil"
     }
   },
+      {
+    id: [206],
+    name: "Moshe Hamiel",
+    img: "http://moshe-hamiel.info/wp-content/uploads/0.jpg",
+    links: {
+      website: "http://www.moshe-hamiel.info",
+      linkedin: "https://www.linkedin.com/in/moshe-chamuel-761433117/",
+      github: "https://github.com/Chamuelm"
+    },
+    jobTitle: "SW Developer (Student)",
+    location: {
+      city: "Porat",
+      state: "",
+      country: "Israel"
+    }
+  },
 ];
