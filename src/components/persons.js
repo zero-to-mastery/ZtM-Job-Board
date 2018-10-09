@@ -3450,4 +3450,20 @@ export const persons = [
       country: "Chile"
     }
   },
+  {
+    id: 208,
+    name: "Marc Sakalauskas",
+    img: "https://avatars3.githubusercontent.com/u/42618353?s=460&v=4",
+    links: {
+      website: "",
+      linkedin: "www.linkedin.com/in/scramblelock",
+      github: "https://www.github.com/Scramblelock"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Montreal",
+      state: "QC",
+      country: "Canada"
+    }
+  },
 ];
