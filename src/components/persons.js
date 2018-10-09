@@ -3419,7 +3419,7 @@ export const persons = [
     }
   },
       {
-    id: [206],
+    id: 206,
     name: "Moshe Hamiel",
     img: "http://moshe-hamiel.info/wp-content/uploads/0.jpg",
     links: {
@@ -3432,6 +3432,22 @@ export const persons = [
       city: "Porat",
       state: "",
       country: "Israel"
+    }
+  },
+  {
+    id: 207,
+    name: "Rafael Rojas Covarrubias",
+    img: "https://rafaelrojascov.com/images/rafael.jpg",
+    links: {
+      website: "https://www.rafaelrojascov.com",
+      linkedin: "https://www.linkedin.com/in/RafaelRojasCov",
+      github: "https://www.github.com/RafaelRojasCov"
+    },
+    jobTitle: "Front-End React Developer",
+    location: {
+      city: "Santiago",
+      state: "RM",
+      country: "Chile"
     }
   },
 ];
