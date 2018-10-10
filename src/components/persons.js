@@ -3483,7 +3483,7 @@ export const persons = [
     }
   },
   {
-    id: 210
+    id: 210,
     name: "Adriano Ianase",
     img: "https://media.licdn.com/dms/image/C4E03AQGTfv08sv9fBA/profile-displayphoto-shrink_200_200/0?e=1543449600&v=beta&t=8V8fXTBPNah4oN2HVXp8Ybe6EeXBbIdBtxmkxxmt298",
     links: {
