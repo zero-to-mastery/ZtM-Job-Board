@@ -3466,4 +3466,20 @@ export const persons = [
       country: "Canada"
     }
   },
+  {
+    id: 209,
+    name: "Ahmed Hajat",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "www.linkedin.com/in/ahmed-hajat",
+      github: "https://www.github.com/AhmedH14"
+    },
+    jobTitle: "Project Manager and Frontend Developer",
+    location: {
+      city: "Johannesburg",
+      state: "Gauteng",
+      country: "South Africa"
+    }
+  },
 ];
