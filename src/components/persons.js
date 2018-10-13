@@ -3497,4 +3497,19 @@ export const persons = [
       country: "Brazil"
     }
   },
+  {
+    id: 211,
+    name: "Raksha Kashyap",
+    img: "https://avatars3.githubusercontent.com/u/25738721?s=400&u=59434ae41a079765afab03854be343412e62617b&v=4",
+    links: {
+      linkedin: "https://www.linkedin.com/in/rakshakashyap/",
+      github: "https://github.com/kashyap-raksha"
+    },
+    jobTitle: "Web Developer/Software Engineer",
+    location: {
+      city: "San Jose",
+      state: "California",
+      country: "USA"
+    }
+  },
 ];
