@@ -2762,4 +2762,17 @@ export const persons = [
       country: "Philippines"
     }
   },
+    {
+    id: 214,
+    name: "Luis Parra",
+    img:
+      "https://avatars2.githubusercontent.com/u/16653744?s=400&u=44a21a2b09172c9f2d300ee51aa95c14d3c8c8b8&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/parral",
+      github: "https://github.com/lparra"
+    },
+    jobTitle: "Full-Stack Dev",
+    location: { city: "Fort Lauderdale", state: "Florida", country: "United States of America" }
+  },
 ];
