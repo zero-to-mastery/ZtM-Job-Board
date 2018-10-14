@@ -2747,8 +2747,23 @@ export const persons = [
     jobTitle: "Software Engineer",
     location: { city: "Toronto", state: "Ontario", country: "Canada" }
   }
-    {
+  {
     id: 213,
+    name: "Siegfred Balona",
+    img: "https://static-cdn.jtvnw.net/jtv_user_pictures/b3660425-a3c6-49b6-b87a-a8d487dd37b2-profile_image-300x300.jpg",
+    links: {      
+      linkedin: "https://www.linkedin.com/in/siegblink/",
+      github: "https://github.com/siegblink"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Cebu City",
+      state: "Cebu",
+      country: "Philippines"
+    }
+  },
+  {
+    id: 214,
     name: "Luis Parra",
     img:
       "https://avatars2.githubusercontent.com/u/16653744?s=400&u=44a21a2b09172c9f2d300ee51aa95c14d3c8c8b8&v=4",
@@ -2757,7 +2772,7 @@ export const persons = [
       linkedin: "https://www.linkedin.com/in/parral/",
       github: "https://github.com/lparra"
     },
-    jobTitle: "Software Engineer",
+    jobTitle: "Full Stack Developer",
     location: { city: "Fort Lauderdale", state: "Florida", country: "United States of America" }
   }
 ];
