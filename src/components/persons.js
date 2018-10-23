@@ -2788,4 +2788,16 @@ export const persons = [
     jobTitle: "Full-Stack Dev",
     location: { city: "San Jose", state: "California", country: "United States of America" }
   },
+  {
+    id: 216,
+    name: "Mika Riepponen",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/mika-riepponen/",
+      github: "https://github.com/Vrites"
+    },
+    jobTitle: "Front-End Web Developer",
+    location: { city: "Espoo", state: "", country: "Finland" }
+  },
 ];
