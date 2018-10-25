@@ -2803,7 +2803,7 @@ export const persons = [
 
   {
     id: 217,
-    name: "Earle Poole",
+    name: "Earle Poole IV",
     img: "https://static.wixstatic.com/media/d84b47_a4583d5323484368983b364eeddf1be8~mv2_d_3170_2911_s_4_2.jpg/v1/fill/w_161,h_161,al_c,q_80,usm_0.66_1.00_0.01/d84b47_a4583d5323484368983b364eeddf1be8~mv2_d_3170_2911_s_4_2.jpg",
     links: {
       website: "http://thepoolehouse.com/",
