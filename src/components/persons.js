@@ -2817,4 +2817,20 @@ export const persons = [
       country: "United States of America"
     }
   },
+    {
+    id: 218,
+    name: "Rahul Marupaka",
+    img: "https://media.licdn.com/dms/image/C5603AQHT9YtiI461Ug/profile-displayphoto-shrink_200_200/0?e=1545868800&v=beta&t=V7VgLpQZmELkL_hdxExEXes9lOn1_oMsN7FFF8SqWwE",
+    links: {
+      website: "www.rahulmarupaka.github.io",
+      linkedin: "http://www.linkedin.com/in/rahulmarupaka",
+      github: "www.github.com/rahulmarupaka"
+    },
+    jobTitle: "Front-End Developer",
+    location: {
+      city: "Chicago",
+      state: "Illinois",
+      country: "USA"
+    }
+  },
 ];
