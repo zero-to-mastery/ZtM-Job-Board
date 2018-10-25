@@ -2800,7 +2800,6 @@ export const persons = [
     jobTitle: "Front-End Web Developer",
     location: { city: "Espoo", state: "", country: "Finland" }
   },
-];
 
   {
     id: 217,
@@ -2818,3 +2817,4 @@ export const persons = [
       country: "United States of America"
     }
   },
+];
