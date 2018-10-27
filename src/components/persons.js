@@ -2850,5 +2850,23 @@ export const persons = [
       country: "United Kingdom"
     }
   },
+  
+  {
+    id: [220],
+    name: "Udi Levy",
+    img: "https://static.wixstatic.com/media/d84b47_01a93a21ac9a407fb2bd56ffbc719cfa~mv2_d_3200_2885_s_4_2.jpg/v1/crop/x_112,y_0,w_2880,h_2885/fill/w_225,h_225,al_c,q_80,usm_0.66_1.00_0.01/d84b47_01a93a21ac9a407fb2bd56ffbc719cfa~mv2_d_3200_2885_s_4_2.webp",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/udi-levy-187865115/",
+      github: "https://github.com/Udi18",
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Houston",
+      state: "Texas",
+      country: "USA",
+    }
+  },  
+
 
 ];
