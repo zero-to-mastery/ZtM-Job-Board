@@ -2885,5 +2885,22 @@ export const persons = [
     }
   },
 
+  {
+    id: 222,
+    name: "Ruslan Anisimov,
+    img: "https://media.licdn.com/dms/image/C5603AQFwm7MvgdqNlQ/profile-displayphoto-shrink_200_200/0?e=1546473600&v=beta&t=o2rX9xoGqLZMDNZWPiueErACYr7b_ezYmzwTgRYFvFk",
+    links: {
+      website: "http://ruslananisimov.com",
+      linkedin: "https://www.linkedin.com/in/ruslan-anisimov/",
+      github: "https://github.com/napvlm"
+    },
+    jobTitle: "Front-end Developer",
+    location: {
+      city: "Kyiv",
+      state: "",
+      country: "Ukraine"
+    }
+  },
+
 
 ];
