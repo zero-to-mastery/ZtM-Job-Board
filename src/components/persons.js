@@ -2919,4 +2919,20 @@ export const persons = [
     }
   },
 
+  {
+    id: 224,
+    name: "John Davis",
+    img: "https://avatars0.githubusercontent.com/u/1872844?s=400&u=164c5898d4246358676e04450a4b9eed792108cb&v=4",
+    links: {
+      website: "tidyneat.com",
+      linkedin: "https://www.linkedin.com/in/johnjaydavis/",
+      github: "https://github.com/512jay"
+    },
+    jobTitle: "Developer",
+    location: {
+      city: "Washington",
+      state: "DC",
+      country: "USA"
+    }
+  },
 ];
