@@ -2762,7 +2762,7 @@ export const persons = [
       country: "Philippines"
     }
   },
-    {
+  {
     id: 214,
     name: "Luis Parra",
     img:
@@ -2817,7 +2817,7 @@ export const persons = [
       country: "United States of America"
     }
   },
-    {
+  {
     id: 218,
     name: "Rahul Marupaka",
     img: "https://media.licdn.com/dms/image/C5603AQHT9YtiI461Ug/profile-displayphoto-shrink_200_200/0?e=1545868800&v=beta&t=V7VgLpQZmELkL_hdxExEXes9lOn1_oMsN7FFF8SqWwE",
@@ -2902,5 +2902,21 @@ export const persons = [
     }
   },
 
+  {
+    id: 223,
+    name: "Michael Hill",
+    img: "https://avatars0.githubusercontent.com/u/40850298?s=400&u=18b0309d1c4c08d1fe5cfbd0feb60039b5a141bf&v=4",
+    links: {
+      website: "",
+      linkedin: "",
+      github: "https://github.com/mk-hill"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Little Rock",
+      state: "Arkansas",
+      country: "USA"
+    }
+  },
 
 ];
