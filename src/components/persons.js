@@ -2688,7 +2688,7 @@ export const persons = [
       github: "https://www.github.com/Scramblelock"
     },
     jobTitle: "Full Stack Web Developer",
-    location: { city: "Montreal", state: "QC", country: "Canada" }
+    location: { city: "Montréal", state: "QC", country: "Canada" }
   },
   {
     id: 209,
