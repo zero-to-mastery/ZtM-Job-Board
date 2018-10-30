@@ -2687,8 +2687,8 @@ export const persons = [
       linkedin: "www.linkedin.com/in/scramblelock",
       github: "https://www.github.com/Scramblelock"
     },
-    jobTitle: "Web Developer",
-    location: { city: "Montreal", state: "QC", country: "Canada" }
+    jobTitle: "Full Stack Web Developer",
+    location: { city: "Montréal", state: "QC", country: "Canada" }
   },
   {
     id: 209,
