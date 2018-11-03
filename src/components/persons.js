@@ -2952,4 +2952,20 @@ export const persons = [
       country: "USA"
     }
   },
+  {
+    id: 226,
+    name: "Joachim Tranvag",
+    img: "https://tranjog.github.io/safari/img/profilepic.jpg?raw=true",
+    links: {
+      website: "http://rafikiweb.com/",
+      linkedin: "https://www.linkedin.com/in/joachimtra/",
+      github: "https://github.com/tranjog"
+    },
+    jobTitle: "Web and Digital Systems Developer",
+    location: {
+      city: "Exeter",
+      state: "Devon",
+      country: "United Kingdom"
+    }
+  },
 ];
