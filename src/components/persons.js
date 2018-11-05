@@ -2984,4 +2984,20 @@ export const persons = [
       country: "Brazil"
     }
   },
+    {
+    id: 228,
+    name: "Marco Sciortino",
+    img: "https://sciortno-mrc.herokuapp.com/static/media/photo.5ae776c5.jpg",
+    links: {
+      website: "http://sciortino-mrc.herokuapp.com",
+      linkedin: "https://www.linkedin.com/in/marco-sciortino-429938155/",
+      github: "https://github.com/sciortinomrc"
+    },
+    jobTitle: "Full Stack Javascript Web Dev, C#",
+    location: {
+      city: "London",
+      state: "",
+      country: "United Kingdom"
+    }
+  },
 ];
