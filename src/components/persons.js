@@ -3003,7 +3003,7 @@ export const persons = [
   {
     id: 229,
     name: "Ariel Tan",
-    img: "https://media.licdn.com/dms/image/C5603AQHBlxdQPIa1nA/profile-displayphoto-shrink_200_200/0?e=1547078400&v=beta&t=06c7i75kKLmY8d2tKcTHgAyHWCmcu-gOVEC4NjGXcno"
+    img: "https://media.licdn.com/dms/image/C5603AQHBlxdQPIa1nA/profile-displayphoto-shrink_200_200/0?e=1547078400&v=beta&t=06c7i75kKLmY8d2tKcTHgAyHWCmcu-gOVEC4NjGXcno",
     links: {
       website: "",
       linkedin: "https://www.linkedin.com/in/ariel-tan-67123b124/",
