@@ -2984,7 +2984,7 @@ export const persons = [
       country: "Brazil"
     }
   },
-    {
+  {
     id: 228,
     name: "Marco Sciortino",
     img: "https://sciortno-mrc.herokuapp.com/static/media/photo.5ae776c5.jpg",
@@ -2998,6 +2998,21 @@ export const persons = [
       city: "London",
       state: "",
       country: "United Kingdom"
+    }
+  },
+  {
+    id: 229,
+    name: "Ariel Tan",
+    img: "https://media.licdn.com/dms/image/C5603AQHBlxdQPIa1nA/profile-displayphoto-shrink_200_200/0?e=1547078400&v=beta&t=06c7i75kKLmY8d2tKcTHgAyHWCmcu-gOVEC4NjGXcno"
+      website: "",
+      linkedin: "https://www.linkedin.com/in/ariel-tan-67123b124/",
+      github: "https://github.com/arieltan18"
+    },
+    jobTitle: "Junior Web & Mobile Developer",
+    location: {
+      city: "",
+      state: "",
+      country: "Malaysia"
     }
   },
 ];
