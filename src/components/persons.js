@@ -3016,4 +3016,20 @@ export const persons = [
       country: "Malaysia"
     }
   },
+  {
+    id: 230,
+    name: "Swaroop S",
+    img: "https://scontent-maa2-1.xx.fbcdn.net/v/t31.0-1/c2.0.960.960/p960x960/18209164_1116442258459101_6526383771619593096_o.jpg?_nc_cat=105&_nc_ht=scontent-maa2-1.xx&oh=9a3419b1e6589d6655700c557c61ceb9&oe=5C40EE2E",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/swaroop-sambhayya-72757a136/",
+      github: "https://github.com/SwaroopSambhayya"
+    },
+    jobTitle: "Full stack Android and Web Developer",
+    location: {
+      city: "",
+      state: "Karnataka",
+      country: "India"
+    }
+  },
 ];
