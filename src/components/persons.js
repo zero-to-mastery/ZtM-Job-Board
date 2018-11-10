@@ -3032,4 +3032,20 @@ export const persons = [
       country: "India"
     }
   },
+  {
+    id: 231,
+    name: "Hareth Naji",
+    img: "https://drive.google.com/file/d/10v5Ho0WZXxfjYShLhuVmvcnHfvaw6X9G/view?usp=sharing",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/hareth-naji/",
+      github: "https://github.com/hazzaldo"
+    },
+    jobTitle: "Full stack (React) Web Developer and iOS developer",
+    location: {
+      city: "",
+      state: "Warwickshire",
+      country: "United Kingdom"
+    }
+  },
 ];
