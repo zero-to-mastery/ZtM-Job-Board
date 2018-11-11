@@ -3035,7 +3035,7 @@ export const persons = [
   {
     id: 231,
     name: "Hareth Naji",
-    img: "https://drive.google.com/file/d/10v5Ho0WZXxfjYShLhuVmvcnHfvaw6X9G/view?usp=sharing",
+    img: "https://lh5.googleusercontent.com/vaPSH6rbTJ_vc_2FA_BljBXtJGo2o3LUySdViF3SUfnPZkgN2AOLOf5nZi4Ge77d0ZjMIY-7IgQ-dQ=w1432-h892",
     links: {
       website: "",
       linkedin: "https://www.linkedin.com/in/hareth-naji/",
