@@ -3048,4 +3048,20 @@ export const persons = [
       country: "United Kingdom"
     }
   },
+  {
+    id: 232,
+    name: "Kush Daga",
+    img: "https://github.com/kush-daga/image/blob/master/image.png",
+    links: {
+      website: "kush-daga.github.io",
+      linkedin: "www.linkedin.com/in/kush-d-63a310111",
+      github: "https://github.com/kush-daga"
+    },
+    jobTitle: "Full stack Web Developer",
+    location: {
+      city: "Patiala",
+      state: "Punjab",
+      country: "India"
+    }
+  },
 ];
