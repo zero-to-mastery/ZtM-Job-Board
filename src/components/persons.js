@@ -3064,4 +3064,20 @@ export const persons = [
       country: "India"
     }
   },
+  {
+    id: 233,
+    name: "Michael Legemah",
+    img: "https://pbs.twimg.com/profile_images/717020237070221312/4Jcm3TnZ_400x400.jpg",
+    links: {
+      website: "https://mikelegemah5799.github.io/mikelegemah5799/",
+      linkedin: "https://www.linkedin.com/in/michaellegemah/",
+      github: "https://github.com/MikeLegemah5799"
+    },
+    jobTitle: "Senior Front End Web Engineer",
+    location: {
+      city: "New York",
+      state: "NY",
+      country: "United States"
+    }
+  }
 ];
