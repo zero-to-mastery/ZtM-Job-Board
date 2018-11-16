@@ -3078,6 +3078,21 @@ export const persons = [
       city: "New York",
       state: "NY",
       country: "United States"
-    }
+    },
+    {
+      id: 234,
+      name: "Vina Compson",
+      img: "https://avatars0.githubusercontent.com/u/16011142?s=400&u=226e6af77d1472cce0587a58a0d6de4f1080f892&v=4",
+      links: {
+        website: "https://vamisola.createdly.net",
+        linkedin: "https://www.linkedin.com/in/vamisola/",
+        github: "https://github.com/vamisola"
+      },
+      jobTitle: "Self-taught Web Developer",
+      location: {
+        city: "Melbourne",
+        state: "Victoria",
+        country: "Australia"
+      }
   }
 ];
