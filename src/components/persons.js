@@ -3079,7 +3079,7 @@ export const persons = [
       state: "NY",
       country: "United States"
     }
-  }
+  },
   {
     id: 234,
     name: "Paul Vargas",
