@@ -3079,5 +3079,21 @@ export const persons = [
       state: "NY",
       country: "United States"
     }
-  }
+  },
+  {
+    id: 234,
+    name: "Paul Vargas",
+    img: "http://vargasdev.com/images/Paul1_CircleOrange.png",
+    links: {
+      website: "http://vargasdev.com/",
+      linkedin: "",
+      github: "https://github.com/PaulVargasDev"
+    },
+    jobTitle: "Web Developer (WordPress, React.js, Node.js)",
+    location: {
+      city: "",
+      state: "",
+      country: "Bolivia (Willing to Relocate or Work Remotely)"
+    }
+  },
 ];
