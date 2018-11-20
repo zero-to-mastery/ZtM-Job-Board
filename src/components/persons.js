@@ -2989,7 +2989,7 @@ export const persons = [
     name: "Marco Sciortino",
     img: "https://sciortno-mrc.herokuapp.com/static/media/photo.5ae776c5.jpg",
     links: {
-      website: "http://sciortino-mrc.herokuapp.com",
+      website: "http://sciortino-mrc.netlify.com",
       linkedin: "https://www.linkedin.com/in/marco-sciortino-429938155/",
       github: "https://github.com/sciortinomrc"
     },
