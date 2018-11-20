@@ -2987,7 +2987,7 @@ export const persons = [
   {
     id: 228,
     name: "Marco Sciortino",
-    img: "https://sciortno-mrc.herokuapp.com/static/media/photo.5ae776c5.jpg",
+    img: "https://sciortino-mrc.netlify.com/static/media/photo.5ae776c5.jpg",
     links: {
       website: "http://sciortino-mrc.netlify.com",
       linkedin: "https://www.linkedin.com/in/marco-sciortino-429938155/",
