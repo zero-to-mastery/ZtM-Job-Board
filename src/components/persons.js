@@ -3096,4 +3096,20 @@ export const persons = [
       country: "Bolivia (Willing to Relocate or Work Remotely)"
     }
   },
+  {
+    id: 235,
+    name: "Sherin Binu",
+    img: "",
+    links: {
+      website: "https://sherondale.me",
+      linkedin: "https://www.linkedin.com/in/sherin-binu-75291a126/",
+      github: "https://github.com/SherOnDale"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Chennai",
+      state: "Tamil Nadu",
+      country: "India"
+    }
+  }
 ];
