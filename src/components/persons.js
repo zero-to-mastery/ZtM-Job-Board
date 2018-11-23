@@ -3111,5 +3111,21 @@ export const persons = [
       state: "Tamil Nadu",
       country: "India"
     }
-  }
+  },
+  {
+    id: 236,
+    name: "Daniel Roberts",
+    img: "https://avatars3.githubusercontent.com/u/18223722",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/beardofdan/",
+      github: "https://github.com/BeardOfDan"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Bay Area",
+      state: "CA",
+      country: "USA"
+    }
+  },
 ];
