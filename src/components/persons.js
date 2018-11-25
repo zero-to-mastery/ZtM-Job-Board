@@ -3128,4 +3128,20 @@ export const persons = [
       country: "USA"
     }
   },
+  {
+    id: 237,
+    name: "Harsh Patel",
+    img: "https://avatars3.githubusercontent.com/u/41349472?s=460&v=4",
+    links: {
+      website: "harshpatel.io",
+      linkedin: "https://www.linkedin.com/pateltharsh/",
+      github: "https://github.com/Zeztron"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Columbus",
+      state: "OH",
+      country: "USA"
+    }
+  }
 ];
