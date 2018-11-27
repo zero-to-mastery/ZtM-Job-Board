@@ -3143,5 +3143,21 @@ export const persons = [
       state: "OH",
       country: "USA"
     }
-  }
+  },
+  {
+    id: 238,
+    name: "Joel Rumble",
+    img: "https://avatars3.githubusercontent.com/u/18223722",
+    links: {
+      website: "https://www.joelandrewrumble.co.uk",
+      linkedin: "https://www.linkedin.com/in/joel-rumble-17b554157",
+      github: ""
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "",
+      state: "Dorset",
+      country: "United Kingdom"
+    }
+  },
 ];
