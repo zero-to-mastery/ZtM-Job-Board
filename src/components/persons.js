@@ -3160,4 +3160,20 @@ export const persons = [
       country: "United Kingdom"
     }
   },
+  {
+    id: 239,
+    name: "Derek Kenney",
+    img: ""
+    links: {
+      website:"",
+      linkedin: "https://linkedin.com/in/derekjkenney/" 
+      github: "https://github.com/derekkenney"
+    },
+    jobTitle: "Senior Cloud Software Developer",
+    location: {
+      city: "Philadelphia",
+      state: "PA",
+      country: "United States"
+    }
+  },
 ];
