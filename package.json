@@ -9,7 +9,7 @@
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-favicon": "0.0.14",
-    "react-scripts": "1.1.4",
+    "react-scripts": "^2.1.1",
     "tachyons": "^4.9.1"
   },
   "scripts": {
@@ -25,5 +25,11 @@
   },
   "devDependencies": {
     "gh-pages": "^1.2.0"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
