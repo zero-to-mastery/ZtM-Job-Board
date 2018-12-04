@@ -2755,7 +2755,7 @@ export const persons = [
       linkedin: "https://www.linkedin.com/in/siegblink/",
       github: "https://github.com/siegblink"
     },
-    jobTitle: "Web Developer",
+    jobTitle: "Fullstack Javascript Developer",
     location: {
       city: "Cebu City",
       state: "Cebu",
