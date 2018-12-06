@@ -3160,4 +3160,20 @@ export const persons = [
       country: "United Kingdom"
     }
   },
+  {
+    id: 239,
+    name: "Harshit Mahajan",
+    img: "https://avatars2.githubusercontent.com/u/34333099?s=460&v=4",
+    links: {
+      website: "",
+      linkedin: "www.linkedin.com/in/hmahajan99",
+      github: "https://github.com/hmahajan99"
+    },
+    jobTitle: "Full Stack Web Developer/ Data Scientist",
+    location: {
+      city: "",
+      state: "Delhi",
+      country: "India"
+    }
+  },
 ];
