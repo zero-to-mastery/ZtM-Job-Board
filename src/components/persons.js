@@ -3176,4 +3176,20 @@ export const persons = [
       country: "India"
     }
   },
+  {
+    id: 240,
+    name: "Kwanwoo (Steven) Jeong",
+    img: "https://bquagq.bn.files.1drv.com/y4m6exJenQbE8UUae807UkgH5Jfmfvvhkj247iW3FGLy-UU95O--cyj4mtI4W4QPCdT64lBSNIkoFHYuAFRCofCiE9J1xdWJHkc2mJQzDq1XMF2vTFjDASc5T0sd43h_hnVVLSAoKEMRKNyK2Wl1F7LMOWTvB19vmWkWhgky1QmxJkdUCny6HIkVRMkuPwHvfd4ANCUSji3RY1vMmdm6PgEqg?width=642&height=616&cropmode=none",
+    links: {
+      website: "http://www.kwanwoo.me",
+      linkedin: "https://www.linkedin.com/in/kwanwoo-jeong-48699483/",
+      github: "https://github.com/kwanwooi25"
+    },
+    jobTitle: "Full-stack Web Developer",
+    location: {
+      city: "Seoul",
+      state: "",
+      country: "Korea"
+    }
+  },
 ];
