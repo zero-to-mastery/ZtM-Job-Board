@@ -3166,7 +3166,7 @@ export const persons = [
     img: "https://avatars2.githubusercontent.com/u/34333099?s=460&v=4",
     links: {
       website: "",
-      linkedin: "www.linkedin.com/in/hmahajan99",
+      linkedin: "https://www.linkedin.com/in/hmahajan99",
       github: "https://github.com/hmahajan99"
     },
     jobTitle: "Full Stack Web Developer/ Data Scientist",
