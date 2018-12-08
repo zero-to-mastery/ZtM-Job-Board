@@ -3192,4 +3192,20 @@ export const persons = [
       country: "Korea"
     }
   },
+  {
+    id: 241,
+    name: "Vignesh Kaliyamoorthy",
+    img: "https://avatars2.githubusercontent.com/u/26570662?v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/vignesh-kaliyamoorthy-24006a100/",
+      github: "https://github.com/vigneshkaliyamoorthy"
+    },
+    jobTitle: "Front-End Web Developer & SharePoint Developer",
+    location: {
+      city: "Chennai",
+      state: "Tamilnadu",
+      country: "India"
+    }
+  },
 ];
