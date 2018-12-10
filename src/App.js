@@ -10,7 +10,6 @@ const style = {
     width: '100%',
     margin: '0',
     zIndex: '1',
-    width: "100%",
     borderRadius: '5px'
 }
 const responsiveSearch = {
