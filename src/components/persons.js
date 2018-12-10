@@ -3208,4 +3208,20 @@ export const persons = [
       country: "India"
     }
   },
+   {
+    id: 242,
+    name: "Tzu-Ching Chen",
+    img: "https://avatars1.githubusercontent.com/u/45002821",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/ginnnnnn/",
+      github: "https://github.com/ginnnnnn/"
+    },
+    jobTitle: "Front-End Web Developer ",
+    location: {
+      city: "Adelide",
+      state: "South Australia",
+      country: "Australia"
+    }
+  },
 ];
