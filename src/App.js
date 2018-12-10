@@ -2,6 +2,22 @@ import React, {Component} from 'react';
 import CardList from './components/CardList';
 import Navbar from './components/Navbar';
 import {persons} from './components/persons';
+import Search from './components/Search';
+
+const style = {
+    background: '#fff',
+    padding: '1rem',
+    width: '100%',
+    margin: '0',
+    zIndex: '1',
+    width: "100%",
+    borderRadius: '5px'
+}
+const responsiveSearch = {
+  width: '100%',
+  marginBottom: '0.5rem',
+  padding: '0.5rem'
+}
 
 class App extends Component {
   constructor() {
@@ -9,18 +25,26 @@ class App extends Component {
     this.state = {
       persons: persons,
       searchfield: '',
-      category: 'name',
-      isMenuOpen: false,
+      category: 'job title',
+      winWidth: window.innerWidth
     }
   }
 
-  onSearchChange = (event) => {
-    this.setState({searchfield:event.target.value});
+  componentDidMount(){
+    window.addEventListener('resize', () => {
+      this.setState({
+        winWidth: window.innerWidth
+      })
+    })
   }
 
-  onCategoryChange = (event) =>{
+  onSearchChange = (event) => {
+    this.setState({searchfield: event.target.value});
+  }
+
+  onCategoryChange = (event) => {
     this.setState({
-      category:event.target.value,
+      category: event.target.value,
       searchfield:''
     });
     let searchInput = document.querySelector('#searchbox input'); 
@@ -28,12 +52,6 @@ class App extends Component {
     searchInput.focus();
   }
 
-  toggleMenu = () => {
-    this.setState(this.state.isMenuOpen ? {isMenuOpen:false} : {isMenuOpen:true});
-    document.querySelector('.menu-icon').classList.toggle('change');
-    document.querySelector('.header-items').classList.toggle('expand');
-    document.querySelector('.collapse').classList.toggle('hidden');  
-  }
 
   onKeyPress = (event) => {
     if ((event.keyCode === 13 || event.charCode === 13) && (this.state.isMenuOpen)) {
@@ -71,10 +89,9 @@ class App extends Component {
     return (
       <div className="flex flex-column min-vh-100 tc">
         <header className="custom--unselectable fixed top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-3">
-          
-          <Navbar
+           <Navbar
+            winWidth={this.state.winWidth}
             onSearchChange={this.onSearchChange}
-            toggleMenu={this.toggleMenu}
             category={this.state.category}
             keyPress={this.onKeyPress}
             categoryChange={this.onCategoryChange}
@@ -82,11 +99,24 @@ class App extends Component {
 
         </header>
         <main className="flex-auto">
-          
-          <CardList 
-            persons={filteredPersons} 
-          />
-
+          <div id="sketch-particles" className="flex flex-wrap justify-center">
+              {
+                this.state.winWidth < 760 ?
+                // IF window width is less then 650 means its mobile, render the component
+                <div style={style}>
+                  <Search
+                      onSearchChange={this.onSearchChange}
+                      category={this.state.category}
+                      keyPress={this.onKeyPress}
+                      categoryChange={this.onCategoryChange}
+                      responsiveSearch={responsiveSearch}
+                  />
+                 </div>
+                : // ELSE return nothing
+                null
+              }
+               <CardList persons={filteredPersons} />
+          </div>
         </main>
         <footer className="custom--unselectable w-100 h3 flex items-center justify-center justify-end-l white custom--bg-additional3 z-2">
           <a href="https://github.com/zero-to-mastery/ZtM-Job-Board" title="Repository">

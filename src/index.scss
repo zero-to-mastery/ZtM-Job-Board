@@ -79,11 +79,11 @@ input {
 header {
 
   padding: 0 5%;
-
+  
   .header-items {
-    margin-top: 0.7rem;
-    height: 3rem;
     transition: height 0.3s ease;
+    padding: 0.6rem;
+    align-items: center;
   }
 
   /* Some custom media queries below to properly show/hide menu bar stuff. Using tachyons size classes left the menu's layout broken on certain widths*/
@@ -174,8 +174,9 @@ header {
 
   }
 
-  .SearchCategory .radio-box {
+}
 
+ .SearchCategory .radio-box {
     input,
     label {
       cursor: pointer;
@@ -240,14 +241,11 @@ header {
     }
     input:focus,
     input:not(:placeholder-shown) {
-      color: #FFFFFF;
+      color: #000000;
       border-color: $color--primary;
     }
 
   }
-
-}
-
 
 
 main {
