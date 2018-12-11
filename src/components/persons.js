@@ -3225,8 +3225,8 @@ export const persons = [
     }
   },
   {
-    id: [243],
-    name: "[Brian MacPherson]",
+    id: 243,
+    name: "Brian MacPherson",
     img: "https://avatars2.githubusercontent.com/u/36687746?s=460&v=4",
     links: {
       website: "",
