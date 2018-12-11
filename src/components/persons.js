@@ -3224,4 +3224,20 @@ export const persons = [
       country: "Australia"
     }
   },
+  {
+    id: 243,
+    name: "Brian MacPherson",
+    img: "https://avatars2.githubusercontent.com/u/36687746?s=460&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/brian-macpherson-414b6126/",
+      github: "https://github.com/brimac1634"
+    },
+    jobTitle: "Full Stack Developer and Project Manager",
+    location: {
+      city: "Hong Kong",
+      state: "",
+      country: "Hong Kong"
+    }
+  },
 ];
