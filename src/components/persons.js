@@ -3240,4 +3240,20 @@ export const persons = [
       country: "Hong Kong"
     }
   },
+   {
+    id: 244,
+    name: "Wilfred Erdo A. Bancairen",
+    img: "https://media.licdn.com/dms/image/C5603AQEBwBfeK6WvSQ/profile-displayphoto-shrink_200_200/0?e=1549497600&v=beta&t=MaS6fplYlejlV4ue5ImGCEOrn7JIFm1OBKRjsKTLJoo",
+    links: {
+      website: "to be updated",
+      linkedin: "https://www.linkedin.com/in/wilfred-erdo-bancairen-54887939/",
+      github: "https://github.com/wilfred05777"
+    },
+    jobTitle: "Software Developer",
+    location: {
+      city: "Carmen",
+      state: "Davao Del Norte",
+      country: "Philippines"
+      }
+    },
 ];
