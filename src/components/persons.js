@@ -3256,4 +3256,20 @@ export const persons = [
       country: "Philippines"
       }
     },
+    {
+    id: 245,
+    name: "Robert Stamate",
+    img: "https://media.licdn.com/dms/image/C5603AQF7t_i2Uq2Vig/profile-displayphoto-shrink_200_200/0?e=1550102400&v=beta&t=FIG8s3SOWMFqWN0LqRLkbV2xmIHmVDA_BGSS9JAeHjY",
+    links: {
+      website: "https://valkyr-development.com/",
+      linkedin: "https://www.linkedin.com/in/rmstamate/",
+      github: "https://github.com/roberthugsy/"
+    },
+    jobTitle: "Fullstack Developer",
+    location: {
+      city: "Cluj-Napoca",
+      state: "Cluj",
+      country: "Romania"
+      }
+    },
 ];
