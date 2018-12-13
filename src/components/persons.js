@@ -3272,4 +3272,20 @@ export const persons = [
       country: "Romania"
       }
     },
+  {
+    id: 246,
+    name: "Tony Nguyen",
+    img: "https://avatars1.githubusercontent.com/u/36907562?s=400&u=8fdd44b69baf5600d50a6ea6d5e883c4f31151c7&v=4",
+    links: {
+      website: "https://tonynguyen111997.github.io/portfolio/",
+      linkedin: "https://www.linkedin.com/in/tonynguyen111997/",
+      github: "https://github.com/tonynguyen111997"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "San Bernardino",
+      state: "California",
+      country: "United States of America"
+    }
+  },
 ];
