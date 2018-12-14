@@ -3272,4 +3272,20 @@ export const persons = [
       country: "Romania"
       }
     },
+    {
+    id: 246,
+    name: "Josef Bnm",
+    img: "https://avatars0.githubusercontent.com/u/20369582?s=460&v=4",
+    links: {
+      website: "https://ycf-dev.herokuapp.com/",
+      linkedin: "https://www.linkedin.com/in/josef-bnm-692392123/",
+      github: "https://github.com/YoucefBnm"
+    },
+    jobTitle: "Front end Developer",
+    location: {
+      city: "Oran",
+      state: "Oran",
+      country: "Algeria"
+      }
+    },
 ];
