@@ -3317,7 +3317,7 @@ export const persons = [
     location: {
       city: "Oran",
       state: "Oran",
-      country: "Algeria"
+      country: "Algeria (willin to relocate)"
     }
   },
 ];
