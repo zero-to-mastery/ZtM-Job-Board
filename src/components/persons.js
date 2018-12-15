@@ -3288,4 +3288,20 @@ export const persons = [
       country: "United States of America"
     }
   },
+  {
+    id: 247,
+    name: "Andrés Cruz",
+    img: "https://pbs.twimg.com/profile_images/1029210892624384000/hHQTuI96_400x400.jpg",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/profileandrescruz/",
+      github: "https://github.com/andres-cruz"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Buenos Aires",
+      state: "",
+      country: "Argentina"
+    }
+  },
 ];
