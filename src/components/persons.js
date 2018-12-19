@@ -3364,5 +3364,21 @@ export const persons = [
       state: 'California',
       country: 'United States'
     }
+  },
+  {
+    id: [250],
+    name: "Darnell Hedrick",
+    img: "https://pbs.twimg.com/profile_images/990422694717001728/3xT7u7rD_400x400.jpg",
+    links: {
+      website: "[YOUR_WEBSITE_URL]",
+      linkedin: "https://www.linkedin.com/in/darnell-hedrick-962b65176/",
+      github: "https://github.com/DarrnyH"
+    },
+    jobTitle: "Full Stack Developer(MERN) ",
+    location: {
+      city: "",
+      state: "Mississippi",
+      country: "United States"
+    }
   }
 ];
