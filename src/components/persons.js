@@ -3381,4 +3381,21 @@ export const persons = [
       country: "United States"
     }
   }
+,
+{
+    id: 251,
+    name: "Sina Moraddar",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/sina-moraddar-851708177/",
+      github: "https://github.com/sinamoraddar"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Shahriar",
+      state: "Tehran",
+      country: "Iran"
+    }
+  }
 ];
