@@ -3397,5 +3397,21 @@ export const persons = [
       state: "Tehran",
       country: "Iran"
     }
+  },
+  {
+    id: 252,
+    name: "Pankaj Aagjal",
+    img: "https://avatars0.githubusercontent.com/u/15609300?s=460&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/aagjalpankaj/",
+      github: "https://github.com/aagjalpankaj/"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Pune",
+      state: "Maharashtra",
+      country: "India"
+    }
   }
 ];
