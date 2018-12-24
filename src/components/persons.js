@@ -3413,5 +3413,21 @@ export const persons = [
       state: "Maharashtra",
       country: "India"
     }
+  },
+{
+    id: 253,
+    name: "Kritika Sharma",
+    img: "https://avatars2.githubusercontent.com/u/35176749?s=400&u=49691a090c52d6d0ae9315f746fc41595b584e51&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/kritika-sharma-8a65687a/",
+      github: "https://github.com/KritikaSharmaKS/"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Montreal",
+      state: "Quebec",
+      country: "Canada"
+    }
   }
 ];
