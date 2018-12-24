@@ -78,7 +78,12 @@ class App extends Component {
   render() {
     const filteredPersons = this.state.persons.filter(persons => {
       const category = this.whichCategory(persons);
-      if (category !== undefined) {
+      if (this.state.category === 'job title') {
+        let searchWord  = this.state.searchfield.toLowerCase().split(/[\s-]/).join('');
+        let match = category.split(/[\s-]/).join('');
+        return match.includes(searchWord);
+      }
+      else if (category !== undefined) {
         return category.includes(this.state.searchfield.toLowerCase());
       }
       else {
