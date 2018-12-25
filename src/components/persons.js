@@ -3429,5 +3429,21 @@ export const persons = [
       state: "Quebec",
       country: "Canada"
     }
+  },
+  {
+    id: 254,
+    name: "Yasser Dalouzi",
+    img: "https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/21430280_1880453648948406_5484250295324615463_n.jpg?_nc_cat=100&_nc_ht=scontent-mrs1-1.xx&oh=aca8eaefeb26abbc38887a9a9b4dfc1a&oe=5C95D59D",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/yasserdalouzi/",
+      github: "https://github.com/yvsser1/"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Casablanca",
+      state: "",
+      country: "Morocco"
+    }
   }
 ];
