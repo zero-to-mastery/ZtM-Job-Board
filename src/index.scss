@@ -311,6 +311,9 @@ main {
       border: 0.25rem solid $color--secondary;
       @include custom--box-shadow(0, 3, 3, -2, 0, 3, 4, 0, 0, 1, 8, 0);
     }
+    &:hover .header .personId {
+      opacity: 1;
+    }
     &:hover .header .title {
       color: #FFFFFF;
       background-color: $color--primary-dark;
