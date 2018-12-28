@@ -8,8 +8,8 @@ const Card = ({user}) => {
   if (id !== undefined) {
     return (
       <div id={`person-${id}`} className="card ma4 w5 tc bg-white br2 custom--shadow-2 custom--shadow-hover-8 custom--o-95 z-1">
-        <div className="header pt3 br2 br--top">
-          <div className="photo br-100 h4 w4 bw2 b--solid custom--b--primary bg-center cover" title={name} style={img !== '' ? {backgroundImage: 'url("' + img + '")'} : {}}></div>
+        <div className="header relative pt3 br2 br--top z-0">
+          <div className="photo relative br-100 h4 w4 bw2 b--solid custom--b--primary bg-center cover" title={name} style={img !== '' ? {backgroundImage: 'url("' + img + '")'} : {}}></div>
           <h2 className="name mt3 mb1 ph3 w-100 flex items-center justify-center">{name}</h2>
           <div className="title ph3 w-100 flex items-center justify-center">{jobTitle}</div>
         </div>
