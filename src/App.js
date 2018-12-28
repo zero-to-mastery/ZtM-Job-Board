@@ -3,6 +3,9 @@ import CardList from './components/CardList';
 import Navbar from './components/Navbar';
 import {persons} from './components/persons';
 import Search from './components/Search';
+import SimpleMap from './components/Map';
+
+import './App.css';
 
 const style = {
     background: '#fff',
@@ -25,7 +28,8 @@ class App extends Component {
       persons: persons,
       searchfield: '',
       category: 'job title',
-      winWidth: window.innerWidth
+      winWidth: window.innerWidth,
+      map: false
     }
   }
 
@@ -57,6 +61,10 @@ class App extends Component {
       event.currentTarget.blur();
       this.toggleMenu();
     }
+  }
+
+  onMapClick = () => {
+    this.setState({map: true});
   }
 
   whichCategory = (person) => {
@@ -92,6 +100,7 @@ class App extends Component {
     });
     return (
       <div className="flex flex-column min-vh-100 tc">
+        
         <header className="custom--unselectable fixed top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-3">
            <Navbar
             winWidth={this.state.winWidth}
@@ -99,10 +108,14 @@ class App extends Component {
             category={this.state.category}
             keyPress={this.onKeyPress}
             categoryChange={this.onCategoryChange}
+            onMapClick = {this.onMapClick}
           />
-
         </header>
         <main className="flex-auto">
+          {
+            this.state.map ? <SimpleMap /> 
+            :
+          
           <div id="sketch-particles" className="flex flex-wrap justify-center">
               {
                 this.state.winWidth < 760 ?
@@ -121,6 +134,7 @@ class App extends Component {
               }
                <CardList persons={filteredPersons} />
           </div>
+          }
         </main>
         <footer className="custom--unselectable w-100 h3 flex items-center justify-center justify-end-l white custom--bg-additional3 z-2">
           <a href="https://github.com/zero-to-mastery/ZtM-Job-Board" title="Repository">
