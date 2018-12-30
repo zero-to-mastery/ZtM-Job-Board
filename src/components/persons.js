@@ -3461,8 +3461,23 @@ export const persons = [
       state: "Victroia",
       country: "Australia"
     }
+  },
+  {
+    id: 256,
+    name: "David Bordeleau",
+    img: "https://avatars3.githubusercontent.com/u/37828192?s=460&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/david-bordeleau-a39434156/",
+      github: "https://github.com/davidbordeleau"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Den Haag",
+      state: "South Holland",
+      country: "Nederlands"
+    }
   }
-
 
 ];
 
