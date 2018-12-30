@@ -3445,5 +3445,24 @@ export const persons = [
       state: "",
       country: "Morocco"
     }
+  },
+  {
+    id: 255,
+    name: "YIXUN LI",
+    img: "https://miro.medium.com/fit/c/240/240/1*KCzB9vChbnmayxAyPmGDmg.jpeg",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/yixun-li-4b979ba3/",
+      github: "https://github.com/yx8"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Melbourne",
+      state: "Victroia",
+      country: "Australia"
+    }
   }
+
+
 ];
+
