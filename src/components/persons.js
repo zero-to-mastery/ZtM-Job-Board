@@ -3493,7 +3493,23 @@ export const persons = [
       state: "Centre",
       country: "Cameroon"
     }
-  }
+  },
+  {
+    id: 258,
+    name: "David Nowak",
+    img: "https://avatars1.githubusercontent.com/u/22338256?s=400&u=28db2b90b819ad52c31c6a793005b5603240660c&v=4",
+    links: {
+      website: "https://davidpnowak.com",
+      linkedin: "https://www.linkedin.com/in/davidpnowak/",
+      github: "https://github.com/Confidenceiskey"
+    },
+    jobTitle: "Front-End Developer",
+    location: {
+      city: "",
+      state: "",
+      country: "Canada/Europe"
+    }
+  },
 
 ];
 
