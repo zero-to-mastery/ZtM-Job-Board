@@ -3477,6 +3477,22 @@ export const persons = [
       state: "South Holland",
       country: "Nederlands"
     }
+  },
+  {
+    id: 257,
+    name: "Shinyuy Marcel Fonyuy",
+    img: "https://s.cdpn.io/profiles/user/2737087/512.jpg?1546210786",
+    links: {
+      website: "https://shinyuy.github.io",
+      linkedin: "www.linkedin.com/in/shinyuy-marcel-fonyuy-710a38169",
+      github: "https://github.com/shinyuy"
+    },
+    jobTitle: "Full-Stack Web Developer",
+    location: {
+      city: "Yaounde",
+      state: "Centre",
+      country: "Cameroon"
+    }
   }
 
 ];
