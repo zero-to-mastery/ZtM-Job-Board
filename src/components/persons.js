@@ -3510,6 +3510,22 @@ export const persons = [
       country: "Canada/Europe"
     }
   },
+  {
+    id: 259,
+    name: "Jared Gentry",
+    img: "https://media.licdn.com/dms/image/C4E03AQF073t25rLyWA/profile-displayphoto-shrink_200_200/0?e=1551916800&v=beta&t=HxCnXtEBTirSCI33Az5cEAdoVVq_pP08m3RDdEtB2p4",
+    links: {
+      website: "https://jcgentr.github.io/",
+      linkedin: "https://www.linkedin.com/in/jared-gentry-48923b113/",
+      github: "https://github.com/jcgentr"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Columbia",
+      state: "South Carolina",
+      country: "United States"
+    }
+  },
 
 ];
 
