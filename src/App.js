@@ -1,17 +1,17 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import CardList from './components/CardList';
 import Navbar from './components/Navbar';
-import {persons} from './components/persons';
+import { persons } from './components/persons';
 import Search from './components/Search';
 import SimpleMap from './components/Map';
 
 const style = {
-    background: '#fff',
-    padding: '1rem',
-    width: '100%',
-    margin: '0',
-    zIndex: '1',
-    borderRadius: '5px'
+  background: '#fff',
+  padding: '1rem',
+  width: '100%',
+  margin: '0',
+  zIndex: '1',
+  borderRadius: '5px'
 }
 const responsiveSearch = {
   width: '100%',
@@ -31,7 +31,7 @@ class App extends Component {
     }
   }
 
-  componentDidMount(){
+  componentDidMount() {
     window.addEventListener('resize', () => {
       this.setState({
         winWidth: window.innerWidth
@@ -40,15 +40,15 @@ class App extends Component {
   }
 
   onSearchChange = (event) => {
-    this.setState({searchfield: event.target.value});
+    this.setState({ searchfield: event.target.value });
   }
 
   onCategoryChange = (event) => {
     this.setState({
       category: event.target.value,
-      searchfield:''
+      searchfield: ''
     });
-    let searchInput = document.querySelector('#searchbox input'); 
+    let searchInput = document.querySelector('#searchbox input');
     searchInput.value = '';
     searchInput.focus();
   }
@@ -62,7 +62,11 @@ class App extends Component {
   }
 
   onMapClick = () => {
-    this.setState({map: true});
+    this.setState({ map: !this.state.map });
+  }
+
+  onLogoClick = () => {
+    this.setState({ map: false });
   }
 
   whichCategory = (person) => {
@@ -85,7 +89,7 @@ class App extends Component {
     const filteredPersons = this.state.persons.filter(persons => {
       const category = this.whichCategory(persons);
       if (this.state.category === 'job title') {
-        let searchWord  = this.state.searchfield.toLowerCase().split(/[\s-]/).join('');
+        let searchWord = this.state.searchfield.toLowerCase().split(/[\s-]/).join('');
         let match = category.split(/[\s-]/).join('');
         return match.includes(searchWord);
       }
@@ -99,7 +103,8 @@ class App extends Component {
     return (
       <div className="flex flex-column min-vh-100 tc">
         <header className="custom--unselectable fixed top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-3">
-           <Navbar
+          <Navbar
+            onLogoClick={this.onLogoClick}
             winWidth={this.state.winWidth}
             onSearchChange={this.onSearchChange}
             category={this.state.category}
@@ -111,26 +116,26 @@ class App extends Component {
         </header>
         <main className="flex-auto">
           {
-            this.state.map ? <SimpleMap /> 
-            :
-          <div id="sketch-particles" className="flex flex-wrap justify-center">
-              {
-                this.state.winWidth < 760 ?
-                // IF window width is less then 650 means its mobile, render the component
-                <div style={style}>
-                  <Search
-                      onSearchChange={this.onSearchChange}
-                      category={this.state.category}
-                      keyPress={this.onKeyPress}
-                      categoryChange={this.onCategoryChange}
-                      responsiveSearch={responsiveSearch}
-                  />
-                 </div>
-                : // ELSE return nothing
-                null
-              }
-               <CardList persons={filteredPersons} />
-          </div>
+            this.state.map ? <SimpleMap />
+              :
+              <div id="sketch-particles" className="flex flex-wrap justify-center">
+                {
+                  this.state.winWidth < 760 ?
+                    // IF window width is less then 650 means its mobile, render the component
+                    <div style={style}>
+                      <Search
+                        onSearchChange={this.onSearchChange}
+                        category={this.state.category}
+                        keyPress={this.onKeyPress}
+                        categoryChange={this.onCategoryChange}
+                        responsiveSearch={responsiveSearch}
+                      />
+                    </div>
+                    : // ELSE return nothing
+                    null
+                }
+                <CardList persons={filteredPersons} />
+              </div>
           }
         </main>
         <footer className="custom--unselectable w-100 h3 flex items-center justify-center justify-end-l white custom--bg-additional3 z-2">
