@@ -3527,5 +3527,22 @@ export const persons = [
     }
   },
 
+  {
+    id: 260,
+    name: "Roye Kott",
+    img: "https://avatars1.githubusercontent.com/u/29805128?s=400&v=4",
+    links: {
+      website: "http://royekott-portfolio.ml/",
+      linkedin: "https://www.linkedin.com/in/roye-kott-891561106/",
+      github: "https://github.com/royekott"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Emek Yizrael",
+      state: "North",
+      country: "Israel"
+    }
+  },
+  
 ];
 
