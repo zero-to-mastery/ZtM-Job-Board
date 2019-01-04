@@ -3445,5 +3445,21 @@ export const persons = [
       state: "",
       country: "Morocco"
     }
+  },
+  {
+    id: 255,
+    name: "Alain Dimabuyo",
+    img: "https://avatars2.githubusercontent.com/u/15050664?s=460&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/alaindimabuyo/",
+      github: "https://github.com/alaindimabuyo"
+    },
+    jobTitle: "Front-End Web Developer | Graphic Designer",
+    location: {
+      city: "San Fernando",
+      state: "Pampanga",
+      country: "Philippines"
+    }
   }
 ];
