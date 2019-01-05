@@ -3543,6 +3543,54 @@ export const persons = [
       country: "Israel"
     }
   },
+  {
+    id: 261,
+    name: "Alain Dimabuyo",
+    img: "https://avatars2.githubusercontent.com/u/15050664?s=460&v=4",
+    links: {
+      website: "https://www.behance.net/alaindimabuyo",
+      linkedin: "https://www.linkedin.com/in/alaindimabuyo/",
+      github: "https://github.com/alaindimabuyo"
+    },
+    jobTitle: "Front-End Web Developer",
+    location: {
+      city: "San Fernando",
+      state: "Pampanga",
+      country: "Philippines"
+    }
+  },
+  {
+    id: 262,
+    name: "Pratyakash Saini",
+    img: "https://avatars1.githubusercontent.com/u/13645745?s=400&u=cc315e581c698af75c0d2fd089aab27ae2fa5d43&v=4",
+    links: {
+      website: "https://pratyakash.github.io/",
+      linkedin: "https://www.linkedin.com/in/pratyakash-s-saini-038639106",
+      github: "https://github.com/pratyakash"
+    },
+    jobTitle: "Front-End Web Developer",
+    location: {
+      city: "New Delhi",
+      state: "Delhi",
+      country: "India"
+    }
+  },
+  {
+    id: 263,
+    name: "Salim Dabanca",
+    img: "https://avatars1.githubusercontent.com/u/13645745?s=400&u=cc315e581c698af75c0d2fd089aab27ae2fa5d43&v=4",
+    links: {
+      website: "https://gongendir.github.io/",
+      linkedin: "https://www.linkedin.com/in/salim-dabanca/",
+      github: "https://github.com/gongendir"
+    },
+    jobTitle: "Front-End Web Developer",
+    location: {
+      city: "karsiyaka",
+      state: "izmir",
+      country: "Turkey"
+    }
+  },
   
 ];
 
