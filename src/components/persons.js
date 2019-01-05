@@ -3559,6 +3559,22 @@ export const persons = [
       country: "Philippines"
     }
   },
+  {
+    id: 262,
+    name: "Pratyakash Saini",
+    img: "https://avatars1.githubusercontent.com/u/13645745?s=400&u=cc315e581c698af75c0d2fd089aab27ae2fa5d43&v=4",
+    links: {
+      website: "https://pratyakash.github.io/",
+      linkedin: "https://www.linkedin.com/in/pratyakash-s-saini-038639106",
+      github: "https://github.com/pratyakash"
+    },
+    jobTitle: "Front-End Web Developer",
+    location: {
+      city: "New Delhi",
+      state: "Delhi",
+      country: "India"
+    }
+  },
   
 ];
 
