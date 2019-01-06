@@ -3575,6 +3575,22 @@ export const persons = [
       country: "India"
     }
   },
+  {
+    id: 263,
+    name: "Baddeley, Robert",
+    img: "https://avatars2.githubusercontent.com/u/46244948?s=400&u=d3103d7aff9f8bb1cb4f8b1268c43bd0162c0d3b&v=4",
+    links: {
+      website: "https://waffleflopper.github.io/",
+      linkedin: "https://www.linkedin.com/in/robert-baddeley-32ba63177/",
+      github: "https://github.com/waffleflopper"
+    },
+    jobTitle: "Full-Stack Developer (Currently Respiratory Therapist, Career Changing)",
+    location: {
+      city: "Honolulu",
+      state: "Hawaii",
+      country: "UNited States"
+    }
+  },
   
 ];
 
