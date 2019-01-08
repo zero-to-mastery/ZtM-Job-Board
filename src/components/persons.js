@@ -3607,5 +3607,21 @@ export const persons = [
       country: "United States"
     }
   },
+  {
+    id: 265,
+    name: "Cyryll Galon",
+    img: "https://media.licdn.com/dms/image/C4D03AQECRGT3lp9axw/profile-displayphoto-shrink_200_200/0?e=1552521600&v=beta&t=Rg3feXVltdGPeGfd5C8CYdBR6qt50D_owbTaHfUFiqs",
+    links: {
+      website: "https://galoncyryll.github.io/website-portfolio/",
+      linkedin: "https://www.linkedin.com/in/cyryll-joseph-galon-461710147/",
+      github: "https://github.com/galoncyryll"
+    },
+    jobTitle: "Software Developer",
+    location: {
+      city: "Bakersfield",
+      state: "California",
+      country: "United States"
+    }
+  },
 ];
 
