@@ -3591,6 +3591,21 @@ export const persons = [
       country: "UNited States"
     }
   },
-  
+  {
+    id: 264,
+    name: "Neetish Pathak",
+    img: "https://pbs.twimg.com/profile_images/3036362618/583ba4b504a3c54698f368d41bb8cf52_400x400.jpeg",
+    links: {
+      website: "https://neetishpathak.github.io/",
+      linkedin: "https://www.linkedin.com/in/neetish-pathak-63024131/",
+      github: "https://github.com/NeetishPathak"
+    },
+    jobTitle: "Software and Systems Engineer",
+    location: {
+      city: "San Jose",
+      state: "California",
+      country: "United States"
+    }
+  },
 ];
 
