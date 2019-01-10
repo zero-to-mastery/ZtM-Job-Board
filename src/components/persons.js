@@ -3625,3 +3625,21 @@ export const persons = [
   },
 ];
 
+  {
+    id: 266,
+    name: "Sai Adarsh Babu Kuruvella",
+    img: "",
+    links: {
+      website: "https://saiadarsh.github.io/",
+      linkedin: "https://www.linkedin.com/in/saiadarsh/",
+      github: "https://github.com/saiadarsh"
+    },
+    jobTitle: "Software Engineer/Developer",
+    location: {
+      city: "Columbia",
+      state: "South Carolina",
+      country: "United States"
+    }
+  },
+];
+
