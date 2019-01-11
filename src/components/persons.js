@@ -3623,8 +3623,24 @@ export const persons = [
       country: "United States"
     }
   },
-{
+  {
     id: 266,
+    name: "Sai Adarsh Babu Kuruvella",
+    img: "",
+    links: {
+      website: "https://saiadarsh.github.io/",
+      linkedin: "https://www.linkedin.com/in/saiadarsh/",
+      github: "https://github.com/saiadarsh"
+    },
+    jobTitle: "Software Engineer/Developer",
+    location: {
+      city: "Columbia",
+      state: "South Carolina",
+      country: "United States"
+    }
+  },
+{
+    id: 267,
     name: "Annie Anna Belkin",
     img: "https://scontent.fhfa1-2.fna.fbcdn.net/v/t1.0-9/18664556_1102362763229333_8612792483817153454_n.jpg?_nc_cat=105&_nc_ht=scontent.fhfa1-2.fna&oh=2eaddf5cc576a8e71fbe4538e2e36de6&oe=5CC31CA0",
     links: {
@@ -3638,6 +3654,6 @@ export const persons = [
       state: "South",
       country: "Israel"
     }
-  }   
+  },
 ];
 
