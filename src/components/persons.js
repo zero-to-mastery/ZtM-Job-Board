@@ -3623,5 +3623,21 @@ export const persons = [
       country: "United States"
     }
   },
+{
+    id: 266,
+    name: "Annie Anna Belkin",
+    img: "https://scontent.fhfa1-2.fna.fbcdn.net/v/t1.0-9/18664556_1102362763229333_8612792483817153454_n.jpg?_nc_cat=105&_nc_ht=scontent.fhfa1-2.fna&oh=2eaddf5cc576a8e71fbe4538e2e36de6&oe=5CC31CA0",
+    links: {
+      website: "https://amplace.co.il/",
+      linkedin: "https://www.linkedin.com/in/anniebelkin/",
+      github: "https://github.com/anniebelkin"
+    },
+    jobTitle: "Front-end Developer",
+    location: {
+      city: "Beer-Sheva",
+      state: "South",
+      country: "Israel"
+    }
+  }   
 ];
 
