@@ -3559,6 +3559,85 @@ export const persons = [
       country: "Philippines"
     }
   },
-  
+  {
+    id: 262,
+    name: "Pratyakash Saini",
+    img: "https://avatars1.githubusercontent.com/u/13645745?s=400&u=cc315e581c698af75c0d2fd089aab27ae2fa5d43&v=4",
+    links: {
+      website: "https://pratyakash.github.io/",
+      linkedin: "https://www.linkedin.com/in/pratyakash-s-saini-038639106",
+      github: "https://github.com/pratyakash"
+    },
+    jobTitle: "Front-End Web Developer",
+    location: {
+      city: "New Delhi",
+      state: "Delhi",
+      country: "India"
+    }
+  },
+  {
+    id: 263,
+    name: "Baddeley, Robert",
+    img: "https://avatars2.githubusercontent.com/u/46244948?s=400&u=d3103d7aff9f8bb1cb4f8b1268c43bd0162c0d3b&v=4",
+    links: {
+      website: "https://waffleflopper.github.io/",
+      linkedin: "https://www.linkedin.com/in/robert-baddeley-32ba63177/",
+      github: "https://github.com/waffleflopper"
+    },
+    jobTitle: "Full-Stack Developer (Currently Respiratory Therapist, Career Changing)",
+    location: {
+      city: "Honolulu",
+      state: "Hawaii",
+      country: "UNited States"
+    }
+  },
+  {
+    id: 264,
+    name: "Neetish Pathak",
+    img: "https://pbs.twimg.com/profile_images/3036362618/583ba4b504a3c54698f368d41bb8cf52_400x400.jpeg",
+    links: {
+      website: "https://neetishpathak.github.io/",
+      linkedin: "https://www.linkedin.com/in/neetish-pathak-63024131/",
+      github: "https://github.com/NeetishPathak"
+    },
+    jobTitle: "Software and Systems Engineer",
+    location: {
+      city: "San Jose",
+      state: "California",
+      country: "United States"
+    }
+  },
+  {
+    id: 265,
+    name: "Cyryll Galon",
+    img: "https://media.licdn.com/dms/image/C4D03AQECRGT3lp9axw/profile-displayphoto-shrink_200_200/0?e=1552521600&v=beta&t=Rg3feXVltdGPeGfd5C8CYdBR6qt50D_owbTaHfUFiqs",
+    links: {
+      website: "https://galoncyryll.github.io/website-portfolio/",
+      linkedin: "https://www.linkedin.com/in/cyryll-joseph-galon-461710147/",
+      github: "https://github.com/galoncyryll"
+    },
+    jobTitle: "Software Developer",
+    location: {
+      city: "Bakersfield",
+      state: "California",
+      country: "United States"
+    }
+  },
+  {
+    id: 266,
+    name: "Sai Adarsh Babu Kuruvella",
+    img: "",
+    links: {
+      website: "https://saiadarsh.github.io/",
+      linkedin: "https://www.linkedin.com/in/saiadarsh/",
+      github: "https://github.com/saiadarsh"
+    },
+    jobTitle: "Software Engineer/Developer",
+    location: {
+      city: "Columbia",
+      state: "South Carolina",
+      country: "United States"
+    }
+  },
 ];
 
