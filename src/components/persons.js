@@ -3623,8 +3623,6 @@ export const persons = [
       country: "United States"
     }
   },
-];
-
   {
     id: 266,
     name: "Sai Adarsh Babu Kuruvella",
