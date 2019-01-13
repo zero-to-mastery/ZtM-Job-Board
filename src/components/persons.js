@@ -3671,5 +3671,21 @@ export const persons = [
       country: "Estonia"
     }
   },
+  {
+    id: 269,
+    name: "Kyrolos Magdy",
+    img: "https://cdn1.imggmi.com/uploads/2019/1/14/3b2a92c40be00f96e1507bc93621b851-full.jpg",
+    links: {
+      website: "https://kyrolos.github.io/Myportofolio/",
+      linkedin: "https://www.linkedin.com/in/kyrolos-magdy-575055163/",
+      github: "https://github.com/kyrolos"
+    },
+    jobTitle: "Senior web developer",
+    location: {
+      city: "Ismailia",
+      state: "",
+      country: "Egypt"
+    }
+  },
 ];
 
