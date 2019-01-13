@@ -3655,5 +3655,21 @@ export const persons = [
       country: "Israel"
     }
   },
+  {
+    id: 268,
+    name: "Morten Kose",
+    img: "https://avatars3.githubusercontent.com/u/25040343?s=460&v=4",
+    links: {
+      website: "https://mortenkose.com/",
+      linkedin: "https://www.linkedin.com/in/morten-kose/",
+      github: "https://github.com/mortenkos"
+    },
+    jobTitle: "Front End Developer",
+    location: {
+      city: "Tartu",
+      state: "Tartumaa",
+      country: "Estonia"
+    }
+  },
 ];
 
