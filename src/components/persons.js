@@ -3655,5 +3655,37 @@ export const persons = [
       country: "Israel"
     }
   },
+  {
+    id: 268,
+    name: "Morten Kose",
+    img: "https://avatars3.githubusercontent.com/u/25040343?s=460&v=4",
+    links: {
+      website: "https://mortenkose.com/",
+      linkedin: "https://www.linkedin.com/in/morten-kose/",
+      github: "https://github.com/mortenkos"
+    },
+    jobTitle: "Front End Developer",
+    location: {
+      city: "Tartu",
+      state: "Tartumaa",
+      country: "Estonia"
+    }
+  },
+  {
+    id: 269,
+    name: "Kyrolos Magdy",
+    img: "https://cdn1.imggmi.com/uploads/2019/1/14/3b2a92c40be00f96e1507bc93621b851-full.jpg",
+    links: {
+      website: "https://kyrolos.github.io/Myportofolio/",
+      linkedin: "https://www.linkedin.com/in/kyrolos-magdy-575055163/",
+      github: "https://github.com/kyrolos"
+    },
+    jobTitle: "Senior web developer",
+    location: {
+      city: "Ismailia",
+      state: "",
+      country: "Egypt"
+    }
+  },
 ];
 
