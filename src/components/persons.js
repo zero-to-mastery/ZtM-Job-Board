@@ -3687,5 +3687,21 @@ export const persons = [
       country: "Egypt"
     }
   },
+  {
+    id: 270,
+    name: "Frank Holder",
+    img: "https://media.licdn.com/dms/image/C4D03AQG8utwt_Dqy-Q/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=a1wboqyAS37HwMZlv4a22TczOiXpM7ahKo6RgRRT-AA",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/nigel-h-9a6165144/",
+      github: "https://github.com/knarf118"
+    },
+    jobTitle: "Software Developer",
+    location: {
+      city: "",
+      state: "",
+      country: "Barbados"
+    }
+  },
 ];
 
