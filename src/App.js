@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import { persons } from './components/persons';
 import Search from './components/Search';
 import SimpleMap from './components/Map';
+import {createFilter} from 'react-search-input';
 
 const style = {
   background: '#fff',
@@ -18,6 +19,7 @@ const responsiveSearch = {
   marginBottom: '0.5rem',
   padding: '0.5rem'
 }
+const KEYS_TO_FILTERS = ['name', 'jobTitle', 'location.city', 'location.state', 'location.country']
 
 class App extends Component {
   constructor() {
@@ -25,7 +27,6 @@ class App extends Component {
     this.state = {
       persons: persons,
       searchfield: '',
-      category: 'job title',
       winWidth: window.innerWidth,
       map: false
     }
@@ -43,17 +44,6 @@ class App extends Component {
     this.setState({ searchfield: event.target.value });
   }
 
-  onCategoryChange = (event) => {
-    this.setState({
-      category: event.target.value,
-      searchfield: ''
-    });
-    let searchInput = document.querySelector('#searchbox input');
-    searchInput.value = '';
-    searchInput.focus();
-  }
-
-
   onKeyPress = (event) => {
     if ((event.keyCode === 13 || event.charCode === 13) && (this.state.isMenuOpen)) {
       event.currentTarget.blur();
@@ -69,37 +59,8 @@ class App extends Component {
     this.setState({ map: false });
   }
 
-  whichCategory = (person) => {
-    const category = this.state.category;
-    if (category === 'location') {
-      const location = `${person.location.city} ${person.location.state} ${person.location.country}`;
-      return location.toLowerCase();
-    }
-    else if (category === 'name') {
-      return person.name.toLowerCase();
-    }
-    else if (category === 'job title') {
-      return person.jobTitle.toLowerCase();
-    }
-    else {
-      return null;
-    }
-  }
   render() {
-    const filteredPersons = this.state.persons.filter(persons => {
-      const category = this.whichCategory(persons);
-      if (this.state.category === 'job title') {
-        let searchWord = this.state.searchfield.toLowerCase().split(/[\s-]/).join('');
-        let match = category.split(/[\s-]/).join('');
-        return match.includes(searchWord);
-      }
-      else if (category !== undefined) {
-        return category.includes(this.state.searchfield.toLowerCase());
-      }
-      else {
-        return null;
-      }
-    });
+    const filteredPersons = this.state.persons.filter(createFilter(this.state.searchfield, KEYS_TO_FILTERS))
     return (
       <div className="flex flex-column min-vh-100 tc">
         <header className="custom--unselectable fixed top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-3">
@@ -107,9 +68,7 @@ class App extends Component {
             onLogoClick={this.onLogoClick}
             winWidth={this.state.winWidth}
             onSearchChange={this.onSearchChange}
-            category={this.state.category}
             keyPress={this.onKeyPress}
-            categoryChange={this.onCategoryChange}
             onMapClick={this.onMapClick}
           />
 
@@ -125,9 +84,7 @@ class App extends Component {
                     <div style={style}>
                       <Search
                         onSearchChange={this.onSearchChange}
-                        category={this.state.category}
                         keyPress={this.onKeyPress}
-                        categoryChange={this.onCategoryChange}
                         responsiveSearch={responsiveSearch}
                       />
                     </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Search from './Search';
 
-const Navbar = ({ onSearchChange, category, keyPress, categoryChange, winWidth, onMapClick, onLogoClick }) => {
+const Navbar = ({ onSearchChange, keyPress, winWidth, onMapClick, onLogoClick }) => {
   return (
     <div className="header-items flex flex-wrap justify-between">
       <h1 onClick={onLogoClick} id="title" className="relative ma0 pa0 fl-l">
@@ -18,9 +18,7 @@ const Navbar = ({ onSearchChange, category, keyPress, categoryChange, winWidth, 
         winWidth > 760 ?
           <Search
             onSearchChange={onSearchChange}
-            category={category}
             keyPress={keyPress}
-            categoryChange={categoryChange}
           />
           : null
       }
