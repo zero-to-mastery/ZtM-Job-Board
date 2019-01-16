@@ -3703,5 +3703,21 @@ export const persons = [
       country: "Barbados"
     }
   },
+  {
+    id: 271,
+    name: "Redwan Jemal",
+    img: "https://media.licdn.com/dms/image/C5603AQHJo4aayBxDIA/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=Pb6rlHfQcWcRsN7h3ItEF-G1OGTBI5YhJ3Yuia44wPw",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/redwan-jemal/",
+      github: "https://github.com/redwanJemal/"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location:{
+      city: "Addis Ababa",
+      state:"",
+      country: "Ethiopia"
+    }
+  }
 ];
 
