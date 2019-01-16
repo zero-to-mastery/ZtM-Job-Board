@@ -3703,5 +3703,22 @@ export const persons = [
       country: "Barbados"
     }
   },
+  {
+    id: 271,
+    name: "Victor Jonah",
+    img: "https://scontent-los2-1.xx.fbcdn.net/v/t1.0-9/44037126_1953462868052097_4478668793916162048_n.jpg?_nc_cat=111&_nc_eui2=AeG8h-4-HLHJW4mk_lx4LuV5cc_K35resIoAQHZ2r5fV84qaJ0rCYmMVyKIfTQml6Vt3fgufNPpKP5Ol3__02aPJ4Ea9kvi3jX36JyK4uQ-dug&_nc_ht=scontent-los2-1.xx&oh=31fcb14091b06589b529d8876a2002ef&oe=5CBF4F30",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/victor-jonah-abb1a1120/",
+      github: "https://github.com/Vectormike40"
+    },
+    jobTitle: "Software Developer",
+    location: {
+      city: "",
+      state: "Lagos",
+      country: "Nigeria"
+    }
+  },
+  
 ];
 
