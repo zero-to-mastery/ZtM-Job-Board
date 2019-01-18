@@ -3718,6 +3718,21 @@ export const persons = [
       state:"",
       country: "Ethiopia"
     }
+  },
+  {
+   id: 272, name: "Richard Widjaya",
+   img: "https://media.licdn.com/dms/image/C5103AQHAsBPWl0NLsQ/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=byPaOxuWdyTrs-gxD1_C8VQtaL3z7oM5yu3FLpOaJAY",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/richard-widjaya-3a658614b/",
+      github: "https://github.com/ricwidjaya"
+    },
+    jobTitle: "Digital Marketer",
+    location: {
+      city: "Taipei",
+      state: "",
+      country: "Taiwan"
+    }
   }
 ];
 
