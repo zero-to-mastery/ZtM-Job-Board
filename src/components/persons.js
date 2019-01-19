@@ -3687,5 +3687,67 @@ export const persons = [
       country: "Egypt"
     }
   },
+  {
+    id: 270,
+    name: "Frank Holder",
+    img: "https://media.licdn.com/dms/image/C4D03AQG8utwt_Dqy-Q/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=a1wboqyAS37HwMZlv4a22TczOiXpM7ahKo6RgRRT-AA",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/nigel-h-9a6165144/",
+      github: "https://github.com/knarf118"
+    },
+    jobTitle: "Software Developer",
+    location: {
+      city: "",
+      state: "",
+      country: "Barbados"
+    }
+  },
+  {
+    id: 271,
+    name: "Redwan Jemal",
+    img: "https://media.licdn.com/dms/image/C5603AQHJo4aayBxDIA/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=Pb6rlHfQcWcRsN7h3ItEF-G1OGTBI5YhJ3Yuia44wPw",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/redwan-jemal/",
+      github: "https://github.com/redwanJemal/"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location:{
+      city: "Addis Ababa",
+      state:"",
+      country: "Ethiopia"
+    }
+  },
+  {
+   id: 272, name: "Richard Widjaya",
+   img: "https://media.licdn.com/dms/image/C5103AQHAsBPWl0NLsQ/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=byPaOxuWdyTrs-gxD1_C8VQtaL3z7oM5yu3FLpOaJAY",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/richard-widjaya-3a658614b/",
+      github: "https://github.com/ricwidjaya"
+    },
+    jobTitle: "Digital Marketer",
+    location: {
+      city: "Taipei",
+      state: "",
+      country: "Taiwan"
+    }
+  },
+  {
+    id: 273, name: "Daniel Millier",
+    img: "https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/34725849_10215131977726516_496494658889711616_n.jpg?_nc_cat=109&_nc_ht=scontent-yyz1-1.xx&oh=59b4e61202778b077a3d58689d5dab27&oe=5CBD78AC",
+     links: {
+       website: "https://danielmillier.carrd.co",
+       linkedin: "https://www.linkedin.com/in/danjmillier/",
+       github: "https://github.com/unknownfearng"
+     },
+     jobTitle: "Web Developer",
+     location: {
+       city: "Kingston",
+       state: "",
+       country: "Canada"
+     }
+   }
 ];
 

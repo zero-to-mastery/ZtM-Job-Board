@@ -1,12 +1,10 @@
 import React from 'react';
 import SearchBox from './SearchBox';
-import SearchCategory from './SearchCategory';
 
-const Search = ({toggleMenu, onSearchChange,  category, keyPress, categoryChange, responsiveSearch}) => {
+const Search = ({toggleMenu, onSearchChange,  keyPress, responsiveSearch}) => {
       return(
             <div className="search-area flex flex-wrap items-center ml4 mt1 z-1">
-              <SearchBox responsiveSearch={responsiveSearch} searchChange={onSearchChange} category={category} keyPress={keyPress}/>
-              <SearchCategory categoryChange={categoryChange} />
+              <SearchBox responsiveSearch={responsiveSearch} searchChange={onSearchChange} keyPress={keyPress}/>
             </div>
       );
 }
