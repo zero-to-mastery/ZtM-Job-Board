@@ -3748,6 +3748,22 @@ export const persons = [
        state: "",
        country: "Canada"
      }
-   }
+   },
+    {
+    id: 274,
+    name: "Hugh Caluscusin",
+    img: "https://avatars0.githubusercontent.com/u/18341500?s=460&v=4",
+    links: {
+        website: "https://www.melodiccrypter.com",
+        linkedin: "https://www.linkedin.com/in/hughcaluscusin/",
+        github: "https://github.com/MelodicCrypter"
+    },
+    jobTitle: "Software Developer",
+    location: {
+        city: "Cebu",
+        state: "",
+        country: "Philippines"
+    }
+    },
 ];
 
