@@ -3765,5 +3765,21 @@ export const persons = [
         country: "Philippines"
     }
     },
+  {
+    id: 275,
+    name: "Patrick Olvera",
+    img: "https://www.patrickolvera.com/images/round-head-shot.png",
+    links: {
+      website: "https://www.patrickolvera.com/",
+      linkedin: "https://www.linkedin.com/in/patrick-olvera/",
+      github: "https://github.com/patrickolvera"
+    },
+    jobTitle: "Front End Web Developer",
+    location: {
+      city: "Minneapolis",
+      state: "MN",
+      country: "USA"
+    }
+  },
 ];
 
