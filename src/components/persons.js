@@ -3781,5 +3781,21 @@ export const persons = [
       country: "USA"
     }
   },
+  {
+    id: 276,
+    name: "Martyna Sarbak",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/martynasarbak/",
+      github: "https://github.com/martynasarbak"
+    },
+    jobTitle: "Software Developer",
+    location: {
+      city: "Warsaw",
+      state: "",
+      country: "Poland"
+    }
+  },
 ];
 
