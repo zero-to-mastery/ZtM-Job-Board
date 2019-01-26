@@ -3813,5 +3813,22 @@ export const persons = [
       country: "Germany"
     }
   },
+  {
+    id: 278,
+    name: "Fahad Zakir",
+    img: "https://i.imgur.com/6OGHnLz.jpg",
+    links: {
+      website: "http://www.fahadzakir.com",
+      linkedin: "https://www.linkedin.com/in/fahad-zakir",
+      github: "https://github.com/fahad-zakir"
+    },
+    jobTitle: "Front-End Developer",
+    location: {
+      city: "Chicago",
+      state: "IL",
+      country: "US"
+    }
+  },
+
 ];
 
