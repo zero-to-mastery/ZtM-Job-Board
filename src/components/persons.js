@@ -3797,5 +3797,17 @@ export const persons = [
       country: "Poland"
     }
   },
+  {
+    id: 277,
+    name: 'Emmanuel Adefila',
+    img:""
+    links: {
+      website: 'http://www.rccgwalsall.org',
+      linkedin: 'https://www.linkedin.com/in/emmanuel-adefila-31b2a756/',
+      github: 'https://github.com/EmmaDevp'
+    },
+    jobTitle: 'Automation Engineer, New Developer',
+    location: { city: 'Birmingham', state: '', country: 'United Kingdom' }
+  }
 ];
 
