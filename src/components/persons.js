@@ -3803,7 +3803,7 @@ export const persons = [
     img: "",
     links: {
       website: "https://lbeul.github.io/",
-      linkedin: "https://www.linkedin.com/in/louis-beul",
+      linkedin: "https://www.linkedin.com/in/louis-beul-186108175/",
       github: "https://github.com/LBeul"
     },
     jobTitle: "Front End Web Developer",
