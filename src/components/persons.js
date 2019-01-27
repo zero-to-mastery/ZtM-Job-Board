@@ -3829,6 +3829,22 @@ export const persons = [
       country: "US"
     }
   },
+  {
+    id: 279,
+    name: "Sophia Brandt",
+    img: "https://i.imgur.com/r3JxfZN.jpg",
+    links: {
+      website: "https://sophiabrandt.com",
+      linkedin: "https://www.linkedin.com/in/sophiabrandt",
+      github: "https://github.com/sophiabrandt"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Dortmund",
+      state: "NRW",
+      country: "Germany"
+    }
+  },
 
 ];
 
