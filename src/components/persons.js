@@ -3381,8 +3381,8 @@ export const persons = [
       country: "United States"
     }
   }
-,
-{
+  ,
+  {
     id: 251,
     name: "Sina Moraddar",
     img: "",
@@ -3414,7 +3414,7 @@ export const persons = [
       country: "India"
     }
   },
-{
+  {
     id: 253,
     name: "Kritika Sharma",
     img: "https://avatars2.githubusercontent.com/u/35176749?s=400&u=49691a090c52d6d0ae9315f746fc41595b584e51&v=4",
@@ -3639,7 +3639,7 @@ export const persons = [
       country: "United States"
     }
   },
-{
+  {
     id: 267,
     name: "Annie Anna Belkin",
     img: "https://scontent.fhfa1-2.fna.fbcdn.net/v/t1.0-9/18664556_1102362763229333_8612792483817153454_n.jpg?_nc_cat=105&_nc_ht=scontent.fhfa1-2.fna&oh=2eaddf5cc576a8e71fbe4538e2e36de6&oe=5CC31CA0",
@@ -3713,15 +3713,15 @@ export const persons = [
       github: "https://github.com/redwanJemal/"
     },
     jobTitle: "Full Stack Web Developer",
-    location:{
+    location: {
       city: "Addis Ababa",
-      state:"",
+      state: "",
       country: "Ethiopia"
     }
   },
   {
-   id: 272, name: "Richard Widjaya",
-   img: "https://media.licdn.com/dms/image/C5103AQHAsBPWl0NLsQ/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=byPaOxuWdyTrs-gxD1_C8VQtaL3z7oM5yu3FLpOaJAY",
+    id: 272, name: "Richard Widjaya",
+    img: "https://media.licdn.com/dms/image/C5103AQHAsBPWl0NLsQ/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=byPaOxuWdyTrs-gxD1_C8VQtaL3z7oM5yu3FLpOaJAY",
     links: {
       website: "",
       linkedin: "https://www.linkedin.com/in/richard-widjaya-3a658614b/",
@@ -3737,17 +3737,114 @@ export const persons = [
   {
     id: 273, name: "Daniel Millier",
     img: "https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/34725849_10215131977726516_496494658889711616_n.jpg?_nc_cat=109&_nc_ht=scontent-yyz1-1.xx&oh=59b4e61202778b077a3d58689d5dab27&oe=5CBD78AC",
-     links: {
-       website: "https://danielmillier.carrd.co",
-       linkedin: "https://www.linkedin.com/in/danjmillier/",
-       github: "https://github.com/unknownfearng"
-     },
-     jobTitle: "Web Developer",
-     location: {
-       city: "Kingston",
-       state: "",
-       country: "Canada"
-     }
-   }
+    links: {
+      website: "https://danielmillier.carrd.co",
+      linkedin: "https://www.linkedin.com/in/danjmillier/",
+      github: "https://github.com/unknownfearng"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Kingston",
+      state: "",
+      country: "Canada"
+    }
+  },
+  {
+    id: 274,
+    name: "Hugh Caluscusin",
+    img: "https://avatars0.githubusercontent.com/u/18341500?s=460&v=4",
+    links: {
+      website: "https://www.melodiccrypter.com",
+      linkedin: "https://www.linkedin.com/in/hughcaluscusin/",
+      github: "https://github.com/MelodicCrypter"
+    },
+    jobTitle: "Software Developer",
+    location: {
+      city: "Cebu",
+      state: "",
+      country: "Philippines"
+    }
+  },
+  {
+    id: 275,
+    name: "Patrick Olvera",
+    img: "https://www.patrickolvera.com/images/round-head-shot.png",
+    links: {
+      website: "https://www.patrickolvera.com/",
+      linkedin: "https://www.linkedin.com/in/patrick-olvera/",
+      github: "https://github.com/patrickolvera"
+    },
+    jobTitle: "Front End Web Developer",
+    location: {
+      city: "Minneapolis",
+      state: "MN",
+      country: "USA"
+    }
+  },
+  {
+    id: 276,
+    name: "Martyna Sarbak",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/martynasarbak/",
+      github: "https://github.com/martynasarbak"
+    },
+    jobTitle: "Software Developer",
+    location: {
+      city: "Warsaw",
+      state: "",
+      country: "Poland"
+    }
+  },
+  {
+    id: 277,
+    name: "Louis Beul",
+    img: "",
+    links: {
+      website: "https://lbeul.github.io/",
+      linkedin: "https://www.linkedin.com/in/louis-beul-186108175/",
+      github: "https://github.com/LBeul"
+    },
+    jobTitle: "Front End Web Developer",
+    location: {
+      city: "",
+      state: "Westwood Forest",
+      country: "Germany"
+    }
+  },
+  {
+    id: 278,
+    name: "Fahad Zakir",
+    img: "https://i.imgur.com/6OGHnLz.jpg",
+    links: {
+      website: "http://www.fahadzakir.com",
+      linkedin: "https://www.linkedin.com/in/fahad-zakir",
+      github: "https://github.com/fahad-zakir"
+    },
+    jobTitle: "Front-End Developer",
+    location: {
+      city: "Chicago",
+      state: "IL",
+      country: "US"
+    }
+  },
+  {
+    id: 279,
+    name: "Sophia Brandt",
+    img: "https://i.imgur.com/r3JxfZN.jpg",
+    links: {
+      website: "https://sophiabrandt.com",
+      linkedin: "https://www.linkedin.com/in/sophiabrandt",
+      github: "https://github.com/sophiabrandt"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Dortmund",
+      state: "NRW",
+      country: "Germany"
+    }
+  },
+
 ];
 
