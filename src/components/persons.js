@@ -3846,5 +3846,22 @@ export const persons = [
     }
   },
 
+  {
+    id: 280,
+    name: "Thaer Shakhshir",
+    img: "https://ibb.co/jy1Wkxz",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/tshakhshir/",
+      github: "https://github.com/ThaerMun"
+    },
+    jobTitle: "Front End Developer",
+    location: {
+      city: "St.John's",
+      state: "Newfoundland",
+      country: "Canada"
+    }
+  },
+
 ];
 
