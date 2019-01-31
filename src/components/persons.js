@@ -3889,7 +3889,7 @@ export const persons = [
     },
     jobTitle: "Javascript Developer / Tech Recruiter",
     location: {
-      city: "Lekki",
+      city: "Lekki-Ajah",
       state: "Lagos",
       country: "Nigeria"
     }
