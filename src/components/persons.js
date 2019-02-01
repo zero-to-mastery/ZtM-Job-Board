@@ -3878,5 +3878,21 @@ export const persons = [
       country: "USA"
     }
   },
+  {
+    id: 282,
+    name: "Olakunle Makanjuola",
+    img: "https://share.icloud.com/photos/01UqN19xobH_Nyuc-j4zx6jVA#Lagos",
+    links: {
+      website: "https://macrichie.github.io/",
+      linkedin: "https://www.linkedin.com/in/olakunle-makanjuola-7971155a/",
+      github: "https://github.com/Macrichie"
+    },
+    jobTitle: "Javascript Developer / Tech Recruiter",
+    location: {
+      city: "Lekki",
+      state: "Lagos",
+      country: "Nigeria"
+    }
+  },
 ];
 
