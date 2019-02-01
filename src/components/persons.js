@@ -3846,5 +3846,37 @@ export const persons = [
     }
   },
 
+  {
+    id: 280,
+    name: "Thaer Shakhshir",
+    img: "https://ibb.co/jy1Wkxz",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/tshakhshir/",
+      github: "https://github.com/ThaerMun"
+    },
+    jobTitle: "Front End Developer",
+    location: {
+      city: "St.John's",
+      state: "Newfoundland",
+      country: "Canada"
+    }
+  },
+{
+    id: 281,
+    name: "Jack Meyer",
+    img: "https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/37812874_10160704243520344_4682453803721555968_n.jpg?_nc_cat=110&_nc_ht=scontent-ort2-2.xx&oh=a4f8394ff0bc99355cbf018dd3f64ba0&oe=5CF34C11",
+    links: {
+      website: "http://www.jackvmeyer.com",
+      linkedin: "https://www.linkedin.com/in/jack-v-meyer/",
+      github: "https://github.com/meyer744"
+    },
+    jobTitle: "Front End Web Developer",
+    location: {
+      city: "Troy",
+      state: "Ohio",
+      country: "USA"
+    }
+  },
 ];
 
