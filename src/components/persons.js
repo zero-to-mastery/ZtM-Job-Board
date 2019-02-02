@@ -1,4 +1,6 @@
 export const persons = [
+
+
   {
     id: 1,
     name: 'Andrej Zadnik',
@@ -3893,6 +3895,23 @@ export const persons = [
       city: "Lekki",
       state: "Lagos",
       country: "Nigeria"
+    }
+  },
+
+  {
+    id: 283,
+    name: "Taulant Shametaj :)",
+    img: "https://avatars2.githubusercontent.com/u/45207786?s=400&u=2444f25b1917724d33457950a7c23c8a6dad4f07&v=4",
+    links: {
+      website: "https://shametaj.github.io",
+      linkedin: "https://gr.linkedin.com/in/taulant-shametaj-6518a191",
+      github: "https://github.com/shametaj"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Saarbrücken",
+      state: "",
+      country: "Germany"
     }
   },
 ];
