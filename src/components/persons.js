@@ -3948,4 +3948,20 @@ export const persons = [
       country: "United Kingdom"
     }
   },
+  {
+    id: 285,
+    name: "Waheed Afolabi",
+    img: "https://avatars.io/twitter/checkwithwaheed",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/waheed-afolabi/",
+      github: "https://github.com/wptechprodigy"
+    },
+    jobTitle: "Fullstack Software Developer",
+    location: {
+      city: "",
+      state: "Lagos",
+      country: "Nigeria (Open to Remote & Willing to Relocate)"
+    }
+  },
 ];
