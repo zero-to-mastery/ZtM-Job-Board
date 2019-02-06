@@ -3978,6 +3978,21 @@ export const persons = [
       city: "London",
       state: "",
       country: "United Kingdom"
+    },
+    {
+      id: 287,
+    name: "Joshua Curry",
+    img: "https://lucidbeaming.net/assets/img/avatar.jpg",
+    links: {
+      website: "https://lucidbeaming.net/",
+      linkedin: "https://www.linkedin.com/in/lucidbeaming/",
+      github: "https://github.com/lucidbeaming"
+    },
+    jobTitle: "Full stack developer",
+    location: {
+      city: "San Jose",
+      state: "California",
+      country: "United States"
     }
-  }
+  },
 ];
