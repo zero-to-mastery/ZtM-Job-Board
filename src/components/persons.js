@@ -3964,4 +3964,20 @@ export const persons = [
       country: "Nigeria (Open to Remote & Willing to Relocate)"
     }
   },
+  {
+    id: 286,
+    name: "Jim Wright",
+    img: "",
+    links: {
+      website: "https://diskomotech.github.io",
+      linkedin: "https://www.linkedin.com/in/jimwright808/",
+      github: "https://github.com/diskomotech"
+    },
+    jobTitle: "Front-End Developer",
+    location: {
+      city: "London",
+      state: "",
+      country: "United Kingdom"
+    }
+  }
 ];
