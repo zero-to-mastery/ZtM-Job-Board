@@ -1,6 +1,4 @@
 export const persons = [
-
-
   {
     id: 1,
     name: "Andrej Zadnik",
@@ -3974,25 +3972,34 @@ export const persons = [
       github: "https://github.com/diskomotech"
     },
     jobTitle: "Front-End Developer",
-    location: {
-      city: "London",
-      state: "",
-      country: "United Kingdom"
+    location: {city: "London",state: "",country: "United Kingdom" }
     },
     {
       id: 287,
-    name: "Joshua Curry",
-    img: "https://lucidbeaming.net/assets/img/avatar.jpg",
-    links: {
-      website: "https://lucidbeaming.net/",
-      linkedin: "https://www.linkedin.com/in/lucidbeaming/",
-      github: "https://github.com/lucidbeaming"
+      name: "Joshua Curry",
+      img: "https://lucidbeaming.net/assets/img/avatar.jpg",
+      links: {
+        website: "https://lucidbeaming.net/",
+        linkedin: "https://www.linkedin.com/in/lucidbeaming/",
+        github: "https://github.com/lucidbeaming"
+      },
+      jobTitle: "Full stack developer",
+      location: {
+        city: "San Jose",
+        state: "California",
+        country: "United States"
+      }
     },
-    jobTitle: "Full stack developer",
-    location: {
-      city: "San Jose",
-      state: "California",
-      country: "United States"
+    {
+      id: 288,
+      name: "Natalia Quiroz Yoffe",
+      img: "https://media.licdn.com/media-proxy/ext?w=800&h=800&f=n&hash=otDvMyUuQrHEompXJmLnseNzCKA%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0Vinkhwfjw8177yE41y87UNCVordEGXyD3u0qYrdfyTucMKMcOSnuV0WfC8ckQVnfPKgRWGyD5K-KIvsL9x5jJHsII24ZxUBbFI8lW4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/natiquirozyoffe",
+        github: "https://github.com/nquiroz"
+      },
+      jobTitle: "Full Stack Developer (Java, Javascript, Css, Angular)",
+      location: {city: "Asunción",state: "Central",country: "Paraguay"}
     }
-  },
 ];
