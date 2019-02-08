@@ -3972,10 +3972,7 @@ export const persons = [
       github: "https://github.com/diskomotech"
     },
     jobTitle: "Front-End Developer",
-    location: {
-      city: "London",
-      state: "",
-      country: "United Kingdom"
+    location: {city: "London",state: "",country: "United Kingdom" }
     },
     {
       id: 287,
