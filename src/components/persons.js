@@ -4001,5 +4001,21 @@ export const persons = [
       },
       jobTitle: "Full Stack Developer (Java, Javascript, Css, Angular)",
       location: {city: "Asunción",state: "Central",country: "Paraguay"}
+    },
+     {
+    id: 289,
+    name: "Kundan Shrivastav",
+    img: "https://imgsafe.org/image/e2a52900bc",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/kundanshrivastav/",
+      github: "https://github.com/Kshriva1"
+    },
+    jobTitle: "Software Developer",
+    location: {
+      city: "Binghamton(Open for relocation across US)",
+      state: "New York",
+      country: "United States"
     }
+  },
 ];
