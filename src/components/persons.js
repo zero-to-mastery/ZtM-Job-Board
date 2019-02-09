@@ -4002,4 +4002,19 @@ export const persons = [
       jobTitle: "Full Stack Developer (Java, Javascript, Css, Angular)",
       location: {city: "Asunción",state: "Central",country: "Paraguay"}
     }
+    {
+      id: 288,
+      name: "Kye James Davey",
+      img: "https://avatars2.githubusercontent.com/u/10793626?s=460&v=4",
+      links: {
+        website: "https://arrogantgeek.com",
+        linkedin: "https://www.linkedin.com/in/kyedavey",
+        github: "https://github.com/kyedavey"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Sydney",
+        state: "NSW",
+        country: "Australia"}
+    }
 ];
