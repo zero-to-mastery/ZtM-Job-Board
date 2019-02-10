@@ -4034,4 +4034,20 @@ export const persons = [
       country: "Liberia"
     }
   },
+  {
+    id: 291,
+    name: "Vignesh Manishankar",
+    img: "https://media.licdn.com/dms/image/C4E03AQEyjilKbRcbaQ/profile-displayphoto-shrink_200_200/0?e=1555545600&v=beta&t=7tcX_W4MmmE45udTsOyZ4buctnLPp8TTt6BXuvVCco0",
+    links: {
+      website: "https://vignesh17.github.io/ME/",
+      linkedin: "https://www.linkedin.com/in/vignesh-manishankar/",
+      github: "https://github.com/vignesh17"
+    },
+    jobTitle: "Fullstack Developer",
+    location: {
+      city: "San Ramon(Open for relocation)",
+      state: "California",
+      country: "USA"
+    }
+  },
 ];
