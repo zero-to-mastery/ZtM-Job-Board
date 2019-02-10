@@ -4018,4 +4018,20 @@ export const persons = [
       country: "United States"
     }
   },
+  {
+    id: 290,
+    name: "Carlos S. Nah Jr.",
+    img: "https://avatars2.githubusercontent.com/u/20514920?s=460&v=4",
+    links: {
+      website: "https://ra9.github.io",
+      linkedin: "https://linkedin.com/in/carlos-nah",
+      github: "https://github.com/ra9"
+    },
+    jobTitle: "Fullstack Developer",
+    location: {
+      city: "Monrovia(Open for relocation)",
+      state: "Montserrado",
+      country: "Liberia"
+    }
+  },
 ];
