@@ -4064,5 +4064,20 @@ export const persons = [
       state: "California",
       country: "USA"
     }
-  },
+    },
+    {
+      id: 293,
+      name: "Michael Zaleski",
+      img: "https://avatars2.githubusercontent.com/u/5598052?s=460&v=4",
+      links: {
+        website: "https://www.mikezaleski.com/",
+        linkedin: "https://www.linkedin.com/in/michael-zaleski-b52b50161/",
+        github: "https://github.com/multisonic"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "New York",
+        state: "New York",
+        country: "USA"}
+     },
 ];
