@@ -4080,4 +4080,19 @@ export const persons = [
         state: "New York",
         country: "USA"}
      },
+     {
+       id: 294,
+       name: "Ilan Melki",
+       img: "https://media.licdn.com/dms/image/C4E03AQHSZt3lwFF0Mw/profile-displayphoto-shrink_200_200/0?e=1555545600&v=beta&t=kWX8oohe1S8ff_WCV86NFuzpj_A3f_Bao85Ch665dCM",
+       links: {
+         website: "https://www.facebook.com/Milkyahu/",
+         linkedin: "https://www.linkedin.com/in/ilan-melki/",
+         github: "https://github.com/iMelki"
+       },
+       jobTitle: "Junior Full Stack Developer",
+       location: {
+         city: "Tel-Aviv",
+         state: "",
+         country: "Israel"}
+      }
 ];
