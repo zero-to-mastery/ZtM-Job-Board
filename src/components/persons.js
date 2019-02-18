@@ -4094,5 +4094,20 @@ export const persons = [
          city: "Tel-Aviv",
          state: "",
          country: "Israel"}
+      }, {
+        id: 295,
+        name: "Sauciuc Ana Maria",
+        img: "https://avatars3.githubusercontent.com/u/41324045?s=460&v=4",
+        links: {
+          website: "http://www.amsauciuc.com",
+          linkedin: "https://www.linkedin.com/in/ana-maria-sauciuc-753ba8155/",
+          github: "https://github.com/annasauciuc"
+        },
+        jobTitle: "Front-End Developer",
+        location: {
+          city: "Las Palmas",
+          state: "Canary Islands",
+          country: "Spain"
+        }
       }
 ];
