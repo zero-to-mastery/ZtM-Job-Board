@@ -4109,5 +4109,20 @@ export const persons = [
           state: "Canary Islands",
           country: "Spain"
         }
-      }
+      },{
+        id: 296,
+        name: "Ken Crites",
+        img: "http://www.kencrites.com/img/KenCritesOct2018-9448.jpg",
+        links: {
+          website: "http://www.kencrites.com",
+          linkedin: "https://www.linkedin.com/in/kencrites/",
+          github: "https://github.com/kcrites"
+        },
+        jobTitle: "Full Stack Developer",
+        location: {
+          city: "Amsterdam",
+          state: "Noord-Holland",
+          country: "The Netherlands"
+        }
+      },
 ];
