@@ -4125,4 +4125,20 @@ export const persons = [
           country: "The Netherlands"
         }
       },
+      {
+        id: 297,
+        name: "Prateek Parab",
+        img: "https://media.licdn.com/dms/image/C5603AQE-jzpvaQWimw/profile-displayphoto-shrink_200_200/0?e=1556150400&v=beta&t=2r2Td18RmzK5udVAJmJYE6ZcGeDKJKjCFDMaTPRZqbk",
+        links: {
+          website: "",
+          linkedin: "https://www.linkedin.com/in/prateek-parab/",
+          github: "https://github.com/prateekParab20"
+        },
+        jobTitle: "Software developer",
+        location: {
+          city: "Jersey city",
+          state: "New Jersey",
+          country: "USA"
+        }
+      },
 ];
