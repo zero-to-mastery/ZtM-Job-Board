@@ -4141,4 +4141,20 @@ export const persons = [
           country: "USA"
         }
       },
+      {
+        id: 298,
+        name: "Dave Lin",
+        img: "https://secure.gravatar.com/avatar/52909e9a86a866e3585a65b5ba7a924f",
+        links: {
+          website: "http://www.davemint.com/",
+          linkedin: "https://www.linkedin.com/in/dvdlin214/",
+          github: "https://github.com/dvdlin214"
+        },
+        jobTitle: "Software Developer",
+        location: {
+          city: "New York",
+          state: "New York",
+          country: "USA"
+        }
+      },
 ];
