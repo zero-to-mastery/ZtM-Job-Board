@@ -4173,4 +4173,21 @@ export const persons = [
           country: "Cameroon"
         }
       },
+      {
+        id: 300,
+        name: "David Ugochukwu Okonkwo",
+        img: "https://avatars1.githubusercontent.com/u/47087777?s=460&v=4",
+        links: {
+          website: "",
+          linkedin: "https://www.linkedin.com/in/david-okonkwo-64717a12a/",
+          github: "https://github.com/ugozeal"
+        },
+        jobTitle: "Software Developer",
+        location: {
+          city: "FCT Abuja",
+          state: "Abuja",
+          country: "Nigeria"
+        }
+      },
 ];
+
