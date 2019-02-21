@@ -4157,4 +4157,20 @@ export const persons = [
           country: "USA"
         }
       },
+      {
+        id: 299,
+        name: "Loic Njike",
+        img: "https://photos.google.com/photo/AF1QipPQHfL-k_8egWSRv15BffJmXr8H2JxZlT2-KGd3",
+        links: {
+          website: "",
+          linkedin: "https://www.linkedin.com/in/loïc-njike/",
+          github: "https://github.com/virgilenjike"
+        },
+        jobTitle: "Full-Stack Web, C# and Python Developer",
+        location: {
+          city: "Douala",
+          state: "Littoral",
+          country: "Cameroon"
+        }
+      },
 ];
