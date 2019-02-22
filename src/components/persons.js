@@ -4094,5 +4094,20 @@ export const persons = [
          city: "Tel-Aviv",
          state: "",
          country: "Israel"}
-      }
+      },
+      {
+        id: 295,
+        name: "Peter Abolude",
+        img: "https://web.facebook.com/photo.php?fbid=1088413371239327&set=a.108127889267885&type=3&theater",
+        links: {
+          website: "https://www.portfolio-ife.firebaseapp.com",
+          linkedin: "https://linkedin.com/in/abolude-peter/",
+          github: "https://github.com/CFCIfe"
+        },
+        jobTitle: "Junior Full Stack Developer",
+        location: {
+          city: "Ikeja",
+          state: "Lagos",
+          country: "Nigeria"}
+       }
 ];
