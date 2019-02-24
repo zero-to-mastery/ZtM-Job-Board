@@ -4189,5 +4189,21 @@ export const persons = [
           country: "Nigeria"
         }
       },
+      {
+        id: 301,
+        name: "Ricardo Serrano",
+        img: "",
+        links: {
+          website: "",
+          linkedin: "https://www.linkedin.com/in/ricardos27/",
+          github: "https://github.com/rxsh96"
+        },
+        jobTitle: "Computer Science Engineering Student",
+        location: {
+          city: "Guayaquil",
+          state: "Guayas",
+          country: "Ecuador"
+        }
+      },
 ];
 
