@@ -4205,5 +4205,21 @@ export const persons = [
           country: "Ecuador"
         }
       },
+      {
+        id: 302,
+        name: "Peter Abolude",
+        img: "",
+        links: {
+          website: "",
+          linkedin: "https://www.linkedin.com/in/abolude-peter/",
+          github: "https://github.com/CFCIfe"
+        },
+        jobTitle: "Web Developer",
+        location: {
+          city: "Lagos",
+          state: "Lagos",
+          country: "Nigeria"
+        }
+      },
 ];
 
