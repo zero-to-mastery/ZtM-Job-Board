@@ -4221,5 +4221,20 @@ export const persons = [
           country: "Nigeria"
         }
       },
+      {
+        id: 303,
+        name: "Denis Gornichar",
+        img: "https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/17498656_10206528090159743_4183490191246088808_n.jpg?_nc_cat=104&_nc_ht=scontent-frx5-1.xx&oh=c8d8fa0536128809b226d4a9df0b2fc8&oe=5D271331",
+        links: {
+          website: "https://gorniczy.github.io",
+          linkedin: "https://www.linkedin.com/in/denis-gornichar/",
+          github: "https://github.com/gorniczy"
+        },
+        jobTitle: "Frontend Developer",
+        location: {
+          city: "Warsaw",
+          state: "",
+          country: "Poland"
+        }
+      }
 ];
-
