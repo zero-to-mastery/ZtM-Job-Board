@@ -4236,5 +4236,21 @@ export const persons = [
           state: "",
           country: "Poland"
         }
+      },
+      {
+        id: 304,
+        name: "Rodrigo Alberto",
+        img: "",
+        links: {
+          website: "",
+          linkedin: "https://www.linkedin.com/in/rodalbert/",
+          github: "https://github.com/rodalbert"
+        },
+        jobTitle: "Software Developer",
+        location: {
+          city: "Lisbon",
+          state: "",
+          country: "Portugal"
+        }
       }
 ];
