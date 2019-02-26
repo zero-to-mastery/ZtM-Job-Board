@@ -4236,5 +4236,21 @@ export const persons = [
           state: "",
           country: "Poland"
         }
-      }
+      },
+      {
+        id: 304,
+        name: "Adigun Adefisola",
+        img: "https://avatars3.githubusercontent.com/u/17639878?s=400&u=f7a095a5e83c1be3395657726ed65ce697d472fc&v=4",
+        links: {
+          website: "https://www.adefisolaadigun.com",
+          linkedin: "https://www.linkedin.com/in/adefisola-adigun/",
+          github: "https://github.com/TheFisola"
+        },
+        jobTitle: "Software Engineer | ♥ Javascript",
+        location: {
+          city: "Magodo",
+          state: "Lagos",
+          country: "Nigeria"
+        }
+      },
 ];
