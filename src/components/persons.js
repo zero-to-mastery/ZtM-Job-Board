@@ -4269,4 +4269,20 @@ export const persons = [
           country: "Portugal"
         }
       }
+      {
+        id: 306,
+        name: "Ganesh Nomula",
+        img: "",
+        links: {
+          website: "",
+          linkedin: "https://www.linkedin.com/in/ganeshnomula/",
+          github: "https://github.com/UnselfconsciousLux"
+        },
+        jobTitle: "Product Designer, Full-Stack Developer, Illustrator",
+        location: {
+          city: "Dallas",
+          state: "Texas",
+          country: "USA"
+        }
+      }
 ];
