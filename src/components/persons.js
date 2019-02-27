@@ -4268,7 +4268,7 @@ export const persons = [
           state: "",
           country: "Portugal"
         }
-      }
+      },
       {
         id: 306,
         name: "Ganesh Nomula",
@@ -4284,5 +4284,5 @@ export const persons = [
           state: "Texas",
           country: "USA"
         }
-      }
+      },
 ];
