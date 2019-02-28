@@ -4302,4 +4302,20 @@ export const persons = [
           country: "Dominican Republic"
         }
       },
+	  {
+        id: 308,
+        name: "Rajesh D",
+        img: "",
+        links: {
+          website: "https://rajesh13goud.github.io/",
+          linkedin: "https://www.linkedin.com/in/rajesh-d-775981175/",
+          github: "https://github.com/rajesh13goud"
+        },
+        jobTitle: "FullStack Blockchain Developer",
+        location: {
+          city: "Bangalore",
+          state: "Karnataka",
+          country: "INDIA"
+        }
+      },
 ];
