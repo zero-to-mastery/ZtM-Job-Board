@@ -4369,4 +4369,20 @@ export const persons = [
       country: "USA",
     },
   },
+    {
+    id: 310,
+    name: "Naela Bahurmuz",
+    img: " ",
+    links: {
+      website: " ",
+      linkedin: "https://www.linkedin.com/in/naela-bahurmuz-05a85012a/",
+      github: "https://github.com/lollaab"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Jeddah",
+      state: "Makkah",
+      country: "Saudi Arabia"
+    }
+  },
 ];
