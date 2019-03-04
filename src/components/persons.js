@@ -4369,7 +4369,7 @@ export const persons = [
       country: "USA",
     },
   },
-    {
+  {
     id: 310,
     name: "Naela Bahurmuz",
     img: " ",
@@ -4383,6 +4383,22 @@ export const persons = [
       city: "Jeddah",
       state: "Makkah",
       country: "Saudi Arabia"
+    }
+  },
+  {
+    id: 311,
+    name: "Jatin Varlyani",
+    img: "https://avatars2.githubusercontent.com/u/34777376?v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/jatin-varlyani-127290150/",
+      github: "https://github.com/Jatin-8898"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Mumbai",
+      state: "Maharashtra",
+      country: "India",
     }
   },
 ];
