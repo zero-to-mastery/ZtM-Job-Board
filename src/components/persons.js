@@ -4401,4 +4401,20 @@ export const persons = [
       country: "India",
     }
   },
+      {
+    id: 312,
+    name: "Bojana Hadzivanova",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/bojana-hadzivanova-21336635/",
+      github: "https://github.com/bojana899"
+    },
+    jobTitle: "developer",
+    location: {
+      city: "Skopje",
+      state: "",
+      country: "Macedonia"
+    }
+  },
 ];
