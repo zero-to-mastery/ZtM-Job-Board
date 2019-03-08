@@ -4305,7 +4305,7 @@ export const persons = [
 	  {
         id: 308,
         name: "Rajesh D",
-        img: "",
+        img: "https://avatars3.githubusercontent.com/u/25839746?v=4",
         links: {
           website: "https://rajesh13goud.github.io/",
           linkedin: "https://www.linkedin.com/in/rajesh-d-775981175/",
