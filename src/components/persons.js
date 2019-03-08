@@ -4318,40 +4318,37 @@ export const persons = [
       country: "USA",
     },
   },
-
   {
     id: 307,
     name: "Carlos De La Cruz",
-    img:
-      "https://media.licdn.com/dms/image/C5603AQHI1ztWds_mKg/profile-displayphoto-shrink_200_200/0?e=1556755200&v=beta&t=ZF5TGbDZMMCT-YJCxD0ZSY8jud-hwS1WKG_-eAOfMWo",
+    img: "https://media.licdn.com/dms/image/C5603AQHI1ztWds_mKg/profile-displayphoto-shrink_200_200/0?e=1556755200&v=beta&t=ZF5TGbDZMMCT-YJCxD0ZSY8jud-hwS1WKG_-eAOfMWo",
     links: {
       website: "http://carloscm.me",
-      linkedin:
-        "https://www.linkedin.com/in/carlos-de-la-cruz-meregildo-5673b1141/",
-      github: "https://github.com/Ahcom1019",
+      linkedin: "https://www.linkedin.com/in/carlos-de-la-cruz-meregildo-5673b1141/",
+      github: "https://github.com/Ahcom1019"
     },
     jobTitle: "FullStack Developer",
     location: {
       city: "Santo Domingo",
       state: "National District",
-      country: "Dominican Republic",
-    },
+      country: "Dominican Republic"
+    }
   },
-  {
+{
     id: 308,
     name: "Rajesh D",
-    img: "",
+    img: "https://avatars3.githubusercontent.com/u/25839746?v=4",
     links: {
       website: "https://rajesh13goud.github.io/",
       linkedin: "https://www.linkedin.com/in/rajesh-d-775981175/",
-      github: "https://github.com/rajesh13goud",
+      github: "https://github.com/rajesh13goud"
     },
     jobTitle: "FullStack Blockchain Developer",
     location: {
       city: "Bangalore",
       state: "Karnataka",
-      country: "INDIA",
-    },
+      country: "INDIA"
+    }
   },
   {
     id: 309,
