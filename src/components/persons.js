@@ -4415,6 +4415,22 @@ export const persons = [
       city: "Jodhpur",
       state: "Rajasthan",
       country: "India",
+      }
+  },
+  {
+    id: 313,
+    name: "Bojana Hadzivanova",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/bojana-hadzivanova-21336635/",
+      github: "https://github.com/bojana899"
+    },
+    jobTitle: "developer",
+    location: {
+      city: "Skopje",
+      state: "",
+      country: "Macedonia"
     }
   },
 ];
