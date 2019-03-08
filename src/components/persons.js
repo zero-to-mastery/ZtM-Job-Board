@@ -4430,4 +4430,20 @@ export const persons = [
       country: "Macedonia"
     }
   },
+  {
+    id: 314,
+    name: "Timothy Ngai",
+    img: "https://avatars3.githubusercontent.com/u/32214601?s=460&v=4", 
+    links: {
+      website: "https://DeltaPenguinGames.weebly.com",
+      linkedin: "https://www.linkedin.com/in/timothy-ngai-62198a10/",
+      github: "https://github.com/DeltaPeng"
+    },
+    jobTitle: "Full Stack Developer (C#, VB, Javascript)",
+    location: {
+      city: "Phoenix",
+      state: "AZ",
+      country: "USA",
+    }
+  },
 ];
