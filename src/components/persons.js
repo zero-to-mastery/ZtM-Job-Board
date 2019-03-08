@@ -4401,4 +4401,20 @@ export const persons = [
       country: "India",
     }
   },
+  {
+    id: 312,
+    name: "Devavrat Singh",
+    img: "https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-1/p160x160/50275077_10210595861931160_6720448375885398016_n.jpg?_nc_cat=109&_nc_ht=scontent.fjai1-1.fna&oh=133c8b31219bf234307ea77b5007de01&oe=5D13A8B9",
+    links: {
+      website: "https://www.satsaiinfocom.com",
+      linkedin: "https://www.linkedin.com/in/devavrat-singh-89249840",
+      github: "https://github.com/devavratsingh"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Jodhpur",
+      state: "Rajasthan",
+      country: "India",
+    }
+  },
 ];
