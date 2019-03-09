@@ -4446,4 +4446,20 @@ export const persons = [
       country: "USA",
     }
   },
+  {
+    id: 315,
+    name: "Bruno Staub",
+    img: "https://media.licdn.com/dms/image/C5603AQEOtIe_rX1R3Q/profile-displayphoto-shrink_200_200/0?e=1557360000&v=beta&t=csQDaLmqNh4XU_LPLMqqDBVTELxG8zBv_tH8iaCUZlM",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/bruno-staub-634b2870/",
+      github: "https://github.com/bstaub/"
+    },
+    jobTitle: "Full Stack Developer (Javascript, PHP)",
+    location: {
+      city: "Luzern",
+      state: "LU",
+      country: "CH",
+    }
+  },
 ];
