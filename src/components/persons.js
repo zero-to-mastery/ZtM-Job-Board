@@ -4462,4 +4462,20 @@ export const persons = [
       country: "CH",
     }
   },
+  {
+    id: 316,
+    name: "Akshata Dabade",
+    img: "https://media.licdn.com/dms/image/C4D03AQFTzCBZpv2FQQ/profile-displayphoto-shrink_200_200/0?e=1556755200&v=beta&t=FCp1OYOUS5jLbJsOld4uWZCWn0Pvp_h4owmX7TZ0Wno",
+    links: {
+      website: "https://akshatadabade.herokuapp.com/",
+      linkedin: "https://www.linkedin.com/in/akshatadabade1994/",
+      github: "https://github.com/adabade1/"
+    },
+    jobTitle: "Front End Web Developer (Javascript, React.js, Node.js)",
+    location: {
+      city: "Dublin",
+      state: "CA",
+      country: "US",
+    }
+  },
 ];
