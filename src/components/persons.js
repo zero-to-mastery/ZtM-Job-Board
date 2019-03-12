@@ -4526,4 +4526,20 @@ export const persons = [
       country: "USA",
     }
   },
+  {
+    id: 320,
+    name: "VISHNUVARTHAN U",
+    img: "https://media.licdn.com/dms/image/C5603AQHdoYsDA_WfzQ/profile-displayphoto-shrink_200_200/0?e=1557964800&v=beta&t=1KfgykQ1klCEBsq0bOOTWlqeGkf0XbQUlBzJ4acuO0k",
+    links: {
+      website: "http://vvarthan7.in/",
+      linkedin: "https://www.linkedin.com/in/vvarthan7/",
+      github: "https://github.com/vvarthan7"
+    },
+    jobTitle: "Sr. Software Engineer (Javascript, React.js, AEM UI(Sightly, HTL), Bootstrap)",
+    location: {
+      city: "Bangalore",
+      state: "Karnataka",
+      country: "INDIA",
+    }
+  }
 ];
