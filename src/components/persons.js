@@ -4542,4 +4542,20 @@ export const persons = [
       country: "INDIA",
     }
   }
+  {
+    id: 321,
+    name: "Argenis De La Rosa",
+    img: "https://media.licdn.com/dms/image/C4E03AQG_S06UTIxSJw/profile-displayphoto-shrink_200_200/0?e=1557360000&v=beta&t=VNxIYWv_1rx-wJIQJcn83jpLDnJxF4LNpSiQZq6tIJo",
+    links: {
+      website: "https://argenisdelarosa.com/",
+      linkedin: "https://www.linkedin.com/in/argenis-de-la-rosa-502b18157/",
+      github: "https://github.com/ArgenisDLR"
+    },
+    jobTitle: "Software Engineer",
+    location: {
+      city: "Boston",
+      state: "Massachusetts",
+      country: "USA"
+    }
+  },
 ];
