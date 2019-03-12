@@ -4495,7 +4495,7 @@ export const persons = [
     }
   },
   {
-    id: [318],
+    id: 318,
     name: "Preston Davis",
     img: "",
     links: {
@@ -4508,6 +4508,22 @@ export const persons = [
       city: "Oklahoma City",
       state: "OK",
       country: "USA"
+      }
+  },
+  {
+    id: 319,
+    name: "Fran Campana",
+    img: "",
+    links: {
+      website: "http://www.vermontskitours.com/",
+      linkedin: "https://www.linkedin.com/in/fran-campana-33939a13b/",
+      github: "https://github.com/FMCampana"
+    },
+    jobTitle: "Full Stack Web Developer (Javascript, React) and Software Developer (Java, Python)",
+    location: {
+      city: "Philadelphia",
+      state: "PA",
+      country: "USA",
     }
   },
 ];
