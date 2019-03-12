@@ -4497,7 +4497,7 @@ export const persons = [
   {
     id: 318,
     name: "Fran Campana",
-    img: ""
+    img: "",
     links: {
       website: "http://www.vermontskitours.com/",
       linkedin: "https://www.linkedin.com/in/fran-campana-33939a13b/",
