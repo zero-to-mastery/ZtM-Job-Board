@@ -4494,4 +4494,20 @@ export const persons = [
       country: "Australia",
     }
   },
+  {
+    id: [318],
+    name: "Preston Davis",
+    img: "",
+    links: {
+      website: "http://www.prestondavis.io",
+      linkedin: "https://www.linkedin.com/in/preston-davis-016211139/",
+      github: "https://www.github.com/premdav"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Oklahoma City",
+      state: "OK",
+      country: "USA"
+    }
+  },
 ];
