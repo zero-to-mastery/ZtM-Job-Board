@@ -17,7 +17,7 @@ To add your name to the list, simply open `persons.js` file in the `src/componen
     },
     jobTitle: "[YOUR_TITLE]",
     location: {
-      city: "[YOUR CITY]",
+      city: "[YOUR_CITY]",
       state: "[YOUR_STATE_OR_PROVINCE]",
       country: "[YOUR_COUNTRY]"
     }

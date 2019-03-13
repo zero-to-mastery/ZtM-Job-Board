@@ -1,7 +1,25 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import CardList from './components/CardList';
 import Navbar from './components/Navbar';
-import {persons} from './components/persons';
+import { persons } from './components/persons';
+import Search from './components/Search';
+import SimpleMap from './components/Map';
+import {createFilter} from 'react-search-input';
+
+const style = {
+  background: '#fff',
+  padding: '1rem',
+  width: '100%',
+  margin: '0',
+  zIndex: '1',
+  borderRadius: '5px'
+}
+const responsiveSearch = {
+  width: '100%',
+  marginBottom: '0.5rem',
+  padding: '0.5rem'
+}
+const KEYS_TO_FILTERS = ['name', 'jobTitle', 'location.city', 'location.state', 'location.country']
 
 class App extends Component {
   constructor() {
@@ -9,30 +27,21 @@ class App extends Component {
     this.state = {
       persons: persons,
       searchfield: '',
-      category: 'name',
-      isMenuOpen: false,
+      winWidth: window.innerWidth,
+      map: false
     }
   }
 
+  componentDidMount() {
+    window.addEventListener('resize', () => {
+      this.setState({
+        winWidth: window.innerWidth
+      })
+    })
+  }
+
   onSearchChange = (event) => {
-    this.setState({searchfield:event.target.value});
-  }
-
-  onCategoryChange = (event) =>{
-    this.setState({
-      category:event.target.value,
-      searchfield:''
-    });
-    let searchInput = document.querySelector('#searchbox input'); 
-    searchInput.value = '';
-    searchInput.focus();
-  }
-
-  toggleMenu = () => {
-    this.setState(this.state.isMenuOpen ? {isMenuOpen:false} : {isMenuOpen:true});
-    document.querySelector('.menu-icon').classList.toggle('change');
-    document.querySelector('.header-items').classList.toggle('expand');
-    document.querySelector('.collapse').classList.toggle('hidden');  
+    this.setState({ searchfield: event.target.value });
   }
 
   onKeyPress = (event) => {
@@ -42,51 +51,49 @@ class App extends Component {
     }
   }
 
-  whichCategory = (person) => {
-    const category = this.state.category;
-    if (category === 'location') {
-      const location = `${person.location.city} ${person.location.state} ${person.location.country}`;
-      return location.toLowerCase();
-    }
-    else if (category === 'name') {
-      return person.name.toLowerCase();
-    }
-    else if (category === 'job title') {
-      return person.jobTitle.toLowerCase();
-    }
-    else {
-      return null;
-    }
+  onMapClick = () => {
+    this.setState({ map: !this.state.map });
   }
+
+  onLogoClick = () => {
+    this.setState({ map: false });
+  }
+
   render() {
-    const filteredPersons = this.state.persons.filter(persons => {
-      const category = this.whichCategory(persons);
-      if (category !== undefined) {
-        return category.includes(this.state.searchfield.toLowerCase());
-      }
-      else {
-        return null;
-      }
-    });
+    const filteredPersons = this.state.persons.filter(createFilter(this.state.searchfield, KEYS_TO_FILTERS))
     return (
       <div className="flex flex-column min-vh-100 tc">
         <header className="custom--unselectable fixed top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-3">
-          
           <Navbar
+            onLogoClick={this.onLogoClick}
+            winWidth={this.state.winWidth}
             onSearchChange={this.onSearchChange}
-            toggleMenu={this.toggleMenu}
-            category={this.state.category}
             keyPress={this.onKeyPress}
-            categoryChange={this.onCategoryChange}
+            onMapClick={this.onMapClick}
           />
 
         </header>
         <main className="flex-auto">
-          
-          <CardList 
-            persons={filteredPersons} 
-          />
-
+          {
+            this.state.map ? <SimpleMap />
+              :
+              <div id="sketch-particles" className="flex flex-wrap justify-center">
+                {
+                  this.state.winWidth < 760 ?
+                    // IF window width is less then 650 means its mobile, render the component
+                    <div style={style}>
+                      <Search
+                        onSearchChange={this.onSearchChange}
+                        keyPress={this.onKeyPress}
+                        responsiveSearch={responsiveSearch}
+                      />
+                    </div>
+                    : // ELSE return nothing
+                    null
+                }
+                <CardList persons={filteredPersons} />
+              </div>
+          }
         </main>
         <footer className="custom--unselectable w-100 h3 flex items-center justify-center justify-end-l white custom--bg-additional3 z-2">
           <a href="https://github.com/zero-to-mastery/ZtM-Job-Board" title="Repository">
