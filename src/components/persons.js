@@ -4541,7 +4541,7 @@ export const persons = [
       state: "Karnataka",
       country: "INDIA",
     }
-  }
+  },
   {
     id: 321,
     name: "Argenis De La Rosa",
