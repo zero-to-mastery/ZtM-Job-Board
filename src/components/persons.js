@@ -2579,14 +2579,15 @@ export const persons = [
   },
   {
     id: 198,
-    name: "Kennith Nichol",
+    name: "Ken Nichol",
     img: "https://secure.gravatar.com/avatar/5d8cc0c05f351bd587222bccf38380a8",
     links: {
-      linkedin: "https://ca.linkedin.com/in/kennithnichol",
-      github: "https://github.com/kennithnichol",
+      linkedin: "https://ca.linkedin.com/in/ken-nichol",
+      github: "https://github.com/sirnotes",
+      twitter: "https://twitter.com/sirnotes"
     },
     jobTitle: "Remote Full Stack Developer",
-    location: { city: "", state: "BC", country: "Canada" },
+    location: { city: "Vancouver Island", state: "BC", country: "Canada" },
   },
   {
     id: 199,
