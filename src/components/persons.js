@@ -4558,5 +4558,20 @@ export const persons = [
       state: "Massachusetts",
       country: "USA"
     }
+  },{
+    id: 323,
+    name: "Jay Hung",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/%E8%8B%B1%E6%8D%B7-%E6%B4%AA-9a3592174/",
+      github: "https://github.com/a510102"
+    },
+    jobTitle: "Front-endWed Developer",
+    location: {
+      city: "Taichung",
+      state: "Taiwan",
+      country: "Taiwan"
+    }
   },
 ];
