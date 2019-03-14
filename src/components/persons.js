@@ -4559,4 +4559,20 @@ export const persons = [
       country: "USA"
     }
   },
+  {
+    id: 322,
+    name: "Sal Tamay",
+    img: "https://media.licdn.com/dms/image/C5603AQGP5X8ovpsjrg/profile-displayphoto-shrink_200_200/0?e=1555545600&v=beta&t=IhQSnst-9gV332G4-zzS3d3kXG5aBY3lUXezIFQhdv0",
+    links: {
+      website: "https://saltamay.github.io/home/",
+      linkedin: "https://www.linkedin.com/in/sal-tamay/",
+      github: "https://github.com/saltamay"
+    },
+    jobTitle: "Full-Stacl JS, React Developer",
+    location: {
+      city: "Toronto",
+      state: "ON",
+      country: "Canada"
+    }
+  }
 ];
