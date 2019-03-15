@@ -4582,7 +4582,7 @@ export const persons = [
       linkedin: "https://www.linkedin.com/in/sal-tamay/",
       github: "https://github.com/saltamay"
     },
-    jobTitle: "Full-Stacl JS, React Developer",
+    jobTitle: "Full-Stack JavaScript, ReactJS Developer",
     location: {
       city: "Toronto",
       state: "ON",
