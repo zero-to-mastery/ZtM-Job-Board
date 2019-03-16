@@ -4588,7 +4588,7 @@ export const persons = [
       state: "ON",
       country: "Canada"
     }
-  }
+  },
   {
     id: 324,
     name: "Jay Tin",
