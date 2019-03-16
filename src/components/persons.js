@@ -4589,4 +4589,20 @@ export const persons = [
       country: "Canada"
     }
   }
+  {
+    id: 324,
+    name: "Jay Tin",
+    img: "https://media.licdn.com/dms/image/C5103AQHVsH53UsL5-Q/profile-displayphoto-shrink_200_200/0?e=1557964800&v=beta&t=w9-1cYib3O_mAjNfesLHccY8YWXwIEqf8GNZEEY05OM",
+    links: {
+      website: "https://jaytintran.github.io",
+      linkedin: "https://www.linkedin.com/in/jaytintran/",
+      github: "https://github.com/jaytintran"
+    },
+    jobTitle: "Front End Developer, Full Stack JavaScript, ReactJS Developer",
+    location: {
+      city: "Ho Chi Minh",
+      state: "Ho Chi Minh",
+      country: "Vietnam"
+    }
+  }
 ];
