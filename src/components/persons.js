@@ -4620,5 +4620,21 @@ export const persons = [
       state: "Tehran",
       country: "Iran"
     }
+  },
+  {
+    id: 326,
+    name: "Joseph Kelly",
+    img: "https://media.licdn.com/dms/image/C4E03AQGSdyg1klP5qw/profile-displayphoto-shrink_200_200/0?e=1558569600&v=beta&t=LlLt74lIaSKfbXYQ01vJ1tgqHIr9ELjG7xEFpR-ZnRE",
+    links: {
+      website: "http://www.josephdk.com",
+      linkedin: "https://www.linkedin.com/in/joseph-kelly-420a81165/",
+      github: "https://github.com/josephdk"
+    },
+    jobTitle: "Full-stack Web Developer - Javascript, React.js, PHP, MySQL",
+    location: {
+      city: "Gainesville",
+      state: "Florida",
+      country: "USA"
+    }
   }
 ];
