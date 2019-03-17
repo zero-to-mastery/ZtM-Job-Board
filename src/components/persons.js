@@ -4614,7 +4614,7 @@ export const persons = [
       linkedin: "https://www.linkedin.com/in/alireza-tavakol-496a35148/",
       github: "https://github.com/art1373"
     },
-    jobTitle: "Fullstack developer(JavaScript,Node.js,Express.js,React,Python,Django)",
+    jobTitle: "Fullstack Developer",
     location: {
       city: "Tehran",
       state: "Tehran",
