@@ -4638,20 +4638,21 @@ export const persons = [
 			state   : 'Nevada',
 			country : 'USA'
 		}
-	}
-	id       : 328,
-	name     : 'Konstantine Berulava',
-	img      : 'http://odelia.ge/wp-content/uploads/2018/04/od1.png',
-	links    : {
-		website  : 'http://odelia.ge/',
-		linkedin : 'https://www.linkedin.com/in/berulava/',
-		github   : 'https://github.com/Spie1er'
 	},
-	jobTitle : 'FullStack Developer',
-	location : {
-		city    : 'Tbilisi',
-		state   : '',
-		country : 'Geogia'
+	{
+	id: 328,
+	name: 'Konstantine Berulava',
+	img: 'http://odelia.ge/wp-content/uploads/2018/04/od1.png',
+	links: {
+		website: 'http://odelia.ge/',
+		linkedin: 'https://www.linkedin.com/in/berulava/',
+		github: 'https://github.com/Spie1er'
+	},
+	jobTitle: 'FullStack Developer',
+	location: {
+		city: 'Tbilisi',
+		state: '',
+		country: 'Geogia'
 	}
 }
 
