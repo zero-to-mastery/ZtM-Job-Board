@@ -4702,5 +4702,22 @@ export const persons = [
       state: "CA",
       country: "USA"
     }
-  }
+  }, 
+    {
+    id: 330,
+    name: "Paola Arzuffi",
+    img: "https://media.licdn.com/dms/image/C5603AQGyhOPSeqemgQ/profile-displayphoto-shrink_200_200/0?e=1558569600&v=beta&t=5sK396H41eBje7bgpx7qidHZAnsCgBF4r1TjP6VvHNE",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/paola-arzuffi-31570790/",
+      github: "https://github.com/PaolaArz"
+    },
+    jobTitle: "Bioinformatician, Full Stack Developer",
+    location: {
+      city: "Manchester",
+      state: "",
+      country: "UK"
+    }
+  },
 ];
+
