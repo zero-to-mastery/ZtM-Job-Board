@@ -4752,7 +4752,7 @@ export const persons = [
     jobTitle: 'Front End Developer',
     location: {
       city: 'Cleveland',
-      state: 'Ohio',
+      state: 'OH',
       country: 'US'
     }
   }
