@@ -4719,5 +4719,21 @@ export const persons = [
       country: "UK"
     }
   },
+  {
+    id: 331,
+    name: "Yudhistira Putra Nugraha",
+    img: "https://raw.githubusercontent.com/kudismetal/web-cv/master/profile.jpg",
+    links: {
+      website: "https://kudismetal.github.io/web-cv/",
+      linkedin: "https://www.linkedin.com/in/yudhistira-putra-nugraha-154207165/",
+      github: "https://github.com/kudismetal"
+    },
+    jobTitle: "Front-End Developer",
+    location: {
+      city: "Wonosobo",
+      state: "Jawa Tengah",
+      country: "Indonesia"
+    }
+  },
 ];
 
