@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SearchBox = ({ searchChange, keyPress, responsiveSearch }) => {
+const SearchBox = ({ searchChange, responsiveSearch }) => {
   return (
     <div id="searchbox" style={responsiveSearch} className="relative pa0 fr">
       <svg className="absolute left--2 w2 h2" viewBox="0 0 24 24">
@@ -12,7 +12,6 @@ const SearchBox = ({ searchChange, keyPress, responsiveSearch }) => {
         type="search"
         placeholder={`Filter name, job or location`}
         onChange={searchChange}
-        onKeyPress={keyPress}
       />
     </div>
   );

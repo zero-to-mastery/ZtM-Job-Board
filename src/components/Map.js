@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import GoogleMapReact from 'google-map-react';
 import Canvas from './Canvas';
 import { persons } from './persons';
@@ -50,44 +50,34 @@ persons.forEach(person => {
     .catch(err => console.error(err));
 });
 
-class SimpleMap extends Component {
-  static defaultProps = {
-    center: {
-      lat: 55.378052,
-      lng: -3.435973
-    },
-    zoom: 4
-  };
-
-  render() {
-    return (
-      // Important! Always set the container height explicitly
-      <div style={{ height: '100vh', width: '100%' }}>
-        <GoogleMapReact
-          //I could not figure out a safe place to store this key, since there's no server
-          bootstrapURLKeys={{ key: 'AIzaSyAc9rLvEJvIGk_UZ6af_kiC5_xenNVLaMU' }}
-          defaultCenter={this.props.center}
-          defaultZoom={this.props.zoom}
-        >
-          {arr.length !== 0 ? (
-            arr.map((location, i) => (
-              <AnyReactComponent
-                key={i}
-                lat={location.lat + Math.random()}
-                lng={location.lng + Math.random()}
-              >
-                <Canvas />
-              </AnyReactComponent>
-            ))
-          ) : (
-            <AnyReactComponent lat={55.378052} lng={-3.764658}>
+function SimpleMap({ center = { lat: 55.378052, lng: -3.435973 }, zoom = 4 }) {
+  return (
+    // Important! Always set the container height explicitly
+    <div style={{ height: '100vh', width: '100%' }}>
+      <GoogleMapReact
+        //I could not figure out a safe place to store this key, since there's no server
+        bootstrapURLKeys={{ key: 'AIzaSyAc9rLvEJvIGk_UZ6af_kiC5_xenNVLaMU' }}
+        defaultCenter={center}
+        defaultZoom={zoom}
+      >
+        {arr.length !== 0 ? (
+          arr.map((location, i) => (
+            <AnyReactComponent
+              key={i}
+              lat={location.lat + Math.random()}
+              lng={location.lng + Math.random()}
+            >
               <Canvas />
             </AnyReactComponent>
-          )}
-        </GoogleMapReact>
-      </div>
-    );
-  }
+          ))
+        ) : (
+          <AnyReactComponent lat={55.378052} lng={-3.764658}>
+            <Canvas />
+          </AnyReactComponent>
+        )}
+      </GoogleMapReact>
+    </div>
+  );
 }
 
 export default SimpleMap;
