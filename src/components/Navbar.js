@@ -1,7 +1,13 @@
 import React from 'react';
 import Search from './Search';
 
-const Navbar = ({ onSearchChange, keyPress, winWidth, onMapClick, onLogoClick }) => {
+const Navbar = ({
+  onSearchChange,
+  keyPress,
+  winWidth,
+  onMapClick,
+  onLogoClick
+}) => {
   return (
     <div className="header-items flex flex-wrap justify-between">
       <h1 onClick={onLogoClick} id="title" className="relative ma0 pa0 fl-l">
@@ -11,20 +17,18 @@ const Navbar = ({ onSearchChange, keyPress, winWidth, onMapClick, onLogoClick })
         <span className="fw3">Job</span>
         <span className="fw7 custom--text-primary">Board</span>
       </h1>
-      <span className='f3 pointer' style={{ marginLeft: '20em' }}
+      <span
+        className="f3 pointer"
+        style={{ marginLeft: '20em' }}
         onClick={onMapClick}
-      >Map</span>
-      {
-        winWidth > 760 ?
-          <Search
-            onSearchChange={onSearchChange}
-            keyPress={keyPress}
-          />
-          : null
-      }
+      >
+        Map
+      </span>
+      {winWidth > 760 ? (
+        <Search onSearchChange={onSearchChange} keyPress={keyPress} />
+      ) : null}
     </div>
   );
-}
-
+};
 
 export default Navbar;
