@@ -4755,5 +4755,21 @@ export const persons = [
       state: 'OH',
       country: 'US'
     }
+  },
+  {
+    id: 333,
+    name: "Jim Taulman",
+    img: "https://avatars2.githubusercontent.com/u/6203317?s=460&v=4",
+    links: {
+      website: "https://jftiv.org",
+      linkedin: "https://www.linkedin.com/in/jftiv/",
+      github: "https://github.com/jftiv"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Atlanta",
+      state: "Georgia",
+      country: "USA"
+    }
   }
 ];
