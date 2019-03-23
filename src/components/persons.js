@@ -4771,5 +4771,21 @@ export const persons = [
       state: "Georgia",
       country: "USA"
     }
+  },
+  {
+    id: 334,
+    name: "Piero Sabino",
+    img: "",
+    links:{
+      website: "",
+      linkedin: "",
+      github: ""
+    },
+    jobTitle: "Junior Web Developer",
+    location: {
+      city: "Turi",
+      state: "Puglia",
+      country: "Italy"
+    }
   }
 ];
