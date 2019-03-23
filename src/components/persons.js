@@ -4775,11 +4775,11 @@ export const persons = [
   {
     id: 334,
     name: "Piero Sabino",
-    img: "",
+    img: "https://www.flickr.com/photos/135596980@N06/47394792922/in/dateposted-public/",
     links:{
       website: "",
-      linkedin: "",
-      github: ""
+      linkedin: "https://www.linkedin.com/in/piero-sabino-15a1b671/",
+      github: "https://github.com/pierre1590"
     },
     jobTitle: "Junior Web Developer",
     location: {
