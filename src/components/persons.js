@@ -4771,5 +4771,5 @@ export const persons = [
       state: "Georgia",
       country: "USA"
     }
-  },
+  }
 ];
