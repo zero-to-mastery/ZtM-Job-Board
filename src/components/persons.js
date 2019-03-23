@@ -4755,7 +4755,7 @@ export const persons = [
       state: 'OH',
       country: 'US'
     }
-  }
+  },
   {
     id: 333,
     name: "Jim Taulman",
