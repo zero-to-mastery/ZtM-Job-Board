@@ -4803,5 +4803,21 @@ export const persons = [
       state: "Campania",
       country: "Italy"
     }
+  },
+  {
+    id: 335,
+    name: "Piero Sabino",
+    img: "https://www.flickr.com/photos/135596980@N06/47394792922/in/dateposted-public/",
+    links:{
+      website: "",
+      linkedin: "https://www.linkedin.com/in/piero-sabino-15a1b671/",
+      github: "https://github.com/pierre1590"
+    },
+    jobTitle: "Junior Web Developer",
+    location: {
+      city: "Turi",
+      state: "Puglia",
+      country: "Italy"
+    }
   }
 ];
