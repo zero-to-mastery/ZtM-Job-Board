@@ -4819,5 +4819,22 @@ export const persons = [
       state: "Puglia",
       country: "Italy"
     }
-  }
+  },
+  {
+    id: 336,
+    name: "Kelechi Igbokwe",
+    img: "https://avatars0.githubusercontent.com/u/26067229?s=40&v=4",
+    links: {
+      website: "http://kelechi.me/my-portfolio/#/",
+      linkedin: "https://www.linkedin.com/in/kelechi-igbokwe/",
+      github: "https://github.com/sirkells"
+    },
+    jobTitle: "Junior IT Consultant",
+    location: {
+      city: "Cologne",
+      state: "NRW",
+      country: "Germany"
+    }
+  },
+
 ];
