@@ -4772,4 +4772,20 @@ export const persons = [
       country: "USA"
     }
   }
+  , {
+    id: 334,
+    name: "Paolo Di Bello",
+    img: "https://avatars3.githubusercontent.com/u/36816681?s=460&v=4",
+    links: {
+      website: "http://dibellopaolo-portfolio-demo-1.rf.gd/?i=1",
+      linkedin: "https://www.linkedin.com/in/paolo-di-bello-239056151/",
+      github: "https://github.com/PaoloDiBello"
+    },
+    jobTitle: "Web Developer & Polyglot",
+    location: {
+      city: "Casapesenna",
+      state: "Campania",
+      country: "Italy"
+    }
+  }
 ];
