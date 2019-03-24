@@ -4781,7 +4781,7 @@ export const persons = [
       linkedin: "https://www.linkedin.com/in/paolo-di-bello-239056151/",
       github: "https://github.com/PaoloDiBello"
     },
-    jobTitle: "Web Developer",
+    jobTitle: "Web Developer & Polyglot",
     location: {
       city: "Casapesenna",
       state: "Campania",
