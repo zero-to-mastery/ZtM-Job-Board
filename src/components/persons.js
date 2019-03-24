@@ -4771,6 +4771,22 @@ export const persons = [
       state: "Georgia",
       country: "USA"
     }
+  },
+  {
+    id: 334,
+    name: 'González Oviedo Tomás Emiliano',
+    img: 'https://avatars1.githubusercontent.com/u/24637586?s=400&v=4',
+    links: {
+      website: 'https://tomas95go.github.io/tomasportfolio/index.html',
+      linkedin: 'www.linkedin.com/in/tomas-emiliano-gonzalez-oviedo-897795173',
+      github: 'https://github.com/tomas95go'
+    },
+    jobTitle: 'Full Stack Web Developer',
+    location: {
+      city: 'Formosa',
+      state: 'FSA',
+      country: 'Argentina'
+    }
   }
   , {
     id: 334,
