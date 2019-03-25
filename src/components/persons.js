@@ -4851,5 +4851,21 @@ export const persons = [
       country: "India"
     }
   },
+  {
+    id: 339,
+    name: "Anthony Curtis",
+    img: "https://photos.app.goo.gl/u7QfNZT5uw7k4M7S7",
+    links: {
+      website: "https://tonydc1997.github.io/Personal-Website/",
+      linkedin: "https://www.linkedin.com/in/anthony-curtis-js-developer/",
+      github: "https://github.com/tonydc1997"
+    },
+    jobTitle: "Full-Stack JS Developer",
+    location: {
+      city: "Los Angeles County",
+      state: "CA",
+      country: "U.S."
+    }
+  },
 
 ];
