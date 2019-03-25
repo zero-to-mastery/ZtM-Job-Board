@@ -4835,6 +4835,21 @@ export const persons = [
       state: "NRW",
       country: "Germany"
     }
+  },  {
+    id: 338,
+    name: "Tushar Kharbanda",
+    img: "https://avatars3.githubusercontent.com/u/34345518?s=460&v=4",
+    links: {
+      website: "https://tkdevlop.tk/",
+      linkedin: "https://www.linkedin.com/in/tushar-kharbanda-69841a14b/",
+      github: "https://github.com/TKdevlop/"
+    },
+    jobTitle: "Full Stack JS Dev",
+    location: {
+      city: "",
+      state: "",
+      country: "India"
+    }
   },
 
 ];
