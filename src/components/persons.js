@@ -4862,8 +4862,8 @@ export const persons = [
     },
     jobTitle: 'Front End Developer',
     location: {
-      city: "",
-      state: "",
+      city: "Faridabad",
+      state: "Haryana",
       country: "India"
     }
   },
