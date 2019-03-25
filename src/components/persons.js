@@ -4851,5 +4851,22 @@ export const persons = [
       country: "India"
     }
   },
+  {
+    id: 339,
+    name: 'Mumtaz Ahmad',
+    img:
+      'https://avatars1.githubusercontent.com/u/1139967?s=400&v=4',
+    links: {
+      linkedin: 'https://www.linkedin.com/in/mumtazahmad/',
+      github: 'https://github.com/mumtazahmadui'
+    },
+    jobTitle: 'Front End Developer',
+    location: {
+      city: "",
+      state: "",
+      country: "India"
+    }
+  },
+
 
 ];
