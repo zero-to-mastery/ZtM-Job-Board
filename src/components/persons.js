@@ -4789,7 +4789,7 @@ export const persons = [
     }
   }
   , {
-    id: 334,
+    id: 335,
     name: "Paolo Di Bello",
     img: "https://avatars3.githubusercontent.com/u/36816681?s=460&v=4",
     links: {
@@ -4802,6 +4802,20 @@ export const persons = [
       city: "Casapesenna",
       state: "Campania",
       country: "Italy"
+    }
+  }
+  , {
+    id: 336,
+    name: "Oluwakayode Samuel",
+    img: "https://drive.google.com/open?id=1u_XpV4PlAxICWOqpjZrrRuvLU_mQMoSa",
+    links: {
+      github: "https://github.com/SamuelKayode"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Lagos",
+      state: "Lagos",
+      country: "Nigeria"
     }
   }
 ];
