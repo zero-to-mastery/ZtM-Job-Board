@@ -4813,7 +4813,7 @@ export const persons = [
     },
     jobTitle: "Full Stack Developer",
     location: {
-      city: "Lagos",
+      ,
       state: "Lagos",
       country: "Nigeria"
     }
