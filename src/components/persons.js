@@ -1,5 +1,4 @@
 export const persons = [
-export const persons = [
   {
     id: 1,
     name: 'Andrej Zadnik',
