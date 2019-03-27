@@ -4807,7 +4807,7 @@ export const persons = [
   {
     id: 336,
     name: "Piero Sabino",
-    img: "https://www.flickr.com/photos/135596980@N06/47394792922/in/dateposted-public/",
+    img: "https://imgur.com/lbrbLvs",
     links:{
       website: "",
       linkedin: "https://www.linkedin.com/in/piero-sabino-15a1b671/",
