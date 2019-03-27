@@ -4623,12 +4623,12 @@ export const persons = [
   },
   {
     id: 325,
-    name: 'Alireza(Armin) TK',
+    name: 'Alireza(Armin) Tavakol',
     img:
-      'https://media.licdn.com/dms/image/C4D03AQGhv5llQqWXLw/profile-displayphoto-shrink_200_200/0?e=1558569600&v=beta&t=woVJweQZGWBxPnd7sMdOtK_sRO7RGzindheUP-vOeOM',
+      'https://media.licdn.com/dms/image/C4D03AQFdb6t-2E0s4g/profile-displayphoto-shrink_200_200/0?e=1559174400&v=beta&t=wLCxzea4KsgVKwKLyEprdJUYq0wte16xDLeNiZDlFd8',
     links: {
       website: 'https://stackoverflow.com/users/11187413/ali-tk',
-      linkedin: 'https://www.linkedin.com/in/alireza-tavakol-496a35148/',
+      linkedin: 'https://www.linkedin.com/in/alireza-tavakol73/',
       github: 'https://github.com/art1373'
     },
     jobTitle: 'Fullstack Developer',
