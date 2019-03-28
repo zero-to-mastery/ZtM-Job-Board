@@ -4867,5 +4867,17 @@ export const persons = [
       country: "U.S."
     }
   },
-
+{
+    id: 340,
+    name: "Wouter Kok",
+    img: "https://media.licdn.com/dms/image/C4D03AQGsoeE2ocP-Mg/profile-displayphoto-shrink_200_200/0?e=1559174400&v=beta&t=QLPXLGvPOOvqa5GMHEAmajLnXHBuzxarmFSF8PkZEzM",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/wouter-kok/",
+      github: "https://github.com/wkokgit"
+    },
+    jobTitle: "Web & Software Developer",
+    location: {city: "Amsterdam", state: "", country: "Nederland"
+    }
+  },
 ];
