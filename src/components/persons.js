@@ -123,6 +123,7 @@ export const persons = [
     jobTitle: 'Full-Stack JavaScript Developer',
     location: { city: 'Chicago', state: 'IL', country: 'USA' }
   },
+
   {
     id: 11,
     name: 'Martín Comito',
@@ -4879,5 +4880,17 @@ export const persons = [
     jobTitle: "Web & Software Developer",
     location: {city: "Amsterdam", state: "", country: "Nederland"
     }
+  },
+  {
+    id: 350,
+    name: 'Peterson Oaikhenah',
+    img: 'https://avatars1.githubusercontent.com/u/32341221?s=460&v=4',
+    links: {
+      website: '',
+      linkedin: 'https://www.linkedin.com/in/peterson-oaikhenah-102645144/',
+      github: 'https://github.com/nextwebb'
+    },
+    jobTitle: 'Full-Stack JavaScript and PHP Developer',
+    location: { city: 'ogba', state: 'Lagos', country: 'Nigeria' }
   },
 ];
