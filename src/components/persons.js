@@ -4867,7 +4867,7 @@ export const persons = [
       country: "U.S."
     }
   },
-{
+  {
     id: 340,
     name: "Wouter Kok",
     img: "https://media.licdn.com/dms/image/C4D03AQGsoeE2ocP-Mg/profile-displayphoto-shrink_200_200/0?e=1559174400&v=beta&t=QLPXLGvPOOvqa5GMHEAmajLnXHBuzxarmFSF8PkZEzM",
@@ -4878,6 +4878,19 @@ export const persons = [
     },
     jobTitle: "Web & Software Developer",
     location: {city: "Amsterdam", state: "", country: "Nederland"
+    }
+  },
+  {
+    id: 341,
+    name: "Allentine Paulis",
+    img: "https://imgur.com/a/bkKSeR5",
+    links: {
+      website: "https://rainbowmoonlight.github.io/AllentinePortfolio/",
+      linkedin: "https://www.linkedin.com/in/allentine/",
+      github: "https://github.com/rainbowmoonlight"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {city: "Los Angeles", state: "CA", country: "USA"
     }
   },
 ];
