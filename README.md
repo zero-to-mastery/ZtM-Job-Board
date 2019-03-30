@@ -1,5 +1,5 @@
-# ZtM-Job-Board &emsp; [![TravisCI Build Status](https://travis-ci.org/zero-to-mastery/ZtM-Job-Board.svg?branch=master)](https://travis-ci.org/zero-to-mastery/ZtM-Job-Board)
-A place for developers to show recruiters that they are available for hire. Feel free to contribute and improve this in any way you see fit.
+# People In Tech &emsp; [![TravisCI Build Status](https://travis-ci.org/zero-to-mastery/ZtM-Job-Board.svg?branch=master)](https://travis-ci.org/zero-to-mastery/ZtM-Job-Board)
+List of people working as programmers, software developers, designers, coders, QA engineers, etc.
 
 ### How to add your name to the list
 To add your name to the list, simply open `persons.js` file in the `src/components` folder, and then add your own row at the bottom, using the below template:    
