@@ -1,4 +1,4 @@
-# People In Tech &emsp; [![TravisCI Build Status](https://travis-ci.org/zero-to-mastery/ZtM-Job-Board.svg?branch=master)](https://travis-ci.org/zero-to-mastery/ZtM-Job-Board)
+# People In Tech &emsp; [![TravisCI Build Status](https://travis-ci.org/ricardodsanchez/PeopleInTech.svg?branch=master)](https://travis-ci.org/ricardodsanchez/PeopleInTech)
 List of people working as programmers, software developers, designers, coders, QA engineers, etc.
 
 ### How to add your name to the list
