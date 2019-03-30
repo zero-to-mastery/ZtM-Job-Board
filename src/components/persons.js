@@ -4893,4 +4893,17 @@ export const persons = [
     location: {city: "Los Angeles", state: "CA", country: "USA"
     }
   },
+  {
+    id: 342,
+    name: "Hrishabh Prajapati",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/hrishabh-prajapati",
+      github: "https://github.com/hhrishabh"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {city: "", state: "", country: "India"
+    }
+  },
 ];
