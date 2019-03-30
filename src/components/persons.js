@@ -4880,4 +4880,21 @@ export const persons = [
     location: {city: "Amsterdam", state: "", country: "Nederland"
     }
   },
+  {
+    id: 341,
+    name: "Ricardo Sanchez",
+    img: "https://s.gravatar.com/avatar/a9ed8fdfd64e4c75ebca50f092454ad1?s=80",
+    links: {
+      website: 'https://www.ricardodsanchez.com',
+      linkedin: 'https://www.linkedin.com/in/ricardodsanchez',
+      github: 'https://github.com/ricardodsanchez',
+      twitter: 'https://twitter.com/ricardodsanchez',
+    },
+    jobTitle: "Software Engineer",
+    location: {
+      city: "Seattle",
+      state: "WA",
+      country: "USA"
+    }
+  },
 ];
