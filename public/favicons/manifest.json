@@ -1,6 +1,6 @@
 {
-    "name": "Job Board - Zero to Mastery",
-    "short_name": "Job Board - ZtM",
+    "name": "People in Tech",
+    "short_name": "PeopleInTech",
     "icons": [
         {
             "src": "/android-chrome-36x36.png?v=1",
@@ -45,6 +45,6 @@
     ],
     "theme_color": "#212121",
     "background_color": "#EEEEEE",
-    "start_url": "https://zero-to-mastery.github.io/ZtM-Job-Board/",
+    "start_url": "https://github.com/ricardodsanchez/PeopleInTech/",
     "display": "browser"
 }

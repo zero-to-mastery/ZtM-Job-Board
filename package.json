@@ -1,8 +1,8 @@
 {
-  "name": "jobboard",
+  "name": "peopleintech",
   "version": "0.2.0",
   "private": true,
-  "homepage": "https://zero-to-mastery.github.io/ZtM-Job-Board",
+  "homepage": "https://ricardodsanchez.github.io/PeopleInTech/",
   "dependencies": {
     "google-map-react": "^1.1.2",
     "node-sass-chokidar": "^1.3.4",
