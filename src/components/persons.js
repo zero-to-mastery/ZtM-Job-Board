@@ -5504,4 +5504,20 @@ export const persons = [{
       country: 'Nigeria'
     }
   },
+  {
+    id: 344,
+    name: "Shubham Dhage",
+    img: "https://i.imgur.com/uXvnjsc.jpg",
+    links: {
+      website: "https://shubhamd99.github.io/portfolio/",
+      linkedin: "https://www.linkedin.com/in/shubham-dhage-57133a175/",
+      github: "https://github.com/shubhamd99"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Banglore",
+      state: "KA",
+      country: "India"
+    }
+  },
 ];
