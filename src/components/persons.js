@@ -4883,7 +4883,7 @@ export const persons = [
   {
     id: 341,
     name: "Ricardo Sanchez",
-    img: "https://s.gravatar.com/avatar/a9ed8fdfd64e4c75ebca50f092454ad1?s=80",
+    img: "https://ricardodsanchezcom.files.wordpress.com/2019/03/dsc3619.jpg?w=600&h=388",
     links: {
       website: 'https://www.ricardodsanchez.com',
       linkedin: 'https://www.linkedin.com/in/ricardodsanchez',

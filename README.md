@@ -31,7 +31,7 @@ To add your name to the list, simply open `persons.js` file in the `src/componen
 - If you do not want to fill some of the fields, leave them blank (e.g. `state: "",`).
 - Your pull request will only be accepted if it follows the example above. It **cannot** have anything else.
 
-Please submit a Pull Request for your row to be added to this list. If you are unsure how to do this, please check out *Contributing To Open Source* video in the course curriculum.
+Please submit a Pull Request for your profile to be added to this list. If you are unsure how to do this, please check out *Contributing To Open Source* video in the course curriculum.
 
 ### Resources
 All icons have been sourced from [Material Design Icons](https://materialdesignicons.com) and [Octicons](https://octicons.github.com/)

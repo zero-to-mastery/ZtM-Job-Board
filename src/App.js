@@ -3,7 +3,6 @@ import CardList from './components/CardList';
 import Navbar from './components/Navbar';
 import { persons } from './components/persons';
 import Search from './components/Search';
-import SimpleMap from './components/Map';
 import { createFilter } from 'react-search-input';
 
 const style = {
@@ -30,7 +29,6 @@ const KEYS_TO_FILTERS = [
 function App() {
   const [searchfield, setSearchfield] = useState('');
   const [winWidth, setWinWidth] = useState(window.innerWidth);
-  const [map, setMap] = useState(false);
 
   useEffect(() => {
     window.addEventListener('resize', () => {
@@ -45,30 +43,24 @@ function App() {
     <div className="flex flex-column min-vh-100 tc">
       <header className="custom--unselectable fixed top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-3">
         <Navbar
-          onLogoClick={() => setMap(false)}
           winWidth={winWidth}
           onSearchChange={e => setSearchfield(e.target.value)}
-          onMapClick={() => setMap(!map)}
         />
       </header>
       <main className="flex-auto">
-        {map ? (
-          <SimpleMap />
-        ) : (
-          <div className="flex flex-wrap justify-center">
-            {winWidth < 760 ? (
-              // IF window width is less then 650 means its mobile, render the component
-              <div style={style}>
-                <Search
-                  onSearchChange={e => setSearchfield(e.target.value)}
-                  responsiveSearch={responsiveSearch}
-                />
-              </div>
-            ) : // ELSE return nothing
-            null}
-            <CardList persons={filteredPersons} />
-          </div>
-        )}
+        <div className="flex flex-wrap justify-center">
+          {winWidth < 760 ? (
+            // IF window width is less then 650 means its mobile, render the component
+            <div style={style}>
+              <Search
+                onSearchChange={e => setSearchfield(e.target.value)}
+                responsiveSearch={responsiveSearch}
+              />
+            </div>
+          ) : // ELSE return nothing
+          null}
+          <CardList persons={filteredPersons.sort((a, b) => (a.id === b.id) ? 1 : -1)} />
+        </div>
       </main>
       <footer className="custom--unselectable w-100 h3 flex items-center justify-center justify-end-l white custom--bg-additional3 z-2">
         <a

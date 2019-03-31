@@ -80,6 +80,16 @@ header {
 
   padding: 0 5%;
 
+  .repo {
+
+    fill: #FFFFFF;
+
+    &:hover {
+      fill: $color--primary;
+    }
+
+  }
+  
   .header-items {
     transition: height 0.3s ease;
     padding: 0.6rem;
@@ -220,7 +230,7 @@ header {
     margin: 0 0.6rem 0 0;
 
     input {
-      width: 11rem;
+      width: 14rem;
       padding: 0.3rem;
     }
     input::selection {
