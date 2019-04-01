@@ -4887,6 +4887,7 @@ export const persons = [
     img: 'https://nextwebb.github.io/profilepics/gitProfile.jpeg',
     links: {
       website: 'nextwebb.com.ng',
+      instagram:'www.instagram.com/peterson_hn'
       twitter:'https://twitter.com/peterson_hn',
       facebook:'https://www.facebook.com/peterson.oaikhenah',
       gmail:'oaikhenahpeterson@gmail.com',
