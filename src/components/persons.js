@@ -4884,13 +4884,16 @@ export const persons = [
   {
     id: 350,
     name: 'Peterson Oaikhenah',
-    img: 'https://avatars1.githubusercontent.com/u/32341221?s=460&v=4',
+    img: 'https://nextwebb.github.io/profilepics/gitProfile.jpeg',
     links: {
-      website: '',
+      website: 'nextwebb.com.ng',
+      twitter:'https://twitter.com/peterson_hn',
+      facebook:'https://www.facebook.com/peterson.oaikhenah',
+      gmail:'oaikhenahpeterson@gmail.com',
       linkedin: 'https://www.linkedin.com/in/peterson-oaikhenah-102645144/',
       github: 'https://github.com/nextwebb'
     },
-    jobTitle: 'Full-Stack JavaScript and PHP Developer',
+    jobTitle: 'Full-Stack nodejs and PHP Developer',
     location: { city: 'ogba', state: 'Lagos', country: 'Nigeria' }
   },
 ];
