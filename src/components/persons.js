@@ -5692,4 +5692,20 @@ export const persons = [
       country: "United Kingdom"
     }
   }
+  {
+    id: 346,
+    name: "Ryan Lewis",
+    img: "https://media.licdn.com/dms/image/C4D03AQF1xFP1AmQarQ/profile-displayphoto-shrink_200_200/0?e=1559779200&v=beta&t=omFFe-NN9fH8DkEOJXwlRrwiMdFQ5EIQzBrS4C1Kd2w",
+    links: {
+      website: "https://ryanlewis94.github.io/portfolio/",
+      linkedin: "https://www.linkedin.com/in/ryan-lewis-b02105161/",
+      github: "https://github.com/ryanlewis94"
+    },
+    jobTitle: "Junior Web Developer",
+    location: {
+      city: "Cardiff",
+      state: "",
+      country: "United Kingdom"
+    }
+  }
 ];
