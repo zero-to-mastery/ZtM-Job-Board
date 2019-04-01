@@ -5520,4 +5520,20 @@ export const persons = [{
       country: "India"
     }
   },
+  {
+    id: 345,
+    name: "Nikola Vasilev",
+    img: "http://nebivalici.com/styles/img/nikola.jpg",
+    links: {
+      website: "http://nebivalici.com/webapps",
+      linkedin: "https://www.linkedin.com/in/nikola-vasilev-ab1161b9/",
+      github: "https://github.com/crux-in-lan"
+    },
+    jobTitle: "IT/KPI specialist",
+    location: {
+      city: "Sofia",
+      state: "Sofia",
+      country: "Bulgaria"
+    }
+  },
 ];
