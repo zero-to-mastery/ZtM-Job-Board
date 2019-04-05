@@ -5756,5 +5756,22 @@ export const persons = [
       state: "CT",
       country: "USA"
     }
+  },
+  {
+    id: 350,
+    name: "Ciprian Cozma",
+    img:
+      "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/ciprian-cozma/",
+      github: "https://github.com/cipriancozma"
+    },
+    jobTitle: "Front-End Developer",
+    location: {
+      city: "Iasi",
+      state: "",
+      country: "Romania"
+    }
   }
 ];
