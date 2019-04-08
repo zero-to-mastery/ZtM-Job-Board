@@ -5773,7 +5773,7 @@ export const persons = [
       state: "",
       country: "Romania"
     }
-  }
+  },
   {
     id: 351,
     name: "Angel Tat",
