@@ -5774,4 +5774,21 @@ export const persons = [
       country: "Romania"
     }
   }
+  {
+    id: 351,
+    name: "Angel Tat",
+    img:
+      "https://i.imgur.com/siAUyvM.jpg",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/tat-angel-10668b117/",
+      github: "https://github.com/angeldev92"
+    },
+    jobTitle: "Full Stack Web Developer",
+    location: {
+      city: "Timisoara",
+      state: "Timis",
+      country: "Romania"
+    }
+  }
 ];
