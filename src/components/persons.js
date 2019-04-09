@@ -5790,5 +5790,21 @@ export const persons = [
       state: "Timis",
       country: "Romania"
     }
+  },
+  {
+    id: 352,
+    name: "Ileana Argyris",
+    img: "",
+    links: {
+        website: "http://argyrisileana.com",
+        linkedin: "https://www.linkedin.com/in/ileanaargyris/",
+        github: "https://github.com/ileanahi/"
+    },
+    jobTitle: "Front End Developer",
+    location: {
+        city: "",
+        state: "Hawaii",
+        country: "USA"
+    }
   }
 ];
