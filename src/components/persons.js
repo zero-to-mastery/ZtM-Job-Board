@@ -5809,7 +5809,7 @@ export const persons = [
   },
   {
     id: [353],
-    name: "[Tom Makowski]",
+    name: "Tom Makowski",
     img: "https://media.licdn.com/dms/image/C5103AQElYXGsB0zQaA/profile-displayphoto-shrink_200_200/0?e=1560384000&v=beta&t=5afHEkKMbiUOD3JfUW92FGYk9x14PtbhYAT5_3B9GYo",
     links: {
       website: "www.backtodev.com",
