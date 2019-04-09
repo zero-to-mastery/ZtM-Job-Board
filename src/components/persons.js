@@ -5806,5 +5806,21 @@ export const persons = [
         state: "Hawaii",
         country: "USA"
     }
+  },
+  {
+    id: [353],
+    name: "Tom Makowski",
+    img: "https://media.licdn.com/dms/image/C5103AQElYXGsB0zQaA/profile-displayphoto-shrink_200_200/0?e=1560384000&v=beta&t=5afHEkKMbiUOD3JfUW92FGYk9x14PtbhYAT5_3B9GYo",
+    links: {
+      website: "www.backtodev.com",
+      linkedin: "https://www.linkedin.com/in/tomasz-makowski/",
+      github: "https://github.com/t-mak/"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "",
+      state: "",
+      country: "Poland"
+    }
   }
 ];
