@@ -5822,5 +5822,21 @@ export const persons = [
       state: "",
       country: "Poland"
     }
+  },
+  {
+    id: 354,
+    name: "Michael Johnston",
+    img: "https://media.licdn.com/dms/image/C5603AQFA4TjeE9_hog/profile-displayphoto-shrink_200_200/0?e=1560384000&v=beta&t=Hr4Mh5NAaORzJ8NdxU6XH4fmND1pitP8fyJ01NCuhkE",
+    links: {
+      website: "https://michaeljamie.com/",
+      linkedin: "https://www.linkedin.com/in/michaeljamiejohnston/",
+      github: "https://github.com/michaeljamie"
+    },
+    jobTitle: "Software Engineer",
+    location: {
+      city: "Greater Salt Lake City",
+      state: "Utah",
+      country: "USA"
+    }
   }
 ];
