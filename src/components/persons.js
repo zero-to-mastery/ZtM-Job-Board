@@ -5839,4 +5839,21 @@ export const persons = [
       country: "USA"
     }
   }
+
+    {
+    id: 355,
+    name: "Jack Chen (陳紀嘉)",
+    img: "https://media.licdn.com/dms/image/C4E03AQE-Ft2dFtGI3g/profile-displayphoto-shrink_200_200/0?e=1560384000&v=beta&t=K5h7NsZlfZS6KNIs5yubO02ljf2GPcI72GQd-LgvyDs",
+    links: {
+      website: "https://jackchen1210.github.io/",
+      linkedin: "https://www.linkedin.com/in/jackchen1210/",
+      github: "https://github.com/jackchen1210"
+    },
+    jobTitle: "FullStack Developer/Unity Developer",
+    location: {
+      city: "Kaohsiung",
+      state: "Taiwan",
+      country: "Taiwan"
+    }
+  }
 ];
