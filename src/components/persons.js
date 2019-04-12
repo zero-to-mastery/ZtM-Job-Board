@@ -5838,5 +5838,21 @@ export const persons = [
       state: "Utah",
       country: "USA"
     }
+  },
+  {
+    id: 355,
+    name: "Aria Samandi",
+    img: "https://avatars2.githubusercontent.com/u/36803081?s=400&u=f557431b948c12c0ec3a5f5cb21e1a1a783b18a0&v=4",
+    links: {
+      website: "http://ariasamandi.com",
+      linkedin: "https://www.linkedin.com/in/aria-samandi-91799a159/",
+      github: "https://github.com/ariasamandi"
+    },
+    jobTitle: "Full-Stack Developer",
+    location: {
+      city: "Pacific Palisades",
+      state: "California",
+      country: "USA"
+    }
   }
 ];
