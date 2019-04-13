@@ -5872,5 +5872,21 @@ export const persons = [
 			state: "California",
 			country: "USA"
 		}
-	}
+	},
+	{
+		id: 357,
+		name: "Bryan Windsor",
+		img: "https://i.imgur.com/LEftyx4.jpg",
+		links: {
+		  website: "http://www.taidaid.com",
+		  linkedin: "https://www.linkedin.com/in/bryanwindsor/",
+		  github: "https://github.com/taidaid"
+		},
+		jobTitle: "Full-Stack Developer",
+		location: {
+		  city: "",
+		  state: "",
+		  country: "The Netherlands"
+		}
+	  },
 ];
