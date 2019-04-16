@@ -5780,7 +5780,7 @@ export const persons = [
 		links: {
 			website: "",
 			linkedin: "https://www.linkedin.com/in/tat-angel-10668b117/",
-			github: "https://github.com/angeldev92"
+			github: "https://github.com/angeltat"
 		},
 		jobTitle: "Full Stack Web Developer",
 		location: {
