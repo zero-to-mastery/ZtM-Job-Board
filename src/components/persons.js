@@ -5889,4 +5889,21 @@ export const persons = [
 		  country: "The Netherlands"
 		}
 	  },
+	  {
+		id: 358,
+		name: "Siddharth Gusain",
+		img: "https://github.com/siddharthgusain/My-Portfolio/blob/master/assets/images/sid.jpg",
+		links: {
+		  website: "https://siddharthgusain.github.io/My-Portfolio/",
+		  linkedin: "https://in.linkedin.com/in/siddharth-gusain-355b84156",
+		  github: "https://github.com/siddharthgusain"
+		},
+		jobTitle: "Full-Stack Developer",
+		location: {
+		  city: "",
+		  state: "",
+		  country: "India"
+		}
+	  },
+	  
 ];
