@@ -5905,5 +5905,21 @@ export const persons = [
 		  country: "India"
 		}
 	  },
+    {
+        id: 359,
+        name: "Prashanth Adurugatla",
+        img: "https://avatars0.githubusercontent.com/u/33069358?s=460&v=4",
+        links: {
+            website: "",
+            linkedin: "https://www.linkedin.com/in/padurugatla/",
+            github: "https://github.com/PrashanthAdurugatla"
+        },
+        jobTitle: "Software Developer",
+        location: {
+            city: "San Francisco",
+            state: "CA",
+            country: "California"
+        }
+    },
 	  
 ];
