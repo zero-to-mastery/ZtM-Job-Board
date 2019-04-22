@@ -5905,5 +5905,21 @@ export const persons = [
 		  country: "India"
 		}
 	  },
+	  {
+		id: 359,
+		name: "Nahuel Alberti",
+		img: "https://avatars3.githubusercontent.com/u/40583848?s=400&u=0b353b719e77f4f18a0c75f164c8cfc81030ceca&v=4",
+		links: {
+		  website: "",
+		  linkedin: "https://www.linkedin.com/in/nahuel-alberti/",
+		  github: "https://github.com/NAlberti7"
+		},
+		jobTitle: "Front End Developer",
+		location: {
+		  city: "Ramos Mejia",
+		  state: "Buenos Aires",
+		  country: "Argentina"
+		}
+	  },
 	  
 ];
