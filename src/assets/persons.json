@@ -5744,48 +5744,63 @@
 		"name": "Nahuel Alberti",
 		"img": "https://avatars3.githubusercontent.com/u/40583848?s=400&u=0b353b719e77f4f18a0c75f164c8cfc81030ceca&v=4",
 		"links": {
-		  "website": "",
-		  "linkedin": "https://www.linkedin.com/in/nahuel-alberti/",
-		  "github": "https://github.com/NAlberti7"
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/nahuel-alberti/",
+			"github": "https://github.com/NAlberti7"
 		},
 		"jobTitle": "Front End Developer",
 		"location": {
-		  "city": "Ramos Mejia",
-		  "state": "Buenos Aires",
-		  "country": "Argentina"
+			"city": "Ramos Mejia",
+			"state": "Buenos Aires",
+			"country": "Argentina"
 		}
-	  },
-	  {
-        "id": 360,
-        "name": "Prashanth Adurugatla",
-        "img": "https://avatars0.githubusercontent.com/u/33069358?s=460&v=4",
-        "links": {
-            "website": "",
-            "linkedin": "https://www.linkedin.com/in/padurugatla/",
-            "github": "https://github.com/PrashanthAdurugatla"
-        },
-        "jobTitle": "Software Developer",
-        "location": {
-            "city": "San Francisco",
-            "state": "CA",
-            "country": "California"
-        }
-    },
-    {
-        "id": 361,
-        "name": "Saif Sadi",
-        "img": "https://avatars1.githubusercontent.com/u/26534702?s=460&v=4",
-        "links": {
-            "website": "http://xammin.com/",
-            "linkedin": "https://www.linkedin.com/in/saif-ur-rehman-5311a6b7/",
-            "github": "https://github.com/saifsadi"
-        },
-        "jobTitle": "Full Stack Developer ",
-        "location": {
-            "city": "Rawalpindi",
-            "state": "",
-            "country": "Pakistan"
-        }
-    }
-
+	},
+	{
+		"id": 360,
+		"name": "Prashanth Adurugatla",
+		"img": "https://avatars0.githubusercontent.com/u/33069358?s=460&v=4",
+		"links": {
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/padurugatla/",
+			"github": "https://github.com/PrashanthAdurugatla"
+		},
+		"jobTitle": "Software Developer",
+		"location": {
+			"city": "San Francisco",
+			"state": "CA",
+			"country": "California"
+		}
+	},
+	{
+		"id": 361,
+		"name": "Saif Sadi",
+		"img": "https://avatars1.githubusercontent.com/u/26534702?s=460&v=4",
+		"links": {
+			"website": "http://xammin.com/",
+			"linkedin": "https://www.linkedin.com/in/saif-ur-rehman-5311a6b7/",
+			"github": "https://github.com/saifsadi"
+		},
+		"jobTitle": "Full Stack Developer ",
+		"location": {
+			"city": "Rawalpindi",
+			"state": "",
+			"country": "Pakistan"
+		}
+	},
+	{
+		"id": 362,
+		"name": "Swarnendu Rohan Gupta",
+		"img": "https://photos.app.goo.gl/h3yvhZte479o8jKA8",
+		"links": {
+			"website": "https://swarnendurohanguptawebsite.firebaseapp.com/",
+			"linkedin": "https://www.linkedin.com/in/swarnendurohan-gupta/",
+			"github": "https://github.com/srgupta5328"
+		},
+		"jobTitle": "Software Developer",
+		"location": {
+			"city": "Oakland",
+			"state": "CA",
+			"country": "California"
+		}
+	}
 ]
