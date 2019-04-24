@@ -5770,5 +5770,21 @@
             "state": "CA",
             "country": "California"
         }
-    }
+		},
+		{
+			"id": 361,
+			"name": "Swarnendu Rohan Gupta",
+			"img": "https://photos.app.goo.gl/h3yvhZte479o8jKA8",
+			"links": {
+					"website": "https://swarnendurohanguptawebsite.firebaseapp.com/",
+					"linkedin": "https://www.linkedin.com/in/swarnendurohan-gupta/",
+					"github": "https://github.com/srgupta5328"
+			},
+			"jobTitle": "Software Developer",
+			"location": {
+					"city": "Oakland",
+					"state": "CA",
+					"country": "California"
+			}
+	}
 ]
