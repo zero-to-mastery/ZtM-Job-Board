@@ -5849,5 +5849,21 @@
 			"state": "Pennsylvania",
 			"country": "United States"
 		}
-	}
+	},
+	{
+		"id": 366,
+		"name": "Anna Popowicz",
+		"img": "https://avatars1.githubusercontent.com/u/32011952?s=400&u=8042b97dd097bdab86e2ea95a875131fa02bbfbb&v=4",
+		"links": {
+		  "website": "https://github.com/annpop",
+		  "linkedin": "ttps://www.linkedin.com/in/anna-popowicz-01bb8456/",
+		  "github": "https://github.com/annpop"
+		},
+		"jobTitle": "Junior Front-end Developer",
+		"location": {
+		  "city": "Wrocław",
+		  "state": "",
+		  "country": "Poland"
+		}
+	  }
 ]
