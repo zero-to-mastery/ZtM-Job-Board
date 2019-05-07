@@ -5865,5 +5865,21 @@
 		  "state": "",
 		  "country": "Poland"
 		}
-	  }
+	  },
+	  {
+		"id": 367,
+		"name": "Ezenwanne Kenneth",
+		"img": "https://avatars2.githubusercontent.com/u/46355242?s=400&u=bc992566f4da86f5a81a8e2dcc380ffd36427bc4&v=4",
+		"links": {
+			"website": "https://github.com/surelinks",
+			"linkedin": "ttps://www.linkedin.com/in/Ezenwanne Kenneth/",
+			"github": "https://github.com/surelinks"
+		},
+		"jobTitle": "Full Stack Web Developer",
+		"location": {
+			"city": "Abuja",
+			"state": "FCT",
+			"country": "Nigeria"
+		}
+	}
 ]
