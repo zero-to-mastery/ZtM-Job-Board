@@ -5881,5 +5881,21 @@
 			"state": "FCT",
 			"country": "Nigeria"
 		}
-	}
+	},
+	{
+		"id": 368,
+		"name": "Arigbede Abiodun",
+		"img": "https://res.cloudinary.com/deksm5bm1/image/upload/v1557241675/DSC_8633.jpg",
+		"links": {
+		  "website": "https://abbyjoe.github.io/portfolio",
+		  "linkedin": "",
+		  "github": "https://github.com/abbyjoe"
+		},
+		"jobTitle": "Front-end Developer",
+		"location": {
+		  "city": "Abeokuta",
+		  "state": "Ogun",
+		  "country": "Nigeria"
+		}
+	  }
 ]
