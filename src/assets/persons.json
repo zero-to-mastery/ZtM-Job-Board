@@ -5913,5 +5913,21 @@
 			  "state": "MI",
 			  "country": "USA"
 		  }
-	  }
+	  },
+	  {
+		  "id": 370,
+		  "name": "Rahil Hasnani",
+		  "img": "",
+		  "links": {
+			  "website": "",
+			  "linkedin": "https://www.linkedin.com/in/rahil-hasnani",
+			  "github": "https://github.com/rahilhasnani95"
+		  },
+		  "jobTitle": "Front End Developer",
+		  "location": {
+			  "city": "Houston",
+			  "state": "TX",
+			  "country": "USA"
+		  }
+
 ]
