@@ -5913,5 +5913,22 @@
 			  "state": "MI",
 			  "country": "USA"
 		  }
+	  },
+	  {
+		  "id": 370,
+		  "name": "Marina Pestriacheva",
+		  "img": "http://i68.tinypic.com/8g0j.jpg",
+		  "links": {
+			  "website": "http://www.rushingmarina.com/rm-demo/",
+			  "linkedin": "https://www.linkedin.com/in/marina-pestriacheva-107b27143/",
+			  "github": "https://github.com/rushingMarina"
+		  },
+		  "jobTitle": "Full Stack Web Developer",
+		  "location": {
+			  "city": "San Diego",
+			  "state": "CA",
+			  "country": "USA"
+		  }
 	  }
+
 ]
