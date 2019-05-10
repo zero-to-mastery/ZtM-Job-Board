@@ -5856,18 +5856,18 @@
 		"name": "Anna Popowicz",
 		"img": "https://avatars1.githubusercontent.com/u/32011952?s=400&u=8042b97dd097bdab86e2ea95a875131fa02bbfbb&v=4",
 		"links": {
-		  "website": "https://github.com/annpop",
-		  "linkedin": "ttps://www.linkedin.com/in/anna-popowicz-01bb8456/",
-		  "github": "https://github.com/annpop"
+			"website": "https://github.com/annpop",
+			"linkedin": "ttps://www.linkedin.com/in/anna-popowicz-01bb8456/",
+			"github": "https://github.com/annpop"
 		},
 		"jobTitle": "Junior Front-end Developer",
 		"location": {
-		  "city": "Wrocław",
-		  "state": "",
-		  "country": "Poland"
+			"city": "Wrocław",
+			"state": "",
+			"country": "Poland"
 		}
-	  },
-	  {
+	},
+	{
 		"id": 367,
 		"name": "Ezenwanne Kenneth",
 		"img": "https://avatars2.githubusercontent.com/u/46355242?s=400&u=bc992566f4da86f5a81a8e2dcc380ffd36427bc4&v=4",
@@ -5888,47 +5888,63 @@
 		"name": "Arigbede Abiodun",
 		"img": "https://res.cloudinary.com/deksm5bm1/image/upload/v1557241675/DSC_8633.jpg",
 		"links": {
-		  "website": "https://abbyjoe.github.io/portfolio",
-		  "linkedin": "",
-		  "github": "https://github.com/abbyjoe"
+			"website": "https://abbyjoe.github.io/portfolio",
+			"linkedin": "",
+			"github": "https://github.com/abbyjoe"
 		},
 		"jobTitle": "Front-end Developer",
 		"location": {
-		  "city": "Abeokuta",
-		  "state": "Ogun",
-		  "country": "Nigeria"
+			"city": "Abeokuta",
+			"state": "Ogun",
+			"country": "Nigeria"
 		}
-	  },
-	  {
-		  "id": 369,
-		  "name": "Steve Gojkov",
-		  "img": "http://i65.tinypic.com/2agwbd3.png",
-		  "links": {
-			  "website": "http://www.stevegojkov.com",
-			  "linkedin": "https://www.linkedin.com/in/stevegojkov",
-			  "github": "https://github.com/gojkov/my-site"
-		  },
-		  "jobTitle": "Front End Developer",
-		  "location": {
-			  "city": "Detroit",
-			  "state": "MI",
-			  "country": "USA"
-		  }
-	  },
-	  {
-		  "id": 370,
-		  "name": "Rahil Hasnani",
-		  "img": "",
-		  "links": {
-			  "website": "",
-			  "linkedin": "https://www.linkedin.com/in/rahil-hasnani",
-			  "github": "https://github.com/rahilhasnani95"
-		  },
-		  "jobTitle": "Front End Developer",
-		  "location": {
-			  "city": "Houston",
-			  "state": "TX",
-			  "country": "USA"
-		  }
-	}		  
+	},
+	{
+		"id": 369,
+		"name": "Steve Gojkov",
+		"img": "http://i65.tinypic.com/2agwbd3.png",
+		"links": {
+			"website": "http://www.stevegojkov.com",
+			"linkedin": "https://www.linkedin.com/in/stevegojkov",
+			"github": "https://github.com/gojkov/my-site"
+		},
+		"jobTitle": "Front End Developer",
+		"location": {
+			"city": "Detroit",
+			"state": "MI",
+			"country": "USA"
+		}
+	},
+	{
+		"id": 370,
+		"name": "Rahil Hasnani",
+		"img": "",
+		"links": {
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/rahil-hasnani",
+			"github": "https://github.com/rahilhasnani95"
+		},
+		"jobTitle": "Front End Developer",
+		"location": {
+			"city": "Houston",
+			"state": "TX",
+			"country": "USA"
+		}
+	},
+	{
+		"id": 371,
+		"name": "Marina Pestriacheva",
+		"img": "http://i68.tinypic.com/8g0j.jpg",
+		"links": {
+			"website": "http://www.rushingmarina.com/rm-demo/",
+			"linkedin": "https://www.linkedin.com/in/marina-pestriacheva-107b27143/",
+			"github": "https://github.com/rushingMarina"
+		},
+		"jobTitle": "Full Stack Web Developer",
+		"location": {
+			"city": "San Diego",
+			"state": "CA",
+			"country": "USA"
+		}
+	}
 ]
