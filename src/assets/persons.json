@@ -5946,5 +5946,21 @@
 			"state": "CA",
 			"country": "USA"
 		}
+	},
+	{
+		"id": 372,
+		"name": "Bill Shannon",
+		"img": "http://i67.tinypic.com/6huw5d.jpg",
+		"links": {
+			"website": "http://www.billshamnon.com",
+			"linkedin": "https://www.linkedin.com/in/bill-shannon-734a118b/",
+			"github": "https://github.com/billshannon"
+		},
+		"jobTitle": "Full Stack Web Developer",
+		"location": {
+			"city": "Boulder",
+			"state": "CO",
+			"country": "USA"
+		}
 	}
 ]
