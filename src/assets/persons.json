@@ -5962,5 +5962,21 @@
 			"state": "CO",
 			"country": "USA"
 		}
+	},
+	{
+		"id": 373,
+		"name": "Jason D'souza",
+		"img": "https://media.licdn.com/dms/image/C4D03AQHIjo9Nwl45XA/profile-displayphoto-shrink_200_200/0?e=1562803200&v=beta&t=W-NCStiVinGB2rQHmVarXu8KYuX2Jj-g-S7ML3rf-Q8",
+		"links": {
+			"website": "https://jasondsouza.dev/",
+			"linkedin": "https://www.linkedin.com/in/jason-d-souza-861762100/",
+			"github": "https://github.com/jvdsouza"
+		},
+		"jobTitle": "Full Stack Web Developer",
+		"location": {
+			"city": "Melbourne",
+			"state": "VIC",
+			"country": "Australia"
+		}
 	}
 ]
