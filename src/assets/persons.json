@@ -5978,5 +5978,21 @@
 			"state": "VIC",
 			"country": "Australia"
 		}
+	},
+	{
+			"id": 374,
+			"name": "Brandon Castillo",
+			"img": "",
+			"links": {
+				"website": "https://brandonmcastillo.com/",
+				"linkedin": "https://www.linkedin.com/in/brandonmcastillo/",
+				"github": "https://github.com/brandonmcastillo"
+			},
+			"jobTitle": "Full Stack Web Developer",
+			"location": {
+				"city": "San Francisco",
+				"state": "California",
+				"country": "USA"
+			}
 	}
 ]
