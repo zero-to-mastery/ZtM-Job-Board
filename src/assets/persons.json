@@ -6012,19 +6012,19 @@
 			}
 	},
 	  {
-    id: 376,
-    name: "Juarez Pistore",
-    img: "",
-    links: {
-      website: "www.juarezpistore.com",
-      linkedin: "https://www.linkedin.com/in/juarez-pistore/",
-      github: "https://github.com/juarezpistore"
-    },
-    jobTitle: "Backend Software Developer",
-    location: {
-      city: "Vancouver",
-      state: "British Columbia",
-      country: "Canada"
+    	"id": 376,
+	    "name": "Juarez Pistore",
+	    "img": "",
+	    "links": {
+		      "website":"www.juarezpistore.com",
+		     "linkedin": "https://www.linkedin.com/in/juarez-pistore/",
+		      "github": "https://github.com/juarezpistore"
+    	},
+	    "jobTitle": "Backend Software Developer",
+	    "location": {
+		      "city": "Vancouver",
+		      "state": "British Columbia",
+		      "country": "Canada"
     }
-  },
+  }
 ]
