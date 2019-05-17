@@ -6026,5 +6026,22 @@
 		      "state": "British Columbia",
 		      "country": "Canada"
     }
+  },
+	{
+		"id": 377,
+		"name": "Ronak Khimani",
+		"img": "",
+		"links": {
+			"website":"",
+			"linkedin": "https://www.linkedin.com/in/ronak-khimani",
+			"github": "https://github.com/Ron1722"
+		},
+		"jobTitle": "Front end developer",
+		"location": {
+			"city": "Toronto",
+			"state": "Ontario",
+			"country": "Canada"
+	}
   }
+  
 ]
