@@ -6042,6 +6042,23 @@
 			"state": "Ontario",
 			"country": "Canada"
 	}
+  },
+	{
+		"id": 378,
+		"name": "Daniel Hardiman",
+		"img": "https://avatars1.githubusercontent.com/u/38153501?s=460&v=4",
+		"links": {
+			"website":"https://muaykhao86.github.io/Portfolio/",
+			"linkedin": "",
+			"github": "https://github.com/Muaykhao86"
+		},
+		"jobTitle": "Full Stack Developer",
+		"location": {
+			"city": "London",
+			"state": "",
+			"country": "UK"
+	}
   }
+  
   
 ]
