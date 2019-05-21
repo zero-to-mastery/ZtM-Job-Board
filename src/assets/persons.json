@@ -6058,7 +6058,23 @@
 			"state": "",
 			"country": "UK"
 	}
+  },
+    {
+	  "id": 379,
+	  "name": "Alexander Tryastsyn",
+	  "img": "https://goodhousekeeper.ru/style/images/photo.jpg",
+	  "links": {
+		  "website":"https://goodhousekeeper.ru",
+		  "linkedin": "",
+		  "github": "https://github.com/goodhousekeeper"
+	  },
+	  "jobTitle": "Team leader, full-stack web develope",
+	  "location": {
+		  "city": "Saint-Petersburg",
+		  "state": "",
+		  "country": "RU"
   }
-  
-  
+}
+
+    
 ]
