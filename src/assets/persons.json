@@ -6076,19 +6076,19 @@
   }
 },
   {
-    id: 380,
-    name: "Lucas Sallada",
-    img: "https://avatars3.githubusercontent.com/u/18669601?s=460&v=4",
-    links: {
-      website: "http://sallada.org/",
-      linkedin: "https://www.linkedin.com/in/lucas-sallada-6242a4106/",
-      github: "https://github.com/yonlu"
+    "id": 380,
+    "name": "Lucas Sallada",
+    "img": "https://avatars3.githubusercontent.com/u/18669601?s=460&v=4",
+    "links": {
+      "website": "http://sallada.org/",
+      "linkedin": "https://www.linkedin.com/in/lucas-sallada-6242a4106/",
+      "github": "https://github.com/yonlu"
     },
-    jobTitle: "Web Developer",
-    location: {
-      city: "Beaver Falls",
-      state: "PA",
-      country: "USA"
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Beaver Falls",
+      "state": "PA",
+      "country": "USA"
     }
   },
     
