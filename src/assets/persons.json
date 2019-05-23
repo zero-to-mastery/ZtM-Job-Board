@@ -5980,59 +5980,59 @@
 		}
 	},
 	{
-			"id": 374,
-			"name": "Brandon Castillo",
-			"img": "",
-			"links": {
-				"website": "https://brandonmcastillo.com/",
-				"linkedin": "https://www.linkedin.com/in/brandonmcastillo/",
-				"github": "https://github.com/brandonmcastillo"
-			},
-			"jobTitle": "Full Stack Web Developer",
-			"location": {
-				"city": "San Francisco",
-				"state": "California",
-				"country": "USA"
-			}
+		"id": 374,
+		"name": "Brandon Castillo",
+		"img": "",
+		"links": {
+			"website": "https://brandonmcastillo.com/",
+			"linkedin": "https://www.linkedin.com/in/brandonmcastillo/",
+			"github": "https://github.com/brandonmcastillo"
+		},
+		"jobTitle": "Full Stack Web Developer",
+		"location": {
+			"city": "San Francisco",
+			"state": "California",
+			"country": "USA"
+		}
 	},
 	{
-			"id": 375,
-			"name": "Yasen Peev",
-			"img": "https://media.licdn.com/dms/image/C5603AQFy32Y80JCOcg/profile-displayphoto-shrink_200_200/0?e=1563408000&v=beta&t=0FSUqUyOyNLsh0-vrpgE80qcM_uz-3A8g8nnaxTSpDQ",
-			"links": {
-				"website": "",
-				"linkedin": "https://www.linkedin.com/in/yasen-peev-591318184/",
-				"github": "https://github.com/YasenPeev"
-			},
-			"jobTitle": "Full Stack Web Developer",
-			"location": {
-				"city": "Bracknell",
-				"state": "",
-				"country": "UK"
-			}
+		"id": 375,
+		"name": "Yasen Peev",
+		"img": "https://media.licdn.com/dms/image/C5603AQFy32Y80JCOcg/profile-displayphoto-shrink_200_200/0?e=1563408000&v=beta&t=0FSUqUyOyNLsh0-vrpgE80qcM_uz-3A8g8nnaxTSpDQ",
+		"links": {
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/yasen-peev-591318184/",
+			"github": "https://github.com/YasenPeev"
+		},
+		"jobTitle": "Full Stack Web Developer",
+		"location": {
+			"city": "Bracknell",
+			"state": "",
+			"country": "UK"
+		}
 	},
-	  {
-    	"id": 376,
-	    "name": "Juarez Pistore",
-	    "img": "",
-	    "links": {
-		      "website":"www.juarezpistore.com",
-		     "linkedin": "https://www.linkedin.com/in/juarez-pistore/",
-		      "github": "https://github.com/juarezpistore"
-    	},
-	    "jobTitle": "Backend Software Developer",
-	    "location": {
-		      "city": "Vancouver",
-		      "state": "British Columbia",
-		      "country": "Canada"
-    }
-  },
+	{
+		"id": 376,
+		"name": "Juarez Pistore",
+		"img": "",
+		"links": {
+			"website": "www.juarezpistore.com",
+			"linkedin": "https://www.linkedin.com/in/juarez-pistore/",
+			"github": "https://github.com/juarezpistore"
+		},
+		"jobTitle": "Backend Software Developer",
+		"location": {
+			"city": "Vancouver",
+			"state": "British Columbia",
+			"country": "Canada"
+		}
+	},
 	{
 		"id": 377,
 		"name": "Ronak Khimani",
 		"img": "",
 		"links": {
-			"website":"",
+			"website": "",
 			"linkedin": "https://www.linkedin.com/in/ronak-khimani",
 			"github": "https://github.com/Ron1722"
 		},
@@ -6041,14 +6041,14 @@
 			"city": "Toronto",
 			"state": "Ontario",
 			"country": "Canada"
-	}
-  },
+		}
+	},
 	{
 		"id": 378,
 		"name": "Daniel Hardiman",
 		"img": "https://avatars1.githubusercontent.com/u/38153501?s=460&v=4",
 		"links": {
-			"website":"https://muaykhao86.github.io/Portfolio/",
+			"website": "https://muaykhao86.github.io/Portfolio/",
 			"linkedin": "",
 			"github": "https://github.com/Muaykhao86"
 		},
@@ -6057,39 +6057,38 @@
 			"city": "London",
 			"state": "",
 			"country": "UK"
+		}
+	},
+	{
+		"id": 379,
+		"name": "Alexander Tryastsyn",
+		"img": "https://goodhousekeeper.ru/style/images/photo.jpg",
+		"links": {
+			"website": "https://goodhousekeeper.ru",
+			"linkedin": "",
+			"github": "https://github.com/goodhousekeeper"
+		},
+		"jobTitle": "Team leader, full stack web developer",
+		"location": {
+			"city": "Saint-Petersburg",
+			"state": "",
+			"country": "RU"
+		}
+	},
+	{
+		"id": 380,
+		"name": "Lucas Sallada",
+		"img": "https://avatars3.githubusercontent.com/u/18669601?s=460&v=4",
+		"links": {
+			"website": "http://sallada.org/",
+			"linkedin": "https://www.linkedin.com/in/lucas-sallada-6242a4106/",
+			"github": "https://github.com/yonlu"
+		},
+		"jobTitle": "Web Developer",
+		"location": {
+			"city": "Beaver Falls",
+			"state": "PA",
+			"country": "USA"
+		}
 	}
-  },
-    {
-	  "id": 379,
-	  "name": "Alexander Tryastsyn",
-	  "img": "https://goodhousekeeper.ru/style/images/photo.jpg",
-	  "links": {
-		  "website":"https://goodhousekeeper.ru",
-		  "linkedin": "",
-		  "github": "https://github.com/goodhousekeeper"
-	  },
-	  "jobTitle": "Team leader, full stack web developer",
-	  "location": {
-		  "city": "Saint-Petersburg",
-		  "state": "",
-		  "country": "RU"
-  }
-},
-  {
-    "id": 380,
-    "name": "Lucas Sallada",
-    "img": "https://avatars3.githubusercontent.com/u/18669601?s=460&v=4",
-    "links": {
-      "website": "http://sallada.org/",
-      "linkedin": "https://www.linkedin.com/in/lucas-sallada-6242a4106/",
-      "github": "https://github.com/yonlu"
-    },
-    "jobTitle": "Web Developer",
-    "location": {
-      "city": "Beaver Falls",
-      "state": "PA",
-      "country": "USA"
-    }
-  },
-    
 ]
