@@ -6139,84 +6139,100 @@
 			"country": "USA"
 		}
 	},
-  {
-    "id": 383,
-    "name": "Jonathan Helvey",
-    "img": "https://avatars3.githubusercontent.com/u/33816020?s=460&v=4",
-    "links": {
-      "website": "www.jonathanhelvey.com",
-      "linkedin": "https://www.linkedin.com/in/jonathanhelvey/",
-      "github": "https://github.com/JonathanHelvey"
-    },
-    "jobTitle": "Full Stack Developer",
-    "location": {
-      "city": "Chicago",
-      "state": "IL",
-      "country": "USA"
-    }
-  },
-  {
-    "id": 384,
-    "name": "Jonathan Helvey",
-    "img": "https://avatars3.githubusercontent.com/u/33816020?s=460&v=4",
-    "links": {
-      "website": "www.jonathanhelvey.com",
-      "linkedin": "https://www.linkedin.com/in/jonathanhelvey/",
-      "github": "https://github.com/JonathanHelvey"
-    },
-    "jobTitle": "Full Stack Developer",
-    "location": {
-      "city": "Chicago",
-      "state": "IL",
-      "country": "USA"
-    }
-  },
-  {
-    "id": 385,
-    "name": "Waleed Mastour",
-    "img": "http://i63.tinypic.com/311qkoi.jpg",
-    "links": {
-      "website": "https://wmm3636.github.io/",
-      "linkedin": "https://www.linkedin.com/in/waleed-mastour-059b7a89/",
-      "github": "https://github.com/wmm3636"
-    },
-    "jobTitle": "Full Stack Developer",
-    "location": {
-      "city": "Riyadh",
-      "state": "Ar Riyadh",
-      "country": "KSA"
-    }
-  },
-  {
-    "id": 386,
-    "name": "Gabriel Cadiz",
-    "img": "https://avatars0.githubusercontent.com/u/42247905?s=460&v=4",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/gabriel-cadiz/",
-      "github": "https://github.com/gabecadiz"
-    },
-    "jobTitle": "Full-Stack Javascript Developer",
-    "location": {
-      "city": "Toronto",
-      "state": "ON",
-      "country": "Canada"
-    }
-  },
 	{
-    "id": 387,
-    "name": "Cliff Mirschel",
-    "img": "https://logodix.com/logo/557730.jpg",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/clifford-benjamin-mirschel/",
-      "github": "https://github.com/BlueBoi904"
-    },
-    "jobTitle": "Full-Stack Developer",
-    "location": {
-      "city": "Jacksonville",
-      "state": "FL",
-      "country": "USA"
-    }
-  }
+		"id": 383,
+		"name": "Jonathan Helvey",
+		"img": "https://avatars3.githubusercontent.com/u/33816020?s=460&v=4",
+		"links": {
+			"website": "www.jonathanhelvey.com",
+			"linkedin": "https://www.linkedin.com/in/jonathanhelvey/",
+			"github": "https://github.com/JonathanHelvey"
+		},
+		"jobTitle": "Full Stack Developer",
+		"location": {
+			"city": "Chicago",
+			"state": "IL",
+			"country": "USA"
+		}
+	},
+	{
+		"id": 384,
+		"name": "Jonathan Helvey",
+		"img": "https://avatars3.githubusercontent.com/u/33816020?s=460&v=4",
+		"links": {
+			"website": "www.jonathanhelvey.com",
+			"linkedin": "https://www.linkedin.com/in/jonathanhelvey/",
+			"github": "https://github.com/JonathanHelvey"
+		},
+		"jobTitle": "Full Stack Developer",
+		"location": {
+			"city": "Chicago",
+			"state": "IL",
+			"country": "USA"
+		}
+	},
+	{
+		"id": 385,
+		"name": "Waleed Mastour",
+		"img": "http://i63.tinypic.com/311qkoi.jpg",
+		"links": {
+			"website": "https://wmm3636.github.io/",
+			"linkedin": "https://www.linkedin.com/in/waleed-mastour-059b7a89/",
+			"github": "https://github.com/wmm3636"
+		},
+		"jobTitle": "Full Stack Developer",
+		"location": {
+			"city": "Riyadh",
+			"state": "Ar Riyadh",
+			"country": "KSA"
+		}
+	},
+	{
+		"id": 386,
+		"name": "Gabriel Cadiz",
+		"img": "https://avatars0.githubusercontent.com/u/42247905?s=460&v=4",
+		"links": {
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/gabriel-cadiz/",
+			"github": "https://github.com/gabecadiz"
+		},
+		"jobTitle": "Full-Stack Javascript Developer",
+		"location": {
+			"city": "Toronto",
+			"state": "ON",
+			"country": "Canada"
+		}
+	},
+	{
+		"id": 387,
+		"name": "Cliff Mirschel",
+		"img": "https://logodix.com/logo/557730.jpg",
+		"links": {
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/clifford-benjamin-mirschel/",
+			"github": "https://github.com/BlueBoi904"
+		},
+		"jobTitle": "Full-Stack Developer",
+		"location": {
+			"city": "Jacksonville",
+			"state": "FL",
+			"country": "USA"
+		}
+	},
+	{
+		"id": 387,
+		"name": "Sikiru Shittu",
+		"img": "https://media.licdn.com/dms/image/C5603AQFEXZQ1oItw3g/profile-displayphoto-shrink_200_200/0?e=1564617600&v=beta&t=fJXQ2l43kk7nXlmYPbYJoBI-KTfEwMwGjnaOPqDULiY",
+		"links": {
+			"website": "https://afreekamode.wordpress.com",
+			"linkedin": "https://www.linkedin.com/in/sikirushittu/",
+			"github": "https://github.com/afreekamode"
+		},
+		"jobTitle": "Software Developer",
+		"location": {
+			"city": "Lagos",
+			"state": "Lagos",
+			"country": "Nigeria"
+		}
+	}
 ]
