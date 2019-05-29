@@ -6138,5 +6138,37 @@
 			"state": "New York",
 			"country": "USA"
 		}
-	}
+	},
+  {
+    "id": 383,
+    "name": "Jonathan Helvey",
+    "img": "https://avatars3.githubusercontent.com/u/33816020?s=460&v=4",
+    "links": {
+      "website": "www.jonathanhelvey.com",
+      "linkedin": "https://www.linkedin.com/in/jonathanhelvey/",
+      "github": "https://github.com/JonathanHelvey"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Chicago",
+      "state": "IL",
+      "country": "USA"
+    }
+  },
+  {
+    "id": 384,
+    "name": "Jonathan Helvey",
+    "img": "https://avatars3.githubusercontent.com/u/33816020?s=460&v=4",
+    "links": {
+      "website": "www.jonathanhelvey.com",
+      "linkedin": "https://www.linkedin.com/in/jonathanhelvey/",
+      "github": "https://github.com/JonathanHelvey"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Chicago",
+      "state": "IL",
+      "country": "USA"
+    }
+  }
 ]
