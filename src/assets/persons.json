@@ -6123,4 +6123,20 @@
       "country": "Canada"
     }
   }
+  {
+    "id": 383,
+    "name": "Yang Zhao",
+    "img": "http://i65.tinypic.com/29wwepg.jpg",
+    "links": {
+      "website": "https://yangzhao71.github.io",
+      "linkedin": "https://www.linkedin.com/in/yangmengyuan-zhao-b97b13173/",
+      "github": "https://github.com/YangZhao71"
+    },
+    "jobTitle": "Full-Stack Developer",
+    "location": {
+      "city": "Ithaca",
+      "state": "New York",
+      "country": "USA"
+    }
+  }
 ]
