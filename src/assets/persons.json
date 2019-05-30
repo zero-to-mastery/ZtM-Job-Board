@@ -6090,37 +6090,53 @@
 			"state": "PA",
 			"country": "USA"
 		}
-  },
-  {
-    "id": 381,
-    "name": "Makoto Dejima",
-    "img": "https://media.licdn.com/dms/image/C5603AQHO3f3ipaGjQQ/profile-displayphoto-shrink_200_200/0?e=1564012800&v=beta&t=SIQ27nhuP19KwYu0w_0w4h-ZuSq4BBHQ__izKoNKltI",
-    "links": {
-      "website": "https://madmak.me",
-      "linkedin": "https://www.linkedin.com/in/makotodejima/",
-      "github": "https://github.com/makotodejima"
-    },
-    "jobTitle": "Front-End Developer / Designer",
-    "location": {
-      "city": "Berlin",
-      "state": "",
-      "country": "Germany"
-    }
-  },
-  {
-    "id": 382,
-    "name": "Abdulganiyu Yusufu",
-    "img": "https://doc-04-8c-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/3julgj05k7ps7rni7dpgh3jkub77heeg/1558656000000/18093204587770278309/*/1muqi9lO3lhoyXzRBRHUFhcXwIMNEHZlG",
-    "links": {
-      "website": "abdulganiyuyusufu.com",
-      "linkedin": "https://www.linkedin.com/in/abdulyusufu/",
-      "github": "https://github.com/abdulg95"
-    },
-    "jobTitle": "Full-Stack Developer",
-    "location": {
-      "city": "Ottawa",
-      "state": "Ontario",
-      "country": "Canada"
-    }
-  }
+	},
+	{
+		"id": 381,
+		"name": "Makoto Dejima",
+		"img": "https://media.licdn.com/dms/image/C5603AQHO3f3ipaGjQQ/profile-displayphoto-shrink_200_200/0?e=1564012800&v=beta&t=SIQ27nhuP19KwYu0w_0w4h-ZuSq4BBHQ__izKoNKltI",
+		"links": {
+			"website": "https://madmak.me",
+			"linkedin": "https://www.linkedin.com/in/makotodejima/",
+			"github": "https://github.com/makotodejima"
+		},
+		"jobTitle": "Front-End Developer / Designer",
+		"location": {
+			"city": "Berlin",
+			"state": "",
+			"country": "Germany"
+		}
+	},
+	{
+		"id": 382,
+		"name": "Abdulganiyu Yusufu",
+		"img": "https://doc-04-8c-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/3julgj05k7ps7rni7dpgh3jkub77heeg/1558656000000/18093204587770278309/*/1muqi9lO3lhoyXzRBRHUFhcXwIMNEHZlG",
+		"links": {
+			"website": "abdulganiyuyusufu.com",
+			"linkedin": "https://www.linkedin.com/in/abdulyusufu/",
+			"github": "https://github.com/abdulg95"
+		},
+		"jobTitle": "Full-Stack Developer",
+		"location": {
+			"city": "Ottawa",
+			"state": "Ontario",
+			"country": "Canada"
+		}
+	},
+	{
+		"id": 383,
+		"name": "Yang Zhao",
+		"img": "http://i65.tinypic.com/29wwepg.jpg",
+		"links": {
+			"website": "https://yangzhao71.github.io",
+			"linkedin": "https://www.linkedin.com/in/yangmengyuan-zhao-b97b13173/",
+			"github": "https://github.com/YangZhao71"
+		},
+		"jobTitle": "Full-Stack Developer",
+		"location": {
+			"city": "Ithaca",
+			"state": "New York",
+			"country": "USA"
+		}
+	}
 ]
