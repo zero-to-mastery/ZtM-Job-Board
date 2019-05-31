@@ -3992,9 +3992,7 @@
 		}
 	},
 	{
-		"id": [
-			250
-		],
+		"id": [250],
 		"name": "Darnell Hedrick",
 		"img": "https://pbs.twimg.com/profile_images/990422694717001728/3xT7u7rD_400x400.jpg",
 		"links": {
@@ -6287,19 +6285,19 @@
 	},
 
 	{
-		"id": [402],
+		"id": 402,
 		"name": "Diyar Faraj",
 		"img": "https://diyarfaraj.com/img/portrait.jpg",
 		"links": {
-		  "website": "diyarfaraj.com",
-		  "linkedin": "https://www.linkedin.com/in/diyar-faraj/",
-		  "github": "https://github.com/diyarfaraj"
+			"website": "diyarfaraj.com",
+			"linkedin": "https://www.linkedin.com/in/diyar-faraj/",
+			"github": "https://github.com/diyarfaraj"
 		},
 		"jobTitle": "Developer",
 		"location": {
-		"city": "",
-		"state": "",
-		"country": "Sweden"
+			"city": "",
+			"state": "",
+			"country": "Sweden"
 		}
 	},
 	{
@@ -6316,6 +6314,22 @@
 			"city": "Miaoli",
 			"state": "",
 			"country": "Taiwan"
+		}
+	},
+	{
+		"id": 404,
+		"name": "Idris Lawal",
+		"img": "https://res.cloudinary.com/idtitanium/image/upload/v1559991948/WhatsApp_Image_2019-01-29_at_14.27.50.jpg",
+		"links": {
+			"website": "https://idrislawal.herokuapp.com",
+			"linkedin": "https://linkedin.com/lawal-idris-oluwaseun",
+			"github": "https://github.com/IDTitanium"
+		},
+		"jobTitle": "Full Stack Developer",
+		"location": {
+			"city": "Lagos Mainland",
+			"state": "Lagos",
+			"country": "Nigeria"
 		}
 	}
 ]
