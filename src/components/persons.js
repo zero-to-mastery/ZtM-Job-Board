@@ -3748,6 +3748,22 @@ export const persons = [
        state: "",
        country: "Canada"
      }
-   }
+   },
+   {
+    id: 274,
+    name: "Sikiru Shittu",
+    img: "https://media.licdn.com/dms/image/C5603AQFEXZQ1oItw3g/profile-displayphoto-shrink_200_200/0?e=1564617600&v=beta&t=fJXQ2l43kk7nXlmYPbYJoBI-KTfEwMwGjnaOPqDULiY",
+    links: {
+      website: "https://afreekamode.wordpress.com",
+      linkedin: "https://www.linkedin.com/in/sikirushittu/",
+      github: "https://github.com/afreekamode"
+    },
+    jobTitle: "Software Developer",
+    location: {
+      city: "Lagos",
+      state: "Lagos",
+      country: "Nigeria"
+    }
+  }
 ];
 
