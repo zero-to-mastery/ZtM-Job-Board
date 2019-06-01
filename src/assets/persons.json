@@ -6363,5 +6363,21 @@
 			"state": "middlecountry",
 			"country": "Israel"
 		}
+	},
+	{
+		"id": 407,
+		"name": "Ulysse Tassidis",
+		"img": "https://i.imgur.com/voZ5o7b.jpg",
+		"links": {
+			"website": "https://ulyssetsd.github.io/",
+			"linkedin": "https://www.linkedin.com/in/ulyssetassidis/",
+			"github": "https://github.com/ulyssetsd/"
+		},
+		"jobTitle": "Full Stack Developer",
+		"location": {
+			"city": "Dublin",
+			"state": "",
+			"country": "Ireland"
+		}
 	}
 ]
