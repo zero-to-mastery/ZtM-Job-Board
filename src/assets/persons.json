@@ -6411,8 +6411,7 @@
 		}
 	},
 	{
-		<<
-		<< << < HEAD "id": 410,
+		"id": 410,
 		"name": "Esteban Barron Palma",
 		"img": "http://estebanbarron.com/assets/images/img-01.jpg",
 		"links": {
@@ -6472,6 +6471,21 @@
 			"city": "",
 			"state": "",
 			"country": "Philippines"
+		}
+	}, {
+		"id": 410,
+		"name": "Ty Jenkins",
+		"img": "https://imgur.com/a/v4tNAIP",
+		"links": {
+			"website": "https://yujiman85.github.io/",
+			"linkedin": "https://www.linkedin.com/in/ty-jenkins/",
+			"github": "https://github.com/Yujiman85"
+		},
+		"jobTitle": "Software Engineer/Web Developer",
+		"location": {
+			"city": "Philadelphia",
+			"state": "Pennsylvania",
+			"country": "United States"
 		}
 	}
 ]
