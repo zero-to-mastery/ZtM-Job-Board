@@ -6202,5 +6202,21 @@
       "state": "ON",
       "country": "Canada"
     }
+  },
+	{
+    "id": 387,
+    "name": "Cliff Mirschel",
+    "img": "https://logodix.com/logo/557730.jpg",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/clifford-benjamin-mirschel/",
+      "github": "https://github.com/BlueBoi904"
+    },
+    "jobTitle": "Full-Stack Developer",
+    "location": {
+      "city": "Jacksonville",
+      "state": "FL",
+      "country": "USA"
+    }
   }
 ]
