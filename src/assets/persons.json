@@ -6473,7 +6473,7 @@
 			"country": "Philippines"
 		}
 	}, {
-		"id": 410,
+		"id": 414,
 		"name": "Ty Jenkins",
 		"img": "https://imgur.com/a/v4tNAIP",
 		"links": {
@@ -6486,6 +6486,22 @@
 			"city": "Philadelphia",
 			"state": "Pennsylvania",
 			"country": "United States"
+		}
+	},
+	{
+		"id": 415,
+		"name": "Vaibhav Heda",
+		"img": "http://estebanbarron.com/assets/images/img-01.jpg",
+		"links": {
+			"website": "https://vaibhav-heda.netlify.com/",
+			"linkedin": "https://www.linkedin.com/in/vaibhav-h-a5383b109/",
+			"github": "https://github.com/Vai-devil"
+		},
+		"jobTitle": "Full Stack Developer",
+		"location": {
+			"city": "Jaipur",
+			"state": "Rajasthan",
+			"country": "India"
 		}
 	}
 ]
