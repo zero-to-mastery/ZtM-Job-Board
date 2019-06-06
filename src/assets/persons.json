@@ -3992,7 +3992,9 @@
 		}
 	},
 	{
-		"id": [250],
+		"id": [
+			250
+		],
 		"name": "Darnell Hedrick",
 		"img": "https://pbs.twimg.com/profile_images/990422694717001728/3xT7u7rD_400x400.jpg",
 		"links": {
@@ -6233,6 +6235,22 @@
 			"city": "Monterrey",
 			"state": "",
 			"country": "Mexico"
+		}
+	},
+	{
+		"id": 389,
+		"name": "Ryan Boris",
+		"img": "https://avatars3.githubusercontent.com/u/19439753?v=4",
+		"links": {
+			"website": "",
+			"linkedin": "https://www.linked.com/in/ryanboris",
+			"github": "https://github.com/ryanboris"
+		},
+		"jobTitle": "Fullstack Developer",
+		"location": {
+			"city": "Philadelphia",
+			"state": "Pennsylvania",
+			"country": "United States"
 		}
 	}
 ]
