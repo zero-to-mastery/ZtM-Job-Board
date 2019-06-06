@@ -6252,5 +6252,21 @@
 			"state": "Pennsylvania",
 			"country": "United States"
 		}
+	},
+	{
+		"id": 400,
+		"name": "Brennon Borbon",
+		"img": "https://avatars3.githubusercontent.com/u/30765158?s=40&v=4",
+		"links": {
+			"website": "https://brennon-borbon.netlify.com",
+			"linkedin": "",
+			"github": "https://github.com/brenborbs"
+		},
+		"jobTitle": "Full Stack Developer - MERN Stack, Gatsby.js/JAMStack",
+		"location": {
+			"city": "Cebu City",
+			"state": "City of Cebu",
+			"country": "Philippines"
+		}
 	}
 ]
