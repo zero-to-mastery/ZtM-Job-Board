@@ -6268,5 +6268,21 @@
 			"state": "City of Cebu",
 			"country": "Philippines"
 		}
+	},
+	{
+		"id": 401,
+		"name": "Idris Lawal",
+		"img": "https://res.cloudinary.com/idtitanium/image/upload/v1559991948/WhatsApp_Image_2019-01-29_at_14.27.50.jpg",
+		"links": {
+			"website": "https://idrislawal.herokuapp.com",
+			"linkedin": "https://linkedin.com/lawal-idris-oluwaseun",
+			"github": "https://github.com/IDTitanium"
+		},
+		"jobTitle": "Full Stack Developer",
+		"location": {
+			"city": "Lagos Mainland",
+			"state": "Lagos",
+			"country": "Nigeria"
+		}
 	}
 ]
