@@ -6297,7 +6297,9 @@
 		},
 		"jobTitle": "Developer",
 		"location": {
-		  "country": "Sweden"
+		"city": "",
+		"state": "",
+		"country": "Sweden"
 		}
 	  }
 ]
