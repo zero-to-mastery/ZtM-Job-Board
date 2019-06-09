@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import { persons } from './components/persons';
 import Search from './components/Search';
 import SimpleMap from './components/Map';
+import Scroll from './components/Scroll'
 import { createFilter } from 'react-search-input';
 
 const style = {
@@ -66,7 +67,7 @@ function App() {
               </div>
             ) : // ELSE return nothing
             null}
-            <CardList persons={filteredPersons} />
+            <Scroll><CardList persons={filteredPersons} /></Scroll>
           </div>
         )}
       </main>
