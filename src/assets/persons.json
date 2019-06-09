@@ -6284,5 +6284,20 @@
 			"state": "Queensland",
 			"country": "Australia"
 		}
-	}
+	},
+
+	{
+		"id": [402],
+		"name": "Diyar Faraj",
+		"img": "https://diyarfaraj.com/img/portrait.jpg",
+		"links": {
+		  "website": "diyarfaraj.com",
+		  "linkedin": "https://www.linkedin.com/in/diyar-faraj/",
+		  "github": "https://github.com/diyarfaraj"
+		},
+		"jobTitle": "Developer",
+		"location": {
+		  "country": "Sweden"
+		}
+	  }
 ]
