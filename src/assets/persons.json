@@ -6284,5 +6284,21 @@
 			"state": "Queensland",
 			"country": "Australia"
 		}
+	},
+	{
+		"id": 402,
+		"name": "Hagai Harari",
+		"img": "",
+		"links": {
+			"website": "http://www.hagaiportfolio.ml",
+			"linkedin": "",
+			"github": "https://github.com/YogiHa"
+		},
+		"jobTitle": "Full Stack Developer",
+		"location": {
+			"city": "Tel-Aviv",
+			"state": "middlecountry",
+			"country": "Israel"
+		}
 	}
 ]
