@@ -6283,8 +6283,6 @@
 			"country": "Australia"
 		}
 	},
-<<<<<<< HEAD
-
 	{
 		"id": 402,
 		"name": "Diyar Faraj",
@@ -6303,10 +6301,6 @@
 	},
 	{
 		"id": 403,
-=======
-	{
-		"id": 402,
->>>>>>> Add 402 to ZtM Job Board
 		"name": "Lily Chen",
 		"img": "",
 		"links": {
@@ -6320,7 +6314,6 @@
 			"state": "",
 			"country": "Taiwan"
 		}
-<<<<<<< HEAD
 	},
 	{
 		"id": 404,
@@ -6385,7 +6378,21 @@
 			"state": "",
 			"country": "Ireland"
 		}
-=======
->>>>>>> Add 402 to ZtM Job Board
+	},
+	{
+		"id": 408,
+		"name": "Ashraf Patel",
+		"img": "https://avatars1.githubusercontent.com/u/13857813?s=460&v=4",
+		"links": {
+			"website": "https://ashrafpatel.github.io/",
+			"linkedin": "https://www.linkedin.com/in/ashr4fpatel/",
+			"github": "https://github.com/AshrafPatel"
+		},
+		"jobTitle": "Full Stack Developer",
+		"location": {
+			"city": "Mississauga",
+			"state": "Ontario",
+			"country": "Canada"
+		}
 	}
 ]
