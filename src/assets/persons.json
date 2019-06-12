@@ -6237,6 +6237,102 @@
 	},
 	{
 		"id": 389,
+		"name": "Ryan Boris",
+		"img": "https://avatars3.githubusercontent.com/u/19439753?v=4",
+		"links": {
+			"website": "",
+			"linkedin": "https://www.linked.com/in/ryanboris",
+			"github": "https://github.com/ryanboris"
+		},
+		"jobTitle": "Fullstack Developer",
+		"location": {
+			"city": "Philadelphia",
+			"state": "Pennsylvania",
+			"country": "United States"
+		}
+	},
+	{
+		"id": 400,
+		"name": "Brennon Borbon",
+		"img": "https://avatars3.githubusercontent.com/u/30765158?s=40&v=4",
+		"links": {
+			"website": "https://brennon-borbon.netlify.com",
+			"linkedin": "",
+			"github": "https://github.com/brenborbs"
+		},
+		"jobTitle": "Full Stack Developer - MERN Stack, Gatsby.js/JAMStack",
+		"location": {
+			"city": "Cebu City",
+			"state": "City of Cebu",
+			"country": "Philippines"
+		}
+	},
+	{
+		"id": 401,
+		"name": "Theodore Nguyen",
+		"img": "",
+		"links": {
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/theodorenguyen45",
+			"github": ""
+		},
+		"jobTitle": "Full Stack Developer",
+		"location": {
+			"city": "Brisbane",
+			"state": "Queensland",
+			"country": "Australia"
+		}
+	},
+	{
+		"id": 402,
+		"name": "Diyar Faraj",
+		"img": "https://diyarfaraj.com/img/portrait.jpg",
+		"links": {
+			"website": "diyarfaraj.com",
+			"linkedin": "https://www.linkedin.com/in/diyar-faraj/",
+			"github": "https://github.com/diyarfaraj"
+		},
+		"jobTitle": "Developer",
+		"location": {
+			"city": "",
+			"state": "",
+			"country": "Sweden"
+		}
+	},
+	{
+		"id": 403,
+		"name": "Lily Chen",
+		"img": "",
+		"links": {
+			"website": "",
+			"linkedin": "",
+			"github": "https://github.com/liliburg711"
+		},
+		"jobTitle": "Full Stack Developer",
+		"location": {
+			"city": "Miaoli",
+			"state": "",
+			"country": "Taiwan"
+		}
+	},
+	{
+		"id": 404,
+		"name": "Idris Lawal",
+		"img": "https://res.cloudinary.com/idtitanium/image/upload/v1559991948/WhatsApp_Image_2019-01-29_at_14.27.50.jpg",
+		"links": {
+			"website": "https://idrislawal.herokuapp.com",
+			"linkedin": "https://linkedin.com/lawal-idris-oluwaseun",
+			"github": "https://github.com/IDTitanium"
+		},
+		"jobTitle": "Full Stack Developer",
+		"location": {
+			"city": "Lagos Mainland",
+			"state": "Lagos",
+			"country": "Nigeria"
+		}
+	},
+	{
+		"id": 405,
 		"name": "Kitravee Siwatkittisuk",
 		"img": "",
 		"links": {
@@ -6249,6 +6345,54 @@
 			"city": "Bangkok",
 			"state": "",
 			"country": "Thailand"
+		}
+	},
+	{
+		"id": 406,
+		"name": "Hagai Harari",
+		"img": "",
+		"links": {
+			"website": "http://www.hagaiportfolio.ml",
+			"linkedin": "",
+			"github": "https://github.com/YogiHa"
+		},
+		"jobTitle": "Full Stack Developer",
+		"location": {
+			"city": "Tel-Aviv",
+			"state": "middlecountry",
+			"country": "Israel"
+		}
+	},
+	{
+		"id": 407,
+		"name": "Ulysse Tassidis",
+		"img": "https://i.imgur.com/voZ5o7b.jpg",
+		"links": {
+			"website": "https://ulyssetsd.github.io/",
+			"linkedin": "https://www.linkedin.com/in/ulyssetassidis/",
+			"github": "https://github.com/ulyssetsd/"
+		},
+		"jobTitle": "Full Stack Developer",
+		"location": {
+			"city": "Dublin",
+			"state": "",
+			"country": "Ireland"
+		}
+	},
+	{
+		"id": 408,
+		"name": "Ashraf Patel",
+		"img": "https://avatars1.githubusercontent.com/u/13857813?s=460&v=4",
+		"links": {
+			"website": "https://ashrafpatel.github.io/",
+			"linkedin": "https://www.linkedin.com/in/ashr4fpatel/",
+			"github": "https://github.com/AshrafPatel"
+		},
+		"jobTitle": "Full Stack Developer",
+		"location": {
+			"city": "Mississauga",
+			"state": "Ontario",
+			"country": "Canada"
 		}
 	}
 ]
