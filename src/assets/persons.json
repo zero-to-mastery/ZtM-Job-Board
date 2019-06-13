@@ -6410,5 +6410,21 @@
 			"state": "",
 			"country": "India"
 		}
+	},
+	{
+		"id": 409,
+		"name": "Mier Dhundee Agil",
+		"img": "https://media.licdn.com/dms/image/C5603AQH1AzK-WTtRdw/profile-displayphoto-shrink_200_200/0?e=1565827200&v=beta&t=VVeReX4qKqSRqISql62X4PZ1rz4W6O2OUbSLGZ1yw-Q",
+		"links": {
+			"website": "mieragil.github.io",
+			"linkedin": "https://www.linkedin.com/in/mier-agil-4333b011a/",
+			"github": "github.com/mieragil"
+		},
+		"jobTitle": "Full-Stack Web Developer",
+		"location": {
+			"city": "",
+			"state": "",
+			"country": "Philippines"
+		}
 	}
 ]
