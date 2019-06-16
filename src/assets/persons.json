@@ -6425,5 +6425,21 @@
           "state": "Yucatan",
           "country": "Mexico"
         }
-      }
+		,
+	{
+		"id": 411,
+		"name": "Vaibhav Heda",
+		"img": "http://estebanbarron.com/assets/images/img-01.jpg",
+		"links": {
+			"website": "https://vaibhav-heda.netlify.com/",
+			"linkedin": "https://www.linkedin.com/in/vaibhav-h-a5383b109/",
+			"github": "https://github.com/Vai-devil"
+		},
+		"jobTitle": "Full Stack Developer",
+		"location": {
+			"city": "Jaipur",
+			"state": "Rajasthan",
+			"country": "India"
+		}
+    }
 ]
