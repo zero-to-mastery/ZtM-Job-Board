@@ -6410,20 +6410,37 @@
 			"state": "",
 			"country": "India"
 		}
-	},{
-        "id": 410,
-        "name": "Esteban Barron Palma",
-        "img": "http://estebanbarron.com/assets/images/img-01.jpg",
-        "links": {
-          "website": "http://estebanbarron.com/",
-          "linkedin": "https://www.linkedin.com/in/esteban-barr%C3%B3n-a60a2a113/",
-          "github": "https://github.com/aberro3s"
-        },
-        "jobTitle": "Full Stack Developer",
-        "location": {
-          "city": "Merida",
-          "state": "Yucatan",
-          "country": "Mexico"
-        }
-      }
+	},
+	{
+  "id": 410,
+  "name": "Esteban Barron Palma",
+  "img": "http://estebanbarron.com/assets/images/img-01.jpg",
+  "links": {
+    "website": "http://estebanbarron.com/",
+    "linkedin": "https://www.linkedin.com/in/esteban-barr%C3%B3n-a60a2a113/",
+    "github": "https://github.com/aberro3s"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Merida",
+    "state": "Yucatan",
+    "country": "Mexico"
+  }
+},
+	{
+  "id": 411,
+  "name": "Joe Domingo",
+  "img": "https://contentapi.joedomingo.online/wp-content/uploads/joed-prof-pic-02.png",
+  "links": {
+    "website": "https://joedomingo.online",
+    "linkedin": "https://www.linkedin.com/in/joe-domingo-front-end-developer/",
+    "github": "https://github.com/joedonline"
+  },
+  "jobTitle": "Front End Developer, UI/UX, Graphic Design",
+  "location": {
+    "city": "NY Metropolitan",
+    "state": "New York",
+    "country": "USA"
+  }
+}
 ]
