@@ -6536,5 +6536,20 @@
 			"state": "California",
 			"country": "United States (Willing to relocate!)"
 		}
+	}, {
+		"id": 418,
+		"name": "Ravshan Artykov",
+		"img": "https://avatars1.githubusercontent.com/u/44540541?s=400&u=fdf000aeba0d7c5090907b5bfd4f33aa9965790a&v=4",
+		"links": {
+			"website": "www.ravarty.me",
+			"linkedin": "https://www.linkedin.com/in/ravart/",
+			"github": "https://github.com/RavArty"
+		},
+		"jobTitle": "Web Developer/Software Developer",
+		"location": {
+			"city": "Los Angeles",
+			"state": "California",
+			"country": "United States"
+		}
 	}
 ]
