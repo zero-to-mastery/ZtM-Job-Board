@@ -6551,5 +6551,20 @@
 		"state": "England",
 		"country": "United Kingdom"
 		}
+	},{
+		"id": 419,
+		"name": "Matthew T Zito",
+		"img": "https://ia601402.us.archive.org/27/items/photo2_201906/photo%202.jpg",
+		"links": {
+		"website": "https://matthewzito.github.io",
+		"linkedin": "https://www.linkedin.com/in/matthew-zito/",
+		"github": "https://github.com/matthewzito"
+		},
+		"jobTitle": "Full Stack Web Developer / Blockchain Developer",
+		"location": {
+		"city": "Portland",
+		"state": "Oregon",
+		"country": "United States"
 		}
+	}
 ]
