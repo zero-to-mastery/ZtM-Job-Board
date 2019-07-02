@@ -6581,21 +6581,5 @@
 			"state": "California",
 			"country": "United States"
 		}
-	} ,
-	{
-		"id": 421,
-		"name": "Jan Cyngynn Frigillana",
-		"img": "https://avatars2.githubusercontent.com/u/52190655?s=460&v=4",
-		"links": {
-			"website": "",
-			"linkedin": "",
-			"github": "https://github.com/JancKode"
-		},
-		"jobTitle": "Front End Developer/Software Developer",
-		"location": {
-			"city": "Baguio",
-			"state": "Benguet",
-			"country": "Philippines"
-		}
 	}
 ]
