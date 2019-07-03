@@ -6581,8 +6581,7 @@
 			"state": "California",
 			"country": "United States"
 		}
-	} ,
-	{
+	}, {
 		"id": 421,
 		"name": "Jan Cyngynn Frigillana",
 		"img": "https://avatars2.githubusercontent.com/u/52190655?s=460&v=4",
@@ -6596,6 +6595,21 @@
 			"city": "Baguio",
 			"state": "Benguet",
 			"country": "Philippines"
+		}
+	}, {
+		"id": 422,
+		"name": "SASSOUI Abdel",
+		"img": "https://sassouiabd.github.io/static/img/photo.jpg",
+		"links": {
+			"website": "https://sassouiabd.github.io/",
+			"linkedin": "https://www.linkedin.com/in/abdel-sassoui-59492146/",
+			"github": "https://github.com/sassouiabd"
+		},
+		"jobTitle": "Technical Lead Engineer",
+		"location": {
+			"city": "Paris",
+			"state": "",
+			"country": "France"
 		}
 	}
 ]
