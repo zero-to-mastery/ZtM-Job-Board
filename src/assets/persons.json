@@ -6611,5 +6611,21 @@
 			"state": "",
 			"country": "France"
 		}
+	},
+	{
+		"id": 423,
+		"name": "Niketan Moon",
+		"img": "",
+		"links": {
+			"website": "https://www.niketanmoon.ml",
+			"linkedin": "www.linkedin.com/in/niketanmoon",
+			"github": "https://github.com/niketanmoon"
+		},
+		"jobTitle": "Full Stack Developer/Research Assistant",
+		"location": {
+			"city": "Wardha",
+			"state": "Maharashtra",
+			"country": "India"
+		}
 	}
 ]
