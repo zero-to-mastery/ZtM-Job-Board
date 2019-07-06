@@ -6650,5 +6650,21 @@
 			"state": "NSW",
 			"country": "Australia"
 		}
+	},
+	{
+		"id": 425,
+		"name": "Ukpai Emeka",
+		"img": "https://imgur.com/muqELZB",
+		"links": {
+			"website": "",
+			"linkedin": "https://www.linkedin.com/in/ukpai-emeka/",
+			"github": "https://github.com/Mr-emeka"
+		},
+		"jobTitle": "Web Developer",
+		"location": {
+			"city": "Lagos",
+			"state": "Lagos",
+			"country": "Nigeria"
+		}
 	}
 ]
