@@ -6666,5 +6666,21 @@
 			"state": "Lagos",
 			"country": "Nigeria"
 		}
+	},
+	{
+    	"id": 426,
+    	"name": "Karin Povolozki-Rabichev",
+    	"img": "https://cdn1.imggmi.com/uploads/2019/7/7/5b930225b449c12d52f1e2d8f2f73c72-full.jpg",
+	    "links": {
+			"website": "https://karin-personal-website.herokuapp.com/",
+			"linkedin": "https://www.linkedin.com/in/karin-povolozki-rabichev/",
+			"github": "https://github.com/KarinPR/"
+	    },
+	    "jobTitle": "Full-Stack Developer",
+	    "location": {
+	      "city": "Ashdod",
+	      "state": "",
+	      "country": "Israel"
+	    }
 	}
 ]
