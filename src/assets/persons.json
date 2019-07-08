@@ -6682,5 +6682,21 @@
 	      "state": "",
 	      "country": "Israel"
 	    }
+	},
+	{
+    	"id": 427,
+    	"name": "Uchenna Sylvester Okoro",
+    	"img": "https://avatars3.githubusercontent.com/u/38369717?s=460&v=4",
+	    "links": {
+			"website": "",
+			"linkedin": "www.linkedin.com/in/uchenna-okoro/",
+			"github": "https://github.com/UcheSylvester"
+	    },
+	    "jobTitle": "Web Developer",
+	    "location": {
+	      "city": "",
+	      "state": "Abia State",
+	      "country": "Nigeria"
+	    }
 	}
 ]
