@@ -6698,5 +6698,21 @@
 	      "state": "Abia State",
 	      "country": "Nigeria"
 	    }
+	},
+	{
+    	"id": 428,
+    	"name": "Shashank Singh",
+    	"img": "https://imgur.com/a/jzGrGcK",
+	    "links": {
+			"website": "shashankcic.github.io",
+			"linkedin": "www.linkedin.com/in/shashankcic/",
+			"github": "https://github.com/shashankcic"
+	    },
+	    "jobTitle": "Web Developer",
+	    "location": {
+	      "city": "New Delhi",
+	      "state": "Delhi",
+	      "country": "India"
+	    }
 	}
 ]
