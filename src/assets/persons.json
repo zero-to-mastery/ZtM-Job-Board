@@ -6730,5 +6730,21 @@
 	      "state": "California",
 	      "country": "United States of America"
 	    }
+	},
+	{
+    	"id": 430,
+    	"name": "Spencer Fong",
+    	"img": "https://github.com/spencerericfong/spencerericfong.github.io/blob/master/assets/pictures/Spencer_Profile.png",
+	    "links": {
+			"website": "https://spencerericfong.github.io/",
+			"linkedin": "https://www.linkedin.com/in/spencer-eric-fong/",
+			"github": "https://github.com/spencerericfong"
+	    },
+	    "jobTitle": "Full Stack Dev/Student",
+	    "location": {
+	      "city": "Irvine",
+	      "state": "California",
+	      "country": "United States of America"
+	    }
 	}
 ]
