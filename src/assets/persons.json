@@ -6730,5 +6730,21 @@
 	      "state": "California",
 	      "country": "United States of America"
 	    }
+	},
+	{
+    	"id": 430,
+    	"name": "Guilherme Brunner",
+    	"img": "https://sgtbrunner.github.io/img/profile.png",
+	    "links": {
+			"website": "https://sgtbrunner.github.io/",
+			"linkedin": "https://www.linkedin.com/in/guilherme-brunner/",
+			"github": "https://github.com/sgtbrunner"
+	    },
+	    "jobTitle": "Web Developer",
+	    "location": {
+	      "city": "São Paulo",
+	      "state": "",
+	      "country": "Brazil"
+	    }
 	}
 ]
