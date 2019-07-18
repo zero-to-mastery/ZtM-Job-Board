@@ -6794,6 +6794,21 @@
 		"state": "Telangana",
 		"country": "India"
 		}
-}
+},  {
+    "id": 434,
+    "name": "Ayoub Issaad",
+    "img": "https://avatars0.githubusercontent.com/u/5059344?s=460&v=4",
+    "links": {
+      "website": "http://www.ayoubissaad.com/",
+      "linkedin": "https://www.linkedin.com/in/ayoubissaad/",
+      "github": "https://github.com/AyoubIssaad"
+    },
+    "jobTitle": "Full Stack Developer, (React, NodeJS, PHP), Database Manager",
+    "location": {
+      "city": "Marrakech",
+      "state": "[YOUR_STATE_OR_PROVINCE]",
+      "country": "Morocco"
+    }
+  },
 ]
 
