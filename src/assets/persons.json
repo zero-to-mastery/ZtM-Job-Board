@@ -6794,6 +6794,24 @@
 		"state": "Telangana",
 		"country": "India"
 		}
+},
+
+{
+	"id": 434,
+	"name": "Lachlan Whelan",
+	"img": "https://lachlanwhelan.github.io/images/logo.png",
+	"links": {
+	"website": "",
+	"linkedin": "https://www.linkedin.com/in/lachlan-whelan-666386179/",
+	"github": "https://github.com/lachlanwhelan"
+	},
+	"jobTitle": "Full-Stack Developer",
+	"location": {
+	"city": "Sydney",
+	"state": "NSW",
+	"country": "Australia"
+	}
 }
+
 ]
 
