@@ -6794,6 +6794,22 @@
 		"state": "Telangana",
 		"country": "India"
 		}
-}
+	},
+	{
+		"id": 434,
+		"name": "Fauzi Arda Saputra",
+		"img": "",
+		"links": {
+		"website": "https://fauziardha1.github.io/",
+		"linkedin": "linkedin.com/in/fauzi-arda-saputra-170557a4",
+		"github": "https://github.com/fauziardha1"
+		},
+		"jobTitle": "Full Stack Developer , c++, Java",
+		"location": {
+		"city": "Jakarta",
+		"state": "",
+		"country": "Indonesia"
+		}
+	}
 ]
 
