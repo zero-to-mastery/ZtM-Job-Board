@@ -6843,5 +6843,21 @@
       "state": "",
       "country": "Indonesia"
     }
+  },
+  {
+    "id": 437,
+    "name": "Rahul Syal",
+    "img": "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878959/Pydata/rahuls_wuro1z.jpg",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/rahul-syal-646380151",
+      "github": "https://github.com/rahulsyal2512"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "country": "India"
+    }
   }
 ]
