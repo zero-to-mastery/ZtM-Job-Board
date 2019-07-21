@@ -6827,5 +6827,22 @@
       "state": "",
       "country": "UK"
     }
+  },
+
+  {
+    "id": 436,
+    "name": "Kinga Polgar",
+    "img": "https://raw.githubusercontent.com/kpolgar/profile-image/master/profile-image-small.png",
+    "links": {
+      "website": "https://kingapolgar.com",
+      "linkedin": "https://www.linkedin.com/in/kinga-polgar",
+      "github": "https://github.com/kpolgar"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "New York",
+      "state": "NY",
+      "country": "USA"
+    }
   }
 ]
