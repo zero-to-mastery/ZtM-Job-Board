@@ -6875,5 +6875,21 @@
       "state": "Punjab",
       "country": "India"
     }
+  },
+  {
+    "id": 439,
+    "name": "Daniyal Majeed",
+    "img": "https://avatars1.githubusercontent.com/u/37538929?s=460&v=4",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/daniyal-majeed-a3821118a/",
+      "github": "https://github.com/danymajeed"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Faisalabad",
+      "state": "Punjab",
+      "country": "Pakistan"
+    }
   }
 ]
