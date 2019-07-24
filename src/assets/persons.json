@@ -6891,5 +6891,21 @@
       "state": "Punjab",
       "country": "Pakistan"
     }
-  }
+  },
+   {
+    id: 440,
+    name: "Gagandeep Singh",
+    img: "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/66186607_858071157892550_5724901559700029440_n.jpg?_nc_cat=103&_nc_oc=AQl4Kl6qfRIPJiaDSmUfNaR64wdCAeCdeDU081FFq2IhQvA_MZgsyckTMW4YZHXoWYgVPXNj9HwIeluW2k605Pfl&_nc_ht=scontent-sjc3-1.xx&oh=c4a436124c6e939c0595d3963772d73a&oe=5DA48472",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/singhperry01/",
+      github: "https://github.com/singhperryo1"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Santa Clara",
+      state: "California",
+      country: "United States"
+    }
+  },
 ]
