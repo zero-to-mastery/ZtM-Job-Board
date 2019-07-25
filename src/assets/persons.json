@@ -6938,5 +6938,21 @@
       "state": "California",
       "country": "United States of America"
     }
+  },
+  {
+    "id": 443,
+    "name": "Andrea Franco",
+    "img": "https://github.com/andrea07021981/AndreaSite.github.io/blob/master/images/personalimage.jpg",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/andrea-franco-9624a278",
+      "github": "https://github.com/andrea07021981"
+    },
+    "jobTitle": "Mobile & Web Developer",
+    "location": {
+      "city": "Pordenone",
+      "state": "Friuli Venezia Giulie",
+      "country": "Italy"
+    }
   }
 ]
