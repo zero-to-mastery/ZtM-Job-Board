@@ -6974,11 +6974,11 @@
   {
     "id": 445,
     "name": "Ajay Kumar",
-    "img":"http://indianexpresss.in/wp-content/uploads/2019/07/FB_IMG_15633520365070317.jpg",
+    "img": "http://indianexpresss.in/wp-content/uploads/2019/07/FB_IMG_15633520365070317.jpg",
     "links": {
-    "website": "",
-    "linkedin": "",
-    "github": "https://github.com/Ajaybhardwaj90"
+      "website": "",
+      "linkedin": "",
+      "github": "https://github.com/Ajaybhardwaj90"
     },
     "jobTitle": "Android & JavaEE Developer ",
     "location": {
@@ -6986,5 +6986,21 @@
       "state": "Delhi",
       "country": "India"
     }
-}
+  },
+  {
+    "id": 446,
+    "name": "Ayoub Issaad",
+    "img": "https://avatars0.githubusercontent.com/u/5059344?s=460&v=4",
+    "links": {
+      "website": "http://www.ayoubissaad.com/",
+      "linkedin": "https://www.linkedin.com/in/ayoubissaad/",
+      "github": "https://github.com/AyoubIssaad"
+    },
+    "jobTitle": "Full Stack Developer, (React, NodeJS, PHP), Database Manager",
+    "location": {
+      "city": "Marrakech",
+      "state": "",
+      "country": "Morocco"
+    }
+  }
 ]
