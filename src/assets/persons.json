@@ -6907,5 +6907,21 @@
       "state": "Queensland",
       "country": "Australia"
     }
-  }
+  },
+  {
+    "id": 441,
+    "name": "Olamide Aboyeji",
+    "img": "https://avatars1.githubusercontent.com/u/40968569?s=460&v=4",
+    "links": {
+    "website": "https://aolamide.me",
+    "linkedin": "www.linkedin.com/in/aolamide/",
+    "github": "https://github.com/aolamide"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Lagos",
+      "state": "Lagos",
+      "country": "Nigeria"
+    }
+}
 ]
