@@ -6892,20 +6892,54 @@
       "country": "Pakistan"
     }
   },
-   {
-    id:440 ,
-    name: "Gagandeep Singh",
-    img: "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/66186607_858071157892550_5724901559700029440_n.jpg?_nc_cat=103&_nc_oc=AQnMR0Hp7Oe84wa3pV6jVL2BdxMWFIldSXRixG_uHofLK7p2a9zXyHrZpUWH-ElWhA4&_nc_ht=scontent-sjc3-1.xx&oh=46ef2f51de574773d75c485ebd270424&oe=5DA48472",
-    links: {
-      website: "",
-      linkedin: "https://www.linkedin.com/in/singhperry01/",
-      github: "https://github.com/singhperryo1"
+
+  {
+    "id": 440,
+    "name": "Glyn Lewington",
+    "img": "https://avatars2.githubusercontent.com/u/28625651?s=460&v=4",
+    "links": {
+      "website": "https://www.glynlewington.com",
+      "linkedin": "www.linkedin.com/in/glynlewington",
+      "github": "https://github.com/glynl"
     },
-    jobTitle: "Full Stack, C++, Java",
-    location: {
-      city: "Santa Clara",
-      state: "California",
-      country: "United States"
+    "jobTitle": "Frontend Developer",
+    "location": {
+      "city": "Brisbane",
+      "state": "Queensland",
+      "country": "Australia"
+    }
+  },
+  {
+    "id": 441,
+    "name": "Olamide Aboyeji",
+    "img": "https://avatars1.githubusercontent.com/u/40968569?s=460&v=4",
+    "links": {
+      "website": "https://aolamide.me",
+      "linkedin": "www.linkedin.com/in/aolamide/",
+      "github": "https://github.com/aolamide"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Lagos",
+      "state": "Lagos",
+      "country": "Nigeria"
+    }
+  },
+
+   {
+    "id":442 ,
+    "name": "Gagandeep Singh",
+    "img": "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/66186607_858071157892550_5724901559700029440_n.jpg?_nc_cat=103&_nc_oc=AQnMR0Hp7Oe84wa3pV6jVL2BdxMWFIldSXRixG_uHofLK7p2a9zXyHrZpUWH-ElWhA4&_nc_ht=scontent-sjc3-1.xx&oh=46ef2f51de574773d75c485ebd270424&oe=5DA48472",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/singhperry01/",
+      "github": "https://github.com/singhperryo1"
+    },
+    "jobTitle": "Full Stack, C++, Java",
+    "location": {
+      "city": "Santa Clara",
+      "state": "California",
+      "country": "United States"
     }
   }
 ]
