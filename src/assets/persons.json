@@ -7002,5 +7002,21 @@
       "state": "",
       "country": "Morocco"
     }
+  },
+  {
+    "id": 447,
+    "name": "Yulin Wang",
+    "img": "",
+    "links": {
+      "website": "https://yulin-profile.herokuapp.com/",
+      "linkedin": "www.linkedin.com/in/javascript-developer-yulin",
+      "github": "https://github.com/wangyulinaaron"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "ChongQing",
+      "state": "ChongQing",
+      "country": "China"
+    }
   }
 ]
