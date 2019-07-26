@@ -7020,22 +7020,22 @@
     }
   },
   {
-		"id": 448,
-		"name": "Fauzi Arda Saputra",
-		"img": "",
-		"links": {
-		"website": "https://fauziardha1.github.io/",
-		"linkedin": "linkedin.com/in/fauzi-arda-saputra-170557a4",
-		"github": "https://github.com/fauziardha1"
-		},
-		"jobTitle": "Full Stack Developer , c++, Java",
-		"location": {
-		"city": "Jakarta",
-		"state": "",
-		"country": "Indonesia"
-		}
+    "id": 448,
+    "name": "Fauzi Arda Saputra",
+    "img": "",
+    "links": {
+      "website": "https://fauziardha1.github.io/",
+      "linkedin": "linkedin.com/in/fauzi-arda-saputra-170557a4",
+      "github": "https://github.com/fauziardha1"
+    },
+    "jobTitle": "Full Stack Developer , c++, Java",
+    "location": {
+      "city": "Jakarta",
+      "state": "",
+      "country": "Indonesia"
+    }
   },
-    {
+  {
     "id": 449,
     "name": "Kinga Polgar",
     "img": "https://raw.githubusercontent.com/kpolgar/profile-image/master/profile-image-small.png",
@@ -7065,6 +7065,22 @@
       "city": "Calgary",
       "state": "AB",
       "country": "Canada"
+    }
+  },
+  {
+    "id": 451,
+    "name": "Gagandeep Singh",
+    "img": "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/66186607_858071157892550_5724901559700029440_n.jpg?_nc_cat=103&_nc_oc=AQl4Kl6qfRIPJiaDSmUfNaR64wdCAeCdeDU081FFq2IhQvA_MZgsyckTMW4YZHXoWYgVPXNj9HwIeluW2k605Pfl&_nc_ht=scontent-sjc3-1.xx&oh=c4a436124c6e939c0595d3963772d73a&oe=5DA48472",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/singhperry01/",
+      "github": "https://github.com/singhperryo1"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Santa Clara",
+      "state": "California",
+      "country": "United States"
     }
   }
 ]
