@@ -7050,5 +7050,21 @@
       "state": "NY",
       "country": "USA"
     }
+  },
+  {
+    "id": 450,
+    "name": "Chisom Trisha Okoye",
+    "img": "http://www.trishaomabu.com/wp-content/uploads/2019/07/logo1.png",
+    "links": {
+      "website": "https://trishachi.github.io/Profile-Page-Project/index.html",
+      "linkedin": "https://www.linkedin.com/in/chisom-trisha-okoye/",
+      "github": "https://github.com/Trishachi"
+    },
+    "jobTitle": "Front End Developer | Project Management Professional",
+    "location": {
+      "city": "Calgary",
+      "state": "AB",
+      "country": "Canada"
+    }
   }
 ]
