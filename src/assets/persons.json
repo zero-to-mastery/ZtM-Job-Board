@@ -6890,12 +6890,8 @@
       "state": "Punjab",
       "country": "Pakistan"
     }
-  }, <<
-  << << < HEAD ===
-  === =
-
-  >>>
-  >>> > e231a18b3252632167c7d79212b10f5eda6f6f44 {
+  }, 
+  {
     "id": 440,
     "name": "Glyn Lewington",
     "img": "https://avatars2.githubusercontent.com/u/28625651?s=460&v=4",
