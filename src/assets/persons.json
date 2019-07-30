@@ -7082,5 +7082,20 @@
       "state": "California",
       "country": "United States"
     }
-  }
-]
+  },
+  {
+    "id": 452,
+    "name": "Sevilay Selecki",
+    "img": "https://images.app.goo.gl/7eZAygWeVz1bXrAx9",
+    "links": {
+      "website": "https://github.com/sevydev/my-portfolio",
+      "linkedin": "https://www.linkedin.com/in/sevilay-selecki-49568a166/",
+      "github": "https://github.com/sevydev"
+    },
+    "jobTitle": "Front-End Developer",
+    "location": {
+      "city": "Wroclaw",
+      "state": "",
+      "country": "Poland"
+    }
+  },
