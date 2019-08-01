@@ -7098,23 +7098,22 @@
             "state": "Lower Silesia",
             "country": "Poland"
         }
-    }
+    },
     {
-        id: 453,
-        name: "Aasim Ahmed Khan Jawaad",
-        img: "",
-        links:
-         {
-            website: "",
-            linkedin: "https://www.linkedin.com/in/aasim-ahmed-khan-jawaad/",
-            github: "https://github.com/AasimAhmed20"
+        "id": 453,
+        "name": "Aasim Ahmed Khan Jawaad",
+        "img": "",
+        "links": {
+            "website": "",
+            "linkedin": "https://www.linkedin.com/in/aasim-ahmed-khan-jawaad/",
+            "github": "https://github.com/AasimAhmed20"
         },
-        jobTitle: "Front-End Developer",
-        location:
+        "jobTitle": "Front-End Developer",
+        "location":
         {
-            city: "Hyderabad",
-            state: "Telangana",
-            country: "India"
+            "city": "Hyderabad",
+            "state": "Telangana",
+            "country": "India"
         }
     },
 ]
