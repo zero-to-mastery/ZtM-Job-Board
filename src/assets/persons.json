@@ -7109,11 +7109,10 @@
             "github": "https://github.com/AasimAhmed20"
         },
         "jobTitle": "Front-End Developer",
-        "location":
-        {
+        "location": {
             "city": "Hyderabad",
             "state": "Telangana",
             "country": "India"
         }
-    },
+    }
 ]
