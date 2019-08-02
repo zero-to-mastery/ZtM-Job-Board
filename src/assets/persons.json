@@ -7130,5 +7130,21 @@
             "state": "Caracas",
             "country": "Venezuela"
         }
+    },
+    {
+        "id": 455,
+        "name": "Jacob Giamanco",
+        "img": "https://avatars2.githubusercontent.com/u/52183478?s=460&v=4",
+        "links": {
+            "website": "https://jgiamanco.herokuapp.com",
+            "linkedin": "https://linkedin.com/in/jacob-giamanco",
+            "github": "https://github.com/jgiamanco"
+        },
+        "jobTitle": "Front-End Web Developer",
+        "location": {
+            "city": "San Diego",
+            "state": "CA",
+            "country": "USA"
+        }
     }
 ]
