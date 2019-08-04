@@ -7146,5 +7146,21 @@
             "state": "CA",
             "country": "USA"
         }
+    },
+    {
+        "id": 456,
+        "name": "Hrishikesh Baidya",
+        "img": "https://i.ibb.co/fGB9kgK/myimg.jpg",
+        "links": {
+            "website": "http://hrishikeshbaidya.ml/",
+            "linkedin": "https://www.linkedin.com/in/hrishikesh7/",
+            "github": "https://github.com/hrishi7"
+        },
+        "jobTitle": "Full Stack Developer",
+        "location": {
+            "city": "Kolkata",
+            "state": "West Bengal",
+            "country": "India"
+        }
     }
 ]
