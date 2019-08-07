@@ -7226,5 +7226,21 @@
           "state": "Lagos",
           "country": "Nigeria"
       }
+  },
+  {
+      "id": 461,
+      "name": "Elissavet Triantafyllopoulou",
+      "img": "https://avatars3.githubusercontent.com/u/13526047?s=460&v=4",
+      "links": {
+          "website": "https://www.elissavet.me",
+          "linkedin": "https://www.linkedin.com/in/elitriant/",
+          "github": "https://github.com/elisavetTriant"
+      },
+      "jobTitle": "IT Professional | Full Stack PHP Web Developer",
+      "location": {
+          "city": "",
+          "state": "",
+          "country": "Greece"
+      }
   }
 ]
