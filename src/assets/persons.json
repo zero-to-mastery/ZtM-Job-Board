@@ -7212,35 +7212,51 @@
     }
   },
   {
-      "id": 460,
-      "name": "Olumide Odusote",
-      "img": "https://avatars1.githubusercontent.com/u/34481013?s=40&v=4",
-      "links": {
-          "website": "",
-          "linkedin": "https://www.linkedin.com/in/olumide-odusote",
-          "github": "https://github.com/MaGo1024"
-      },
-      "jobTitle": "Web Developer",
-      "location": {
-          "city": "Ikeja",
-          "state": "Lagos",
-          "country": "Nigeria"
-      }
+    "id": 460,
+    "name": "Olumide Odusote",
+    "img": "https://avatars1.githubusercontent.com/u/34481013?s=40&v=4",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/olumide-odusote",
+      "github": "https://github.com/MaGo1024"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Ikeja",
+      "state": "Lagos",
+      "country": "Nigeria"
+    }
   },
   {
-      "id": 461,
-      "name": "Elissavet Triantafyllopoulou",
-      "img": "https://avatars3.githubusercontent.com/u/13526047?s=460&v=4",
-      "links": {
-          "website": "https://www.elissavet.me",
-          "linkedin": "https://www.linkedin.com/in/elitriant/",
-          "github": "https://github.com/elisavetTriant"
-      },
-      "jobTitle": "IT Professional | Full Stack PHP Web Developer",
-      "location": {
-          "city": "",
-          "state": "",
-          "country": "Greece"
-      }
+    "id": 461,
+    "name": "Elissavet Triantafyllopoulou",
+    "img": "https://avatars3.githubusercontent.com/u/13526047?s=460&v=4",
+    "links": {
+      "website": "https://www.elissavet.me",
+      "linkedin": "https://www.linkedin.com/in/elitriant/",
+      "github": "https://github.com/elisavetTriant"
+    },
+    "jobTitle": "IT Professional | Full Stack PHP Web Developer",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "Greece"
+    }
+  },
+  {
+    "id": 462,
+    "name": "Obusor Ezekiel Umesi",
+    "img": "https://drive.google.com/open?id=14xTXWCH6nYqaFixLpQdmTAQOgFtkUQnp",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/obusor-ezekiel-umesi-a66b55121/",
+      "github": "https://github.com/obusorezekiel"
+    },
+    "jobTitle": "Full Stack Software Engineer & Blockchain Enthusiast",
+    "location": {
+      "city": "Port Harcourt",
+      "state": "Rivers",
+      "country": "Nigeria"
+    }
   }
 ]
