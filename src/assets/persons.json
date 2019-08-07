@@ -7226,5 +7226,21 @@
           "state": "Lagos",
           "country": "Nigeria"
       }
-  }
+  },
+  {
+    "id": 461,
+    "name": "Obusor Ezekiel Umesi",
+    "img": "https://drive.google.com/open?id=14xTXWCH6nYqaFixLpQdmTAQOgFtkUQnp",
+    "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/obusor-ezekiel-umesi-a66b55121/",
+        "github": "https://github.com/obusorezekiel"
+    },
+    "jobTitle": "Full Stack Software Engineer & Blockchain Enthusiast",
+    "location": {
+        "city": "Port Harcourt",
+        "state": "Rivers",
+        "country": "Nigeria"
+    }
+}
 ]
