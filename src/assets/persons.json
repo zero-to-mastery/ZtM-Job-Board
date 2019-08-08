@@ -7291,4 +7291,20 @@
       "country": "USA"
     }
   }
+  {
+    "id": 464,
+    "name": "MOHD SUALEH",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/mohd-sualeh-88b24b77/",
+      "github": "https://github.com/imsualeh"
+    },
+    "jobTitle": "Software Engineer/Front-End Developer",
+    "location": {
+      "city": "Kannauj",
+      "state": "UTTAR Pradesh",
+      "country": "INDIA"
+    }
+  }
 ]
