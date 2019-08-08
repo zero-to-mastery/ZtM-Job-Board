@@ -7292,7 +7292,7 @@
     }
   },
   {
-    "id": 464,
+    "id": 465,
     "name": "MOHD SUALEH",
     "img": "",
     "links": {
@@ -7305,6 +7305,22 @@
       "city": "Kannauj",
       "state": "UTTAR Pradesh",
       "country": "INDIA"
+    }
+  },
+  {
+    "id": 466,
+    "name": "Rizwan Aaqil",
+    "img": "https://avatars0.githubusercontent.com/u/50185178?s=460&v=4",
+    "links": {
+      "website": "https://www.linkedin.com/in/rizwanaaqil",
+      "linkedin": "https://www.linkedin.com/in/rizwanaaqil",
+      "github": "https://github.com/rizwanrajput"
+    },
+    "jobTitle": "Web/WordPress Developer",
+    "location": {
+      "city": "Karachi",
+      "state": "Sindh",
+      "country": "Pakistan"
     }
   }
 ]
