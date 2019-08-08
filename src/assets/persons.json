@@ -7274,5 +7274,21 @@
       "state": "",
       "country": "Sweden"
     }
+  },
+  {
+    "id": 464,
+    "name": "Brittani Gongre",
+    "img": "",
+    "links": {
+      "website": "brittanigongre.com",
+      "linkedin": "https://www.linkedin.com/in/brittani-gongre",
+      "github": "https://github.com/bgongre"
+    },
+    "jobTitle": "Front End Developer",
+    "location": {
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "USA"
+    }
   }
 ]
