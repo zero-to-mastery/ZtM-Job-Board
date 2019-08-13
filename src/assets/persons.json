@@ -7322,5 +7322,22 @@
       "state": "Sindh",
       "country": "Pakistan"
     }
+  },
+  {
+    "id": 467,
+    "name": "Andrzej Gołąbek (Harnas_20)",
+    "img": "https://avatars1.githubusercontent.com/u/37544193?s=460&v=4",
+    "links": {
+      "website": "https://www.mojatesciowa.pl",
+      "linkedin": "https://www.linkedin.com/in/andrzej-go%C5%82%C4%85bek-2a812b152/",
+      "github": "https://github.com/AndrzejHarnas"
+    },
+    "jobTitle": "Research Assistant/IT Specialist",
+    "location": {
+      "city": "Krosno",
+      "state": "",
+      "country": "Poland"
+    }
   }
+
 ]
