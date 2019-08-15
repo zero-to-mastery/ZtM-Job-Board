@@ -7354,5 +7354,21 @@
       "state": "DC",
       "country": "USA"
     }
+  },
+  {
+    "id": 469,
+    "name": "Thet Aung",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "",
+      "github": "https://github.com/thetaung123"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Yangon",
+      "state": "Yangon",
+      "country": "Myanmar"
+    }
   }
 ]
