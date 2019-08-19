@@ -7370,5 +7370,21 @@
       "state": "Yangon",
       "country": "Myanmar"
     }
+  },
+  {
+    "id": 470,
+    "name": "Selmi Ahmed",
+    "img": "https://i.ibb.co/m07qc8Y/photo-v4.jpg",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/ahmed-selmi-7b8742191/ ",
+      "github": "https://github.com/SelmiAhmed"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Tunis",
+      "state": "Tunis",
+      "country": "Tunisia"
+    }
   }
 ]
