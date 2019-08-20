@@ -1,5 +1,5 @@
-import React from 'react';
-import SearchBox from './SearchBox';
+import React from "react"
+import SearchBox from "./SearchBox"
 
 const Search = ({ onSearchChange, responsiveSearch }) => {
   return (
@@ -9,7 +9,7 @@ const Search = ({ onSearchChange, responsiveSearch }) => {
         searchChange={onSearchChange}
       />
     </div>
-  );
-};
+  )
+}
 
-export default Search;
+export default Search
