@@ -1,46 +1,46 @@
-import React, { useState, useEffect } from 'react';
-import CardList from './components/CardList';
-import Navbar from './components/Navbar';
-import { persons } from './components/persons';
-import Search from './components/Search';
-import SimpleMap from './components/Map';
-import { createFilter } from 'react-search-input';
+import React, { useState, useEffect } from "react"
+import BatchCards from "./components/BatchCards"
+import Navbar from "./components/Navbar"
+import { people } from "./assets/persons"
+import Search from "./components/Search"
+import SimpleMap from "./components/Map"
+import { createFilter } from "react-search-input"
 
 const style = {
-  background: '#fff',
-  padding: '1rem',
-  width: '100%',
-  margin: '0',
-  zIndex: '1',
-  borderRadius: '5px'
-};
+  background: "#fff",
+  padding: "1rem",
+  width: "100%",
+  margin: "0 0 2rem 0",
+  zIndex: "1",
+  borderRadius: "5px"
+}
 const responsiveSearch = {
-  width: '100%',
-  marginBottom: '0.5rem',
-  padding: '0.5rem'
-};
+  width: "100%",
+  marginBottom: "0.5rem",
+  padding: "0.5rem"
+}
 const KEYS_TO_FILTERS = [
-  'name',
-  'jobTitle',
-  'location.city',
-  'location.state',
-  'location.country'
-];
+  "name",
+  "jobTitle",
+  "location.city",
+  "location.state",
+  "location.country"
+]
 
 function App() {
-  const [searchfield, setSearchfield] = useState('');
-  const [winWidth, setWinWidth] = useState(window.innerWidth);
-  const [map, setMap] = useState(false);
+  const [searchfield, setSearchfield] = useState("")
+  const [winWidth, setWinWidth] = useState(window.innerWidth)
+  const [map, setMap] = useState(false)
 
   useEffect(() => {
-    window.addEventListener('resize', () => {
-      setWinWidth(window.innerWidth);
-    });
-  }, []);
+    window.addEventListener("resize", () => {
+      setWinWidth(window.innerWidth)
+    })
+  }, [])
 
-  const filteredPersons = persons.filter(
-    createFilter(searchfield, KEYS_TO_FILTERS)
-  );
+  const filteredPersons = searchFilter =>
+    people.filter(createFilter(searchFilter, KEYS_TO_FILTERS))
+
   return (
     <div className="flex flex-column min-vh-100 tc">
       <header className="custom--unselectable fixed top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-3">
@@ -55,8 +55,8 @@ function App() {
         {map ? (
           <SimpleMap />
         ) : (
-          <div id="sketch-particles" className="flex flex-wrap justify-center">
-            {winWidth < 760 ? (
+          <div id="sketch-particles">
+            {winWidth < 760 && (
               // IF window width is less then 650 means its mobile, render the component
               <div style={style}>
                 <Search
@@ -64,9 +64,11 @@ function App() {
                   responsiveSearch={responsiveSearch}
                 />
               </div>
-            ) : // ELSE return nothing
-            null}
-            <CardList persons={filteredPersons} />
+            )}
+            <BatchCards
+              persons={filteredPersons(searchfield)}
+              numberPerPage={20}
+            />
           </div>
         )}
       </main>
@@ -89,7 +91,7 @@ function App() {
         </a>
       </footer>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
