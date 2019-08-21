@@ -1,3 +1,4 @@
+
 {
   "people": [{
       "id": 1,
@@ -7450,6 +7451,22 @@
         "city": "New York",
         "state": "New York",
         "country": "United States"
+      }
+    },
+    {
+      "id": 475,
+      "name": "Satendra Nath Chowdhary",
+      "img": "https://www.facebook.com/photo.php?fbid=1799860583597364&set=pb.100007203196509.-2207520000.1566394397.&type=3&theater",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/satendra-chowdhary-100607185/",
+        "github": "https://github.com/satendrachowdhary"
+      },
+      "jobTitle": "JS Full Stack Developer(Fresher)",
+      "location": {
+        "city": "Najafgarh",
+        "state": "New Delhi",
+        "country": "India"
       }
     }
   ]
