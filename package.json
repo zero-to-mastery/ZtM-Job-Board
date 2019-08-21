@@ -22,7 +22,7 @@
     "build-css": "node-sass-chokidar ./src/ --output ./src/ --output-style compressed",
     "build-js": "react-scripts build",
     "postbuild": "mv ./build/favicons/* ./build/ && rm -r ./build/favicons",
-    "test": "react-scripts test --env=jsdom",
+    "test": "npm-run-all build-css build-js react-scripts test --env=jsdom",
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
