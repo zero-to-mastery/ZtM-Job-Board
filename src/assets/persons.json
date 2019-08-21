@@ -7420,6 +7420,22 @@
       "state": "Lower silesia",
       "country": "Poland"
     }
+  },
+  {
+    "id": 473,
+    "name": "Sam Islam",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/shamiul-islam-882595169/",
+      "github": "https://github.com/Sam5180"
+    },
+    "jobTitle": "Full-Stack Developer",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "United States"
+    }
   }
 ]
 }
