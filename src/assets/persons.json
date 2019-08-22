@@ -7484,6 +7484,22 @@
         "state": "Karnataka",
         "country": "India"
       }
+    },
+    {
+      "id": 477,
+      "name": "Canaan Merchant",
+      "img": "https://media.licdn.com/dms/image/C4D03AQGd9SCk8jtcYg/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=m1hY3wf194OVTztx65YCmxt_2QKSICQ4tzPR-QbZCi0",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/canaaanmerchant/",
+        "github": "https://github.com/canaanmerchant"
+      },
+      "jobTitle": "",
+      "location": {
+        "city": "Washington",
+        "state": "DC",
+        "country": "USA"
+      }
     }
   ]
 }
