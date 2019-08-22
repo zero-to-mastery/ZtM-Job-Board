@@ -1,4 +1,3 @@
-
 {
   "people": [{
       "id": 1,
@@ -7499,6 +7498,21 @@
         "city": "Washington",
         "state": "DC",
         "country": "USA"
+      }
+    }, {
+      "id": 478,
+      "name": "Milton Neto",
+      "img": "https://media.licdn.com/dms/image/C4E03AQEyZRJXT8uy9A/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=iBsGK_DnM5KnP-85PA1_SgNYHX3zWQSUtNOVrLLQfwA",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/milton-omena/",
+        "github": "https://https://github.com/omenaneto"
+      },
+      "jobTitle": "Full Stack Dev.",
+      "location": {
+        "city": "Maceió",
+        "state": "Alagoas",
+        "country": "Brazil"
       }
     }
   ]
