@@ -6795,7 +6795,6 @@
         "country": "India"
       }
     },
-
     {
       "id": 434,
       "name": "Lachlan Whelan",
@@ -7499,7 +7498,8 @@
         "state": "DC",
         "country": "USA"
       }
-    }, {
+    },
+    {
       "id": 478,
       "name": "Milton Neto",
       "img": "https://media.licdn.com/dms/image/C4E03AQEyZRJXT8uy9A/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=iBsGK_DnM5KnP-85PA1_SgNYHX3zWQSUtNOVrLLQfwA",
@@ -7514,7 +7514,8 @@
         "state": "Alagoas",
         "country": "Brazil"
       }
-    }, {
+    },
+    {
       "id": 479,
       "name": "Ruturaj Jadeja",
       "img": "https://photos.app.goo.gl/njsLf3XieDUGQP3d7",
@@ -7529,6 +7530,6 @@
         "state": "IL",
         "country": "USA"
       }
-    },
+    }
   ]
 }
