@@ -7578,6 +7578,22 @@
       "state": "UK",
       "country": "England"
     }
+  },
+  {
+    "id": 483,
+    "name": "Sagnil Yun",
+    "img": "https://media.licdn.com/dms/image/C5103AQHROq8oN8jExw/profile-displayphoto-shrink_200_200/0?e=1573084800&v=beta&t=KtV50zNoZqjmjMjASK_9-4Gs7THD3mleoEMxCGpHNuw",
+    "links": {
+      "website": "",
+      "linkedin": "",
+      "github": "https://github.com/SangilYun"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "South Korea"
+    }
   }
   ]
 }
