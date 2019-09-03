@@ -7578,6 +7578,23 @@
       "state": "UK",
       "country": "England"
     }
+  },
+  {
+    "id": 483,
+    "name": "Sebastian Andrei Gruia",
+    "img": "https://i.postimg.cc/50MSjbvz/D80-5373.jpg",
+    "links": {
+      "website": "https://sebagruia.github.io/SebastianGruia-Project-Page/",
+      "linkedin": "https://www.linkedin.com/in/sebastiangruia/",
+      "github": "https://github.com/sebagruia"
+    },
+    "jobTitle": "Front End Developer",
+    "location": {
+      "city": "Darmstadt",
+      "state": "Hesse",
+      "country": "Deutschland"
+    }
   }
+ 
   ]
 }
