@@ -7611,6 +7611,22 @@
 				"state": "Hesse",
 				"country": "Deutschland"
 			}
+		},
+		{
+			"id": 485,
+			"name": "Chung-Fan Tsai",
+			"img": "https://i.ibb.co/9V5Sysc/profile.jpg",
+			"links": {
+				"website": "https://gigi1111.github.io/Chung-Fan-Tsai-Portfolio/",
+				"linkedin": "https://www.linkedin.com/in/chung-fan-tsai-433230175/",
+				"github": "https://github.com/Gigi1111"
+			},
+			"jobTitle": "Full Stack JS and Django Developer",
+			"location": {
+				"city": "Berlin",
+				"state": "Berlin",
+				"country": "Germany"
+			}
 		}
 	]
 }
