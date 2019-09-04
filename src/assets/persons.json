@@ -7611,7 +7611,22 @@
 				"state": "Hesse",
 				"country": "Deutschland"
 			}
+		},
+		{
+			"id": 485,
+			"name": "Fahad Jabbar",
+			"img": "",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/hereisfahad/",
+				"github": "https://github.com/hereisfahad"
+			},
+			"jobTitle": "JavaScript Developer",
+			"location": {
+				"city": "Lahore",
+				"state": "",
+				"country": "Pakistan"
+			}
 		}
-		
 	]
 }
