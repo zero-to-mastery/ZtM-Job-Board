@@ -1,4 +1,4 @@
-{
+﻿{
 	"people": [
 		{
 			"id": 1,
@@ -7611,6 +7611,20 @@
 				"state": "Hesse",
 				"country": "Deutschland"
 			}
+		},
+		{
+			 "id": 485, "name": "Fahad Jabbar",
+			 "img": "https://avatars0.githubusercontent.com/u/29518549?v=4",
+			 "links": { 
+				"website": "", "linkedin": "https://www.linkedin.com/in/hereisfahad/",
+				 "github": "https://github.com/hereisfahad" 
+			},
+			 "jobTitle": "JavaScript Developer", 
+			 "location": {
+				 "city": "Lahore",
+				 "state": "",
+				 "country": "Pakistan" 
+			} 
 		}
 	]
 }
