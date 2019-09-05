@@ -7643,6 +7643,22 @@
 				"state": "",
 				"country": "Pakistan"
 			}
+		},
+		{
+			"id": 48,
+			"name": "Mikkel Ridley",
+			"img": "https://avatars3.githubusercontent.com/u/11878116?s=460&v=4",
+			"links": {
+				"website": "https://amazecode.com/",
+				"linkedin": "https://www.linkedin.com/in/mikkel250/",
+				"github": "https://github.com/mikkel250"
+			},
+			"jobTitle": "MERN Stack Developer",
+			"location": {
+				"city": "San Francisco",
+				"state": "CA",
+				"country": "USA"
+			}
 		}
 	]
 }
