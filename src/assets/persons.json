@@ -7645,7 +7645,7 @@
 			}
 		},
 		{
-			"id": 48,
+			"id": 487,
 			"name": "Mikkel Ridley",
 			"img": "https://avatars3.githubusercontent.com/u/11878116?s=460&v=4",
 			"links": {
@@ -7658,6 +7658,22 @@
 				"city": "San Francisco",
 				"state": "CA",
 				"country": "USA"
+			}
+		},
+		{
+			"id": 488,
+			"name": "Mengyue Wu",
+			"img": "https://avatars2.githubusercontent.com/u/42802258?s=460&v=4",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/mengyue-wu-804177158/",
+				"github": "https://github.com/menyw"
+			},
+			"jobTitle": "Full Stack Developer",
+			"location": {
+				"city": "Adelaide/Canberra",
+				"state": "SA/ACT",
+				"country": "Australia"
 			}
 		}
 	]
