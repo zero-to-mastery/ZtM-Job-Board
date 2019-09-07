@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react"
 
 const SearchBox = ({ searchChange, responsiveSearch }) => {
   return (
@@ -14,7 +14,7 @@ const SearchBox = ({ searchChange, responsiveSearch }) => {
         onChange={searchChange}
       />
     </div>
-  );
-};
+  )
+}
 
-export default SearchBox;
+export default SearchBox

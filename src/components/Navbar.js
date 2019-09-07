@@ -1,5 +1,5 @@
-import React from 'react';
-import Search from './Search';
+import React from "react"
+import Search from "./Search"
 
 const Navbar = ({ onSearchChange, winWidth, onMapClick, onLogoClick }) => {
   return (
@@ -15,16 +15,14 @@ const Navbar = ({ onSearchChange, winWidth, onMapClick, onLogoClick }) => {
         <span className="fw3">Job</span>
         <span className="fw7 custom--text-primary">Board</span>
       </h1>
-      <span
-        className="f3 pointer"
-        style={{ marginLeft: '20em' }}
-        onClick={onMapClick}
-      >
-        Map
-      </span>
-      {winWidth > 760 ? <Search onSearchChange={onSearchChange} /> : null}
+      <div className="flex items-center">
+        <span className="f3 mr4 pointer" onClick={onMapClick}>
+          Map
+        </span>
+        {winWidth > 760 ? <Search onSearchChange={onSearchChange} /> : null}
+      </div>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar
