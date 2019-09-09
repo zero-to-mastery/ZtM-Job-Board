@@ -7690,7 +7690,23 @@
 				"state": "South Moravia",
 				"country": "Czech Republic"
 			}
+		},
+		{
+			"id": 490,
+			"name": "Przemyslaw Gilewski",
+			"img": "https://avatars2.githubusercontent.com/u/35427990?s=460&v=4",
+			"links": {
+				"website": "http://pgilewski.com/",
+				"linkedin": "https://www.linkedin.com/in/przemyslaw-gilewski/",
+				"github": "https://github.com/pgilewski"
+			},
+			"jobTitle": "Full Stack Developer",
+			"location": {
+				"city": "Szczecin",
+				"state": "zachodnio-pomorskie",
+				"country": "Poland"
+			}
 		}
-
+		
 	]
 }
