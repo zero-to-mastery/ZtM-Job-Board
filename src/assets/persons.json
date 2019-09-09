@@ -1,4 +1,4 @@
-﻿{
+{
 	"people": [{
 			"id": 1,
 			"name": "Andrej Zadnik",
@@ -7706,7 +7706,23 @@
 				"state": "zachodnio-pomorskie",
 				"country": "Poland"
 			}
+		},
+		{
+			"id": 391,
+			"name": "Maduabuchi Okonkwo",
+			"img": "https://media.licdn.com/dms/image/C5603AQExX7PwoRztZg/profile-displayphoto-shrink_200_200/0?e=1565827200&v=beta&t=QGAprDkmWsGLRMb9Z3NyueaK8Xf7si6eyPFtF8lqU1A",
+			"links": {
+				"website": "",
+				"linkedin": "www.linkedin.com/in/maduabuchi-okonkwo-855380b9",
+				"github": "https://github.com/Maduflavins"
+			},
+			"jobTitle": "Software Developer|Data Sciencetist|IT Professional",
+			"location": {
+				"city": "Abuja",
+				"state": "Abuja",
+				"country": "Nigeria"
+			}
 		}
-		
+
 	]
 }
