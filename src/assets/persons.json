@@ -7708,7 +7708,7 @@
 			}
 		},
 		{
-			"id": 391,
+			"id": 491,
 			"name": "Maduabuchi Okonkwo",
 			"img": "https://media.licdn.com/dms/image/C5603AQExX7PwoRztZg/profile-displayphoto-shrink_200_200/0?e=1565827200&v=beta&t=QGAprDkmWsGLRMb9Z3NyueaK8Xf7si6eyPFtF8lqU1A",
 			"links": {
@@ -7722,7 +7722,24 @@
 				"state": "Abuja",
 				"country": "Nigeria"
 			}
+		},
+		{
+			"id": 492,
+			"name": "Meagan Olsen",
+			"img": "",
+			"links": {
+				"website": "https://olsenme.github.io/portfolio/",
+				"linkedin": "www.linkedin.com/in/mkjo",
+				"github": "https://github.com/olsenme"
+			},
+			"jobTitle": "Software Developer|Technical Consultant|Technical Program Manager",
+			"location": {
+				"city": "Portland",
+				"state": "Oregon",
+				"country": "United States"
+			}
 		}
+
 
 	]
 }
