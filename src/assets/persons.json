@@ -7755,6 +7755,23 @@
 				"state": "New York",
 				"country": "United States"
 			}
+		},
+		{
+			"id": 494,
+			"name": "Ricardo Esteves",
+			"img": "",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/ricardo-esteves-a5a971159/",
+				"github": "https://github.com/ricksnow26"
+			},
+			"jobTitle": "Electrical Engineer, Web Developer",
+			"location": {
+				"city": "Porto",
+				"state": "",
+				"country": "Portugal"
+			}
 		}
+
 	]
 }
