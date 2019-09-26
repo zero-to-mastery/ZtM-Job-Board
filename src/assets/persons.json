@@ -7867,6 +7867,23 @@
 				"state": "",
 				"country": "England"
 			}
-		}
+		},
+		{
+			"id": 501,
+			"name": "Mauro Small",
+			"img": "https://media.licdn.com/dms/image/C4D03AQE4qZ20MsE_KA/profile-displayphoto-shrink_200_200/0?e=1574899200&v=beta&t=niw1nWkOqv6Lr4708EQnn9a4f14hUBDTLDJ6zY6khjE",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/mauro-small/",
+				"github": "https://github.com/mlsmall"
+			},
+			"jobTitle": "Machine Learning Practitioner",
+			"location": {
+				"city": "Montreal",
+				"state": "",
+				"country": "Canada"
+			}
+		}	
+
 	]
 }
