@@ -7883,7 +7883,22 @@
 				"state": "",
 				"country": "Canada"
 			}
-		}	
-
+		},
+		{
+			"id": 502,
+			"name": "Gonzalo García Costoya",
+			"img": "https://avatars1.githubusercontent.com/u/47854878?s=400&u=0640c04415b7d75704f9d5d2c7d165db512bd860&v=4",
+			"links": {
+				"website": "linkedin.com/in/gonza-garcia",
+				"linkedin": "linkedin.com/in/gonza-garcia",
+				"github": "github.com/gonza-garcia"
+			},
+			"jobTitle": "Full Stack Web Developer",
+			"location": {
+				"city": "Mar del Plata",
+				"state": "Buenos Aires",
+				"country": "Argentina"
+			}
+		}
 	]
 }
