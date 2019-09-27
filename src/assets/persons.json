@@ -7899,6 +7899,23 @@
 				"state": "Buenos Aires",
 				"country": "Argentina"
 			}
+		}, 
+
+		{
+			"id": 503,
+			"name": "Yisau Abdussamad",
+			"img": "https://res.cloudinary.com/sammieyisau/image/upload/v1554321179/Samad_3.jpg",
+			"links": {
+				"website": "https://abdussamadyisau.github.io",
+				"linkedin": "https://www.linkedin.com/in/abdussamad-yisau-915298154/",
+				"github": "https://github.com/AbdussamadYisau"
+			},
+			"jobTitle": "Frontend Web Developer",
+			"location": {
+				"city": "Lagos",
+				"state": "",
+				"country": "Nigeria"
+			}
 		}
 	]
 }
