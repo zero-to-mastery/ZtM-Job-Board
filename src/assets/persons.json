@@ -7979,6 +7979,22 @@
 				"state": "Punjab",
 				"country": "India"
 			}
+		},
+		{
+			"id": 508,
+			"name": "Ionut Oceanu",
+			"img": "https://oceanu-ionut.netlify.com/assets/image.daa3a19bf5aed7dab1e1f02bbc8ba6b4.jpg",
+			"links": {
+				"website": "https://oceanu-ionut.netlify.com/",
+				"linkedin": "https://www.linkedin.com/in/ionut-oceanu/",
+				"github": "https://github.com/OceanU"
+			},
+			"jobTitle": "Full Stack Web Developer",
+			"location": {
+				"city": "Bucharest",
+				"state": "",
+				"country": "Romania"
+			}
 		}
 	]
 }
