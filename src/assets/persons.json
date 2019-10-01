@@ -7963,6 +7963,22 @@
 				"state": "",
 				"country": "Germany"
 			}
+		},
+		{
+			"id": 507,
+			"name": "Bibekpreet Singh",
+			"img": "",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/bibekpreet-singh-797966166/",
+				"github": "https://github.com/bibekpreet99"
+			},
+			"jobTitle": "Fullstack Javascript Developer",
+			"location": {
+				"city": "",
+				"state": "Punjab",
+				"country": "India"
+			}
 		}
 	]
 }
