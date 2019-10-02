@@ -4429,13 +4429,12 @@
       "name": "Louis Beul",
       "img": "",
       "links": {
-        "website": "https://lbeul.github.io/",
         "linkedin": "https://www.linkedin.com/in/louis-beul-186108175/",
         "github": "https://github.com/LBeul"
       },
-      "jobTitle": "Front End Web Developer",
+      "jobTitle": "Web Developer",
       "location": {
-        "city": "",
+        "city": "Rehe",
         "state": "Westwood Forest",
         "country": "Germany"
       }
