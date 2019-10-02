@@ -8011,5 +8011,21 @@
         "country": "Canada"
       }
     }
+     {
+      "id": 510,
+      "name": "Fadhil Kehinde Akindele",
+      "img": "https://res.cloudinary.com/fadhil/image/upload/v1570022438/My%20Pictures/blackops3.jpg",
+      "links": {
+        "website": " ",
+        "linkedin": "https://www.linkedin.com/in/fadhil-akindele-24701310a/",
+        "github": "https://github.com/TheCount511"
+      },
+      "jobTitle": "Frontend Developer",
+      "location": {
+        "city": "Lagos",
+        "state": "",
+        "country": ""
+      }
+    }
   ]
 }
