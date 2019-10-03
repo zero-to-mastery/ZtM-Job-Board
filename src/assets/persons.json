@@ -8042,6 +8042,22 @@
 			"state": "Pampanga",
 			"country": "Philippines"
 		}
+	},
+	{
+		"id": 512,
+		"name": "Arkadiusz Szymczak",
+		"img": "",
+		"links": {
+			"website": "http://arkadiusz-szymczak.surge.sh/",
+			"linkedin": "https://www.linkedin.com/in/arkadiusz-szymczak/",
+			"github": "https://github.com/Aszmel"
+		},
+		"jobTitle": "Front-End Developer",
+		"location": {
+			"city": "",
+			"state": "",
+			"country": "Poland"
+		}
 	}
 	]
 }
