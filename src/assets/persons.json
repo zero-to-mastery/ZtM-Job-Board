@@ -8026,6 +8026,22 @@
 				"state": "",
 				"country": ""
 			}
+		},
+		{
+		"id": 511,
+		"name": "Melody Reyes",
+		"img": "https://melodyreyes.pixieset.com/picture/p/MzMxMzU5NjU0OA==-MzY1MjI1ODI4MQ/",
+		"links": {
+			"website": " ",
+			"linkedin": "https://www.linkedin.com/in/melodyreyes/",
+			"github": "https://github.com/MelodyReyes09"
+		},
+		"jobTitle": "Frontend Web Developer",
+		"location": {
+			"city": "Mexico",
+			"state": "Pampanga",
+			"country": "Philippines"
 		}
+	}
 	]
 }
