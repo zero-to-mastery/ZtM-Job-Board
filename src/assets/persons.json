@@ -8058,6 +8058,22 @@
 			"state": "",
 			"country": "Poland"
 		}
-	}
+	},
+	{
+    "id": 512,
+    "name": "Jessica Yin",
+    "img": "https://ibb.co/djkLv5z",
+    "links": {
+      "website": "https://jcat1504.github.io/portfolio2019/",
+      "linkedin": "https://www.linkedin.com/in/jessicatyin/",
+      "github": "https://github.com/jcat1504"
+    },
+    "jobTitle": "Front-End Developer",
+    "location": {
+      "city": "Buena Park",
+      "state": "California",
+      "country": "United States"
+    }
+  }
 	]
 }
