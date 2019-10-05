@@ -8074,6 +8074,21 @@
       "state": "California",
       "country": "United States"
     }
-  }
+  },
+  {
+    id: 513,
+    name: "Mike Damato",
+    img: "",
+    links: {
+      linkedin: "[https://www.linkedin.com/in/michael-damato-683abb48/",
+      github: "https://github.com/Mike-Damato"
+    },
+    jobTitle: "Fullstack Developer",
+    location: {
+      city: "New York",
+      state: "New York",
+      country: "USA"
+    }
+  },
 	]
 }
