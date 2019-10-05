@@ -2,24 +2,24 @@
 A place for developers to show recruiters that they are available for hire. Feel free to contribute and improve this in any way you see fit.
 
 ### How to add your name to the list
-To add your name to the list, simply open `persons.json` file in the `src/assets` folder, and then add your own row at the bottom, using the below template:    
+To add your name to the list, simply open `persons.json` file in the `src/assets` folder, and then add your own row at the bottom, using the below template:
 ( **Don't include the square brackets "[ ]" !!! They are just there to indicate an example placeholder.** )
 
 ```moonscript
   {
-    id: [PREVIOUS_PLUS_ONE],
-    name: "[YOUR_FULL_NAME]",
-    img: "[YOUR_IMG_URL]",
-    links: {
-      website: "[YOUR_WEBSITE_URL]",
-      linkedin: "[YOUR_LINKEDIN_URL]",
-      github: "[YOUR_GITHUB_URL]"
+    "id": [PREVIOUS_PLUS_ONE],
+    "name": "[YOUR_FULL_NAME]",
+    "img": "[YOUR_IMG_URL]",
+    "links": {
+      "website": "[YOUR_WEBSITE_URL]",
+      "linkedin": "[YOUR_LINKEDIN_URL]",
+      "github": "[YOUR_GITHUB_URL]"
     },
-    jobTitle: "[YOUR_TITLE]",
-    location: {
-      city: "[YOUR_CITY]",
-      state: "[YOUR_STATE_OR_PROVINCE]",
-      country: "[YOUR_COUNTRY]"
+    "jobTitle": "[YOUR_TITLE]",
+    "location": {
+      "city": "[YOUR_CITY]",
+      "state": "[YOUR_STATE_OR_PROVINCE]",
+      "country": "[YOUR_COUNTRY]"
     }
   },
 ```
