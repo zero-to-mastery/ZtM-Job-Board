@@ -8041,7 +8041,7 @@
 				"city": "Mexico",
 				"state": "Pampanga",
 				"country": "Philippines"
-		}
+			}
 		},
 		{
 			"id": 512,
@@ -8060,36 +8060,51 @@
 			}
 		},
 		{
-		    "id": 513,
-		    "name": "Jessica Yin",
-		    "img": "https://ibb.co/djkLv5z",
-		    "links": {
-		      "website": "https://jcat1504.github.io/portfolio2019/",
-		      "linkedin": "https://www.linkedin.com/in/jessicatyin/",
-		      "github": "https://github.com/jcat1504"
-		    },
-		    "jobTitle": "Front-End Developer",
-		    "location": {
-		      "city": "Buena Park",
-		      "state": "California",
-		      "country": "United States"
-		    }
-	 	},
-	 	{
-		    "id": 514,
-		    "name": "Daniele Buccheri",
-		    "img": "https://avatars2.githubusercontent.com/u/9345854?s=460&v=4",
-		    "links": {
-		      "website": "https://dbuccheri.github.io",
-		      "linkedin": "https://www.linkedin.com/in/danielebuccheri/",
-		      "github": "https://github.com/dbuccheri"
-		    },
-		    "jobTitle": "Full Stack Developer",
-		    "location": {
-		      "city": "Los Angeles",
-		      "state": "California",
-		      "country": "United States"
-		    }
-	 	}
+			"id": 513,
+			"name": "Jessica Yin",
+			"img": "https://ibb.co/djkLv5z",
+			"links": {
+				"website": "https://jcat1504.github.io/portfolio2019/",
+				"linkedin": "https://www.linkedin.com/in/jessicatyin/",
+				"github": "https://github.com/jcat1504"
+			},
+			"jobTitle": "Front-End Developer",
+			"location": {
+				"city": "Buena Park",
+				"state": "California",
+				"country": "United States"
+			}
+		},
+		{
+			"id": 514,
+			"name": "Daniele Buccheri",
+			"img": "https://avatars2.githubusercontent.com/u/9345854?s=460&v=4",
+			"links": {
+				"website": "https://dbuccheri.github.io",
+				"linkedin": "https://www.linkedin.com/in/danielebuccheri/",
+				"github": "https://github.com/dbuccheri"
+			},
+			"jobTitle": "Full Stack Developer",
+			"location": {
+				"city": "Los Angeles",
+				"state": "California",
+				"country": "United States"
+			}
+		},
+		{
+			"id": 515,
+			"name": "Mike Damato",
+			"img": "",
+			"links": {
+				"linkedin": "[https://www.linkedin.com/in/michael-damato-683abb48/",
+				"github": "https://github.com/Mike-Damato"
+			},
+			"jobTitle": "Fullstack Developer",
+			"location": {
+				"city": "New York",
+				"state": "New York",
+				"country": "USA"
+			}
+		}
 	]
 }
