@@ -6,7 +6,7 @@ To add your name to the list, simply open `persons.json` file in the `src/assets
 ( **Don't include the square brackets "[ ]" !!! They are just there to indicate an example placeholder.** )
 
 ```moonscript
-  {
+  ,{
     "id": [PREVIOUS_PLUS_ONE],
     "name": "[YOUR_FULL_NAME]",
     "img": "[YOUR_IMG_URL]",
@@ -21,7 +21,7 @@ To add your name to the list, simply open `persons.json` file in the `src/assets
       "state": "[YOUR_STATE_OR_PROVINCE]",
       "country": "[YOUR_COUNTRY]"
     }
-  },
+  }
 ```
 
 ### Please note!
