@@ -8105,6 +8105,22 @@
 				"state": "New York",
 				"country": "USA"
 			}
+		},
+		{
+			"id": 516,
+			"name": "Sergey Filat",
+			"img": "",
+			"links": {
+				"website": "",
+				"linkedin": "",
+				"github": "https://github.com/Filat1"
+			},
+			"jobTitle": "Full Stack Developer",
+			"location": {
+				"city": "Toronto",
+				"state": "Ontario",
+				"country": "Canada"
+			}
 		}
 	]
 }
