@@ -8121,6 +8121,22 @@
 				"state": "Ontario",
 				"country": "Canada"
 			}
+		},
+		{
+			"id": 517,
+			"name": "Robin Kartikeya Khatri",
+			"img": "https://pbs.twimg.com/profile_images/760312973470625792/KgptdRN3_400x400.jpg",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/robin-kartikeya-khatri-611278aa/",
+				"github": "https://github.com/RobinKartikeyaKhatri"
+			},
+			"jobTitle": "Full Stack Developer",
+			"location": {
+				"city": "Barmer",
+				"state": "Rajasthan",
+				"country": "India"
+			}
 		}
 	]
 }
