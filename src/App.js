@@ -67,7 +67,7 @@ function App() {
               )}
               <BatchCards
                 persons={filteredPersons(searchfield)}
-                numberPerPage={20}
+                numberPerBatch={16}
               />
             </div>
           )}
