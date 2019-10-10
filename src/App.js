@@ -55,22 +55,22 @@ function App() {
         {map ? (
           <SimpleMap />
         ) : (
-          <div id="sketch-particles">
-            {winWidth < 760 && (
-              // IF window width is less then 650 means its mobile, render the component
-              <div style={style}>
-                <Search
-                  onSearchChange={e => setSearchfield(e.target.value)}
-                  responsiveSearch={responsiveSearch}
-                />
-              </div>
-            )}
-            <BatchCards
-              persons={filteredPersons(searchfield)}
-              numberPerPage={20}
-            />
-          </div>
-        )}
+            <div id="sketch-particles">
+              {winWidth < 760 && (
+                // IF window width is less then 650 means its mobile, render the component
+                <div style={style}>
+                  <Search
+                    onSearchChange={e => setSearchfield(e.target.value)}
+                    responsiveSearch={responsiveSearch}
+                  />
+                </div>
+              )}
+              <BatchCards
+                persons={filteredPersons(searchfield)}
+                numberPerPage={20}
+              />
+            </div>
+          )}
       </main>
       <footer className="custom--unselectable w-100 h3 flex items-center justify-center justify-end-l white custom--bg-additional3 z-2">
         <a
