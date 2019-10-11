@@ -38,6 +38,8 @@ function App() {
     })
   }, [])
 
+  //TODO randomize people id's here
+
   const filteredPersons = searchFilter =>
     people.filter(createFilter(searchFilter, KEYS_TO_FILTERS))
 
