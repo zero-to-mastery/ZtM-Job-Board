@@ -5,6 +5,7 @@ import { people } from "./assets/persons"
 import Search from "./components/Search"
 import SimpleMap from "./components/Map"
 import { createFilter } from "react-search-input"
+import { shuffle } from './util/shuffle'
 
 const style = {
   background: "#fff",
@@ -38,7 +39,9 @@ function App() {
     })
   }, [])
 
-  //TODO randomize people id's here
+  //note: shuffle function is not pure function, it mutates original array
+  //in order to avoid memory duplication
+  shuffle(people);
 
   const filteredPersons = searchFilter =>
     people.filter(createFilter(searchFilter, KEYS_TO_FILTERS))
