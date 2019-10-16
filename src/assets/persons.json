@@ -8249,6 +8249,22 @@
         "state": "",
         "country": "India"
       }
+    },
+    {
+      "id": 525,
+      "name": "Jack Bizzell",
+      "img": "",
+      "links": {
+        "website": "",
+        "linkedin": "",
+        "github": "https://github.com/freedomField/"
+      },
+      "jobTitle": "Full Stack Developer | React specialist",
+      "location": {
+        "city": "",
+        "state": "West-midlands",
+        "country": "United Kingdom"
+      }
     }
   ]
 }
