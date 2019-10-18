@@ -8314,6 +8314,21 @@
 				"state": "",
 				"country": "Anywhere (Remotely) "
 			}
+			{
+			"id": 528,
+			"name": "Rucha Deshpande",
+			"img": "",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/rucha-deshpande-087b7342/",
+				"github": "https://github.com/cha1690"
+			},
+			"jobTitle": "Full Stack Developer",
+			"location": {
+				"city": "",
+				"state": "",
+				"country": "Anywhere (Remotely) "
+			}
 		}
 	]
 }
