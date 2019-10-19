@@ -8345,6 +8345,21 @@
 				"state": "Colorado",
 				"country": "United States"
 			}
-		}
+		},{
+    "id": 530,
+    "name": "Chiragkumar Maniyar",
+    "img": "",
+    "links": {
+      "website": "http://cumaniar.cf",
+      "linkedin": "https://www.linkedin.com/in/chiragkumar-maniyar-37017492/",
+      "github": "https://github.com/CUManiar"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India"
+    }
+  }
 	]
 }
