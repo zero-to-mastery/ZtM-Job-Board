@@ -8345,21 +8345,38 @@
 				"state": "Colorado",
 				"country": "United States"
 			}
-		},{
-    "id": 530,
-    "name": "Chiragkumar Maniyar",
-    "img": "",
-    "links": {
-      "website": "http://cumaniar.cf",
-      "linkedin": "https://www.linkedin.com/in/chiragkumar-maniyar-37017492/",
-      "github": "https://github.com/CUManiar"
-    },
-    "jobTitle": "Software Engineer",
-    "location": {
-      "city": "Pune",
-      "state": "Maharashtra",
-      "country": "India"
-    }
-  }
+		},
+		{
+	    "id": 530,
+	    "name": "Chiragkumar Maniyar",
+	    "img": "",
+	    "links": {
+	      "website": "http://cumaniar.cf",
+	      "linkedin": "https://www.linkedin.com/in/chiragkumar-maniyar-37017492/",
+	      "github": "https://github.com/CUManiar"
+	    },
+	    "jobTitle": "Software Engineer",
+	    "location": {
+	      "city": "Pune",
+	      "state": "Maharashtra",
+	      "country": "India"
+	    }
+	  	},
+		{
+			"id": 531,
+			"name": "Puneet Kumar",
+			"img": "https://puneetkumarkaushik.github.io/img/profile.jpeg",
+			"links": {
+				"website": "https://puneetkumarkaushik.github.io/",
+				"linkedin": "https://www.linkedin.com/in/puneet-kumar-294507a6/",
+				"github": "https://github.com/puneetkumarkaushik"
+			},
+			"jobTitle": "Software Engineer",
+			"location": {
+				"city": "Bangalore",
+				"state": "Karnataka",
+				"country": "India"
+			}
+		}
 	]
 }
