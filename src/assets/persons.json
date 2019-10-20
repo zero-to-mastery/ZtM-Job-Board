@@ -8377,6 +8377,22 @@
 				"state": "Karnataka",
 				"country": "India"
 			}
+		},
+		{
+			"id": 532,
+			"name": "Jovan Ničković",
+			"img": "https://avatars0.githubusercontent.com/u/34028234?s=460&v=4",
+			"links": {
+				"website": "",
+				"linkedin": "",
+				"github": "https://github.com/jovannickovic"
+			},
+			"jobTitle": "Web Developer (PHP, JavaScript)",
+			"location": {
+				"city": "",
+				"state": "",
+				"country": "Serbia"
+			}
 		}
 	]
 }
