@@ -1,9 +1,7 @@
 import React from "react";
-import GoogleMapReact from "google-map-react";
-import Canvas from "./Canvas";
-import { people } from "../assets/persons";
+import { Map as LeafletMap, TileLayer, Marker } from 'react-leaflet';
 
-const AnyReactComponent = props => <div>{props.children}</div>;
+import { people } from "../assets/persons";
 
 let arr = [];
 
@@ -53,32 +51,38 @@ people.forEach(person => {
   }
 });
 
-function SimpleMap({ center = { lat: 55.378052, lng: -3.435973 }, zoom = 4 }) {
+function SimpleMap({ zoom = 4 }) {
+
+  const center  =  (arr.length > 0) ? [arr[0].lat, arr[0].lng]: [ 55.378052, -3.435973 ] ;
+
   return (
-    // Important! Always set the container height explicitly
     <div style={{ height: "100vh", width: "100%" }}>
-      <GoogleMapReact
-        //I could not figure out a safe place to store this key, since there's no server
-        bootstrapURLKeys={{ key: "AIzaSyAc9rLvEJvIGk_UZ6af_kiC5_xenNVLaMU" }}
-        defaultCenter={center}
-        defaultZoom={zoom}
+      <LeafletMap
+        center={center}
+        zoom={zoom}
+        maxZoom={10}
+        attributionControl={true}
+        zoomControl={true}
+        doubleClickZoom={true}
+        scrollWheelZoom={true}
+        dragging={true}
+        animate={true}
+        easeLinearity={0.35}
       >
-        {arr.length !== 0 ? (
-          arr.map((location, i) => (
-            <AnyReactComponent
-              key={i}
-              lat={location.lat + Math.random()}
-              lng={location.lng + Math.random()}
-            >
-              <Canvas />
-            </AnyReactComponent>
-          ))
-        ) : (
-          <AnyReactComponent lat={55.378052} lng={-3.764658}>
-            <Canvas />
-          </AnyReactComponent>
-        )}
-      </GoogleMapReact>
+        <TileLayer
+          attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
+          url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'
+        />
+        { 
+            arr.map((location, i) => (
+              <Marker 
+                key={i}
+                position={[location.lat, location.lng]}>
+              </Marker>
+
+            ))
+        }
+      </LeafletMap>
     </div>
   );
 }
