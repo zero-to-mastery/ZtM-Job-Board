@@ -8396,7 +8396,23 @@
 		},
 		{
 			"id": 533,
-			"name": "Yash Shelatkar",
+			"name": "Constantino Saldana",
+			"img": "https://avatars3.githubusercontent.com/u/45720754?s=460&v=4",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/constantinosaldana/",
+				"github": "https://github.com/antinomezco"
+			},
+			"jobTitle": "Web Developer (Python, JavaScript)",
+			"location": {
+				"city": "Montreal",
+				"state": "Quebec",
+				"country": "Canada"
+      }
+    },
+    {
+      "id": 534,
+      "name": "Yash Shelatkar",
 			"img": "https://avatars2.githubusercontent.com/u/25059239?s=400&u=804b365294eaadc66bcfadb6a7ab0b000651511b&v=4",
 			"links": {
 				"website": "http://www.yashshelatkar.com",
