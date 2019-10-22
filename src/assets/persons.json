@@ -8441,6 +8441,21 @@
       "state": "Ohio",
       "country": "United States"
     }
-  }
+  },
+  {
+	"id": 536,
+	"name": "Kaustuv Karan",
+		  "img": "https://avatars2.githubusercontent.com/u/43791878?s=460&v=4",
+		  "links": {
+			  "linkedin": "https://www.linkedin.com/in/kaustuv-karan-b56750169/",
+			  "github": "https://github.com/kaustuvkaran01"
+		  },
+		  "jobTitle": "React Developer Intern",
+		  "location": {
+			  "city": "Patiala",
+			  "state": "Punjab",
+			  "country": "India"
+		  }
+	  }
 	]
 }
