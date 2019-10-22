@@ -8425,6 +8425,22 @@
 				"state": "Victoria",
 				"country": "Australia"
 			}
-		}
+		},
+		{
+    "id": 535,
+    "name": "Oussama Er rabili",
+    "img": "https://avatars1.githubusercontent.com/u/20917516?s=460&v=4",
+    "links": {
+      "website": "http://oussamawebdev.com",
+      "linkedin": "https://www.linkedin.com/in/oussamaerrabili/",
+      "github": "https://github.com/redmor"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "location": {
+      "city": "Columbus",
+      "state": "Ohio",
+      "country": "United States"
+    }
+  }
 	]
 }
