@@ -8488,6 +8488,22 @@
 		  "state": "New York",
 		  "country": "United States"
 		}
+	},
+	{
+		"id": 539,
+		"name": "AmirDlz",
+		"img": "https://avatars0.githubusercontent.com/u/54416476?s=460&v=4",
+		"links": {
+			"website": "https://aynorica.github.io/",
+			"linkedin": "https://www.linkedin.com/in/amir-deilamizadeh-2712a6192",
+			"github": "https://github.com/aynorica"
+		},
+		"jobTitle": "Full-stack Developer",
+		"location": {
+			"city": "Istanbul",
+			"state": "Istanbul",
+			"country": "Turkey"
+		}
 	}
 	  
 	]
