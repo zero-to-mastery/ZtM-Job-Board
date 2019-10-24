@@ -8504,6 +8504,22 @@
 			"state": "Istanbul",
 			"country": "Turkey"
 		}
+	},
+	{
+		"id": 540,
+		"name": "Khalig Novruzli",
+		"img": "https://avatars3.githubusercontent.com/u/6874791?s=460&v=4",
+		"links": {
+		  "website": "",
+		  "linkedin": "https://www.linkedin.com/in/khalign/",
+		  "github": "https://github.com/khalign"
+		},
+		"jobTitle": "Software Engineer",
+		"location": {
+		  "city": "Bandirma",
+		  "state": "Balikesir",
+		  "country": "Turkey"
+		}
 	}
 	  
 	]
