@@ -8408,11 +8408,11 @@
 				"city": "Montreal",
 				"state": "Quebec",
 				"country": "Canada"
-      }
-    },
-    {
-      "id": 534,
-      "name": "Yash Shelatkar",
+			}
+		},
+		{
+			"id": 534,
+			"name": "Yash Shelatkar",
 			"img": "https://avatars2.githubusercontent.com/u/25059239?s=400&u=804b365294eaadc66bcfadb6a7ab0b000651511b&v=4",
 			"links": {
 				"website": "http://www.yashshelatkar.com",
@@ -8427,132 +8427,242 @@
 			}
 		},
 		{
-    "id": 535,
-    "name": "Oussama Er rabili",
-    "img": "https://avatars1.githubusercontent.com/u/20917516?s=460&v=4",
-    "links": {
-      "website": "http://oussamawebdev.com",
-      "linkedin": "https://www.linkedin.com/in/oussamaerrabili/",
-      "github": "https://github.com/redmor"
-    },
-    "jobTitle": "Full Stack Web Developer",
-    "location": {
-      "city": "Columbus",
-      "state": "Ohio",
-      "country": "United States"
-    }
-  },
-  {
-	"id": 536,
-	"name": "Kaustuv Karan",
-		  "img": "https://avatars2.githubusercontent.com/u/43791878?s=460&v=4",
-		  "links": {
-			  "linkedin": "https://www.linkedin.com/in/kaustuv-karan-b56750169/",
-			  "github": "https://github.com/kaustuvkaran01"
-		  },
-		  "jobTitle": "React Developer Intern",
-		  "location": {
-			  "city": "Patiala",
-			  "state": "Punjab",
-			  "country": "India"
-		  }
-	  },
-   {
-	"id": 537,
-	"name": "Rajnish Kr Singh",
-		  "img": "https://media.licdn.com/dms/image/C5103AQFCTSzJ-qni8Q/profile-displayphoto-shrink_200_200/0?e=1577318400&v=beta&t=iAdUxzlVtGmSIHm9I9EzsIqIuup4kKiJdyNwuDEwCTk",
-		  "links": {
-		  	  "website": "https://rajnishkrsingh.github.io/my_portfolio",
-			  "linkedin": "https://www.linkedin.com/in/rajnish-kr-singh-165272184/",
-			  "github": "https://github.com/RajnishKrSingh"
-		  },
-		  "jobTitle": "Web Developer | Programmer | ReactJS Enthusiast",
-		  "location": {
-			  "city": "Kolkata",
-			  "state": "",
-			  "country": "India"
-		  }
-	},
-	{
-		"id": 538,
-		"name": "Donald Tang",
-		"img": "",
-		"links": {
-		  "website": "https://turazi.xyz/",
-		  "linkedin": "https://www.linkedin.com/in/donaldtang8/",
-		  "github": "https://github.com/turazi"
+			"id": 535,
+			"name": "Oussama Er rabili",
+			"img": "https://avatars1.githubusercontent.com/u/20917516?s=460&v=4",
+			"links": {
+				"website": "http://oussamawebdev.com",
+				"linkedin": "https://www.linkedin.com/in/oussamaerrabili/",
+				"github": "https://github.com/redmor"
+			},
+			"jobTitle": "Full Stack Web Developer",
+			"location": {
+				"city": "Columbus",
+				"state": "Ohio",
+				"country": "United States"
+			}
 		},
-		"jobTitle": "Software Developer",
-		"location": {
-		  "city": "New York",
-		  "state": "New York",
-		  "country": "United States"
-		}
-	},
-	{
-		"id": 539,
-		"name": "AmirDlz",
-		"img": "https://avatars0.githubusercontent.com/u/54416476?s=460&v=4",
-		"links": {
-			"website": "https://aynorica.github.io/",
-			"linkedin": "https://www.linkedin.com/in/amir-deilamizadeh-2712a6192",
-			"github": "https://github.com/aynorica"
+		{
+			"id": 536,
+			"name": "Kaustuv Karan",
+			"img": "https://avatars2.githubusercontent.com/u/43791878?s=460&v=4",
+			"links": {
+				"linkedin": "https://www.linkedin.com/in/kaustuv-karan-b56750169/",
+				"github": "https://github.com/kaustuvkaran01"
+			},
+			"jobTitle": "React Developer Intern",
+			"location": {
+				"city": "Patiala",
+				"state": "Punjab",
+				"country": "India"
+			}
 		},
-		"jobTitle": "Full-stack Developer",
-		"location": {
-			"city": "Istanbul",
-			"state": "Istanbul",
-			"country": "Turkey"
-		}
-	},
-	{
-		"id": 540,
-		"name": "Khalig Novruzli",
-		"img": "https://avatars3.githubusercontent.com/u/6874791?s=460&v=4",
-		"links": {
-		  "website": "",
-		  "linkedin": "https://www.linkedin.com/in/khalign/",
-		  "github": "https://github.com/khalign"
+		{
+			"id": 537,
+			"name": "Rajnish Kr Singh",
+			"img": "https://media.licdn.com/dms/image/C5103AQFCTSzJ-qni8Q/profile-displayphoto-shrink_200_200/0?e=1577318400&v=beta&t=iAdUxzlVtGmSIHm9I9EzsIqIuup4kKiJdyNwuDEwCTk",
+			"links": {
+				"website": "https://rajnishkrsingh.github.io/my_portfolio",
+				"linkedin": "https://www.linkedin.com/in/rajnish-kr-singh-165272184/",
+				"github": "https://github.com/RajnishKrSingh"
+			},
+			"jobTitle": "Web Developer | Programmer | ReactJS Enthusiast",
+			"location": {
+				"city": "Kolkata",
+				"state": "",
+				"country": "India"
+			}
 		},
-		"jobTitle": "Software Engineer",
-		"location": {
-		  "city": "Bandirma",
-		  "state": "Balikesir",
-		  "country": "Turkey"
-		}
-	},
-	{
-		"id": 541,
-		"name": "Konstantin Proshin",
-		"img": "https://avatars1.githubusercontent.com/u/48204262?s=460&v=4",
-		"links": {
-		  "website": "https://jkorum.github.io/portfolio-page/",
-		  "linkedin": "https://www.linkedin.com/in/konstantin-proshin/",
-		  "github": "https://github.com/JKorum"
+		{
+			"id": 538,
+			"name": "Donald Tang",
+			"img": "",
+			"links": {
+				"website": "https://turazi.xyz/",
+				"linkedin": "https://www.linkedin.com/in/donaldtang8/",
+				"github": "https://github.com/turazi"
+			},
+			"jobTitle": "Software Developer",
+			"location": {
+				"city": "New York",
+				"state": "New York",
+				"country": "United States"
+			}
 		},
-		"jobTitle": "Full-Stack Web Developer",
-		"location": {
-		  "city": "Moscow",
-		  "state": "",
-		  "country": "Russia"
+		{
+			"id": 539,
+			"name": "AmirDlz",
+			"img": "https://avatars0.githubusercontent.com/u/54416476?s=460&v=4",
+			"links": {
+				"website": "https://aynorica.github.io/",
+				"linkedin": "https://www.linkedin.com/in/amir-deilamizadeh-2712a6192",
+				"github": "https://github.com/aynorica"
+			},
+			"jobTitle": "Full-stack Developer",
+			"location": {
+				"city": "Istanbul",
+				"state": "Istanbul",
+				"country": "Turkey"
+			}
+		},
+		{
+			"id": 540,
+			"name": "Khalig Novruzli",
+			"img": "https://avatars3.githubusercontent.com/u/6874791?s=460&v=4",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/khalign/",
+				"github": "https://github.com/khalign"
+			},
+			"jobTitle": "Software Engineer",
+			"location": {
+				"city": "Bandirma",
+				"state": "Balikesir",
+				"country": "Turkey"
+			}
+		},
+		{
+			"id": 541,
+			"name": "Konstantin Proshin",
+			"img": "https://avatars1.githubusercontent.com/u/48204262?s=460&v=4",
+			"links": {
+				"website": "https://jkorum.github.io/portfolio-page/",
+				"linkedin": "https://www.linkedin.com/in/konstantin-proshin/",
+				"github": "https://github.com/JKorum"
+			},
+			"jobTitle": "Full-Stack Web Developer",
+			"location": {
+				"city": "Moscow",
+				"state": "",
+				"country": "Russia"
+			}
+		},
+		{
+			"id": 542,
+			"name": "Aladdin Sonni",
+			"img": "https://avatars1.githubusercontent.com/u/11818560?s=400&u=b250580007b0604f5503aaca49ead5e68154f25e&v=4",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/aladdin-sonni/",
+				"github": "https://github.com/asonni"
+			},
+			"jobTitle": "Front End Developer",
+			"location": {
+				"city": "Tripoli",
+				"state": "",
+				"country": "Libya"
+			}
+		},
+		{
+			"id": 536,
+			"name": "Kaustuv Karan",
+			"img": "https://avatars2.githubusercontent.com/u/43791878?s=460&v=4",
+			"links": {
+				"linkedin": "https://www.linkedin.com/in/kaustuv-karan-b56750169/",
+				"github": "https://github.com/kaustuvkaran01"
+			},
+			"jobTitle": "React Developer Intern",
+			"location": {
+				"city": "Patiala",
+				"state": "Punjab",
+				"country": "India"
+			}
+		},
+		{
+			"id": 537,
+			"name": "Rajnish Kr Singh",
+			"img": "https://media.licdn.com/dms/image/C5103AQFCTSzJ-qni8Q/profile-displayphoto-shrink_200_200/0?e=1577318400&v=beta&t=iAdUxzlVtGmSIHm9I9EzsIqIuup4kKiJdyNwuDEwCTk",
+			"links": {
+				"website": "https://rajnishkrsingh.github.io/my_portfolio",
+				"linkedin": "https://www.linkedin.com/in/rajnish-kr-singh-165272184/",
+				"github": "https://github.com/RajnishKrSingh"
+			},
+			"jobTitle": "Web Developer | Programmer | ReactJS Enthusiast",
+			"location": {
+				"city": "Kolkata",
+				"state": "",
+				"country": "India"
+			}
+		},
+		{
+			"id": 538,
+			"name": "Donald Tang",
+			"img": "",
+			"links": {
+				"website": "https://turazi.xyz/",
+				"linkedin": "https://www.linkedin.com/in/donaldtang8/",
+				"github": "https://github.com/turazi"
+			},
+			"jobTitle": "Software Developer",
+			"location": {
+				"city": "New York",
+				"state": "New York",
+				"country": "United States"
+			}
+		},
+		{
+			"id": 539,
+			"name": "AmirDlz",
+			"img": "https://avatars0.githubusercontent.com/u/54416476?s=460&v=4",
+			"links": {
+				"website": "https://aynorica.github.io/",
+				"linkedin": "https://www.linkedin.com/in/amir-deilamizadeh-2712a6192",
+				"github": "https://github.com/aynorica"
+			},
+			"jobTitle": "Full-stack Developer",
+			"location": {
+				"city": "Istanbul",
+				"state": "Istanbul",
+				"country": "Turkey"
+			}
+		},
+		{
+			"id": 540,
+			"name": "Khalig Novruzli",
+			"img": "https://avatars3.githubusercontent.com/u/6874791?s=460&v=4",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/khalign/",
+				"github": "https://github.com/khalign"
+			},
+			"jobTitle": "Software Engineer",
+			"location": {
+				"city": "Bandirma",
+				"state": "Balikesir",
+				"country": "Turkey"
+			}
+		},
+		{
+			"id": 541,
+			"name": "Konstantin Proshin",
+			"img": "https://avatars1.githubusercontent.com/u/48204262?s=460&v=4",
+			"links": {
+				"website": "https://jkorum.github.io/portfolio-page/",
+				"linkedin": "https://www.linkedin.com/in/konstantin-proshin/",
+				"github": "https://github.com/JKorum"
+			},
+			"jobTitle": "Full-Stack Web Developer",
+			"location": {
+				"city": "Moscow",
+				"state": "",
+				"country": "Russia"
+			}
+		},
+		{
+			"id": 542,
+			"name": "Geoff Thomas",
+			"img": "http://www.thomasgeoff.com/images/bg_1.jpg",
+			"links": {
+				"website": "http://www.thomasgeoff.com",
+				"linkedin": "https://www.linkedin.com/in/geoff-thomas-01/",
+				"github": "https://github.com/thomasgeoff"
+			},
+			"jobTitle": "Software Engineer",
+			"location": {
+				"city": "Rohnert Park",
+				"state": "California",
+				"country": "USA"
+			}
 		}
-	},
-	{
-	    "id": 542,
-	    "name": "Geoff Thomas",
-	    "img": "http://www.thomasgeoff.com/images/bg_1.jpg",
-	    "links": {
-	      "website": "http://www.thomasgeoff.com",
-	      "linkedin": "https://www.linkedin.com/in/geoff-thomas-01/",
-	      "github": "https://github.com/thomasgeoff"
-	    },
-	    "jobTitle": "Software Engineer",
-	    "location": {
-	      "city": "Rohnert Park",
-	      "state": "California",
-	      "country": "USA"
-	    }
-	  }
-		
 	]
 }
