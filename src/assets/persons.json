@@ -8663,6 +8663,23 @@
 				"state": "California",
 				"country": "USA"
 			}
+		},
+		,
+		{
+			"id": 543,
+			"name": "Cheikh Seck",
+			"img": "https://avatars2.githubusercontent.com/u/42771777?s=400&u=310ffa08dc474ce1eaf19c8ea0f0207f34c82752&v=4",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/cheikh-seck-40b3a514a",
+				"github": "https://github.com/kheuch2018"
+			},
+			"jobTitle": "Software Engineer",
+			"location": {
+				"city": "Sacre coeur 3, Dakar",
+				"state": "Senegal",
+				"country": "Senegal"
+			}
 		}
 	]
 }
