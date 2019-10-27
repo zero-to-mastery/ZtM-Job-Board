@@ -8663,6 +8663,22 @@
 				"state": "California",
 				"country": "USA"
 			}
+		},
+		{
+			"id": 543,
+			"name": "Amit Bisht",
+			"img": "",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/amitbisht54/",
+				"github": "https://github.com/bishtamit"
+			},
+			"jobTitle": "Software Engineer",
+			"location": {
+				"city": "Gurugram",
+				"state": "Haryana",
+				"country": "India"
+			}
 		}
 	]
 }
