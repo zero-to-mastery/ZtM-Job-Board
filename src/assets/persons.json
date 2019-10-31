@@ -8632,6 +8632,22 @@
 				"state": "Ontario",
 				"country": "Canada"
 			}
+		},
+		{
+			"id": 548,
+			"name": "Aditya Verma",
+			"img": "",
+			"links": {
+				"website": "https://ezioda004.github.io/",
+				"linkedin": "https://www.linkedin.com/in/aditya-v-16ba91137",
+				"github": "https://github.com/ezioda004"
+			},
+			"jobTitle": "Full Stack Developer",
+			"location": {
+				"city": "Bangalore",
+				"state": "Karnataka",
+				"country": "IN"
+			}
 		}
 	]
 }
