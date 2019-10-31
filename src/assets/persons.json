@@ -8632,6 +8632,22 @@
 				"state": "Ontario",
 				"country": "Canada"
 			}
+		},
+		{
+			"id": 548,
+			"name": "Ralph Emerson Manzano",
+			"img": "https://avatars0.githubusercontent.com/u/18175202?s=400&u=e654ce4937b7b1904906daa5f49aaab71e9df49d&v=4",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/ralphevmanzano/",
+				"github": "https://github.com/ralphevmanzano"
+			},
+			"jobTitle": "Android Developer",
+			"location": {
+				"city": "Cebu City",
+				"state": "",
+				"country": "Philippines"
+			}
 		}
 	]
 }
