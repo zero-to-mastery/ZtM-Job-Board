@@ -7322,5 +7322,22 @@
       "state": "Sindh",
       "country": "Pakistan"
     }
+  }, 
+  {
+    "id": 467,
+    "name": "Alara Joel",
+    "img": "https://twitter.com/alara_joel/photo",
+    "links": {
+      "website": "https://codepen.io/alara_joel_stealth/full/yrjLjB",
+      "linkedin": "https://www.linkedin.com/in/alara-joel-b16865b6/",
+      "github": "https://github.com/stealthman22"
+    },
+    "jobTitle": "Junior Fullstack Developer",
+    "location": {
+      "city": "Accra",
+      "state": "Accra",
+      "country": "Ghana"
+    }
   }
 ]
+
