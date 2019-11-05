@@ -8713,8 +8713,27 @@
                 "country": "Ghana"
             }
         },
+	
+	{
+	    "id": 553,
+	    "name": "HATIM MAMA",
+	    "img": "https://photos.app.goo.gl/N4Tiso6iBVVqeiuv8",
+	    "links": {
+	      "website": "https://www.linkedin.com/in/hatimmamajiwala/",
+	      "linkedin": "https://www.linkedin.com/in/hatimmamajiwala/",
+	      "github": "https://github.com/hatimmamajiwala"
+	    },
+	    "jobTitle": "Cloud Solutions Architect",
+	    "location": {
+	      "city": "Dubai",
+	      "state": "Dubai",
+	      "country": "United Arab Emirates"
+	    } 
+	    
+	},
+	    
         {
-            "id": 553,
+            "id": 554,
             "name": "Daniel G. Arnold",
             "img": "https://avatars0.githubusercontent.com/u/270102?s=460&v=4",
             "links": {
@@ -8730,7 +8749,7 @@
             }
         },
 				{
-			    "id": 554,
+			    "id": 555,
 			    "name": "Dave Saluk",
 			    "img": "https://avatars0.githubusercontent.com/u/54435977?s=400&u=712658a3aad50cd9ed72090fc214ec8410734ff8&v=4",
 			    "links": {
