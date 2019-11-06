@@ -8712,26 +8712,23 @@
                 "state": "Accra",
                 "country": "Ghana"
             }
-        },
-	
-	{
-	    "id": 553,
-	    "name": "HATIM MAMA",
-	    "img": "https://photos.app.goo.gl/N4Tiso6iBVVqeiuv8",
-	    "links": {
-	      "website": "https://www.linkedin.com/in/hatimmamajiwala/",
-	      "linkedin": "https://www.linkedin.com/in/hatimmamajiwala/",
-	      "github": "https://github.com/hatimmamajiwala"
-	    },
-	    "jobTitle": "Cloud Solutions Architect",
-	    "location": {
-	      "city": "Dubai",
-	      "state": "Dubai",
-	      "country": "United Arab Emirates"
-	    } 
-	    
-	},
-	    
+        },	
+	    {
+            "id": 553,
+            "name": "HATIM MAMA",
+            "img": "https://photos.app.goo.gl/N4Tiso6iBVVqeiuv8",
+            "links": {
+            "website": "https://www.linkedin.com/in/hatimmamajiwala/",
+            "linkedin": "https://www.linkedin.com/in/hatimmamajiwala/",
+            "github": "https://github.com/hatimmamajiwala"
+            },
+            "jobTitle": "Cloud Solutions Architect",
+            "location": {
+            "city": "Dubai",
+            "state": "Dubai",
+            "country": "United Arab Emirates"
+            }	    
+	    },	    
         {
             "id": 554,
             "name": "Daniel G. Arnold",
@@ -8766,6 +8763,21 @@
         },
         {
             "id": 556,
+            "name": "Angel Andoney",
+            "img": "https://avatars2.githubusercontent.com/u/16805779?s=460&v=4",
+            "links": {
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/aandoney/",
+                "github": "https://github.com/aandoney"
+            },
+            "jobTitle": "Full Stack Engineer",
+            "location": {
+                "city": "Queretaro",
+                "state": "",
+                "country": "Mexico"
+            }
+        },
+        {
             "name": "Brandon Samuel",
             "img": "https://avatars2.githubusercontent.com/u/32402178?s=400&u=b8374e2b3868430206a09fa481356470426b071a&v=4",
             "links": {
