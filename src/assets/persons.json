@@ -8748,22 +8748,38 @@
                 "country": "USA"
             }
         },
-				{
-			    "id": 555,
-			    "name": "Dave Saluk",
-			    "img": "https://avatars0.githubusercontent.com/u/54435977?s=400&u=712658a3aad50cd9ed72090fc214ec8410734ff8&v=4",
-			    "links": {
-			      "website": "",
-			      "linkedin": "https://www.linkedin.com/in/dave-saluk-7387b4177?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BCelcwMTeSUusy8oGqVuA4w%3D%3D",
-			      "github": "https://github.com/DaveSaluk"
-			    },
-			    "jobTitle": "Full Stack Developer",
-			    "location": {
-			      "city": "Tel-Aviv",
-			      "state": "",
-			      "country": "Israel"
-			    }
-			  }
+        {
+            "id": 555,
+            "name": "Dave Saluk",
+            "img": "https://avatars0.githubusercontent.com/u/54435977?s=400&u=712658a3aad50cd9ed72090fc214ec8410734ff8&v=4",
+            "links": {
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/dave-saluk-7387b4177?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BCelcwMTeSUusy8oGqVuA4w%3D%3D",
+                "github": "https://github.com/DaveSaluk"
+            },
+            "jobTitle": "Full Stack Developer",
+            "location": {
+                "city": "Tel-Aviv",
+                "state": "",
+                "country": "Israel"
+            }
+        },
+        {
+            "id": 556,
+            "name": "Brandon Samuel",
+            "img": "https://avatars2.githubusercontent.com/u/32402178?s=400&u=b8374e2b3868430206a09fa481356470426b071a&v=4",
+            "links": {
+                "website": "https://brandonsamuel1.github.io/mysite/",
+                "linkedin": "https://www.linkedin.com/in/brandon-samuel/",
+                "github": "https://github.com/brandonsamuel1"
+            },
+            "jobTitle": "Full Stack Javascript Developer",
+            "location": {
+                "city": "Vancouver",
+                "state": "British Columbia",
+                "country": "Canada"
+            }
+        }
       
      ]
 }
