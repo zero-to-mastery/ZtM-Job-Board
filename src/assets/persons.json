@@ -8249,6 +8249,22 @@
         "state": "",
         "country": "India"
       }
+    },
+    {
+      "id": 525,
+      "name": "FOR KA LAU",
+      "img": "",
+      "links": {
+        "website": "Derricklau.pythonanywhere.com/",
+        "linkedin": "https://www.linkedin.com/in/for-ka-l-551262168/",
+        "github": "https://github.com/Derrick-lau/"
+      },
+      "jobTitle": "Full-Stack Web Developer",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": "United Kingdom"
+      }
     }
   ]
 }
