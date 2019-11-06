@@ -2435,17 +2435,17 @@
             "id": 152,
             "name": "Carl-johan Landin",
             "img": "[https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/13466497_10154160626281145_6570608543054940946_n.jpg?_nc_cat=0&oh=3e33b159e007be5b9ade772d2b393640&oe=5BD90A04",
-                "links": {
-                    "website": "[YOUR_WEBSITE_URL]",
-                    "linkedin": "[YOUR_LINKEDIN_URL]",
-                    "github": "https://github.com/carljohanlandin/ZtM-Job-Board"
-                },
-                "jobTitle": "Electrical engineer, Full stack web developer",
-                "location": {
-                    "city": "Gothenburg",
-                    "state": "[YOUR_STATE_OR_PROVINCE]",
-                    "country": "Sweden"
-                }
+            "links": {
+                "website": "[YOUR_WEBSITE_URL]",
+                "linkedin": "[YOUR_LINKEDIN_URL]",
+                "github": "https://github.com/carljohanlandin/ZtM-Job-Board"
+            },
+            "jobTitle": "Electrical engineer, Full stack web developer",
+            "location": {
+                "city": "Gothenburg",
+                "state": "[YOUR_STATE_OR_PROVINCE]",
+                "country": "Sweden"
+            }
         },
         {
             "id": 153,
@@ -8097,7 +8097,7 @@
             "img": "",
             "links": {
                 "linkedin": "[https://www.linkedin.com/in/michael-damato-683abb48/",
-                    "github": "https://github.com/Mike-Damato"
+                "github": "https://github.com/Mike-Damato"
             },
             "jobTitle": "Fullstack Developer",
             "location": {
@@ -8712,23 +8712,23 @@
                 "state": "Accra",
                 "country": "Ghana"
             }
-        },	
-	    {
+        },
+        {
             "id": 553,
             "name": "HATIM MAMA",
             "img": "https://photos.app.goo.gl/N4Tiso6iBVVqeiuv8",
             "links": {
-            "website": "https://www.linkedin.com/in/hatimmamajiwala/",
-            "linkedin": "https://www.linkedin.com/in/hatimmamajiwala/",
-            "github": "https://github.com/hatimmamajiwala"
+                "website": "https://www.linkedin.com/in/hatimmamajiwala/",
+                "linkedin": "https://www.linkedin.com/in/hatimmamajiwala/",
+                "github": "https://github.com/hatimmamajiwala"
             },
             "jobTitle": "Cloud Solutions Architect",
             "location": {
-            "city": "Dubai",
-            "state": "Dubai",
-            "country": "United Arab Emirates"
-            }	    
-	    },	    
+                "city": "Dubai",
+                "state": "Dubai",
+                "country": "United Arab Emirates"
+            }
+        },
         {
             "id": 554,
             "name": "Daniel G. Arnold",
@@ -8791,7 +8791,21 @@
                 "state": "British Columbia",
                 "country": "Canada"
             }
+        },
+        {
+            "name": "Omar Faruque",
+            "img": "https://avatars3.githubusercontent.com/u/40371523?s=400&u=a7b2d51c745c57d058a8e3f1eba1569a44b763c1&v=4",
+            "links": {
+                "website": "https://www.omarfaruque.dev/",
+                "linkedin": "https://www.linkedin.com/in/webdevwithomar/",
+                "github": "https://github.com/webdevwithomar"
+            },
+            "jobTitle": "Full Stack Javascript Developer",
+            "location": {
+                "city": "Dhaka",
+                "state": "",
+                "country": "Bangladesh"
+            }
         }
-      
-     ]
+    ]
 }
