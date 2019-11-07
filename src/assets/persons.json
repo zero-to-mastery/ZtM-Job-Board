@@ -8855,6 +8855,22 @@
 				"state": "Gujarat",
 				"country": "India"
 			}
+		},
+		   {
+      "id": 562,
+			"name": "Yanik Kumar",
+			"img": "https://avatars.githubusercontent.com/believemaster",
+			"links": {
+				"website": "https://believemaster.github.io/portfolio",
+				"linkedin": "https://www.linkedin.com/in/yanikkumar/",
+				"github": "https://believemaster.github.io"
+			},
+			"jobTitle": "Full Stack Developer",
+			"location": {
+				"city": "Hamirpur",
+				"state": "Himachal Pradesh",
+				"country": "India"
+			}
 		}
 	]
 }
