@@ -8838,10 +8838,10 @@
 				"city": "Vancouver",
 				"state": "BC",
 				"country": "Canada"
-      }
-    },
-    {
-      "id": 561,
+		      }
+		    },
+		    {
+		      	"id": 561,
 			"name": "David Samson",
 			"img": "https://avatars3.githubusercontent.com/u/33316904?s=460&v=4",
 			"links": {
@@ -8853,6 +8853,22 @@
 			"location": {
 				"city": "Vadodara",
 				"state": "Gujarat",
+				"country": "India"
+			}
+		 },
+		    {
+			"id": 562,
+			"name": "Yanik Kumar",
+			"img": "https://avatars.githubusercontent.com/believemaster",
+			"links": {
+				"website": "https://believemaster.github.io/portfolio",
+				"linkedin": "https://www.linkedin.com/in/yanikkumar",
+				"github": "https://believemaster.github.io"
+			},
+			"jobTitle": "Full Stack Developer",
+			"location": {
+				"city": "Hamirpur",
+				"state": "Himachal Pradesh",
 				"country": "India"
 			}
 		}
