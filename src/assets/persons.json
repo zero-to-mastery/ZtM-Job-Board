@@ -8838,6 +8838,22 @@
 				"city": "Vancouver",
 				"state": "BC",
 				"country": "Canada"
+      }
+    },
+    {
+      "id": 561,
+			"name": "David Samson",
+			"img": "https://avatars3.githubusercontent.com/u/33316904?s=460&v=4",
+			"links": {
+				"website": "https://www.techiedavid.com",
+				"linkedin": "https://www.linkedin.com/in/techiedavid-com/",
+				"github": "https://github.com/techie-david"
+			},
+			"jobTitle": "Senior Full Stack Developer",
+			"location": {
+				"city": "Vadodara",
+				"state": "Gujarat",
+				"country": "India"
 			}
 		}
 	]
