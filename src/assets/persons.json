@@ -8905,6 +8905,22 @@
 				"state": "Bavaria",
 				"country": "Germany"
 			}
+		  },
+		{
+			 "id": 565,
+			 "name": "Cyrus Eslamian",
+			 "img": "",
+			 "links": {
+				"website": "https://gazsix.com/",
+				"linkedin": "https://www.linkedin.com/in/cyruseslamian/",
+				"github": "https://github.com/mojopoly"
+			},
+			 "jobTitle": "JavaScript Engineer | React | ReactNative",
+			 "location": {
+				"city": "Toronto",
+				"state": "Ontario",
+				"country": "Canada"
+			}
 		  }
 	]
 }
