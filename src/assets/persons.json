@@ -8887,6 +8887,26 @@
 			  "city": "[Houston]",
 			  "state": "[Texas]",
 			  "country": "[United States]"
+				
+			}
+		},
+		{
+					
+			 "id": 564,
+			 "name": "Pancho Daskalov",
+			 "img": "https://drive.google.com/open?id=1xAWKZ8bF_Nbzbdbh0xcMncgLGekwKr_2",
+			 "links": {
+				"website": "https://panchodaskalov.com/",
+				"linkedin": "https://www.linkedin.com/in/panchodaskalov/",
+				"github": "https://github.com/PanchoDaskalov"
+			},
+			 "jobTitle": "UI/UX Design | Front-end Development",
+			 "location": {
+				"city": "Munich",
+				"state": "Bavaria",
+				"country": "Germany"
+				    
+			 
 			}
 		  }
 	]
