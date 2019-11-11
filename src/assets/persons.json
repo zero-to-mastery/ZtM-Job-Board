@@ -8921,6 +8921,22 @@
 				"state": "Ontario",
 				"country": "Canada"
 			}
-		  }
+		  },
+		  {
+			   "id": 566,
+			   "name": "Shivayan Anand Bora",
+			   "img": "https://drive.google.com/open?id=1wwjXNtK4UjRkxBajzkEMaIL2xZWcyWAQ",
+			   "links": {
+				  "website": "",
+				  "linkedin": "https://www.linkedin.com/in/shivayan-bora-9a858a35/",
+				  "github": "https://github.com/shivayanbora123"
+			  },
+			   "jobTitle": "Senior Software Developer at JDA Software | Java and Python | Deep Learning Enthusiast",
+			   "location": {
+				  "city": "Bangalore",
+				  "state": "Karnataka",
+				  "country": "India"
+			  }
+			}
 	]
 }
