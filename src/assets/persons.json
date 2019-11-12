@@ -8937,6 +8937,22 @@
 				  "state": "Karnataka",
 				  "country": "India"
 			  }
-			}
+			},
+			{
+				"id": 567,
+				"name": "Yarden Katz",
+				"img": "https://drive.google.com/file/d/1R7TG902VEyYoV5OotS0RxwNqF2IQXVNC/view?usp=sharing",
+				"links": {
+				   "website": "",
+				   "linkedin": "https://www.linkedin.com/in/yarden-katz",
+				   "github": "https://github.com/YardenKatz"
+			   },
+				"jobTitle": "Fullstack Developer | JavaScript | C++ | Java | Python | Django",
+				"location": {
+				   "city": "",
+				   "state": "",
+				   "country": "Israel"
+			   }
+			 }
 	]
 }
