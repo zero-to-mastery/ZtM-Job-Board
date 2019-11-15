@@ -8985,6 +8985,22 @@
 				   "state": "",
 				   "country": "Sri Lanka"
 			   }
+			 },
+			 {
+				"id": 570,
+				"name": "Daniel Farlow",
+				"img": "https://avatars0.githubusercontent.com/u/52146855?s=460&v=4",
+				"links": {
+				   "website": "https://daniel-farlow.com/",
+				   "linkedin": "https://www.linkedin.com/in/daniel-farlow/",
+				   "github": "https://github.com/daniel-farlow"
+			   },
+				"jobTitle": "Software Engineer",
+				"location": {
+				   "city": "Atlanta",
+				   "state": "Georgia",
+				   "country": "United States"
+			   }
 			 }
 		
 	]
