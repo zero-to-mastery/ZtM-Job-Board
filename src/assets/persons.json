@@ -8878,114 +8878,128 @@
 			"name": "Spencer Dedrick",
 			"img": "https://media.licdn.com/dms/image/C4E03AQHuxk2aTvEIcQ/profile-displayphoto-shrink_200_200/0?e=1578528000&v=beta&t=9rWDXrBPrn-FZR0tUCaouRbu6Q3wjOz0P27dUH7J7MM",
 			"links": {
-			  "website": "https://spencerdedrick.github.io/Portfolio/",
-			  "linkedin": "https://www.linkedin.com/in/spencer-dedrick/",
-			  "github": "https://github.com/SpencerDedrick/"
+				"website": "https://spencerdedrick.github.io/Portfolio/",
+				"linkedin": "https://www.linkedin.com/in/spencer-dedrick/",
+				"github": "https://github.com/SpencerDedrick/"
 			},
 			"jobTitle": "Web Developer",
 			"location": {
-			  "city": "Houston",
-			  "state": "Texas",
-			  "country": "United States"
-				
+				"city": "Houston",
+				"state": "Texas",
+				"country": "United States"
 			}
 		},
 		{
-			 "id": 564,
-			 "name": "Pancho Daskalov",
-			 "img": "https://drive.google.com/open?id=1xAWKZ8bF_Nbzbdbh0xcMncgLGekwKr_2",
-			 "links": {
+			"id": 564,
+			"name": "Pancho Daskalov",
+			"img": "https://drive.google.com/open?id=1xAWKZ8bF_Nbzbdbh0xcMncgLGekwKr_2",
+			"links": {
 				"website": "https://panchodaskalov.com/",
 				"linkedin": "https://www.linkedin.com/in/panchodaskalov/",
 				"github": "https://github.com/PanchoDaskalov"
 			},
-			 "jobTitle": "UI/UX Design | Front-end Development",
-			 "location": {
+			"jobTitle": "UI/UX Design | Front-end Development",
+			"location": {
 				"city": "Munich",
 				"state": "Bavaria",
 				"country": "Germany"
 			}
-		  },
+		},
 		{
-			 "id": 565,
-			 "name": "Cyrus Eslamian",
-			 "img": "",
-			 "links": {
+			"id": 565,
+			"name": "Cyrus Eslamian",
+			"img": "",
+			"links": {
 				"website": "https://gazsix.com/",
 				"linkedin": "https://www.linkedin.com/in/cyruseslamian/",
 				"github": "https://github.com/mojopoly"
 			},
-			 "jobTitle": "JavaScript Engineer | React | ReactNative",
-			 "location": {
+			"jobTitle": "JavaScript Engineer | React | ReactNative",
+			"location": {
 				"city": "Toronto",
 				"state": "Ontario",
 				"country": "Canada"
 			}
-		  },
-		  {
-			   "id": 566,
-			   "name": "Shivayan Anand Bora",
-			   "img": "https://drive.google.com/open?id=1wwjXNtK4UjRkxBajzkEMaIL2xZWcyWAQ",
-			   "links": {
-				  "website": "",
-				  "linkedin": "https://www.linkedin.com/in/shivayan-bora-9a858a35/",
-				  "github": "https://github.com/shivayanbora123"
-			  },
-			   "jobTitle": "Senior Software Developer at JDA Software | Java and Python | Deep Learning Enthusiast",
-			   "location": {
-				  "city": "Bangalore",
-				  "state": "Karnataka",
-				  "country": "India"
-			  }
+		},
+		{
+			"id": 566,
+			"name": "Shivayan Anand Bora",
+			"img": "https://drive.google.com/open?id=1wwjXNtK4UjRkxBajzkEMaIL2xZWcyWAQ",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/shivayan-bora-9a858a35/",
+				"github": "https://github.com/shivayanbora123"
 			},
-			{
-				"id": 567,
-				"name": "Yarden Katz",
-				"img": "https://drive.google.com/file/d/1R7TG902VEyYoV5OotS0RxwNqF2IQXVNC/view?usp=sharing",
-				"links": {
-				   "website": "",
-				   "linkedin": "https://www.linkedin.com/in/yarden-katz",
-				   "github": "https://github.com/YardenKatz"
-			   },
-				"jobTitle": "Fullstack Developer | JavaScript | C++ | Java | Python | Django",
-				"location": {
-				   "city": "",
-				   "state": "",
-				   "country": "Israel"
-			   }
-			 },
-			 {
-				"id": 568,
-				"name": "Nicolei Ocana",
-				"img": "https://avatars3.githubusercontent.com/u/44947175?s=460&v=4",
-				"links": {
-				   "website": "",
-				   "linkedin": "https://www.linkedin.com/in/nicolei-ocana-0b271b71/",
-				   "github": "https://github.com/nicoleiocana"
-			   },
-				"jobTitle": "Fullstack Developer | Ruby | Rails",
-				"location": {
-				   "city": "Placentia",
-				   "state": "California",
-				   "country": "United States of America"
-			   }
-			 },
-			 {
-				"id": 569,
-				"name": "Lasantha Basnayake",
-				"img": "https://avatars0.githubusercontent.com/u/6893358?s=460&v=4",
-				"links": {
-				   "website": "",
-				   "linkedin": "https://www.linkedin.com/in/lasantha-basnayake",
-				   "github": "https://github.com/lasantha57"
-			   },
-				"jobTitle": "Full-Stack Developer | Javascript",
-				"location": {
-				   "city": "Colombo",
-				   "state": "",
-				   "country": "Sri Lanka"
-			   }
-			 }
-		
+			"jobTitle": "Senior Software Developer at JDA Software | Java and Python | Deep Learning Enthusiast",
+			"location": {
+				"city": "Bangalore",
+				"state": "Karnataka",
+				"country": "India"
+			}
+		},
+		{
+			"id": 567,
+			"name": "Yarden Katz",
+			"img": "https://drive.google.com/file/d/1R7TG902VEyYoV5OotS0RxwNqF2IQXVNC/view?usp=sharing",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/yarden-katz",
+				"github": "https://github.com/YardenKatz"
+			},
+			"jobTitle": "Fullstack Developer | JavaScript | C++ | Java | Python | Django",
+			"location": {
+				"city": "",
+				"state": "",
+				"country": "Israel"
+			}
+		},
+		{
+			"id": 568,
+			"name": "Nicolei Ocana",
+			"img": "https://avatars3.githubusercontent.com/u/44947175?s=460&v=4",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/nicolei-ocana-0b271b71/",
+				"github": "https://github.com/nicoleiocana"
+			},
+			"jobTitle": "Fullstack Developer | Ruby | Rails",
+			"location": {
+				"city": "Placentia",
+				"state": "California",
+				"country": "United States of America"
+			}
+		},
+		{
+			"id": 569,
+			"name": "Lasantha Basnayake",
+			"img": "https://avatars0.githubusercontent.com/u/6893358?s=460&v=4",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/lasantha-basnayake",
+				"github": "https://github.com/lasantha57"
+			},
+			"jobTitle": "Full-Stack Developer | Javascript",
+			"location": {
+				"city": "Colombo",
+				"state": "",
+				"country": "Sri Lanka"
+			}
+		},
+		{
+			"id": 570,
+			"name": "Sam Poe",
+			"img": "",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/sampoe/",
+				"github": "https://github.com/rckatz"
+			},
+			"jobTitle": "Web Developer",
+			"location": {
+				"city": "Greater Boston",
+				"state": "Massachusetts",
+				"country": "USA"
+			}
+		}
 	]
 }
