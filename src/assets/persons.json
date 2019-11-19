@@ -9096,6 +9096,23 @@
 				"state": "Pichincha",
 				"country": "Ecuador"
 			}
+		},
+			{
+			"id": 572,
+			"name": "Vamsi",
+			"img": "",
+			"links": {
+				"website": "www.vamsikrishnamraju.com",
+				"linkedin": "https://www.linkedin.com/in/vamsi-krishnam-raju-uddaraju-991b47171/",
+				"github": "https://github.com/uddaraju"
+			},
+			"jobTitle": "Software Developer Developer | Cloud Technology | ",
+			"location": {
+				"city": "London",
+				"state": "Ontario",
+				"country": "Canada"
+			}
 		}
+		
 	]
 }
