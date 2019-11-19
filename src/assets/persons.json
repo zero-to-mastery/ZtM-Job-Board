@@ -9112,7 +9112,22 @@
 				"state": "Ontario",
 				"country": "Canada"
 			}
+		},
+		{
+			"id": 573,
+			"name": "Bo Zhao",
+			"img": "https://avatars2.githubusercontent.com/u/3486381?s=400&u=77d90275e9e6ccb6ae18744d118733d2063a72f3&v=4",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/bocong-zhao-975b6162/",
+				"github": "https://github.com/zbc"
+			},
+			"jobTitle": "Full-Stack Developer | Javascript",
+			"location": {
+				"city": "Toronto",
+				"state": "Ontario",
+				"country": "Canada"
+			}
 		}
-		
 	]
 }
