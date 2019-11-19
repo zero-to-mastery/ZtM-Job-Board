@@ -8920,87 +8920,87 @@
 				"state": "Ontario",
 				"country": "Canada"
 			}
-		  },
-		  {
-			   "id": 566,
-			   "name": "Shivayan Anand Bora",
-			   "img": "https://drive.google.com/open?id=1wwjXNtK4UjRkxBajzkEMaIL2xZWcyWAQ",
-			   "links": {
-				  "website": "",
-				  "linkedin": "https://www.linkedin.com/in/shivayan-bora-9a858a35/",
-				  "github": "https://github.com/shivayanbora123"
-			  },
-			   "jobTitle": "Senior Software Developer at JDA Software | Java and Python | Deep Learning Enthusiast",
-			   "location": {
-				  "city": "Bangalore",
-				  "state": "Karnataka",
-				  "country": "India"
-			  }
+		},
+		{
+			"id": 566,
+			"name": "Shivayan Anand Bora",
+			"img": "https://drive.google.com/open?id=1wwjXNtK4UjRkxBajzkEMaIL2xZWcyWAQ",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/shivayan-bora-9a858a35/",
+				"github": "https://github.com/shivayanbora123"
 			},
-			{
-				"id": 567,
-				"name": "Yarden Katz",
-				"img": "https://drive.google.com/file/d/1R7TG902VEyYoV5OotS0RxwNqF2IQXVNC/view?usp=sharing",
-				"links": {
-				   "website": "",
-				   "linkedin": "https://www.linkedin.com/in/yarden-katz",
-				   "github": "https://github.com/YardenKatz"
-			   },
-				"jobTitle": "Fullstack Developer | JavaScript | C++ | Java | Python | Django",
-				"location": {
-				   "city": "",
-				   "state": "",
-				   "country": "Israel"
-			   }
-			 },
-			 {
-				"id": 568,
-				"name": "Nicolei Ocana",
-				"img": "https://avatars3.githubusercontent.com/u/44947175?s=460&v=4",
-				"links": {
-				   "website": "",
-				   "linkedin": "https://www.linkedin.com/in/nicolei-ocana-0b271b71/",
-				   "github": "https://github.com/nicoleiocana"
-			   },
-				"jobTitle": "Fullstack Developer | Ruby | Rails",
-				"location": {
-				   "city": "Placentia",
-				   "state": "California",
-				   "country": "United States of America"
-			   }
-			 },
-			 {
-				"id": 569,
-				"name": "Lasantha Basnayake",
-				"img": "https://avatars0.githubusercontent.com/u/6893358?s=460&v=4",
-				"links": {
-				   "website": "",
-				   "linkedin": "https://www.linkedin.com/in/lasantha-basnayake",
-				   "github": "https://github.com/lasantha57"
-			   },
-				"jobTitle": "Full-Stack Developer | Javascript",
-				"location": {
-				   "city": "Colombo",
-				   "state": "",
-				   "country": "Sri Lanka"
-			   }
-			 },
-			 {
-				"id": 570,
-				"name": "Daniel Farlow",
-				"img": "https://avatars0.githubusercontent.com/u/52146855?s=460&v=4",
-				"links": {
-				   "website": "https://daniel-farlow.com/",
-				   "linkedin": "https://www.linkedin.com/in/daniel-farlow/",
-				   "github": "https://github.com/daniel-farlow"
-			   },
-				"jobTitle": "Software Engineer",
-				"location": {
-				   "city": "Atlanta",
-				   "state": "Georgia",
-				   "country": "United States"
-			   }
-			 },
+			"jobTitle": "Senior Software Developer at JDA Software | Java and Python | Deep Learning Enthusiast",
+			"location": {
+				"city": "Bangalore",
+				"state": "Karnataka",
+				"country": "India"
+			}
+		},
+		{
+			"id": 567,
+			"name": "Yarden Katz",
+			"img": "https://drive.google.com/file/d/1R7TG902VEyYoV5OotS0RxwNqF2IQXVNC/view?usp=sharing",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/yarden-katz",
+				"github": "https://github.com/YardenKatz"
+			},
+			"jobTitle": "Fullstack Developer | JavaScript | C++ | Java | Python | Django",
+			"location": {
+				"city": "",
+				"state": "",
+				"country": "Israel"
+			}
+		},
+		{
+			"id": 568,
+			"name": "Nicolei Ocana",
+			"img": "https://avatars3.githubusercontent.com/u/44947175?s=460&v=4",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/nicolei-ocana-0b271b71/",
+				"github": "https://github.com/nicoleiocana"
+			},
+			"jobTitle": "Fullstack Developer | Ruby | Rails",
+			"location": {
+				"city": "Placentia",
+				"state": "California",
+				"country": "United States of America"
+			}
+		},
+		{
+			"id": 569,
+			"name": "Lasantha Basnayake",
+			"img": "https://avatars0.githubusercontent.com/u/6893358?s=460&v=4",
+			"links": {
+				"website": "",
+				"linkedin": "https://www.linkedin.com/in/lasantha-basnayake",
+				"github": "https://github.com/lasantha57"
+			},
+			"jobTitle": "Full-Stack Developer | Javascript",
+			"location": {
+				"city": "Colombo",
+				"state": "",
+				"country": "Sri Lanka"
+			}
+		},
+		{
+			"id": 570,
+			"name": "Daniel Farlow",
+			"img": "https://avatars0.githubusercontent.com/u/52146855?s=460&v=4",
+			"links": {
+				"website": "https://daniel-farlow.com/",
+				"linkedin": "https://www.linkedin.com/in/daniel-farlow/",
+				"github": "https://github.com/daniel-farlow"
+			},
+			"jobTitle": "Software Engineer",
+			"location": {
+				"city": "Atlanta",
+				"state": "Georgia",
+				"country": "United States"
+			}
+		},
 		{
 			"id": 566,
 			"name": "Shivayan Anand Bora",
@@ -9097,7 +9097,7 @@
 				"country": "Ecuador"
 			}
 		},
-			{
+		{
 			"id": 572,
 			"name": "Vamsi",
 			"img": "",
@@ -9112,7 +9112,22 @@
 				"state": "Ontario",
 				"country": "Canada"
 			}
+		},
+		{
+			"id": 573,
+			"name": "Valentin Mitran",
+			"img": "https://avatars1.githubusercontent.com/u/40249132?s=460&v=4",
+			"links": {
+				"website": "https://ValentinMitran.com",
+				"linkedin": "https://www.linkedin.com/in/ValentinMitran/",
+				"github": "https://github.com/ValentinMitran"
+			},
+			"jobTitle": "Full Stack Web Developer",
+			"location": {
+				"city": "",
+				"state": "Lisbon",
+				"country": "Portugal"
+			}
 		}
-		
 	]
 }
