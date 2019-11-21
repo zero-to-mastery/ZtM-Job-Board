@@ -9160,6 +9160,22 @@
                 "state": "Oklahoma",
                 "country": "USA"
             }
+        },
+        {
+            "id": 576,
+            "name": "Dennis Palmenco",
+            "img": "https://avatars0.githubusercontent.com/u/25899833?s=460&v=4",
+            "links": {
+                "website": "https://www.kickresume.com/cv/dpalmenco_support_analyst/",
+                "linkedin": "https://www.linkedin.com/in/dennispalmenco/",
+                "github": "https://github.com/dennisbp"
+            },
+            "jobTitle": "SAP Consultant/Software Engineer",
+            "location": {
+                "city": "Auckland",
+                "state": "Auckland",
+                "country": "New Zealand"
+            }
         }
     ]
 }
