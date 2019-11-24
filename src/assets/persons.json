@@ -9176,8 +9176,7 @@
                 "state": "Auckland",
                 "country": "New Zealand"
             }
-        }
-        ,
+        },
          {
             "id": 577,
             "name": "Dilip Teegala",
@@ -9192,6 +9191,6 @@
                 "state": "Telangana",
                 "country": "India"
             }
-        },
+        }
     ]
 }
