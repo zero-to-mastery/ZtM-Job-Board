@@ -9177,7 +9177,7 @@
                 "country": "New Zealand"
             }
         },
-         {
+        {
             "id": 577,
             "name": "Dilip Teegala",
             "img": "https://avatars0.githubusercontent.com/u/44141163?s=400&u=a847930288a92af3734f933ce214f94729713622&v=4",
@@ -9190,6 +9190,22 @@
                 "city": "Hyderabad",
                 "state": "Telangana",
                 "country": "India"
+            }
+        },
+        {
+            "id": 578,
+            "name": "Nurdaulet Shamilov",
+            "img": "https://avatars0.githubusercontent.com/u/49809339?s=460&v=4",
+            "links": {
+              "website": "",
+              "linkedin": "https://www.linkedin.com/in/nurdared/",
+              "github": "https://github.com/nurdared"
+            },
+            "jobTitle": "Full-Stack Developer | JavaScript",
+            "location": {
+              "city": "Aktau",
+              "state": "Mangystau",
+              "country": "Kazakhstan"
             }
         }
     ]
