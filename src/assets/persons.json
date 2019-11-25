@@ -9222,6 +9222,19 @@
         "state": "",
         "country": "Indonesia"
       }
+    },{
+    "id": 580,
+    "name": "Ulvi Jabbarli",
+    "img": "https://avatars2.githubusercontent.com/u/23367499?s=400&amp;u=2532b7523d901dce13f7aa5b6ed6a6236815d330&amp;v=4",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/ulvi-jabbarli",
+      "github": "https://github.com/ulvij"
+    },
+    "jobTitle": "Android Developer",
+    "location": {
+      "city": "Baku",
+      "country": "Azerbaijan"
     }
+  }
     ]
 }
