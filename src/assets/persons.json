@@ -9270,6 +9270,22 @@
 			      "state": "",
 			      "country": "United Kingdom"
 			    }
-    }
+    },
+    {
+      "id": 583,
+        "name": "Oleh Zakharchuk",
+        "img": "https://github.com/Oleh-Zakharchuk/Portfolio/blob/gh-pages/img/portrait.jpg",
+        "links": {
+          "website": "https://oleh-zakharchuk.github.io/Portfolio/",
+          "linkedin": "https://www.linkedin.com/in/oleh-zakharchuk-7b216b198/",
+          "github": "https://github.com/Oleh-Zakharchuk"
+        },
+        "jobTitle": "Junior Front End Developer | Junior JavaScript Developer",
+        "location": {
+          "city": "Kyiv",
+          "state": "",
+          "country": "Ukraine"
+        }
+      }
   ]
 }
