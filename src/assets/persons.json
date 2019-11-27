@@ -9270,6 +9270,22 @@
 			      "state": "",
 			      "country": "United Kingdom"
 			    }
+    },
+    {
+      "id": 583,
+      "name": "Temitope Alex Adejumo",
+      "img": "https://avatars3.githubusercontent.com/u/46056386?s=460&v=4",
+      "links": {
+        "website": "https://alexadejumo.dev/",
+        "linkedin": "https://www.linkedin.com/in/alexadejumo/",
+        "github": "https://github.com/alexadejumo"
+      },
+      "jobTitle": "Full-Stack Developer | Javascript",
+      "location": {
+        "city": "Lagos",
+        "state": "",
+        "country": "Nigeria"
     }
+  }
   ]
 }
