@@ -9318,6 +9318,22 @@
         "state": "",
         "country": "Dominican Republic"
       }
+    },
+    {
+      "id": 586,
+      "name": "Elmer Pineda",
+      "img": "https://avatars2.githubusercontent.com/u/14105415?s=460&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/mhelpineda/",
+        "github": "https://github.com/mhel14"
+      },
+      "jobTitle": "Full Stack Engineer",
+      "location": {
+        "city": "Pampanga",
+        "state": "",
+        "country": "Philippines"
+      }
     }
   ]
 }
