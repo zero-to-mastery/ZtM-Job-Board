@@ -9366,6 +9366,22 @@
         "state": "",
         "country": "Israel"
       }
+    },
+    {
+    "id": 589,
+    "name": "Majo Paschcuan",
+    "img": "https://i.imgur.com/mG5hxfD.jpg",
+    "links": {
+      "website": "https://paskuvan.us",
+      "linkedin": "https://www.linkedin.com/in/paskuvan",
+      "github": "https://github.com/paskuvan"
+    },
+    "jobTitle": "Full Stack & UX/UI Developer",
+    "location": {
+      "city": "Santiago",
+      "state": "",
+      "country": "Chile"
     }
+   }
   ]
 }
