@@ -9256,37 +9256,37 @@
       }
     },
     {
-			    "id": 582,
-			    "name": "Mughees Asif",
-			    "img": "https://qph.fs.quoracdn.net/main-raw-454055733-jazwplkisizmhzmriodckjtprdstpenn.jpeg",
-			    "links": {
-			      "website": "",
-			      "linkedin": "https://www.linkedin.com/in/mughees-asif",
-			      "github": "https://github.com/mughees-asif"
-			    },
-			    "jobTitle": "Aerospace Engineering undergraduate student | Self-taught software/wed developer",
-			    "location": {
-			      "city": "London",
-			      "state": "",
-			      "country": "United Kingdom"
-			    }
+      "id": 582,
+      "name": "Mughees Asif",
+      "img": "https://qph.fs.quoracdn.net/main-raw-454055733-jazwplkisizmhzmriodckjtprdstpenn.jpeg",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/mughees-asif",
+        "github": "https://github.com/mughees-asif"
+      },
+      "jobTitle": "Aerospace Engineering undergraduate student | Self-taught software/wed developer",
+      "location": {
+        "city": "London",
+        "state": "",
+        "country": "United Kingdom"
+      }
     },
     {
-        "id": 583,
-        "name": "Oleh Zakharchuk",
-        "img": "https://github.com/Oleh-Zakharchuk/Portfolio/blob/gh-pages/img/portrait.jpg",
-        "links": {
-          "website": "https://oleh-zakharchuk.github.io/Portfolio/",
-          "linkedin": "https://www.linkedin.com/in/oleh-zakharchuk-7b216b198/",
-          "github": "https://github.com/Oleh-Zakharchuk"
-        },
-        "jobTitle": "Junior Front End Developer | Junior JavaScript Developer",
-        "location": {
-          "city": "Kyiv",
-          "state": "",
-          "country": "Ukraine"
-        }
+      "id": 583,
+      "name": "Oleh Zakharchuk",
+      "img": "https://github.com/Oleh-Zakharchuk/Portfolio/blob/gh-pages/img/portrait.jpg",
+      "links": {
+        "website": "https://oleh-zakharchuk.github.io/Portfolio/",
+        "linkedin": "https://www.linkedin.com/in/oleh-zakharchuk-7b216b198/",
+        "github": "https://github.com/Oleh-Zakharchuk"
       },
+      "jobTitle": "Junior Front End Developer | Junior JavaScript Developer",
+      "location": {
+        "city": "Kyiv",
+        "state": "",
+        "country": "Ukraine"
+      }
+    },
     {
       "id": 584,
       "name": "Temitope Alex Adejumo",
@@ -9301,9 +9301,9 @@
         "city": "Lagos",
         "state": "",
         "country": "Nigeria"
-    }
-  },
-  {
+      }
+    },
+    {
       "id": 585,
       "name": "Omar Gaston",
       "img": "https://ogaston.com/static/42fbb13abfb6167a265e357d74d55f8d/8539d/personal.jpg",
@@ -9333,9 +9333,9 @@
         "city": "Pampanga",
         "state": "",
         "country": "Philippines"
-    }
-  },
-  {
+      }
+    },
+    {
       "id": 587,
       "name": "Piyush Raut",
       "img": "",
@@ -9368,36 +9368,52 @@
       }
     },
     {
-    "id": 589,
-    "name": "Majo Paschcuan",
-    "img": "https://i.imgur.com/mG5hxfD.jpg",
-    "links": {
-      "website": "https://paskuvan.us",
-      "linkedin": "https://www.linkedin.com/in/paskuvan",
-      "github": "https://github.com/paskuvan"
-    },
-    "jobTitle": "Full Stack & UX/UI Developer",
-    "location": {
-      "city": "Santiago",
-      "state": "",
-      "country": "Chile"
-    }
-   },
-	{
-        "id": 590,
-        "name": "Abdul Rahim Shaikh",
-        "img": "",
-        "links": {
-          "website": "",
-          "linkedin": "https://www.linkedin.com/in/arahims/",
-          "github": "https://github.com/ariskycode"
-        },
-        "jobTitle": "Full-Stack|Java|Web Developer",
-        "location": {
-          "city": "Anywhere",
-          "state": "",
-          "country": "Willing to relocate internationally"
-        }
+      "id": 589,
+      "name": "Majo Paschcuan",
+      "img": "https://i.imgur.com/mG5hxfD.jpg",
+      "links": {
+        "website": "https://paskuvan.us",
+        "linkedin": "https://www.linkedin.com/in/paskuvan",
+        "github": "https://github.com/paskuvan"
+      },
+      "jobTitle": "Full Stack & UX/UI Developer",
+      "location": {
+        "city": "Santiago",
+        "state": "",
+        "country": "Chile"
       }
+    },
+    {
+      "id": 590,
+      "name": "Abdul Rahim Shaikh",
+      "img": "",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/arahims/",
+        "github": "https://github.com/ariskycode"
+      },
+      "jobTitle": "Full-Stack|Java|Web Developer",
+      "location": {
+        "city": "Anywhere",
+        "state": "",
+        "country": "Willing to relocate internationally"
+      }
+    },
+    {
+      "id": 591,
+      "name": "Pedro P. Medina",
+      "img": "https://github.com/pedropmedina/pedropmedina.github.io/blob/master/assets/profile-avatar.jpg",
+      "links": {
+        "website": "https://pedropmedina.github.io",
+        "linkedin": "https://www.linkedin.com/in/pedro-medina-65999b13a",
+        "github": "https://github.com/pedropmedina"
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "Miami/Fort Lauderdale",
+        "state": "FL",
+        "country": "USA"
+      }
+    }
   ]
 }
