@@ -9461,6 +9461,22 @@
         "city": "Kraków",
         "state": "Małopolska",
         "country": "Poland"
+    }
+    },
+    {
+      "id": 595,
+      "name": "Christopher Carr",
+      "img": "https://imgur.com/WKGieRB",
+      "links": {
+        "website": "https://www.chriscarr.dev",
+        "linkedin": "https://www.linkedin.com/in/chris-carr-93288820",
+        "github": "https://github.com/christocarr"
+      },
+      "jobTitle": "Frontend Web Developer",
+      "location": {
+        "city": "Wembley",
+        "state": "London",
+        "country": "United Kingdom"
       }
     }
   ]
