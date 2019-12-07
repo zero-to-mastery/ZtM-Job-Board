@@ -9432,7 +9432,7 @@
     }
     },
     {
-      "id": 592,
+      "id": 593,
       "name": "Abdu Qnauy",
       "img": "https://avatars1.githubusercontent.com/u/43282386?s=400&u=5c6a9446813bc982ade14b53f645e793c73783a2&v=4",
       "links": {
@@ -9445,6 +9445,22 @@
         "city": "Cairo",
         "state": "Cairo",
         "country": "Egypt"
+      }
+    },
+    {
+      "id": 594,
+      "name": "Christopher Carr",
+      "img": "https://imgur.com/WKGieRB",
+      "links": {
+        "website": "https://www.chriscarr.dev",
+        "linkedin": "https://www.linkedin.com/in/chris-carr-93288820",
+        "github": "https://github.com/christocarr"
+      },
+      "jobTitle": "Frontend Web Developer",
+      "location": {
+        "city": "Wembley",
+        "state": "London",
+        "country": "United Kingdom"
       }
     }
   ]
