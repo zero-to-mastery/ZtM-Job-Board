@@ -9429,7 +9429,7 @@
         "city": "New Taipei",
         "state": "",
         "country": "Taiwan"
-    }
+      }
     },
     {
       "id": 593,
@@ -9446,11 +9446,8 @@
         "state": "Cairo",
         "country": "Egypt"
       }
-    }
-  ]
-}
-
-,{
+    },
+    {
   "id": 594,
   "name": "Tomasz Biernat",
   "img": "https://avatars3.githubusercontent.com/u/39054140?s=400&u=2e6dfce7fb25df9bcfb9058021a5438a01a5d677&v=4",
@@ -9458,11 +9455,11 @@
     "website": "",
     "linkedin": "https://www.linkedin.com/in/tomasz-biernat-682307163/",
     "github": "https://github.com/tomaszbiernat"
-  },
-  "jobTitle": "Front-end Developer",
-  "location": {
-    "city": "Kraków",
-    "state": "Małopolska",
-    "country": "Poland"
-  }
-}
+      },
+      "jobTitle": "Front-end Developer",
+      "location": {
+        "city": "Kraków",
+        "state": "Małopolska",
+        "country": "Poland"
+      }
+    },
