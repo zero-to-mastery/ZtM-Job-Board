@@ -9478,7 +9478,22 @@
         "state": "London",
         "country": "United Kingdom"
       }
+    },
+    {
+      "id": 596,
+      "name": "Perry Raskin",
+      "img": "https://i.imgur.com/o5rlRTO.jpg",
+      "links": {
+        "website": "https://raskin.me",
+        "linkedin": "https://www.linkedin.com/in/perryraskin",
+        "github": "https://github.com/perryraskin"
+      },
+      "jobTitle": "Software Engineer",
+      "location": {
+        "city": "Forest Hills",
+        "state": "New York",
+        "country": "United States"
+      }
     }
   ]
 }
-    
