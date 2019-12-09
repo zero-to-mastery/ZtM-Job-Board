@@ -9448,20 +9448,20 @@
       }
     },
     {
-  "id": 594,
-  "name": "Tomasz Biernat",
-  "img": "https://avatars3.githubusercontent.com/u/39054140?s=400&u=2e6dfce7fb25df9bcfb9058021a5438a01a5d677&v=4",
-  "links": {
-    "website": "",
-    "linkedin": "https://www.linkedin.com/in/tomasz-biernat-682307163/",
-    "github": "https://github.com/tomaszbiernat"
+      "id": 594,
+      "name": "Tomasz Biernat",
+      "img": "https://avatars3.githubusercontent.com/u/39054140?s=400&u=2e6dfce7fb25df9bcfb9058021a5438a01a5d677&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/tomasz-biernat-682307163/",
+        "github": "https://github.com/tomaszbiernat"
       },
       "jobTitle": "Front-end Developer",
       "location": {
         "city": "Kraków",
         "state": "Małopolska",
         "country": "Poland"
-    }
+      }
     },
     {
       "id": 595,
@@ -9493,6 +9493,22 @@
         "city": "Forest Hills",
         "state": "New York",
         "country": "United States"
+      }
+    },
+    {
+      "id": 597,
+      "name": "Ahmed Abdelhamid",
+      "img": "",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/ahmedsalah4/",
+        "github": "https://github.com/ahmed-abdelhamid"
+      },
+      "jobTitle": "Full Stack Web Developer",
+      "location": {
+        "city": "Riyadh",
+        "state": "",
+        "country": "Saudi Arabia"
       }
     }
   ]
