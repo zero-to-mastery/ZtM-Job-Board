@@ -9510,6 +9510,22 @@
         "state": "",
         "country": "Saudi Arabia"
       }
+    },
+    {
+      "id": 598,
+      "name": "Luis Gerardo",
+      "img": "https://avatars1.githubusercontent.com/u/27018845?s=460&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/luimagm/",
+        "github": "https://github.com/yaminolight"
+      },
+      "jobTitle": "Web Developer",
+      "location": {
+        "city": "Santo Domingo",
+        "state": "Santo Domingo",
+        "country": "Dominican Republic"
+      }
     }
   ]
 }
