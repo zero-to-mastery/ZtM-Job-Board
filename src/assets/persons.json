@@ -9512,7 +9512,22 @@
       }
     },
     {
-      "id": 598,
+    "id": 598,
+    "name": "Akash Dutta",
+    "img": "",
+    "links": {
+      "website": "https://akashdutta93.github.io/akashdutta.github.io/",
+      "linkedin": "https://www.linkedin.com/in/akash-dutta-0a4993173/",
+      "github": "https://github.com/akashdutta93"
+    },
+    "jobTitle": "Front-End Developer",
+    "location": {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "country": "India"
+    },
+      {
+      "id": 599,
       "name": "Luis Gerardo",
       "img": "https://avatars1.githubusercontent.com/u/27018845?s=460&v=4",
       "links": {
@@ -9526,6 +9541,6 @@
         "state": "Santo Domingo",
         "country": "Dominican Republic"
       }
-    }
+  }
   ]
 }
