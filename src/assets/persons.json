@@ -9510,6 +9510,22 @@
         "state": "",
         "country": "Saudi Arabia"
       }
+    },
+    {
+      "id": 598,
+      "name": "Radu Rusu",
+      "img": "https://github.com/RaduRS/img/blob/master/88.jpg",
+      "links": {
+        "website": "https://portfoliopro.co.uk/",
+        "linkedin": "https://www.linkedin.com/in/radu-rusu-88449991/",
+        "github": "https://github.com/RaduRS"
+      },
+      "jobTitle": "Full Stack & UX/UI Developer",
+      "location": {
+        "city": "Nottingham",
+        "state": "",
+        "country": "United Kingdom"
+      }
     }
   ]
 }
