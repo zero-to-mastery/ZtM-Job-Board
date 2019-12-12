@@ -9510,11 +9510,8 @@
         "state": "",
         "country": "Saudi Arabia"
       }
-    }
-  ]
-},
-
-{
+    },
+    {
     "id": 598,
     "name": "Akash Dutta",
     "img": "",
@@ -9530,3 +9527,5 @@
       "country": "India"
     }
   }
+  ]
+}
