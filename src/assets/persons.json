@@ -9526,6 +9526,22 @@
         "state": "",
         "country": "United Kingdom"
       }
+    },
+    {
+    "id": 599,
+    "name": "Akash Dutta",
+    "img": "",
+    "links": {
+      "website": "https://akashdutta93.github.io/akashdutta.github.io/",
+      "linkedin": "https://www.linkedin.com/in/akash-dutta-0a4993173/",
+      "github": "https://github.com/akashdutta93"
+    },
+    "jobTitle": "Front-End Developer",
+    "location": {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "country": "India"
     }
+  }
   ]
 }
