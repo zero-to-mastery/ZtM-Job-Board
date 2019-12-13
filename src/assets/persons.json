@@ -9528,23 +9528,23 @@
       }
     },
     {
-    "id": 599,
-    "name": "Akash Dutta",
-    "img": "",
-    "links": {
-      "website": "https://akashdutta93.github.io/akashdutta.github.io/",
-      "linkedin": "https://www.linkedin.com/in/akash-dutta-0a4993173/",
-      "github": "https://github.com/akashdutta93"
-    },
-    "jobTitle": "Front-End Developer",
-    "location": {
-      "city": "Kolkata",
-      "state": "West Bengal",
-      "country": "India"
-    }
-    },
-      {
       "id": 599,
+      "name": "Akash Dutta",
+      "img": "",
+      "links": {
+        "website": "https://akashdutta93.github.io/akashdutta.github.io/",
+        "linkedin": "https://www.linkedin.com/in/akash-dutta-0a4993173/",
+        "github": "https://github.com/akashdutta93"
+      },
+      "jobTitle": "Front-End Developer",
+      "location": {
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "country": "India"
+      }
+    },
+    {
+      "id": 600,
       "name": "Luis Gerardo",
       "img": "https://avatars1.githubusercontent.com/u/27018845?s=460&v=4",
       "links": {
@@ -9558,6 +9558,22 @@
         "state": "Santo Domingo",
         "country": "Dominican Republic"
       }
-  }
+    },
+    {
+      "id": 601,
+      "name": "Mavroian Florin",
+      "img": "https://lh3.googleusercontent.com/-QNQ4WTbhW3Q/XXrk_Qyn6iI/AAAAAAAABek/-G88TlBtAvgvdekGHc10whLO0g4rk8dCQCEwYBhgL/w280-h280-p/Resume%2BPhoto.jpeg",
+      "links": {
+        "website": "http:/florinmavroian.tk",
+        "linkedin": "https://www.linkedin.com/in/florin-mavroian/",
+        "github": "https://github.com/mavroian"
+      },
+      "jobTitle": "Software Engineer",
+      "location": {
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "Japan"
+      }
+    }
   ]
 }
