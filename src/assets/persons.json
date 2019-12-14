@@ -9574,6 +9574,22 @@
         "state": "Tokyo",
         "country": "Japan"
       }
+    },
+    {
+      "id": 602,
+      "name": "Abhishek Prasad",
+      "img": "https://i.imgur.com/gOcr0VW.jpg",
+      "links": {
+        "website": "",
+        "linkedin": "https://in.linkedin.com/in/devcula",
+        "github": "https://github.com/devcula"
+      },
+      "jobTitle": "Full Stack Web Developer",
+      "location": {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "country": "India"
+      }
     }
   ]
 }
