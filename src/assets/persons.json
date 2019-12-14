@@ -9577,6 +9577,22 @@
     },
     {
       "id": 602,
+      "name": "Abhishek Prasad",
+      "img": "https://i.imgur.com/gOcr0VW.jpg",
+      "links": {
+        "website": "",
+        "linkedin": "https://in.linkedin.com/in/devcula",
+        "github": "https://github.com/devcula"
+      },
+      "jobTitle": "Full Stack Web Developer",
+      "location": {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "country": "India"
+    }
+    },
+    {
+      "id": 603,
       "name": "Osher Solimany",
       "img": "https://scontent.ftlv5-1.fna.fbcdn.net/v/t1.0-9/12391812_1081587291861391_3812268796792628236_n.jpg?_nc_cat=110&_nc_ohc=eaN8C1nrDYEAQmBsMaRJ5aE2m0vDoO1pW31TAE3pVvo6wvuBsvE01axXA&_nc_ht=scontent.ftlv5-1.fna&oh=e0e639113fe7ce541d5c595efe4d03db&oe=5E73FE3D",
       "links": {
