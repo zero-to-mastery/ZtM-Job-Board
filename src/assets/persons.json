@@ -9606,6 +9606,22 @@
         "state": "Tel Aviv",
         "country": "Israel"
       }
+    },
+    {
+      "id": 604,
+      "name": "Kutlu Ata",
+      "img": "https://avatars2.githubusercontent.com/u/32374530?s=460&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/kutlu-devrim-ata-86a91518/",
+        "github": "https://github.com/leto666"
+      },
+      "jobTitle": "Full Stack Web Developer",
+      "location": {
+        "city": "Belgrade",
+        "state": "",
+        "country": "Serbia"
+      }
     }
   ]
 }
