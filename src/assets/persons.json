@@ -9605,7 +9605,8 @@
         "city": "Tel Aviv",
         "state": "Tel Aviv",
         "country": "Israel"
-      },
+      }
+    },
     {
       "id": 604,
       "name": "Kutlu Ata",
@@ -9621,7 +9622,6 @@
         "state": "",
         "country": "Serbia"
       }
-    }
     }
   ]
 }
