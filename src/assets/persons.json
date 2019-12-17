@@ -9653,6 +9653,21 @@
         "city": "Tel-Aviv",
         "state": "",
         "country": "Israel"
+      },
+       {
+      "id":607,
+      "name": "Shabnam Essa",
+      "img": "",
+      "links": {
+        "website": "http://www.shabnamessa.com",
+        "linkedin": "https://www.linkedin.com/in/shabnamessa/",
+        "github": "https://github.com/shabname"
+      },
+      "jobTitle": "Full Stack Web Developer",
+      "location": {
+        "city": "Greater Manchester",
+        "state": "",
+        "country": "United Kingdom"
       }
     }
   ]
