@@ -9625,6 +9625,22 @@
     },
     {
       "id": 605,
+      "name": "Erick Yataco",
+      "img": "https://avatars1.githubusercontent.com/u/7172570?s=460&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/erick-ivan-yataco/",
+        "github": "https://github.com/ErickYataco"
+      },
+      "jobTitle": "K8S specialist, DevOps and Cloud Engineer",
+      "location": {
+        "city": "Lima",
+        "state": "",
+        "country": "Peru"
+      }
+    },
+    {
+      "id":606,
       "name": "Yoni Sisso",
       "img": "",
       "links": {
