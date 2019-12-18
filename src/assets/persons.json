@@ -9670,6 +9670,22 @@
         "state": "",
         "country": "United Kingdom"
       }
+    },
+    {
+      "id": 608,
+      "name": "Gal Kol",
+      "img": "",
+      "links": {
+        "website": "https://github.com/settings/profile",
+        "linkedin": "https://www.linkedin.com/in/gal-kol",
+        "github": "https://github.com/999galk"
+      },
+      "jobTitle": "Junior Web Developer",
+      "location": {
+        "city": "Tel Aviv",
+        "state": "Israel",
+        "country": "Israel"
+      }
     }
   ]
 }
