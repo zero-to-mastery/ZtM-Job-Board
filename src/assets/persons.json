@@ -9673,6 +9673,22 @@
     },
     {
       "id": 608,
+      "name": "Rajaram Sivaramakrishnan",
+      "img": "",
+      "links": {
+        "website": "https://raja1196.github.io",
+        "linkedin": "https://www.linkedin.com/in/rajaram-sivaramakrishnan/",
+        "github": "https://github.com/raja1196"
+      },
+      "jobTitle": "Machine Learning Engineer",
+      "location": {
+        "city": "Raleigh",
+        "state": "North Carolina",
+        "country": "United States"
+    }
+    },
+    {
+      "id": 609,
       "name": "Gal Kol",
       "img": "",
       "links": {
