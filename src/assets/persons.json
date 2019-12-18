@@ -9702,6 +9702,22 @@
         "state": "Israel",
         "country": "Israel"
       }
+    },
+    {
+      "id": 700,
+      "name": "Ghislain Deffo",
+      "img": "https://avatars3.githubusercontent.com/u/37311893?s=460&v=4",
+      "links": {
+        "website": "https://gnarus-tech.github.io/",
+        "linkedin": "https://www.linkedin.com/in/ghislain-deffo-312922163/",
+        "github": "https://github.com/GnarusGBaby"
+      },
+      "jobTitle": "Full Stack Software Developer",
+      "location": {
+        "city": "Silver Spring",
+        "state": "Maryland",
+        "country": "United States"
+      }
     }
   ]
 }
