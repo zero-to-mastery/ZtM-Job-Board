@@ -9766,6 +9766,22 @@
         "state": "West Flanders",
         "country": "Belgium"
       }
+    },
+    {
+      "id": 704,
+      "name": "Ayush Gupta",
+      "img": "https://avatars3.githubusercontent.com/u/21218732?s=460&v=4",
+      "links": {
+        "website": "http://ayushgupta.tech/",
+        "linkedin": "https://www.linkedin.com/in/guptaji6/",
+        "github": "https://github.com/gupta-ji6"
+      },
+      "jobTitle": "Front-end Developer",
+      "location": {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India"
+      }
     }
   ]
 }
