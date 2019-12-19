@@ -9734,6 +9734,23 @@
         "state": "",
         "country": "Perú"
       }
+    },
+    {
+      "id": 702,
+      "name": "Romane Green",
+      "img": " ",
+      "links": {
+        "website": "https://www.RomaneGreen.com",
+        "linkedin": "https://www.linkedin.com/in/romane-green-395539163/",
+        "github": "https://github.com/RomaneGreen"
+      },
+      "jobTitle": "Full Stack Software Developer",
+      "location": {
+        "city": "NYC",
+        "state": "New York",
+        "country": "United States"
+      }
     }
+  
   ]
 }
