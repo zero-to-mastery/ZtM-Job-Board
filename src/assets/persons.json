@@ -9750,7 +9750,22 @@
         "state": "New York",
         "country": "United States"
       }
+    },
+    {
+      "id": 703,
+      "name": "Crisse Soto",
+      "img": "https://secure.gravatar.com/avatar/551d4ac947cacb2fac2776e7606fedcb",
+      "links": {
+        "website": "http://www.crissesoto.com",
+        "linkedin": "https://www.linkedin.com/in/crisse-soto-380468b8/",
+        "github": "https://github.com/crissesoto"
+      },
+      "jobTitle": "Front-end Developer",
+      "location": {
+        "city": "Bruges",
+        "state": "West Flanders",
+        "country": "Belgium"
+      }
     }
-  
   ]
 }
