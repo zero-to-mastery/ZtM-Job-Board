@@ -9798,6 +9798,22 @@
         "state": "British Columbia",
         "country": "Canada"
       }
+    },
+    {
+      "id": 706,
+      "name": "Steve Kudirka",
+      "img": "https://avatars2.githubusercontent.com/u/709245?s=460&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/steven-kudirka-2a38a926/",
+        "github": "https://github.com/skudirka/"
+      },
+      "jobTitle": "Senior Software Engineer",
+      "location": {
+        "city": "Madisonville",
+        "state": "LA",
+        "country": "USA"
+      }
     }
   ]
 }
