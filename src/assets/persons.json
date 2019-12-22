@@ -9830,6 +9830,22 @@
         "state": "Guanajuato",
         "country": "Mexico"
       }
+    },
+       {
+      "id": 708,
+      "name": "Araf Hossain",
+      "img": "https://avatars1.githubusercontent.com/u/17367761?s=460&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/arafhossain",
+        "github": "https://github.com/arafhossain"
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "New York",
+        "state": "New York",
+        "country": "USA"
+      }
     }
   ]
 }
