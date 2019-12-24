@@ -9846,6 +9846,22 @@
         "state": "New York",
         "country": "USA"
       }
+    },
+    {
+    "id": 709,
+    "name": "Said LITIM",
+    "img": "https://avatars2.githubusercontent.com/u/42178733?s=460&v=4",
+    "links": {
+      "website": "http://portfolio.projectslit.fr/",
+      "linkedin": "https://www.linkedin.com/in/sa%C3%AFd-litim-105115ba/",
+      "github": "https://github.com/salitim"
+    },
+    "jobTitle": "JS Developer",
+    "location": {
+      "city": "Lyon",
+      "state": "",
+      "country": "France"
     }
+  }
   ]
 }
