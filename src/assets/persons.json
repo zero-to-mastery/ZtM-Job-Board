@@ -9863,5 +9863,21 @@
       "country": "France"
     }
   }
+,{
+    "id": 710,
+    "name": "Timofeeva Elizaveta",
+    "img": "https://media.licdn.com/dms/image/C4D03AQF-NBv9wCeG1A/profile-displayphoto-shrink_200_200/0?e=1582761600&v=beta&t=dW6MWaZKwvCI2NogXUtki8lYL-OkBHrQCUtB7gleyWc",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/elizaveta-timofeeva-497158152/",
+      "github": "https://github.com/Lijamaija"
+    },
+    "jobTitle": "React Developer, Frone-end developer",
+    "location": {
+      "city": "Prague",
+      "state": "",
+      "country": "Czech Republic"
+    }
+  }
   ]
 }
