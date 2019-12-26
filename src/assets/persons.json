@@ -9878,6 +9878,22 @@
       "state": "",
       "country": "Czech Republic"
     }
+  },
+  {
+    "id": 711,
+    "name": "Can Berker Cikis",
+    "img": "https://avatars2.githubusercontent.com/u/13052327?s=460&v=4",
+    "links": {
+      "website": "https://canberker.com/",
+      "linkedin": "https://www.linkedin.com/in/can-berker/",
+      "github": "https://github.com/CanBerker"
+    },
+    "jobTitle": "Full-Stack Software Engineer",
+    "location": {
+      "city": "Zurich",
+      "state": "",
+      "country": "Switzerland"
+    }
   }
   ]
 }
