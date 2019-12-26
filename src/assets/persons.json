@@ -9894,6 +9894,22 @@
       "state": "",
       "country": "Switzerland"
     }
+  },
+  {
+    "id": 712,
+    "name": "Akshay Sharma",
+    "img": "https://avatars0.githubusercontent.com/u/37118877?v=4",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/akshay-sharma-7962ab13a/",
+      "github": "https://github.com/Akshay2996"
+    },
+    "jobTitle": "Front-End Developer",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India"
+    }
   }
   ]
 }
