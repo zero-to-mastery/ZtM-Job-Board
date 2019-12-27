@@ -9910,6 +9910,22 @@
       "state": "Karnataka",
       "country": "India"
     }
+  },
+   {
+    "id": 713,
+    "name": "Azorji Kelechi Oliver",
+    "img": "https://avatars1.githubusercontent.com/u/32667315?v=4",
+    "links": {
+      "website": "http://oliver-ke.github.io/",
+      "linkedin": "https://www.linkedin.com/in/oliver-ke",
+      "github": "http://github.com/oliver-ke"
+    },
+    "jobTitle": "Full-Stack Web Developer (NodeJs | React)",
+    "location": {
+      "city": "Port Harcourt",
+      "state": "Rivers State",
+      "country": "Nigeria"
+    }
   }
   ]
 }
