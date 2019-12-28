@@ -9911,7 +9911,7 @@
       "country": "India"
     }
   },
-   {
+  {
     "id": 713,
     "name": "Azorji Kelechi Oliver",
     "img": "https://avatars1.githubusercontent.com/u/32667315?v=4",
@@ -9925,6 +9925,22 @@
       "city": "Port Harcourt",
       "state": "Rivers State",
       "country": "Nigeria"
+    }
+  },
+  {
+    "id": 714,
+    "name": "Srinivasa Rao Bhandari",
+    "img": "https://avatars1.githubusercontent.com/u/58605019?s=460&amp;v=4",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/srinivasa-rao-bhandari-aa36a1171/",
+      "github": "https://github.com/SrinivasaRaoBhandari"
+    },
+    "jobTitle": "Full-stack Web Developer",
+    "location": {
+      "city": "Zabrze",
+      "state": "Silesia",
+      "country": "Poland"
     }
   }
   ]
