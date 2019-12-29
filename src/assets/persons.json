@@ -9942,6 +9942,22 @@
       "state": "Silesia",
       "country": "Poland"
     }
+  },
+  {
+    "id": 715,
+    "name": "Jonathas Duarte",
+    "img": "https://avatars1.githubusercontent.com/u/42847587?s=400&u=86513eef5bc0297528225636193ab72d5da91ee9&v=4",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/jonathas-duarte-de-carvalho-e-silva-a728aa70/",
+      "github": "https://github.com/jonathasdcsilva/"
+    },
+    "jobTitle": "Backend Developer",
+    "location": {
+      "city": "Brasilia",
+      "state": "Distrito Federal",
+      "country": "Brazil"
+    }
   }
   ]
 }
