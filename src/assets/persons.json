@@ -9958,6 +9958,22 @@
       "state": "Distrito Federal",
       "country": "Brazil"
     }
+  },
+  {
+    "id": 716,
+    "name": "Adam Hartman",
+    "img": "https://avatars3.githubusercontent.com/u/29264098?s=460&v=4",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/adamhartman5/",
+      "github": "https://github.com/adamhartman5/"
+    },
+    "jobTitle": "Junior Web Developer | Junior Developer",
+    "location": {
+      "city": "Lakeland",
+      "state": "Florida",
+      "country": "USA"
+    }
   }
   ]
 }
