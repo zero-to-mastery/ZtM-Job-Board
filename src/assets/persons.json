@@ -1,6 +1,5 @@
 {
-  "people": [
-    {
+  "people": [{
       "id": 1,
       "name": "Andrej Zadnik",
       "img": "",
@@ -9589,7 +9588,7 @@
         "city": "Pune",
         "state": "Maharashtra",
         "country": "India"
-    }
+      }
     },
     {
       "id": 603,
@@ -9640,7 +9639,7 @@
       }
     },
     {
-      "id":606,
+      "id": 606,
       "name": "Yoni Sisso",
       "img": "",
       "links": {
@@ -9656,7 +9655,7 @@
       }
     },
     {
-      "id":607,
+      "id": 607,
       "name": "Shabnam Essa",
       "img": "",
       "links": {
@@ -9685,7 +9684,7 @@
         "city": "Raleigh",
         "state": "North Carolina",
         "country": "United States"
-    }
+      }
     },
     {
       "id": 609,
@@ -9831,7 +9830,7 @@
         "country": "Mexico"
       }
     },
-       {
+    {
       "id": 708,
       "name": "Araf Hossain",
       "img": "https://avatars1.githubusercontent.com/u/17367761?s=460&v=4",
@@ -9848,132 +9847,147 @@
       }
     },
     {
-    "id": 709,
-    "name": "Said LITIM",
-    "img": "https://avatars2.githubusercontent.com/u/42178733?s=460&v=4",
-    "links": {
-      "website": "http://portfolio.projectslit.fr/",
-      "linkedin": "https://www.linkedin.com/in/sa%C3%AFd-litim-105115ba/",
-      "github": "https://github.com/salitim"
+      "id": 709,
+      "name": "Said LITIM",
+      "img": "https://avatars2.githubusercontent.com/u/42178733?s=460&v=4",
+      "links": {
+        "website": "http://portfolio.projectslit.fr/",
+        "linkedin": "https://www.linkedin.com/in/sa%C3%AFd-litim-105115ba/",
+        "github": "https://github.com/salitim"
+      },
+      "jobTitle": "JS Developer",
+      "location": {
+        "city": "Lyon",
+        "state": "",
+        "country": "France"
+      }
+    }, {
+      "id": 710,
+      "name": "Timofeeva Elizaveta",
+      "img": "https://media.licdn.com/dms/image/C4D03AQF-NBv9wCeG1A/profile-displayphoto-shrink_200_200/0?e=1582761600&v=beta&t=dW6MWaZKwvCI2NogXUtki8lYL-OkBHrQCUtB7gleyWc",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/elizaveta-timofeeva-497158152/",
+        "github": "https://github.com/Lijamaija"
+      },
+      "jobTitle": "React Developer, Frone-end developer",
+      "location": {
+        "city": "Prague",
+        "state": "",
+        "country": "Czech Republic"
+      }
     },
-    "jobTitle": "JS Developer",
-    "location": {
-      "city": "Lyon",
-      "state": "",
-      "country": "France"
-    }
-  }
-,{
-    "id": 710,
-    "name": "Timofeeva Elizaveta",
-    "img": "https://media.licdn.com/dms/image/C4D03AQF-NBv9wCeG1A/profile-displayphoto-shrink_200_200/0?e=1582761600&v=beta&t=dW6MWaZKwvCI2NogXUtki8lYL-OkBHrQCUtB7gleyWc",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/elizaveta-timofeeva-497158152/",
-      "github": "https://github.com/Lijamaija"
+    {
+      "id": 711,
+      "name": "Can Berker Cikis",
+      "img": "https://avatars2.githubusercontent.com/u/13052327?s=460&v=4",
+      "links": {
+        "website": "https://canberker.com/",
+        "linkedin": "https://www.linkedin.com/in/can-berker/",
+        "github": "https://github.com/CanBerker"
+      },
+      "jobTitle": "Full-Stack Software Engineer",
+      "location": {
+        "city": "Zurich",
+        "state": "",
+        "country": "Switzerland"
+      }
     },
-    "jobTitle": "React Developer, Frone-end developer",
-    "location": {
-      "city": "Prague",
-      "state": "",
-      "country": "Czech Republic"
-    }
-  },
-  {
-    "id": 711,
-    "name": "Can Berker Cikis",
-    "img": "https://avatars2.githubusercontent.com/u/13052327?s=460&v=4",
-    "links": {
-      "website": "https://canberker.com/",
-      "linkedin": "https://www.linkedin.com/in/can-berker/",
-      "github": "https://github.com/CanBerker"
+    {
+      "id": 712,
+      "name": "Akshay Sharma",
+      "img": "https://avatars0.githubusercontent.com/u/37118877?v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/akshay-sharma-7962ab13a/",
+        "github": "https://github.com/Akshay2996"
+      },
+      "jobTitle": "Front-End Developer",
+      "location": {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India"
+      }
     },
-    "jobTitle": "Full-Stack Software Engineer",
-    "location": {
-      "city": "Zurich",
-      "state": "",
-      "country": "Switzerland"
-    }
-  },
-  {
-    "id": 712,
-    "name": "Akshay Sharma",
-    "img": "https://avatars0.githubusercontent.com/u/37118877?v=4",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/akshay-sharma-7962ab13a/",
-      "github": "https://github.com/Akshay2996"
+    {
+      "id": 713,
+      "name": "Azorji Kelechi Oliver",
+      "img": "https://avatars1.githubusercontent.com/u/32667315?v=4",
+      "links": {
+        "website": "http://oliver-ke.github.io/",
+        "linkedin": "https://www.linkedin.com/in/oliver-ke",
+        "github": "http://github.com/oliver-ke"
+      },
+      "jobTitle": "Full-Stack Web Developer (NodeJs | React)",
+      "location": {
+        "city": "Port Harcourt",
+        "state": "Rivers State",
+        "country": "Nigeria"
+      }
     },
-    "jobTitle": "Front-End Developer",
-    "location": {
-      "city": "Bengaluru",
-      "state": "Karnataka",
-      "country": "India"
-    }
-  },
-  {
-    "id": 713,
-    "name": "Azorji Kelechi Oliver",
-    "img": "https://avatars1.githubusercontent.com/u/32667315?v=4",
-    "links": {
-      "website": "http://oliver-ke.github.io/",
-      "linkedin": "https://www.linkedin.com/in/oliver-ke",
-      "github": "http://github.com/oliver-ke"
+    {
+      "id": 714,
+      "name": "Srinivasa Rao Bhandari",
+      "img": "https://avatars1.githubusercontent.com/u/58605019?s=460&amp;v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/srinivasa-rao-bhandari-aa36a1171/",
+        "github": "https://github.com/SrinivasaRaoBhandari"
+      },
+      "jobTitle": "Full-stack Web Developer",
+      "location": {
+        "city": "Zabrze",
+        "state": "Silesia",
+        "country": "Poland"
+      }
     },
-    "jobTitle": "Full-Stack Web Developer (NodeJs | React)",
-    "location": {
-      "city": "Port Harcourt",
-      "state": "Rivers State",
-      "country": "Nigeria"
-    }
-  },
-  {
-    "id": 714,
-    "name": "Srinivasa Rao Bhandari",
-    "img": "https://avatars1.githubusercontent.com/u/58605019?s=460&amp;v=4",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/srinivasa-rao-bhandari-aa36a1171/",
-      "github": "https://github.com/SrinivasaRaoBhandari"
+    {
+      "id": 715,
+      "name": "Jonathas Duarte",
+      "img": "https://avatars1.githubusercontent.com/u/42847587?s=400&u=86513eef5bc0297528225636193ab72d5da91ee9&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/jonathas-duarte-de-carvalho-e-silva-a728aa70/",
+        "github": "https://github.com/jonathasdcsilva/"
+      },
+      "jobTitle": "Backend Developer",
+      "location": {
+        "city": "Brasilia",
+        "state": "Distrito Federal",
+        "country": "Brazil"
+      }
     },
-    "jobTitle": "Full-stack Web Developer",
-    "location": {
-      "city": "Zabrze",
-      "state": "Silesia",
-      "country": "Poland"
-    }
-  },
-  {
-    "id": 715,
-    "name": "Jonathas Duarte",
-    "img": "https://avatars1.githubusercontent.com/u/42847587?s=400&u=86513eef5bc0297528225636193ab72d5da91ee9&v=4",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/jonathas-duarte-de-carvalho-e-silva-a728aa70/",
-      "github": "https://github.com/jonathasdcsilva/"
+    {
+      "id": 716,
+      "name": "Adam Hartman",
+      "img": "https://avatars3.githubusercontent.com/u/29264098?s=460&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/adamhartman5/",
+        "github": "https://github.com/adamhartman5/"
+      },
+      "jobTitle": "Junior Web Developer | Junior Developer",
+      "location": {
+        "city": "Lakeland",
+        "state": "Florida",
+        "country": "USA"
+      }
     },
-    "jobTitle": "Backend Developer",
-    "location": {
-      "city": "Brasilia",
-      "state": "Distrito Federal",
-      "country": "Brazil"
+    {
+      "id": 717,
+      "name": "Felipe Cruz",
+      "img": "https://avatars2.githubusercontent.com/u/57880601?s=460&v=4",
+      "links": {
+        "website": "https://zealous-varahamihira-af923b.netlify.com/",
+        "linkedin": "",
+        "github": "https://github.com/felipegcruz"
+      },
+      "jobTitle": "Junior Web Developer | Junior Developer",
+      "location": {
+        "city": "Haverfordwest ",
+        "state": "Pembrokeshire",
+        "country": "United Kingdom"
+      }
     }
-  },
-  {
-    "id": 716,
-    "name": "Adam Hartman",
-    "img": "https://avatars3.githubusercontent.com/u/29264098?s=460&v=4",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/adamhartman5/",
-      "github": "https://github.com/adamhartman5/"
-    },
-    "jobTitle": "Junior Web Developer | Junior Developer",
-    "location": {
-      "city": "Lakeland",
-      "state": "Florida",
-      "country": "USA"
-    }
-  }
   ]
 }
