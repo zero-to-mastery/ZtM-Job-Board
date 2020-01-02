@@ -10004,6 +10004,54 @@
         "state": "Washington",
         "country": "USA"
       }
+     },
+     {
+       "id": 719,
+      "name": "Haider Tiwana",
+      "img": "https://avatars3.githubusercontent.com/u/20669228?s=460&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/hai-der/",
+        "github": "https://github.com/hai-der"
+      },
+      "jobTitle": "Full-Stack Software Engineer",
+      "location": {
+        "city": "Seattle",
+        "state": "Washington",
+        "country": "United States"
+      }
     }
+   ,{
+      "id": 720,
+      "name": "Tanja Vinogradova",
+      "img": "https://avatars1.githubusercontent.com/u/56765550?s=460&v=4",
+      "links": {
+        "website": "https://photovinogradova.com/resume",
+        "linkedin": "https://www.linkedin.com/in/tanjavinogradova/",
+        "github": "https://github.com/tavinogradova92"
+      },
+      "jobTitle": "Frontend Developer | UX Designer",
+      "location": {
+        "city": "Copenhagen",
+        "state": "Caputal Region",
+        "country": "Denmark"
+      }
+    },
+      {
+       "id": 721,
+       "name": "David Nguyen",
+       "img": "https://avatars0.githubusercontent.com/u/57503203?s=460&v=4",
+       "links": {
+         "website": "https://www.utechpia.com/",
+         "linkedin": "https://www.linkedin.com/in/utechpia/",
+         "github": "https://github.com/utechpia"
+       },
+       "jobTitle": "Developer, Developer Advocate, Influencer",
+       "location": {
+         "city": "San Francisco",
+         "state": "CA",
+         "country": "USA"
+      }
+     }
   ]
 }
