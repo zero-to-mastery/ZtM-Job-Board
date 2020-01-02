@@ -9989,5 +9989,21 @@
         "country": "United Kingdom"
       }
     }
+    ,{
+      "id": 718,
+      "name": "Tanja Vinogradova",
+      "img": "https://avatars1.githubusercontent.com/u/56765550?s=460&v=4",
+      "links": {
+        "website": "https://photovinogradova.com/resume",
+        "linkedin": "https://www.linkedin.com/in/tanjavinogradova/",
+        "github": "https://github.com/tavinogradova92"
+      },
+      "jobTitle": "Frontend Developer | UX Designer",
+      "location": {
+        "city": "Copenhagen",
+        "state": "Caputal Region",
+        "country": "Denmark"
+      }
+    }
   ]
 }
