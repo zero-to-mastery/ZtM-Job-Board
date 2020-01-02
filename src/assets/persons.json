@@ -9988,6 +9988,22 @@
         "state": "Pembrokeshire",
         "country": "United Kingdom"
       }
-    }
+    },
+      {
+       "id": 718,
+       "name": "David Nguyen",
+       "img": "https://avatars0.githubusercontent.com/u/57503203?s=460&v=4",
+       "links": {
+         "website": "https://www.utechpia.com/",
+         "linkedin": "https://www.linkedin.com/in/utechpia/",
+         "github": "https://github.com/utechpia"
+       },
+       "jobTitle": "Developer, Developer Advocate, Influencer",
+       "location": {
+         "city": "San Francisco",
+         "state": "CA",
+         "country": "USA"
+      }
+     }
   ]
 }
