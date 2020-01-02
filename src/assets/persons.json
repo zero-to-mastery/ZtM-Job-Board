@@ -9984,9 +9984,25 @@
       },
       "jobTitle": "Junior Web Developer | Junior Developer",
       "location": {
-        "city": "Haverfordwest ",
+        "city": "Haverfordwest",
         "state": "Pembrokeshire",
         "country": "United Kingdom"
+      }
+    },
+    {
+      "id": 718,
+      "name": "Alek Vila",
+      "img": "https://avatars2.githubusercontent.com/u/39844914?s=460&v=4",
+      "links": {
+        "website": "https://www.greatgraphicdesign.com/",
+        "linkedin": "https://www.linkedin.com/in/alek-vila/",
+        "github": "https://github.com/greatgraphicdesign/"
+      },
+      "jobTitle": "Front-End Developer, Art Director, Graphic Designer, UI/UX",
+      "location": {
+        "city": "Bellingham",
+        "state": "Washington",
+        "country": "USA"
       }
     }
   ]
