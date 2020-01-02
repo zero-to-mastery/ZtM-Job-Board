@@ -9984,13 +9984,29 @@
       },
       "jobTitle": "Junior Web Developer | Junior Developer",
       "location": {
-        "city": "Haverfordwest ",
+        "city": "Haverfordwest",
         "state": "Pembrokeshire",
         "country": "United Kingdom"
       }
     },
     {
       "id": 718,
+      "name": "Alek Vila",
+      "img": "https://avatars2.githubusercontent.com/u/39844914?s=460&v=4",
+      "links": {
+        "website": "https://www.greatgraphicdesign.com/",
+        "linkedin": "https://www.linkedin.com/in/alek-vila/",
+        "github": "https://github.com/greatgraphicdesign/"
+      },
+      "jobTitle": "Front-End Developer, Art Director, Graphic Designer, UI/UX",
+      "location": {
+        "city": "Bellingham",
+        "state": "Washington",
+        "country": "USA"
+      }
+     },
+     {
+       "id": 719,
       "name": "Haider Tiwana",
       "img": "https://avatars3.githubusercontent.com/u/20669228?s=460&v=4",
       "links": {
@@ -10005,8 +10021,8 @@
         "country": "United States"
       }
     }
-    ,{
-      "id": 718,
+   ,{
+      "id": 720,
       "name": "Tanja Vinogradova",
       "img": "https://avatars1.githubusercontent.com/u/56765550?s=460&v=4",
       "links": {
@@ -10022,7 +10038,7 @@
       }
     },
       {
-       "id": 719,
+       "id": 721,
        "name": "David Nguyen",
        "img": "https://avatars0.githubusercontent.com/u/57503203?s=460&v=4",
        "links": {
