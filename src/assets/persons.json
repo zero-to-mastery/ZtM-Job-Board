@@ -10084,6 +10084,21 @@
          "state": "CA",
          "country": "USA"
       }
-     }
+     },
+     {
+      "id": 724,
+      "name": "Leonid Kuznetsov",
+      "img": "https://avatars0.githubusercontent.com/u/9495532?s=400&u=4ac086da09c90364634b00020680e81d2593af0a&v=4",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/leonidkuznetsov/",
+        "github": "https://github.com/MrChe"
+      },
+      "jobTitle": "Senior Front End Developer",
+      "location": {
+        "city": "Kyiv",
+        "state": "Kyiv",
+        "country": "Ukraine"
+      }
+    }
   ]
 }
