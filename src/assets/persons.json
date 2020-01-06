@@ -10099,6 +10099,22 @@
         "state": "Kyiv",
         "country": "Ukraine"
       }
+    },
+    {
+      "id": 725,
+      "name": "André Gonçalves",
+      "img": "https://avatars1.githubusercontent.com/u/42880576?s=460&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/andgcv/",
+        "github": "https://github.com/andgcv"
+      },
+      "jobTitle": "Software Engineer",
+      "location": {
+        "city": "Lisbon",
+        "state": "Lisbon",
+        "country": "Portugal"
+      }
     }
   ]
 }
