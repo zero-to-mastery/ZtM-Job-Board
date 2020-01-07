@@ -10118,6 +10118,22 @@
     },
     {
     "id": 726,
+    "name": "Michelle Rahman",
+    "img": "https://i.imgur.com/65I3Y6r.jpg",
+    "links": {
+      "website": "https://michellerahman21.github.io/portfolio.github.io/",
+      "linkedin": "https://www.linkedin.com/in/michelle-rahman/",
+      "github": "https://github.com/MichelleRahman21"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States Of America"
+    }
+    },
+    {
+    "id": 727,
     "name": "Tony Mack",
     "img": "https://media.licdn.com/dms/image/C4D03AQEr5VmiOWVTSg/profile-displayphoto-shrink_200_200/0?e=1583971200&v=beta&t=vO61QsF0sEwHlXyeu2EvTXNzrQbMPPdJ5UBpyFVkIPg",
     "links": {
@@ -10132,7 +10148,7 @@
       }
     },
     {
-      "id": 727,
+      "id": 728,
       "name": "Stan Choi",
       "img": "https://avatars0.githubusercontent.com/u/43020892?s=400&v=4",
       "links": {
