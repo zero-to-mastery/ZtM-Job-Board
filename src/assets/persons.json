@@ -10115,6 +10115,21 @@
         "state": "Lisbon",
         "country": "Portugal"
       }
+    },{
+    "id": 726,
+    "name": "Michelle Rahman",
+    "img": "https://i.imgur.com/65I3Y6r.jpg",
+    "links": {
+      "website": "https://michellerahman21.github.io/portfolio.github.io/",
+      "linkedin": "https://www.linkedin.com/in/michelle-rahman/",
+      "github": "https://github.com/MichelleRahman21"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "United States Of America"
     }
+  }
   ]
 }
