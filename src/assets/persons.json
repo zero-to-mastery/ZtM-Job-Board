@@ -10116,7 +10116,7 @@
         "country": "Portugal"
       }
     },
-              ,{
+    {
     "id": 726,
     "name": "Tony Mack",
     "img": "https://media.licdn.com/dms/image/C4D03AQEr5VmiOWVTSg/profile-displayphoto-shrink_200_200/0?e=1583971200&v=beta&t=vO61QsF0sEwHlXyeu2EvTXNzrQbMPPdJ5UBpyFVkIPg",
@@ -10129,7 +10129,23 @@
       "city": "Bryanston",
       "state": "Gauteng",
       "country": "South Africa"
+      }
+    },
+    {
+      "id": 727,
+      "name": "Stan Choi",
+      "img": "https://avatars0.githubusercontent.com/u/43020892?s=400&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/stanchoinym/",
+        "github": "https://github.com/StanimalTheMan"
+      },
+      "jobTitle": "Software Engineer",
+      "location": {
+        "city": "Flushing",
+        "state": "New York",
+        "country": "USA"
+      }
     }
-  }
   ]
 }
