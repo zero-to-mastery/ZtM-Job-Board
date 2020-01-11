@@ -10161,6 +10161,21 @@
         "city": "Flushing",
         "state": "New York",
         "country": "USA"
+      },
+	{
+      "id": 729,
+      "name": "Arnab Ray",
+      "img": "https://avatars2.githubusercontent.com/u/26869021?s=460&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/funky-poseidon/",
+        "github": "https://github.com/arnabuchiha"
+      },
+      "jobTitle": "Full Stack Developer|Deep Learning Enthusiast|Android App Developer",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India"
       }
     }
   ]
