@@ -10194,6 +10194,22 @@
         "state": "Dubai",
         "country": "UAE"
       }
+    },
+    {
+      "id": 731,
+      "name": "Daniel Gleason",
+      "img": "https://ibb.co/fF39wtk",
+      "links": {
+        "website": "https://danny-gleason.netlify.com/",
+        "linkedin": "https://www.linkedin.com/in/dcglesaon/",
+        "github": "https://github.com/dcglesaon"
+      },
+      "jobTitle": "Full Stack Developer | Software Engineer",
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "country": "USA"
+      }
     }
   ]
 }
