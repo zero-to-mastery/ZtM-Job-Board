@@ -10210,6 +10210,22 @@
         "state": "MA",
         "country": "USA"
       }
+    },
+    {
+      "id": 732,
+      "name": "Oke Emmanuel",
+      "img": "",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/okemmanuel/",
+        "github": "https://github.com/theastutian"
+      },
+      "jobTitle": "Full Stack Developer | Data Scientist",
+      "location": {
+        "city": "Ile-Ife",
+        "state": "Osun",
+        "country": "Nigeria"
+      }
     }
   ]
 }
