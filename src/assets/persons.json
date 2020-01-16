@@ -10258,6 +10258,22 @@
         "state": "Greater-Accra",
         "country": "Ghana"
       }
-     }
+     },
+      {
+      "id": 735,
+      "name": "Ashwani Singh",
+      "img": "",
+      "links": {
+        "website": "https://ashwani65.blogspot.com/",
+        "linkedin": "https://www.linkedin.com/in/ashwani-singh-5b1868165/",
+        "github": "https://github.com/ashwani65"
+      },
+      "jobTitle": "Full Stack Developer | MERN Developer",
+      "location": {
+        "city": "Kanpur",
+        "state": "Uttar Pradesh",
+        "country": "India"
+      }
+    }
   ]
 }
