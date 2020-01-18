@@ -10274,6 +10274,22 @@
         "state": "Uttar Pradesh",
         "country": "India"
       }
+    },
+	{
+      "id": 736,
+      "name": "Amritha Marimuthu",
+      "img": "",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/amritha-marimuthu-3943b517b/",
+        "github": "https://github.com/AmrithaM/"
+      },
+      "jobTitle": "Full Stack Developer | Web Developer",
+      "location": {
+        "city": "Toronto",
+        "state": "Ontario",
+        "country": "Canada"
+      }
     }
   ]
 }
