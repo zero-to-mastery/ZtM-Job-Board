@@ -10243,8 +10243,40 @@
         "country": "Cambodia"
       }
      },
-	{
+     {
       "id": 734,
+      "name": "Daniel Narh",
+      "img": "https://avatars0.githubusercontent.com/u/52500058?s=460&v=4",
+      "links": {
+        "website": "danielkpodo.github.io/portfolio",
+        "linkedin": "https://www.linkedin.com/in/daniel-narh-kpodo",
+        "github": "https://github.com/danielkpodo"
+      },
+      "jobTitle": "Full Stack Developer | MERN Developer",
+      "location": {
+        "city": "Accra",
+        "state": "Greater-Accra",
+        "country": "Ghana"
+      }
+     },
+     {
+      "id": 735,
+      "name": "Ashwani Singh",
+      "img": "",
+      "links": {
+        "website": "https://ashwani65.blogspot.com/",
+        "linkedin": "https://www.linkedin.com/in/ashwani-singh-5b1868165/",
+        "github": "https://github.com/ashwani65"
+      },
+      "jobTitle": "Full Stack Developer | MERN Developer",
+      "location": {
+        "city": "Kanpur",
+        "state": "Uttar Pradesh",
+        "country": "India"
+      }
+    },
+	{
+      "id": 736,
       "name": "Amritha Marimuthu",
       "img": "",
       "links": {
@@ -10258,6 +10290,6 @@
         "state": "Ontario",
         "country": "Canada"
       }
-     }
+    }
   ]
 }
