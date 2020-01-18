@@ -10275,5 +10275,21 @@
         "country": "India"
       }
     }
+   ,{
+     "id": 736,
+     "name": "Shohei Hagiwara",
+     "img": "https://avatars1.githubusercontent.com/u/8368127?s=460&v=4",
+     "links": {
+       "website": "https://shoheihagiwara.github.io/resume/",
+       "linkedin": "https://www.linkedin.com/in/shoheihagiwara",
+       "github": "https://github.com/shoheihagiwara"
+     },
+     "jobTitle": "Web Application Developer",
+     "location": {
+       "city": "Tokyo",
+       "state": "Tokyo",
+       "country": "Japan"
+     }
+   }
   ]
 }
