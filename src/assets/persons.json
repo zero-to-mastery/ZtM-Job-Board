@@ -10322,6 +10322,22 @@
       "state": "",
       "country": "Hungary"
      }
-   }
+   },
+   {
+    "id": 739,
+    "name": "Alex Gainza",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/alex-gainza-cintero-76360417a/",
+      "github": "https://github.com/alesgainza"
+    },
+    "jobTitle": "Full stack Developer",
+    "location": {
+      "city": "Zumaia",
+      "state": "Gipuzkoa",
+      "country": "Spain"
+    }
+  }
   ]
 }
