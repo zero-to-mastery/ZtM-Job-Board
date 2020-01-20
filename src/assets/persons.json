@@ -10306,6 +10306,22 @@
        "state": "Tokyo",
        "country": "Japan"
      }
+   },
+   {
+     "id": 738,
+     "name": "Viktor Borsodi",
+     "img": "https://avatars0.githubusercontent.com/u/34397487?s=460&v=4",
+     "links": {
+       "website": "https://viktorborsodi.github.io/",
+       "linkedin": "https://www.linkedin.com/in/viktor-borsodi-73690062/",
+       "github": "https://github.com/ViktorBorsodi"
+     },
+     "jobTitle": "Full-stack Web Developer",
+     "location": {
+      "city": "Budapest",
+      "state": "",
+      "country": "Hungary"
+     }
    }
   ]
 }
