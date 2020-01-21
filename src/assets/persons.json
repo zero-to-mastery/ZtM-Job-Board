@@ -10356,6 +10356,70 @@
         "state": "New York",
         "country": "United States"
       }
+    },
+    {
+     "id": 741,
+     "name": "Shohei Hagiwara",
+     "img": "https://avatars1.githubusercontent.com/u/8368127?s=460&v=4",
+     "links": {
+       "website": "https://shoheihagiwara.github.io/resume/",
+       "linkedin": "https://www.linkedin.com/in/shoheihagiwara",
+       "github": "https://github.com/shoheihagiwara"
+     },
+     "jobTitle": "Web Application Developer",
+     "location": {
+       "city": "Tokyo",
+       "state": "Tokyo",
+       "country": "Japan"
+     }
+   },
+   {
+     "id": 742,
+     "name": "Viktor Borsodi",
+     "img": "https://avatars0.githubusercontent.com/u/34397487?s=460&v=4",
+     "links": {
+       "website": "https://viktorborsodi.github.io/",
+       "linkedin": "https://www.linkedin.com/in/viktor-borsodi-73690062/",
+       "github": "https://github.com/ViktorBorsodi"
+     },
+     "jobTitle": "Full-stack Web Developer",
+     "location": {
+      "city": "Budapest",
+      "state": "",
+      "country": "Hungary"
+     }
+   },
+   {
+    "id": 743,
+    "name": "Alex Gainza",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/alex-gainza-cintero-76360417a/",
+      "github": "https://github.com/alesgainza"
+    },
+    "jobTitle": "Full stack Developer",
+    "location": {
+      "city": "Zumaia",
+      "state": "Gipuzkoa",
+      "country": "Spain"
     }
+  },
+  {
+    "id": 744,
+    "name": "Cayden Choi",
+    "img": "https://avatars0.githubusercontent.com/u/59014867?s=460&v=4",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/eunseok-cayden-choi-2aa79a137/",
+      "github": "https://github.com/EJ-C?tab=repositories"
+    },
+    "jobTitle": "Full-stack Web Developer",
+    "location": {
+      "city": "Toronto",
+      "state": "ON",
+      "country": "Canada"
+    }
+  }
   ]
 }
