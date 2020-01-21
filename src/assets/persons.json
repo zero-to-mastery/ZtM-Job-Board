@@ -10343,6 +10343,22 @@
     },
     {
       "id": 740,
+      "name": "Glauber Camargo Campos Rocha",
+      "img": "https://avatars3.githubusercontent.com/u/2231796?s=400&u=2ac9f62f3d160210f16f9941152f27db697c8c07&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/glaubercamargo92/",
+        "github": "https://github.com/mhalgan"
+      },
+      "jobTitle": "Full Stack Developer (MERN)",
+      "location": {
+        "city": "Ipatinga",
+        "state": "Minas Gerais",
+        "country": "Brazil"
+      }
+    },
+    {
+      "id": 741,
       "name": "Darshin Van Parijs",
       "img": "https://avatars3.githubusercontent.com/u/47732125?s=400&u=38fe82b76b8726378b0581e5dc1722c74b6df7e6&v=4",
       "links": {
