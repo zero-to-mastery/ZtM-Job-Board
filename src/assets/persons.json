@@ -1,5 +1,6 @@
 {
-  "people": [{
+  "people": [
+    {
       "id": 1,
       "name": "Andrej Zadnik",
       "img": "",
@@ -9861,7 +9862,8 @@
         "state": "",
         "country": "France"
       }
-    }, {
+    },
+    {
       "id": 710,
       "name": "Timofeeva Elizaveta",
       "img": "https://media.licdn.com/dms/image/C4D03AQF-NBv9wCeG1A/profile-displayphoto-shrink_200_200/0?e=1582761600&v=beta&t=dW6MWaZKwvCI2NogXUtki8lYL-OkBHrQCUtB7gleyWc",
@@ -9989,7 +9991,7 @@
         "country": "United Kingdom"
       }
     },
-       {
+    {
       "id": 718,
       "name": "Serdar Mustafa",
       "img": "https://avatars2.githubusercontent.com/u/45297391?s=460&v=4",
@@ -10020,9 +10022,9 @@
         "state": "Washington",
         "country": "USA"
       }
-     },
-     {
-       "id": 720,
+    },
+    {
+      "id": 720,
       "name": "Haider Tiwana",
       "img": "https://avatars3.githubusercontent.com/u/20669228?s=460&v=4",
       "links": {
@@ -10036,24 +10038,24 @@
         "state": "Washington",
         "country": "United States"
       }
-    }
-    ,{
-    "id": 721,
-    "name": "Sonali Sawlani",
-    "img": " ",
-    "links": {
-      "website": " ",
-      "linkedin": "https://www.linkedin.com/in/sonalisawlani/",
-      "github": "https://github.com/sonali-20"
     },
-    "jobTitle": "Software Engineer",
-    "location": {
-      "city": "Coimbatore",
-      "state": "Tamil Nadu",
-      "country": "India"
-    }
-  }
-   ,{
+    {
+      "id": 721,
+      "name": "Sonali Sawlani",
+      "img": " ",
+      "links": {
+        "website": " ",
+        "linkedin": "https://www.linkedin.com/in/sonalisawlani/",
+        "github": "https://github.com/sonali-20"
+      },
+      "jobTitle": "Software Engineer",
+      "location": {
+        "city": "Coimbatore",
+        "state": "Tamil Nadu",
+        "country": "India"
+      }
+    },
+    {
       "id": 722,
       "name": "Tanja Vinogradova",
       "img": "https://avatars1.githubusercontent.com/u/56765550?s=460&v=4",
@@ -10069,23 +10071,23 @@
         "country": "Denmark"
       }
     },
-      {
-       "id": 723,
-       "name": "David Nguyen (utechpia)",
-       "img": "https://avatars0.githubusercontent.com/u/57503203?s=460&v=4",
-       "links": {
-         "website": "https://www.utechpia.com/",
-         "linkedin": "https://www.linkedin.com/in/utechpia/",
-         "github": "https://github.com/utechpia"
-       },
-       "jobTitle": "Coder, Developer Advocate, YouTuber, Photographer",
-       "location": {
-         "city": "San Francisco",
-         "state": "CA",
-         "country": "USA"
+    {
+      "id": 723,
+      "name": "David Nguyen (utechpia)",
+      "img": "https://avatars0.githubusercontent.com/u/57503203?s=460&v=4",
+      "links": {
+        "website": "https://www.utechpia.com/",
+        "linkedin": "https://www.linkedin.com/in/utechpia/",
+        "github": "https://github.com/utechpia"
+      },
+      "jobTitle": "Coder, Developer Advocate, YouTuber, Photographer",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA"
       }
-     },
-     {
+    },
+    {
       "id": 724,
       "name": "Leonid Kuznetsov",
       "img": "https://avatars0.githubusercontent.com/u/9495532?s=400&u=4ac086da09c90364634b00020680e81d2593af0a&v=4",
@@ -10117,34 +10119,34 @@
       }
     },
     {
-    "id": 726,
-    "name": "Michelle Rahman",
-    "img": "https://i.imgur.com/65I3Y6r.jpg",
-    "links": {
-      "website": "https://michellerahman21.github.io/portfolio.github.io/",
-      "linkedin": "https://www.linkedin.com/in/michelle-rahman/",
-      "github": "https://github.com/MichelleRahman21"
-    },
-    "jobTitle": "Software Engineer",
-    "location": {
-      "city": "Boston",
-      "state": "Massachusetts",
-      "country": "United States Of America"
-    }
+      "id": 726,
+      "name": "Michelle Rahman",
+      "img": "https://i.imgur.com/65I3Y6r.jpg",
+      "links": {
+        "website": "https://michellerahman21.github.io/portfolio.github.io/",
+        "linkedin": "https://www.linkedin.com/in/michelle-rahman/",
+        "github": "https://github.com/MichelleRahman21"
+      },
+      "jobTitle": "Software Engineer",
+      "location": {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States Of America"
+      }
     },
     {
-    "id": 727,
-    "name": "Tony Mack",
-    "img": "https://media.licdn.com/dms/image/C4D03AQEr5VmiOWVTSg/profile-displayphoto-shrink_200_200/0?e=1583971200&v=beta&t=vO61QsF0sEwHlXyeu2EvTXNzrQbMPPdJ5UBpyFVkIPg",
-    "links": {
-      "linkedin": "https://www.linkedin.com/in/tmack123/",
-      "github": "https://github.com/tonmanayo"
-    },
-    "jobTitle": "Full Stack Software Developer",
-    "location": {
-      "city": "Bryanston",
-      "state": "Gauteng",
-      "country": "South Africa"
+      "id": 727,
+      "name": "Tony Mack",
+      "img": "https://media.licdn.com/dms/image/C4D03AQEr5VmiOWVTSg/profile-displayphoto-shrink_200_200/0?e=1583971200&v=beta&t=vO61QsF0sEwHlXyeu2EvTXNzrQbMPPdJ5UBpyFVkIPg",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/tmack123/",
+        "github": "https://github.com/tonmanayo"
+      },
+      "jobTitle": "Full Stack Software Developer",
+      "location": {
+        "city": "Bryanston",
+        "state": "Gauteng",
+        "country": "South Africa"
       }
     },
     {
@@ -10163,7 +10165,7 @@
         "country": "USA"
       }
     },
-	  {
+    {
       "id": 729,
       "name": "Arnab Ray",
       "img": "https://avatars2.githubusercontent.com/u/26869021?s=460&v=4",
@@ -10242,8 +10244,8 @@
         "state": "",
         "country": "Cambodia"
       }
-     },
-     {
+    },
+    {
       "id": 734,
       "name": "Daniel Narh",
       "img": "https://avatars0.githubusercontent.com/u/52500058?s=460&v=4",
@@ -10258,8 +10260,8 @@
         "state": "Greater-Accra",
         "country": "Ghana"
       }
-     },
-     {
+    },
+    {
       "id": 735,
       "name": "Ashwani Singh",
       "img": "",
@@ -10275,7 +10277,7 @@
         "country": "India"
       }
     },
-	{
+    {
       "id": 736,
       "name": "Amritha Marimuthu",
       "img": "",
@@ -10290,57 +10292,73 @@
         "state": "Ontario",
         "country": "Canada"
       }
-    }
-   ,{
-     "id": 737,
-     "name": "Shohei Hagiwara",
-     "img": "https://avatars1.githubusercontent.com/u/8368127?s=460&v=4",
-     "links": {
-       "website": "https://shoheihagiwara.github.io/resume/",
-       "linkedin": "https://www.linkedin.com/in/shoheihagiwara",
-       "github": "https://github.com/shoheihagiwara"
-     },
-     "jobTitle": "Web Application Developer",
-     "location": {
-       "city": "Tokyo",
-       "state": "Tokyo",
-       "country": "Japan"
-     }
-   },
-   {
-     "id": 738,
-     "name": "Viktor Borsodi",
-     "img": "https://avatars0.githubusercontent.com/u/34397487?s=460&v=4",
-     "links": {
-       "website": "https://viktorborsodi.github.io/",
-       "linkedin": "https://www.linkedin.com/in/viktor-borsodi-73690062/",
-       "github": "https://github.com/ViktorBorsodi"
-     },
-     "jobTitle": "Full-stack Web Developer",
-     "location": {
-      "city": "Budapest",
-      "state": "",
-      "country": "Hungary"
-     }
-   },
-   {
-    "id": 739,
-    "name": "Alex Gainza",
-    "img": "",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/alex-gainza-cintero-76360417a/",
-      "github": "https://github.com/alesgainza"
     },
-    "jobTitle": "Full stack Developer",
-    "location": {
-      "city": "Zumaia",
-      "state": "Gipuzkoa",
-      "country": "Spain"
-    }
-  },
+    {
+      "id": 737,
+      "name": "Shohei Hagiwara",
+      "img": "https://avatars1.githubusercontent.com/u/8368127?s=460&v=4",
+      "links": {
+        "website": "https://shoheihagiwara.github.io/resume/",
+        "linkedin": "https://www.linkedin.com/in/shoheihagiwara",
+        "github": "https://github.com/shoheihagiwara"
+      },
+      "jobTitle": "Web Application Developer",
+      "location": {
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "Japan"
+      }
+    },
+    {
+      "id": 738,
+      "name": "Viktor Borsodi",
+      "img": "https://avatars0.githubusercontent.com/u/34397487?s=460&v=4",
+      "links": {
+        "website": "https://viktorborsodi.github.io/",
+        "linkedin": "https://www.linkedin.com/in/viktor-borsodi-73690062/",
+        "github": "https://github.com/ViktorBorsodi"
+      },
+      "jobTitle": "Full-stack Web Developer",
+      "location": {
+        "city": "Budapest",
+        "state": "",
+        "country": "Hungary"
+      }
+    },
+    {
+      "id": 739,
+      "name": "Alex Gainza",
+      "img": "",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/alex-gainza-cintero-76360417a/",
+        "github": "https://github.com/alesgainza"
+      },
+      "jobTitle": "Full stack Developer",
+      "location": {
+        "city": "Zumaia",
+        "state": "Gipuzkoa",
+        "country": "Spain"
+      }
+    },
+    {
+      "id": 740,
+      "name": "Darshin Van Parijs",
+      "img": "https://avatars3.githubusercontent.com/u/47732125?s=400&u=38fe82b76b8726378b0581e5dc1722c74b6df7e6&v=4",
+      "links": {
+        "website": "https://www.darshin.me/",
+        "linkedin": "https://www.linkedin.com/in/darshinvanparijs/",
+        "github": "https://github.com/DDVVPP/"
+      },
+      "jobTitle": "Full Stack Developer | Software Engineer",
+      "location": {
+        "city": "New York",
+        "state": "New York",
+        "country": "United States"
+      }
+    },
   {
-    "id": 740,
+    "id": 741,
     "name": "Cayden Choi",
     "img": "https://avatars0.githubusercontent.com/u/59014867?s=460&v=4",
     "links": {
