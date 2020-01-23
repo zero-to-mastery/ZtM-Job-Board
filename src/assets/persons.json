@@ -10388,6 +10388,23 @@
       "state": "ON",
       "country": "Canada"
     }
-  }
+  },
+    {
+      "id": 743,
+      "name": "Elizabeth Ortiz",
+      "img": "https://avatars1.githubusercontent.com/u/26338550?s=400&u=785f8547bc53cf6926f8f8d63c6a31f061dd6d9a&v=4",
+      "links": {
+        "website": "https://www.ortizliz.com",
+        "linkedin": "https://www.linkedin.com/in/elizabeth-f-ortiz/",
+        "github": "https://github.com/lizbeth58"
+      },
+      "jobTitle": "Front-end developer",
+      "location": {
+        "city": "San Francisco",
+        "state": "California",
+        "country": "United States"
+      }
+    }
   ]
 }
+
