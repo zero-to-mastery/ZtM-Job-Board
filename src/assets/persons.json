@@ -10419,7 +10419,22 @@
         "state": "Buenos Aires",
         "country": "Argentina"
       }
+    },
+    {
+    "id": 745,
+    "name": "Cory Catherall",
+    "img": "https://avatars0.githubusercontent.com/u/45598232?s=460&v=4",
+    "links": {
+      "website": "https://corycatherall.com",
+      "linkedin": "https://www.linkedin.com/in/cory-catherall-9a5bb6116/",
+      "github": "https://github.com/Tera15"
+    },
+    "jobTitle": "Developer",
+    "location": {
+      "city": "Toronto",
+      "state": "Ontario",
+      "country": "Canada"
     }
+  }
   ]
 }
-
