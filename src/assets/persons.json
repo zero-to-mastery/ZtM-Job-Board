@@ -3372,15 +3372,15 @@
         {
             "id": 211,
             "name": "Nilkamal Shah",
-            "img": "",
+            "img": "https://media-exp2.licdn.com/dms/image/C4E03AQF_4aLCPUuTjw/profile-displayphoto-shrink_200_200/0?e=1585785600&v=beta&t=zk7nach2oBxIP9QU3mDT61hwr_fbVkxbgi8eHs4NOAo",
             "links": {
                 "linkedin": "https://www.linkedin.com/in/nilkamal-shah/",
                 "github": "https://github.com/nilkamal"
             },
-            "jobTitle": "Full-Stack Web Developer",
+            "jobTitle": "Senior Associate Technology Experience L1",
             "location": {
-                "city": "Pune",
-                "state": "Maharastra",
+                "city": "Bangalore",
+                "state": "Karnataka",
                 "country": "INDIA"
             }
         },
