@@ -10466,7 +10466,25 @@
               "state": "",
               "country": ""
             }
+    },
+        {
+    "id": 748,
+    "name": "Ved Prakash",
+    "img": "https://media-exp1.licdn.com/dms/image/C4E03AQGRb9oNQJ3G7A/profile-displayphoto-shrink_200_200/0?e=1585785600&v=beta&t=Bu3YcsrBS08YJvXQdhybEjJnnH6s_3sRkuAZWB44Sj4",
+    "links": {
+      "website": "[YOUR_WEBSITE_URL]",
+      "linkedin": "https://www.linkedin.com/in/vedprakash19/",
+      "github": "https://github.com/vedprakash19"
+    },
+    "jobTitle": "SharePoint, SPFx, ASP.net developer",
+    "location": {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "country": "India"
     }
+  }
+
+               
 
     ]
 }
