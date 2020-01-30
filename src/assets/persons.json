@@ -10482,7 +10482,23 @@
       "state": "Uttar Pradesh",
       "country": "India"
     }
-  }
+  },
+  {
+    "id": 749,
+    "name": "Eden Varsulker",
+    "img": "",
+    "links": {
+                "website": "",
+                "linkedin": "https://www.linkedin.com/in/eden-varsulker-88676411a/",
+                "github": "https://github.com/edenv30"
+         	  },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+                "city": "",
+                "state": "",
+                "country": "Israel"
+            }
+       }
                
 
     ]
