@@ -10492,13 +10492,29 @@
                 "linkedin": "https://www.linkedin.com/in/eden-varsulker-88676411a/",
                 "github": "https://github.com/edenv30"
          	  },
-      "jobTitle": "Full Stack Developer",
-      "location": {
-                "city": "",
-                "state": "",
-                "country": "Israel"
-            }
-       }
+    "jobTitle": "Full Stack Developer",
+    "location": {
+        "city": "",
+        "state": "",
+        "country": "Israel"
+        }
+    },
+    {
+    "id": 750,
+    "name": "Harsh Khurana",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "",
+      "github": "https://github.com/Harsh-Khurana"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "country": "India"
+    }
+  } 
                
 
     ]
