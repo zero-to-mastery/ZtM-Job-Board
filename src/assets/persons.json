@@ -10514,7 +10514,23 @@
       "state": "Delhi",
       "country": "India"
     }
-  } 
+  },
+    {
+        "id": 751,
+        "name": "Gabriel Vlasceanu",
+        "img": "https://avatars2.githubusercontent.com/u/53636709?s=460&v=4",
+        "links": {
+            "website": "",
+            "linkedin": "https://www.linkedin.com/in/gvlasceanu/",
+            "github": "https://github.com/maugrim777"
+        },
+        "jobTitle": "Full-Stack Developer",
+        "location": {
+            "city": "Bucharest",
+            "state": "",
+            "country": "Romania"
+        }
+    } 
                
 
     ]
