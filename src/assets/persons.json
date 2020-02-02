@@ -10514,7 +10514,23 @@
       "state": "Delhi",
       "country": "India"
     }
-  } 
+  },
+  {
+    "id": 751,
+    "name": "Daniel Nguyen",
+    "img": "",
+    "links": {
+      "website": "https://placidserene.github.io/DanielNguyenPorfolio/index.html",
+      "linkedin": "https://www.linkedin.com/danielnguyen09/",
+      "github": "https://github.com/PlacidSerene"
+    },
+    "jobTitle": "Software engineer",
+    "location": {
+      "city": "Greater Sacramento",
+      "state": "California",
+      "country": "United States"
+    }
+  }  
                
 
     ]
