@@ -10530,8 +10530,23 @@
             "state": "",
             "country": "Romania"
         }
-    } 
-               
+    },
+    {
+        "id": 752,
+        "name": "Mamerto Fabian Jr.",
+        "img": "https://drive.google.com/open?id=1aAj4J8XMkPLNGACGTmOVXAXhZOa_vcWI",
+        "links": {
+          "website": "https://codefrost.io",
+          "linkedin": "https://www.linkedin.com/in/mamerto/",
+          "github": "https://github.com/mamertofabian"
+        },
+        "jobTitle": "Expert Developer in Web/Python/C#",
+        "location": {
+          "city": "Tanza",
+          "state": "Cavite",
+          "country": "Philippines"
+        }
+    }
 
     ]
 }
