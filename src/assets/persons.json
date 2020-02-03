@@ -10162,6 +10162,21 @@
         "state": "New York",
         "country": "USA"
       }
+    },
+    {
+      "id": 729,
+      "name": "Oluwafemi Adenuga",
+      "img": "https://res.cloudinary.com/femosocratis/image/upload/v1566684989/38072415_1333236093479664_2824787986145607680_n.jpg_fbo5wq.jpg",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/femosocratis/",
+        "github": "https://github.com/phemmylintry"
+      },
+      "jobTitle": "Full Stack Web Developer",
+      "location": {
+        "city": "Victoria Island",
+        "state": "Lagos",
+        "country": "Nigeria"
+      }
     }
   ]
 }
