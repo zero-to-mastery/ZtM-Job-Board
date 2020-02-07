@@ -10546,6 +10546,22 @@
             "state": "São Paulo",
             "country": "Brazil"
         }
-    }
+    },
+    {
+        "id": 754,
+        "name": "Dominic Tripodi",
+        "img": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/82608697_10159203693337678_6882715736431656960_n.jpg?_nc_cat=103&_nc_ohc=6Fsi-4i2MK4AX8brlSZ&_nc_ht=scontent-iad3-1.xx&oh=9257ac50b197c27100436fa40383fff9&oe=5ED97D67",
+        "links": {
+          "website": "https:/Dominic-Tripodi.com",
+          "linkedin": "https://www.linkedin.com/in/dominic-tripodi-11788a121/",
+          "github": "https://github.com/DomTripodi93"
+        },
+        "jobTitle": "Full Stack Developer",
+        "location": {
+          "city": "Lansdale",
+          "state": "Pennsylvania",
+          "country": "United States"
+        }
+      }
     ]
 }
