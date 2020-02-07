@@ -10546,6 +10546,22 @@
             "state": "São Paulo",
             "country": "Brazil"
         }
+    },
+    {
+        "id": 754,
+        "name": "Sirian Wang",
+        "img": "",
+        "links": {
+            "website": "",
+            "linkedin": "https://www.linkedin.com/in/sirian-wang-11720313/",
+            "github": "https://github.com/sirianw"
+        },
+        "jobTitle": "Software Developer",
+        "location": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "country": "USA"
+        }
     }
     ]
 }
