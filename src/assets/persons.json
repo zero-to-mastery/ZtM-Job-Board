@@ -10563,5 +10563,22 @@
             "country": "USA"
         }
     }
+    ,
+    {
+        "id": 755,
+        "name": "Ilhyo Aiden Sung",
+        "img": "https://avatars0.githubusercontent.com/u/47091255?s=400&u=d49404b4bac65c52c03238f91e3e365df9c75602&v=4",
+        "links": {
+            "website": "",
+            "linkedin": "https://www.linkedin.com/in/ilhyo-sung-009324178/?locale=en_US",
+            "github": "https://github.com/aidensung?tab=repositories"
+        },
+        "jobTitle": "Full Stack Web Developer",
+        "location": {
+            "city": "Toronto",
+            "state": "ON",
+            "country": "Canada"
+        }
+    }
     ]
 }
