@@ -10611,5 +10611,21 @@
           "country": "USA"
         }
       }
+    ,{
+        "id": 758,
+        "name": "Julia Lin",
+        "img": "https://avatars1.githubusercontent.com/u/29173391?v=4",
+        "links": {
+          "website": "",
+          "linkedin": "https://www.linkedin.com/in/julialinmc/",
+          "github": "https://github.com/julialinju5"
+        },
+        "jobTitle": "Junior Big Data Engineer",
+        "location": {
+          "city": "Mountain View",
+          "state": "California",
+          "country": "USA"
+        }
+      }
 ]
 }
