@@ -10611,5 +10611,21 @@
           "country": "USA"
         }
       }
+      ,{
+        "id": 758,
+        "name": "Deepak Ahuja",
+        "img": "https://avatars0.githubusercontent.com/u/15168716?s=400&u=d3c98f5f72a8cd5f8610e0d86d4dc18537970d56&v=4",
+        "links": {
+          "website": "de.to/erdahuja",
+          "linkedin": "https://www.linkedin.com/in/deepak-ahuja-b5bb698b/",
+          "github": "github.com/erdahuja"
+        },
+        "jobTitle": "Full Stack Developer",
+        "location": {
+          "city": "New Delhi (Remote OK)",
+          "state": "Delhi",
+          "country": "India"
+        }
+      }
 ]
 }
