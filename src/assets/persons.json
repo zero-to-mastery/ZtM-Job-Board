@@ -10638,6 +10638,22 @@
                 "state": "Western Province",
                 "country": "Sri-Lanka"
             }
-        }
+        },
+        {
+            "id": 760,
+            "name": "Shota Togawa",
+            "img": "",
+            "links": {
+              "website": "https://www.shotatogawa.site/",
+              "linkedin": "https://www.linkedin.com/in/shota-togawa-ba8235185/",
+              "github": "https://github.com/ShotaTogawa"
+            },
+            "jobTitle": "Web Developer",
+            "location": {
+              "city": "Vancouver",
+              "state": "BC",
+              "country": "Canada"
+            }
+          }
     ]
 }
