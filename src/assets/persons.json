@@ -10654,6 +10654,22 @@
               "state": "BC",
               "country": "Canada"
             }
-          }
+        },
+        {
+        	"id": 761,
+        	"name": "Zayne Panaino",
+        	"img": "https://pbs.twimg.com/profile_images/1170354337845010432/pMsZTqj7_400x400.jpg"
+        	"links": {
+        		"website": "https://zaynepanaino.github.io/AboutMe/"
+        		"linkedin": "https://www.linkedin.com/in/zayne-panaino-273997179/"
+        		"github": "https://github.com/ZaynePanaino"
+        	},
+        	"jobTitle": "Full Stack Developer",
+        	"location": {
+        		"city": "Johannesburg",
+        		"state": "Gauteng",
+        		"country": "South Africa"
+        	}
+        }
     ]
 }
