@@ -10686,6 +10686,22 @@
                 "state": "",
                 "country": "Belarus"
             }
-        }
+        },
+        {
+    "id": 763,
+    "name": "Theja M",
+    "img": "https://ibb.co/v1HQT2p",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/theja-m-744106168/",
+      "github": "https://github.com/theja-m"
+    },
+    "jobTitle": "Developer",
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India"
+    }
+}
     ]
 }
