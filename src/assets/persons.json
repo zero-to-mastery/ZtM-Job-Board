@@ -10701,6 +10701,22 @@
               "state": "ON",
               "country": "Canada"
             }
+          },
+          {
+            "id": 764,
+            "name": "Rodrigo Santos",
+            "img": "https://avatars1.githubusercontent.com/u/23111460?s=460&v=4",
+            "links": {
+              "website": "",
+              "linkedin": "",
+              "github": "https://github.com/rodsnts"
+            },
+            "jobTitle": "Front-End Developer",
+            "location": {
+              "city": "London",
+              "state": "",
+              "country": "United Kingdom"
+            }
           }
     ]
 }
