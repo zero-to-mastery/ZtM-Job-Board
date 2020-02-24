@@ -10717,6 +10717,22 @@
               "state": "",
               "country": "United Kingdom"
             }
-          }
+          },
+          {
+            "id": 765,
+            "name": "Maria-Teodora Pop",
+            "img": "https://avatars2.githubusercontent.com/u/54820576?s=460&v=4",
+            "links": {
+              "website": "https://www.popmaria.com/home",
+              "linkedin": "https://www.linkedin.com/in/maria-teodora-pop-64825b156/",
+              "github": "https://github.com/LadyShinka"
+            },
+            "jobTitle": "Full-Stack Web Developer",
+            "location": {
+              "city": "Reading",
+              "state": "Berkshire",
+              "country": "United Kingdom"
+            }
+            }
     ]
 }
