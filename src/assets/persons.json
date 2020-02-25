@@ -10718,5 +10718,21 @@
               "country": "United Kingdom"
             }
           }
+          ,{
+            "id": 765,
+            "name": "Jonathan Hutnick",
+            "img": "",
+            "links": {
+            "website": "",
+            "linkedin": "https://www.linkedin.com/in/jonathanhutnick/",
+            "github": "https://github.com/JHutnick"
+            },
+            "jobTitle": "Software Engineer",
+            "location": {
+            "city": "New York",
+            "state": "New York",
+            "country": "United States"
+            }
+        }
     ]
 }
