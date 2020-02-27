@@ -10749,6 +10749,20 @@
                 "state": "CA",
                 "country": "United States"
                 }
+              },
+              ,{
+                "id": 767,
+                "name": "Shane Hall",
+                "img": "https://media-exp1.licdn.com/dms/image/C5603AQFVcd3ztWtX2Q/profile-displayphoto-shrink_200_200/0?e=1588204800&v=beta&t=KXjhH8jG0iclLQhCE3YZn8o8Qpm2r-eIbsUcHtgGdCk",
+                "links": {
+                  "website": "",
+                  "linkedin": "https://www.linkedin.com/in/shanehall92/",
+                  "github": "https://github.com/shane-creates"
+                },
+                "jobTitle": "Full Stack Web Developer",
+                "location": {
+                  "city": "Apple Valley",
+                  "state": "California",
+                  "country": "United States"
+                }
               }
-    ]
-}
