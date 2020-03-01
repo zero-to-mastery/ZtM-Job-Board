@@ -10771,6 +10771,22 @@
         "state": "IA",
         "country": "United States"
       }
-    }
+    },
+	{
+		"id": 768,
+		"name": "Augusto Diaz",
+		"img": "https://avatars3.githubusercontent.com/u/13109318?s=60&v=4",
+		"links": {
+			"website": "https://adiaz-dev.github.io/",
+			"linkedin": "https://www.linkedin.com/in/jaugustodiaz/",
+			"github": "https://github.com/adiaz-dev"
+		},
+		"jobTitle": "Senior Software Developer",
+		"location": {
+			"city": "Guadalajara",
+			"state": "Jalisco",
+			"country": "Mexico"
+		}
+	}
   ]
 }
