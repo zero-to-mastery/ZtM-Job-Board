@@ -10787,6 +10787,21 @@
         "state": "NY",
         "country": "United States"
       }
-    }
+    },
+    {
+      "id": 769,
+      "name": "Elena Andersson",
+      "img": "",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/elena-andersson-717878a3/",
+        "github": "https://github.com/elenaandersson"
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "Stockholm",
+        "state": "",
+        "country": "Sweden"
+      }
   ]
 }
