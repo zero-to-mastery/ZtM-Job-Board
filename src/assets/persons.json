@@ -10804,5 +10804,21 @@
         "country": "India"
       }
     }
+    ,{
+      "id": 770,
+      "name": "Jun Yu Lu",
+      "img": "https://avatars.githubusercontent.com/thejbomb",
+      "links": {
+        "website": "https://thejbomb.github.io/",
+        "linkedin": "https://www.linkedin.com/in/jun-yu-lu-34b14aa6/",
+        "github": "https://github.com/thejbomb"
+      },
+      "jobTitle": "Software Engineer (Java, Javascript C#)",
+      "location": {
+        "city": "Warwick",
+        "state": "Rhode Island",
+        "country": "USA (Willing to relocate)"
+      }
+    }
   ]
 }
