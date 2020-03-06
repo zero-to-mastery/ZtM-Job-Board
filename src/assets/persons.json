@@ -10820,5 +10820,21 @@
         "country": "Canada 🇨🇦 (Willing to relocate)"
       }
     }
+    ,{
+      "id": 771,
+      "name": "Jesus Soto",
+      "img": "https://avatars1.githubusercontent.com/u/16869766?s=400&v=4",
+      "links": {
+        "website": "https://www.upwork.com/o/profiles/users/~01b278e346910606a1/",
+        "linkedin": "https://www.linkedin.com/in/sotous/",
+        "github": "https://github.com/sotous",
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "Barranquilla",
+        "state": "Atlantico",
+        "country": "Colombia"
+      }
+    }
   ]
 }
