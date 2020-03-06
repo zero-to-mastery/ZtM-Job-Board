@@ -10820,5 +10820,21 @@
         "country": "Canada 🇨🇦 (Willing to relocate)"
       }
     }
+    ,{
+      "id": 771,
+      "name": "Ray Reside",
+      "img": "",
+      "links": {
+        "website": "https://www.rayreside.com",
+        "linkedin": "https://www.linkedin.com/in/rayreside/",
+        "github": "https://github.com/rayreside"
+      },
+      "jobTitle": "Full Stack Web Developer",
+      "location": {
+        "city": "Jersey City",
+        "state": "New Jersey",
+        "country": "United States"
+      }
+    }
   ]
 }
