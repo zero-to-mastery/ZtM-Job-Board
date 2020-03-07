@@ -10819,6 +10819,22 @@
         "state": "Ontario",
         "country": "Canada 🇨🇦 (Willing to relocate)"
       }
+    },
+    {
+      "id": 771,
+      "name": "Terence Ng",
+      "img": "https://dl.dropboxusercontent.com/s/rfduyf8lr5tvelg/dp.jpg?dl=0",
+      "links": {
+        "website": "https://terencehh.github.io/personal-portfolio/",
+        "linkedin": "https://www.linkedin.com/in/terenceng147/",
+        "github": "https://github.com/terencehh"
+      },
+      "jobTitle": "Full Stack Developer, Web Developer Intern",
+      "location": {
+        "city": "Kuala Lumpur",
+        "state": "Selangor",
+        "country": "Malaysia (Willing to relocate)"
+      }
     }
   ]
 }
