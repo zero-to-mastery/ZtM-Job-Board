@@ -10787,8 +10787,8 @@
         "state": "NY",
         "country": "United States"
       }
-    },
-    {
+    }
+    ,{
       "id": 769,
       "name": "Pratik pandab",
       "img": "https://avatars0.githubusercontent.com/u/33945636?s=400&u=8373f0db9292c10f86da7390d50b91debad51716&v=4",
@@ -10803,8 +10803,8 @@
         "state": "M.P.",
         "country": "India"
       }
-    },
-    {
+    }
+    ,{
       "id": 770,
       "name": "Miles Au",
       "img": "https://i.imgur.com/4rNq9Rj.jpg",
@@ -10819,21 +10819,21 @@
         "state": "Ontario",
         "country": "Canada 🇨🇦 (Willing to relocate)"
       }
-    },
-    {
+    }
+    ,{
       "id": 771,
       "name": "Bunyawat Srisompong",
       "img": "https://avatars1.githubusercontent.com/u/33023239?s=460&v=4",
       "links": {
-        "website": "",
+
         "linkedin": "https://www.linkedin.com/in/bsrisompong/",
         "github": "https://github.com/bsrisompong"
       },
-      "jobTitle": "Full Stack Javascript Developer",
+      "jobTitle": "[YOUR_TITLE]",
       "location": {
-        "city": "Bangkok",
-        "state": "",
-        "country": "Thailand🇹🇭"
+        "city": "[YOUR_CITY]",
+        "state": "[YOUR_STATE_OR_PROVINCE]",
+        "country": "[YOUR_COUNTRY]"
       }
     }
   ]
