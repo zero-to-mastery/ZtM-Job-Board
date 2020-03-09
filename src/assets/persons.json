@@ -10899,6 +10899,22 @@
         "state": "Guanajuato",
         "country": "Mexico"
       }
+    },
+    {
+      "id": 776,
+      "name": "Malik Mukhtar",
+      "img": "https://drive.google.com/open?id=1skkGEeXSIU0JWcmN0S7Lp5rHRaPPp8WA",
+      "links": {
+        "website": "https://malikmukhtar.com",
+        "linkedin": "https://www.linkedin.com/in/malik-mukhtar-danjuma-449720a6/",
+        "github": "https://github.com/malikmukhtar"
+      },
+      "jobTitle": "Front End Developer",
+      "location": {
+        "city": "Abuja",
+        "state": "FCT",
+        "country": "Nigeria"
+      }
     }
   ]
 }
