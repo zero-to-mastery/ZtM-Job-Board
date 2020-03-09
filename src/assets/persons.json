@@ -10883,6 +10883,22 @@
         "state": "Rhode Island",
         "country": "USA (Willing to relocate)"
       }
+    },
+    {
+      "id": 775,
+      "name": "Juan Luis Rojas León",
+      "img": "https://avatars.githubusercontent.com/rojasleon",
+      "links": {
+        "website": "https://rojasleon.tech",
+        "linkedin": "https://www.linkedin.com/in/rojasleon",
+        "github": "https://github.com/rojasleon"
+      },
+      "jobTitle": "Software Developer",
+      "location": {
+        "city": "",
+        "state": "Guanajuato",
+        "country": "Mexico"
+      }
     }
   ]
 }
