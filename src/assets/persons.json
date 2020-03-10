@@ -10835,8 +10835,8 @@
         "state": "",
         "country": "Thailand🇹🇭"
       }
-    }
-    ,{
+    },
+    {
       "id": 771,
       "name": "Jesus Soto",
       "img": "https://avatars1.githubusercontent.com/u/16869766?s=400&v=4",
@@ -10851,8 +10851,8 @@
         "state": "Atlantico",
         "country": "Colombia"
       }
-    }
-    ,{
+    },
+    {
       "id": 771,
       "name": "Ray Reside",
       "img": "",
@@ -10867,8 +10867,8 @@
         "state": "New Jersey",
         "country": "United States"
       }
-    }
-    ,{
+    },
+    {
       "id": 770,
       "name": "Jun Yu Lu",
       "img": "https://avatars.githubusercontent.com/thejbomb",
@@ -10914,6 +10914,21 @@
         "city": "Hyderabad",
         "state": "Telangana",
         "country": "India"
+      }
+    },
+    {
+      "id": 777,
+      "name": "Paul Pilcher",
+      "img": "https://miro.medium.com/max/3150/1*HSyMevB3aQHt_V8WgzO7Pg.png",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/paul-pilcher/",
+        "github": "https://github.com/Paul---"
+      },
+      "jobTitle": "Fullstack React/Javascript Developer",
+      "location": {
+        "city": "Nampa",
+        "state": "Idaho",
+        "country": "United States"
       }
     }
   ]
