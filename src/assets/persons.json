@@ -10915,6 +10915,22 @@
         "state": "Telangana",
         "country": "India"
       }
+    },
+    {
+      "id": 777,
+      "name": "David Gallacher",
+      "img": "https://avatars3.githubusercontent.com/u/3008442?s=400&u=df6cbed81d77e2dfc68931811ffa05c79345980b&v=4",
+      "links": {
+        "website": "https://davidgallacher.com/",
+        "linkedin": "https://www.linkedin.com/in/davidgallacher/",
+        "github": "https://github.com/gabnash?tab=repositories"
+      },
+      "jobTitle": "Software Developer",
+      "location": {
+        "city": "Leatherhead",
+        "state": "Surrey",
+        "country": "United Kingdom (UK)"
+      }
     }
   ]
 }
