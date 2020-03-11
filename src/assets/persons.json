@@ -10915,6 +10915,22 @@
         "state": "Telangana",
         "country": "India"
       }
+    },
+    {
+      "id": 777,
+      "name": "Daniel Scott",
+      "img": "",
+      "links": {
+        "website": "https://danj-O.github.io/",
+        "linkedin": "https://www.linkedin.com/in/dan-scott-87938768/",
+        "github": "https://github.com/danj-O"
+      },
+      "jobTitle": "Software Developer",
+      "location": {
+        "city": "Cleveland",
+        "state": "Ohio",
+        "country": "USA (Willing to relocate)"
+      }
     }
   ]
 }
