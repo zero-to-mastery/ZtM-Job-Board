@@ -10835,8 +10835,8 @@
         "state": "",
         "country": "Thailand🇹🇭"
       }
-    }
-    ,{
+    },
+    {
       "id": 771,
       "name": "Jesus Soto",
       "img": "https://avatars1.githubusercontent.com/u/16869766?s=400&v=4",
@@ -10851,8 +10851,8 @@
         "state": "Atlantico",
         "country": "Colombia"
       }
-    }
-    ,{
+    },
+    {
       "id": 771,
       "name": "Ray Reside",
       "img": "",
@@ -10867,8 +10867,8 @@
         "state": "New Jersey",
         "country": "United States"
       }
-    }
-    ,{
+    },
+    {
       "id": 770,
       "name": "Jun Yu Lu",
       "img": "https://avatars.githubusercontent.com/thejbomb",
@@ -10930,6 +10930,22 @@
         "city": "Doha",
         "state": "",
         "country": "Qatar"
+      }
+    },
+    {
+      "id": 778,
+      "name": "Jeryl Donato Estopace",
+      "img": "https://avatars0.githubusercontent.com/u/26645913?s=400&u=8d9a63dc398fd351037d0a8ffd8a56b37c386ee5&v=4",
+      "links": {
+        "website": "https://jeryldev.github.io/",
+        "linkedin": "https://www.linkedin.com/in/jeryldev/",
+        "github": "https://github.com/JerylDEv"
+      },
+      "jobTitle": "Technical Support Engineer, Oracle NetSuite",
+      "location": {
+        "city": "Taguig City",
+        "state": "National Capital Region",
+        "country": "Philippines"
       }
     }
   ]
