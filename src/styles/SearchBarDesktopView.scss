@@ -1,0 +1,11 @@
+@media screen and (min-width: 761px) {
+  .visible-on-desktopview-only {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .visible-on-desktopview-only {
+    display: none;
+  }
+}
