@@ -8,4 +8,9 @@
   .visible-on-mobileview-only {
     display: block;
   }
+
+  /* Searchbox Tooltip text Mobile View */
+  .searchbox-tooltip .tooltiptext {
+    top: 80%;
+  }
 }

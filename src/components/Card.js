@@ -37,9 +37,18 @@ const Card = ({ user }) => {
           <h2 className="name mt3 mb1 ph3 w-100 flex items-center justify-center">
             {name}
           </h2>
-          <div className="title ph3 w-100 flex items-center justify-center">
+          {/* Harry Parkinson, Abdul Mobeen */}
+          {/* <div className="title ph3 w-100 flex items-center justify-center overflow-hidden"> */}
+          <p className="title text-center">
+            {/* <marquee
+            width="60%"
+            direction="right"
+            height="100px"
+            className="title ph3 w-100 flex items-center justify-center"
+          > */}
             {jobTitle}
-          </div>
+            {/* </marquee> */}
+          </p>
         </div>
         <div className="main pv2 ph3 flex items-center justify-center">
           {links.website === "" ? (
@@ -88,18 +97,21 @@ const Card = ({ user }) => {
             </a>
           )}
         </div>
-        <div className="footer pv2 ph3 flex items-center justify-center br2 br--bottom">
-          {location.city === "" ? "" : location.city}
-          {(location.city !== "" && location.state !== "") ||
-          (location.city !== "" && location.country !== "")
-            ? ", "
-            : ""}
-          {location.state === "" ? "" : location.state}
-          {(location.city !== "" && location.state !== "") ||
-          (location.state !== "" && location.country !== "")
-            ? ", "
-            : ""}
-          {location.country === "" ? "" : location.country}
+        <div style={{ margin: 0, padding: 0 }}>
+          {/* <p className="footer pv2 ph3 flex items-center justify-center br2 br--bottom"> */}
+          <p className="footer items-center justify-center br2 br--bottom">
+            {location.city === "" ? "" : location.city}
+            {(location.city !== "" && location.state !== "") ||
+            (location.city !== "" && location.country !== "")
+              ? ", "
+              : ""}
+            {location.state === "" ? "" : location.state}
+            {(location.city !== "" && location.state !== "") ||
+            (location.state !== "" && location.country !== "")
+              ? ", "
+              : ""}
+            {location.country === "" ? "" : location.country}
+          </p>
         </div>
       </div>
     )

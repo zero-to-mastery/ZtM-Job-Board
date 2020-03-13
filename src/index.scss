@@ -218,7 +218,7 @@ header {
   }
 }
 
-#searchbox {
+.searchbox {
   margin: 0 0.6rem 0 0;
 
   input {
@@ -248,11 +248,43 @@ header {
   }
 }
 
+/* Tooltip container */
+.searchbox-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.searchbox-tooltip .tooltiptext {
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+
+  /* For Bottom Tooltip */
+  width: 220px;
+  top: 110%;
+  left: 50%;
+  margin-left: -110px; /* Use half of the width (200/2 = 100), to center the tooltip */
+
+  visibility: hidden;
+  width: 220px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #dddddd;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.searchbox-tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 main {
   margin: 5rem 5% 1rem 5%;
 
   .card {
-    min-height: 24.5rem;
+    min-height: 24rem;
     height: auto;
 
     .header .photo {
@@ -264,13 +296,36 @@ main {
       margin-bottom: -4px;
     }
 
-    .header .name,
-    .footer {
+    .header .name {
       height: 3.5rem;
+    }
+    .footer {
+      box-sizing: border-box;
+      justify-content: center;
+      font-size: 1rem;
+      height: auto;
+      max-height: 4.5rem;
+      width: auto;
+      padding: 1rem;
+      margin: 0;
+      // for text wrap
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     .header .title {
-      height: 3rem;
+      box-sizing: border-box;
+      justify-content: center;
+      height: auto;
+      max-height: 4.5rem;
+      width: auto;
+      // max-width: 250px;
+      padding: 1rem;
+      margin: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     .main {
@@ -311,9 +366,15 @@ main {
     &:hover .header .title {
       color: #ffffff;
       background-color: $color--primary-dark;
+      word-break: break-word;
+      white-space: normal;
+      overflow: hidden;
     }
     &:hover .footer {
       background-color: $color--additional1;
+      word-break: break-word;
+      white-space: normal;
+      overflow: hidden;
     }
 
     .main a:hover svg {
