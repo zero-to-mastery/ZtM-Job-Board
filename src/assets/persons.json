@@ -10947,6 +10947,22 @@
         "state": "National Capital Region",
         "country": "Philippines"
       }
+    },
+    {
+      "id": 779,
+      "name": "Pop Stefan",
+      "img": "https://avatars0.githubusercontent.com/u/43994418?s=460&u=d5bb94d0c88bdf16a55d1807e0c3d6e8aa4e0054&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/stefan-pop-9a55a6191/",
+        "github": "https://github.com/StefanSelfTaught"
+      },
+      "jobTitle": "Front End Developer",
+      "location": {
+        "city": "Targu-Mures",
+        "state": "Mures",
+        "country": "Romania"
+      }
     }
   ]
 }
