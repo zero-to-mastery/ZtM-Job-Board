@@ -2,7 +2,7 @@
 TO MAKE FETCH REQUESTS FOR COUNTRIES AND COORDINATES 
 (LATITUDE, LONGITUDE) AND COMPARE AND MATCH THEM */
 
-import { people } from "../assets/persons";
+import { people } from "../assets/persons"
 
 // Removed all the brackets, extra spaces, symbols and unnecessary stuff from country names
 const allCountryNamesCleaned = people.map(person => {
@@ -17,8 +17,8 @@ const allCountryNamesCleaned = people.map(person => {
       .replace(/  +/g, " ")
       .trim()
     // .toLowerCase()
-  );
-});
+  )
+})
 
 // Used switch to fix country names to get proper country latitude and longitude
 // TODO: But some strict rules should be made for adding country names so that this wont be necessary
@@ -30,38 +30,38 @@ const allCountryNamesFixedToMatchAPINames = allCountryNamesCleaned.map(
   country => {
     switch (country) {
       case "US":
-        return "United States of America";
+        return "United States of America"
       case "USA":
-        return "United States of America";
+        return "United States of America"
       case "United States":
-        return "United States of America";
+        return "United States of America"
       case "United States Of America":
-        return "United States of America";
+        return "United States of America"
       case "UAE":
-        return "United Arab Emirates";
+        return "United Arab Emirates"
       case "UK":
-        return "United Kingdom";
+        return "United Kingdom"
       case "INDIA":
-        return "India";
+        return "India"
       case "IN":
-        return "India";
+        return "India"
       case "RU":
-        return "Russian Federation";
+        return "Russian Federation"
       case "Russia":
-        return "Russian Federation";
+        return "Russian Federation"
       case "CH":
-        return "China";
+        return "China"
       case "Perú":
-        return "Peru";
+        return "Peru"
       case "SriLanka":
-        return "Sri Lanka";
+        return "Sri Lanka"
       case "NIGERIA":
-        return "Nigeria";
+        return "Nigeria"
       default:
-        return country;
+        return country
     }
   }
-);
+)
 
 // This function will return an object with country name and the number of developers from that country
 // It adds the number of developers as it comes across duplicate country names
@@ -70,14 +70,14 @@ function removeDuplicateCountryNames(countryArrayWithDuplicateValues) {
   let deduplicatedCountries = countryArrayWithDuplicateValues.reduce(
     (prev, curr) => {
       // console.log("prev", prev, "current", curr);
-      prev[curr] = (prev[curr] || 0) + 1;
-      return prev;
+      prev[curr] = (prev[curr] || 0) + 1
+      return prev
     },
     {}
-  );
+  )
 
-  return deduplicatedCountries;
+  return deduplicatedCountries
 }
 export const countriesWithNumOfDevsObj = removeDuplicateCountryNames(
   allCountryNamesFixedToMatchAPINames
-);
+)

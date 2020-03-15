@@ -10,11 +10,13 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-favicon": "0.0.17",
+    "react-lazyload": "^2.6.5",
     "react-leaflet": "^2.6.1",
     "react-scripts": "^3.3.0",
     "react-search-input": "^0.11.3",
     "tachyons": "^4.11.1",
-    "typescript": "^3.6.4"
+    "typescript": "^3.6.4",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "start": "npm-run-all -p watch-css start-js",

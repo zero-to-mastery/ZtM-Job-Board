@@ -1,7 +1,8 @@
 import React from "react"
 import Search from "./Search"
+import "../styles/SearchBarDesktopView.css"
 
-const Navbar = ({ onSearchChange, winWidth, onMapClick, onLogoClick }) => {
+const Navbar = ({ onSearchChange, onMapClick, onLogoClick }) => {
   return (
     <div className="header-items flex flex-wrap justify-between">
       <h1
@@ -19,7 +20,12 @@ const Navbar = ({ onSearchChange, winWidth, onMapClick, onLogoClick }) => {
         <span className="f3 mr4 pointer" onClick={onMapClick}>
           Map
         </span>
-        {winWidth > 760 ? <Search onSearchChange={onSearchChange} /> : null}
+        <div
+          style={{ margin: 0, padding: 0 }}
+          className="visible-on-desktopview-only"
+        >
+          <Search onSearchChange={onSearchChange} />
+        </div>
       </div>
     </div>
   )

@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from "react";
-import BatchCards from "./components/BatchCards";
-import Navbar from "./components/Navbar";
-import { people } from "./assets/persons";
-import Search from "./components/Search";
-import SimpleMap from "./components/Map";
-import { createFilter } from "react-search-input";
-import { shuffle } from "./util/shuffle";
+import React, { useState } from "react"
+import BatchCards from "./components/BatchCards"
+import Navbar from "./components/Navbar"
+import { people } from "./assets/persons"
+import Search from "./components/Search"
+import SimpleMap from "./components/Map"
+import { createFilter } from "react-search-input"
+import { shuffle } from "./util/shuffle"
+import "./styles/SearchBarMobileView.css"
 
 const style = {
   background: "#fff",
@@ -14,44 +15,37 @@ const style = {
   margin: "0 0 2rem 0",
   zIndex: "1",
   borderRadius: "5px"
-};
+}
 const responsiveSearch = {
   width: "100%",
   marginBottom: "0.5rem",
   padding: "0.5rem"
-};
+}
 const KEYS_TO_FILTERS = [
   "name",
   "jobTitle",
   "location.city",
   "location.state",
   "location.country"
-];
+]
 
 function App() {
-  const [searchfield, setSearchfield] = useState("");
-  const [winWidth, setWinWidth] = useState(window.innerWidth);
-  const [map, setMap] = useState(false);
+  const [searchfield, setSearchfield] = useState("")
 
-  useEffect(() => {
-    window.addEventListener("resize", () => {
-      setWinWidth(window.innerWidth);
-    });
-  }, []);
+  const [map, setMap] = useState(false)
+
+  const filteredPersons = searchFilter =>
+    people.filter(createFilter(searchFilter, KEYS_TO_FILTERS))
 
   //note: shuffle function is not pure function, it mutates original array
   //in order to avoid memory duplication
-  shuffle(people);
-
-  const filteredPersons = searchFilter =>
-    people.filter(createFilter(searchFilter, KEYS_TO_FILTERS));
+  shuffle(people)
 
   return (
     <div className="flex flex-column min-vh-100 tc">
       <header className="custom--unselectable fixed top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-9999">
         <Navbar
           onLogoClick={() => setMap(false)}
-          winWidth={winWidth}
           onSearchChange={e => setSearchfield(e.target.value)}
           onMapClick={() => setMap(!map)}
         />
@@ -61,15 +55,13 @@ function App() {
           <SimpleMap />
         ) : (
           <div id="sketch-particles">
-            {winWidth < 760 && (
-              // IF window width is less then 650 means its mobile, render the component
-              <div style={style}>
-                <Search
-                  onSearchChange={e => setSearchfield(e.target.value)}
-                  responsiveSearch={responsiveSearch}
-                />
-              </div>
-            )}
+            <div className="visible-on-mobileview-only" style={style}>
+              <Search
+                onSearchChange={e => setSearchfield(e.target.value)}
+                responsiveSearch={responsiveSearch}
+              />
+            </div>
+
             <BatchCards
               persons={filteredPersons(searchfield)}
               numberPerBatch={16}
@@ -96,7 +88,7 @@ function App() {
         </a>
       </footer>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
