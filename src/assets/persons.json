@@ -10963,6 +10963,21 @@
         "state": "Mures",
         "country": "Romania"
       }
+    },{
+      "id": 780,
+      "name": "Ryan Rodrigues",
+      "img": "",
+      "links": {
+        "website": "",
+        "linkedin": "",
+        "github": "https://github.com/ryrodrig"
+      },
+      "jobTitle": "Backend Developer",
+      "location": {
+        "city": "Sadashivgad",
+        "state": "Toronto",
+        "country": "Canada"
+      }
     }
   ]
 }
