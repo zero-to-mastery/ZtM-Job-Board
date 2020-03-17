@@ -10978,6 +10978,22 @@
         "state": "Toronto",
         "country": "Canada"
       }
+    },
+    {
+      "id": 781,
+      "name": "Anurag Yadav",
+      "img": "https://www.gravatar.com/avatar/9159f15d1336345e5378cb5464259e04",
+      "links": {
+        "website": "http://yadavanurag.github.io",
+        "linkedin": "https://www.linkedin.com/in/yadavanurag90",
+        "github": "https://github.com/yadavanurag"
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "Gorakhpur",
+        "state": "Uttar Pradesh",
+        "country": "India"
+      }
     }
   ]
 }
