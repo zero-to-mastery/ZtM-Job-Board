@@ -10963,7 +10963,8 @@
         "state": "Mures",
         "country": "Romania"
       }
-    },{
+    },
+    {
       "id": 780,
       "name": "Ryan Rodrigues",
       "img": "",
@@ -10981,6 +10982,21 @@
     },
     {
       "id": 781,
+      "name": "Sarah Paz",
+      "img": "https://sarahpaz.ca/images/sarahpaz-headshot-2019.jpg",
+      "links": {
+        "website": "www.sarahpaz.ca",
+        "linkedin": "https://www.linkedin.com/in/sarahpaz/",
+        "github": "https://github.com/sarahpaz"
+      },
+      "jobTitle": "Full Stack Web Developer",
+      "location": {
+        "city": "Toronto",
+        "state": "ON",
+        "country": "Canada"
+      }
+    },
+    {
       "name": "Anurag Yadav",
       "img": "https://www.gravatar.com/avatar/9159f15d1336345e5378cb5464259e04",
       "links": {
