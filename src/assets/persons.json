@@ -11029,6 +11029,22 @@
     },
     {
       "id": 783,
+      "name": "Josia Rodriguez",
+      "img": "https://res.cloudinary.com/di3jbt6xu/image/upload/v1584626388/profile_ome0ls.jpg",
+      "links": {
+        "website": "https://www.josiarodriguez.com/",
+        "linkedin": "https://www.linkedin.com/in/josiarodriguez/",
+        "github": "https://github.com/josiarod"
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "Metro Area",
+        "state": "Washington, D.C.",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 784,
       "name": "Joshua Folorunsho",
       "img": "https://avatars3.githubusercontent.com/u/55793353?s=400&u=6828f7d903254ca765429cdf063e99635efb8b84&v=4",
       "links": {
@@ -11044,7 +11060,7 @@
       }
     },
     {
-      "id": 784,
+      "id": 785,
       "name": "Evangel Iheukwumere",
       "img": "https://devevangel.github.io/assets/images/me.jpg",
       "links": {
