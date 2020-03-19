@@ -11029,6 +11029,22 @@
     },
     {
       "id": 783,
+      "name": "Joshua Folorunsho",
+      "img": "https://avatars3.githubusercontent.com/u/55793353?s=400&u=6828f7d903254ca765429cdf063e99635efb8b84&v=4",
+      "links": {
+        "website": "http://joshuafolorunsho.com",
+        "linkedin": "https://www.linkedin.com/in/jfolorunsho",
+        "github": "https://github.com/joshuafolorunsho"
+      },
+      "jobTitle": "Frontend Developer",
+      "location": {
+        "city": "Uyo",
+        "state": "Awka Ibom",
+        "country": "Nigeria"
+      }
+    },
+    {
+      "id": 784,
       "name": "Evangel Iheukwumere",
       "img": "https://devevangel.github.io/assets/images/me.jpg",
       "links": {
