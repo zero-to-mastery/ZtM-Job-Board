@@ -128,8 +128,8 @@ function SimpleMap({ zoom = 3 }) {
         easeLinearity={0.35}
       >
         <TileLayer
-          attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"
+          attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         {markersArray}
       </LeafletMap>
