@@ -11075,6 +11075,22 @@
         "state": "Texas",
         "country": "United States"
       }
+    },
+    {
+      "id": 787,
+      "name": "S Salman",
+      "img": "https://media-exp1.licdn.com/dms/image/C5103AQFvOwhQ976dEg/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=oNwKuih1J6tgxSo1GLcTjAGo8Kr3H8HrwTiBaisZwPA",
+      "links": {
+        "website": "https://ssalmanportfolio.netlify.com/",
+        "linkedin": "https://www.linkedin.com/in/s-salman-509776160/",
+        "github": "https://github.com/ssal-man"
+      },
+      "jobTitle": "Full-Stack Designer , Javascript Developer , Python Developer , Android Developer",
+      "location": {
+        "city": "Bhilai",
+        "state": "Chhattisgarh",
+        "country": "India"
+      }
     }
   ]
 }
