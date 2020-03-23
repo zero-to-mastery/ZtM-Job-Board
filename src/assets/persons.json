@@ -11093,19 +11093,19 @@
       }
     },
     {
-        "id": 788,
-        "name": "Moulay Isam Elbousserghini",
-        "img": "https://lh3.googleusercontent.com/-dSTdfe93-d0fg1bc6hx8uHSYBH5FqeNaSftgWd5Vd_xln8293caccfoWsKrEc96JntGvfZxtkwer4HshgKWN4BFxfNTw5BVjuwgIfjDPoVEohpgr4EsBHPZJgb07BoLfPiagpuLjZRJb8o8hK-6IznMor5FKYKajywWsxjmxoxtSzTC0hz9JbdAeVUmukFjDqeZzXYzSI-Ix9a8MTmSfrYtkDmuYNPjlQ0nnSY3uqogmjeq5Obbh_pYBc4uL0R2IsUxuK0CjnPT8uzI14KWeNbP7GLp1SxNX6E7E8cyWAzAu2wcZA7bLj7G8Jjv_PvID5Aa5qprCHbJw_iEvpH0D--cJISyoBLv4w7SHAgfj7cMQlbHxl-80VmJGV-0KmGuUXtJh-megSIUuku0ms1IF-xrP9785TXX_mEKtU4X1L2Fna4kkcZvHcY6Lgs8Tg8P3rNgyiU5MvfDad-GoBSdQSBQSVbTA339OtF1RIQfZZ-XRylRM1VJQIGs-jy7FFlgAY95cohjOO_LXa2AdhhD4df5rYutbBplTTO8bzeU2FspNzC2cIjV9fm7JZc-yLklTjcJ-d46I_4C0-ECIoQcdBuAdyHyudZYySQ3d9XrbJGUrylpBW8rddtlVSv1Vjw7xhIt6kI5YdhNYdgnQLpICkHKveHDD7DxGG5Aa6ueKFEooAs-XPWwAfCDTZCRgBg=s231-no",
-        "links": {
+      "id": 788,
+      "name": "Moulay Isam Elbousserghini",
+      "img": "https://lh3.googleusercontent.com/-dSTdfe93-d0fg1bc6hx8uHSYBH5FqeNaSftgWd5Vd_xln8293caccfoWsKrEc96JntGvfZxtkwer4HshgKWN4BFxfNTw5BVjuwgIfjDPoVEohpgr4EsBHPZJgb07BoLfPiagpuLjZRJb8o8hK-6IznMor5FKYKajywWsxjmxoxtSzTC0hz9JbdAeVUmukFjDqeZzXYzSI-Ix9a8MTmSfrYtkDmuYNPjlQ0nnSY3uqogmjeq5Obbh_pYBc4uL0R2IsUxuK0CjnPT8uzI14KWeNbP7GLp1SxNX6E7E8cyWAzAu2wcZA7bLj7G8Jjv_PvID5Aa5qprCHbJw_iEvpH0D--cJISyoBLv4w7SHAgfj7cMQlbHxl-80VmJGV-0KmGuUXtJh-megSIUuku0ms1IF-xrP9785TXX_mEKtU4X1L2Fna4kkcZvHcY6Lgs8Tg8P3rNgyiU5MvfDad-GoBSdQSBQSVbTA339OtF1RIQfZZ-XRylRM1VJQIGs-jy7FFlgAY95cohjOO_LXa2AdhhD4df5rYutbBplTTO8bzeU2FspNzC2cIjV9fm7JZc-yLklTjcJ-d46I_4C0-ECIoQcdBuAdyHyudZYySQ3d9XrbJGUrylpBW8rddtlVSv1Vjw7xhIt6kI5YdhNYdgnQLpICkHKveHDD7DxGG5Aa6ueKFEooAs-XPWwAfCDTZCRgBg=s231-no",
+      "links": {
         "linkedin": "https://www.linkedin.com/in/isam-elbousserghini-874614194/",
         "website": "www.mindtaxis.com",
-        "github": "https://github.com/ssal-man"
+        "github": "https://github.com/isamelb"
       },
-        "jobTitle": "web developer, javascript, html, css, python",
-        "location": {
+      "jobTitle": "web developer, javascript, html, css, python",
+      "location": {
         "city": "London",
         "country": "United Kingdom"
-        }
       }
+    }
   ]
 }
