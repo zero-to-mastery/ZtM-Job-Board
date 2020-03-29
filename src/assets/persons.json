@@ -11139,6 +11139,23 @@
         "state": "",
         "country": "Russia"
       }
+    },
+    {
+      "id": 791,
+      "name": "Adel Batal",
+      "img": "https://photos.app.goo.gl/pAeCJ1vxbfcu5KHL7",
+      "links": {
+        "website": "",
+        "linkedin": "",
+        "github": "github.com/adel995"
+      },
+      "jobTitle": "Full stack web developer",
+      "location": {
+        "city": "Athens",
+        "state": "",
+        "country": "Greece"
+      }
     }
   ]
 }
+
