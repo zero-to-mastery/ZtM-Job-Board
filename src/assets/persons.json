@@ -11139,6 +11139,22 @@
         "state": "",
         "country": "Russia"
       }
+    },
+    {
+      "id": 791,
+      "name": "Mehedi Hasan",
+      "img": "https://avatars0.githubusercontent.com/u/24963413?s=460&u=97a321a6d6af5030cb6ca3f8f79bbff0dbab8198&v=4",
+      "links": {
+        "linkedin": "http://linkedin.com/in/codermehedi",
+        "website": "https://codermehedi.me",
+        "github": "https://github.com/Coder-Mehedi"
+      },
+      "jobTitle": "Full Stack Developer (MERN)",
+      "location": {
+        "city": "Dhaka",
+        "state": "",
+        "country": "Bangladesh"
+      }
     }
   ]
 }
