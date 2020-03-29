@@ -11155,6 +11155,22 @@
         "state": "",
         "country": "Bangladesh"
       }
+    },
+    {
+      "id": 792,
+      "name": "Paramjeet Dhiman",
+      "img": "https://scontent.fhyd5-1.fna.fbcdn.net/v/t1.0-1/c60.0.240.240a/p240x240/90170088_1570467313105651_7051108845623443456_o.jpg?_nc_cat=108&_nc_sid=dbb9e7&_nc_ohc=Ipi2IGMZPxsAX_SKRWe&_nc_ht=scontent.fhyd5-1.fna&oh=a354d5e07f5072e7c79642cca644b748&oe=5EA6DA17https://scontent.fhyd5-1.fna.fbcdn.net/v/t1.0-1/c60.0.240.240a/p240x240/90170088_1570467313105651_7051108845623443456_o.jpg?_nc_cat=108&_nc_sid=dbb9e7&_nc_ohc=Ipi2IGMZPxsAX_SKRWe&_nc_ht=scontent.fhyd5-1.fna&oh=a354d5e07f5072e7c79642cca644b748&oe=5EA6DA17",
+      "links": {
+        "website": "https://about.me/paramjeetdhiman",
+        "linkedin": "https://www.linkedin.com/in/paramjeetdhiman",
+        "github": "https://github.com/paramjeetdhiman"
+      },
+      "jobTitle": "Front-End Developer",
+      "location": {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "country": "India"
+      }
     }
   ]
 }
