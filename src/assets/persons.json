@@ -11171,6 +11171,22 @@
         "state": "Telangana",
         "country": "India"
       }
+    },
+    {
+      "id": 793,
+      "name": "Dmytro Anikin",
+      "img": "http://dimianni.biz/images/me.jpg",
+      "links": {
+        "website": "http://dimianni.biz/",
+        "linkedin": "https://www.linkedin.com/in/dimianni/",
+        "github": "https://github.com/dimianni"
+      },
+      "jobTitle": "Front-End Web Developer",
+      "location": {
+        "city": "Aberdeen",
+        "state": "SD",
+        "country": "USA"
+      }
     }
   ]
 }
