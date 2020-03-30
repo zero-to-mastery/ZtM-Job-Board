@@ -11172,8 +11172,24 @@
         "country": "India"
       }
     },
-    {
+     {
       "id": 793,
+      "name": "Navendu Niranjan P",
+      "img": "https://avatars1.githubusercontent.com/u/49474499?s=400&v=4",
+      "links": {
+        "website": "https://navendu-pottekkat.github.io/#/",
+        "linkedin": "https://www.linkedin.com/in/navendup/",
+        "github": "https://github.com/navendu-pottekkat"
+      },
+      "jobTitle": "Data Scientist",
+      "location": {
+        "city": "Kochi",
+        "state": "Kerala",
+        "country": "India"
+      }
+    },
+    {
+      "id": 794,
       "name": "Tomer Guttman",
       "img": "https://avatars0.githubusercontent.com/u/40022715?s=460&u=79919ca3d081b9423e0d4391807e62836cae6830&v=4",
       "links": {
