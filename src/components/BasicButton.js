@@ -1,6 +1,6 @@
 import React from "react"
 
-import "../styles/BasicButton.css"
+import "../styles/BasicButton.scss"
 
 const BasicButton = ({ action, children, disabled }) => {
   return (

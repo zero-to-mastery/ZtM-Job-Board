@@ -1,6 +1,6 @@
 import React from "react"
 import Search from "./Search"
-import "../styles/SearchBarDesktopView.css"
+import "../styles/SearchBarDesktopView.scss"
 
 const Navbar = ({ onSearchChange, onMapClick, onLogoClick }) => {
   return (

@@ -6,7 +6,7 @@ import Search from "./components/Search"
 import SimpleMap from "./components/Map"
 import { createFilter } from "react-search-input"
 import { shuffle } from "./util/shuffle"
-import "./styles/SearchBarMobileView.css"
+import "./styles/SearchBarMobileView.scss"
 
 const style = {
   background: "#fff",
@@ -54,20 +54,20 @@ function App() {
         {map ? (
           <SimpleMap />
         ) : (
-          <div id="sketch-particles">
-            <div className="visible-on-mobileview-only" style={style}>
-              <Search
-                onSearchChange={e => setSearchfield(e.target.value)}
-                responsiveSearch={responsiveSearch}
+            <div id="sketch-particles">
+              <div className="visible-on-mobileview-only" style={style}>
+                <Search
+                  onSearchChange={e => setSearchfield(e.target.value)}
+                  responsiveSearch={responsiveSearch}
+                />
+              </div>
+
+              <BatchCards
+                persons={filteredPersons(searchfield)}
+                numberPerBatch={16}
               />
             </div>
-
-            <BatchCards
-              persons={filteredPersons(searchfield)}
-              numberPerBatch={16}
-            />
-          </div>
-        )}
+          )}
       </main>
       <footer className="custom--unselectable w-100 h3 flex items-center justify-center justify-end-l white custom--bg-additional3 z-2">
         <a
