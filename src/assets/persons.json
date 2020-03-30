@@ -11171,6 +11171,22 @@
         "state": "Telangana",
         "country": "India"
       }
+    },
+    {
+      "id": 793,
+      "name": "Tomer Guttman",
+      "img": "https://avatars0.githubusercontent.com/u/40022715?s=460&u=79919ca3d081b9423e0d4391807e62836cae6830&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/tomergut/",
+        "github": "https://github.com/tomerguttman"
+      },
+      "jobTitle": "Software Developer",
+      "location": {
+        "city": "Haifa",
+        "state": "",
+        "country": "Israel"
+      }
     }
   ]
 }
