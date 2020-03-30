@@ -1,19 +1,22 @@
 import React, { useState } from "react"
-import BatchCards from "./components/BatchCards"
-import Navbar from "./components/Navbar"
-import { people } from "./assets/persons"
 import Search from "./components/Search"
 import SimpleMap from "./components/Map"
 import { createFilter } from "react-search-input"
 import { shuffle } from "./util/shuffle"
 import "./styles/SearchBarMobileView.scss"
+import BatchCards from "./components/BatchCards"
+import Navbar from "./components/Navbar"
 
-const style = {
+import data from "./assets/persons.json"
+
+const people: any = data.people
+
+const style: React.CSSProperties = {
   background: "#fff",
   padding: "1rem",
   width: "100%",
   margin: "0 0 2rem 0",
-  zIndex: "1",
+  zIndex: 1,
   borderRadius: "5px"
 }
 const responsiveSearch = {
@@ -34,7 +37,7 @@ function App() {
 
   const [map, setMap] = useState(false)
 
-  const filteredPersons = searchFilter =>
+  const filteredPersons = (searchFilter: any) =>
     people.filter(createFilter(searchFilter, KEYS_TO_FILTERS))
 
   //note: shuffle function is not pure function, it mutates original array
@@ -46,7 +49,7 @@ function App() {
       <header className="custom--unselectable fixed top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-9999">
         <Navbar
           onLogoClick={() => setMap(false)}
-          onSearchChange={e => setSearchfield(e.target.value)}
+          onSearchChange={(e: any) => setSearchfield(e.target.value)}
           onMapClick={() => setMap(!map)}
         />
       </header>
@@ -54,20 +57,20 @@ function App() {
         {map ? (
           <SimpleMap />
         ) : (
-            <div id="sketch-particles">
-              <div className="visible-on-mobileview-only" style={style}>
-                <Search
-                  onSearchChange={e => setSearchfield(e.target.value)}
-                  responsiveSearch={responsiveSearch}
-                />
-              </div>
-
-              <BatchCards
-                persons={filteredPersons(searchfield)}
-                numberPerBatch={16}
+          <div id="sketch-particles">
+            <div className="visible-on-mobileview-only" style={style}>
+              <Search
+                onSearchChange={(e: any) => setSearchfield(e.target.value)}
+                responsiveSearch={responsiveSearch}
               />
             </div>
-          )}
+
+            <BatchCards
+              persons={filteredPersons(searchfield)}
+              numberPerBatch={16}
+            />
+          </div>
+        )}
       </main>
       <footer className="custom--unselectable w-100 h3 flex items-center justify-center justify-end-l white custom--bg-additional3 z-2">
         <a

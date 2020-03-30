@@ -11,7 +11,7 @@ const countryNamesAndNumOfDevsArr = Object.entries(countriesWithNumOfDevsObj)
 
 // console.log(countryNamesAndNumOfDevsArr);
 
-let centerLatLngArr = []
+let centerLatLngArr: any = []
 
 function SimpleMap({ zoom = 3 }) {
   const [allCountriesLatLang, setAllCountriesLatLang] = useState([])
@@ -25,7 +25,7 @@ function SimpleMap({ zoom = 3 }) {
 
   // console.log(allCountriesLatLang);
 
-  let countriesLatLngArr = allCountriesLatLang.map(({ name, latlng }) => ({
+  let countriesLatLngArr: any = allCountriesLatLang.map(({ name, latlng }) => ({
     name,
     latlng
   }))
@@ -42,7 +42,7 @@ function SimpleMap({ zoom = 3 }) {
   }
 
   // Two nested for loops are okay as array items will always be < 250 in both arrays
-  let finalArrayWithCountryAndLatLng = []
+  let finalArrayWithCountryAndLatLng: any = []
   function finalCountryAndLocationArray() {
     for (let i = 0; i < countryNamesAndNumOfDevsArr.length; i++) {
       for (let j = 0; j < countriesLatLngArr.length; j++) {
@@ -84,7 +84,7 @@ function SimpleMap({ zoom = 3 }) {
   */
 
   const markersArray = finalArrayWithCountryAndLatLng.map(
-    ({ country, latlng, numberOfDevs }) => {
+    ({ country, latlng, numberOfDevs }: any) => {
       return (
         <Marker
           key={country}
@@ -115,7 +115,6 @@ function SimpleMap({ zoom = 3 }) {
   return (
     <div style={{ height: "90vh", width: "100%", margin: 0 }}>
       <LeafletMap
-        center={center}
         zoom={zoom}
         minZoom={1}
         maxZoom={10}

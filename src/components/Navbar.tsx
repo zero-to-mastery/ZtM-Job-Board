@@ -2,7 +2,7 @@ import React from "react"
 import Search from "./Search"
 import "../styles/SearchBarDesktopView.scss"
 
-const Navbar = ({ onSearchChange, onMapClick, onLogoClick }) => {
+const Navbar = ({ onSearchChange, onMapClick, onLogoClick }: any) => {
   return (
     <div className="header-items flex flex-wrap justify-between">
       <h1

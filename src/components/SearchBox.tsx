@@ -1,6 +1,6 @@
 import React from "react"
 
-const SearchBox = ({ searchChange, responsiveSearch }) => {
+const SearchBox = ({ searchChange, responsiveSearch }: any) => {
   return (
     <div
       style={responsiveSearch}
