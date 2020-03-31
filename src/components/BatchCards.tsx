@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import CardList from "./CardList"
 import BasicButton from "./BasicButton"
 
-const BatchCards = ({ persons, numberPerBatch = 16 }) => {
+const BatchCards = ({ persons, numberPerBatch = 16 }: any) => {
   const [batch, setBatch] = useState(1)
 
   const addToBatch = () => {

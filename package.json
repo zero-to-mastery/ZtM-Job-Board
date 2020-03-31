@@ -4,6 +4,13 @@
   "private": true,
   "homepage": "https://zero-to-mastery.github.io/ZtM-Job-Board",
   "dependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.5",
+    "@types/react": "^16.9.27",
+    "@types/react-dom": "^16.9.5",
+    "@types/react-lazyload": "^2.6.0",
+    "@types/react-leaflet": "^2.5.1",
+    "@types/webfontloader": "^1.6.29",
     "g": "^2.0.1",
     "leaflet": "^1.6.0",
     "live-server": "^1.2.1",
@@ -17,7 +24,7 @@
     "react-scripts": "^3.3.0",
     "react-search-input": "^0.11.3",
     "tachyons": "^4.11.1",
-    "typescript": "^3.6.4",
+    "typescript": "^3.8.3",
     "webfontloader": "^1.6.28"
   },
   "scripts": {
