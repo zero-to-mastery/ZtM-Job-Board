@@ -11187,6 +11187,70 @@
         "state": "Manipal",
         "country": "India"
       }
+    },
+    {
+      "id": 794,
+      "name": "Dmytro Anikin",
+      "img": "http://dimianni.biz/images/me.jpg",
+      "links": {
+        "website": "http://dimianni.biz/",
+        "linkedin": "https://www.linkedin.com/in/dimianni/",
+        "github": "https://github.com/dimianni"
+      },
+      "jobTitle": "Front-End Web Developer",
+      "location": {
+        "city": "Aberdeen",
+        "state": "SD",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 795,
+      "name": "Navendu Niranjan P",
+      "img": "https://avatars1.githubusercontent.com/u/49474499?s=400&v=4",
+      "links": {
+        "website": "https://navendu-pottekkat.github.io/#/",
+        "linkedin": "https://www.linkedin.com/in/navendup/",
+        "github": "https://github.com/navendu-pottekkat"
+      },
+      "jobTitle": "Data Scientist",
+      "location": {
+        "city": "Kochi",
+        "state": "Kerala",
+        "country": "India"
+      }
+    },
+    {
+      "id": 796,
+      "name": "Tomer Guttman",
+      "img": "https://avatars0.githubusercontent.com/u/40022715?s=460&u=79919ca3d081b9423e0d4391807e62836cae6830&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/tomergut/",
+        "github": "https://github.com/tomerguttman"
+      },
+      "jobTitle": "Software Developer",
+      "location": {
+        "city": "Haifa",
+        "state": "",
+        "country": "Israel"
+      }
+    },
+    {
+      "id": 797,
+      "name": "Olokor Divine",
+      "img": "https://avatars0.githubusercontent.com/u/48719608?s=400&u=d9ffb4f63c65b92a54d074abc54a5fcd5d2f7097&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in//",
+        "github": "https://github.com/divee789"
+      },
+      "jobTitle": "Fullstack Engineer",
+      "location": {
+        "city": "Lagos",
+        "state": "Lagos",
+        "country": "Nigeria"
+      }
     }
   ]
 }

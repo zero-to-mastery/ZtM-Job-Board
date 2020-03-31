@@ -2,10 +2,13 @@
 TO MAKE FETCH REQUESTS FOR COUNTRIES AND COORDINATES 
 (LATITUDE, LONGITUDE) AND COMPARE AND MATCH THEM */
 
-import { people } from "../assets/persons"
+import Person from "../interfaces/person"
+import data from "../assets/persons.json"
+
+const people: any = data.people
 
 // Removed all the brackets, extra spaces, symbols and unnecessary stuff from country names
-const allCountryNamesCleaned = people.map(person => {
+const allCountryNamesCleaned = people.map((person: Person) => {
   return (
     person.location.country
       //removes brackets and everything inside brackets.
@@ -27,7 +30,7 @@ const allCountryNamesCleaned = people.map(person => {
 // This will contain duplicate country names
 // that are removed in the next function - removeDuplicateCountryNames
 const allCountryNamesFixedToMatchAPINames = allCountryNamesCleaned.map(
-  country => {
+  (country: any) => {
     switch (country) {
       case "US":
         return "United States of America"
@@ -66,9 +69,9 @@ const allCountryNamesFixedToMatchAPINames = allCountryNamesCleaned.map(
 // This function will return an object with country name and the number of developers from that country
 // It adds the number of developers as it comes across duplicate country names
 
-function removeDuplicateCountryNames(countryArrayWithDuplicateValues) {
+function removeDuplicateCountryNames(countryArrayWithDuplicateValues: any) {
   let deduplicatedCountries = countryArrayWithDuplicateValues.reduce(
-    (prev, curr) => {
+    (prev: any, curr: any) => {
       // console.log("prev", prev, "current", curr);
       prev[curr] = (prev[curr] || 0) + 1
       return prev

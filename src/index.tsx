@@ -3,7 +3,7 @@ import ReactDOM from "react-dom"
 import WebFont from "webfontloader"
 import App from "./App"
 import "tachyons"
-import "./index.css"
+import "./index.scss"
 import registerServiceWorker from "./registerServiceWorker"
 
 WebFont.load({
