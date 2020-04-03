@@ -1,6 +1,5 @@
 {
-  "people": [
-    {
+  "people": [{
       "id": 1,
       "name": "Andrej Zadnik",
       "img": "",
@@ -11282,6 +11281,22 @@
         "city": "Viseu",
         "state": "",
         "country": "Portugal"
+      }
+    },
+    {
+      "id": 800,
+      "name": "Victor Jonah",
+      "img": "https://avatars2.githubusercontent.com/u/30151767?s=400&u=6e371cca7372e7627d27dacd64abfdb213053229&v=4",
+      "links": {
+        "website": "https://www.vectormike.codes/",
+        "linkedin": "https://www.linkedin.com/in/victor-jonah-abb1a1120/",
+        "github": "https://github.com/Vectormike"
+      },
+      "jobTitle": "Full Stack JavaScript Developer",
+      "location": {
+        "city": "Uyo",
+        "state": "AkwaIbom",
+        "country": "Nigeria"
       }
     }
   ]
