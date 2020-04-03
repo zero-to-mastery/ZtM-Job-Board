@@ -11283,6 +11283,22 @@
         "state": "",
         "country": "Portugal"
       }
+    },
+    {
+      "id": 800,
+      "name": "Tej Narayan Yadav",
+      "img": "https://avatars0.githubusercontent.com/u/52940075?s=400&u=37f166717fd557194d81278ebd4f6f618fc18817&v=4",
+      "links": {
+        "website": "https://sites.google.com/view/tejon/home/",
+        "linkedin": "https://www.linkedin.com/in/tej-on/",
+        "github": "https://github.com/tyadav"
+      },
+      "jobTitle": "Data Scientist",
+      "location": {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India"
+      }
     }
-  ]
+  ]      
 }
