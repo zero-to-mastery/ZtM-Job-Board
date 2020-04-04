@@ -1,5 +1,6 @@
 {
-  "people": [{
+  "people": [
+    {
       "id": 1,
       "name": "Andrej Zadnik",
       "img": "",
@@ -11297,6 +11298,22 @@
         "city": "Uyo",
         "state": "AkwaIbom",
         "country": "Nigeria"
+      }
+    },
+    {
+      "id": 801,
+      "name": "Eugene Chan",
+      "img": "https://avatars.githubusercontent.com/eugenechanyc",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/eugenechanyc",
+        "github": "https://github.com/eugenechanyc"
+      },
+      "jobTitle": "Full Stack Web Developer",
+      "location": {
+        "city": "Singapore",
+        "state": "",
+        "country": "Singapore"
       }
     }
   ]
