@@ -11283,6 +11283,22 @@
         "state": "",
         "country": "Portugal"
       }
+    },
+    {
+      "id": 800,
+      "name": "Luis Vallejo",
+      "img": "https://media-exp1.licdn.com/dms/image/C4E03AQHyVZgfrVduVw/profile-displayphoto-shrink_100_100/0?e=1591833600&v=beta&t=nuBbreYm7bEbgSJBAWNaCbX0OwZ-DNFfgJZ8BbynqjU",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/luis-vallejo-luvagu/",
+        "github": "https://github.com/luiavag"
+      },
+      "jobTitle": "Full Stack Web Developer",
+      "location": {
+        "city": "Brighton",
+        "state": "ES",
+        "country": "UK"
+      }
     }
   ]
 }
