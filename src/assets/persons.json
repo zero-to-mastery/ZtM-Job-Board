@@ -11286,6 +11286,22 @@
     },
     {
       "id": 800,
+      "name": "Luis Vallejo",
+      "img": "https://media-exp1.licdn.com/dms/image/C4E03AQHyVZgfrVduVw/profile-displayphoto-shrink_100_100/0?e=1591833600&v=beta&t=nuBbreYm7bEbgSJBAWNaCbX0OwZ-DNFfgJZ8BbynqjU",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/luis-vallejo-luvagu/",
+        "github": "https://github.com/luiavag"
+      },
+      "jobTitle": "Full Stack Web Developer",
+      "location": {
+        "city": "Brighton",
+        "state": "ES",
+        "country": "UK"
+      }
+    },
+    {
+      "id": 801,
       "name": "Victor Jonah",
       "img": "https://avatars2.githubusercontent.com/u/30151767?s=400&u=6e371cca7372e7627d27dacd64abfdb213053229&v=4",
       "links": {
@@ -11301,7 +11317,7 @@
       }
     },
     {
-      "id": 801,
+      "id": 802,
       "name": "Pranav Agarwal",
       "img": "https://avatars0.githubusercontent.com/u/40036238?s=400&u=c8c83a97658f9f62f32d9cbfe4334962933271a1&v=4",
       "links": {
@@ -11317,7 +11333,7 @@
       }
     },
     {
-      "id": 802,
+      "id": 803,
       "name": "Eugene Chan",
       "img": "https://avatars.githubusercontent.com/eugenechanyc",
       "links": {
@@ -11333,7 +11349,7 @@
       }
     },
     {
-      "id": 803,
+      "id": 804,
       "name": "Mohamed Shawky",
       "img": "https://res.cloudinary.com/dymelpf7v/image/upload/v1586085437/profile.png",
       "links": {
@@ -11349,7 +11365,7 @@
       }
     },
     {
-    "id": 804,
+    "id": 805,
     "name": "Manoj Baddi",
     "img": "https://avatars.githubusercontent.com/manojbaddi",
     "links": {
