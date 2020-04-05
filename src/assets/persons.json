@@ -11347,6 +11347,22 @@
         "state": "",
         "country": "Egypt"
       }
+    },
+    {
+    "id": 804,
+    "name": "Manoj Baddi",
+    "img": "https://avatars.githubusercontent.com/manojbaddi",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/manojbaddi/",
+      "github": "https://github.com/manojbaddi"
+    },
+    "jobTitle": "Full Stack C# developer",
+    "location": {
+      "city": "Bangalore",
+      "state": "",
+      "country": "India"
     }
+  }
   ]
 }
