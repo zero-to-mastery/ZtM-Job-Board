@@ -11382,3 +11382,19 @@
   }
   ]
 }
+  ,{
+    "id": 806,
+    "name": "Jonathan Branski",
+    "img": "https://avatars1.githubusercontent.com/u/32647040",
+    "links": {
+      "website": "https://jonathanbranski.com",
+      "linkedin": "https://www.linkedin.com/in/jonathanbranski/",
+      "github": "https://github.com/JBranski"
+    },
+    "jobTitle": "Front-end Developer",
+    "location": {
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "country": "United States"
+    }
+  }
