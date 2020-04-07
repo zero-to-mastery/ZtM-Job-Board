@@ -11395,6 +11395,22 @@
         "state": "Karnataka",
         "country": "India"
       }
+  },
+  {
+    "id": 807,
+    "name": "Kiril Delovski",
+    "img": "https://avatars.githubusercontent.com/kiril6",
+    "links": {
+      "website": "http://delovski.net",
+      "linkedin": "https://www.linkedin.com/in/kdelovski6/",
+      "github": "https://github.com/kiril6"
+    },
+    "jobTitle": "Frontend Web Developer",
+    "location": {
+      "city": "Skopje",
+      "state": "",
+      "country": "North Macedonia"
     }
+  }
   ]
 }
