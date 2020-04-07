@@ -11365,23 +11365,39 @@
       }
     },
     {
-    "id": 805,
-    "name": "Manoj Baddi",
-    "img": "https://avatars.githubusercontent.com/manojbaddi",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/manojbaddi/",
-      "github": "https://github.com/manojbaddi"
+      "id": 805,
+      "name": "Manoj Baddi",
+      "img": "https://avatars.githuhttps://avatars.githubusercontent.com/santhosh21vkbusercontent.com/manojbaddi",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/manojbaddi/",
+        "github": "https://github.com/manojbaddi"
+      },
+      "jobTitle": "Full Stack C# developer",
+      "location": {
+        "city": "Bangalore",
+        "state": "",
+        "country": "India"
+      }
     },
-    "jobTitle": "Full Stack C# developer",
-    "location": {
-      "city": "Bangalore",
-      "state": "",
-      "country": "India"
-    }
+    {
+      "id": 806,
+      "name": "Santhosh H V",
+      "img": "https://avatars.githubusercontent.com/santhosh21vk",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/santhosh-h-v-9a8937171/",
+        "github": "https://github.com/santhosh21vk"
+      },
+      "jobTitle": "Front End Web Developer (Javascript, React.js)",
+      "location": {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India"
+      }
   },
   {
-    "id": 806,
+    "id": 807,
     "name": "Kiril Delovski",
     "img": "https://avatars.githubusercontent.com/kiril6",
     "links": {
