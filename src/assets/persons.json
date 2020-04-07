@@ -11379,6 +11379,22 @@
       "state": "",
       "country": "India"
     }
-  }
+  },
+  {
+  "id": 806,
+  "name": "Rigin Oommen",
+  "img": "https://avatars.githubusercontent.com/riginoommen",
+  "links": {
+    "website": "https://riginoommen.github.io",
+    "linkedin": "https://www.linkedin.com/in/riginoommen/",
+    "github": "https://github.com/riginoommen"
+  },
+  "jobTitle": "Application Developer",
+  "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India"
+    }
+  },
   ]
 }
