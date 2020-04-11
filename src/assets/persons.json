@@ -11475,7 +11475,7 @@
                 "state": "",
                 "country": "United Kingdom"
             }
-        }
+        },
         {
             "id": 812,
             "name": "Fran Extremera",
@@ -11491,22 +11491,23 @@
                 "state": "Andalusia",
                 "country": "Spain"
             }
-        }
+        },
+      	{
+	    "id": 813,
+	    "name": "Theja M",
+	    "img": "https://avatars1.githubusercontent.com/u/56859400?s=400&u=d5da7ac5fffe135c3d37dc8e7bda926d9e11e124&v=4",
+	    "links": {
+	      "website": "",
+	      "linkedin": "https://www.linkedin.com/in/theja-m-744106168/",
+	      "github": "https://github.com/theja-m"
+	    },
+	    "jobTitle": "Software Developer",
+	    "location": {
+	      "city": "Hyderabad",
+	      "state": "Telangana",
+	      "country": "India"
+	    }
+	  }
     ]
 }
-  ,{
-    "id": 812,
-    "name": "Harendra Kumar Kanojiya",
-    "img": "https://media-exp1.licdn.com/dms/image/C5103AQF3dXY-xgSMuA/profile-displayphoto-shrink_800_800/0?e=1591833600&v=beta&t=qByetAC-roUO9T0R3TsSjD2xluoSt7lsR1uxiCVjeQU",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/harendra-verma-157773a9/",
-      "github": "https://github.com/harendra21/"
-    },
-    "jobTitle": "Full Stack Web Developer",
-    "location": {
-      "city": "Gurugram",
-      "state": "Haryana",
-      "country": "India"
-    }
-  }
+  
