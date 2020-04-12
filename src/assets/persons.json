@@ -11527,7 +11527,8 @@
 {
     "id": 815,
     "name": "Aayush Rajput",
-    "img": "": {
+    "img": "",
+    "links": {
       "website": "",
       "linkedin": "https://www.linkedin.com/in/aayush-r-44a33a108/",
       "github": "https://github.com/aayushhh/"
@@ -11537,6 +11538,22 @@
       "city": "Gurugram",
       "state": "Haryana",
       "country": "India"
+    }
+  },
+  {
+    "id": 816,
+    "name": "Mithlesh Yadav",
+    "img": "https://avatars2.githubusercontent.com/u/32195144?s=460&u=e7368131fc6cc6f55b6855cf7c2118945d111722&v=4",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/mithlesh-yadav-2aa8a316a/",
+      "github": "https://github.com/mithleshfreak"
+    },
+    "jobTitle": "Software Developer",
+    "location": {
+      "city": "Bhadrapur, Jhapa",
+      "state": "Province No. 1",
+      "country": "Nepal"
     }
   }
 ]
