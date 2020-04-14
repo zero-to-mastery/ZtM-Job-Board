@@ -11619,6 +11619,22 @@
       "state": "Texas",
       "country": "United States"
     }
+  },
+  {
+    "id": 818,
+    "name": "Teri Eyenike",
+    "img": "https://res.cloudinary.com/codeg0d/image/upload/v1584384543/teri/codeg0d_d19edi.jpg",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/terieyenike/",
+      "github": "https://github.com/terieyenike"
+    },
+    "jobTitle": "JavaScript Developer",
+    "location": {
+      "city": "Maryland",
+      "state": "Lagos",
+      "country": "Nigeria"
+    }
   }
 ]
 }
