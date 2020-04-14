@@ -11635,6 +11635,22 @@
       "state": "Lagos",
       "country": "Nigeria"
     }
+  },
+ {
+    "id": 818,
+    "name": "Cigdem Coskuner",
+    "img": "https://cigdem.dev/images/myphoto.jpg",
+    "links": {
+      "website": "https://www.cigdem.dev",
+      "linkedin": "linkedin.com/in/cigdemcoskuner",
+      "github": "https://github.com/CigdemCos"
+    },
+    "jobTitle": "Engineer | Full-Stack Developer",
+    "location": {
+      "city": "Albany",
+      "state": "California",
+      "country": "United States"
+    }
   }
 ]
 }
