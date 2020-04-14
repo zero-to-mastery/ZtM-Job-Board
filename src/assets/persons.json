@@ -11571,6 +11571,22 @@
       "state": "Province No. 1",
       "country": "Nepal"
     }
+  }, 
+  {
+    "id": 818,
+    "name": "Damini Varu",
+    "img": "https://avatars2.githubusercontent.com/u/50891247?s=400&u=b5199d3397089aa3b292e6fff124e491096465e2&v=4",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/damini-varu-71607b197/",
+      "github": "https://github.com/dvru"
+    },
+    "jobTitle": "Software Developer, Technical Writer, Graphic Designer",
+    "location": {
+      "city": "Houston",
+      "state": "Texas",
+      "country": "United States"
+    }
   }
 ]
 }
