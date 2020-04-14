@@ -11587,6 +11587,38 @@
         "state": "",
         "country": "Viet Nam"
       }
+  },
+  {
+    "id": 819,
+    "name": "Usman Khalid",
+    "img": "https://media-exp1.licdn.com/dms/image/C5603AQH2HAy0OdhYlw/profile-displayphoto-shrink_200_200/0?e=1592438400&v=beta&t=J_uIatwlGMWjJNMgv4V-NRsYrdwYtkZaPXmDX2FKHr8",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/usman-khalid-9384129b/",
+      "github": "https://github.com/usmankhan495"
+    },
+    "jobTitle": "Mobile/Web (React Native | React Js)",
+    "location": {
+      "city": "Lahore",
+      "state": "Punjab",
+      "country": "Pakistan"
     }
-  ]
+  }, 
+  {
+    "id": 820,
+    "name": "Damini Varu",
+    "img": "https://avatars2.githubusercontent.com/u/50891247?s=400&u=b5199d3397089aa3b292e6fff124e491096465e2&v=4",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/damini-varu-71607b197/",
+      "github": "https://github.com/dvru"
+    },
+    "jobTitle": "Software Developer, Technical Writer, Graphic Designer",
+    "location": {
+      "city": "Houston",
+      "state": "Texas",
+      "country": "United States"
+    }
+  }
+]
 }
