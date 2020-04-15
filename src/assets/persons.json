@@ -11621,7 +11621,7 @@
     }
   },
   {
-    "id": 818,
+    "id": 821,
     "name": "Teri Eyenike",
     "img": "https://res.cloudinary.com/codeg0d/image/upload/v1584384543/teri/codeg0d_d19edi.jpg",
     "links": {
@@ -11637,7 +11637,7 @@
     }
   },
  {
-    "id": 818,
+    "id": 822,
     "name": "Cigdem Coskuner",
     "img": "https://cigdem.dev/images/myphoto.jpg",
     "links": {
@@ -11653,7 +11653,7 @@
     }
   },
   {
-    "id": 818,
+    "id": 823,
     "name": "Jonathan Aguilar",
     "img": "https://avatars2.githubusercontent.com/u/63523280?s=400&u=a97aee07b624817cf6a7fb1bef02a74e4d8d9d26&v=4",
     "links": {
@@ -11666,10 +11666,25 @@
       "city": "Elizabeth",
       "state": "New Jersey",
       "country": "USA"
+    },
+      {
+    "id": 824,
+    "name": "Deepak Kumar",
+    "img": "https://avatars3.githubusercontent.com/u/30384999?s=460&u=c503b99720a093a4b67a76e2598e2fd6999b706a&v=4",
+    "links": {
+      "website": "https://deepak1418.github.io/",
+      "linkedin": "https://www.linkedin.com/in/deepak-kumar-70215b175/",
+      "github": "https://github.com/deepak1418"
+    },
+    "jobTitle": "Software Developer,Data Analyst",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "INDIA"
     }
   },
   {
-    "id": 821,
+    "id": 825,
     "name": "Fanni Takacs",
     "img": "",
     "links": {
@@ -11683,8 +11698,22 @@
       "state": "",
       "country": "Hungary"
     }
+  },
+    {
+    "id": 826,
+    "name": "Vaibhav Kumar Singh",
+    "img": "https://bit.ly/2XyFqfE",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/vaibhav-kumar-singh-530928101",
+      "github": "https://github.com/vaivk4"
+    },
+    "jobTitle": "Software-Developer",
+    "location": {
+      "city": "Chennai",
+      "state": "Tamilnadu",
+      "country": "India"
+    }
   }
 ]
 }
-
-
