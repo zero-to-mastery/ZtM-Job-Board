@@ -11666,7 +11666,23 @@
       "city": "Elizabeth",
       "state": "New Jersey",
       "country": "USA"
+    },
+      {
+    "id": 821,
+    "name": "Deepak Kumar",
+    "img": "https://avatars3.githubusercontent.com/u/30384999?s=460&u=c503b99720a093a4b67a76e2598e2fd6999b706a&v=4",
+    "links": {
+      "website": "https://deepak1418.github.io/",
+      "linkedin": "https://www.linkedin.com/in/deepak-kumar-70215b175/",
+      "github": "https://github.com/deepak1418"
+    },
+    "jobTitle": "Software Developer,Data Analyst",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "INDIA"
     }
+  }
   }
 ]
 }
