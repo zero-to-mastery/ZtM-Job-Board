@@ -11621,7 +11621,7 @@
     }
   },
   {
-    "id": 818,
+    "id": 821,
     "name": "Teri Eyenike",
     "img": "https://res.cloudinary.com/codeg0d/image/upload/v1584384543/teri/codeg0d_d19edi.jpg",
     "links": {
@@ -11637,7 +11637,7 @@
     }
   },
  {
-    "id": 818,
+    "id": 822,
     "name": "Cigdem Coskuner",
     "img": "https://cigdem.dev/images/myphoto.jpg",
     "links": {
@@ -11652,8 +11652,8 @@
       "country": "United States"
     }
   },
-    {
-    "id": 818,
+  {
+    "id": 823,
     "name": "Jonathan Aguilar",
     "img": "https://avatars2.githubusercontent.com/u/63523280?s=400&u=a97aee07b624817cf6a7fb1bef02a74e4d8d9d26&v=4",
     "links": {
@@ -11668,7 +11668,7 @@
       "country": "USA"
     },
       {
-    "id": 821,
+    "id": 824,
     "name": "Deepak Kumar",
     "img": "https://avatars3.githubusercontent.com/u/30384999?s=460&u=c503b99720a093a4b67a76e2598e2fd6999b706a&v=4",
     "links": {
@@ -11682,12 +11682,25 @@
       "state": "",
       "country": "INDIA"
     }
-  }
-  }
-]
-}
-  ,{
-    "id": 821,
+  },
+  {
+    "id": 825,
+    "name": "Fanni Takacs",
+    "img": "",
+    "links": {
+      "website": "http://FanniTakax.github.io/my_experimental_page",
+      "linkedin": "https://www.linkedin.com/in/fanni-takacs-profile/",
+      "github": "https://github.com/FanniTakax"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Budapest",
+      "state": "",
+      "country": "Hungary"
+    }
+  },
+    {
+    "id": 826,
     "name": "Vaibhav Kumar Singh",
     "img": "https://bit.ly/2XyFqfE",
     "links": {
@@ -11702,3 +11715,5 @@
       "country": "India"
     }
   }
+]
+}
