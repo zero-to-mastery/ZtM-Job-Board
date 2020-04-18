@@ -11777,6 +11777,22 @@
       "state": "London",
       "country": "United Kingdom"
     }
+  },
+  {
+    "id": 831,
+    "name": "Hassan Zain",
+    "img": "http://hassanzain.com/images/pic00.jpg",
+    "links": {
+      "website": "http://hassanzain.com/",
+      "linkedin": "https://www.linkedin.com/in/hassan-zain-delgadillo-b2056156/",
+      "github": "https://github.com/hassanzd"
+    },
+    "jobTitle": "Software Developer",
+    "location": {
+      "city": "Torreon",
+      "state": "Coahuila",
+      "country": "Mexico"
+    }
   }
 
 
