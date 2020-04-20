@@ -11793,6 +11793,22 @@
       "state": "Coahuila",
       "country": "Mexico"
     }
+  },
+  {
+    "id": 832,
+    "name": "Sergen Ucar",
+    "img": "https://avatars2.githubusercontent.com/u/36440791?s=400&u=e890321eba08bbd4a07237af81130e48a8a403c5&v=4",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/jorge-veronique-981a0753/",
+      "github": "https://github.com/bugismylife"
+    },
+    "jobTitle": "Fullstack Software Developer",
+    "location": {
+      "city": "Skopje",
+      "state": "",
+      "country": "Macedonia"
+    }
   }
 
 
