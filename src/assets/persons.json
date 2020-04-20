@@ -11793,6 +11793,22 @@
       "state": "Coahuila",
       "country": "Mexico"
     }
+  },
+  {
+    "id": 832,
+    "name": "HanQiao(Claire) Li",
+    "img": "https://www.dropbox.com/s/ucb3lqrrbrp2wd0/HanQiao.JPG?dl=0",
+    "links": {
+      "website": "hanqiaoli.com",
+      "linkedin": "https://www.linkedin.com/in/claire-li-98739113b/",
+      "github": "https://github.com/clairehq"
+    },
+    "jobTitle": "Front-End Developer",
+    "location": {
+      "city": "Vancouver,Beijing",
+      "state": "BC",
+      "country": "Canada, China"
+    }
   }
 
 
