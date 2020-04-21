@@ -11809,6 +11809,22 @@
       "state": "BC",
       "country": "Canada, China"
     }
+  },
+  {
+    "id": 833,
+    "name": "Faizan Qazi",
+    "img": "https://drive.google.com/file/d/1SCvbLjEEMXRP8erjEmMe2wqoVoI3zB9M/view?usp=drivesdk",
+    "links": {
+      "website": "http://caxefaizan.pythonanywhere.com",
+      "linkedin": "https://www.linkedin.com/in/caxefaizan/",
+      "github": "https://github.com/caxefaizan"
+    },
+    "jobTitle": "Python Developer|Full Stack Developer|Embedded IoT Developer",
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India"
+    }
   }
 
 
