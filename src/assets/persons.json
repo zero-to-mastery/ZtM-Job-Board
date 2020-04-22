@@ -11825,6 +11825,22 @@
       "state": "Karnataka",
       "country": "India"
     }
+  },
+  {
+    "id": 834,
+    "name": "Jordan Stanway",
+    "img": "https://res.cloudinary.com/mtninja/image/upload/v1587576167/js-cropped_all9eg.jpg",
+    "links": {
+      "website": "https://jordanstanway.com",
+      "linkedin": "https://www.linkedin.com/in/jordanstanway/",
+      "github": "https://github.com/jpstanway"
+    },
+    "jobTitle": "Full Stack React Developer",
+    "location": {
+      "city": "Vancouver",
+      "state": "BC",
+      "country": "Canada"
+    }
   }
 
 
