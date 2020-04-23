@@ -11841,8 +11841,22 @@
       "state": "BC",
       "country": "Canada"
     }
+  },
+  {
+    "id": 835,
+    "name": "Jeremy Ng Cheng Hin",
+    "img": "https://tinyurl.com/ybjym5dm",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/jeremy-n-5b76aa105/",
+      "github": "https://github.com/jnch009"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Coquitlam",
+      "state": "BC",
+      "country": "Canada"
+    }
   }
-
-
 ]
 }
