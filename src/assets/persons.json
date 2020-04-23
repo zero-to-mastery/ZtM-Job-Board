@@ -11857,6 +11857,22 @@
       "state": "BC",
       "country": "Canada"
     }
-  }
+  },
+    {
+      "id": 836,
+      "name": "Jonathan Hutnick",
+      "img": "https://ibb.co/XZGZLb2",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/jonathanhutnick/",
+        "github": "https://github.com/JHutnick"
+      },
+      "jobTitle": "Software Developer | Front-End Developer",
+      "location": {
+        "city": "New York",
+        "state": "New York",
+        "country": "USA"
+      }
+    }
 ]
 }
