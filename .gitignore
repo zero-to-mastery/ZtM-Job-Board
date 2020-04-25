@@ -12,6 +12,7 @@
 # production
 /build
 /src/**/*.css
+/src/**/*.css.map
 
 # misc
 .DS_Store
@@ -26,3 +27,5 @@ yarn-error.log*
 /1
 .idea/
 1
+
+debug.log
