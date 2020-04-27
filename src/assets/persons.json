@@ -11875,6 +11875,22 @@
         "state": "",
         "country": "England"
       }
+  },
+  {
+    "id": 837,
+    "name": "Magesh Sundar G",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/magesh-sundar-965ba2190",
+      "github": "https://github.com/MageshSundarG"
+    },
+    "jobTitle": "Python Developer|Data Scientist|Full Stack Developer",
+    "location": {
+      "city": "Chennai",
+      "state": "Tamilnadu",
+      "country": "india"
     }
-  ]
+  }
+]
 }
