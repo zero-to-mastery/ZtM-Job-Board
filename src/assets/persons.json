@@ -11875,6 +11875,37 @@
         "state": "Illinois",
         "country": "USA"
       }
+    },
+    {
+      "id": 837,
+      "name": "JP Sainsbury",
+      "img": "https://avatars2.githubusercontent.com/u/32621022?s=460&u=2a90e6617060f57a08795e5f97f7fd69c9251809&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/jp-sainsbury-3a59158a/",
+        "github": "https://github.com/jpsains"
+      },
+      "jobTitle": "Web Developer",
+      "location": {
+        "city": "London",
+        "state": "",
+        "country": "England"
+      }
+  },
+  {
+    "id": 838,
+    "name": "Magesh Sundar G",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/magesh-sundar-965ba2190",
+      "github": "https://github.com/MageshSundarG"
+    },
+    "jobTitle": "Python Developer|Data Scientist|Full Stack Developer",
+    "location": {
+      "city": "Chennai",
+      "state": "Tamilnadu",
+      "country": "india"
     }
   ]
 }
