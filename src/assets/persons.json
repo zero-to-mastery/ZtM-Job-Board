@@ -11587,135 +11587,136 @@
         "state": "",
         "country": "Viet Nam"
       }
-  },
-  {
-    "id": 819,
-    "name": "Usman Khalid",
-    "img": "https://media-exp1.licdn.com/dms/image/C5603AQH2HAy0OdhYlw/profile-displayphoto-shrink_200_200/0?e=1592438400&v=beta&t=J_uIatwlGMWjJNMgv4V-NRsYrdwYtkZaPXmDX2FKHr8",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/usman-khalid-9384129b/",
-      "github": "https://github.com/usmankhan495"
     },
-    "jobTitle": "Mobile/Web (React Native | React Js)",
-    "location": {
-      "city": "Lahore",
-      "state": "Punjab",
-      "country": "Pakistan"
-    }
-  }, 
-  {
-    "id": 820,
-    "name": "Damini Varu",
-    "img": "https://avatars2.githubusercontent.com/u/50891247?s=400&u=b5199d3397089aa3b292e6fff124e491096465e2&v=4",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/damini-varu-71607b197/",
-      "github": "https://github.com/dvru"
-    },
-    "jobTitle": "Software Developer, Technical Writer, Graphic Designer",
-    "location": {
-      "city": "Houston",
-      "state": "Texas",
-      "country": "United States"
-    }
-  },
-  {
-    "id": 821,
-    "name": "Teri Eyenike",
-    "img": "https://res.cloudinary.com/codeg0d/image/upload/v1584384543/teri/codeg0d_d19edi.jpg",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/terieyenike/",
-      "github": "https://github.com/terieyenike"
-    },
-    "jobTitle": "JavaScript Developer",
-    "location": {
-      "city": "Maryland",
-      "state": "Lagos",
-      "country": "Nigeria"
-    }
-  },
- {
-    "id": 822,
-    "name": "Cigdem Coskuner",
-    "img": "https://cigdem.dev/images/myphoto.jpg",
-    "links": {
-      "website": "https://www.cigdem.dev",
-      "linkedin": "linkedin.com/in/cigdemcoskuner",
-      "github": "https://github.com/CigdemCos"
-    },
-    "jobTitle": "Engineer | Full-Stack Developer",
-    "location": {
-      "city": "Albany",
-      "state": "California",
-      "country": "United States"
-    }
-  },
-  {
-    "id": 823,
-    "name": "Jonathan Aguilar",
-    "img": "https://avatars2.githubusercontent.com/u/63523280?s=400&u=a97aee07b624817cf6a7fb1bef02a74e4d8d9d26&v=4",
-    "links": {
-      "website": "www.moguljon.com",
-      "linkedin": "www.linkedin.com/in/jonathan-aguilar-047130ba/",
-      "github": "https://github.com/moguljon/"
-    },
-    "jobTitle": "Full Stack Web Developer",
-    "location": {
-      "city": "Elizabeth",
-      "state": "New Jersey",
-      "country": "USA"
-    },
-      {
-    "id": 824,
-    "name": "Deepak Kumar",
-    "img": "https://avatars3.githubusercontent.com/u/30384999?s=460&u=c503b99720a093a4b67a76e2598e2fd6999b706a&v=4",
-    "links": {
-      "website": "https://deepak1418.github.io/",
-      "linkedin": "https://www.linkedin.com/in/deepak-kumar-70215b175/",
-      "github": "https://github.com/deepak1418"
-    },
-    "jobTitle": "Software Developer,Data Analyst",
-    "location": {
-      "city": "",
-      "state": "",
-      "country": "INDIA"
-    }
-  },
-  {
-    "id": 825,
-    "name": "Fanni Takacs",
-    "img": "",
-    "links": {
-      "website": "http://FanniTakax.github.io/my_experimental_page",
-      "linkedin": "https://www.linkedin.com/in/fanni-takacs-profile/",
-      "github": "https://github.com/FanniTakax"
-    },
-    "jobTitle": "Web Developer",
-    "location": {
-      "city": "Budapest",
-      "state": "",
-      "country": "Hungary"
-    }
-  },
     {
-    "id": 826,
-    "name": "Vaibhav Kumar Singh",
-    "img": "https://bit.ly/2XyFqfE",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/vaibhav-kumar-singh-530928101",
-      "github": "https://github.com/vaivk4"
+      "id": 819,
+      "name": "Usman Khalid",
+      "img": "https://media-exp1.licdn.com/dms/image/C5603AQH2HAy0OdhYlw/profile-displayphoto-shrink_200_200/0?e=1592438400&v=beta&t=J_uIatwlGMWjJNMgv4V-NRsYrdwYtkZaPXmDX2FKHr8",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/usman-khalid-9384129b/",
+        "github": "https://github.com/usmankhan495"
+      },
+      "jobTitle": "Mobile/Web (React Native | React Js)",
+      "location": {
+        "city": "Lahore",
+        "state": "Punjab",
+        "country": "Pakistan"
+      }
     },
-    "jobTitle": "Software-Developer",
-    "location": {
-      "city": "Chennai",
-      "state": "Tamilnadu",
-      "country": "India"
-    }
-  },
-  {
+    {
+      "id": 820,
+      "name": "Damini Varu",
+      "img": "https://avatars2.githubusercontent.com/u/50891247?s=400&u=b5199d3397089aa3b292e6fff124e491096465e2&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/damini-varu-71607b197/",
+        "github": "https://github.com/dvru"
+      },
+      "jobTitle": "Software Developer, Technical Writer, Graphic Designer",
+      "location": {
+        "city": "Houston",
+        "state": "Texas",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 821,
+      "name": "Teri Eyenike",
+      "img": "https://res.cloudinary.com/codeg0d/image/upload/v1584384543/teri/codeg0d_d19edi.jpg",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/terieyenike/",
+        "github": "https://github.com/terieyenike"
+      },
+      "jobTitle": "JavaScript Developer",
+      "location": {
+        "city": "Maryland",
+        "state": "Lagos",
+        "country": "Nigeria"
+      }
+    },
+    {
+      "id": 822,
+      "name": "Cigdem Coskuner",
+      "img": "https://cigdem.dev/images/myphoto.jpg",
+      "links": {
+        "website": "https://www.cigdem.dev",
+        "linkedin": "linkedin.com/in/cigdemcoskuner",
+        "github": "https://github.com/CigdemCos"
+      },
+      "jobTitle": "Engineer | Full-Stack Developer",
+      "location": {
+        "city": "Albany",
+        "state": "California",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 823,
+      "name": "Jonathan Aguilar",
+      "img": "https://avatars2.githubusercontent.com/u/63523280?s=400&u=a97aee07b624817cf6a7fb1bef02a74e4d8d9d26&v=4",
+      "links": {
+        "website": "www.moguljon.com",
+        "linkedin": "www.linkedin.com/in/jonathan-aguilar-047130ba/",
+        "github": "https://github.com/moguljon/"
+      },
+      "jobTitle": "Full Stack Web Developer",
+      "location": {
+        "city": "Elizabeth",
+        "state": "New Jersey",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 824,
+      "name": "Deepak Kumar",
+      "img": "https://avatars3.githubusercontent.com/u/30384999?s=460&u=c503b99720a093a4b67a76e2598e2fd6999b706a&v=4",
+      "links": {
+        "website": "https://deepak1418.github.io/",
+        "linkedin": "https://www.linkedin.com/in/deepak-kumar-70215b175/",
+        "github": "https://github.com/deepak1418"
+      },
+      "jobTitle": "Software Developer,Data Analyst",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": "INDIA"
+      }
+    },
+    {
+      "id": 825,
+      "name": "Fanni Takacs",
+      "img": "",
+      "links": {
+        "website": "http://FanniTakax.github.io/my_experimental_page",
+        "linkedin": "https://www.linkedin.com/in/fanni-takacs-profile/",
+        "github": "https://github.com/FanniTakax"
+      },
+      "jobTitle": "Web Developer",
+      "location": {
+        "city": "Budapest",
+        "state": "",
+        "country": "Hungary"
+      }
+    },
+    {
+      "id": 826,
+      "name": "Vaibhav Kumar Singh",
+      "img": "https://bit.ly/2XyFqfE",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/vaibhav-kumar-singh-530928101",
+        "github": "https://github.com/vaivk4"
+      },
+      "jobTitle": "Software-Developer",
+      "location": {
+        "city": "Chennai",
+        "state": "Tamilnadu",
+        "country": "India"
+      }
+    },
+    {
       "id": 827,
       "name": "Jonathan Grundy",
       "img": "https://avatars2.githubusercontent.com/u/53473099?s=460&u=2120e37f1256225a73bbf2c75414e76217835d90&v=4",
@@ -11732,134 +11733,151 @@
       }
     },
     {
-    "id": 828,
-    "name": "Harendra Kumar Kanojiya",
-    "img": "https://media-exp1.licdn.com/dms/image/C5103AQF3dXY-xgSMuA/profile-displayphoto-shrink_800_800/0?e=1592438400&v=beta&t=s36lpYtFqbTSaK4KB9zqXFaCVUQEGyXDcApjKG9H7HI",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/harendra-verma-157773a9/",
-      "github": "https://github.com/harendra21/"
+      "id": 828,
+      "name": "Harendra Kumar Kanojiya",
+      "img": "https://media-exp1.licdn.com/dms/image/C5103AQF3dXY-xgSMuA/profile-displayphoto-shrink_800_800/0?e=1592438400&v=beta&t=s36lpYtFqbTSaK4KB9zqXFaCVUQEGyXDcApjKG9H7HI",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/harendra-verma-157773a9/",
+        "github": "https://github.com/harendra21/"
+      },
+      "jobTitle": "Full Stack Web Developer",
+      "location": {
+        "city": "Gurugram",
+        "state": "Haryana",
+        "country": "India"
+      }
     },
-    "jobTitle": "Full Stack Web Developer",
-    "location": {
-      "city": "Gurugram",
-      "state": "Haryana",
-      "country": "India"
-    }
+    {
+      "id": 829,
+      "name": "JT Houk",
+      "img": "https://res.cloudinary.com/jthouk/image/upload/w_200,c_fill,ar_1:1,g_auto,r_max/v1582802281/Profiles/IMG_0600_swphdi.png",
+      "links": {
+        "website": "https://jt.houk.space",
+        "linkedin": "https://www.linkedin.com/in/jt-houk",
+        "github": "https://github.com/HoukasaurusRex"
+      },
+      "jobTitle": "Senior Full Stack Developer",
+      "location": {
+        "city": "Beijing",
+        "state": "Beijing",
+        "country": "China"
+      }
+    },
+    {
+      "id": 830,
+      "name": "Jorge Veronique",
+      "img": "https://avatars3.githubusercontent.com/u/59569596?s=460&u=afdf6a5866ed55179fa52663f6c0d6c380e049b4&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/jorge-veronique-981a0753/",
+        "github": "https://github.com/jorgey1"
+      },
+      "jobTitle": "Software Engineer",
+      "location": {
+        "city": "Perivale",
+        "state": "London",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "id": 831,
+      "name": "Hassan Zain",
+      "img": "http://hassanzain.com/images/pic00.jpg",
+      "links": {
+        "website": "http://hassanzain.com/",
+        "linkedin": "https://www.linkedin.com/in/hassan-zain-delgadillo-b2056156/",
+        "github": "https://github.com/hassanzd"
+      },
+      "jobTitle": "Software Developer",
+      "location": {
+        "city": "Torreon",
+        "state": "Coahuila",
+        "country": "Mexico"
+      }
+    },
+    {
+      "id": 832,
+      "name": "HanQiao(Claire) Li",
+      "img": "https://www.dropbox.com/s/ucb3lqrrbrp2wd0/HanQiao.JPG?dl=0",
+      "links": {
+        "website": "hanqiaoli.com",
+        "linkedin": "https://www.linkedin.com/in/claire-li-98739113b/",
+        "github": "https://github.com/clairehq"
+      },
+      "jobTitle": "Front-End Developer",
+      "location": {
+        "city": "Vancouver,Beijing",
+        "state": "BC",
+        "country": "Canada, China"
+      }
+    },
+    {
+      "id": 833,
+      "name": "Faizan Qazi",
+      "img": "https://drive.google.com/file/d/1SCvbLjEEMXRP8erjEmMe2wqoVoI3zB9M/view?usp=drivesdk",
+      "links": {
+        "website": "http://caxefaizan.pythonanywhere.com",
+        "linkedin": "https://www.linkedin.com/in/caxefaizan/",
+        "github": "https://github.com/caxefaizan"
+      },
+      "jobTitle": "Python Developer|Full Stack Developer|Embedded IoT Developer",
+      "location": {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India"
+      }
+    },
+    {
+      "id": 834,
+      "name": "Jordan Stanway",
+      "img": "https://res.cloudinary.com/mtninja/image/upload/v1587576167/js-cropped_all9eg.jpg",
+      "links": {
+        "website": "https://jordanstanway.com",
+        "linkedin": "https://www.linkedin.com/in/jordanstanway/",
+        "github": "https://github.com/jpstanway"
+      },
+      "jobTitle": "Full Stack React Developer",
+      "location": {
+        "city": "Vancouver",
+        "state": "BC",
+        "country": "Canada"
+      }
+    },
+    {
+      "id": 835,
+      "name": "Jeremy Ng Cheng Hin",
+      "img": "https://tinyurl.com/ybjym5dm",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/jeremy-n-5b76aa105/",
+        "github": "https://github.com/jnch009"
+      },
+      "jobTitle": "Web Developer",
+      "location": {
+        "city": "Coquitlam",
+        "state": "BC",
+        "country": "Canada"
+      }
+    },
+    {
+      "id": 836,
+      "name": "JP Sainsbury",
+      "img": "https://avatars2.githubusercontent.com/u/32621022?s=460&u=2a90e6617060f57a08795e5f97f7fd69c9251809&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/jp-sainsbury-3a59158a/",
+        "github": "https://github.com/jpsains"
+      },
+      "jobTitle": "Web Developer",
+      "location": {
+        "city": "London",
+        "state": "",
+        "country": "England"
+      }
   },
   {
-    "id": 829,
-    "name": "JT Houk",
-    "img": "https://res.cloudinary.com/jthouk/image/upload/w_200,c_fill,ar_1:1,g_auto,r_max/v1582802281/Profiles/IMG_0600_swphdi.png",
-    "links": {
-      "website": "https://jt.houk.space",
-      "linkedin": "https://www.linkedin.com/in/jt-houk",
-      "github": "https://github.com/HoukasaurusRex"
-    },
-    "jobTitle": "Senior Full Stack Developer",
-    "location": {
-      "city": "Beijing",
-      "state": "Beijing",
-      "country": "China"
-  }, 
-  {
-    "id": 830,
-    "name": "Jorge Veronique",
-    "img": "https://avatars3.githubusercontent.com/u/59569596?s=460&u=afdf6a5866ed55179fa52663f6c0d6c380e049b4&v=4",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/jorge-veronique-981a0753/",
-      "github": "https://github.com/jorgey1"
-    },
-    "jobTitle": "Software Engineer",
-    "location": {
-      "city": "Perivale",
-      "state": "London",
-      "country": "United Kingdom"
-    }
-  },
-  {
-    "id": 831,
-    "name": "Hassan Zain",
-    "img": "http://hassanzain.com/images/pic00.jpg",
-    "links": {
-      "website": "http://hassanzain.com/",
-      "linkedin": "https://www.linkedin.com/in/hassan-zain-delgadillo-b2056156/",
-      "github": "https://github.com/hassanzd"
-    },
-    "jobTitle": "Software Developer",
-    "location": {
-      "city": "Torreon",
-      "state": "Coahuila",
-      "country": "Mexico"
-    }
-  },
-  {
-    "id": 832,
-    "name": "HanQiao(Claire) Li",
-    "img": "https://www.dropbox.com/s/ucb3lqrrbrp2wd0/HanQiao.JPG?dl=0",
-    "links": {
-      "website": "hanqiaoli.com",
-      "linkedin": "https://www.linkedin.com/in/claire-li-98739113b/",
-      "github": "https://github.com/clairehq"
-    },
-    "jobTitle": "Front-End Developer",
-    "location": {
-      "city": "Vancouver,Beijing",
-      "state": "BC",
-      "country": "Canada, China"
-    }
-  },
-  {
-    "id": 833,
-    "name": "Faizan Qazi",
-    "img": "https://drive.google.com/file/d/1SCvbLjEEMXRP8erjEmMe2wqoVoI3zB9M/view?usp=drivesdk",
-    "links": {
-      "website": "http://caxefaizan.pythonanywhere.com",
-      "linkedin": "https://www.linkedin.com/in/caxefaizan/",
-      "github": "https://github.com/caxefaizan"
-    },
-    "jobTitle": "Python Developer|Full Stack Developer|Embedded IoT Developer",
-    "location": {
-      "city": "Bangalore",
-      "state": "Karnataka",
-      "country": "India"
-    }
-  },
-  {
-    "id": 834,
-    "name": "Jordan Stanway",
-    "img": "https://res.cloudinary.com/mtninja/image/upload/v1587576167/js-cropped_all9eg.jpg",
-    "links": {
-      "website": "https://jordanstanway.com",
-      "linkedin": "https://www.linkedin.com/in/jordanstanway/",
-      "github": "https://github.com/jpstanway"
-    },
-    "jobTitle": "Full Stack React Developer",
-    "location": {
-      "city": "Vancouver",
-      "state": "BC",
-      "country": "Canada"
-    }
-  },
-  {
-    "id": 835,
-    "name": "Jeremy Ng Cheng Hin",
-    "img": "https://tinyurl.com/ybjym5dm",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/jeremy-n-5b76aa105/",
-      "github": "https://github.com/jnch009"
-    },
-    "jobTitle": "Web Developer",
-    "location": {
-      "city": "Coquitlam",
-      "state": "BC",
-      "country": "Canada"
-    }
-  },
-  {
-    "id": 845,
+    "id": 837,
     "name": "Magesh Sundar G",
     "img": "",
     "links": {
