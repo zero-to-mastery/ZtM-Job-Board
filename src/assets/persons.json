@@ -11862,6 +11862,22 @@
     },
     {
       "id": 836,
+      "name": "Denis Tita",
+      "img": "https://ibb.co/JjhcPhW",
+      "links": {
+        "website": "http://denistita.com/",
+        "linkedin": "https://www.linkedin.com/in/denis-tita-43a705197/",
+        "github": "https://github.com/denistita"
+      },
+      "jobTitle": "Software Developer",
+      "location": {
+        "city": "Caseyville",
+        "state": "Illinois",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 837,
       "name": "JP Sainsbury",
       "img": "https://avatars2.githubusercontent.com/u/32621022?s=460&u=2a90e6617060f57a08795e5f97f7fd69c9251809&v=4",
       "links": {
@@ -11877,7 +11893,7 @@
       }
   },
   {
-    "id": 837,
+    "id": 838,
     "name": "Magesh Sundar G",
     "img": "",
     "links": {
@@ -11891,6 +11907,5 @@
       "state": "Tamilnadu",
       "country": "india"
     }
-  }
-]
+  ]
 }
