@@ -11909,7 +11909,7 @@
     }
   },
     {
-      "id": 836,
+      "id": 839,
       "name": "Jonathan Hutnick",
       "img": "https://ibb.co/XZGZLb2",
       "links": {
@@ -11926,7 +11926,7 @@
     }
   ]
 }  ,{
-    "id": 837,
+    "id": 840,
     "name": "Bhoomi Shah",
     "img": "",
     "links": {
@@ -11939,4 +11939,21 @@
       "state": "Gujarat",
       "country": "India"
     }
+  },
+    {
+    "id": 841,
+    "name": "Nihal Ramteke",
+    "img": "",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/nihal-ramteke",
+      "github": "https://github.com/ramtekenihal"
+    },
+    "jobTitle": "Python Developer | Javascript | Data Scientist | HTML",
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
+    }
   }
+
+
