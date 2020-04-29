@@ -11939,4 +11939,19 @@
       "state": "Gujarat",
       "country": "India"
     }
+  }  ,{
+    "id": 838,
+    "name": "M MOSTAGIR BHUIYAN",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "https://linkedin.com/in/mmostagirbhuiyan",
+      "github": "https://github.com/mmostagirbhuiyan"
+    },
+    "jobTitle": "Sr. DevOps Engineer | Full Stack Web Developer | Sr. React Developer| Python | Java",
+    "location": {
+      "city": "New York City",
+      "state": "NY",
+      "country": "USA"
+    }
   }
