@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
-import { Map as LeafletMap, TileLayer, Marker, Popup } from "react-leaflet"
+import { Map as LeafletMap, Marker, Popup, TileLayer } from "react-leaflet"
+
 import { countriesWithNumOfDevsObj } from "../util/UsersDataCleanup"
 
 // console.log(countriesWithNumOfDevsObj);
@@ -11,7 +12,7 @@ const countryNamesAndNumOfDevsArr = Object.entries(countriesWithNumOfDevsObj)
 
 // console.log(countryNamesAndNumOfDevsArr);
 
-let centerLatLngArr: any = []
+// let centerLatLngArr: any = []
 
 function SimpleMap({ zoom = 3 }) {
   const [allCountriesLatLang, setAllCountriesLatLang] = useState([])
