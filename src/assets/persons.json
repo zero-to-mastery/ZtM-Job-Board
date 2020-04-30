@@ -11938,5 +11938,23 @@
       "city": "Ahmedabad",
       "state": "Gujarat",
       "country": "India"
-    }
+    }, 
+  {
+      "id": 838,
+      "name": "Brittney Postma",
+      "img": "https://bdesigned.netlify.app/me.png",
+      "links": {
+        "website": "https://bdesigned.netlify.com/",
+        "blog": "https://console-logs.netlify.com/",
+        "linkedin": "https://www.linkedin.com/in/brittney-postma-868928178/",
+        "github": "https://github.com/sballgirl11",
+        "twitter": "https://twitter.com/BrittneyPostma"
+      },
+      "jobTitle": "Full-Stack Dev, UX/UI Designer",
+      "location": {
+        "city": "Holland",
+        "state": "Michigan",
+        "country": "USA"
+      }
+    },
   }
