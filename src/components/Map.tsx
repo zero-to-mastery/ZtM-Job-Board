@@ -18,16 +18,16 @@ function SimpleMap({ zoom = 3 }) {
 
   useEffect(() => {
     fetch(`https://restcountries.eu/rest/v2/all`)
-      .then(resp => resp.json())
-      .then(data => setAllCountriesLatLang(data))
-      .catch(err => console.error(err))
+      .then((resp) => resp.json())
+      .then((data) => setAllCountriesLatLang(data))
+      .catch((err) => console.error(err))
   }, [])
 
   // console.log(allCountriesLatLang);
 
   let countriesLatLngArr: any = allCountriesLatLang.map(({ name, latlng }) => ({
     name,
-    latlng
+    latlng,
   }))
   // console.log(countriesLatLngArr);
 
@@ -38,7 +38,7 @@ function SimpleMap({ zoom = 3 }) {
   const UK = {
     country: "United Kingdom",
     latlng: [54, -2], // copied from API
-    numberOfDevs: countriesWithNumOfDevsObj["United Kingdom"]
+    numberOfDevs: countriesWithNumOfDevsObj["United Kingdom"],
   }
 
   // Two nested for loops are okay as array items will always be < 250 in both arrays
@@ -53,7 +53,7 @@ function SimpleMap({ zoom = 3 }) {
           finalArrayWithCountryAndLatLng.push({
             country: countryNamesAndNumOfDevsArr[i][0],
             latlng: countriesLatLngArr[j].latlng,
-            numberOfDevs: countryNamesAndNumOfDevsArr[i][1]
+            numberOfDevs: countryNamesAndNumOfDevsArr[i][1],
           })
         }
       }
@@ -107,10 +107,10 @@ function SimpleMap({ zoom = 3 }) {
     }
   )
 
-  const center =
-    centerLatLngArr.length > 0
-      ? [centerLatLngArr[0].lat, centerLatLngArr[0].lng]
-      : [55.378052, -3.435973]
+  // const center =
+  //   centerLatLngArr.length > 0
+  //     ? [centerLatLngArr[0].lat, centerLatLngArr[0].lng]
+  //     : [55.378052, -3.435973]
 
   return (
     <div style={{ height: "90vh", width: "100%", margin: 0 }}>
