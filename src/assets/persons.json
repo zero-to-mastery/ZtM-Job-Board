@@ -11891,23 +11891,23 @@
         "state": "",
         "country": "England"
       }
-  },
-  {
-    "id": 838,
-    "name": "Magesh Sundar G",
-    "img": "",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/magesh-sundar-965ba2190",
-      "github": "https://github.com/MageshSundarG"
     },
-    "jobTitle": "Python Developer|Data Scientist|Full Stack Developer",
-    "location": {
-      "city": "Chennai",
-      "state": "Tamilnadu",
-      "country": "india"
-    }
-  },
+    {
+      "id": 838,
+      "name": "Magesh Sundar G",
+      "img": "",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/magesh-sundar-965ba2190",
+        "github": "https://github.com/MageshSundarG"
+      },
+      "jobTitle": "Python Developer|Data Scientist|Full Stack Developer",
+      "location": {
+        "city": "Chennai",
+        "state": "Tamilnadu",
+        "country": "india"
+      }
+    },
     {
       "id": 836,
       "name": "Jonathan Hutnick",
@@ -11923,20 +11923,21 @@
         "state": "New York",
         "country": "USA"
       }
+    },
+    {
+      "id": 837,
+      "name": "Bhoomi Shah",
+      "img": "",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/shah-bhoomi/",
+        "github": "https://github.com/BShah5"
+      },
+      "jobTitle": "Web Developer | Javascript | Python | Ethereum | Java",
+      "location": {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "country": "India"
+      }
     }
   ]
-}  ,{
-    "id": 837,
-    "name": "Bhoomi Shah",
-    "img": "",
-    "links": {
-      "linkedin": "https://www.linkedin.com/in/shah-bhoomi/",
-      "github": "https://github.com/BShah5"
-    },
-    "jobTitle": "Web Developer | Javascript | Python | Ethereum | Java",
-    "location": {
-      "city": "Ahmedabad",
-      "state": "Gujarat",
-      "country": "India"
-    }
-  }
+}
