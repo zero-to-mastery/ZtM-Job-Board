@@ -11924,8 +11924,7 @@
         "country": "USA"
       }
     }
-  ]
-}  ,{
+  ,{
     "id": 837,
     "name": "Bhoomi Shah",
     "img": "",
@@ -11938,5 +11937,21 @@
       "city": "Ahmedabad",
       "state": "Gujarat",
       "country": "India"
+    }
+  }
+  ,{
+    "id": 838,
+    "name": "Jon Hualde",
+    "img": "https://i.ibb.co/gzjZ6rF/Jon-3.png",
+    "links": {
+      "website": "https://jonhualde.github.io/",
+      "linkedin": "https://www.linkedin.com/in/jonhualde/?locale=en_US",
+      "github": "https://github.com/JonHualde"
+    },
+    "jobTitle": "Front end developer",
+    "location": {
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom"
     }
   }
