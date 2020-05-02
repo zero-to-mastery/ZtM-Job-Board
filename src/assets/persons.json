@@ -11908,6 +11908,22 @@
       "country": "india"
     }
   },
+  {
+    "id": 6060,
+    "name": "Pranav Sood",
+    "img": "https://secureservercdn.net/198.71.233.44/gpo.7bd.myftpupload.com/wp-content/uploads/2019/10/DSC_0576-copy.jpg",
+    "links": {
+      "website": "http://prnvsood.com/",
+      "linkedin": "https://www.linkedin.com/in/pranav-sood-3a9095a3/",
+      "github": "https://github.com/prnv06"
+    },
+    "jobTitle": "Product Manager| Designer| Full Stack Developer",
+    "location": {
+      "city": "New York",
+      "state": "NY",
+      "country": ""
+    }
+  },
     {
       "id": 836,
       "name": "Jonathan Hutnick",
@@ -11923,26 +11939,72 @@
         "state": "New York",
         "country": "USA"
       }
-    }
-  ]
-}  ,{
-    "id": 837,
-    "name": "Bhoomi Shah",
-    "img": "",
-    "links": {
-      "linkedin": "https://www.linkedin.com/in/shah-bhoomi/",
-      "github": "https://github.com/BShah5"
     },
-    "jobTitle": "Web Developer | Javascript | Python | Ethereum | Java",
+    {
+      "id": 837,
+      "name": "Bhoomi Shah",
+      "img": "",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/shah-bhoomi/",
+        "github": "https://github.com/BShah5"
+      },
+      "jobTitle": "Web Developer | Javascript | Python | Ethereum | Java",
+      "location": {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "country": "India"
+      }
+    },
+    {
+      "id": 838,
+      "name": "Radouane Khiri",
+      "img": "https://media-exp1.licdn.com/dms/image/C4D03AQEnRIsnOo8Dpw/profile-displayphoto-shrink_200_200/0?e=1593648000&v=beta&t=60tIarqFukAI7EyJyUKmm-JFTCaqZzK7mFm6JpHvWQQ",
+      "links": {
+        "website": "https://www.redvanisation.com/",
+        "linkedin": "https://www.linkedin.com/in/redvan/",
+        "github": "https://github.com/Redvanisation"
+      },
+      "jobTitle": "Full Stack Software Developer",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "USA"
+      }
+  },
+  {
+    "id": 839,
+    "name": "Mohadip Lama",
+    "img": "https://media-exp1.licdn.com/dms/image/C4E03AQFlz-svFCpPKQ/profile-displayphoto-shrink_200_200/0?e=1593648000&v=beta&t=zMv14W_E4c_o_s-rD2IvdBxawOcIgY_GdNapw5weO-I",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/mohadip-lama-taveras-961a67140/",
+      "github": "https://github.com/mohadip"
+    },
+    "jobTitle": "Web Developer | Javascript | Python | Java",
     "location": {
-      "city": "Ahmedabad",
-      "state": "Gujarat",
-      "country": "India"
+      "city": "Santo Domingo",
+      "state": "Dominican Republic",
+      "country": "Dominican Republic"
     }
   }
-
-,{
-    "id": 838,
+  ,{
+    "id": 840,
+    "name": "Paul Ventura",
+    "img": "http://gravatar.com/avatar/1455092cb82281ad79bbbd4da3b07bec",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/christian-paul-ventura",
+      "github": "https://github.com/pmventura"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+      "city": "Singapore",
+      "state": "Singapore",
+      "country": "Singapore"
+    }
+  },
+   {
+    "id": 841,
     "name": "Tomas Czarnecki",
     "img": "https://avatars1.githubusercontent.com/u/44222618?s=460&u=cb3a6ed4e892a2d83f17862cc562cb51dce862ce&v=4",
     "links": {
@@ -11956,4 +12018,6 @@
       "state": "Greater Poland",
       "country": "Poland"
     }
+}
+  ]
 }
