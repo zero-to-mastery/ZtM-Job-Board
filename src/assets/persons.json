@@ -12002,6 +12002,22 @@
       "state": "Singapore",
       "country": "Singapore"
     }
-  }
+  },
+   {
+    "id": 841,
+    "name": "Tomas Czarnecki",
+    "img": "https://avatars1.githubusercontent.com/u/44222618?s=460&u=cb3a6ed4e892a2d83f17862cc562cb51dce862ce&v=4",
+    "links": {
+      "website": "https://heiux.com/",
+      "linkedin": "linkedin.com/in/tczarnecki/",
+      "github": "https://github.com/tomashei"
+    },
+    "jobTitle": "UX Developer",
+    "location": {
+      "city": "Poznan",
+      "state": "Greater Poland",
+      "country": "Poland"
+    }
+}
   ]
 }
