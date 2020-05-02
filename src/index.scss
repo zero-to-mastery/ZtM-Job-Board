@@ -284,8 +284,12 @@ main {
   margin: 5rem 5% 1rem 5%;
 
   .card {
-    min-height: 24rem;
+    min-height: 26rem;
     height: auto;
+
+    .header {
+      padding-top: 1.5rem;
+    }
 
     .header .photo {
       margin: 0;
@@ -293,7 +297,7 @@ main {
       // to maintain aspect ratio of images
       object-fit: cover;
       // to keep the card size same as it was before replacing div with background to img
-      margin-bottom: -4px;
+      margin-bottom: -1rem;
     }
 
     .header .name {
@@ -303,12 +307,12 @@ main {
       box-sizing: border-box;
       justify-content: center;
       font-size: 1rem;
-      height: auto;
+      height: 100%;
       max-height: 4.5rem;
+      min-height: 5rem;
       width: auto;
-      padding: 1rem;
+      padding: 1.5rem 1rem 2rem  !important;
       margin: 0;
-      // for text wrap
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -319,9 +323,10 @@ main {
       justify-content: center;
       height: auto;
       max-height: 4.5rem;
+      min-height: 5rem;
       width: auto;
-      // max-width: 250px;
-      padding: 1rem;
+      padding: 1.2rem 1rem 2rem  !important;
+      font-size: 18px;
       margin: 0;
       white-space: nowrap;
       overflow: hidden;

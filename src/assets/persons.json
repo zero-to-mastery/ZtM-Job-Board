@@ -11923,20 +11923,38 @@
         "state": "New York",
         "country": "USA"
       }
+    },
+    {
+      "id": 837,
+      "name": "Bhoomi Shah",
+      "img": "",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/shah-bhoomi/",
+        "github": "https://github.com/BShah5"
+      },
+      "jobTitle": "Web Developer | Javascript | Python | Ethereum | Java",
+      "location": {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "country": "India"
+      }
+    },
+    {
+      "id": 838,
+      "name": "Radouane Khiri",
+      "img": "https://media-exp1.licdn.com/dms/image/C4D03AQEnRIsnOo8Dpw/profile-displayphoto-shrink_200_200/0?e=1593648000&v=beta&t=60tIarqFukAI7EyJyUKmm-JFTCaqZzK7mFm6JpHvWQQ",
+      "links": {
+        "website": "https://www.redvanisation.com/",
+        "linkedin": "https://www.linkedin.com/in/redvan/",
+        "github": "https://github.com/Redvanisation"
+      },
+      "jobTitle": "Full Stack Software Developer",
+      "location": {
+        "city": "New York",
+        "state": "New York",
+        "country": "USA"
+      }
     }
   ]
-}  ,{
-    "id": 837,
-    "name": "Bhoomi Shah",
-    "img": "",
-    "links": {
-      "linkedin": "https://www.linkedin.com/in/shah-bhoomi/",
-      "github": "https://github.com/BShah5"
-    },
-    "jobTitle": "Web Developer | Javascript | Python | Ethereum | Java",
-    "location": {
-      "city": "Ahmedabad",
-      "state": "Gujarat",
-      "country": "India"
-    }
-  }
+}
