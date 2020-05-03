@@ -14,3 +14,20 @@
       "country": "India"
     }
   }
+
+  ,{
+    "id": 1001,
+    "name": "Samuel Solomon",
+    "img": "]",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/samjsolomon",
+      "github": "https://github.com/samjsolomon"
+    },
+    "jobTitle": "Python Developer",
+    "location": {
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States]"
+    }
+  }
