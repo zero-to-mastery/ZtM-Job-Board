@@ -11986,6 +11986,22 @@
       "state": "Dominican Republic",
       "country": "Dominican Republic"
     }
+  },
+  {
+    "id": 838,
+    "name": "Freeda Moore",
+    "img": "",
+    "links": {
+      "website": "https://freedamoore.github.io/",
+      "linkedin": "https://www.linkedin.com/in/freeda-moore-389057196/",
+      "github": "https://github.com/freedamoore"
+    },
+    "jobTitle": "Front End Developer",
+    "location": {
+      "city": "Sydney",
+      "state": "NSW",
+      "country": "Australia"
+    }
   }
   ,{
     "id": 840,
