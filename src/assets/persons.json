@@ -12035,7 +12035,7 @@
       "country": "Poland"
     }
 },
-    ,{
+{
     "id": 842,
     "name": "Rexx Samuell",
     "img": "https://avatars3.githubusercontent.com/u/36671895?s=460&v=4",
@@ -12050,7 +12050,23 @@
       "state": "DC",
       "country": "USA"
     }
+  },
+   {
+    "id": 843,
+    "name": "Supratim Sarkar",
+    "img": "YOUR_IMG_URL",
+    "links": {
+      "website": "http://supracodes.pythonanywhere.com/",
+      "linkedin": "https://www.linkedin.com/in/supratim-sarkar-3a3299150/",
+      "github": "https://github.com/codewithsupra"
+    },
+    "jobTitle": "Data Analyst| Python Developer",
+    "location": {
+      "city": "MUSCAT",
+      "state": "MUSCAT",
+      "country": "OMAN"
+    }
   }
-    
+
   ]
 }
