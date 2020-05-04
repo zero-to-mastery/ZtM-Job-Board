@@ -12034,9 +12034,25 @@
       "state": "Greater Poland",
       "country": "Poland"
     }
+}, 
+   {
+    "id": 842,
+    "name": "Brittany Anderson",
+    "img": "",
+    "links": {
+      "website": "http://brittany-anderson.com/",
+      "linkedin": "https://www.linkedin.com/in/brittany-anderson-b9b835155/",
+      "github": "https://github.com/bdb5075"
+    },
+    "jobTitle": "Front End Developer",
+    "location": {
+      "city": "",
+      "state": "Maryland",
+      "country": "USA"
+    }
 },
 {
-    "id": 842,
+    "id": 843,
     "name": "Rexx Samuell",
     "img": "https://avatars3.githubusercontent.com/u/36671895?s=460&v=4",
     "links": {
@@ -12052,7 +12068,7 @@
     }
   },
    {
-    "id": 843,
+    "id": 844,
     "name": "Supratim Sarkar",
     "img": "YOUR_IMG_URL",
     "links": {
@@ -12067,6 +12083,5 @@
       "country": "OMAN"
     }
   }
-
   ]
 }
