@@ -12034,6 +12034,23 @@
       "state": "Greater Poland",
       "country": "Poland"
     }
-}
+},
+    ,{
+    "id": 842,
+    "name": "Rexx Samuell",
+    "img": "https://avatars3.githubusercontent.com/u/36671895?s=460&v=4",
+    "links": {
+      "website": "https://rexxanthony.com/",
+      "linkedin": "https://www.linkedin.com/in/rexx-anthony-samuell-1282304/",
+      "github": "https://github.com/rsamuell"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Washington",
+      "state": "DC",
+      "country": "USA"
+    }
+  }
+    
   ]
 }
