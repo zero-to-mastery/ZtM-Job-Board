@@ -12034,6 +12034,22 @@
       "state": "Greater Poland",
       "country": "Poland"
     }
+}, 
+   {
+    "id": 842,
+    "name": "Brittany Anderson",
+    "img": "",
+    "links": {
+      "website": "http://brittany-anderson.com/",
+      "linkedin": "https://www.linkedin.com/in/brittany-anderson-b9b835155/",
+      "github": "https://github.com/bdb5075"
+    },
+    "jobTitle": "Front End Developer",
+    "location": {
+      "city": "",
+      "state": "Maryland",
+      "country": "USA"
+    }
 }
   ]
 }
