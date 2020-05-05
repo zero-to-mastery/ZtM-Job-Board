@@ -1,16 +1,33 @@
-,{
-    "id": 832,
-    "name": "Denis Tita",
-    "img": "https://ibb.co/JjhcPhW",
+{
+    "id": 1000,
+    "name": "Saurabh Khaparey",
+    "img": "",
     "links": {
-      "website": "http://denistita.com/",
-      "linkedin": "https://www.linkedin.com/in/denis-tita-43a705197/",
-      "github": "https://github.com/denistita"
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/saurabh-khaparey",
+      "github": "https://github.com/Saurabh2699"
     },
-    "jobTitle": "Software Developer",
+    "jobTitle": "MERN Stack Developer",
     "location": {
-      "city": "Caseyville",
-      "state": "Illinois",
-      "country": "USA"
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "country": "India"
+    }
+  }
+
+  ,{
+    "id": 1001,
+    "name": "Samuel Solomon",
+    "img": "]",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/samjsolomon",
+      "github": "https://github.com/samjsolomon"
+    },
+    "jobTitle": "Python Developer",
+    "location": {
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States]"
     }
   }
