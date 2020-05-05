@@ -12,7 +12,7 @@ const countryNamesAndNumOfDevsArr = Object.entries(countriesWithNumOfDevsObj)
 
 // console.log(countryNamesAndNumOfDevsArr);
 
-// let centerLatLngArr: any = []
+let centerLatLngArr: any = []
 
 function SimpleMap({ zoom = 3 }) {
   const [allCountriesLatLang, setAllCountriesLatLang] = useState([])
