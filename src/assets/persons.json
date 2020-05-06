@@ -12098,6 +12098,23 @@
         "state": "Hamburg",
         "country": "Germany"
       }
+    },
+    {
+      "id": 846,
+      "name": "Kumar Aditya",
+      "img": "YOUR_IMG_URL",
+      "links": {
+        "website": "https://nnhhiilliisstt.github.io/KumarAditya-portfolio/",
+        "linkedin": "https://www.linkedin.com/in/kumar-aditya-77a2b4194/",
+        "github": "https://github.com/nnhhiilliisstt"
+      },
+      "jobTitle": "Full stack web developer| Flutter Developer",
+      "location": {
+        "city": "Gurgaon",
+        "state": "Haryana",
+        "country": "India"
+      }
     }
+   
   ]
 }
