@@ -12098,6 +12098,22 @@
         "state": "Hamburg",
         "country": "Germany"
       }
+    },
+    {
+      "id": 846,
+      "name": "Aiswarya Sarangi",
+      "img": " ",
+      "links": {
+        "website": " ",
+        "linkedin":"https://www.linkedin.com/in/aiswaryasarangi/",
+        "github": "https://github.com/aiswarya8110"
+      },
+      "jobTitle": "Front End Developer",
+      "location": {
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "country": "India"
+      }
     }
   ]
 }
