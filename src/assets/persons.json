@@ -11857,6 +11857,21 @@
       "state": "BC",
       "country": "Canada"
     }
+  }  ,{
+    "id": 836,
+    "name": "Arun Surendharan",
+    "img": "https://avatars2.githubusercontent.com/u/64095520",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/arun-surendharan-3084a6142/",
+      "github": "https://github.com/arun-me"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Tirupur",
+      "state": "Tamil Nadu",
+      "country": "India"
+    }
   }
 ]
 }
