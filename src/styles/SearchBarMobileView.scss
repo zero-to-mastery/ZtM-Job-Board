@@ -1,0 +1,16 @@
+@media screen and (min-width: 761px) {
+  .visible-on-mobileview-only {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .visible-on-mobileview-only {
+    display: block;
+  }
+
+  /* Searchbox Tooltip text Mobile View */
+  .searchbox-tooltip .tooltiptext {
+    top: 80%;
+  }
+}

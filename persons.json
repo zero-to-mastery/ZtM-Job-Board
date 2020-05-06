@@ -1,0 +1,33 @@
+{
+    "id": 1000,
+    "name": "Saurabh Khaparey",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/saurabh-khaparey",
+      "github": "https://github.com/Saurabh2699"
+    },
+    "jobTitle": "MERN Stack Developer",
+    "location": {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "country": "India"
+    }
+  }
+
+  ,{
+    "id": 1001,
+    "name": "Samuel Solomon",
+    "img": "]",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/samjsolomon",
+      "github": "https://github.com/samjsolomon"
+    },
+    "jobTitle": "Python Developer",
+    "location": {
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States]"
+    }
+  }

@@ -4,18 +4,28 @@
   "private": true,
   "homepage": "https://zero-to-mastery.github.io/ZtM-Job-Board",
   "dependencies": {
-    "google-map-react": "^1.1.4",
-    "leaflet": "^1.5.1",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.5",
+    "@types/react": "^16.9.27",
+    "@types/react-dom": "^16.9.5",
+    "@types/react-lazyload": "^2.6.0",
+    "@types/react-leaflet": "^2.5.1",
+    "@types/webfontloader": "^1.6.29",
+    "g": "^2.0.1",
+    "leaflet": "^1.6.0",
+    "live-server": "^1.2.1",
     "node-sass-chokidar": "^1.3.5",
     "npm-run-all": "^4.1.5",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-favicon": "0.0.17",
-    "react-leaflet": "^2.5.0",
+    "react-lazyload": "^2.6.5",
+    "react-leaflet": "^2.6.1",
     "react-scripts": "^3.3.0",
     "react-search-input": "^0.11.3",
     "tachyons": "^4.11.1",
-    "typescript": "^3.6.4"
+    "typescript": "^3.8.3",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "start": "npm-run-all -p watch-css start-js",
@@ -31,6 +41,7 @@
   "devDependencies": {
     "gh-pages": "^2.1.1",
     "glob-all": "^3.1.0",
+    "jsonlint": "^1.6.3",
     "purgecss-webpack-plugin": "^1.6.0"
   },
   "browserslist": [
