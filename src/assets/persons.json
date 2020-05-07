@@ -12098,6 +12098,22 @@
         "state": "Hamburg",
         "country": "Germany"
       }
+    },
+    {
+      "id": 846,
+      "name": "Edwin Torres",
+      "img": "https://avatars3.githubusercontent.com/u/5404833",
+      "links": {
+        "website": "https://codesandtags.github.io/",
+        "linkedin": "https://www.linkedin.com/in/edwintorresdeveloper/",
+        "github": "https://github.com/codesandtags"
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "Bogota",
+        "state": "Bogota",
+        "country": "Colombia"
+      }
     }
   ]
 }
