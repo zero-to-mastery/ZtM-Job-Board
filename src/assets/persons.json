@@ -10167,6 +10167,22 @@
     },
     {
       "id": 729,
+      "name": "Oluwafemi Adenuga",
+      "img": "https://res.cloudinary.com/femosocratis/image/upload/v1586590237/023492D5-46DB-4688-B819-0E1DF187D899L0001_isedrz.jpg",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/femosocratis/",
+        "github": "https://github.com/phemmylintry"
+      },
+      "jobTitle": "Full Stack Web Developer",
+      "location": {
+        "city": "Lagos",
+        "state": "",
+        "country": "Nigeria"
+      }
+    },
+    {
+      "id": 730,
       "name": "Arnab Ray",
       "img": "https://avatars2.githubusercontent.com/u/26869021?s=460&v=4",
       "links": {
@@ -10182,7 +10198,7 @@
       }
     },
     {
-      "id": 730,
+      "id": 731,
       "name": "Kavya Sagar",
       "img": "https://avatars0.githubusercontent.com/u/10847203?s=460&v=4",
       "links": {
@@ -10198,7 +10214,7 @@
       }
     },
     {
-      "id": 731,
+      "id": 732,
       "name": "Daniel Gleason",
       "img": "https://ibb.co/fF39wtk",
       "links": {
@@ -10214,7 +10230,7 @@
       }
     },
     {
-      "id": 732,
+      "id": 733,
       "name": "Oke Emmanuel",
       "img": "",
       "links": {
@@ -10230,7 +10246,7 @@
       }
     },
     {
-      "id": 733,
+      "id": 734,
       "name": "Banhaw Chun",
       "img": "https://avatars0.githubusercontent.com/u/37777222?s=460&v=4",
       "links": {
@@ -10246,7 +10262,7 @@
       }
     },
     {
-      "id": 734,
+      "id": 735,
       "name": "Daniel Narh",
       "img": "https://avatars0.githubusercontent.com/u/52500058?s=460&v=4",
       "links": {
@@ -10262,7 +10278,7 @@
       }
     },
     {
-      "id": 735,
+      "id": 736,
       "name": "Ashwani Singh",
       "img": "",
       "links": {
@@ -10278,7 +10294,7 @@
       }
     },
     {
-      "id": 736,
+      "id": 737,
       "name": "Amritha Marimuthu",
       "img": "",
       "links": {
@@ -10294,7 +10310,7 @@
       }
     },
     {
-      "id": 737,
+      "id": 738,
       "name": "Shohei Hagiwara",
       "img": "https://avatars1.githubusercontent.com/u/8368127?s=460&v=4",
       "links": {
@@ -10310,7 +10326,7 @@
       }
     },
     {
-      "id": 738,
+      "id": 739,
       "name": "Viktor Borsodi",
       "img": "https://avatars0.githubusercontent.com/u/34397487?s=460&v=4",
       "links": {
@@ -10326,7 +10342,7 @@
       }
     },
     {
-      "id": 739,
+      "id": 740,
       "name": "Alex Gainza",
       "img": "",
       "links": {
@@ -10342,7 +10358,7 @@
       }
     },
     {
-      "id": 740,
+      "id": 741,
       "name": "Glauber Camargo Campos Rocha",
       "img": "https://avatars3.githubusercontent.com/u/2231796?s=400&u=2ac9f62f3d160210f16f9941152f27db697c8c07&v=4",
       "links": {
@@ -10358,7 +10374,7 @@
       }
     },
     {
-      "id": 741,
+      "id": 742,
       "name": "Darshin Van Parijs",
       "img": "https://avatars3.githubusercontent.com/u/47732125?s=400&u=38fe82b76b8726378b0581e5dc1722c74b6df7e6&v=4",
       "links": {
@@ -10374,7 +10390,7 @@
       }
     },
     {
-      "id": 741,
+      "id": 743,
       "name": "Cayden Choi",
       "img": "https://avatars0.githubusercontent.com/u/59014867?s=460&v=4",
       "links": {
@@ -10390,7 +10406,7 @@
       }
     },
     {
-      "id": 743,
+      "id": 744,
       "name": "Elizabeth Ortiz",
       "img": "https://avatars1.githubusercontent.com/u/26338550?s=400&u=785f8547bc53cf6926f8f8d63c6a31f061dd6d9a&v=4",
       "links": {
@@ -12114,6 +12130,38 @@
         "state": "Punjab",
         "country": "India"
       }
+    },
+    {
+      "id": 847,  
+      "name": "Edwin Torres",
+      "img": "https://avatars3.githubusercontent.com/u/5404833",
+      "links": {
+        "website": "https://codesandtags.github.io/",
+        "linkedin": "https://www.linkedin.com/in/edwintorresdeveloper/",
+        "github": "https://github.com/codesandtags"
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "Bogota",
+        "state": "Bogota",
+        "country": "Colombia"
+      }
+      },
+      {
+        "id": 848,
+        "name": "Jeremy Curtis",
+        "img": "https://avatars1.githubusercontent.com/u/29008729?s=400&u=60465f4a72f31f7fd4c0e0aea7e5b66673f5754a&v=4",
+        "links": {
+          "website": "",
+          "linkedin": "www.linkedin.com/in/jeremy-curtis-29a586185",
+          "github": "https://github.com/jcurtis808"
+        },
+        "jobTitle": "Self employed/freelance developer",
+        "location": {
+          "city": "Chicago",
+          "state": "Illinois",
+          "country": "USA"
     }
+  }
   ]
 }
