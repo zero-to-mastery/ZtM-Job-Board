@@ -12117,6 +12117,22 @@
     },
     {
       "id": 846,
+      "name": "Ritika Garg",
+      "img": "https://media-exp1.licdn.com/dms/image/C5103AQGED09T7SYrpA/profile-displayphoto-shrink_200_200/0?e=1594252800&v=beta&t=V67IMSqLNYRSW_zZy8aodzZuxPQK1p7SDPwwzzD5Wpo",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/ritika-garg98/",
+        "github": "https://github.com/rgarg22"
+       },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "",
+        "state": "Punjab",
+        "country": "India"
+      }
+    },
+    {
+      "id": 847,  
       "name": "Edwin Torres",
       "img": "https://avatars3.githubusercontent.com/u/5404833",
       "links": {
@@ -12132,7 +12148,7 @@
       }
       },
       {
-        "id": 847,
+        "id": 848,
         "name": "Jeremy Curtis",
         "img": "https://avatars1.githubusercontent.com/u/29008729?s=400&u=60465f4a72f31f7fd4c0e0aea7e5b66673f5754a&v=4",
         "links": {
