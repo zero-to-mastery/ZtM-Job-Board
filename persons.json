@@ -30,4 +30,22 @@
       "state": "Florida",
       "country": "United States]"
     }
+  }, 
+
+  {
+    "id": 1002,
+    "name": "Ravi kumar Singh",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "",
+      "github": "https://github.com/raviraka"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Milan",
+      "state": "",
+      "country": "Italy"
+    }
   }
+
