@@ -12097,7 +12097,23 @@
         "city": "Hamburg",
         "state": "Hamburg",
         "country": "Germany"
-      }
+      },
+      {
+        "id": 846,
+        "name": "Jeremy Curtis",
+        "img": "https://avatars1.githubusercontent.com/u/29008729?s=400&u=60465f4a72f31f7fd4c0e0aea7e5b66673f5754a&v=4",
+        "links": {
+          "website": "",
+          "linkedin": "www.linkedin.com/in/jeremy-curtis-29a586185",
+          "github": "https://github.com/jcurtis808"
+        },
+        "jobTitle": "Self employed/freelance developer",
+        "location": {
+          "city": "Chicago",
+          "state": "Illinois",
+          "country": "USA"
+    }
+  }
     }
   ]
 }
