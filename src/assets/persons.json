@@ -12193,10 +12193,26 @@
           "city": "Chicago",
           "state": "Illinois",
           "country": "USA"
-        }
+    }
+  },
+    {
+      "id": 851,
+      "name": "Hemant Kumar Singh",
+      "img": "https://avatars3.githubusercontent.com/u/26166716?s=460&u=6663ba6904746ecf7e28b604f0f2a739027ef27e&v=4",
+      "links": {
+        "website": "https://hs950559.github.io/portfolio",
+        "linkedin": "https://www.linkedin.com/in/hkajax",
+        "github": "https://github.com/hs950559"
       },
-      {
-        "id": 851,
+      "jobTitle": "Front End Developer, UI Developer, Senior Web Developer",
+      "location": {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "country": "India"
+      }
+    },
+    {
+        "id": 852,
         "name": "Andrew Price",
         "img": "https://pbs.twimg.com/profile_images/1018213344698724352/zW_-kGqV_400x400.jpg",
         "links": {
