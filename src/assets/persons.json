@@ -12194,6 +12194,22 @@
           "state": "Illinois",
           "country": "USA"
     }
-  }
+  },
+    {
+      "id": 851,
+      "name": "Tai Disla",
+      "img": "http://taidisla.com/images/ztmJobBoardPic.jpg",
+      "links": {
+        "website": "http://taidisla.com/",
+        "linkedin": "https://www.linkedin.com/in/tai-disla/",
+        "github": "https://github.com/taicedtea"
+      },
+      "jobTitle": "Junior Front End Developer",
+      "location": {
+        "city": "New York",
+        "state": "New York",
+        "country": "USA"
+      }
+    }
   ]
 }
