@@ -12178,25 +12178,89 @@
         "state": "Bogota",
         "country": "Colombia"
       }
+    },
+    {
+      "id": 850,
+      "name": "Jeremy Curtis",
+      "img": "https://avatars1.githubusercontent.com/u/29008729?s=400&u=60465f4a72f31f7fd4c0e0aea7e5b66673f5754a&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "www.linkedin.com/in/jeremy-curtis-29a586185",
+        "github": "https://github.com/jcurtis808"
       },
-      {
-        "id": 850,
-        "name": "Jeremy Curtis",
-        "img": "https://avatars1.githubusercontent.com/u/29008729?s=400&u=60465f4a72f31f7fd4c0e0aea7e5b66673f5754a&v=4",
+      "jobTitle": "Self employed/freelance developer",
+      "location": {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 851,
+      "name": "Michio Hayakawa",
+      "img": "https://media-exp1.licdn.com/dms/image/C4D03AQE0hpBDzsfFMg/profile-displayphoto-shrink_200_200/0?e=1594857600&v=beta&t=7L0lsWuedUqgZWMdqirKTYQW8NPV-eCJZ_8MeqRbLH8",
+      "links": {
+        "website": "http://wwww.hacya.com",
+        "linkedin": "https://www.linkedin.com/in/michio-hayakawa-664507/",
+        "github": "https://github.com/hacyaman"
+      },
+      "jobTitle": "Software Engineering Manager",
+      "location": {
+        "city": "Yokohama",
+        "state": "Kanagawa",
+        "country": "Japan"
+      }
+  },
+    {
+      "id": 852,
+      "name": "Pawan Ashish Kolhe",
+      "img": "https://pawankolhe.com/img/pawankolhe.jpg",
+      "links": {
+        "website": "https://pawankolhe.com/",
+        "linkedin": "https://www.linkedin.com/in/kolhepawan/",
+        "github": "https://github.com/PawanKolhe"
+      },
+      "jobTitle": "Front End Developer",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India"
+      }
+  },
+    {
+      "id": 853,
+      "name": "Hemant Kumar Singh",
+      "img": "https://avatars3.githubusercontent.com/u/26166716?s=460&u=6663ba6904746ecf7e28b604f0f2a739027ef27e&v=4",
+      "links": {
+        "website": "https://hs950559.github.io/portfolio",
+        "linkedin": "https://www.linkedin.com/in/hkajax",
+        "github": "https://github.com/hs950559"
+      },
+      "jobTitle": "Front End Developer, UI Developer, Senior Web Developer",
+      "location": {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "country": "India"
+      }
+    },
+    {
+        "id": 854,
+        "name": "Andrew Price",
+        "img": "https://pbs.twimg.com/profile_images/1018213344698724352/zW_-kGqV_400x400.jpg",
         "links": {
-          "website": "",
-          "linkedin": "www.linkedin.com/in/jeremy-curtis-29a586185",
-          "github": "https://github.com/jcurtis808"
+          "website": "https://www.awprice.com/",
+          "linkedin": "https://www.linkedin.com/in/loftkey/",
+          "github": "https://github.com/loftkey"
         },
-        "jobTitle": "Self employed/freelance developer",
+        "jobTitle": "Developer",
         "location": {
-          "city": "Chicago",
-          "state": "Illinois",
+          "city": "Murrieta",
+          "state": "California",
           "country": "USA"
     }
   },
     {
-      "id": 851,
+      "id": 855,
       "name": "Tai Disla",
       "img": "http://taidisla.com/images/ztmJobBoardPic.jpg",
       "links": {
@@ -12211,5 +12275,5 @@
         "country": "USA"
       }
     }
-  ]
+  ];
 }
