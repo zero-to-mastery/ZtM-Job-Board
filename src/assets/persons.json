@@ -12193,21 +12193,6 @@
           "city": "Chicago",
           "state": "Illinois",
           "country": "USA"
-    },
-    {
-      "id": [851],
-      "name": "[Andrew Price]",
-      "img": "[https://pbs.twimg.com/profile_images/1018213344698724352/zW_-kGqV_400x400.jpg]",
-      "links": {
-        "website": "[https://www.awprice.com/]",
-        "linkedin": "[https://www.linkedin.com/in/loftkey/]",
-        "github": "[https://github.com/loftkey]"
-      },
-      "jobTitle": "[Developer]",
-      "location": {
-        "city": "[Murrieta]",
-        "state": "[California]",
-        "country": "[USA]"
     }
   }
   ]
