@@ -12197,6 +12197,22 @@
   },
     {
       "id": 851,
+      "name": "Pawan Ashish Kolhe",
+      "img": "https://pawankolhe.com/img/pawankolhe.jpg",
+      "links": {
+        "website": "https://pawankolhe.com/",
+        "linkedin": "https://www.linkedin.com/in/kolhepawan/",
+        "github": "https://github.com/PawanKolhe"
+      },
+      "jobTitle": "Front End Developer",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India"
+      }
+  },
+    {
+      "id": 852,
       "name": "Hemant Kumar Singh",
       "img": "https://avatars3.githubusercontent.com/u/26166716?s=460&u=6663ba6904746ecf7e28b604f0f2a739027ef27e&v=4",
       "links": {
@@ -12212,7 +12228,7 @@
       }
     },
     {
-        "id": 852,
+        "id": 853,
         "name": "Andrew Price",
         "img": "https://pbs.twimg.com/profile_images/1018213344698724352/zW_-kGqV_400x400.jpg",
         "links": {
