@@ -10167,6 +10167,22 @@
     },
     {
       "id": 729,
+      "name": "Oluwafemi Adenuga",
+      "img": "https://res.cloudinary.com/femosocratis/image/upload/v1586590237/023492D5-46DB-4688-B819-0E1DF187D899L0001_isedrz.jpg",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/femosocratis/",
+        "github": "https://github.com/phemmylintry"
+      },
+      "jobTitle": "Full Stack Web Developer",
+      "location": {
+        "city": "Lagos",
+        "state": "",
+        "country": "Nigeria"
+      }
+    },
+    {
+      "id": 730,
       "name": "Arnab Ray",
       "img": "https://avatars2.githubusercontent.com/u/26869021?s=460&v=4",
       "links": {
@@ -10182,7 +10198,7 @@
       }
     },
     {
-      "id": 730,
+      "id": 731,
       "name": "Kavya Sagar",
       "img": "https://avatars0.githubusercontent.com/u/10847203?s=460&v=4",
       "links": {
@@ -10198,7 +10214,7 @@
       }
     },
     {
-      "id": 731,
+      "id": 732,
       "name": "Daniel Gleason",
       "img": "https://ibb.co/fF39wtk",
       "links": {
@@ -10214,7 +10230,7 @@
       }
     },
     {
-      "id": 732,
+      "id": 733,
       "name": "Oke Emmanuel",
       "img": "",
       "links": {
@@ -10230,7 +10246,7 @@
       }
     },
     {
-      "id": 733,
+      "id": 734,
       "name": "Banhaw Chun",
       "img": "https://avatars0.githubusercontent.com/u/37777222?s=460&v=4",
       "links": {
@@ -10246,7 +10262,7 @@
       }
     },
     {
-      "id": 734,
+      "id": 735,
       "name": "Daniel Narh",
       "img": "https://avatars0.githubusercontent.com/u/52500058?s=460&v=4",
       "links": {
@@ -10262,7 +10278,7 @@
       }
     },
     {
-      "id": 735,
+      "id": 736,
       "name": "Ashwani Singh",
       "img": "",
       "links": {
@@ -10278,7 +10294,7 @@
       }
     },
     {
-      "id": 736,
+      "id": 737,
       "name": "Amritha Marimuthu",
       "img": "",
       "links": {
@@ -10294,7 +10310,7 @@
       }
     },
     {
-      "id": 737,
+      "id": 738,
       "name": "Shohei Hagiwara",
       "img": "https://avatars1.githubusercontent.com/u/8368127?s=460&v=4",
       "links": {
@@ -10310,7 +10326,7 @@
       }
     },
     {
-      "id": 738,
+      "id": 739,
       "name": "Viktor Borsodi",
       "img": "https://avatars0.githubusercontent.com/u/34397487?s=460&v=4",
       "links": {
@@ -10326,7 +10342,7 @@
       }
     },
     {
-      "id": 739,
+      "id": 740,
       "name": "Alex Gainza",
       "img": "",
       "links": {
@@ -10342,7 +10358,7 @@
       }
     },
     {
-      "id": 740,
+      "id": 741,
       "name": "Glauber Camargo Campos Rocha",
       "img": "https://avatars3.githubusercontent.com/u/2231796?s=400&u=2ac9f62f3d160210f16f9941152f27db697c8c07&v=4",
       "links": {
@@ -10358,7 +10374,7 @@
       }
     },
     {
-      "id": 741,
+      "id": 742,
       "name": "Darshin Van Parijs",
       "img": "https://avatars3.githubusercontent.com/u/47732125?s=400&u=38fe82b76b8726378b0581e5dc1722c74b6df7e6&v=4",
       "links": {
@@ -10374,7 +10390,7 @@
       }
     },
     {
-      "id": 741,
+      "id": 743,
       "name": "Cayden Choi",
       "img": "https://avatars0.githubusercontent.com/u/59014867?s=460&v=4",
       "links": {
@@ -10390,7 +10406,7 @@
       }
     },
     {
-      "id": 743,
+      "id": 744,
       "name": "Elizabeth Ortiz",
       "img": "https://avatars1.githubusercontent.com/u/26338550?s=400&u=785f8547bc53cf6926f8f8d63c6a31f061dd6d9a&v=4",
       "links": {
@@ -11891,39 +11907,39 @@
         "state": "",
         "country": "England"
       }
-  },
-  {
-    "id": 838,
-    "name": "Magesh Sundar G",
-    "img": "",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/magesh-sundar-965ba2190",
-      "github": "https://github.com/MageshSundarG"
     },
-    "jobTitle": "Python Developer|Data Scientist|Full Stack Developer",
-    "location": {
-      "city": "Chennai",
-      "state": "Tamilnadu",
-      "country": "india"
-    }
-  },
-  {
-    "id": 6060,
-    "name": "Pranav Sood",
-    "img": "https://secureservercdn.net/198.71.233.44/gpo.7bd.myftpupload.com/wp-content/uploads/2019/10/DSC_0576-copy.jpg",
-    "links": {
-      "website": "http://prnvsood.com/",
-      "linkedin": "https://www.linkedin.com/in/pranav-sood-3a9095a3/",
-      "github": "https://github.com/prnv06"
+    {
+      "id": 838,
+      "name": "Magesh Sundar G",
+      "img": "",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/magesh-sundar-965ba2190",
+        "github": "https://github.com/MageshSundarG"
+      },
+      "jobTitle": "Python Developer|Data Scientist|Full Stack Developer",
+      "location": {
+        "city": "Chennai",
+        "state": "Tamilnadu",
+        "country": "india"
+      }
     },
-    "jobTitle": "Product Manager| Designer| Full Stack Developer",
-    "location": {
-      "city": "New York",
-      "state": "NY",
-      "country": ""
-    }
-  },
+    {
+      "id": 6060,
+      "name": "Pranav Sood",
+      "img": "https://secureservercdn.net/198.71.233.44/gpo.7bd.myftpupload.com/wp-content/uploads/2019/10/DSC_0576-copy.jpg",
+      "links": {
+        "website": "http://prnvsood.com/",
+        "linkedin": "https://www.linkedin.com/in/pranav-sood-3a9095a3/",
+        "github": "https://github.com/prnv06"
+      },
+      "jobTitle": "Product Manager| Designer| Full Stack Developer",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": ""
+      }
+    },
     {
       "id": 836,
       "name": "Jonathan Hutnick",
@@ -11971,117 +11987,293 @@
         "state": "NY",
         "country": "USA"
       }
+    },
+    {
+      "id": 839,
+      "name": "Mohadip Lama",
+      "img": "https://media-exp1.licdn.com/dms/image/C4E03AQFlz-svFCpPKQ/profile-displayphoto-shrink_200_200/0?e=1593648000&v=beta&t=zMv14W_E4c_o_s-rD2IvdBxawOcIgY_GdNapw5weO-I",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/mohadip-lama-taveras-961a67140/",
+        "github": "https://github.com/mohadip"
+      },
+      "jobTitle": "Web Developer | Javascript | Python | Java",
+      "location": {
+        "city": "Santo Domingo",
+        "state": "Dominican Republic",
+        "country": "Dominican Republic"
+      }
+    },
+    {
+      "id": 838,
+      "name": "Freeda Moore",
+      "img": "",
+      "links": {
+        "website": "https://freedamoore.github.io/",
+        "linkedin": "https://www.linkedin.com/in/freeda-moore-389057196/",
+        "github": "https://github.com/freedamoore"
+      },
+      "jobTitle": "Front End Developer",
+      "location": {
+        "city": "Sydney",
+        "state": "NSW",
+        "country": "Australia"
+      }
+    },
+    {
+      "id": 840,
+      "name": "Paul Ventura",
+      "img": "http://gravatar.com/avatar/1455092cb82281ad79bbbd4da3b07bec",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/christian-paul-ventura",
+        "github": "https://github.com/pmventura"
+      },
+      "jobTitle": "Software Engineer",
+      "location": {
+        "city": "Singapore",
+        "state": "Singapore",
+        "country": "Singapore"
+      }
+    },
+    {
+      "id": 841,
+      "name": "Tomas Czarnecki",
+      "img": "https://avatars1.githubusercontent.com/u/44222618?s=460&u=cb3a6ed4e892a2d83f17862cc562cb51dce862ce&v=4",
+      "links": {
+        "website": "https://heiux.com/",
+        "linkedin": "linkedin.com/in/tczarnecki/",
+        "github": "https://github.com/tomashei"
+      },
+      "jobTitle": "UX Developer",
+      "location": {
+        "city": "Poznan",
+        "state": "Greater Poland",
+        "country": "Poland"
+      }
+    },
+    {
+      "id": 842,
+      "name": "Brittany Anderson",
+      "img": "",
+      "links": {
+        "website": "http://brittany-anderson.com/",
+        "linkedin": "https://www.linkedin.com/in/brittany-anderson-b9b835155/",
+        "github": "https://github.com/bdb5075"
+      },
+      "jobTitle": "Front End Developer",
+      "location": {
+        "city": "",
+        "state": "Maryland",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 843,
+      "name": "Rexx Samuell",
+      "img": "https://avatars3.githubusercontent.com/u/36671895?s=460&v=4",
+      "links": {
+        "website": "https://rexxanthony.com/",
+        "linkedin": "https://www.linkedin.com/in/rexx-anthony-samuell-1282304/",
+        "github": "https://github.com/rsamuell"
+      },
+      "jobTitle": "Web Developer",
+      "location": {
+        "city": "Washington",
+        "state": "DC",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 844,
+      "name": "Supratim Sarkar",
+      "img": "YOUR_IMG_URL",
+      "links": {
+        "website": "http://supracodes.pythonanywhere.com/",
+        "linkedin": "https://www.linkedin.com/in/supratim-sarkar-3a3299150/",
+        "github": "https://github.com/codewithsupra"
+      },
+      "jobTitle": "Data Analyst| Python Developer",
+      "location": {
+        "city": "MUSCAT",
+        "state": "MUSCAT",
+        "country": "OMAN"
+      }
+    },
+    {
+      "id": 845,
+      "name": "Merlin Förster",
+      "img": "https://avatars0.githubusercontent.com/u/44608877",
+      "links": {
+        "website": "merlinfoerster.com",
+        "linkedin": "https://www.linkedin.com/in/merlinfoerster/",
+        "github": "https://github.com/r3m00n"
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "Hamburg",
+        "state": "Hamburg",
+        "country": "Germany"
+      }
+    },
+    {
+      "id": 846,
+      "name": "Aiswarya Sarangi",
+      "img": " ",
+      "links": {
+        "website": " ",
+        "linkedin":"https://www.linkedin.com/in/aiswaryasarangi/",
+        "github": "https://github.com/aiswarya8110"
+      },
+      "jobTitle": "Front End Developer",
+      "location": {
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "country": "India"
+      }
+    },
+    {
+      "id": 847,
+      "name": "Kumar Aditya",
+      "img": "YOUR_IMG_URL",
+      "links": {
+        "website": "https://nnhhiilliisstt.github.io/KumarAditya-portfolio/",
+        "linkedin": "https://www.linkedin.com/in/kumar-aditya-77a2b4194/",
+        "github": "https://github.com/nnhhiilliisstt"
+      },
+      "jobTitle": "Full stack web developer| Flutter Developer",
+      "location": {
+        "city": "Gurgaon",
+        "state": "Haryana",
+        "country": "India"
+      }
+    },
+    {
+      "id": 848,
+      "name": "Ritika Garg",
+      "img": "https://media-exp1.licdn.com/dms/image/C5103AQGED09T7SYrpA/profile-displayphoto-shrink_200_200/0?e=1594252800&v=beta&t=V67IMSqLNYRSW_zZy8aodzZuxPQK1p7SDPwwzzD5Wpo",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/ritika-garg98/",
+        "github": "https://github.com/rgarg22"
+       },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "",
+        "state": "Punjab",
+        "country": "India"
+      }
+    },
+    {
+      "id": 849,  
+      "name": "Edwin Torres",
+      "img": "https://avatars3.githubusercontent.com/u/5404833",
+      "links": {
+        "website": "https://codesandtags.github.io/",
+        "linkedin": "https://www.linkedin.com/in/edwintorresdeveloper/",
+        "github": "https://github.com/codesandtags"
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "Bogota",
+        "state": "Bogota",
+        "country": "Colombia"
+      }
+    },
+    {
+      "id": 850,
+      "name": "Jeremy Curtis",
+      "img": "https://avatars1.githubusercontent.com/u/29008729?s=400&u=60465f4a72f31f7fd4c0e0aea7e5b66673f5754a&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "www.linkedin.com/in/jeremy-curtis-29a586185",
+        "github": "https://github.com/jcurtis808"
+      },
+      "jobTitle": "Self employed/freelance developer",
+      "location": {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 851,
+      "name": "Michio Hayakawa",
+      "img": "https://media-exp1.licdn.com/dms/image/C4D03AQE0hpBDzsfFMg/profile-displayphoto-shrink_200_200/0?e=1594857600&v=beta&t=7L0lsWuedUqgZWMdqirKTYQW8NPV-eCJZ_8MeqRbLH8",
+      "links": {
+        "website": "http://wwww.hacya.com",
+        "linkedin": "https://www.linkedin.com/in/michio-hayakawa-664507/",
+        "github": "https://github.com/hacyaman"
+      },
+      "jobTitle": "Software Engineering Manager",
+      "location": {
+        "city": "Yokohama",
+        "state": "Kanagawa",
+        "country": "Japan"
+      }
   },
-  {
-    "id": 839,
-    "name": "Mohadip Lama",
-    "img": "https://media-exp1.licdn.com/dms/image/C4E03AQFlz-svFCpPKQ/profile-displayphoto-shrink_200_200/0?e=1593648000&v=beta&t=zMv14W_E4c_o_s-rD2IvdBxawOcIgY_GdNapw5weO-I",
-    "links": {
-      "linkedin": "https://www.linkedin.com/in/mohadip-lama-taveras-961a67140/",
-      "github": "https://github.com/mohadip"
+    {
+      "id": 852,
+      "name": "Pawan Ashish Kolhe",
+      "img": "https://pawankolhe.com/img/pawankolhe.jpg",
+      "links": {
+        "website": "https://pawankolhe.com/",
+        "linkedin": "https://www.linkedin.com/in/kolhepawan/",
+        "github": "https://github.com/PawanKolhe"
+      },
+      "jobTitle": "Front End Developer",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India"
+      }
+  },
+    {
+      "id": 853,
+      "name": "Hemant Kumar Singh",
+      "img": "https://avatars3.githubusercontent.com/u/26166716?s=460&u=6663ba6904746ecf7e28b604f0f2a739027ef27e&v=4",
+      "links": {
+        "website": "https://hs950559.github.io/portfolio",
+        "linkedin": "https://www.linkedin.com/in/hkajax",
+        "github": "https://github.com/hs950559"
+      },
+      "jobTitle": "Front End Developer, UI Developer, Senior Web Developer",
+      "location": {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "country": "India"
+      }
     },
-    "jobTitle": "Web Developer | Javascript | Python | Java",
-    "location": {
-      "city": "Santo Domingo",
-      "state": "Dominican Republic",
-      "country": "Dominican Republic"
+    {
+        "id": 854,
+        "name": "Andrew Price",
+        "img": "https://pbs.twimg.com/profile_images/1018213344698724352/zW_-kGqV_400x400.jpg",
+        "links": {
+          "website": "https://www.awprice.com/",
+          "linkedin": "https://www.linkedin.com/in/loftkey/",
+          "github": "https://github.com/loftkey"
+        },
+        "jobTitle": "Developer",
+        "location": {
+          "city": "Murrieta",
+          "state": "California",
+          "country": "USA"
     }
   },
-  {
-    "id": 838,
-    "name": "Freeda Moore",
-    "img": "",
-    "links": {
-      "website": "https://freedamoore.github.io/",
-      "linkedin": "https://www.linkedin.com/in/freeda-moore-389057196/",
-      "github": "https://github.com/freedamoore"
-    },
-    "jobTitle": "Front End Developer",
-    "location": {
-      "city": "Sydney",
-      "state": "NSW",
-      "country": "Australia"
+    {
+      "id": 855,
+      "name": "Tai Disla",
+      "img": "http://taidisla.com/images/ztmJobBoardPic.jpg",
+      "links": {
+        "website": "http://taidisla.com/",
+        "linkedin": "https://www.linkedin.com/in/tai-disla/",
+        "github": "https://github.com/taicedtea"
+      },
+      "jobTitle": "Junior Front End Developer",
+      "location": {
+        "city": "New York",
+        "state": "New York",
+        "country": "USA"
+      }
     }
-  }
-  ,{
-    "id": 840,
-    "name": "Paul Ventura",
-    "img": "http://gravatar.com/avatar/1455092cb82281ad79bbbd4da3b07bec",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/christian-paul-ventura",
-      "github": "https://github.com/pmventura"
-    },
-    "jobTitle": "Software Engineer",
-    "location": {
-      "city": "Singapore",
-      "state": "Singapore",
-      "country": "Singapore"
-    }
-  },
-   {
-    "id": 841,
-    "name": "Tomas Czarnecki",
-    "img": "https://avatars1.githubusercontent.com/u/44222618?s=460&u=cb3a6ed4e892a2d83f17862cc562cb51dce862ce&v=4",
-    "links": {
-      "website": "https://heiux.com/",
-      "linkedin": "linkedin.com/in/tczarnecki/",
-      "github": "https://github.com/tomashei"
-    },
-    "jobTitle": "UX Developer",
-    "location": {
-      "city": "Poznan",
-      "state": "Greater Poland",
-      "country": "Poland"
-    }
-}, 
-   {
-    "id": 842,
-    "name": "Brittany Anderson",
-    "img": "",
-    "links": {
-      "website": "http://brittany-anderson.com/",
-      "linkedin": "https://www.linkedin.com/in/brittany-anderson-b9b835155/",
-      "github": "https://github.com/bdb5075"
-    },
-    "jobTitle": "Front End Developer",
-    "location": {
-      "city": "",
-      "state": "Maryland",
-      "country": "USA"
-    }
-},
-{
-    "id": 843,
-    "name": "Rexx Samuell",
-    "img": "https://avatars3.githubusercontent.com/u/36671895?s=460&v=4",
-    "links": {
-      "website": "https://rexxanthony.com/",
-      "linkedin": "https://www.linkedin.com/in/rexx-anthony-samuell-1282304/",
-      "github": "https://github.com/rsamuell"
-    },
-    "jobTitle": "Web Developer",
-    "location": {
-      "city": "Washington",
-      "state": "DC",
-      "country": "USA"
-    }
-  },
-   {
-    "id": 844,
-    "name": "Supratim Sarkar",
-    "img": "YOUR_IMG_URL",
-    "links": {
-      "website": "http://supracodes.pythonanywhere.com/",
-      "linkedin": "https://www.linkedin.com/in/supratim-sarkar-3a3299150/",
-      "github": "https://github.com/codewithsupra"
-    },
-    "jobTitle": "Data Analyst| Python Developer",
-    "location": {
-      "city": "MUSCAT",
-      "state": "MUSCAT",
-      "country": "OMAN"
-    }
-  }
-  ]
+  ];
 }

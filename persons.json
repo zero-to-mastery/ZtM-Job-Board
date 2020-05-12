@@ -30,4 +30,37 @@
       "state": "Florida",
       "country": "United States]"
     }
+  }, 
+
+  {
+    "id": 1002,
+    "name": "Ravi kumar Singh",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "",
+      "github": "https://github.com/raviraka"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Milan",
+      "state": "",
+      "country": "Italy"
+    }
+  }
+,{
+    "id": 1003,
+    "name": "Sparsh Chadha",
+    "img": "",
+    "links": {
+      "website": "https://sparsh0427.github.io/Portfolio/",
+      "linkedin": "https://www.linkedin.com/in/sparsh-chadha-601b1516b",
+      "github": "https://github.com/sparsh0427/"
+    },
+    "jobTitle": "Full Stack Developer | Java Developer | ML Enthusiast",
+    "location": {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "country": "India"
+    }
   }
