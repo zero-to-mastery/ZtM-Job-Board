@@ -12274,6 +12274,22 @@
         "state": "New York",
         "country": "USA"
       }
+    },
+    {
+      "id": 856,
+      "name": "Habiyaremye Ntwali Janvier",
+      "img": "https://user-images.githubusercontent.com/39817762/81734550-f6cdb080-9493-11ea-9c44-571b794e5cc4.jpg",
+      "links": {
+        "website": "",
+        "linkedin": "",
+        "github": "https://github.com/RedJanvier"
+      },
+      "jobTitle": "Full stack web developer",
+      "location": {
+        "city": "Kigali",
+        "state": "",
+        "country": "Rwanda"
+      }
     }
   ];
 }
