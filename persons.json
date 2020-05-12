@@ -1,16 +1,66 @@
-,{
-    "id": 832,
-    "name": "Denis Tita",
-    "img": "https://ibb.co/JjhcPhW",
+{
+    "id": 1000,
+    "name": "Saurabh Khaparey",
+    "img": "",
     "links": {
-      "website": "http://denistita.com/",
-      "linkedin": "https://www.linkedin.com/in/denis-tita-43a705197/",
-      "github": "https://github.com/denistita"
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/saurabh-khaparey",
+      "github": "https://github.com/Saurabh2699"
     },
-    "jobTitle": "Software Developer",
+    "jobTitle": "MERN Stack Developer",
     "location": {
-      "city": "Caseyville",
-      "state": "Illinois",
-      "country": "USA"
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "country": "India"
+    }
+  }
+
+  ,{
+    "id": 1001,
+    "name": "Samuel Solomon",
+    "img": "]",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/samjsolomon",
+      "github": "https://github.com/samjsolomon"
+    },
+    "jobTitle": "Python Developer",
+    "location": {
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States]"
+    }
+  }, 
+
+  {
+    "id": 1002,
+    "name": "Ravi kumar Singh",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "",
+      "github": "https://github.com/raviraka"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Milan",
+      "state": "",
+      "country": "Italy"
+    }
+  }
+,{
+    "id": 1003,
+    "name": "Sparsh Chadha",
+    "img": "",
+    "links": {
+      "website": "https://sparsh0427.github.io/Portfolio/",
+      "linkedin": "https://www.linkedin.com/in/sparsh-chadha-601b1516b",
+      "github": "https://github.com/sparsh0427/"
+    },
+    "jobTitle": "Full Stack Developer | Java Developer | ML Enthusiast",
+    "location": {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "country": "India"
     }
   }
