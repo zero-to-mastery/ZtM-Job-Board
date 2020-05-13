@@ -12274,9 +12274,25 @@
         "state": "New York",
         "country": "USA"
       }
+  },
+  {
+    "id": 856,
+    "name": "Arun Surendharan",
+    "img": "https://avatars2.githubusercontent.com/u/64095520",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/arun-surendharan-3084a6142/",
+      "github": "https://github.com/arun-me"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Tirupur",
+      "state": "Tamil Nadu",
+      "country": "India"
+    }
     },
     {
-      "id": 856,
+      "id": 857,
       "name": "Paul Marik",
       "img": "https://i.imgur.com/ZazkmQd.jpg",
       "links": {
@@ -12292,7 +12308,7 @@
       }
     },
     {
-      "id": 857,
+      "id": 858,
       "name": "Manjil Tamang",
       "img": "https://github.com/manjillama.png",
       "links": {
