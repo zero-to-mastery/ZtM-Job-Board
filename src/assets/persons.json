@@ -12121,7 +12121,7 @@
       "img": " ",
       "links": {
         "website": " ",
-        "linkedin":"https://www.linkedin.com/in/aiswaryasarangi/",
+        "linkedin": "https://www.linkedin.com/in/aiswaryasarangi/",
         "github": "https://github.com/aiswarya8110"
       },
       "jobTitle": "Front End Developer",
@@ -12155,7 +12155,7 @@
         "website": "",
         "linkedin": "https://www.linkedin.com/in/ritika-garg98/",
         "github": "https://github.com/rgarg22"
-       },
+      },
       "jobTitle": "Full Stack Developer",
       "location": {
         "city": "",
@@ -12164,7 +12164,7 @@
       }
     },
     {
-      "id": 849,  
+      "id": 849,
       "name": "Edwin Torres",
       "img": "https://avatars3.githubusercontent.com/u/5404833",
       "links": {
@@ -12210,7 +12210,7 @@
         "state": "Kanagawa",
         "country": "Japan"
       }
-  },
+    },
     {
       "id": 852,
       "name": "Pawan Ashish Kolhe",
@@ -12226,7 +12226,7 @@
         "state": "Maharashtra",
         "country": "India"
       }
-  },
+    },
     {
       "id": 853,
       "name": "Hemant Kumar Singh",
@@ -12244,21 +12244,21 @@
       }
     },
     {
-        "id": 854,
-        "name": "Andrew Price",
-        "img": "https://pbs.twimg.com/profile_images/1018213344698724352/zW_-kGqV_400x400.jpg",
-        "links": {
-          "website": "https://www.awprice.com/",
-          "linkedin": "https://www.linkedin.com/in/loftkey/",
-          "github": "https://github.com/loftkey"
-        },
-        "jobTitle": "Developer",
-        "location": {
-          "city": "Murrieta",
-          "state": "California",
-          "country": "USA"
-    }
-  },
+      "id": 854,
+      "name": "Andrew Price",
+      "img": "https://pbs.twimg.com/profile_images/1018213344698724352/zW_-kGqV_400x400.jpg",
+      "links": {
+        "website": "https://www.awprice.com/",
+        "linkedin": "https://www.linkedin.com/in/loftkey/",
+        "github": "https://github.com/loftkey"
+      },
+      "jobTitle": "Developer",
+      "location": {
+        "city": "Murrieta",
+        "state": "California",
+        "country": "USA"
+      }
+    },
     {
       "id": 855,
       "name": "Tai Disla",
@@ -12290,6 +12290,38 @@
       "state": "Tamil Nadu",
       "country": "India"
     }
-  }
+    },
+    {
+      "id": 857,
+      "name": "Paul Marik",
+      "img": "https://i.imgur.com/ZazkmQd.jpg",
+      "links": {
+        "website": "http://marik.tech/",
+        "linkedin": "www.linkedin.com/in/paul-marik-web-developer",
+        "github": "https://github.com/pmarik"
+      },
+      "jobTitle": "Web Developer",
+      "location": {
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 858,
+      "name": "Manjil Tamang",
+      "img": "https://github.com/manjillama.png",
+      "links": {
+        "website": "https://manjiltamang.com",
+        "linkedin": "http://linkedin.com/in/manjiltamang/",
+        "github": "https://github.com/manjillama"
+      },
+      "jobTitle": "Full stack developer",
+      "location": {
+        "city": "Boudha",
+        "state": "Kathmandu",
+        "country": "Nepal"
+      }
+    }
   ]
 }
