@@ -12277,6 +12277,22 @@
     },
     {
       "id": 856,
+      "name": "Paul Marik",
+      "img": "https://i.imgur.com/ZazkmQd.jpg",
+      "links": {
+        "website": "http://marik.tech/",
+        "linkedin": "www.linkedin.com/in/paul-marik-web-developer",
+        "github": "https://github.com/pmarik"
+      },
+      "jobTitle": "Web Developer",
+      "location": {
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 857,
       "name": "Manjil Tamang",
       "img": "https://github.com/manjillama.png",
       "links": {
