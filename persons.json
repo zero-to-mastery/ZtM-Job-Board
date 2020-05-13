@@ -63,6 +63,22 @@
       "state": "Delhi",
       "country": "India"
     }
+  },
+  {
+    "id": 1004,
+    "name": "Yury Hrytsuk",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/yury-hrytsuk-70335a15a/",
+      "github": "https://github.com/Jurek33"
+    },
+    "jobTitle": "JavaScript Developer",
+    "location": {
+      "city": "Miami",
+      "state": "Florida",
+      "country": "United States"
+    }
   }
   ,{
     "id": 1004,
