@@ -12321,6 +12321,21 @@
         "city": "Boudha",
         "state": "Kathmandu",
         "country": "Nepal"
+      },
+      {
+      "id": 859,
+      "name": "Ghizlane BOUSKRI",
+      "img": "http://ghizlaneb.pythonanywhere.com/about.html",
+      "links": {
+        "website": "http://ghizlaneb.pythonanywhere.com/index.html",
+        "linkedin": "https://www.linkedin.com/in/ghizlane-bouskri-physics/",
+        "github": "https://github.com/GhizlaneBOUSKRI"
+      },
+      "jobTitle": "Full stack developer",
+      "location": {
+        "city": "Düsseldorf",
+        "state": "NRW",
+        "country": "Germany"
       }
     }
   ]
