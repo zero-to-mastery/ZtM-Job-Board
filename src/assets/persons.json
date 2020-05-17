@@ -12134,9 +12134,9 @@
     {
       "id": 847,
       "name": "Kumar Aditya",
-      "img": "YOUR_IMG_URL",
+      "img": "https://kumaraditya.herokuapp.com/about/assets/img/profile-img.jpg",
       "links": {
-        "website": "https://nnhhiilliisstt.github.io/KumarAditya-portfolio/",
+        "website": "https://kumaraditya.herokuapp.com/",
         "linkedin": "https://www.linkedin.com/in/kumar-aditya-77a2b4194/",
         "github": "https://github.com/nnhhiilliisstt"
       },
