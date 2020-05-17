@@ -12322,6 +12322,22 @@
         "state": "Kathmandu",
         "country": "Nepal"
       }
+    },
+    {
+      "id": 859,
+      "name": "Nikolay Almazov",
+      "img": "https://github.com/nalmazov.png",
+      "links": {
+        "website": "https://www.linkedin.com/in/nikolay-almazov-10b40892/",
+        "linkedin": "https://www.linkedin.com/in/nikolay-almazov-10b40892/",
+        "github": "https://github.com/NAlmazov"
+      },
+      "jobTitle": "Product Manager|Consultant|Aspiring Full-Stack Developer",
+      "location": {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "USA"
+      }
     }
   ]
 }
