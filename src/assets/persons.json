@@ -12276,7 +12276,7 @@
       }
     },
     {
-      "id": 859,
+      "id": 856,
       "name": "Trejon Stallsworth",
       "img": "https://avatars2.githubusercontent.com/u/50248674?s=460&u=8624e2ac772606d44807f794f59658f7a5664cde&v=4",
       "links": {
@@ -12290,25 +12290,25 @@
         "state": "Colorado",
         "country": "USA"
       }
-  },
-  {
-    "id": 856,
-    "name": "Arun Surendharan",
-    "img": "https://avatars2.githubusercontent.com/u/64095520",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/arun-surendharan-3084a6142/",
-      "github": "https://github.com/arun-me"
-    },
-    "jobTitle": "Full Stack Developer",
-    "location": {
-      "city": "Tirupur",
-      "state": "Tamil Nadu",
-      "country": "India"
-    }
     },
     {
       "id": 857,
+      "name": "Arun Surendharan",
+      "img": "https://avatars2.githubusercontent.com/u/64095520",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/arun-surendharan-3084a6142/",
+        "github": "https://github.com/arun-me"
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "Tirupur",
+        "state": "Tamil Nadu",
+        "country": "India"
+      }
+    },
+    {
+      "id": 858,
       "name": "Paul Marik",
       "img": "https://i.imgur.com/ZazkmQd.jpg",
       "links": {
@@ -12324,7 +12324,7 @@
       }
     },
     {
-      "id": 858,
+      "id": 859,
       "name": "Manjil Tamang",
       "img": "https://github.com/manjillama.png",
       "links": {
@@ -12337,9 +12337,10 @@
         "city": "Boudha",
         "state": "Kathmandu",
         "country": "Nepal"
-      },
-      {
-      "id": 859,
+      }
+    },
+    {
+      "id": 860,
       "name": "Ghizlane BOUSKRI",
       "img": "http://ghizlaneb.pythonanywhere.com/about.html",
       "links": {
@@ -12368,6 +12369,118 @@
         "city": "Boston",
         "state": "Massachusetts",
         "country": "USA"
+      }
+    },
+    {
+      "id": 860,
+      "name": "Saurabh Khaparey",
+      "img": "",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/saurabh-khaparey",
+        "github": "https://github.com/Saurabh2699"
+      },
+      "jobTitle": "MERN Stack Developer",
+      "location": {
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "country": "India"
+      }
+    },
+    {
+      "id": 861,
+      "name": "Samuel Solomon",
+      "img": "]",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/samjsolomon",
+        "github": "https://github.com/samjsolomon"
+      },
+      "jobTitle": "Python Developer",
+      "location": {
+        "city": "Orlando",
+        "state": "Florida",
+        "country": "United States]"
+      }
+    },
+    {
+      "id": 862,
+      "name": "Ravi kumar Singh",
+      "img": "",
+      "links": {
+        "website": "",
+        "linkedin": "",
+        "github": "https://github.com/raviraka"
+      },
+      "jobTitle": "Web Developer",
+      "location": {
+        "city": "Milan",
+        "state": "",
+        "country": "Italy"
+      }
+    },
+    {
+      "id": 863,
+      "name": "Sparsh Chadha",
+      "img": "",
+      "links": {
+        "website": "https://sparsh0427.github.io/Portfolio/",
+        "linkedin": "https://www.linkedin.com/in/sparsh-chadha-601b1516b",
+        "github": "https://github.com/sparsh0427/"
+      },
+      "jobTitle": "Full Stack Developer | Java Developer | ML Enthusiast",
+      "location": {
+        "city": "New Delhi",
+        "state": "Delhi",
+        "country": "India"
+      }
+    },
+    {
+      "id": 864,
+      "name": "Yury Hrytsuk",
+      "img": "",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/yury-hrytsuk-70335a15a/",
+        "github": "https://github.com/Jurek33"
+      },
+      "jobTitle": "JavaScript Developer",
+      "location": {
+        "city": "Miami",
+        "state": "Florida",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 865,
+      "name": "Sacha Bogaers",
+      "img": "https://avatars0.githubusercontent.com/u/48031121?s=400&u=469845ae94d776cbb1038eb6045b70c5388bf0a1&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/sacha-bogaers/",
+        "github": "https://github.com/SachaBog"
+      },
+      "jobTitle": "Junior Web Developer",
+      "location": {
+        "city": "Tilburg",
+        "state": "Noord-Brabant",
+        "country": "The Netherlands"
+      }
+    },
+    {
+      "id": 866,
+      "name": "Rares Sandu",
+      "img": "https://avatars3.githubusercontent.com/u/59281487?s=400&u=ed6e2f43fffde34964b8ae73a3fdaacd1d7516f7&v=4",
+      "links": {
+        "website": "https://raressanduconstantin.github.io/modern_portfolio/index.html",
+        "linkedin": "https://www.linkedin.com/in/rares-sandu/",
+        "github": "https://github.com/RaresSanduConstantin"
+      },
+      "jobTitle": "Front-end web development",
+      "location": {
+        "city": "Bucharest",
+        "state": "",
+        "country": "Romania"
       }
     }
   ]
