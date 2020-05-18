@@ -12290,7 +12290,7 @@
         "state": "Colorado",
         "country": "USA"
       }
-  },
+    },
   {
     "id": 856,
     "name": "Arun Surendharan",
@@ -12339,7 +12339,7 @@
         "country": "Nepal"
       },
       {
-      "id": 859,
+      "id": 860,
       "name": "Ghizlane BOUSKRI",
       "img": "http://ghizlaneb.pythonanywhere.com/about.html",
       "links": {
@@ -12355,7 +12355,7 @@
       }
     },
     {
-      "id": 859,
+      "id": 861,
       "name": "Nikolay Almazov",
       "img": "https://github.com/nalmazov.png",
       "links": {
