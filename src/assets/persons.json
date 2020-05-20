@@ -12337,8 +12337,8 @@
         "city": "Boudha",
         "state": "Kathmandu",
         "country": "Nepal"
-      },
-      {
+    }
+    {
       "id": 859,
       "name": "Ghizlane BOUSKRI",
       "img": "http://ghizlaneb.pythonanywhere.com/about.html",
@@ -12353,7 +12353,7 @@
         "state": "NRW",
         "country": "Germany"
       }
-    },
+    }
     {
       "id": 859,
       "name": "Nikolay Almazov",
@@ -12369,9 +12369,9 @@
         "state": "Massachusetts",
         "country": "USA"
       }
-    },
+    }
     {
-      "id": [860],
+      "id": 860,
       "name": "Enora Lecuyer",
       "img": "https://media-exp1.licdn.com/dms/image/C5603AQHWpzQNlm5yCA/profile-displayphoto-shrink_400_400/0?e=1595462400&v=beta&t=4UssIs_APwAEYyoQaXJ0V6Dfp9SAASPUaYtkc7HbksM",
       "links": {
@@ -12384,6 +12384,22 @@
         "city": "Irvine",
         "state": "California",
         "country": "United States"
+      }
+    }
+    {
+      "id": 861,
+      "name": "Ibrahim Satria",
+      "img": "https://avatars1.githubusercontent.com/u/49900199?s=460&u=4746331f3f58fdd1aea38ff6187cee90e1fe331e&v=4",
+      "links": {
+        "website": "https://ibrahimsatria.xyz/",
+        "linkedin": "https://www.linkedin.com/in/ibrahim-satria-56a779185/",
+        "github": "https://github.com/shipdyded"
+      },
+      "jobTitle": "Full Stack Web Developer",
+      "location": {
+        "city": "",
+        "state": "Bandar Seri Begawan",
+        "country": "Brunei Darussalam"
       }
     }
   ]
