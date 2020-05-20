@@ -12290,22 +12290,22 @@
         "state": "Colorado",
         "country": "USA"
       }
-  },
-  {
-    "id": 856,
-    "name": "Arun Surendharan",
-    "img": "https://avatars2.githubusercontent.com/u/64095520",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/arun-surendharan-3084a6142/",
-      "github": "https://github.com/arun-me"
     },
-    "jobTitle": "Full Stack Developer",
-    "location": {
-      "city": "Tirupur",
-      "state": "Tamil Nadu",
-      "country": "India"
-    }
+    {
+      "id": 856,
+      "name": "Arun Surendharan",
+      "img": "https://avatars2.githubusercontent.com/u/64095520",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/arun-surendharan-3084a6142/",
+        "github": "https://github.com/arun-me"
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "Tirupur",
+        "state": "Tamil Nadu",
+        "country": "India"
+      }
     },
     {
       "id": 857,
@@ -12337,8 +12337,9 @@
         "city": "Boudha",
         "state": "Kathmandu",
         "country": "Nepal"
-      },
-      {
+      }
+    },
+    {
       "id": 859,
       "name": "Ghizlane BOUSKRI",
       "img": "http://ghizlaneb.pythonanywhere.com/about.html",
@@ -12384,6 +12385,22 @@
         "city": "Irvine",
         "state": "California",
         "country": "United States"
+      }
+    }
+    ,{
+      "id": 860,
+      "name": "Hunter Vitous",
+      "img": "https://github.com/hmvitous.png",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/hunter-vitous-07839a10b/",
+        "github": "https://github.com/hmvitous"
+      },
+      "jobTitle": "Full-Stack Developer",
+      "location": {
+        "city": "Bromma",
+        "state": "Stockholm",
+        "country": "Sweden"
       }
     }
   ]
