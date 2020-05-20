@@ -12369,6 +12369,22 @@
         "state": "Massachusetts",
         "country": "USA"
       }
+    },
+    {
+      "id": [860],
+      "name": "Enora Lecuyer",
+      "img": "https://media-exp1.licdn.com/dms/image/C5603AQHWpzQNlm5yCA/profile-displayphoto-shrink_400_400/0?e=1595462400&v=beta&t=4UssIs_APwAEYyoQaXJ0V6Dfp9SAASPUaYtkc7HbksM",
+      "links": {
+        "website": "http://www.enoralecuyer.com/",
+        "linkedin": "https://www.linkedin.com/in/enoralecuyer1/",
+        "github": "https://github.com/enoralecuyer"
+      },
+      "jobTitle": "Front-End Developer",
+      "location": {
+        "city": "Irvine",
+        "state": "California",
+        "country": "United States"
+      }
     }
   ]
 }
