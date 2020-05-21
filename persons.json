@@ -94,8 +94,8 @@
       "city": "Tilburg",
       "state": "Noord-Brabant",
       "country": "The Netherlands"
-    }
-    ,{
+    },
+    {
       "id": 1006,
       "name": "Rares Sandu",
       "img": "https://avatars3.githubusercontent.com/u/59281487?s=400&u=ed6e2f43fffde34964b8ae73a3fdaacd1d7516f7&v=4",
@@ -110,5 +110,21 @@
         "state": "",
         "country": "Romania"
       }
+    }
+    {
+      "id": 1007,
+      "name": "Aaron Cloet",
+      "img": "https://avatars1.githubusercontent.com/u/35313651?s=460&v=4",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/aaron-cloet-9972b9152/",
+        "github": "https://github.com/acloet22",
+      }
+      "jobtitle":  "Freelance software Developer(searching for fulltime employment)",
+      "location": {
+        "city": "Omaha",
+        "state": "Nebraska",
+        "country":  "United States"
+      }
+
     }
   }
