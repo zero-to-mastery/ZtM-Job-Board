@@ -12337,12 +12337,8 @@
         "city": "Boudha",
         "state": "Kathmandu",
         "country": "Nepal"
-<<<<<<< HEAD
-    }
-=======
-      }
+      }  
     },
->>>>>>> 3237c4023e180014b957f160293b8f62e8139fe8
     {
       "id": 859,
       "name": "Ghizlane BOUSKRI",
@@ -12358,7 +12354,7 @@
         "state": "NRW",
         "country": "Germany"
       }
-    }
+    },
     {
       "id": 859,
       "name": "Nikolay Almazov",
@@ -12374,7 +12370,7 @@
         "state": "Massachusetts",
         "country": "USA"
       }
-    }
+    },
     {
       "id": 860,
       "name": "Enora Lecuyer",
@@ -12390,7 +12386,7 @@
         "state": "California",
         "country": "United States"
       }
-    }
+    },
     {
       "id": 861,
       "name": "Ibrahim Satria",
@@ -12405,7 +12401,9 @@
         "city": "",
         "state": "Bandar Seri Begawan",
         "country": "Brunei Darussalam"
-    ,{
+      }
+    },    
+    {
       "id": 862,
       "name": "Hunter Vitous",
       "img": "https://github.com/hmvitous.png",
