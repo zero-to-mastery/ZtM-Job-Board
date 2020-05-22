@@ -94,7 +94,7 @@
       "city": "Tilburg",
       "state": "Noord-Brabant",
       "country": "The Netherlands"
-    }
+    }}
     ,{
       "id": 1006,
       "name": "Rares Sandu",
@@ -110,5 +110,22 @@
         "state": "",
         "country": "Romania"
       }
+    }
+  }
+
+  {
+    "id": 1007,
+    "name": "Morgan King",
+    "img": "https://avatars1.githubusercontent.com/u/61506669?s=460&v=4",
+    "links": {
+      "website": "http://moki929.space/",
+      "linkedin": "https://www.linkedin.com/in/morganaking/",
+      "github": "https://github.com/moki929"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Atlanta",
+      "state": "Georgia",
+      "country": "USA"
     }
   }
