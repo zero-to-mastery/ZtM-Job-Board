@@ -12114,6 +12114,294 @@
         "state": "Hamburg",
         "country": "Germany"
       }
+    },
+    {
+      "id": 846,
+      "name": "Aiswarya Sarangi",
+      "img": " ",
+      "links": {
+        "website": " ",
+        "linkedin": "https://www.linkedin.com/in/aiswaryasarangi/",
+        "github": "https://github.com/aiswarya8110"
+      },
+      "jobTitle": "Front End Developer",
+      "location": {
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "country": "India"
+      }
+    },
+    {
+      "id": 847,
+      "name": "Kumar Aditya",
+      "img": "https://kumaraditya.herokuapp.com/about/assets/img/profile-img.jpg",
+      "links": {
+        "website": "https://kumaraditya.herokuapp.com/",
+        "linkedin": "https://www.linkedin.com/in/kumar-aditya-77a2b4194/",
+        "github": "https://github.com/nnhhiilliisstt"
+      },
+      "jobTitle": "Full stack web developer| Flutter Developer",
+      "location": {
+        "city": "Gurgaon",
+        "state": "Haryana",
+        "country": "India"
+      }
+    },
+    {
+      "id": 848,
+      "name": "Ritika Garg",
+      "img": "https://media-exp1.licdn.com/dms/image/C5103AQGED09T7SYrpA/profile-displayphoto-shrink_200_200/0?e=1594252800&v=beta&t=V67IMSqLNYRSW_zZy8aodzZuxPQK1p7SDPwwzzD5Wpo",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/ritika-garg98/",
+        "github": "https://github.com/rgarg22"
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "",
+        "state": "Punjab",
+        "country": "India"
+      }
+    },
+    {
+      "id": 849,
+      "name": "Edwin Torres",
+      "img": "https://avatars3.githubusercontent.com/u/5404833",
+      "links": {
+        "website": "https://codesandtags.github.io/",
+        "linkedin": "https://www.linkedin.com/in/edwintorresdeveloper/",
+        "github": "https://github.com/codesandtags"
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "Bogota",
+        "state": "Bogota",
+        "country": "Colombia"
+      }
+    },
+    {
+      "id": 850,
+      "name": "Jeremy Curtis",
+      "img": "https://avatars1.githubusercontent.com/u/29008729?s=400&u=60465f4a72f31f7fd4c0e0aea7e5b66673f5754a&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "www.linkedin.com/in/jeremy-curtis-29a586185",
+        "github": "https://github.com/jcurtis808"
+      },
+      "jobTitle": "Self employed/freelance developer",
+      "location": {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 851,
+      "name": "Michio Hayakawa",
+      "img": "https://media-exp1.licdn.com/dms/image/C4D03AQE0hpBDzsfFMg/profile-displayphoto-shrink_200_200/0?e=1594857600&v=beta&t=7L0lsWuedUqgZWMdqirKTYQW8NPV-eCJZ_8MeqRbLH8",
+      "links": {
+        "website": "http://wwww.hacya.com",
+        "linkedin": "https://www.linkedin.com/in/michio-hayakawa-664507/",
+        "github": "https://github.com/hacyaman"
+      },
+      "jobTitle": "Software Engineering Manager",
+      "location": {
+        "city": "Yokohama",
+        "state": "Kanagawa",
+        "country": "Japan"
+      }
+    },
+    {
+      "id": 852,
+      "name": "Pawan Ashish Kolhe",
+      "img": "https://pawankolhe.com/img/pawankolhe.jpg",
+      "links": {
+        "website": "https://pawankolhe.com/",
+        "linkedin": "https://www.linkedin.com/in/kolhepawan/",
+        "github": "https://github.com/PawanKolhe"
+      },
+      "jobTitle": "Front End Developer",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India"
+      }
+    },
+    {
+      "id": 853,
+      "name": "Hemant Kumar Singh",
+      "img": "https://avatars3.githubusercontent.com/u/26166716?s=460&u=6663ba6904746ecf7e28b604f0f2a739027ef27e&v=4",
+      "links": {
+        "website": "https://hs950559.github.io/portfolio",
+        "linkedin": "https://www.linkedin.com/in/hkajax",
+        "github": "https://github.com/hs950559"
+      },
+      "jobTitle": "Front End Developer, UI Developer, Senior Web Developer",
+      "location": {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "country": "India"
+      }
+    },
+    {
+      "id": 854,
+      "name": "Andrew Price",
+      "img": "https://pbs.twimg.com/profile_images/1018213344698724352/zW_-kGqV_400x400.jpg",
+      "links": {
+        "website": "https://www.awprice.com/",
+        "linkedin": "https://www.linkedin.com/in/loftkey/",
+        "github": "https://github.com/loftkey"
+      },
+      "jobTitle": "Developer",
+      "location": {
+        "city": "Murrieta",
+        "state": "California",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 855,
+      "name": "Tai Disla",
+      "img": "http://taidisla.com/images/ztmJobBoardPic.jpg",
+      "links": {
+        "website": "http://taidisla.com/",
+        "linkedin": "https://www.linkedin.com/in/tai-disla/",
+        "github": "https://github.com/taicedtea"
+      },
+      "jobTitle": "Junior Front End Developer",
+      "location": {
+        "city": "New York",
+        "state": "New York",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 859,
+      "name": "Trejon Stallsworth",
+      "img": "https://avatars2.githubusercontent.com/u/50248674?s=460&u=8624e2ac772606d44807f794f59658f7a5664cde&v=4",
+      "links": {
+        "website": "https://trejon.github.io/TrejonStallsworthPortfolio/",
+        "linkedin": "https://www.linkedin.com/in/TrejonStallsworth/",
+        "github": "https://github.com/Trejon"
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "Denver",
+        "state": "Colorado",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 856,
+      "name": "Arun Surendharan",
+      "img": "https://avatars2.githubusercontent.com/u/64095520",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/arun-surendharan-3084a6142/",
+        "github": "https://github.com/arun-me"
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "Tirupur",
+        "state": "Tamil Nadu",
+        "country": "India"
+      }
+    },
+    {
+      "id": 857,
+      "name": "Paul Marik",
+      "img": "https://i.imgur.com/ZazkmQd.jpg",
+      "links": {
+        "website": "http://marik.tech/",
+        "linkedin": "www.linkedin.com/in/paul-marik-web-developer",
+        "github": "https://github.com/pmarik"
+      },
+      "jobTitle": "Web Developer",
+      "location": {
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 858,
+      "name": "Manjil Tamang",
+      "img": "https://github.com/manjillama.png",
+      "links": {
+        "website": "https://manjiltamang.com",
+        "linkedin": "http://linkedin.com/in/manjiltamang/",
+        "github": "https://github.com/manjillama"
+      },
+      "jobTitle": "Full stack developer",
+      "location": {
+        "city": "Boudha",
+        "state": "Kathmandu",
+        "country": "Nepal"
+      }
+    },
+    {
+      "id": 859,
+      "name": "Ghizlane BOUSKRI",
+      "img": "http://ghizlaneb.pythonanywhere.com/about.html",
+      "links": {
+        "website": "http://ghizlaneb.pythonanywhere.com/index.html",
+        "linkedin": "https://www.linkedin.com/in/ghizlane-bouskri-physics/",
+        "github": "https://github.com/GhizlaneBOUSKRI"
+      },
+      "jobTitle": "Full stack developer",
+      "location": {
+        "city": "Düsseldorf",
+        "state": "NRW",
+        "country": "Germany"
+      }
+    },
+    {
+      "id": 859,
+      "name": "Nikolay Almazov",
+      "img": "https://github.com/nalmazov.png",
+      "links": {
+        "website": "https://www.linkedin.com/in/nikolay-almazov-10b40892/",
+        "linkedin": "https://www.linkedin.com/in/nikolay-almazov-10b40892/",
+        "github": "https://github.com/NAlmazov"
+      },
+      "jobTitle": "Product Manager|Consultant|Aspiring Full-Stack Developer",
+      "location": {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "USA"
+      }
+    },
+    {
+      "id": [860],
+      "name": "Enora Lecuyer",
+      "img": "https://media-exp1.licdn.com/dms/image/C5603AQHWpzQNlm5yCA/profile-displayphoto-shrink_400_400/0?e=1595462400&v=beta&t=4UssIs_APwAEYyoQaXJ0V6Dfp9SAASPUaYtkc7HbksM",
+      "links": {
+        "website": "http://www.enoralecuyer.com/",
+        "linkedin": "https://www.linkedin.com/in/enoralecuyer1/",
+        "github": "https://github.com/enoralecuyer"
+      },
+      "jobTitle": "Front-End Developer",
+      "location": {
+        "city": "Irvine",
+        "state": "California",
+        "country": "United States"
+      }
+    }
+    ,{
+      "id": 860,
+      "name": "Hunter Vitous",
+      "img": "https://github.com/hmvitous.png",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/hunter-vitous-07839a10b/",
+        "github": "https://github.com/hmvitous"
+      },
+      "jobTitle": "Full-Stack Developer",
+      "location": {
+        "city": "Bromma",
+        "state": "Stockholm",
+        "country": "Sweden"
+      }
     }
   ]
 }

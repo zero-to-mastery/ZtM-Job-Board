@@ -30,4 +30,85 @@
       "state": "Florida",
       "country": "United States]"
     }
+  }, 
+
+  {
+    "id": 1002,
+    "name": "Ravi kumar Singh",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "",
+      "github": "https://github.com/raviraka"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Milan",
+      "state": "",
+      "country": "Italy"
+    }
+  }
+,{
+    "id": 1003,
+    "name": "Sparsh Chadha",
+    "img": "",
+    "links": {
+      "website": "https://sparsh0427.github.io/Portfolio/",
+      "linkedin": "https://www.linkedin.com/in/sparsh-chadha-601b1516b",
+      "github": "https://github.com/sparsh0427/"
+    },
+    "jobTitle": "Full Stack Developer | Java Developer | ML Enthusiast",
+    "location": {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "country": "India"
+    }
+  },
+  {
+    "id": 1004,
+    "name": "Yury Hrytsuk",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/yury-hrytsuk-70335a15a/",
+      "github": "https://github.com/Jurek33"
+    },
+    "jobTitle": "JavaScript Developer",
+    "location": {
+      "city": "Miami",
+      "state": "Florida",
+      "country": "United States"
+    }
+  }
+  ,{
+    "id": 1005,
+    "name": "Sacha Bogaers",
+    "img": "https://avatars0.githubusercontent.com/u/48031121?s=400&u=469845ae94d776cbb1038eb6045b70c5388bf0a1&v=4",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/sacha-bogaers/",
+      "github": "https://github.com/SachaBog"
+    },
+    "jobTitle": "Junior Web Developer",
+    "location": {
+      "city": "Tilburg",
+      "state": "Noord-Brabant",
+      "country": "The Netherlands"
+    }
+    ,{
+      "id": 1006,
+      "name": "Rares Sandu",
+      "img": "https://avatars3.githubusercontent.com/u/59281487?s=400&u=ed6e2f43fffde34964b8ae73a3fdaacd1d7516f7&v=4",
+      "links": {
+        "website": "https://raressanduconstantin.github.io/modern_portfolio/index.html",
+        "linkedin": "https://www.linkedin.com/in/rares-sandu/",
+        "github": "https://github.com/RaresSanduConstantin"
+      },
+      "jobTitle": "Front-end web development",
+      "location": {
+        "city": "Bucharest",
+        "state": "",
+        "country": "Romania"
+      }
+    }
   }
