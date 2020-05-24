@@ -12386,8 +12386,8 @@
         "state": "California",
         "country": "United States"
       }
-    }
-    ,{
+    },
+    {
       "id": 860,
       "name": "Hunter Vitous",
       "img": "https://github.com/hmvitous.png",
@@ -12401,6 +12401,22 @@
         "city": "Bromma",
         "state": "Stockholm",
         "country": "Sweden"
+      }
+    },
+    {
+      "id": 861,
+      "name": "Hulya Karakaya",
+      "img": "https://twitter.com/hulyakarakayaa/photo",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/hulya-karakaya/",
+        "github": "https://github.com/hulyak"
+      },
+      "jobTitle": "Front End Developer",
+      "location": {
+        "city": "Seattle",
+        "state": "Washington",
+        "country": "United States"
       }
     }
   ]
