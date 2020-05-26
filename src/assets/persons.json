@@ -12435,5 +12435,21 @@
         "country": "United States"
       }
     }
+    ,{
+      "id": 1007,
+      "name": "Juan Agustín Morello",
+      "img": "https://avatars0.githubusercontent.com/u/32440750?s=460&u=89f48aa8c4b9a6071821b87035bab623c129d990&v=4",
+      "links": {
+        "website": "https://jamorello.github.io/",
+        "linkedin": "https://www.linkedin.com/in/juan-agust%C3%ADn-morello-a46385184/",
+        "github": "https://github.com/JAMorello"
+      },
+      "jobTitle": "Programador Junior",
+      "location": {
+        "city": "Parque Chas",
+        "state": "Ciudad de Buenos Aires",
+        "country": "Argentina"
+      }
+  }
   ]
 }
