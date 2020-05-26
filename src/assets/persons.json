@@ -12434,9 +12434,24 @@
         "state": "New York",
         "country": "United States"
       }
+    },{
+      "id": 862,
+      "name": "Rayyan Saeed",
+      "img": "",
+      "links": {
+        "website": "http://rayyansaeed.info/",
+        "linkedin": "https://www.linkedin.com/in/rayyansaeed/",
+        "github": "https://github.com/streehawk"
+      },
+      "jobTitle": "Software Developer",
+      "location": {
+        "city": "Sacramento",
+        "state": "California",
+        "country": "United States"
+      }
     }
     ,{
-      "id": 1007,
+      "id": 863,
       "name": "Juan Agustín Morello",
       "img": "https://avatars0.githubusercontent.com/u/32440750?s=460&u=89f48aa8c4b9a6071821b87035bab623c129d990&v=4",
       "links": {
@@ -12450,6 +12465,22 @@
         "state": "Ciudad de Buenos Aires",
         "country": "Argentina"
       }
-  }
+  },
+    {
+      "id": 864,
+      "name": "Rudi Bester",
+      "img": "http://www.rudibester.co.za/static/assets/images/portfolio_pic.jpeg",
+      "links": {
+        "website": "http://www.rudibester.co.za",
+        "linkedin": "https://www.linkedin.com/in/rudi-bester-a18878199/",
+        "github": "https://github.com/rudibester"
+      },
+      "jobTitle": "Software Developer|Aspiring Data Scientist|ML Enthusiast",
+      "location": {
+        "city": "Cape Town",
+        "state": "",
+        "country": "South Africa"
+      }
+    }
   ]
 }
