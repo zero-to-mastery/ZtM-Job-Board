@@ -10174,7 +10174,7 @@
         "linkedin": "https://www.linkedin.com/in/femosocratis/",
         "github": "https://github.com/phemmylintry"
       },
-      "jobTitle": "Full Stack Web Developer",
+      "jobTitle": "Web Developer",
       "location": {
         "city": "Lagos",
         "state": "",
@@ -12386,8 +12386,8 @@
         "state": "California",
         "country": "United States"
       }
-    }
-    ,{
+    },
+    {
       "id": 860,
       "name": "Hunter Vitous",
       "img": "https://github.com/hmvitous.png",
@@ -12419,5 +12419,83 @@
         "country": "India"
       }
     }
+    ,{
+      "id": 862,
+      "name": "Yuchen Zhang",
+      "img": "https://avatars2.githubusercontent.com/u/20440998?s=400&u=e8f46d4a07da6a879e167ce152f1a409df566274&v=4",
+      "links": {
+        "website": "https://seraph-yczhang.github.io/me/",
+        "linkedin": "https://www.linkedin.com/in/yuchen-zhang-buffalo/",
+        "github": "https://github.com/Seraph-YCZhang"
+      },
+      "jobTitle": "Software Developer",
+      "location": {
+        "city": "Buffalo",
+        "state": "New York",
+        "country": "United States"
+      }
+    },{
+      "id": 863,
+      "name": "Rayyan Saeed",
+      "img": "",
+      "links": {
+        "website": "http://rayyansaeed.info/",
+        "linkedin": "https://www.linkedin.com/in/rayyansaeed/",
+        "github": "https://github.com/streehawk"
+      },
+      "jobTitle": "Software Developer",
+      "location": {
+        "city": "Sacramento",
+        "state": "California",
+        "country": "United States"
+      }
+    }
+    ,{
+      "id": 864,
+      "name": "Juan Agustín Morello",
+      "img": "https://avatars0.githubusercontent.com/u/32440750?s=460&u=89f48aa8c4b9a6071821b87035bab623c129d990&v=4",
+      "links": {
+        "website": "https://jamorello.github.io/",
+        "linkedin": "https://www.linkedin.com/in/juan-agust%C3%ADn-morello-a46385184/",
+        "github": "https://github.com/JAMorello"
+      },
+      "jobTitle": "Programador Junior",
+      "location": {
+        "city": "Parque Chas",
+        "state": "Ciudad de Buenos Aires",
+        "country": "Argentina"
+      }
+  },
+    {
+      "id": 865,
+      "name": "Rudi Bester",
+      "img": "http://www.rudibester.co.za/static/assets/images/portfolio_pic.jpeg",
+      "links": {
+        "website": "http://www.rudibester.co.za",
+        "linkedin": "https://www.linkedin.com/in/rudi-bester-a18878199/",
+        "github": "https://github.com/rudibester"
+      },
+      "jobTitle": "Software Developer|Aspiring Data Scientist|ML Enthusiast",
+      "location": {
+        "city": "Cape Town",
+        "state": "",
+        "country": "South Africa"
+      }
+    },
+    {
+     "id": 866,
+     "name": "Hulya Karakaya",
+      "img": "https://twitter.com/hulyakarakayaa/photo",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/hulya-karakaya/",
+        "github": "https://github.com/hulyak"
+      },
+      "jobTitle": "Front End Developer",
+      "location": {
+        "city": "Seattle",
+        "state": "Washington",
+        "country": "United States"
+      }
   ]
 }
