@@ -12481,6 +12481,21 @@
         "state": "",
         "country": "South Africa"
       }
+    },
+    {
+    "id": 865,
+    "name": "Jay Prakash Kalia",
+    "img": "[YOUR_IMG_URL]",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/jay-prakash-1a0235154/",
+      "github": "https://github.com/JAYKALIA007"
+    },
+    "jobTitle": "Full-Stack Developer | Software Engineer",
+    "location": {
+      "city": "Bhubaneshwar",
+      "state": "Odisha",
+      "country": "India"
     }
+  }
   ]
 }
