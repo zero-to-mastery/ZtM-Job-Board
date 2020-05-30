@@ -81,7 +81,7 @@
     }
   }
   ,{
-    "id": 1004,
+    "id": 1005,
     "name": "Sacha Bogaers",
     "img": "https://avatars0.githubusercontent.com/u/48031121?s=400&u=469845ae94d776cbb1038eb6045b70c5388bf0a1&v=4",
     "links": {
@@ -94,5 +94,21 @@
       "city": "Tilburg",
       "state": "Noord-Brabant",
       "country": "The Netherlands"
+    }
+    ,{
+      "id": 1006,
+      "name": "Rares Sandu",
+      "img": "https://avatars3.githubusercontent.com/u/59281487?s=400&u=ed6e2f43fffde34964b8ae73a3fdaacd1d7516f7&v=4",
+      "links": {
+        "website": "https://raressanduconstantin.github.io/modern_portfolio/index.html",
+        "linkedin": "https://www.linkedin.com/in/rares-sandu/",
+        "github": "https://github.com/RaresSanduConstantin"
+      },
+      "jobTitle": "Front-end web development",
+      "location": {
+        "city": "Bucharest",
+        "state": "",
+        "country": "Romania"
+      }
     }
   }

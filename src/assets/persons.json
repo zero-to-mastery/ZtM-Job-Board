@@ -10174,7 +10174,7 @@
         "linkedin": "https://www.linkedin.com/in/femosocratis/",
         "github": "https://github.com/phemmylintry"
       },
-      "jobTitle": "Full Stack Web Developer",
+      "jobTitle": "Web Developer",
       "location": {
         "city": "Lagos",
         "state": "",
@@ -12134,9 +12134,9 @@
     {
       "id": 847,
       "name": "Kumar Aditya",
-      "img": "YOUR_IMG_URL",
+      "img": "https://kumaraditya.herokuapp.com/about/assets/img/profile-img.jpg",
       "links": {
-        "website": "https://nnhhiilliisstt.github.io/KumarAditya-portfolio/",
+        "website": "https://kumaraditya.herokuapp.com/",
         "linkedin": "https://www.linkedin.com/in/kumar-aditya-77a2b4194/",
         "github": "https://github.com/nnhhiilliisstt"
       },
@@ -12292,6 +12292,22 @@
     }
     },
     {
+      "id": 865,
+      "name": "Trejon Stallsworth",
+      "img": "https://avatars2.githubusercontent.com/u/50248674?s=460&u=8624e2ac772606d44807f794f59658f7a5664cde&v=4",
+      "links": {
+        "website": "https://trejon.github.io/TrejonStallsworthPortfolio/",
+        "linkedin": "https://www.linkedin.com/in/TrejonStallsworth/",
+        "github": "https://github.com/Trejon"
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "Denver",
+        "state": "Colorado",
+        "country": "USA"
+      }
+    },
+    {
       "id": 857,
       "name": "Paul Marik",
       "img": "https://i.imgur.com/ZazkmQd.jpg",
@@ -12321,6 +12337,149 @@
         "city": "Boudha",
         "state": "Kathmandu",
         "country": "Nepal"
+      }
+    },
+    {
+      "id": 859,
+      "name": "Ghizlane BOUSKRI",
+      "img": "http://ghizlaneb.pythonanywhere.com/about.html",
+      "links": {
+        "website": "http://ghizlaneb.pythonanywhere.com/index.html",
+        "linkedin": "https://www.linkedin.com/in/ghizlane-bouskri-physics/",
+        "github": "https://github.com/GhizlaneBOUSKRI"
+      },
+      "jobTitle": "Full stack developer",
+      "location": {
+        "city": "Düsseldorf",
+        "state": "NRW",
+        "country": "Germany"
+      }
+    },
+    {
+      "id": 859,
+      "name": "Nikolay Almazov",
+      "img": "https://github.com/nalmazov.png",
+      "links": {
+        "website": "https://www.linkedin.com/in/nikolay-almazov-10b40892/",
+        "linkedin": "https://www.linkedin.com/in/nikolay-almazov-10b40892/",
+        "github": "https://github.com/NAlmazov"
+      },
+      "jobTitle": "Product Manager|Consultant|Aspiring Full-Stack Developer",
+      "location": {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "USA"
+      }
+    },
+    {
+      "id": [860],
+      "name": "Enora Lecuyer",
+      "img": "https://media-exp1.licdn.com/dms/image/C5603AQHWpzQNlm5yCA/profile-displayphoto-shrink_400_400/0?e=1595462400&v=beta&t=4UssIs_APwAEYyoQaXJ0V6Dfp9SAASPUaYtkc7HbksM",
+      "links": {
+        "website": "http://www.enoralecuyer.com/",
+        "linkedin": "https://www.linkedin.com/in/enoralecuyer1/",
+        "github": "https://github.com/enoralecuyer"
+      },
+      "jobTitle": "Front-End Developer",
+      "location": {
+        "city": "Irvine",
+        "state": "California",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 860,
+      "name": "Hunter Vitous",
+      "img": "https://github.com/hmvitous.png",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/hunter-vitous-07839a10b/",
+        "github": "https://github.com/hmvitous"
+      },
+      "jobTitle": "Full-Stack Developer",
+      "location": {
+        "city": "Bromma",
+        "state": "Stockholm",
+        "country": "Sweden"
+      }
+    },
+    {
+      "id": 861,
+      "name": "Hulya Karakaya",
+      "img": "https://twitter.com/hulyakarakayaa/photo",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/hulya-karakaya/",
+        "github": "https://github.com/hulyak"
+      },
+      "jobTitle": "Front End Developer",
+      "location": {
+        "city": "Seattle",
+        "state": "Washington",
+        "country": "United States"
+      }
+    }
+    ,{
+      "id": 861,
+      "name": "Yuchen Zhang",
+      "img": "https://avatars2.githubusercontent.com/u/20440998?s=400&u=e8f46d4a07da6a879e167ce152f1a409df566274&v=4",
+      "links": {
+        "website": "https://seraph-yczhang.github.io/me/",
+        "linkedin": "https://www.linkedin.com/in/yuchen-zhang-buffalo/",
+        "github": "https://github.com/Seraph-YCZhang"
+      },
+      "jobTitle": "Software Developer",
+      "location": {
+        "city": "Buffalo",
+        "state": "New York",
+        "country": "United States"
+      }
+    },{
+      "id": 862,
+      "name": "Rayyan Saeed",
+      "img": "",
+      "links": {
+        "website": "http://rayyansaeed.info/",
+        "linkedin": "https://www.linkedin.com/in/rayyansaeed/",
+        "github": "https://github.com/streehawk"
+      },
+      "jobTitle": "Software Developer",
+      "location": {
+        "city": "Sacramento",
+        "state": "California",
+        "country": "United States"
+      }
+    }
+    ,{
+      "id": 863,
+      "name": "Juan Agustín Morello",
+      "img": "https://avatars0.githubusercontent.com/u/32440750?s=460&u=89f48aa8c4b9a6071821b87035bab623c129d990&v=4",
+      "links": {
+        "website": "https://jamorello.github.io/",
+        "linkedin": "https://www.linkedin.com/in/juan-agust%C3%ADn-morello-a46385184/",
+        "github": "https://github.com/JAMorello"
+      },
+      "jobTitle": "Programador Junior",
+      "location": {
+        "city": "Parque Chas",
+        "state": "Ciudad de Buenos Aires",
+        "country": "Argentina"
+      }
+  },
+    {
+      "id": 864,
+      "name": "Rudi Bester",
+      "img": "http://www.rudibester.co.za/static/assets/images/portfolio_pic.jpeg",
+      "links": {
+        "website": "http://www.rudibester.co.za",
+        "linkedin": "https://www.linkedin.com/in/rudi-bester-a18878199/",
+        "github": "https://github.com/rudibester"
+      },
+      "jobTitle": "Software Developer|Aspiring Data Scientist|ML Enthusiast",
+      "location": {
+        "city": "Cape Town",
+        "state": "",
+        "country": "South Africa"
       }
     }
   ]
