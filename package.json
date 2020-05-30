@@ -41,6 +41,7 @@
   "devDependencies": {
     "gh-pages": "^2.1.1",
     "glob-all": "^3.1.0",
+    "jsonlint": "^1.6.3",
     "purgecss-webpack-plugin": "^1.6.0"
   },
   "browserslist": [

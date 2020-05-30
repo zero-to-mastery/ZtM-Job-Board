@@ -1,13 +1,12 @@
-import React, { useState } from "react"
+import React, { useState, lazy, Suspense } from "react"
 import Search from "./components/Search"
-import SimpleMap from "./components/Map"
 import { createFilter } from "react-search-input"
 import { shuffle } from "./util/shuffle"
 import "./styles/SearchBarMobileView.scss"
 import BatchCards from "./components/BatchCards"
 import Navbar from "./components/Navbar"
-
 import data from "./assets/persons.json"
+const SimpleMap = lazy(() => import("./components/Map"))
 
 const people: any = data.people
 
@@ -17,25 +16,26 @@ const style: React.CSSProperties = {
   width: "100%",
   margin: "0 0 2rem 0",
   zIndex: 1,
-  borderRadius: "5px"
+  borderRadius: "5px",
 }
 const responsiveSearch = {
   width: "100%",
   marginBottom: "0.5rem",
-  padding: "0.5rem"
+  padding: "0.5rem",
 }
 const KEYS_TO_FILTERS = [
   "name",
   "jobTitle",
   "location.city",
   "location.state",
-  "location.country"
+  "location.country",
 ]
 
 function App() {
   const [searchfield, setSearchfield] = useState("")
 
   const [map, setMap] = useState(false)
+  const [mapOrHomeTitle, setMapOrHomeTitle] = useState("Map")
 
   const filteredPersons = (searchFilter: any) =>
     people.filter(createFilter(searchFilter, KEYS_TO_FILTERS))
@@ -50,12 +50,28 @@ function App() {
         <Navbar
           onLogoClick={() => setMap(false)}
           onSearchChange={(e: any) => setSearchfield(e.target.value)}
-          onMapClick={() => setMap(!map)}
+          onMapClick={() => {
+            setMap(!map)
+            setMapOrHomeTitle(map ? "Map" : "Home")
+          }}
+          mapOrHomeTitle={mapOrHomeTitle}
         />
       </header>
       <main className="flex-auto">
         {map ? (
-          <SimpleMap />
+          <Suspense
+            fallback={
+              <div>
+                <p>Loading Map...</p>
+                <p>
+                  Try refreshing if it doesn't load or check internet connection
+                  and try again later.
+                </p>
+              </div>
+            }
+          >
+            <SimpleMap />
+          </Suspense>
         ) : (
           <div id="sketch-particles">
             <div className="visible-on-mobileview-only" style={style}>
