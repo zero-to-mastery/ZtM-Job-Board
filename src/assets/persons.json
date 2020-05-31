@@ -12465,8 +12465,8 @@
         "state": "Ciudad de Buenos Aires",
         "country": "Argentina"
       }
-  },
-    {
+  }
+    ,{
       "id": 864,
       "name": "Rudi Bester",
       "img": "http://www.rudibester.co.za/static/assets/images/portfolio_pic.jpeg",
@@ -12481,6 +12481,23 @@
         "state": "",
         "country": "South Africa"
       }
+  }
+    ,{
+    "id": 865,
+    "name": "Ujjwal Adhikari",
+    "img": "https://www.photobox.co.uk/my/photo/full?photo_id=503026919760",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/ujjwal-adhikari-3a946418b/",
+      "github": "https://github.com/ujjwal66"
+    },
+    "jobTitle": "Fullstack Developer",
+    "location": {
+      "city": "Kathmandu",
+      "state": "",
+      "country": "Nepal"
     }
+
+  }
   ]
 }
