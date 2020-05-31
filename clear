@@ -1,0 +1,26 @@
+[1mdiff --git a/persons.json b/persons.json[m
+[1mindex 0782d7d..b13ea68 100644[m
+[1m--- a/persons.json[m
+[1m+++ b/persons.json[m
+[36m@@ -111,4 +111,20 @@[m
+         "country": "Romania"[m
+       }[m
+     }[m
+[32m+[m[32m    ,{[m
+[32m+[m[32m    "id": 1007,[m
+[32m+[m[32m    "name": "Muhammad Haroon Saad",[m
+[32m+[m[32m    "img": "",[m
+[32m+[m[32m    "links": {[m
+[32m+[m[32m      "website": "https://haroonsaad247622.github.io/HarrySalts/",[m
+[32m+[m[32m      "linkedin": "www.linkedin.com/in/muhammad-haroon-saad-7b58bb1a9",[m
+[32m+[m[32m      "github": "https://github.com/Haroonsaad247622"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "jobTitle": "Full Stack Developer",[m
+[32m+[m[32m    "location": {[m
+[32m+[m[32m      "city": "Bahawalpur",[m
+[32m+[m[32m      "state": "Punjab",[m
+[32m+[m[32m      "country": "Pakistan"[m
+[32m+[m[32m    }[m
+[32m+[m[32m  }[m
+   }[m
+\ No newline at end of file[m
