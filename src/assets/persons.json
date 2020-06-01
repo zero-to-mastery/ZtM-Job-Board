@@ -12465,8 +12465,8 @@
         "state": "Ciudad de Buenos Aires",
         "country": "Argentina"
       }
-  },
-    {
+  }
+    ,{
       "id": 864,
       "name": "Rudi Bester",
       "img": "http://www.rudibester.co.za/static/assets/images/portfolio_pic.jpeg",
@@ -12497,6 +12497,38 @@
         "state": "Uttar-Pradesh",
         "country": "India"
       }
+  }
+    ,{
+    "id": 866,
+    "name": "Ujjwal Adhikari",
+    "img": "https://www.photobox.co.uk/my/photo/full?photo_id=503026919760",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/ujjwal-adhikari-3a946418b/",
+      "github": "https://github.com/ujjwal66"
+    },
+    "jobTitle": "Fullstack Developer",
+    "location": {
+      "city": "Kathmandu",
+      "state": "",
+      "country": "Nepal"
     }
+    },
+     {
+      "id": 867,
+      "name": "Manas Kulkarni",
+      "img": "https://manas588.github.io/portfo/static/media/thatsme.755846f5.jpg",
+      "links": {
+        "website": "https://manas588.github.io/portfo/",
+        "linkedin": "https://www.linkedin.com/in/manas-kulkarni-093900162/",
+        "github": "https://github.com/Manas588"
+      },
+      "jobTitle": "Web Developer",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India"
+        }
+      }
   ]
 }
