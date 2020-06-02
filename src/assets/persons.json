@@ -12481,6 +12481,22 @@
         "state": "",
         "country": "South Africa"
       }
+    },
+    {
+      "id": 865,
+      "name": "Tiago Santos",
+      "img": "https://www.tiagofbsantos.com/static/media/profile_pic.1112a6fe.jpg",
+      "links": {
+        "website": "https://www.tiagofbsantos.com/",
+        "linkedin": "https://www.linkedin.com/in/tiagofbsantos/",
+        "github": "https://github.com/tiagofbsantos"
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "Toronto",
+        "state": "",
+        "country": "Canada (relocate & remote willingness)"
+      }
     }
   ]
 }
