@@ -12529,6 +12529,22 @@
         "state": "Maharashtra",
         "country": "India"
         }
+      },
+			{
+      "id": 868,
+      "name": "Laura Laane",
+      "img": "https://avatars2.githubusercontent.com/u/60161430?s=400&u=73a0e0fad959e40eabc836d558384f76e18174cf&v=4",
+      "links": {
+        "website": "http://www.lalaane.com/",
+        "linkedin": "https://www.linkedin.com/in/laura-laane/",
+        "github": "https://github.com/lalaane"
+      },
+      "jobTitle": "Web Developer",
+      "location": {
+        "city": "Toronto",
+        "state": "Ontario",
+        "country": "Canada"
+        }
       }
   ]
 }
