@@ -141,4 +141,20 @@
     "state": "Punjab",
     "country": "Pakistan"
   }
+},
+{
+  "id": 1009,
+  "name": "Lysa Unku-Jones",
+  "img": "https://github.com/Wildelyssa/portfolio-website/blob/gh-pages/Images/LysaFace.jpg",
+  "links": {
+    "website": "https://wildelyssa.github.io/",
+    "linkedin": "https://www.linkedin.com/in/lysa-unku-jones/",
+    "github": "https://github.com/Wildelyssa"
+  },
+  "jobTitle": "Junior Web Developer",
+  "location": {
+    "city": "London",
+    "state": "London",
+    "country": "United Kingdom"
+  }
 }
