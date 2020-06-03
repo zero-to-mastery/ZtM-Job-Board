@@ -12465,6 +12465,7 @@
         "state": "Ciudad de Buenos Aires",
         "country": "Argentina"
       }
+
   },
     {
       "id": 865,
@@ -12483,6 +12484,7 @@
       }
     },
     {
+
      "id": 866,
      "name": "Hulya Karakaya",
       "img": "https://twitter.com/hulyakarakayaa/photo",
@@ -12497,6 +12499,54 @@
         "state": "Washington",
         "country": "United States"
       }
+    },
+    {
+      "id": 867,
+      "name": "Swati Dixit",
+      "img": "https://media-exp1.licdn.com/dms/image/C5103AQH8Fq_1_gRtDg/profile-displayphoto-shrink_200_200/0?e=1596672000&v=beta&t=xOFaNEZNL_sw46ataKaupw7p_KSyuG93Fx_4heZ0-E8 ",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/swati-dixit-458971170",
+        "github": "https://github.com/swatiidixit"
+      },
+      "jobTitle": "Software-Developer",
+      "location": {
+        "city": "Kanpur",
+        "state": "Uttar-Pradesh",
+        "country": "India"
+      }
+  }
+    ,{
+    "id": 868,
+    "name": "Ujjwal Adhikari",
+    "img": "https://www.photobox.co.uk/my/photo/full?photo_id=503026919760",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/ujjwal-adhikari-3a946418b/",
+      "github": "https://github.com/ujjwal66"
+    },
+    "jobTitle": "Fullstack Developer",
+    "location": {
+      "city": "Kathmandu",
+      "state": "",
+      "country": "Nepal"
     }
+    },
+     {
+      "id": 869,
+      "name": "Manas Kulkarni",
+      "img": "https://manas588.github.io/portfo/static/media/thatsme.755846f5.jpg",
+      "links": {
+        "website": "https://manas588.github.io/portfo/",
+        "linkedin": "https://www.linkedin.com/in/manas-kulkarni-093900162/",
+        "github": "https://github.com/Manas588"
+      },
+      "jobTitle": "Web Developer",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India"
+        }
+      }
   ]
 }
