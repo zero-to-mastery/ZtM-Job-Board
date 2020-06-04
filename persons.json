@@ -142,8 +142,7 @@
     "country": "Pakistan"
   }
 },
-
- {
+{
   "id": [1009],
   "name": "Mehdi E.Manioui",
   "img": "https://i.ibb.co/zPFG407/Photo.jpg",
@@ -158,4 +157,4 @@
     "state": "Manitoba",
     "country": "Canada"
   }
- },
+}
