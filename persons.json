@@ -156,5 +156,20 @@
     "city": "Winnipeg",
     "state": "Manitoba",
     "country": "Canada"
+  },
+  {
+  "id": 1010,
+  "name": "Ankitha C",
+  "img": "",
+  "links": {
+    "website": "https://ankithac.github.io//",
+    "linkedin": "https://www.linkedin.com/in/ankitha-chowlur-0a47821a4/",
+    "github": "https://github.com/ankithac"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India"
   }
 }
