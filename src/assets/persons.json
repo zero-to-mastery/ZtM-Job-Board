@@ -10174,7 +10174,7 @@
         "linkedin": "https://www.linkedin.com/in/femosocratis/",
         "github": "https://github.com/phemmylintry"
       },
-      "jobTitle": "Full Stack Web Developer",
+      "jobTitle": "Web Developer",
       "location": {
         "city": "Lagos",
         "state": "",
@@ -12386,8 +12386,8 @@
         "state": "California",
         "country": "United States"
       }
-    }
-    ,{
+    },
+    {
       "id": 860,
       "name": "Hunter Vitous",
       "img": "https://github.com/hmvitous.png",
@@ -12402,6 +12402,149 @@
         "state": "Stockholm",
         "country": "Sweden"
       }
+    },
+    {
+      "id": 861,
+      "name": "Hulya Karakaya",
+      "img": "https://twitter.com/hulyakarakayaa/photo",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/hulya-karakaya/",
+        "github": "https://github.com/hulyak"
+      },
+      "jobTitle": "Front End Developer",
+      "location": {
+        "city": "Seattle",
+        "state": "Washington",
+        "country": "United States"
+      }
     }
+    ,{
+      "id": 861,
+      "name": "Yuchen Zhang",
+      "img": "https://avatars2.githubusercontent.com/u/20440998?s=400&u=e8f46d4a07da6a879e167ce152f1a409df566274&v=4",
+      "links": {
+        "website": "https://seraph-yczhang.github.io/me/",
+        "linkedin": "https://www.linkedin.com/in/yuchen-zhang-buffalo/",
+        "github": "https://github.com/Seraph-YCZhang"
+      },
+      "jobTitle": "Software Developer",
+      "location": {
+        "city": "Buffalo",
+        "state": "New York",
+        "country": "United States"
+      }
+    },{
+      "id": 862,
+      "name": "Rayyan Saeed",
+      "img": "",
+      "links": {
+        "website": "http://rayyansaeed.info/",
+        "linkedin": "https://www.linkedin.com/in/rayyansaeed/",
+        "github": "https://github.com/streehawk"
+      },
+      "jobTitle": "Software Developer",
+      "location": {
+        "city": "Sacramento",
+        "state": "California",
+        "country": "United States"
+      }
+    }
+    ,{
+      "id": 863,
+      "name": "Juan Agustín Morello",
+      "img": "https://avatars0.githubusercontent.com/u/32440750?s=460&u=89f48aa8c4b9a6071821b87035bab623c129d990&v=4",
+      "links": {
+        "website": "https://jamorello.github.io/",
+        "linkedin": "https://www.linkedin.com/in/juan-agust%C3%ADn-morello-a46385184/",
+        "github": "https://github.com/JAMorello"
+      },
+      "jobTitle": "Programador Junior",
+      "location": {
+        "city": "Parque Chas",
+        "state": "Ciudad de Buenos Aires",
+        "country": "Argentina"
+      }
+  }
+    ,{
+      "id": 864,
+      "name": "Rudi Bester",
+      "img": "http://www.rudibester.co.za/static/assets/images/portfolio_pic.jpeg",
+      "links": {
+        "website": "http://www.rudibester.co.za",
+        "linkedin": "https://www.linkedin.com/in/rudi-bester-a18878199/",
+        "github": "https://github.com/rudibester"
+      },
+      "jobTitle": "Software Developer|Aspiring Data Scientist|ML Enthusiast",
+      "location": {
+        "city": "Cape Town",
+        "state": "",
+        "country": "South Africa"
+      }
+    },
+    {
+      "id": 865,
+      "name": "Swati Dixit",
+      "img": "https://media-exp1.licdn.com/dms/image/C5103AQH8Fq_1_gRtDg/profile-displayphoto-shrink_200_200/0?e=1596672000&v=beta&t=xOFaNEZNL_sw46ataKaupw7p_KSyuG93Fx_4heZ0-E8 ",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/swati-dixit-458971170",
+        "github": "https://github.com/swatiidixit"
+      },
+      "jobTitle": "Software-Developer",
+      "location": {
+        "city": "Kanpur",
+        "state": "Uttar-Pradesh",
+        "country": "India"
+      }
+  }
+    ,{
+    "id": 866,
+    "name": "Ujjwal Adhikari",
+    "img": "https://www.photobox.co.uk/my/photo/full?photo_id=503026919760",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/ujjwal-adhikari-3a946418b/",
+      "github": "https://github.com/ujjwal66"
+    },
+    "jobTitle": "Fullstack Developer",
+    "location": {
+      "city": "Kathmandu",
+      "state": "",
+      "country": "Nepal"
+    }
+    },
+     {
+      "id": 867,
+      "name": "Manas Kulkarni",
+      "img": "https://manas588.github.io/portfo/static/media/thatsme.755846f5.jpg",
+      "links": {
+        "website": "https://manas588.github.io/portfo/",
+        "linkedin": "https://www.linkedin.com/in/manas-kulkarni-093900162/",
+        "github": "https://github.com/Manas588"
+      },
+      "jobTitle": "Web Developer",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India"
+        }
+      },
+    {
+      "id": 868,
+      "name": "Gain John",
+      "img": "https://avatars1.githubusercontent.com/u/46064597?s=460&u=a8251d1212695511856806c3f7bf53aacd1a2f3c&v=4",
+      "links": {
+        "website": "http://hoxnox.herokuapp.com/Dhaxor123/940/",
+        "linkedin": "https://www.linkedin.com/gain-john",
+        "github": "https://github.com/dhaxor"
+      },
+      "jobTitle": "Fullstack Developer",
+      "location": {
+        "city": "Portharcourt",
+        "state": "Rivers",
+        "country": "Nigeria"
+        }
+      }
   ]
 }
