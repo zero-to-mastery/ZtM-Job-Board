@@ -12546,6 +12546,7 @@
         "country": "Nigeria"
         }
       },
+    {
     "id": 869,
       "name": "Fems Seimiekumo Solomon",
       "img": "https://web.facebook.com/sliem.king?fref=nf&__tn__=%2Cdm-R-R&eid=ARAVNoKmbEtR3Z4Aj1FRtMPaJtgESkWxhjCIWxfn_xFZ-EFOaTK4ylSRp_aIC1knDLZAtdPvtRwlk9Jk",
@@ -12562,5 +12563,20 @@
         }
       },
     {
+      "id": 870,
+      "name": "Rallapalli Goutham Deekshith",
+      "img": "https://avatars3.githubusercontent.com/u/41180415?s=400&u=55c6c1cfd7c6c1850b0ba35296ff2834f395dd31&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/rgdeekshith/",
+        "github": "https://github.com/rgdeekshith"
+      },
+      "jobTitle": "Data Science | Machine Learning | Web Developer",
+      "location": {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "country": "India"
+        }
+      }
   ]
 }
