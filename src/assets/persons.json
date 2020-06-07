@@ -12545,6 +12545,22 @@
         "state": "Rivers",
         "country": "Nigeria"
         }
-      }
+      },
+    "id": 869,
+      "name": "Fems Seimiekumo Solomon",
+      "img": "https://web.facebook.com/sliem.king?fref=nf&__tn__=%2Cdm-R-R&eid=ARAVNoKmbEtR3Z4Aj1FRtMPaJtgESkWxhjCIWxfn_xFZ-EFOaTK4ylSRp_aIC1knDLZAtdPvtRwlk9Jk",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/seimiekumo-solomon-fems-4a3aa884/",
+        "github": "https://github.com/sliemking"
+      },
+      "jobTitle": "Fullstack Developer",
+      "location": {
+        "city": "Yenagoa",
+        "state": "State",
+        "country": "Nigeria"
+        }
+      },
+    {
   ]
 }
