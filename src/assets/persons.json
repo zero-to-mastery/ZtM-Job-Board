@@ -12465,8 +12465,8 @@
         "state": "Ciudad de Buenos Aires",
         "country": "Argentina"
       }
-  },
-    {
+  }
+    ,{
       "id": 864,
       "name": "Rudi Bester",
       "img": "http://www.rudibester.co.za/static/assets/images/portfolio_pic.jpeg",
@@ -12484,6 +12484,102 @@
     },
     {
       "id": 865,
+      "name": "Swati Dixit",
+      "img": "https://media-exp1.licdn.com/dms/image/C5103AQH8Fq_1_gRtDg/profile-displayphoto-shrink_200_200/0?e=1596672000&v=beta&t=xOFaNEZNL_sw46ataKaupw7p_KSyuG93Fx_4heZ0-E8 ",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/swati-dixit-458971170",
+        "github": "https://github.com/swatiidixit"
+      },
+      "jobTitle": "Software-Developer",
+      "location": {
+        "city": "Kanpur",
+        "state": "Uttar-Pradesh",
+        "country": "India"
+      }
+  }
+    ,{
+    "id": 866,
+    "name": "Ujjwal Adhikari",
+    "img": "https://www.photobox.co.uk/my/photo/full?photo_id=503026919760",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/ujjwal-adhikari-3a946418b/",
+      "github": "https://github.com/ujjwal66"
+    },
+    "jobTitle": "Fullstack Developer",
+    "location": {
+      "city": "Kathmandu",
+      "state": "",
+      "country": "Nepal"
+    }
+  },
+     {
+      "id": 867,
+      "name": "Manas Kulkarni",
+      "img": "https://manas588.github.io/portfo/static/media/thatsme.755846f5.jpg",
+      "links": {
+        "website": "https://manas588.github.io/portfo/",
+        "linkedin": "https://www.linkedin.com/in/manas-kulkarni-093900162/",
+        "github": "https://github.com/Manas588"
+      },
+      "jobTitle": "Web Developer",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India"
+        }
+      },
+    {
+      "id": 868,
+      "name": "Gain John",
+      "img": "https://avatars1.githubusercontent.com/u/46064597?s=460&u=a8251d1212695511856806c3f7bf53aacd1a2f3c&v=4",
+      "links": {
+        "website": "http://hoxnox.herokuapp.com/Dhaxor123/940/",
+        "linkedin": "https://www.linkedin.com/gain-john",
+        "github": "https://github.com/dhaxor"
+      },
+      "jobTitle": "Fullstack Developer",
+      "location": {
+        "city": "Portharcourt",
+        "state": "Rivers",
+        "country": "Nigeria"
+        }
+      },
+    {
+    "id": 869,
+      "name": "Fems Seimiekumo Solomon",
+      "img": "https://web.facebook.com/sliem.king?fref=nf&__tn__=%2Cdm-R-R&eid=ARAVNoKmbEtR3Z4Aj1FRtMPaJtgESkWxhjCIWxfn_xFZ-EFOaTK4ylSRp_aIC1knDLZAtdPvtRwlk9Jk",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/seimiekumo-solomon-fems-4a3aa884/",
+        "github": "https://github.com/sliemking"
+      },
+      "jobTitle": "Fullstack Developer",
+      "location": {
+        "city": "Yenagoa",
+        "state": "State",
+        "country": "Nigeria"
+        }
+      },
+    {
+      "id": 870,
+      "name": "Rallapalli Goutham Deekshith",
+      "img": "https://avatars3.githubusercontent.com/u/41180415?s=400&u=55c6c1cfd7c6c1850b0ba35296ff2834f395dd31&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/rgdeekshith/",
+        "github": "https://github.com/rgdeekshith"
+      },
+      "jobTitle": "Data Science | Machine Learning | Web Developer",
+      "location": {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "country": "India"
+        }
+      },
+    {
+      "id": 871,
       "name": "Tiago Santos",
       "img": "https://www.tiagofbsantos.com/static/media/profile_pic.1112a6fe.jpg",
       "links": {
