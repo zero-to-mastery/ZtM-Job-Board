@@ -12577,6 +12577,22 @@
         "state": "Telangana",
         "country": "India"
         }
+      },
+    {
+      "id": 871,
+      "name": "Darryl Nicerio",
+      "img": "https://avatars1.githubusercontent.com/u/61145387?s=460&u=840fe501089042eb921600d6f3a0ac89ce972bae&v=4",
+      "links": {
+        "website": "https://dnicerio.github.io/",
+        "linkedin": "https://www.linkedin.com/in/darrylnicerio/",
+        "github": "https://github.com/dnicerio"
+      },
+      "jobTitle": "Front-End Web Developer",
+      "location": {
+        "city": "Pasay",
+        "state": "Metro Manila",
+        "country": "Philippines"
       }
+    }  
   ]
 }
