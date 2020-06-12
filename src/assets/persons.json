@@ -12593,6 +12593,22 @@
         "state": "Metro Manila",
         "country": "Philippines"
       }
-    }  
+    },
+    {
+      "id": 877,
+      "name": "Rakshit Kumar",
+      "img": "https://twitter.com/spctr01/photo",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/rakshit-kumar-52b040165/",
+        "github": "https://github.com/spctr01"
+      },
+      "jobTitle": "Data Scientist | ML Engineer",
+      "location": {
+        "city": "Chandigarh",
+        "state": "",
+        "country": "India"
+      }
+    }
   ]
 }
