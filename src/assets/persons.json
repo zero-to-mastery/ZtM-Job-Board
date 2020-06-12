@@ -12418,8 +12418,8 @@
         "state": "Washington",
         "country": "United States"
       }
-    }
-    ,{
+    },
+    {
       "id": 861,
       "name": "Yuchen Zhang",
       "img": "https://avatars2.githubusercontent.com/u/20440998?s=400&u=e8f46d4a07da6a879e167ce152f1a409df566274&v=4",
@@ -12434,7 +12434,8 @@
         "state": "New York",
         "country": "United States"
       }
-    },{
+    },
+    {
       "id": 862,
       "name": "Rayyan Saeed",
       "img": "",
@@ -12449,8 +12450,8 @@
         "state": "California",
         "country": "United States"
       }
-    }
-    ,{
+    },
+    {
       "id": 863,
       "name": "Juan Agustín Morello",
       "img": "https://avatars0.githubusercontent.com/u/32440750?s=460&u=89f48aa8c4b9a6071821b87035bab623c129d990&v=4",
@@ -12465,8 +12466,8 @@
         "state": "Ciudad de Buenos Aires",
         "country": "Argentina"
       }
-  }
-    ,{
+    },
+    {
       "id": 864,
       "name": "Rudi Bester",
       "img": "http://www.rudibester.co.za/static/assets/images/portfolio_pic.jpeg",
@@ -12497,24 +12498,24 @@
         "state": "Uttar-Pradesh",
         "country": "India"
       }
-  }
-    ,{
-    "id": 866,
-    "name": "Ujjwal Adhikari",
-    "img": "https://www.photobox.co.uk/my/photo/full?photo_id=503026919760",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/ujjwal-adhikari-3a946418b/",
-      "github": "https://github.com/ujjwal66"
     },
-    "jobTitle": "Fullstack Developer",
-    "location": {
-      "city": "Kathmandu",
-      "state": "",
-      "country": "Nepal"
-    }
+    {
+      "id": 866,
+      "name": "Ujjwal Adhikari",
+      "img": "https://www.photobox.co.uk/my/photo/full?photo_id=503026919760",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/ujjwal-adhikari-3a946418b/",
+        "github": "https://github.com/ujjwal66"
+      },
+      "jobTitle": "Fullstack Developer",
+      "location": {
+        "city": "Kathmandu",
+        "state": "",
+        "country": "Nepal"
+      }
     },
-     {
+    {
       "id": 867,
       "name": "Manas Kulkarni",
       "img": "https://manas588.github.io/portfo/static/media/thatsme.755846f5.jpg",
@@ -12528,8 +12529,8 @@
         "city": "Mumbai",
         "state": "Maharashtra",
         "country": "India"
-        }
-      },
+      }
+    },
     {
       "id": 868,
       "name": "Gain John",
@@ -12544,10 +12545,10 @@
         "city": "Portharcourt",
         "state": "Rivers",
         "country": "Nigeria"
-        }
-      },
+      }
+    },
     {
-    "id": 869,
+      "id": 869,
       "name": "Fems Seimiekumo Solomon",
       "img": "https://web.facebook.com/sliem.king?fref=nf&__tn__=%2Cdm-R-R&eid=ARAVNoKmbEtR3Z4Aj1FRtMPaJtgESkWxhjCIWxfn_xFZ-EFOaTK4ylSRp_aIC1knDLZAtdPvtRwlk9Jk",
       "links": {
@@ -12560,8 +12561,8 @@
         "city": "Yenagoa",
         "state": "State",
         "country": "Nigeria"
-        }
-      },
+      }
+    },
     {
       "id": 870,
       "name": "Rallapalli Goutham Deekshith",
@@ -12576,8 +12577,8 @@
         "city": "Hyderabad",
         "state": "Telangana",
         "country": "India"
-        }
-      },
+      }
+    },
     {
       "id": 871,
       "name": "Darryl Nicerio",
@@ -12593,6 +12594,22 @@
         "state": "Metro Manila",
         "country": "Philippines"
       }
-    }  
+    },
+    {
+      "id": 872,
+      "name": "Jake Heath",
+      "img": "https://www.facebook.com/photo.php?fbid=939401296422295&set=a.119026958459737&type=3&theater",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/jake-heath-0b38aa196/",
+        "github": "https://github.com/jakedheath123"
+      },
+      "jobTitle": "Junior Full Stack Developer | Northcoders Graduate",
+      "location": {
+        "city": "Leeds",
+        "state": "",
+        "country": "United Kingdom"
+      }
+    }
   ]
 }
