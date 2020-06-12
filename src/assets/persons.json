@@ -12578,8 +12578,24 @@
         "country": "India"
         }
       },
+    {
+      "id": 871,
+      "name": "Darryl Nicerio",
+      "img": "https://avatars1.githubusercontent.com/u/61145387?s=460&u=840fe501089042eb921600d6f3a0ac89ce972bae&v=4",
+      "links": {
+        "website": "https://dnicerio.github.io/",
+        "linkedin": "https://www.linkedin.com/in/darrylnicerio/",
+        "github": "https://github.com/dnicerio"
+      },
+      "jobTitle": "Front-End Web Developer",
+      "location": {
+        "city": "Pasay",
+        "state": "Metro Manila",
+        "country": "Philippines"
+      }
+    },
       {
-        "id": 871,
+        "id": 872,
         "name": "Ilija",
         "img": "https://avatars0.githubusercontent.com/u/26030847?s=400&u=d064ec65c22d0200ed1a674b6ae152d1e34b5fe2&v=4",
         "links": {
