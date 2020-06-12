@@ -12593,6 +12593,23 @@
         "state": "Metro Manila",
         "country": "Philippines"
       }
-    }  
+    }  ,
+    {
+      "id": 872,
+      "name": "SAINITHIN.ARTHAM",
+      "img": "https://photos.google.com/photo/AF1QipOSrma-fypcHtEVq67ajFBi-wpQrWfGqNqcW2by",
+      "links": {
+        "website": "https://sainithin-bit.github.io/Sainitin/",
+        "linkedin": "https://www.linkedin.com/in/sainithin-artham-735241164/",
+        "github": "https://github.com/Sainithin-bit"
+      },
+      "jobTitle": "Full-Stack JavaScript Dev",
+      "location": {
+        "city": "Gurgaon",
+        "state": "Haryana",
+        "country": "INDIA"
+      }
+    },
+    
   ]
 }
