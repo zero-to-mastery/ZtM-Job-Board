@@ -12593,6 +12593,23 @@
         "state": "Metro Manila",
         "country": "Philippines"
       }
-    }  
+    },
+    {
+      "id": 872,
+      "name": "Vishal M",
+      "img": "https://ibb.co/6rHxHqQ",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/vishal-m-2436b018b/",
+        "github": "https://github.com/VishalM23"
+      },
+      "jobTitle": "Deep Learning Enthusisast",
+      "location": {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India"
+      }
+    }
+
   ]
 }
