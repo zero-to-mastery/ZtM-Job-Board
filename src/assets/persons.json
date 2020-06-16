@@ -12641,6 +12641,22 @@
         "state": "",
         "country": "Bangladesh"
       }
+    },
+     {
+      "id": 875,
+      "name": "Sudhip Chandra",
+      "img": "",
+      "links": {
+        "website": "http://sudhip.pythonanywhere.com/",
+        "linkedin": "https://www.linkedin.com/in/sudhip",
+        "github": "https://github.com/Sudhip007"
+      },
+      "jobTitle": " Python Developer ",
+      "location": {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "country": "India"
+      }
     }
   ]
 }
