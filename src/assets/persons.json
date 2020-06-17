@@ -12645,7 +12645,7 @@
      {
       "id": 875,
       "name": "Sudhip Chandra",
-      "img": "",
+      "img": "https://www.facebook.com/photo?fbid=2543971169173865&set=a.1376083265962667",
       "links": {
         "website": "http://sudhip.pythonanywhere.com/",
         "linkedin": "https://www.linkedin.com/in/sudhip",
@@ -12657,6 +12657,22 @@
         "state": "Telangana",
         "country": "India"
       }
+       ,{
+    "id": 876,
+    "name": "MD.Rakibul Hassan",
+    "img": "https://www.linkedin.com/in/rakibul-hassan-designer/",
+    "links": {
+      "website": "http://rakibul.pythonanywhere.com/",
+      "linkedin": "https://www.linkedin.com/in/rakibul-hassan-designer/",
+      "github": "https://github.com/tanvirakibul"
+    },
+    "jobTitle": "Machine Learning Engineer & Web Developer",
+    "location": {
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "country": "Bangladesh"
+    }
+    
     }
   ]
 }
