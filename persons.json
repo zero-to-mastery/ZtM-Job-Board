@@ -174,3 +174,20 @@
       "country": "USA"
     }
   }
+},
+{
+  "id":1011,
+  "name": "Anouar Chlih",
+  "img":"https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528_960_720.jpg",
+  "links": {
+    "website": "https://anouar-chlih.github.io/Background-generator/",
+    "linkedin": "https://fr.linkedin.com/",
+    "github": "https://github.com/Anouar-chlih"
+  },
+  "jobtitle": "Mobile developer",
+  "location": {
+    "city": "Essawira",
+    "state": "Ariha",
+    "country": "Morocco"
+  }
+}

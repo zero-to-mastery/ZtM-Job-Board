@@ -12577,6 +12577,86 @@
         "state": "Telangana",
         "country": "India"
         }
+      },
+    {
+      "id": 871,
+      "name": "Darryl Nicerio",
+      "img": "https://avatars1.githubusercontent.com/u/61145387?s=460&u=840fe501089042eb921600d6f3a0ac89ce972bae&v=4",
+      "links": {
+        "website": "https://dnicerio.github.io/",
+        "linkedin": "https://www.linkedin.com/in/darrylnicerio/",
+        "github": "https://github.com/dnicerio"
+      },
+      "jobTitle": "Front-End Web Developer",
+      "location": {
+        "city": "Pasay",
+        "state": "Metro Manila",
+        "country": "Philippines"
       }
+    },
+    {
+      "id": 872,
+      "name": "Vishal M",
+      "img": "https://ibb.co/6rHxHqQ",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/vishal-m-2436b018b/",
+        "github": "https://github.com/VishalM23"
+      },
+      "jobTitle": "Deep Learning Enthusisast",
+      "location": {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India"
+      }
+    },
+    {
+      "id": 873,
+      "name": "Rakshit Kumar",
+      "img": "https://twitter.com/spctr01/photo",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/rakshit-kumar-52b040165/",
+        "github": "https://github.com/spctr01"
+      },
+      "jobTitle": "Data Scientist | ML Engineer",
+      "location": {
+        "city": "Chandigarh",
+        "state": "",
+        "country": "India"
+      }
+    },
+    {
+      "id": 874,
+      "name": "Shahnewaj Maksud Shoumikh",
+      "img": "https://www.facebook.com/photo.php?fbid=2423741161054065&set=picfp.100002546150649&type=3&theater",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/shahnewaj-maksud-shoumikh-376655108/",
+        "github": "https://github.com/Shoumikh"
+      },
+      "jobTitle": " Front-End Developer ",
+      "location": {
+        "city": "Dhaka",
+        "state": "",
+        "country": "Bangladesh"
+      }
+    },
+     {
+      "id": 875,
+      "name": "Sudhip Chandra",
+      "img": "",
+      "links": {
+        "website": "http://sudhip.pythonanywhere.com/",
+        "linkedin": "https://www.linkedin.com/in/sudhip",
+        "github": "https://github.com/Sudhip007"
+      },
+      "jobTitle": " Python Developer ",
+      "location": {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "country": "India"
+      }
+    }
   ]
 }
