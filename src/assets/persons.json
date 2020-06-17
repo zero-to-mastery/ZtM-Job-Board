@@ -12657,6 +12657,22 @@
         "state": "Telangana",
         "country": "India"
       }
+    },
+    {
+      "id": 876,
+      "name": "MD.Rakibul Hassan",
+      "img": "https://www.linkedin.com/in/rakibul-hassan-designer/",
+      "links": {
+        "website": "http://rakibul.pythonanywhere.com/",
+        "linkedin": "https://www.linkedin.com/in/rakibul-hassan-designer/",
+        "github": "https://github.com/tanvirakibul"
+      },
+      "jobTitle": "Machine Learning Engineer",
+      "location": {
+        "city": "Dhaka",
+        "state": "",
+        "country": "Bangladesh"
+      }
     }
   ]
 }
