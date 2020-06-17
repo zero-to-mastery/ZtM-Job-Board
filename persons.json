@@ -174,3 +174,19 @@
     "country": "Morocco"
   }
 }
+,{
+    "id": 1011,
+    "name": "Ganesh Mali",
+    "img": " ",
+    "links": {
+      "website": " ",
+      "linkedin": "https://www.linkedin.com/in/ganesh-mali-77aab6137/",
+      "github": "https://github.com/Ganesh-mali"
+    },
+    "jobTitle": " Junior software developer",
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
+    }
+  }
