@@ -12657,6 +12657,22 @@
         "state": "Telangana",
         "country": "India"
       }
+    },
+    {
+      "id": 876,
+      "name": "Tajib Smajlovic",
+      "img": "https://avatars1.githubusercontent.com/u/34982684?s=460&u=352a6e389d1a8c546bfe2e75ffd268fd1a8ada5f&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/tajibsmajlovic/",
+        "github": "https://github.com/TajibSmajlovic"
+      },
+      "jobTitle": "Software Engineer",
+      "location": {
+        "city": "Sarajevo",
+        "state": "Federation of Bosnia and Herzegovina",
+        "country": "Bosnia and Herzegovina"
+      }
     }
     ,{
       "id": 876,
