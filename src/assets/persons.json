@@ -12657,6 +12657,22 @@
         "state": "Telangana",
         "country": "India"
       }
-    }
+    },
+    {
+     "id": 876,
+     "name": "Adam Galek",
+     "img": "https://avatars1.githubusercontent.com/u/9027243?s=400&u=eece27b32a320fbf88114fde3f52b84f4b0f3aab&v=4",
+     "links": {
+       "website": "http://www.adamgalek.ca/",
+       "linkedin": "https://www.linkedin.com/in/adamgalek/",
+       "github": "https://github.com/TheGalekxy"
+     },
+     "jobTitle": " Web Developer ",
+     "location": {
+       "city": "Toronto",
+       "state": "Ontario",
+       "country": "Canada"
+     }
+   }
   ]
 }
