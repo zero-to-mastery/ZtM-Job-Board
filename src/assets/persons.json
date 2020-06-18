@@ -12657,6 +12657,23 @@
         "state": "Telangana",
         "country": "India"
       }
-    }
+    },
+    
+    {
+      "id": 876,
+      "name": "Abdulyekeen Afeez",
+      "img": "https://rocky-harbor-83758.herokuapp.com/static/media/afeezdev.6348083e.jpg",
+      "links": {
+        "website": "https://rocky-harbor-83758.herokuapp.com/",
+        "linkedin": "https://www.linkedin.com/in/abdulyekeen-afeez-olawale-6287a0139/",
+        "github": "https://github.com/afeezdev"
+      },
+      "jobTitle": "Front-End | Back-End | Full-Stack Web Developer",
+      "location": {
+        "city": "Lagos",
+        "state": "Lagos",
+        "country": "Nigeria"
+      }
+    },
   ]
 }
