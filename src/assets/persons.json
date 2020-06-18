@@ -12692,3 +12692,20 @@
     }
   ]
 }
+,
+    {
+      "id": 876,
+      "name": "Ganesh Mali",
+      "img": " ",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/ganesh-mali-77aab6137/",
+        "github": "https://github.com/Ganesh-mali"
+      },
+      "jobTitle": " Software Developer ",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India"
+      }
+    },
