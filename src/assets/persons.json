@@ -12675,7 +12675,7 @@
       }
     }
     ,{
-      "id": 876,
+      "id": 877,
       "name": "Kevin Wang",
       "img": "https://www.kevinwang.space/avatar.jpeg",
       "links": {
@@ -12689,23 +12689,38 @@
         "state": "",
         "country": "United Kingdom"
       }
+    },
+    {
+     "id": 878,
+     "name": "Adam Galek",
+     "img": "https://avatars1.githubusercontent.com/u/9027243?s=400&u=eece27b32a320fbf88114fde3f52b84f4b0f3aab&v=4",
+     "links": {
+       "website": "http://www.adamgalek.ca/",
+       "linkedin": "https://www.linkedin.com/in/adamgalek/",
+       "github": "https://github.com/TheGalekxy"
+     },
+     "jobTitle": " Web Developer ",
+     "location": {
+       "city": "Toronto",
+       "state": "Ontario",
+       "country": "Canada"
+     }
+   },
+   {
+    "id": 879,
+    "name": "Ganesh Mali",
+    "img": " ",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/ganesh-mali-77aab6137/",
+      "github": "https://github.com/Ganesh-mali"
+    },
+    "jobTitle": " Software Developer ",
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
     }
+    } 
   ]
 }
-,
-    {
-      "id": 876,
-      "name": "Ganesh Mali",
-      "img": " ",
-      "links": {
-        "website": "",
-        "linkedin": "https://www.linkedin.com/in/ganesh-mali-77aab6137/",
-        "github": "https://github.com/Ganesh-mali"
-      },
-      "jobTitle": " Software Developer ",
-      "location": {
-        "city": "Mumbai",
-        "state": "Maharashtra",
-        "country": "India"
-      }
-    },
