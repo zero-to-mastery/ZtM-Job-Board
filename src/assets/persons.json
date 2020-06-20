@@ -12675,7 +12675,7 @@
       }
     }
     ,{
-      "id": 876,
+      "id": 877,
       "name": "Kevin Wang",
       "img": "https://www.kevinwang.space/avatar.jpeg",
       "links": {
@@ -12694,7 +12694,7 @@
 }
 ,
     {
-      "id": 876,
+      "id": 878,
       "name": "Ganesh Mali",
       "img": " ",
       "links": {
@@ -12709,3 +12709,20 @@
         "country": "India"
       }
     },
+
+  {
+    "id": 879,
+    "name": "Adwiteeya",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/adwiteeya/",
+      "github": "https://github.com/adwiteeya3"
+    },
+    "jobTitle": "Software Developer",
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India"
+    }
+  }
