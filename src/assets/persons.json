@@ -12689,10 +12689,7 @@
         "state": "",
         "country": "United Kingdom"
       }
-    }
-  ]
-}
-,
+    },
     {
       "id": 878,
       "name": "Ganesh Mali",
@@ -12709,9 +12706,24 @@
         "country": "India"
       }
     },
-
+    {
+      "id": 879,
+      "name": "Bianca Goncalves",
+      "img": "",
+      "links": {
+        "website": "https://biancascode.com/",
+        "linkedin": "https://www.linkedin.com/in/bianca-goncalves-247a301a5/",
+        "github": "https://github.com/biancadevelop"
+      },
+      "jobTitle": "Front-End Developer",
+      "location": {
+        "city": "Henderson",
+        "state": "Nevada",
+        "country": "United States"
+      }
+    },
   {
-    "id": 879,
+    "id": 880,
     "name": "Adwiteeya",
     "img": "",
     "links": {
@@ -12726,3 +12738,5 @@
       "country": "India"
     }
   }
+  ]
+}
