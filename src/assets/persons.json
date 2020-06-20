@@ -12691,36 +12691,68 @@
       }
     },
     {
-     "id": 878,
-     "name": "Adam Galek",
-     "img": "https://avatars1.githubusercontent.com/u/9027243?s=400&u=eece27b32a320fbf88114fde3f52b84f4b0f3aab&v=4",
-     "links": {
-       "website": "http://www.adamgalek.ca/",
-       "linkedin": "https://www.linkedin.com/in/adamgalek/",
-       "github": "https://github.com/TheGalekxy"
-     },
-     "jobTitle": " Web Developer ",
-     "location": {
-       "city": "Toronto",
-       "state": "Ontario",
-       "country": "Canada"
-     }
-   },
-   {
-    "id": 879,
-    "name": "Ganesh Mali",
-    "img": " ",
+      "id": 878,
+      "name": "Ganesh Mali",
+      "img": " ",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/ganesh-mali-77aab6137/",
+        "github": "https://github.com/Ganesh-mali"
+      },
+      "jobTitle": " Software Developer ",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India"
+      }
+    },
+    {
+      "id": 879,
+      "name": "Bianca Goncalves",
+      "img": "",
+      "links": {
+        "website": "https://biancascode.com/",
+        "linkedin": "https://www.linkedin.com/in/bianca-goncalves-247a301a5/",
+        "github": "https://github.com/biancadevelop"
+      },
+      "jobTitle": "Front-End Developer",
+      "location": {
+        "city": "Henderson",
+        "state": "Nevada",
+        "country": "United States"
+      }
+    },
+  {
+    "id": 880,
+    "name": "Adwiteeya",
+    "img": "",
     "links": {
       "website": "",
-      "linkedin": "https://www.linkedin.com/in/ganesh-mali-77aab6137/",
-      "github": "https://github.com/Ganesh-mali"
+      "linkedin": "https://www.linkedin.com/in/adwiteeya/",
+      "github": "https://github.com/adwiteeya3"
     },
-    "jobTitle": " Software Developer ",
+    "jobTitle": "Software Developer",
     "location": {
-      "city": "Mumbai",
-      "state": "Maharashtra",
+      "city": "Bangalore",
+      "state": "Karnataka",
       "country": "India"
     }
-    } 
+  },
+  {
+    "id": 881,
+    "name": "Adam Galek",
+    "img": "https://avatars1.githubusercontent.com/u/9027243?s=400&u=eece27b32a320fbf88114fde3f52b84f4b0f3aab&v=4",
+    "links": {
+      "website": "http://www.adamgalek.ca/",
+      "linkedin": "https://www.linkedin.com/in/adamgalek/",
+      "github": "https://github.com/TheGalekxy"
+    },
+    "jobTitle": " Web Developer ",
+    "location": {
+      "city": "Toronto",
+      "state": "Ontario",
+      "country": "Canada"
+    }
+  }
   ]
 }
