@@ -12675,7 +12675,7 @@
       }
     }
     ,{
-      "id": 876,
+      "id": 877,
       "name": "Kevin Wang",
       "img": "https://www.kevinwang.space/avatar.jpeg",
       "links": {
@@ -12722,5 +12722,37 @@
         "country": "India"
       }
     }
+    ,{
+      "id": 879,
+      "name": "Bianca Goncalves",
+      "img": "",
+      "links": {
+        "website": "https://biancascode.com/",
+        "linkedin": "https://www.linkedin.com/in/bianca-goncalves-247a301a5/",
+        "github": "https://github.com/biancadevelop"
+      },
+      "jobTitle": "Front-End Developer",
+      "location": {
+        "city": "Henderson",
+        "state": "Nevada",
+        "country": "United States"
+      }
+    },
+  {
+    "id": 880,
+    "name": "Adwiteeya",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/adwiteeya/",
+      "github": "https://github.com/adwiteeya3"
+    },
+    "jobTitle": "Software Developer",
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India"
+    }
+  }
   ]
 }
