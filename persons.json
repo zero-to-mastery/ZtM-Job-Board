@@ -190,4 +190,20 @@
     "state": "Ariha",
     "country": "Morocco"
   }
-}
+},
+{
+    "id": 1012,
+    "name": "Sheldon Hooper",
+    "img": "https://photos.app.goo.gl/6cnfe2rBfuLFBKgG7",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/sheldon-hooper-626822144/",
+      "github": "https://github.com/SheldonEHooper"
+    },
+    "jobTitle": "Freelance Developer",
+    "location": {
+      "city": "Hoedspruit",
+      "state": "Limpopo",
+      "country": "South Africa"
+    }
+  }

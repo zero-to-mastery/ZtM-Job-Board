@@ -12657,6 +12657,86 @@
         "state": "Telangana",
         "country": "India"
       }
+    },
+    {
+      "id": 876,
+      "name": "Tajib Smajlovic",
+      "img": "https://avatars1.githubusercontent.com/u/34982684?s=460&u=352a6e389d1a8c546bfe2e75ffd268fd1a8ada5f&v=4",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/tajibsmajlovic/",
+        "github": "https://github.com/TajibSmajlovic"
+      },
+      "jobTitle": "Software Engineer",
+      "location": {
+        "city": "Sarajevo",
+        "state": "Federation of Bosnia and Herzegovina",
+        "country": "Bosnia and Herzegovina"
+      }
     }
+    ,{
+      "id": 877,
+      "name": "Kevin Wang",
+      "img": "https://www.kevinwang.space/avatar.jpeg",
+      "links": {
+        "website": "https://kevinwang.space/",
+        "linkedin": "https://www.linkedin.com/in/huanxiangwang/",
+        "github": "https://github.com/kevinmore"
+      },
+      "jobTitle": "Game Engine Developer",
+      "location": {
+        "city": "London",
+        "state": "",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "id": 878,
+      "name": "Ganesh Mali",
+      "img": " ",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/ganesh-mali-77aab6137/",
+        "github": "https://github.com/Ganesh-mali"
+      },
+      "jobTitle": " Software Developer ",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India"
+      }
+    },
+    {
+      "id": 879,
+      "name": "Bianca Goncalves",
+      "img": "",
+      "links": {
+        "website": "https://biancascode.com/",
+        "linkedin": "https://www.linkedin.com/in/bianca-goncalves-247a301a5/",
+        "github": "https://github.com/biancadevelop"
+      },
+      "jobTitle": "Front-End Developer",
+      "location": {
+        "city": "Henderson",
+        "state": "Nevada",
+        "country": "United States"
+      }
+    },
+  {
+    "id": 880,
+    "name": "Adwiteeya",
+    "img": "",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/adwiteeya/",
+      "github": "https://github.com/adwiteeya3"
+    },
+    "jobTitle": "Software Developer",
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India"
+    }
+  }
   ]
 }
