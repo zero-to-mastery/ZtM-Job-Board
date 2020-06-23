@@ -11525,21 +11525,23 @@
       }
     },
     {
-      "id": 814,
-      "name": "Harendra Kumar Kanojiya",
-      "img": "https://media-exp1.licdn.com/dms/image/C5103AQF3dXY-xgSMuA/profile-displayphoto-shrink_800_800/0?e=1591833600&v=beta&t=qByetAC-roUO9T0R3TsSjD2xluoSt7lsR1uxiCVjeQU",
-      "links": {
-        "website": "",
-        "linkedin": "https://www.linkedin.com/in/harendra-verma-157773a9/",
-        "github": "https://github.com/harendra21/"
-      },
-      "jobTitle": "Full Stack Web Developer",
-      "location": {
-        "city": "Gurugram",
-        "state": "Haryana",
-        "country": "India"
-      }
-    },
+            "id": 814,
+            "name": "Harendra Kumar Kanojiya",
+            "img": "https://media-exp1.licdn.com/dms/image/C5103AQF3dXY-xgSMuA/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=7q-gaMWdhbM-acrMEJyShXIwuaZWLr5RNHs-IWMnAFc",
+            "links": {
+                "website": "https://harendra.in",
+                "linkedin": "https://www.linkedin.com/in/harendra-verma-157773a9/",
+                "github": "https://github.com/harendra21/"
+            },
+            "jobTitle": "Full Stack Web Developer",
+            "location": {
+                "city": "Gurugram",
+                "state": "Haryana",
+                "country": "India"
+            }
+        }
+    
+    ,
     {
       "id": 815,
       "name": "Aayush Rajput",
@@ -11746,22 +11748,6 @@
         "city": "Preston",
         "state": "Lancashire",
         "country": "United Kingdom"
-      }
-    },
-    {
-      "id": 828,
-      "name": "Harendra Kumar Kanojiya",
-      "img": "https://media-exp1.licdn.com/dms/image/C5103AQF3dXY-xgSMuA/profile-displayphoto-shrink_800_800/0?e=1592438400&v=beta&t=s36lpYtFqbTSaK4KB9zqXFaCVUQEGyXDcApjKG9H7HI",
-      "links": {
-        "website": "",
-        "linkedin": "https://www.linkedin.com/in/harendra-verma-157773a9/",
-        "github": "https://github.com/harendra21/"
-      },
-      "jobTitle": "Full Stack Web Developer",
-      "location": {
-        "city": "Gurugram",
-        "state": "Haryana",
-        "country": "India"
       }
     },
     {
@@ -12738,8 +12724,24 @@
       "country": "India"
     }
   },
+    {
+            "id": 881,
+            "name": "Gyanendra Knojiya",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR6mgU_w1eipap7G0A4UcaEFH2yxnBfk5uaQj0d3EhF2y_qn185fkzi49yx&usqp=CAU&ec=45673586",
+            "links": {
+                "website": "https://gyanendraknojiya.github.io/myportfolio",
+                "linkedin": "https://www.linkedin.com/in/gyanendraknojiya/",
+                "github": "https://github.com/gyanendraknojiya"
+            },
+            "jobTitle": "Full-Stack Web Developer",
+            "location": {
+                "city": "Lucknow",
+                "state": "Uttar Pradesh",
+                "country": "India"
+            }
+        }, 
   {
-    "id": 881,
+    "id": 882,
     "name": "Adam Galek",
     "img": "https://avatars1.githubusercontent.com/u/9027243?s=400&u=eece27b32a320fbf88114fde3f52b84f4b0f3aab&v=4",
     "links": {
