@@ -189,4 +189,20 @@
       "state": "Limpopo",
       "country": "South Africa"
     }
+  },
+  {
+    "id": 1012,
+    "name": "Charles Baisch",
+    "img": "https://scontent-mia3-2.xx.fbcdn.net/v/t1.15752-9/s2048x2048/104657221_826398961224717_3418521844337803249_n.jpg?_nc_cat=103&_nc_sid=b96e70&_nc_oc=AQmdtEwFiJLsfJ3IAhaYzu9fLgjY6CxmtKfX8S_2t4nG0LbzjtB2EDg-_KrEZUBrFHFi6BqP2xlxGqph4qZRxdpe&_nc_ht=scontent-mia3-2.xx&_nc_tp=7&oh=cfe1f1267110052246fb52a165722854&oe=5F1ADA0F", 
+    "links": {
+      "website": "https://www.baischdevelopment.com",
+      "linkedin": "https://www.linkedin.com/in/charles-baisch/",
+      "github": "https://github.com/Baisch91"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "location": {
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States"
+    }
   }
