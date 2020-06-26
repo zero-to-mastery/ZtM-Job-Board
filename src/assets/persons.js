@@ -12773,6 +12773,22 @@ export const data = {
         "state": "Maharashtra",
         "country": "India"
       }
+    },
+    {
+      "id": uuidv4(),
+      "name": "Tony Duong",
+      "img": "https://avatars1.githubusercontent.com/u/10689662?s=460&u=af55363956173397926612bae05066d272232ccc&v=4",
+      "links": {
+        "website": "http://frenchytony.net",
+        "linkedin": "https://www.linkedin.com/in/nytochin/",
+        "github": "https://github.com/tonystrawberry"
+      },
+      "jobTitle": "Full Stack Web Developer",
+      "location": {
+        "city": "Tokyo",
+        "state": "",
+        "country": "Japan"
+      }
     }
   ]
 }
