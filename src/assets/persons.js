@@ -13151,5 +13151,20 @@ export const data = {
         country: "USA",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Nihal Ramteke",
+      img: "",
+      links: {
+        linkedin: "https://www.linkedin.com/in/nihal-ramteke",
+        github: "https://github.com/ramtekenihal",
+      },
+      jobTitle: "Python Developer | Javascript | Data Scientist | HTML",
+      location: {
+        city: "Mumbai",
+        state: "Maharashtra",
+        country: "India",
+      },
+    },
   ],
 }
