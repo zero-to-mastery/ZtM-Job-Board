@@ -13,9 +13,6 @@ const addDefaultImg = (e: any) => {
 const Card = ({ user }: any) => {
   let { id, img, name, jobTitle, location, links } = user
 
-  let personId = ("000" + id).slice(-3)
-
-  // Using the new id var to filter the new developer submissions
   if (id !== undefined) {
     return (
       <div
@@ -34,13 +31,9 @@ const Card = ({ user }: any) => {
               onError={e => addDefaultImg(e)}
             />
           </LazyLoad>
-          <div className="personId absolute top-1 right-1 fw3 o-0">
-            #{personId}
-          </div>
           <h2 className="name mt3 mb1 ph3 w-100 flex items-center justify-center">
             {name}
           </h2>
-
           <p className="title text-center">{jobTitle}</p>
         </div>
         <div className="main pv2 ph3 flex items-center justify-center">

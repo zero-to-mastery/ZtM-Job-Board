@@ -5,7 +5,7 @@ import { shuffle } from "./util/shuffle"
 import "./styles/SearchBarMobileView.scss"
 import BatchCards from "./components/BatchCards"
 import Navbar from "./components/Navbar"
-import data from "./assets/persons.json"
+import { data } from "./assets/persons.js"
 const SimpleMap = lazy(() => import("./components/Map"))
 
 const people: any = data.people
