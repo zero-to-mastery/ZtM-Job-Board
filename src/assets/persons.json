@@ -11525,23 +11525,22 @@
       }
     },
     {
-            "id": 814,
-            "name": "Harendra Kumar Kanojiya",
-            "img": "https://media-exp1.licdn.com/dms/image/C5103AQF3dXY-xgSMuA/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=7q-gaMWdhbM-acrMEJyShXIwuaZWLr5RNHs-IWMnAFc",
-            "links": {
-                "website": "https://harendra.in",
-                "linkedin": "https://www.linkedin.com/in/harendra-verma-157773a9/",
-                "github": "https://github.com/harendra21/"
-            },
-            "jobTitle": "Full Stack Web Developer",
-            "location": {
-                "city": "Gurugram",
-                "state": "Haryana",
-                "country": "India"
-            }
-        }
-    
-    ,
+      "id": 814,
+      "name": "Harendra Kumar Kanojiya",
+      "img": "https://media-exp1.licdn.com/dms/image/C5103AQF3dXY-xgSMuA/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=7q-gaMWdhbM-acrMEJyShXIwuaZWLr5RNHs-IWMnAFc",
+      "links": {
+        "website": "https://harendra.in",
+        "linkedin": "https://www.linkedin.com/in/harendra-verma-157773a9/",
+        "github": "https://github.com/harendra21/"
+      },
+      "jobTitle": "Full Stack Web Developer",
+      "location": {
+        "city": "Gurugram",
+        "state": "Haryana",
+        "country": "India"
+      }
+    },
+
     {
       "id": 815,
       "name": "Aayush Rajput",
@@ -12404,8 +12403,8 @@
         "state": "Washington",
         "country": "United States"
       }
-    }
-    ,{
+    },
+    {
       "id": 861,
       "name": "Yuchen Zhang",
       "img": "https://avatars2.githubusercontent.com/u/20440998?s=400&u=e8f46d4a07da6a879e167ce152f1a409df566274&v=4",
@@ -12420,7 +12419,8 @@
         "state": "New York",
         "country": "United States"
       }
-    },{
+    },
+    {
       "id": 862,
       "name": "Rayyan Saeed",
       "img": "",
@@ -12435,8 +12435,8 @@
         "state": "California",
         "country": "United States"
       }
-    }
-    ,{
+    },
+    {
       "id": 863,
       "name": "Juan Agustín Morello",
       "img": "https://avatars0.githubusercontent.com/u/32440750?s=460&u=89f48aa8c4b9a6071821b87035bab623c129d990&v=4",
@@ -12451,8 +12451,8 @@
         "state": "Ciudad de Buenos Aires",
         "country": "Argentina"
       }
-  }
-    ,{
+    },
+    {
       "id": 864,
       "name": "Rudi Bester",
       "img": "http://www.rudibester.co.za/static/assets/images/portfolio_pic.jpeg",
@@ -12483,24 +12483,24 @@
         "state": "Uttar-Pradesh",
         "country": "India"
       }
-  }
-    ,{
-    "id": 866,
-    "name": "Ujjwal Adhikari",
-    "img": "https://www.photobox.co.uk/my/photo/full?photo_id=503026919760",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/ujjwal-adhikari-3a946418b/",
-      "github": "https://github.com/ujjwal66"
     },
-    "jobTitle": "Fullstack Developer",
-    "location": {
-      "city": "Kathmandu",
-      "state": "",
-      "country": "Nepal"
-    }
+    {
+      "id": 866,
+      "name": "Ujjwal Adhikari",
+      "img": "https://www.photobox.co.uk/my/photo/full?photo_id=503026919760",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/ujjwal-adhikari-3a946418b/",
+        "github": "https://github.com/ujjwal66"
+      },
+      "jobTitle": "Fullstack Developer",
+      "location": {
+        "city": "Kathmandu",
+        "state": "",
+        "country": "Nepal"
+      }
     },
-     {
+    {
       "id": 867,
       "name": "Manas Kulkarni",
       "img": "https://manas588.github.io/portfo/static/media/thatsme.755846f5.jpg",
@@ -12514,8 +12514,8 @@
         "city": "Mumbai",
         "state": "Maharashtra",
         "country": "India"
-        }
-      },
+      }
+    },
     {
       "id": 868,
       "name": "Gain John",
@@ -12530,10 +12530,10 @@
         "city": "Portharcourt",
         "state": "Rivers",
         "country": "Nigeria"
-        }
-      },
+      }
+    },
     {
-    "id": 869,
+      "id": 869,
       "name": "Fems Seimiekumo Solomon",
       "img": "https://web.facebook.com/sliem.king?fref=nf&__tn__=%2Cdm-R-R&eid=ARAVNoKmbEtR3Z4Aj1FRtMPaJtgESkWxhjCIWxfn_xFZ-EFOaTK4ylSRp_aIC1knDLZAtdPvtRwlk9Jk",
       "links": {
@@ -12546,8 +12546,8 @@
         "city": "Yenagoa",
         "state": "State",
         "country": "Nigeria"
-        }
-      },
+      }
+    },
     {
       "id": 870,
       "name": "Rallapalli Goutham Deekshith",
@@ -12562,8 +12562,8 @@
         "city": "Hyderabad",
         "state": "Telangana",
         "country": "India"
-        }
-      },
+      }
+    },
     {
       "id": 871,
       "name": "Darryl Nicerio",
@@ -12628,7 +12628,7 @@
         "country": "Bangladesh"
       }
     },
-     {
+    {
       "id": 875,
       "name": "Sudhip Chandra",
       "img": "",
@@ -12659,8 +12659,8 @@
         "state": "Federation of Bosnia and Herzegovina",
         "country": "Bosnia and Herzegovina"
       }
-    }
-    ,{
+    },
+    {
       "id": 877,
       "name": "Kevin Wang",
       "img": "https://www.kevinwang.space/avatar.jpeg",
@@ -12674,6 +12674,22 @@
         "city": "London",
         "state": "",
         "country": "United Kingdom"
+      }
+    },
+    {
+      "id": 868,
+      "name": "Laura Laane",
+      "img": "https://avatars2.githubusercontent.com/u/60161430?s=400&u=73a0e0fad959e40eabc836d558384f76e18174cf&v=4",
+      "links": {
+        "website": "http://www.lalaane.com/",
+        "linkedin": "https://www.linkedin.com/in/laura-laane/",
+        "github": "https://github.com/lalaane"
+      },
+      "jobTitle": "Web Developer",
+      "location": {
+        "city": "Toronto",
+        "state": "Ontario",
+        "country": "Canada"
       }
     },
     {
@@ -12708,38 +12724,38 @@
         "country": "United States"
       }
     },
-  {
-    "id": 880,
-    "name": "Adwiteeya",
-    "img": "",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/adwiteeya/",
-      "github": "https://github.com/adwiteeya3"
-    },
-    "jobTitle": "Software Developer",
-    "location": {
-      "city": "Bangalore",
-      "state": "Karnataka",
-      "country": "India"
-    }
-  },
     {
-            "id": 881,
-            "name": "Gyanendra Knojiya",
-            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR6mgU_w1eipap7G0A4UcaEFH2yxnBfk5uaQj0d3EhF2y_qn185fkzi49yx&usqp=CAU&ec=45673586",
-            "links": {
-                "website": "https://gyanendraknojiya.github.io/myportfolio",
-                "linkedin": "https://www.linkedin.com/in/gyanendraknojiya/",
-                "github": "https://github.com/gyanendraknojiya"
-            },
-            "jobTitle": "Full-Stack Web Developer",
-            "location": {
-                "city": "Lucknow",
-                "state": "Uttar Pradesh",
-                "country": "India"
-            }
-        },
+      "id": 880,
+      "name": "Adwiteeya",
+      "img": "",
+      "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/adwiteeya/",
+        "github": "https://github.com/adwiteeya3"
+      },
+      "jobTitle": "Software Developer",
+      "location": {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India"
+      }
+    },
+    {
+      "id": 881,
+      "name": "Gyanendra Knojiya",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR6mgU_w1eipap7G0A4UcaEFH2yxnBfk5uaQj0d3EhF2y_qn185fkzi49yx&usqp=CAU&ec=45673586",
+      "links": {
+        "website": "https://gyanendraknojiya.github.io/myportfolio",
+        "linkedin": "https://www.linkedin.com/in/gyanendraknojiya/",
+        "github": "https://github.com/gyanendraknojiya"
+      },
+      "jobTitle": "Full-Stack Web Developer",
+      "location": {
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "country": "India"
+      }
+    },
     {
       "id": 882,
       "name": "Krisha Shah",
@@ -12754,7 +12770,7 @@
         "city": "Mumbai",
         "state": "Maharashtra",
         "country": "India"
+      }
     }
-  }
   ]
 }
