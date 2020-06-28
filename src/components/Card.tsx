@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react';
 import LazyLoad from "react-lazyload"
 
 const defaultImageDataURI =

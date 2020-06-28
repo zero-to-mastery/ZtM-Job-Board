@@ -6,7 +6,7 @@
   "dependencies": {
     "@types/jest": "^25.1.4",
     "@types/node": "^13.9.5",
-    "@types/react": "^16.9.27",
+    "@types/react": "^16.9.41",
     "@types/react-dom": "^16.9.5",
     "@types/react-lazyload": "^2.6.0",
     "@types/react-leaflet": "^2.5.1",

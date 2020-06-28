@@ -1,4 +1,4 @@
-import React, { useState, lazy, Suspense } from "react"
+import React, { useState, lazy, Suspense } from 'react';
 import Search from "./components/Search"
 import { createFilter } from "react-search-input"
 import { shuffle } from "./util/shuffle"
