@@ -13380,5 +13380,21 @@ export const data = {
         country: "Argentina",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Ethan Glover",
+      img: "https://avatars1.githubusercontent.com/u/3924176?s=460&u=23f3b383da434df5ef9089dfc8927bbc90b305aa",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/ethan-glover/",
+        github: "https://github.com/eglove"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "St. Louis",
+        state: "Missouri",
+        country: "United States"
+      }
+    },
   ],
 }
