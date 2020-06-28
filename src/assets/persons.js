@@ -9,14 +9,14 @@ export const data = {
       links: {
         website: "http://www.hipervision.eu",
         linkedin: "https://www.linkedin.com/in/andrej-zadnik-3929233a",
-        github: "https://github.com/andrejza"
+        github: "https://github.com/andrejza",
       },
       jobTitle: "Full-Stack Dev, C++",
       location: {
         city: "Stuttgart",
         state: "",
-        country: "Germany"
-      }
+        country: "Germany",
+      },
     },
     {
       id: uuidv4(),
@@ -25,14 +25,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/IronCoderXYZ",
-        github: "https://github.com/IronCoderXYZ"
+        github: "https://github.com/IronCoderXYZ",
       },
       jobTitle: "Full-Stack JavaScript Dev",
       location: {
         city: "Denver",
         state: "CO",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -41,14 +41,14 @@ export const data = {
       links: {
         website: "http://pdshah.com",
         linkedin: "https://www.linkedin.com/in/piyush-gupta-3a268826",
-        github: ""
+        github: "",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -57,14 +57,14 @@ export const data = {
       links: {
         website: "https://www.traceofwind.com",
         linkedin: "https://www.linkedin.com/in/traceofwind",
-        github: ""
+        github: "",
       },
       jobTitle: "Full-Stack Designer",
       location: {
         city: "London",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -73,14 +73,14 @@ export const data = {
       links: {
         website: "http://www.dylanthorwaldson.com",
         linkedin: "https://linkedin.com/in/dtthor",
-        github: "https://www.github.com/dtthor"
+        github: "https://www.github.com/dtthor",
       },
       jobTitle: "Fullstack Web Developer",
       location: {
         city: "Austin",
         state: "TX",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -89,14 +89,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/xiujia-guo-88697181",
-        github: "https://github.com/googlr"
+        github: "https://github.com/googlr",
       },
       jobTitle: "Software Engineer/ Developer",
       location: {
         city: "New York City",
         state: "NY",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -105,14 +105,14 @@ export const data = {
       links: {
         website: "https://ktran031.github.io/kt_portfolio",
         linkedin: "https://www.linkedin.com/in/khoi-tran-35564991",
-        github: ""
+        github: "",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Orange County",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -122,14 +122,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/pakchu",
-        github: "https://github.com/spaceforestchu"
+        github: "https://github.com/spaceforestchu",
       },
       jobTitle: "Fullstack (Javascript Developer)",
       location: {
         city: "New York City",
         state: "NY",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -138,14 +138,14 @@ export const data = {
       links: {
         website: "http://www.swapnilgaikwad.tech",
         linkedin: "https://www.linkedin.com/in/swapnil-gaikwad-2095",
-        github: "https://github.com/Swapnil2095"
+        github: "https://github.com/Swapnil2095",
       },
       jobTitle: "Fullstack Developer, Data Scientist (BigData, ML, NLP)",
       location: {
         city: "Pune",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -154,14 +154,14 @@ export const data = {
       links: {
         website: "https://nsiddiqui25.github.io",
         linkedin: "https://www.linkedin.com/in/nsdiqui25",
-        github: "https://github.com/nsiddiqui25"
+        github: "https://github.com/nsiddiqui25",
       },
       jobTitle: "Full-Stack JavaScript Developer",
       location: {
         city: "Chicago",
         state: "IL",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -170,14 +170,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mart%C3%ADn-comito-627a32153",
-        github: "https://github.com/martincomito"
+        github: "https://github.com/martincomito",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Buenos Aires",
         state: "",
-        country: "Argentina"
-      }
+        country: "Argentina",
+      },
     },
     {
       id: uuidv4(),
@@ -186,14 +186,14 @@ export const data = {
       links: {
         website: "http://www.crzna.com",
         linkedin: "https://www.linkedin.com/in/krishnanath",
-        github: "https://github.com/krishnanath"
+        github: "https://github.com/krishnanath",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Malayattoor",
         state: "KL",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -202,14 +202,14 @@ export const data = {
       links: {
         website: "https://oudia15.github.io",
         linkedin: "https://www.linkedin.com/in/diarraoumar",
-        github: "https://github.com/oudia15"
+        github: "https://github.com/oudia15",
       },
       jobTitle: "Full stack Developer",
       location: {
         city: "Louisiana",
         state: "",
-        country: "USA (Willing to relocate!)"
-      }
+        country: "USA (Willing to relocate!)",
+      },
     },
     {
       id: uuidv4(),
@@ -218,14 +218,14 @@ export const data = {
       links: {
         website: "https://wingchhun.github.io/portfolio.github.io",
         linkedin: "https://www.linkedin.com/in/james-chhun-16b1b5120",
-        github: "https://github.com/wingchhun"
+        github: "https://github.com/wingchhun",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "San Diego",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -235,14 +235,14 @@ export const data = {
       links: {
         website: "https://iamismael.com",
         linkedin: "https://www.linkedin.com/in/ismael-vazquez-jr-0415a1104",
-        github: "https://github.com/IsmaelVazquez"
+        github: "https://github.com/IsmaelVazquez",
       },
       jobTitle: "Full-stack Javascript Developer",
       location: {
         city: "Los Angeles",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -252,14 +252,14 @@ export const data = {
       links: {
         website: "https://wagad22.github.io",
         linkedin: "https://www.linkedin.com/in/adrian-wagener-45b741134",
-        github: "https://github.com/wagad22"
+        github: "https://github.com/wagad22",
       },
       jobTitle: "Fullstack Webdeveloper",
       location: {
         city: "Frankfurt",
         state: "",
-        country: "Germany"
-      }
+        country: "Germany",
+      },
     },
     {
       id: uuidv4(),
@@ -268,14 +268,14 @@ export const data = {
       links: {
         website: "https://nadyafa.com",
         linkedin: "",
-        github: "https://github.com/hopes91"
+        github: "https://github.com/hopes91",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Kirov",
         state: "",
-        country: "Russia"
-      }
+        country: "Russia",
+      },
     },
     {
       id: uuidv4(),
@@ -284,14 +284,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/chiggy1997"
+        github: "https://github.com/chiggy1997",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Mumbai",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -300,14 +300,14 @@ export const data = {
       links: {
         website: "https://murilomiranda.github.io",
         linkedin: "https://www.linkedin.com/in/murilo-miranda-nuesslein",
-        github: "https://github.com/murilomiranda"
+        github: "https://github.com/murilomiranda",
       },
       jobTitle: "Front-end Web Development",
       location: {
         city: "Berlin",
         state: "",
-        country: "Germany"
-      }
+        country: "Germany",
+      },
     },
     {
       id: uuidv4(),
@@ -316,14 +316,14 @@ export const data = {
       links: {
         website: "https://rocketgirl.herokuapp.com",
         linkedin: "https://ca.linkedin.com/in/christineaqui",
-        github: "https://github.com/christine-aqui"
+        github: "https://github.com/christine-aqui",
       },
       jobTitle: "Full-Stack Javascript Developer",
       location: {
         city: "Toronto",
         state: "ON",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -332,14 +332,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/sheelparekh",
-        github: "https://github.com/RizaneEves"
+        github: "https://github.com/RizaneEves",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Champaign",
         state: "IL",
-        country: "USA (Willing to relocate!)"
-      }
+        country: "USA (Willing to relocate!)",
+      },
     },
     {
       id: uuidv4(),
@@ -348,14 +348,14 @@ export const data = {
       links: {
         website: "http://rabinrai.com",
         linkedin: "https://www.linkedin.com/in/rabin-rai-58a43913a",
-        github: "https://github.com/rabinrai44"
+        github: "https://github.com/rabinrai44",
       },
       jobTitle: "Front-End Web Developer",
       location: {
         city: "Grand Raps",
         state: "MI",
-        country: "USA (Remote or Onsite)"
-      }
+        country: "USA (Remote or Onsite)",
+      },
     },
     {
       id: uuidv4(),
@@ -364,14 +364,14 @@ export const data = {
       links: {
         website: "https://github.com/deluxscript",
         linkedin: "https://www.linkedin.com/in/oladele-olorunsola-707a2175",
-        github: ""
+        github: "",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Lagos",
         state: "",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -380,14 +380,14 @@ export const data = {
       links: {
         website: "https://dandzn.com",
         linkedin: "https://www.linkedin.com/in/adannyferguson",
-        github: "https://github.com/danbzns"
+        github: "https://github.com/danbzns",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Gaspésie",
         state: "Quebec",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -396,14 +396,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/kirti010",
-        github: "https://github.com/kirti010"
+        github: "https://github.com/kirti010",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "San Jose",
         state: "CA",
-        country: "USA (Willing to relocate!)"
-      }
+        country: "USA (Willing to relocate!)",
+      },
     },
     {
       id: uuidv4(),
@@ -413,14 +413,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/piotr-kowalski-57379a120",
-        github: "https://github.com/piotrke"
+        github: "https://github.com/piotrke",
       },
       jobTitle: "Full-Stack .NET Developer",
       location: {
         city: "",
         state: "",
-        country: "Poland"
-      }
+        country: "Poland",
+      },
     },
     {
       id: uuidv4(),
@@ -429,14 +429,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/kgothatso-desmond-45b380b2",
-        github: "https://github.com/DesmondThema"
+        github: "https://github.com/DesmondThema",
       },
       jobTitle: "Web Developer (NodeJs, PHP and Magento)",
       location: {
         city: "Cape Town",
         state: "",
-        country: "South Africa"
-      }
+        country: "South Africa",
+      },
     },
     {
       id: uuidv4(),
@@ -445,14 +445,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/isaaczhou",
-        github: "https://github.com/isaaczhou"
+        github: "https://github.com/isaaczhou",
       },
       jobTitle: "Chief Data Scientist",
       location: {
         city: "New York City",
         state: "NY",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -461,14 +461,14 @@ export const data = {
       links: {
         website: "https://abdusdev.me",
         linkedin: "https://www.linkedin.com/in/thisisabdus",
-        github: "https://github.com/thisisabdus"
+        github: "https://github.com/thisisabdus",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Assam",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -477,14 +477,14 @@ export const data = {
       links: {
         website: "https://mohammedmulazada.nl",
         linkedin: "https://www.linkedin.com/in/mohammed-mulazada-81096b5b",
-        github: "https://github.com/moniac"
+        github: "https://github.com/moniac",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Amsterdam",
         state: "",
-        country: "Netherlands"
-      }
+        country: "Netherlands",
+      },
     },
     {
       id: uuidv4(),
@@ -493,14 +493,14 @@ export const data = {
       links: {
         website: "https://tinauwtron.github.io",
         linkedin: "",
-        github: "https://github.com/tinauwtron"
+        github: "https://github.com/tinauwtron",
       },
       jobTitle: "Front End Web Developer",
       location: {
         city: "Toronto",
         state: "ON",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -509,14 +509,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/joe-horn-3b306b1",
-        github: "https://github.com/joejhorn"
+        github: "https://github.com/joejhorn",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Reno",
         state: "Nevada",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -525,14 +525,14 @@ export const data = {
       links: {
         website: "https://mikerodev.com",
         linkedin: "https://www.linkedin.com/in/michael-j-robards-630526138",
-        github: "https://github.com/mikerobards"
+        github: "https://github.com/mikerobards",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Atlanta",
         state: "GA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -541,14 +541,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/waqar3"
+        github: "https://github.com/waqar3",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Portsmouth",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -557,14 +557,14 @@ export const data = {
       links: {
         website: "http://malikvishal.me",
         linkedin: "https://www.linkedin.com/in/vishal0027",
-        github: "https://github.com/vishal0027"
+        github: "https://github.com/vishal0027",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Toronto",
         state: "ON",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -573,14 +573,14 @@ export const data = {
       links: {
         website: "https://yifangdi.blogspot.com",
         linkedin: "",
-        github: "https://github.com/YvonneD"
+        github: "https://github.com/YvonneD",
       },
       jobTitle: "Front-end Web Developer",
       location: {
         city: "Flint",
         state: "MI",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -589,14 +589,14 @@ export const data = {
       links: {
         website: "https://magvin.github.io",
         linkedin: "https://www.linkedin.com/in/jeanlitinskis",
-        github: "https://github.com/Magvin"
+        github: "https://github.com/Magvin",
       },
       jobTitle: "Freelance Front-end Web Developer",
       location: {
         city: "Eastbourne",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -606,14 +606,14 @@ export const data = {
       links: {
         website: "https://mkloar.github.io",
         linkedin: "https://www.linkedin.com/in/mkloar",
-        github: "https://github.com/mkloar"
+        github: "https://github.com/mkloar",
       },
       jobTitle: "Front-end Web Developer",
       location: {
         city: "Celje",
         state: "",
-        country: "Slovenia"
-      }
+        country: "Slovenia",
+      },
     },
     {
       id: uuidv4(),
@@ -623,14 +623,14 @@ export const data = {
       links: {
         website: "http://www.bloobloons.com",
         linkedin: "https://www.linkedin.com/in/bloobloons",
-        github: ""
+        github: "",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Portsmouth",
         state: "",
-        country: "UK"
-      }
+        country: "UK",
+      },
     },
     {
       id: uuidv4(),
@@ -639,14 +639,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/amin135"
+        github: "https://github.com/amin135",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Totowa",
         state: "NJ",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -656,14 +656,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/priyanshutyagi1996",
-        github: "https://github.com/priyanshugithub"
+        github: "https://github.com/priyanshugithub",
       },
       jobTitle: "Full-Stack JavaScript Developer",
       location: {
         city: "New Delhi",
         state: "",
-        country: "India (Willing to Relocate!)"
-      }
+        country: "India (Willing to Relocate!)",
+      },
     },
     {
       id: uuidv4(),
@@ -672,14 +672,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/lucky-amadi-40408b41",
-        github: "https://github.com/w3bh4ck"
+        github: "https://github.com/w3bh4ck",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "",
         state: "",
-        country: "Nigeria (Willing to Relocate & Remote)"
-      }
+        country: "Nigeria (Willing to Relocate & Remote)",
+      },
     },
     {
       id: uuidv4(),
@@ -688,14 +688,14 @@ export const data = {
       links: {
         website: "https://pulamusic.github.io",
         linkedin: "https://www.linkedin.com/in/james-carroll-36001511a",
-        github: "https://github.com/pulamusic"
+        github: "https://github.com/pulamusic",
       },
       jobTitle: "Academic & Front-End Developer",
       location: {
         city: "Springfield",
         state: "MA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -704,14 +704,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/KlaidasVysniauskas"
+        github: "https://github.com/KlaidasVysniauskas",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "Preston",
         state: "",
-        country: "UK"
-      }
+        country: "UK",
+      },
     },
     {
       id: uuidv4(),
@@ -720,14 +720,14 @@ export const data = {
       links: {
         website: "https://louisevdb.herokuapp.com",
         linkedin: "https://www.linkedin.com/in/louise-van-den-berg-016179114",
-        github: ""
+        github: "",
       },
       jobTitle: "Fullstack Web Developer",
       location: {
         city: "Johannesburg",
         state: "",
-        country: "South Africa"
-      }
+        country: "South Africa",
+      },
     },
     {
       id: uuidv4(),
@@ -737,14 +737,14 @@ export const data = {
       links: {
         website: "http://matthewcollier.ca",
         linkedin: "https://www.linkedin.com/in/matthewjcollier",
-        github: "https://github.com/matthewcollier1"
+        github: "https://github.com/matthewcollier1",
       },
       jobTitle: "Front-end Web Developer",
       location: {
         city: "Toronto",
         state: "",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -754,14 +754,14 @@ export const data = {
       links: {
         website: "http://sriharsha.ml",
         linkedin: "https://www.linkedin.com/in/harsha444",
-        github: ""
+        github: "",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Durgapur",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -771,14 +771,14 @@ export const data = {
       links: {
         website: "https://kyleyk.github.io",
         linkedin: "https://www.linkedin.com/in/yuankanf",
-        github: "https://github.com/kyleyk"
+        github: "https://github.com/kyleyk",
       },
       jobTitle: "Web Developer/Software Engineer",
       location: {
         city: "San Diego",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -788,14 +788,14 @@ export const data = {
       links: {
         website: "http://jonathanitzen.com",
         linkedin: "https://www.linkedin.com/in/jonathan-itzen",
-        github: ""
+        github: "",
       },
       jobTitle: "WordPress Developer",
       location: {
         city: "Fort Dodge",
         state: "Iowa",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -805,14 +805,14 @@ export const data = {
       links: {
         website: "http://ryanwalkerdevelopment.com",
         linkedin: "https://www.linkedin.com/in/ryan-walker-41082b47",
-        github: ""
+        github: "",
       },
       jobTitle: "Front-end Developer",
       location: {
         city: "Youngstown",
         state: "OH",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -821,14 +821,14 @@ export const data = {
       links: {
         website: "https://dan-alviso.com",
         linkedin: "https://www.linkedin.com/in/dan-alviso",
-        github: "https://github.com/dan-alviso"
+        github: "https://github.com/dan-alviso",
       },
       jobTitle: "Software Developer",
       location: {
         city: "San Francisco Bay Area",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -838,14 +838,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/kofi-osei-nimoh-15148a73",
-        github: ""
+        github: "",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Accra",
         state: "",
-        country: "Ghana"
-      }
+        country: "Ghana",
+      },
     },
     {
       id: uuidv4(),
@@ -854,14 +854,14 @@ export const data = {
       links: {
         website: "https://dyakov.cc",
         linkedin: "https://www.linkedin.com/in/petar-dyakov",
-        github: "https://github.com/PepoDyakov"
+        github: "https://github.com/PepoDyakov",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Sofia",
         state: "",
-        country: "Bulgaria"
-      }
+        country: "Bulgaria",
+      },
     },
     {
       id: uuidv4(),
@@ -870,14 +870,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/wolfgang-kreminger-43386b151",
-        github: "https://github.com/r4pt0s"
+        github: "https://github.com/r4pt0s",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Burgenland",
         state: "",
-        country: "Austria"
-      }
+        country: "Austria",
+      },
     },
     {
       id: uuidv4(),
@@ -886,14 +886,14 @@ export const data = {
       links: {
         website: "https://darrylferdinands.wixsite.com/education",
         linkedin: "https://www.linkedin.com/in/darryl-ferdinands-43b89671",
-        github: "https://github.com/darrylferdinands"
+        github: "https://github.com/darrylferdinands",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "New Delhi",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -902,14 +902,14 @@ export const data = {
       links: {
         website: "https://amaechi-chuks.github.io/part",
         linkedin: "",
-        github: "https://github.com/amaechi-chuks"
+        github: "https://github.com/amaechi-chuks",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Lagos",
         state: "",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -918,14 +918,14 @@ export const data = {
       links: {
         website: "https://jacinto.design",
         linkedin: "https://www.linkedin.com/in/jacintowong",
-        github: "https://github.com/JacintoDesign"
+        github: "https://github.com/JacintoDesign",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "Toronto",
         state: "",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -934,14 +934,14 @@ export const data = {
       links: {
         website: "https://www.fsdev.ml",
         linkedin: "https://www.linkedin.com/in/thomas-dreyer",
-        github: "https://github.com/thomasdreyer"
+        github: "https://github.com/thomasdreyer",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Johannesburg",
         state: "",
-        country: "South Africa"
-      }
+        country: "South Africa",
+      },
     },
     {
       id: uuidv4(),
@@ -950,14 +950,14 @@ export const data = {
       links: {
         website: "https://wcubemedia.com",
         linkedin: "https://www.linkedin.com/in/thimothe-lamoureux",
-        github: "https://github.com/aparadox"
+        github: "https://github.com/aparadox",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Whitehorse",
         state: "Yukon",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -966,14 +966,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ivan-soto-851297127",
-        github: "https://github.com/Panconpeenga"
+        github: "https://github.com/Panconpeenga",
       },
       jobTitle: "Full-Stack Webdeveloper",
       location: {
         city: "Miami",
         state: "FL",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -982,14 +982,14 @@ export const data = {
       links: {
         website: "http://eneaxharja.com",
         linkedin: "https://www.linkedin.com/in/eneax",
-        github: "https://github.com/eneax"
+        github: "https://github.com/eneax",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Chiusi",
         state: "Tuscany",
-        country: "Italy"
-      }
+        country: "Italy",
+      },
     },
     {
       id: uuidv4(),
@@ -999,14 +999,14 @@ export const data = {
       links: {
         website: "http://www.web-max-design.com",
         linkedin: "https://www.linkedin.com/in/tatyana-kasyanenko-a0056a52",
-        github: "https://github.com/TatyanaKasyanenko"
+        github: "https://github.com/TatyanaKasyanenko",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Haifa",
         state: "",
-        country: "Israel"
-      }
+        country: "Israel",
+      },
     },
     {
       id: uuidv4(),
@@ -1016,14 +1016,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/justingrabenbauer",
-        github: "https://github.com/Jgrabenbauer"
+        github: "https://github.com/Jgrabenbauer",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "Quito",
         state: "",
-        country: "Ecuador"
-      }
+        country: "Ecuador",
+      },
     },
     {
       id: uuidv4(),
@@ -1032,14 +1032,14 @@ export const data = {
       links: {
         website: "https://codepen.io/chaznut",
         linkedin: "",
-        github: "https://github.com/chaznut"
+        github: "https://github.com/chaznut",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "Washington DC",
         state: "Baltimore",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -1048,14 +1048,14 @@ export const data = {
       links: {
         website: "https://codepen.io/mauriciospesot",
         linkedin: "https://www.linkedin.com/in/mauriciospesot",
-        github: "https://github.com/mauriciospesot"
+        github: "https://github.com/mauriciospesot",
       },
       jobTitle: "Web Developer, C++ Developer, Computer Engineering student",
       location: {
         city: "Santa Fe",
         state: "",
-        country: "Argentina"
-      }
+        country: "Argentina",
+      },
     },
     {
       id: uuidv4(),
@@ -1065,14 +1065,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/felixmarkman",
-        github: "https://github.com/COBETCKNN17"
+        github: "https://github.com/COBETCKNN17",
       },
       jobTitle: "CPQ Professional",
       location: {
         city: "Evanston",
         state: "IL",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -1081,14 +1081,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/filipe-falcão-607924b0",
-        github: "https://github.com/filipe-falcao"
+        github: "https://github.com/filipe-falcao",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Braga",
         state: "",
-        country: "Portugal"
-      }
+        country: "Portugal",
+      },
     },
     {
       id: uuidv4(),
@@ -1097,14 +1097,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/puja-gaharwar-1635711a",
-        github: "https://github.com/pgakk"
+        github: "https://github.com/pgakk",
       },
       jobTitle: "Web Developer, Front-End Developer",
       location: {
         city: "Atlanta",
         state: "GA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -1113,14 +1113,14 @@ export const data = {
       links: {
         website: "http://zacharyfons.me",
         linkedin: "https://www.linkedin.com/in/zacharyfons",
-        github: "https://www.github.com/nofcaz"
+        github: "https://www.github.com/nofcaz",
       },
       jobTitle: "Front-End Web Developer/Software Engineer/UI Developer",
       location: {
         city: "Simsbury",
         state: "Connecticut",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -1129,14 +1129,14 @@ export const data = {
       links: {
         website: "https://www.oliverdelaviadev.com",
         linkedin: "https://www.linkedin.com/in/oliver-de-la-via-9bb2b39a",
-        github: "https://www.github.com/odelavia"
+        github: "https://www.github.com/odelavia",
       },
       jobTitle: "Front-End Developer/Software Engineer/UI Developer",
       location: {
         city: "Arlington (DC Area)",
         state: "Virginia",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -1146,14 +1146,14 @@ export const data = {
       links: {
         website: "http://alexnielsen.com",
         linkedin: "https://www.linkedin.com/in/alex-nielsen-9a93b113",
-        github: "https://github.com/bushbass"
+        github: "https://github.com/bushbass",
       },
       jobTitle: "Full Stack JavaScript",
       location: {
         city: "Sparta (New York City area)",
         state: "New Jersey",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -1162,14 +1162,14 @@ export const data = {
       links: {
         website: "https://saifeddin1.github.io",
         linkedin: "https://www.linkedin.com/in/saifeddin-matoui-b34a58148",
-        github: "https://github.com/saifeddin1"
+        github: "https://github.com/saifeddin1",
       },
       jobTitle: "Full stack web developer",
       location: {
         city: "Zraoua Nouvelle",
         state: "Gabès",
-        country: "Tunisia"
-      }
+        country: "Tunisia",
+      },
     },
     {
       id: uuidv4(),
@@ -1179,14 +1179,14 @@ export const data = {
       links: {
         website: "https://recofka.github.io",
         linkedin: "https://www.linkedin.com/in/deniserecofka",
-        github: "https://github.com/recofka"
+        github: "https://github.com/recofka",
       },
       jobTitle: "Front-end  Developer",
       location: {
         city: "Amsterdam",
         state: "",
-        country: "Netherlands"
-      }
+        country: "Netherlands",
+      },
     },
     {
       id: uuidv4(),
@@ -1195,14 +1195,14 @@ export const data = {
       links: {
         website: "https://ik2478.github.io/myportfolio",
         linkedin: "https://www.linkedin.com/in/ik-egharevba",
-        github: "https://github.com/ik2478"
+        github: "https://github.com/ik2478",
       },
       jobTitle: "Fullstack Developer",
       location: {
         city: "Chicago",
         state: "",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -1211,14 +1211,14 @@ export const data = {
       links: {
         website: "http://www.slavo7.com",
         linkedin: "https://www.linkedin.com/in/slavoljub-popovic-b38404102",
-        github: "https://github.com/slavo7"
+        github: "https://github.com/slavo7",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Miami",
         state: "FL",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -1228,14 +1228,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/krunal-bhadresha-7701a892",
-        github: "https://github.com/krunalbhadresa"
+        github: "https://github.com/krunalbhadresa",
       },
       jobTitle: "Web Developer/Software Developer",
       location: {
         city: "Kitchener",
         state: "Ontario",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -1244,14 +1244,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ronaldfortmann",
-        github: "https://github.com/A-Sm1th"
+        github: "https://github.com/A-Sm1th",
       },
       jobTitle: "Web Analyst/Full Stack Dev 'Student'",
       location: {
         city: "Bielefeld",
         state: "Nord-Rhine Westfalen",
-        country: "Germany"
-      }
+        country: "Germany",
+      },
     },
     {
       id: uuidv4(),
@@ -1261,14 +1261,14 @@ export const data = {
       links: {
         website: "https://javamajk.github.io/portfolio-site",
         linkedin: "https://www.linkedin.com/in/michal-lewoc-074615114",
-        github: "https://github.com/JavaMajk"
+        github: "https://github.com/JavaMajk",
       },
       jobTitle: "Web Developer & IT Specialist",
       location: {
         city: "Bialystok, Poland",
         state: "New York",
-        country: "Poland <-> USA"
-      }
+        country: "Poland <-> USA",
+      },
     },
     {
       id: uuidv4(),
@@ -1277,14 +1277,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/marcin-pikul-2a86ba120",
-        github: "https://github.com/Pajkul"
+        github: "https://github.com/Pajkul",
       },
       jobTitle: "Freelancer",
       location: {
         city: "Kraków",
         state: "",
-        country: "Poland"
-      }
+        country: "Poland",
+      },
     },
     {
       id: uuidv4(),
@@ -1294,14 +1294,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/diego-salas-noain-b11837146",
-        github: "https://github.com/DiegoSalas27"
+        github: "https://github.com/DiegoSalas27",
       },
       jobTitle: "Web developer",
       location: {
         city: "Lima",
         state: "Lima",
-        country: "Perú"
-      }
+        country: "Perú",
+      },
     },
     {
       id: uuidv4(),
@@ -1311,14 +1311,14 @@ export const data = {
       links: {
         website: "https://leighd2008.github.io/My_Profile",
         linkedin: "https://www.linkedin.com/in/diane-leigh-5251a275",
-        github: "https://github.com/leighd2008"
+        github: "https://github.com/leighd2008",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Leavittsburg",
         state: "Ohio",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -1327,14 +1327,14 @@ export const data = {
       links: {
         website: "https://www.ahsuan.com/",
         linkedin: "https://www.linkedin.com/in/andy-lin-28731413b/",
-        github: "https://github.com/TzuHsuan"
+        github: "https://github.com/TzuHsuan",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Sydney",
         state: "NSW",
-        country: "Australia"
-      }
+        country: "Australia",
+      },
     },
     {
       id: uuidv4(),
@@ -1343,14 +1343,14 @@ export const data = {
       links: {
         website: "http://www.vito-mendoza.com/",
         linkedin: "https://www.linkedin.com/in/vitomendoza/",
-        github: "https://github.com/VitoMendoza"
+        github: "https://github.com/VitoMendoza",
       },
       jobTitle: "Web Developer & QA Engineer",
       location: {
         city: "Santa Cruz",
         state: "",
-        country: "Bolivia"
-      }
+        country: "Bolivia",
+      },
     },
     {
       id: uuidv4(),
@@ -1359,14 +1359,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/vijaychacko",
-        github: "https://github.com/vijaychacko56"
+        github: "https://github.com/vijaychacko56",
       },
       jobTitle: "Software Developer",
       location: {
         city: "San Francisco",
         state: "California",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -1376,14 +1376,14 @@ export const data = {
       links: {
         website: "https://angiehm.github.io",
         linkedin: "www.linkedin.com/in/angela-mizero",
-        github: "https://github.com/AngieHM/"
+        github: "https://github.com/AngieHM/",
       },
       jobTitle: "Full stack Developer",
       location: {
         city: "Antwerp",
         state: "Antwerp",
-        country: "Belgium"
-      }
+        country: "Belgium",
+      },
     },
     {
       id: uuidv4(),
@@ -1393,14 +1393,14 @@ export const data = {
         website: "https://codepen.io/dirk005/full/QrgMJB/",
         linkedin:
           "https://www.linkedin.com/in/dirk-jansen-van-rensburg-597547120",
-        github: "https://github.com/dirk005"
+        github: "https://github.com/dirk005",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Johannesburg",
         state: "",
-        country: "South Africa"
-      }
+        country: "South Africa",
+      },
     },
     {
       id: uuidv4(),
@@ -1409,14 +1409,14 @@ export const data = {
       links: {
         website: "http://www.harrygillen.com",
         linkedin: "https://www.linkedin.com/in/harrygillen",
-        github: "https://github.com/gillenha"
+        github: "https://github.com/gillenha",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Traverse City",
         state: "Michigan",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -1425,14 +1425,14 @@ export const data = {
       links: {
         website: "https://sstpierre2.github.io/",
         linkedin: "https://www.linkedin.com/in/stevecstpierre",
-        github: "https://github.com/SSTPIERRE2"
+        github: "https://github.com/SSTPIERRE2",
       },
       jobTitle: "Programmer Analyst",
       location: {
         city: "Boston",
         state: "Massachusetts",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -1441,14 +1441,14 @@ export const data = {
       links: {
         website: "https://lntellimed.github.io/",
         linkedin: "https://www.linkedin.com/in/samalsmadi",
-        github: "https://github.com/lntelliMed"
+        github: "https://github.com/lntelliMed",
       },
       jobTitle: "Fullstack Software Engineer",
       location: {
         city: "New York City",
         state: "New York",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -1457,14 +1457,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/anantankur"
+        github: "https://github.com/anantankur",
       },
       jobTitle: "Front-End Web Developer, Android Developer",
       location: {
         city: "",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -1473,14 +1473,14 @@ export const data = {
       links: {
         website: "https://nameless-inlet-32424.herokuapp.com/",
         linkedin: "https://www.linkedin.com/in/alex-gioffre-776105164/",
-        github: "https://github.com/Razeft91"
+        github: "https://github.com/Razeft91",
       },
       jobTitle: "Junior Web Developer",
       location: {
         city: "",
         state: "",
-        country: "Italy"
-      }
+        country: "Italy",
+      },
     },
     {
       id: uuidv4(),
@@ -1489,14 +1489,14 @@ export const data = {
       links: {
         website: "http://danskii.com",
         linkedin: "https://www.linkedin.com/in/daniel-puiatti-15688312/",
-        github: "https://github.com/Danskii"
+        github: "https://github.com/Danskii",
       },
       jobTitle: "Digital Media Specialist",
       location: {
         city: "Toronto",
         state: "Ontario",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -1505,14 +1505,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/josh-broomfield-62387690/",
-        github: "https://github.com/Josh-Broomfield/"
+        github: "https://github.com/Josh-Broomfield/",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Paris",
         state: "Ontario",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -1522,14 +1522,14 @@ export const data = {
       links: {
         website: "https://www.facebook.com/daniel.osmolovskiy",
         linkedin: "",
-        github: "https://github.com/daniilosmolovskiy"
+        github: "https://github.com/daniilosmolovskiy",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Kyiv",
         state: "",
-        country: "Ukraine"
-      }
+        country: "Ukraine",
+      },
     },
     {
       id: uuidv4(),
@@ -1539,14 +1539,14 @@ export const data = {
       links: {
         website: "https://www.facebook.com/gabrielzunigavasquez",
         linkedin: "https://www.linkedin.com/in/gabriel-zuniga-944a86116/",
-        github: "https://github.com/gabriel585zv"
+        github: "https://github.com/gabriel585zv",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Heredia",
         state: "",
-        country: "Costa Rica"
-      }
+        country: "Costa Rica",
+      },
     },
     {
       id: uuidv4(),
@@ -1555,14 +1555,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/shane-granger-8334b6136/",
-        github: "https://github.com/HelmsDeap"
+        github: "https://github.com/HelmsDeap",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Beaumont",
         state: "TX",
-        country: "USA (willing to relocate!)"
-      }
+        country: "USA (willing to relocate!)",
+      },
     },
     {
       id: uuidv4(),
@@ -1572,14 +1572,14 @@ export const data = {
       links: {
         website: "https://bellalo12.github.io/portfolio/",
         linkedin: "https://www.linkedin.com/in/yifang-lo-a0a183158/",
-        github: "https://github.com/bellalo12"
+        github: "https://github.com/bellalo12",
       },
       jobTitle: "Web Developer",
       location: {
         city: "",
         state: "",
-        country: "Taiwan (Willing to relocate!)"
-      }
+        country: "Taiwan (Willing to relocate!)",
+      },
     },
     {
       id: uuidv4(),
@@ -1588,14 +1588,14 @@ export const data = {
       links: {
         website: "http://www.jobethomas.com",
         linkedin: "https://www.linkedin.com/in/jobethomas/",
-        github: "https://github.com/DeveloperJobe"
+        github: "https://github.com/DeveloperJobe",
       },
       jobTitle: "(Full Stack/Game) Developer",
       location: {
         city: "Silver Spring",
         state: "MD",
-        country: "USA (Willing to relocate!)"
-      }
+        country: "USA (Willing to relocate!)",
+      },
     },
     {
       id: uuidv4(),
@@ -1604,14 +1604,14 @@ export const data = {
       links: {
         website: "https://wilfredmorgan.com",
         linkedin: "https://www.linkedin.com/in/wilfredmorgan",
-        github: "https://github.com/wmemorgan"
+        github: "https://github.com/wmemorgan",
       },
       jobTitle: "Software & Data Engineer",
       location: {
         city: "Orlando",
         state: "FL",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -1621,14 +1621,14 @@ export const data = {
       links: {
         website: "https://andreboothe-portfolio.herokuapp.com/",
         linkedin: "https://www.linkedin.com/in/andre-boothe-552b6549/",
-        github: "https://github.com/andreboothe"
+        github: "https://github.com/andreboothe",
       },
       jobTitle: "Front End React Developer",
       location: {
         city: "Kingston",
         state: "",
-        country: "Jamaica (Willing to relocate!)"
-      }
+        country: "Jamaica (Willing to relocate!)",
+      },
     },
     {
       id: uuidv4(),
@@ -1638,14 +1638,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/djordje-bukvic-5a0814164/",
-        github: "https://github.com/madcoyot"
+        github: "https://github.com/madcoyot",
       },
       jobTitle: "Front End Developer, React.js",
       location: {
         city: "Banja Luka",
         state: "",
-        country: "Bosnia and Herzegovina (Willing to relocate!)"
-      }
+        country: "Bosnia and Herzegovina (Willing to relocate!)",
+      },
     },
     {
       id: uuidv4(),
@@ -1654,14 +1654,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/zachariah-sotak/",
-        github: "https://github.com/zs1046"
+        github: "https://github.com/zs1046",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Austin",
         state: "Texas",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -1670,14 +1670,14 @@ export const data = {
       links: {
         website: "http://riteshd.com/",
         linkedin: "https://www.linkedin.com/in/ritesh-deshmukh/",
-        github: "https://github.com/ritesh-deshmukh"
+        github: "https://github.com/ritesh-deshmukh",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Arlington",
         state: "Texas",
-        country: "USA (Willing to relocate)"
-      }
+        country: "USA (Willing to relocate)",
+      },
     },
     {
       id: uuidv4(),
@@ -1686,14 +1686,14 @@ export const data = {
       links: {
         website: "https://dogbeide.github.io",
         linkedin: "https://www.linkedin.com/in/david-ogbeide-037528a5/",
-        github: "https://dogbeide.github.com"
+        github: "https://dogbeide.github.com",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Toronto",
         state: "Ontario",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -1702,14 +1702,14 @@ export const data = {
       links: {
         website: "http://www.findabhinand.com",
         linkedin: "https://www.linkedin.com/in/abhinand-05/",
-        github: "https://github.com/abhinand5"
+        github: "https://github.com/abhinand5",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Coimbatore",
         state: "Tamilnadu",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -1719,14 +1719,14 @@ export const data = {
       links: {
         website: "flavianunes.github.io",
         linkedin: "https://www.linkedin.com/in/flanunes/",
-        github: "https://github.com/flavianunes"
+        github: "https://github.com/flavianunes",
       },
       jobTitle: "Computer sciene student, freelancer developer",
       location: {
         city: "",
         state: "",
-        country: "Brazil"
-      }
+        country: "Brazil",
+      },
     },
     {
       id: uuidv4(),
@@ -1736,14 +1736,14 @@ export const data = {
       links: {
         website: "https://donatron.github.io/portfolio",
         linkedin: "https://www.linkedin.com/in/don-macarthur-652045a9/",
-        github: "https://github.com/Donatron"
+        github: "https://github.com/Donatron",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Gold Coast",
         state: "Queensland",
-        country: "Australia"
-      }
+        country: "Australia",
+      },
     },
     {
       id: uuidv4(),
@@ -1753,14 +1753,14 @@ export const data = {
       links: {
         website: "https://kumarrahul123.herokuapp.com/",
         linkedin: "https://www.linkedin.com/in/rahul-kumar943/",
-        github: "https://github.com/rahuls321"
+        github: "https://github.com/rahuls321",
       },
       jobTitle: "Web Developer ",
       location: {
         city: "",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -1770,14 +1770,14 @@ export const data = {
       links: {
         website: "www.mercillo.com",
         linkedin: "https://www.linkedin.com/in/marlon-ercillo-58057596/",
-        github: "https://github.com/mercillo"
+        github: "https://github.com/mercillo",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "San Diego",
         state: "CA",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -1786,14 +1786,14 @@ export const data = {
       links: {
         website: "https://kmranrg.github.io/MyBlog/",
         linkedin: "https://www.linkedin.com/in/kmranrg",
-        github: "https://github.com/kmranrg"
+        github: "https://github.com/kmranrg",
       },
       jobTitle: "Full-Stack Web Developer",
       location: {
         city: "Delhi",
         state: "New Delhi",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -1803,14 +1803,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/gabriel-lomba-aguiar-costa",
-        github: "https://github.com/GabrielLomba"
+        github: "https://github.com/GabrielLomba",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Juiz de Fora",
         state: "Minas Gerais",
-        country: "Brazil"
-      }
+        country: "Brazil",
+      },
     },
     {
       id: uuidv4(),
@@ -1819,14 +1819,14 @@ export const data = {
       links: {
         website: "http://www.aslexpress.net/quizDev/",
         linkedin: "www.linkedin.com/in/scott-whitney",
-        github: "https://github.com/whitneyscott"
+        github: "https://github.com/whitneyscott",
       },
       jobTitle: "Full-Stack Web Developer",
       location: {
         city: "Nacogdoches",
         state: "TX",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -1836,14 +1836,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/sanidhya2000"
+        github: "https://github.com/sanidhya2000",
       },
       jobTitle: "Full-Stack Web Developer",
       location: {
         city: "Guna",
         state: "Madhya Pradesh",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -1852,14 +1852,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/BalalonKs"
+        github: "https://github.com/BalalonKs",
       },
       jobTitle: "Full-Stack Web Developer",
       location: {
         city: "Bangkok",
         state: "",
-        country: "Thailand"
-      }
+        country: "Thailand",
+      },
     },
     {
       id: uuidv4(),
@@ -1869,14 +1869,14 @@ export const data = {
       links: {
         website: "https://frontendreiz.com/",
         linkedin: "https://www.linkedin.com/in/rariva-hale/",
-        github: "https://github.com/reizariva-hale"
+        github: "https://github.com/reizariva-hale",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Sydney",
         state: "NSW",
-        country: "Australia"
-      }
+        country: "Australia",
+      },
     },
     {
       id: uuidv4(),
@@ -1886,14 +1886,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/jsaligbon"
+        github: "https://github.com/jsaligbon",
       },
       jobTitle: "Software Test Engineer, Web Developer, Python Developer",
       location: {
         city: "Manila",
         state: "",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -1902,14 +1902,14 @@ export const data = {
       links: {
         website: "http://harked.name",
         linkedin: "https://www.linkedin.com/in/harkediansa/",
-        github: "https://github.com/harked"
+        github: "https://github.com/harked",
       },
       jobTitle: "Full stack web(Javascript) developer",
       location: {
         city: "Batam",
         state: "Riau Islands",
-        country: "Indonesia"
-      }
+        country: "Indonesia",
+      },
     },
     {
       id: uuidv4(),
@@ -1919,14 +1919,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mssrinivasbhargav/",
-        github: "https://github.com/mssrinivas"
+        github: "https://github.com/mssrinivas",
       },
       jobTitle: "Cloud Application Engineer",
       location: {
         city: "Hyderbad",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -1935,14 +1935,14 @@ export const data = {
       links: {
         website: "beverlyatijera.com",
         linkedin: "https://linkedin.com/in/beverly-atijera/",
-        github: "https://github.com/bevssss"
+        github: "https://github.com/bevssss",
       },
       jobTitle: "Web Developer|Wordpress Developer|Electronics Engineer",
       location: {
         city: "",
         state: "",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -1951,14 +1951,14 @@ export const data = {
       links: {
         website: "https://brittanigongre.com",
         linkedin: "https://www.linkedin.com/in/brittani-gongre-2b82b982/",
-        github: "https://github.com/bgongre"
+        github: "https://github.com/bgongre",
       },
       jobTitle: "Front End Developer|Software Developer",
       location: {
         city: "Atlanta",
         state: "Georgia",
-        country: "United States of America"
-      }
+        country: "United States of America",
+      },
     },
     {
       id: uuidv4(),
@@ -1967,14 +1967,14 @@ export const data = {
       links: {
         website: "http://langgao.org",
         linkedin: "https://www.linkedin.com/in/lang-gao-294b1087/",
-        github: "https://github.com/ambitiousbird"
+        github: "https://github.com/ambitiousbird",
       },
       jobTitle: "Full Stack Web Developer|Software Engineer",
       location: {
         city: "Philadelphia",
         state: "Pennnsylvania",
-        country: "United States of America"
-      }
+        country: "United States of America",
+      },
     },
     {
       id: uuidv4(),
@@ -1983,14 +1983,14 @@ export const data = {
       links: {
         website: "https://aviwembekeni.github.io/",
         linkedin: "https://www.linkedin.com/in/aviwe-ngqukumba-519369150",
-        github: "https://github.com/aviwembekeni"
+        github: "https://github.com/aviwembekeni",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Cape Town",
         state: "Western Cape",
-        country: "South Africa"
-      }
+        country: "South Africa",
+      },
     },
     {
       id: uuidv4(),
@@ -2000,14 +2000,14 @@ export const data = {
       links: {
         website: "https://gadfrey13.github.io/portfolio/",
         linkedin: "www.linkedin.com/in/gadfreybalacy",
-        github: "https://github.com/gadfrey13"
+        github: "https://github.com/gadfrey13",
       },
       jobTitle: "Java Developer Web Developer",
       location: {
         city: "Sacramento",
         state: "California",
-        contry: "United States"
-      }
+        contry: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -2016,14 +2016,14 @@ export const data = {
         "https://media.licdn.com/dms/image/C5603AQFZZ5eUxdAe5A/profile-displayphoto-shrink_100_100/0?e=1536192000&v=beta&t=YoOErrwwFmwD8ZrQYhH0mIxAbxl7LQlthvV6mJ3u1gc",
       links: {
         linkedin: "https://www.linkedin.com/in/nfreney/",
-        github: "https://github.com/nathanfr"
+        github: "https://github.com/nathanfr",
       },
       jobTitle: "Data Scientist",
       location: {
         city: "Seattle",
         state: "Washington",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -2033,14 +2033,14 @@ export const data = {
       links: {
         website: "https://pablowbk.github.io",
         linkedin: "",
-        github: "https://github.com/pablowbk"
+        github: "https://github.com/pablowbk",
       },
       jobTitle: "Front End Developer | Photographer",
       location: {
         city: "Santa Clara del Mar",
         state: "Buenos Aires",
-        country: "Argentina"
-      }
+        country: "Argentina",
+      },
     },
     {
       id: uuidv4(),
@@ -2050,14 +2050,14 @@ export const data = {
         website: "",
         linkedin:
           "https://www.linkedin.com/in/miperfilenlinkedin/?locale=en_US",
-        github: "https://github.com/Ro008"
+        github: "https://github.com/Ro008",
       },
       jobTitle: "Full stack web developer",
       location: {
         city: "Luxembourg",
         state: "",
-        country: "Luxembourg"
-      }
+        country: "Luxembourg",
+      },
     },
     {
       id: uuidv4(),
@@ -2067,14 +2067,14 @@ export const data = {
         website: "",
         linkedin:
           "https://www.linkedin.com/in/%D0%B8%D0%B3%D0%BE%D1%80%D1%8C-%D0%BC%D0%BE%D1%88%D0%BD%D1%8F%D0%BA%D0%BE%D0%B2-5b0574b1/",
-        github: "https://github.com/Iharson"
+        github: "https://github.com/Iharson",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Minsk",
         state: "",
-        country: "Belarus"
-      }
+        country: "Belarus",
+      },
     },
     {
       id: uuidv4(),
@@ -2083,14 +2083,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/christian-marca-663605167/",
-        github: "https://github.com/ChristianMarca"
+        github: "https://github.com/ChristianMarca",
       },
       jobTitle: "Electronic Engineer in Telecommunications | WEB Developer",
       location: {
         city: "Cuenca",
         state: "",
-        country: "Ecuador"
-      }
+        country: "Ecuador",
+      },
     },
     {
       id: uuidv4(),
@@ -2100,14 +2100,14 @@ export const data = {
         website: "https://sivarampg.github.io",
         linkedin:
           "https://www.linkedin.com/in/sivaram-pandariganthan-b753a2145/",
-        github: "https://github.com/SivaramPg"
+        github: "https://github.com/SivaramPg",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Panvel",
         state: "Maharashtra",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -2116,14 +2116,14 @@ export const data = {
       links: {
         website: "https://Radhika8818.github.io",
         linkedin: "https://www.linkedin.com/in/radhika-maheshwari-601a0515a/",
-        github: "https://github.com/Radhika8818"
+        github: "https://github.com/Radhika8818",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Sydney",
         state: "New South Wales",
-        country: "Australia"
-      }
+        country: "Australia",
+      },
     },
     {
       id: uuidv4(),
@@ -2133,14 +2133,14 @@ export const data = {
       links: {
         website: "http://taiweiko.com/",
         linkedin: "https://www.linkedin.com/in/taiweiko/",
-        github: "https://github.com/macgeek30"
+        github: "https://github.com/macgeek30",
       },
       jobTitle: "Full Stack UI/UX Developer | Full Stack Web Developer",
       location: {
         city: "Colorado Springs",
         state: "Colorado",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -2149,14 +2149,14 @@ export const data = {
       links: {
         website: "http://jorgegoris.com/",
         linkedin: "https://www.linkedin.com/in/jorge-goris/",
-        github: "https://github.com/JorgeG1105"
+        github: "https://github.com/JorgeG1105",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "Bronx",
         state: "NY",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -2166,14 +2166,14 @@ export const data = {
       links: {
         website: "https://kaemonisland.github.io/home/",
         linkedin: "https://www.linkedin.com/in/kaemon-lovendahl-08150564/",
-        github: "https://github.com/KaemonIsland"
+        github: "https://github.com/KaemonIsland",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Salt Lake City",
         state: "UT",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -2182,14 +2182,14 @@ export const data = {
       links: {
         website: "#",
         linkedin: "https://www.linkedin.com/in/nhan-pham-7315a8148/",
-        github: "https://github.com/vinpearland"
+        github: "https://github.com/vinpearland",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Kansas City",
         state: "MO",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -2198,14 +2198,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/agpt8",
-        github: "https://github.com/agpt8"
+        github: "https://github.com/agpt8",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Bangalore",
         state: "Karnataka",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -2215,14 +2215,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/justinlinw/",
-        github: "github.com/justinwlin"
+        github: "github.com/justinwlin",
       },
       jobTitle: "FullStack Developer | Software Engineer | Student",
       location: {
         city: "Irvine | NYC",
         state: "CA | NY",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -2231,14 +2231,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "www.linkedin.com/in/vjvasiljev",
-        github: "https://github.com/vjvasiljev"
+        github: "https://github.com/vjvasiljev",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Klaipeda",
         state: "",
-        country: "Lithuania"
-      }
+        country: "Lithuania",
+      },
     },
     {
       id: uuidv4(),
@@ -2247,14 +2247,14 @@ export const data = {
       links: {
         website: "www.mattgaddes.com",
         linkedin: "https://www.linkedin.com/in/matthew-gaddes-30ba65b4/",
-        github: "https://github.com/gaddes"
+        github: "https://github.com/gaddes",
       },
       jobTitle: "Front-end Web Developer",
       location: {
         city: "Newcastle",
         state: "Tyne and Wear",
-        country: "UK"
-      }
+        country: "UK",
+      },
     },
     {
       id: uuidv4(),
@@ -2263,14 +2263,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/anish-ojha-281a1a100",
-        github: "https://www.github.com/Anishgoofle"
+        github: "https://www.github.com/Anishgoofle",
       },
       jobTitle: "Software-Developer",
       location: {
         city: "",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -2280,14 +2280,14 @@ export const data = {
       links: {
         website: "https://cobimr.github.io/",
         linkedin: "https://linkedin.com/in/cobimr",
-        github: "https://github.com/cobimr"
+        github: "https://github.com/cobimr",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Caracas",
         state: "",
-        country: "Venezuela"
-      }
+        country: "Venezuela",
+      },
     },
     {
       id: uuidv4(),
@@ -2297,14 +2297,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/brittanyfrench/",
-        github: "https://github.com/frenchie048"
+        github: "https://github.com/frenchie048",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Scottsdale",
         state: "AZ",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -2314,14 +2314,14 @@ export const data = {
       links: {
         website: "https://mdpatel7.github.io",
         linkedin: "https://www.linkedin.com/in/mdpatel7",
-        github: "https://github.com/mdpatel7"
+        github: "https://github.com/mdpatel7",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Phoenix",
         state: "AZ",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -2330,14 +2330,14 @@ export const data = {
       links: {
         website: "https://maitreyithakkar.000webhostapp.com/",
         linkedin: "https://www.linkedin.com/in/maitreyithakkar/",
-        github: "https://github.com/mthakka2"
+        github: "https://github.com/mthakka2",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Tempe",
         state: "Arizona",
-        country: "United States of America"
-      }
+        country: "United States of America",
+      },
     },
     {
       id: uuidv4(),
@@ -2346,14 +2346,14 @@ export const data = {
       links: {
         website: "https://efraimlorenzana.github.io/portfolio/",
         linkedin: "https://www.linkedin.com/in/efraim-lorenzana-4bbb2575/",
-        github: "https://github.com/efraimlorenzana"
+        github: "https://github.com/efraimlorenzana",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Taytay",
         state: "Rizal",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -2363,14 +2363,14 @@ export const data = {
       links: {
         website: "https://lucacastelnuovo.nl",
         linkedin: "https://www.linkedin.com/in/ltcastelnuovo",
-        github: "https://github.com/Luca-Castelnuovo"
+        github: "https://github.com/Luca-Castelnuovo",
       },
       jobTitle: "Full-Stack dev in training",
       location: {
         city: "Amsterdam",
         state: "",
-        country: "Netherlands"
-      }
+        country: "Netherlands",
+      },
     },
     {
       id: uuidv4(),
@@ -2379,15 +2379,15 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/tonysaromines",
-        github: "https://github.com/tonvlad88"
+        github: "https://github.com/tonvlad88",
       },
       jobTitle:
         "PHP Developer, Delphi Developer, Full-Stack Developer in training",
       location: {
         city: "Cebu",
         state: "",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -2397,14 +2397,14 @@ export const data = {
       links: {
         website: "https://migben.github.io",
         linkedin: "https://www.linkedin.com/in/miguelben",
-        github: "https://www.github.com/migben"
+        github: "https://www.github.com/migben",
       },
       jobTitle: "Front-End Dev",
       location: {
         city: "Manhattan",
         state: "New York",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -2413,14 +2413,14 @@ export const data = {
       links: {
         website: "http://www.ignaciorodrigues.com/",
         linkedin: "https://www.linkedin.com/in/ignaciorodriguesoficial/",
-        github: "https://www.github.com/IgnacioRodrigues"
+        github: "https://www.github.com/IgnacioRodrigues",
       },
       jobTitle: "UX Full Stack Developer",
       location: {
         city: "Mar del Plata",
         state: "Buenos Aires",
-        country: "Argentina"
-      }
+        country: "Argentina",
+      },
     },
     {
       id: uuidv4(),
@@ -2430,14 +2430,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/为强-王-92155a166/",
-        github: "https://github.com/Toro2018"
+        github: "https://github.com/Toro2018",
       },
       jobTitle: "Javascript Engineer",
       location: {
         city: "Hangzhou",
         state: "Zhejiang",
-        country: "China"
-      }
+        country: "China",
+      },
     },
     {
       id: uuidv4(),
@@ -2446,14 +2446,14 @@ export const data = {
       links: {
         website: "http://www.jonathansou.com",
         linkedin: "https://www.linkedin.com/in/jonathan-sou-ab7738132/",
-        github: "https://github.com/Jonaphant"
+        github: "https://github.com/Jonaphant",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Sacramento",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -2463,14 +2463,14 @@ export const data = {
       links: {
         website: "https://loforteluca.github.io/",
         linkedin: "https://www.linkedin.com/in/luca-lo-forte-172462127/",
-        github: "https://github.com/Pizzu"
+        github: "https://github.com/Pizzu",
       },
       jobTitle: "Full Stack Web Developer & iOS Dev",
       location: {
         city: "Milan",
         state: "",
-        country: "Italy"
-      }
+        country: "Italy",
+      },
     },
     {
       id: uuidv4(),
@@ -2480,14 +2480,14 @@ export const data = {
       links: {
         website: "https://gulbadam.github.io/Portfolio/",
         linkedin: "https://www.linkedin.com/in/yelena-guliyeva/",
-        github: "https://github.com/gulbadam"
+        github: "https://github.com/gulbadam",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Rocklin",
         state: "California",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -2497,14 +2497,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/carljohanlandin/ZtM-Job-Board"
+        github: "https://github.com/carljohanlandin/ZtM-Job-Board",
       },
       jobTitle: "Electrical engineer, Full stack web developer",
       location: {
         city: "Gothenburg",
         state: "",
-        country: "Sweden"
-      }
+        country: "Sweden",
+      },
     },
     {
       id: uuidv4(),
@@ -2513,14 +2513,14 @@ export const data = {
       links: {
         website: "http://ogrigore.com/",
         linkedin: "https://www.linkedin.com/in/grigoreoleinicov/",
-        github: ""
+        github: "",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Chisinau",
         state: "",
-        country: "Moldova"
-      }
+        country: "Moldova",
+      },
     },
     {
       id: uuidv4(),
@@ -2529,14 +2529,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/hagayhazan/",
-        github: ""
+        github: "",
       },
       jobTitle: "Software Development Engineer in Test Manager",
       location: {
         city: "Los Angeles",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -2546,14 +2546,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/WCPeragine"
+        github: "https://github.com/WCPeragine",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Oxford",
         state: "PA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -2562,14 +2562,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/satyamdhawan"
+        github: "https://github.com/satyamdhawan",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "New Delhi",
         state: "Delhi",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -2578,14 +2578,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/raymonddev0/",
-        github: "https://github.com/raymonddev0"
+        github: "https://github.com/raymonddev0",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "",
         state: "",
-        country: "Singapore"
-      }
+        country: "Singapore",
+      },
     },
     {
       id: uuidv4(),
@@ -2594,14 +2594,14 @@ export const data = {
       links: {
         website: "https://www.hagthedon.com",
         linkedin: "https://www.linkedin.com/in/hagthedon/",
-        github: "https://github.com/HagTheDon"
+        github: "https://github.com/HagTheDon",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Gangnam",
         state: "Seoul",
-        country: "Korea (Republic of)"
-      }
+        country: "Korea (Republic of)",
+      },
     },
     {
       id: uuidv4(),
@@ -2611,14 +2611,14 @@ export const data = {
       links: {
         website: "http://DavidHanover89.com",
         linkedin: "https://linkedin.com/in/DavidHanover",
-        github: "https://github.com/DavidHanover"
+        github: "https://github.com/DavidHanover",
       },
       jobTitle: "Web-Developer (Intern)",
       location: {
         city: "San Francisco",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -2627,14 +2627,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "www.linkedin.com/in/jayzonline",
-        github: "https://github.com/jayagovinde"
+        github: "https://github.com/jayagovinde",
       },
       jobTitle: "Web-Developer",
       location: {
         city: "Kochi",
         state: "Kerala",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -2644,14 +2644,14 @@ export const data = {
       links: {
         website: "http://cedricliu.github.io/",
         linkedin: "www.linkedin.com/in/cedricliu0019",
-        github: "https://github.com/cedricliu"
+        github: "https://github.com/cedricliu",
       },
       jobTitle: "Web Design/ Developer",
       location: {
         city: "Los Angeles",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -2660,14 +2660,14 @@ export const data = {
       links: {
         website: "http://www.competeagainstme.com/",
         linkedin: "https://www.linkedin.com/in/ehtsham333/",
-        github: "https://github.com/ehtsham333"
+        github: "https://github.com/ehtsham333",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Islamabad",
         state: "",
-        country: "Pakistan"
-      }
+        country: "Pakistan",
+      },
     },
     {
       id: uuidv4(),
@@ -2677,14 +2677,14 @@ export const data = {
       links: {
         website: "http://coolzyte.com/",
         linkedin: "https://www.linkedin.com/in/coolzyte/",
-        github: "https://github.com/coolzyte"
+        github: "https://github.com/coolzyte",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "",
         state: "Lagos",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -2693,14 +2693,14 @@ export const data = {
       links: {
         website: " ",
         linkedin: "https://www.linkedin.com/in/luberenga/",
-        github: "https://github.com/john-luberenga/"
+        github: "https://github.com/john-luberenga/",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Kampala",
         state: "",
-        country: "Uganda"
-      }
+        country: "Uganda",
+      },
     },
     {
       id: uuidv4(),
@@ -2710,14 +2710,14 @@ export const data = {
       links: {
         website: "https://seandees.tech/",
         linkedin: "https://ca.linkedin.com/in/sean-dees-666475105",
-        github: "https://github.com/sdees82"
+        github: "https://github.com/sdees82",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Detroit",
         state: "Michigan",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -2726,14 +2726,14 @@ export const data = {
         "https://media.licdn.com/dms/image/C4D03AQG4ep1f6b2KuA/profile-displayphoto-shrink_200_200/0?e=1539216000&v=beta&t=u-4n8_CP3k15CVvkSCKufdC3vYdIx_q2L5f7O3wgt5w",
       links: {
         linkedin: "https://www.linkedin.com/in/f%C4%B1rat-tale-85328013a/",
-        github: "https://github.com/firattale"
+        github: "https://github.com/firattale",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Istanbul",
         state: "",
-        country: "Turkey"
-      }
+        country: "Turkey",
+      },
     },
     {
       id: uuidv4(),
@@ -2742,14 +2742,14 @@ export const data = {
       links: {
         website: "https://andriusm.com/",
         linkedin: "https://www.linkedin.com/in/andrius-mankauskas-06b684163/",
-        github: "https://github.com/Gandrius"
+        github: "https://github.com/Gandrius",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Vilnius",
         state: "",
-        country: "Lithuania"
-      }
+        country: "Lithuania",
+      },
     },
     {
       id: uuidv4(),
@@ -2758,14 +2758,14 @@ export const data = {
       links: {
         website: "https://andrapetronela.github.io/andraS.github.io/",
         linkedin: "https://www.linkedin.com/in/andra-strachinaru/",
-        github: "https://github.com/andrapetronela"
+        github: "https://github.com/andrapetronela",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Luton",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -2775,14 +2775,14 @@ export const data = {
       links: {
         website: "https://eastcoastninja.github.io/",
         linkedin: "https://www.linkedin.com/in/riosjulian/",
-        github: "https://github.com/eastcoastninja"
+        github: "https://github.com/eastcoastninja",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Philadelphia",
         state: "PA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -2791,14 +2791,14 @@ export const data = {
       links: {
         website: "https://shan5742.github.io/",
         linkedin: "https://www.linkedin.com/in/asamshan/",
-        github: "https://github.com/shan5742"
+        github: "https://github.com/shan5742",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Middlesbrough",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -2807,14 +2807,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "www.linkedin.com/in/johnpaulfichera",
-        github: "https://github.com/JohnPaulFich"
+        github: "https://github.com/JohnPaulFich",
       },
       jobTitle: "Web Content Specialist & Marketing Coordinator",
       location: {
         city: "St. Johnsbury",
         state: "VT",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -2823,14 +2823,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/richardmeadows/",
-        github: "https://github.com/rjmead23"
+        github: "https://github.com/rjmead23",
       },
       jobTitle: "Scrum Master and Web Developer",
       location: {
         city: "Portland",
         state: "Oregon",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -2840,14 +2840,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/lawrence-fidelino-383727153/",
-        github: "https://github.com/lfidelino"
+        github: "https://github.com/lfidelino",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Davao",
         state: "",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -2856,14 +2856,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/winter-meng-347797121/",
-        github: "https://github.com/qm3"
+        github: "https://github.com/qm3",
       },
       jobTitle: "Full Stack Web Developer and Software Engineer",
       location: {
         city: "Seattle",
         state: "Washington",
-        country: "United States of America"
-      }
+        country: "United States of America",
+      },
     },
     {
       id: uuidv4(),
@@ -2872,14 +2872,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.paulokonko.com",
-        github: "https://github.com/emppas"
+        github: "https://github.com/emppas",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Port Harcourt",
         state: "Rivers",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -2888,14 +2888,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/stephen-lonergan-8401b95a/",
-        github: "https://github.com/lonergans"
+        github: "https://github.com/lonergans",
       },
       jobTitle: "Senior SharePoint/Full Stack Developer",
       location: {
         city: "Dublin",
         state: "",
-        country: "Ireland"
-      }
+        country: "Ireland",
+      },
     },
     {
       id: uuidv4(),
@@ -2904,14 +2904,14 @@ export const data = {
       links: {
         website: "https://www.nathanabrown.com",
         linkedin: "https://www.linkedin.com/in/nathan-a-brown",
-        github: "https://n8brown1.github.io/"
+        github: "https://n8brown1.github.io/",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Wells",
         state: "Maine",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -2920,14 +2920,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ciosif",
-        github: "https://github.com/cristake"
+        github: "https://github.com/cristake",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Bucharest",
         state: "Bucharest",
-        country: "Romania"
-      }
+        country: "Romania",
+      },
     },
     {
       id: uuidv4(),
@@ -2936,14 +2936,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/martinfassi/",
-        github: "https://github.com/mfassi"
+        github: "https://github.com/mfassi",
       },
       jobTitle: "Web Developer/Help Desk Technician",
       location: {
         city: "Catania",
         state: "Catania",
-        country: "Italy"
-      }
+        country: "Italy",
+      },
     },
     {
       id: uuidv4(),
@@ -2953,14 +2953,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/eduard-bucataru-8400ab16b/",
-        github: "https://github.com/edybn22"
+        github: "https://github.com/edybn22",
       },
       jobTitle: "Full Full-stack developer",
       location: {
         city: "Bucharest",
         state: "Bucharest",
-        country: "Romania"
-      }
+        country: "Romania",
+      },
     },
     {
       id: uuidv4(),
@@ -2969,14 +2969,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "www.linkedin.com/in/ivan-taghavi-espinosa",
-        github: "https://github.com/skatersezo"
+        github: "https://github.com/skatersezo",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "Salzburg",
         state: "Salzburg",
-        country: "Austria"
-      }
+        country: "Austria",
+      },
     },
     {
       id: uuidv4(),
@@ -2986,14 +2986,14 @@ export const data = {
       links: {
         website: "https://mccunex.github.io/",
         linkedin: "linkedin.com/in/keaton-mccune-15010616b",
-        github: "https://github.com/mccunex"
+        github: "https://github.com/mccunex",
       },
       jobTitle: "FREELANCE FULL STACK WEB DEVELOPER",
       location: {
         city: "Salt Lake City",
         state: "UT",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -3002,14 +3002,14 @@ export const data = {
       links: {
         website: "https://laurenmayers.github.io/",
         linkedin: "https://www.linkedin.com/in/laurenmayers/",
-        github: "https://github.com/laurenmayers"
+        github: "https://github.com/laurenmayers",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Ottawa",
         state: "ON",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -3017,14 +3017,14 @@ export const data = {
       img:
         "https://scontent.fbom19-2.fna.fbcdn.net/v/t1.0-9/26730868_778419902357592_2424208913221190760_n.jpg?_nc_cat=0&oh=ac851a4e2dd91d15a6503d410d6bcf52&oe=5C208835",
       links: {
-        github: "htpps://github.com/midnightgamer"
+        github: "htpps://github.com/midnightgamer",
       },
       jobTitle: "Javascript Developer",
       location: {
         city: "Mumbai",
         state: "Maharastra",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -3033,14 +3033,14 @@ export const data = {
       links: {
         website: "https://funand.github.io/",
         linkedin: "https://www.linkedin.com/in/prince-ikede-a1396a13a/",
-        github: "https://github.com/funand"
+        github: "https://github.com/funand",
       },
       jobTitle: "Software Engineer/Front-End Developer",
       location: {
         city: "New York City",
         state: "New York",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -3049,14 +3049,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/kostiantyn-borodach-4a3859152/",
-        github: "https://github.com/Kostiantyn777"
+        github: "https://github.com/Kostiantyn777",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "Barcelona",
         state: "Barcelona",
-        country: "Spain"
-      }
+        country: "Spain",
+      },
     },
     {
       id: uuidv4(),
@@ -3065,14 +3065,14 @@ export const data = {
       links: {
         website: "https://www.ivaylotsochev.com/",
         linkedin: "https://www.linkedin.com/in/ivaylotsochev/",
-        github: "https://github.com/IvoTsochev"
+        github: "https://github.com/IvoTsochev",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Sofia",
         state: "Sofia",
-        country: "Bulgaria"
-      }
+        country: "Bulgaria",
+      },
     },
     {
       id: uuidv4(),
@@ -3081,14 +3081,14 @@ export const data = {
       links: {
         website: "http://www.alexissj.com",
         linkedin: "https://www.linkedin.com/in/alexissj",
-        github: "https://github.com/code-guy21"
+        github: "https://github.com/code-guy21",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Orlando",
         state: "FL",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -3097,14 +3097,14 @@ export const data = {
       links: {
         website: "https://yassiremt.github.io/pf/",
         linkedin: "https://www.linkedin.com/in/yassiremt/",
-        github: "https://github.com/Yassiremt"
+        github: "https://github.com/Yassiremt",
       },
       jobTitle: "Front-end Developer",
       location: {
         city: "Fez",
         state: "",
-        country: "Morocco"
-      }
+        country: "Morocco",
+      },
     },
     {
       id: uuidv4(),
@@ -3113,14 +3113,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/faizhameed/",
-        github: "https://github.com/faizhameed"
+        github: "https://github.com/faizhameed",
       },
       jobTitle: "Full Stack Web-Developer",
       location: {
         city: "Kottakal",
         state: "Kerala",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -3129,14 +3129,14 @@ export const data = {
       links: {
         website: "iamsaumya.co",
         linkedin: "https://www.linkedin.com/in/saumya-sharma-488a4356/",
-        github: "https://github.com/saumya010"
+        github: "https://github.com/saumya010",
       },
       jobTitle: "Front-end Developer",
       location: {
         city: "New York",
         state: "NY",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -3146,14 +3146,14 @@ export const data = {
       links: {
         website: "http://valutti.co,",
         linkedin: "https://www.linkedin.com/in/caiovilas/",
-        github: "https://github.com/caiovilas"
+        github: "https://github.com/caiovilas",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Toronto",
         state: "ON",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -3163,14 +3163,14 @@ export const data = {
         website: "https://carls13.github.io/mypage/",
         linkedin:
           "https://www.linkedin.com/in/carlos-samuel-hern%C3%A1ndez-blanco-b35075152/",
-        github: "https://github.com/Carls13"
+        github: "https://github.com/Carls13",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Valencia",
         state: "",
-        country: "Venezuela"
-      }
+        country: "Venezuela",
+      },
     },
     {
       id: uuidv4(),
@@ -3180,14 +3180,14 @@ export const data = {
       links: {
         website: "https://www.linkedin.com/in/mironovdmitry",
         linkedin: "https://www.linkedin.com/in/mironovdmitry/",
-        github: "https://github.com/antonykidis"
+        github: "https://github.com/antonykidis",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Tel-Aviv",
         state: "IL",
-        country: "Israel"
-      }
+        country: "Israel",
+      },
     },
     {
       id: uuidv4(),
@@ -3197,14 +3197,14 @@ export const data = {
       links: {
         website: "https://www.linkedin.com/in/HamzaBenzaoui",
         linkedin: "https://www.linkedin.com/in/HamzaBenzaoui/",
-        github: "https://github.com/HBenzaoui"
+        github: "https://github.com/HBenzaoui",
       },
       jobTitle: "Full-Stack JavaScript/Java Developer",
       location: {
         city: "Bab Ezzouar",
         state: "Algiers",
-        country: "Algeria"
-      }
+        country: "Algeria",
+      },
     },
     {
       id: uuidv4(),
@@ -3213,14 +3213,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/shruti-shastri-307279141",
-        github: "https://github.com/shruti49"
+        github: "https://github.com/shruti49",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "",
         state: "Delhi-NCR",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -3230,14 +3230,14 @@ export const data = {
       links: {
         website: "https://theamax.me/",
         linkedin: "www.linkedin.com/in/theamushambadze",
-        github: "https://github.com/highflyer910"
+        github: "https://github.com/highflyer910",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Tbilisi",
         state: "",
-        country: "Georgia (Remote or Willing to Relocate)"
-      }
+        country: "Georgia (Remote or Willing to Relocate)",
+      },
     },
     {
       id: uuidv4(),
@@ -3246,14 +3246,14 @@ export const data = {
         "https://secure.gravatar.com/avatar/5d8cc0c05f351bd587222bccf38380a8",
       links: {
         linkedin: "https://ca.linkedin.com/in/kennithnichol",
-        github: "https://github.com/kennithnichol"
+        github: "https://github.com/kennithnichol",
       },
       jobTitle: "Remote Full Stack Developer",
       location: {
         city: "",
         state: "BC",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -3262,14 +3262,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "www.linkedin.com/in/yglez",
-        github: "https://github.com/Yglez"
+        github: "https://github.com/Yglez",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "San Diego",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -3278,14 +3278,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/jakub-wojtyra-07b783129/",
-        github: "https://github.com/frozenfroggie"
+        github: "https://github.com/frozenfroggie",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Wrocław",
         state: "",
-        country: "Poland"
-      }
+        country: "Poland",
+      },
     },
     {
       id: uuidv4(),
@@ -3295,14 +3295,14 @@ export const data = {
       links: {
         website: "https://andrewdiedrich.herokuapp.com/",
         linkedin: "https://www.linkedin.com/in/andrew-diedrich-a0a58893/",
-        github: "https://github.com/AndrewDiedrich"
+        github: "https://github.com/AndrewDiedrich",
       },
       jobTitle: "Developer/Analyst",
       location: {
         city: "Duluth",
         state: "Minnesota",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -3311,14 +3311,14 @@ export const data = {
       links: {
         website: "https://www.inoweb.com.br",
         linkedin: "https://www.linkedin.com/in/italo-aurelio-13b97172/",
-        github: "https://github.com/Italox"
+        github: "https://github.com/Italox",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Curitiba",
         state: "Paraná",
-        country: "Brazil"
-      }
+        country: "Brazil",
+      },
     },
     {
       id: uuidv4(),
@@ -3328,14 +3328,14 @@ export const data = {
       links: {
         website: "https://envincebal.github.io/my_portfolio/",
         linkedin: "https://www.linkedin.com/in/vincent-yan/",
-        github: "https://github.com/envincebal"
+        github: "https://github.com/envincebal",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Portland",
         state: "Oregon",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -3344,14 +3344,14 @@ export const data = {
       links: {
         website: "https://diogo-p-carvalho.github.io/portfolio",
         linkedin: "https://www.linkedin.com/in/diogo-carvalho-83a96a14a",
-        github: "https://github.com/Diogo-P-Carvalho"
+        github: "https://github.com/Diogo-P-Carvalho",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Aveiro",
         state: "",
-        country: "Portugal"
-      }
+        country: "Portugal",
+      },
     },
     {
       id: uuidv4(),
@@ -3360,14 +3360,14 @@ export const data = {
       links: {
         website: "http://tgmarinho.com",
         linkedin: "https://www.linkedin.com/in/tgmarinho",
-        github: "https://github.com/tgmarinho"
+        github: "https://github.com/tgmarinho",
       },
       jobTitle: "React Developer - Home Office",
       location: {
         city: "Dourados",
         state: "MS",
-        country: "Brazil"
-      }
+        country: "Brazil",
+      },
     },
     {
       id: uuidv4(),
@@ -3376,14 +3376,14 @@ export const data = {
       links: {
         website: "http://www.moshe-hamiel.info",
         linkedin: "https://www.linkedin.com/in/moshe-chamuel-761433117/",
-        github: "https://github.com/Chamuelm"
+        github: "https://github.com/Chamuelm",
       },
       jobTitle: "SW Developer (Student)",
       location: {
         city: "Porat",
         state: "",
-        country: "Israel"
-      }
+        country: "Israel",
+      },
     },
     {
       id: uuidv4(),
@@ -3392,14 +3392,14 @@ export const data = {
       links: {
         website: "https://www.rafaelrojascov.com",
         linkedin: "https://www.linkedin.com/in/RafaelRojasCov",
-        github: "https://www.github.com/RafaelRojasCov"
+        github: "https://www.github.com/RafaelRojasCov",
       },
       jobTitle: "Front-End React Developer",
       location: {
         city: "Santiago",
         state: "RM",
-        country: "Chile"
-      }
+        country: "Chile",
+      },
     },
     {
       id: uuidv4(),
@@ -3408,14 +3408,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "www.linkedin.com/in/scramblelock",
-        github: "https://www.github.com/Scramblelock"
+        github: "https://www.github.com/Scramblelock",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Montréal",
         state: "QC",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -3424,14 +3424,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "www.linkedin.com/in/ahmed-hajat",
-        github: "https://www.github.com/AhmedH14"
+        github: "https://www.github.com/AhmedH14",
       },
       jobTitle: "Project Manager and Frontend Developer",
       location: {
         city: "Johannesburg",
         state: "Gauteng",
-        country: "South Africa"
-      }
+        country: "South Africa",
+      },
     },
     {
       id: uuidv4(),
@@ -3440,14 +3440,14 @@ export const data = {
         "https://media.licdn.com/dms/image/C4E03AQGTfv08sv9fBA/profile-displayphoto-shrink_200_200/0?e=1543449600&v=beta&t=8V8fXTBPNah4oN2HVXp8Ybe6EeXBbIdBtxmkxxmt298",
       links: {
         linkedin: "https://www.linkedin.com/in/adriano-ianase/",
-        github: "https://github.com/adrianomi"
+        github: "https://github.com/adrianomi",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Campo Grande",
         state: "Mato Grosso do Sul",
-        country: "Brazil"
-      }
+        country: "Brazil",
+      },
     },
     {
       id: uuidv4(),
@@ -3456,14 +3456,14 @@ export const data = {
         "https://media-exp2.licdn.com/dms/image/C4E03AQF_4aLCPUuTjw/profile-displayphoto-shrink_200_200/0?e=1585785600&v=beta&t=zk7nach2oBxIP9QU3mDT61hwr_fbVkxbgi8eHs4NOAo",
       links: {
         linkedin: "https://www.linkedin.com/in/nilkamal-shah/",
-        github: "https://github.com/nilkamal"
+        github: "https://github.com/nilkamal",
       },
       jobTitle: "Senior Associate Technology Experience L1",
       location: {
         city: "Bangalore",
         state: "Karnataka",
-        country: "INDIA"
-      }
+        country: "INDIA",
+      },
     },
     {
       id: uuidv4(),
@@ -3473,14 +3473,14 @@ export const data = {
       links: {
         website: "http://knsk.me/",
         linkedin: "https://www.linkedin.com/in/kaniskc/",
-        github: "https://github.com/k-n-sk"
+        github: "https://github.com/k-n-sk",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Toronto",
         state: "Ontario",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -3489,14 +3489,14 @@ export const data = {
         "https://static-cdn.jtvnw.net/jtv_user_pictures/b3660425-a3c6-49b6-b87a-a8d487dd37b2-profile_image-300x300.jpg",
       links: {
         linkedin: "https://www.linkedin.com/in/siegblink/",
-        github: "https://github.com/siegblink"
+        github: "https://github.com/siegblink",
       },
       jobTitle: "Fullstack Javascript Developer",
       location: {
         city: "Cebu City",
         state: "Cebu",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -3506,14 +3506,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/parral",
-        github: "https://github.com/lparra"
+        github: "https://github.com/lparra",
       },
       jobTitle: "Full-Stack Dev",
       location: {
         city: "Fort Lauderdale",
         state: "Florida",
-        country: "United States of America"
-      }
+        country: "United States of America",
+      },
     },
     {
       id: uuidv4(),
@@ -3523,14 +3523,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/rakshakashyap",
-        github: "https://github.com/kashyap-raksha"
+        github: "https://github.com/kashyap-raksha",
       },
       jobTitle: "Full-Stack Dev",
       location: {
         city: "San Jose",
         state: "California",
-        country: "United States of America"
-      }
+        country: "United States of America",
+      },
     },
     {
       id: uuidv4(),
@@ -3539,14 +3539,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mika-riepponen/",
-        github: "https://github.com/Vrites"
+        github: "https://github.com/Vrites",
       },
       jobTitle: "Front-End Web Developer",
       location: {
         city: "Espoo",
         state: "",
-        country: "Finland"
-      }
+        country: "Finland",
+      },
     },
     {
       id: uuidv4(),
@@ -3556,14 +3556,14 @@ export const data = {
       links: {
         website: "http://thepoolehouse.com/",
         linkedin: "https://www.linkedin.com/in/earle-poole-937736115/",
-        github: "https://github.com/Earle-Poole"
+        github: "https://github.com/Earle-Poole",
       },
       jobTitle: "Full-Stack Dev",
       location: {
         city: "Houston",
         state: "TX",
-        country: "United States of America"
-      }
+        country: "United States of America",
+      },
     },
     {
       id: uuidv4(),
@@ -3573,14 +3573,14 @@ export const data = {
       links: {
         website: "www.rahulmarupaka.github.io",
         linkedin: "http://www.linkedin.com/in/rahulmarupaka",
-        github: "www.github.com/rahulmarupaka"
+        github: "www.github.com/rahulmarupaka",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Chicago",
         state: "Illinois",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -3589,14 +3589,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/adam-round-1665367a/",
-        github: "https://github.com/Roundy123"
+        github: "https://github.com/Roundy123",
       },
       jobTitle: "Data Scientist",
       location: {
         city: "Bristol",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -3606,14 +3606,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/udi-levy-187865115/",
-        github: "https://github.com/Udi18"
+        github: "https://github.com/Udi18",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Houston",
         state: "Texas",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -3623,14 +3623,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/uriel-hayon-4354626b/",
-        github: "https://github.com/uhayon"
+        github: "https://github.com/uhayon",
       },
       jobTitle: "Full Stack Developer (Front End mainly)",
       location: {
         city: "CABA",
         state: "Buenos Aires",
-        country: "Argentina"
-      }
+        country: "Argentina",
+      },
     },
     {
       id: uuidv4(),
@@ -3640,14 +3640,14 @@ export const data = {
       links: {
         website: "http://ruslananisimov.com",
         linkedin: "https://www.linkedin.com/in/ruslan-anisimov/",
-        github: "https://github.com/napvlm"
+        github: "https://github.com/napvlm",
       },
       jobTitle: "Front-end Developer",
       location: {
         city: "Kyiv",
         state: "",
-        country: "Ukraine"
-      }
+        country: "Ukraine",
+      },
     },
     {
       id: uuidv4(),
@@ -3657,14 +3657,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/mk-hill"
+        github: "https://github.com/mk-hill",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Little Rock",
         state: "Arkansas",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -3674,14 +3674,14 @@ export const data = {
       links: {
         website: "tidyneat.com",
         linkedin: "https://www.linkedin.com/in/johnjaydavis/",
-        github: "https://github.com/512jay"
+        github: "https://github.com/512jay",
       },
       jobTitle: "Developer",
       location: {
         city: "Washington",
         state: "DC",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -3691,14 +3691,14 @@ export const data = {
       links: {
         website: "https://gildw.com",
         linkedin: "https://www.linkedin.com/in/gilweinstock/",
-        github: "https://github.com/cippero"
+        github: "https://github.com/cippero",
       },
       jobTitle: "Full Stack Developer (JS/TS/Python/C#)",
       location: {
         city: "Seattle",
         state: "WA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -3707,14 +3707,14 @@ export const data = {
       links: {
         website: "http://rafikiweb.com/",
         linkedin: "https://www.linkedin.com/in/joachimtra/",
-        github: "https://github.com/tranjog"
+        github: "https://github.com/tranjog",
       },
       jobTitle: "Web and Digital Systems Developer",
       location: {
         city: "Exeter",
         state: "Devon",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -3723,14 +3723,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/matheus-h-souza/",
-        github: "https://github.com/Teraus"
+        github: "https://github.com/Teraus",
       },
       jobTitle: "Web, C++ and Java Developer",
       location: {
         city: "Brasília",
         state: "Federal District",
-        country: "Brazil"
-      }
+        country: "Brazil",
+      },
     },
     {
       id: uuidv4(),
@@ -3739,14 +3739,14 @@ export const data = {
       links: {
         website: "http://sciortino-mrc.netlify.com",
         linkedin: "https://www.linkedin.com/in/marco-sciortino-429938155/",
-        github: "https://github.com/sciortinomrc"
+        github: "https://github.com/sciortinomrc",
       },
       jobTitle: "Full Stack Javascript Web Dev, C#",
       location: {
         city: "London",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -3756,14 +3756,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ariel-tan-67123b124/",
-        github: "https://github.com/arieltan18"
+        github: "https://github.com/arieltan18",
       },
       jobTitle: "Junior Web & Mobile Developer",
       location: {
         city: "",
         state: "",
-        country: "Malaysia"
-      }
+        country: "Malaysia",
+      },
     },
     {
       id: uuidv4(),
@@ -3773,14 +3773,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/swaroop-sambhayya-72757a136/",
-        github: "https://github.com/SwaroopSambhayya"
+        github: "https://github.com/SwaroopSambhayya",
       },
       jobTitle: "Full stack Android and Web Developer",
       location: {
         city: "",
         state: "Karnataka",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -3790,14 +3790,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/hareth-naji/",
-        github: "https://github.com/hazzaldo"
+        github: "https://github.com/hazzaldo",
       },
       jobTitle: "Full stack (React) Web Developer and iOS developer",
       location: {
         city: "",
         state: "Warwickshire",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -3806,14 +3806,14 @@ export const data = {
       links: {
         website: "kush-daga.github.io",
         linkedin: "www.linkedin.com/in/kush-d-63a310111",
-        github: "https://github.com/kush-daga"
+        github: "https://github.com/kush-daga",
       },
       jobTitle: "Full stack Web Developer",
       location: {
         city: "Patiala",
         state: "Punjab",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -3823,14 +3823,14 @@ export const data = {
       links: {
         website: "https://mikelegemah5799.github.io/mikelegemah5799/",
         linkedin: "https://www.linkedin.com/in/michaellegemah/",
-        github: "https://github.com/MikeLegemah5799"
+        github: "https://github.com/MikeLegemah5799",
       },
       jobTitle: "Senior Front End Web Engineer",
       location: {
         city: "New York",
         state: "NY",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -3839,14 +3839,14 @@ export const data = {
       links: {
         website: "http://vargasdev.com/",
         linkedin: "",
-        github: "https://github.com/PaulVargasDev"
+        github: "https://github.com/PaulVargasDev",
       },
       jobTitle: "Web Developer (WordPress, React.js, Node.js)",
       location: {
         city: "",
         state: "",
-        country: "Bolivia (Willing to Relocate or Work Remotely)"
-      }
+        country: "Bolivia (Willing to Relocate or Work Remotely)",
+      },
     },
     {
       id: uuidv4(),
@@ -3856,14 +3856,14 @@ export const data = {
       links: {
         website: "https://sherondale.me",
         linkedin: "https://www.linkedin.com/in/sherin-binu-75291a126/",
-        github: "https://github.com/SherOnDale"
+        github: "https://github.com/SherOnDale",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Chennai",
         state: "Tamil Nadu",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -3872,14 +3872,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/beardofdan/",
-        github: "https://github.com/BeardOfDan"
+        github: "https://github.com/BeardOfDan",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Bay Area",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -3888,14 +3888,14 @@ export const data = {
       links: {
         website: "harshpatel.io",
         linkedin: "https://www.linkedin.com/pateltharsh/",
-        github: "https://github.com/Zeztron"
+        github: "https://github.com/Zeztron",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Columbus",
         state: "OH",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -3904,14 +3904,14 @@ export const data = {
       links: {
         website: "https://www.joelandrewrumble.co.uk",
         linkedin: "https://www.linkedin.com/in/joel-rumble-17b554157",
-        github: ""
+        github: "",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "",
         state: "Dorset",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -3920,14 +3920,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/hmahajan99",
-        github: "https://github.com/hmahajan99"
+        github: "https://github.com/hmahajan99",
       },
       jobTitle: "Full Stack Web Developer/ Data Scientist",
       location: {
         city: "",
         state: "Delhi",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -3937,14 +3937,14 @@ export const data = {
       links: {
         website: "http://www.kwanwoo.me",
         linkedin: "https://www.linkedin.com/in/kwanwoo-jeong-48699483/",
-        github: "https://github.com/kwanwooi25"
+        github: "https://github.com/kwanwooi25",
       },
       jobTitle: "Full-stack Web Developer",
       location: {
         city: "Seoul",
         state: "",
-        country: "Korea"
-      }
+        country: "Korea",
+      },
     },
     {
       id: uuidv4(),
@@ -3954,14 +3954,14 @@ export const data = {
         website: "",
         linkedin:
           "https://www.linkedin.com/in/vignesh-kaliyamoorthy-24006a100/",
-        github: "https://github.com/vigneshkaliyamoorthy"
+        github: "https://github.com/vigneshkaliyamoorthy",
       },
       jobTitle: "Front-End Web Developer & SharePoint Developer",
       location: {
         city: "Chennai",
         state: "Tamilnadu",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -3970,14 +3970,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ginnnnnn/",
-        github: "https://github.com/ginnnnnn/"
+        github: "https://github.com/ginnnnnn/",
       },
       jobTitle: "Front-End Web Developer ",
       location: {
         city: "Adelide",
         state: "South Australia",
-        country: "Australia"
-      }
+        country: "Australia",
+      },
     },
     {
       id: uuidv4(),
@@ -3986,14 +3986,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/brian-macpherson-414b6126/",
-        github: "https://github.com/brimac1634"
+        github: "https://github.com/brimac1634",
       },
       jobTitle: "Full Stack Developer and Project Manager",
       location: {
         city: "Hong Kong",
         state: "",
-        country: "Hong Kong"
-      }
+        country: "Hong Kong",
+      },
     },
     {
       id: uuidv4(),
@@ -4004,14 +4004,14 @@ export const data = {
         website: "to be updated",
         linkedin:
           "https://www.linkedin.com/in/wilfred-erdo-bancairen-54887939/",
-        github: "https://github.com/wilfred05777"
+        github: "https://github.com/wilfred05777",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Carmen",
         state: "Davao Del Norte",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -4021,14 +4021,14 @@ export const data = {
       links: {
         website: "https://valkyr-development.com/",
         linkedin: "https://www.linkedin.com/in/rmstamate/",
-        github: "https://github.com/roberthugsy/"
+        github: "https://github.com/roberthugsy/",
       },
       jobTitle: "Fullstack Developer",
       location: {
         city: "Cluj-Napoca",
         state: "Cluj",
-        country: "Romania"
-      }
+        country: "Romania",
+      },
     },
     {
       id: uuidv4(),
@@ -4038,14 +4038,14 @@ export const data = {
       links: {
         website: "https://tonynguyen111997.github.io/portfolio/",
         linkedin: "https://www.linkedin.com/in/tonynguyen111997/",
-        github: "https://github.com/tonynguyen111997"
+        github: "https://github.com/tonynguyen111997",
       },
       jobTitle: "Web Developer",
       location: {
         city: "San Bernardino",
         state: "California",
-        country: "United States of America"
-      }
+        country: "United States of America",
+      },
     },
     {
       id: uuidv4(),
@@ -4055,14 +4055,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/profileandrescruz/",
-        github: "https://github.com/andres-cruz"
+        github: "https://github.com/andres-cruz",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Buenos Aires",
         state: "",
-        country: "Argentina"
-      }
+        country: "Argentina",
+      },
     },
     {
       id: uuidv4(),
@@ -4071,14 +4071,14 @@ export const data = {
       links: {
         website: "https://ycf-dev.herokuapp.com/",
         linkedin: "https://www.linkedin.com/in/josef-bnm-692392123/",
-        github: "https://github.com/YoucefBnm"
+        github: "https://github.com/YoucefBnm",
       },
       jobTitle: "Front-end Web Developer",
       location: {
         city: "Oran",
         state: "Oran",
-        country: "Algeria (willin to relocate)"
-      }
+        country: "Algeria (willin to relocate)",
+      },
     },
     {
       id: uuidv4(),
@@ -4087,14 +4087,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/vanessawpwang/",
-        github: "https://github.com/sanguliupo"
+        github: "https://github.com/sanguliupo",
       },
       jobTitle: "Front-end Web Developer",
       location: {
         city: "San Francisco",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -4104,14 +4104,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/darnell-hedrick-962b65176/",
-        github: "https://github.com/DarrnyH"
+        github: "https://github.com/DarrnyH",
       },
       jobTitle: "Full Stack Developer(MERN) ",
       location: {
         city: "",
         state: "Mississippi",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -4120,14 +4120,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/sina-moraddar-851708177/",
-        github: "https://github.com/sinamoraddar"
+        github: "https://github.com/sinamoraddar",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Shahriar",
         state: "Tehran",
-        country: "Iran"
-      }
+        country: "Iran",
+      },
     },
     {
       id: uuidv4(),
@@ -4136,14 +4136,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/aagjalpankaj/",
-        github: "https://github.com/aagjalpankaj/"
+        github: "https://github.com/aagjalpankaj/",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Pune",
         state: "Maharashtra",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -4153,14 +4153,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/kritika-sharma-8a65687a/",
-        github: "https://github.com/KritikaSharmaKS/"
+        github: "https://github.com/KritikaSharmaKS/",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Montreal",
         state: "Quebec",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -4170,14 +4170,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/yasserdalouzi/",
-        github: "https://github.com/yvsser1/"
+        github: "https://github.com/yvsser1/",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Casablanca",
         state: "",
-        country: "Morocco"
-      }
+        country: "Morocco",
+      },
     },
     {
       id: uuidv4(),
@@ -4187,14 +4187,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/yixun-li-4b979ba3/",
-        github: "https://github.com/yx8"
+        github: "https://github.com/yx8",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Melbourne",
         state: "Victroia",
-        country: "Australia"
-      }
+        country: "Australia",
+      },
     },
     {
       id: uuidv4(),
@@ -4203,14 +4203,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/david-bordeleau-a39434156/",
-        github: "https://github.com/davidbordeleau"
+        github: "https://github.com/davidbordeleau",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Den Haag",
         state: "South Holland",
-        country: "Netherlands"
-      }
+        country: "Netherlands",
+      },
     },
     {
       id: uuidv4(),
@@ -4219,14 +4219,14 @@ export const data = {
       links: {
         website: "https://shinyuy.github.io",
         linkedin: "www.linkedin.com/in/shinyuy-marcel-fonyuy-710a38169",
-        github: "https://github.com/shinyuy"
+        github: "https://github.com/shinyuy",
       },
       jobTitle: "Full-Stack Web Developer",
       location: {
         city: "Yaounde",
         state: "Centre",
-        country: "Cameroon"
-      }
+        country: "Cameroon",
+      },
     },
     {
       id: uuidv4(),
@@ -4236,14 +4236,14 @@ export const data = {
       links: {
         website: "https://davidpnowak.com",
         linkedin: "https://www.linkedin.com/in/davidpnowak/",
-        github: "https://github.com/Confidenceiskey"
+        github: "https://github.com/Confidenceiskey",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "",
         state: "",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -4253,14 +4253,14 @@ export const data = {
       links: {
         website: "https://jcgentr.github.io/",
         linkedin: "https://www.linkedin.com/in/jared-gentry-48923b113/",
-        github: "https://github.com/jcgentr"
+        github: "https://github.com/jcgentr",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Columbia",
         state: "South Carolina",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -4269,14 +4269,14 @@ export const data = {
       links: {
         website: "http://royekott-portfolio.ml/",
         linkedin: "https://www.linkedin.com/in/roye-kott-891561106/",
-        github: "https://github.com/royekott"
+        github: "https://github.com/royekott",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Emek Yizrael",
         state: "North",
-        country: "Israel"
-      }
+        country: "Israel",
+      },
     },
     {
       id: uuidv4(),
@@ -4285,14 +4285,14 @@ export const data = {
       links: {
         website: "https://www.behance.net/alaindimabuyo",
         linkedin: "https://www.linkedin.com/in/alaindimabuyo/",
-        github: "https://github.com/alaindimabuyo"
+        github: "https://github.com/alaindimabuyo",
       },
       jobTitle: "Front-End Web Developer",
       location: {
         city: "San Fernando",
         state: "Pampanga",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -4302,14 +4302,14 @@ export const data = {
       links: {
         website: "https://pratyakash.github.io/",
         linkedin: "https://www.linkedin.com/in/pratyakash-s-saini-038639106",
-        github: "https://github.com/pratyakash"
+        github: "https://github.com/pratyakash",
       },
       jobTitle: "Front-End Web Developer",
       location: {
         city: "New Delhi",
         state: "Delhi",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -4319,15 +4319,15 @@ export const data = {
       links: {
         website: "https://waffleflopper.github.io/",
         linkedin: "https://www.linkedin.com/in/robert-baddeley-32ba63177/",
-        github: "https://github.com/waffleflopper"
+        github: "https://github.com/waffleflopper",
       },
       jobTitle:
         "Full-Stack Developer (Currently Respiratory Therapist, Career Changing)",
       location: {
         city: "Honolulu",
         state: "Hawaii",
-        country: "UNited States"
-      }
+        country: "UNited States",
+      },
     },
     {
       id: uuidv4(),
@@ -4337,14 +4337,14 @@ export const data = {
       links: {
         website: "https://neetishpathak.github.io/",
         linkedin: "https://www.linkedin.com/in/neetish-pathak-63024131/",
-        github: "https://github.com/NeetishPathak"
+        github: "https://github.com/NeetishPathak",
       },
       jobTitle: "Software and Systems Engineer",
       location: {
         city: "San Jose",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -4354,14 +4354,14 @@ export const data = {
       links: {
         website: "https://galoncyryll.github.io/website-portfolio/",
         linkedin: "https://www.linkedin.com/in/cyryll-joseph-galon-461710147/",
-        github: "https://github.com/galoncyryll"
+        github: "https://github.com/galoncyryll",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Bakersfield",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -4370,14 +4370,14 @@ export const data = {
       links: {
         website: "https://saiadarsh.github.io/",
         linkedin: "https://www.linkedin.com/in/saiadarsh/",
-        github: "https://github.com/saiadarsh"
+        github: "https://github.com/saiadarsh",
       },
       jobTitle: "Software Engineer/Developer",
       location: {
         city: "Columbia",
         state: "South Carolina",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -4387,14 +4387,14 @@ export const data = {
       links: {
         website: "https://amplace.co.il/",
         linkedin: "https://www.linkedin.com/in/anniebelkin/",
-        github: "https://github.com/anniebelkin"
+        github: "https://github.com/anniebelkin",
       },
       jobTitle: "Front-end Developer",
       location: {
         city: "Beer-Sheva",
         state: "South",
-        country: "Israel"
-      }
+        country: "Israel",
+      },
     },
     {
       id: uuidv4(),
@@ -4403,14 +4403,14 @@ export const data = {
       links: {
         website: "https://mortenkose.com/",
         linkedin: "https://www.linkedin.com/in/morten-kose/",
-        github: "https://github.com/mortenkos"
+        github: "https://github.com/mortenkos",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Tartu",
         state: "Tartumaa",
-        country: "Estonia"
-      }
+        country: "Estonia",
+      },
     },
     {
       id: uuidv4(),
@@ -4420,14 +4420,14 @@ export const data = {
       links: {
         website: "https://kyrolos.github.io/Myportofolio/",
         linkedin: "https://www.linkedin.com/in/kyrolos-magdy-575055163/",
-        github: "https://github.com/kyrolos"
+        github: "https://github.com/kyrolos",
       },
       jobTitle: "Senior web developer",
       location: {
         city: "Ismailia",
         state: "",
-        country: "Egypt"
-      }
+        country: "Egypt",
+      },
     },
     {
       id: uuidv4(),
@@ -4437,14 +4437,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/nigel-h-9a6165144/",
-        github: "https://github.com/knarf118"
+        github: "https://github.com/knarf118",
       },
       jobTitle: "Software Developer",
       location: {
         city: "",
         state: "",
-        country: "Barbados"
-      }
+        country: "Barbados",
+      },
     },
     {
       id: uuidv4(),
@@ -4454,14 +4454,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/redwan-jemal/",
-        github: "https://github.com/redwanJemal/"
+        github: "https://github.com/redwanJemal/",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Addis Ababa",
         state: "",
-        country: "Ethiopia"
-      }
+        country: "Ethiopia",
+      },
     },
     {
       id: uuidv4(),
@@ -4471,14 +4471,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/richard-widjaya-3a658614b/",
-        github: "https://github.com/ricwidjaya"
+        github: "https://github.com/ricwidjaya",
       },
       jobTitle: "Digital Marketer",
       location: {
         city: "Taipei",
         state: "",
-        country: "Taiwan"
-      }
+        country: "Taiwan",
+      },
     },
     {
       id: uuidv4(),
@@ -4488,14 +4488,14 @@ export const data = {
       links: {
         website: "https://danielmillier.carrd.co",
         linkedin: "https://www.linkedin.com/in/danjmillier/",
-        github: "https://github.com/unknownfearng"
+        github: "https://github.com/unknownfearng",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Kingston",
         state: "",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -4504,14 +4504,14 @@ export const data = {
       links: {
         website: "https://www.melodiccrypter.com",
         linkedin: "https://www.linkedin.com/in/hughcaluscusin/",
-        github: "https://github.com/MelodicCrypter"
+        github: "https://github.com/MelodicCrypter",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Cebu",
         state: "",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -4520,14 +4520,14 @@ export const data = {
       links: {
         website: "https://www.patrickolvera.com/",
         linkedin: "https://www.linkedin.com/in/patrick-olvera/",
-        github: "https://github.com/patrickolvera"
+        github: "https://github.com/patrickolvera",
       },
       jobTitle: "Front End Web Developer",
       location: {
         city: "Minneapolis",
         state: "MN",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -4536,14 +4536,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/martynasarbak/",
-        github: "https://github.com/martynasarbak"
+        github: "https://github.com/martynasarbak",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Warsaw",
         state: "",
-        country: "Poland"
-      }
+        country: "Poland",
+      },
     },
     {
       id: uuidv4(),
@@ -4551,14 +4551,14 @@ export const data = {
       img: "",
       links: {
         linkedin: "https://www.linkedin.com/in/louis-beul-186108175/",
-        github: "https://github.com/LBeul"
+        github: "https://github.com/LBeul",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Rehe",
         state: "Westwood Forest",
-        country: "Germany"
-      }
+        country: "Germany",
+      },
     },
     {
       id: uuidv4(),
@@ -4567,14 +4567,14 @@ export const data = {
       links: {
         website: "http://www.fahadzakir.com",
         linkedin: "https://www.linkedin.com/in/fahad-zakir",
-        github: "https://github.com/fahad-zakir"
+        github: "https://github.com/fahad-zakir",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Chicago",
         state: "IL",
-        country: "US"
-      }
+        country: "US",
+      },
     },
     {
       id: uuidv4(),
@@ -4583,14 +4583,14 @@ export const data = {
       links: {
         website: "https://sophiabrandt.com",
         linkedin: "https://www.linkedin.com/in/sophiabrandt",
-        github: "https://github.com/sophiabrandt"
+        github: "https://github.com/sophiabrandt",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Dortmund",
         state: "NRW",
-        country: "Germany"
-      }
+        country: "Germany",
+      },
     },
     {
       id: uuidv4(),
@@ -4599,14 +4599,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/tshakhshir/",
-        github: "https://github.com/ThaerMun"
+        github: "https://github.com/ThaerMun",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "St.John's",
         state: "Newfoundland",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -4616,14 +4616,14 @@ export const data = {
       links: {
         website: "http://www.jackvmeyer.com",
         linkedin: "https://www.linkedin.com/in/jack-v-meyer/",
-        github: "https://github.com/meyer744"
+        github: "https://github.com/meyer744",
       },
       jobTitle: "Front End Web Developer",
       location: {
         city: "Troy",
         state: "Ohio",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -4632,14 +4632,14 @@ export const data = {
       links: {
         website: "https://macrichie.github.io/",
         linkedin: "https://www.linkedin.com/in/olakunle-makanjuola-7971155a/",
-        github: "https://github.com/Macrichie"
+        github: "https://github.com/Macrichie",
       },
       jobTitle: "Javascript Developer / Tech Recruiter",
       location: {
         city: "Lekki",
         state: "Lagos",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -4649,14 +4649,14 @@ export const data = {
       links: {
         website: "https://shametaj.github.io",
         linkedin: "https://gr.linkedin.com/in/taulant-shametaj-6518a191",
-        github: "https://github.com/shametaj"
+        github: "https://github.com/shametaj",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Saarbrücken",
         state: "",
-        country: "Germany"
-      }
+        country: "Germany",
+      },
     },
     {
       id: uuidv4(),
@@ -4666,14 +4666,14 @@ export const data = {
       links: {
         website: "http://usmanjamil.co.uk",
         linkedin: "https://www.linkedin.com/in/usmaanj/",
-        github: "https://github.com/usmanj"
+        github: "https://github.com/usmanj",
       },
       jobTitle: "Full-Stack Developer (JavaScript, C#)",
       location: {
         city: "London",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -4682,14 +4682,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/waheed-afolabi/",
-        github: "https://github.com/wptechprodigy"
+        github: "https://github.com/wptechprodigy",
       },
       jobTitle: "Fullstack Software Developer",
       location: {
         city: "",
         state: "Lagos",
-        country: "Nigeria (Open to Remote & Willing to Relocate)"
-      }
+        country: "Nigeria (Open to Remote & Willing to Relocate)",
+      },
     },
     {
       id: uuidv4(),
@@ -4698,14 +4698,14 @@ export const data = {
       links: {
         website: "https://diskomotech.github.io",
         linkedin: "https://www.linkedin.com/in/jimwright808/",
-        github: "https://github.com/diskomotech"
+        github: "https://github.com/diskomotech",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "London",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -4714,14 +4714,14 @@ export const data = {
       links: {
         website: "https://lucidbeaming.net/",
         linkedin: "https://www.linkedin.com/in/lucidbeaming/",
-        github: "https://github.com/lucidbeaming"
+        github: "https://github.com/lucidbeaming",
       },
       jobTitle: "Full stack developer",
       location: {
         city: "San Jose",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -4731,14 +4731,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/natiquirozyoffe",
-        github: "https://github.com/nquiroz"
+        github: "https://github.com/nquiroz",
       },
       jobTitle: "Full Stack Developer (Java, Javascript, Css, Angular)",
       location: {
         city: "Asunción",
         state: "Central",
-        country: "Paraguay"
-      }
+        country: "Paraguay",
+      },
     },
     {
       id: uuidv4(),
@@ -4747,14 +4747,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/kundanshrivastav/",
-        github: "https://github.com/Kshriva1"
+        github: "https://github.com/Kshriva1",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Binghamton(Open for relocation across US)",
         state: "New York",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -4763,14 +4763,14 @@ export const data = {
       links: {
         website: "https://ra9.github.io",
         linkedin: "https://linkedin.com/in/carlos-nah",
-        github: "https://github.com/ra9"
+        github: "https://github.com/ra9",
       },
       jobTitle: "Fullstack Developer",
       location: {
         city: "Monrovia(Open for relocation)",
         state: "Montserrado",
-        country: "Liberia"
-      }
+        country: "Liberia",
+      },
     },
     {
       id: uuidv4(),
@@ -4779,14 +4779,14 @@ export const data = {
       links: {
         website: "https://arrogantgeek.com",
         linkedin: "https://www.linkedin.com/in/kyedavey",
-        github: "https://github.com/kyedavey"
+        github: "https://github.com/kyedavey",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Sydney",
         state: "NSW",
-        country: "Australia"
-      }
+        country: "Australia",
+      },
     },
     {
       id: uuidv4(),
@@ -4796,14 +4796,14 @@ export const data = {
       links: {
         website: "https://vignesh17.github.io/ME/",
         linkedin: "https://www.linkedin.com/in/vignesh-manishankar/",
-        github: "https://github.com/vignesh17"
+        github: "https://github.com/vignesh17",
       },
       jobTitle: "Fullstack Developer",
       location: {
         city: "San Ramon(Open for relocation)",
         state: "California",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -4812,14 +4812,14 @@ export const data = {
       links: {
         website: "https://www.mikezaleski.com/",
         linkedin: "https://www.linkedin.com/in/michael-zaleski-b52b50161/",
-        github: "https://github.com/multisonic"
+        github: "https://github.com/multisonic",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "New York",
         state: "New York",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -4829,14 +4829,14 @@ export const data = {
       links: {
         website: "https://www.facebook.com/Milkyahu/",
         linkedin: "https://www.linkedin.com/in/ilan-melki/",
-        github: "https://github.com/iMelki"
+        github: "https://github.com/iMelki",
       },
       jobTitle: "Junior Full Stack Developer",
       location: {
         city: "Tel-Aviv",
         state: "",
-        country: "Israel"
-      }
+        country: "Israel",
+      },
     },
     {
       id: uuidv4(),
@@ -4845,14 +4845,14 @@ export const data = {
       links: {
         website: "http://www.amsauciuc.com",
         linkedin: "https://www.linkedin.com/in/ana-maria-sauciuc-753ba8155/",
-        github: "https://github.com/annasauciuc"
+        github: "https://github.com/annasauciuc",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Las Palmas",
         state: "Canary Islands",
-        country: "Spain"
-      }
+        country: "Spain",
+      },
     },
     {
       id: uuidv4(),
@@ -4861,14 +4861,14 @@ export const data = {
       links: {
         website: "http://www.kencrites.com",
         linkedin: "https://www.linkedin.com/in/kencrites/",
-        github: "https://github.com/kcrites"
+        github: "https://github.com/kcrites",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Amsterdam",
         state: "Noord-Holland",
-        country: "Netherlands"
-      }
+        country: "Netherlands",
+      },
     },
     {
       id: uuidv4(),
@@ -4878,14 +4878,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/prateek-parab/",
-        github: "https://github.com/prateekParab20"
+        github: "https://github.com/prateekParab20",
       },
       jobTitle: "Software developer",
       location: {
         city: "Jersey city",
         state: "New Jersey",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -4895,14 +4895,14 @@ export const data = {
       links: {
         website: "http://www.davemint.com/",
         linkedin: "https://www.linkedin.com/in/dvdlin214/",
-        github: "https://github.com/dvdlin214"
+        github: "https://github.com/dvdlin214",
       },
       jobTitle: "Software Developer",
       location: {
         city: "New York",
         state: "New York",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -4912,14 +4912,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/loïc-njike/",
-        github: "https://github.com/virgilenjike"
+        github: "https://github.com/virgilenjike",
       },
       jobTitle: "Full-Stack Web, C# and Python Developer",
       location: {
         city: "Douala",
         state: "Littoral",
-        country: "Cameroon"
-      }
+        country: "Cameroon",
+      },
     },
     {
       id: uuidv4(),
@@ -4928,14 +4928,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/david-okonkwo-64717a12a/",
-        github: "https://github.com/ugozeal"
+        github: "https://github.com/ugozeal",
       },
       jobTitle: "Software Developer",
       location: {
         city: "FCT Abuja",
         state: "Abuja",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -4944,14 +4944,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ricardos27/",
-        github: "https://github.com/rxsh96"
+        github: "https://github.com/rxsh96",
       },
       jobTitle: "Computer Science Engineering Student",
       location: {
         city: "Guayaquil",
         state: "Guayas",
-        country: "Ecuador"
-      }
+        country: "Ecuador",
+      },
     },
     {
       id: uuidv4(),
@@ -4960,14 +4960,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/abolude-peter/",
-        github: "https://github.com/CFCIfe"
+        github: "https://github.com/CFCIfe",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Lagos",
         state: "Lagos",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -4977,14 +4977,14 @@ export const data = {
       links: {
         website: "https://gorniczy.github.io",
         linkedin: "https://www.linkedin.com/in/denis-gornichar/",
-        github: "https://github.com/gorniczy"
+        github: "https://github.com/gorniczy",
       },
       jobTitle: "Frontend Developer",
       location: {
         city: "Warsaw",
         state: "",
-        country: "Poland"
-      }
+        country: "Poland",
+      },
     },
     {
       id: uuidv4(),
@@ -4994,14 +4994,14 @@ export const data = {
       links: {
         website: "https://www.adefisolaadigun.com",
         linkedin: "https://www.linkedin.com/in/adefisola-adigun/",
-        github: "https://github.com/TheFisola"
+        github: "https://github.com/TheFisola",
       },
       jobTitle: "Software Engineer | ♥ Javascript",
       location: {
         city: "Magodo",
         state: "Lagos",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -5010,14 +5010,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/rodalbert/",
-        github: "https://github.com/rodalbert"
+        github: "https://github.com/rodalbert",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Lisbon",
         state: "",
-        country: "Portugal"
-      }
+        country: "Portugal",
+      },
     },
     {
       id: uuidv4(),
@@ -5026,14 +5026,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ganeshnomula/",
-        github: "https://github.com/UnselfconsciousLux"
+        github: "https://github.com/UnselfconsciousLux",
       },
       jobTitle: "Product Designer, Full-Stack Developer, Illustrator",
       location: {
         city: "Dallas",
         state: "Texas",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -5044,14 +5044,14 @@ export const data = {
         website: "http://carloscm.me",
         linkedin:
           "https://www.linkedin.com/in/carlos-de-la-cruz-meregildo-5673b1141/",
-        github: "https://github.com/Ahcom1019"
+        github: "https://github.com/Ahcom1019",
       },
       jobTitle: "FullStack Developer",
       location: {
         city: "Santo Domingo",
         state: "National District",
-        country: "Dominican Republic"
-      }
+        country: "Dominican Republic",
+      },
     },
     {
       id: uuidv4(),
@@ -5060,14 +5060,14 @@ export const data = {
       links: {
         website: "https://rajesh13goud.github.io/",
         linkedin: "https://www.linkedin.com/in/rajesh-d-775981175/",
-        github: "https://github.com/rajesh13goud"
+        github: "https://github.com/rajesh13goud",
       },
       jobTitle: "FullStack Blockchain Developer",
       location: {
         city: "Bangalore",
         state: "Karnataka",
-        country: "INDIA"
-      }
+        country: "INDIA",
+      },
     },
     {
       id: uuidv4(),
@@ -5077,14 +5077,14 @@ export const data = {
       links: {
         website: "https://crbaucom.com",
         linkedin: "https://linkedin.com/in/chrisbaucom",
-        github: "https://github.com/cbaucom"
+        github: "https://github.com/cbaucom",
       },
       jobTitle: "Full Stack Engineer",
       location: {
         city: "Boston",
         state: "Massachusetts",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -5093,14 +5093,14 @@ export const data = {
       links: {
         website: " ",
         linkedin: "https://www.linkedin.com/in/naela-bahurmuz-05a85012a/",
-        github: "https://github.com/lollaab"
+        github: "https://github.com/lollaab",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Jeddah",
         state: "Makkah",
-        country: "Saudi Arabia"
-      }
+        country: "Saudi Arabia",
+      },
     },
     {
       id: uuidv4(),
@@ -5109,14 +5109,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/jatin-varlyani-127290150/",
-        github: "https://github.com/Jatin-8898"
+        github: "https://github.com/Jatin-8898",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Mumbai",
         state: "Maharashtra",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -5126,14 +5126,14 @@ export const data = {
       links: {
         website: "https://www.satsaiinfocom.com",
         linkedin: "https://www.linkedin.com/in/devavrat-singh-89249840",
-        github: "https://github.com/devavratsingh"
+        github: "https://github.com/devavratsingh",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Jodhpur",
         state: "Rajasthan",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -5142,14 +5142,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/bojana-hadzivanova-21336635/",
-        github: "https://github.com/bojana899"
+        github: "https://github.com/bojana899",
       },
       jobTitle: "developer",
       location: {
         city: "Skopje",
         state: "",
-        country: "Macedonia"
-      }
+        country: "Macedonia",
+      },
     },
     {
       id: uuidv4(),
@@ -5158,14 +5158,14 @@ export const data = {
       links: {
         website: "https://DeltaPenguinGames.weebly.com",
         linkedin: "https://www.linkedin.com/in/timothy-ngai-62198a10/",
-        github: "https://github.com/DeltaPeng"
+        github: "https://github.com/DeltaPeng",
       },
       jobTitle: "Full Stack Developer (C#, VB, Javascript)",
       location: {
         city: "Phoenix",
         state: "AZ",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -5175,14 +5175,14 @@ export const data = {
       links: {
         website: "https://www.stbr.ch",
         linkedin: "https://www.linkedin.com/in/bruno-staub-634b2870/",
-        github: "https://github.com/bstaub/"
+        github: "https://github.com/bstaub/",
       },
       jobTitle: "Full Stack Developer (Javascript, PHP)",
       location: {
         city: "Luzern",
         state: "LU",
-        country: "CH"
-      }
+        country: "CH",
+      },
     },
     {
       id: uuidv4(),
@@ -5192,14 +5192,14 @@ export const data = {
       links: {
         website: "https://akshatadabade.herokuapp.com/",
         linkedin: "https://www.linkedin.com/in/akshatadabade1994/",
-        github: "https://github.com/adabade1/"
+        github: "https://github.com/adabade1/",
       },
       jobTitle: "Front End Web Developer (Javascript, React.js, Node.js)",
       location: {
         city: "Dublin",
         state: "CA",
-        country: "US"
-      }
+        country: "US",
+      },
     },
     {
       id: uuidv4(),
@@ -5208,15 +5208,15 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/harry-parkinson-418515126/",
-        github: "https://github.com/hazza203/"
+        github: "https://github.com/hazza203/",
       },
       jobTitle:
         "Full Stack Web Developer (Javascript, React) and Software Developer (Java, Python)",
       location: {
         city: "Melbourne",
         state: "Victoria",
-        country: "Australia"
-      }
+        country: "Australia",
+      },
     },
     {
       id: uuidv4(),
@@ -5225,14 +5225,14 @@ export const data = {
       links: {
         website: "http://www.prestondavis.io",
         linkedin: "https://www.linkedin.com/in/preston-davis-016211139/",
-        github: "https://www.github.com/premdav"
+        github: "https://www.github.com/premdav",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Oklahoma City",
         state: "OK",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -5241,15 +5241,15 @@ export const data = {
       links: {
         website: "http://www.vermontskitours.com/",
         linkedin: "https://www.linkedin.com/in/fran-campana-33939a13b/",
-        github: "https://github.com/FMCampana"
+        github: "https://github.com/FMCampana",
       },
       jobTitle:
         "Full Stack Web Developer (Javascript, React) and Software Developer (Java, Python)",
       location: {
         city: "Philadelphia",
         state: "PA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -5259,15 +5259,15 @@ export const data = {
       links: {
         website: "http://vvarthan7.in/",
         linkedin: "https://www.linkedin.com/in/vvarthan7/",
-        github: "https://github.com/vvarthan7"
+        github: "https://github.com/vvarthan7",
       },
       jobTitle:
         "Sr. Software Engineer (Javascript, React.js, AEM UI(Sightly, HTL), Bootstrap)",
       location: {
         city: "Bangalore",
         state: "Karnataka",
-        country: "INDIA"
-      }
+        country: "INDIA",
+      },
     },
     {
       id: uuidv4(),
@@ -5277,14 +5277,14 @@ export const data = {
       links: {
         website: "https://argenisdelarosa.com/",
         linkedin: "https://www.linkedin.com/in/argenis-de-la-rosa-502b18157/",
-        github: "https://github.com/ArgenisDLR"
+        github: "https://github.com/ArgenisDLR",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Boston",
         state: "Massachusetts",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -5294,14 +5294,14 @@ export const data = {
         website: "",
         linkedin:
           "https://www.linkedin.com/in/%E8%8B%B1%E6%8D%B7-%E6%B4%AA-9a3592174/",
-        github: "https://github.com/a510102"
+        github: "https://github.com/a510102",
       },
       jobTitle: "Front-endWed Developer",
       location: {
         city: "Taichung",
         state: "Taiwan",
-        country: "Taiwan"
-      }
+        country: "Taiwan",
+      },
     },
     {
       id: uuidv4(),
@@ -5311,14 +5311,14 @@ export const data = {
       links: {
         website: "https://saltamay.github.io/home/",
         linkedin: "https://www.linkedin.com/in/sal-tamay/",
-        github: "https://github.com/saltamay"
+        github: "https://github.com/saltamay",
       },
       jobTitle: "Full-Stack JavaScript, ReactJS Developer",
       location: {
         city: "Toronto",
         state: "ON",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -5328,14 +5328,14 @@ export const data = {
       links: {
         website: "https://jaytintran.github.io",
         linkedin: "https://www.linkedin.com/in/jaytintran/",
-        github: "https://github.com/jaytintran"
+        github: "https://github.com/jaytintran",
       },
       jobTitle: "Front End Developer, Full Stack JavaScript, ReactJS Developer",
       location: {
         city: "Ho Chi Minh",
         state: "Ho Chi Minh",
-        country: "Vietnam"
-      }
+        country: "Vietnam",
+      },
     },
     {
       id: uuidv4(),
@@ -5345,14 +5345,14 @@ export const data = {
       links: {
         website: "https://stackoverflow.com/users/11187413/ali-tk",
         linkedin: "https://www.linkedin.com/in/alireza-tavakol73/",
-        github: "https://github.com/art1373"
+        github: "https://github.com/art1373",
       },
       jobTitle: "Fullstack Developer",
       location: {
         city: "Tehran",
         state: "Tehran",
-        country: "Iran"
-      }
+        country: "Iran",
+      },
     },
     {
       id: uuidv4(),
@@ -5362,14 +5362,14 @@ export const data = {
       links: {
         website: "http://www.josephdk.com",
         linkedin: "https://www.linkedin.com/in/joseph-kelly-420a81165/",
-        github: "https://github.com/josephdk"
+        github: "https://github.com/josephdk",
       },
       jobTitle: "Full-stack Web Developer - Javascript, React.js, PHP, MySQL",
       location: {
         city: "Gainesville",
         state: "Florida",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -5378,14 +5378,14 @@ export const data = {
       links: {
         website: "https://riosjose.com/",
         linkedin: "https://www.linkedin.com/in/joserios41/",
-        github: "https://github.com/Riosjl41"
+        github: "https://github.com/Riosjl41",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "",
         state: "Nevada",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -5394,14 +5394,14 @@ export const data = {
       links: {
         website: "http://odelia.ge/",
         linkedin: "https://www.linkedin.com/in/berulava/",
-        github: "https://github.com/Spie1er"
+        github: "https://github.com/Spie1er",
       },
       jobTitle: "FullStack Developer",
       location: {
         city: "Tbilisi",
         state: "",
-        country: "Georgia"
-      }
+        country: "Georgia",
+      },
     },
     {
       id: uuidv4(),
@@ -5410,14 +5410,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/nicmeriano"
+        github: "https://github.com/nicmeriano",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Alameda",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -5427,14 +5427,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/paola-arzuffi-31570790/",
-        github: "https://github.com/PaolaArz"
+        github: "https://github.com/PaolaArz",
       },
       jobTitle: "Bioinformatician, Full Stack Developer",
       location: {
         city: "Manchester",
         state: "",
-        country: "UK"
-      }
+        country: "UK",
+      },
     },
     {
       id: uuidv4(),
@@ -5445,14 +5445,14 @@ export const data = {
         website: "https://kudismetal.github.io/web-cv/",
         linkedin:
           "https://www.linkedin.com/in/yudhistira-putra-nugraha-154207165/",
-        github: "https://github.com/kudismetal"
+        github: "https://github.com/kudismetal",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Wonosobo",
         state: "Jawa Tengah",
-        country: "Indonesia"
-      }
+        country: "Indonesia",
+      },
     },
     {
       id: uuidv4(),
@@ -5463,14 +5463,14 @@ export const data = {
         website:
           "https://rperry99.github.io/responsive-portfolio/dist/index.html",
         linkedin: "https://www.linkedin.com/in/russ-perry-22b638a8/",
-        github: "https://github.com/rperry99"
+        github: "https://github.com/rperry99",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Cleveland",
         state: "OH",
-        country: "US"
-      }
+        country: "US",
+      },
     },
     {
       id: uuidv4(),
@@ -5479,14 +5479,14 @@ export const data = {
       links: {
         website: "https://jftiv.org",
         linkedin: "https://www.linkedin.com/in/jftiv/",
-        github: "https://github.com/jftiv"
+        github: "https://github.com/jftiv",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Atlanta",
         state: "Georgia",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -5496,14 +5496,14 @@ export const data = {
         website: "https://tomas95go.github.io/tomasportfolio/index.html",
         linkedin:
           "www.linkedin.com/in/tomas-emiliano-gonzalez-oviedo-897795173",
-        github: "https://github.com/tomas95go"
+        github: "https://github.com/tomas95go",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Formosa",
         state: "FSA",
-        country: "Argentina"
-      }
+        country: "Argentina",
+      },
     },
     {
       id: uuidv4(),
@@ -5512,14 +5512,14 @@ export const data = {
       links: {
         website: "http://dibellopaolo-portfolio-demo-1.rf.gd/?i=1",
         linkedin: "https://www.linkedin.com/in/paolo-di-bello-239056151/",
-        github: "https://github.com/PaoloDiBello"
+        github: "https://github.com/PaoloDiBello",
       },
       jobTitle: "Web Developer & Polyglot",
       location: {
         city: "Casapesenna",
         state: "Campania",
-        country: "Italy"
-      }
+        country: "Italy",
+      },
     },
     {
       id: uuidv4(),
@@ -5528,14 +5528,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/piero-sabino-15a1b671/",
-        github: "https://github.com/pierre1590"
+        github: "https://github.com/pierre1590",
       },
       jobTitle: "Junior Web Developer",
       location: {
         city: "Turi",
         state: "Puglia",
-        country: "Italy"
-      }
+        country: "Italy",
+      },
     },
     {
       id: uuidv4(),
@@ -5544,14 +5544,14 @@ export const data = {
       links: {
         website: "http://kelechi.me/my-portfolio/#/",
         linkedin: "https://www.linkedin.com/in/kelechi-igbokwe/",
-        github: "https://github.com/sirkells"
+        github: "https://github.com/sirkells",
       },
       jobTitle: "Junior IT Consultant",
       location: {
         city: "Cologne",
         state: "NRW",
-        country: "Germany"
-      }
+        country: "Germany",
+      },
     },
     {
       id: uuidv4(),
@@ -5560,14 +5560,14 @@ export const data = {
       links: {
         website: "https://tkdevlop.tk/",
         linkedin: "https://www.linkedin.com/in/tushar-kharbanda-69841a14b/",
-        github: "https://github.com/TKdevlop/"
+        github: "https://github.com/TKdevlop/",
       },
       jobTitle: "Full Stack JS Dev",
       location: {
         city: "",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -5576,14 +5576,14 @@ export const data = {
       links: {
         website: "https://tonydc1997.github.io/Personal-Website/",
         linkedin: "https://www.linkedin.com/in/anthony-curtis-js-developer/",
-        github: "https://github.com/tonydc1997"
+        github: "https://github.com/tonydc1997",
       },
       jobTitle: "Full-Stack JS Developer",
       location: {
         city: "Los Angeles County",
         state: "CA",
-        country: "U.S."
-      }
+        country: "U.S.",
+      },
     },
     {
       id: uuidv4(),
@@ -5593,14 +5593,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/wouter-kok/",
-        github: "https://github.com/wkokgit"
+        github: "https://github.com/wkokgit",
       },
       jobTitle: "Web & Software Developer",
       location: {
         city: "Amsterdam",
         state: "",
-        country: "Nederland"
-      }
+        country: "Nederland",
+      },
     },
     {
       id: uuidv4(),
@@ -5609,14 +5609,14 @@ export const data = {
       links: {
         website: "https://rainbowmoonlight.github.io/AllentinePortfolio/",
         linkedin: "https://www.linkedin.com/in/allentine/",
-        github: "https://github.com/rainbowmoonlight"
+        github: "https://github.com/rainbowmoonlight",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Los Angeles",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -5625,14 +5625,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/hrishabh-prajapati",
-        github: "https://github.com/hhrishabh"
+        github: "https://github.com/hhrishabh",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -5641,14 +5641,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/peterson-oaikhenah-102645144/",
-        github: "https://github.com/nextwebb"
+        github: "https://github.com/nextwebb",
       },
       jobTitle: "Full-Stack JavaScript and PHP Developer",
       location: {
         city: "ogba",
         state: "Lagos",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -5657,14 +5657,14 @@ export const data = {
       links: {
         website: "https://shubhamd99.github.io/portfolio/",
         linkedin: "https://www.linkedin.com/in/shubham-dhage-57133a175/",
-        github: "https://github.com/shubhamd99"
+        github: "https://github.com/shubhamd99",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Banglore",
         state: "KA",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -5673,14 +5673,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ivsuleman/",
-        github: "https://github.com/ivsuleman"
+        github: "https://github.com/ivsuleman",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "London",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -5690,14 +5690,14 @@ export const data = {
       links: {
         website: "https://www.ryanlewis.co.uk/portfolio/",
         linkedin: "https://www.linkedin.com/in/ryan-lewis-b02105161/",
-        github: "https://github.com/ryanlewis94"
+        github: "https://github.com/ryanlewis94",
       },
       jobTitle: "Junior Web Developer",
       location: {
         city: "Cardiff",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -5710,14 +5710,14 @@ export const data = {
         facebook: "https://www.facebook.com/peterson.oaikhenah",
         gmail: "oaikhenahpeterson@gmail.com",
         linkedin: "https://www.linkedin.com/in/peterson-oaikhenah-102645144/",
-        github: "https://github.com/nextwebb"
+        github: "https://github.com/nextwebb",
       },
       jobTitle: "Full-Stack nodejs and PHP Developer",
       location: {
         city: "ogba",
         state: "Lagos",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -5726,14 +5726,14 @@ export const data = {
       links: {
         website: "http://nebivalici.com/webapps",
         linkedin: "https://www.linkedin.com/in/nikola-vasilev-ab1161b9/",
-        github: "https://github.com/crux-in-lan"
+        github: "https://github.com/crux-in-lan",
       },
       jobTitle: "IT/KPI specialist",
       location: {
         city: "Sofia",
         state: "Sofia",
-        country: "Bulgaria"
-      }
+        country: "Bulgaria",
+      },
     },
     {
       id: uuidv4(),
@@ -5743,14 +5743,14 @@ export const data = {
       links: {
         website: "https://brianbartholomew.tech/",
         linkedin: "https://www.linkedin.com/in/bartholomewbd/",
-        github: "https://github.com/Bartholomewbd"
+        github: "https://github.com/Bartholomewbd",
       },
       jobTitle: "Front End Javascript Developer",
       location: {
         city: "Torrington",
         state: "CT",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -5759,14 +5759,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ciprian-cozma/",
-        github: "https://github.com/cipriancozma"
+        github: "https://github.com/cipriancozma",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Iasi",
         state: "",
-        country: "Romania"
-      }
+        country: "Romania",
+      },
     },
     {
       id: uuidv4(),
@@ -5775,14 +5775,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/tat-angel-10668b117/",
-        github: "https://github.com/angeltat"
+        github: "https://github.com/angeltat",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Timisoara",
         state: "Timis",
-        country: "Romania"
-      }
+        country: "Romania",
+      },
     },
     {
       id: uuidv4(),
@@ -5791,14 +5791,14 @@ export const data = {
       links: {
         website: "http://argyrisileana.com",
         linkedin: "https://www.linkedin.com/in/ileanaargyris/",
-        github: "https://github.com/ileanahi/"
+        github: "https://github.com/ileanahi/",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "",
         state: "Hawaii",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -5808,14 +5808,14 @@ export const data = {
       links: {
         website: "http://www.backtodev.com",
         linkedin: "https://www.linkedin.com/in/tomasz-makowski/",
-        github: "https://github.com/t-mak/"
+        github: "https://github.com/t-mak/",
       },
       jobTitle: "Web Developer",
       location: {
         city: "",
         state: "",
-        country: "Poland"
-      }
+        country: "Poland",
+      },
     },
     {
       id: uuidv4(),
@@ -5825,14 +5825,14 @@ export const data = {
       links: {
         website: "https://michaeljamie.com/",
         linkedin: "https://www.linkedin.com/in/michaeljamiejohnston/",
-        github: "https://github.com/michaeljamie"
+        github: "https://github.com/michaeljamie",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Greater Salt Lake City",
         state: "Utah",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -5842,14 +5842,14 @@ export const data = {
       links: {
         website: "https://jackchen1210.github.io/",
         linkedin: "https://www.linkedin.com/in/jackchen1210/",
-        github: "https://github.com/jackchen1210"
+        github: "https://github.com/jackchen1210",
       },
       jobTitle: "FullStack Developer/Unity Developer",
       location: {
         city: "Kaohsiung",
         state: "Taiwan",
-        country: "Taiwan"
-      }
+        country: "Taiwan",
+      },
     },
     {
       id: uuidv4(),
@@ -5859,14 +5859,14 @@ export const data = {
       links: {
         website: "http://ariasamandi.com",
         linkedin: "https://www.linkedin.com/in/aria-samandi-91799a159/",
-        github: "https://github.com/ariasamandi"
+        github: "https://github.com/ariasamandi",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "Pacific Palisades",
         state: "California",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -5875,14 +5875,14 @@ export const data = {
       links: {
         website: "http://www.taidaid.com",
         linkedin: "https://www.linkedin.com/in/bryanwindsor/",
-        github: "https://github.com/taidaid"
+        github: "https://github.com/taidaid",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "",
         state: "",
-        country: "Netherlands"
-      }
+        country: "Netherlands",
+      },
     },
     {
       id: uuidv4(),
@@ -5892,14 +5892,14 @@ export const data = {
       links: {
         website: "https://siddharthgusain.github.io/My-Portfolio/",
         linkedin: "https://in.linkedin.com/in/siddharth-gusain-355b84156",
-        github: "https://github.com/siddharthgusain"
+        github: "https://github.com/siddharthgusain",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -5909,14 +5909,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/nahuel-alberti/",
-        github: "https://github.com/NAlberti7"
+        github: "https://github.com/NAlberti7",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Ramos Mejia",
         state: "Buenos Aires",
-        country: "Argentina"
-      }
+        country: "Argentina",
+      },
     },
     {
       id: uuidv4(),
@@ -5925,14 +5925,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/padurugatla/",
-        github: "https://github.com/PrashanthAdurugatla"
+        github: "https://github.com/PrashanthAdurugatla",
       },
       jobTitle: "Software Developer",
       location: {
         city: "San Francisco",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -5941,14 +5941,14 @@ export const data = {
       links: {
         website: "http://xammin.com/",
         linkedin: "https://www.linkedin.com/in/saif-ur-rehman-5311a6b7/",
-        github: "https://github.com/saifsadi"
+        github: "https://github.com/saifsadi",
       },
       jobTitle: "Full Stack Developer ",
       location: {
         city: "Rawalpindi",
         state: "",
-        country: "Pakistan"
-      }
+        country: "Pakistan",
+      },
     },
     {
       id: uuidv4(),
@@ -5957,14 +5957,14 @@ export const data = {
       links: {
         website: "https://swarnendurohanguptawebsite.firebaseapp.com/",
         linkedin: "https://www.linkedin.com/in/swarnendurohan-gupta/",
-        github: "https://github.com/srgupta5328"
+        github: "https://github.com/srgupta5328",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Oakland",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -5974,14 +5974,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/meng-tong-7a5bb48b/",
-        github: "https://github.com/Tom-MengTong"
+        github: "https://github.com/Tom-MengTong",
       },
       jobTitle: "Developer",
       location: {
         city: "Dunedin",
         state: "Otago",
-        country: "New Zealand"
-      }
+        country: "New Zealand",
+      },
     },
     {
       id: uuidv4(),
@@ -5991,14 +5991,14 @@ export const data = {
       links: {
         website: "https://congw-syd.github.io",
         linkedin: "https://www.linkedin.com/in/cong-wang-374483172/",
-        github: "https://github.com/congw-syd"
+        github: "https://github.com/congw-syd",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Sydney",
         state: "NSW",
-        country: "Australia"
-      }
+        country: "Australia",
+      },
     },
     {
       id: uuidv4(),
@@ -6008,14 +6008,14 @@ export const data = {
       links: {
         website: "https://pourushshrestha.com",
         linkedin: "https://www.linkedin.com/in/pourush-shrestha/",
-        github: "https://github.com/Pourush1"
+        github: "https://github.com/Pourush1",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Philadelphia",
         state: "Pennsylvania",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -6025,14 +6025,14 @@ export const data = {
       links: {
         website: "https://github.com/annpop",
         linkedin: "ttps://www.linkedin.com/in/anna-popowicz-01bb8456/",
-        github: "https://github.com/annpop"
+        github: "https://github.com/annpop",
       },
       jobTitle: "Junior Front-end Developer",
       location: {
         city: "Wrocław",
         state: "",
-        country: "Poland"
-      }
+        country: "Poland",
+      },
     },
     {
       id: uuidv4(),
@@ -6042,14 +6042,14 @@ export const data = {
       links: {
         website: "https://github.com/surelinks",
         linkedin: "ttps://www.linkedin.com/in/Ezenwanne Kenneth/",
-        github: "https://github.com/surelinks"
+        github: "https://github.com/surelinks",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Abuja",
         state: "FCT",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -6059,14 +6059,14 @@ export const data = {
       links: {
         website: "https://abbyjoe.github.io/portfolio",
         linkedin: "",
-        github: "https://github.com/abbyjoe"
+        github: "https://github.com/abbyjoe",
       },
       jobTitle: "Front-end Developer",
       location: {
         city: "Abeokuta",
         state: "Ogun",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -6075,14 +6075,14 @@ export const data = {
       links: {
         website: "http://www.stevegojkov.com",
         linkedin: "https://www.linkedin.com/in/stevegojkov",
-        github: "https://github.com/gojkov/my-site"
+        github: "https://github.com/gojkov/my-site",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Detroit",
         state: "MI",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -6091,14 +6091,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/rahil-hasnani",
-        github: "https://github.com/rahilhasnani95"
+        github: "https://github.com/rahilhasnani95",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Houston",
         state: "TX",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -6107,14 +6107,14 @@ export const data = {
       links: {
         website: "http://www.rushingmarina.com/rm-demo/",
         linkedin: "https://www.linkedin.com/in/marina-pestriacheva-107b27143/",
-        github: "https://github.com/rushingMarina"
+        github: "https://github.com/rushingMarina",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "San Diego",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -6123,14 +6123,14 @@ export const data = {
       links: {
         website: "http://www.billshamnon.com",
         linkedin: "https://www.linkedin.com/in/bill-shannon-734a118b/",
-        github: "https://github.com/billshannon"
+        github: "https://github.com/billshannon",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Boulder",
         state: "CO",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -6140,14 +6140,14 @@ export const data = {
       links: {
         website: "https://jasondsouza.dev/",
         linkedin: "https://www.linkedin.com/in/jason-d-souza-861762100/",
-        github: "https://github.com/jvdsouza"
+        github: "https://github.com/jvdsouza",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Melbourne",
         state: "VIC",
-        country: "Australia"
-      }
+        country: "Australia",
+      },
     },
     {
       id: uuidv4(),
@@ -6156,14 +6156,14 @@ export const data = {
       links: {
         website: "https://brandonmcastillo.com/",
         linkedin: "https://www.linkedin.com/in/brandonmcastillo/",
-        github: "https://github.com/brandonmcastillo"
+        github: "https://github.com/brandonmcastillo",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "San Francisco",
         state: "California",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -6173,14 +6173,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/yasen-peev-591318184/",
-        github: "https://github.com/YasenPeev"
+        github: "https://github.com/YasenPeev",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Bracknell",
         state: "",
-        country: "UK"
-      }
+        country: "UK",
+      },
     },
     {
       id: uuidv4(),
@@ -6189,14 +6189,14 @@ export const data = {
       links: {
         website: "www.juarezpistore.com",
         linkedin: "https://www.linkedin.com/in/juarez-pistore/",
-        github: "https://github.com/juarezpistore"
+        github: "https://github.com/juarezpistore",
       },
       jobTitle: "Backend Software Developer",
       location: {
         city: "Vancouver",
         state: "British Columbia",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -6205,14 +6205,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ronak-khimani",
-        github: "https://github.com/Ron1722"
+        github: "https://github.com/Ron1722",
       },
       jobTitle: "Front end developer",
       location: {
         city: "Toronto",
         state: "Ontario",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -6221,14 +6221,14 @@ export const data = {
       links: {
         website: "https://muaykhao86.github.io/Portfolio/",
         linkedin: "https://linkedin.com/in/daniel-hardiman-73844233",
-        github: "https://github.com/Muaykhao86"
+        github: "https://github.com/Muaykhao86",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "London",
         state: "",
-        country: "UK"
-      }
+        country: "UK",
+      },
     },
     {
       id: uuidv4(),
@@ -6237,14 +6237,14 @@ export const data = {
       links: {
         website: "https://goodhousekeeper.ru",
         linkedin: "",
-        github: "https://github.com/goodhousekeeper"
+        github: "https://github.com/goodhousekeeper",
       },
       jobTitle: "Team leader, full stack web developer",
       location: {
         city: "Saint-Petersburg",
         state: "",
-        country: "RU"
-      }
+        country: "RU",
+      },
     },
     {
       id: uuidv4(),
@@ -6253,14 +6253,14 @@ export const data = {
       links: {
         website: "http://sallada.org/",
         linkedin: "https://www.linkedin.com/in/lucas-sallada-6242a4106/",
-        github: "https://github.com/yonlu"
+        github: "https://github.com/yonlu",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Beaver Falls",
         state: "PA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -6270,14 +6270,14 @@ export const data = {
       links: {
         website: "https://madmak.me",
         linkedin: "https://www.linkedin.com/in/makotodejima/",
-        github: "https://github.com/makotodejima"
+        github: "https://github.com/makotodejima",
       },
       jobTitle: "Front-End Developer / Designer",
       location: {
         city: "Berlin",
         state: "",
-        country: "Germany"
-      }
+        country: "Germany",
+      },
     },
     {
       id: uuidv4(),
@@ -6287,14 +6287,14 @@ export const data = {
       links: {
         website: "abdulganiyuyusufu.com",
         linkedin: "https://www.linkedin.com/in/abdulyusufu/",
-        github: "https://github.com/abdulg95"
+        github: "https://github.com/abdulg95",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "Ottawa",
         state: "Ontario",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -6303,14 +6303,14 @@ export const data = {
       links: {
         website: "https://yangzhao71.github.io",
         linkedin: "https://www.linkedin.com/in/yangmengyuan-zhao-b97b13173/",
-        github: "https://github.com/YangZhao71"
+        github: "https://github.com/YangZhao71",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "Ithaca",
         state: "New York",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -6319,14 +6319,14 @@ export const data = {
       links: {
         website: "www.jonathanhelvey.com",
         linkedin: "https://www.linkedin.com/in/jonathanhelvey/",
-        github: "https://github.com/JonathanHelvey"
+        github: "https://github.com/JonathanHelvey",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Chicago",
         state: "IL",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -6335,14 +6335,14 @@ export const data = {
       links: {
         website: "https://wmm3636.github.io/",
         linkedin: "https://www.linkedin.com/in/waleed-mastour-059b7a89/",
-        github: "https://github.com/wmm3636"
+        github: "https://github.com/wmm3636",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Riyadh",
         state: "Ar Riyadh",
-        country: "Saudi Arabia"
-      }
+        country: "Saudi Arabia",
+      },
     },
     {
       id: uuidv4(),
@@ -6351,14 +6351,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/gabriel-cadiz/",
-        github: "https://github.com/gabecadiz"
+        github: "https://github.com/gabecadiz",
       },
       jobTitle: "Full-Stack Javascript Developer",
       location: {
         city: "Toronto",
         state: "ON",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -6367,14 +6367,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/clifford-benjamin-mirschel/",
-        github: "https://github.com/BlueBoi904"
+        github: "https://github.com/BlueBoi904",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "Jacksonville",
         state: "FL",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -6384,14 +6384,14 @@ export const data = {
       links: {
         website: "https://afreekamode.wordpress.com",
         linkedin: "https://www.linkedin.com/in/sikirushittu/",
-        github: "https://github.com/afreekamode"
+        github: "https://github.com/afreekamode",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Lagos",
         state: "Lagos",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -6401,14 +6401,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mruiz27/",
-        github: "https://github.com/meyruiz"
+        github: "https://github.com/meyruiz",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Monterrey",
         state: "",
-        country: "Mexico"
-      }
+        country: "Mexico",
+      },
     },
     {
       id: uuidv4(),
@@ -6417,14 +6417,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linked.com/in/ryanboris",
-        github: "https://github.com/ryanboris"
+        github: "https://github.com/ryanboris",
       },
       jobTitle: "Fullstack Developer",
       location: {
         city: "Philadelphia",
         state: "Pennsylvania",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -6433,14 +6433,14 @@ export const data = {
       links: {
         website: "https://brennon-borbon.netlify.com",
         linkedin: "",
-        github: "https://github.com/brenborbs"
+        github: "https://github.com/brenborbs",
       },
       jobTitle: "Full Stack Developer - MERN Stack, Gatsby.js/JAMStack",
       location: {
         city: "Cebu City",
         state: "City of Cebu",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -6449,14 +6449,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/theodorenguyen45",
-        github: ""
+        github: "",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Brisbane",
         state: "Queensland",
-        country: "Australia"
-      }
+        country: "Australia",
+      },
     },
     {
       id: uuidv4(),
@@ -6465,14 +6465,14 @@ export const data = {
       links: {
         website: "diyarfaraj.com",
         linkedin: "https://www.linkedin.com/in/diyar-faraj/",
-        github: "https://github.com/diyarfaraj"
+        github: "https://github.com/diyarfaraj",
       },
       jobTitle: "Developer",
       location: {
         city: "",
         state: "",
-        country: "Sweden"
-      }
+        country: "Sweden",
+      },
     },
     {
       id: uuidv4(),
@@ -6481,14 +6481,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/liliburg711"
+        github: "https://github.com/liliburg711",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Miaoli",
         state: "",
-        country: "Taiwan"
-      }
+        country: "Taiwan",
+      },
     },
     {
       id: uuidv4(),
@@ -6498,14 +6498,14 @@ export const data = {
       links: {
         website: "https://idrislawal.herokuapp.com",
         linkedin: "https://linkedin.com/lawal-idris-oluwaseun",
-        github: "https://github.com/IDTitanium"
+        github: "https://github.com/IDTitanium",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Lagos Mainland",
         state: "Lagos",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -6514,14 +6514,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/kitravee-siwatkittisuk",
-        github: "https://github.com/Gitravs"
+        github: "https://github.com/Gitravs",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Bangkok",
         state: "",
-        country: "Thailand"
-      }
+        country: "Thailand",
+      },
     },
     {
       id: uuidv4(),
@@ -6530,14 +6530,14 @@ export const data = {
       links: {
         website: "http://www.hagaiportfolio.ml",
         linkedin: "",
-        github: "https://github.com/YogiHa"
+        github: "https://github.com/YogiHa",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Tel-Aviv",
         state: "middlecountry",
-        country: "Israel"
-      }
+        country: "Israel",
+      },
     },
     {
       id: uuidv4(),
@@ -6546,14 +6546,14 @@ export const data = {
       links: {
         website: "https://ulyssetsd.github.io/",
         linkedin: "https://www.linkedin.com/in/ulyssetassidis/",
-        github: "https://github.com/ulyssetsd/"
+        github: "https://github.com/ulyssetsd/",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Dublin",
         state: "",
-        country: "Ireland"
-      }
+        country: "Ireland",
+      },
     },
     {
       id: uuidv4(),
@@ -6562,14 +6562,14 @@ export const data = {
       links: {
         website: "https://ashrafpatel.github.io/",
         linkedin: "https://www.linkedin.com/in/ashr4fpatel/",
-        github: "https://github.com/AshrafPatel"
+        github: "https://github.com/AshrafPatel",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Mississauga",
         state: "Ontario",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -6578,14 +6578,14 @@ export const data = {
       links: {
         website: "patel-priyank.github.io",
         linkedin: "linkedin.com/in/patel23priyank",
-        github: "github.com/patel-priyank"
+        github: "github.com/patel-priyank",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -6594,14 +6594,14 @@ export const data = {
       links: {
         website: "http://estebanbarron.com/",
         linkedin: "https://www.linkedin.com/in/esteban-barr%C3%B3n-a60a2a113/",
-        github: "https://github.com/aberro3s"
+        github: "https://github.com/aberro3s",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Merida",
         state: "Yucatan",
-        country: "Mexico"
-      }
+        country: "Mexico",
+      },
     },
     {
       id: uuidv4(),
@@ -6612,14 +6612,14 @@ export const data = {
         website: "https://joedomingo.online",
         linkedin:
           "https://www.linkedin.com/in/joe-domingo-front-end-developer/",
-        github: "https://github.com/joedonline"
+        github: "https://github.com/joedonline",
       },
       jobTitle: "Front End Developer, UI/UX, Graphic Design",
       location: {
         city: "NY Metropolitan",
         state: "New York",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -6628,14 +6628,14 @@ export const data = {
       links: {
         website: "https://samraha.com/",
         linkedin: "https://www.linkedin.com/in/sam-raha-6983a4b6/",
-        github: "https://github.com/SamRaha"
+        github: "https://github.com/SamRaha",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Leeds",
         state: "Yorkshire",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -6645,14 +6645,14 @@ export const data = {
       links: {
         website: "mieragil.github.io",
         linkedin: "https://www.linkedin.com/in/mier-agil-4333b011a/",
-        github: "github.com/mieragil"
+        github: "github.com/mieragil",
       },
       jobTitle: "Full-Stack Web Developer",
       location: {
         city: "",
         state: "",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -6661,14 +6661,14 @@ export const data = {
       links: {
         website: "https://yujiman85.github.io/",
         linkedin: "https://www.linkedin.com/in/ty-jenkins/",
-        github: "https://github.com/Yujiman85"
+        github: "https://github.com/Yujiman85",
       },
       jobTitle: "Software Engineer/Web Developer",
       location: {
         city: "Philadelphia",
         state: "Pennsylvania",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -6677,14 +6677,14 @@ export const data = {
       links: {
         website: "https://vaibhav-heda.netlify.com/",
         linkedin: "https://www.linkedin.com/in/vaibhav-h-a5383b109/",
-        github: "https://github.com/Vai-devil"
+        github: "https://github.com/Vai-devil",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Jaipur",
         state: "Rajasthan",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -6693,14 +6693,14 @@ export const data = {
       links: {
         website: "https://malihakabir.github.io/",
         linkedin: "https://www.linkedin.com/in/maliha-k-bb5867144/",
-        github: "https://github.com/MalihaKabir"
+        github: "https://github.com/MalihaKabir",
       },
       jobTitle: "Full-Stack JavaScript Developer",
       location: {
         city: "Dhaka",
         state: "",
-        country: "Bangladesh"
-      }
+        country: "Bangladesh",
+      },
     },
     {
       id: uuidv4(),
@@ -6709,14 +6709,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/carlos-gomez-pro/",
-        github: "https://github.com/Carlitos5963"
+        github: "https://github.com/Carlitos5963",
       },
       jobTitle: "Software Engineer/Web Developer",
       location: {
         city: "San Diego",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -6726,14 +6726,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/amen-christ-85b919189/",
-        github: "https://github.com/amenchrist"
+        github: "https://github.com/amenchrist",
       },
       jobTitle: "Web Developer / Front-end Developer",
       location: {
         city: "London",
         state: "England",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -6743,14 +6743,14 @@ export const data = {
       links: {
         website: "https://matthewzito.github.io",
         linkedin: "https://www.linkedin.com/in/matthew-zito/",
-        github: "https://github.com/matthewzito"
+        github: "https://github.com/matthewzito",
       },
       jobTitle: "Full Stack Web Developer / Blockchain Developer",
       location: {
         city: "Portland",
         state: "Oregon",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -6760,14 +6760,14 @@ export const data = {
       links: {
         website: "www.ravarty.me",
         linkedin: "https://www.linkedin.com/in/ravart/",
-        github: "https://github.com/RavArty"
+        github: "https://github.com/RavArty",
       },
       jobTitle: "Web Developer/Software Developer",
       location: {
         city: "Los Angeles",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -6776,14 +6776,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/JancKode"
+        github: "https://github.com/JancKode",
       },
       jobTitle: "Web Developer/Software Developer",
       location: {
         city: "Baguio",
         state: "Benguet",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -6792,14 +6792,14 @@ export const data = {
       links: {
         website: "https://sassouiabd.github.io/",
         linkedin: "https://www.linkedin.com/in/abdel-sassoui-59492146/",
-        github: "https://github.com/sassouiabd"
+        github: "https://github.com/sassouiabd",
       },
       jobTitle: "Technical Lead Engineer",
       location: {
         city: "Paris",
         state: "",
-        country: "France"
-      }
+        country: "France",
+      },
     },
     {
       id: uuidv4(),
@@ -6808,14 +6808,14 @@ export const data = {
       links: {
         website: "https://www.niketanmoon.ml",
         linkedin: "www.linkedin.com/in/niketanmoon",
-        github: "https://github.com/niketanmoon"
+        github: "https://github.com/niketanmoon",
       },
       jobTitle: "Full Stack Developer/Research Assistant",
       location: {
         city: "Wardha",
         state: "Maharashtra",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -6824,14 +6824,14 @@ export const data = {
       links: {
         website: "https://xp0515.github.io/portfolio/",
         linkedin: "https://www.linkedin.com/in/peng-xu-a08089172/",
-        github: "https://github.com/xp0515"
+        github: "https://github.com/xp0515",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Sydney",
         state: "NSW",
-        country: "Australia"
-      }
+        country: "Australia",
+      },
     },
     {
       id: uuidv4(),
@@ -6840,14 +6840,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ukpai-emeka/",
-        github: "https://github.com/Mr-emeka"
+        github: "https://github.com/Mr-emeka",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Lagos",
         state: "Lagos",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -6857,14 +6857,14 @@ export const data = {
       links: {
         website: "https://karin-personal-website.herokuapp.com/",
         linkedin: "https://www.linkedin.com/in/karin-povolozki-rabichev/",
-        github: "https://github.com/KarinPR/"
+        github: "https://github.com/KarinPR/",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "Ashdod",
         state: "",
-        country: "Israel"
-      }
+        country: "Israel",
+      },
     },
     {
       id: uuidv4(),
@@ -6873,14 +6873,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "www.linkedin.com/in/uchenna-okoro/",
-        github: "https://github.com/UcheSylvester"
+        github: "https://github.com/UcheSylvester",
       },
       jobTitle: "Web Developer",
       location: {
         city: "",
         state: "Abia State",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -6889,14 +6889,14 @@ export const data = {
       links: {
         website: "shashankcic.github.io",
         linkedin: "www.linkedin.com/in/shashankcic/",
-        github: "https://github.com/shashankcic"
+        github: "https://github.com/shashankcic",
       },
       jobTitle: "Web Developer",
       location: {
         city: "New Delhi",
         state: "Delhi",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -6906,14 +6906,14 @@ export const data = {
       links: {
         website: "Shreeya12.github.io",
         linkedin: "https://www.linkedin.com/in/shreeya-bhetwal-059453185/",
-        github: "https://github.com/Shreeya12"
+        github: "https://github.com/Shreeya12",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "San Francisco",
         state: "California",
-        country: "United States of America"
-      }
+        country: "United States of America",
+      },
     },
     {
       id: uuidv4(),
@@ -6922,14 +6922,14 @@ export const data = {
       links: {
         website: "https://sgtbrunner.github.io/",
         linkedin: "https://www.linkedin.com/in/guilherme-brunner/",
-        github: "https://github.com/sgtbrunner"
+        github: "https://github.com/sgtbrunner",
       },
       jobTitle: "Web Developer",
       location: {
         city: "São Paulo",
         state: "",
-        country: "Brazil"
-      }
+        country: "Brazil",
+      },
     },
     {
       id: uuidv4(),
@@ -6938,14 +6938,14 @@ export const data = {
       links: {
         website: "https://github.com/Tanner016",
         linkedin: "https://www.linkedin.com/in/tanner-stoker-78133a177/",
-        github: "https://github.com/Tanner016"
+        github: "https://github.com/Tanner016",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Henderson",
         state: "Nevada",
-        country: "United States of America"
-      }
+        country: "United States of America",
+      },
     },
     {
       id: uuidv4(),
@@ -6955,14 +6955,14 @@ export const data = {
       links: {
         website: "https://prateekmadaan.me",
         linkedin: "https://www.linkedin.com/in/prateek-madaan-08a7919a/",
-        github: "https://github.com/prateek951"
+        github: "https://github.com/prateek951",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "New Delhi",
         state: "Delhi",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -6971,14 +6971,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/saurabhsingh121/",
-        github: "https://github.com/saurabhsingh121"
+        github: "https://github.com/saurabhsingh121",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Hyderabad",
         state: "Telangana",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -6987,14 +6987,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/lachlan-whelan-666386179/",
-        github: "https://github.com/lachlanwhelan"
+        github: "https://github.com/lachlanwhelan",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "Sydney",
         state: "NSW",
-        country: "Australia"
-      }
+        country: "Australia",
+      },
     },
     {
       id: uuidv4(),
@@ -7004,14 +7004,14 @@ export const data = {
       links: {
         website: "https://gioacchino-dinardo.com",
         linkedin: "https://www.linkedin.com/in/gioacchino-di-nardo/",
-        github: "https://github.com/deeseert"
+        github: "https://github.com/deeseert",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "London",
         state: "",
-        country: "UK"
-      }
+        country: "UK",
+      },
     },
     {
       id: uuidv4(),
@@ -7021,14 +7021,14 @@ export const data = {
         website: "",
         linkedin:
           "https://www.linkedin.com/in/mohamad-daniel-guitara-4ba67290/",
-        github: "https://github.com/danielguitara"
+        github: "https://github.com/danielguitara",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Jakarta",
         state: "",
-        country: "Indonesia"
-      }
+        country: "Indonesia",
+      },
     },
     {
       id: uuidv4(),
@@ -7038,14 +7038,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/rahul-syal-646380151",
-        github: "https://github.com/rahulsyal2512"
+        github: "https://github.com/rahulsyal2512",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Jalandhar",
         state: "Punjab",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -7055,14 +7055,14 @@ export const data = {
       links: {
         website: "https://thisbutterfly.netlify.com/",
         linkedin: "https://www.linkedin.com/in/anushka-beri-1b767a140/",
-        github: "https://github.com/thisbutterfly"
+        github: "https://github.com/thisbutterfly",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Ludhiana",
         state: "Punjab",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -7071,14 +7071,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/daniyal-majeed-a3821118a/",
-        github: "https://github.com/danymajeed"
+        github: "https://github.com/danymajeed",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Faisalabad",
         state: "Punjab",
-        country: "Pakistan"
-      }
+        country: "Pakistan",
+      },
     },
     {
       id: uuidv4(),
@@ -7087,14 +7087,14 @@ export const data = {
       links: {
         website: "https://www.glynlewington.com",
         linkedin: "www.linkedin.com/in/glynlewington",
-        github: "https://github.com/glynl"
+        github: "https://github.com/glynl",
       },
       jobTitle: "Frontend Developer",
       location: {
         city: "Brisbane",
         state: "Queensland",
-        country: "Australia"
-      }
+        country: "Australia",
+      },
     },
     {
       id: uuidv4(),
@@ -7103,14 +7103,14 @@ export const data = {
       links: {
         website: "https://aolamide.me",
         linkedin: "www.linkedin.com/in/aolamide/",
-        github: "https://github.com/aolamide"
+        github: "https://github.com/aolamide",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Lagos",
         state: "Lagos",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -7120,14 +7120,14 @@ export const data = {
       links: {
         website: "https://spencerericfong.github.io/",
         linkedin: "https://www.linkedin.com/in/spencer-eric-fong/",
-        github: "https://github.com/spencerericfong"
+        github: "https://github.com/spencerericfong",
       },
       jobTitle: "Full Stack Dev/Student",
       location: {
         city: "Irvine",
         state: "California",
-        country: "United States of America"
-      }
+        country: "United States of America",
+      },
     },
     {
       id: uuidv4(),
@@ -7137,14 +7137,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/andrea-franco-9624a278",
-        github: "https://github.com/andrea07021981"
+        github: "https://github.com/andrea07021981",
       },
       jobTitle: "Mobile & Web Developer",
       location: {
         city: "Pordenone",
         state: "Friuli Venezia Giulie",
-        country: "Italy"
-      }
+        country: "Italy",
+      },
     },
     {
       id: uuidv4(),
@@ -7154,14 +7154,14 @@ export const data = {
       links: {
         website: "https://www.thekachi.com",
         linkedin: "https://www.linkedin.com/in/onyedikachi-f-nze-a37938163/",
-        github: "https://github.com/TheKachi"
+        github: "https://github.com/TheKachi",
       },
       jobTitle: "FULL STACK DEVELOPER",
       location: {
         city: "VICTORIA ISLAND",
         state: "LAGOS",
-        country: "NIGERIA"
-      }
+        country: "NIGERIA",
+      },
     },
     {
       id: uuidv4(),
@@ -7171,14 +7171,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/Ajaybhardwaj90"
+        github: "https://github.com/Ajaybhardwaj90",
       },
       jobTitle: "Android & JavaEE Developer ",
       location: {
         city: "New Delhi",
         state: "Delhi",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -7187,14 +7187,14 @@ export const data = {
       links: {
         website: "http://www.ayoubissaad.com/",
         linkedin: "https://www.linkedin.com/in/ayoubissaad/",
-        github: "https://github.com/AyoubIssaad"
+        github: "https://github.com/AyoubIssaad",
       },
       jobTitle: "Full Stack Developer, (React, NodeJS, PHP), Database Manager",
       location: {
         city: "Marrakech",
         state: "",
-        country: "Morocco"
-      }
+        country: "Morocco",
+      },
     },
     {
       id: uuidv4(),
@@ -7203,14 +7203,14 @@ export const data = {
       links: {
         website: "https://yulin-profile.herokuapp.com/",
         linkedin: "www.linkedin.com/in/javascript-developer-yulin",
-        github: "https://github.com/wangyulinaaron"
+        github: "https://github.com/wangyulinaaron",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "ChongQing",
         state: "ChongQing",
-        country: "China"
-      }
+        country: "China",
+      },
     },
     {
       id: uuidv4(),
@@ -7219,14 +7219,14 @@ export const data = {
       links: {
         website: "https://fauziardha1.github.io/",
         linkedin: "linkedin.com/in/fauzi-arda-saputra-170557a4",
-        github: "https://github.com/fauziardha1"
+        github: "https://github.com/fauziardha1",
       },
       jobTitle: "Full Stack Developer , c++, Java",
       location: {
         city: "Jakarta",
         state: "",
-        country: "Indonesia"
-      }
+        country: "Indonesia",
+      },
     },
     {
       id: uuidv4(),
@@ -7236,14 +7236,14 @@ export const data = {
       links: {
         website: "http://www.kingapolgar.com/",
         linkedin: "https://www.linkedin.com/in/kinga-polgar",
-        github: "https://github.com/kpolgar"
+        github: "https://github.com/kpolgar",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "New York",
         state: "NY",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -7252,14 +7252,14 @@ export const data = {
       links: {
         website: "https://trishachi.github.io/Profile-Page-Project/index.html",
         linkedin: "https://www.linkedin.com/in/chisom-trisha-okoye/",
-        github: "https://github.com/Trishachi"
+        github: "https://github.com/Trishachi",
       },
       jobTitle: "Front End Developer | Project Management Professional",
       location: {
         city: "Calgary",
         state: "AB",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -7269,14 +7269,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/singhperry01/",
-        github: "https://github.com/singhperryo1"
+        github: "https://github.com/singhperryo1",
       },
       jobTitle: "Full Stack, Java, C++",
       location: {
         city: "Santa Clara",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -7286,14 +7286,14 @@ export const data = {
       links: {
         website: "https://github.com/sevydev/my-portfolio",
         linkedin: "https://www.linkedin.com/in/sevilay-selecki-49568a166/",
-        github: "https://github.com/sevydev"
+        github: "https://github.com/sevydev",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Wroclaw",
         state: "Lower Silesia",
-        country: "Poland"
-      }
+        country: "Poland",
+      },
     },
     {
       id: uuidv4(),
@@ -7302,14 +7302,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/aasim-ahmed-khan-jawaad/",
-        github: "https://github.com/AasimAhmed20"
+        github: "https://github.com/AasimAhmed20",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Hyderabad",
         state: "Telangana",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -7318,14 +7318,14 @@ export const data = {
       links: {
         website: "danieljimenez.com.ve",
         linkedin: "https://www.linkedin.com/in/daniel-alejandro-1181a3190",
-        github: "https://github.com/danieljimenzg"
+        github: "https://github.com/danieljimenzg",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Caracas",
         state: "Caracas",
-        country: "Venezuela"
-      }
+        country: "Venezuela",
+      },
     },
     {
       id: uuidv4(),
@@ -7334,14 +7334,14 @@ export const data = {
       links: {
         website: "https://jgiamanco.netlify.com",
         linkedin: "https://linkedin.com/in/jacob-giamanco",
-        github: "https://github.com/jgiamanco"
+        github: "https://github.com/jgiamanco",
       },
       jobTitle: "Front-End Web Developer",
       location: {
         city: "San Diego",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -7351,14 +7351,14 @@ export const data = {
       links: {
         website: "https://aodabo.tech",
         linkedin: "https://www.linkedin.com/in/zhiyuan-yang-9204b8134/",
-        github: "https://github.com/yzyly1992"
+        github: "https://github.com/yzyly1992",
       },
       jobTitle: "Full-Stack Web Developer",
       location: {
         city: "Berkeley",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -7367,14 +7367,14 @@ export const data = {
       links: {
         website: "murtadore.com",
         linkedin: "https://www.linkedin.com/in/murtadore-olajobi-36b473165/",
-        github: "https://github.com/mtdola"
+        github: "https://github.com/mtdola",
       },
       jobTitle: "Full-Stack Web-Developer",
       location: {
         city: "Surulere",
         state: "Lagos",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -7383,14 +7383,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/omar-osuna/",
-        github: "https://github.com/Omaralon"
+        github: "https://github.com/Omaralon",
       },
       jobTitle: "Full-Stack Developer, ML enthusiast",
       location: {
         city: "Tijuana",
         state: "Baja California",
-        country: "Mexico"
-      }
+        country: "Mexico",
+      },
     },
     {
       id: uuidv4(),
@@ -7399,14 +7399,14 @@ export const data = {
       links: {
         website: "http://hrishikeshbaidya.ml/",
         linkedin: "https://www.linkedin.com/in/hrishikesh7/",
-        github: "https://github.com/hrishi7"
+        github: "https://github.com/hrishi7",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Kolkata",
         state: "West Bengal",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -7415,14 +7415,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/olumide-odusote",
-        github: "https://github.com/MaGo1024"
+        github: "https://github.com/MaGo1024",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Ikeja",
         state: "Lagos",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -7431,14 +7431,14 @@ export const data = {
       links: {
         website: "https://www.elissavet.me",
         linkedin: "https://www.linkedin.com/in/elitriant/",
-        github: "https://github.com/elisavetTriant"
+        github: "https://github.com/elisavetTriant",
       },
       jobTitle: "IT Professional | Full Stack PHP Web Developer",
       location: {
         city: "",
         state: "",
-        country: "Greece"
-      }
+        country: "Greece",
+      },
     },
     {
       id: uuidv4(),
@@ -7447,14 +7447,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/obusor-ezekiel-umesi-a66b55121/",
-        github: "https://github.com/obusorezekiel"
+        github: "https://github.com/obusorezekiel",
       },
       jobTitle: "Full Stack Software Engineer & Blockchain Enthusiast",
       location: {
         city: "Port Harcourt",
         state: "Rivers",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -7464,14 +7464,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/willie-björnbom",
-        github: "https://github.com/Bjoernbom"
+        github: "https://github.com/Bjoernbom",
       },
       jobTitle: "Software Engineer/Front-End Developer",
       location: {
         city: "Örebro",
         state: "",
-        country: "Sweden"
-      }
+        country: "Sweden",
+      },
     },
     {
       id: uuidv4(),
@@ -7480,14 +7480,14 @@ export const data = {
       links: {
         website: "brittanigongre.com",
         linkedin: "https://www.linkedin.com/in/brittani-gongre",
-        github: "https://github.com/bgongre"
+        github: "https://github.com/bgongre",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Atlanta",
         state: "Georgia",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -7496,14 +7496,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mohd-sualeh-88b24b77/",
-        github: "https://github.com/imsualeh"
+        github: "https://github.com/imsualeh",
       },
       jobTitle: "Software Engineer/Front-End Developer",
       location: {
         city: "Kannauj",
         state: "UTTAR Pradesh",
-        country: "INDIA"
-      }
+        country: "INDIA",
+      },
     },
     {
       id: uuidv4(),
@@ -7512,14 +7512,14 @@ export const data = {
       links: {
         website: "https://www.linkedin.com/in/rizwanaaqil",
         linkedin: "https://www.linkedin.com/in/rizwanaaqil",
-        github: "https://github.com/rizwanrajput"
+        github: "https://github.com/rizwanrajput",
       },
       jobTitle: "Web/WordPress Developer",
       location: {
         city: "Karachi",
         state: "Sindh",
-        country: "Pakistan"
-      }
+        country: "Pakistan",
+      },
     },
     {
       id: uuidv4(),
@@ -7529,14 +7529,14 @@ export const data = {
         website: "https://www.mojatesciowa.pl",
         linkedin:
           "https://www.linkedin.com/in/andrzej-go%C5%82%C4%85bek-2a812b152/",
-        github: "https://github.com/AndrzejHarnas"
+        github: "https://github.com/AndrzejHarnas",
       },
       jobTitle: "Research Assistant/IT Specialist",
       location: {
         city: "Krosno",
         state: "",
-        country: "Poland"
-      }
+        country: "Poland",
+      },
     },
     {
       id: uuidv4(),
@@ -7547,14 +7547,14 @@ export const data = {
         website: "",
         linkedin:
           "https://www.linkedin.com/in/christopher-brinkmann-89b85a112/",
-        github: "https://github.com/chrisbrinkmann"
+        github: "https://github.com/chrisbrinkmann",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Washington",
         state: "DC",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -7563,14 +7563,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/thetaung123"
+        github: "https://github.com/thetaung123",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Yangon",
         state: "Yangon",
-        country: "Myanmar"
-      }
+        country: "Myanmar",
+      },
     },
     {
       id: uuidv4(),
@@ -7579,14 +7579,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ahmed-selmi-7b8742191/ ",
-        github: "https://github.com/SelmiAhmed"
+        github: "https://github.com/SelmiAhmed",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Tunis",
         state: "Tunis",
-        country: "Tunisia"
-      }
+        country: "Tunisia",
+      },
     },
     {
       id: uuidv4(),
@@ -7595,14 +7595,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/muhamedkhaled",
-        github: "https://github.com/MuhamedKhaled"
+        github: "https://github.com/MuhamedKhaled",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Cairo",
         state: "",
-        country: "Egypt"
-      }
+        country: "Egypt",
+      },
     },
     {
       id: uuidv4(),
@@ -7612,14 +7612,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/marcin-selecki-595b80182/",
-        github: "https://github.com/marcindev10"
+        github: "https://github.com/marcindev10",
       },
       jobTitle: "Front-end Developer",
       location: {
         city: "Wroclaw",
         state: "Lower silesia",
-        country: "Poland"
-      }
+        country: "Poland",
+      },
     },
     {
       id: uuidv4(),
@@ -7628,14 +7628,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/prateek-gurnani-563565108/",
-        github: "https://github.com/prateekgurnani10"
+        github: "https://github.com/prateekgurnani10",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Greenville",
         state: "South Carolina",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -7644,14 +7644,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/shamiul-islam-882595169/",
-        github: "https://github.com/Sam5180"
+        github: "https://github.com/Sam5180",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "New York",
         state: "New York",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -7661,14 +7661,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/satendra-chowdhary-100607185/",
-        github: "https://github.com/satendrachowdhary"
+        github: "https://github.com/satendrachowdhary",
       },
       jobTitle: "JS Full Stack Developer",
       location: {
         city: "Najafgarh",
         state: "New Delhi",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -7678,14 +7678,14 @@ export const data = {
       links: {
         website: "https://pratyushranjan.in",
         linkedin: "https://www.linkedin.com/in/pratyushranjanpadhi/",
-        github: "https://github.com/pratyushranjan02"
+        github: "https://github.com/pratyushranjan02",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Bengaluru",
         state: "Karnataka",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -7695,14 +7695,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/canaaanmerchant/",
-        github: "https://github.com/canaanmerchant"
+        github: "https://github.com/canaanmerchant",
       },
       jobTitle: "",
       location: {
         city: "Washington",
         state: "DC",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -7712,14 +7712,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/milton-omena/",
-        github: "https://github.com/omenaneto"
+        github: "https://github.com/omenaneto",
       },
       jobTitle: "Full Stack Dev.",
       location: {
         city: "Maceió",
         state: "Alagoas",
-        country: "Brazil"
-      }
+        country: "Brazil",
+      },
     },
     {
       id: uuidv4(),
@@ -7728,14 +7728,14 @@ export const data = {
       links: {
         website: "https://ruturajjadeja.com/",
         linkedin: "https://www.linkedin.com/in/ruturajjadeja/",
-        github: "https://github.com/ruturajjadeja"
+        github: "https://github.com/ruturajjadeja",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Chicago",
         state: "IL",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -7745,14 +7745,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "www.linkedin.com/in/christopher-deiller",
-        github: "https://github.com/MonkeyDChriss"
+        github: "https://github.com/MonkeyDChriss",
       },
       jobTitle: "QA Engineer",
       location: {
         city: "Barcelona",
         state: "Catalunya",
-        country: "Spain"
-      }
+        country: "Spain",
+      },
     },
     {
       id: uuidv4(),
@@ -7762,14 +7762,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "www.linkedin.com/in/maartenschuilenburg/",
-        github: "https://github.com/HANssvvv"
+        github: "https://github.com/HANssvvv",
       },
       jobTitle: "Junior full-stack developer",
       location: {
         city: "Utrecht",
         state: "Utrecht",
-        country: "Netherlands"
-      }
+        country: "Netherlands",
+      },
     },
     {
       id: uuidv4(),
@@ -7779,14 +7779,14 @@ export const data = {
       links: {
         website: "http://myap-portfolio.com",
         linkedin: "www.linkedin.com/in/alessio-petrin-41b058190/",
-        github: "https://github.com/ale917k"
+        github: "https://github.com/ale917k",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Oxford",
         state: "UK",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -7796,14 +7796,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/SangilYun"
+        github: "https://github.com/SangilYun",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "",
         state: "",
-        country: "Korea (Republic of)"
-      }
+        country: "Korea (Republic of)",
+      },
     },
     {
       id: uuidv4(),
@@ -7812,14 +7812,14 @@ export const data = {
       links: {
         website: "https://sebagruia.github.io/SebastianGruia-Project-Page/",
         linkedin: "https://www.linkedin.com/in/sebastiangruia/",
-        github: "https://github.com/sebagruia"
+        github: "https://github.com/sebagruia",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Darmstadt",
         state: "Hesse",
-        country: "Deutschland"
-      }
+        country: "Deutschland",
+      },
     },
     {
       id: uuidv4(),
@@ -7828,14 +7828,14 @@ export const data = {
       links: {
         website: "https://gigi1111.github.io/Chung-Fan-Tsai-Portfolio/",
         linkedin: "https://www.linkedin.com/in/chung-fan-tsai-433230175/",
-        github: "https://github.com/Gigi1111"
+        github: "https://github.com/Gigi1111",
       },
       jobTitle: "Full Stack JS and Django Developer",
       location: {
         city: "Berlin",
         state: "Berlin",
-        country: "Germany"
-      }
+        country: "Germany",
+      },
     },
     {
       id: uuidv4(),
@@ -7844,14 +7844,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/hereisfahad/",
-        github: "https://github.com/hereisfahad"
+        github: "https://github.com/hereisfahad",
       },
       jobTitle: "JavaScript Developer",
       location: {
         city: "Lahore",
         state: "",
-        country: "Pakistan"
-      }
+        country: "Pakistan",
+      },
     },
     {
       id: uuidv4(),
@@ -7860,14 +7860,14 @@ export const data = {
       links: {
         website: "https://amazecode.com/",
         linkedin: "https://www.linkedin.com/in/mikkel250/",
-        github: "https://github.com/mikkel250"
+        github: "https://github.com/mikkel250",
       },
       jobTitle: "MERN Stack Developer",
       location: {
         city: "San Francisco",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -7876,14 +7876,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mengyue-wu-804177158/",
-        github: "https://github.com/menyw"
+        github: "https://github.com/menyw",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Adelaide/Canberra",
         state: "SA/ACT",
-        country: "Australia"
-      }
+        country: "Australia",
+      },
     },
     {
       id: uuidv4(),
@@ -7892,14 +7892,14 @@ export const data = {
       links: {
         website: "https://dppeykov.github.io/",
         linkedin: "https://www.linkedin.com/in/damyan-peykov/",
-        github: "https://github.com/dppeykov"
+        github: "https://github.com/dppeykov",
       },
       jobTitle: "Full Stack Developer/System Administrator",
       location: {
         city: "Brno",
         state: "South Moravia",
-        country: "Czech Republic"
-      }
+        country: "Czech Republic",
+      },
     },
     {
       id: uuidv4(),
@@ -7908,14 +7908,14 @@ export const data = {
       links: {
         website: "http://pgilewski.com/",
         linkedin: "https://www.linkedin.com/in/przemyslaw-gilewski/",
-        github: "https://github.com/pgilewski"
+        github: "https://github.com/pgilewski",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Szczecin",
         state: "zachodnio-pomorskie",
-        country: "Poland"
-      }
+        country: "Poland",
+      },
     },
     {
       id: uuidv4(),
@@ -7925,14 +7925,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "www.linkedin.com/in/maduabuchi-okonkwo-855380b9",
-        github: "https://github.com/Maduflavins"
+        github: "https://github.com/Maduflavins",
       },
       jobTitle: "Software Developer|Data Sciencetist|IT Professional",
       location: {
         city: "Abuja",
         state: "Abuja",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -7941,15 +7941,15 @@ export const data = {
       links: {
         website: "https://olsenme.github.io/portfolio/",
         linkedin: "www.linkedin.com/in/mkjo",
-        github: "https://github.com/olsenme"
+        github: "https://github.com/olsenme",
       },
       jobTitle:
         "Software Developer|Technical Consultant|Technical Program Manager",
       location: {
         city: "Portland",
         state: "Oregon",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -7958,14 +7958,14 @@ export const data = {
       links: {
         website: "https://kawsarhussen.com/",
         linkedin: "https://www.linkedin.com/in/kawsarhussen16/",
-        github: "https://github.com/kawsarhussen16"
+        github: "https://github.com/kawsarhussen16",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "New York",
         state: "New York",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -7975,14 +7975,14 @@ export const data = {
       links: {
         website: "https://ebnsina.me",
         linkedin: "https://www.linkedin.com/in/ebn-sina",
-        github: "https://github.com/ebnsina"
+        github: "https://github.com/ebnsina",
       },
       jobTitle: "Full-Stack Web Dev",
       location: {
         city: "Dhaka",
         state: "",
-        country: "Bangladesh"
-      }
+        country: "Bangladesh",
+      },
     },
     {
       id: uuidv4(),
@@ -7991,14 +7991,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ricardo-esteves-a5a971159/",
-        github: "https://github.com/ricksnow26"
+        github: "https://github.com/ricksnow26",
       },
       jobTitle: "Electrical Engineer, Web Developer",
       location: {
         city: "Porto",
         state: "",
-        country: "Portugal"
-      }
+        country: "Portugal",
+      },
     },
     {
       id: uuidv4(),
@@ -8007,14 +8007,14 @@ export const data = {
       links: {
         website: "https://kazmiali.github.io",
         linkedin: "https://www.linkedin.com/in/muhammad-alikazmi/",
-        github: "https://github.com/kazmiali"
+        github: "https://github.com/kazmiali",
       },
       jobTitle: "Full Stack Web Developer, React Developer, NodeJS Developer",
       location: {
         city: "Hyderabad",
         state: "Sindh",
-        country: "Pakistan"
-      }
+        country: "Pakistan",
+      },
     },
     {
       id: uuidv4(),
@@ -8023,14 +8023,14 @@ export const data = {
       links: {
         website: "https://hsingjushih.wixsite.com/website",
         linkedin: "https://www.linkedin.com/in/hsing-ju-shih/",
-        github: "https://github.com/HJShih/"
+        github: "https://github.com/HJShih/",
       },
       jobTitle: "Software developer, Java, C++, JavaScript",
       location: {
         city: "New Taipei City",
         state: "",
-        country: "Taiwan"
-      }
+        country: "Taiwan",
+      },
     },
     {
       id: uuidv4(),
@@ -8039,14 +8039,14 @@ export const data = {
       links: {
         website: "http://www.shahpranav.com/",
         linkedin: "https://www.linkedin.com/in/shpranav/",
-        github: "https://github.com/shahpranaf"
+        github: "https://github.com/shahpranaf",
       },
       jobTitle: "Full Stack JavaScript Developer",
       location: {
         city: "Pune",
         state: "Maharashtra",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -8055,14 +8055,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/diego-ormaza-de-paul-14453311a",
-        github: "https://github.com/eaglearg"
+        github: "https://github.com/eaglearg",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Roswell",
         state: "GA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -8071,14 +8071,14 @@ export const data = {
       links: {
         website: "https://andrewbaisden.com/",
         linkedin: "https://www.linkedin.com/in/andrew-baisden/",
-        github: "https://github.com/andrewbaisden"
+        github: "https://github.com/andrewbaisden",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "London",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -8088,14 +8088,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mauro-small/",
-        github: "https://github.com/mlsmall"
+        github: "https://github.com/mlsmall",
       },
       jobTitle: "Machine Learning Practitioner",
       location: {
         city: "Montreal",
         state: "",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -8105,14 +8105,14 @@ export const data = {
       links: {
         website: "linkedin.com/in/gonza-garcia",
         linkedin: "linkedin.com/in/gonza-garcia",
-        github: "github.com/gonza-garcia"
+        github: "github.com/gonza-garcia",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Mar del Plata",
         state: "Buenos Aires",
-        country: "Argentina"
-      }
+        country: "Argentina",
+      },
     },
     {
       id: uuidv4(),
@@ -8122,14 +8122,14 @@ export const data = {
       links: {
         website: "https://abdussamadyisau.github.io",
         linkedin: "https://www.linkedin.com/in/abdussamad-yisau-915298154/",
-        github: "https://github.com/AbdussamadYisau"
+        github: "https://github.com/AbdussamadYisau",
       },
       jobTitle: "Frontend Web Developer",
       location: {
         city: "Lagos",
         state: "",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -8138,14 +8138,14 @@ export const data = {
       links: {
         website: "https://samirjouni.com/",
         linkedin: "https://www.linkedin.com/in/samir-jouni-373966156/",
-        github: "https://github.com/SamirJouni"
+        github: "https://github.com/SamirJouni",
       },
       jobTitle: "Fullstack Web Developer",
       location: {
         city: "Paderborn",
         state: "North Rhine-Westphalia",
-        country: "Germany"
-      }
+        country: "Germany",
+      },
     },
     {
       id: uuidv4(),
@@ -8154,14 +8154,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/paul-mclaughlin-18297b29/",
-        github: "https://github.com/codepol"
+        github: "https://github.com/codepol",
       },
       jobTitle: "Fullstack Web Developer",
       location: {
         city: "Dublin",
         state: "",
-        country: "Ireland"
-      }
+        country: "Ireland",
+      },
     },
     {
       id: uuidv4(),
@@ -8170,14 +8170,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/raafay-alam-3b68a195/",
-        github: "https://github.com/rffffy"
+        github: "https://github.com/rffffy",
       },
       jobTitle: "Fullstack Web Developer",
       location: {
         city: "Berlin",
         state: "",
-        country: "Germany"
-      }
+        country: "Germany",
+      },
     },
     {
       id: uuidv4(),
@@ -8186,14 +8186,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/bibekpreet-singh-797966166/",
-        github: "https://github.com/bibekpreet99"
+        github: "https://github.com/bibekpreet99",
       },
       jobTitle: "Fullstack Javascript Developer",
       location: {
         city: "",
         state: "Punjab",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -8203,14 +8203,14 @@ export const data = {
       links: {
         website: "https://oceanu-ionut.netlify.com/",
         linkedin: "https://www.linkedin.com/in/ionut-oceanu/",
-        github: "https://github.com/OceanU"
+        github: "https://github.com/OceanU",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Bucharest",
         state: "",
-        country: "Romania"
-      }
+        country: "Romania",
+      },
     },
     {
       id: uuidv4(),
@@ -8219,14 +8219,14 @@ export const data = {
       links: {
         website: "https://kaynguyen.dev",
         linkedin: "https://www.linkedin.com/in/kaynguyen-dev/",
-        github: "https://github.com/k-awe-some"
+        github: "https://github.com/k-awe-some",
       },
       jobTitle: "React Developer",
       location: {
         city: "Toronto",
         state: "Ontario",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -8236,14 +8236,14 @@ export const data = {
       links: {
         website: " ",
         linkedin: "https://www.linkedin.com/in/fadhil-akindele-24701310a/",
-        github: "https://github.com/TheCount511"
+        github: "https://github.com/TheCount511",
       },
       jobTitle: "Frontend Developer",
       location: {
         city: "Lagos",
         state: "",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -8253,14 +8253,14 @@ export const data = {
       links: {
         website: " ",
         linkedin: "https://www.linkedin.com/in/melodyreyes/",
-        github: "https://github.com/MelodyReyes09"
+        github: "https://github.com/MelodyReyes09",
       },
       jobTitle: "Frontend Web Developer",
       location: {
         city: "Mexico",
         state: "Pampanga",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -8269,14 +8269,14 @@ export const data = {
       links: {
         website: "http://arkadiusz-szymczak.surge.sh/",
         linkedin: "https://www.linkedin.com/in/arkadiusz-szymczak/",
-        github: "https://github.com/Aszmel"
+        github: "https://github.com/Aszmel",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "",
         state: "",
-        country: "Poland"
-      }
+        country: "Poland",
+      },
     },
     {
       id: uuidv4(),
@@ -8285,14 +8285,14 @@ export const data = {
       links: {
         website: "https://jcat1504.github.io/portfolio2019/",
         linkedin: "https://www.linkedin.com/in/jessicatyin/",
-        github: "https://github.com/jcat1504"
+        github: "https://github.com/jcat1504",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Buena Park",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -8301,14 +8301,14 @@ export const data = {
       links: {
         website: "https://dbuccheri.github.io",
         linkedin: "https://www.linkedin.com/in/danielebuccheri/",
-        github: "https://github.com/dbuccheri"
+        github: "https://github.com/dbuccheri",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Los Angeles",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -8316,14 +8316,14 @@ export const data = {
       img: "",
       links: {
         linkedin: "https://www.linkedin.com/in/michael-damato-683abb48/",
-        github: "https://github.com/Mike-Damato"
+        github: "https://github.com/Mike-Damato",
       },
       jobTitle: "Fullstack Developer",
       location: {
         city: "New York",
         state: "New York",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -8332,14 +8332,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/Filat1"
+        github: "https://github.com/Filat1",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Toronto",
         state: "Ontario",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -8350,14 +8350,14 @@ export const data = {
         website: "",
         linkedin:
           "https://www.linkedin.com/in/robin-kartikeya-khatri-611278aa/",
-        github: "https://github.com/RobinKartikeyaKhatri"
+        github: "https://github.com/RobinKartikeyaKhatri",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Barmer",
         state: "Rajasthan",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -8367,14 +8367,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/dhaval-m-994a83179/",
-        github: "https://github.com/Dhaval1403"
+        github: "https://github.com/Dhaval1403",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Rajkot",
         state: "Gujarat",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -8384,14 +8384,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/meetmehta1103/",
-        github: "https://github.com/Meet1103"
+        github: "https://github.com/Meet1103",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Rajkot",
         state: "Gujarat",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -8400,14 +8400,14 @@ export const data = {
       links: {
         website: "https://www.ericpuskas.com",
         linkedin: "https://www.linkedin.com/in/ericpuskas/",
-        github: "https://github.com/EricPuskas"
+        github: "https://github.com/EricPuskas",
       },
       jobTitle: "Full-Stack Web Developer",
       location: {
         city: "Satu-Mare",
         state: "Satu-Mare",
-        country: "Romania"
-      }
+        country: "Romania",
+      },
     },
     {
       id: uuidv4(),
@@ -8417,14 +8417,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/arturocastanonvargas/",
-        github: "https://github.com/ArturVargas"
+        github: "https://github.com/ArturVargas",
       },
       jobTitle: "Full-Stack Web Developer",
       location: {
         city: "CDMX",
         state: "",
-        country: "Mexico"
-      }
+        country: "Mexico",
+      },
     },
     {
       id: uuidv4(),
@@ -8433,14 +8433,14 @@ export const data = {
       links: {
         website: "http://www.bananaboom.space/",
         linkedin: "https://www.linkedin.com/in/baiyang-sam-y-54828a140/",
-        github: "https://github.com/yaohuangguan"
+        github: "https://github.com/yaohuangguan",
       },
       jobTitle: "Software Engineer | Web Developer",
       location: {
         city: "Columbus",
         state: "OH",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -8449,14 +8449,14 @@ export const data = {
       links: {
         website: "https://www.paulbillings.co.uk",
         linkedin: "https://www.linkedin.com/in/paul-billings",
-        github: "https://github.com/paulbillings"
+        github: "https://github.com/paulbillings",
       },
       jobTitle: "Full-Stack Web Developer",
       location: {
         city: "Birmingham",
         state: "England",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -8466,14 +8466,14 @@ export const data = {
       links: {
         website: "https://manolingam.github.io/",
         linkedin: "https://www.linkedin.com/in/saimano1996/",
-        github: "https://github.com/manolingam/"
+        github: "https://github.com/manolingam/",
       },
       jobTitle: "Front-End Web Developer | Blockchain Developer",
       location: {
         city: "",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -8483,14 +8483,14 @@ export const data = {
       links: {
         website: "https://www.yalovleva.dev",
         linkedin: "",
-        github: "https://github.com/yakovleva-tanya/"
+        github: "https://github.com/yakovleva-tanya/",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "",
         state: "",
-        country: ""
-      }
+        country: "",
+      },
     },
     {
       id: uuidv4(),
@@ -8500,14 +8500,14 @@ export const data = {
       links: {
         website: "https://www.alcima.org/",
         linkedin: "https://www.linkedin.com/in/alex-marmalichi/",
-        github: "https://github.com/2nd-Runner"
+        github: "https://github.com/2nd-Runner",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Los Angeles",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -8516,14 +8516,14 @@ export const data = {
       links: {
         website: "http://natalina-portfolio.herokuapp.com/",
         linkedin: "https://www.linkedin.com/in/natalina-rodrigues-69ab29169/",
-        github: "https://github.com/Natalina13"
+        github: "https://github.com/Natalina13",
       },
       jobTitle: "Full Stack and Python Developer",
       location: {
         city: "Fremont",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -8532,14 +8532,14 @@ export const data = {
       links: {
         website: "https://www.about.me/asifurrahman",
         linkedin: "https://www.linkedin.com/in/0asif0",
-        github: "https://github.com/asifurrehman"
+        github: "https://github.com/asifurrehman",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "",
         state: "",
-        country: "Anywhere (Remotely) "
-      }
+        country: "Anywhere (Remotely) ",
+      },
     },
     {
       id: uuidv4(),
@@ -8548,14 +8548,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/rucha-deshpande-087b7342/",
-        github: "https://github.com/cha1690"
+        github: "https://github.com/cha1690",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "",
         state: "",
-        country: "Anywhere (Remotely) "
-      }
+        country: "Anywhere (Remotely) ",
+      },
     },
     {
       id: uuidv4(),
@@ -8564,14 +8564,14 @@ export const data = {
       links: {
         website: "http://charlesjones.me/",
         linkedin: "https://www.linkedin.com/in/charlesjonesiii/",
-        github: "https://github.com/CharlesJ3"
+        github: "https://github.com/CharlesJ3",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Colorado Springs",
         state: "Colorado",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -8580,14 +8580,14 @@ export const data = {
       links: {
         website: "http://cumaniar.cf",
         linkedin: "https://www.linkedin.com/in/chiragkumar-maniyar-37017492/",
-        github: "https://github.com/CUManiar"
+        github: "https://github.com/CUManiar",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Pune",
         state: "Maharashtra",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -8596,14 +8596,14 @@ export const data = {
       links: {
         website: "https://puneetkumarkaushik.github.io/",
         linkedin: "https://www.linkedin.com/in/puneet-kumar-294507a6/",
-        github: "https://github.com/puneetkumarkaushik"
+        github: "https://github.com/puneetkumarkaushik",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Bangalore",
         state: "Karnataka",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -8612,14 +8612,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/jovannickovic"
+        github: "https://github.com/jovannickovic",
       },
       jobTitle: "Web Developer (PHP, JavaScript)",
       location: {
         city: "",
         state: "",
-        country: "Serbia"
-      }
+        country: "Serbia",
+      },
     },
     {
       id: uuidv4(),
@@ -8628,14 +8628,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/constantinosaldana/",
-        github: "https://github.com/antinomezco"
+        github: "https://github.com/antinomezco",
       },
       jobTitle: "Web Developer (Python, JavaScript)",
       location: {
         city: "Montreal",
         state: "Quebec",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -8645,14 +8645,14 @@ export const data = {
       links: {
         website: "http://www.yashshelatkar.com",
         linkedin: "https://www.linkedin.com/in/yash-shelatkar-b14bb0112",
-        github: "https://github.com/yashShelatkar"
+        github: "https://github.com/yashShelatkar",
       },
       jobTitle: "Fullstack Developer Intern",
       location: {
         city: "Melbourne",
         state: "Victoria",
-        country: "Australia"
-      }
+        country: "Australia",
+      },
     },
     {
       id: uuidv4(),
@@ -8661,14 +8661,14 @@ export const data = {
       links: {
         website: "http://oussamawebdev.com",
         linkedin: "https://www.linkedin.com/in/oussamaerrabili/",
-        github: "https://github.com/redmor"
+        github: "https://github.com/redmor",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Columbus",
         state: "Ohio",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -8676,14 +8676,14 @@ export const data = {
       img: "https://avatars2.githubusercontent.com/u/43791878?s=460&v=4",
       links: {
         linkedin: "https://www.linkedin.com/in/kaustuv-karan-b56750169/",
-        github: "https://github.com/kaustuvkaran01"
+        github: "https://github.com/kaustuvkaran01",
       },
       jobTitle: "React Developer Intern",
       location: {
         city: "Patiala",
         state: "Punjab",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -8693,14 +8693,14 @@ export const data = {
       links: {
         website: "https://rajnishkrsingh.github.io/my_portfolio",
         linkedin: "https://www.linkedin.com/in/rajnish-kr-singh-165272184/",
-        github: "https://github.com/RajnishKrSingh"
+        github: "https://github.com/RajnishKrSingh",
       },
       jobTitle: "Web Developer | Programmer | ReactJS Enthusiast",
       location: {
         city: "Kolkata",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -8709,14 +8709,14 @@ export const data = {
       links: {
         website: "https://turazi.xyz/",
         linkedin: "https://www.linkedin.com/in/donaldtang8/",
-        github: "https://github.com/turazi"
+        github: "https://github.com/turazi",
       },
       jobTitle: "Software Developer",
       location: {
         city: "New York",
         state: "New York",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -8725,14 +8725,14 @@ export const data = {
       links: {
         website: "https://aynorica.github.io/",
         linkedin: "https://www.linkedin.com/in/amir-deilamizadeh-2712a6192",
-        github: "https://github.com/aynorica"
+        github: "https://github.com/aynorica",
       },
       jobTitle: "Full-stack Developer",
       location: {
         city: "Istanbul",
         state: "Istanbul",
-        country: "Turkey"
-      }
+        country: "Turkey",
+      },
     },
     {
       id: uuidv4(),
@@ -8741,14 +8741,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/khalign/",
-        github: "https://github.com/khalign"
+        github: "https://github.com/khalign",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Bandirma",
         state: "Balikesir",
-        country: "Turkey"
-      }
+        country: "Turkey",
+      },
     },
     {
       id: uuidv4(),
@@ -8757,14 +8757,14 @@ export const data = {
       links: {
         website: "https://jkorum.github.io/portfolio-page/",
         linkedin: "https://www.linkedin.com/in/konstantin-proshin/",
-        github: "https://github.com/JKorum"
+        github: "https://github.com/JKorum",
       },
       jobTitle: "Full-Stack Web Developer",
       location: {
         city: "Moscow",
         state: "",
-        country: "Russia"
-      }
+        country: "Russia",
+      },
     },
     {
       id: uuidv4(),
@@ -8774,14 +8774,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/aladdin-sonni/",
-        github: "https://github.com/asonni"
+        github: "https://github.com/asonni",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Tripoli",
         state: "",
-        country: "Libya"
-      }
+        country: "Libya",
+      },
     },
     {
       id: uuidv4(),
@@ -8790,14 +8790,14 @@ export const data = {
       links: {
         website: "http://www.thomasgeoff.com",
         linkedin: "https://www.linkedin.com/in/geoff-thomas-01/",
-        github: "https://github.com/thomasgeoff"
+        github: "https://github.com/thomasgeoff",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Rohnert Park",
         state: "California",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -8806,14 +8806,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/amitbisht54/",
-        github: "https://github.com/bishtamit"
+        github: "https://github.com/bishtamit",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Gurugram",
         state: "Haryana",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -8822,14 +8822,14 @@ export const data = {
       links: {
         website: "https://fprokofiev.ru",
         linkedin: "https://www.linkedin.com/in/fpro/",
-        github: "https://github.com/fprokofiev"
+        github: "https://github.com/fprokofiev",
       },
       jobTitle: "Full Stack Developer, Project Manager",
       location: {
         city: "Saint-Petersburg",
         state: "St.Petersburg",
-        country: "Russia"
-      }
+        country: "Russia",
+      },
     },
     {
       id: uuidv4(),
@@ -8839,14 +8839,14 @@ export const data = {
       links: {
         website: "https://edjunma.dev",
         linkedin: "https://www.linkedin.com/in/edjunma/",
-        github: "https://github.com/edjunma"
+        github: "https://github.com/edjunma",
       },
       jobTitle: "Freelance Web Developer, Front-End Developer",
       location: {
         city: "New York City",
         state: "NY",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -8855,14 +8855,14 @@ export const data = {
       links: {
         website: "https://andycodes.io/",
         linkedin: "https://www.linkedin.com/in/andydnguyen/",
-        github: "https://github.com/andydnguyen"
+        github: "https://github.com/andydnguyen",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Toronto",
         state: "Ontario",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -8872,14 +8872,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ralphevmanzano/",
-        github: "https://github.com/ralphevmanzano"
+        github: "https://github.com/ralphevmanzano",
       },
       jobTitle: "Android Developer",
       location: {
         city: "Cebu City",
         state: "",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -8888,14 +8888,14 @@ export const data = {
       links: {
         website: "https://ezioda004.github.io/",
         linkedin: "https://www.linkedin.com/in/aditya-v-16ba91137",
-        github: "https://github.com/ezioda004"
+        github: "https://github.com/ezioda004",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Bangalore",
         state: "Karnataka",
-        country: "IN"
-      }
+        country: "IN",
+      },
     },
     {
       id: uuidv4(),
@@ -8905,14 +8905,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/tomasz-bogacki-5b048b127/",
-        github: "https://github.com/TheProrok29"
+        github: "https://github.com/TheProrok29",
       },
       jobTitle: "Python Developer && IT Specialist",
       location: {
         city: "Wrocław",
         state: "",
-        country: "Poland"
-      }
+        country: "Poland",
+      },
     },
     {
       id: uuidv4(),
@@ -8921,14 +8921,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/harry-zhangsfsu/",
-        github: "https://github.com/legenhairy"
+        github: "https://github.com/legenhairy",
       },
       jobTitle: "Software Developer",
       location: {
         city: "San Francisco",
         state: "California",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -8937,14 +8937,14 @@ export const data = {
       links: {
         website: "https://codepen.io/alara_joel_stealth/full/yrjLjB",
         linkedin: "https://www.linkedin.com/in/alara-joel-b16865b6/",
-        github: "https://github.com/stealthman22"
+        github: "https://github.com/stealthman22",
       },
       jobTitle: "Junior Fullstack Developer",
       location: {
         city: "Accra",
         state: "Accra",
-        country: "Ghana"
-      }
+        country: "Ghana",
+      },
     },
     {
       id: uuidv4(),
@@ -8953,14 +8953,14 @@ export const data = {
       links: {
         website: "https://www.linkedin.com/in/hatimmamajiwala/",
         linkedin: "https://www.linkedin.com/in/hatimmamajiwala/",
-        github: "https://github.com/hatimmamajiwala"
+        github: "https://github.com/hatimmamajiwala",
       },
       jobTitle: "Cloud Solutions Architect",
       location: {
         city: "Dubai",
         state: "Dubai",
-        country: "United Arab Emirates"
-      }
+        country: "United Arab Emirates",
+      },
     },
     {
       id: uuidv4(),
@@ -8969,14 +8969,14 @@ export const data = {
       links: {
         website: "https://www.danielgarnold.com",
         linkedin: "https://www.linkedin.com/in/danielgarnold",
-        github: "https://www.github.com/dga"
+        github: "https://www.github.com/dga",
       },
       jobTitle: "Python Developer",
       location: {
         city: "Folsom",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -8987,14 +8987,14 @@ export const data = {
         website: "",
         linkedin:
           "https://www.linkedin.com/in/dave-saluk-7387b4177?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BCelcwMTeSUusy8oGqVuA4w%3D%3D",
-        github: "https://github.com/DaveSaluk"
+        github: "https://github.com/DaveSaluk",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Tel-Aviv",
         state: "",
-        country: "Israel"
-      }
+        country: "Israel",
+      },
     },
     {
       id: uuidv4(),
@@ -9003,14 +9003,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/aandoney/",
-        github: "https://github.com/aandoney"
+        github: "https://github.com/aandoney",
       },
       jobTitle: "Full Stack Engineer",
       location: {
         city: "Queretaro",
         state: "",
-        country: "Mexico"
-      }
+        country: "Mexico",
+      },
     },
     {
       id: uuidv4(),
@@ -9020,14 +9020,14 @@ export const data = {
       links: {
         website: "https://brandonsamuel1.github.io/mysite/",
         linkedin: "https://www.linkedin.com/in/brandon-samuel/",
-        github: "https://github.com/brandonsamuel1"
+        github: "https://github.com/brandonsamuel1",
       },
       jobTitle: "Full Stack Javascript Developer",
       location: {
         city: "Vancouver",
         state: "British Columbia",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -9037,14 +9037,14 @@ export const data = {
       links: {
         website: "https://www.omarfaruque.dev/",
         linkedin: "https://www.linkedin.com/in/webdevwithomar/",
-        github: "https://github.com/webdevwithomar"
+        github: "https://github.com/webdevwithomar",
       },
       jobTitle: "Full Stack Javascript Developer",
       location: {
         city: "Dhaka",
         state: "",
-        country: "Bangladesh"
-      }
+        country: "Bangladesh",
+      },
     },
     {
       id: uuidv4(),
@@ -9053,14 +9053,14 @@ export const data = {
       links: {
         website: "Derricklau.pythonanywhere.com/",
         linkedin: "https://www.linkedin.com/in/for-ka-l-551262168/",
-        github: "https://github.com/Derrick-lau/"
+        github: "https://github.com/Derrick-lau/",
       },
       jobTitle: "Full-Stack Web Developer",
       location: {
         city: "",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -9070,14 +9070,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/webguy83/",
-        github: "https://github.com/webguy83"
+        github: "https://github.com/webguy83",
       },
       jobTitle: "Front End Web Developer",
       location: {
         city: "Vancouver",
         state: "BC",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -9086,14 +9086,14 @@ export const data = {
       links: {
         website: "https://www.techiedavid.com",
         linkedin: "https://www.linkedin.com/in/techiedavid-com/",
-        github: "https://github.com/techie-david"
+        github: "https://github.com/techie-david",
       },
       jobTitle: "Senior Full Stack Developer",
       location: {
         city: "Vadodara",
         state: "Gujarat",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -9102,14 +9102,14 @@ export const data = {
       links: {
         website: "https://believemaster.github.io/portfolio",
         linkedin: "https://www.linkedin.com/in/yanikkumar/",
-        github: "https://believemaster.github.io"
+        github: "https://believemaster.github.io",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Hamirpur",
         state: "Himachal Pradesh",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -9119,14 +9119,14 @@ export const data = {
       links: {
         website: "https://spencerdedrick.github.io/Portfolio/",
         linkedin: "https://www.linkedin.com/in/spencer-dedrick/",
-        github: "https://github.com/SpencerDedrick/"
+        github: "https://github.com/SpencerDedrick/",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Houston",
         state: "Texas",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -9135,14 +9135,14 @@ export const data = {
       links: {
         website: "https://panchodaskalov.com/",
         linkedin: "https://www.linkedin.com/in/panchodaskalov/",
-        github: "https://github.com/PanchoDaskalov"
+        github: "https://github.com/PanchoDaskalov",
       },
       jobTitle: "UI/UX Design | Front-end Development",
       location: {
         city: "Munich",
         state: "Bavaria",
-        country: "Germany"
-      }
+        country: "Germany",
+      },
     },
     {
       id: uuidv4(),
@@ -9151,14 +9151,14 @@ export const data = {
       links: {
         website: "https://gazsix.com/",
         linkedin: "https://www.linkedin.com/in/cyruseslamian/",
-        github: "https://github.com/mojopoly"
+        github: "https://github.com/mojopoly",
       },
       jobTitle: "JavaScript Engineer | React | ReactNative",
       location: {
         city: "Toronto",
         state: "Ontario",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -9167,15 +9167,15 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/shivayan-bora-9a858a35/",
-        github: "https://github.com/shivayanbora123"
+        github: "https://github.com/shivayanbora123",
       },
       jobTitle:
         "Senior Software Developer at JDA Software | Java and Python | Deep Learning Enthusiast",
       location: {
         city: "Bangalore",
         state: "Karnataka",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -9185,15 +9185,15 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/yarden-katz",
-        github: "https://github.com/YardenKatz"
+        github: "https://github.com/YardenKatz",
       },
       jobTitle:
         "Fullstack Developer | JavaScript | C++ | Java | Python | Django",
       location: {
         city: "",
         state: "",
-        country: "Israel"
-      }
+        country: "Israel",
+      },
     },
     {
       id: uuidv4(),
@@ -9202,14 +9202,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/nicolei-ocana-0b271b71/",
-        github: "https://github.com/nicoleiocana"
+        github: "https://github.com/nicoleiocana",
       },
       jobTitle: "Fullstack Developer | Ruby | Rails",
       location: {
         city: "Placentia",
         state: "California",
-        country: "United States of America"
-      }
+        country: "United States of America",
+      },
     },
     {
       id: uuidv4(),
@@ -9218,14 +9218,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/lasantha-basnayake",
-        github: "https://github.com/lasantha57"
+        github: "https://github.com/lasantha57",
       },
       jobTitle: "Full-Stack Developer | Javascript",
       location: {
         city: "Colombo",
         state: "",
-        country: "Sri Lanka"
-      }
+        country: "Sri Lanka",
+      },
     },
     {
       id: uuidv4(),
@@ -9234,14 +9234,14 @@ export const data = {
       links: {
         website: "https://daniel-farlow.com/",
         linkedin: "https://www.linkedin.com/in/daniel-farlow/",
-        github: "https://github.com/daniel-farlow"
+        github: "https://github.com/daniel-farlow",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Atlanta",
         state: "Georgia",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -9250,15 +9250,15 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/shivayan-bora-9a858a35/",
-        github: "https://github.com/shivayanbora123"
+        github: "https://github.com/shivayanbora123",
       },
       jobTitle:
         "Senior Software Developer at JDA Software | Java and Python | Deep Learning Enthusiast",
       location: {
         city: "Bangalore",
         state: "Karnataka",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -9268,15 +9268,15 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/yarden-katz",
-        github: "https://github.com/YardenKatz"
+        github: "https://github.com/YardenKatz",
       },
       jobTitle:
         "Fullstack Developer | JavaScript | C++ | Java | Python | Django",
       location: {
         city: "",
         state: "",
-        country: "Israel"
-      }
+        country: "Israel",
+      },
     },
     {
       id: uuidv4(),
@@ -9285,14 +9285,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/nicolei-ocana-0b271b71/",
-        github: "https://github.com/nicoleiocana"
+        github: "https://github.com/nicoleiocana",
       },
       jobTitle: "Fullstack Developer | Ruby | Rails",
       location: {
         city: "Placentia",
         state: "California",
-        country: "United States of America"
-      }
+        country: "United States of America",
+      },
     },
     {
       id: uuidv4(),
@@ -9301,14 +9301,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/lasantha-basnayake",
-        github: "https://github.com/lasantha57"
+        github: "https://github.com/lasantha57",
       },
       jobTitle: "Full-Stack Developer | Javascript",
       location: {
         city: "Colombo",
         state: "",
-        country: "Sri Lanka"
-      }
+        country: "Sri Lanka",
+      },
     },
     {
       id: uuidv4(),
@@ -9317,14 +9317,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/sampoe/",
-        github: "https://github.com/rckatz"
+        github: "https://github.com/rckatz",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Greater Boston",
         state: "Massachusetts",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -9334,14 +9334,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/andy-mc/",
-        github: "https://github.com/andy-mc"
+        github: "https://github.com/andy-mc",
       },
       jobTitle: "Full-Stack Developer | Javascript | Python",
       location: {
         city: "Quito",
         state: "Pichincha",
-        country: "Ecuador"
-      }
+        country: "Ecuador",
+      },
     },
     {
       id: uuidv4(),
@@ -9351,14 +9351,14 @@ export const data = {
         website: "www.vamsikrishnamraju.com",
         linkedin:
           "https://www.linkedin.com/in/vamsi-krishnam-raju-uddaraju-991b47171/",
-        github: "https://github.com/uddaraju"
+        github: "https://github.com/uddaraju",
       },
       jobTitle: "Software Developer Developer | Cloud Technology | ",
       location: {
         city: "London",
         state: "Ontario",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -9368,14 +9368,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/bocong-zhao-975b6162/",
-        github: "https://github.com/zbc"
+        github: "https://github.com/zbc",
       },
       jobTitle: "Full-Stack Developer | Javascript",
       location: {
         city: "Toronto",
         state: "Ontario",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -9384,14 +9384,14 @@ export const data = {
       links: {
         website: "https://ValentinMitran.com",
         linkedin: "https://www.linkedin.com/in/ValentinMitran/",
-        github: "https://github.com/ValentinMitran"
+        github: "https://github.com/ValentinMitran",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "",
         state: "Lisbon",
-        country: "Portugal"
-      }
+        country: "Portugal",
+      },
     },
     {
       id: uuidv4(),
@@ -9400,14 +9400,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/derekjackson/",
-        github: "https://github.com/Cyph3r"
+        github: "https://github.com/Cyph3r",
       },
       jobTitle: "Full-Stack Dev, JavaScript",
       location: {
         city: "Tulsa",
         state: "Oklahoma",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -9416,14 +9416,14 @@ export const data = {
       links: {
         website: "https://www.kickresume.com/cv/dpalmenco_support_analyst/",
         linkedin: "https://www.linkedin.com/in/dennispalmenco/",
-        github: "https://github.com/dennisbp"
+        github: "https://github.com/dennisbp",
       },
       jobTitle: "SAP Consultant/Software Engineer",
       location: {
         city: "Auckland",
         state: "Auckland",
-        country: "New Zealand"
-      }
+        country: "New Zealand",
+      },
     },
     {
       id: uuidv4(),
@@ -9432,14 +9432,14 @@ export const data = {
         "https://avatars0.githubusercontent.com/u/44141163?s=400&u=a847930288a92af3734f933ce214f94729713622&v=4",
       links: {
         linkedin: "https://www.linkedin.com/in/dilip-rao-877bb2116/",
-        github: "https://github.com/dilipteegala"
+        github: "https://github.com/dilipteegala",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Hyderabad",
         state: "Telangana",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -9448,14 +9448,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/nurdared/",
-        github: "https://github.com/nurdared"
+        github: "https://github.com/nurdared",
       },
       jobTitle: "Full-Stack Developer | JavaScript",
       location: {
         city: "Aktau",
         state: "Mangystau",
-        country: "Kazakhstan"
-      }
+        country: "Kazakhstan",
+      },
     },
     {
       id: uuidv4(),
@@ -9465,14 +9465,14 @@ export const data = {
       links: {
         linkedin:
           "https://id.linkedin.com/in/i-gusti-bagus-awienandra-483718132",
-        github: "https://github.com/rainoverme002"
+        github: "https://github.com/rainoverme002",
       },
       jobTitle: "Software Engineer | Nuclear Engineer",
       location: {
         city: "Jakarta",
         state: "",
-        country: "Indonesia"
-      }
+        country: "Indonesia",
+      },
     },
     {
       id: uuidv4(),
@@ -9482,14 +9482,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ulvi-jabbarli",
-        github: "https://github.com/ulvij"
+        github: "https://github.com/ulvij",
       },
       jobTitle: "Android Developer",
       location: {
         city: "Baku",
         state: "",
-        country: "Azerbaijan"
-      }
+        country: "Azerbaijan",
+      },
     },
     {
       id: uuidv4(),
@@ -9498,14 +9498,14 @@ export const data = {
       links: {
         website: "https://psymaddoc.github.io/",
         linkedin: "https://www.linkedin.com/in/cruceanuvictor/",
-        github: "https://github.com/PsyMadDoc/"
+        github: "https://github.com/PsyMadDoc/",
       },
       jobTitle: "Front End Web Dev | JavaScript",
       location: {
         city: "Bucharest",
         state: "",
-        country: "Romania"
-      }
+        country: "Romania",
+      },
     },
     {
       id: uuidv4(),
@@ -9515,15 +9515,15 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mughees-asif",
-        github: "https://github.com/mughees-asif"
+        github: "https://github.com/mughees-asif",
       },
       jobTitle:
         "Aerospace Engineering undergraduate student | Self-taught software/wed developer",
       location: {
         city: "London",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -9533,14 +9533,14 @@ export const data = {
       links: {
         website: "https://oleh-zakharchuk.github.io/Portfolio/",
         linkedin: "https://www.linkedin.com/in/oleh-zakharchuk-7b216b198/",
-        github: "https://github.com/Oleh-Zakharchuk"
+        github: "https://github.com/Oleh-Zakharchuk",
       },
       jobTitle: "Junior Front End Developer | Junior JavaScript Developer",
       location: {
         city: "Kyiv",
         state: "",
-        country: "Ukraine"
-      }
+        country: "Ukraine",
+      },
     },
     {
       id: uuidv4(),
@@ -9549,14 +9549,14 @@ export const data = {
       links: {
         website: "https://alexadejumo.dev/",
         linkedin: "https://www.linkedin.com/in/alexadejumo/",
-        github: "https://github.com/alexadejumo"
+        github: "https://github.com/alexadejumo",
       },
       jobTitle: "Full-Stack Developer | Javascript",
       location: {
         city: "Lagos",
         state: "",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -9566,14 +9566,14 @@ export const data = {
       links: {
         website: "https://ogaston.com/en/knowme/",
         linkedin: "https://www.linkedin.com/in/omar-gaston-chalas/",
-        github: "https://github.com/ogaston/"
+        github: "https://github.com/ogaston/",
       },
       jobTitle: "Software Engineer | Full-Stack JavaScript",
       location: {
         city: "Santo Domingo",
         state: "",
-        country: "Dominican Republic"
-      }
+        country: "Dominican Republic",
+      },
     },
     {
       id: uuidv4(),
@@ -9582,14 +9582,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mhelpineda/",
-        github: "https://github.com/mhel14"
+        github: "https://github.com/mhel14",
       },
       jobTitle: "Full Stack Engineer",
       location: {
         city: "Pampanga",
         state: "",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -9598,14 +9598,14 @@ export const data = {
       links: {
         website: "https://knightowl2704.github.io",
         linkedin: "https://www.linkedin.com/in/piyushraut27",
-        github: "https://github.com/knightowl2704/"
+        github: "https://github.com/knightowl2704/",
       },
       jobTitle: "Machine Learning Enthusiast",
       location: {
         city: "Bhubaneswar",
         state: "Odisha",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -9615,14 +9615,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/sagihillel",
-        github: "https://github.com/sagihill/"
+        github: "https://github.com/sagihill/",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "Tel-Aviv",
         state: "",
-        country: "Israel"
-      }
+        country: "Israel",
+      },
     },
     {
       id: uuidv4(),
@@ -9631,14 +9631,14 @@ export const data = {
       links: {
         website: "https://paskuvan.us",
         linkedin: "https://www.linkedin.com/in/paskuvan",
-        github: "https://github.com/paskuvan"
+        github: "https://github.com/paskuvan",
       },
       jobTitle: "Full Stack & UX/UI Developer",
       location: {
         city: "Santiago",
         state: "",
-        country: "Chile"
-      }
+        country: "Chile",
+      },
     },
     {
       id: uuidv4(),
@@ -9647,14 +9647,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/arahims/",
-        github: "https://github.com/ariskycode"
+        github: "https://github.com/ariskycode",
       },
       jobTitle: "Full-Stack|Java|Web Developer",
       location: {
         city: "Anywhere",
         state: "",
-        country: "Willing to relocate internationally"
-      }
+        country: "Willing to relocate internationally",
+      },
     },
     {
       id: uuidv4(),
@@ -9663,14 +9663,14 @@ export const data = {
       links: {
         website: "https://pedropmedina.github.io",
         linkedin: "https://www.linkedin.com/in/pedro-medina-65999b13a",
-        github: "https://github.com/pedropmedina"
+        github: "https://github.com/pedropmedina",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Miami/Fort Lauderdale",
         state: "FL",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -9680,14 +9680,14 @@ export const data = {
         website: "",
         linkedin:
           "https://www.linkedin.com/in/%E4%BA%94%E6%9D%B0-%E5%BC%B5-07937b165/",
-        github: "https://github.com/iggh966380"
+        github: "https://github.com/iggh966380",
       },
       jobTitle: "Font-end Developer",
       location: {
         city: "New Taipei",
         state: "",
-        country: "Taiwan"
-      }
+        country: "Taiwan",
+      },
     },
     {
       id: uuidv4(),
@@ -9698,14 +9698,14 @@ export const data = {
         website: "",
         linkedin: "https://www.linkedin.com/in/pedro-medina-65999b13a",
         github:
-          "https://www.linkedin.com/in/abdurhman-magdy-muhammad-a588a2103/"
+          "https://www.linkedin.com/in/abdurhman-magdy-muhammad-a588a2103/",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Cairo",
         state: "Cairo",
-        country: "Egypt"
-      }
+        country: "Egypt",
+      },
     },
     {
       id: uuidv4(),
@@ -9715,14 +9715,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/tomasz-biernat-682307163/",
-        github: "https://github.com/tomaszbiernat"
+        github: "https://github.com/tomaszbiernat",
       },
       jobTitle: "Front-end Developer",
       location: {
         city: "Kraków",
         state: "Małopolska",
-        country: "Poland"
-      }
+        country: "Poland",
+      },
     },
     {
       id: uuidv4(),
@@ -9731,14 +9731,14 @@ export const data = {
       links: {
         website: "https://www.chriscarr.dev",
         linkedin: "https://www.linkedin.com/in/chris-carr-93288820",
-        github: "https://github.com/christocarr"
+        github: "https://github.com/christocarr",
       },
       jobTitle: "Frontend Web Developer",
       location: {
         city: "Wembley",
         state: "London",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -9747,14 +9747,14 @@ export const data = {
       links: {
         website: "https://raskin.me",
         linkedin: "https://www.linkedin.com/in/perryraskin",
-        github: "https://github.com/perryraskin"
+        github: "https://github.com/perryraskin",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Forest Hills",
         state: "New York",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -9763,14 +9763,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ahmedsalah4/",
-        github: "https://github.com/ahmed-abdelhamid"
+        github: "https://github.com/ahmed-abdelhamid",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Riyadh",
         state: "",
-        country: "Saudi Arabia"
-      }
+        country: "Saudi Arabia",
+      },
     },
     {
       id: uuidv4(),
@@ -9779,14 +9779,14 @@ export const data = {
       links: {
         website: "https://portfoliopro.co.uk/",
         linkedin: "https://www.linkedin.com/in/radu-rusu-88449991/",
-        github: "https://github.com/RaduRS"
+        github: "https://github.com/RaduRS",
       },
       jobTitle: "Full Stack & UX/UI Developer",
       location: {
         city: "Nottingham",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -9795,14 +9795,14 @@ export const data = {
       links: {
         website: "https://akashdutta93.github.io/akashdutta.github.io/",
         linkedin: "https://www.linkedin.com/in/akash-dutta-0a4993173/",
-        github: "https://github.com/akashdutta93"
+        github: "https://github.com/akashdutta93",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Kolkata",
         state: "West Bengal",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -9811,14 +9811,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/luimagm/",
-        github: "https://github.com/yaminolight"
+        github: "https://github.com/yaminolight",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Santo Domingo",
         state: "Santo Domingo",
-        country: "Dominican Republic"
-      }
+        country: "Dominican Republic",
+      },
     },
     {
       id: uuidv4(),
@@ -9828,14 +9828,14 @@ export const data = {
       links: {
         website: "http:/florinmavroian.tk",
         linkedin: "https://www.linkedin.com/in/florin-mavroian/",
-        github: "https://github.com/mavroian"
+        github: "https://github.com/mavroian",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Tokyo",
         state: "Tokyo",
-        country: "Japan"
-      }
+        country: "Japan",
+      },
     },
     {
       id: uuidv4(),
@@ -9844,14 +9844,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://in.linkedin.com/in/devcula",
-        github: "https://github.com/devcula"
+        github: "https://github.com/devcula",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Pune",
         state: "Maharashtra",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -9861,14 +9861,14 @@ export const data = {
       links: {
         website: "http://smartbetk.herokuapp.com/main/",
         linkedin: "https://www.linkedin.com/in/osherso/",
-        github: "https://github.com/OsherSo"
+        github: "https://github.com/OsherSo",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Tel Aviv",
         state: "Tel Aviv",
-        country: "Israel"
-      }
+        country: "Israel",
+      },
     },
     {
       id: uuidv4(),
@@ -9877,14 +9877,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/kutlu-devrim-ata-86a91518/",
-        github: "https://github.com/leto666"
+        github: "https://github.com/leto666",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Belgrade",
         state: "",
-        country: "Serbia"
-      }
+        country: "Serbia",
+      },
     },
     {
       id: uuidv4(),
@@ -9893,14 +9893,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/erick-ivan-yataco/",
-        github: "https://github.com/ErickYataco"
+        github: "https://github.com/ErickYataco",
       },
       jobTitle: "K8S specialist, DevOps and Cloud Engineer",
       location: {
         city: "Lima",
         state: "",
-        country: "Peru"
-      }
+        country: "Peru",
+      },
     },
     {
       id: uuidv4(),
@@ -9909,14 +9909,14 @@ export const data = {
       links: {
         website: "https://yonis9.github.io/portfolio/",
         linkedin: "https://www.linkedin.com/in/yonisisso/",
-        github: "https://github.com/yonis9"
+        github: "https://github.com/yonis9",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Tel-Aviv",
         state: "",
-        country: "Israel"
-      }
+        country: "Israel",
+      },
     },
     {
       id: uuidv4(),
@@ -9925,14 +9925,14 @@ export const data = {
       links: {
         website: "http://www.shabnamessa.com",
         linkedin: "https://www.linkedin.com/in/shabnamessa/",
-        github: "https://github.com/shabname"
+        github: "https://github.com/shabname",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Greater Manchester",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -9941,14 +9941,14 @@ export const data = {
       links: {
         website: "https://raja1196.github.io",
         linkedin: "https://www.linkedin.com/in/rajaram-sivaramakrishnan/",
-        github: "https://github.com/raja1196"
+        github: "https://github.com/raja1196",
       },
       jobTitle: "Machine Learning Engineer",
       location: {
         city: "Raleigh",
         state: "North Carolina",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -9957,14 +9957,14 @@ export const data = {
       links: {
         website: "https://github.com/settings/profile",
         linkedin: "https://www.linkedin.com/in/gal-kol",
-        github: "https://github.com/999galk"
+        github: "https://github.com/999galk",
       },
       jobTitle: "Junior Web Developer",
       location: {
         city: "Tel Aviv",
         state: "Israel",
-        country: "Israel"
-      }
+        country: "Israel",
+      },
     },
     {
       id: uuidv4(),
@@ -9973,14 +9973,14 @@ export const data = {
       links: {
         website: "https://gnarus-tech.github.io/",
         linkedin: "https://www.linkedin.com/in/ghislain-deffo-312922163/",
-        github: "https://github.com/GnarusGBaby"
+        github: "https://github.com/GnarusGBaby",
       },
       jobTitle: "Full Stack Software Developer",
       location: {
         city: "Silver Spring",
         state: "Maryland",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -9990,14 +9990,14 @@ export const data = {
       links: {
         website: "http://ixarlos.com/",
         linkedin: "https://www.linkedin.com/in/ixarlos/",
-        github: "https://github.com/i-xarlos"
+        github: "https://github.com/i-xarlos",
       },
       jobTitle: "Web Developer Team Leader",
       location: {
         city: "Lima",
         state: "",
-        country: "Perú"
-      }
+        country: "Perú",
+      },
     },
     {
       id: uuidv4(),
@@ -10006,14 +10006,14 @@ export const data = {
       links: {
         website: "https://www.RomaneGreen.com",
         linkedin: "https://www.linkedin.com/in/romane-green-395539163/",
-        github: "https://github.com/RomaneGreen"
+        github: "https://github.com/RomaneGreen",
       },
       jobTitle: "Full Stack Software Developer",
       location: {
         city: "NYC",
         state: "New York",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -10023,14 +10023,14 @@ export const data = {
       links: {
         website: "http://www.crissesoto.com",
         linkedin: "https://www.linkedin.com/in/crisse-soto-380468b8/",
-        github: "https://github.com/crissesoto"
+        github: "https://github.com/crissesoto",
       },
       jobTitle: "Front-end Developer",
       location: {
         city: "Bruges",
         state: "West Flanders",
-        country: "Belgium"
-      }
+        country: "Belgium",
+      },
     },
     {
       id: uuidv4(),
@@ -10039,14 +10039,14 @@ export const data = {
       links: {
         website: "http://ayushgupta.tech/",
         linkedin: "https://www.linkedin.com/in/guptaji6/",
-        github: "https://github.com/gupta-ji6"
+        github: "https://github.com/gupta-ji6",
       },
       jobTitle: "Front-end Developer",
       location: {
         city: "Bangalore",
         state: "Karnataka",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -10055,14 +10055,14 @@ export const data = {
       links: {
         website: "https://github.com/f228476653",
         linkedin: "https://www.linkedin.com/in/anita-chang-514549160/",
-        github: "https://github.com/f228476653"
+        github: "https://github.com/f228476653",
       },
       jobTitle: "FullStack Developer",
       location: {
         city: "Burnaby",
         state: "British Columbia",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -10071,14 +10071,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/steven-kudirka-2a38a926/",
-        github: "https://github.com/skudirka/"
+        github: "https://github.com/skudirka/",
       },
       jobTitle: "Senior Software Engineer",
       location: {
         city: "Madisonville",
         state: "LA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -10087,14 +10087,14 @@ export const data = {
       links: {
         website: "www.gethric.com",
         linkedin: "https://www.linkedin.com/in/ric-thomas-221b10176/",
-        github: "https://github.com/Gethric"
+        github: "https://github.com/Gethric",
       },
       jobTitle: "Front-end Developer",
       location: {
         city: "Leon",
         state: "Guanajuato",
-        country: "Mexico"
-      }
+        country: "Mexico",
+      },
     },
     {
       id: uuidv4(),
@@ -10103,14 +10103,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/arafhossain",
-        github: "https://github.com/arafhossain"
+        github: "https://github.com/arafhossain",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "New York",
         state: "New York",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -10119,14 +10119,14 @@ export const data = {
       links: {
         website: "http://portfolio.projectslit.fr/",
         linkedin: "https://www.linkedin.com/in/sa%C3%AFd-litim-105115ba/",
-        github: "https://github.com/salitim"
+        github: "https://github.com/salitim",
       },
       jobTitle: "JS Developer",
       location: {
         city: "Lyon",
         state: "",
-        country: "France"
-      }
+        country: "France",
+      },
     },
     {
       id: uuidv4(),
@@ -10136,14 +10136,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/elizaveta-timofeeva-497158152/",
-        github: "https://github.com/Lijamaija"
+        github: "https://github.com/Lijamaija",
       },
       jobTitle: "React Developer, Frone-end developer",
       location: {
         city: "Prague",
         state: "",
-        country: "Czech Republic"
-      }
+        country: "Czech Republic",
+      },
     },
     {
       id: uuidv4(),
@@ -10152,14 +10152,14 @@ export const data = {
       links: {
         website: "https://canberker.com/",
         linkedin: "https://www.linkedin.com/in/can-berker/",
-        github: "https://github.com/CanBerker"
+        github: "https://github.com/CanBerker",
       },
       jobTitle: "Full-Stack Software Engineer",
       location: {
         city: "Zurich",
         state: "",
-        country: "Switzerland"
-      }
+        country: "Switzerland",
+      },
     },
     {
       id: uuidv4(),
@@ -10168,14 +10168,14 @@ export const data = {
       links: {
         website: "https://www.developeratease.com/",
         linkedin: "https://www.linkedin.com/in/akshay-sharma-7962ab13a/",
-        github: "https://github.com/Akshay2996"
+        github: "https://github.com/Akshay2996",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Bengaluru",
         state: "Karnataka",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -10184,14 +10184,14 @@ export const data = {
       links: {
         website: "http://oliver-ke.github.io/",
         linkedin: "https://www.linkedin.com/in/oliver-ke",
-        github: "http://github.com/oliver-ke"
+        github: "http://github.com/oliver-ke",
       },
       jobTitle: "Full-Stack Web Developer (NodeJs | React)",
       location: {
         city: "Port Harcourt",
         state: "Rivers State",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -10201,14 +10201,14 @@ export const data = {
         website: "",
         linkedin:
           "https://www.linkedin.com/in/srinivasa-rao-bhandari-aa36a1171/",
-        github: "https://github.com/SrinivasaRaoBhandari"
+        github: "https://github.com/SrinivasaRaoBhandari",
       },
       jobTitle: "Full-stack Web Developer",
       location: {
         city: "Zabrze",
         state: "Silesia",
-        country: "Poland"
-      }
+        country: "Poland",
+      },
     },
     {
       id: uuidv4(),
@@ -10219,14 +10219,14 @@ export const data = {
         website: "",
         linkedin:
           "https://www.linkedin.com/in/jonathas-duarte-de-carvalho-e-silva-a728aa70/",
-        github: "https://github.com/jonathasdcsilva/"
+        github: "https://github.com/jonathasdcsilva/",
       },
       jobTitle: "Backend Developer",
       location: {
         city: "Brasilia",
         state: "Distrito Federal",
-        country: "Brazil"
-      }
+        country: "Brazil",
+      },
     },
     {
       id: uuidv4(),
@@ -10235,14 +10235,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/adamhartman5/",
-        github: "https://github.com/adamhartman5/"
+        github: "https://github.com/adamhartman5/",
       },
       jobTitle: "Junior Web Developer | Junior Developer",
       location: {
         city: "Lakeland",
         state: "Florida",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -10251,14 +10251,14 @@ export const data = {
       links: {
         website: "https://zealous-varahamihira-af923b.netlify.com/",
         linkedin: "",
-        github: "https://github.com/felipegcruz"
+        github: "https://github.com/felipegcruz",
       },
       jobTitle: "Junior Web Developer | Junior Developer",
       location: {
         city: "Haverfordwest",
         state: "Pembrokeshire",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -10267,14 +10267,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/serdar-mustafa/",
-        github: "https://github.com/SerdarMustafa1"
+        github: "https://github.com/SerdarMustafa1",
       },
       jobTitle: "Software Developer",
       location: {
         city: "London",
         state: "London",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -10283,14 +10283,14 @@ export const data = {
       links: {
         website: "https://www.greatgraphicdesign.com/",
         linkedin: "https://www.linkedin.com/in/alek-vila/",
-        github: "https://github.com/greatgraphicdesign/"
+        github: "https://github.com/greatgraphicdesign/",
       },
       jobTitle: "Front-End Developer, Art Director, Graphic Designer, UI/UX",
       location: {
         city: "Bellingham",
         state: "Washington",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -10299,14 +10299,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/hai-der/",
-        github: "https://github.com/hai-der"
+        github: "https://github.com/hai-der",
       },
       jobTitle: "Full-Stack Software Engineer",
       location: {
         city: "Seattle",
         state: "Washington",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -10315,14 +10315,14 @@ export const data = {
       links: {
         website: " ",
         linkedin: "https://www.linkedin.com/in/sonalisawlani/",
-        github: "https://github.com/sonali-20"
+        github: "https://github.com/sonali-20",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Coimbatore",
         state: "Tamil Nadu",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -10331,14 +10331,14 @@ export const data = {
       links: {
         website: "https://photovinogradova.com/resume",
         linkedin: "https://www.linkedin.com/in/tanjavinogradova/",
-        github: "https://github.com/tavinogradova92"
+        github: "https://github.com/tavinogradova92",
       },
       jobTitle: "Frontend Developer | UX Designer",
       location: {
         city: "Copenhagen",
         state: "Caputal Region",
-        country: "Denmark"
-      }
+        country: "Denmark",
+      },
     },
     {
       id: uuidv4(),
@@ -10347,14 +10347,14 @@ export const data = {
       links: {
         website: "https://www.utechpia.com/",
         linkedin: "https://www.linkedin.com/in/utechpia/",
-        github: "https://github.com/utechpia"
+        github: "https://github.com/utechpia",
       },
       jobTitle: "Coder, Developer Advocate, YouTuber, Photographer",
       location: {
         city: "San Francisco",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -10363,14 +10363,14 @@ export const data = {
         "https://avatars0.githubusercontent.com/u/9495532?s=400&u=4ac086da09c90364634b00020680e81d2593af0a&v=4",
       links: {
         linkedin: "https://www.linkedin.com/in/leonidkuznetsov/",
-        github: "https://github.com/MrChe"
+        github: "https://github.com/MrChe",
       },
       jobTitle: "Senior Front End Developer",
       location: {
         city: "Kyiv",
         state: "Kyiv",
-        country: "Ukraine"
-      }
+        country: "Ukraine",
+      },
     },
     {
       id: uuidv4(),
@@ -10379,14 +10379,14 @@ export const data = {
       links: {
         website: "https://www.andgcv.com/",
         linkedin: "https://www.linkedin.com/in/andgcv/",
-        github: "https://github.com/andgcv"
+        github: "https://github.com/andgcv",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Lisbon",
         state: "Lisbon",
-        country: "Portugal"
-      }
+        country: "Portugal",
+      },
     },
     {
       id: uuidv4(),
@@ -10395,14 +10395,14 @@ export const data = {
       links: {
         website: "https://michellerahman21.github.io/portfolio.github.io/",
         linkedin: "https://www.linkedin.com/in/michelle-rahman/",
-        github: "https://github.com/MichelleRahman21"
+        github: "https://github.com/MichelleRahman21",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Boston",
         state: "Massachusetts",
-        country: "United States Of America"
-      }
+        country: "United States Of America",
+      },
     },
     {
       id: uuidv4(),
@@ -10411,14 +10411,14 @@ export const data = {
         "https://media.licdn.com/dms/image/C4D03AQEr5VmiOWVTSg/profile-displayphoto-shrink_200_200/0?e=1583971200&v=beta&t=vO61QsF0sEwHlXyeu2EvTXNzrQbMPPdJ5UBpyFVkIPg",
       links: {
         linkedin: "https://www.linkedin.com/in/tmack123/",
-        github: "https://github.com/tonmanayo"
+        github: "https://github.com/tonmanayo",
       },
       jobTitle: "Full Stack Software Developer",
       location: {
         city: "Bryanston",
         state: "Gauteng",
-        country: "South Africa"
-      }
+        country: "South Africa",
+      },
     },
     {
       id: uuidv4(),
@@ -10427,14 +10427,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/stanchoinym/",
-        github: "https://github.com/StanimalTheMan"
+        github: "https://github.com/StanimalTheMan",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Flushing",
         state: "New York",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -10444,14 +10444,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/femosocratis/",
-        github: "https://github.com/phemmylintry"
+        github: "https://github.com/phemmylintry",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Lagos",
         state: "",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -10460,15 +10460,15 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/funky-poseidon/",
-        github: "https://github.com/arnabuchiha"
+        github: "https://github.com/arnabuchiha",
       },
       jobTitle:
         "Full Stack Developer|Deep Learning Enthusiast|Android App Developer",
       location: {
         city: "Mumbai",
         state: "Maharashtra",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -10477,14 +10477,14 @@ export const data = {
       links: {
         website: "http://www.kavs.me",
         linkedin: "https://www.linkedin.com/in/kavya-v-sagar/",
-        github: "https://github.com/kavyavsagar"
+        github: "https://github.com/kavyavsagar",
       },
       jobTitle: "Full Stack Developer|Software Engineer",
       location: {
         city: "DSO",
         state: "Dubai",
-        country: "UAE"
-      }
+        country: "UAE",
+      },
     },
     {
       id: uuidv4(),
@@ -10493,14 +10493,14 @@ export const data = {
       links: {
         website: "https://danny-gleason.netlify.com/",
         linkedin: "https://www.linkedin.com/in/dcglesaon/",
-        github: "https://github.com/dcglesaon"
+        github: "https://github.com/dcglesaon",
       },
       jobTitle: "Full Stack Developer | Software Engineer",
       location: {
         city: "Boston",
         state: "MA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -10509,14 +10509,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/okemmanuel/",
-        github: "https://github.com/theastutian"
+        github: "https://github.com/theastutian",
       },
       jobTitle: "Full Stack Developer | Data Scientist",
       location: {
         city: "Ile-Ife",
         state: "Osun",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -10525,14 +10525,14 @@ export const data = {
       links: {
         website: "https://banhawch.netlify.com/",
         linkedin: "https://www.linkedin.com/in/banhaw-chun-331977198/",
-        github: "https://github.com/banhawchun"
+        github: "https://github.com/banhawchun",
       },
       jobTitle: "Full Stack Developer | Android Developer",
       location: {
         city: "Phnom Penh",
         state: "",
-        country: "Cambodia"
-      }
+        country: "Cambodia",
+      },
     },
     {
       id: uuidv4(),
@@ -10541,14 +10541,14 @@ export const data = {
       links: {
         website: "danielkpodo.github.io/portfolio",
         linkedin: "https://www.linkedin.com/in/daniel-narh-kpodo",
-        github: "https://github.com/danielkpodo"
+        github: "https://github.com/danielkpodo",
       },
       jobTitle: "Full Stack Developer | MERN Developer",
       location: {
         city: "Accra",
         state: "Greater-Accra",
-        country: "Ghana"
-      }
+        country: "Ghana",
+      },
     },
     {
       id: uuidv4(),
@@ -10557,14 +10557,14 @@ export const data = {
       links: {
         website: "https://ashwani65.blogspot.com/",
         linkedin: "https://www.linkedin.com/in/ashwani-singh-5b1868165/",
-        github: "https://github.com/ashwani65"
+        github: "https://github.com/ashwani65",
       },
       jobTitle: "Full Stack Developer | MERN Developer",
       location: {
         city: "Kanpur",
         state: "Uttar Pradesh",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -10573,14 +10573,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/amritha-marimuthu-3943b517b/",
-        github: "https://github.com/AmrithaM/"
+        github: "https://github.com/AmrithaM/",
       },
       jobTitle: "Full Stack Developer | Web Developer",
       location: {
         city: "Toronto",
         state: "Ontario",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -10589,14 +10589,14 @@ export const data = {
       links: {
         website: "https://shoheihagiwara.github.io/resume/",
         linkedin: "https://www.linkedin.com/in/shoheihagiwara",
-        github: "https://github.com/shoheihagiwara"
+        github: "https://github.com/shoheihagiwara",
       },
       jobTitle: "Web Application Developer",
       location: {
         city: "Tokyo",
         state: "Tokyo",
-        country: "Japan"
-      }
+        country: "Japan",
+      },
     },
     {
       id: uuidv4(),
@@ -10605,14 +10605,14 @@ export const data = {
       links: {
         website: "https://viktorborsodi.github.io/",
         linkedin: "https://www.linkedin.com/in/viktor-borsodi-73690062/",
-        github: "https://github.com/ViktorBorsodi"
+        github: "https://github.com/ViktorBorsodi",
       },
       jobTitle: "Full-stack Web Developer",
       location: {
         city: "Budapest",
         state: "",
-        country: "Hungary"
-      }
+        country: "Hungary",
+      },
     },
     {
       id: uuidv4(),
@@ -10621,14 +10621,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/alex-gainza-cintero-76360417a/",
-        github: "https://github.com/alesgainza"
+        github: "https://github.com/alesgainza",
       },
       jobTitle: "Full stack Developer",
       location: {
         city: "Zumaia",
         state: "Gipuzkoa",
-        country: "Spain"
-      }
+        country: "Spain",
+      },
     },
     {
       id: uuidv4(),
@@ -10638,14 +10638,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/glaubercamargo92/",
-        github: "https://github.com/mhalgan"
+        github: "https://github.com/mhalgan",
       },
       jobTitle: "Full Stack Developer (MERN)",
       location: {
         city: "Ipatinga",
         state: "Minas Gerais",
-        country: "Brazil"
-      }
+        country: "Brazil",
+      },
     },
     {
       id: uuidv4(),
@@ -10655,14 +10655,14 @@ export const data = {
       links: {
         website: "https://www.darshin.me/",
         linkedin: "https://www.linkedin.com/in/darshinvanparijs/",
-        github: "https://github.com/DDVVPP/"
+        github: "https://github.com/DDVVPP/",
       },
       jobTitle: "Full Stack Developer | Software Engineer",
       location: {
         city: "New York",
         state: "New York",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -10671,14 +10671,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/eunseok-cayden-choi-2aa79a137/",
-        github: "https://github.com/EJ-C?tab=repositories"
+        github: "https://github.com/EJ-C?tab=repositories",
       },
       jobTitle: "Full-stack Web Developer",
       location: {
         city: "Toronto",
         state: "ON",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -10688,14 +10688,14 @@ export const data = {
       links: {
         website: "https://www.ortizliz.com",
         linkedin: "https://www.linkedin.com/in/elizabeth-f-ortiz/",
-        github: "https://github.com/lizbeth58"
+        github: "https://github.com/lizbeth58",
       },
       jobTitle: "Front-end developer",
       location: {
         city: "San Francisco",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -10704,13 +10704,13 @@ export const data = {
       links: {
         website: "https://alejandroiglesias.github.io/cv/",
         linkedin: "https://www.linkedin.com/in/alegarciaiglesias/",
-        github: "https://github.com/alejandroiglesias"
+        github: "https://github.com/alejandroiglesias",
       },
       jobTitle: "Senior Frontend Developer",
       location: {
         state: "Buenos Aires",
-        country: "Argentina"
-      }
+        country: "Argentina",
+      },
     },
     {
       id: uuidv4(),
@@ -10719,14 +10719,14 @@ export const data = {
       links: {
         website: "https://corycatherall.com",
         linkedin: "https://www.linkedin.com/in/cory-catherall-9a5bb6116/",
-        github: "https://github.com/Tera15"
+        github: "https://github.com/Tera15",
       },
       jobTitle: "Developer",
       location: {
         city: "Toronto",
         state: "Ontario",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -10735,14 +10735,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/nur-hikmah-aa9873192/",
-        github: "https://github.com/nrhikmah"
+        github: "https://github.com/nrhikmah",
       },
       jobTitle: "Full Stack Developer | Informatics Collage Student",
       location: {
         city: "Maros",
         state: "South of Sulawesi",
-        country: "Indonesia"
-      }
+        country: "Indonesia",
+      },
     },
     {
       id: uuidv4(),
@@ -10752,14 +10752,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/vosjeffrey/",
-        github: "https://github.com/Jeffvos/"
+        github: "https://github.com/Jeffvos/",
       },
       jobTitle: "Software Developer",
       location: {
         city: "",
         state: "",
-        country: ""
-      }
+        country: "",
+      },
     },
     {
       id: uuidv4(),
@@ -10768,14 +10768,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/manjeetkumar7/",
-        github: "https://github.com/Manjeete"
+        github: "https://github.com/Manjeete",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Kushinagar",
         state: "Uttar Pradesh",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -10784,14 +10784,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/eden-varsulker-88676411a/",
-        github: "https://github.com/edenv30"
+        github: "https://github.com/edenv30",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "",
         state: "",
-        country: "Israel"
-      }
+        country: "Israel",
+      },
     },
     {
       id: uuidv4(),
@@ -10800,14 +10800,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/Harsh-Khurana"
+        github: "https://github.com/Harsh-Khurana",
       },
       jobTitle: "Web Developer",
       location: {
         city: "New Delhi",
         state: "Delhi",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -10816,14 +10816,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/gvlasceanu/",
-        github: "https://github.com/maugrim777"
+        github: "https://github.com/maugrim777",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "Bucharest",
         state: "",
-        country: "Romania"
-      }
+        country: "Romania",
+      },
     },
     {
       id: uuidv4(),
@@ -10832,14 +10832,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/luizfelipeneves0/",
-        github: "https://github.com/luizfelipeneves"
+        github: "https://github.com/luizfelipeneves",
       },
       jobTitle: "Full-Stack Developer (MERN)",
       location: {
         city: "Lorena",
         state: "São Paulo",
-        country: "Brazil"
-      }
+        country: "Brazil",
+      },
     },
     {
       id: uuidv4(),
@@ -10848,14 +10848,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/sirian-wang-11720313/",
-        github: "https://github.com/sirianw"
+        github: "https://github.com/sirianw",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Los Angeles",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -10864,14 +10864,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ntsako-rodney-mculu-a486bb58/",
-        github: "https://github.com/ntsakoMculu"
+        github: "https://github.com/ntsakoMculu",
       },
       jobTitle: "Software Developer, Data science/Analyst",
       location: {
         city: "Johannesburg",
         state: "Gauteng",
-        country: "South Africa"
-      }
+        country: "South Africa",
+      },
     },
     {
       id: uuidv4(),
@@ -10880,14 +10880,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/etotheipipower/",
-        github: "https://github.com/edward1127"
+        github: "https://github.com/edward1127",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Los Angeles",
         state: "CA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -10896,14 +10896,14 @@ export const data = {
       links: {
         website: "https://www.charlesloges.com/",
         linkedin: "https://www.linkedin.com/in/charles-loges-iv-9a534956/",
-        github: "https://github.com/cloges4"
+        github: "https://github.com/cloges4",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Raleigh",
         state: "North Carolina",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -10912,14 +10912,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/julialinmc/",
-        github: "https://github.com/julialinju5"
+        github: "https://github.com/julialinju5",
       },
       jobTitle: "Junior Big Data Engineer",
       location: {
         city: "Mountain View",
         state: "California",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -10928,14 +10928,14 @@ export const data = {
       links: {
         website: "http://akashoffl.me/",
         linkedin: "https://www.linkedin.com/in/akashjoffl/",
-        github: "https://github.com/akashjoffl"
+        github: "https://github.com/akashjoffl",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Colombo",
         state: "Western Province",
-        country: "Sri-Lanka"
-      }
+        country: "Sri-Lanka",
+      },
     },
     {
       id: uuidv4(),
@@ -10944,14 +10944,14 @@ export const data = {
       links: {
         website: "https://www.shotatogawa.site/",
         linkedin: "https://www.linkedin.com/in/shota-togawa-ba8235185/",
-        github: "https://github.com/ShotaTogawa"
+        github: "https://github.com/ShotaTogawa",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Vancouver",
         state: "BC",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -10960,14 +10960,14 @@ export const data = {
       links: {
         website: "https://nedelkovskialeks.com/",
         linkedin: "https://www.linkedin.com/in/aleksandarnedelkovski/",
-        github: "https://github.com/Aleksandandar-Nedelkovski"
+        github: "https://github.com/Aleksandandar-Nedelkovski",
       },
       jobTitle: "Full-stack Web Developer",
       location: {
         city: "Chicago",
         state: "IL",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -10976,14 +10976,14 @@ export const data = {
       links: {
         website: "https://ramonak.io/",
         linkedin: "https://www.linkedin.com/in/katsiaryna-lupachova/",
-        github: "https://github.com/KaterinaLupacheva"
+        github: "https://github.com/KaterinaLupacheva",
       },
       jobTitle: "Full-stack Web Developer",
       location: {
         city: "Minsk",
         state: "",
-        country: "Belarus"
-      }
+        country: "Belarus",
+      },
     },
     {
       id: uuidv4(),
@@ -10992,14 +10992,14 @@ export const data = {
       links: {
         website: "https://ngcodes.com/",
         linkedin: "https://www.linkedin.com/in/gupneha/",
-        github: "https://github.com/nehagupta2507"
+        github: "https://github.com/nehagupta2507",
       },
       jobTitle: "Full-stack Developer",
       location: {
         city: "Toronto",
         state: "ON",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -11008,14 +11008,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/rodsnts/",
-        github: "https://github.com/rodsnts"
+        github: "https://github.com/rodsnts",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "London",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -11024,14 +11024,14 @@ export const data = {
       links: {
         website: "https://www.popmaria.com/home",
         linkedin: "https://www.linkedin.com/in/maria-teodora-pop-64825b156/",
-        github: "https://github.com/LadyShinka"
+        github: "https://github.com/LadyShinka",
       },
       jobTitle: "Full-Stack Web Developer",
       location: {
         city: "Reading",
         state: "Berkshire",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -11041,14 +11041,14 @@ export const data = {
       links: {
         website: "https://batmangoo.github.io/Javascript-Portfolio/",
         linkedin: "https://www.linkedin.com/in/prabhjot-singh-59750199/",
-        github: "https://github.com/BATMANGOO"
+        github: "https://github.com/BATMANGOO",
       },
       jobTitle: "Full-Stack Web Developer",
       location: {
         city: "San Francisco",
         state: "CA",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -11058,14 +11058,14 @@ export const data = {
       links: {
         website: "https://www.mikeyneedsajob.com/",
         linkedin: "https://www.linkedin.com/in/michael-huber-9b567a173/",
-        github: "https://github.com/mshuber1981"
+        github: "https://github.com/mshuber1981",
       },
       jobTitle: "Front-end Web Developer",
       location: {
         city: "Des Moines",
         state: "IA",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -11075,14 +11075,14 @@ export const data = {
       links: {
         website: "https://chris-thedeveloper.com/",
         linkedin: "https://www.linkedin.com/in/christian-stevens-34367110b/",
-        github: "https://github.com/stev1905"
+        github: "https://github.com/stev1905",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Brooklyn",
         state: "NY",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -11092,14 +11092,14 @@ export const data = {
       links: {
         website: "https://pratik-1999.github.io/",
         linkedin: "https://www.linkedin.com/in/pratik-pandab-193b43143/",
-        github: "https://github.com/pratik-1999"
+        github: "https://github.com/pratik-1999",
       },
       jobTitle: "AI Researcher",
       location: {
         city: "Vidisha",
         state: "M.P.",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -11108,14 +11108,14 @@ export const data = {
       links: {
         website: "https://www.milesau.com",
         linkedin: "https://www.linkedin.com/in/milesau/",
-        github: "https://github.com/miles-au"
+        github: "https://github.com/miles-au",
       },
       jobTitle: "Mobile and Web Developer",
       location: {
         city: "Toronto",
         state: "Ontario",
-        country: "Canada 🇨🇦 (Willing to relocate)"
-      }
+        country: "Canada 🇨🇦 (Willing to relocate)",
+      },
     },
     {
       id: uuidv4(),
@@ -11124,14 +11124,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/bsrisompong/",
-        github: "https://github.com/bsrisompong"
+        github: "https://github.com/bsrisompong",
       },
       jobTitle: "Full Stack Javascript Developer",
       location: {
         city: "Bangkok",
         state: "",
-        country: "Thailand🇹🇭"
-      }
+        country: "Thailand🇹🇭",
+      },
     },
     {
       id: uuidv4(),
@@ -11140,14 +11140,14 @@ export const data = {
       links: {
         website: "https://www.upwork.com/o/profiles/users/~01b278e346910606a1/",
         linkedin: "https://www.linkedin.com/in/sotous/",
-        github: "https://github.com/sotous"
+        github: "https://github.com/sotous",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Barranquilla",
         state: "Atlantico",
-        country: "Colombia"
-      }
+        country: "Colombia",
+      },
     },
     {
       id: uuidv4(),
@@ -11156,14 +11156,14 @@ export const data = {
       links: {
         website: "https://www.rayreside.com",
         linkedin: "https://www.linkedin.com/in/rayreside/",
-        github: "https://github.com/rayreside"
+        github: "https://github.com/rayreside",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Jersey City",
         state: "New Jersey",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -11172,14 +11172,14 @@ export const data = {
       links: {
         website: "https://thejbomb.github.io/",
         linkedin: "https://www.linkedin.com/in/jun-yu-lu-34b14aa6/",
-        github: "https://github.com/thejbomb"
+        github: "https://github.com/thejbomb",
       },
       jobTitle: "Software Engineer (Java, Javascript C#)",
       location: {
         city: "Warwick",
         state: "Rhode Island",
-        country: "USA (Willing to relocate)"
-      }
+        country: "USA (Willing to relocate)",
+      },
     },
     {
       id: uuidv4(),
@@ -11188,14 +11188,14 @@ export const data = {
       links: {
         website: "https://rojasleon.tech",
         linkedin: "https://www.linkedin.com/in/rojasleon",
-        github: "https://github.com/rojasleon"
+        github: "https://github.com/rojasleon",
       },
       jobTitle: "Software Developer",
       location: {
         city: "",
         state: "Guanajuato",
-        country: "Mexico"
-      }
+        country: "Mexico",
+      },
     },
     {
       id: uuidv4(),
@@ -11204,14 +11204,14 @@ export const data = {
       links: {
         website: "https://vishwanath-asundi.netlify.com/",
         linkedin: "https://www.linkedin.com/in/vishwanath-s-065b2b115/",
-        github: "https://github.com/VishwanathAsundi?tab=repositories"
+        github: "https://github.com/VishwanathAsundi?tab=repositories",
       },
       jobTitle: "Software Developer / Front end Developer",
       location: {
         city: "Hyderabad",
         state: "Telangana",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -11221,14 +11221,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://qa.linkedin.com/in/mobeendev",
-        github: "https://github.com/mobeendev?tab=repositories"
+        github: "https://github.com/mobeendev?tab=repositories",
       },
       jobTitle: "PHP◆JS◆Frameworks◆APIs◆Microservices◆Cloud◆SQL",
       location: {
         city: "Doha",
         state: "",
-        country: "Qatar"
-      }
+        country: "Qatar",
+      },
     },
     {
       id: uuidv4(),
@@ -11238,14 +11238,14 @@ export const data = {
       links: {
         website: "https://jeryldev.github.io/",
         linkedin: "https://www.linkedin.com/in/jeryldev/",
-        github: "https://github.com/JerylDEv"
+        github: "https://github.com/JerylDEv",
       },
       jobTitle: "Technical Support Engineer, Oracle NetSuite",
       location: {
         city: "Taguig City",
         state: "National Capital Region",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -11255,14 +11255,14 @@ export const data = {
       links: {
         website: "https://stefanpop.dev",
         linkedin: "https://www.linkedin.com/in/stefan-pop-9a55a6191/",
-        github: "https://github.com/StefanSelfTaught"
+        github: "https://github.com/StefanSelfTaught",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Targu-Mures",
         state: "Mures",
-        country: "Romania"
-      }
+        country: "Romania",
+      },
     },
     {
       id: uuidv4(),
@@ -11271,14 +11271,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/ryrodrig"
+        github: "https://github.com/ryrodrig",
       },
       jobTitle: "Backend Developer",
       location: {
         city: "Sadashivgad",
         state: "Toronto",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -11287,14 +11287,14 @@ export const data = {
       links: {
         website: "www.sarahpaz.ca",
         linkedin: "https://www.linkedin.com/in/sarahpaz/",
-        github: "https://github.com/sarahpaz"
+        github: "https://github.com/sarahpaz",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Toronto",
         state: "ON",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -11303,14 +11303,14 @@ export const data = {
       links: {
         website: "http://yadavanurag.github.io",
         linkedin: "https://www.linkedin.com/in/yadavanurag90",
-        github: "https://github.com/yadavanurag"
+        github: "https://github.com/yadavanurag",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Gorakhpur",
         state: "Uttar Pradesh",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -11320,14 +11320,14 @@ export const data = {
       links: {
         website: "https://paytonjewell.github.io/newportfolio/",
         linkedin: "https://www.linkedin.com/in/payton-jewell/",
-        github: "https://github.com/paytonjewell"
+        github: "https://github.com/paytonjewell",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Appleton",
         state: "Wisconsin",
-        country: "United States of America"
-      }
+        country: "United States of America",
+      },
     },
     {
       id: uuidv4(),
@@ -11337,14 +11337,14 @@ export const data = {
       links: {
         website: "https://www.josiarodriguez.com/",
         linkedin: "https://www.linkedin.com/in/josiarodriguez/",
-        github: "https://github.com/josiarod"
+        github: "https://github.com/josiarod",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Metro Area",
         state: "Washington, D.C.",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -11354,14 +11354,14 @@ export const data = {
       links: {
         website: "http://joshuafolorunsho.com",
         linkedin: "https://www.linkedin.com/in/jfolorunsho",
-        github: "https://github.com/joshuafolorunsho"
+        github: "https://github.com/joshuafolorunsho",
       },
       jobTitle: "Frontend Developer",
       location: {
         city: "Uyo",
         state: "Awka Ibom",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -11370,14 +11370,14 @@ export const data = {
       links: {
         website: "https://devevangel.github.io/",
         linkedin: "https://www.linkedin.com/in/evangel-iheukwumere-511a7219b/",
-        github: "https://github.com/devevangel/"
+        github: "https://github.com/devevangel/",
       },
       jobTitle: "Game Developer / Software Developer / Android Developer",
       location: {
         city: "Amarillo",
         state: "Texas",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -11387,15 +11387,15 @@ export const data = {
       links: {
         website: "https://ssalmanportfolio.netlify.com/",
         linkedin: "https://www.linkedin.com/in/s-salman-509776160/",
-        github: "https://github.com/ssal-man"
+        github: "https://github.com/ssal-man",
       },
       jobTitle:
         "Full-Stack Developer , Python Developer , Javascript Developer , Android Developer",
       location: {
         city: "Bhilai",
         state: "Chhattisgarh",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -11405,14 +11405,14 @@ export const data = {
       links: {
         website: "https://mindtaxis.com/",
         linkedin: "https://www.linkedin.com/in/isam-elbousserghini-874614194/",
-        github: "https://github.com/isamelb"
+        github: "https://github.com/isamelb",
       },
       jobTitle: "web developer, javascript, html, css, python",
       location: {
         city: "London",
         state: "London",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -11421,14 +11421,14 @@ export const data = {
       links: {
         linkedin: "https://www.linkedin.com/in/himanshu-gohil-b21893155/",
         website: "https://tghimanshu.github.io/",
-        github: "https://github.com/tghimanshu"
+        github: "https://github.com/tghimanshu",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Mumbai",
         state: "Maharastra",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -11438,14 +11438,14 @@ export const data = {
       links: {
         linkedin: "http://linkedin.com/in/iuliia-logunova-982939190",
         website: "https://yulogun.github.io/my-portfolio/#/",
-        github: "https://github.com/YuLogun"
+        github: "https://github.com/YuLogun",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Samara",
         state: "",
-        country: "Russia"
-      }
+        country: "Russia",
+      },
     },
     {
       id: uuidv4(),
@@ -11455,14 +11455,14 @@ export const data = {
       links: {
         linkedin: "http://linkedin.com/in/codermehedi",
         website: "https://codermehedi.me",
-        github: "https://github.com/Coder-Mehedi"
+        github: "https://github.com/Coder-Mehedi",
       },
       jobTitle: "Full Stack Developer (MERN)",
       location: {
         city: "Dhaka",
         state: "",
-        country: "Bangladesh"
-      }
+        country: "Bangladesh",
+      },
     },
     {
       id: uuidv4(),
@@ -11472,14 +11472,14 @@ export const data = {
       links: {
         website: "https://about.me/paramjeetdhiman",
         linkedin: "https://www.linkedin.com/in/paramjeetdhiman",
-        github: "https://github.com/paramjeetdhiman"
+        github: "https://github.com/paramjeetdhiman",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Hyderabad",
         state: "Telangana",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -11488,14 +11488,14 @@ export const data = {
       links: {
         website: "https://narayanhari.in/",
         linkedin: "https://www.linkedin.com/in/narayanhari/",
-        github: "https://github.com/narayanhari"
+        github: "https://github.com/narayanhari",
       },
       jobTitle: "Computer Science Undergraduate",
       location: {
         city: "Manipal",
         state: "Manipal",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -11504,14 +11504,14 @@ export const data = {
       links: {
         website: "http://dimianni.biz/",
         linkedin: "https://www.linkedin.com/in/dimianni/",
-        github: "https://github.com/dimianni"
+        github: "https://github.com/dimianni",
       },
       jobTitle: "Front-End Web Developer",
       location: {
         city: "Aberdeen",
         state: "SD",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -11520,14 +11520,14 @@ export const data = {
       links: {
         website: "https://navendu-pottekkat.github.io/#/",
         linkedin: "https://www.linkedin.com/in/navendup/",
-        github: "https://github.com/navendu-pottekkat"
+        github: "https://github.com/navendu-pottekkat",
       },
       jobTitle: "Data Scientist",
       location: {
         city: "Kochi",
         state: "Kerala",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -11537,14 +11537,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/tomergut/",
-        github: "https://github.com/tomerguttman"
+        github: "https://github.com/tomerguttman",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Haifa",
         state: "",
-        country: "Israel"
-      }
+        country: "Israel",
+      },
     },
     {
       id: uuidv4(),
@@ -11554,14 +11554,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in//",
-        github: "https://github.com/divee789"
+        github: "https://github.com/divee789",
       },
       jobTitle: "Fullstack Engineer",
       location: {
         city: "Lagos",
         state: "Lagos",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -11571,14 +11571,14 @@ export const data = {
       links: {
         website: "https://rjcapara.com",
         linkedin: "https://www.linkedin.com/in/rolando-capara-536891144/",
-        github: "https://github.com/rjcapara"
+        github: "https://github.com/rjcapara",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Cainta",
         state: "Rizal",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -11588,14 +11588,14 @@ export const data = {
       links: {
         website: "https://rafaeldias.netlify.com/",
         linkedin: "https://www.linkedin.com/in/rafaeldias6/",
-        github: "https://github.com/Rafsdias"
+        github: "https://github.com/Rafsdias",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Viseu",
         state: "",
-        country: "Portugal"
-      }
+        country: "Portugal",
+      },
     },
     {
       id: uuidv4(),
@@ -11605,14 +11605,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/luis-vallejo-luvagu/",
-        github: "https://github.com/luiavag"
+        github: "https://github.com/luiavag",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Brighton",
         state: "ES",
-        country: "UK"
-      }
+        country: "UK",
+      },
     },
     {
       id: uuidv4(),
@@ -11622,14 +11622,14 @@ export const data = {
       links: {
         website: "https://www.vectormike.codes/",
         linkedin: "https://www.linkedin.com/in/victor-jonah-abb1a1120/",
-        github: "https://github.com/Vectormike"
+        github: "https://github.com/Vectormike",
       },
       jobTitle: "Full Stack JavaScript Developer",
       location: {
         city: "Uyo",
         state: "AkwaIbom",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -11639,14 +11639,14 @@ export const data = {
       links: {
         website: "https://www.pranav2012.github.io/",
         linkedin: "https://www.linkedin.com/in/pranav-agarwal-579363166/",
-        github: "https://github.com/pranav2012"
+        github: "https://github.com/pranav2012",
       },
       jobTitle: "Full-Stack Web-Developer, Python Developer",
       location: {
         city: "New Delhi",
         state: "Delhi",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -11655,14 +11655,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/eugenechanyc",
-        github: "https://github.com/eugenechanyc"
+        github: "https://github.com/eugenechanyc",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Singapore",
         state: "",
-        country: "Singapore"
-      }
+        country: "Singapore",
+      },
     },
     {
       id: uuidv4(),
@@ -11672,14 +11672,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mohamedshawkybayoumi",
-        github: "https://github.com/MohamedShawkyBayoumi/"
+        github: "https://github.com/MohamedShawkyBayoumi/",
       },
       jobTitle: "Front End Web Developer | React Developer",
       location: {
         city: "Cairo",
         state: "",
-        country: "Egypt"
-      }
+        country: "Egypt",
+      },
     },
     {
       id: uuidv4(),
@@ -11689,14 +11689,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/manojbaddi/",
-        github: "https://github.com/manojbaddi"
+        github: "https://github.com/manojbaddi",
       },
       jobTitle: "Full Stack C# developer",
       location: {
         city: "Bangalore",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -11705,14 +11705,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/santhosh-h-v-9a8937171/",
-        github: "https://github.com/santhosh21vk"
+        github: "https://github.com/santhosh21vk",
       },
       jobTitle: "Front End Web Developer (Javascript, React.js)",
       location: {
         city: "Bangalore",
         state: "Karnataka",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -11721,14 +11721,14 @@ export const data = {
       links: {
         website: "http://delovski.net",
         linkedin: "https://www.linkedin.com/in/kdelovski6/",
-        github: "https://github.com/kiril6"
+        github: "https://github.com/kiril6",
       },
       jobTitle: "Frontend Web Developer",
       location: {
         city: "Skopje",
         state: "",
-        country: "North Macedonia"
-      }
+        country: "North Macedonia",
+      },
     },
     {
       id: uuidv4(),
@@ -11737,14 +11737,14 @@ export const data = {
       links: {
         website: "https://riginoommen.github.io",
         linkedin: "https://www.linkedin.com/in/riginoommen/",
-        github: "https://github.com/riginoommen"
+        github: "https://github.com/riginoommen",
       },
       jobTitle: "Application Developer",
       location: {
         city: "Pune",
         state: "Maharashtra",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -11753,14 +11753,14 @@ export const data = {
       links: {
         website: "https://jonathanbranski.com",
         linkedin: "https://www.linkedin.com/in/jonathanbranski/",
-        github: "https://github.com/JBranski"
+        github: "https://github.com/JBranski",
       },
       jobTitle: "Front-end Developer",
       location: {
         city: "Milwaukee",
         state: "Wisconsin",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -11769,14 +11769,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/matthewrinaldo1/",
-        github: "https://github.com/mattrinaldo"
+        github: "https://github.com/mattrinaldo",
       },
       jobTitle: "Pre-Junior Full Stack Developer in Training",
       location: {
         city: "",
         state: "",
-        country: "Earth"
-      }
+        country: "Earth",
+      },
     },
     {
       id: uuidv4(),
@@ -11785,14 +11785,14 @@ export const data = {
       links: {
         website: "https://heliorochacardoso.github.io/portfolio/",
         linkedin: "https://www.linkedin.com/in/helio-cardoso-822355116/",
-        github: "https://github.com/HelioRochaCardoso"
+        github: "https://github.com/HelioRochaCardoso",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Manchester",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -11801,14 +11801,14 @@ export const data = {
       links: {
         website: "https://franextremera.com/",
         linkedin: "https://www.linkedin.com/in/francisco-extremera/",
-        github: "https://github.com/franexmo81"
+        github: "https://github.com/franexmo81",
       },
       jobTitle: "Front-end Web Developer",
       location: {
         city: "Jaen",
         state: "Andalusia",
-        country: "Spain"
-      }
+        country: "Spain",
+      },
     },
     {
       id: uuidv4(),
@@ -11818,14 +11818,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/theja-m-744106168/",
-        github: "https://github.com/theja-m"
+        github: "https://github.com/theja-m",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Hyderabad",
         state: "Telangana",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -11835,14 +11835,14 @@ export const data = {
       links: {
         website: "https://harendra.in",
         linkedin: "https://www.linkedin.com/in/harendra-verma-157773a9/",
-        github: "https://github.com/harendra21/"
+        github: "https://github.com/harendra21/",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Gurugram",
         state: "Haryana",
-        country: "India"
-      }
+        country: "India",
+      },
     },
 
     {
@@ -11852,14 +11852,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/aayush-r-44a33a108/",
-        github: "https://github.com/aayushhh/"
+        github: "https://github.com/aayushhh/",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Gurugram",
         state: "Haryana",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -11868,14 +11868,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/tobun-funmilayo-b7b00171/",
-        github: "https://github.com/Funmilayo24"
+        github: "https://github.com/Funmilayo24",
       },
       jobTitle: "Full-Stack Web Developer",
       location: {
         city: "Bonn",
         state: "North rhine-westphalia",
-        country: "Germany"
-      }
+        country: "Germany",
+      },
     },
     {
       id: uuidv4(),
@@ -11885,14 +11885,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mithlesh-yadav-2aa8a316a/",
-        github: "https://github.com/mithleshfreak"
+        github: "https://github.com/mithleshfreak",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Bhadrapur, Jhapa",
         state: "Province No. 1",
-        country: "Nepal"
-      }
+        country: "Nepal",
+      },
     },
     {
       id: uuidv4(),
@@ -11902,14 +11902,14 @@ export const data = {
       links: {
         website: "lamhong.me",
         linkedin: "https://www.linkedin.com/in/lam-hong-529856109",
-        github: "https://github.com/hongduclam"
+        github: "https://github.com/hongduclam",
       },
       jobTitle: "Sr Full-Stack Engineer",
       location: {
         city: "Ho Chi Minh",
         state: "",
-        country: "Viet Nam"
-      }
+        country: "Viet Nam",
+      },
     },
     {
       id: uuidv4(),
@@ -11919,14 +11919,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/usman-khalid-9384129b/",
-        github: "https://github.com/usmankhan495"
+        github: "https://github.com/usmankhan495",
       },
       jobTitle: "Mobile/Web (React Native | React Js)",
       location: {
         city: "Lahore",
         state: "Punjab",
-        country: "Pakistan"
-      }
+        country: "Pakistan",
+      },
     },
     {
       id: uuidv4(),
@@ -11936,14 +11936,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/damini-varu-71607b197/",
-        github: "https://github.com/dvru"
+        github: "https://github.com/dvru",
       },
       jobTitle: "Software Developer, Technical Writer, Graphic Designer",
       location: {
         city: "Houston",
         state: "Texas",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -11953,14 +11953,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/terieyenike/",
-        github: "https://github.com/terieyenike"
+        github: "https://github.com/terieyenike",
       },
       jobTitle: "JavaScript Developer",
       location: {
         city: "Maryland",
         state: "Lagos",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -11969,14 +11969,14 @@ export const data = {
       links: {
         website: "https://www.cigdem.dev",
         linkedin: "linkedin.com/in/cigdemcoskuner",
-        github: "https://github.com/CigdemCos"
+        github: "https://github.com/CigdemCos",
       },
       jobTitle: "Engineer | Full-Stack Developer",
       location: {
         city: "Albany",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -11986,14 +11986,14 @@ export const data = {
       links: {
         website: "www.moguljon.com",
         linkedin: "www.linkedin.com/in/jonathan-aguilar-047130ba/",
-        github: "https://github.com/moguljon/"
+        github: "https://github.com/moguljon/",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Elizabeth",
         state: "New Jersey",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -12003,14 +12003,14 @@ export const data = {
       links: {
         website: "https://deepak1418.github.io/",
         linkedin: "https://www.linkedin.com/in/deepak-kumar-70215b175/",
-        github: "https://github.com/deepak1418"
+        github: "https://github.com/deepak1418",
       },
       jobTitle: "Software Developer,Data Analyst",
       location: {
         city: "",
         state: "",
-        country: "INDIA"
-      }
+        country: "INDIA",
+      },
     },
     {
       id: uuidv4(),
@@ -12019,14 +12019,14 @@ export const data = {
       links: {
         website: "http://FanniTakax.github.io/my_experimental_page",
         linkedin: "https://www.linkedin.com/in/fanni-takacs-profile/",
-        github: "https://github.com/FanniTakax"
+        github: "https://github.com/FanniTakax",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Budapest",
         state: "",
-        country: "Hungary"
-      }
+        country: "Hungary",
+      },
     },
     {
       id: uuidv4(),
@@ -12035,14 +12035,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/vaibhav-kumar-singh-530928101",
-        github: "https://github.com/vaivk4"
+        github: "https://github.com/vaivk4",
       },
       jobTitle: "Software-Developer",
       location: {
         city: "Chennai",
         state: "Tamilnadu",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -12052,14 +12052,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/jonathan-grundy-661013190/",
-        github: "https://github.com/jonathangrundy"
+        github: "https://github.com/jonathangrundy",
       },
       jobTitle: "Junior Web Developer - Javascript",
       location: {
         city: "Preston",
         state: "Lancashire",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -12069,14 +12069,14 @@ export const data = {
       links: {
         website: "https://jt.houk.space",
         linkedin: "https://www.linkedin.com/in/jt-houk",
-        github: "https://github.com/HoukasaurusRex"
+        github: "https://github.com/HoukasaurusRex",
       },
       jobTitle: "Senior Full Stack Developer",
       location: {
         city: "Beijing",
         state: "Beijing",
-        country: "China"
-      }
+        country: "China",
+      },
     },
     {
       id: uuidv4(),
@@ -12086,14 +12086,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/jorge-veronique-981a0753/",
-        github: "https://github.com/jorgey1"
+        github: "https://github.com/jorgey1",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Perivale",
         state: "London",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -12103,14 +12103,14 @@ export const data = {
         website: "http://hassanzain.com/",
         linkedin:
           "https://www.linkedin.com/in/hassan-zain-delgadillo-b2056156/",
-        github: "https://github.com/hassanzd"
+        github: "https://github.com/hassanzd",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Torreon",
         state: "Coahuila",
-        country: "Mexico"
-      }
+        country: "Mexico",
+      },
     },
     {
       id: uuidv4(),
@@ -12119,14 +12119,14 @@ export const data = {
       links: {
         website: "hanqiaoli.com",
         linkedin: "https://www.linkedin.com/in/claire-li-98739113b/",
-        github: "https://github.com/clairehq"
+        github: "https://github.com/clairehq",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Vancouver,Beijing",
         state: "BC",
-        country: "Canada, China"
-      }
+        country: "Canada, China",
+      },
     },
     {
       id: uuidv4(),
@@ -12136,14 +12136,14 @@ export const data = {
       links: {
         website: "http://caxefaizan.pythonanywhere.com",
         linkedin: "https://www.linkedin.com/in/caxefaizan/",
-        github: "https://github.com/caxefaizan"
+        github: "https://github.com/caxefaizan",
       },
       jobTitle: "Python Developer|Full Stack Developer|Embedded IoT Developer",
       location: {
         city: "Bangalore",
         state: "Karnataka",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -12153,14 +12153,14 @@ export const data = {
       links: {
         website: "https://jordanstanway.com",
         linkedin: "https://www.linkedin.com/in/jordanstanway/",
-        github: "https://github.com/jpstanway"
+        github: "https://github.com/jpstanway",
       },
       jobTitle: "Full Stack React Developer",
       location: {
         city: "Vancouver",
         state: "BC",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -12169,14 +12169,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/jeremy-n-5b76aa105/",
-        github: "https://github.com/jnch009"
+        github: "https://github.com/jnch009",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Coquitlam",
         state: "BC",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -12185,14 +12185,14 @@ export const data = {
       links: {
         website: "http://denistita.com/",
         linkedin: "https://www.linkedin.com/in/denis-tita-43a705197/",
-        github: "https://github.com/denistita"
+        github: "https://github.com/denistita",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Caseyville",
         state: "Illinois",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -12202,14 +12202,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/jp-sainsbury-3a59158a/",
-        github: "https://github.com/jpsains"
+        github: "https://github.com/jpsains",
       },
       jobTitle: "Web Developer",
       location: {
         city: "London",
         state: "",
-        country: "England"
-      }
+        country: "England",
+      },
     },
     {
       id: uuidv4(),
@@ -12218,14 +12218,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/magesh-sundar-965ba2190",
-        github: "https://github.com/MageshSundarG"
+        github: "https://github.com/MageshSundarG",
       },
       jobTitle: "Python Developer|Data Scientist|Full Stack Developer",
       location: {
         city: "Chennai",
         state: "Tamilnadu",
-        country: "india"
-      }
+        country: "india",
+      },
     },
     {
       id: uuidv4(),
@@ -12235,14 +12235,14 @@ export const data = {
       links: {
         website: "http://prnvsood.com/",
         linkedin: "https://www.linkedin.com/in/pranav-sood-3a9095a3/",
-        github: "https://github.com/prnv06"
+        github: "https://github.com/prnv06",
       },
       jobTitle: "Product Manager| Designer| Full Stack Developer",
       location: {
         city: "New York",
         state: "NY",
-        country: ""
-      }
+        country: "",
+      },
     },
     {
       id: uuidv4(),
@@ -12251,14 +12251,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/jonathanhutnick/",
-        github: "https://github.com/JHutnick"
+        github: "https://github.com/JHutnick",
       },
       jobTitle: "Software Developer | Front-End Developer",
       location: {
         city: "New York",
         state: "New York",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -12267,14 +12267,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/shah-bhoomi/",
-        github: "https://github.com/BShah5"
+        github: "https://github.com/BShah5",
       },
       jobTitle: "Web Developer | Javascript | Python | Ethereum | Java",
       location: {
         city: "Ahmedabad",
         state: "Gujarat",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -12284,14 +12284,14 @@ export const data = {
       links: {
         website: "https://www.redvanisation.com/",
         linkedin: "https://www.linkedin.com/in/redvan/",
-        github: "https://github.com/Redvanisation"
+        github: "https://github.com/Redvanisation",
       },
       jobTitle: "Full Stack Software Developer",
       location: {
         city: "New York",
         state: "NY",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -12300,14 +12300,14 @@ export const data = {
         "https://media-exp1.licdn.com/dms/image/C4E03AQFlz-svFCpPKQ/profile-displayphoto-shrink_200_200/0?e=1593648000&v=beta&t=zMv14W_E4c_o_s-rD2IvdBxawOcIgY_GdNapw5weO-I",
       links: {
         linkedin: "https://www.linkedin.com/in/mohadip-lama-taveras-961a67140/",
-        github: "https://github.com/mohadip"
+        github: "https://github.com/mohadip",
       },
       jobTitle: "Web Developer | Javascript | Python | Java",
       location: {
         city: "Santo Domingo",
         state: "Dominican Republic",
-        country: "Dominican Republic"
-      }
+        country: "Dominican Republic",
+      },
     },
     {
       id: uuidv4(),
@@ -12316,14 +12316,14 @@ export const data = {
       links: {
         website: "https://freedamoore.github.io/",
         linkedin: "https://www.linkedin.com/in/freeda-moore-389057196/",
-        github: "https://github.com/freedamoore"
+        github: "https://github.com/freedamoore",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Sydney",
         state: "NSW",
-        country: "Australia"
-      }
+        country: "Australia",
+      },
     },
     {
       id: uuidv4(),
@@ -12332,14 +12332,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/christian-paul-ventura",
-        github: "https://github.com/pmventura"
+        github: "https://github.com/pmventura",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Singapore",
         state: "Singapore",
-        country: "Singapore"
-      }
+        country: "Singapore",
+      },
     },
     {
       id: uuidv4(),
@@ -12349,14 +12349,14 @@ export const data = {
       links: {
         website: "https://heiux.com/",
         linkedin: "linkedin.com/in/tczarnecki/",
-        github: "https://github.com/tomashei"
+        github: "https://github.com/tomashei",
       },
       jobTitle: "UX Developer",
       location: {
         city: "Poznan",
         state: "Greater Poland",
-        country: "Poland"
-      }
+        country: "Poland",
+      },
     },
     {
       id: uuidv4(),
@@ -12365,14 +12365,14 @@ export const data = {
       links: {
         website: "http://brittany-anderson.com/",
         linkedin: "https://www.linkedin.com/in/brittany-anderson-b9b835155/",
-        github: "https://github.com/bdb5075"
+        github: "https://github.com/bdb5075",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "",
         state: "Maryland",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -12381,14 +12381,14 @@ export const data = {
       links: {
         website: "https://rexxanthony.com/",
         linkedin: "https://www.linkedin.com/in/rexx-anthony-samuell-1282304/",
-        github: "https://github.com/rsamuell"
+        github: "https://github.com/rsamuell",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Washington",
         state: "DC",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -12397,14 +12397,14 @@ export const data = {
       links: {
         website: "http://supracodes.pythonanywhere.com/",
         linkedin: "https://www.linkedin.com/in/supratim-sarkar-3a3299150/",
-        github: "https://github.com/codewithsupra"
+        github: "https://github.com/codewithsupra",
       },
       jobTitle: "Data Analyst| Python Developer",
       location: {
         city: "MUSCAT",
         state: "MUSCAT",
-        country: "OMAN"
-      }
+        country: "OMAN",
+      },
     },
     {
       id: uuidv4(),
@@ -12413,14 +12413,14 @@ export const data = {
       links: {
         website: "merlinfoerster.com",
         linkedin: "https://www.linkedin.com/in/merlinfoerster/",
-        github: "https://github.com/r3m00n"
+        github: "https://github.com/r3m00n",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Hamburg",
         state: "Hamburg",
-        country: "Germany"
-      }
+        country: "Germany",
+      },
     },
     {
       id: uuidv4(),
@@ -12429,14 +12429,14 @@ export const data = {
       links: {
         website: " ",
         linkedin: "https://www.linkedin.com/in/aiswaryasarangi/",
-        github: "https://github.com/aiswarya8110"
+        github: "https://github.com/aiswarya8110",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Bhubaneswar",
         state: "Odisha",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -12445,14 +12445,14 @@ export const data = {
       links: {
         website: "https://kumaraditya.herokuapp.com/",
         linkedin: "https://www.linkedin.com/in/kumar-aditya-77a2b4194/",
-        github: "https://github.com/nnhhiilliisstt"
+        github: "https://github.com/nnhhiilliisstt",
       },
       jobTitle: "Full stack web developer| Flutter Developer",
       location: {
         city: "Gurgaon",
         state: "Haryana",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -12462,14 +12462,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ritika-garg98/",
-        github: "https://github.com/rgarg22"
+        github: "https://github.com/rgarg22",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "",
         state: "Punjab",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -12478,14 +12478,14 @@ export const data = {
       links: {
         website: "https://codesandtags.github.io/",
         linkedin: "https://www.linkedin.com/in/edwintorresdeveloper/",
-        github: "https://github.com/codesandtags"
+        github: "https://github.com/codesandtags",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Bogota",
         state: "Bogota",
-        country: "Colombia"
-      }
+        country: "Colombia",
+      },
     },
     {
       id: uuidv4(),
@@ -12495,14 +12495,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "www.linkedin.com/in/jeremy-curtis-29a586185",
-        github: "https://github.com/jcurtis808"
+        github: "https://github.com/jcurtis808",
       },
       jobTitle: "Self employed/freelance developer",
       location: {
         city: "Chicago",
         state: "Illinois",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -12512,14 +12512,14 @@ export const data = {
       links: {
         website: "http://wwww.hacya.com",
         linkedin: "https://www.linkedin.com/in/michio-hayakawa-664507/",
-        github: "https://github.com/hacyaman"
+        github: "https://github.com/hacyaman",
       },
       jobTitle: "Software Engineering Manager",
       location: {
         city: "Yokohama",
         state: "Kanagawa",
-        country: "Japan"
-      }
+        country: "Japan",
+      },
     },
     {
       id: uuidv4(),
@@ -12528,14 +12528,14 @@ export const data = {
       links: {
         website: "https://pawankolhe.com/",
         linkedin: "https://www.linkedin.com/in/kolhepawan/",
-        github: "https://github.com/PawanKolhe"
+        github: "https://github.com/PawanKolhe",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Mumbai",
         state: "Maharashtra",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -12545,14 +12545,14 @@ export const data = {
       links: {
         website: "https://hs950559.github.io/portfolio",
         linkedin: "https://www.linkedin.com/in/hkajax",
-        github: "https://github.com/hs950559"
+        github: "https://github.com/hs950559",
       },
       jobTitle: "Front End Developer, UI Developer, Senior Web Developer",
       location: {
         city: "Hyderabad",
         state: "Telangana",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -12562,14 +12562,14 @@ export const data = {
       links: {
         website: "https://www.awprice.com/",
         linkedin: "https://www.linkedin.com/in/loftkey/",
-        github: "https://github.com/loftkey"
+        github: "https://github.com/loftkey",
       },
       jobTitle: "Developer",
       location: {
         city: "Murrieta",
         state: "California",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -12578,14 +12578,14 @@ export const data = {
       links: {
         website: "http://taidisla.com/",
         linkedin: "https://www.linkedin.com/in/tai-disla/",
-        github: "https://github.com/taicedtea"
+        github: "https://github.com/taicedtea",
       },
       jobTitle: "Junior Front End Developer",
       location: {
         city: "New York",
         state: "New York",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -12595,14 +12595,14 @@ export const data = {
       links: {
         website: "https://trejon.github.io/TrejonStallsworthPortfolio/",
         linkedin: "https://www.linkedin.com/in/TrejonStallsworth/",
-        github: "https://github.com/Trejon"
+        github: "https://github.com/Trejon",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Denver",
         state: "Colorado",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -12611,14 +12611,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/arun-surendharan-3084a6142/",
-        github: "https://github.com/arun-me"
+        github: "https://github.com/arun-me",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Tirupur",
         state: "Tamil Nadu",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -12627,14 +12627,14 @@ export const data = {
       links: {
         website: "http://marik.tech/",
         linkedin: "www.linkedin.com/in/paul-marik-web-developer",
-        github: "https://github.com/pmarik"
+        github: "https://github.com/pmarik",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Salt Lake City",
         state: "Utah",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -12643,14 +12643,14 @@ export const data = {
       links: {
         website: "https://manjiltamang.com",
         linkedin: "http://linkedin.com/in/manjiltamang/",
-        github: "https://github.com/manjillama"
+        github: "https://github.com/manjillama",
       },
       jobTitle: "Full stack developer",
       location: {
         city: "Boudha",
         state: "Kathmandu",
-        country: "Nepal"
-      }
+        country: "Nepal",
+      },
     },
     {
       id: uuidv4(),
@@ -12659,14 +12659,14 @@ export const data = {
       links: {
         website: "http://ghizlaneb.pythonanywhere.com/index.html",
         linkedin: "https://www.linkedin.com/in/ghizlane-bouskri-physics/",
-        github: "https://github.com/GhizlaneBOUSKRI"
+        github: "https://github.com/GhizlaneBOUSKRI",
       },
       jobTitle: "Full stack developer",
       location: {
         city: "Düsseldorf",
         state: "NRW",
-        country: "Germany"
-      }
+        country: "Germany",
+      },
     },
     {
       id: uuidv4(),
@@ -12675,14 +12675,14 @@ export const data = {
       links: {
         website: "https://www.linkedin.com/in/nikolay-almazov-10b40892/",
         linkedin: "https://www.linkedin.com/in/nikolay-almazov-10b40892/",
-        github: "https://github.com/NAlmazov"
+        github: "https://github.com/NAlmazov",
       },
       jobTitle: "Product Manager|Consultant|Aspiring Full-Stack Developer",
       location: {
         city: "Boston",
         state: "Massachusetts",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -12692,14 +12692,14 @@ export const data = {
       links: {
         website: "http://www.enoralecuyer.com/",
         linkedin: "https://www.linkedin.com/in/enoralecuyer1/",
-        github: "https://github.com/enoralecuyer"
+        github: "https://github.com/enoralecuyer",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Irvine",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -12708,14 +12708,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/hunter-vitous-07839a10b/",
-        github: "https://github.com/hmvitous"
+        github: "https://github.com/hmvitous",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "Bromma",
         state: "Stockholm",
-        country: "Sweden"
-      }
+        country: "Sweden",
+      },
     },
     {
       id: uuidv4(),
@@ -12724,14 +12724,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/hulya-karakaya/",
-        github: "https://github.com/hulyak"
+        github: "https://github.com/hulyak",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Seattle",
         state: "Washington",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -12741,14 +12741,14 @@ export const data = {
       links: {
         website: "https://seraph-yczhang.github.io/me/",
         linkedin: "https://www.linkedin.com/in/yuchen-zhang-buffalo/",
-        github: "https://github.com/Seraph-YCZhang"
+        github: "https://github.com/Seraph-YCZhang",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Buffalo",
         state: "New York",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -12757,14 +12757,14 @@ export const data = {
       links: {
         website: "http://rayyansaeed.info/",
         linkedin: "https://www.linkedin.com/in/rayyansaeed/",
-        github: "https://github.com/streehawk"
+        github: "https://github.com/streehawk",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Sacramento",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -12775,14 +12775,14 @@ export const data = {
         website: "https://jamorello.github.io/",
         linkedin:
           "https://www.linkedin.com/in/juan-agust%C3%ADn-morello-a46385184/",
-        github: "https://github.com/JAMorello"
+        github: "https://github.com/JAMorello",
       },
       jobTitle: "Programador Junior",
       location: {
         city: "Parque Chas",
         state: "Ciudad de Buenos Aires",
-        country: "Argentina"
-      }
+        country: "Argentina",
+      },
     },
     {
       id: uuidv4(),
@@ -12792,14 +12792,14 @@ export const data = {
       links: {
         website: "http://www.rudibester.co.za",
         linkedin: "https://www.linkedin.com/in/rudi-bester-a18878199/",
-        github: "https://github.com/rudibester"
+        github: "https://github.com/rudibester",
       },
       jobTitle: "Software Developer|Aspiring Data Scientist|ML Enthusiast",
       location: {
         city: "Cape Town",
         state: "",
-        country: "South Africa"
-      }
+        country: "South Africa",
+      },
     },
     {
       id: uuidv4(),
@@ -12809,14 +12809,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/swati-dixit-458971170",
-        github: "https://github.com/swatiidixit"
+        github: "https://github.com/swatiidixit",
       },
       jobTitle: "Software-Developer",
       location: {
         city: "Kanpur",
         state: "Uttar-Pradesh",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -12825,14 +12825,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ujjwal-adhikari-3a946418b/",
-        github: "https://github.com/ujjwal66"
+        github: "https://github.com/ujjwal66",
       },
       jobTitle: "Fullstack Developer",
       location: {
         city: "Kathmandu",
         state: "",
-        country: "Nepal"
-      }
+        country: "Nepal",
+      },
     },
     {
       id: uuidv4(),
@@ -12842,14 +12842,14 @@ export const data = {
       links: {
         website: "https://manas588.github.io/portfo/",
         linkedin: "https://www.linkedin.com/in/manas-kulkarni-093900162/",
-        github: "https://github.com/Manas588"
+        github: "https://github.com/Manas588",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Mumbai",
         state: "Maharashtra",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -12859,14 +12859,14 @@ export const data = {
       links: {
         website: "http://hoxnox.herokuapp.com/Dhaxor123/940/",
         linkedin: "https://www.linkedin.com/gain-john",
-        github: "https://github.com/dhaxor"
+        github: "https://github.com/dhaxor",
       },
       jobTitle: "Fullstack Developer",
       location: {
         city: "Portharcourt",
         state: "Rivers",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -12877,14 +12877,14 @@ export const data = {
         website: "",
         linkedin:
           "https://www.linkedin.com/in/seimiekumo-solomon-fems-4a3aa884/",
-        github: "https://github.com/sliemking"
+        github: "https://github.com/sliemking",
       },
       jobTitle: "Fullstack Developer",
       location: {
         city: "Yenagoa",
         state: "State",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
@@ -12894,14 +12894,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/rgdeekshith/",
-        github: "https://github.com/rgdeekshith"
+        github: "https://github.com/rgdeekshith",
       },
       jobTitle: "Data Science | Machine Learning | Web Developer",
       location: {
         city: "Hyderabad",
         state: "Telangana",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -12911,14 +12911,14 @@ export const data = {
       links: {
         website: "https://dnicerio.github.io/",
         linkedin: "https://www.linkedin.com/in/darrylnicerio/",
-        github: "https://github.com/dnicerio"
+        github: "https://github.com/dnicerio",
       },
       jobTitle: "Front-End Web Developer",
       location: {
         city: "Pasay",
         state: "Metro Manila",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -12927,14 +12927,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/vishal-m-2436b018b/",
-        github: "https://github.com/VishalM23"
+        github: "https://github.com/VishalM23",
       },
       jobTitle: "Deep Learning Enthusisast",
       location: {
         city: "Bengaluru",
         state: "Karnataka",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -12943,14 +12943,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/rakshit-kumar-52b040165/",
-        github: "https://github.com/spctr01"
+        github: "https://github.com/spctr01",
       },
       jobTitle: "Data Scientist | ML Engineer",
       location: {
         city: "Chandigarh",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -12961,14 +12961,14 @@ export const data = {
         website: "",
         linkedin:
           "https://www.linkedin.com/in/shahnewaj-maksud-shoumikh-376655108/",
-        github: "https://github.com/Shoumikh"
+        github: "https://github.com/Shoumikh",
       },
       jobTitle: " Front-End Developer ",
       location: {
         city: "Dhaka",
         state: "",
-        country: "Bangladesh"
-      }
+        country: "Bangladesh",
+      },
     },
     {
       id: uuidv4(),
@@ -12977,14 +12977,14 @@ export const data = {
       links: {
         website: "http://sudhip.pythonanywhere.com/",
         linkedin: "https://www.linkedin.com/in/sudhip",
-        github: "https://github.com/Sudhip007"
+        github: "https://github.com/Sudhip007",
       },
       jobTitle: " Python Developer ",
       location: {
         city: "Hyderabad",
         state: "Telangana",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -12994,14 +12994,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/tajibsmajlovic/",
-        github: "https://github.com/TajibSmajlovic"
+        github: "https://github.com/TajibSmajlovic",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Sarajevo",
         state: "Federation of Bosnia and Herzegovina",
-        country: "Bosnia and Herzegovina"
-      }
+        country: "Bosnia and Herzegovina",
+      },
     },
     {
       id: uuidv4(),
@@ -13010,14 +13010,14 @@ export const data = {
       links: {
         website: "https://kevinwang.space/",
         linkedin: "https://www.linkedin.com/in/huanxiangwang/",
-        github: "https://github.com/kevinmore"
+        github: "https://github.com/kevinmore",
       },
       jobTitle: "Game Engine Developer",
       location: {
         city: "London",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -13027,14 +13027,14 @@ export const data = {
       links: {
         website: "http://www.lalaane.com/",
         linkedin: "https://www.linkedin.com/in/laura-laane/",
-        github: "https://github.com/lalaane"
+        github: "https://github.com/lalaane",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Toronto",
         state: "Ontario",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -13043,14 +13043,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ganesh-mali-77aab6137/",
-        github: "https://github.com/Ganesh-mali"
+        github: "https://github.com/Ganesh-mali",
       },
       jobTitle: " Software Developer ",
       location: {
         city: "Mumbai",
         state: "Maharashtra",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -13059,14 +13059,14 @@ export const data = {
       links: {
         website: "https://biancascode.com/",
         linkedin: "https://www.linkedin.com/in/bianca-goncalves-247a301a5/",
-        github: "https://github.com/biancadevelop"
+        github: "https://github.com/biancadevelop",
       },
       jobTitle: "Front-End Developer",
       location: {
         city: "Henderson",
         state: "Nevada",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -13075,14 +13075,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/adwiteeya/",
-        github: "https://github.com/adwiteeya3"
+        github: "https://github.com/adwiteeya3",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Bangalore",
         state: "Karnataka",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -13092,14 +13092,14 @@ export const data = {
       links: {
         website: "https://gyanendraknojiya.github.io/myportfolio",
         linkedin: "https://www.linkedin.com/in/gyanendraknojiya/",
-        github: "https://github.com/gyanendraknojiya"
+        github: "https://github.com/gyanendraknojiya",
       },
       jobTitle: "Full-Stack Web Developer",
       location: {
         city: "Lucknow",
         state: "Uttar Pradesh",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -13108,14 +13108,14 @@ export const data = {
       links: {
         website: "https://krishashah911.github.io/krisha-portfo/",
         linkedin: "https://www.linkedin.com/in/krisha-shah-0974bb18b/",
-        github: "https://github.com/krishashah911"
+        github: "https://github.com/krishashah911",
       },
       jobTitle: "Data Analyst",
       location: {
         city: "Mumbai",
         state: "Maharashtra",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -13125,14 +13125,14 @@ export const data = {
       links: {
         website: "http://frenchytony.net",
         linkedin: "https://www.linkedin.com/in/nytochin/",
-        github: "https://github.com/tonystrawberry"
+        github: "https://github.com/tonystrawberry",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Tokyo",
         state: "",
-        country: "Japan"
-      }
+        country: "Japan",
+      },
     },
     {
       id: uuidv4(),
@@ -13141,15 +13141,15 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://linkedin.com/in/mmostagirbhuiyan",
-        github: "https://github.com/mmostagirbhuiyan"
+        github: "https://github.com/mmostagirbhuiyan",
       },
       jobTitle:
         "Sr. DevOps Engineer | Full Stack Web Developer | Sr. React Developer| Python | Java",
       location: {
         city: "New York City",
         state: "NY",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -13157,14 +13157,14 @@ export const data = {
       img: "",
       links: {
         linkedin: "https://www.linkedin.com/in/nihal-ramteke",
-        github: "https://github.com/ramtekenihal"
+        github: "https://github.com/ramtekenihal",
       },
       jobTitle: "Python Developer | Javascript | Data Scientist | HTML",
       location: {
         city: "Mumbai",
         state: "Maharashtra",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -13173,189 +13173,227 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/saurabh-khaparey",
-        github: "https://github.com/Saurabh2699"
+        github: "https://github.com/Saurabh2699",
       },
       jobTitle: "MERN Stack Developer",
       location: {
         city: "Nagpur",
         state: "Maharashtra",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
-      "id": uuidv4(),
-      "name": "Samuel Solomon",
-      "img": "",
-      "links": {
-        "website": "",
-        "linkedin": "https://www.linkedin.com/in/samjsolomon",
-        "github": "https://github.com/samjsolomon"
+      id: uuidv4(),
+      name: "Samuel Solomon",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/samjsolomon",
+        github: "https://github.com/samjsolomon",
       },
-      "jobTitle": "Python Developer",
-      "location": {
-        "city": "Orlando",
-        "state": "Florida",
-        "country": "United States"
-      }
+      jobTitle: "Python Developer",
+      location: {
+        city: "Orlando",
+        state: "Florida",
+        country: "United States",
+      },
     },
     {
-      "id": uuidv4(),
-      "name": "Ravi kumar Singh",
-      "img": "",
-      "links": {
-        "website": "",
-        "linkedin": "",
-        "github": "https://github.com/raviraka"
+      id: uuidv4(),
+      name: "Ravi kumar Singh",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "",
+        github: "https://github.com/raviraka",
       },
-      "jobTitle": "Web Developer",
-      "location": {
-        "city": "Milan",
-        "state": "",
-        "country": "Italy"
-      }
+      jobTitle: "Web Developer",
+      location: {
+        city: "Milan",
+        state: "",
+        country: "Italy",
+      },
     },
     {
-      "id": uuidv4(),
-      "name": "Sparsh Chadha",
-      "img": "",
-      "links": {
-        "website": "https://sparsh0427.github.io/Portfolio/",
-        "linkedin": "https://www.linkedin.com/in/sparsh-chadha-601b1516b",
-        "github": "https://github.com/sparsh0427/"
+      id: uuidv4(),
+      name: "Sparsh Chadha",
+      img: "",
+      links: {
+        website: "https://sparsh0427.github.io/Portfolio/",
+        linkedin: "https://www.linkedin.com/in/sparsh-chadha-601b1516b",
+        github: "https://github.com/sparsh0427/",
       },
-      "jobTitle": "Full Stack Developer | Java Developer | ML Enthusiast",
-      "location": {
-        "city": "New Delhi",
-        "state": "Delhi",
-        "country": "India"
-      }
+      jobTitle: "Full Stack Developer | Java Developer | ML Enthusiast",
+      location: {
+        city: "New Delhi",
+        state: "Delhi",
+        country: "India",
+      },
     },
     {
-      "id": uuidv4(),
-      "name": "Yury Hrytsuk",
-      "img": "",
-      "links": {
-        "website": "",
-        "linkedin": "https://www.linkedin.com/in/yury-hrytsuk-70335a15a/",
-        "github": "https://github.com/Jurek33"
+      id: uuidv4(),
+      name: "Yury Hrytsuk",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/yury-hrytsuk-70335a15a/",
+        github: "https://github.com/Jurek33",
       },
-      "jobTitle": "JavaScript Developer",
-      "location": {
-        "city": "Miami",
-        "state": "Florida",
-        "country": "United States"
-      }
+      jobTitle: "JavaScript Developer",
+      location: {
+        city: "Miami",
+        state: "Florida",
+        country: "United States",
+      },
     },
     {
-      "id": uuidv4(),
-      "name": "Sacha Bogaers",
-      "img": "https://avatars0.githubusercontent.com/u/48031121?s=400&u=469845ae94d776cbb1038eb6045b70c5388bf0a1&v=4",
-      "links": {
-        "website": "",
-        "linkedin": "https://www.linkedin.com/in/sacha-bogaers/",
-        "github": "https://github.com/SachaBog"
+      id: uuidv4(),
+      name: "Sacha Bogaers",
+      img:
+        "https://avatars0.githubusercontent.com/u/48031121?s=400&u=469845ae94d776cbb1038eb6045b70c5388bf0a1&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/sacha-bogaers/",
+        github: "https://github.com/SachaBog",
       },
-      "jobTitle": "Junior Web Developer",
-      "location": {
-        "city": "Tilburg",
-        "state": "Noord-Brabant",
-        "country": "The Netherlands"
-      }
+      jobTitle: "Junior Web Developer",
+      location: {
+        city: "Tilburg",
+        state: "Noord-Brabant",
+        country: "The Netherlands",
+      },
     },
     {
-      "id": uuidv4(),
-      "name": "Rares Sandu",
-      "img": "https://avatars3.githubusercontent.com/u/59281487?s=400&u=ed6e2f43fffde34964b8ae73a3fdaacd1d7516f7&v=4",
-      "links": {
-        "website": "https://raressanduconstantin.github.io/modern_portfolio/index.html",
-        "linkedin": "https://www.linkedin.com/in/rares-sandu/",
-        "github": "https://github.com/RaresSanduConstantin"
+      id: uuidv4(),
+      name: "Rares Sandu",
+      img:
+        "https://avatars3.githubusercontent.com/u/59281487?s=400&u=ed6e2f43fffde34964b8ae73a3fdaacd1d7516f7&v=4",
+      links: {
+        website:
+          "https://raressanduconstantin.github.io/modern_portfolio/index.html",
+        linkedin: "https://www.linkedin.com/in/rares-sandu/",
+        github: "https://github.com/RaresSanduConstantin",
       },
-      "jobTitle": "Front-end web development",
-      "location": {
-        "city": "Bucharest",
-        "state": "",
-        "country": "Romania"
-      }
+      jobTitle: "Front-end web development",
+      location: {
+        city: "Bucharest",
+        state: "",
+        country: "Romania",
+      },
     },
     {
-      "id": uuidv4(),
-      "name": "Michael Wang",
-      "img": "https://avatars0.githubusercontent.com/u/51487671?s=460&u=08ece0fce8b834cc44c18322191e9b7a80ab070c&v=4",
-      "links": {
-        "website": "http://michaelwang.herokuapp.com/",
-        "linkedin": "https://www.linkedin.com/in/michael-wang-dev/",
-        "github": "https://github.com/mwGHburger"
+      id: uuidv4(),
+      name: "Michael Wang",
+      img:
+        "https://avatars0.githubusercontent.com/u/51487671?s=460&u=08ece0fce8b834cc44c18322191e9b7a80ab070c&v=4",
+      links: {
+        website: "http://michaelwang.herokuapp.com/",
+        linkedin: "https://www.linkedin.com/in/michael-wang-dev/",
+        github: "https://github.com/mwGHburger",
       },
-      "jobTitle": "Junior Full-Stack Developer",
-      "location": {
-        "city": "Melbourne",
-        "state": "Victoria",
-        "country": "Australia"
-      }
+      jobTitle: "Junior Full-Stack Developer",
+      location: {
+        city: "Melbourne",
+        state: "Victoria",
+        country: "Australia",
+      },
     },
     {
-      "id": uuidv4(),
-      "name": "Muhammad Haroon Saad",
-      "img": "https://user-images.githubusercontent.com/49754541/83527701-91ecff80-a501-11ea-8e91-2a702c534d81.jpeg",
-      "links": {
-        "website": "https://haroonsaad247622.github.io/HarrySalts/",
-        "linkedin": "www.linkedin.com/in/muhammad-haroon-saad-7b58bb1a9",
-        "github": "https://github.com/Haroonsaad247622"
+      id: uuidv4(),
+      name: "Muhammad Haroon Saad",
+      img:
+        "https://user-images.githubusercontent.com/49754541/83527701-91ecff80-a501-11ea-8e91-2a702c534d81.jpeg",
+      links: {
+        website: "https://haroonsaad247622.github.io/HarrySalts/",
+        linkedin: "www.linkedin.com/in/muhammad-haroon-saad-7b58bb1a9",
+        github: "https://github.com/Haroonsaad247622",
       },
-      "jobTitle": "Full-Stack Developer",
-      "location": {
-        "city": "Bahawalpur",
-        "state": "Punjab",
-        "country": "Pakistan"
-      }
+      jobTitle: "Full-Stack Developer",
+      location: {
+        city: "Bahawalpur",
+        state: "Punjab",
+        country: "Pakistan",
+      },
     },
     {
-      "id": uuidv4(),
-      "name": "Mehdi E.Manioui",
-      "img": "https://i.ibb.co/zPFG407/Photo.jpg",
-      "links": {
-        "website": "https://www.strengthauthority.com/",
-        "linkedin": "https://www.linkedin.com/in/mehdi-e-m-2a4826121/",
-        "github": "https://github.com/eemanioui"
+      id: uuidv4(),
+      name: "Mehdi E.Manioui",
+      img: "https://i.ibb.co/zPFG407/Photo.jpg",
+      links: {
+        website: "https://www.strengthauthority.com/",
+        linkedin: "https://www.linkedin.com/in/mehdi-e-m-2a4826121/",
+        github: "https://github.com/eemanioui",
       },
-      "jobTitle": "Full Stack Web Developer",
-      "location": {
-        "city": "Winnipeg",
-        "state": "Manitoba",
-        "country": "Canada"
-      }
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Winnipeg",
+        state: "Manitoba",
+        country: "Canada",
+      },
     },
     {
-      "id": uuidv4(),
-      "name": "Anouar Chlih",
-      "img":"https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528_960_720.jpg",
-      "links": {
-        "website": "https://anouar-chlih.github.io/Background-generator/",
-        "linkedin": "https://fr.linkedin.com/",
-        "github": "https://github.com/Anouar-chlih"
+      id: uuidv4(),
+      name: "Anouar Chlih",
+      img:
+        "https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528_960_720.jpg",
+      links: {
+        website: "https://anouar-chlih.github.io/Background-generator/",
+        linkedin: "https://fr.linkedin.com/",
+        github: "https://github.com/Anouar-chlih",
       },
-      "jobtitle": "Mobile developer",
-      "location": {
-        "city": "Essawira",
-        "state": "Ariha",
-        "country": "Morocco"
-      }
+      jobtitle: "Mobile developer",
+      location: {
+        city: "Essawira",
+        state: "Ariha",
+        country: "Morocco",
+      },
     },
     {
-      "id": uuidv4(),
-      "name": "Sheldon Hooper",
-      "img": "https://photos.app.goo.gl/6cnfe2rBfuLFBKgG7",
-      "links": {
-        "website": "",
-        "linkedin": "https://www.linkedin.com/in/sheldon-hooper-626822144/",
-        "github": "https://github.com/SheldonEHooper"
+      id: uuidv4(),
+      name: "Sheldon Hooper",
+      img: "https://photos.app.goo.gl/6cnfe2rBfuLFBKgG7",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/sheldon-hooper-626822144/",
+        github: "https://github.com/SheldonEHooper",
       },
-      "jobTitle": "Freelance Developer",
-      "location": {
-        "city": "Hoedspruit",
-        "state": "Limpopo",
-        "country": "South Africa"
+      jobTitle: "Freelance Developer",
+      location: {
+        city: "Hoedspruit",
+        state: "Limpopo",
+        country: "South Africa",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Tomas Bruzza",
+      img: "https://imgur.com/7fXrIpF",
+      links: {
+        website: "tomasbruzza.github.io/portfolio/",
+        linkedin: "https://www.linkedin.com/in/tomasbruzza/",
+        github: "https://github.com/tomasbruzza",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "",
+        state: "Buenos Aires",
+        country: "Argentina",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Ethan Glover",
+      img: "https://avatars1.githubusercontent.com/u/3924176?s=460&u=23f3b383da434df5ef9089dfc8927bbc90b305aa",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/ethan-glover/",
+        github: "https://github.com/eglove"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "St. Louis",
+        state: "Missouri",
+        country: "United States"
       }
     },
     {
