@@ -13554,14 +13554,30 @@ export const data = {
       links: {
         website: "https://www.trenishagoslee.com/",
         linkedin: "https://www.linkedin.com/in/trenisha-goslee-92769358/",
-        github: "https://github.com/tgoslee"
+        github: "https://github.com/tgoslee",
       },
       jobTitle: "Front End Web Developer",
       location: {
         city: "Washington",
         state: "D.C",
-        country: "USA"
-      }
-    }
+        country: "USA",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Atabany",
+      img: "https://i.ibb.co/gWNVrMz/img5.jpg",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/moelatabany/",
+        github: "https://github.com/Atabany",
+      },
+      jobTitle: "iOS Developer | Swift | JS",
+      location: {
+        city: "Mansoura",
+        state: "Mansoura",
+        country: "Egypt",
+      },
+    },
   ],
 }
