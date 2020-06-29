@@ -173,7 +173,6 @@
       "state": "NY",
       "country": "USA"
     }
-  }
 },
 {
   "id":1011,
@@ -206,8 +205,8 @@
       "state": "Limpopo",
       "country": "South Africa"
     }
-  }
- ,{
+  },
+  {
     "id": 1004,
     "name": "Ehsan Zand",
     "img": "https://avatars0.githubusercontent.com/u/22591967?s=460&u=af9d96af6ce95b499e3bc976fd6bbe24e134133d&v=4",
@@ -222,10 +221,8 @@
       "state": "Tehran Province",
       "country": "Iran"
     }
-  }
-
-
-  ,{
+  },
+  {
     "id": 1013,
     "name": "Madufor Chiemeka",
     "img": "https://avatars2.githubusercontent.com/u/61386343?s=460&u=0d4dfd26031d0c85094386273287462de57e956d&v=4",
@@ -240,9 +237,9 @@
       "state": "",
       "country": "Hungary"
     }
-  }
-  ,{
-    "id": uuidv4(),
+  },
+  {
+    "id": 1014,
     "name": "Pedro Calvo Herranz",
     "img": "https://avatars1.githubusercontent.com/u/60217106?s=400&u=2eed60aadca5f6ae796764fbe2f07b4c7d73cc73&v=4",
     "links": {
@@ -255,5 +252,21 @@
       "city": "Moscow",
       "state": "",
       "country": "Russia"
+    }
+  },
+  {
+    "id": 1015,
+    "name": "Gabriel Seals",
+    "img": "https://avatars3.githubusercontent.com/u/52087296?s=400&u=a7e20c9f1d334651a8c2458314cbd6a260ea549c&v=4",
+    "links": {
+      "website": "https://gabrielseals.com/",
+      "linkedin": "https://www.linkedin.com/in/gabeseals",
+      "github": "https://github.com/gseals"
+    },
+    "jobTitle": "Full-Stack Software and Web Developer",
+    "location": {
+      "city": "Nashville",
+      "state": "Tennessee",
+      "country": "United States"
     }
   }
