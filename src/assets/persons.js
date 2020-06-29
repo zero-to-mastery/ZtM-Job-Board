@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from "uuid"
 
 export const data = {
   people: [
-    {
+      {
       id: uuidv4(),
       name: "Andrej Zadnik",
       img: "",
@@ -13443,6 +13443,22 @@ export const data = {
         "state": "Delhi",
         "country": "India"
       }
+    },
+    {
+      id: uuidv4(),
+      name: "Yaman Mando",
+      img: "https://i.ibb.co/HHs5HYV/yaman.jpg",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/yaman-mando/",
+        github: "https://github.com/yaman-mando",
+      },
+      jobTitle: "Frontend And Mobile Developer,Ionic,Angular,React js",
+      location: {
+        city: "Istanbul",
+        state: "",
+        country: "Turkey",
+      },
     },
   ]
 }
