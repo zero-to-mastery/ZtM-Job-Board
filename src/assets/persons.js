@@ -13547,5 +13547,21 @@ export const data = {
         country: "United States",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Trenisha Goslee",
+      img: "https://ibb.co/vzRXC7W",
+      links: {
+        website: "https://www.trenishagoslee.com/",
+        linkedin: "https://www.linkedin.com/in/trenisha-goslee-92769358/",
+        github: "https://github.com/tgoslee"
+      },
+      jobTitle: "Front End Web Developer",
+      location: {
+        city: "Washington",
+        state: "D.C",
+        country: "USA"
+      }
+    }
   ],
 }
