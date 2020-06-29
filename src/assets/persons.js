@@ -2,7 +2,74 @@ import { v4 as uuidv4 } from "uuid"
 
 export const data = {
   people: [
-      {
+    {
+      id: uuidv4(),
+      name: "Adi Gutner",
+      img: "https://avatars1.githubusercontent.com/u/42630221",
+      links: {
+        website: "https://www.gooties.com",
+        linkedin: "https://www.linkedin.com/in/adi-gutner/",
+        github: "https://github.com/AdiGutner",
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "New York",
+        state: "NY",
+        country: "USA",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Ehsan Zand",
+      img:
+        "https://avatars0.githubusercontent.com/u/22591967?s=460&u=af9d96af6ce95b499e3bc976fd6bbe24e134133d&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/ehsan-zand/",
+        github: "https://github.com/Ehsan-Zand",
+      },
+      jobTitle: "Full Stack Developer | Web Developer",
+      location: {
+        city: "Tehran",
+        state: "Tehran Province",
+        country: "Iran",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Madufor Chiemeka",
+      img:
+        "https://avatars2.githubusercontent.com/u/61386343?s=460&u=0d4dfd26031d0c85094386273287462de57e956d&v=4",
+      links: {
+        website: "https://elcozy.github.io/",
+        linkedin: "https://www.linkedin.com/in/chiemekam/",
+        github: "https://github.com/elcozy",
+      },
+      jobTitle: "Front-end Web Developer",
+      location: {
+        city: "Debrecen",
+        state: "",
+        country: "Hungary",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Pedro Calvo Herranz",
+      img:
+        "https://avatars1.githubusercontent.com/u/60217106?s=400&u=2eed60aadca5f6ae796764fbe2f07b4c7d73cc73&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/pedro-calvo-herranz-56561315a/",
+        github: "https://github.com/pdr-clv",
+      },
+      jobTitle: "FrontEnd React Developer",
+      location: {
+        city: "Moscow",
+        state: "",
+        country: "Russia",
+      },
+    },
+    {
       id: uuidv4(),
       name: "Andrej Zadnik",
       img: "",
@@ -13383,18 +13450,19 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ethan Glover",
-      img: "https://avatars1.githubusercontent.com/u/3924176?s=460&u=23f3b383da434df5ef9089dfc8927bbc90b305aa",
+      img:
+        "https://avatars1.githubusercontent.com/u/3924176?s=460&u=23f3b383da434df5ef9089dfc8927bbc90b305aa",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ethan-glover/",
-        github: "https://github.com/eglove"
+        github: "https://github.com/eglove",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "St. Louis",
         state: "Missouri",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -13403,46 +13471,48 @@ export const data = {
       links: {
         website: "https://avinashkonduri.github.io/PersonalSite/",
         linkedin: "https://www.linkedin.com/in/avinash-konduri-b212a711/",
-        github: "https://github.com/avinashkonduri"
+        github: "https://github.com/avinashkonduri",
       },
       jobTitle: "Fullstack Developer",
       location: {
         city: "Hyderabad",
         state: "Telangana",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
       name: "Fabamise Adeolu",
-      img: "https://media-exp1.licdn.com/dms/image/C4D03AQGeVAbG5dykXQ/profile-displayphoto-shrink_200_200/0?e=1599091200&v=beta&t=LYZI7zb6whWYZrhELQPiZJnR_pNEk9Q2C0x1NlclGNk",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C4D03AQGeVAbG5dykXQ/profile-displayphoto-shrink_200_200/0?e=1599091200&v=beta&t=LYZI7zb6whWYZrhELQPiZJnR_pNEk9Q2C0x1NlclGNk",
       links: {
         website: "http://www.bamz.xyz/",
         linkedin: "https://www.linkedin.com/in/adeoluwa-fabamise-46a694198/",
-        github: "https://github.com/Bamz-west"
+        github: "https://github.com/Bamz-west",
       },
       jobTitle: "Full-stack Developer",
       location: {
         city: "Lagos",
         state: "Lagos",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
       name: "Ashu Gupta",
-      img: "https://drive.google.com/file/d/1gOHtYkdHgW4PMjzKlny95GfNe3h8ZEfO/view?usp=sharing",
+      img:
+        "https://drive.google.com/file/d/1gOHtYkdHgW4PMjzKlny95GfNe3h8ZEfO/view?usp=sharing",
       links: {
         website: "https://ashugupta.tech",
         linkedin: "https://www.linkedin.com/in/ashugupta/",
-        github: "https://github.com/ashu10832"
+        github: "https://github.com/ashu10832",
       },
       jobTitle: "Software Developer",
       location: {
         city: "New Delhi",
         state: "Delhi",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -13463,18 +13533,19 @@ export const data = {
     {
       id: uuidv4(),
       name: "Gabriel Seals",
-      img: "https://avatars3.githubusercontent.com/u/52087296?s=400&u=a7e20c9f1d334651a8c2458314cbd6a260ea549c&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/52087296?s=400&u=a7e20c9f1d334651a8c2458314cbd6a260ea549c&v=4",
       links: {
         website: "https://gabrielseals.com/",
         linkedin: "https://www.linkedin.com/in/gabeseals",
-        github: "https://github.com/gseals"
+        github: "https://github.com/gseals",
       },
       jobTitle: "Full-Stack Software and Web Developer",
       location: {
         city: "Nashville",
         state: "Tennessee",
-        country: "United States"
-      }
-    }
-  ]
+        country: "United States",
+      },
+    },
+  ],
 }
