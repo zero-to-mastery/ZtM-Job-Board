@@ -13412,5 +13412,21 @@ export const data = {
         "country": "India"
       }
     },
+    {
+      id: uuidv4(),
+      name: "Fabamise Adeolu",
+      img: "https://media-exp1.licdn.com/dms/image/C4D03AQGeVAbG5dykXQ/profile-displayphoto-shrink_200_200/0?e=1599091200&v=beta&t=LYZI7zb6whWYZrhELQPiZJnR_pNEk9Q2C0x1NlclGNk",
+      links: {
+        website: "http://www.bamz.xyz/",
+        linkedin: "https://www.linkedin.com/in/adeoluwa-fabamise-46a694198/",
+        github: "https://github.com/Bamz-west"
+      },
+      jobTitle: "Full-stack Developer",
+      location: {
+        city: "Lagos",
+        state: "Lagos",
+        country: "Nigeria"
+      }
+    },
   ]
 }
