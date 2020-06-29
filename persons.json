@@ -159,7 +159,24 @@
   }
 },
 {
-  "id":1010,
+    "id": 1010,
+    "name": "Adi Gutner",
+    "img": "https://avatars1.githubusercontent.com/u/42630221",
+    "links": {
+      "website": "https://www.gooties.com",
+      "linkedin": "https://www.linkedin.com/in/adi-gutner/",
+      "github": "https://github.com/AdiGutner"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+      "city": "New York",
+      "state": "NY",
+      "country": "USA"
+    }
+  }
+},
+{
+  "id":1011,
   "name": "Anouar Chlih",
   "img":"https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528_960_720.jpg",
   "links": {
@@ -175,7 +192,7 @@
   }
 },
 {
-    "id": 1011,
+    "id": 1012,
     "name": "Sheldon Hooper",
     "img": "https://photos.app.goo.gl/6cnfe2rBfuLFBKgG7",
     "links": {
@@ -188,5 +205,55 @@
       "city": "Hoedspruit",
       "state": "Limpopo",
       "country": "South Africa"
+    }
+  }
+ ,{
+    "id": 1004,
+    "name": "Ehsan Zand",
+    "img": "https://avatars0.githubusercontent.com/u/22591967?s=460&u=af9d96af6ce95b499e3bc976fd6bbe24e134133d&v=4",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/ehsan-zand/",
+      "github": "https://github.com/Ehsan-Zand"
+    },
+    "jobTitle": "Full Stack Developer | Web Developer",
+    "location": {
+      "city": "Tehran",
+      "state": "Tehran Province",
+      "country": "Iran"
+    }
+  }
+
+
+  ,{
+    "id": 1013,
+    "name": "Madufor Chiemeka",
+    "img": "https://avatars2.githubusercontent.com/u/61386343?s=460&u=0d4dfd26031d0c85094386273287462de57e956d&v=4",
+    "links": {
+      "website": "https://elcozy.github.io/",
+      "linkedin": "https://www.linkedin.com/in/chiemekam/",
+      "github": "https://github.com/elcozy"
+    },
+    "jobTitle": "Front-end Web Developer",
+    "location": {
+      "city": "Debrecen",
+      "state": "",
+      "country": "Hungary"
+    }
+  }
+  ,{
+    "id": uuidv4(),
+    "name": "Pedro Calvo Herranz",
+    "img": "https://avatars1.githubusercontent.com/u/60217106?s=400&u=2eed60aadca5f6ae796764fbe2f07b4c7d73cc73&v=4",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/pedro-calvo-herranz-56561315a/",
+      "github": "https://github.com/pdr-clv"
+    },
+    "jobTitle": "FrontEnd React Developer",
+    "location": {
+      "city": "Moscow",
+      "state": "",
+      "country": "Russia"
     }
   }
