@@ -239,3 +239,21 @@
       "country": "Iran"
     }
   }
+
+
+  ,{
+    "id": 1013,
+    "name": "Madufor Chiemeka",
+    "img": "https://avatars2.githubusercontent.com/u/61386343?s=460&u=0d4dfd26031d0c85094386273287462de57e956d&v=4",
+    "links": {
+      "website": "https://elcozy.github.io/",
+      "linkedin": "https://www.linkedin.com/in/chiemekam/",
+      "github": "https://github.com/elcozy"
+    },
+    "jobTitle": "Front-end Web Developer",
+    "location": {
+      "city": "Debrecen",
+      "state": "",
+      "country": "Hungary"
+    }
+  }

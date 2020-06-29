@@ -13426,6 +13426,22 @@ export const data = {
         city: "Lagos",
         state: "Lagos",
         country: "Nigeria"
+      },
+      {
+
+      "id": uuidv4(),
+      "name": "Ashu Gupta",
+      "img": "https://drive.google.com/file/d/1gOHtYkdHgW4PMjzKlny95GfNe3h8ZEfO/view?usp=sharing",
+      "links": {
+        "website": "https://ashugupta.tech",
+        "linkedin": "https://www.linkedin.com/in/ashugupta/",
+        "github": "https://github.com/ashu10832"
+      },
+      "jobTitle": "Software Developer",
+      "location": {
+        "city": "New Delhi",
+        "state": "Delhi",
+        "country": "India"
       }
     },
   ]
