@@ -13426,9 +13426,9 @@ export const data = {
         city: "Lagos",
         state: "Lagos",
         country: "Nigeria"
-      },
-      {
-
+      }
+    },
+    {
       "id": uuidv4(),
       "name": "Ashu Gupta",
       "img": "https://drive.google.com/file/d/1gOHtYkdHgW4PMjzKlny95GfNe3h8ZEfO/view?usp=sharing",
@@ -13460,5 +13460,21 @@ export const data = {
         country: "Turkey",
       },
     },
+    {
+      "id": uuidv4(),
+      "name": "Gabriel Seals",
+      "img": "https://avatars3.githubusercontent.com/u/52087296?s=400&u=a7e20c9f1d334651a8c2458314cbd6a260ea549c&v=4",
+      "links": {
+        "website": "https://gabrielseals.com/",
+        "linkedin": "https://www.linkedin.com/in/gabeseals",
+        "github": "https://github.com/gseals"
+      },
+      "jobTitle": "Full-Stack Software and Web Developer",
+      "location": {
+        "city": "Nashville",
+        "state": "Tennessee",
+        "country": "United States"
+      }
+    }
   ]
 }

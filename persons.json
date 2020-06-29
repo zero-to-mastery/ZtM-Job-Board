@@ -206,22 +206,6 @@
       "state": "Limpopo",
       "country": "South Africa"
     }
-  },
-  {
-    "id": 1012,
-    "name": "Gabriel Seals",
-    "img": "https://avatars3.githubusercontent.com/u/52087296?s=400&u=a7e20c9f1d334651a8c2458314cbd6a260ea549c&v=4",
-    "links": {
-      "website": "https://gabrielseals.com/",
-      "linkedin": "https://www.linkedin.com/in/gabeseals",
-      "github": "https://github.com/gseals"
-    },
-    "jobTitle": "Full-Stack Software and Web Developer",
-    "location": {
-      "city": "Nashville",
-      "state": "Tennessee",
-      "country": "United States"
-    }
   }
  ,{
     "id": 1004,
