@@ -13397,19 +13397,19 @@ export const data = {
       }
     },
     {
-      "id": uuidv4(),
-      "name": "Avinash Konduri",
-      "img": "https://photos.app.goo.gl/zsQLi8tGzhH6Mwvt5",
-      "links": {
-        "website": "https://avinashkonduri.github.io/PersonalSite/",
-        "linkedin": "https://www.linkedin.com/in/avinash-konduri-b212a711/",
-        "github": "https://github.com/avinashkonduri"
+      id: uuidv4(),
+      name: "Avinash Konduri",
+      img: "https://photos.app.goo.gl/zsQLi8tGzhH6Mwvt5",
+      links: {
+        website: "https://avinashkonduri.github.io/PersonalSite/",
+        linkedin: "https://www.linkedin.com/in/avinash-konduri-b212a711/",
+        github: "https://github.com/avinashkonduri"
       },
-      "jobTitle": "Fullstack Developer",
-      "location": {
-        "city": "Hyderabad",
-        "state": "Telangana",
-        "country": "India"
+      jobTitle: "Fullstack Developer",
+      location: {
+        city: "Hyderabad",
+        state: "Telangana",
+        country: "India"
       }
     },
     {
@@ -13429,19 +13429,19 @@ export const data = {
       }
     },
     {
-      "id": uuidv4(),
-      "name": "Ashu Gupta",
-      "img": "https://drive.google.com/file/d/1gOHtYkdHgW4PMjzKlny95GfNe3h8ZEfO/view?usp=sharing",
-      "links": {
-        "website": "https://ashugupta.tech",
-        "linkedin": "https://www.linkedin.com/in/ashugupta/",
-        "github": "https://github.com/ashu10832"
+      id: uuidv4(),
+      name: "Ashu Gupta",
+      img: "https://drive.google.com/file/d/1gOHtYkdHgW4PMjzKlny95GfNe3h8ZEfO/view?usp=sharing",
+      links: {
+        website: "https://ashugupta.tech",
+        linkedin: "https://www.linkedin.com/in/ashugupta/",
+        github: "https://github.com/ashu10832"
       },
-      "jobTitle": "Software Developer",
-      "location": {
-        "city": "New Delhi",
-        "state": "Delhi",
-        "country": "India"
+      jobTitle: "Software Developer",
+      location: {
+        city: "New Delhi",
+        state: "Delhi",
+        country: "India"
       }
     },
     {
@@ -13461,19 +13461,19 @@ export const data = {
       },
     },
     {
-      "id": uuidv4(),
-      "name": "Gabriel Seals",
-      "img": "https://avatars3.githubusercontent.com/u/52087296?s=400&u=a7e20c9f1d334651a8c2458314cbd6a260ea549c&v=4",
-      "links": {
-        "website": "https://gabrielseals.com/",
-        "linkedin": "https://www.linkedin.com/in/gabeseals",
-        "github": "https://github.com/gseals"
+      id: uuidv4(),
+      name: "Gabriel Seals",
+      img: "https://avatars3.githubusercontent.com/u/52087296?s=400&u=a7e20c9f1d334651a8c2458314cbd6a260ea549c&v=4",
+      links: {
+        website: "https://gabrielseals.com/",
+        linkedin: "https://www.linkedin.com/in/gabeseals",
+        github: "https://github.com/gseals"
       },
-      "jobTitle": "Full-Stack Software and Web Developer",
-      "location": {
-        "city": "Nashville",
-        "state": "Tennessee",
-        "country": "United States"
+      jobTitle: "Full-Stack Software and Web Developer",
+      location: {
+        city: "Nashville",
+        state: "Tennessee",
+        country: "United States"
       }
     }
   ]
