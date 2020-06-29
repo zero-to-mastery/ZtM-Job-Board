@@ -2,12 +2,12 @@
 A place for developers from the [**Zero To Mastery Community**](https://zerotomastery.io/?utm_source=github&utm_medium=ZtM-Job-Board) to show recruiters that they are available for hire. Feel free to contribute and improve this in any way you see fit.
 
 ### How to add your name to the list
-To add your name to the list, simply open `persons.json` file in the `src/assets` folder, and then add your own row at the bottom, using the below template:
+To add your name to the list, simply open `persons.js` file in the `src/assets` folder, and then add your own row at the bottom, using the below template:
 ( **Don't include the square brackets "[ ]" !!! They are just there to indicate an example placeholder.** )
 
 ```moonscript
   ,{
-    "id": [PREVIOUS_PLUS_ONE],
+    "id": uuidv4(),
     "name": "[YOUR_FULL_NAME]",
     "img": "[YOUR_IMG_URL]",
     "links": {
