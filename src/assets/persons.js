@@ -13816,6 +13816,22 @@ export const data = {
       },
     },
     {
+    id: uuidv4(),
+    name: "Abdulfatai Suleiman",
+    img: "",
+    links: {
+      website: "https://iamnotstatic.github.io/",
+      linkedin: "https://www.linkedin.com/in/abdulfatai-suleiman-706ba6172/",
+      github: "https://github.com/iamnotstatic"
+    },
+    jobTitle: "Software Developer",
+    location: {
+      city: "De-Dei",
+      state: "Abuja",
+      country: "Nigeria"
+    },
+  },
+    {
       id: uuidv4(),
       name: "Rubén Morera",
       img:
