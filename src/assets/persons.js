@@ -13832,5 +13832,21 @@ export const data = {
         country: "USA",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Morgan King",
+      img: "https://avatars1.githubusercontent.com/u/61506669?s=460&v=4",
+      links: {
+        website: "http://moki929.space/",
+        linkedin: "https://www.linkedin.com/in/morganaking/",
+        github: "https://github.com/moki929",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Atlanta",
+        state: "Georgia",
+        country: "USA",
+      },
+    },
   ],
 }
