@@ -8661,11 +8661,11 @@ export const data = {
       name: "Puneet Kumar",
       img: "https://puneetkumarkaushik.github.io/img/profile.jpeg",
       links: {
-        website: "https://puneetkumarkaushik.github.io/",
+        website: "http://puneetkumarkaushik.tech",
         linkedin: "https://www.linkedin.com/in/puneet-kumar-294507a6/",
         github: "https://github.com/puneetkumarkaushik",
       },
-      jobTitle: "Software Engineer",
+      jobTitle: "MERN Stack Web Developer",
       location: {
         city: "Bangalore",
         state: "Karnataka",
