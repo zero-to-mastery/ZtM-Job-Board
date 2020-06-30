@@ -13594,6 +13594,56 @@ export const data = {
          state: "Uttar Pradesh",
          country: "India"
       }
-    }
+    },
+    {
+      id: uuidv4(),
+      name: "Micah Effiong",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C4E03AQHiXqHMZKJO2w/profile-displayphoto-shrink_200_200/0?e=1599091200&v=beta&t=AP3H6fvEkCKlCV1fNyBFWU3Wws_iR4Et9g3_ijo7-Sk",
+      links: {
+        website: "",
+        linkedin: "https://ng.linkedin.com/in/micaiah-effiong",
+        github: "https://github.com/micaiah-effiong",
+      },
+      jobTitle: "Web-Developer | NodeJs",
+      location: {
+        city: "Uyo",
+        state: "Akwa Ibom",
+        country: "Nigeria",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "M Ebraheem Ijaz",
+      img:
+        "https://portfolioebraheem.herokuapp.com/assets/img/testimonial-2.jpg",
+      links: {
+        website: "https://portfolioebraheem.herokuapp.com/portfolio",
+        linkedin: "https://www.linkedin.com/in/ebraheem-ijaz-0a685a122/",
+        github: "https://github.com/ebraheemijaz/",
+      },
+      jobTitle: "MERN Stack Developer",
+      location: {
+        city: "ISLAMABAD",
+        state: "Pakistan",
+        country: "Pakistan",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Jon Hualde",
+      img: "https://i.ibb.co/gzjZ6rF/Jon-3.png",
+      links: {
+        website: "https://jonhualde.github.io/",
+        linkedin: "https://www.linkedin.com/in/jonhualde/?locale=en_US",
+        github: "https://github.com/JonHualde",
+      },
+      jobTitle: "Front end developer",
+      location: {
+        city: "London",
+        state: "England",
+        country: "United Kingdom",
+      },
+    },
   ],
 }
