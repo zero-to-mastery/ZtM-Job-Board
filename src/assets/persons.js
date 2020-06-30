@@ -13816,21 +13816,21 @@ export const data = {
       },
     },
     {
-    id: uuidv4(),
-    name: "Abdulfatai Suleiman",
-    img: "",
-    links: {
-      website: "https://iamnotstatic.github.io/",
-      linkedin: "https://www.linkedin.com/in/abdulfatai-suleiman-706ba6172/",
-      github: "https://github.com/iamnotstatic"
+      id: uuidv4(),
+      name: "Abdulfatai Suleiman",
+      img: "",
+      links: {
+        website: "https://iamnotstatic.github.io/",
+        linkedin: "https://www.linkedin.com/in/abdulfatai-suleiman-706ba6172/",
+        github: "https://github.com/iamnotstatic",
+      },
+      jobTitle: "Software Developer",
+      location: {
+        city: "De-Dei",
+        state: "Abuja",
+        country: "Nigeria",
+      },
     },
-    jobTitle: "Software Developer",
-    location: {
-      city: "De-Dei",
-      state: "Abuja",
-      country: "Nigeria"
-    },
-  },
     {
       id: uuidv4(),
       name: "Rubén Morera",
@@ -13944,6 +13944,22 @@ export const data = {
         city: "",
         state: "",
         country: "USA/Belgium",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Jay Prakash Kalia",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/jay-prakash-1a0235154/",
+        github: "https://github.com/JAYKALIA007",
+      },
+      jobTitle: "Full-Stack Developer | Software Engineer",
+      location: {
+        city: "Bhubaneshwar",
+        state: "Odisha",
+        country: "India",
       },
     },
   ],
