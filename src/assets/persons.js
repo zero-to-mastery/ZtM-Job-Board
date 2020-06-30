@@ -13594,6 +13594,22 @@ export const data = {
         state: "Akwa Ibom",
         country: "Nigeria",
       },
+    },
+    {
+      "id": uuidv4(), 
+      "name": "M Ebraheem Ijaz", 
+      "img": "https://portfolioebraheem.herokuapp.com/assets/img/testimonial-2.jpg", 
+      "links": { 
+        "website": "https://portfolioebraheem.herokuapp.com/portfolio", 
+        "linkedin": "https://www.linkedin.com/in/ebraheem-ijaz-0a685a122/", 
+        "github": "https://github.com/ebraheemijaz/" 
+      }, 
+      "jobTitle": "MERN Stack Developer", 
+      "location": { 
+        "city": "ISLAMABAD", 
+        "state": "Pakistan", 
+        "country": "Pakistan"
+      }
     }
   ],
 }
