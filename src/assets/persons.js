@@ -13897,5 +13897,22 @@ export const data = {
         country: "United States of America",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Shezray Mirza",
+      img:
+        "https://avatars0.githubusercontent.com/u/64660355?s=400&u=9779a089808eb25ab0261354efb8aacb410b27d7&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/shezray/",
+        github: "https://github.com/shezray/",
+      },
+      jobTitle: "Front-End Developer",
+      location: {
+        city: "Chicago",
+        state: "IL",
+        country: "USA",
+      },
+    },
   ],
 }
