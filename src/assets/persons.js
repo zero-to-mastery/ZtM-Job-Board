@@ -13764,5 +13764,22 @@ export const data = {
         country: "United States",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Navneet Raju",
+      img:
+        "http://drive.google.com/uc?export=view&id=1PEFgITzJir2A9G-NVzbUEcJFgFp25Gqw",
+      links: {
+        website: "navneetraju66.github.io",
+        linkedin: "https://www.linkedin.com/in/navneet-raju-4a07b87b/",
+        github: "https://github.com/navneetraju66",
+      },
+      jobTitle: "Research Intern and Mentor",
+      location: {
+        city: "Bengaluru",
+        state: "Karnataka",
+        country: "India",
+      },
+    },
   ],
 }
