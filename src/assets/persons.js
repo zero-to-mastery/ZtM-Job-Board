@@ -13848,5 +13848,21 @@ export const data = {
         country: "USA",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Pradip Mudi",
+      img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.linkedin.com%2Fin%2Fpradip-mudi-5a418b8a&psig=AOvVaw0adVK0FIvuqlrFReHDMBhD&ust=1590227599502000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDBkMuZx-kCFQAAAAAdAAAAABAJ",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/pradip-mudi-5a418b8a/",
+        github: "https://github.com/pradipmudi"
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "Hyderabad",
+        state: "Telangana",
+        country: "India"
+      }
+    }
   ],
 }
