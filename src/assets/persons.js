@@ -13579,5 +13579,21 @@ export const data = {
         country: "Egypt",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Jon Hualde",
+      img: "https://i.ibb.co/gzjZ6rF/Jon-3.png",
+      links: {
+        website: "https://jonhualde.github.io/",
+        linkedin: "https://www.linkedin.com/in/jonhualde/?locale=en_US",
+        github: "https://github.com/JonHualde",
+      },
+      jobTitle: "Front end developer",
+      location: {
+        city: "London",
+        state: "England",
+        country: "United Kingdom",
+      },
+    },
   ],
 }
