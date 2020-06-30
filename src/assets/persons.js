@@ -13781,5 +13781,22 @@ export const data = {
         country: "India",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Arun kumar Singh",
+      img:
+        "https://avatars1.githubusercontent.com/u/32652525?s=460&u=f39b4425e04cd21fa7ccde150424931f08b5e2a3&v=4",
+      links: {
+        website: "https://arunsinghsnd.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/arun-singh1999/",
+        github: "https://www.linkedin.com/in/arun-singh1999/",
+      },
+      jobTitle: "Full-Stack Developer",
+      location: {
+        city: "Dhanbad",
+        state: "Jharkhand",
+        country: "India",
+      },
+    },
   ],
 }
