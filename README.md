@@ -7,19 +7,19 @@ To add your name to the list, simply open `persons.js` file in the `src/assets` 
 
 ```moonscript
   ,{
-    "id": uuidv4(),
-    "name": "[YOUR_FULL_NAME]",
-    "img": "[YOUR_IMG_URL]",
-    "links": {
-      "website": "[YOUR_WEBSITE_URL]",
-      "linkedin": "[YOUR_LINKEDIN_URL]",
-      "github": "[YOUR_GITHUB_URL]"
+    id: uuidv4(),
+    name: "[YOUR_FULL_NAME]",
+    img: "[YOUR_IMG_URL]",
+    links: {
+      website: "[YOUR_WEBSITE_URL]",
+      linkedin: "[YOUR_LINKEDIN_URL]",
+      github: "[YOUR_GITHUB_URL]"
     },
-    "jobTitle": "[YOUR_TITLE]",
-    "location": {
-      "city": "[YOUR_CITY]",
-      "state": "[YOUR_STATE_OR_PROVINCE]",
-      "country": "[YOUR_COUNTRY]"
+    jobTitle: "[YOUR_TITLE]",
+    location: {
+      city: "[YOUR_CITY]",
+      state: "[YOUR_STATE_OR_PROVINCE]",
+      country: "[YOUR_COUNTRY]"
     }
   }
 ```
