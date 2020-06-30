@@ -13851,18 +13851,35 @@ export const data = {
     {
       id: uuidv4(),
       name: "Pradip Mudi",
-      img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.linkedin.com%2Fin%2Fpradip-mudi-5a418b8a&psig=AOvVaw0adVK0FIvuqlrFReHDMBhD&ust=1590227599502000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDBkMuZx-kCFQAAAAAdAAAAABAJ",
+      img:
+        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.linkedin.com%2Fin%2Fpradip-mudi-5a418b8a&psig=AOvVaw0adVK0FIvuqlrFReHDMBhD&ust=1590227599502000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDBkMuZx-kCFQAAAAAdAAAAABAJ",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/pradip-mudi-5a418b8a/",
-        github: "https://github.com/pradipmudi"
+        github: "https://github.com/pradipmudi",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Hyderabad",
         state: "Telangana",
-        country: "India"
-      }
-    }
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Jasper Beachy",
+      img: "https://www.dropbox.com/s/wurudmom8pqqgwu/20190312_171808.jpg?dl=0",
+      links: {
+        website: "https://jasperbeachy.now.sh/",
+        linkedin: "https://www.linkedin.com/in/jasperbeachy/",
+        github: "https://github.com/jbeachy21",
+      },
+      jobTitle: "Front-end web developer",
+      location: {
+        city: "Minneapolis",
+        state: "MN",
+        country: "USA",
+      },
+    },
   ],
 }
