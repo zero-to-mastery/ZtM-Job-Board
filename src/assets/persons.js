@@ -13680,5 +13680,22 @@ export const data = {
         country: "Nigeria",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Ivan(Yufei) Zhang",
+      img:
+        "https://avatars3.githubusercontent.com/u/32757827?s=460&u=afc7ac52aaf0e238a419186f1124b03f4aa701cf&v=4",
+      links: {
+        website: "https://www.yufeiz.com",
+        linkedin: "https://www.linkedin.com/in/yufeiz222",
+        github: "https://github.com/YufeiZhang2",
+      },
+      jobTitle: "Junior Software Developer",
+      location: {
+        city: "Sydney",
+        state: "NSW",
+        country: "Australia",
+      },
+    },
   ],
 }
