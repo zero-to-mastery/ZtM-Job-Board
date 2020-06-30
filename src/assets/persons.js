@@ -13578,7 +13578,8 @@ export const data = {
         state: "Mansoura",
         country: "Egypt",
       },
-      {
+    },
+    {
         id: uuidv4(),
         name: "Ashutosh Dwivedi",
         img: "https://avatars0.githubusercontent.com/u/42907572?s=460&u=3c5c03fdddeec2483819b845bd549616d48b71e5&v=4",
@@ -13593,6 +13594,6 @@ export const data = {
          state: "Uttar Pradesh",
          country: "India"
       }
-    },
+    }
   ],
 }
