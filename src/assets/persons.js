@@ -13730,5 +13730,22 @@ export const data = {
         country: "United States",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Ibrahim Satria",
+      img:
+        "https://avatars1.githubusercontent.com/u/49900199?s=460&u=4746331f3f58fdd1aea38ff6187cee90e1fe331e&v=4",
+      links: {
+        website: "https://ibrahimsatria.xyz/",
+        linkedin: "https://www.linkedin.com/in/ibrahim-satria-56a779185/",
+        github: "https://github.com/shipdyded",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "",
+        state: "Bandar Seri Begawan",
+        country: "Brunei Darussalam",
+      },
+    },
   ],
 }
