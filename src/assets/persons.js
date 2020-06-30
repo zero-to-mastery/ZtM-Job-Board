@@ -13595,6 +13595,5 @@ export const data = {
         country: "Nigeria",
       },
     }
-  }
   ],
 }
