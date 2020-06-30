@@ -13697,5 +13697,22 @@ export const data = {
         country: "Australia",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Yap Feng Yuan",
+      img:
+        "https://avatars0.githubusercontent.com/u/58755531?s=400&u=8048ff4f4351073924c113545dc1893d1db35a48&v=4",
+      links: {
+        website: "https://clever-joliot-d7cbd7.netlify.app",
+        linkedin: "https://www.linkedin.com/in/fengyuan-yap-489b7b126/",
+        github: "https://github.com/TheKinng96",
+      },
+      jobTitle: "Frontend Developer",
+      location: {
+        city: "Komae",
+        state: "Tokyo",
+        country: "Japan",
+      },
+    },
   ],
 }
