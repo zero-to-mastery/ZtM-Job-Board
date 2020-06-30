@@ -13579,5 +13579,22 @@ export const data = {
         country: "Egypt",
       },
     },
+    {
+     id: uuidv4(),
+      name: "Micah Effiong",
+      img: "https://media-exp1.licdn.com/dms/image/C4E03AQHiXqHMZKJO2w/profile-displayphoto-shrink_200_200/0?e=1599091200&v=beta&t=AP3H6fvEkCKlCV1fNyBFWU3Wws_iR4Et9g3_ijo7-Sk",
+      links: {
+        website: "",
+        linkedin: "https://ng.linkedin.com/in/micaiah-effiong",
+        github: "https://github.com/micaiah-effiong"
+      },
+      jobTitle: "Web-Developer | NodeJs",
+      location: {
+        city: "Uyo",
+        state: "Akwa Ibom",
+        country: "Nigeria",
+      },
+    }
+  }
   ],
 }
