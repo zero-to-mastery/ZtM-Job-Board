@@ -13663,5 +13663,22 @@ export const data = {
         country: "Iran",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Oluwakeye John",
+      img:
+        "https://avatars1.githubusercontent.com/u/43508135?s=460&u=a4a7dd9c9e899b7e1856d6ef92f9719b77529ee8&v=4",
+      links: {
+        website: "https://oluwakeyejohn.netlify.app",
+        linkedin: "https://www.linkedin.com/in/oluwakeye-john-1706/",
+        github: "https://github.com/oluwakeye-john",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Ibadan",
+        state: "Oyo",
+        country: "Nigeria",
+      },
+    },
   ],
 }
