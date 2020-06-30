@@ -13914,5 +13914,21 @@ export const data = {
         country: "USA",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Jeff Landers",
+      img: "http://jlanders12.pythonanywhere.com/static/images/profile3.jpg",
+      links: {
+        website: "http://jlanders12.pythonanywhere.com/",
+        linkedin: "",
+        github: "https://github.com/j994",
+      },
+      jobTitle: "Full-Stack Web Developer",
+      location: {
+        city: "",
+        state: "",
+        country: "USA/Belgium",
+      },
+    },
   ],
 }
