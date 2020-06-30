@@ -13578,6 +13578,21 @@ export const data = {
         state: "Mansoura",
         country: "Egypt",
       },
+      {
+        "id": uuidv4(),
+        "name": "Ashutosh Dwivedi",
+        "img": "https://avatars0.githubusercontent.com/u/42907572?s=460&u=3c5c03fdddeec2483819b845bd549616d48b71e5&v=4",
+        "links": {
+          "website": "",
+          "linkedin": "https://www.linkedin.com/in/ashutosh-dwivedi-b3025b196/",
+          "github": "https://github.com/Ashutosh00710"
+       },
+       "jobTitle": "Full Stack Developer",
+       "location": {
+       "city": "Lucknow",
+       "state": "Uttar Pradesh",
+       "country": "India"
+      }
     },
   ],
 }
