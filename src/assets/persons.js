@@ -13881,5 +13881,21 @@ export const data = {
         country: "USA",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Kristy Bell",
+      img: "https://avatars0.githubusercontent.com/u/50686838?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/kristy-bell",
+        github: "https://github.com/kristybell",
+      },
+      jobTitle: "Data Scientist/Machine Learning Engineer",
+      location: {
+        city: "New York",
+        state: "New York",
+        country: "United States of America",
+      },
+    },
   ],
 }
