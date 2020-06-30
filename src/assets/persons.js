@@ -13747,5 +13747,22 @@ export const data = {
         country: "Brunei Darussalam",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Aaron Cloet",
+      img: "https://avatars1.githubusercontent.com/u/35313651?s=460&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/aaron-cloet-9972b9152/",
+        github: "https://github.com/acloet22",
+      },
+      jobTitle:
+        "Freelance software Developer(searching for fulltime employment)",
+      location: {
+        city: "Omaha",
+        state: "Nebraska",
+        country: "United States",
+      },
+    },
   ],
 }
