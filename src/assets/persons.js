@@ -13815,5 +13815,22 @@ export const data = {
         country: "Lithuania",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Rubén Morera",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C4E03AQHTHn2eJQRR8Q/profile-displayphoto-shrink_200_200/0?e=1596067200&v=beta&t=WgyQRo6xEuuKzXuou9kOytIkSIrvFJA5rlTsB7w7K84",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/rubenmorera/",
+        github: "https://gitlab.com/Ruben-1",
+      },
+      jobTitle: "Software Engineer/Developer",
+      location: {
+        city: "San Francisco Bay Area",
+        state: "CA",
+        country: "USA",
+      },
+    },
   ],
 }
