@@ -13714,5 +13714,21 @@ export const data = {
         country: "Japan",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Hung Nguyen",
+      img: "https://avatars3.githubusercontent.com/u/33242351?s=400&v=4",
+      links: {
+        website: "https://hungapp.github.io/",
+        linkedin: "https://www.linkedin.com/in/hung-viet-nguyen/",
+        github: "https://github.com/hungapp",
+      },
+      jobTitle: "Full Stack Engineer",
+      location: {
+        city: "Boston",
+        state: "Massachusetts",
+        country: "United States",
+      },
+    },
   ],
 }
