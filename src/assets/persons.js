@@ -13816,37 +13816,20 @@ export const data = {
       },
     },
     {
-      id: uuidv4(),
-      name: "Rubén Morera",
-      img:
-        "https://media-exp1.licdn.com/dms/image/C4E03AQHTHn2eJQRR8Q/profile-displayphoto-shrink_200_200/0?e=1596067200&v=beta&t=WgyQRo6xEuuKzXuou9kOytIkSIrvFJA5rlTsB7w7K84",
-      links: {
-        website: "",
-        linkedin: "https://www.linkedin.com/in/rubenmorera/",
-        github: "https://gitlab.com/Ruben-1",
-      },
-      jobTitle: "Software Engineer/Developer",
-      location: {
-        city: "San Francisco Bay Area",
-        state: "CA",
-        country: "USA",
-      },
+    id: uuidv4(),
+    name: "Abdulfatai Suleiman",
+    img: "",
+    links: {
+      website: "https://iamnotstatic.github.io/",
+      linkedin: "https://www.linkedin.com/in/abdulfatai-suleiman-706ba6172/",
+      github: "https://github.com/iamnotstatic"
     },
-    {
-      id: uuidv4(),
-      name: "Morgan King",
-      img: "https://avatars1.githubusercontent.com/u/61506669?s=460&v=4",
-      links: {
-        website: "http://moki929.space/",
-        linkedin: "https://www.linkedin.com/in/morganaking/",
-        github: "https://github.com/moki929",
-      },
-      jobTitle: "Web Developer",
-      location: {
-        city: "Atlanta",
-        state: "Georgia",
-        country: "USA",
-      },
-    },
+    jobTitle: "Software Developer",
+    location: {
+      city: "De-Dei",
+      state: "Abuja",
+      country: "Nigeria"
+    }
+  }
   ],
 }
