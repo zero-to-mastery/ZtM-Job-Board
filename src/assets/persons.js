@@ -14012,5 +14012,22 @@ export const data = {
         country: "United States of America",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Priyanka Wankhade",
+      img:
+        "https://drive.google.com/file/d/1f7T8c0nMzGTED24jdh6OPIHpp31Sg_HQ/view?usp=sharing",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/priyanka-wankhade-277134155",
+        github: "https://github.com/pgwankhade",
+      },
+      jobTitle: "Full-Stack Web Developer",
+      location: {
+        city: "Pune",
+        state: "Maharashtra",
+        country: "INDIA",
+      },
+    },
   ],
 }
