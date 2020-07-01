@@ -14063,5 +14063,22 @@ export const data = {
         country: "Greece",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Nicholas Markus",
+      img:
+        "https://avatars3.githubusercontent.com/u/21057939?s=400&u=2495152160f48382892b4772a57ccf97be7e5e3f&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/nicholas-chun-markus-0b0136a2/",
+        github: "https://github.com/nicxzmiller",
+      },
+      jobTitle: "UI Designer | Frontend Developer",
+      location: {
+        city: "Valletta",
+        state: "Malta",
+        country: "Malta",
+      },
+    },
   ],
 }
