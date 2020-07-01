@@ -8661,11 +8661,11 @@ export const data = {
       name: "Puneet Kumar",
       img: "https://puneetkumarkaushik.github.io/img/profile.jpeg",
       links: {
-        website: "https://puneetkumarkaushik.github.io/",
+        website: "http://puneetkumarkaushik.tech",
         linkedin: "https://www.linkedin.com/in/puneet-kumar-294507a6/",
         github: "https://github.com/puneetkumarkaushik",
       },
-      jobTitle: "Software Engineer",
+      jobTitle: "MERN Stack Web Developer",
       location: {
         city: "Bangalore",
         state: "Karnataka",
@@ -13550,7 +13550,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Charles Baisch",
-      img: "https://avatars2.githubusercontent.com/u/58837693?s=460&u=1256e0355690a3f231594c993d3ee29fd26e5d7c&v=4", 
+      img:
+        "https://avatars2.githubusercontent.com/u/58837693?s=460&u=1256e0355690a3f231594c993d3ee29fd26e5d7c&v=4",
       links: {
         website: "https://www.baischdevelopment.com",
         linkedin: "https://www.linkedin.com/in/charles-baisch/",

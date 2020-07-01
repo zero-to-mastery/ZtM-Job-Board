@@ -2,7 +2,7 @@
   "name": "jobboard",
   "version": "0.2.0",
   "private": true,
-  "homepage": "https://zero-to-mastery.github.io/ZtM-Job-Board",
+  "homepage": "https://alumni-board.netlify.app/",
   "dependencies": {
     "@types/jest": "^25.1.4",
     "@types/node": "^13.9.5",
