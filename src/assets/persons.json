@@ -12577,7 +12577,7 @@
         "state": "Telangana",
         "country": "India"
         }
-      },
+    },
     {
       "id": 871,
       "name": "Darryl Nicerio",
@@ -12673,8 +12673,8 @@
         "state": "Federation of Bosnia and Herzegovina",
         "country": "Bosnia and Herzegovina"
       }
-    }
-    ,{
+    },
+    {
       "id": 877,
       "name": "Kevin Wang",
       "img": "https://www.kevinwang.space/avatar.jpeg",
@@ -12689,8 +12689,8 @@
         "state": "",
         "country": "United Kingdom"
       }
-    }
-    ,{
+    },
+    {
       "id": 877,
       "name": "Saumya Bhatt",
       "img": "https://saumya-bhatt.github.io/img/profile.jpeg",
@@ -12705,8 +12705,8 @@
         "state": "Goa",
         "country": "India"
       }
-    }
-    ,{
+    },
+    {
       "id": 878,
       "name": "Ganesh Mali",
       "img": " ",
@@ -12721,8 +12721,8 @@
         "state": "Maharashtra",
         "country": "India"
       }
-    }
-    ,{
+    },
+    {
       "id": 879,
       "name": "Bianca Goncalves",
       "img": "",
@@ -12736,23 +12736,22 @@
         "city": "Henderson",
         "state": "Nevada",
         "country": "United States"
+      },
+      {
+        "id": 871,
+        "name": "Pavan T",
+        "img": "https://pavanskipo.com/assets/img/me.png",
+        "links": {
+          "website": "https://pavanskipo.com/",
+          "linkedin": "https://www.linkedin.com/in/pavan-t/",
+          "github": "https://github.com/pavanskipo"
+        },
+        "jobTitle": "Software Developer | Aspiring Data Scientist | ML Enthusiast",
+        "location": {
+          "city": "Chennai",
+          "state": "Tamil Nadu",
+          "country": "India"
+        }
       }
-    },
-  {
-    "id": 880,
-    "name": "Adwiteeya",
-    "img": "",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/adwiteeya/",
-      "github": "https://github.com/adwiteeya3"
-    },
-    "jobTitle": "Software Developer",
-    "location": {
-      "city": "Bangalore",
-      "state": "Karnataka",
-      "country": "India"
-    }
-  }
   ]
 }

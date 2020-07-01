@@ -1,11 +1,11 @@
-import React, { useState, lazy, Suspense } from "react"
+import React, { useState, lazy, Suspense } from 'react';
 import Search from "./components/Search"
 import { createFilter } from "react-search-input"
 import { shuffle } from "./util/shuffle"
 import "./styles/SearchBarMobileView.scss"
 import BatchCards from "./components/BatchCards"
 import Navbar from "./components/Navbar"
-import data from "./assets/persons.json"
+import { data } from "./assets/persons.js"
 const SimpleMap = lazy(() => import("./components/Map"))
 
 const people: any = data.people
