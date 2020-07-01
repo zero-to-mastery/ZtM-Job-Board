@@ -14113,5 +14113,22 @@ export const data = {
         country: "INDIA",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Jake Heath",
+      img:
+        "https://www.facebook.com/photo.php?fbid=939401296422295&set=a.119026958459737&type=3&theater",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/jake-heath-0b38aa196/",
+        github: "https://github.com/jakedheath123",
+      },
+      jobTitle: "Junior Full Stack Developer | Northcoders Graduate",
+      location: {
+        city: "Leeds",
+        state: "",
+        country: "United Kingdom",
+      },
+    },
   ],
 }
