@@ -14166,23 +14166,6 @@ export const data = {
     },
     {
       id: uuidv4(),
-      name: "Chuck Baisch",
-      img:
-        "https://avatars2.githubusercontent.com/u/58837693?s=460&u=1256e0355690a3f231594c993d3ee29fd26e5d7c&v=4",
-      links: {
-        website: "https://www.baischdevelopment.com/",
-        linkedin: "https://www.linkedin.com/in/charles-baisch/",
-        github: "https://github.com/Baisch91",
-      },
-      jobTitle: "Full Stack Web Developer",
-      location: {
-        city: "Orlando",
-        state: "Florida",
-        country: "United States",
-      },
-    },
-    {
-      id: uuidv4(),
       name: "Alabi Muhydeen Olaniyi",
       img:
         "https://gitlab.com/uploads/-/system/user/avatar/6062175/avatar.png?width=400",
@@ -14196,6 +14179,23 @@ export const data = {
         city: "",
         state: "Lagos",
         country: "Nigeria",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Chuck Baisch",
+      img:
+        "https://avatars2.githubusercontent.com/u/58837693?s=460&u=1256e0355690a3f231594c993d3ee29fd26e5d7c&v=4",
+      links: {
+        website: "https://www.baischdevelopment.com/",
+        linkedin: "https://www.linkedin.com/in/charles-baisch/",
+        github: "https://github.com/Baisch91",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Orlando",
+        state: "Florida",
+        country: "United States",
       },
     },
   ],
