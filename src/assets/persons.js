@@ -13564,5 +13564,21 @@ export const data = {
         country: "United States",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Ismail Ramjean",
+      img: "https://avatars2.githubusercontent.com/u/58746428?v=4",
+      links: {
+        website: "https://thenoobcoderd.github.io/startup-of-the-year/",
+        linkedin: "https://www.linkedin.com/in/ismail-ramjean-9a063018a/",
+        github: "https://github.com/theNoobCoderd"
+      },
+      jobTitle: "FullStack Developer",
+      location: {
+        city: "-",
+        state: "Savanne",
+        country: "Mauritius"
+      }
+    }
   ],
 }
