@@ -14244,6 +14244,22 @@ export const data = {
         state: "Tamil Nadu",
         country: "India"
       }
+    },
+    {
+      id: uuidv4(),
+      name: "Wellington Lopes",
+      img: "https://avatars0.githubusercontent.com/u/1489470?s=400&u=8c9776c63520d19541862b8138a188193effb967&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/wellington-lopes-15690/",
+        github: "https://github.com/wellingtonlopes"
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Manaus",
+        state: "Amazonas",
+        country: "Brazil"
+      }
     }
   ],
 }
