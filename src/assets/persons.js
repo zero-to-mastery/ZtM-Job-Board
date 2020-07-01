@@ -14166,6 +14166,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "MD.Rakibul Hassan",
+      img: "https://www.linkedin.com/in/rakibul-hassan-designer/",
+      links: {
+        website: "http://rakibul.pythonanywhere.com/",
+        linkedin: "https://www.linkedin.com/in/rakibul-hassan-designer/",
+        github: "https://github.com/tanvirakibul",
+      },
+      jobTitle: "Machine Learning Engineer",
+      location: {
+        city: "Dhaka",
+        state: "",
+        country: "Bangladesh",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Alabi Muhydeen Olaniyi",
       img:
         "https://gitlab.com/uploads/-/system/user/avatar/6062175/avatar.png?width=400",
