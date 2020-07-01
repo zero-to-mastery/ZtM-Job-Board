@@ -13962,5 +13962,22 @@ export const data = {
         country: "India",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Haoli Yang",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C4D03AQFoZs5Ko4iTaw/profile-displayphoto-shrink_800_800/0?e=1596067200&v=beta&t=8OtfU2QeNkrabcPgm7_JmfeAXPB4HraSTUM_F4gxRe0",
+      links: {
+        website: "https://hyang77.github.io/Haoli_portfolio/",
+        linkedin: "https://www.linkedin.com/in/haoliyang0312/",
+        github: "https://github.com/hyang77/",
+      },
+      jobTitle: "Front-End Developer",
+      location: {
+        city: "Chicago",
+        state: "Illinois",
+        country: "United States",
+      },
+    },
   ],
 }
