@@ -14029,5 +14029,22 @@ export const data = {
         country: "INDIA",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Ilija",
+      img:
+        "https://avatars0.githubusercontent.com/u/26030847?s=400&u=d064ec65c22d0200ed1a674b6ae152d1e34b5fe2&v=4",
+      links: {
+        website: "https://ilija03.tk/",
+        linkedin: "https://www.linkedin.com/in/ilija-savic-03/",
+        github: "https://github.com/Archaeologist03",
+      },
+      jobTitle: "JavaScript | React Developer",
+      location: {
+        city: "",
+        state: "",
+        country: "Serbia",
+      },
+    },
   ],
 }
