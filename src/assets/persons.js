@@ -14130,5 +14130,22 @@ export const data = {
         country: "United Kingdom",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Necula Andra Gabriela",
+      img:
+        "https://avatars1.githubusercontent.com/u/37038210?s=460&u=6b75e01966e1e0fc7a885859c169e4ebd81ed800&v=4",
+      links: {
+        website: "https://dummy-andra.github.io/index.html",
+        linkedin: "https://www.linkedin.com/in/neculaandra/",
+        github: "https://github.com/dummy-andra",
+      },
+      jobTitle: "DevOps Engineer",
+      location: {
+        city: "Bucharest",
+        state: "Bucharest",
+        country: "Romania",
+      },
+    },
   ],
 }
