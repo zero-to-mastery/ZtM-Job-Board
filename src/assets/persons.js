@@ -14080,5 +14080,21 @@ export const data = {
         country: "Malta",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Mayuresh Zende",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/mayuresh-zende",
+        github: "https://github.com/mayureshzende/",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "pune",
+        state: "Maharastra",
+        country: "India",
+      },
+    },
   ],
 }
