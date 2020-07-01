@@ -14150,18 +14150,35 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jared Morris",
-      img:"https://media-exp1.licdn.com/dms/image/C5603AQHKOVBHLYk9LA/profile-displayphoto-shrink_200_200/0?e=1597881600&v=beta&t=N6Qo17q5r_5DsmaEZrCv53BMraSsQqv_F4jG9MupWWo",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C5603AQHKOVBHLYk9LA/profile-displayphoto-shrink_200_200/0?e=1597881600&v=beta&t=N6Qo17q5r_5DsmaEZrCv53BMraSsQqv_F4jG9MupWWo",
       links: {
         website: "https://www.jaredmsoftwares.com/",
         linkedin: "https://www.linkedin.com/in/jared-morris-b43527b9/",
-        github: "https://github.com/jemraider21"
+        github: "https://github.com/jemraider21",
       },
       jobTitle: "Software Developer",
       location: {
         city: "Ellicott City",
         state: "Maryland",
-        country: "United States"
-      }
-    }
+        country: "United States",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "MD.Rakibul Hassan",
+      img: "https://www.linkedin.com/in/rakibul-hassan-designer/",
+      links: {
+        website: "http://rakibul.pythonanywhere.com/",
+        linkedin: "https://www.linkedin.com/in/rakibul-hassan-designer/",
+        github: "https://github.com/tanvirakibul",
+      },
+      jobTitle: "Machine Learning Engineer",
+      location: {
+        city: "Dhaka",
+        state: "",
+        country: "Bangladesh",
+      },
+    },
   ],
 }
