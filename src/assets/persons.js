@@ -14180,5 +14180,22 @@ export const data = {
         country: "Bangladesh",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Alabi Muhydeen Olaniyi",
+      img:
+        "https://gitlab.com/uploads/-/system/user/avatar/6062175/avatar.png?width=400",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/alabi-muhydeen-o-46a9348a/",
+        github: "https://github.com/muhydeen95",
+      },
+      jobTitle: "Jnr Frontend Developer",
+      location: {
+        city: "",
+        state: "Lagos",
+        country: "Nigeria",
+      },
+    },
   ],
 }
