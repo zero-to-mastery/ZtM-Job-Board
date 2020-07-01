@@ -13979,5 +13979,21 @@ export const data = {
         country: "United States",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Ankitha C",
+      img: "",
+      links: {
+        website: "https://ankithac.github.io//",
+        linkedin: "https://www.linkedin.com/in/ankitha-chowlur-0a47821a4/",
+        github: "https://github.com/ankithac",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Bangalore",
+        state: "Karnataka",
+        country: "India",
+      },
+    },
   ],
 }
