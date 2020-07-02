@@ -14259,7 +14259,23 @@ export const data = {
         city: "Manaus",
         state: "Amazonas",
         country: "Brazil"
-      }
-    }
-  ],
-}
+      },
+    },
+
+    {
+        "id": 872,
+        "name": "Jallah Sumbo",
+        "img": "https://avatars1.githubusercontent.com/u/31574317?s=460&u=9b6f28dcb60fab40e1a5cccb5776ccb19a52dace&v=4",
+        "links": {
+          "website": "",
+          "linkedin": "https://www.linkedin.com/in/jallah-sumbo-222b25113/",
+          "github": "https://github.com/Sumbo-1"
+        },
+        {
+       "jobTitle": "Software Developer | Open Source Enthusiast | Aspiring Data Scientist"
+        "location": {
+          "city": "Monrovia",
+          "state": "Montserrado",
+          "country": "Liberia"
+        }
+      }}
