@@ -14312,5 +14312,21 @@ export const data = {
         country: "India",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Kiran A",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/kiran-anand-6b053513a/",
+        github: "https://github.com/KiranVegeta",
+      },
+      jobTitle: "Software Developer",
+      location: {
+        city: "Bangalore",
+        state: "Karnataka",
+        country: "India",
+      },
+    },
   ],
 }
