@@ -14221,45 +14221,63 @@ export const data = {
       links: {
         website: "https://thenoobcoderd.github.io/startup-of-the-year/",
         linkedin: "https://www.linkedin.com/in/ismail-ramjean-9a063018a/",
-        github: "https://github.com/theNoobCoderd"
+        github: "https://github.com/theNoobCoderd",
       },
       jobTitle: "FullStack Developer",
       location: {
         city: "-",
         state: "Savanne",
-        country: "Mauritius"
-      }
-    }, {
+        country: "Mauritius",
+      },
+    },
+    {
       id: uuidv4(),
       name: "Pavan T",
       img: "https://pavanskipo.com/assets/img/me.png",
       links: {
         website: "https://pavanskipo.com/",
         linkedin: "https://www.linkedin.com/in/pavan-t/",
-        github: "https://github.com/pavanskipo"
-        },
+        github: "https://github.com/pavanskipo",
+      },
       jobTitle: "Software Developer | Aspiring Data Scientist | ML Enthusiast",
       location: {
         city: "Chennai",
         state: "Tamil Nadu",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
       name: "Wellington Lopes",
-      img: "https://avatars0.githubusercontent.com/u/1489470?s=400&u=8c9776c63520d19541862b8138a188193effb967&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/1489470?s=400&u=8c9776c63520d19541862b8138a188193effb967&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/wellington-lopes-15690/",
-        github: "https://github.com/wellingtonlopes"
+        github: "https://github.com/wellingtonlopes",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Manaus",
         state: "Amazonas",
-        country: "Brazil"
-      }
-    }
+        country: "Brazil",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Ganesh Mali",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/ganesh-mali-77aab6137/",
+        github: "https://github.com/Ganesh-mali",
+      },
+      jobTitle: "Junior software developer",
+      location: {
+        city: "Mumbai",
+        state: "Maharashtra",
+        country: "India",
+      },
+    },
   ],
 }
