@@ -14296,5 +14296,21 @@ export const data = {
         country: "United States",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Saumya Bhatt",
+      img: "https://saumya-bhatt.github.io/img/profile.jpeg",
+      links: {
+        website: "https://saumya-bhatt.github.io/",
+        linkedin: "https://www.linkedin.com/in/saumya-bhatt-2000/",
+        github: "https://github.com/Saumya-Bhatt",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Panji",
+        state: "Goa",
+        country: "India",
+      },
+    },
   ],
 }
