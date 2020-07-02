@@ -14345,5 +14345,21 @@ export const data = {
         country: "Canada",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Riketa Goel",
+      img: "",
+      links: {
+        website: "http://riketagoel.blogspot.com/",
+        linkedin: "https://www.linkedin.com/in/riketagarggoel/",
+        github: "https://github.com/riketag",
+      },
+      jobTitle: "Freelancer",
+      location: {
+        city: "Mumbai",
+        state: "Maharashtra",
+        country: "India",
+      },
+    },
   ],
 }
