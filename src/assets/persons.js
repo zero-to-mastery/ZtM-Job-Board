@@ -14361,5 +14361,21 @@ export const data = {
         country: "India",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Christine Trant",
+      img: "https://github.com/christinetrant.png",
+      links: {
+        website: "https://www.christinetrant.com/",
+        linkedin: "https://www.linkedin.com/in/christinetrant/",
+        github: "https://github.com/christinetrant",
+      },
+      jobTitle: "Front End Web Developer",
+      location: {
+        city: "Peckham",
+        state: "London",
+        country: "UK",
+      },
+    },
   ],
 }
