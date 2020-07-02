@@ -14279,5 +14279,22 @@ export const data = {
         country: "India",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Peter Kang",
+      img:
+        "https://avatars1.githubusercontent.com/u/57653839?s=400&u=053fa2d039ab1cac516b05a50e1a0a4cf378f4d2&v=4",
+      links: {
+        website: "https://www.pswk1.com/",
+        linkedin: "https://www.linkedin.com/in/peterswkang/",
+        github: "https://github.com/pswk1",
+      },
+      jobTitle: "Software Engineer | Web Developer | Javascript Developer",
+      location: {
+        city: "Los Angeles",
+        state: "California",
+        country: "United States",
+      },
+    },
   ],
 }
