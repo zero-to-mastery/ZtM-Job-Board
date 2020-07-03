@@ -14443,5 +14443,21 @@ export const data = {
         country: "The Netherlands"
       }
     },
+    {
+      id: uuidv4(),
+      name: "Johan Ochoa",
+      img: "https://avatars.githubusercontent.com/andresochoa91",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/jandresochoa91/",
+        github: "https://github.com/andresochoa91"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "San Francisco",
+        state: "California",
+        country: "USA"
+      }
+    },
   ],
 }
