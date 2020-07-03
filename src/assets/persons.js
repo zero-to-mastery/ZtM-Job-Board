@@ -14411,5 +14411,21 @@ export const data = {
         country: "Liberia",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Krunal Mistry",
+      img: "https://avatars3.githubusercontent.com/u/43079622?s=400&u=9e22282eb55d5f10d5c843cb7231c27921541699&v=4",
+      links: {
+        website: "https://kmist1.herokuapp.com/",
+        linkedin: "https://www.linkedin.com/in/krunal-mistry",
+        github: "https://www.bitbucket.org/kmist1/"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "New Haven",
+        state: "CT",
+        country: "USA"
+      }
+    },
   ],
 }
