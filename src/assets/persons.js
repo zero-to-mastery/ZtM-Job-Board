@@ -14427,5 +14427,21 @@ export const data = {
         country: "USA"
       }
     },
+    {
+      id: uuidv4(),
+      name: "Aneta Stojanowska",
+      img: "https://avatars2.githubusercontent.com/u/54153719?v=4",
+      links: {
+        website: "https://aneta.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/stojanowska",
+        github: "https://github.com/aneta-s"
+      },
+      jobTitle: "Frontend Web Developer",
+      location: {
+        city: "Amsterdam",
+        state: "Noord Holland",
+        country: "The Netherlands"
+      }
+    },
   ],
 }
