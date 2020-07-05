@@ -11401,7 +11401,7 @@ export const data = {
       img:
         "https://avatars3.githubusercontent.com/u/18350557?s=460&u=b5237bf592833e60ba0a68842c76ae4f3d08e28e&v=4",
       links: {
-        website: "https://paytonjewell.github.io/newportfolio/",
+        website: "https://paytonjewell.github.io/",
         linkedin: "https://www.linkedin.com/in/payton-jewell/",
         github: "https://github.com/paytonjewell",
       },
