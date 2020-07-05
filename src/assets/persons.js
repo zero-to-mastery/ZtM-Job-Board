@@ -14414,18 +14414,19 @@ export const data = {
     {
       id: uuidv4(),
       name: "Krunal Mistry",
-      img: "https://avatars3.githubusercontent.com/u/43079622?s=400&u=9e22282eb55d5f10d5c843cb7231c27921541699&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/43079622?s=400&u=9e22282eb55d5f10d5c843cb7231c27921541699&v=4",
       links: {
         website: "https://kmist1.herokuapp.com/",
         linkedin: "https://www.linkedin.com/in/krunal-mistry",
-        github: "https://www.bitbucket.org/kmist1/"
+        github: "https://www.bitbucket.org/kmist1/",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "New Haven",
         state: "CT",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -14434,14 +14435,14 @@ export const data = {
       links: {
         website: "https://aneta.netlify.app/",
         linkedin: "https://www.linkedin.com/in/stojanowska",
-        github: "https://github.com/aneta-s"
+        github: "https://github.com/aneta-s",
       },
       jobTitle: "Frontend Web Developer",
       location: {
         city: "Amsterdam",
         state: "Noord Holland",
-        country: "The Netherlands"
-      }
+        country: "The Netherlands",
+      },
     },
     {
       id: uuidv4(),
@@ -14450,14 +14451,30 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/jandresochoa91/",
-        github: "https://github.com/andresochoa91"
+        github: "https://github.com/andresochoa91",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "San Francisco",
         state: "California",
-        country: "USA"
-      }
+        country: "USA",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Mirel Bițoi",
+      img: "https://avatars.githubusercontent.com/Ochanissi",
+      links: {
+        website: "https://www.ochanissi.com/",
+        linkedin: "https://www.linkedin.com/in/mirel-bițoi-2a74b217b",
+        github: "https://github.com/Ochanissi",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Bucharest",
+        state: "",
+        country: "Romania",
+      },
     },
   ],
 }
