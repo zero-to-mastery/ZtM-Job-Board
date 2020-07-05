@@ -14459,5 +14459,21 @@ export const data = {
         country: "USA"
       }
     },
+    {
+      id: uuidv4(),
+      name: "Rishikesh Mishra",
+      img: "https://avatars1.githubusercontent.com/u/54947439?s=460&u=db1c8d20adbb31328a878cc95e6467135b9ad144&v=4",
+      links: {
+        website: "https://rishikeshmishra.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/rishikesh-mishra-b98a20156/",
+        github: "https://github.com/Rishikesh-12"
+      },
+      jobTitle: "[Frontend Developer]",
+      location: {
+        city: "[Delhi]",
+        state: "",
+        country: "India"
+      }
+    }
   ],
 }
