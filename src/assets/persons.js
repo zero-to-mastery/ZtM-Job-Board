@@ -14468,9 +14468,9 @@ export const data = {
         linkedin: "https://www.linkedin.com/in/rishikesh-mishra-b98a20156/",
         github: "https://github.com/Rishikesh-12"
       },
-      jobTitle: "[Frontend Developer]",
+      jobTitle: "Frontend Developer",
       location: {
-        city: "[Delhi]",
+        city: "Delhi",
         state: "",
         country: "India"
       }
