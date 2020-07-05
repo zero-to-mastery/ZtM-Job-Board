@@ -14506,6 +14506,22 @@ export const data = {
         state: "Bayern",
         country: "Germany"
       }
-    }
+    },
+    {
+      id: uuidv4(),
+      name: "Thomas Hooper",
+        img: "https://avatars3.githubusercontent.com/u/28743134?s=400&u=ea2b9ed5ceb33c82e176869bca455e84748f4c25&v=4",
+      links: {
+          website: "https://tomhoopermedia.netlify.app/",
+          linkedin: "https://www.linkedin.com/in/tjhooper88/",
+          github: "https://github.com/tjhooper1"
+      },
+      jobTitle: "Software Developer",
+      location: {
+        city: "Daytona Beach",
+        state: "Fl",
+        country: "USA"
+      }
+    },
   ],
 }
