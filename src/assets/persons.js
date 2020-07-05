@@ -14459,21 +14459,21 @@ export const data = {
         country: "USA"
       }
     },
-      ,{
-    id: uuidv4(),
-    name: "Andre Derjagin",
-    img: "https://avatars3.githubusercontent.com/u/38507921?s=400&u=e9dad4aee381e105510cb01ff6957e8dd054f148&v=4",
-    links: {
-      website: "",
-      linkedin: "https://www.linkedin.com/in/andre-derjagin-94b0271a6/",
-      github: "https://github.com/ExziiL"
-    },
-    jobTitle: "Junior Web Developer",
-    location: {
-      city: "Bamberg",
-      state: "Bayern",
-      country: "Germany"
+    {
+      id: uuidv4(),
+      name: "Andre Derjagin",
+      img: "https://avatars3.githubusercontent.com/u/38507921?s=400&u=e9dad4aee381e105510cb01ff6957e8dd054f148&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/andre-derjagin-94b0271a6/",
+        github: "https://github.com/ExziiL"
+      },
+      jobTitle: "Junior Web Developer",
+      location: {
+        city: "Bamberg",
+        state: "Bayern",
+        country: "Germany"
+      }
     }
-  }
   ],
 }
