@@ -14523,5 +14523,21 @@ export const data = {
         country: "USA"
       }
     },
-  ],
+     {
+      id: uuidv4(),
+      name: "Gobinath",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/gobinath-v-4103201a8",
+        github: "https://github.com/Gobinath24"
+      },
+      jobTitle: "Junior Web Developer",
+      location: {
+        city: "Udumalpet",
+        state: "Tamilnadu",
+        country: "INDIA"
+      }
+    },
+ ],
 }
