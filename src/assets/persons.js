@@ -14523,7 +14523,7 @@ export const data = {
         country: "USA"
       }
     },
-     {
+    {
       id: uuidv4(),
       name: "Gobinath",
       img: "",
@@ -14539,11 +14539,11 @@ export const data = {
         country: "INDIA"
       }
     },
-    
     {
       name: "Abhishek Chaturvedi",
       img: "",
       links: {
+          website: "",
           linkedin: "https://www.linkedin.com/in/abhishek-chaturvedi-6930a49b/",
           github: "https://github.com/Abhishek9320/my-first-blog.github.io"
       },
@@ -14553,5 +14553,6 @@ export const data = {
         state: "Maharashtra",
         country: "India"
       }
- ],
+    },
+  ],
 }
