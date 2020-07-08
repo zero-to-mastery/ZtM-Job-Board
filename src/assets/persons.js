@@ -14554,5 +14554,21 @@ export const data = {
         country: "India"
       }
     },
+    {
+    id: uuidv4(),
+    name: "Krina Thakkar",
+    img: "",
+    links: {
+      website: "krinathakkar.tech",
+      linkedin: "https://www.linkedin.com/in/krinathakkar/",
+      github: "[https://github.com/Krina-Thakkar/"
+    },
+    jobTitle: "Software Developer",
+    location: {
+      city: "Boston",
+      state: "Massachusetts",
+      country: "United States"
+    }
+  }
   ],
 }
