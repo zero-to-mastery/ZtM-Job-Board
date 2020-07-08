@@ -14557,7 +14557,7 @@ export const data = {
     {
     id: uuidv4(),
     name: "Krina Thakkar",
-    img: "",
+    img: "https://avatars0.githubusercontent.com/u/60080951?v=4",
     links: {
       website: "krinathakkar.tech",
       linkedin: "https://www.linkedin.com/in/krinathakkar/",
