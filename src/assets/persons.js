@@ -14561,7 +14561,7 @@ export const data = {
     links: {
       website: "krinathakkar.tech",
       linkedin: "https://www.linkedin.com/in/krinathakkar/",
-      github: "[https://github.com/Krina-Thakkar/"
+      github: "https://github.com/Krina-Thakkar/"
     },
     jobTitle: "Software Developer",
     location: {
