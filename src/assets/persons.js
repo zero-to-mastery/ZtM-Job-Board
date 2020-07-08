@@ -14555,6 +14555,7 @@ export const data = {
       }
     },
     {
+<<<<<<< HEAD
     id: uuidv4(),
     name: "Krina Thakkar",
     img: "https://avatars0.githubusercontent.com/u/60080951?v=4",
@@ -14570,5 +14571,22 @@ export const data = {
       country: "United States"
     }
   }
+=======
+      id: uuidv4(),
+      name: "Krina Thakkar",
+      img: "https://avatars0.githubusercontent.com/u/60080951?v=4",
+      links: {
+        website: "krinathakkar.tech",
+        linkedin: "https://www.linkedin.com/in/krinathakkar/",
+        github: "https://github.com/Krina-Thakkar/"
+      },
+      jobTitle: "Software Developer",
+      location: {
+        city: "Boston",
+        state: "Massachusetts",
+        country: "United States"
+      }
+    },
+>>>>>>> 7eac40580bcdfde34ad32756d294af6945df546c
   ],
 }
