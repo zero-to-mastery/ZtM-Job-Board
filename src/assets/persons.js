@@ -14585,6 +14585,22 @@ export const data = {
         state: "Massachusetts",
         country: "United States"
       }
+    },
+    {
+      id: uuidv4(),
+      name: "Samarth Goudar",
+      img: "https://avatars2.githubusercontent.com/u/51813032?v=4",
+      links: {
+        website: "http://10samarth.blogspot.com/",
+        linkedin: "http://www.linkedin.com/in/samarth-goudar",
+        github: "https://github.com/10samarth"
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "Pune",
+        state: "Maharashtra",
+        country: "India"
+      }
     }
   ],
 }
