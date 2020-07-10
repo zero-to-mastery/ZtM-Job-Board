@@ -14601,6 +14601,22 @@ export const data = {
         state: "Maharashtra",
         country: "India"
       }
+    },
+    {
+    id: uuidv4(),
+    name: "Rodrigo Martins",
+    img: "https://avatars2.githubusercontent.com/u/55402973?v=4",
+    links: {
+      website: "http://rodrigormartins.pythonanywhere.com/",
+      linkedin: "https://www.linkedin.com/in/rodrigoribmartins/",
+      github: "https://github.com/rodrigo-r-martins"
+    },
+    jobTitle: "Software Engineer",
+    location: {
+      city: "Stamford",
+      state: "Connecticut",
+      country: "United States"
     }
+  },
   ],
 }
