@@ -14618,5 +14618,21 @@ export const data = {
       country: "United States"
     }
   },
+  {
+    id: uuidv4(),
+    name: "Olayiwola Gbenga Raphael",
+    img: "https://avatars2.githubusercontent.com/u/39680633?v=4",
+    links: {
+      website: "", 
+      linkedin: "https://www.linkedin.com/in/olayiwola-gbenga-852060134/",       
+      github: "https://github.com/raphenium",
+    },
+    jobTitle: "Software Engineer",
+    location: {
+      city: "Ikeja",
+      state: "Lagos",
+      country: "Nigeria",
+    },
+  }
   ],
 }
