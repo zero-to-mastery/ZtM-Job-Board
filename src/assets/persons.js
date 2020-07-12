@@ -14824,5 +14824,21 @@ export const data = {
                country: "Nigeria",
              },
            },
+           {
+            id: uuidv4(),
+            name: "Vikrant Karawande",
+            img: "https://avatars3.githubusercontent.com/u/14870157?v=4",
+            links: {
+              website: "https://vikrantuk.github.io/",
+              linkedin: "https://www.linkedin.com/in/vikrant-karawande-a1229534/",
+              github: "https://github.com/vikrantuk"
+            },
+            jobTitle: "Software Engineer",
+            location: {
+              city: "Pune",
+              state: "Maharashtra",
+              country: "India"
+            }
+          },
          ],
        }
