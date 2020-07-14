@@ -10418,8 +10418,24 @@
       "location": {
         "state": "Buenos Aires",
         "country": "Argentina"
-      }
+       }
+      },
+      {
+    "id": [745],
+    "name": "James George",
+    "img": "",
+    "links": {
+      "website": "[YOUR_WEBSITE_URL]",
+      "linkedin": "https://www.linkedin.com/in/jjg-4862/",
+      "github": "https://github.com/Jamesjaj"
+    },
+    "jobTitle": "Full-Stack Developer",
+    "location": {
+      "city": "Toronto",
+      "state": "Ontario",
+      "country": "Canada"
     }
+  }
   ]
 }
 
