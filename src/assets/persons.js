@@ -14720,5 +14720,22 @@ export const data = {
         country: "Canada",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Mark Phillips",
+      img:
+        "https://avatars1.githubusercontent.com/u/9022851?s=400&u=911af348a1b4a5ac68322976020ea82bb810f9be&v=4",
+      links: {
+        website: "https://phillstack.com/",
+        linkedin: "https://www.linkedin.com/in/mphill05/",
+        github: "https://github.com/MPhill05",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Los Angeles",
+        state: "California",
+        country: "United States",
+      },
+    },
   ],
 }
