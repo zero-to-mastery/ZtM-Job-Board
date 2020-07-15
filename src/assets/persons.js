@@ -14855,6 +14855,22 @@ export const data = {
                state: "M.P",
                country: "India",
              },
+           },
+           {
+             id: uuidv4(),
+             name: "Anyaogu Peter",
+             img:"https://github.com/peteruche21.png",
+             links: {
+               website: "https://peteruche21.pythonanywhere.com",
+               linkedin: "https://www.linkedin.com/in/peter-anyaogu-a002a8192/",
+               github: "https://github.com/peteruche21",
+             },
+             jobTitle: "Software engineer || Back end developer",
+             location: {
+               city: "Port Harcourt",
+               state: "Rivers",
+               country: "Nigeria",
+             },
            },        
          ],
        }
