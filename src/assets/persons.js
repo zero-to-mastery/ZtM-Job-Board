@@ -14856,7 +14856,7 @@ export const data = {
                country: "India",
              },
            },        
-           ,{
+           {
              id: uuidv4(),
              name: "Zakwan Jaroucheh",
              img: "https://media-exp1.licdn.com/dms/image/C5603AQF0-Qxuno2WzA/profile-displayphoto-shrink_800_800/0?e=1600300800&v=beta&t=pxan3CupFeU-3eyF6QAvUG5H6aqoL9khkYlqFmzS420",
@@ -14871,6 +14871,6 @@ export const data = {
                state: "Scotland",
                country: "United Kingdom"
              }
-  }
+           },
          ],
        }
