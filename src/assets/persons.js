@@ -51,6 +51,22 @@ export const data = {
       },
     },
     {
+    id: uuidv4(),
+    name: "Faaran Saleem",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "www.linkedin.com/in/faaran-saleem",
+      github: "https://github.com/faaransaleem"
+    },
+    jobTitle: "Data Analyst",
+    location: {
+      city: "Karachi",
+      state: "",
+      country: "Pakistan"
+    },
+  },
+    {
       id: uuidv4(),
       name: "Ehsan Zand",
       img:
