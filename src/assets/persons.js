@@ -14737,5 +14737,21 @@ export const data = {
         country: "United States",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Francisco Mastromauro",
+      img: "https://avatars1.githubusercontent.com/u/55216227?v=4",
+      links: {
+        website: "https://devnomad.surge.sh/",
+        linkedin: "https://www.linkedin.com/in/devmasf/",
+        github: "https://github.com/devmasf",
+      },
+      jobTitle: "Remote Full Stack Developer & Digital Nomad ",
+      location: {
+        city: "L'Assomption",
+        state: "Quebec",
+        country: "Canada",
+      },
+    },
   ],
 }
