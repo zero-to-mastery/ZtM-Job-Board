@@ -14769,5 +14769,21 @@ export const data = {
         country: "Canada",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Dipto Chakrabarty",
+      img: "https://avatars1.githubusercontent.com/u/45638240?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/dipto-chakrabarty/",
+        github: "https://github.com/DiptoChakrabarty",
+      },
+      jobTitle: "Devops Engineer",
+      location: {
+        city: "Vellore",
+        state: "Tamil Nadu",
+        country: "India",
+      },
+    },
   ],
 }
