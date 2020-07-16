@@ -14799,7 +14799,23 @@ export const data = {
         city: "Ahmedabad",
         state: "Gujarat",
         country: "India",
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Siddharth Singh",
+      img: "https://avatars1.githubusercontent.com/u/59444018?s=400&u=40c2ca897c4ced6f000428cbb6c56e3c35f4b5de&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/siddharth-singh-539a581a4/",
+        github: "https://github.com/44t4nk1",
       },
+      jobTitle: "Flutter Developer",
+      location: {
+        city: "Vellore",
+        state: "Tamil Nadu",
+        country: "India",
+      }
     },
   ],
 }
