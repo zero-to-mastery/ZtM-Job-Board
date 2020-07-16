@@ -51,21 +51,21 @@ export const data = {
       },
     },
     {
-    id: uuidv4(),
-    name: "Faaran Saleem",
-    img: "",
-    links: {
-      website: "",
-      linkedin: "www.linkedin.com/in/faaran-saleem",
-      github: "https://github.com/faaransaleem"
+      id: uuidv4(),
+      name: "Faaran Saleem",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "www.linkedin.com/in/faaran-saleem",
+        github: "https://github.com/faaransaleem",
+      },
+      jobTitle: "Data Analyst",
+      location: {
+        city: "Karachi",
+        state: "",
+        country: "Pakistan",
+      },
     },
-    jobTitle: "Data Analyst",
-    location: {
-      city: "Karachi",
-      state: "",
-      country: "Pakistan"
-    },
-  },
     {
       id: uuidv4(),
       name: "Ehsan Zand",
@@ -13531,8 +13531,7 @@ export const data = {
     {
       id: uuidv4(),
       name: "Fabamise Adeolu",
-      img:
-        "https://avatars0.githubusercontent.com/u/55747508?v=4",
+      img: "https://avatars0.githubusercontent.com/u/55747508?v=4",
       links: {
         website: "http://www.bamz.xyz/",
         linkedin: "https://www.linkedin.com/in/adeoluwa-fabamise-46a694198/",
@@ -14782,6 +14781,23 @@ export const data = {
       location: {
         city: "Vellore",
         state: "Tamil Nadu",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Shivam Mehta",
+      img:
+        "https://avatars0.githubusercontent.com/u/50650500?s=460&u=179419b33e43c487c9729902be031b8f4b700904&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/shivam-mehta-b09724189/",
+        github: "https://github.com/N0v0cain3",
+      },
+      jobTitle: "Backend Developer",
+      location: {
+        city: "Ahmedabad",
+        state: "Gujarat",
         country: "India",
       },
     },
