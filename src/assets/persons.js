@@ -14817,5 +14817,21 @@ export const data = {
         country: "India",
       }
     },
+    {
+      id: uuidv4(),
+      name: "Yash Shankar Jadhav",
+      img: "https://avatars2.githubusercontent.com/u/53169635?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/yash-jadhav-41a9a917b/",
+        github: "https://github.com/yashjadhav07",
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "Pune",
+        state: "Maharashtra",
+        country: "India",
+      }
+    },
   ],
 }
