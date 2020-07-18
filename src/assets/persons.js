@@ -14833,5 +14833,22 @@ export const data = {
         country: "India",
       }
     },
+    {
+    id: uuidv4(),
+    name: "Niranjan Desa",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/niranjan-desa/",
+      github: "https://github.com/niranjandesa/"
+    },
+    jobTitle: "Software Engineer",
+    location: {
+      city: "Hyderabad",
+      state: "Telangana",
+      country: "India"
+    }
+  },
   ],
 }
+
