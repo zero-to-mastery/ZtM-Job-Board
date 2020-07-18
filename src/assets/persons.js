@@ -14834,21 +14834,36 @@ export const data = {
       }
     },
     {
-    id: uuidv4(),
-    name: "Niranjan Desa",
-    img: "",
-    links: {
-      website: "",
-      linkedin: "https://www.linkedin.com/in/niranjan-desa/",
-      github: "https://github.com/niranjandesa/"
+      id: uuidv4(),
+      name: "Shubham Jain",
+      img: "https://avatars1.githubusercontent.com/u/33689620?s=400&u=70c2ac54dae67f4be4db42c2253156236f9ee2c8&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/shubhamjain2908/",
+        github: "https://github.com/shubhamjain2908",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Indore",
+        state: "Madhya Pradesh",
+        country: "India",
+      }
     },
-    jobTitle: "Software Engineer",
-    location: {
-      city: "Hyderabad",
-      state: "Telangana",
-      country: "India"
-    }
-  },
+    {
+      id: uuidv4(),
+      name: "Niranjan Desa",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/niranjan-desa/",
+        github: "https://github.com/niranjandesa/"
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "Hyderabad",
+        state: "Telangana",
+        country: "India"
+      }
+    },
   ],
 }
-
