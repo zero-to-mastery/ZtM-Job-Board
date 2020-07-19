@@ -14865,5 +14865,21 @@ export const data = {
         country: "India"
       }
     },
+    {
+      id: uuidv4(),
+      name: "Vinay Kumar",
+      img: "https://avatars0.githubusercontent.com/u/49321180?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/vinaykumar7686/",
+        github: "https://github.com/vinaykumar7686/"
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "Lucknow",
+        state: "Uttar Pradesh",
+        country: "India"
+      }
+    }
   ],
 }
