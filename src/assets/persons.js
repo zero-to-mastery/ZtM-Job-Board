@@ -20,6 +20,20 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Ankit Kumar Sharma",
+      img:
+        "https://avatars3.githubusercontent.com/u/43175867?s=400&u=50b4c45ad34a4868d58114e37a7aa6a2435b14f2&v=4"      links: {
+        website: "",
+        github: "https://github.com/codeswithankit",
+      },
+      jobTitle: "Web Developer, ReactJs developer",
+      location: {
+        city: "Hyderabad",
+        state: "Telangana",
+        country: "India",
+      },
+    {
+      id: uuidv4(),
       name: "Aman Khan",
       img: "https://avatars2.githubusercontent.com/u/60522829",
       links: {
