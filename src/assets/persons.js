@@ -20,6 +20,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Ankit Kumar Sharma",
+      img:
+        "https://avatars3.githubusercontent.com/u/43175867?s=400&u=50b4c45ad34a4868d58114e37a7aa6a2435b14f2&v=4",
+      links: {
+        website: "",
+        github: "https://github.com/codeswithankit",
+      },
+      jobTitle: "Web Developer, ReactJs developer",
+      location: {
+        city: "Hyderabad",
+        state: "Telangana",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Aman Khan",
       img: "https://avatars2.githubusercontent.com/u/60522829",
       links: {
@@ -14799,12 +14815,13 @@ export const data = {
         city: "Ahmedabad",
         state: "Gujarat",
         country: "India",
-      }
+      },
     },
     {
       id: uuidv4(),
       name: "Siddharth Singh",
-      img: "https://avatars1.githubusercontent.com/u/59444018?s=400&u=40c2ca897c4ced6f000428cbb6c56e3c35f4b5de&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/59444018?s=400&u=40c2ca897c4ced6f000428cbb6c56e3c35f4b5de&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/siddharth-singh-539a581a4/",
@@ -14815,7 +14832,7 @@ export const data = {
         city: "Vellore",
         state: "Tamil Nadu",
         country: "India",
-      }
+      },
     },
     {
       id: uuidv4(),
@@ -14831,12 +14848,13 @@ export const data = {
         city: "Pune",
         state: "Maharashtra",
         country: "India",
-      }
+      },
     },
     {
       id: uuidv4(),
       name: "Shubham Jain",
-      img: "https://avatars1.githubusercontent.com/u/33689620?s=400&u=70c2ac54dae67f4be4db42c2253156236f9ee2c8&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/33689620?s=400&u=70c2ac54dae67f4be4db42c2253156236f9ee2c8&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/shubhamjain2908/",
@@ -14847,7 +14865,7 @@ export const data = {
         city: "Indore",
         state: "Madhya Pradesh",
         country: "India",
-      }
+      },
     },
     {
       id: uuidv4(),
@@ -14856,14 +14874,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/niranjan-desa/",
-        github: "https://github.com/niranjandesa/"
+        github: "https://github.com/niranjandesa/",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Hyderabad",
         state: "Telangana",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -14872,14 +14890,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/vinaykumar7686/",
-        github: "https://github.com/vinaykumar7686/"
+        github: "https://github.com/vinaykumar7686/",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Lucknow",
         state: "Uttar Pradesh",
-        country: "India"
-      }
+        country: "India",
+      },
     },
 	{
     id: uuidv4(),
