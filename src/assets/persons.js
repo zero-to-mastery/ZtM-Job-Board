@@ -14914,6 +14914,21 @@ export const data = {
       state: "Delhi",
       country: "India"
     }
+  } ,{
+    id: uuidv4(),
+    name: "Shaikh Saqlain Abdul Salim",
+    img: "https://avatars2.githubusercontent.com/u/21302475?v=4",
+    links: {
+      website: "www.isaqlain.com",
+      linkedin: "https://www.linkedin.com/in/saqlain-shaikh-a71577170/",
+      github: "https://github.com/isaqlain"
+    },
+    jobTitle: "UI & UX DESIGNER",
+    location: {
+      city: "Pusad",
+      state: "Maharshtra",
+      country: "India"
+    }
   }
   ],
 }
