@@ -14899,7 +14899,7 @@ export const data = {
         country: "India",
       },
     },
-	{
+    {
     id: uuidv4(),
     name: "Maaz Ahmad Khan",
     img: "https://avatars1.githubusercontent.com/u/26876218?s=400&u=04502e2e0d4a1838c7b55f2aa7ac460c5a4ffd54&v=4",
@@ -14914,7 +14914,8 @@ export const data = {
       state: "Delhi",
       country: "India"
     }
-  } ,{
+  },
+  {
     id: uuidv4(),
     name: "Shaikh Saqlain Abdul Salim",
     img: "https://avatars2.githubusercontent.com/u/21302475?v=4",
@@ -14928,7 +14929,7 @@ export const data = {
       city: "Pusad",
       state: "Maharshtra",
       country: "India"
+      }
     }
-  }
   ],
 }
