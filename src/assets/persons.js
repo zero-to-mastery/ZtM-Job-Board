@@ -14931,5 +14931,21 @@ export const data = {
       country: "India"
       }
     }
+    ,{
+      id: uuidv4(),
+      name: "Aleksander Jaworski",
+      img: "https://avatars1.githubusercontent.com/u/47188223?v=4",
+      links: {
+        website: "http://jaworski.website",
+        linkedin: "https://www.linkedin.com/in/aleksander-jaworski-3874471aa/",
+        github: "https://github.com/JaworskiAleksander"
+      },
+      jobTitle: "Front-End Web Dev / Python + Django",
+      location: {
+        city: "Krakow",
+        state: "Malopolska",
+        country: "Poland"
+      }
+    }
   ],
 }
