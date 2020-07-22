@@ -4,6 +4,22 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Kazi Foyez Ahmed",
+      img: "https://avatars3.githubusercontent.com/u/11992095?v=4",
+      links: {
+        website: "foyez.netlify.com",
+        linkedin: "https://www.linkedin.com/in/foyez",
+        github: "https://github.com/foyez"
+      },
+      jobTitle: "Software Engineer, Web Developer",
+      location: {
+        city: "Dhaka",
+        state: "",
+        country: "Bangladesh"
+      }
+    },
+    {
+      id: uuidv4(),
       name: "Tanveer Mohd Sayem",
       img:
         "https://avatars3.githubusercontent.com/u/49335574?s=460&u=9a5ff2806c647908cd93d46132eef3c777c455cb&v=4",
