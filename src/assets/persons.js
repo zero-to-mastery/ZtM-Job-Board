@@ -4,6 +4,22 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Kazi Foyez Ahmed",
+      img: "https://avatars3.githubusercontent.com/u/11992095?v=4",
+      links: {
+        website: "foyez.netlify.com",
+        linkedin: "https://www.linkedin.com/in/foyez",
+        github: "https://github.com/foyez"
+      },
+      jobTitle: "Software Engineer, Web Developer",
+      location: {
+        city: "Dhaka",
+        state: "",
+        country: "Bangladesh"
+      }
+    },
+    {
+      id: uuidv4(),
       name: "Tanveer Mohd Sayem",
       img:
         "https://avatars3.githubusercontent.com/u/49335574?s=460&u=9a5ff2806c647908cd93d46132eef3c777c455cb&v=4",
@@ -14930,8 +14946,8 @@ export const data = {
       state: "Maharshtra",
       country: "India"
       }
-    }
-    ,{
+    },
+    {
       id: uuidv4(),
       name: "Aleksander Jaworski",
       img: "https://avatars1.githubusercontent.com/u/47188223?v=4",
@@ -14946,6 +14962,55 @@ export const data = {
         state: "Malopolska",
         country: "Poland"
       }
-    }
+    },
+    {
+      id: uuidv4(),
+      name: "Maaz Ahmad Khan",
+      img:
+        "https://avatars1.githubusercontent.com/u/26876218?s=400&u=04502e2e0d4a1838c7b55f2aa7ac460c5a4ffd54&v=4",
+      links: {
+        website: "https://github.com/MAK947/maaz-khan-portfolio",
+        linkedin: "https://www.linkedin.com/in/maaz-khan-663226147/",
+        github: "https://github.com/MAK947",
+      },
+      jobTitle: "Full-Stack JavaScript",
+      location: {
+        city: "New Delhi",
+        state: "Delhi",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Shaikh Saqlain Abdul Salim",
+      img: "https://avatars2.githubusercontent.com/u/21302475?v=4",
+      links: {
+        website: "www.isaqlain.com",
+        linkedin: "https://www.linkedin.com/in/saqlain-shaikh-a71577170/",
+        github: "https://github.com/isaqlain",
+      },
+      jobTitle: "UI & UX DESIGNER",
+      location: {
+        city: "Pusad",
+        state: "Maharshtra",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Md Ashraf Hussain",
+      img: "https://avatars3.githubusercontent.com/u/35425722?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/ashraf-hussain-0a13a9148/",
+        github: "https://github.com/ashrafhussain17",
+      },
+      jobTitle: "Full Stack Software Developer",
+      location: {
+        city: "Dhaka",
+        state: "",
+        country: "Bangladesh",
+      },
+    },
   ],
 }
