@@ -7,7 +7,7 @@ export const data = {
       name: "Kazi Foyez Ahmed",
       img: "https://avatars3.githubusercontent.com/u/11992095?v=4",
       links: {
-        website: "foyez.netlify.com",
+        website: "https://foyez.netlify.com",
         linkedin: "https://www.linkedin.com/in/foyez",
         github: "https://github.com/foyez"
       },
