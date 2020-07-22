@@ -15012,5 +15012,21 @@ export const data = {
         country: "Bangladesh",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Jayanth Anala",
+      img: "https://avatars1.githubusercontent.com/u/63576478?v=4",
+      links: {
+        website: "https://jayanthanala.github.io/cv/",
+        linkedin: "https://www.linkedin.com/in/jayanth-anala-53b1781b3/",
+        github: "https://github.com/jayanthanala"
+    },
+    jobTitle: "Backend Developer",
+    location: {
+      city: "Nellore",
+      state: "Andhra Pradesh",
+      country: "India"
+    },
+  }
   ],
 }
