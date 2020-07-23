@@ -15039,7 +15039,7 @@ export const data = {
   },
   jobTitle: "Solution Engineer",
   location: {
-    city: "",
+    city: "Singapore",
     state: "Singapore",
     country: "Singapore"
   },
