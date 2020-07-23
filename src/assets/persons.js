@@ -15027,6 +15027,22 @@ export const data = {
       state: "Andhra Pradesh",
       country: "India"
     },
+  },
+  {
+      id: uuidv4(),
+      name: "Mayuri Sharma",
+      img: "https://avatars0.githubusercontent.com/u/31438478?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/sharmamayuri/",
+        github: "https://github.com/Mayuri-Sharma"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Mississauga",
+      state: "Ontario",
+      country: "Canada"
+    },
   }
   ],
 }
