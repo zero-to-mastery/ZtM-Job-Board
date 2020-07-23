@@ -15027,6 +15027,22 @@ export const data = {
       state: "Andhra Pradesh",
       country: "India"
     },
-  }
+  },
+  {
+    id: uuidv4(),
+    name: "Neo Jun Wei",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/chrisnjw/",
+      github: "https://github.com/chrisnjw"
+  },
+  jobTitle: "Solution Engineer",
+  location: {
+    city: "",
+    state: "Singapore",
+    country: "Singapore"
+  },
+}
   ],
 }
