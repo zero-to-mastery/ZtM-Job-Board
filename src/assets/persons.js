@@ -20,6 +20,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Vladimir Tesiolchin",
+      img: "https://avatars0.githubusercontent.com/u/61885848?v=4",
+      links: {
+        website: "https://teselkin.us/",
+        linkedin: "https://www.linkedin.com/in/teselkintv/",
+        github: "https://github.com/teselkinV"
+      },
+      jobTitle: "Front End Developer",
+      location: {
+        city: "Newport Beach",
+        state: "California",
+        country: "United States"
+      }
+    },
+    {
+      id: uuidv4(),
       name: "Tanveer Mohd Sayem",
       img:
         "https://avatars3.githubusercontent.com/u/49335574?s=460&u=9a5ff2806c647908cd93d46132eef3c777c455cb&v=4",
