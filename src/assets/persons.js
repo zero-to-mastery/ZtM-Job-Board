@@ -15042,7 +15042,7 @@ export const data = {
     city: "Mississauga",
     state: "Ontario",
     country: "Canada"
-},
+  },
 },
   {
     id: uuidv4(),
