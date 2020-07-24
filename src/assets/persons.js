@@ -15043,6 +15043,21 @@ export const data = {
       state: "Ontario",
       country: "Canada"
     },
-  }
-  ],
-}
+  },
+  {
+      id: uuidv4(),
+      name: "Cal Nunnelee",
+      img: "https://avatars0.githubusercontent.com/u/68441971?s=460&u=637a7cd6d18ffdfe24c52da0cfc5346fb8e41167&v=4",
+      links: {
+        website: "nunnelee316.pythonanywhere.com",
+        linkedin: "www.linkedin.com/in/calaway-nunnelee-316brent",
+        github: "https://github.com/Nunnelee"
+      },
+      jobTitle: "Python Developer",
+      location: {
+        city: "Highlands Ranch",
+        state: "Colorado",
+        country: "USA"
+      }
+    }
+,]}
