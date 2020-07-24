@@ -15029,20 +15029,36 @@ export const data = {
     },
   },
   {
-      id: uuidv4(),
-      name: "Mayuri Sharma",
-      img: "https://avatars0.githubusercontent.com/u/31438478?v=4",
-      links: {
-        website: "",
-        linkedin: "https://www.linkedin.com/in/sharmamayuri/",
-        github: "https://github.com/Mayuri-Sharma"
+    id: uuidv4(),
+    name: "Mayuri Sharma",
+    img: "https://avatars0.githubusercontent.com/u/31438478?v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/sharmamayuri/",
+      github: "https://github.com/Mayuri-Sharma"
     },
     jobTitle: "Full Stack Developer",
     location: {
-      city: "Mississauga",
-      state: "Ontario",
-      country: "Canada"
-    },
-  }
+    city: "Mississauga",
+    state: "Ontario",
+    country: "Canada"
+  },
+},
+  {
+    id: uuidv4(),
+    name: "Neo Jun Wei",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/chrisnjw/",
+      github: "https://github.com/chrisnjw"
+  },
+  jobTitle: "Solution Engineer",
+  location: {
+    city: "",
+    state: "Singapore",
+    country: "Singapore"
+  },
+}
   ],
 }
