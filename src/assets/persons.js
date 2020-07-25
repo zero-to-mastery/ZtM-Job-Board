@@ -15079,3 +15079,19 @@ export const data = {
     },
   ],
 }
+  ,{
+    id: uuidv4(),
+    name: "Jugal Bhatt",
+    img: "https://photos.app.goo.gl/dvU4hCMCkJPwht397",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/jugal-bhatt14",
+      github: "[https://github.com/jugaldb"
+    },
+    jobTitle: "Backend Web developer and DevOps",
+    location: {
+      city: "Surat",
+      state: "Gujarat",
+      country: "India"
+    }
+  }
