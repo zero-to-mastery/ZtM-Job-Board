@@ -15127,5 +15127,21 @@ export const data = {
         country: "USA",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Ale Fuentes",
+      img: "https://avatars2.githubusercontent.com/u/42624248?s=60&v=4",
+      links: {
+        website: "http://www.alefuentesportfolio.com",
+        linkedin: "https://www.linkedin.com/in/ale-fuentes-2622a71b3",
+        github: "https://github.com/alefuedev",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Toronto",
+        state: "Ontario",
+        country: "Canada",
+      },
+    },
   ],
 }
