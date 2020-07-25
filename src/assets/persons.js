@@ -9,14 +9,14 @@ export const data = {
       links: {
         website: "https://foyez.netlify.com",
         linkedin: "https://www.linkedin.com/in/foyez",
-        github: "https://github.com/foyez"
+        github: "https://github.com/foyez",
       },
       jobTitle: "Software Engineer, Web Developer",
       location: {
         city: "Dhaka",
         state: "",
-        country: "Bangladesh"
-      }
+        country: "Bangladesh",
+      },
     },
     {
       id: uuidv4(),
@@ -25,14 +25,14 @@ export const data = {
       links: {
         website: "https://teselkin.us/",
         linkedin: "https://www.linkedin.com/in/teselkintv/",
-        github: "https://github.com/teselkinV"
+        github: "https://github.com/teselkinV",
       },
       jobTitle: "Front End Developer",
       location: {
         city: "Newport Beach",
         state: "California",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
@@ -14932,36 +14932,37 @@ export const data = {
       },
     },
     {
-    id: uuidv4(),
-    name: "Maaz Ahmad Khan",
-    img: "https://avatars1.githubusercontent.com/u/26876218?s=400&u=04502e2e0d4a1838c7b55f2aa7ac460c5a4ffd54&v=4",
-    links: {
-      website: "https://github.com/MAK947/maaz-khan-portfolio",
-      linkedin: "https://www.linkedin.com/in/maaz-khan-663226147/",
-      github: "https://github.com/MAK947"
+      id: uuidv4(),
+      name: "Maaz Ahmad Khan",
+      img:
+        "https://avatars1.githubusercontent.com/u/26876218?s=400&u=04502e2e0d4a1838c7b55f2aa7ac460c5a4ffd54&v=4",
+      links: {
+        website: "https://github.com/MAK947/maaz-khan-portfolio",
+        linkedin: "https://www.linkedin.com/in/maaz-khan-663226147/",
+        github: "https://github.com/MAK947",
+      },
+      jobTitle: "Full-Stack JavaScript",
+      location: {
+        city: "New Delhi",
+        state: "Delhi",
+        country: "India",
+      },
     },
-    jobTitle: "Full-Stack JavaScript",
-    location: {
-      city: "New Delhi",
-      state: "Delhi",
-      country: "India"
-    }
-  },
-  {
-    id: uuidv4(),
-    name: "Shaikh Saqlain Abdul Salim",
-    img: "https://avatars2.githubusercontent.com/u/21302475?v=4",
-    links: {
-      website: "www.isaqlain.com",
-      linkedin: "https://www.linkedin.com/in/saqlain-shaikh-a71577170/",
-      github: "https://github.com/isaqlain"
-    },
-    jobTitle: "UI & UX DESIGNER",
-    location: {
-      city: "Pusad",
-      state: "Maharshtra",
-      country: "India"
-      }
+    {
+      id: uuidv4(),
+      name: "Shaikh Saqlain Abdul Salim",
+      img: "https://avatars2.githubusercontent.com/u/21302475?v=4",
+      links: {
+        website: "www.isaqlain.com",
+        linkedin: "https://www.linkedin.com/in/saqlain-shaikh-a71577170/",
+        github: "https://github.com/isaqlain",
+      },
+      jobTitle: "UI & UX DESIGNER",
+      location: {
+        city: "Pusad",
+        state: "Maharshtra",
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -14970,14 +14971,14 @@ export const data = {
       links: {
         website: "http://jaworski.website",
         linkedin: "https://www.linkedin.com/in/aleksander-jaworski-3874471aa/",
-        github: "https://github.com/JaworskiAleksander"
+        github: "https://github.com/JaworskiAleksander",
       },
       jobTitle: "Front-End Web Dev / Python + Django",
       location: {
         city: "Krakow",
         state: "Malopolska",
-        country: "Poland"
-      }
+        country: "Poland",
+      },
     },
     {
       id: uuidv4(),
@@ -15035,46 +15036,46 @@ export const data = {
       links: {
         website: "https://jayanthanala.github.io/cv/",
         linkedin: "https://www.linkedin.com/in/jayanth-anala-53b1781b3/",
-        github: "https://github.com/jayanthanala"
+        github: "https://github.com/jayanthanala",
+      },
+      jobTitle: "Backend Developer",
+      location: {
+        city: "Nellore",
+        state: "Andhra Pradesh",
+        country: "India",
+      },
     },
-    jobTitle: "Backend Developer",
-    location: {
-      city: "Nellore",
-      state: "Andhra Pradesh",
-      country: "India"
+    {
+      id: uuidv4(),
+      name: "Mayuri Sharma",
+      img: "https://avatars0.githubusercontent.com/u/31438478?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/sharmamayuri/",
+        github: "https://github.com/Mayuri-Sharma",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Mississauga",
+        state: "Ontario",
+        country: "Canada",
+      },
     },
-  },
-  {
-    id: uuidv4(),
-    name: "Mayuri Sharma",
-    img: "https://avatars0.githubusercontent.com/u/31438478?v=4",
-    links: {
-      website: "",
-      linkedin: "https://www.linkedin.com/in/sharmamayuri/",
-      github: "https://github.com/Mayuri-Sharma"
+    {
+      id: uuidv4(),
+      name: "Neo Jun Wei",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/chrisnjw/",
+        github: "https://github.com/chrisnjw",
+      },
+      jobTitle: "Solution Engineer",
+      location: {
+        city: "",
+        state: "Singapore",
+        country: "Singapore",
+      },
     },
-    jobTitle: "Full Stack Developer",
-    location: {
-    city: "Mississauga",
-    state: "Ontario",
-    country: "Canada"
-  },
-},
-  {
-    id: uuidv4(),
-    name: "Neo Jun Wei",
-    img: "",
-    links: {
-      website: "",
-      linkedin: "https://www.linkedin.com/in/chrisnjw/",
-      github: "https://github.com/chrisnjw"
-  },
-  jobTitle: "Solution Engineer",
-  location: {
-    city: "",
-    state: "Singapore",
-    country: "Singapore"
-  },
-}
   ],
 }
