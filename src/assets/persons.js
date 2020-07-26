@@ -15143,5 +15143,21 @@ export const data = {
         country: "Canada",
       },
     },
+    {
+    id: uuidv4(),
+    name: "Mohamed Mufassal Sultan",
+    img: "https://avatars3.githubusercontent.com/u/30759580?v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/mohamed-mufassal-a5b439150/",
+      github: "https://github.com/dpcoolmufa"
+    },
+    jobTitle: "Web Developer & Data Scientist",
+    location: {
+      city: "Madurai",
+      state: "Tamil Nadu",
+      country: "India"
+    }
+  }
   ],
 }
