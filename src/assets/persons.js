@@ -15158,6 +15158,22 @@ export const data = {
       state: "Tamil Nadu",
       country: "India"
     }
+  },
+  {
+    id: uuidv4(),
+    name: "Guendouz Abdelkader",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/abdelkader-guendouz-490818187/",
+      github: "https://github.com/ican17"
+    },
+    jobTitle: "Software Engineer | Full-Stack Web Developer",
+    location: {
+      city: "Hassi Bahbah",
+      state: "Djefla",
+      country: "Algeria"
+    }
   }
   ],
 }
