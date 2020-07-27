@@ -15174,6 +15174,22 @@ export const data = {
       state: "Djefla",
       country: "Algeria"
     }
+  },
+  {
+    id: uuidv4(),
+    name: "Gustavo Varallo",
+    img: "https://avatars0.githubusercontent.com/u/4613916?v=4",
+    links: {
+      website: "http://www.varallo.me",
+      linkedin: "",
+      github: "https://github.com/guvarallo"
+    },
+    jobTitle: "Software Engineer | Full-Stack Web Developer",
+    location: {
+      city: "",
+      state: "",
+      country: "Brazil"
+    }
   }
   ],
 }
