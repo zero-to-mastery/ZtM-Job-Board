@@ -11902,7 +11902,7 @@ export const data = {
         linkedin: "https://www.linkedin.com/in/riginoommen/",
         github: "https://github.com/riginoommen",
       },
-      jobTitle: "Application Developer",
+      jobTitle: "Software Engineer",
       location: {
         city: "Pune",
         state: "Maharashtra",
