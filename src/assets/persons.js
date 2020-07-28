@@ -1,7 +1,6 @@
 import { v4 as uuidv4 } from "uuid"
 
 export const data = {
-  people: [
     {
       id: uuidv4(),
       name: "Kazi Foyez Ahmed",
@@ -13913,15 +13912,15 @@ export const data = {
     {
       id: uuidv4(),
       name: "Abdulfatai Suleiman",
-      img: "",
+     img: "https://user-images.githubusercontent.com/46509072/88485710-d9c35c80-cf6f-11ea-8022-93c172a5bc89.jpeg",
       links: {
-        website: "https://iamnotstatic.github.io/",
-        linkedin: "https://www.linkedin.com/in/abdulfatai-suleiman-706ba6172/",
+        website: "https://iamnotstatic.github.io",
+        linkedin: "https://www.linkedin.com/in/abdulfatai-suleiman-706ba6172",
         github: "https://github.com/iamnotstatic",
       },
       jobTitle: "Software Developer",
       location: {
-        city: "De-Dei",
+        city: "",
         state: "Abuja",
         country: "Nigeria",
       },
