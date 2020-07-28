@@ -15190,6 +15190,22 @@ export const data = {
       state: "",
       country: "Brazil"
     }
-  }
+  },
+  {
+    id: mahyas(),
+    name: "Mahya Sadeghi",
+    img: "https://avatars3.githubusercontent.com/u/23086562?s=460&u=1403d70b3d25a9cc46d09405c4a50bcea9e7dd26&v=4",
+    links: {
+      website: "http://www.emahya.com",
+      linkedin: "https://www.linkedin.com/in/mahyasadeghi/",
+      github: "https://github.com/mahyas"
+    },
+    jobTitle: "Software Engineer | Full-Stack Web Developer",
+    location: {
+      city: "Bellevue",
+      state: "Washington",
+      country: "United States"
+    }
+  }    
   ],
 }
