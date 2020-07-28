@@ -15206,6 +15206,22 @@ export const data = {
       state: "Lagos",
       country: "Nigeria"
     }
+  },
+    {
+    id: uuidv4(),
+    name: "Oussama Bouchikhi",
+    img: "https://avatars0.githubusercontent.com/u/45850487?v=4",
+    links: {
+      website: "https://oussamabouchikhi.github.io/",
+      linkedin: "https://www.linkedin.com/in/oussama-bouchikhi-49a0b6193/",
+      github: "https://github.com/oussamabouchikhi"
+    },
+    jobTitle: "Full-Stack Web Developer",
+    location: {
+      city: "Oran",
+      state: "Oran",
+      country: "Algeria"
+    }
   }
   ],
 }
