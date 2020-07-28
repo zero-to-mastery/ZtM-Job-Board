@@ -13913,7 +13913,7 @@ export const data = {
     {
       id: uuidv4(),
       name: "Abdulfatai Suleiman",
-      img: "",
+      img: "![lets-react](https://user-images.githubusercontent.com/46509072/88485710-d9c35c80-cf6f-11ea-8022-93c172a5bc89.jpeg)",
       links: {
         website: "https://iamnotstatic.github.io/",
         linkedin: "https://www.linkedin.com/in/abdulfatai-suleiman-706ba6172/",
@@ -13921,7 +13921,7 @@ export const data = {
       },
       jobTitle: "Software Developer",
       location: {
-        city: "De-Dei",
+        city: "",
         state: "Abuja",
         country: "Nigeria",
       },
@@ -15206,6 +15206,22 @@ export const data = {
       state: "Washington",
       country: "United States"
     }
-  }    
+  },
+  {
+    id: uuidv4(),
+    name: "Oussama Bouchikhi",
+    img: "https://avatars0.githubusercontent.com/u/45850487?v=4",
+    links: {
+      website: "https://oussamabouchikhi.github.io/",
+      linkedin: "https://www.linkedin.com/in/oussama-bouchikhi-49a0b6193/",
+      github: "https://github.com/oussamabouchikhi"
+    },
+    jobTitle: "Full-Stack Web Developer",
+    location: {
+      city: "Oran",
+      state: "Oran",
+      country: "Algeria"
+    }
+  }
   ],
 }
