@@ -15190,6 +15190,22 @@ export const data = {
       state: "",
       country: "Brazil"
     }
+  },
+  {
+    id: uuidv4(),
+    name: "Adewale Adeleye",
+    img: "",
+    links: {
+      website: "https://www.walenotes.com",
+      linkedin: "https://linkedin.com/in/adewagold",
+      github: "https://github.com/adewagold"
+    },
+    jobTitle: "Software Engineer",
+    location: {
+      city: "Lagos",
+      state: "Lagos",
+      country: "Nigeria"
+    }
   }
   ],
 }
