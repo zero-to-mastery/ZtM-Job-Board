@@ -15240,4 +15240,20 @@ export const data = {
     }
   }
   ],
-}
+}, 
+  {
+    id: uuidv4(),
+    name: "Mayank Pandey",
+    img: "https://avatars3.githubusercontent.com/u/61725107?v=4",
+    links: {
+      website: "https://hardcore-davinci-a91626.netlify.app/",
+      linkedin: "https://www.linkedin.com/in/pan-dev/",
+      github: "https://github.com/neverdue"
+    },
+    jobTitle: "Software Engineer | Full-Stack Web Developer",
+    location: {
+      city: "Tampa",
+      state: "Florida",
+      country: "United States"
+    }
+  }
