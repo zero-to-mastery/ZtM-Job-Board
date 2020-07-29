@@ -15254,8 +15254,6 @@ export const data = {
       state: "Florida",
       country: "United States"
     }
-  }
-  ],
 },
   {
   id: uuidv4(),
@@ -15266,10 +15264,11 @@ export const data = {
     linkedin: "https://www.linkedin.com/in/irisdiakoumi/",
     github: "https://github.com/iridiumCodes"
   },
-  jobTitle: "Front-End Developer",
+  jobTitle: "Front-End Web Developer",
   location: {
     city: "Athens",
     state: "",
     country: "Greece"
   }
 }
+      ],
