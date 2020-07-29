@@ -15256,4 +15256,20 @@ export const data = {
     }
   }
   ],
+},
+  {
+  id: uuidv4(),
+  name: "Iris Diakoumi",
+  img: "https://avatars3.githubusercontent.com/u/3638718?v=4",
+  links: {
+    website: "https://iridium.codes/",
+    linkedin: "https://www.linkedin.com/in/irisdiakoumi/",
+    github: "https://github.com/iridiumCodes"
+  },
+  jobTitle: "Front-End Developer",
+  location: {
+    city: "Athens",
+    state: "",
+    country: "Greece"
+  }
 }
