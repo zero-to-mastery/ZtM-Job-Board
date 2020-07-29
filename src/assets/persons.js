@@ -15238,6 +15238,22 @@ export const data = {
       state: "Oran",
       country: "Algeria"
     }
+  },
+,{
+    id: uuidv4(),
+    name: "Rohan Kumar Thakur",
+    img: "",
+    links: {
+      website: "https://xebec19.github.io/Xebec19/",
+      linkedin: "linkedin.com/in/rohan-kumar-thakur-ba6373194",
+      github: "github.com/Xebec19/Xebec19.github.io"
+    },
+    jobTitle: "Front End Developer,Full Stack Web Developer",
+    location: {
+      city: "Delhi",
+      state: "Delhi",
+      country: "India"
+    }
   }
   ],
 }
