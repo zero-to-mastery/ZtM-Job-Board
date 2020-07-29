@@ -15247,7 +15247,7 @@ export const data = {
       img: "https://avatars2.githubusercontent.com/u/13135150?v=4",
       links: {
         website: "https://rildev.website",
-        linkedin: "https://www.linkedin.com/in/cyril-a-19697b1b2/",
+        linkedin: "https://www.linkedin.com/in/acyril/",
         github: "https://github.com/rildev",
       },
       jobTitle: "Font End ReactJS Developer",
