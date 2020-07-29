@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from "uuid"
 
 export const data = {
-  people: [
+      people: [
     {
       id: uuidv4(),
       name: "Kazi Foyez Ahmed",
@@ -13913,8 +13913,7 @@ export const data = {
     {
       id: uuidv4(),
       name: "Abdulfatai Suleiman",
-      img:
-        "https://user-images.githubusercontent.com/46509072/88485710-d9c35c80-cf6f-11ea-8022-93c172a5bc89.jpeg",
+     img: "https://user-images.githubusercontent.com/46509072/88485710-d9c35c80-cf6f-11ea-8022-93c172a5bc89.jpeg",
       links: {
         website: "https://iamnotstatic.github.io",
         linkedin: "https://www.linkedin.com/in/abdulfatai-suleiman-706ba6172",
@@ -15145,133 +15144,132 @@ export const data = {
       },
     },
     {
-      id: uuidv4(),
-      name: "Mohamed Mufassal Sultan",
-      img: "https://avatars3.githubusercontent.com/u/30759580?v=4",
-      links: {
-        website: "",
-        linkedin: "https://www.linkedin.com/in/mohamed-mufassal-a5b439150/",
-        github: "https://github.com/dpcoolmufa",
-      },
-      jobTitle: "Web Developer & Data Scientist",
-      location: {
-        city: "Madurai",
-        state: "Tamil Nadu",
-        country: "India",
-      },
+    id: uuidv4(),
+    name: "Mohamed Mufassal Sultan",
+    img: "https://avatars3.githubusercontent.com/u/30759580?v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/mohamed-mufassal-a5b439150/",
+      github: "https://github.com/dpcoolmufa"
     },
+    jobTitle: "Web Developer & Data Scientist",
+    location: {
+      city: "Madurai",
+      state: "Tamil Nadu",
+      country: "India"
+    }
+  },
+  {
+    id: uuidv4(),
+    name: "Guendouz Abdelkader",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/abdelkader-guendouz-490818187/",
+      github: "https://github.com/ican17"
+    },
+    jobTitle: "Software Engineer | Full-Stack Web Developer",
+    location: {
+      city: "Hassi Bahbah",
+      state: "Djefla",
+      country: "Algeria"
+    }
+  },
+  {
+    id: uuidv4(),
+    name: "Gustavo Varallo",
+    img: "https://avatars0.githubusercontent.com/u/4613916?v=4",
+    links: {
+      website: "http://www.varallo.me",
+      linkedin: "",
+      github: "https://github.com/guvarallo"
+    },
+    jobTitle: "Software Engineer | Full-Stack Web Developer",
+    location: {
+      city: "",
+      state: "",
+      country: "Brazil"
+    }
+  },
+  {
+    id: uuidv4(),
+    name: "Mahya Sadeghi",
+    img: "https://avatars3.githubusercontent.com/u/23086562?s=460&u=1403d70b3d25a9cc46d09405c4a50bcea9e7dd26&v=4",
+    links: {
+      website: "http://www.emahya.com",
+      linkedin: "https://www.linkedin.com/in/mahyasadeghi/",
+      github: "https://github.com/mahyas"
+    },
+    jobTitle: "Software Engineer | Full-Stack Web Developer",
+    location: {
+      city: "Bellevue",
+      state: "Washington",
+      country: "United States"
+    }
+  },
+  {
+    id: uuidv4(),
+    name: "Adewale Adeleye",
+    img: "",
+    links: {
+      website: "https://www.walenotes.com",
+      linkedin: "https://linkedin.com/in/adewagold",
+      github: "https://github.com/adewagold"
+    },
+    jobTitle: "Software Engineer",
+    location: {
+      city: "Lagos",
+      state: "Lagos",
+      country: "Nigeria"
+    }
+  },
     {
-      id: uuidv4(),
-      name: "Guendouz Abdelkader",
-      img: "",
-      links: {
-        website: "",
-        linkedin: "https://www.linkedin.com/in/abdelkader-guendouz-490818187/",
-        github: "https://github.com/ican17",
-      },
-      jobTitle: "Software Engineer | Full-Stack Web Developer",
-      location: {
-        city: "Hassi Bahbah",
-        state: "Djefla",
-        country: "Algeria",
-      },
+    id: uuidv4(),
+    name: "Oussama Bouchikhi",
+    img: "https://avatars0.githubusercontent.com/u/45850487?v=4",
+    links: {
+      website: "https://oussamabouchikhi.github.io/",
+      linkedin: "https://www.linkedin.com/in/oussama-bouchikhi-49a0b6193/",
+      github: "https://github.com/oussamabouchikhi"
     },
+    jobTitle: "Full-Stack Web Developer",
+    location: {
+      city: "Oran",
+      state: "Oran",
+      country: "Algeria"
+    }
+  },
     {
-      id: uuidv4(),
-      name: "Gustavo Varallo",
-      img: "https://avatars0.githubusercontent.com/u/4613916?v=4",
-      links: {
-        website: "http://www.varallo.me",
-        linkedin: "",
-        github: "https://github.com/guvarallo",
-      },
-      jobTitle: "Software Engineer | Full-Stack Web Developer",
-      location: {
-        city: "",
-        state: "",
-        country: "Brazil",
-      },
+    id: uuidv4(),
+    name: "Mayank Pandey",
+    img: "https://avatars3.githubusercontent.com/u/61725107?v=4",
+    links: {
+      website: "https://hardcore-davinci-a91626.netlify.app/",
+      linkedin: "https://www.linkedin.com/in/pan-dev/",
+      github: "https://github.com/neverdue"
     },
-    {
-      id: uuidv4(),
-      name: "Mahya Sadeghi",
-      img:
-        "https://avatars3.githubusercontent.com/u/23086562?s=460&u=1403d70b3d25a9cc46d09405c4a50bcea9e7dd26&v=4",
-      links: {
-        website: "http://www.emahya.com",
-        linkedin: "https://www.linkedin.com/in/mahyasadeghi/",
-        github: "https://github.com/mahyas",
-      },
-      jobTitle: "Software Engineer | Full-Stack Web Developer",
-      location: {
-        city: "Bellevue",
-        state: "Washington",
-        country: "United States",
-      },
-    },
-    {
-      id: uuidv4(),
-      name: "Adewale Adeleye",
-      img: "",
-      links: {
-        website: "https://www.walenotes.com",
-        linkedin: "https://linkedin.com/in/adewagold",
-        github: "https://github.com/adewagold",
-      },
-      jobTitle: "Software Engineer",
-      location: {
-        city: "Lagos",
-        state: "Lagos",
-        country: "Nigeria",
-      },
-    },
-    {
-      id: uuidv4(),
-      name: "Oussama Bouchikhi",
-      img: "https://avatars0.githubusercontent.com/u/45850487?v=4",
-      links: {
-        website: "https://oussamabouchikhi.github.io/",
-        linkedin: "https://www.linkedin.com/in/oussama-bouchikhi-49a0b6193/",
-        github: "https://github.com/oussamabouchikhi",
-      },
-      jobTitle: "Full-Stack Web Developer",
-      location: {
-        city: "Oran",
-        state: "Oran",
-        country: "Algeria",
-      },
-    },
-    {
-      id: uuidv4(),
-      name: "Mayank Pandey",
-      img: "https://avatars3.githubusercontent.com/u/61725107?v=4",
-      links: {
-        website: "https://hardcore-davinci-a91626.netlify.app/",
-        linkedin: "https://www.linkedin.com/in/pan-dev/",
-        github: "https://github.com/neverdue",
-      },
-      jobTitle: "Software Engineer | Full-Stack Web Developer",
-      location: {
-        city: "Tampa",
-        state: "Florida",
-        country: "United States",
-      },
-    },
-    {
-      id: uuidv4(),
-      name: "Iris Diakoumi",
-      img: "https://avatars3.githubusercontent.com/u/3638718?v=4",
-      links: {
-        website: "https://iridium.codes/",
-        linkedin: "https://www.linkedin.com/in/irisdiakoumi/",
-        github: "https://github.com/iridiumCodes",
-      },
-      jobTitle: "Front-End Web Developer",
-      location: {
-        city: "Athens",
-        state: "",
-        country: "Greece",
-      },
-    },
+    jobTitle: "Software Engineer | Full-Stack Web Developer",
+    location: {
+      city: "Tampa",
+      state: "Florida",
+      country: "United States"
+    }
+},
+  {
+  id: uuidv4(),
+  name: "Iris Diakoumi",
+  img: "https://avatars3.githubusercontent.com/u/3638718?v=4",
+  links: {
+    website: "https://iridium.codes/",
+    linkedin: "https://www.linkedin.com/in/irisdiakoumi/",
+    github: "https://github.com/iridiumCodes"
+  },
+  jobTitle: "Front-End Web Developer",
+  location: {
+    city: "Athens",
+    state: "",
+    country: "Greece"
+  }
+}
   ],
 }
