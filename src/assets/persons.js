@@ -15250,7 +15250,7 @@ export const data = {
         linkedin: "https://www.linkedin.com/in/acyril/",
         github: "https://github.com/rildev",
       },
-      jobTitle: "Font End ReactJS Developer",
+      jobTitle: "Full Stack ReactJS Developer",
       location: {
         city: "Bordeaux",
         state: "",
