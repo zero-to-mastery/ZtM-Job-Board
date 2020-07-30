@@ -15331,7 +15331,7 @@ links: {
 },
 jobTitle: "Emerging Software Engineer",
 location: {
-  city: "San Marcos",
+  city: "San Diego",
   state: "California",
   country: "United States"
 }
