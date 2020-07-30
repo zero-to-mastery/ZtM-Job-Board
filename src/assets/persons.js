@@ -15287,6 +15287,22 @@ export const data = {
       state: "Florida",
       country: "United States"
     }
+},
+  {
+  id: uuidv4(),
+  name: "Iris Diakoumi",
+  img: "https://avatars3.githubusercontent.com/u/3638718?v=4",
+  links: {
+    website: "https://iridium.codes/",
+    linkedin: "https://www.linkedin.com/in/irisdiakoumi/",
+    github: "https://github.com/iridiumCodes"
+  },
+  jobTitle: "Front-End Web Developer",
+  location: {
+    city: "Athens",
+    state: "",
+    country: "Greece"
   }
+}
   ],
 }
