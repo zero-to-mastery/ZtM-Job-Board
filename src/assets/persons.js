@@ -15303,6 +15303,22 @@ export const data = {
     state: "",
     country: "Greece"
   }
-}
+  },
+    {
+    id: uuidv4(),
+    name: "Narasimha Rao Gundavarapu",
+    img: "",
+    links: {
+      website: "https://narasimha.me",
+      linkedin: "https://www.linkedin.com/in/narasimharaog",
+      github: "https://www.github.com/narasimhag"
+    },
+    jobTitle: "Grad Student",
+    location: {
+      city: "Los Angeles",
+      state: "California",
+      country: "United States"
+    }
+  }
   ],
 }
