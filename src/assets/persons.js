@@ -15319,6 +15319,22 @@ export const data = {
       state: "California",
       country: "United States"
     }
-  }
+  },
+  {
+id: uuidv4(),
+name: "Shane Sharareh",
+img: "https://avatars3.githubusercontent.com/u/11878070?v=4",
+links: {
+  website: "https://www.shanesharareh.com/",
+  linkedin: "https://www.linkedin.com/in/shanesharareh",
+  github: "https://github.com/ShaneSharareh"
+},
+jobTitle: "Emerging Software Engineer",
+location: {
+  city: "San Diego",
+  state: "California",
+  country: "United States"
+}
+}
   ],
 }
