@@ -15320,6 +15320,22 @@ export const data = {
       country: "United States"
     }
   },
+    {
+    id: uuidv4(),
+    name: "Okechukwu Opara",
+    img: "https://avatars1.githubusercontent.com/u/34148398?v=4",
+    links: {
+      website: "https://behance.net/okechukwu-opara",
+      linkedin: "https://www.linkedin.com/in/okechukwu-opara",
+      github: "https://www.github.com/okechukwu-opara"
+    },
+    jobTitle: "Product Professional",
+    location: {
+      city: "Shomolu",
+      state: "Lagos",
+      country: "Nigeria"
+    }
+  },
   {
 id: uuidv4(),
 name: "Shane Sharareh",
