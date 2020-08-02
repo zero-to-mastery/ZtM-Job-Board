@@ -1,6 +1,8 @@
 # ZtM-Job-Board &emsp; [![TravisCI Build Status](https://travis-ci.org/zero-to-mastery/ZtM-Job-Board.svg?branch=master)](https://travis-ci.org/zero-to-mastery/ZtM-Job-Board)
 A place for developers from the [**Zero To Mastery Community**](https://zerotomastery.io/?utm_source=github&utm_medium=ZtM-Job-Board) to show recruiters that they are available for hire. Feel free to contribute and improve this in any way you see fit.
 
+Link to the webpage: [**ZtM JOB Board**](https://alumni-board.netlify.app/).
+
 ### How to add your name to the list
 To add your name to the list, simply open `persons.js` file in the `src/assets` folder, and then add your own row at the bottom, using the below template:
 ( **Don't include the square brackets "[ ]" !!! They are just there to indicate an example placeholder.** )
