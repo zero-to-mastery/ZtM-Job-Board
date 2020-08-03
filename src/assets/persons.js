@@ -15335,6 +15335,22 @@ location: {
   state: "California",
   country: "United States"
 }
+},
+      {
+id: uuidv4(),
+name: "Nitin Kumar",
+img: "https://portfolio.mr-nex.vercel.app/assets/img/me.jpg",
+links: {
+  website: "https://portfolio.mr-nex.vercel.app/",
+  linkedin: "https://www.linkedin.com/in/Mr-Nex",
+  github: "https://github.com/Mr-Nex"
+},
+jobTitle: "Full Stack Developer",
+location: {
+  city: "Bengaluru",
+  state: "Karnataka",
+  country: "India"
+}
 }
   ],
 }
