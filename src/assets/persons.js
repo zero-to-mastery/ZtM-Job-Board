@@ -15429,7 +15429,7 @@ export const data = {
       },
       jobTitle: "Front End Developer",
       location: {
-        city: "Lagos",
+        city: "Ojo",
         state: "Lagos",
         country: "Nigeria",
       },
