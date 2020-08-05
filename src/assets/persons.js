@@ -15238,6 +15238,22 @@ export const data = {
       state: "Oran",
       country: "Algeria"
     }
+  },
+     {
+    id: uuidv4(),
+    name: "Hamza Yousuf",
+    img: "https://avatars3.githubusercontent.com/u/48496170?s=460&u=2b7c7b73eb00d5b90bef96e6903d82dcb1522eea&v=4",
+    links: {
+      website: "https://sites.google.com/view/hamzaeportfolio ",
+      linkedin: "https://www.linkedin.com/in/hamzayousuf121/ ",
+      github: "https://github.com/hamzayousuf121 "
+    },
+    jobTitle: "Full Stack Web Developer ",
+    location: {
+      city: "Karachi",
+      state: "Sindh",
+      country: "Pakistan"
+    }
   }
   ],
 }
