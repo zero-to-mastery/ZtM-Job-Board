@@ -15418,5 +15418,23 @@ export const data = {
         country: "Pakistan",
       },
     },
+    ,
+    {
+      id: uuidv4(),
+      name: "Bruno Leandro DaSilva",
+      img:
+        "https://res.cloudinary.com/duprwuo4j/image/upload/v1578119088/imgs_starwars/imgs/Bruno-Profile_jsk4wb.png",
+      links: {
+        website: "https://www.bruno-dasilva.com/",
+        linkedin: "https://www.linkedin.com/in/bruno-dasilva/",
+        github: "https://github.com/Brunno-DaSilva",
+      },
+      jobTitle: "Full-Stack Developer",
+      location: {
+        city: "Dallas",
+        state: "Texas",
+        country: "United States",
+      },
+    },
   ],
 }
