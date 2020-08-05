@@ -15418,5 +15418,21 @@ export const data = {
         country: "Pakistan",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Marcos Alves Cunha",
+      img:
+        "https://avatars3.githubusercontent.com/u/835293?v=4",
+      links: {
+        linkedin: "https://www.linkedin.com/in/alvesfc ",
+        github: "https://github.com/alvesfc",
+      },
+      jobTitle: "Backend Developer",
+      location: {
+        city: "São Paulo",
+        state: "São Paulo",
+        country: "Brazil",
+      },
+    },
   ],
 }
