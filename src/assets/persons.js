@@ -4,6 +4,21 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Thedla Eshwar Chandra Vidhyasagar",
+      img: "https://avatars0.githubusercontent.com/u/28903840?s=400&u=b98b20f944a62da00dbd4881e8078744307ae62c&v=4",
+      links: {
+        linkedin: "https://www.linkedin.com/in/eshwarchandravidhyasagar",
+        github: "https://github.com/EshwarCVS",
+      },
+      jobTitle: "Business Analyst, Web Developer",
+      location: {
+        city: "Hyderabad",
+        state: "",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Kazi Foyez Ahmed",
       img: "https://avatars3.githubusercontent.com/u/11992095?v=4",
       links: {
