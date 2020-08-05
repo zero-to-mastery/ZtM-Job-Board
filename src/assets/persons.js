@@ -15418,5 +15418,21 @@ export const data = {
         country: "Pakistan",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Samuel Orobosa Amagbakhen",
+      img: "https://avatars3.githubusercontent.com/u/48049908?v=4",
+      links: {
+        website: "https://samuel-orobosa.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/samuel-amagbakhen/",
+        github: "https://github.com/samuelorobosa",
+      },
+      jobTitle: "Front End Developer",
+      location: {
+        city: "Lagos",
+        state: "Lagos",
+        country: "Nigeria",
+      },
+    },
   ],
 }
