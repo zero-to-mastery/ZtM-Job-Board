@@ -15418,5 +15418,21 @@ export const data = {
         country: "Pakistan",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Joshua Tu",
+      img: "https://drive.google.com/file/d/1xWXUBrQAOT7NIVupl6eHLQ_jkjQpN8_b/view?usp=sharing",
+      links: {
+        website: "https://joshua-tu.github.io/",
+        linkedin: "https://www.linkedin.com/in/joshua-tu/",
+        github: "https://github.com/Joshua-Tu"
+      },
+      jobTitle: "Full-Stack Engineer | Javascript(React, Node) | MongoDB,AWS",
+      location: {
+        city: "Sydney",
+        state: "New South Wales",
+        country: "Australia",
+      }
+    }
   ],
 }
