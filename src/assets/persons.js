@@ -15367,6 +15367,22 @@ location: {
   state: "Karnataka",
   country: "India"
 }
+},
+{
+  id: uuidv4(),
+  name: "Krishan Gopal",
+  img: "https://github.com/krishan93985.png",
+  links: {
+    website: "https://krishan93985.github.io/myportfolio",
+    linkedin: "https://www.linkedin.com/in/krishan-gopal-1a05a7175/",
+    github: "https://github.com/krishan93985"
+  },
+  jobTitle: "Full Stack Web Developer, Competitive Programmer",
+  location: {
+    city: "New Delhi",
+    state: "Delhi",
+    country: "India"
+  }
 }
   ],
 }
