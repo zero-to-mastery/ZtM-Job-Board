@@ -15421,13 +15421,13 @@ export const data = {
     {
       id: uuidv4(),
       name: "Joshua Tu",
-      img: "https://drive.google.com/file/d/1xWXUBrQAOT7NIVupl6eHLQ_jkjQpN8_b/view?usp=sharing",
+      img: "https://avatars0.githubusercontent.com/u/47619573?v=4",
       links: {
         website: "https://joshua-tu.github.io/",
         linkedin: "https://www.linkedin.com/in/joshua-tu/",
         github: "https://github.com/Joshua-Tu"
       },
-      jobTitle: "Full-Stack Engineer | Javascript(React, Node) | MongoDB,AWS",
+      jobTitle: "Full-Stack Engineer | Javascript Developer",
       location: {
         city: "Sydney",
         state: "New South Wales",
