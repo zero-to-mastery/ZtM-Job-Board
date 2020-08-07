@@ -15465,5 +15465,21 @@ export const data = {
         country: "Brazil",
       },
     },
+    {
+    id: uuidv4(),
+    name: "Daniel Guy Ottah",
+    img: "https://github.com/DanielOttah.png",
+    links: {
+      website: "https://dgottah.com",
+      linkedin: "https://www.linkedin.com/in/daniel-guy-ottah/",
+      github: "https://github.com/DanielOttah"
+    },
+    jobTitle: "FullStak/Software Developer",
+    location: {
+      city: "Calgary",
+      state: "Alberta",
+      country: "Canada"
+    }
+  }
   ],
 }
