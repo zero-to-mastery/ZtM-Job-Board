@@ -19,6 +19,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Daniel Shan Balico",
+      img: "https://avatars2.githubusercontent.com/u/64184826?v=4",
+      links: {
+        website: "https://danielbalico.herokuapp.com",
+        linkedin: "https://www.linkedin.com/in/daniel-shan-balico-2b64b31a6/",
+        github: "https://github.com/daniel-balico"
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "Caloocan City",
+        state: "Metro Manila",
+        country: "Philippines"
+      }
+    },
+    {
+      id: uuidv4(),
       name: "Kazi Foyez Ahmed",
       img: "https://avatars3.githubusercontent.com/u/11992095?v=4",
       links: {
