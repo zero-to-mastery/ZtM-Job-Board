@@ -15465,5 +15465,21 @@ export const data = {
         country: "Brazil",
       },
     },
+    ,{
+      id: uuidv4(),
+      name: "David Dumolo",
+      img: "https://avatars1.githubusercontent.com/u/60162743?v=4",
+      links: {
+        website: "https://dd-tech.co.nz",
+        linkedin: "https://www.linkedin.com/in/david-dumolo/",
+        github: "https://github.com/dd-tech-nz"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Auckland",
+        state: "Auckland",
+        country: "New Zealand"
+      }
+    }
   ],
 }
