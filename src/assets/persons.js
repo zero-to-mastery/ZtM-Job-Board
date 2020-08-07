@@ -15482,6 +15482,22 @@ export const data = {
       },
     },
     {
+      id: uuidv4(),
+      name: "Conner Schiller",
+      img: "https://avatars2.githubusercontent.com/u/63432370?v=4",
+      links: {
+        website: "https://connerschiller.com",
+        linkedin: "https://www.linkedin.com/in/conner-schiller",
+        github: "https://github.com/ConnerCoding",
+      },
+      jobTitle: "Software Engineer | Full Stack Developer",
+      location: {
+        city: "Irvine",
+        state: "California",
+        country: "USA",
+      },
+    },
+    {
     id: uuidv4(),
     name: "Daniel Guy Ottah",
     img: "https://github.com/DanielOttah.png",
