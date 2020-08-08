@@ -15577,6 +15577,21 @@ export const data = {
         state: "FCT",
         country: "Nigeria",
       },
+      {
+      id: uuidv4(),
+      name: "Purav Parekh",
+      img: "https://avatars1.githubusercontent.com/u/49811041?v=4",
+      links: {
+        website: "https://puravparekh.github.io",
+        linkedin: "https://www.linkedin.com/in/purav-parekh-86121b98/",
+        github: "https://github.com/purav-parekh",
+      },
+      jobTitle: "Front-End Developer","Full-Stack Developer", "Software Developer"
+      location: {
+        city: "Bangalore", "Remote"
+        state: "Karnataka", "Remote"
+        country: "India", "Remote"
+      },
     },
   ],
 }
