@@ -4,6 +4,37 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Thedla Eshwar Chandra Vidhyasagar",
+      img: "https://avatars0.githubusercontent.com/u/28903840?s=400&u=b98b20f944a62da00dbd4881e8078744307ae62c&v=4",
+      links: {
+        linkedin: "https://www.linkedin.com/in/eshwarchandravidhyasagar",
+        github: "https://github.com/EshwarCVS",
+      },
+      jobTitle: "Business Analyst, Web Developer",
+      location: {
+        city: "Hyderabad",
+        state: "",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Daniel Shan Balico",
+      img: "https://avatars2.githubusercontent.com/u/64184826?v=4",
+      links: {
+        website: "https://danielbalico.herokuapp.com",
+        linkedin: "https://www.linkedin.com/in/daniel-shan-balico-2b64b31a6/",
+        github: "https://github.com/daniel-balico"
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "Caloocan City",
+        state: "Metro Manila",
+        country: "Philippines"
+      }
+    },
+    {
+      id: uuidv4(),
       name: "Kazi Foyez Ahmed",
       img: "https://avatars3.githubusercontent.com/u/11992095?v=4",
       links: {
@@ -15434,5 +15465,69 @@ export const data = {
         country: "Nigeria",
       },
     },
+{
+      id: uuidv4(),
+      name: "Joshua Tu",
+      img: "https://avatars0.githubusercontent.com/u/47619573?v=4",
+      links: {
+        website: "https://joshua-tu.github.io/",
+        linkedin: "https://www.linkedin.com/in/joshua-tu/",
+        github: "https://github.com/Joshua-Tu"
+      },
+      jobTitle: "Full-Stack Engineer | Javascript Developer",
+      location: {
+        city: "Sydney",
+        state: "New South Wales",
+        country: "Australia",
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Marcos Alves Cunha",
+      img:
+        "https://avatars3.githubusercontent.com/u/835293?v=4",
+      links: {
+        linkedin: "https://www.linkedin.com/in/alvesfc ",
+        github: "https://github.com/alvesfc",
+      },
+      jobTitle: "Backend Developer",
+      location: {
+        city: "São Paulo",
+        state: "São Paulo",
+        country: "Brazil",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Conner Schiller",
+      img: "https://avatars2.githubusercontent.com/u/63432370?v=4",
+      links: {
+        website: "https://connerschiller.com",
+        linkedin: "https://www.linkedin.com/in/conner-schiller",
+        github: "https://github.com/ConnerCoding",
+      },
+      jobTitle: "Software Engineer | Full Stack Developer",
+      location: {
+        city: "Irvine",
+        state: "California",
+        country: "USA",
+      },
+    },
+    {
+    id: uuidv4(),
+    name: "Daniel Guy Ottah",
+    img: "https://github.com/DanielOttah.png",
+    links: {
+      website: "https://dgottah.com",
+      linkedin: "https://www.linkedin.com/in/daniel-guy-ottah/",
+      github: "https://github.com/DanielOttah"
+    },
+    jobTitle: "FullStak/Software Developer",
+    location: {
+      city: "Calgary",
+      state: "Alberta",
+      country: "Canada"
+    }
+  }
   ],
 }
