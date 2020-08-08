@@ -15464,7 +15464,7 @@ export const data = {
         state: "São Paulo",
         country: "Brazil",
       }
-    },
+    }
     ,{
       id: uuidv4(),
       name: "David Dumolo",
