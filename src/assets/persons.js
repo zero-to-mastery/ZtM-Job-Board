@@ -15463,7 +15463,7 @@ export const data = {
         city: "São Paulo",
         state: "São Paulo",
         country: "Brazil",
-      },
+      }
     },
     ,{
       id: uuidv4(),
