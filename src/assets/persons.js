@@ -5,7 +5,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Thedla Eshwar Chandra Vidhyasagar",
-      img: "https://avatars0.githubusercontent.com/u/28903840?s=400&u=b98b20f944a62da00dbd4881e8078744307ae62c&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/28903840?s=400&u=b98b20f944a62da00dbd4881e8078744307ae62c&v=4",
       links: {
         linkedin: "https://www.linkedin.com/in/eshwarchandravidhyasagar",
         github: "https://github.com/EshwarCVS",
@@ -24,14 +25,14 @@ export const data = {
       links: {
         website: "https://danielbalico.herokuapp.com",
         linkedin: "https://www.linkedin.com/in/daniel-shan-balico-2b64b31a6/",
-        github: "https://github.com/daniel-balico"
+        github: "https://github.com/daniel-balico",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Caloocan City",
         state: "Metro Manila",
-        country: "Philippines"
-      }
+        country: "Philippines",
+      },
     },
     {
       id: uuidv4(),
@@ -15465,27 +15466,26 @@ export const data = {
         country: "Nigeria",
       },
     },
-{
+    {
       id: uuidv4(),
       name: "Joshua Tu",
       img: "https://avatars0.githubusercontent.com/u/47619573?v=4",
       links: {
         website: "https://joshua-tu.github.io/",
         linkedin: "https://www.linkedin.com/in/joshua-tu/",
-        github: "https://github.com/Joshua-Tu"
+        github: "https://github.com/Joshua-Tu",
       },
       jobTitle: "Full-Stack Engineer | Javascript Developer",
       location: {
         city: "Sydney",
         state: "New South Wales",
         country: "Australia",
-      }
+      },
     },
     {
       id: uuidv4(),
       name: "Marcos Alves Cunha",
-      img:
-        "https://avatars3.githubusercontent.com/u/835293?v=4",
+      img: "https://avatars3.githubusercontent.com/u/835293?v=4",
       links: {
         linkedin: "https://www.linkedin.com/in/alvesfc ",
         github: "https://github.com/alvesfc",
@@ -15514,20 +15514,36 @@ export const data = {
       },
     },
     {
-    id: uuidv4(),
-    name: "Daniel Guy Ottah",
-    img: "https://github.com/DanielOttah.png",
-    links: {
-      website: "https://dgottah.com",
-      linkedin: "https://www.linkedin.com/in/daniel-guy-ottah/",
-      github: "https://github.com/DanielOttah"
+      id: uuidv4(),
+      name: "Daniel Guy Ottah",
+      img: "https://github.com/DanielOttah.png",
+      links: {
+        website: "https://dgottah.com",
+        linkedin: "https://www.linkedin.com/in/daniel-guy-ottah/",
+        github: "https://github.com/DanielOttah",
+      },
+      jobTitle: "FullStak/Software Developer",
+      location: {
+        city: "Calgary",
+        state: "Alberta",
+        country: "Canada",
+      },
     },
-    jobTitle: "FullStak/Software Developer",
-    location: {
-      city: "Calgary",
-      state: "Alberta",
-      country: "Canada"
-    }
-  }
+    {
+      id: uuidv4(),
+      name: "David Dumolo",
+      img: "https://avatars1.githubusercontent.com/u/60162743?v=4",
+      links: {
+        website: "https://dd-tech.co.nz",
+        linkedin: "https://www.linkedin.com/in/david-dumolo/",
+        github: "https://github.com/dd-tech-nz",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Auckland",
+        state: "Auckland",
+        country: "New Zealand",
+      },
+    },
   ],
 }
