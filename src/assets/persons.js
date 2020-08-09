@@ -15593,6 +15593,22 @@ export const data = {
         state: "",
         country: "Netherlands",
       },
-    }
+    },
+    {
+      id: uuidv4(),
+      name: "Robert Torres",
+      img: "",
+      links: {
+        website: "https://robert-torres-c920b1.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/robert-torres-495921141/",
+        github: "https://github.com/rtorres61595"
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Orlando",
+        state: "Florida",
+        country: "United States"
+      },
+    },
   ],
 }
