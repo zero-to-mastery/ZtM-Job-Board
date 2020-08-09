@@ -15578,7 +15578,7 @@ export const data = {
         country: "Nigeria",
       },
     },
-    ,{
+    {
       id: uuidv4(),
       name: "Robert Torres",
       img: "",
