@@ -15590,7 +15590,7 @@ export const data = {
       jobTitle: "Full-Stack Developer | Python Developer",
       location: {
         city: "Leiden",
-        state: "South Holland",
+        state: "",
         country: "Netherlands",
       },
     }
