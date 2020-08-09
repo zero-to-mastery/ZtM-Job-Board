@@ -15578,21 +15578,5 @@ export const data = {
         country: "Nigeria",
       },
     },
-        {
-      id: uuidv4(),
-      name: "Soroush Rasti",
-      img: "https://avatars2.githubusercontent.com/u/25939681?v=4",
-      links: {
-        website: "",
-        linkedin: "https://www.linkedin.com/in/rasti-soroush/",
-        github: "https://github.com/soroushrasti",
-      },
-      jobTitle: "Full-Stack Developer | Python Developer",
-      location: {
-        city: "Leiden",
-        state: "South Holland",
-        country: "Netherlands",
-      },
-    }
   ],
 }
