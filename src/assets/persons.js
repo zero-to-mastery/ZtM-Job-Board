@@ -15577,6 +15577,7 @@ export const data = {
         state: "FCT",
         country: "Nigeria",
       },
+    },
       {
       id: uuidv4(),
       name: "Purav Parekh",
