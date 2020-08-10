@@ -15578,7 +15578,7 @@ export const data = {
         country: "Nigeria",
       },
     },
-      {
+    {
       id: uuidv4(),
       name: "Purav Parekh",
       img: "https://avatars1.githubusercontent.com/u/49811041?v=4",
@@ -15587,14 +15587,15 @@ export const data = {
         linkedin: "https://www.linkedin.com/in/purav-parekh-86121b98/",
         github: "https://github.com/purav-parekh",
       },
-      jobTitle: "Front-End Developer | Full-Stack Developer | Software Developer",
+      jobTitle:
+        "Front-End Developer | Full-Stack Developer | Software Developer",
       location: {
         city: "Bangalore, Remote",
         state: "Karnataka, Remote",
         country: "India Remote",
       },
     },
-        {
+    {
       id: uuidv4(),
       name: "Soroush Rasti",
       img: "https://avatars2.githubusercontent.com/u/25939681?v=4",
@@ -15617,47 +15618,66 @@ export const data = {
       links: {
         website: "https://robert-torres-c920b1.netlify.app/",
         linkedin: "https://www.linkedin.com/in/robert-torres-495921141/",
-        github: "https://github.com/rtorres61595"
+        github: "https://github.com/rtorres61595",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Orlando",
         state: "Florida",
-        country: "United States"
+        country: "United States",
       },
     },
     // Jasmin Rowdy
     {
       id: uuidv4(),
       name: "Jasmin Rowdy",
-      img: "https://avatars0.githubusercontent.com/u/58674083?s=460&u=be994ec86c3be372599765e7a2335353a0d95a79&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/58674083?s=460&u=be994ec86c3be372599765e7a2335353a0d95a79&v=4",
       links: {
         website: "https://jrowdy.github.io/React-Portfolio/#/",
         linkedin: "https://www.linkedin.com/in/jrowdy-2020613/",
-        github: "https://github.com/jrowdy"
+        github: "https://github.com/jrowdy",
       },
       jobTitle: "Full Stack Web Developer | STEM Educator",
       location: {
         city: "Durham",
         state: "North Carolina",
-        country: "United States"
+        country: "United States",
       },
     },
     {
       id: uuidv4(),
       name: "Mohammad Solgi",
-      img: "https://avatars3.githubusercontent.com/u/65813366?s=400&u=4752dadd33efe830a095a2306ef5f4e797315bda&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/65813366?s=400&u=4752dadd33efe830a095a2306ef5f4e797315bda&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mohammad-solgi-a68841111/",
-        github: "https://github.com/SolgiDeveloper"
+        github: "https://github.com/SolgiDeveloper",
       },
-      jobTitle: "Software Engineer | Full Stack Developer | Javascript Developer",
+      jobTitle:
+        "Software Engineer | Full Stack Developer | Javascript Developer",
       location: {
         city: "Nahavand",
         state: "Hamedan",
-        country: "Iran"
-      }
-    }
+        country: "Iran",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Paul Jiménez",
+      img: "https://avatars.githubusercontent.com/pjf2180",
+      links: {
+        website: "https://pjf2180.github.io/pjf2180/",
+        linkedin: "https://www.linkedin.com/in/paul-jimenez-676110172/",
+        github: "https://github.com/pjf2180",
+      },
+      jobTitle: "Full-Stack Developer",
+      location: {
+        city: "Tijuana",
+        state: "Baja California",
+        country: "Mexico",
+      },
+    },
   ],
 }
