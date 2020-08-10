@@ -15587,11 +15587,11 @@ export const data = {
         linkedin: "https://www.linkedin.com/in/purav-parekh-86121b98/",
         github: "https://github.com/purav-parekh",
       },
-      jobTitle: "Front-End Developer","Full-Stack Developer", "Software Developer"
+      jobTitle: "Front-End Developer | Full-Stack Developer | Software Developer",
       location: {
-        city: "Bangalore", "Remote"
-        state: "Karnataka", "Remote"
-        country: "India", "Remote"
+        city: "Bangalore, Remote",
+        state: "Karnataka, Remote",
+        country: "India Remote",
       },
     },
         {
@@ -15623,6 +15623,23 @@ export const data = {
       location: {
         city: "Orlando",
         state: "Florida",
+        country: "United States"
+      },
+    },
+    // Jasmin Rowdy
+    {
+      id: uuidv4(),
+      name: "Jasmin Rowdy",
+      img: "https://avatars0.githubusercontent.com/u/58674083?s=460&u=be994ec86c3be372599765e7a2335353a0d95a79&v=4",
+      links: {
+        website: "https://jrowdy.github.io/React-Portfolio/#/",
+        linkedin: "https://www.linkedin.com/in/jrowdy-2020613/",
+        github: "https://github.com/jrowdy"
+      },
+      jobTitle: "Full Stack Web Developer | STEM Educator",
+      location: {
+        city: "Durham",
+        state: "North Carolina",
         country: "United States"
       },
     },
