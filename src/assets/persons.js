@@ -15626,5 +15626,21 @@ export const data = {
         country: "United States"
       },
     },
+    {
+      id: uuidv4(),
+      name: "Mohammad Solgi",
+      img: "https://avatars3.githubusercontent.com/u/65813366?s=400&u=4752dadd33efe830a095a2306ef5f4e797315bda&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/mohammad-solgi-a68841111/",
+        github: "https://github.com/SolgiDeveloper"
+      },
+      jobTitle: "Software Engineer | Full Stack Developer | Javascript Developer",
+      location: {
+        city: "Nahavand",
+        state: "Hamedan",
+        country: "Iran"
+      }
+    }
   ],
 }
