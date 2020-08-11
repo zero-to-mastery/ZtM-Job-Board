@@ -19,6 +19,20 @@ export const data = {
       },
     },
     {
+        id: uuidv4(),
+        name: "Dhruva Srinivas",
+        img: "",
+        links: {
+           github: "https://github.com/iqubecoding"
+        },
+        jobTitle: "Back-End Dev",
+        location: {
+          city: "Bangalore",
+          state: "",
+          country: "India"
+    }
+    },
+    {
       id: uuidv4(),
       name: "Daniel Shan Balico",
       img: "https://avatars2.githubusercontent.com/u/64184826?v=4",
