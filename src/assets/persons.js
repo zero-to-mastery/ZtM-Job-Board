@@ -19,18 +19,18 @@ export const data = {
       },
     },
     {
-        id: uuidv4(),
-        name: "Dhruva Srinivas",
-        img: "",
-        links: {
-           github: "https://github.com/iqubecoding"
-        },
-        jobTitle: "Back-End Dev",
-        location: {
-          city: "Bangalore",
-          state: "",
-          country: "India"
-    }
+      id: uuidv4(),
+      name: "Dhruva Srinivas",
+      img: "",
+      links: {
+        github: "https://github.com/iqubecoding"
+      },
+      jobTitle: "Back-End Dev",
+      location: {
+        city: "Bangalore",
+        state: "",
+        country: "India"
+      }
     },
     {
       id: uuidv4(),
@@ -15692,6 +15692,22 @@ export const data = {
         state: "Baja California",
         country: "Mexico",
       },
+    },
+    {
+      id: uuidv4(),
+      name: "Chris Cooney",
+      img: "[https://avatars0.githubusercontent.com/u/61475590?v=4",
+      links: {
+        website: "https://chriscooney.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/chris-cooney-003028160/",
+        github: "https://github.com/ChrisCooney05"
+      },
+      jobTitle: "Full-Stack Developer",
+      location: {
+        city: "London",
+        state: "",
+        country: "United Kingdom"
+      }
     },
   ],
 }
