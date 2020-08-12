@@ -15696,7 +15696,7 @@ export const data = {
     {
       id: uuidv4(),
       name: "Chris Cooney",
-      img: "[https://avatars0.githubusercontent.com/u/61475590?v=4",
+      img: "https://avatars0.githubusercontent.com/u/61475590?v=4",
       links: {
         website: "https://chriscooney.netlify.app/",
         linkedin: "https://www.linkedin.com/in/chris-cooney-003028160/",
