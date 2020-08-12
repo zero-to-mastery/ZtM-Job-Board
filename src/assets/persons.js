@@ -18,6 +18,22 @@ export const data = {
         country: "India",
       },
     },
+     {
+      id: uuidv4(),
+      name: "Pushapak Kumar",
+      img:
+        "",
+      links: {
+        linkedin: "https://www.linkedin.com/in/pushapak-kumar-pal-4a60b4127/",
+        github: "https://github.com/pushapak28",
+      },
+      jobTitle: "Web Developer,Marketing Executive",
+      location: {
+        city: "Orai",
+        state: "Uttar Pradesh",
+        country: "India",
+      },
+    },
     {
       id: uuidv4(),
       name: "Dhruva Srinivas",
