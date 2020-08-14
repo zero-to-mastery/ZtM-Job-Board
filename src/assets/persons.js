@@ -15725,5 +15725,21 @@ export const data = {
         country: "United Kingdom"
       }
     },
+    {
+      id: uuidv4(),
+      name: "Khudadad Khawari",
+      img: "https://avatars3.githubusercontent.com/u/54738188?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/khudadadkhawari/",
+        github: "https://github.com/KhudadadKhawari"
+      },
+      jobTitle: "Back-End Developer",
+      location: {
+        city: "Kabul",
+        state: "",
+        country: "Afghanistan"
+      }
+    },
   ],
 }
