@@ -15755,5 +15755,21 @@ export const data = {
         country: "Afghanistan"
       }
     },
+    ,{
+      id: uuidv4(),
+      name: "Ridwan Abiola",
+      img: "https://avatars1.githubusercontent.com/u/25585850?v=4",
+      links: {
+        website: "https://ridwanabiola.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/ridwan-abiola-06002b114/",
+        github: "https://github.com/abu-hasib"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Gbagada",
+        state: "Lagos",
+        country: "Nigeria"
+      }
+    }
   ],
 }
