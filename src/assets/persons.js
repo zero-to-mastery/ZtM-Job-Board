@@ -34,6 +34,20 @@ export const data = {
         country: "India",
       },
     },
+{
+      id: uuidv4(),
+      name: "Siddhant Singh",
+      img: "https://lh3.googleusercontent.com/a-/AOh14GiXF_GRytNAxBqtTTig4BYi-7YeSrBhrI1PH1w9=s96-c-rg-br100",
+      links: {
+        github: "https://github.com/sidpreneur/"
+      },
+      jobTitle: "Remote React Tutor",
+      location: {
+        city: "Gorakhpur",
+        state: "Uttar-Pradesh",
+        country: "India"
+      }
+    },
     {
       id: uuidv4(),
       name: "Dhruva Srinivas",
