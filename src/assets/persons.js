@@ -15755,7 +15755,7 @@ export const data = {
         country: "Afghanistan"
       }
     },
-    ,{
+    {
       id: uuidv4(),
       name: "Ridwan Abiola",
       img: "https://avatars1.githubusercontent.com/u/25585850?v=4",
