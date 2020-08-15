@@ -15770,6 +15770,21 @@ export const data = {
         state: "Lagos",
         country: "Nigeria"
       }
+     ,{
+    id: uuidv4(),
+    name: "Kyamanywa Hamza",
+    img: "https://avatars3.githubusercontent.com/u/46571439?v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/hamza-kyamanywa-98010913a/",
+      github: "https://github.com/hsanshine"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Seoul",
+      state: "",
+      country: "South Korea"
     }
+  }
   ],
 }
