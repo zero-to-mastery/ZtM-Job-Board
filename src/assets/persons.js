@@ -15770,6 +15770,7 @@ export const data = {
         state: "Lagos",
         country: "Nigeria"
       }
+    }
      ,{
     id: uuidv4(),
     name: "Kyamanywa Hamza",
