@@ -15755,5 +15755,21 @@ export const data = {
         country: "Afghanistan"
       }
     },
+    {
+      id: uuidv4(),
+      name: "Atharva Maid",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/atharva-maid-a9a227192/",
+        github: "https://github.com/atharv123-wq/"
+      },
+      jobTitle: "Full Stack developer",
+      location: {
+        city: "Pune",
+        state: "Maharashtra",
+        country: "India"
+      }
+    }
   ],
 }
