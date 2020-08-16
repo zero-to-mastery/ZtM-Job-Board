@@ -15785,7 +15785,7 @@ export const data = {
       city: "Seoul",
       state: "",
       country: "South Korea"
-    }
-  }
-  ],
+    },
+  },
+  ]
 }
