@@ -15770,6 +15770,22 @@ export const data = {
         state: "Lagos",
         country: "Nigeria"
       }
+    },
+    {
+      id: uuidv4(),
+      name: "Sohail Shaikh",
+      img: "https://avatars0.githubusercontent.com/u/69633245?s=460&u=74c6756642a2b240478e94cbe961505540511507&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/sohail-shaikh-0193/",
+        github: "https://github.com/sohai019"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Thane",
+        state: "Maharashtra",
+        country: "India"
+      }
     }
   ],
 }
