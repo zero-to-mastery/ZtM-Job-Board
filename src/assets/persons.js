@@ -15778,7 +15778,7 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/sohail-shaikh-0193/",
-        github: "https://github.com/sohai019"
+        github: "https://github.com/sohail019"
       },
       jobTitle: "Full Stack Developer",
       location: {
