@@ -15805,3 +15805,19 @@ export const data = {
   }
   ]
 }
+,{
+    id: uuidv4(),
+    name: "Shubham S Dandekar",
+    img: "",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/shubham-dandekar-a959b41b0/",
+      github: "https://github.com/shubham-sd"
+    },
+    jobTitle: "Web Developer | Software Engineer",
+    location: {
+      city: "Nagpur",
+      state: "Maharashtra",
+      country: "India"
+    }
+  }
