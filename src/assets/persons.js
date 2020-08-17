@@ -15819,5 +15819,21 @@ export const data = {
       country: "South Korea"
     }
   }
+    ,{
+    id: uuidv4(),
+    name: "Himanshu R Agarwal",
+    img: "https://avatars1.githubusercontent.com/u/49142525?v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/himanshu-ramesh-agarwal-360850175",
+      github: "https://github.com/himanshuagarwal12"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Hyderabad",
+      state: "",
+      country: "India"
+    },
+  }
   ]
 }
