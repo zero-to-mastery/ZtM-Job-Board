@@ -15802,10 +15802,8 @@ export const data = {
       state: "Gyeonggi-do",
       country: "South Korea"
     }
-  }
-  ]
-}
-,{
+  },
+    {
     id: uuidv4(),
     name: "Shubham Dandekar",
     img: "",
@@ -15821,3 +15819,5 @@ export const data = {
       country: "India"
     }
   }
+      ]
+}
