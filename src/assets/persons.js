@@ -15807,7 +15807,7 @@ export const data = {
 }
 ,{
     id: uuidv4(),
-    name: "Shubham S Dandekar",
+    name: "Shubham Dandekar",
     img: "",
     links: {
       website: "",
