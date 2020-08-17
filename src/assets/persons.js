@@ -15770,6 +15770,22 @@ export const data = {
         state: "Lagos",
         country: "Nigeria"
       }
+    },
+    {
+      id: uuidv4(),
+      name: "Sohail Shaikh",
+      img: "https://avatars0.githubusercontent.com/u/69633245?s=460&u=74c6756642a2b240478e94cbe961505540511507&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/sohail-shaikh-0193/",
+        github: "https://github.com/sohail019"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Thane",
+        state: "Maharashtra",
+        country: "India"
+      }
     }
      ,{
     id: uuidv4(),
@@ -15819,5 +15835,21 @@ export const data = {
       country: "India"
     }
   }
-      ]
+    ,{
+    id: uuidv4(),
+    name: "Himanshu R Agarwal",
+    img: "https://avatars1.githubusercontent.com/u/49142525?v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/himanshu-ramesh-agarwal-360850175",
+      github: "https://github.com/himanshuagarwal12"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Hyderabad",
+      state: "",
+      country: "India"
+    },
+  }
+  ]
 }
