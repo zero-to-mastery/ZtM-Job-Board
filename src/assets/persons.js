@@ -15866,6 +15866,22 @@ export const data = {
       state: "IL",
       country: "USA"
     }
-  }
+  },
+    {
+      id: uuidv4(),
+      name: "Siya Peng",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/siya-peng-475533145/",
+        github: "https://github.com/pengsiya",
+      },
+      jobTitle: "Software Developer",
+      location: {
+        city: "Vancouver",
+        state: "BC",
+        country: "Canada",
+      },
+    }
   ]
 }
