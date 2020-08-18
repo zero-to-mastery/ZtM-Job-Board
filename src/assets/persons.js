@@ -15834,8 +15834,8 @@ export const data = {
       state: "Maharashtra",
       country: "India"
     }
-  }
-    ,{
+  },
+    {
     id: uuidv4(),
     name: "Himanshu R Agarwal",
     img: "https://avatars1.githubusercontent.com/u/49142525?v=4",
@@ -15849,7 +15849,23 @@ export const data = {
       city: "Hyderabad",
       state: "",
       country: "India"
+    }
+  },
+    {
+    id: uuidv4(),
+    name: "Emanuel Flores",
+    img: "https://avatars2.githubusercontent.com/u/44663300?v=4",
+    links: {
+      website: "https://www.emanuelflores.com/",
+      linkedin: "https://www.linkedin.com/in/emanuel-flores-web-dev/",
+      github: "https://github.com/emanuelflo"
     },
+    jobTitle: "Front-end Developer/UI Developer",
+    location: {
+      city: "Chicago",
+      state: "IL",
+      country: "USA"
+    }
   }
   ]
 }
