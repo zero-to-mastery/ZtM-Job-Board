@@ -15860,11 +15860,28 @@ export const data = {
       linkedin: "https://www.linkedin.com/in/emanuel-flores-web-dev/",
       github: "https://github.com/emanuelflo"
     },
+
     jobTitle: "Front-end Developer/UI Developer",
     location: {
       city: "Chicago",
       state: "IL",
       country: "USA"
+    }
+  },
+      {
+    id: uuidv4(),
+    name: "Chukwudozie Emeka",
+    img: "https://avatars1.githubusercontent.com/u/63955272?v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/chukwudozie-emeka-50635515a/",
+      github: "https://github.com/chukwudozie"
+    },
+    jobTitle: "Web Developer| Front-End Developer",
+    location: {
+      city: "Awka",
+      state: "Anambra",
+      country: "Nigeria"
     }
   },
     {
