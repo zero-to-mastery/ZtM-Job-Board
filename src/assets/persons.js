@@ -15850,6 +15850,23 @@ export const data = {
       state: "",
       country: "India"
     },
+  },
+
+  {
+    id: uuidv4(),
+    name: "Chukwudozie Emeka",
+    img: "https://avatars1.githubusercontent.com/u/63955272?v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/chukwudozie-emeka-50635515a/",
+      github: "https://github.com/chukwudozie"
+    },
+    jobTitle: "Web Developer",
+    location: {
+      city: "Awka",
+      state: "Anambra",
+      country: "Nigeria"
+    }
   }
   ]
 }
