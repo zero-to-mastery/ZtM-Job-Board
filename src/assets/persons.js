@@ -4,6 +4,22 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Barel Mishal",
+      img: "https://avatars0.githubusercontent.com/u/65918563?v=4",
+      links: {
+        website: "http://barel-mishal.herokuapp.com/",
+        linkedin: "https://www.linkedin.com/in/barel-mishal-6625471a3/",
+        github: "https://github.com/dreamwork-Barel-and-Yuval",
+      },
+      jobTitle: "Developer",
+      location: {
+        city: "Rehovot",
+        state: "",
+        country: "Israel",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Kelfi Batista",
       img: "https://avatars2.githubusercontent.com/u/10004055?v=4",
       links: {
