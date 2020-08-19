@@ -15560,6 +15560,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Emmanuel Ezenwigbo",
+      img: "https://avatars3.githubusercontent.com/u/44367769?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/emmanuel-ezenwigbo-194299195/",
+        github: "https://github.com/SkyC0der",
+      },
+      jobTitle: "Front-End Developer",
+      location: {
+        city: "",
+        state: "Lagos",
+        country: "Nigeria",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Joshua Tu",
       img: "https://avatars0.githubusercontent.com/u/47619573?v=4",
       links: {
