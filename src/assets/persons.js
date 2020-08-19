@@ -4,6 +4,22 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Catana Andrei - Adrian",
+      img: "https://avatars0.githubusercontent.com/u/44205366?v=4",
+      links: {
+        website: "https://catanelu.github.io/CV/",
+        linkedin: "https://www.linkedin.com/in/andrei-adrian-catana-69607b1b2/",
+        github: "https://github.com/Catanelu",
+      },
+      jobTitle: "Full Stack Developer, Software Engineer",
+      location: {
+        city: "Cluj-Napoca",
+        state: "Cluj",
+        country: "Romania",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Barel Mishal",
       img: "https://avatars0.githubusercontent.com/u/65918563?v=4",
       links: {
