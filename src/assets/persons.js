@@ -2,7 +2,6 @@ import { v4 as uuidv4 } from "uuid"
 
 export const data = {
   people: [
-
     {
       id: uuidv4(),
       name: "Catana Andrei - Adrian",
@@ -14,7 +13,7 @@ export const data = {
       },
       jobTitle: "Full Stack Developer, Software Engineer",
       location: {
-        city: "Cluj-Napoca"
+        city: "Cluj-Napoca",
         state: "Cluj",
         country: "Romania",
       },
