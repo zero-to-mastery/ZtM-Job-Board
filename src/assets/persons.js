@@ -4,6 +4,22 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Kelfi Batista",
+      img: "https://avatars2.githubusercontent.com/u/10004055?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/kelfi-batista/",
+        github: "https://github.com/KelfiBM",
+      },
+      jobTitle: "Software Engineer, Web Developer",
+      location: {
+        city: "Santo Domingo",
+        state: "",
+        country: "Dominican Republic",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Thedla Eshwar Chandra Vidhyasagar",
       img:
         "https://avatars0.githubusercontent.com/u/28903840?s=400&u=b98b20f944a62da00dbd4881e8078744307ae62c&v=4",
