@@ -15915,6 +15915,22 @@ export const data = {
         state: "BC",
         country: "Canada",
       },
+    },
+    {
+      id: uuidv4(),
+      name: "Catana Andrei - Adrian",
+      img: "https://i.postimg.cc/HL1CrYMQ/poza.jpg",
+      links: {
+        website: "https://catanelu.github.io/CV/",
+        linkedin: "https://www.linkedin.com/in/andrei-adrian-catana-69607b1b2/",
+        github: "https://github.com/Catanelu",
+      },
+      jobTitle: "Full Stack Developer, Software Engineer",
+      location: {
+        city: "Cluj-Napoca"
+        state: "Cluj",
+        country: "Romania",
+      },
     }
   ]
 }
