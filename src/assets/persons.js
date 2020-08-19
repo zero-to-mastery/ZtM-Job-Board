@@ -15860,8 +15860,6 @@ export const data = {
       linkedin: "https://www.linkedin.com/in/emanuel-flores-web-dev/",
       github: "https://github.com/emanuelflo"
     },
-      
-  },
     jobTitle: "Front-end Developer/UI Developer",
     location: {
       city: "Chicago",
