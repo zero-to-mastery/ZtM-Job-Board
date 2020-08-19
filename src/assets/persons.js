@@ -15834,8 +15834,8 @@ export const data = {
       state: "Maharashtra",
       country: "India"
     }
-  }
-    ,{
+  },
+    {
     id: uuidv4(),
     name: "Himanshu R Agarwal",
     img: "https://avatars1.githubusercontent.com/u/49142525?v=4",
@@ -15849,10 +15849,27 @@ export const data = {
       city: "Hyderabad",
       state: "",
       country: "India"
-    },
+    }
   },
-
-  {
+    {
+    id: uuidv4(),
+    name: "Emanuel Flores",
+    img: "https://avatars2.githubusercontent.com/u/44663300?v=4",
+    links: {
+      website: "https://www.emanuelflores.com/",
+      linkedin: "https://www.linkedin.com/in/emanuel-flores-web-dev/",
+      github: "https://github.com/emanuelflo"
+    },
+      
+  },
+    jobTitle: "Front-end Developer/UI Developer",
+    location: {
+      city: "Chicago",
+      state: "IL",
+      country: "USA"
+    }
+  },
+      {
     id: uuidv4(),
     name: "Chukwudozie Emeka",
     img: "https://avatars1.githubusercontent.com/u/63955272?v=4",
@@ -15867,6 +15884,22 @@ export const data = {
       state: "Anambra",
       country: "Nigeria"
     }
-  }
+  },
+    {
+      id: uuidv4(),
+      name: "Siya Peng",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/siya-peng-475533145/",
+        github: "https://github.com/pengsiya",
+      },
+      jobTitle: "Software Developer",
+      location: {
+        city: "Vancouver",
+        state: "BC",
+        country: "Canada",
+      },
+    }
   ]
 }
