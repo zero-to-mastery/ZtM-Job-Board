@@ -2,6 +2,22 @@ import { v4 as uuidv4 } from "uuid"
 
 export const data = {
   people: [
+		{
+      id: uuidv4(),
+      name: "Yusuf Delvi",
+      img: "https://avatars1.githubusercontent.com/u/34205099?s=400&u=876c9f7edbbfba3d94a2b077d67b18da6d7208ce&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/yusuf-delvi/",
+        github: "https://github.com/yusuf-delvi",
+      },
+      jobTitle: "Full Stack Developer, Web Developer",
+      location: {
+        city: "Bangalore",
+        state: "Karnataka",
+        country: "India",
+      },
+    },
     {
       id: uuidv4(),
       name: "Catana Andrei - Adrian",
