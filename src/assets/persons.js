@@ -34,6 +34,22 @@ export const data = {
         country: "Romania",
       },
     },
+  {
+      id: uuidv4(),
+      name: "Atique Ahmed",
+      img: "https://atiqueahmed.com/assets/img/mypic.png",
+      links: {
+        website: "https://atiqueahmed.com",
+        linkedin: "https://www.linkedin.com/in/atique-ahmed-680ba5ab/",
+        github: "https://github.com/codeztech-atique",
+      },
+      jobTitle: "Lead Full Stack Developer, Cloud Solution Architect",
+      location: {
+        city: "Kolkata",
+        state: "West bengal",
+        country: "India",
+      },
+    },
     {
       id: uuidv4(),
       name: "Barel Mishal",
