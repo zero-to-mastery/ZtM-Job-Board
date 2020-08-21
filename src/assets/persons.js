@@ -15995,6 +15995,25 @@ export const data = {
         state: "California",
         country: "US",
       }
+    },
+
+    {
+      id: uuidv4(),
+      name: "Damjan Karlovski",
+      img: "https://avatars2.githubusercontent.com/u/17814710?v=4",
+      links: {
+        website: "https://damjankarlovski.github.io/CarlODE/",
+        linkedin: "https://www.linkedin.com/in/damjan-karlovski-a3844a159/",
+        github: "https://github.com/DamjanKarlovski"
+      },
+  
+      jobTitle: "Front-End Web Developer",
+      location: {
+        city: "Skopje",
+        state: "Macedonia",
+        country: "Macedonia"
+      }
     }
+
   ]
 }
