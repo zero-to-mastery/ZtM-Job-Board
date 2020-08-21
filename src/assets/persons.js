@@ -2,10 +2,11 @@ import { v4 as uuidv4 } from "uuid"
 
 export const data = {
   people: [
-		{
+    {
       id: uuidv4(),
       name: "Yusuf Delvi",
-      img: "https://avatars1.githubusercontent.com/u/34205099?s=400&u=876c9f7edbbfba3d94a2b077d67b18da6d7208ce&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/34205099?s=400&u=876c9f7edbbfba3d94a2b077d67b18da6d7208ce&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/yusuf-delvi/",
@@ -32,6 +33,22 @@ export const data = {
         city: "Cluj-Napoca",
         state: "Cluj",
         country: "Romania",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Atique Ahmed",
+      img: "https://atiqueahmed.com/assets/img/mypic.png",
+      links: {
+        website: "https://atiqueahmed.com",
+        linkedin: "https://www.linkedin.com/in/atique-ahmed-680ba5ab/",
+        github: "https://github.com/codeztech-atique",
+      },
+      jobTitle: "Lead Full Stack Developer, Cloud Solution Architect",
+      location: {
+        city: "Kolkata",
+        state: "West bengal",
+        country: "India",
       },
     },
     {
@@ -82,11 +99,10 @@ export const data = {
         country: "India",
       },
     },
-     {
+    {
       id: uuidv4(),
       name: "Pushapak Kumar",
-      img:
-        "",
+      img: "",
       links: {
         linkedin: "https://www.linkedin.com/in/pushapak-kumar-pal-4a60b4127/",
         github: "https://github.com/pushapak28",
@@ -98,33 +114,34 @@ export const data = {
         country: "India",
       },
     },
-{
+    {
       id: uuidv4(),
       name: "Siddhant Singh",
-      img: "https://lh3.googleusercontent.com/a-/AOh14GiXF_GRytNAxBqtTTig4BYi-7YeSrBhrI1PH1w9=s96-c-rg-br100",
+      img:
+        "https://lh3.googleusercontent.com/a-/AOh14GiXF_GRytNAxBqtTTig4BYi-7YeSrBhrI1PH1w9=s96-c-rg-br100",
       links: {
-        github: "https://github.com/sidpreneur/"
+        github: "https://github.com/sidpreneur/",
       },
       jobTitle: "Remote React Tutor",
       location: {
         city: "Gorakhpur",
         state: "Uttar-Pradesh",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
       name: "Dhruva Srinivas",
       img: "",
       links: {
-        github: "https://github.com/iqubecoding"
+        github: "https://github.com/iqubecoding",
       },
       jobTitle: "Back-End Dev",
       location: {
         city: "Bangalore",
         state: "",
-        country: "India"
-      }
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
@@ -15810,14 +15827,14 @@ export const data = {
       links: {
         website: "https://chriscooney.netlify.app/",
         linkedin: "https://www.linkedin.com/in/chris-cooney-003028160/",
-        github: "https://github.com/ChrisCooney05"
+        github: "https://github.com/ChrisCooney05",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "London",
         state: "",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -15826,14 +15843,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/khudadadkhawari/",
-        github: "https://github.com/KhudadadKhawari"
+        github: "https://github.com/KhudadadKhawari",
       },
       jobTitle: "Back-End Developer",
       location: {
         city: "Kabul",
         state: "",
-        country: "Afghanistan"
-      }
+        country: "Afghanistan",
+      },
     },
     {
       id: uuidv4(),
@@ -15842,128 +15859,131 @@ export const data = {
       links: {
         website: "https://ridwanabiola.netlify.app/",
         linkedin: "https://www.linkedin.com/in/ridwan-abiola-06002b114/",
-        github: "https://github.com/abu-hasib"
+        github: "https://github.com/abu-hasib",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Gbagada",
         state: "Lagos",
-        country: "Nigeria"
-      }
+        country: "Nigeria",
+      },
     },
     {
       id: uuidv4(),
       name: "Sohail Shaikh",
-      img: "https://avatars0.githubusercontent.com/u/69633245?s=460&u=74c6756642a2b240478e94cbe961505540511507&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/69633245?s=460&u=74c6756642a2b240478e94cbe961505540511507&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/sohail-shaikh-0193/",
-        github: "https://github.com/sohail019"
+        github: "https://github.com/sohail019",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Thane",
         state: "Maharashtra",
-        country: "India"
-      }
-    }
-     ,{
-    id: uuidv4(),
-    name: "Kyamanywa Hamza",
-    img: "https://avatars3.githubusercontent.com/u/46571439?v=4",
-    links: {
-      website: "",
-      linkedin: "https://www.linkedin.com/in/hamza-kyamanywa-98010913a/",
-      github: "https://github.com/hsanshine"
+        country: "India",
+      },
     },
-    jobTitle: "Full Stack Developer",
-    location: {
-      city: "Seoul",
-      state: "",
-      country: "South Korea"
-    },
-  }
-   ,{
-    id: uuidv4(),
-    name: "Seungtae Moon",
-    img: "https://drive.google.com/file/d/1k8CuORE-whF8QWjmRFANKLiD23HDaHy-/view?usp=sharing",
-    links: {
-      website: "https://medium.com/@conanmoon",
-      linkedin: "https://www.linkedin.com/in/conanmoon/",
-      github: "https://github.com/conanmoon"
-    },
-    jobTitle: "Data Scientist Candidate",
-    location: {
-      city: "Suwon",
-      state: "Gyeonggi-do",
-      country: "South Korea"
-    }
-  },
     {
-    id: uuidv4(),
-    name: "Shubham Dandekar",
-    img: "",
-    links: {
-      website: "",
-      linkedin: "https://www.linkedin.com/in/shubham-dandekar-a959b41b0/",
-      github: "https://github.com/shubham-sd"
+      id: uuidv4(),
+      name: "Kyamanywa Hamza",
+      img: "https://avatars3.githubusercontent.com/u/46571439?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/hamza-kyamanywa-98010913a/",
+        github: "https://github.com/hsanshine",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Seoul",
+        state: "",
+        country: "South Korea",
+      },
     },
-    jobTitle: "Web Developer | Software Engineer",
-    location: {
-      city: "Nagpur",
-      state: "Maharashtra",
-      country: "India"
-    }
-  },
     {
-    id: uuidv4(),
-    name: "Himanshu R Agarwal",
-    img: "https://avatars1.githubusercontent.com/u/49142525?v=4",
-    links: {
-      website: "",
-      linkedin: "https://www.linkedin.com/in/himanshu-ramesh-agarwal-360850175",
-      github: "https://github.com/himanshuagarwal12"
+      id: uuidv4(),
+      name: "Seungtae Moon",
+      img:
+        "https://drive.google.com/file/d/1k8CuORE-whF8QWjmRFANKLiD23HDaHy-/view?usp=sharing",
+      links: {
+        website: "https://medium.com/@conanmoon",
+        linkedin: "https://www.linkedin.com/in/conanmoon/",
+        github: "https://github.com/conanmoon",
+      },
+      jobTitle: "Data Scientist Candidate",
+      location: {
+        city: "Suwon",
+        state: "Gyeonggi-do",
+        country: "South Korea",
+      },
     },
-    jobTitle: "Web Developer",
-    location: {
-      city: "Hyderabad",
-      state: "",
-      country: "India"
-    }
-  },
     {
-    id: uuidv4(),
-    name: "Emanuel Flores",
-    img: "https://avatars2.githubusercontent.com/u/44663300?v=4",
-    links: {
-      website: "https://www.emanuelflores.com/",
-      linkedin: "https://www.linkedin.com/in/emanuel-flores-web-dev/",
-      github: "https://github.com/emanuelflo"
+      id: uuidv4(),
+      name: "Shubham Dandekar",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/shubham-dandekar-a959b41b0/",
+        github: "https://github.com/shubham-sd",
+      },
+      jobTitle: "Web Developer | Software Engineer",
+      location: {
+        city: "Nagpur",
+        state: "Maharashtra",
+        country: "India",
+      },
     },
+    {
+      id: uuidv4(),
+      name: "Himanshu R Agarwal",
+      img: "https://avatars1.githubusercontent.com/u/49142525?v=4",
+      links: {
+        website: "",
+        linkedin:
+          "https://www.linkedin.com/in/himanshu-ramesh-agarwal-360850175",
+        github: "https://github.com/himanshuagarwal12",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Hyderabad",
+        state: "",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Emanuel Flores",
+      img: "https://avatars2.githubusercontent.com/u/44663300?v=4",
+      links: {
+        website: "https://www.emanuelflores.com/",
+        linkedin: "https://www.linkedin.com/in/emanuel-flores-web-dev/",
+        github: "https://github.com/emanuelflo",
+      },
 
-    jobTitle: "Front-end Developer/UI Developer",
-    location: {
-      city: "Chicago",
-      state: "IL",
-      country: "USA"
-    }
-  },
-      {
-    id: uuidv4(),
-    name: "Chukwudozie Emeka",
-    img: "https://avatars1.githubusercontent.com/u/63955272?v=4",
-    links: {
-      website: "",
-      linkedin: "https://www.linkedin.com/in/chukwudozie-emeka-50635515a/",
-      github: "https://github.com/chukwudozie"
+      jobTitle: "Front-end Developer/UI Developer",
+      location: {
+        city: "Chicago",
+        state: "IL",
+        country: "USA",
+      },
     },
-    jobTitle: "Web Developer| Front-End Developer",
-    location: {
-      city: "Awka",
-      state: "Anambra",
-      country: "Nigeria"
-    }
-  },
+    {
+      id: uuidv4(),
+      name: "Chukwudozie Emeka",
+      img: "https://avatars1.githubusercontent.com/u/63955272?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/chukwudozie-emeka-50635515a/",
+        github: "https://github.com/chukwudozie",
+      },
+      jobTitle: "Web Developer| Front-End Developer",
+      location: {
+        city: "Awka",
+        state: "Anambra",
+        country: "Nigeria",
+      },
+    },
     {
       id: uuidv4(),
       name: "Siya Peng",
@@ -15996,6 +16016,22 @@ export const data = {
         country: "India",
       },
     },
-
-  ]
+    {
+      id: uuidv4(),
+      name: "Siddardha Teegela",
+      img: "https://github.com/sidhumeher.png",
+      links: {
+        website: "",
+        linkedin:
+          "https://www.linkedin.com/in/siddardha-meher-teegela-04110a112/",
+        github: "https://github.com/sidhumeher",
+      },
+      jobTitle: "Software Developer in Test",
+      location: {
+        city: "San Jose",
+        state: "California",
+        country: "US",
+      },
+    },
+  ],
 }
