@@ -16033,21 +16033,21 @@ export const data = {
         country: "US",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Patrick Oguamanam",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/patrickoguamanam",
+        github: "https://github.com/thedev-patrick",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Lagos",
+        state: "",
+        country: "Nigeria",
+      },
+    },
   ],
 }
-,{
-    id: uuidv4(),
-    name: "Patrick Oguamanam",
-    img: "",
-    links: {
-      website: "",
-      linkedin: "https://www.linkedin.com/patrickoguamanam",
-      github: "https://github.com/thedev-patrick"
-    },
-    jobTitle: "Web Developer",
-    location: {
-      city: "Lagos",
-      state: "",
-      country: "Nigeria"
-    }
-  }
