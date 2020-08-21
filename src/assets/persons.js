@@ -15979,6 +15979,22 @@ export const data = {
         state: "BC",
         country: "Canada",
       },
+    },
+    {
+      id: uuidv4(),
+      name: "Siddardha Teegela",
+      img: "https://github.com/sidhumeher.png",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/siddardha-meher-teegela-04110a112/",
+        github: "https://github.com/sidhumeher",
+      },
+      jobTitle: "Software Developer in Test",
+      location: {
+        city: "San Jose",
+        state: "California",
+        country: "US",
+      }
     }
   ]
 }
