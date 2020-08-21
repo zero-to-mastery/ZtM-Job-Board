@@ -15979,6 +15979,23 @@ export const data = {
         state: "BC",
         country: "Canada",
       },
-    }
+    },
+    {
+      id: uuidv4(),
+      name: "Vipul Chaurasia",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/vipul-chaurasia-5a950a161/",
+        github: "https://github.com/vipul1298",
+      },
+      jobTitle: "Software Developer",
+      location: {
+        city: "Varanasi",
+        state: "U.P.",
+        country: "India",
+      },
+    },
+
   ]
 }
