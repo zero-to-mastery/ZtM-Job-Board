@@ -4,22 +4,6 @@ export const data = {
   people: [
     {
       id: uuidv4(),
-      name: "Khaled Mohamed Hassan",
-      img: "https://avatars2.githubusercontent.com/u/68192463?s=400&u=21cfabaf531ec65dfc121a85389d5c39c96fecdc&v=4",
-      links: {
-        website: "",
-        linkedin: "https://www.linkedin.com/in/khaled-m-hassan/",
-        github: "https://github.com/kh-khalil"
-      },
-      jobTitle: "Web Developer",
-      location: {
-        city: "El Shorouk",
-        state: "Cairo",
-        country: "Egypt"
-      }
-    },
-    {
-      id: uuidv4(),
       name: "Yusuf Delvi",
       img:
         "https://avatars1.githubusercontent.com/u/34205099?s=400&u=876c9f7edbbfba3d94a2b077d67b18da6d7208ce&v=4",
@@ -34,6 +18,22 @@ export const data = {
         state: "Karnataka",
         country: "India",
       },
+    },
+    {
+      id: uuidv4(),
+      name: "Khaled Mohamed Hassan",
+      img: "https://avatars2.githubusercontent.com/u/68192463?s=400&u=21cfabaf531ec65dfc121a85389d5c39c96fecdc&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/khaled-m-hassan/",
+        github: "https://github.com/kh-khalil"
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "El Shorouk",
+        state: "Cairo",
+        country: "Egypt"
+      }
     },
     {
       id: uuidv4(),
