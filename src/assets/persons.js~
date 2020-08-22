@@ -15596,3 +15596,19 @@ export const data = {
     }
   ],
 }
+  ,{
+    id: uuidv4(),
+    name: "Ankita Mandal",
+    img: " ",
+    links: {
+      website: " ",
+      linkedin: "https://www.linkedin.com/in/ankita-mandal-21059b16a/",
+      github: "https://github.com/GoGi2712"
+    },
+    jobTitle: "Full-Stack Developer",
+    location: {
+      city: "Raipur",
+      state: "Chhattisgarh",
+      country: "India"
+    }
+  }
