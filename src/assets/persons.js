@@ -134,7 +134,7 @@ export const data = {
       name: "Dhruva Srinivas",
       img: "",
       links: {
-        github: "https://github.com/iqubecoding",
+        github: "https://github.com/IQUBE-X",
       },
       jobTitle: "Back-End Dev",
       location: {
