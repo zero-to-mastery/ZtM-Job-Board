@@ -16100,5 +16100,21 @@ export const data = {
         country: "Pakistan",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Veena Kumari",
+      img: "https://avatars3.githubusercontent.com/u/30977545?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/veenakumari2020/",
+        github: "https://github.com/VKSGit2017",
+      },
+      jobTitle: "Full Stack Developer|Software Engineer",
+      location: {
+        city: "Hyderabad",
+        state: "Telengana",
+        country: "India",
+      },
+    },
   ],
 }
