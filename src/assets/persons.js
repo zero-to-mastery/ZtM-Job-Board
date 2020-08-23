@@ -1,12 +1,12 @@
-import {
-  v4 as uuidv4
-} from "uuid"
+import { v4 as uuidv4 } from "uuid"
 
 export const data = {
-  people: [{
+  people: [
+    {
       id: uuidv4(),
       name: "Yusuf Delvi",
-      img: "https://avatars1.githubusercontent.com/u/34205099?s=400&u=876c9f7edbbfba3d94a2b077d67b18da6d7208ce&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/34205099?s=400&u=876c9f7edbbfba3d94a2b077d67b18da6d7208ce&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/yusuf-delvi/",
@@ -22,18 +22,19 @@ export const data = {
     {
       id: uuidv4(),
       name: "Khaled Mohamed Hassan",
-      img: "https://avatars2.githubusercontent.com/u/68192463?s=400&u=21cfabaf531ec65dfc121a85389d5c39c96fecdc&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/68192463?s=400&u=21cfabaf531ec65dfc121a85389d5c39c96fecdc&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/khaled-m-hassan/",
-        github: "https://github.com/kh-khalil"
+        github: "https://github.com/kh-khalil",
       },
       jobTitle: "Web Developer",
       location: {
         city: "El Shorouk",
         state: "Cairo",
-        country: "Egypt"
-      }
+        country: "Egypt",
+      },
     },
     {
       id: uuidv4(),
@@ -102,7 +103,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Thedla Eshwar Chandra Vidhyasagar",
-      img: "https://avatars0.githubusercontent.com/u/28903840?s=400&u=b98b20f944a62da00dbd4881e8078744307ae62c&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/28903840?s=400&u=b98b20f944a62da00dbd4881e8078744307ae62c&v=4",
       links: {
         linkedin: "https://www.linkedin.com/in/eshwarchandravidhyasagar",
         github: "https://github.com/EshwarCVS",
@@ -132,7 +134,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Siddhant Singh",
-      img: "https://lh3.googleusercontent.com/a-/AOh14GiXF_GRytNAxBqtTTig4BYi-7YeSrBhrI1PH1w9=s96-c-rg-br100",
+      img:
+        "https://lh3.googleusercontent.com/a-/AOh14GiXF_GRytNAxBqtTTig4BYi-7YeSrBhrI1PH1w9=s96-c-rg-br100",
       links: {
         github: "https://github.com/sidpreneur/",
       },
@@ -208,7 +211,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Tanveer Mohd Sayem",
-      img: "https://avatars3.githubusercontent.com/u/49335574?s=460&u=9a5ff2806c647908cd93d46132eef3c777c455cb&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/49335574?s=460&u=9a5ff2806c647908cd93d46132eef3c777c455cb&v=4",
       links: {
         website: "https://tanveermsayem.netlify.app/",
         github: "https://github.com/w3tsa",
@@ -223,7 +227,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ankit Kumar Sharma",
-      img: "https://avatars3.githubusercontent.com/u/43175867?s=400&u=50b4c45ad34a4868d58114e37a7aa6a2435b14f2&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/43175867?s=400&u=50b4c45ad34a4868d58114e37a7aa6a2435b14f2&v=4",
       links: {
         website: "",
         github: "https://github.com/codeswithankit",
@@ -286,7 +291,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ehsan Zand",
-      img: "https://avatars0.githubusercontent.com/u/22591967?s=460&u=af9d96af6ce95b499e3bc976fd6bbe24e134133d&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/22591967?s=460&u=af9d96af6ce95b499e3bc976fd6bbe24e134133d&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ehsan-zand/",
@@ -302,7 +308,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Madufor Chiemeka",
-      img: "https://avatars2.githubusercontent.com/u/61386343?s=460&u=0d4dfd26031d0c85094386273287462de57e956d&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/61386343?s=460&u=0d4dfd26031d0c85094386273287462de57e956d&v=4",
       links: {
         website: "https://elcozy.github.io/",
         linkedin: "https://www.linkedin.com/in/chiemekam/",
@@ -318,7 +325,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Pedro Calvo Herranz",
-      img: "https://avatars1.githubusercontent.com/u/60217106?s=400&u=2eed60aadca5f6ae796764fbe2f07b4c7d73cc73&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/60217106?s=400&u=2eed60aadca5f6ae796764fbe2f07b4c7d73cc73&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/pedro-calvo-herranz-56561315a/",
@@ -446,7 +454,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Pak Chu",
-      img: "https://media.licdn.com/dms/image/C5603AQHrnJjaX7E8Sw/profile-displayphoto-shrink_800_800/0?e=1528254000&v=beta&t=PWYVA_XZigZXr4rtNkcdRZiqFyv2IVmoRov0GSepi3A",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQHrnJjaX7E8Sw/profile-displayphoto-shrink_800_800/0?e=1528254000&v=beta&t=PWYVA_XZigZXr4rtNkcdRZiqFyv2IVmoRov0GSepi3A",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/pakchu",
@@ -558,7 +567,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ismael Vazquez",
-      img: "https://media.licdn.com/dms/image/C5603AQFJuMW6DO74xw/profile-displayphoto-shrink_800_800/0?e=1528477200&v=beta&t=O952AL-tutZW3Z0aAaGIjS7jxLDFST_5Lzodga0_uj0",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQFJuMW6DO74xw/profile-displayphoto-shrink_800_800/0?e=1528477200&v=beta&t=O952AL-tutZW3Z0aAaGIjS7jxLDFST_5Lzodga0_uj0",
       links: {
         website: "https://iamismael.com",
         linkedin: "https://www.linkedin.com/in/ismael-vazquez-jr-0415a1104",
@@ -574,7 +584,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Adrian Wagener",
-      img: "https://media.licdn.com/dms/image/C4D03AQEdhmhOXXRi7g/profile-displayphoto-shrink_800_800/0?e=1528477200&v=beta&t=Ibu6t9ZiYsqch12H9_wwvvx4bT8vU95QPAq1Mubl0Dc",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQEdhmhOXXRi7g/profile-displayphoto-shrink_800_800/0?e=1528477200&v=beta&t=Ibu6t9ZiYsqch12H9_wwvvx4bT8vU95QPAq1Mubl0Dc",
       links: {
         website: "https://wagad22.github.io",
         linkedin: "https://www.linkedin.com/in/adrian-wagener-45b741134",
@@ -734,7 +745,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Piotr Kowalski",
-      img: "https://media.licdn.com/dms/image/C4D03AQGcf89ACxun0Q/profile-displayphoto-shrink_800_800/0?e=1528549200&v=beta&t=4-3H7jB8ADFrpOZDrDr9T4ZJhTFl88OVq034R3j4svU",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQGcf89ACxun0Q/profile-displayphoto-shrink_800_800/0?e=1528549200&v=beta&t=4-3H7jB8ADFrpOZDrDr9T4ZJhTFl88OVq034R3j4svU",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/piotr-kowalski-57379a120",
@@ -926,7 +938,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Miha Kloar",
-      img: "https://scontent.flju1-1.fna.fbcdn.net/v/t1.0-9/12994372_985634201485849_1777253085278718502_n.jpg?_nc_cat=0&oh=8dae54f01a3d44f5ce4f20189f6f5352&oe=5B964B88",
+      img:
+        "https://scontent.flju1-1.fna.fbcdn.net/v/t1.0-9/12994372_985634201485849_1777253085278718502_n.jpg?_nc_cat=0&oh=8dae54f01a3d44f5ce4f20189f6f5352&oe=5B964B88",
       links: {
         website: "https://mkloar.github.io",
         linkedin: "https://www.linkedin.com/in/mkloar",
@@ -942,7 +955,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Els",
-      img: "https://media.licdn.com/dms/image/C4D03AQE-1w0mjbpHeA/profile-displayphoto-shrink_800_800/0?e=1528552800&v=beta&t=AQa2nhly_-ikre7ozynBY2YxWEIvo55T1a2Lj2aWB8g",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQE-1w0mjbpHeA/profile-displayphoto-shrink_800_800/0?e=1528552800&v=beta&t=AQa2nhly_-ikre7ozynBY2YxWEIvo55T1a2Lj2aWB8g",
       links: {
         website: "http://www.bloobloons.com",
         linkedin: "https://www.linkedin.com/in/bloobloons",
@@ -974,7 +988,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Priyanshu Tyagi",
-      img: "https://media.licdn.com/dms/image/C5103AQEnRmgvAyGi8g/profile-displayphoto-shrink_800_800/0?e=1528552800&v=beta&t=OfUQbBBxFjOcvpZYflHT4LS5eBi3ImU1WKJZVG7zRug",
+      img:
+        "https://media.licdn.com/dms/image/C5103AQEnRmgvAyGi8g/profile-displayphoto-shrink_800_800/0?e=1528552800&v=beta&t=OfUQbBBxFjOcvpZYflHT4LS5eBi3ImU1WKJZVG7zRug",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/priyanshutyagi1996",
@@ -1054,7 +1069,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Matthew Collier",
-      img: "https://media.licdn.com/dms/image/C4D03AQE5FEvf75CqNA/profile-displayphoto-shrink_800_800/0?e=1528552800&v=beta&t=4bxzIqg5f8nRtPzfMlWg_YvxJFqC93lg6EeMRGZHt-0",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQE5FEvf75CqNA/profile-displayphoto-shrink_800_800/0?e=1528552800&v=beta&t=4bxzIqg5f8nRtPzfMlWg_YvxJFqC93lg6EeMRGZHt-0",
       links: {
         website: "http://matthewcollier.ca",
         linkedin: "https://www.linkedin.com/in/matthewjcollier",
@@ -1070,7 +1086,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Sri Harsha",
-      img: "https://media.licdn.com/dms/image/C5103AQF1djmtZya33g/profile-displayphoto-shrink_800_800/0?e=1528552800&v=beta&t=9--dS-8c87a4kSgCkKV6hEf3Q9eTSPJIlHc2sQrwsUM",
+      img:
+        "https://media.licdn.com/dms/image/C5103AQF1djmtZya33g/profile-displayphoto-shrink_800_800/0?e=1528552800&v=beta&t=9--dS-8c87a4kSgCkKV6hEf3Q9eTSPJIlHc2sQrwsUM",
       links: {
         website: "http://sriharsha.ml",
         linkedin: "https://www.linkedin.com/in/harsha444",
@@ -1086,7 +1103,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Yuankan Fang",
-      img: "https://media.licdn.com/dms/image/C4D03AQEpXEA2S8bKjg/profile-displayphoto-shrink_800_800/0?e=1528552800&v=beta&t=-eWTij44N-3VxkLASMQPuJQaD7-udPu-vZ94zHmcldU",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQEpXEA2S8bKjg/profile-displayphoto-shrink_800_800/0?e=1528552800&v=beta&t=-eWTij44N-3VxkLASMQPuJQaD7-udPu-vZ94zHmcldU",
       links: {
         website: "https://kyleyk.github.io",
         linkedin: "https://www.linkedin.com/in/yuankanf",
@@ -1102,7 +1120,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jonathan Itzen",
-      img: "http://jonathanitzen.com/wp-content/themes/jonathanportfolio/imgs/profile.jpg",
+      img:
+        "http://jonathanitzen.com/wp-content/themes/jonathanportfolio/imgs/profile.jpg",
       links: {
         website: "http://jonathanitzen.com",
         linkedin: "https://www.linkedin.com/in/jonathan-itzen",
@@ -1118,7 +1137,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ryan Walker",
-      img: "https://media.licdn.com/dms/image/C4E03AQFG-tPI_99VdQ/profile-displayphoto-shrink_800_800/0?e=1528552800&v=beta&t=Pwh88C9Q1ZyLh-kTyVtsUSD48WM22TnxWyLu4ALDg0I",
+      img:
+        "https://media.licdn.com/dms/image/C4E03AQFG-tPI_99VdQ/profile-displayphoto-shrink_800_800/0?e=1528552800&v=beta&t=Pwh88C9Q1ZyLh-kTyVtsUSD48WM22TnxWyLu4ALDg0I",
       links: {
         website: "http://ryanwalkerdevelopment.com",
         linkedin: "https://www.linkedin.com/in/ryan-walker-41082b47",
@@ -1150,7 +1170,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Osei Kofi Nimoh",
-      img: "https://media.licdn.com/dms/image/C4E03AQFJo9NvT8gtAg/profile-displayphoto-shrink_800_800/0?e=1528549200&v=beta&t=DRZ5Q1-o5SWRSH3j-W8dHwfM6UlWCr813IsLSGuAVaQ",
+      img:
+        "https://media.licdn.com/dms/image/C4E03AQFJo9NvT8gtAg/profile-displayphoto-shrink_800_800/0?e=1528549200&v=beta&t=DRZ5Q1-o5SWRSH3j-W8dHwfM6UlWCr813IsLSGuAVaQ",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/kofi-osei-nimoh-15148a73",
@@ -1310,7 +1331,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Tatyana Kasyanenko",
-      img: "http://www.web-max-design.com/wp-content/uploads/2018/01/photographier-1.jpg",
+      img:
+        "http://www.web-max-design.com/wp-content/uploads/2018/01/photographier-1.jpg",
       links: {
         website: "http://www.web-max-design.com",
         linkedin: "https://www.linkedin.com/in/tatyana-kasyanenko-a0056a52",
@@ -1326,7 +1348,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Justin Grabenbauer",
-      img: "https://avatars3.githubusercontent.com/u/24844219?s=400&u=bf1b5689c649c8009afabdb0915998b0c4cfedd0&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/24844219?s=400&u=bf1b5689c649c8009afabdb0915998b0c4cfedd0&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/justingrabenbauer",
@@ -1374,7 +1397,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Felix Markman",
-      img: "https://media.licdn.com/dms/image/C4D03AQFxk-MEoG4yHw/profile-displayphoto-shrink_200_200/0?e=1531353600&v=beta&t=7wmGTVn4ugv8QSqf7FbXE8iTcNM_A8wBaZuhsuUDYPE",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQFxk-MEoG4yHw/profile-displayphoto-shrink_200_200/0?e=1531353600&v=beta&t=7wmGTVn4ugv8QSqf7FbXE8iTcNM_A8wBaZuhsuUDYPE",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/felixmarkman",
@@ -1454,7 +1478,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Alex Nielsen",
-      img: "http://alexnielsen.com/wp-content/uploads/2018/02/me-bw-cropped-200x200.jpg",
+      img:
+        "http://alexnielsen.com/wp-content/uploads/2018/02/me-bw-cropped-200x200.jpg",
       links: {
         website: "http://alexnielsen.com",
         linkedin: "https://www.linkedin.com/in/alex-nielsen-9a93b113",
@@ -1486,7 +1511,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Denise Recofka",
-      img: "https://media.licdn.com/dms/image/C5103AQGK2vR45hNmRg/profile-displayphoto-shrink_200_200/0?e=1531958400&v=beta&t=TA6FXa3SVFcbhjcrJ47zwUiDIT6RlQYdO7w8Kuj7V2I",
+      img:
+        "https://media.licdn.com/dms/image/C5103AQGK2vR45hNmRg/profile-displayphoto-shrink_200_200/0?e=1531958400&v=beta&t=TA6FXa3SVFcbhjcrJ47zwUiDIT6RlQYdO7w8Kuj7V2I",
       links: {
         website: "https://recofka.github.io",
         linkedin: "https://www.linkedin.com/in/deniserecofka",
@@ -1534,7 +1560,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Krunal Bhadresha",
-      img: "https://lh3.googleusercontent.com/CWv7hU4YNNaisjnxjQV5-Ts06QBPwelEFhVkttCCEPZcq1GjBjNyhfcYaom6lUgNtOX49izrgRB0YA=w1170-h1175-rw-no",
+      img:
+        "https://lh3.googleusercontent.com/CWv7hU4YNNaisjnxjQV5-Ts06QBPwelEFhVkttCCEPZcq1GjBjNyhfcYaom6lUgNtOX49izrgRB0YA=w1170-h1175-rw-no",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/krunal-bhadresha-7701a892",
@@ -1566,7 +1593,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Michal Lewoc",
-      img: "https://raw.githubusercontent.com/JavaMajk/portfolio-site/master/img/my-photo.png",
+      img:
+        "https://raw.githubusercontent.com/JavaMajk/portfolio-site/master/img/my-photo.png",
       links: {
         website: "https://javamajk.github.io/portfolio-site",
         linkedin: "https://www.linkedin.com/in/michal-lewoc-074615114",
@@ -1598,7 +1626,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Diego Salas",
-      img: "https://scontent.flim9-1.fna.fbcdn.net/v/t1.0-9/17155983_10211022884500815_795863402198977247_n.jpg?_nc_cat=0&oh=54644d4d9cd9b4f7240834c995f1c4ce&oe=5BC44182",
+      img:
+        "https://scontent.flim9-1.fna.fbcdn.net/v/t1.0-9/17155983_10211022884500815_795863402198977247_n.jpg?_nc_cat=0&oh=54644d4d9cd9b4f7240834c995f1c4ce&oe=5BC44182",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/diego-salas-noain-b11837146",
@@ -1614,7 +1643,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Diane Leigh",
-      img: "https://media.licdn.com/dms/image/C4E03AQFgUvSby_1jbg/profile-displayphoto-shrink_100_100/0?e=1532563200&v=beta&t=Y3Ktzlje0h70haWz50AXEeVnb1kwIiXUcFAfBdSFTx4",
+      img:
+        "https://media.licdn.com/dms/image/C4E03AQFgUvSby_1jbg/profile-displayphoto-shrink_100_100/0?e=1532563200&v=beta&t=Y3Ktzlje0h70haWz50AXEeVnb1kwIiXUcFAfBdSFTx4",
       links: {
         website: "https://leighd2008.github.io/My_Profile",
         linkedin: "https://www.linkedin.com/in/diane-leigh-5251a275",
@@ -1678,7 +1708,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Angela Mizero",
-      img: "https://github.com/AngieHM/AngieHM.github.io/blob/master/profile.png",
+      img:
+        "https://github.com/AngieHM/AngieHM.github.io/blob/master/profile.png",
       links: {
         website: "https://angiehm.github.io",
         linkedin: "www.linkedin.com/in/angela-mizero",
@@ -1697,7 +1728,8 @@ export const data = {
       img: "https://dirk005.github.io/resume/images/profile.png",
       links: {
         website: "https://codepen.io/dirk005/full/QrgMJB/",
-        linkedin: "https://www.linkedin.com/in/dirk-jansen-van-rensburg-597547120",
+        linkedin:
+          "https://www.linkedin.com/in/dirk-jansen-van-rensburg-597547120",
         github: "https://github.com/dirk005",
       },
       jobTitle: "Web Developer",
@@ -1822,7 +1854,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Daniil Osmolovskiy",
-      img: "https://avatars0.githubusercontent.com/u/26023430?s=400&u=34d870283d7fbecf55dd737fd139d138700354cd&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/26023430?s=400&u=34d870283d7fbecf55dd737fd139d138700354cd&v=4",
       links: {
         website: "https://www.facebook.com/daniel.osmolovskiy",
         linkedin: "",
@@ -1838,7 +1871,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Gabriel Zuñiga",
-      img: "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/33788878_1608592929190092_5238537732229169152_o.jpg?_nc_cat=0&oh=fc1ab69b5c5e365bcd6136d0b61b5081&oe=5BB80DFB",
+      img:
+        "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/33788878_1608592929190092_5238537732229169152_o.jpg?_nc_cat=0&oh=fc1ab69b5c5e365bcd6136d0b61b5081&oe=5BB80DFB",
       links: {
         website: "https://www.facebook.com/gabrielzunigavasquez",
         linkedin: "https://www.linkedin.com/in/gabriel-zuniga-944a86116/",
@@ -1870,7 +1904,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "YiFang Lo",
-      img: "https://bellalo12.github.io/portfolio/static/media/bella.35be8e14.png",
+      img:
+        "https://bellalo12.github.io/portfolio/static/media/bella.35be8e14.png",
       links: {
         website: "https://bellalo12.github.io/portfolio/",
         linkedin: "https://www.linkedin.com/in/yifang-lo-a0a183158/",
@@ -1918,7 +1953,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Andre Boothe",
-      img: "https://avatars0.githubusercontent.com/u/9014508?s=400&u=e12cfe727881743885c1ce40e595afc4e6069177&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/9014508?s=400&u=e12cfe727881743885c1ce40e595afc4e6069177&v=4",
       links: {
         website: "https://andreboothe-portfolio.herokuapp.com/",
         linkedin: "https://www.linkedin.com/in/andre-boothe-552b6549/",
@@ -1934,7 +1970,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Djordje Bukvic",
-      img: "https://avatars1.githubusercontent.com/u/31882265?s=40&u=0669030af633ca5112a4ca40c0aba08a019ede4c&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/31882265?s=40&u=0669030af633ca5112a4ca40c0aba08a019ede4c&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/djordje-bukvic-5a0814164/",
@@ -2014,7 +2051,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Flavia Nunes",
-      img: "https://scontent.fplu14-1.fna.fbcdn.net/v/t1.0-9/20664000_1985232535055509_7622612280580069264_n.jpg?_nc_cat=0&oh=e604935b16d251c7ec60c12383ebddd2&oe=5BB11B9B",
+      img:
+        "https://scontent.fplu14-1.fna.fbcdn.net/v/t1.0-9/20664000_1985232535055509_7622612280580069264_n.jpg?_nc_cat=0&oh=e604935b16d251c7ec60c12383ebddd2&oe=5BB11B9B",
       links: {
         website: "flavianunes.github.io",
         linkedin: "https://www.linkedin.com/in/flanunes/",
@@ -2030,7 +2068,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Don Macarthur",
-      img: "https://en.gravatar.com/userimage/114762270/d89de0ecb7c354950b4191d024469db3.jpeg",
+      img:
+        "https://en.gravatar.com/userimage/114762270/d89de0ecb7c354950b4191d024469db3.jpeg",
       links: {
         website: "https://donatron.github.io/portfolio",
         linkedin: "https://www.linkedin.com/in/don-macarthur-652045a9/",
@@ -2046,7 +2085,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Rahul Kumar",
-      img: "https://media.licdn.com/dms/image/C5103AQENiohRy39XzQ/profile-displayphoto-shrink_200_200/0?e=1539820800&v=beta&t=FCh-bKc-Ag-fZqh2v-Xk_Tyfigg_zQpTBoV282tbQc0",
+      img:
+        "https://media.licdn.com/dms/image/C5103AQENiohRy39XzQ/profile-displayphoto-shrink_200_200/0?e=1539820800&v=beta&t=FCh-bKc-Ag-fZqh2v-Xk_Tyfigg_zQpTBoV282tbQc0",
       links: {
         website: "https://kumarrahul123.herokuapp.com/",
         linkedin: "https://www.linkedin.com/in/rahul-kumar943/",
@@ -2062,7 +2102,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Marlon Ercillo",
-      img: "https://media.licdn.com/dms/image/C4E03AQGxX4p5AqIyNg/profile-displayphoto-shrink_100_100/0?e=1534982400&v=beta&t=oUxM2RdpAf59F1vrRnA7j7YWGJwdeVkO7dPGxl8o6yE",
+      img:
+        "https://media.licdn.com/dms/image/C4E03AQGxX4p5AqIyNg/profile-displayphoto-shrink_100_100/0?e=1534982400&v=beta&t=oUxM2RdpAf59F1vrRnA7j7YWGJwdeVkO7dPGxl8o6yE",
       links: {
         website: "www.mercillo.com",
         linkedin: "https://www.linkedin.com/in/marlon-ercillo-58057596/",
@@ -2094,7 +2135,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Gabriel Lomba Aguiar Costa",
-      img: "https://media.licdn.com/dms/image/C5103AQEvo6KOpjKDPw/profile-displayphoto-shrink_200_200/0?e=1534982400&v=beta&t=LFwHESjCRP7p7JXDGU-3sYO_pZ0YQfhWu7lk8G8ZBRI",
+      img:
+        "https://media.licdn.com/dms/image/C5103AQEvo6KOpjKDPw/profile-displayphoto-shrink_200_200/0?e=1534982400&v=beta&t=LFwHESjCRP7p7JXDGU-3sYO_pZ0YQfhWu7lk8G8ZBRI",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/gabriel-lomba-aguiar-costa",
@@ -2126,7 +2168,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Sanidhya Samadhiya",
-      img: "https://scontent.fbho1-1.fna.fbcdn.net/v/t1.0-0/p206x206/28167086_2018682501737168_5897662160270067359_n.jpg?_nc_cat=0&oh=7c5850e643d5f1b6b2bc335e2f682f2a&oe=5BB9B5AD",
+      img:
+        "https://scontent.fbho1-1.fna.fbcdn.net/v/t1.0-0/p206x206/28167086_2018682501737168_5897662160270067359_n.jpg?_nc_cat=0&oh=7c5850e643d5f1b6b2bc335e2f682f2a&oe=5BB9B5AD",
       links: {
         website: "",
         linkedin: "",
@@ -2158,7 +2201,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Reiz Ariva-Hale",
-      img: "https://res.cloudinary.com/r31z/image/upload/v1459058107/1_ghor9t.jpg",
+      img:
+        "https://res.cloudinary.com/r31z/image/upload/v1459058107/1_ghor9t.jpg",
       links: {
         website: "https://frontendreiz.com/",
         linkedin: "https://www.linkedin.com/in/rariva-hale/",
@@ -2174,7 +2218,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "James Saligbon",
-      img: "https://avatars1.githubusercontent.com/u/40145293?s=400&u=b772b12e1b18e4ca477b7f35a3bc29b0364996dd&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/40145293?s=400&u=b772b12e1b18e4ca477b7f35a3bc29b0364996dd&v=4",
       links: {
         website: "",
         linkedin: "",
@@ -2206,7 +2251,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "M S Srinivas",
-      img: "https://avatars2.githubusercontent.com/u/12976376?s=400&u=813cf8efbecc9962515b6303f57796011698c176&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/12976376?s=400&u=813cf8efbecc9962515b6303f57796011698c176&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mssrinivasbhargav/",
@@ -2286,7 +2332,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Gadfrey Balacy",
-      img: "https://avatars3.githubusercontent.com/u/18605878?s=400&u=43ce2aa03beb74884ac1270974cd019823abcfc5&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/18605878?s=400&u=43ce2aa03beb74884ac1270974cd019823abcfc5&v=4",
       links: {
         website: "https://gadfrey13.github.io/portfolio/",
         linkedin: "www.linkedin.com/in/gadfreybalacy",
@@ -2302,7 +2349,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Nathan Freney",
-      img: "https://media.licdn.com/dms/image/C5603AQFZZ5eUxdAe5A/profile-displayphoto-shrink_100_100/0?e=1536192000&v=beta&t=YoOErrwwFmwD8ZrQYhH0mIxAbxl7LQlthvV6mJ3u1gc",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQFZZ5eUxdAe5A/profile-displayphoto-shrink_100_100/0?e=1536192000&v=beta&t=YoOErrwwFmwD8ZrQYhH0mIxAbxl7LQlthvV6mJ3u1gc",
       links: {
         linkedin: "https://www.linkedin.com/in/nfreney/",
         github: "https://github.com/nathanfr",
@@ -2317,7 +2365,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Pablo Weisbek",
-      img: "https://avatars3.githubusercontent.com/u/36734796?s=400&u=4bb889fdafe7a1ba83c03dd6642db9de06f09c7b&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/36734796?s=400&u=4bb889fdafe7a1ba83c03dd6642db9de06f09c7b&v=4",
       links: {
         website: "https://pablowbk.github.io",
         linkedin: "",
@@ -2336,7 +2385,8 @@ export const data = {
       img: "https://photos.app.goo.gl/E5f9qz5YCRWkdmQa8",
       links: {
         website: "",
-        linkedin: "https://www.linkedin.com/in/miperfilenlinkedin/?locale=en_US",
+        linkedin:
+          "https://www.linkedin.com/in/miperfilenlinkedin/?locale=en_US",
         github: "https://github.com/Ro008",
       },
       jobTitle: "Full stack web developer",
@@ -2352,7 +2402,8 @@ export const data = {
       img: "https://avatars3.githubusercontent.com/u/39849452?s=460&v=4",
       links: {
         website: "",
-        linkedin: "https://www.linkedin.com/in/%D0%B8%D0%B3%D0%BE%D1%80%D1%8C-%D0%BC%D0%BE%D1%88%D0%BD%D1%8F%D0%BA%D0%BE%D0%B2-5b0574b1/",
+        linkedin:
+          "https://www.linkedin.com/in/%D0%B8%D0%B3%D0%BE%D1%80%D1%8C-%D0%BC%D0%BE%D1%88%D0%BD%D1%8F%D0%BA%D0%BE%D0%B2-5b0574b1/",
         github: "https://github.com/Iharson",
       },
       jobTitle: "Front End Developer",
@@ -2384,7 +2435,8 @@ export const data = {
       img: "",
       links: {
         website: "https://sivarampg.github.io",
-        linkedin: "https://www.linkedin.com/in/sivaram-pandariganthan-b753a2145/",
+        linkedin:
+          "https://www.linkedin.com/in/sivaram-pandariganthan-b753a2145/",
         github: "https://github.com/SivaramPg",
       },
       jobTitle: "Full Stack Web Developer",
@@ -2413,7 +2465,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Taiwei Ko",
-      img: "https://3gengagement.com/wp-content/uploads/2017/10/staff-780x500-taiwei_ko.png",
+      img:
+        "https://3gengagement.com/wp-content/uploads/2017/10/staff-780x500-taiwei_ko.png",
       links: {
         website: "http://taiweiko.com/",
         linkedin: "https://www.linkedin.com/in/taiweiko/",
@@ -2445,7 +2498,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Kaemon Lovendahl",
-      img: "https://kaemonisland.github.io/home/resources/images/Profileglasses.jpeg",
+      img:
+        "https://kaemonisland.github.io/home/resources/images/Profileglasses.jpeg",
       links: {
         website: "https://kaemonisland.github.io/home/",
         linkedin: "https://www.linkedin.com/in/kaemon-lovendahl-08150564/",
@@ -2493,7 +2547,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Justin Lin",
-      img: "https://photos.google.com/search/prom/photo/AF1QipPfkjqn0y2L8zWuqeqmZ2MBZmY5bGzav2FZ9rFE",
+      img:
+        "https://photos.google.com/search/prom/photo/AF1QipPfkjqn0y2L8zWuqeqmZ2MBZmY5bGzav2FZ9rFE",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/justinlinw/",
@@ -2557,7 +2612,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jacobo Martinez",
-      img: "https://raw.githubusercontent.com/cobimr/cobimr.github.io/master/assets/images/profile.jpg",
+      img:
+        "https://raw.githubusercontent.com/cobimr/cobimr.github.io/master/assets/images/profile.jpg",
       links: {
         website: "https://cobimr.github.io/",
         linkedin: "https://linkedin.com/in/cobimr",
@@ -2573,7 +2629,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Brittany French",
-      img: "https://media.licdn.com/dms/image/C5603AQGZf9jlQAIqWw/profile-displayphoto-shrink_200_200/0?e=1537401600&v=beta&t=UpkDFyEub9vZ1i8cGBbJVh5X1omTitszSRYGig6w8n8",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQGZf9jlQAIqWw/profile-displayphoto-shrink_200_200/0?e=1537401600&v=beta&t=UpkDFyEub9vZ1i8cGBbJVh5X1omTitszSRYGig6w8n8",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/brittanyfrench/",
@@ -2589,7 +2646,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Meet Patel",
-      img: "https://avatars0.githubusercontent.com/u/35022070?s=400&u=b76dfbc5a10ab985fde4671a2dd55236c01a3c2d&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/35022070?s=400&u=b76dfbc5a10ab985fde4671a2dd55236c01a3c2d&v=4",
       links: {
         website: "https://mdpatel7.github.io",
         linkedin: "https://www.linkedin.com/in/mdpatel7",
@@ -2637,7 +2695,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Luca Castelnuovo",
-      img: "https://avatars1.githubusercontent.com/u/26206253?s=400&u=acf60656ff9f2d7b8cba01001fa8e2e7ff2a03b5&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/26206253?s=400&u=acf60656ff9f2d7b8cba01001fa8e2e7ff2a03b5&v=4",
       links: {
         website: "https://lucacastelnuovo.nl",
         linkedin: "https://www.linkedin.com/in/ltcastelnuovo",
@@ -2659,7 +2718,8 @@ export const data = {
         linkedin: "https://www.linkedin.com/in/tonysaromines",
         github: "https://github.com/tonvlad88",
       },
-      jobTitle: "PHP Developer, Delphi Developer, Full-Stack Developer in training",
+      jobTitle:
+        "PHP Developer, Delphi Developer, Full-Stack Developer in training",
       location: {
         city: "Cebu",
         state: "",
@@ -2669,7 +2729,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Miguel Ben",
-      img: "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/17796423_10154826007246077_8781580105085699644_n.jpg?_nc_cat=0&oh=3024a1cf3b3be9b901d6131011905bfc&oe=5BDF60BA",
+      img:
+        "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/17796423_10154826007246077_8781580105085699644_n.jpg?_nc_cat=0&oh=3024a1cf3b3be9b901d6131011905bfc&oe=5BDF60BA",
       links: {
         website: "https://migben.github.io",
         linkedin: "https://www.linkedin.com/in/miguelben",
@@ -2701,7 +2762,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Weiqiang Wang",
-      img: "https://avatars1.githubusercontent.com/u/40891002?s=400&u=ffa50586a621bc5fa14ac1fab485129031ec3129&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/40891002?s=400&u=ffa50586a621bc5fa14ac1fab485129031ec3129&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/为强-王-92155a166/",
@@ -2733,7 +2795,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Luca Lo Forte",
-      img: "https://avatars3.githubusercontent.com/u/26909188?s=400&u=ea2607b5e760996b7bc8cb3009baafb2f30a8732&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/26909188?s=400&u=ea2607b5e760996b7bc8cb3009baafb2f30a8732&v=4",
       links: {
         website: "https://loforteluca.github.io/",
         linkedin: "https://www.linkedin.com/in/luca-lo-forte-172462127/",
@@ -2749,7 +2812,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Yelena Guliyeva",
-      img: "https://media.licdn.com/dms/image/C5603AQEBPck0FtS4XQ/profile-displayphoto-shrink_200_200/0?e=1538006400&v=beta&t=Yx2L5tmzvvmQ9D9L_NxrfMtHzzT2NPgVasLrgnOEINg",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQEBPck0FtS4XQ/profile-displayphoto-shrink_200_200/0?e=1538006400&v=beta&t=Yx2L5tmzvvmQ9D9L_NxrfMtHzzT2NPgVasLrgnOEINg",
       links: {
         website: "https://gulbadam.github.io/Portfolio/",
         linkedin: "https://www.linkedin.com/in/yelena-guliyeva/",
@@ -2765,7 +2829,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Carl-johan Landin",
-      img: "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/13466497_10154160626281145_6570608543054940946_n.jpg?_nc_cat=0&oh=3e33b159e007be5b9ade772d2b393640&oe=5BD90A04",
+      img:
+        "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/13466497_10154160626281145_6570608543054940946_n.jpg?_nc_cat=0&oh=3e33b159e007be5b9ade772d2b393640&oe=5BD90A04",
       links: {
         website: "",
         linkedin: "",
@@ -2813,7 +2878,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "William Chance Peragine",
-      img: "https://avatars3.githubusercontent.com/u/38982502?s=400&u=34ebd1402c29b1222e203539eb830f7ffdd97229&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/38982502?s=400&u=34ebd1402c29b1222e203539eb830f7ffdd97229&v=4",
       links: {
         website: "",
         linkedin: "",
@@ -2877,7 +2943,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "David Michael Hanover",
-      img: "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/39689_424147188258_3544124_n.jpg?_nc_cat=0&oh=fe7455a0655c38d17e9e01fa4886c9b4&oe=5BDB4C47",
+      img:
+        "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/39689_424147188258_3544124_n.jpg?_nc_cat=0&oh=fe7455a0655c38d17e9e01fa4886c9b4&oe=5BDB4C47",
       links: {
         website: "http://DavidHanover89.com",
         linkedin: "https://linkedin.com/in/DavidHanover",
@@ -2909,7 +2976,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Cedric Liu",
-      img: "https://avatars3.githubusercontent.com/u/19866555?s=400&u=0e0ab9c654f1477d94464207bcd5dfedb7a4c3ab&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/19866555?s=400&u=0e0ab9c654f1477d94464207bcd5dfedb7a4c3ab&v=4",
       links: {
         website: "http://cedricliu.github.io/",
         linkedin: "www.linkedin.com/in/cedricliu0019",
@@ -2941,7 +3009,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Muhammed Tijani",
-      img: "https://avatars0.githubusercontent.com/u/28782324?s=400&u=25bc95f019256adaed99f0cee69dcc8d26a4b6d8&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/28782324?s=400&u=25bc95f019256adaed99f0cee69dcc8d26a4b6d8&v=4",
       links: {
         website: "http://coolzyte.com/",
         linkedin: "https://www.linkedin.com/in/coolzyte/",
@@ -2973,7 +3042,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Sean Dees",
-      img: "https://pbs.twimg.com/profile_images/815688059211677696/nTFVI3is_400x400.jpg",
+      img:
+        "https://pbs.twimg.com/profile_images/815688059211677696/nTFVI3is_400x400.jpg",
       links: {
         website: "https://seandees.tech/",
         linkedin: "https://ca.linkedin.com/in/sean-dees-666475105",
@@ -2989,7 +3059,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Firat Tale",
-      img: "https://media.licdn.com/dms/image/C4D03AQG4ep1f6b2KuA/profile-displayphoto-shrink_200_200/0?e=1539216000&v=beta&t=u-4n8_CP3k15CVvkSCKufdC3vYdIx_q2L5f7O3wgt5w",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQG4ep1f6b2KuA/profile-displayphoto-shrink_200_200/0?e=1539216000&v=beta&t=u-4n8_CP3k15CVvkSCKufdC3vYdIx_q2L5f7O3wgt5w",
       links: {
         linkedin: "https://www.linkedin.com/in/f%C4%B1rat-tale-85328013a/",
         github: "https://github.com/firattale",
@@ -3036,7 +3107,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Julian Rios",
-      img: "https://avatars1.githubusercontent.com/u/10436307?s=400&u=79c7deee6fa75261de40d3ab85af9684becb2808&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/10436307?s=400&u=79c7deee6fa75261de40d3ab85af9684becb2808&v=4",
       links: {
         website: "https://eastcoastninja.github.io/",
         linkedin: "https://www.linkedin.com/in/riosjulian/",
@@ -3100,7 +3172,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Lawrence Fidelino",
-      img: "https://avatars2.githubusercontent.com/u/42109686?s=400&u=94c83124dd077b0b6a09c226f2e87377afa9f619&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/42109686?s=400&u=94c83124dd077b0b6a09c226f2e87377afa9f619&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/lawrence-fidelino-383727153/",
@@ -3212,7 +3285,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Bucataru Eduard",
-      img: "https://avatars3.githubusercontent.com/u/41817383?s=400&u=c228945a296d278d62c95d688c81b0c158c29a41&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/41817383?s=400&u=c228945a296d278d62c95d688c81b0c158c29a41&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/eduard-bucataru-8400ab16b/",
@@ -3244,7 +3318,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Keaton McCune",
-      img: "https://avatars2.githubusercontent.com/u/42250790?s=400&u=5ff48ddb3fbe7a50e247958687ffc6c9b3640771&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/42250790?s=400&u=5ff48ddb3fbe7a50e247958687ffc6c9b3640771&v=4",
       links: {
         website: "https://mccunex.github.io/",
         linkedin: "linkedin.com/in/keaton-mccune-15010616b",
@@ -3276,7 +3351,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Pankaj Jaiswal",
-      img: "https://scontent.fbom19-2.fna.fbcdn.net/v/t1.0-9/26730868_778419902357592_2424208913221190760_n.jpg?_nc_cat=0&oh=ac851a4e2dd91d15a6503d410d6bcf52&oe=5C208835",
+      img:
+        "https://scontent.fbom19-2.fna.fbcdn.net/v/t1.0-9/26730868_778419902357592_2424208913221190760_n.jpg?_nc_cat=0&oh=ac851a4e2dd91d15a6503d410d6bcf52&oe=5C208835",
       links: {
         github: "htpps://github.com/midnightgamer",
       },
@@ -3402,7 +3478,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Caio Vilas Boas",
-      img: "https://media.licdn.com/dms/image/C4D03AQGtAQ0_ZSl0Sg/profile-displayphoto-shrink_200_200/0?e=1543449600&v=beta&t=ScJg8ABsUNqIPpzA78vWEGadnaZgWbHT9HKMS1atvyQ",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQGtAQ0_ZSl0Sg/profile-displayphoto-shrink_200_200/0?e=1543449600&v=beta&t=ScJg8ABsUNqIPpzA78vWEGadnaZgWbHT9HKMS1atvyQ",
       links: {
         website: "http://valutti.co,",
         linkedin: "https://www.linkedin.com/in/caiovilas/",
@@ -3421,7 +3498,8 @@ export const data = {
       img: "https://carls13.github.io/mypage/myself.jpg",
       links: {
         website: "https://carls13.github.io/mypage/",
-        linkedin: "https://www.linkedin.com/in/carlos-samuel-hern%C3%A1ndez-blanco-b35075152/",
+        linkedin:
+          "https://www.linkedin.com/in/carlos-samuel-hern%C3%A1ndez-blanco-b35075152/",
         github: "https://github.com/Carls13",
       },
       jobTitle: "Web Developer",
@@ -3434,7 +3512,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Dmitry Mironov",
-      img: "https://media.licdn.com/dms/image/C4E03AQGCI_gPvAqKNg/profile-displayphoto-shrink_200_200/0?e=1544054400&v=beta&t=KmH6YtxhvQNxnYsJ8jiN7Wuclx3-fWveZe11xCfb4bc",
+      img:
+        "https://media.licdn.com/dms/image/C4E03AQGCI_gPvAqKNg/profile-displayphoto-shrink_200_200/0?e=1544054400&v=beta&t=KmH6YtxhvQNxnYsJ8jiN7Wuclx3-fWveZe11xCfb4bc",
       links: {
         website: "https://www.linkedin.com/in/mironovdmitry",
         linkedin: "https://www.linkedin.com/in/mironovdmitry/",
@@ -3450,7 +3529,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Hamza Benzaoui",
-      img: "https://raw.githubusercontent.com/HBenzaoui/HTML-Signature/master/images/image6.png",
+      img:
+        "https://raw.githubusercontent.com/HBenzaoui/HTML-Signature/master/images/image6.png",
       links: {
         website: "https://www.linkedin.com/in/HamzaBenzaoui",
         linkedin: "https://www.linkedin.com/in/HamzaBenzaoui/",
@@ -3482,7 +3562,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Thea Mushambadze",
-      img: "https://avatars0.githubusercontent.com/u/6440158?s=400&u=145dc909f52cac0c93f24a5e15fb22e2dc9edb5a&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/6440158?s=400&u=145dc909f52cac0c93f24a5e15fb22e2dc9edb5a&v=4",
       links: {
         website: "https://theamax.me/",
         linkedin: "www.linkedin.com/in/theamushambadze",
@@ -3498,7 +3579,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Kennith Nichol",
-      img: "https://secure.gravatar.com/avatar/5d8cc0c05f351bd587222bccf38380a8",
+      img:
+        "https://secure.gravatar.com/avatar/5d8cc0c05f351bd587222bccf38380a8",
       links: {
         linkedin: "https://ca.linkedin.com/in/kennithnichol",
         github: "https://github.com/kennithnichol",
@@ -3545,7 +3627,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Andrew Diedrich",
-      img: "https://i.postimg.cc/MGxfvFmm/14271_C5_F-5151-492_A-_B98_C-_CF7_BB1_DAA290.jpg",
+      img:
+        "https://i.postimg.cc/MGxfvFmm/14271_C5_F-5151-492_A-_B98_C-_CF7_BB1_DAA290.jpg",
       links: {
         website: "https://andrewdiedrich.herokuapp.com/",
         linkedin: "https://www.linkedin.com/in/andrew-diedrich-a0a58893/",
@@ -3577,7 +3660,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Vincent Yan",
-      img: "https://github.com/envincebal/my_portfolio/blob/master/build/img/pic.jpg?raw=true",
+      img:
+        "https://github.com/envincebal/my_portfolio/blob/master/build/img/pic.jpg?raw=true",
       links: {
         website: "https://envincebal.github.io/my_portfolio/",
         linkedin: "https://www.linkedin.com/in/vincent-yan/",
@@ -3689,7 +3773,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Adriano Ianase",
-      img: "https://media.licdn.com/dms/image/C4E03AQGTfv08sv9fBA/profile-displayphoto-shrink_200_200/0?e=1543449600&v=beta&t=8V8fXTBPNah4oN2HVXp8Ybe6EeXBbIdBtxmkxxmt298",
+      img:
+        "https://media.licdn.com/dms/image/C4E03AQGTfv08sv9fBA/profile-displayphoto-shrink_200_200/0?e=1543449600&v=beta&t=8V8fXTBPNah4oN2HVXp8Ybe6EeXBbIdBtxmkxxmt298",
       links: {
         linkedin: "https://www.linkedin.com/in/adriano-ianase/",
         github: "https://github.com/adrianomi",
@@ -3704,7 +3789,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Nilkamal Shah",
-      img: "https://media-exp2.licdn.com/dms/image/C4E03AQF_4aLCPUuTjw/profile-displayphoto-shrink_200_200/0?e=1585785600&v=beta&t=zk7nach2oBxIP9QU3mDT61hwr_fbVkxbgi8eHs4NOAo",
+      img:
+        "https://media-exp2.licdn.com/dms/image/C4E03AQF_4aLCPUuTjw/profile-displayphoto-shrink_200_200/0?e=1585785600&v=beta&t=zk7nach2oBxIP9QU3mDT61hwr_fbVkxbgi8eHs4NOAo",
       links: {
         linkedin: "https://www.linkedin.com/in/nilkamal-shah/",
         github: "https://github.com/nilkamal",
@@ -3719,7 +3805,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Kanisk Chakraborty",
-      img: "https://avatars2.githubusercontent.com/u/41521331?s=400&u=bbce04d3a1431b93b25a3f2b01430ab6f0ae3b03&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/41521331?s=400&u=bbce04d3a1431b93b25a3f2b01430ab6f0ae3b03&v=4",
       links: {
         website: "http://knsk.me/",
         linkedin: "https://www.linkedin.com/in/kaniskc/",
@@ -3735,7 +3822,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Siegfred Balona",
-      img: "https://static-cdn.jtvnw.net/jtv_user_pictures/b3660425-a3c6-49b6-b87a-a8d487dd37b2-profile_image-300x300.jpg",
+      img:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/b3660425-a3c6-49b6-b87a-a8d487dd37b2-profile_image-300x300.jpg",
       links: {
         linkedin: "https://www.linkedin.com/in/siegblink/",
         github: "https://github.com/siegblink",
@@ -3750,7 +3838,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Luis Parra",
-      img: "https://avatars2.githubusercontent.com/u/16653744?s=400&u=44a21a2b09172c9f2d300ee51aa95c14d3c8c8b8&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/16653744?s=400&u=44a21a2b09172c9f2d300ee51aa95c14d3c8c8b8&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/parral",
@@ -3766,7 +3855,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Raksha Kashyap",
-      img: "https://avatars3.githubusercontent.com/u/25738721?s=400&u=59434ae41a079765afab03854be343412e62617b&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/25738721?s=400&u=59434ae41a079765afab03854be343412e62617b&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/rakshakashyap",
@@ -3798,7 +3888,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Earle Poole",
-      img: "https://static.wixstatic.com/media/d84b47_a4583d5323484368983b364eeddf1be8~mv2_d_3170_2911_s_4_2.jpg/v1/fill/w_161,h_161,al_c,q_80,usm_0.66_1.00_0.01/d84b47_a4583d5323484368983b364eeddf1be8~mv2_d_3170_2911_s_4_2.jpg",
+      img:
+        "https://static.wixstatic.com/media/d84b47_a4583d5323484368983b364eeddf1be8~mv2_d_3170_2911_s_4_2.jpg/v1/fill/w_161,h_161,al_c,q_80,usm_0.66_1.00_0.01/d84b47_a4583d5323484368983b364eeddf1be8~mv2_d_3170_2911_s_4_2.jpg",
       links: {
         website: "http://thepoolehouse.com/",
         linkedin: "https://www.linkedin.com/in/earle-poole-937736115/",
@@ -3814,7 +3905,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Rahul Marupaka",
-      img: "https://media.licdn.com/dms/image/C5603AQHT9YtiI461Ug/profile-displayphoto-shrink_200_200/0?e=1545868800&v=beta&t=V7VgLpQZmELkL_hdxExEXes9lOn1_oMsN7FFF8SqWwE",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQHT9YtiI461Ug/profile-displayphoto-shrink_200_200/0?e=1545868800&v=beta&t=V7VgLpQZmELkL_hdxExEXes9lOn1_oMsN7FFF8SqWwE",
       links: {
         website: "www.rahulmarupaka.github.io",
         linkedin: "http://www.linkedin.com/in/rahulmarupaka",
@@ -3846,7 +3938,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Udi Levy",
-      img: "https://static.wixstatic.com/media/d84b47_01a93a21ac9a407fb2bd56ffbc719cfa~mv2_d_3200_2885_s_4_2.jpg/v1/crop/x_112,y_0,w_2880,h_2885/fill/w_225,h_225,al_c,q_80,usm_0.66_1.00_0.01/d84b47_01a93a21ac9a407fb2bd56ffbc719cfa~mv2_d_3200_2885_s_4_2.webp",
+      img:
+        "https://static.wixstatic.com/media/d84b47_01a93a21ac9a407fb2bd56ffbc719cfa~mv2_d_3200_2885_s_4_2.jpg/v1/crop/x_112,y_0,w_2880,h_2885/fill/w_225,h_225,al_c,q_80,usm_0.66_1.00_0.01/d84b47_01a93a21ac9a407fb2bd56ffbc719cfa~mv2_d_3200_2885_s_4_2.webp",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/udi-levy-187865115/",
@@ -3862,7 +3955,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Uriel Hayon",
-      img: "https://instagram.faep11-1.fna.fbcdn.net/vp/15a806cc0355ab0df6233dcb220e863c/5C89B2E4/t51.2885-19/11377620_961066340581973_1665338264_a.jpg",
+      img:
+        "https://instagram.faep11-1.fna.fbcdn.net/vp/15a806cc0355ab0df6233dcb220e863c/5C89B2E4/t51.2885-19/11377620_961066340581973_1665338264_a.jpg",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/uriel-hayon-4354626b/",
@@ -3878,7 +3972,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ruslan Anisimov",
-      img: "https://media.licdn.com/dms/image/C5603AQFwm7MvgdqNlQ/profile-displayphoto-shrink_200_200/0?e=1546473600&v=beta&t=o2rX9xoGqLZMDNZWPiueErACYr7b_ezYmzwTgRYFvFk",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQFwm7MvgdqNlQ/profile-displayphoto-shrink_200_200/0?e=1546473600&v=beta&t=o2rX9xoGqLZMDNZWPiueErACYr7b_ezYmzwTgRYFvFk",
       links: {
         website: "http://ruslananisimov.com",
         linkedin: "https://www.linkedin.com/in/ruslan-anisimov/",
@@ -3894,7 +3989,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Michael Hill",
-      img: "https://avatars0.githubusercontent.com/u/40850298?s=400&u=18b0309d1c4c08d1fe5cfbd0feb60039b5a141bf&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/40850298?s=400&u=18b0309d1c4c08d1fe5cfbd0feb60039b5a141bf&v=4",
       links: {
         website: "",
         linkedin: "",
@@ -3910,7 +4006,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "John Davis",
-      img: "https://avatars0.githubusercontent.com/u/1872844?s=400&u=164c5898d4246358676e04450a4b9eed792108cb&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/1872844?s=400&u=164c5898d4246358676e04450a4b9eed792108cb&v=4",
       links: {
         website: "tidyneat.com",
         linkedin: "https://www.linkedin.com/in/johnjaydavis/",
@@ -3926,7 +4023,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Gil Weinstock",
-      img: "https://avatars1.githubusercontent.com/u/37132245?s=400&u=cc8b69cae1e4c6f6e6394a3b297df7fa60c94bac&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/37132245?s=400&u=cc8b69cae1e4c6f6e6394a3b297df7fa60c94bac&v=4",
       links: {
         website: "https://gildw.com",
         linkedin: "https://www.linkedin.com/in/gilweinstock/",
@@ -3990,7 +4088,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ariel Tan",
-      img: "https://media.licdn.com/dms/image/C5603AQHBlxdQPIa1nA/profile-displayphoto-shrink_200_200/0?e=1547078400&v=beta&t=06c7i75kKLmY8d2tKcTHgAyHWCmcu-gOVEC4NjGXcno",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQHBlxdQPIa1nA/profile-displayphoto-shrink_200_200/0?e=1547078400&v=beta&t=06c7i75kKLmY8d2tKcTHgAyHWCmcu-gOVEC4NjGXcno",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ariel-tan-67123b124/",
@@ -4006,7 +4105,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Swaroop S",
-      img: "https://scontent-maa2-1.xx.fbcdn.net/v/t31.0-1/c2.0.960.960/p960x960/18209164_1116442258459101_6526383771619593096_o.jpg?_nc_cat=105&_nc_ht=scontent-maa2-1.xx&oh=9a3419b1e6589d6655700c557c61ceb9&oe=5C40EE2E",
+      img:
+        "https://scontent-maa2-1.xx.fbcdn.net/v/t31.0-1/c2.0.960.960/p960x960/18209164_1116442258459101_6526383771619593096_o.jpg?_nc_cat=105&_nc_ht=scontent-maa2-1.xx&oh=9a3419b1e6589d6655700c557c61ceb9&oe=5C40EE2E",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/swaroop-sambhayya-72757a136/",
@@ -4022,7 +4122,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Hareth Naji",
-      img: "https://lh6.googleusercontent.com/t9VL3Ru-F44W5s_eQ8rhx-UHtYu_iE6BGDtvdyj6FBOVMZV6WvltFWBfASO4HADgvc6tukAqzJ1C0Q=w1432-h892",
+      img:
+        "https://lh6.googleusercontent.com/t9VL3Ru-F44W5s_eQ8rhx-UHtYu_iE6BGDtvdyj6FBOVMZV6WvltFWBfASO4HADgvc6tukAqzJ1C0Q=w1432-h892",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/hareth-naji/",
@@ -4054,7 +4155,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Michael Legemah",
-      img: "https://pbs.twimg.com/profile_images/717020237070221312/4Jcm3TnZ_400x400.jpg",
+      img:
+        "https://pbs.twimg.com/profile_images/717020237070221312/4Jcm3TnZ_400x400.jpg",
       links: {
         website: "https://mikelegemah5799.github.io/mikelegemah5799/",
         linkedin: "https://www.linkedin.com/in/michaellegemah/",
@@ -4086,7 +4188,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Sherin Binu",
-      img: "https://avatars1.githubusercontent.com/u/22068550?s=400&u=5ed15f9e5641e30c5a6543f198fcff55500b10ab&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/22068550?s=400&u=5ed15f9e5641e30c5a6543f198fcff55500b10ab&v=4",
       links: {
         website: "https://sherondale.me",
         linkedin: "https://www.linkedin.com/in/sherin-binu-75291a126/",
@@ -4166,7 +4269,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Kwanwoo (Steven) Jeong",
-      img: "https://bquagq.bn.files.1drv.com/y4m6exJenQbE8UUae807UkgH5Jfmfvvhkj247iW3FGLy-UU95O--cyj4mtI4W4QPCdT64lBSNIkoFHYuAFRCofCiE9J1xdWJHkc2mJQzDq1XMF2vTFjDASc5T0sd43h_hnVVLSAoKEMRKNyK2Wl1F7LMOWTvB19vmWkWhgky1QmxJkdUCny6HIkVRMkuPwHvfd4ANCUSji3RY1vMmdm6PgEqg?width=642&height=616&cropmode=none",
+      img:
+        "https://bquagq.bn.files.1drv.com/y4m6exJenQbE8UUae807UkgH5Jfmfvvhkj247iW3FGLy-UU95O--cyj4mtI4W4QPCdT64lBSNIkoFHYuAFRCofCiE9J1xdWJHkc2mJQzDq1XMF2vTFjDASc5T0sd43h_hnVVLSAoKEMRKNyK2Wl1F7LMOWTvB19vmWkWhgky1QmxJkdUCny6HIkVRMkuPwHvfd4ANCUSji3RY1vMmdm6PgEqg?width=642&height=616&cropmode=none",
       links: {
         website: "http://www.kwanwoo.me",
         linkedin: "https://www.linkedin.com/in/kwanwoo-jeong-48699483/",
@@ -4185,7 +4289,8 @@ export const data = {
       img: "https://avatars2.githubusercontent.com/u/26570662?v=4",
       links: {
         website: "",
-        linkedin: "https://www.linkedin.com/in/vignesh-kaliyamoorthy-24006a100/",
+        linkedin:
+          "https://www.linkedin.com/in/vignesh-kaliyamoorthy-24006a100/",
         github: "https://github.com/vigneshkaliyamoorthy",
       },
       jobTitle: "Front-End Web Developer & SharePoint Developer",
@@ -4230,10 +4335,12 @@ export const data = {
     {
       id: uuidv4(),
       name: "Wilfred Erdo A. Bancairen",
-      img: "https://media.licdn.com/dms/image/C5603AQEBwBfeK6WvSQ/profile-displayphoto-shrink_200_200/0?e=1549497600&v=beta&t=MaS6fplYlejlV4ue5ImGCEOrn7JIFm1OBKRjsKTLJoo",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQEBwBfeK6WvSQ/profile-displayphoto-shrink_200_200/0?e=1549497600&v=beta&t=MaS6fplYlejlV4ue5ImGCEOrn7JIFm1OBKRjsKTLJoo",
       links: {
         website: "to be updated",
-        linkedin: "https://www.linkedin.com/in/wilfred-erdo-bancairen-54887939/",
+        linkedin:
+          "https://www.linkedin.com/in/wilfred-erdo-bancairen-54887939/",
         github: "https://github.com/wilfred05777",
       },
       jobTitle: "Software Developer",
@@ -4246,7 +4353,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Robert Stamate",
-      img: "https://media.licdn.com/dms/image/C5603AQF7t_i2Uq2Vig/profile-displayphoto-shrink_200_200/0?e=1550102400&v=beta&t=FIG8s3SOWMFqWN0LqRLkbV2xmIHmVDA_BGSS9JAeHjY",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQF7t_i2Uq2Vig/profile-displayphoto-shrink_200_200/0?e=1550102400&v=beta&t=FIG8s3SOWMFqWN0LqRLkbV2xmIHmVDA_BGSS9JAeHjY",
       links: {
         website: "https://valkyr-development.com/",
         linkedin: "https://www.linkedin.com/in/rmstamate/",
@@ -4262,7 +4370,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Tony Nguyen",
-      img: "https://avatars1.githubusercontent.com/u/36907562?s=400&u=8fdd44b69baf5600d50a6ea6d5e883c4f31151c7&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/36907562?s=400&u=8fdd44b69baf5600d50a6ea6d5e883c4f31151c7&v=4",
       links: {
         website: "https://tonynguyen111997.github.io/portfolio/",
         linkedin: "https://www.linkedin.com/in/tonynguyen111997/",
@@ -4278,7 +4387,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Andrés Cruz",
-      img: "https://pbs.twimg.com/profile_images/1029210892624384000/hHQTuI96_400x400.jpg",
+      img:
+        "https://pbs.twimg.com/profile_images/1029210892624384000/hHQTuI96_400x400.jpg",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/profileandrescruz/",
@@ -4326,7 +4436,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Darnell Hedrick",
-      img: "https://pbs.twimg.com/profile_images/990422694717001728/3xT7u7rD_400x400.jpg",
+      img:
+        "https://pbs.twimg.com/profile_images/990422694717001728/3xT7u7rD_400x400.jpg",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/darnell-hedrick-962b65176/",
@@ -4374,7 +4485,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Kritika Sharma",
-      img: "https://avatars2.githubusercontent.com/u/35176749?s=400&u=49691a090c52d6d0ae9315f746fc41595b584e51&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/35176749?s=400&u=49691a090c52d6d0ae9315f746fc41595b584e51&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/kritika-sharma-8a65687a/",
@@ -4390,7 +4502,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Yasser Dalouzi",
-      img: "https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/21430280_1880453648948406_5484250295324615463_n.jpg?_nc_cat=100&_nc_ht=scontent-mrs1-1.xx&oh=aca8eaefeb26abbc38887a9a9b4dfc1a&oe=5C95D59D",
+      img:
+        "https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/21430280_1880453648948406_5484250295324615463_n.jpg?_nc_cat=100&_nc_ht=scontent-mrs1-1.xx&oh=aca8eaefeb26abbc38887a9a9b4dfc1a&oe=5C95D59D",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/yasserdalouzi/",
@@ -4406,7 +4519,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "YIXUN LI",
-      img: "https://miro.medium.com/fit/c/240/240/1*KCzB9vChbnmayxAyPmGDmg.jpeg",
+      img:
+        "https://miro.medium.com/fit/c/240/240/1*KCzB9vChbnmayxAyPmGDmg.jpeg",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/yixun-li-4b979ba3/",
@@ -4454,7 +4568,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "David Nowak",
-      img: "https://avatars1.githubusercontent.com/u/22338256?s=400&u=28db2b90b819ad52c31c6a793005b5603240660c&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/22338256?s=400&u=28db2b90b819ad52c31c6a793005b5603240660c&v=4",
       links: {
         website: "https://davidpnowak.com",
         linkedin: "https://www.linkedin.com/in/davidpnowak/",
@@ -4470,7 +4585,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jared Gentry",
-      img: "https://media.licdn.com/dms/image/C4E03AQF073t25rLyWA/profile-displayphoto-shrink_200_200/0?e=1551916800&v=beta&t=HxCnXtEBTirSCI33Az5cEAdoVVq_pP08m3RDdEtB2p4",
+      img:
+        "https://media.licdn.com/dms/image/C4E03AQF073t25rLyWA/profile-displayphoto-shrink_200_200/0?e=1551916800&v=beta&t=HxCnXtEBTirSCI33Az5cEAdoVVq_pP08m3RDdEtB2p4",
       links: {
         website: "https://jcgentr.github.io/",
         linkedin: "https://www.linkedin.com/in/jared-gentry-48923b113/",
@@ -4518,7 +4634,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Pratyakash Saini",
-      img: "https://avatars1.githubusercontent.com/u/13645745?s=400&u=cc315e581c698af75c0d2fd089aab27ae2fa5d43&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/13645745?s=400&u=cc315e581c698af75c0d2fd089aab27ae2fa5d43&v=4",
       links: {
         website: "https://pratyakash.github.io/",
         linkedin: "https://www.linkedin.com/in/pratyakash-s-saini-038639106",
@@ -4534,13 +4651,15 @@ export const data = {
     {
       id: uuidv4(),
       name: "Baddeley, Robert",
-      img: "https://avatars2.githubusercontent.com/u/46244948?s=400&u=d3103d7aff9f8bb1cb4f8b1268c43bd0162c0d3b&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/46244948?s=400&u=d3103d7aff9f8bb1cb4f8b1268c43bd0162c0d3b&v=4",
       links: {
         website: "https://waffleflopper.github.io/",
         linkedin: "https://www.linkedin.com/in/robert-baddeley-32ba63177/",
         github: "https://github.com/waffleflopper",
       },
-      jobTitle: "Full-Stack Developer (Currently Respiratory Therapist, Career Changing)",
+      jobTitle:
+        "Full-Stack Developer (Currently Respiratory Therapist, Career Changing)",
       location: {
         city: "Honolulu",
         state: "Hawaii",
@@ -4550,7 +4669,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Neetish Pathak",
-      img: "https://pbs.twimg.com/profile_images/3036362618/583ba4b504a3c54698f368d41bb8cf52_400x400.jpeg",
+      img:
+        "https://pbs.twimg.com/profile_images/3036362618/583ba4b504a3c54698f368d41bb8cf52_400x400.jpeg",
       links: {
         website: "https://neetishpathak.github.io/",
         linkedin: "https://www.linkedin.com/in/neetish-pathak-63024131/",
@@ -4566,7 +4686,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Cyryll Galon",
-      img: "https://media.licdn.com/dms/image/C4D03AQECRGT3lp9axw/profile-displayphoto-shrink_200_200/0?e=1552521600&v=beta&t=Rg3feXVltdGPeGfd5C8CYdBR6qt50D_owbTaHfUFiqs",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQECRGT3lp9axw/profile-displayphoto-shrink_200_200/0?e=1552521600&v=beta&t=Rg3feXVltdGPeGfd5C8CYdBR6qt50D_owbTaHfUFiqs",
       links: {
         website: "https://galoncyryll.github.io/website-portfolio/",
         linkedin: "https://www.linkedin.com/in/cyryll-joseph-galon-461710147/",
@@ -4598,7 +4719,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Annie Anna Belkin",
-      img: "https://scontent.fhfa1-2.fna.fbcdn.net/v/t1.0-9/18664556_1102362763229333_8612792483817153454_n.jpg?_nc_cat=105&_nc_ht=scontent.fhfa1-2.fna&oh=2eaddf5cc576a8e71fbe4538e2e36de6&oe=5CC31CA0",
+      img:
+        "https://scontent.fhfa1-2.fna.fbcdn.net/v/t1.0-9/18664556_1102362763229333_8612792483817153454_n.jpg?_nc_cat=105&_nc_ht=scontent.fhfa1-2.fna&oh=2eaddf5cc576a8e71fbe4538e2e36de6&oe=5CC31CA0",
       links: {
         website: "https://amplace.co.il/",
         linkedin: "https://www.linkedin.com/in/anniebelkin/",
@@ -4630,7 +4752,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Kyrolos Magdy",
-      img: "https://cdn1.imggmi.com/uploads/2019/1/14/3b2a92c40be00f96e1507bc93621b851-full.jpg",
+      img:
+        "https://cdn1.imggmi.com/uploads/2019/1/14/3b2a92c40be00f96e1507bc93621b851-full.jpg",
       links: {
         website: "https://kyrolos.github.io/Myportofolio/",
         linkedin: "https://www.linkedin.com/in/kyrolos-magdy-575055163/",
@@ -4646,7 +4769,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Frank Holder",
-      img: "https://media.licdn.com/dms/image/C4D03AQG8utwt_Dqy-Q/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=a1wboqyAS37HwMZlv4a22TczOiXpM7ahKo6RgRRT-AA",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQG8utwt_Dqy-Q/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=a1wboqyAS37HwMZlv4a22TczOiXpM7ahKo6RgRRT-AA",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/nigel-h-9a6165144/",
@@ -4662,7 +4786,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Redwan Jemal",
-      img: "https://media.licdn.com/dms/image/C5603AQHJo4aayBxDIA/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=Pb6rlHfQcWcRsN7h3ItEF-G1OGTBI5YhJ3Yuia44wPw",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQHJo4aayBxDIA/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=Pb6rlHfQcWcRsN7h3ItEF-G1OGTBI5YhJ3Yuia44wPw",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/redwan-jemal/",
@@ -4678,7 +4803,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Richard Widjaya",
-      img: "https://media.licdn.com/dms/image/C5103AQHAsBPWl0NLsQ/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=byPaOxuWdyTrs-gxD1_C8VQtaL3z7oM5yu3FLpOaJAY",
+      img:
+        "https://media.licdn.com/dms/image/C5103AQHAsBPWl0NLsQ/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=byPaOxuWdyTrs-gxD1_C8VQtaL3z7oM5yu3FLpOaJAY",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/richard-widjaya-3a658614b/",
@@ -4694,7 +4820,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Daniel Millier",
-      img: "https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/34725849_10215131977726516_496494658889711616_n.jpg?_nc_cat=109&_nc_ht=scontent-yyz1-1.xx&oh=59b4e61202778b077a3d58689d5dab27&oe=5CBD78AC",
+      img:
+        "https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/34725849_10215131977726516_496494658889711616_n.jpg?_nc_cat=109&_nc_ht=scontent-yyz1-1.xx&oh=59b4e61202778b077a3d58689d5dab27&oe=5CBD78AC",
       links: {
         website: "https://danielmillier.carrd.co",
         linkedin: "https://www.linkedin.com/in/danjmillier/",
@@ -4821,7 +4948,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jack Meyer",
-      img: "https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/37812874_10160704243520344_4682453803721555968_n.jpg?_nc_cat=110&_nc_ht=scontent-ort2-2.xx&oh=a4f8394ff0bc99355cbf018dd3f64ba0&oe=5CF34C11",
+      img:
+        "https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/37812874_10160704243520344_4682453803721555968_n.jpg?_nc_cat=110&_nc_ht=scontent-ort2-2.xx&oh=a4f8394ff0bc99355cbf018dd3f64ba0&oe=5CF34C11",
       links: {
         website: "http://www.jackvmeyer.com",
         linkedin: "https://www.linkedin.com/in/jack-v-meyer/",
@@ -4853,7 +4981,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Taulant Shametaj :)",
-      img: "https://avatars2.githubusercontent.com/u/45207786?s=400&u=2444f25b1917724d33457950a7c23c8a6dad4f07&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/45207786?s=400&u=2444f25b1917724d33457950a7c23c8a6dad4f07&v=4",
       links: {
         website: "https://shametaj.github.io",
         linkedin: "https://gr.linkedin.com/in/taulant-shametaj-6518a191",
@@ -4869,7 +4998,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Usman Jamil",
-      img: "http://usmanjamil.co.uk/wp-content/uploads/2016/12/1-Usman-Jamil-300x300.jpg",
+      img:
+        "http://usmanjamil.co.uk/wp-content/uploads/2016/12/1-Usman-Jamil-300x300.jpg",
       links: {
         website: "http://usmanjamil.co.uk",
         linkedin: "https://www.linkedin.com/in/usmaanj/",
@@ -4933,7 +5063,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Natalia Quiroz Yoffe",
-      img: "https://media.licdn.com/media-proxy/ext?w=800&h=800&f=n&hash=otDvMyUuQrHEompXJmLnseNzCKA%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0Vinkhwfjw8177yE41y87UNCVordEGXyD3u0qYrdfyTucMKMcOSnuV0WfC8ckQVnfPKgRWGyD5K-KIvsL9x5jJHsII24ZxUBbFI8lW4",
+      img:
+        "https://media.licdn.com/media-proxy/ext?w=800&h=800&f=n&hash=otDvMyUuQrHEompXJmLnseNzCKA%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0Vinkhwfjw8177yE41y87UNCVordEGXyD3u0qYrdfyTucMKMcOSnuV0WfC8ckQVnfPKgRWGyD5K-KIvsL9x5jJHsII24ZxUBbFI8lW4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/natiquirozyoffe",
@@ -4997,7 +5128,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Vignesh Manishankar",
-      img: "https://media.licdn.com/dms/image/C4E03AQEyjilKbRcbaQ/profile-displayphoto-shrink_200_200/0?e=1555545600&v=beta&t=7tcX_W4MmmE45udTsOyZ4buctnLPp8TTt6BXuvVCco0",
+      img:
+        "https://media.licdn.com/dms/image/C4E03AQEyjilKbRcbaQ/profile-displayphoto-shrink_200_200/0?e=1555545600&v=beta&t=7tcX_W4MmmE45udTsOyZ4buctnLPp8TTt6BXuvVCco0",
       links: {
         website: "https://vignesh17.github.io/ME/",
         linkedin: "https://www.linkedin.com/in/vignesh-manishankar/",
@@ -5029,7 +5161,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ilan Melki",
-      img: "https://media.licdn.com/dms/image/C4E03AQHSZt3lwFF0Mw/profile-displayphoto-shrink_200_200/0?e=1555545600&v=beta&t=kWX8oohe1S8ff_WCV86NFuzpj_A3f_Bao85Ch665dCM",
+      img:
+        "https://media.licdn.com/dms/image/C4E03AQHSZt3lwFF0Mw/profile-displayphoto-shrink_200_200/0?e=1555545600&v=beta&t=kWX8oohe1S8ff_WCV86NFuzpj_A3f_Bao85Ch665dCM",
       links: {
         website: "https://www.facebook.com/Milkyahu/",
         linkedin: "https://www.linkedin.com/in/ilan-melki/",
@@ -5077,7 +5210,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Prateek Parab",
-      img: "https://media.licdn.com/dms/image/C5603AQE-jzpvaQWimw/profile-displayphoto-shrink_200_200/0?e=1556150400&v=beta&t=2r2Td18RmzK5udVAJmJYE6ZcGeDKJKjCFDMaTPRZqbk",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQE-jzpvaQWimw/profile-displayphoto-shrink_200_200/0?e=1556150400&v=beta&t=2r2Td18RmzK5udVAJmJYE6ZcGeDKJKjCFDMaTPRZqbk",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/prateek-parab/",
@@ -5093,7 +5227,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Dave Lin",
-      img: "https://secure.gravatar.com/avatar/52909e9a86a866e3585a65b5ba7a924f",
+      img:
+        "https://secure.gravatar.com/avatar/52909e9a86a866e3585a65b5ba7a924f",
       links: {
         website: "http://www.davemint.com/",
         linkedin: "https://www.linkedin.com/in/dvdlin214/",
@@ -5109,7 +5244,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Loic Njike",
-      img: "https://photos.google.com/photo/AF1QipPQHfL-k_8egWSRv15BffJmXr8H2JxZlT2-KGd3",
+      img:
+        "https://photos.google.com/photo/AF1QipPQHfL-k_8egWSRv15BffJmXr8H2JxZlT2-KGd3",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/loïc-njike/",
@@ -5173,7 +5309,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Denis Gornichar",
-      img: "https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/17498656_10206528090159743_4183490191246088808_n.jpg?_nc_cat=104&_nc_ht=scontent-frx5-1.xx&oh=c8d8fa0536128809b226d4a9df0b2fc8&oe=5D271331",
+      img:
+        "https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/17498656_10206528090159743_4183490191246088808_n.jpg?_nc_cat=104&_nc_ht=scontent-frx5-1.xx&oh=c8d8fa0536128809b226d4a9df0b2fc8&oe=5D271331",
       links: {
         website: "https://gorniczy.github.io",
         linkedin: "https://www.linkedin.com/in/denis-gornichar/",
@@ -5189,7 +5326,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Adigun Adefisola",
-      img: "https://avatars3.githubusercontent.com/u/17639878?s=400&u=f7a095a5e83c1be3395657726ed65ce697d472fc&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/17639878?s=400&u=f7a095a5e83c1be3395657726ed65ce697d472fc&v=4",
       links: {
         website: "https://www.adefisolaadigun.com",
         linkedin: "https://www.linkedin.com/in/adefisola-adigun/",
@@ -5237,10 +5375,12 @@ export const data = {
     {
       id: uuidv4(),
       name: "Carlos De La Cruz",
-      img: "https://media.licdn.com/dms/image/C5603AQHI1ztWds_mKg/profile-displayphoto-shrink_200_200/0?e=1556755200&v=beta&t=ZF5TGbDZMMCT-YJCxD0ZSY8jud-hwS1WKG_-eAOfMWo",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQHI1ztWds_mKg/profile-displayphoto-shrink_200_200/0?e=1556755200&v=beta&t=ZF5TGbDZMMCT-YJCxD0ZSY8jud-hwS1WKG_-eAOfMWo",
       links: {
         website: "http://carloscm.me",
-        linkedin: "https://www.linkedin.com/in/carlos-de-la-cruz-meregildo-5673b1141/",
+        linkedin:
+          "https://www.linkedin.com/in/carlos-de-la-cruz-meregildo-5673b1141/",
         github: "https://github.com/Ahcom1019",
       },
       jobTitle: "FullStack Developer",
@@ -5269,7 +5409,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Chris Baucom",
-      img: "https://res.cloudinary.com/crbaucom/image/upload/v1551412727/crbaucom-images/image_4.png",
+      img:
+        "https://res.cloudinary.com/crbaucom/image/upload/v1551412727/crbaucom-images/image_4.png",
       links: {
         website: "https://crbaucom.com",
         linkedin: "https://linkedin.com/in/chrisbaucom",
@@ -5317,7 +5458,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Devavrat Singh",
-      img: "https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-1/p160x160/50275077_10210595861931160_6720448375885398016_n.jpg?_nc_cat=109&_nc_ht=scontent.fjai1-1.fna&oh=133c8b31219bf234307ea77b5007de01&oe=5D13A8B9",
+      img:
+        "https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-1/p160x160/50275077_10210595861931160_6720448375885398016_n.jpg?_nc_cat=109&_nc_ht=scontent.fjai1-1.fna&oh=133c8b31219bf234307ea77b5007de01&oe=5D13A8B9",
       links: {
         website: "https://www.satsaiinfocom.com",
         linkedin: "https://www.linkedin.com/in/devavrat-singh-89249840",
@@ -5365,7 +5507,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Bruno Staub",
-      img: "https://media.licdn.com/dms/image/C5603AQEOtIe_rX1R3Q/profile-displayphoto-shrink_200_200/0?e=1557360000&v=beta&t=csQDaLmqNh4XU_LPLMqqDBVTELxG8zBv_tH8iaCUZlM",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQEOtIe_rX1R3Q/profile-displayphoto-shrink_200_200/0?e=1557360000&v=beta&t=csQDaLmqNh4XU_LPLMqqDBVTELxG8zBv_tH8iaCUZlM",
       links: {
         website: "https://www.stbr.ch",
         linkedin: "https://www.linkedin.com/in/bruno-staub-634b2870/",
@@ -5381,7 +5524,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Akshata Dabade",
-      img: "https://media.licdn.com/dms/image/C4D03AQFTzCBZpv2FQQ/profile-displayphoto-shrink_200_200/0?e=1556755200&v=beta&t=FCp1OYOUS5jLbJsOld4uWZCWn0Pvp_h4owmX7TZ0Wno",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQFTzCBZpv2FQQ/profile-displayphoto-shrink_200_200/0?e=1556755200&v=beta&t=FCp1OYOUS5jLbJsOld4uWZCWn0Pvp_h4owmX7TZ0Wno",
       links: {
         website: "https://akshatadabade.herokuapp.com/",
         linkedin: "https://www.linkedin.com/in/akshatadabade1994/",
@@ -5403,7 +5547,8 @@ export const data = {
         linkedin: "https://www.linkedin.com/in/harry-parkinson-418515126/",
         github: "https://github.com/hazza203/",
       },
-      jobTitle: "Full Stack Web Developer (Javascript, React) and Software Developer (Java, Python)",
+      jobTitle:
+        "Full Stack Web Developer (Javascript, React) and Software Developer (Java, Python)",
       location: {
         city: "Melbourne",
         state: "Victoria",
@@ -5435,7 +5580,8 @@ export const data = {
         linkedin: "https://www.linkedin.com/in/fran-campana-33939a13b/",
         github: "https://github.com/FMCampana",
       },
-      jobTitle: "Full Stack Web Developer (Javascript, React) and Software Developer (Java, Python)",
+      jobTitle:
+        "Full Stack Web Developer (Javascript, React) and Software Developer (Java, Python)",
       location: {
         city: "Philadelphia",
         state: "PA",
@@ -5445,13 +5591,15 @@ export const data = {
     {
       id: uuidv4(),
       name: "VISHNUVARTHAN U",
-      img: "https://media.licdn.com/dms/image/C5603AQHdoYsDA_WfzQ/profile-displayphoto-shrink_200_200/0?e=1557964800&v=beta&t=1KfgykQ1klCEBsq0bOOTWlqeGkf0XbQUlBzJ4acuO0k",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQHdoYsDA_WfzQ/profile-displayphoto-shrink_200_200/0?e=1557964800&v=beta&t=1KfgykQ1klCEBsq0bOOTWlqeGkf0XbQUlBzJ4acuO0k",
       links: {
         website: "http://vvarthan7.in/",
         linkedin: "https://www.linkedin.com/in/vvarthan7/",
         github: "https://github.com/vvarthan7",
       },
-      jobTitle: "Sr. Software Engineer (Javascript, React.js, AEM UI(Sightly, HTL), Bootstrap)",
+      jobTitle:
+        "Sr. Software Engineer (Javascript, React.js, AEM UI(Sightly, HTL), Bootstrap)",
       location: {
         city: "Bangalore",
         state: "Karnataka",
@@ -5461,7 +5609,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Argenis De La Rosa",
-      img: "https://media.licdn.com/dms/image/C4E03AQG_S06UTIxSJw/profile-displayphoto-shrink_200_200/0?e=1557360000&v=beta&t=VNxIYWv_1rx-wJIQJcn83jpLDnJxF4LNpSiQZq6tIJo",
+      img:
+        "https://media.licdn.com/dms/image/C4E03AQG_S06UTIxSJw/profile-displayphoto-shrink_200_200/0?e=1557360000&v=beta&t=VNxIYWv_1rx-wJIQJcn83jpLDnJxF4LNpSiQZq6tIJo",
       links: {
         website: "https://argenisdelarosa.com/",
         linkedin: "https://www.linkedin.com/in/argenis-de-la-rosa-502b18157/",
@@ -5480,7 +5629,8 @@ export const data = {
       img: "",
       links: {
         website: "",
-        linkedin: "https://www.linkedin.com/in/%E8%8B%B1%E6%8D%B7-%E6%B4%AA-9a3592174/",
+        linkedin:
+          "https://www.linkedin.com/in/%E8%8B%B1%E6%8D%B7-%E6%B4%AA-9a3592174/",
         github: "https://github.com/a510102",
       },
       jobTitle: "Front-endWed Developer",
@@ -5493,7 +5643,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Sal Tamay",
-      img: "https://media.licdn.com/dms/image/C5603AQGP5X8ovpsjrg/profile-displayphoto-shrink_200_200/0?e=1555545600&v=beta&t=IhQSnst-9gV332G4-zzS3d3kXG5aBY3lUXezIFQhdv0",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQGP5X8ovpsjrg/profile-displayphoto-shrink_200_200/0?e=1555545600&v=beta&t=IhQSnst-9gV332G4-zzS3d3kXG5aBY3lUXezIFQhdv0",
       links: {
         website: "https://saltamay.github.io/home/",
         linkedin: "https://www.linkedin.com/in/sal-tamay/",
@@ -5509,7 +5660,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jay Tin",
-      img: "https://media.licdn.com/dms/image/C5103AQHVsH53UsL5-Q/profile-displayphoto-shrink_200_200/0?e=1557964800&v=beta&t=w9-1cYib3O_mAjNfesLHccY8YWXwIEqf8GNZEEY05OM",
+      img:
+        "https://media.licdn.com/dms/image/C5103AQHVsH53UsL5-Q/profile-displayphoto-shrink_200_200/0?e=1557964800&v=beta&t=w9-1cYib3O_mAjNfesLHccY8YWXwIEqf8GNZEEY05OM",
       links: {
         website: "https://jaytintran.github.io",
         linkedin: "https://www.linkedin.com/in/jaytintran/",
@@ -5525,7 +5677,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Alireza(Armin) Tavakol",
-      img: "https://media.licdn.com/dms/image/C4D03AQFdb6t-2E0s4g/profile-displayphoto-shrink_200_200/0?e=1559174400&v=beta&t=wLCxzea4KsgVKwKLyEprdJUYq0wte16xDLeNiZDlFd8",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQFdb6t-2E0s4g/profile-displayphoto-shrink_200_200/0?e=1559174400&v=beta&t=wLCxzea4KsgVKwKLyEprdJUYq0wte16xDLeNiZDlFd8",
       links: {
         website: "https://stackoverflow.com/users/11187413/ali-tk",
         linkedin: "https://www.linkedin.com/in/alireza-tavakol73/",
@@ -5541,7 +5694,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Joseph Kelly",
-      img: "https://media.licdn.com/dms/image/C4E03AQGSdyg1klP5qw/profile-displayphoto-shrink_200_200/0?e=1558569600&v=beta&t=LlLt74lIaSKfbXYQ01vJ1tgqHIr9ELjG7xEFpR-ZnRE",
+      img:
+        "https://media.licdn.com/dms/image/C4E03AQGSdyg1klP5qw/profile-displayphoto-shrink_200_200/0?e=1558569600&v=beta&t=LlLt74lIaSKfbXYQ01vJ1tgqHIr9ELjG7xEFpR-ZnRE",
       links: {
         website: "http://www.josephdk.com",
         linkedin: "https://www.linkedin.com/in/joseph-kelly-420a81165/",
@@ -5605,7 +5759,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Paola Arzuffi",
-      img: "https://media.licdn.com/dms/image/C5603AQGyhOPSeqemgQ/profile-displayphoto-shrink_200_200/0?e=1558569600&v=beta&t=5sK396H41eBje7bgpx7qidHZAnsCgBF4r1TjP6VvHNE",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQGyhOPSeqemgQ/profile-displayphoto-shrink_200_200/0?e=1558569600&v=beta&t=5sK396H41eBje7bgpx7qidHZAnsCgBF4r1TjP6VvHNE",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/paola-arzuffi-31570790/",
@@ -5621,10 +5776,12 @@ export const data = {
     {
       id: uuidv4(),
       name: "Yudhistira Putra Nugraha",
-      img: "https://raw.githubusercontent.com/kudismetal/web-cv/master/profile.jpg",
+      img:
+        "https://raw.githubusercontent.com/kudismetal/web-cv/master/profile.jpg",
       links: {
         website: "https://kudismetal.github.io/web-cv/",
-        linkedin: "https://www.linkedin.com/in/yudhistira-putra-nugraha-154207165/",
+        linkedin:
+          "https://www.linkedin.com/in/yudhistira-putra-nugraha-154207165/",
         github: "https://github.com/kudismetal",
       },
       jobTitle: "Front-End Developer",
@@ -5637,9 +5794,11 @@ export const data = {
     {
       id: uuidv4(),
       name: "Russ Perry",
-      img: "https://media.licdn.com/dms/image/C4E03AQFFbRkD77x10g/profile-displayphoto-shrink_200_200/0?e=1558569600&v=beta&t=0FEu-iDs8E9LrRX2LqF_sbbKxck5eStL_nY8hEPJBLk",
+      img:
+        "https://media.licdn.com/dms/image/C4E03AQFFbRkD77x10g/profile-displayphoto-shrink_200_200/0?e=1558569600&v=beta&t=0FEu-iDs8E9LrRX2LqF_sbbKxck5eStL_nY8hEPJBLk",
       links: {
-        website: "https://rperry99.github.io/responsive-portfolio/dist/index.html",
+        website:
+          "https://rperry99.github.io/responsive-portfolio/dist/index.html",
         linkedin: "https://www.linkedin.com/in/russ-perry-22b638a8/",
         github: "https://github.com/rperry99",
       },
@@ -5672,7 +5831,8 @@ export const data = {
       img: "https://avatars1.githubusercontent.com/u/24637586?s=400&v=4",
       links: {
         website: "https://tomas95go.github.io/tomasportfolio/index.html",
-        linkedin: "www.linkedin.com/in/tomas-emiliano-gonzalez-oviedo-897795173",
+        linkedin:
+          "www.linkedin.com/in/tomas-emiliano-gonzalez-oviedo-897795173",
         github: "https://github.com/tomas95go",
       },
       jobTitle: "Full Stack Web Developer",
@@ -5765,7 +5925,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Wouter Kok",
-      img: "https://media.licdn.com/dms/image/C4D03AQGsoeE2ocP-Mg/profile-displayphoto-shrink_200_200/0?e=1559174400&v=beta&t=QLPXLGvPOOvqa5GMHEAmajLnXHBuzxarmFSF8PkZEzM",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQGsoeE2ocP-Mg/profile-displayphoto-shrink_200_200/0?e=1559174400&v=beta&t=QLPXLGvPOOvqa5GMHEAmajLnXHBuzxarmFSF8PkZEzM",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/wouter-kok/",
@@ -5861,7 +6022,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ryan Lewis",
-      img: "https://media.licdn.com/dms/image/C4D03AQF1xFP1AmQarQ/profile-displayphoto-shrink_200_200/0?e=1559779200&v=beta&t=omFFe-NN9fH8DkEOJXwlRrwiMdFQ5EIQzBrS4C1Kd2w",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQF1xFP1AmQarQ/profile-displayphoto-shrink_200_200/0?e=1559779200&v=beta&t=omFFe-NN9fH8DkEOJXwlRrwiMdFQ5EIQzBrS4C1Kd2w",
       links: {
         website: "https://www.ryanlewis.co.uk/portfolio/",
         linkedin: "https://www.linkedin.com/in/ryan-lewis-b02105161/",
@@ -5913,7 +6075,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Brian Bartholomew",
-      img: "https://res.cloudinary.com/djkkmw08b/image/upload/v1554409314/profile.png",
+      img:
+        "https://res.cloudinary.com/djkkmw08b/image/upload/v1554409314/profile.png",
       links: {
         website: "https://brianbartholomew.tech/",
         linkedin: "https://www.linkedin.com/in/bartholomewbd/",
@@ -5977,7 +6140,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Tom Makowski",
-      img: "https://media.licdn.com/dms/image/C5103AQElYXGsB0zQaA/profile-displayphoto-shrink_200_200/0?e=1560384000&v=beta&t=5afHEkKMbiUOD3JfUW92FGYk9x14PtbhYAT5_3B9GYo",
+      img:
+        "https://media.licdn.com/dms/image/C5103AQElYXGsB0zQaA/profile-displayphoto-shrink_200_200/0?e=1560384000&v=beta&t=5afHEkKMbiUOD3JfUW92FGYk9x14PtbhYAT5_3B9GYo",
       links: {
         website: "http://www.backtodev.com",
         linkedin: "https://www.linkedin.com/in/tomasz-makowski/",
@@ -5993,7 +6157,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Michael Johnston",
-      img: "https://media.licdn.com/dms/image/C5603AQFA4TjeE9_hog/profile-displayphoto-shrink_200_200/0?e=1560384000&v=beta&t=Hr4Mh5NAaORzJ8NdxU6XH4fmND1pitP8fyJ01NCuhkE",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQFA4TjeE9_hog/profile-displayphoto-shrink_200_200/0?e=1560384000&v=beta&t=Hr4Mh5NAaORzJ8NdxU6XH4fmND1pitP8fyJ01NCuhkE",
       links: {
         website: "https://michaeljamie.com/",
         linkedin: "https://www.linkedin.com/in/michaeljamiejohnston/",
@@ -6009,7 +6174,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jack Chen (陳紀嘉)",
-      img: "https://media.licdn.com/dms/image/C4E03AQE-Ft2dFtGI3g/profile-displayphoto-shrink_200_200/0?e=1560384000&v=beta&t=K5h7NsZlfZS6KNIs5yubO02ljf2GPcI72GQd-LgvyDs",
+      img:
+        "https://media.licdn.com/dms/image/C4E03AQE-Ft2dFtGI3g/profile-displayphoto-shrink_200_200/0?e=1560384000&v=beta&t=K5h7NsZlfZS6KNIs5yubO02ljf2GPcI72GQd-LgvyDs",
       links: {
         website: "https://jackchen1210.github.io/",
         linkedin: "https://www.linkedin.com/in/jackchen1210/",
@@ -6025,7 +6191,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Aria Samandi",
-      img: "https://avatars2.githubusercontent.com/u/36803081?s=400&u=f557431b948c12c0ec3a5f5cb21e1a1a783b18a0&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/36803081?s=400&u=f557431b948c12c0ec3a5f5cb21e1a1a783b18a0&v=4",
       links: {
         website: "http://ariasamandi.com",
         linkedin: "https://www.linkedin.com/in/aria-samandi-91799a159/",
@@ -6057,7 +6224,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Siddharth Gusain",
-      img: "https://github.com/siddharthgusain/My-Portfolio/blob/master/assets/images/sid.jpg",
+      img:
+        "https://github.com/siddharthgusain/My-Portfolio/blob/master/assets/images/sid.jpg",
       links: {
         website: "https://siddharthgusain.github.io/My-Portfolio/",
         linkedin: "https://in.linkedin.com/in/siddharth-gusain-355b84156",
@@ -6073,7 +6241,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Nahuel Alberti",
-      img: "https://avatars3.githubusercontent.com/u/40583848?s=400&u=0b353b719e77f4f18a0c75f164c8cfc81030ceca&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/40583848?s=400&u=0b353b719e77f4f18a0c75f164c8cfc81030ceca&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/nahuel-alberti/",
@@ -6137,7 +6306,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Tom Tong",
-      img: "https://avatars3.githubusercontent.com/u/37486901?s=400&u=263546b8e7d2014db8badc93e9415962d0c8ddd5&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/37486901?s=400&u=263546b8e7d2014db8badc93e9415962d0c8ddd5&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/meng-tong-7a5bb48b/",
@@ -6153,7 +6323,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Britta Wang",
-      img: "https://avatars3.githubusercontent.com/u/41138162?s=400&u=6ffe0c724e97c3de98b73c51bd5797b79711f9df&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/41138162?s=400&u=6ffe0c724e97c3de98b73c51bd5797b79711f9df&v=4",
       links: {
         website: "https://congw-syd.github.io",
         linkedin: "https://www.linkedin.com/in/cong-wang-374483172/",
@@ -6169,7 +6340,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Pourush Shrestha",
-      img: "https://media.licdn.com/dms/image/C4E03AQH-QmWXVwAo2A/profile-displayphoto-shrink_100_100/0?e=1562198400&v=beta&t=KGHdy-AAuYuwr-dzi5JY9xFQquwphRnGvXoRp_RA874",
+      img:
+        "https://media.licdn.com/dms/image/C4E03AQH-QmWXVwAo2A/profile-displayphoto-shrink_100_100/0?e=1562198400&v=beta&t=KGHdy-AAuYuwr-dzi5JY9xFQquwphRnGvXoRp_RA874",
       links: {
         website: "https://pourushshrestha.com",
         linkedin: "https://www.linkedin.com/in/pourush-shrestha/",
@@ -6185,7 +6357,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Anna Popowicz",
-      img: "https://avatars1.githubusercontent.com/u/32011952?s=400&u=8042b97dd097bdab86e2ea95a875131fa02bbfbb&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/32011952?s=400&u=8042b97dd097bdab86e2ea95a875131fa02bbfbb&v=4",
       links: {
         website: "https://github.com/annpop",
         linkedin: "ttps://www.linkedin.com/in/anna-popowicz-01bb8456/",
@@ -6201,7 +6374,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ezenwanne Kenneth",
-      img: "https://avatars2.githubusercontent.com/u/46355242?s=400&u=bc992566f4da86f5a81a8e2dcc380ffd36427bc4&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/46355242?s=400&u=bc992566f4da86f5a81a8e2dcc380ffd36427bc4&v=4",
       links: {
         website: "https://github.com/surelinks",
         linkedin: "ttps://www.linkedin.com/in/Ezenwanne Kenneth/",
@@ -6217,7 +6391,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Arigbede Abiodun",
-      img: "https://res.cloudinary.com/deksm5bm1/image/upload/v1557241675/DSC_8633.jpg",
+      img:
+        "https://res.cloudinary.com/deksm5bm1/image/upload/v1557241675/DSC_8633.jpg",
       links: {
         website: "https://abbyjoe.github.io/portfolio",
         linkedin: "",
@@ -6297,7 +6472,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jason D'souza",
-      img: "https://media.licdn.com/dms/image/C4D03AQHIjo9Nwl45XA/profile-displayphoto-shrink_200_200/0?e=1562803200&v=beta&t=W-NCStiVinGB2rQHmVarXu8KYuX2Jj-g-S7ML3rf-Q8",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQHIjo9Nwl45XA/profile-displayphoto-shrink_200_200/0?e=1562803200&v=beta&t=W-NCStiVinGB2rQHmVarXu8KYuX2Jj-g-S7ML3rf-Q8",
       links: {
         website: "https://jasondsouza.dev/",
         linkedin: "https://www.linkedin.com/in/jason-d-souza-861762100/",
@@ -6329,7 +6505,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Yasen Peev",
-      img: "https://media.licdn.com/dms/image/C5603AQFy32Y80JCOcg/profile-displayphoto-shrink_200_200/0?e=1563408000&v=beta&t=0FSUqUyOyNLsh0-vrpgE80qcM_uz-3A8g8nnaxTSpDQ",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQFy32Y80JCOcg/profile-displayphoto-shrink_200_200/0?e=1563408000&v=beta&t=0FSUqUyOyNLsh0-vrpgE80qcM_uz-3A8g8nnaxTSpDQ",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/yasen-peev-591318184/",
@@ -6425,7 +6602,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Makoto Dejima",
-      img: "https://media.licdn.com/dms/image/C5603AQHO3f3ipaGjQQ/profile-displayphoto-shrink_200_200/0?e=1564012800&v=beta&t=SIQ27nhuP19KwYu0w_0w4h-ZuSq4BBHQ__izKoNKltI",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQHO3f3ipaGjQQ/profile-displayphoto-shrink_200_200/0?e=1564012800&v=beta&t=SIQ27nhuP19KwYu0w_0w4h-ZuSq4BBHQ__izKoNKltI",
       links: {
         website: "https://madmak.me",
         linkedin: "https://www.linkedin.com/in/makotodejima/",
@@ -6441,7 +6619,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Abdulganiyu Yusufu",
-      img: "https://doc-04-8c-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/3julgj05k7ps7rni7dpgh3jkub77heeg/1558656000000/18093204587770278309/*/1muqi9lO3lhoyXzRBRHUFhcXwIMNEHZlG",
+      img:
+        "https://doc-04-8c-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/3julgj05k7ps7rni7dpgh3jkub77heeg/1558656000000/18093204587770278309/*/1muqi9lO3lhoyXzRBRHUFhcXwIMNEHZlG",
       links: {
         website: "abdulganiyuyusufu.com",
         linkedin: "https://www.linkedin.com/in/abdulyusufu/",
@@ -6537,7 +6716,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Sikiru Shittu",
-      img: "https://media.licdn.com/dms/image/C5603AQFEXZQ1oItw3g/profile-displayphoto-shrink_200_200/0?e=1564617600&v=beta&t=fJXQ2l43kk7nXlmYPbYJoBI-KTfEwMwGjnaOPqDULiY",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQFEXZQ1oItw3g/profile-displayphoto-shrink_200_200/0?e=1564617600&v=beta&t=fJXQ2l43kk7nXlmYPbYJoBI-KTfEwMwGjnaOPqDULiY",
       links: {
         website: "https://afreekamode.wordpress.com",
         linkedin: "https://www.linkedin.com/in/sikirushittu/",
@@ -6553,7 +6733,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Mayra Ruiz",
-      img: "https://pbs.twimg.com/profile_images/1111480794818633728/5lKb3FXK_400x400.jpg",
+      img:
+        "https://pbs.twimg.com/profile_images/1111480794818633728/5lKb3FXK_400x400.jpg",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mruiz27/",
@@ -6649,7 +6830,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Idris Lawal",
-      img: "https://res.cloudinary.com/idtitanium/image/upload/v1559991948/WhatsApp_Image_2019-01-29_at_14.27.50.jpg",
+      img:
+        "https://res.cloudinary.com/idtitanium/image/upload/v1559991948/WhatsApp_Image_2019-01-29_at_14.27.50.jpg",
       links: {
         website: "https://idrislawal.herokuapp.com",
         linkedin: "https://linkedin.com/lawal-idris-oluwaseun",
@@ -6761,10 +6943,12 @@ export const data = {
     {
       id: uuidv4(),
       name: "Joe Domingo",
-      img: "https://contentapi.joedomingo.online/wp-content/uploads/joed-prof-pic-02.png",
+      img:
+        "https://contentapi.joedomingo.online/wp-content/uploads/joed-prof-pic-02.png",
       links: {
         website: "https://joedomingo.online",
-        linkedin: "https://www.linkedin.com/in/joe-domingo-front-end-developer/",
+        linkedin:
+          "https://www.linkedin.com/in/joe-domingo-front-end-developer/",
         github: "https://github.com/joedonline",
       },
       jobTitle: "Front End Developer, UI/UX, Graphic Design",
@@ -6793,7 +6977,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Mier Dhundee Agil",
-      img: "https://media.licdn.com/dms/image/C5603AQH1AzK-WTtRdw/profile-displayphoto-shrink_200_200/0?e=1565827200&v=beta&t=VVeReX4qKqSRqISql62X4PZ1rz4W6O2OUbSLGZ1yw-Q",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQH1AzK-WTtRdw/profile-displayphoto-shrink_200_200/0?e=1565827200&v=beta&t=VVeReX4qKqSRqISql62X4PZ1rz4W6O2OUbSLGZ1yw-Q",
       links: {
         website: "mieragil.github.io",
         linkedin: "https://www.linkedin.com/in/mier-agil-4333b011a/",
@@ -6873,7 +7058,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Amen Christ",
-      img: "https://scontent-lhr3-1.cdninstagram.com/vp/6167186d3860eeae9ab0535c041c21ed/5DC4A546/t51.2885-19/s150x150/14596806_573322182869487_7938413337669271552_a.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com",
+      img:
+        "https://scontent-lhr3-1.cdninstagram.com/vp/6167186d3860eeae9ab0535c041c21ed/5DC4A546/t51.2885-19/s150x150/14596806_573322182869487_7938413337669271552_a.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/amen-christ-85b919189/",
@@ -6889,7 +7075,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Matthew Zito",
-      img: "https://ia601402.us.archive.org/27/items/photo2_201906/photo%202.jpg",
+      img:
+        "https://ia601402.us.archive.org/27/items/photo2_201906/photo%202.jpg",
       links: {
         website: "https://matthewzito.github.io",
         linkedin: "https://www.linkedin.com/in/matthew-zito/",
@@ -6905,7 +7092,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ravshan Artykov",
-      img: "https://avatars1.githubusercontent.com/u/44540541?s=400&u=fdf000aeba0d7c5090907b5bfd4f33aa9965790a&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/44540541?s=400&u=fdf000aeba0d7c5090907b5bfd4f33aa9965790a&v=4",
       links: {
         website: "www.ravarty.me",
         linkedin: "https://www.linkedin.com/in/ravart/",
@@ -7001,7 +7189,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Karin Povolozki-Rabichev",
-      img: "https://cdn1.imggmi.com/uploads/2019/7/7/5b930225b449c12d52f1e2d8f2f73c72-full.jpg",
+      img:
+        "https://cdn1.imggmi.com/uploads/2019/7/7/5b930225b449c12d52f1e2d8f2f73c72-full.jpg",
       links: {
         website: "https://karin-personal-website.herokuapp.com/",
         linkedin: "https://www.linkedin.com/in/karin-povolozki-rabichev/",
@@ -7049,7 +7238,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Shreeya Bhetwal",
-      img: "https://github.com/Shreeya12/Shreeya12.github.io/blob/master/images/me.jpg",
+      img:
+        "https://github.com/Shreeya12/Shreeya12.github.io/blob/master/images/me.jpg",
       links: {
         website: "Shreeya12.github.io",
         linkedin: "https://www.linkedin.com/in/shreeya-bhetwal-059453185/",
@@ -7097,7 +7287,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Prateek Madaan",
-      img: "https://miro.medium.com/fit/c/256/256/1*knoM7uDg8YqnxFCffX3gDg.jpeg",
+      img:
+        "https://miro.medium.com/fit/c/256/256/1*knoM7uDg8YqnxFCffX3gDg.jpeg",
       links: {
         website: "https://prateekmadaan.me",
         linkedin: "https://www.linkedin.com/in/prateek-madaan-08a7919a/",
@@ -7145,7 +7336,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Gioacchino Di Nardo",
-      img: "https://media.licdn.com/dms/image/C4E03AQEmLetBdMjEQA/profile-displayphoto-shrink_200_200/0?e=1568851200&v=beta&t=9IWXFMTqCMVg-7vieB9v5KEFjtjtwGDrzWw64sgBwis",
+      img:
+        "https://media.licdn.com/dms/image/C4E03AQEmLetBdMjEQA/profile-displayphoto-shrink_200_200/0?e=1568851200&v=beta&t=9IWXFMTqCMVg-7vieB9v5KEFjtjtwGDrzWw64sgBwis",
       links: {
         website: "https://gioacchino-dinardo.com",
         linkedin: "https://www.linkedin.com/in/gioacchino-di-nardo/",
@@ -7164,7 +7356,8 @@ export const data = {
       img: "https://avatars2.githubusercontent.com/u/52767209?s=460&v=4",
       links: {
         website: "",
-        linkedin: "https://www.linkedin.com/in/mohamad-daniel-guitara-4ba67290/",
+        linkedin:
+          "https://www.linkedin.com/in/mohamad-daniel-guitara-4ba67290/",
         github: "https://github.com/danielguitara",
       },
       jobTitle: "Software Developer",
@@ -7177,7 +7370,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Rahul Syal",
-      img: "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878959/Pydata/rahuls_wuro1z.jpg",
+      img:
+        "https://res.cloudinary.com/dssa0shmr/image/upload/v1561878959/Pydata/rahuls_wuro1z.jpg",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/rahul-syal-646380151",
@@ -7193,7 +7387,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Anushka Beri",
-      img: "https://res.cloudinary.com/dkksvxoms/image/upload/v1563784729/anushka_ilpacf_p7hj0u.jpg",
+      img:
+        "https://res.cloudinary.com/dkksvxoms/image/upload/v1563784729/anushka_ilpacf_p7hj0u.jpg",
       links: {
         website: "https://thisbutterfly.netlify.com/",
         linkedin: "https://www.linkedin.com/in/anushka-beri-1b767a140/",
@@ -7257,7 +7452,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Spencer Fong",
-      img: "https://github.com/spencerericfong/spencerericfong.github.io/blob/master/assets/pictures/Spencer_Profile.png",
+      img:
+        "https://github.com/spencerericfong/spencerericfong.github.io/blob/master/assets/pictures/Spencer_Profile.png",
       links: {
         website: "https://spencerericfong.github.io/",
         linkedin: "https://www.linkedin.com/in/spencer-eric-fong/",
@@ -7273,7 +7469,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Andrea Franco",
-      img: "https://github.com/andrea07021981/AndreaSite.github.io/blob/master/images/personalimage.jpg",
+      img:
+        "https://github.com/andrea07021981/AndreaSite.github.io/blob/master/images/personalimage.jpg",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/andrea-franco-9624a278",
@@ -7289,7 +7486,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "FLORENCE ONYEDIKACHI NZE-BEN",
-      img: "https://avatars1.githubusercontent.com/u/28601222?s=400&u=a1d6a8de8c34a150f6ccf71f5d91508330216d47&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/28601222?s=400&u=a1d6a8de8c34a150f6ccf71f5d91508330216d47&v=4",
       links: {
         website: "https://www.thekachi.com",
         linkedin: "https://www.linkedin.com/in/onyedikachi-f-nze-a37938163/",
@@ -7305,7 +7503,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ajay Kumar",
-      img: "http://indianexpresss.in/wp-content/uploads/2019/07/FB_IMG_15633520365070317.jpg",
+      img:
+        "http://indianexpresss.in/wp-content/uploads/2019/07/FB_IMG_15633520365070317.jpg",
       links: {
         website: "",
         linkedin: "",
@@ -7369,7 +7568,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Kinga Polgar",
-      img: "https://raw.githubusercontent.com/kpolgar/profile-image/master/profile-image-small.png",
+      img:
+        "https://raw.githubusercontent.com/kpolgar/profile-image/master/profile-image-small.png",
       links: {
         website: "http://www.kingapolgar.com/",
         linkedin: "https://www.linkedin.com/in/kinga-polgar",
@@ -7401,7 +7601,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Gagandeep Singh",
-      img: "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/66186607_858071157892550_5724901559700029440_n.jpg?_nc_cat=103&_nc_oc=AQl4Kl6qfRIPJiaDSmUfNaR64wdCAeCdeDU081FFq2IhQvA_MZgsyckTMW4YZHXoWYgVPXNj9HwIeluW2k605Pfl&_nc_ht=scontent-sjc3-1.xx&oh=c4a436124c6e939c0595d3963772d73a&oe=5DA48472",
+      img:
+        "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/66186607_858071157892550_5724901559700029440_n.jpg?_nc_cat=103&_nc_oc=AQl4Kl6qfRIPJiaDSmUfNaR64wdCAeCdeDU081FFq2IhQvA_MZgsyckTMW4YZHXoWYgVPXNj9HwIeluW2k605Pfl&_nc_ht=scontent-sjc3-1.xx&oh=c4a436124c6e939c0595d3963772d73a&oe=5DA48472",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/singhperry01/",
@@ -7417,7 +7618,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Sevilay Selecki",
-      img: "https://www.google.com/search?q=sevilay+selecki&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiUmZOp09zjAhUuxKYKHc5MD-UQ_AUIESgB&biw=1366&bih=657#imgrc=ehQYbg5PrDHBBM:",
+      img:
+        "https://www.google.com/search?q=sevilay+selecki&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiUmZOp09zjAhUuxKYKHc5MD-UQ_AUIESgB&biw=1366&bih=657#imgrc=ehQYbg5PrDHBBM:",
       links: {
         website: "https://github.com/sevydev/my-portfolio",
         linkedin: "https://www.linkedin.com/in/sevilay-selecki-49568a166/",
@@ -7481,7 +7683,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "David Yang",
-      img: "https://www.gravatar.com/avatar/f73911268c7b1cfa458988828ed89d80?d=mm&s=120",
+      img:
+        "https://www.gravatar.com/avatar/f73911268c7b1cfa458988828ed89d80?d=mm&s=120",
       links: {
         website: "https://aodabo.tech",
         linkedin: "https://www.linkedin.com/in/zhiyuan-yang-9204b8134/",
@@ -7593,7 +7796,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Willie Björnbom",
-      img: "https://media.licdn.com/dms/image/C4D03AQHB0TouVafT3g/profile-displayphoto-shrink_200_200/0?e=1570665600&v=beta&t=poi4DeiS80k-dRaSWQN7zQsbju5yjctaqUkJZbU0zVU",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQHB0TouVafT3g/profile-displayphoto-shrink_200_200/0?e=1570665600&v=beta&t=poi4DeiS80k-dRaSWQN7zQsbju5yjctaqUkJZbU0zVU",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/willie-björnbom",
@@ -7660,7 +7864,8 @@ export const data = {
       img: "https://avatars1.githubusercontent.com/u/37544193?s=460&v=4",
       links: {
         website: "https://www.mojatesciowa.pl",
-        linkedin: "https://www.linkedin.com/in/andrzej-go%C5%82%C4%85bek-2a812b152/",
+        linkedin:
+          "https://www.linkedin.com/in/andrzej-go%C5%82%C4%85bek-2a812b152/",
         github: "https://github.com/AndrzejHarnas",
       },
       jobTitle: "Research Assistant/IT Specialist",
@@ -7673,10 +7878,12 @@ export const data = {
     {
       id: uuidv4(),
       name: "Christopher Brinkmann",
-      img: "https://media.licdn.com/dms/image/C4D03AQF3q_lxMNHZBA/profile-displayphoto-shrink_200_200/0?e=1571270400&v=beta&t=2it5hynstXZnXUI_2jTBINHI78ydOuKh970BUKc4y5Q",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQF3q_lxMNHZBA/profile-displayphoto-shrink_200_200/0?e=1571270400&v=beta&t=2it5hynstXZnXUI_2jTBINHI78ydOuKh970BUKc4y5Q",
       links: {
         website: "",
-        linkedin: "https://www.linkedin.com/in/christopher-brinkmann-89b85a112/",
+        linkedin:
+          "https://www.linkedin.com/in/christopher-brinkmann-89b85a112/",
         github: "https://github.com/chrisbrinkmann",
       },
       jobTitle: "Full Stack Developer",
@@ -7737,7 +7944,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Marcin Selecki",
-      img: "https://media.licdn.com/dms/image/C5603AQEmuhG71_ZN5A/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=yCOY_KFyQJnnYlHbhztgfrwsG1t9JOOau1DeRN4K5sY",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQEmuhG71_ZN5A/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=yCOY_KFyQJnnYlHbhztgfrwsG1t9JOOau1DeRN4K5sY",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/marcin-selecki-595b80182/",
@@ -7785,7 +7993,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Satendra Nath Chowdhary",
-      img: "https://lh3.googleusercontent.com/-5enlx2hf5pY/XcD0vO34-_I/AAAAAAAAAAs/hYepTtFV4AQrpNkK8zUB0-ONiugBYxJeACEwYBhgL/w140-h140-p/profile.png",
+      img:
+        "https://lh3.googleusercontent.com/-5enlx2hf5pY/XcD0vO34-_I/AAAAAAAAAAs/hYepTtFV4AQrpNkK8zUB0-ONiugBYxJeACEwYBhgL/w140-h140-p/profile.png",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/satendra-chowdhary-100607185/",
@@ -7801,7 +8010,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Pratyush Ranjan Padhi",
-      img: "https://photos.google.com/photo/AF1QipNxW_KAy8SE_7Ju4CD3zy-BAm1CjscZIGAAEjzC",
+      img:
+        "https://photos.google.com/photo/AF1QipNxW_KAy8SE_7Ju4CD3zy-BAm1CjscZIGAAEjzC",
       links: {
         website: "https://pratyushranjan.in",
         linkedin: "https://www.linkedin.com/in/pratyushranjanpadhi/",
@@ -7817,7 +8027,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Canaan Merchant",
-      img: "https://media.licdn.com/dms/image/C4D03AQGd9SCk8jtcYg/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=m1hY3wf194OVTztx65YCmxt_2QKSICQ4tzPR-QbZCi0",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQGd9SCk8jtcYg/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=m1hY3wf194OVTztx65YCmxt_2QKSICQ4tzPR-QbZCi0",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/canaaanmerchant/",
@@ -7833,7 +8044,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Milton Neto",
-      img: "https://media.licdn.com/dms/image/C4E03AQEyZRJXT8uy9A/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=iBsGK_DnM5KnP-85PA1_SgNYHX3zWQSUtNOVrLLQfwA",
+      img:
+        "https://media.licdn.com/dms/image/C4E03AQEyZRJXT8uy9A/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=iBsGK_DnM5KnP-85PA1_SgNYHX3zWQSUtNOVrLLQfwA",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/milton-omena/",
@@ -7865,7 +8077,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Christopher Deiller",
-      img: "https://media.licdn.com/dms/image/C4D03AQFXhrR_MPrLJg/profile-displayphoto-shrink_200_200/0?e=1572480000&v=beta&t=l4I9NFiJpZ--BfVmfM6v7iMGqv59LWcuscY_8h77Fik",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQFXhrR_MPrLJg/profile-displayphoto-shrink_200_200/0?e=1572480000&v=beta&t=l4I9NFiJpZ--BfVmfM6v7iMGqv59LWcuscY_8h77Fik",
       links: {
         website: "",
         linkedin: "www.linkedin.com/in/christopher-deiller",
@@ -7881,7 +8094,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Maarten Schuilenburg",
-      img: "https://media.licdn.com/dms/image/C5603AQElrFxXSA9FPQ/profile-displayphoto-shrink_200_200/0?e=1572480000&v=beta&t=qTXcrPkl58d1B-yRkr7TijMIVnmKMEof1T0KzLviI3I",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQElrFxXSA9FPQ/profile-displayphoto-shrink_200_200/0?e=1572480000&v=beta&t=qTXcrPkl58d1B-yRkr7TijMIVnmKMEof1T0KzLviI3I",
       links: {
         website: "",
         linkedin: "www.linkedin.com/in/maartenschuilenburg/",
@@ -7897,7 +8111,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Alessio Petrin",
-      img: "https://media.licdn.com/dms/image/C4E03AQFH8uMbXPTNQw/profile-displayphoto-shrink_200_200/0?e=1572480000&v=beta&t=ltd5xbd6mRZ1psaTuxyKfkJfLe_Q_1bPtdW7BQkCWJc",
+      img:
+        "https://media.licdn.com/dms/image/C4E03AQFH8uMbXPTNQw/profile-displayphoto-shrink_200_200/0?e=1572480000&v=beta&t=ltd5xbd6mRZ1psaTuxyKfkJfLe_Q_1bPtdW7BQkCWJc",
       links: {
         website: "http://myap-portfolio.com",
         linkedin: "www.linkedin.com/in/alessio-petrin-41b058190/",
@@ -7913,7 +8128,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Sagnil Yun",
-      img: "https://media.licdn.com/dms/image/C5103AQHROq8oN8jExw/profile-displayphoto-shrink_200_200/0?e=1573084800&v=beta&t=KtV50zNoZqjmjMjASK_9-4Gs7THD3mleoEMxCGpHNuw",
+      img:
+        "https://media.licdn.com/dms/image/C5103AQHROq8oN8jExw/profile-displayphoto-shrink_200_200/0?e=1573084800&v=beta&t=KtV50zNoZqjmjMjASK_9-4Gs7THD3mleoEMxCGpHNuw",
       links: {
         website: "",
         linkedin: "",
@@ -8041,7 +8257,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Maduabuchi Okonkwo",
-      img: "https://media.licdn.com/dms/image/C5603AQExX7PwoRztZg/profile-displayphoto-shrink_200_200/0?e=1565827200&v=beta&t=QGAprDkmWsGLRMb9Z3NyueaK8Xf7si6eyPFtF8lqU1A",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQExX7PwoRztZg/profile-displayphoto-shrink_200_200/0?e=1565827200&v=beta&t=QGAprDkmWsGLRMb9Z3NyueaK8Xf7si6eyPFtF8lqU1A",
       links: {
         website: "",
         linkedin: "www.linkedin.com/in/maduabuchi-okonkwo-855380b9",
@@ -8063,7 +8280,8 @@ export const data = {
         linkedin: "www.linkedin.com/in/mkjo",
         github: "https://github.com/olsenme",
       },
-      jobTitle: "Software Developer|Technical Consultant|Technical Program Manager",
+      jobTitle:
+        "Software Developer|Technical Consultant|Technical Program Manager",
       location: {
         city: "Portland",
         state: "Oregon",
@@ -8089,7 +8307,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "AHNM Ebn Sina",
-      img: "https://scontent.fdac1-1.fna.fbcdn.net/v/t1.0-9/55853478_109250640254050_4847091024142532608_n.jpg?_nc_cat=109&_nc_eui2=AeG1d3hmax9FFRFicbOl2KLJ3Renr-G9DI72BYhvTplee9lsl4-w4Iq1DHqyPJrjpQdvffVniosXBoqjyXX98n3W-KgUYir-VVUHdLTDuL0WgA&_nc_oc=AQl4iZpNSeBbP-evgA5W8Dh_J7sRdAf4mvz_t44IoywmYBAt_JpQLtgVqLUaCKjdESI&_nc_ht=scontent.fdac1-1.fna&oh=5c62ec340dd79922ef1a2820d0b07202&oe=5E0D5D84",
+      img:
+        "https://scontent.fdac1-1.fna.fbcdn.net/v/t1.0-9/55853478_109250640254050_4847091024142532608_n.jpg?_nc_cat=109&_nc_eui2=AeG1d3hmax9FFRFicbOl2KLJ3Renr-G9DI72BYhvTplee9lsl4-w4Iq1DHqyPJrjpQdvffVniosXBoqjyXX98n3W-KgUYir-VVUHdLTDuL0WgA&_nc_oc=AQl4iZpNSeBbP-evgA5W8Dh_J7sRdAf4mvz_t44IoywmYBAt_JpQLtgVqLUaCKjdESI&_nc_ht=scontent.fdac1-1.fna&oh=5c62ec340dd79922ef1a2820d0b07202&oe=5E0D5D84",
       links: {
         website: "https://ebnsina.me",
         linkedin: "https://www.linkedin.com/in/ebn-sina",
@@ -8201,7 +8420,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Mauro Small",
-      img: "https://media.licdn.com/dms/image/C4D03AQE4qZ20MsE_KA/profile-displayphoto-shrink_200_200/0?e=1574899200&v=beta&t=niw1nWkOqv6Lr4708EQnn9a4f14hUBDTLDJ6zY6khjE",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQE4qZ20MsE_KA/profile-displayphoto-shrink_200_200/0?e=1574899200&v=beta&t=niw1nWkOqv6Lr4708EQnn9a4f14hUBDTLDJ6zY6khjE",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mauro-small/",
@@ -8217,7 +8437,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Gonzalo García Costoya",
-      img: "https://avatars1.githubusercontent.com/u/47854878?s=400&u=0640c04415b7d75704f9d5d2c7d165db512bd860&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/47854878?s=400&u=0640c04415b7d75704f9d5d2c7d165db512bd860&v=4",
       links: {
         website: "linkedin.com/in/gonza-garcia",
         linkedin: "linkedin.com/in/gonza-garcia",
@@ -8233,7 +8454,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Yisau Abdussamad",
-      img: "https://res.cloudinary.com/sammieyisau/image/upload/v1554321179/Samad_3.jpg",
+      img:
+        "https://res.cloudinary.com/sammieyisau/image/upload/v1554321179/Samad_3.jpg",
       links: {
         website: "https://abdussamadyisau.github.io",
         linkedin: "https://www.linkedin.com/in/abdussamad-yisau-915298154/",
@@ -8313,7 +8535,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ionut Oceanu",
-      img: "https://oceanu-ionut.netlify.com/assets/image.daa3a19bf5aed7dab1e1f02bbc8ba6b4.jpg",
+      img:
+        "https://oceanu-ionut.netlify.com/assets/image.daa3a19bf5aed7dab1e1f02bbc8ba6b4.jpg",
       links: {
         website: "https://oceanu-ionut.netlify.com/",
         linkedin: "https://www.linkedin.com/in/ionut-oceanu/",
@@ -8345,7 +8568,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Fadhil Kehinde Akindele",
-      img: "https://res.cloudinary.com/fadhil/image/upload/v1570022438/My%20Pictures/blackops3.jpg",
+      img:
+        "https://res.cloudinary.com/fadhil/image/upload/v1570022438/My%20Pictures/blackops3.jpg",
       links: {
         website: " ",
         linkedin: "https://www.linkedin.com/in/fadhil-akindele-24701310a/",
@@ -8361,7 +8585,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Melody Reyes",
-      img: "https://melodyreyes.pixieset.com/picture/p/MzMxMzU5NjU0OA==-MzY1MjI1ODI4MQ/",
+      img:
+        "https://melodyreyes.pixieset.com/picture/p/MzMxMzU5NjU0OA==-MzY1MjI1ODI4MQ/",
       links: {
         website: " ",
         linkedin: "https://www.linkedin.com/in/melodyreyes/",
@@ -8456,10 +8681,12 @@ export const data = {
     {
       id: uuidv4(),
       name: "Robin Kartikeya Khatri",
-      img: "https://pbs.twimg.com/profile_images/760312973470625792/KgptdRN3_400x400.jpg",
+      img:
+        "https://pbs.twimg.com/profile_images/760312973470625792/KgptdRN3_400x400.jpg",
       links: {
         website: "",
-        linkedin: "https://www.linkedin.com/in/robin-kartikeya-khatri-611278aa/",
+        linkedin:
+          "https://www.linkedin.com/in/robin-kartikeya-khatri-611278aa/",
         github: "https://github.com/RobinKartikeyaKhatri",
       },
       jobTitle: "Full Stack Developer",
@@ -8472,7 +8699,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Dhaval Mehta",
-      img: "https://media.licdn.com/dms/image/C5103AQE9az54ZZrzhg/profile-displayphoto-shrink_200_200/0?e=1576108800&v=beta&t=To3B1odr_6uzviLqsCsd_yWC5eqq2SaxaIY_J4Tv9xU",
+      img:
+        "https://media.licdn.com/dms/image/C5103AQE9az54ZZrzhg/profile-displayphoto-shrink_200_200/0?e=1576108800&v=beta&t=To3B1odr_6uzviLqsCsd_yWC5eqq2SaxaIY_J4Tv9xU",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/dhaval-m-994a83179/",
@@ -8488,7 +8716,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Meet Mehta",
-      img: "https://media.licdn.com/dms/image/C5103AQHvyda6VXgTnQ/profile-displayphoto-shrink_200_200/0?e=1576108800&v=beta&t=A7gmOBP-PtbBHlEmM9Cy-8pN4AjIxZ0uVChVJ1j6U-s",
+      img:
+        "https://media.licdn.com/dms/image/C5103AQHvyda6VXgTnQ/profile-displayphoto-shrink_200_200/0?e=1576108800&v=beta&t=A7gmOBP-PtbBHlEmM9Cy-8pN4AjIxZ0uVChVJ1j6U-s",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/meetmehta1103/",
@@ -8520,7 +8749,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Arturo Castañon",
-      img: "https://avatars0.githubusercontent.com/u/21693926?s=400&u=a0f35d5cbc47e874623f1e81ca93359293f09718&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/21693926?s=400&u=a0f35d5cbc47e874623f1e81ca93359293f09718&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/arturocastanonvargas/",
@@ -8568,7 +8798,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Mano lingam",
-      img: "https://doc-0s-6o-docs.googleusercontent.com/docs/securesc/ue0f0j6g8uvmn3b8ckgjcsjkd1knqu9d/935mlj9m36j268k0c51b6hin0qg4rfe8/1571198400000/07556814012980498705/07556814012980498705/1GjS_oPMN3pvBoP1wVUvVN9MYif6bG1hL?e=view&nonce=v5ajbr3sgp6v4&user=07556814012980498705&hash=sre35oqfgephu1b4cpfsom8if0ul1oqj",
+      img:
+        "https://doc-0s-6o-docs.googleusercontent.com/docs/securesc/ue0f0j6g8uvmn3b8ckgjcsjkd1knqu9d/935mlj9m36j268k0c51b6hin0qg4rfe8/1571198400000/07556814012980498705/07556814012980498705/1GjS_oPMN3pvBoP1wVUvVN9MYif6bG1hL?e=view&nonce=v5ajbr3sgp6v4&user=07556814012980498705&hash=sre35oqfgephu1b4cpfsom8if0ul1oqj",
       links: {
         website: "https://manolingam.github.io/",
         linkedin: "https://www.linkedin.com/in/saimano1996/",
@@ -8584,7 +8815,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Tanya Yakovleva",
-      img: "https://pbs.twimg.com/profile_images/1172763656699961345/PeX1flA8_200x200.jpg",
+      img:
+        "https://pbs.twimg.com/profile_images/1172763656699961345/PeX1flA8_200x200.jpg",
       links: {
         website: "https://www.yalovleva.dev",
         linkedin: "",
@@ -8600,7 +8832,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Alex Marmalichi",
-      img: "https://avatars0.githubusercontent.com/u/52268561?s=400&u=c479f56a831ad9cf20eb42651420bbb8340250e0&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/52268561?s=400&u=c479f56a831ad9cf20eb42651420bbb8340250e0&v=4",
       links: {
         website: "https://www.alcima.org/",
         linkedin: "https://www.linkedin.com/in/alex-marmalichi/",
@@ -8744,7 +8977,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Yash Shelatkar",
-      img: "https://avatars2.githubusercontent.com/u/25059239?s=400&u=804b365294eaadc66bcfadb6a7ab0b000651511b&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/25059239?s=400&u=804b365294eaadc66bcfadb6a7ab0b000651511b&v=4",
       links: {
         website: "http://www.yashshelatkar.com",
         linkedin: "https://www.linkedin.com/in/yash-shelatkar-b14bb0112",
@@ -8791,7 +9025,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Rajnish Kr Singh",
-      img: "https://media.licdn.com/dms/image/C5103AQFCTSzJ-qni8Q/profile-displayphoto-shrink_200_200/0?e=1577318400&v=beta&t=iAdUxzlVtGmSIHm9I9EzsIqIuup4kKiJdyNwuDEwCTk",
+      img:
+        "https://media.licdn.com/dms/image/C5103AQFCTSzJ-qni8Q/profile-displayphoto-shrink_200_200/0?e=1577318400&v=beta&t=iAdUxzlVtGmSIHm9I9EzsIqIuup4kKiJdyNwuDEwCTk",
       links: {
         website: "https://rajnishkrsingh.github.io/my_portfolio",
         linkedin: "https://www.linkedin.com/in/rajnish-kr-singh-165272184/",
@@ -8871,7 +9106,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Aladdin Sonni",
-      img: "https://avatars1.githubusercontent.com/u/11818560?s=400&u=b250580007b0604f5503aaca49ead5e68154f25e&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/11818560?s=400&u=b250580007b0604f5503aaca49ead5e68154f25e&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/aladdin-sonni/",
@@ -8935,7 +9171,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Edmond Ma",
-      img: "https://avatars2.githubusercontent.com/u/12569803?s=400&u=6f74a7b55e6b23de8e99b7321589a2e9ea2b6815&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/12569803?s=400&u=6f74a7b55e6b23de8e99b7321589a2e9ea2b6815&v=4",
       links: {
         website: "https://edjunma.dev",
         linkedin: "https://www.linkedin.com/in/edjunma/",
@@ -8967,7 +9204,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ralph Emerson Manzano",
-      img: "https://avatars0.githubusercontent.com/u/18175202?s=400&u=e654ce4937b7b1904906daa5f49aaab71e9df49d&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/18175202?s=400&u=e654ce4937b7b1904906daa5f49aaab71e9df49d&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ralphevmanzano/",
@@ -8999,7 +9237,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Tomasz Bogacki",
-      img: "https://avatars1.githubusercontent.com/u/20223725?s=400&u=04798a90f9a065fe2eeacf92df3a2970ac5691a7&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/20223725?s=400&u=04798a90f9a065fe2eeacf92df3a2970ac5691a7&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/tomasz-bogacki-5b048b127/",
@@ -9079,10 +9318,12 @@ export const data = {
     {
       id: uuidv4(),
       name: "Dave Saluk",
-      img: "https://avatars0.githubusercontent.com/u/54435977?s=400&u=712658a3aad50cd9ed72090fc214ec8410734ff8&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/54435977?s=400&u=712658a3aad50cd9ed72090fc214ec8410734ff8&v=4",
       links: {
         website: "",
-        linkedin: "https://www.linkedin.com/in/dave-saluk-7387b4177?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BCelcwMTeSUusy8oGqVuA4w%3D%3D",
+        linkedin:
+          "https://www.linkedin.com/in/dave-saluk-7387b4177?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BCelcwMTeSUusy8oGqVuA4w%3D%3D",
         github: "https://github.com/DaveSaluk",
       },
       jobTitle: "Full Stack Developer",
@@ -9111,7 +9352,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Brandon Samuel",
-      img: "https://avatars2.githubusercontent.com/u/32402178?s=400&u=b8374e2b3868430206a09fa481356470426b071a&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/32402178?s=400&u=b8374e2b3868430206a09fa481356470426b071a&v=4",
       links: {
         website: "https://brandonsamuel1.github.io/mysite/",
         linkedin: "https://www.linkedin.com/in/brandon-samuel/",
@@ -9127,7 +9369,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Omar Faruque",
-      img: "https://avatars3.githubusercontent.com/u/40371523?s=400&u=a7b2d51c745c57d058a8e3f1eba1569a44b763c1&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/40371523?s=400&u=a7b2d51c745c57d058a8e3f1eba1569a44b763c1&v=4",
       links: {
         website: "https://www.omarfaruque.dev/",
         linkedin: "https://www.linkedin.com/in/webdevwithomar/",
@@ -9159,7 +9402,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Curtis",
-      img: "https://avatars2.githubusercontent.com/u/2359775?s=400&u=60830a49580407bff3ffede37af32348a0ece82f&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/2359775?s=400&u=60830a49580407bff3ffede37af32348a0ece82f&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/webguy83/",
@@ -9207,7 +9451,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Spencer Dedrick",
-      img: "https://media.licdn.com/dms/image/C4E03AQHuxk2aTvEIcQ/profile-displayphoto-shrink_200_200/0?e=1578528000&v=beta&t=9rWDXrBPrn-FZR0tUCaouRbu6Q3wjOz0P27dUH7J7MM",
+      img:
+        "https://media.licdn.com/dms/image/C4E03AQHuxk2aTvEIcQ/profile-displayphoto-shrink_200_200/0?e=1578528000&v=beta&t=9rWDXrBPrn-FZR0tUCaouRbu6Q3wjOz0P27dUH7J7MM",
       links: {
         website: "https://spencerdedrick.github.io/Portfolio/",
         linkedin: "https://www.linkedin.com/in/spencer-dedrick/",
@@ -9261,7 +9506,8 @@ export const data = {
         linkedin: "https://www.linkedin.com/in/shivayan-bora-9a858a35/",
         github: "https://github.com/shivayanbora123",
       },
-      jobTitle: "Senior Software Developer at JDA Software | Java and Python | Deep Learning Enthusiast",
+      jobTitle:
+        "Senior Software Developer at JDA Software | Java and Python | Deep Learning Enthusiast",
       location: {
         city: "Bangalore",
         state: "Karnataka",
@@ -9271,13 +9517,15 @@ export const data = {
     {
       id: uuidv4(),
       name: "Yarden Katz",
-      img: "https://drive.google.com/file/d/1R7TG902VEyYoV5OotS0RxwNqF2IQXVNC/view?usp=sharing",
+      img:
+        "https://drive.google.com/file/d/1R7TG902VEyYoV5OotS0RxwNqF2IQXVNC/view?usp=sharing",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/yarden-katz",
         github: "https://github.com/YardenKatz",
       },
-      jobTitle: "Fullstack Developer | JavaScript | C++ | Java | Python | Django",
+      jobTitle:
+        "Fullstack Developer | JavaScript | C++ | Java | Python | Django",
       location: {
         city: "",
         state: "",
@@ -9341,7 +9589,8 @@ export const data = {
         linkedin: "https://www.linkedin.com/in/shivayan-bora-9a858a35/",
         github: "https://github.com/shivayanbora123",
       },
-      jobTitle: "Senior Software Developer at JDA Software | Java and Python | Deep Learning Enthusiast",
+      jobTitle:
+        "Senior Software Developer at JDA Software | Java and Python | Deep Learning Enthusiast",
       location: {
         city: "Bangalore",
         state: "Karnataka",
@@ -9351,13 +9600,15 @@ export const data = {
     {
       id: uuidv4(),
       name: "Yarden Katz",
-      img: "https://drive.google.com/file/d/1R7TG902VEyYoV5OotS0RxwNqF2IQXVNC/view?usp=sharing",
+      img:
+        "https://drive.google.com/file/d/1R7TG902VEyYoV5OotS0RxwNqF2IQXVNC/view?usp=sharing",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/yarden-katz",
         github: "https://github.com/YardenKatz",
       },
-      jobTitle: "Fullstack Developer | JavaScript | C++ | Java | Python | Django",
+      jobTitle:
+        "Fullstack Developer | JavaScript | C++ | Java | Python | Django",
       location: {
         city: "",
         state: "",
@@ -9415,7 +9666,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Andy Muñoz",
-      img: "https://avatars1.githubusercontent.com/u/13410510?s=400&u=4d099e8a41a27db25c6900b15ea58df38dd03fce&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/13410510?s=400&u=4d099e8a41a27db25c6900b15ea58df38dd03fce&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/andy-mc/",
@@ -9434,7 +9686,8 @@ export const data = {
       img: "",
       links: {
         website: "www.vamsikrishnamraju.com",
-        linkedin: "https://www.linkedin.com/in/vamsi-krishnam-raju-uddaraju-991b47171/",
+        linkedin:
+          "https://www.linkedin.com/in/vamsi-krishnam-raju-uddaraju-991b47171/",
         github: "https://github.com/uddaraju",
       },
       jobTitle: "Software Developer Developer | Cloud Technology | ",
@@ -9447,7 +9700,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Bo Zhao",
-      img: "https://avatars2.githubusercontent.com/u/3486381?s=400&u=77d90275e9e6ccb6ae18744d118733d2063a72f3&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/3486381?s=400&u=77d90275e9e6ccb6ae18744d118733d2063a72f3&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/bocong-zhao-975b6162/",
@@ -9511,7 +9765,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Dilip Teegala",
-      img: "https://avatars0.githubusercontent.com/u/44141163?s=400&u=a847930288a92af3734f933ce214f94729713622&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/44141163?s=400&u=a847930288a92af3734f933ce214f94729713622&v=4",
       links: {
         linkedin: "https://www.linkedin.com/in/dilip-rao-877bb2116/",
         github: "https://github.com/dilipteegala",
@@ -9542,9 +9797,11 @@ export const data = {
     {
       id: uuidv4(),
       name: "I Gusti Bagus A",
-      img: "https://avatars1.githubusercontent.com/u/54065187?s=400&u=1f79b4adbcdce633a03723404e07f3aef47926ec&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/54065187?s=400&u=1f79b4adbcdce633a03723404e07f3aef47926ec&v=4",
       links: {
-        linkedin: "https://id.linkedin.com/in/i-gusti-bagus-awienandra-483718132",
+        linkedin:
+          "https://id.linkedin.com/in/i-gusti-bagus-awienandra-483718132",
         github: "https://github.com/rainoverme002",
       },
       jobTitle: "Software Engineer | Nuclear Engineer",
@@ -9557,7 +9814,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ulvi Jabbarli",
-      img: "https://avatars2.githubusercontent.com/u/23367499?s=400&amp;u=2532b7523d901dce13f7aa5b6ed6a6236815d330&amp;v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/23367499?s=400&amp;u=2532b7523d901dce13f7aa5b6ed6a6236815d330&amp;v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ulvi-jabbarli",
@@ -9589,13 +9847,15 @@ export const data = {
     {
       id: uuidv4(),
       name: "Mughees Asif",
-      img: "https://qph.fs.quoracdn.net/main-raw-454055733-jazwplkisizmhzmriodckjtprdstpenn.jpeg",
+      img:
+        "https://qph.fs.quoracdn.net/main-raw-454055733-jazwplkisizmhzmriodckjtprdstpenn.jpeg",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mughees-asif",
         github: "https://github.com/mughees-asif",
       },
-      jobTitle: "Aerospace Engineering undergraduate student | Self-taught software/wed developer",
+      jobTitle:
+        "Aerospace Engineering undergraduate student | Self-taught software/wed developer",
       location: {
         city: "London",
         state: "",
@@ -9605,7 +9865,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Oleh Zakharchuk",
-      img: "https://github.com/Oleh-Zakharchuk/Portfolio/blob/gh-pages/img/portrait.jpg",
+      img:
+        "https://github.com/Oleh-Zakharchuk/Portfolio/blob/gh-pages/img/portrait.jpg",
       links: {
         website: "https://oleh-zakharchuk.github.io/Portfolio/",
         linkedin: "https://www.linkedin.com/in/oleh-zakharchuk-7b216b198/",
@@ -9637,7 +9898,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Omar Gaston",
-      img: "https://ogaston.com/static/42fbb13abfb6167a265e357d74d55f8d/8539d/personal.jpg",
+      img:
+        "https://ogaston.com/static/42fbb13abfb6167a265e357d74d55f8d/8539d/personal.jpg",
       links: {
         website: "https://ogaston.com/en/knowme/",
         linkedin: "https://www.linkedin.com/in/omar-gaston-chalas/",
@@ -9685,7 +9947,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Sagi Hillel",
-      img: "https://serving.photos.photobox.com/82771602922062b44917e977afcd494bd289d99063ebaf2fef0cee96d5469f6b3210f9eb.jpg",
+      img:
+        "https://serving.photos.photobox.com/82771602922062b44917e977afcd494bd289d99063ebaf2fef0cee96d5469f6b3210f9eb.jpg",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/sagihillel",
@@ -9752,7 +10015,8 @@ export const data = {
       img: "https://imgur.com/a/1ZCfWPs",
       links: {
         website: "",
-        linkedin: "https://www.linkedin.com/in/%E4%BA%94%E6%9D%B0-%E5%BC%B5-07937b165/",
+        linkedin:
+          "https://www.linkedin.com/in/%E4%BA%94%E6%9D%B0-%E5%BC%B5-07937b165/",
         github: "https://github.com/iggh966380",
       },
       jobTitle: "Font-end Developer",
@@ -9765,11 +10029,13 @@ export const data = {
     {
       id: uuidv4(),
       name: "Abdu Qnauy",
-      img: "https://avatars1.githubusercontent.com/u/43282386?s=400&u=5c6a9446813bc982ade14b53f645e793c73783a2&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/43282386?s=400&u=5c6a9446813bc982ade14b53f645e793c73783a2&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/pedro-medina-65999b13a",
-        github: "https://www.linkedin.com/in/abdurhman-magdy-muhammad-a588a2103/",
+        github:
+          "https://www.linkedin.com/in/abdurhman-magdy-muhammad-a588a2103/",
       },
       jobTitle: "Front End Developer",
       location: {
@@ -9781,7 +10047,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Tomasz Biernat",
-      img: "https://avatars3.githubusercontent.com/u/39054140?s=400&u=2e6dfce7fb25df9bcfb9058021a5438a01a5d677&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/39054140?s=400&u=2e6dfce7fb25df9bcfb9058021a5438a01a5d677&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/tomasz-biernat-682307163/",
@@ -9893,7 +10160,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Mavroian Florin",
-      img: "https://lh3.googleusercontent.com/-QNQ4WTbhW3Q/XXrk_Qyn6iI/AAAAAAAABek/-G88TlBtAvgvdekGHc10whLO0g4rk8dCQCEwYBhgL/w280-h280-p/Resume%2BPhoto.jpeg",
+      img:
+        "https://lh3.googleusercontent.com/-QNQ4WTbhW3Q/XXrk_Qyn6iI/AAAAAAAABek/-G88TlBtAvgvdekGHc10whLO0g4rk8dCQCEwYBhgL/w280-h280-p/Resume%2BPhoto.jpeg",
       links: {
         website: "http:/florinmavroian.tk",
         linkedin: "https://www.linkedin.com/in/florin-mavroian/",
@@ -9925,7 +10193,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Osher Solimany",
-      img: "https://scontent.ftlv5-1.fna.fbcdn.net/v/t1.0-9/12391812_1081587291861391_3812268796792628236_n.jpg?_nc_cat=110&_nc_ohc=eaN8C1nrDYEAQmBsMaRJ5aE2m0vDoO1pW31TAE3pVvo6wvuBsvE01axXA&_nc_ht=scontent.ftlv5-1.fna&oh=e0e639113fe7ce541d5c595efe4d03db&oe=5E73FE3D",
+      img:
+        "https://scontent.ftlv5-1.fna.fbcdn.net/v/t1.0-9/12391812_1081587291861391_3812268796792628236_n.jpg?_nc_cat=110&_nc_ohc=eaN8C1nrDYEAQmBsMaRJ5aE2m0vDoO1pW31TAE3pVvo6wvuBsvE01axXA&_nc_ht=scontent.ftlv5-1.fna&oh=e0e639113fe7ce541d5c595efe4d03db&oe=5E73FE3D",
       links: {
         website: "http://smartbetk.herokuapp.com/main/",
         linkedin: "https://www.linkedin.com/in/osherso/",
@@ -10053,7 +10322,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Carlos Enrique Gil Carrillo",
-      img: "https://media.licdn.com/dms/image/C5603AQF4i1GF7FevWg/profile-displayphoto-shrink_200_200/0?e=1582156800&v=beta&t=YF-Og1kgZ_AvtNY-hhvOTxMmjLIdEBvVp_AHK_bHwak",
+      img:
+        "https://media.licdn.com/dms/image/C5603AQF4i1GF7FevWg/profile-displayphoto-shrink_200_200/0?e=1582156800&v=beta&t=YF-Og1kgZ_AvtNY-hhvOTxMmjLIdEBvVp_AHK_bHwak",
       links: {
         website: "http://ixarlos.com/",
         linkedin: "https://www.linkedin.com/in/ixarlos/",
@@ -10085,7 +10355,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Crisse Soto",
-      img: "https://secure.gravatar.com/avatar/551d4ac947cacb2fac2776e7606fedcb",
+      img:
+        "https://secure.gravatar.com/avatar/551d4ac947cacb2fac2776e7606fedcb",
       links: {
         website: "http://www.crissesoto.com",
         linkedin: "https://www.linkedin.com/in/crisse-soto-380468b8/",
@@ -10197,7 +10468,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Timofeeva Elizaveta",
-      img: "https://media.licdn.com/dms/image/C4D03AQF-NBv9wCeG1A/profile-displayphoto-shrink_200_200/0?e=1582761600&v=beta&t=dW6MWaZKwvCI2NogXUtki8lYL-OkBHrQCUtB7gleyWc",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQF-NBv9wCeG1A/profile-displayphoto-shrink_200_200/0?e=1582761600&v=beta&t=dW6MWaZKwvCI2NogXUtki8lYL-OkBHrQCUtB7gleyWc",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/elizaveta-timofeeva-497158152/",
@@ -10264,7 +10536,8 @@ export const data = {
       img: "https://avatars1.githubusercontent.com/u/58605019?s=460&amp;v=4",
       links: {
         website: "",
-        linkedin: "https://www.linkedin.com/in/srinivasa-rao-bhandari-aa36a1171/",
+        linkedin:
+          "https://www.linkedin.com/in/srinivasa-rao-bhandari-aa36a1171/",
         github: "https://github.com/SrinivasaRaoBhandari",
       },
       jobTitle: "Full-stack Web Developer",
@@ -10277,10 +10550,12 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jonathas Duarte",
-      img: "https://avatars1.githubusercontent.com/u/42847587?s=400&u=86513eef5bc0297528225636193ab72d5da91ee9&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/42847587?s=400&u=86513eef5bc0297528225636193ab72d5da91ee9&v=4",
       links: {
         website: "",
-        linkedin: "https://www.linkedin.com/in/jonathas-duarte-de-carvalho-e-silva-a728aa70/",
+        linkedin:
+          "https://www.linkedin.com/in/jonathas-duarte-de-carvalho-e-silva-a728aa70/",
         github: "https://github.com/jonathasdcsilva/",
       },
       jobTitle: "Backend Developer",
@@ -10421,7 +10696,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Leonid Kuznetsov",
-      img: "https://avatars0.githubusercontent.com/u/9495532?s=400&u=4ac086da09c90364634b00020680e81d2593af0a&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/9495532?s=400&u=4ac086da09c90364634b00020680e81d2593af0a&v=4",
       links: {
         linkedin: "https://www.linkedin.com/in/leonidkuznetsov/",
         github: "https://github.com/MrChe",
@@ -10468,7 +10744,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Tony Mack",
-      img: "https://media.licdn.com/dms/image/C4D03AQEr5VmiOWVTSg/profile-displayphoto-shrink_200_200/0?e=1583971200&v=beta&t=vO61QsF0sEwHlXyeu2EvTXNzrQbMPPdJ5UBpyFVkIPg",
+      img:
+        "https://media.licdn.com/dms/image/C4D03AQEr5VmiOWVTSg/profile-displayphoto-shrink_200_200/0?e=1583971200&v=beta&t=vO61QsF0sEwHlXyeu2EvTXNzrQbMPPdJ5UBpyFVkIPg",
       links: {
         linkedin: "https://www.linkedin.com/in/tmack123/",
         github: "https://github.com/tonmanayo",
@@ -10499,7 +10776,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Oluwafemi Adenuga",
-      img: "https://res.cloudinary.com/femosocratis/image/upload/v1586590237/023492D5-46DB-4688-B819-0E1DF187D899L0001_isedrz.jpg",
+      img:
+        "https://res.cloudinary.com/femosocratis/image/upload/v1586590237/023492D5-46DB-4688-B819-0E1DF187D899L0001_isedrz.jpg",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/femosocratis/",
@@ -10521,7 +10799,8 @@ export const data = {
         linkedin: "https://www.linkedin.com/in/funky-poseidon/",
         github: "https://github.com/arnabuchiha",
       },
-      jobTitle: "Full Stack Developer|Deep Learning Enthusiast|Android App Developer",
+      jobTitle:
+        "Full Stack Developer|Deep Learning Enthusiast|Android App Developer",
       location: {
         city: "Mumbai",
         state: "Maharashtra",
@@ -10691,7 +10970,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Glauber Camargo Campos Rocha",
-      img: "https://avatars3.githubusercontent.com/u/2231796?s=400&u=2ac9f62f3d160210f16f9941152f27db697c8c07&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/2231796?s=400&u=2ac9f62f3d160210f16f9941152f27db697c8c07&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/glaubercamargo92/",
@@ -10707,7 +10987,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Darshin Van Parijs",
-      img: "https://avatars3.githubusercontent.com/u/47732125?s=400&u=38fe82b76b8726378b0581e5dc1722c74b6df7e6&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/47732125?s=400&u=38fe82b76b8726378b0581e5dc1722c74b6df7e6&v=4",
       links: {
         website: "https://www.darshin.me/",
         linkedin: "https://www.linkedin.com/in/darshinvanparijs/",
@@ -10739,7 +11020,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Elizabeth Ortiz",
-      img: "https://avatars1.githubusercontent.com/u/26338550?s=400&u=785f8547bc53cf6926f8f8d63c6a31f061dd6d9a&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/26338550?s=400&u=785f8547bc53cf6926f8f8d63c6a31f061dd6d9a&v=4",
       links: {
         website: "https://www.ortizliz.com",
         linkedin: "https://www.linkedin.com/in/elizabeth-f-ortiz/",
@@ -10802,7 +11084,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jeffrey Vos",
-      img: "https://media-exp1.licdn.com/dms/image/C5603AQGy8xtIftwFpA/profile-displayphoto-shrink_200_200/0?e=1585785600&v=beta&t=iINuqmtH8ARuYypIxKvzj7QMHyolDVw43C3pCvNZ1Nc",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C5603AQGy8xtIftwFpA/profile-displayphoto-shrink_200_200/0?e=1585785600&v=beta&t=iINuqmtH8ARuYypIxKvzj7QMHyolDVw43C3pCvNZ1Nc",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/vosjeffrey/",
@@ -11090,7 +11373,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Prabhjot Singh",
-      img: "https://avatars3.githubusercontent.com/u/47789898?s=400&u=103b7e4f41d70a9b06ae407ee56ae11277b2477a&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/47789898?s=400&u=103b7e4f41d70a9b06ae407ee56ae11277b2477a&v=4",
       links: {
         website: "https://batmangoo.github.io/Javascript-Portfolio/",
         linkedin: "https://www.linkedin.com/in/prabhjot-singh-59750199/",
@@ -11106,7 +11390,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Michael Huber",
-      img: "https://avatars1.githubusercontent.com/u/55626560?s=400&u=bbb9b547a6e0c4856997702307c52c6598c72f93&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/55626560?s=400&u=bbb9b547a6e0c4856997702307c52c6598c72f93&v=4",
       links: {
         website: "https://www.mikeyneedsajob.com/",
         linkedin: "https://www.linkedin.com/in/michael-huber-9b567a173/",
@@ -11122,7 +11407,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Christian Stevens",
-      img: "https://media-exp1.licdn.com/dms/image/C5603AQExqUsxV7_IQw/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=tFrAQCIcG1T080mPykXyD4bxTG92fUx2wTBZQcy_NE4",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C5603AQExqUsxV7_IQw/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=tFrAQCIcG1T080mPykXyD4bxTG92fUx2wTBZQcy_NE4",
       links: {
         website: "https://chris-thedeveloper.com/",
         linkedin: "https://www.linkedin.com/in/christian-stevens-34367110b/",
@@ -11138,7 +11424,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Pratik Pandab",
-      img: "https://avatars0.githubusercontent.com/u/33945636?s=400&u=8373f0db9292c10f86da7390d50b91debad51716&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/33945636?s=400&u=8373f0db9292c10f86da7390d50b91debad51716&v=4",
       links: {
         website: "https://pratik-1999.github.io/",
         linkedin: "https://www.linkedin.com/in/pratik-pandab-193b43143/",
@@ -11266,7 +11553,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Abdul Mobeen",
-      img: "https://media-exp1.licdn.com/dms/image/C5603AQGg4EhYo53Ocg/profile-displayphoto-shrink_200_200/0?e=1589414400&v=beta&t=e17Ov88gu7P7lF-9fPliYorFVQI8Py5VCIcbcrVyZWY",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C5603AQGg4EhYo53Ocg/profile-displayphoto-shrink_200_200/0?e=1589414400&v=beta&t=e17Ov88gu7P7lF-9fPliYorFVQI8Py5VCIcbcrVyZWY",
       links: {
         website: "",
         linkedin: "https://qa.linkedin.com/in/mobeendev",
@@ -11282,7 +11570,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jeryl Donato Estopace",
-      img: "https://avatars0.githubusercontent.com/u/26645913?s=400&u=8d9a63dc398fd351037d0a8ffd8a56b37c386ee5&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/26645913?s=400&u=8d9a63dc398fd351037d0a8ffd8a56b37c386ee5&v=4",
       links: {
         website: "https://jeryldev.github.io/",
         linkedin: "https://www.linkedin.com/in/jeryldev/",
@@ -11298,7 +11587,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Pop Stefan",
-      img: "https://avatars0.githubusercontent.com/u/43994418?s=460&u=d5bb94d0c88bdf16a55d1807e0c3d6e8aa4e0054&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/43994418?s=460&u=d5bb94d0c88bdf16a55d1807e0c3d6e8aa4e0054&v=4",
       links: {
         website: "https://stefanpop.dev",
         linkedin: "https://www.linkedin.com/in/stefan-pop-9a55a6191/",
@@ -11362,7 +11652,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Payton Jewell",
-      img: "https://avatars3.githubusercontent.com/u/18350557?s=460&u=b5237bf592833e60ba0a68842c76ae4f3d08e28e&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/18350557?s=460&u=b5237bf592833e60ba0a68842c76ae4f3d08e28e&v=4",
       links: {
         website: "https://paytonjewell.github.io/",
         linkedin: "https://www.linkedin.com/in/payton-jewell/",
@@ -11378,7 +11669,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Josia Rodriguez",
-      img: "https://res.cloudinary.com/di3jbt6xu/image/upload/v1584626388/profile_ome0ls.jpg",
+      img:
+        "https://res.cloudinary.com/di3jbt6xu/image/upload/v1584626388/profile_ome0ls.jpg",
       links: {
         website: "https://www.josiarodriguez.com/",
         linkedin: "https://www.linkedin.com/in/josiarodriguez/",
@@ -11394,7 +11686,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Joshua Folorunsho",
-      img: "https://avatars3.githubusercontent.com/u/55793353?s=400&u=6828f7d903254ca765429cdf063e99635efb8b84&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/55793353?s=400&u=6828f7d903254ca765429cdf063e99635efb8b84&v=4",
       links: {
         website: "http://joshuafolorunsho.com",
         linkedin: "https://www.linkedin.com/in/jfolorunsho",
@@ -11426,13 +11719,15 @@ export const data = {
     {
       id: uuidv4(),
       name: "S Salman",
-      img: "https://media-exp1.licdn.com/dms/image/C5103AQFvOwhQ976dEg/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=oNwKuih1J6tgxSo1GLcTjAGo8Kr3H8HrwTiBaisZwPA",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C5103AQFvOwhQ976dEg/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=oNwKuih1J6tgxSo1GLcTjAGo8Kr3H8HrwTiBaisZwPA",
       links: {
         website: "https://ssalmanportfolio.netlify.com/",
         linkedin: "https://www.linkedin.com/in/s-salman-509776160/",
         github: "https://github.com/ssal-man",
       },
-      jobTitle: "Full-Stack Developer , Python Developer , Javascript Developer , Android Developer",
+      jobTitle:
+        "Full-Stack Developer , Python Developer , Javascript Developer , Android Developer",
       location: {
         city: "Bhilai",
         state: "Chhattisgarh",
@@ -11442,7 +11737,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Moulay Isam Elbousserghini",
-      img: "https://lh3.googleusercontent.com/-dSTdfe93-d0fg1bc6hx8uHSYBH5FqeNaSftgWd5Vd_xln8293caccfoWsKrEc96JntGvfZxtkwer4HshgKWN4BFxfNTw5BVjuwgIfjDPoVEohpgr4EsBHPZJgb07BoLfPiagpuLjZRJb8o8hK-6IznMor5FKYKajywWsxjmxoxtSzTC0hz9JbdAeVUmukFjDqeZzXYzSI-Ix9a8MTmSfrYtkDmuYNPjlQ0nnSY3uqogmjeq5Obbh_pYBc4uL0R2IsUxuK0CjnPT8uzI14KWeNbP7GLp1SxNX6E7E8cyWAzAu2wcZA7bLj7G8Jjv_PvID5Aa5qprCHbJw_iEvpH0D--cJISyoBLv4w7SHAgfj7cMQlbHxl-80VmJGV-0KmGuUXtJh-megSIUuku0ms1IF-xrP9785TXX_mEKtU4X1L2Fna4kkcZvHcY6Lgs8Tg8P3rNgyiU5MvfDad-GoBSdQSBQSVbTA339OtF1RIQfZZ-XRylRM1VJQIGs-jy7FFlgAY95cohjOO_LXa2AdhhD4df5rYutbBplTTO8bzeU2FspNzC2cIjV9fm7JZc-yLklTjcJ-d46I_4C0-ECIoQcdBuAdyHyudZYySQ3d9XrbJGUrylpBW8rddtlVSv1Vjw7xhIt6kI5YdhNYdgnQLpICkHKveHDD7DxGG5Aa6ueKFEooAs-XPWwAfCDTZCRgBg=s231-no",
+      img:
+        "https://lh3.googleusercontent.com/-dSTdfe93-d0fg1bc6hx8uHSYBH5FqeNaSftgWd5Vd_xln8293caccfoWsKrEc96JntGvfZxtkwer4HshgKWN4BFxfNTw5BVjuwgIfjDPoVEohpgr4EsBHPZJgb07BoLfPiagpuLjZRJb8o8hK-6IznMor5FKYKajywWsxjmxoxtSzTC0hz9JbdAeVUmukFjDqeZzXYzSI-Ix9a8MTmSfrYtkDmuYNPjlQ0nnSY3uqogmjeq5Obbh_pYBc4uL0R2IsUxuK0CjnPT8uzI14KWeNbP7GLp1SxNX6E7E8cyWAzAu2wcZA7bLj7G8Jjv_PvID5Aa5qprCHbJw_iEvpH0D--cJISyoBLv4w7SHAgfj7cMQlbHxl-80VmJGV-0KmGuUXtJh-megSIUuku0ms1IF-xrP9785TXX_mEKtU4X1L2Fna4kkcZvHcY6Lgs8Tg8P3rNgyiU5MvfDad-GoBSdQSBQSVbTA339OtF1RIQfZZ-XRylRM1VJQIGs-jy7FFlgAY95cohjOO_LXa2AdhhD4df5rYutbBplTTO8bzeU2FspNzC2cIjV9fm7JZc-yLklTjcJ-d46I_4C0-ECIoQcdBuAdyHyudZYySQ3d9XrbJGUrylpBW8rddtlVSv1Vjw7xhIt6kI5YdhNYdgnQLpICkHKveHDD7DxGG5Aa6ueKFEooAs-XPWwAfCDTZCRgBg=s231-no",
       links: {
         website: "https://mindtaxis.com/",
         linkedin: "https://www.linkedin.com/in/isam-elbousserghini-874614194/",
@@ -11474,7 +11770,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Iuliia Logunova",
-      img: "https://avatars3.githubusercontent.com/u/54540652?s=460&u=6dfedd88e99956acf7c85c67e6b90627d8e67404&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/54540652?s=460&u=6dfedd88e99956acf7c85c67e6b90627d8e67404&v=4",
       links: {
         linkedin: "http://linkedin.com/in/iuliia-logunova-982939190",
         website: "https://yulogun.github.io/my-portfolio/#/",
@@ -11490,7 +11787,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Mehedi Hasan",
-      img: "https://avatars0.githubusercontent.com/u/24963413?s=460&u=97a321a6d6af5030cb6ca3f8f79bbff0dbab8198&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/24963413?s=460&u=97a321a6d6af5030cb6ca3f8f79bbff0dbab8198&v=4",
       links: {
         linkedin: "http://linkedin.com/in/codermehedi",
         website: "https://codermehedi.me",
@@ -11506,7 +11804,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Paramjeet Dhiman",
-      img: "https://scontent.fhyd5-1.fna.fbcdn.net/v/t1.0-1/c60.0.240.240a/p240x240/90170088_1570467313105651_7051108845623443456_o.jpg?_nc_cat=108&_nc_sid=dbb9e7&_nc_ohc=Ipi2IGMZPxsAX_SKRWe&_nc_ht=scontent.fhyd5-1.fna&oh=a354d5e07f5072e7c79642cca644b748&oe=5EA6DA17https://scontent.fhyd5-1.fna.fbcdn.net/v/t1.0-1/c60.0.240.240a/p240x240/90170088_1570467313105651_7051108845623443456_o.jpg?_nc_cat=108&_nc_sid=dbb9e7&_nc_ohc=Ipi2IGMZPxsAX_SKRWe&_nc_ht=scontent.fhyd5-1.fna&oh=a354d5e07f5072e7c79642cca644b748&oe=5EA6DA17",
+      img:
+        "https://scontent.fhyd5-1.fna.fbcdn.net/v/t1.0-1/c60.0.240.240a/p240x240/90170088_1570467313105651_7051108845623443456_o.jpg?_nc_cat=108&_nc_sid=dbb9e7&_nc_ohc=Ipi2IGMZPxsAX_SKRWe&_nc_ht=scontent.fhyd5-1.fna&oh=a354d5e07f5072e7c79642cca644b748&oe=5EA6DA17https://scontent.fhyd5-1.fna.fbcdn.net/v/t1.0-1/c60.0.240.240a/p240x240/90170088_1570467313105651_7051108845623443456_o.jpg?_nc_cat=108&_nc_sid=dbb9e7&_nc_ohc=Ipi2IGMZPxsAX_SKRWe&_nc_ht=scontent.fhyd5-1.fna&oh=a354d5e07f5072e7c79642cca644b748&oe=5EA6DA17",
       links: {
         website: "https://about.me/paramjeetdhiman",
         linkedin: "https://www.linkedin.com/in/paramjeetdhiman",
@@ -11570,7 +11869,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Tomer Guttman",
-      img: "https://avatars0.githubusercontent.com/u/40022715?s=460&u=79919ca3d081b9423e0d4391807e62836cae6830&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/40022715?s=460&u=79919ca3d081b9423e0d4391807e62836cae6830&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/tomergut/",
@@ -11586,7 +11886,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Olokor Divine",
-      img: "https://avatars0.githubusercontent.com/u/48719608?s=400&u=d9ffb4f63c65b92a54d074abc54a5fcd5d2f7097&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/48719608?s=400&u=d9ffb4f63c65b92a54d074abc54a5fcd5d2f7097&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in//",
@@ -11602,7 +11903,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Rolando Capara",
-      img: "https://avatars1.githubusercontent.com/u/62534347?s=460&u=5d96759c71d3b52b26f03d97d8cbd070da183950&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/62534347?s=460&u=5d96759c71d3b52b26f03d97d8cbd070da183950&v=4",
       links: {
         website: "https://rjcapara.com",
         linkedin: "https://www.linkedin.com/in/rolando-capara-536891144/",
@@ -11618,7 +11920,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Rafael Dias",
-      img: "https://avatars0.githubusercontent.com/u/52940075?s=400&u=37f166717fd557194d81278ebd4f6f618fc18817&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/52940075?s=400&u=37f166717fd557194d81278ebd4f6f618fc18817&v=4",
       links: {
         website: "https://rafaeldias.netlify.com/",
         linkedin: "https://www.linkedin.com/in/rafaeldias6/",
@@ -11634,7 +11937,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Luis Vallejo",
-      img: "https://media-exp1.licdn.com/dms/image/C4E03AQHyVZgfrVduVw/profile-displayphoto-shrink_100_100/0?e=1591833600&v=beta&t=nuBbreYm7bEbgSJBAWNaCbX0OwZ-DNFfgJZ8BbynqjU",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C4E03AQHyVZgfrVduVw/profile-displayphoto-shrink_100_100/0?e=1591833600&v=beta&t=nuBbreYm7bEbgSJBAWNaCbX0OwZ-DNFfgJZ8BbynqjU",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/luis-vallejo-luvagu/",
@@ -11650,7 +11954,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Victor Jonah",
-      img: "https://avatars2.githubusercontent.com/u/30151767?s=400&u=6e371cca7372e7627d27dacd64abfdb213053229&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/30151767?s=400&u=6e371cca7372e7627d27dacd64abfdb213053229&v=4",
       links: {
         website: "https://www.vectormike.codes/",
         linkedin: "https://www.linkedin.com/in/victor-jonah-abb1a1120/",
@@ -11666,7 +11971,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Pranav Agarwal",
-      img: "https://avatars0.githubusercontent.com/u/40036238?s=400&u=c8c83a97658f9f62f32d9cbfe4334962933271a1&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/40036238?s=400&u=c8c83a97658f9f62f32d9cbfe4334962933271a1&v=4",
       links: {
         website: "https://www.pranav2012.github.io/",
         linkedin: "https://www.linkedin.com/in/pranav-agarwal-579363166/",
@@ -11698,7 +12004,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Mohamed Shawky",
-      img: "https://res.cloudinary.com/dymelpf7v/image/upload/v1586085437/profile.png",
+      img:
+        "https://res.cloudinary.com/dymelpf7v/image/upload/v1586085437/profile.png",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mohamedshawkybayoumi",
@@ -11714,7 +12021,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Manoj Baddi",
-      img: "https://avatars.githuhttps://avatars.githubusercontent.com/santhosh21vkbusercontent.com/manojbaddi",
+      img:
+        "https://avatars.githuhttps://avatars.githubusercontent.com/santhosh21vkbusercontent.com/manojbaddi",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/manojbaddi/",
@@ -11842,7 +12150,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Theja M",
-      img: "https://avatars1.githubusercontent.com/u/56859400?s=400&u=d5da7ac5fffe135c3d37dc8e7bda926d9e11e124&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/56859400?s=400&u=d5da7ac5fffe135c3d37dc8e7bda926d9e11e124&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/theja-m-744106168/",
@@ -11858,7 +12167,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Harendra Kumar Kanojiya",
-      img: "https://media-exp1.licdn.com/dms/image/C5103AQF3dXY-xgSMuA/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=7q-gaMWdhbM-acrMEJyShXIwuaZWLr5RNHs-IWMnAFc",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C5103AQF3dXY-xgSMuA/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=7q-gaMWdhbM-acrMEJyShXIwuaZWLr5RNHs-IWMnAFc",
       links: {
         website: "https://harendra.in",
         linkedin: "https://www.linkedin.com/in/harendra-verma-157773a9/",
@@ -11907,7 +12217,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Mithlesh Yadav",
-      img: "https://avatars2.githubusercontent.com/u/32195144?s=460&u=e7368131fc6cc6f55b6855cf7c2118945d111722&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/32195144?s=460&u=e7368131fc6cc6f55b6855cf7c2118945d111722&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mithlesh-yadav-2aa8a316a/",
@@ -11923,7 +12234,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Lam Hong",
-      img: "https://avatars3.githubusercontent.com/u/9206941?s=460&u=c8d9b30fe067bf089f93588e50b7aed9c409c887&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/9206941?s=460&u=c8d9b30fe067bf089f93588e50b7aed9c409c887&v=4",
       links: {
         website: "lamhong.me",
         linkedin: "https://www.linkedin.com/in/lam-hong-529856109",
@@ -11939,7 +12251,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Usman Khalid",
-      img: "https://media-exp1.licdn.com/dms/image/C5603AQH2HAy0OdhYlw/profile-displayphoto-shrink_200_200/0?e=1592438400&v=beta&t=J_uIatwlGMWjJNMgv4V-NRsYrdwYtkZaPXmDX2FKHr8",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C5603AQH2HAy0OdhYlw/profile-displayphoto-shrink_200_200/0?e=1592438400&v=beta&t=J_uIatwlGMWjJNMgv4V-NRsYrdwYtkZaPXmDX2FKHr8",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/usman-khalid-9384129b/",
@@ -11955,7 +12268,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Damini Varu",
-      img: "https://avatars2.githubusercontent.com/u/50891247?s=400&u=b5199d3397089aa3b292e6fff124e491096465e2&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/50891247?s=400&u=b5199d3397089aa3b292e6fff124e491096465e2&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/damini-varu-71607b197/",
@@ -11971,7 +12285,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Teri Eyenike",
-      img: "https://res.cloudinary.com/codeg0d/image/upload/v1584384543/teri/codeg0d_d19edi.jpg",
+      img:
+        "https://res.cloudinary.com/codeg0d/image/upload/v1584384543/teri/codeg0d_d19edi.jpg",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/terieyenike/",
@@ -12003,7 +12318,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jonathan Aguilar",
-      img: "https://avatars2.githubusercontent.com/u/63523280?s=400&u=a97aee07b624817cf6a7fb1bef02a74e4d8d9d26&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/63523280?s=400&u=a97aee07b624817cf6a7fb1bef02a74e4d8d9d26&v=4",
       links: {
         website: "www.moguljon.com",
         linkedin: "www.linkedin.com/in/jonathan-aguilar-047130ba/",
@@ -12019,7 +12335,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Deepak Kumar",
-      img: "https://avatars3.githubusercontent.com/u/30384999?s=460&u=c503b99720a093a4b67a76e2598e2fd6999b706a&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/30384999?s=460&u=c503b99720a093a4b67a76e2598e2fd6999b706a&v=4",
       links: {
         website: "https://deepak1418.github.io/",
         linkedin: "https://www.linkedin.com/in/deepak-kumar-70215b175/",
@@ -12067,7 +12384,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jonathan Grundy",
-      img: "https://avatars2.githubusercontent.com/u/53473099?s=460&u=2120e37f1256225a73bbf2c75414e76217835d90&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/53473099?s=460&u=2120e37f1256225a73bbf2c75414e76217835d90&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/jonathan-grundy-661013190/",
@@ -12083,7 +12401,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "JT Houk",
-      img: "https://res.cloudinary.com/jthouk/image/upload/w_200,c_fill,ar_1:1,g_auto,r_max/v1582802281/Profiles/IMG_0600_swphdi.png",
+      img:
+        "https://res.cloudinary.com/jthouk/image/upload/w_200,c_fill,ar_1:1,g_auto,r_max/v1582802281/Profiles/IMG_0600_swphdi.png",
       links: {
         website: "https://jt.houk.space",
         linkedin: "https://www.linkedin.com/in/jt-houk",
@@ -12099,7 +12418,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jorge Veronique",
-      img: "https://avatars3.githubusercontent.com/u/59569596?s=460&u=afdf6a5866ed55179fa52663f6c0d6c380e049b4&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/59569596?s=460&u=afdf6a5866ed55179fa52663f6c0d6c380e049b4&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/jorge-veronique-981a0753/",
@@ -12118,7 +12438,8 @@ export const data = {
       img: "http://hassanzain.com/images/pic00.jpg",
       links: {
         website: "http://hassanzain.com/",
-        linkedin: "https://www.linkedin.com/in/hassan-zain-delgadillo-b2056156/",
+        linkedin:
+          "https://www.linkedin.com/in/hassan-zain-delgadillo-b2056156/",
         github: "https://github.com/hassanzd",
       },
       jobTitle: "Software Developer",
@@ -12147,7 +12468,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Faizan Qazi",
-      img: "https://drive.google.com/file/d/1SCvbLjEEMXRP8erjEmMe2wqoVoI3zB9M/view?usp=drivesdk",
+      img:
+        "https://drive.google.com/file/d/1SCvbLjEEMXRP8erjEmMe2wqoVoI3zB9M/view?usp=drivesdk",
       links: {
         website: "http://caxefaizan.pythonanywhere.com",
         linkedin: "https://www.linkedin.com/in/caxefaizan/",
@@ -12163,7 +12485,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jordan Stanway",
-      img: "https://res.cloudinary.com/mtninja/image/upload/v1587576167/js-cropped_all9eg.jpg",
+      img:
+        "https://res.cloudinary.com/mtninja/image/upload/v1587576167/js-cropped_all9eg.jpg",
       links: {
         website: "https://jordanstanway.com",
         linkedin: "https://www.linkedin.com/in/jordanstanway/",
@@ -12211,7 +12534,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "JP Sainsbury",
-      img: "https://avatars2.githubusercontent.com/u/32621022?s=460&u=2a90e6617060f57a08795e5f97f7fd69c9251809&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/32621022?s=460&u=2a90e6617060f57a08795e5f97f7fd69c9251809&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/jp-sainsbury-3a59158a/",
@@ -12243,7 +12567,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Pranav Sood",
-      img: "https://secureservercdn.net/198.71.233.44/gpo.7bd.myftpupload.com/wp-content/uploads/2019/10/DSC_0576-copy.jpg",
+      img:
+        "https://secureservercdn.net/198.71.233.44/gpo.7bd.myftpupload.com/wp-content/uploads/2019/10/DSC_0576-copy.jpg",
       links: {
         website: "http://prnvsood.com/",
         linkedin: "https://www.linkedin.com/in/pranav-sood-3a9095a3/",
@@ -12291,7 +12616,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Radouane Khiri",
-      img: "https://media-exp1.licdn.com/dms/image/C4D03AQEnRIsnOo8Dpw/profile-displayphoto-shrink_200_200/0?e=1593648000&v=beta&t=60tIarqFukAI7EyJyUKmm-JFTCaqZzK7mFm6JpHvWQQ",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C4D03AQEnRIsnOo8Dpw/profile-displayphoto-shrink_200_200/0?e=1593648000&v=beta&t=60tIarqFukAI7EyJyUKmm-JFTCaqZzK7mFm6JpHvWQQ",
       links: {
         website: "https://www.redvanisation.com/",
         linkedin: "https://www.linkedin.com/in/redvan/",
@@ -12307,7 +12633,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Mohadip Lama",
-      img: "https://media-exp1.licdn.com/dms/image/C4E03AQFlz-svFCpPKQ/profile-displayphoto-shrink_200_200/0?e=1593648000&v=beta&t=zMv14W_E4c_o_s-rD2IvdBxawOcIgY_GdNapw5weO-I",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C4E03AQFlz-svFCpPKQ/profile-displayphoto-shrink_200_200/0?e=1593648000&v=beta&t=zMv14W_E4c_o_s-rD2IvdBxawOcIgY_GdNapw5weO-I",
       links: {
         linkedin: "https://www.linkedin.com/in/mohadip-lama-taveras-961a67140/",
         github: "https://github.com/mohadip",
@@ -12354,7 +12681,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Tomas Czarnecki",
-      img: "https://avatars1.githubusercontent.com/u/44222618?s=460&u=cb3a6ed4e892a2d83f17862cc562cb51dce862ce&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/44222618?s=460&u=cb3a6ed4e892a2d83f17862cc562cb51dce862ce&v=4",
       links: {
         website: "https://heiux.com/",
         linkedin: "linkedin.com/in/tczarnecki/",
@@ -12466,7 +12794,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ritika Garg",
-      img: "https://media-exp1.licdn.com/dms/image/C5103AQGED09T7SYrpA/profile-displayphoto-shrink_200_200/0?e=1594252800&v=beta&t=V67IMSqLNYRSW_zZy8aodzZuxPQK1p7SDPwwzzD5Wpo",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C5103AQGED09T7SYrpA/profile-displayphoto-shrink_200_200/0?e=1594252800&v=beta&t=V67IMSqLNYRSW_zZy8aodzZuxPQK1p7SDPwwzzD5Wpo",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ritika-garg98/",
@@ -12498,7 +12827,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jeremy Curtis",
-      img: "https://avatars1.githubusercontent.com/u/29008729?s=400&u=60465f4a72f31f7fd4c0e0aea7e5b66673f5754a&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/29008729?s=400&u=60465f4a72f31f7fd4c0e0aea7e5b66673f5754a&v=4",
       links: {
         website: "",
         linkedin: "www.linkedin.com/in/jeremy-curtis-29a586185",
@@ -12514,7 +12844,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Michio Hayakawa",
-      img: "https://media-exp1.licdn.com/dms/image/C4D03AQE0hpBDzsfFMg/profile-displayphoto-shrink_200_200/0?e=1594857600&v=beta&t=7L0lsWuedUqgZWMdqirKTYQW8NPV-eCJZ_8MeqRbLH8",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C4D03AQE0hpBDzsfFMg/profile-displayphoto-shrink_200_200/0?e=1594857600&v=beta&t=7L0lsWuedUqgZWMdqirKTYQW8NPV-eCJZ_8MeqRbLH8",
       links: {
         website: "http://wwww.hacya.com",
         linkedin: "https://www.linkedin.com/in/michio-hayakawa-664507/",
@@ -12546,7 +12877,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Hemant Kumar Singh",
-      img: "https://avatars3.githubusercontent.com/u/26166716?s=460&u=6663ba6904746ecf7e28b604f0f2a739027ef27e&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/26166716?s=460&u=6663ba6904746ecf7e28b604f0f2a739027ef27e&v=4",
       links: {
         website: "https://hs950559.github.io/portfolio",
         linkedin: "https://www.linkedin.com/in/hkajax",
@@ -12562,7 +12894,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Andrew Price",
-      img: "https://pbs.twimg.com/profile_images/1018213344698724352/zW_-kGqV_400x400.jpg",
+      img:
+        "https://pbs.twimg.com/profile_images/1018213344698724352/zW_-kGqV_400x400.jpg",
       links: {
         website: "https://www.awprice.com/",
         linkedin: "https://www.linkedin.com/in/loftkey/",
@@ -12594,7 +12927,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Trejon Stallsworth",
-      img: "https://avatars2.githubusercontent.com/u/50248674?s=460&u=8624e2ac772606d44807f794f59658f7a5664cde&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/50248674?s=460&u=8624e2ac772606d44807f794f59658f7a5664cde&v=4",
       links: {
         website: "https://trejon.github.io/TrejonStallsworthPortfolio/",
         linkedin: "https://www.linkedin.com/in/TrejonStallsworth/",
@@ -12690,7 +13024,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Enora Lecuyer",
-      img: "https://media-exp1.licdn.com/dms/image/C5603AQHWpzQNlm5yCA/profile-displayphoto-shrink_400_400/0?e=1595462400&v=beta&t=4UssIs_APwAEYyoQaXJ0V6Dfp9SAASPUaYtkc7HbksM",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C5603AQHWpzQNlm5yCA/profile-displayphoto-shrink_400_400/0?e=1595462400&v=beta&t=4UssIs_APwAEYyoQaXJ0V6Dfp9SAASPUaYtkc7HbksM",
       links: {
         website: "http://www.enoralecuyer.com/",
         linkedin: "https://www.linkedin.com/in/enoralecuyer1/",
@@ -12738,7 +13073,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Yuchen Zhang",
-      img: "https://avatars2.githubusercontent.com/u/20440998?s=400&u=e8f46d4a07da6a879e167ce152f1a409df566274&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/20440998?s=400&u=e8f46d4a07da6a879e167ce152f1a409df566274&v=4",
       links: {
         website: "https://seraph-yczhang.github.io/me/",
         linkedin: "https://www.linkedin.com/in/yuchen-zhang-buffalo/",
@@ -12770,10 +13106,12 @@ export const data = {
     {
       id: uuidv4(),
       name: "Juan Agustín Morello",
-      img: "https://avatars0.githubusercontent.com/u/32440750?s=460&u=89f48aa8c4b9a6071821b87035bab623c129d990&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/32440750?s=460&u=89f48aa8c4b9a6071821b87035bab623c129d990&v=4",
       links: {
         website: "https://jamorello.github.io/",
-        linkedin: "https://www.linkedin.com/in/juan-agust%C3%ADn-morello-a46385184/",
+        linkedin:
+          "https://www.linkedin.com/in/juan-agust%C3%ADn-morello-a46385184/",
         github: "https://github.com/JAMorello",
       },
       jobTitle: "Programador Junior",
@@ -12786,7 +13124,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Rudi Bester",
-      img: "http://www.rudibester.co.za/static/assets/images/portfolio_pic.jpeg",
+      img:
+        "http://www.rudibester.co.za/static/assets/images/portfolio_pic.jpeg",
       links: {
         website: "http://www.rudibester.co.za",
         linkedin: "https://www.linkedin.com/in/rudi-bester-a18878199/",
@@ -12802,7 +13141,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Swati Dixit",
-      img: "https://media-exp1.licdn.com/dms/image/C5103AQH8Fq_1_gRtDg/profile-displayphoto-shrink_200_200/0?e=1596672000&v=beta&t=xOFaNEZNL_sw46ataKaupw7p_KSyuG93Fx_4heZ0-E8 ",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C5103AQH8Fq_1_gRtDg/profile-displayphoto-shrink_200_200/0?e=1596672000&v=beta&t=xOFaNEZNL_sw46ataKaupw7p_KSyuG93Fx_4heZ0-E8 ",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/swati-dixit-458971170",
@@ -12834,7 +13174,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Manas Kulkarni",
-      img: "https://manas588.github.io/portfo/static/media/thatsme.755846f5.jpg",
+      img:
+        "https://manas588.github.io/portfo/static/media/thatsme.755846f5.jpg",
       links: {
         website: "https://manas588.github.io/portfo/",
         linkedin: "https://www.linkedin.com/in/manas-kulkarni-093900162/",
@@ -12850,7 +13191,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Gain John",
-      img: "https://avatars1.githubusercontent.com/u/46064597?s=460&u=a8251d1212695511856806c3f7bf53aacd1a2f3c&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/46064597?s=460&u=a8251d1212695511856806c3f7bf53aacd1a2f3c&v=4",
       links: {
         website: "http://hoxnox.herokuapp.com/Dhaxor123/940/",
         linkedin: "https://www.linkedin.com/gain-john",
@@ -12866,10 +13208,12 @@ export const data = {
     {
       id: uuidv4(),
       name: "Fems Seimiekumo Solomon",
-      img: "https://web.facebook.com/sliem.king?fref=nf&__tn__=%2Cdm-R-R&eid=ARAVNoKmbEtR3Z4Aj1FRtMPaJtgESkWxhjCIWxfn_xFZ-EFOaTK4ylSRp_aIC1knDLZAtdPvtRwlk9Jk",
+      img:
+        "https://web.facebook.com/sliem.king?fref=nf&__tn__=%2Cdm-R-R&eid=ARAVNoKmbEtR3Z4Aj1FRtMPaJtgESkWxhjCIWxfn_xFZ-EFOaTK4ylSRp_aIC1knDLZAtdPvtRwlk9Jk",
       links: {
         website: "",
-        linkedin: "https://www.linkedin.com/in/seimiekumo-solomon-fems-4a3aa884/",
+        linkedin:
+          "https://www.linkedin.com/in/seimiekumo-solomon-fems-4a3aa884/",
         github: "https://github.com/sliemking",
       },
       jobTitle: "Fullstack Developer",
@@ -12882,7 +13226,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Rallapalli Goutham Deekshith",
-      img: "https://avatars3.githubusercontent.com/u/41180415?s=400&u=55c6c1cfd7c6c1850b0ba35296ff2834f395dd31&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/41180415?s=400&u=55c6c1cfd7c6c1850b0ba35296ff2834f395dd31&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/rgdeekshith/",
@@ -12898,7 +13243,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Darryl Nicerio",
-      img: "https://avatars1.githubusercontent.com/u/61145387?s=460&u=840fe501089042eb921600d6f3a0ac89ce972bae&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/61145387?s=460&u=840fe501089042eb921600d6f3a0ac89ce972bae&v=4",
       links: {
         website: "https://dnicerio.github.io/",
         linkedin: "https://www.linkedin.com/in/darrylnicerio/",
@@ -12946,10 +13292,12 @@ export const data = {
     {
       id: uuidv4(),
       name: "Shahnewaj Maksud Shoumikh",
-      img: "https://www.facebook.com/photo.php?fbid=2423741161054065&set=picfp.100002546150649&type=3&theater",
+      img:
+        "https://www.facebook.com/photo.php?fbid=2423741161054065&set=picfp.100002546150649&type=3&theater",
       links: {
         website: "",
-        linkedin: "https://www.linkedin.com/in/shahnewaj-maksud-shoumikh-376655108/",
+        linkedin:
+          "https://www.linkedin.com/in/shahnewaj-maksud-shoumikh-376655108/",
         github: "https://github.com/Shoumikh",
       },
       jobTitle: " Front-End Developer ",
@@ -12978,7 +13326,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Tajib Smajlovic",
-      img: "https://avatars1.githubusercontent.com/u/34982684?s=460&u=352a6e389d1a8c546bfe2e75ffd268fd1a8ada5f&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/34982684?s=460&u=352a6e389d1a8c546bfe2e75ffd268fd1a8ada5f&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/tajibsmajlovic/",
@@ -13010,7 +13359,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Laura Laane",
-      img: "https://avatars2.githubusercontent.com/u/60161430?s=400&u=73a0e0fad959e40eabc836d558384f76e18174cf&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/60161430?s=400&u=73a0e0fad959e40eabc836d558384f76e18174cf&v=4",
       links: {
         website: "http://www.lalaane.com/",
         linkedin: "https://www.linkedin.com/in/laura-laane/",
@@ -13074,7 +13424,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Gyanendra Knojiya",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR6mgU_w1eipap7G0A4UcaEFH2yxnBfk5uaQj0d3EhF2y_qn185fkzi49yx&usqp=CAU&ec=45673586",
+      img:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR6mgU_w1eipap7G0A4UcaEFH2yxnBfk5uaQj0d3EhF2y_qn185fkzi49yx&usqp=CAU&ec=45673586",
       links: {
         website: "https://gyanendraknojiya.github.io",
         linkedin: "https://www.linkedin.com/in/gyanendraknojiya/",
@@ -13106,7 +13457,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Tony Duong",
-      img: "https://avatars1.githubusercontent.com/u/10689662?s=460&u=af55363956173397926612bae05066d272232ccc&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/10689662?s=460&u=af55363956173397926612bae05066d272232ccc&v=4",
       links: {
         website: "http://frenchytony.net",
         linkedin: "https://www.linkedin.com/in/nytochin/",
@@ -13128,7 +13480,8 @@ export const data = {
         linkedin: "https://linkedin.com/in/mmostagirbhuiyan",
         github: "https://github.com/mmostagirbhuiyan",
       },
-      jobTitle: "Sr. DevOps Engineer | Full Stack Web Developer | Sr. React Developer| Python | Java",
+      jobTitle:
+        "Sr. DevOps Engineer | Full Stack Web Developer | Sr. React Developer| Python | Java",
       location: {
         city: "New York City",
         state: "NY",
@@ -13233,7 +13586,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Sacha Bogaers",
-      img: "https://avatars0.githubusercontent.com/u/48031121?s=400&u=469845ae94d776cbb1038eb6045b70c5388bf0a1&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/48031121?s=400&u=469845ae94d776cbb1038eb6045b70c5388bf0a1&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/sacha-bogaers/",
@@ -13249,9 +13603,11 @@ export const data = {
     {
       id: uuidv4(),
       name: "Rares Sandu",
-      img: "https://avatars3.githubusercontent.com/u/59281487?s=400&u=ed6e2f43fffde34964b8ae73a3fdaacd1d7516f7&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/59281487?s=400&u=ed6e2f43fffde34964b8ae73a3fdaacd1d7516f7&v=4",
       links: {
-        website: "https://raressanduconstantin.github.io/modern_portfolio/index.html",
+        website:
+          "https://raressanduconstantin.github.io/modern_portfolio/index.html",
         linkedin: "https://www.linkedin.com/in/rares-sandu/",
         github: "https://github.com/RaresSanduConstantin",
       },
@@ -13265,7 +13621,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Michael Wang",
-      img: "https://avatars0.githubusercontent.com/u/51487671?s=460&u=08ece0fce8b834cc44c18322191e9b7a80ab070c&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/51487671?s=460&u=08ece0fce8b834cc44c18322191e9b7a80ab070c&v=4",
       links: {
         website: "http://michaelwang.herokuapp.com/",
         linkedin: "https://www.linkedin.com/in/michael-wang-dev/",
@@ -13281,7 +13638,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Muhammad Haroon Saad",
-      img: "https://user-images.githubusercontent.com/49754541/83527701-91ecff80-a501-11ea-8e91-2a702c534d81.jpeg",
+      img:
+        "https://user-images.githubusercontent.com/49754541/83527701-91ecff80-a501-11ea-8e91-2a702c534d81.jpeg",
       links: {
         website: "https://haroonsaad247622.github.io/HarrySalts/",
         linkedin: "www.linkedin.com/in/muhammad-haroon-saad-7b58bb1a9",
@@ -13313,7 +13671,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Anouar Chlih",
-      img: "https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528_960_720.jpg",
+      img:
+        "https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528_960_720.jpg",
       links: {
         website: "https://anouar-chlih.github.io/Background-generator/",
         linkedin: "https://fr.linkedin.com/",
@@ -13361,7 +13720,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ethan Glover",
-      img: "https://avatars1.githubusercontent.com/u/3924176?s=460&u=23f3b383da434df5ef9089dfc8927bbc90b305aa",
+      img:
+        "https://avatars1.githubusercontent.com/u/3924176?s=460&u=23f3b383da434df5ef9089dfc8927bbc90b305aa",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ethan-glover/",
@@ -13409,7 +13769,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ashu Gupta",
-      img: "https://drive.google.com/file/d/1gOHtYkdHgW4PMjzKlny95GfNe3h8ZEfO/view?usp=sharing",
+      img:
+        "https://drive.google.com/file/d/1gOHtYkdHgW4PMjzKlny95GfNe3h8ZEfO/view?usp=sharing",
       links: {
         website: "https://ashugupta.tech",
         linkedin: "https://www.linkedin.com/in/ashugupta/",
@@ -13441,7 +13802,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Gabriel Seals",
-      img: "https://avatars3.githubusercontent.com/u/52087296?s=400&u=a7e20c9f1d334651a8c2458314cbd6a260ea549c&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/52087296?s=400&u=a7e20c9f1d334651a8c2458314cbd6a260ea549c&v=4",
       links: {
         website: "https://gabrielseals.com/",
         linkedin: "https://www.linkedin.com/in/gabeseals",
@@ -13489,7 +13851,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ashutosh Dwivedi",
-      img: "https://avatars0.githubusercontent.com/u/42907572?s=460&u=3c5c03fdddeec2483819b845bd549616d48b71e5&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/42907572?s=460&u=3c5c03fdddeec2483819b845bd549616d48b71e5&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ashutosh-dwivedi-b3025b196/",
@@ -13505,7 +13868,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Micah Effiong",
-      img: "https://media-exp1.licdn.com/dms/image/C4E03AQHiXqHMZKJO2w/profile-displayphoto-shrink_200_200/0?e=1599091200&v=beta&t=AP3H6fvEkCKlCV1fNyBFWU3Wws_iR4Et9g3_ijo7-Sk",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C4E03AQHiXqHMZKJO2w/profile-displayphoto-shrink_200_200/0?e=1599091200&v=beta&t=AP3H6fvEkCKlCV1fNyBFWU3Wws_iR4Et9g3_ijo7-Sk",
       links: {
         website: "",
         linkedin: "https://ng.linkedin.com/in/micaiah-effiong",
@@ -13521,7 +13885,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "M Ebraheem Ijaz",
-      img: "https://portfolioebraheem.herokuapp.com/assets/img/testimonial-2.jpg",
+      img:
+        "https://portfolioebraheem.herokuapp.com/assets/img/testimonial-2.jpg",
       links: {
         website: "https://portfolioebraheem.herokuapp.com/portfolio",
         linkedin: "https://www.linkedin.com/in/ebraheem-ijaz-0a685a122/",
@@ -13553,7 +13918,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ali Mirmohammad",
-      img: "https://media-exp1.licdn.com/dms/image/C4E03AQHa_p4Z5ChE2Q/profile-displayphoto-shrink_200_200/0?e=1594857600&v=beta&t=94ZUHVReFbMjOaLIF5oQRHsra0RD-qo0snMVkf8P84s",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C4E03AQHa_p4Z5ChE2Q/profile-displayphoto-shrink_200_200/0?e=1594857600&v=beta&t=94ZUHVReFbMjOaLIF5oQRHsra0RD-qo0snMVkf8P84s",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ali-mirmohammad-786640158/",
@@ -13569,7 +13935,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Oluwakeye John",
-      img: "https://avatars1.githubusercontent.com/u/43508135?s=460&u=a4a7dd9c9e899b7e1856d6ef92f9719b77529ee8&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/43508135?s=460&u=a4a7dd9c9e899b7e1856d6ef92f9719b77529ee8&v=4",
       links: {
         website: "https://oluwakeyejohn.netlify.app",
         linkedin: "https://www.linkedin.com/in/oluwakeye-john-1706/",
@@ -13585,7 +13952,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ivan(Yufei) Zhang",
-      img: "https://avatars3.githubusercontent.com/u/32757827?s=460&u=afc7ac52aaf0e238a419186f1124b03f4aa701cf&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/32757827?s=460&u=afc7ac52aaf0e238a419186f1124b03f4aa701cf&v=4",
       links: {
         website: "https://www.yufeiz.com",
         linkedin: "https://www.linkedin.com/in/yufeiz222",
@@ -13601,7 +13969,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Yap Feng Yuan",
-      img: "https://avatars0.githubusercontent.com/u/58755531?s=400&u=8048ff4f4351073924c113545dc1893d1db35a48&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/58755531?s=400&u=8048ff4f4351073924c113545dc1893d1db35a48&v=4",
       links: {
         website: "https://clever-joliot-d7cbd7.netlify.app",
         linkedin: "https://www.linkedin.com/in/fengyuan-yap-489b7b126/",
@@ -13633,7 +14002,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ibrahim Satria",
-      img: "https://avatars1.githubusercontent.com/u/49900199?s=460&u=4746331f3f58fdd1aea38ff6187cee90e1fe331e&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/49900199?s=460&u=4746331f3f58fdd1aea38ff6187cee90e1fe331e&v=4",
       links: {
         website: "https://ibrahimsatria.xyz/",
         linkedin: "https://www.linkedin.com/in/ibrahim-satria-56a779185/",
@@ -13655,7 +14025,8 @@ export const data = {
         linkedin: "https://www.linkedin.com/in/aaron-cloet-9972b9152/",
         github: "https://github.com/acloet22",
       },
-      jobTitle: "Freelance software Developer(searching for fulltime employment)",
+      jobTitle:
+        "Freelance software Developer(searching for fulltime employment)",
       location: {
         city: "Omaha",
         state: "Nebraska",
@@ -13665,7 +14036,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Navneet Raju",
-      img: "http://drive.google.com/uc?export=view&id=1PEFgITzJir2A9G-NVzbUEcJFgFp25Gqw",
+      img:
+        "http://drive.google.com/uc?export=view&id=1PEFgITzJir2A9G-NVzbUEcJFgFp25Gqw",
       links: {
         website: "navneetraju66.github.io",
         linkedin: "https://www.linkedin.com/in/navneet-raju-4a07b87b/",
@@ -13681,7 +14053,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Arun kumar Singh",
-      img: "https://avatars1.githubusercontent.com/u/32652525?s=460&u=f39b4425e04cd21fa7ccde150424931f08b5e2a3&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/32652525?s=460&u=f39b4425e04cd21fa7ccde150424931f08b5e2a3&v=4",
       links: {
         website: "https://arunsinghsnd.netlify.app/",
         linkedin: "https://www.linkedin.com/in/arun-singh1999/",
@@ -13697,7 +14070,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Aniket Chauhan",
-      img: "https://avatars0.githubusercontent.com/u/43927184?s=460&u=8fb16f130dd0c6f19e35d0c8295adc9bf6b5ff5a&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/43927184?s=460&u=8fb16f130dd0c6f19e35d0c8295adc9bf6b5ff5a&v=4",
       links: {
         website: "https://www.nickapic.com/",
         linkedin: "https://www.linkedin.com/in/aniket-chauhan-09642536/",
@@ -13713,7 +14087,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Abdulfatai Suleiman",
-      img: "https://user-images.githubusercontent.com/46509072/88485710-d9c35c80-cf6f-11ea-8022-93c172a5bc89.jpeg",
+      img:
+        "https://user-images.githubusercontent.com/46509072/88485710-d9c35c80-cf6f-11ea-8022-93c172a5bc89.jpeg",
       links: {
         website: "https://iamnotstatic.github.io",
         linkedin: "https://www.linkedin.com/in/abdulfatai-suleiman-706ba6172",
@@ -13729,7 +14104,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Rubén Morera",
-      img: "https://media-exp1.licdn.com/dms/image/C4E03AQHTHn2eJQRR8Q/profile-displayphoto-shrink_200_200/0?e=1596067200&v=beta&t=WgyQRo6xEuuKzXuou9kOytIkSIrvFJA5rlTsB7w7K84",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C4E03AQHTHn2eJQRR8Q/profile-displayphoto-shrink_200_200/0?e=1596067200&v=beta&t=WgyQRo6xEuuKzXuou9kOytIkSIrvFJA5rlTsB7w7K84",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/rubenmorera/",
@@ -13761,7 +14137,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Pradip Mudi",
-      img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.linkedin.com%2Fin%2Fpradip-mudi-5a418b8a&psig=AOvVaw0adVK0FIvuqlrFReHDMBhD&ust=1590227599502000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDBkMuZx-kCFQAAAAAdAAAAABAJ",
+      img:
+        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.linkedin.com%2Fin%2Fpradip-mudi-5a418b8a&psig=AOvVaw0adVK0FIvuqlrFReHDMBhD&ust=1590227599502000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDBkMuZx-kCFQAAAAAdAAAAABAJ",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/pradip-mudi-5a418b8a/",
@@ -13809,7 +14186,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Shezray Mirza",
-      img: "https://avatars0.githubusercontent.com/u/64660355?s=400&u=9779a089808eb25ab0261354efb8aacb410b27d7&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/64660355?s=400&u=9779a089808eb25ab0261354efb8aacb410b27d7&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/shezray/",
@@ -13857,7 +14235,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Haoli Yang",
-      img: "https://media-exp1.licdn.com/dms/image/C4D03AQFoZs5Ko4iTaw/profile-displayphoto-shrink_800_800/0?e=1596067200&v=beta&t=8OtfU2QeNkrabcPgm7_JmfeAXPB4HraSTUM_F4gxRe0",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C4D03AQFoZs5Ko4iTaw/profile-displayphoto-shrink_800_800/0?e=1596067200&v=beta&t=8OtfU2QeNkrabcPgm7_JmfeAXPB4HraSTUM_F4gxRe0",
       links: {
         website: "https://hyang77.github.io/Haoli_portfolio/",
         linkedin: "https://www.linkedin.com/in/haoliyang0312/",
@@ -13889,7 +14268,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Magnus Cromwell",
-      img: "https://media-exp1.licdn.com/dms/image/C4E03AQHfmQq52tuq1w/profile-displayphoto-shrink_400_400/0?e=1596672000&v=beta&t=IxTdhudi0BkJSyUw3ms2Jx2iNQ2WbTzEFgT4cPsT6-Ig",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C4E03AQHfmQq52tuq1w/profile-displayphoto-shrink_400_400/0?e=1596672000&v=beta&t=IxTdhudi0BkJSyUw3ms2Jx2iNQ2WbTzEFgT4cPsT6-Ig",
       links: {
         website: "https://magnus-cromwell-portfolio1.herokuapp.com/",
         linkedin: "https://www.linkedin.com/in/magnus-cromwell-517b59191/",
@@ -13905,7 +14285,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Priyanka Wankhade",
-      img: "https://drive.google.com/file/d/1f7T8c0nMzGTED24jdh6OPIHpp31Sg_HQ/view?usp=sharing",
+      img:
+        "https://drive.google.com/file/d/1f7T8c0nMzGTED24jdh6OPIHpp31Sg_HQ/view?usp=sharing",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/priyanka-wankhade-277134155",
@@ -13921,7 +14302,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ilija",
-      img: "https://avatars0.githubusercontent.com/u/26030847?s=400&u=d064ec65c22d0200ed1a674b6ae152d1e34b5fe2&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/26030847?s=400&u=d064ec65c22d0200ed1a674b6ae152d1e34b5fe2&v=4",
       links: {
         website: "https://ilija03.tk/",
         linkedin: "https://www.linkedin.com/in/ilija-savic-03/",
@@ -13937,7 +14319,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Savvas Giannoukas",
-      img: "https://avatars1.githubusercontent.com/u/28651112?s=400&u=05e78471150e7d1cd2561cc88fb67f026768628c&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/28651112?s=400&u=05e78471150e7d1cd2561cc88fb67f026768628c&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/savvas-giannoukas-824b2a138/",
@@ -13953,7 +14336,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Nicholas Markus",
-      img: "https://avatars3.githubusercontent.com/u/21057939?s=400&u=2495152160f48382892b4772a57ccf97be7e5e3f&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/21057939?s=400&u=2495152160f48382892b4772a57ccf97be7e5e3f&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/nicholas-chun-markus-0b0136a2/",
@@ -13985,7 +14369,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "SAINITHIN.ARTHAM",
-      img: "https://photos.google.com/photo/AF1QipOSrma-fypcHtEVq67ajFBi-wpQrWfGqNqcW2by",
+      img:
+        "https://photos.google.com/photo/AF1QipOSrma-fypcHtEVq67ajFBi-wpQrWfGqNqcW2by",
       links: {
         website: "https://sainithin-bit.github.io/Sainitin/",
         linkedin: "https://www.linkedin.com/in/sainithin-artham-735241164/",
@@ -14001,7 +14386,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jake Heath",
-      img: "https://www.facebook.com/photo.php?fbid=939401296422295&set=a.119026958459737&type=3&theater",
+      img:
+        "https://www.facebook.com/photo.php?fbid=939401296422295&set=a.119026958459737&type=3&theater",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/jake-heath-0b38aa196/",
@@ -14017,7 +14403,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Necula Andra Gabriela",
-      img: "https://avatars1.githubusercontent.com/u/37038210?s=460&u=6b75e01966e1e0fc7a885859c169e4ebd81ed800&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/37038210?s=460&u=6b75e01966e1e0fc7a885859c169e4ebd81ed800&v=4",
       links: {
         website: "https://dummy-andra.github.io/index.html",
         linkedin: "https://www.linkedin.com/in/neculaandra/",
@@ -14033,7 +14420,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jared Morris",
-      img: "https://media-exp1.licdn.com/dms/image/C5603AQHKOVBHLYk9LA/profile-displayphoto-shrink_200_200/0?e=1597881600&v=beta&t=N6Qo17q5r_5DsmaEZrCv53BMraSsQqv_F4jG9MupWWo",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C5603AQHKOVBHLYk9LA/profile-displayphoto-shrink_200_200/0?e=1597881600&v=beta&t=N6Qo17q5r_5DsmaEZrCv53BMraSsQqv_F4jG9MupWWo",
       links: {
         website: "https://www.jaredmsoftwares.com/",
         linkedin: "https://www.linkedin.com/in/jared-morris-b43527b9/",
@@ -14065,7 +14453,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Alabi Muhydeen Olaniyi",
-      img: "https://gitlab.com/uploads/-/system/user/avatar/6062175/avatar.png?width=400",
+      img:
+        "https://gitlab.com/uploads/-/system/user/avatar/6062175/avatar.png?width=400",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/alabi-muhydeen-o-46a9348a/",
@@ -14081,7 +14470,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Chuck Baisch",
-      img: "https://avatars2.githubusercontent.com/u/58837693?s=460&u=1256e0355690a3f231594c993d3ee29fd26e5d7c&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/58837693?s=460&u=1256e0355690a3f231594c993d3ee29fd26e5d7c&v=4",
       links: {
         website: "https://www.baischdevelopment.com/",
         linkedin: "https://www.linkedin.com/in/charles-baisch/",
@@ -14129,7 +14519,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Wellington Lopes",
-      img: "https://avatars0.githubusercontent.com/u/1489470?s=400&u=8c9776c63520d19541862b8138a188193effb967&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/1489470?s=400&u=8c9776c63520d19541862b8138a188193effb967&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/wellington-lopes-15690/",
@@ -14161,7 +14552,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Peter Kang",
-      img: "https://avatars1.githubusercontent.com/u/57653839?s=400&u=053fa2d039ab1cac516b05a50e1a0a4cf378f4d2&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/57653839?s=400&u=053fa2d039ab1cac516b05a50e1a0a4cf378f4d2&v=4",
       links: {
         website: "https://www.pswk1.com/",
         linkedin: "https://www.linkedin.com/in/peterswkang/",
@@ -14209,7 +14601,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Adam Galek",
-      img: "https://media-exp1.licdn.com/dms/image/C5603AQHgFFiiRJtXiw/profile-displayphoto-shrink_400_400/0?e=1598486400&v=beta&t=e8IPsJSON9zKNJG8A1lgTN0Jt8D347iIA-CasjQGvZE",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C5603AQHgFFiiRJtXiw/profile-displayphoto-shrink_400_400/0?e=1598486400&v=beta&t=e8IPsJSON9zKNJG8A1lgTN0Jt8D347iIA-CasjQGvZE",
       links: {
         website: "https://www.adamgalek.ca",
         linkedin: "https://www.linkedin.com/in/adamgalek/",
@@ -14257,13 +14650,15 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jallah Sumbo",
-      img: "https://avatars1.githubusercontent.com/u/31574317?s=460&u=9b6f28dcb60fab40e1a5cccb5776ccb19a52dace&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/31574317?s=460&u=9b6f28dcb60fab40e1a5cccb5776ccb19a52dace&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/jallah-sumbo-222b25113/",
         github: "https://github.com/Sumbo-1",
       },
-      jobTitle: "Software Developer | Open Source Enthusiast | Aspiring Data Scientist",
+      jobTitle:
+        "Software Developer | Open Source Enthusiast | Aspiring Data Scientist",
       location: {
         city: "Monrovia",
         state: "Montserrado",
@@ -14273,7 +14668,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Krunal Mistry",
-      img: "https://avatars3.githubusercontent.com/u/43079622?s=400&u=9e22282eb55d5f10d5c843cb7231c27921541699&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/43079622?s=400&u=9e22282eb55d5f10d5c843cb7231c27921541699&v=4",
       links: {
         website: "https://kmist1.herokuapp.com/",
         linkedin: "https://www.linkedin.com/in/krunal-mistry",
@@ -14321,7 +14717,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Rishikesh Mishra",
-      img: "https://avatars1.githubusercontent.com/u/54947439?s=460&u=db1c8d20adbb31328a878cc95e6467135b9ad144&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/54947439?s=460&u=db1c8d20adbb31328a878cc95e6467135b9ad144&v=4",
       links: {
         website: "https://rishikeshmishra.netlify.app/",
         linkedin: "https://www.linkedin.com/in/rishikesh-mishra-b98a20156/",
@@ -14352,7 +14749,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Andre Derjagin",
-      img: "https://avatars3.githubusercontent.com/u/38507921?s=400&u=e9dad4aee381e105510cb01ff6957e8dd054f148&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/38507921?s=400&u=e9dad4aee381e105510cb01ff6957e8dd054f148&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/andre-derjagin-94b0271a6/",
@@ -14368,7 +14766,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Thomas Hooper",
-      img: "https://avatars3.githubusercontent.com/u/28743134?s=400&u=ea2b9ed5ceb33c82e176869bca455e84748f4c25&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/28743134?s=400&u=ea2b9ed5ceb33c82e176869bca455e84748f4c25&v=4",
       links: {
         website: "https://tomhoopermedia.netlify.app/",
         linkedin: "https://www.linkedin.com/in/tjhooper88/",
@@ -14528,7 +14927,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Zakwan Jaroucheh",
-      img: "https://media-exp1.licdn.com/dms/image/C5603AQF0-Qxuno2WzA/profile-displayphoto-shrink_800_800/0?e=1600300800&v=beta&t=pxan3CupFeU-3eyF6QAvUG5H6aqoL9khkYlqFmzS420",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C5603AQF0-Qxuno2WzA/profile-displayphoto-shrink_800_800/0?e=1600300800&v=beta&t=pxan3CupFeU-3eyF6QAvUG5H6aqoL9khkYlqFmzS420",
       links: {
         website: "http://tbc.com",
         linkedin: "https://www.linkedin.com/in/zakwanjaroucheh/",
@@ -14544,7 +14944,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "James George",
-      img: "https://avatars2.githubusercontent.com/u/31826910?s=460&u=8ce9e4beae40a875dac2095be6488fabc81cbb42&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/31826910?s=460&u=8ce9e4beae40a875dac2095be6488fabc81cbb42&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/jjg-4862/",
@@ -14560,7 +14961,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Mark Phillips",
-      img: "https://avatars1.githubusercontent.com/u/9022851?s=400&u=911af348a1b4a5ac68322976020ea82bb810f9be&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/9022851?s=400&u=911af348a1b4a5ac68322976020ea82bb810f9be&v=4",
       links: {
         website: "https://phillstack.com/",
         linkedin: "https://www.linkedin.com/in/mphill05/",
@@ -14608,7 +15010,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Shivam Mehta",
-      img: "https://avatars0.githubusercontent.com/u/50650500?s=460&u=179419b33e43c487c9729902be031b8f4b700904&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/50650500?s=460&u=179419b33e43c487c9729902be031b8f4b700904&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/shivam-mehta-b09724189/",
@@ -14624,7 +15027,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Siddharth Singh",
-      img: "https://avatars1.githubusercontent.com/u/59444018?s=400&u=40c2ca897c4ced6f000428cbb6c56e3c35f4b5de&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/59444018?s=400&u=40c2ca897c4ced6f000428cbb6c56e3c35f4b5de&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/siddharth-singh-539a581a4/",
@@ -14656,7 +15060,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Shubham Jain",
-      img: "https://avatars1.githubusercontent.com/u/33689620?s=400&u=70c2ac54dae67f4be4db42c2253156236f9ee2c8&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/33689620?s=400&u=70c2ac54dae67f4be4db42c2253156236f9ee2c8&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/shubhamjain2908/",
@@ -14704,7 +15109,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Maaz Ahmad Khan",
-      img: "https://avatars1.githubusercontent.com/u/26876218?s=400&u=04502e2e0d4a1838c7b55f2aa7ac460c5a4ffd54&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/26876218?s=400&u=04502e2e0d4a1838c7b55f2aa7ac460c5a4ffd54&v=4",
       links: {
         website: "https://github.com/MAK947/maaz-khan-portfolio",
         linkedin: "https://www.linkedin.com/in/maaz-khan-663226147/",
@@ -14752,7 +15158,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Maaz Ahmad Khan",
-      img: "https://avatars1.githubusercontent.com/u/26876218?s=400&u=04502e2e0d4a1838c7b55f2aa7ac460c5a4ffd54&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/26876218?s=400&u=04502e2e0d4a1838c7b55f2aa7ac460c5a4ffd54&v=4",
       links: {
         website: "https://github.com/MAK947/maaz-khan-portfolio",
         linkedin: "https://www.linkedin.com/in/maaz-khan-663226147/",
@@ -14864,7 +15271,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Matthew Fuller",
-      img: "https://avatars3.githubusercontent.com/u/60648209?s=460&u=41cd26225a006c91e19719aeee4b1e88559befda&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/60648209?s=460&u=41cd26225a006c91e19719aeee4b1e88559befda&v=4",
       links: {
         website: "http://www.mjfuller.uk/",
         linkedin: "https://www.linkedin.com/in/matthew-fuller-2101071a9/",
@@ -14880,7 +15288,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Cal Nunnelee",
-      img: "https://avatars0.githubusercontent.com/u/68441971?s=460&u=637a7cd6d18ffdfe24c52da0cfc5346fb8e41167&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/68441971?s=460&u=637a7cd6d18ffdfe24c52da0cfc5346fb8e41167&v=4",
       links: {
         website: "nunnelee316.pythonanywhere.com",
         linkedin: "www.linkedin.com/in/calaway-nunnelee-316brent",
@@ -14976,7 +15385,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Mahya Sadeghi",
-      img: "https://avatars3.githubusercontent.com/u/23086562?s=460&u=1403d70b3d25a9cc46d09405c4a50bcea9e7dd26&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/23086562?s=460&u=1403d70b3d25a9cc46d09405c4a50bcea9e7dd26&v=4",
       links: {
         website: "http://www.emahya.com",
         linkedin: "https://www.linkedin.com/in/mahyasadeghi/",
@@ -15168,7 +15578,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Hamza Yousuf",
-      img: "https://avatars3.githubusercontent.com/u/48496170?s=460&u=2b7c7b73eb00d5b90bef96e6903d82dcb1522eea&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/48496170?s=460&u=2b7c7b73eb00d5b90bef96e6903d82dcb1522eea&v=4",
       links: {
         website: "https://sites.google.com/view/hamzaeportfolio ",
         linkedin: "https://www.linkedin.com/in/hamzayousuf121/ ",
@@ -15295,7 +15706,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Bruno Leandro DaSilva",
-      img: "https://res.cloudinary.com/duprwuo4j/image/upload/v1578119088/imgs_starwars/imgs/Bruno-Profile_jsk4wb.png",
+      img:
+        "https://res.cloudinary.com/duprwuo4j/image/upload/v1578119088/imgs_starwars/imgs/Bruno-Profile_jsk4wb.png",
       links: {
         website: "https://www.bruno-dasilva.com/",
         linkedin: "https://www.linkedin.com/in/bruno-dasilva/",
@@ -15333,7 +15745,8 @@ export const data = {
         linkedin: "https://www.linkedin.com/in/purav-parekh-86121b98/",
         github: "https://github.com/purav-parekh",
       },
-      jobTitle: "Front-End Developer | Full-Stack Developer | Software Developer",
+      jobTitle:
+        "Front-End Developer | Full-Stack Developer | Software Developer",
       location: {
         city: "Bangalore, Remote",
         state: "Karnataka, Remote",
@@ -15376,7 +15789,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Jasmin Rowdy",
-      img: "https://avatars0.githubusercontent.com/u/58674083?s=460&u=be994ec86c3be372599765e7a2335353a0d95a79&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/58674083?s=460&u=be994ec86c3be372599765e7a2335353a0d95a79&v=4",
       links: {
         website: "https://jrowdy.github.io/React-Portfolio/#/",
         linkedin: "https://www.linkedin.com/in/jrowdy-2020613/",
@@ -15392,13 +15806,15 @@ export const data = {
     {
       id: uuidv4(),
       name: "Mohammad Solgi",
-      img: "https://avatars3.githubusercontent.com/u/65813366?s=400&u=4752dadd33efe830a095a2306ef5f4e797315bda&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/65813366?s=400&u=4752dadd33efe830a095a2306ef5f4e797315bda&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mohammad-solgi-a68841111/",
         github: "https://github.com/SolgiDeveloper",
       },
-      jobTitle: "Software Engineer | Full Stack Developer | Javascript Developer",
+      jobTitle:
+        "Software Engineer | Full Stack Developer | Javascript Developer",
       location: {
         city: "Nahavand",
         state: "Hamedan",
@@ -15472,7 +15888,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Sohail Shaikh",
-      img: "https://avatars0.githubusercontent.com/u/69633245?s=460&u=74c6756642a2b240478e94cbe961505540511507&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/69633245?s=460&u=74c6756642a2b240478e94cbe961505540511507&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/sohail-shaikh-0193/",
@@ -15504,7 +15921,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Seungtae Moon",
-      img: "https://drive.google.com/file/d/1k8CuORE-whF8QWjmRFANKLiD23HDaHy-/view?usp=sharing",
+      img:
+        "https://drive.google.com/file/d/1k8CuORE-whF8QWjmRFANKLiD23HDaHy-/view?usp=sharing",
       links: {
         website: "https://medium.com/@conanmoon",
         linkedin: "https://www.linkedin.com/in/conanmoon/",
@@ -15539,7 +15957,8 @@ export const data = {
       img: "https://avatars1.githubusercontent.com/u/49142525?v=4",
       links: {
         website: "",
-        linkedin: "https://www.linkedin.com/in/himanshu-ramesh-agarwal-360850175",
+        linkedin:
+          "https://www.linkedin.com/in/himanshu-ramesh-agarwal-360850175",
         github: "https://github.com/himanshuagarwal12",
       },
       jobTitle: "Web Developer",
@@ -15620,7 +16039,8 @@ export const data = {
       img: "https://github.com/sidhumeher.png",
       links: {
         website: "",
-        linkedin: "https://www.linkedin.com/in/siddardha-meher-teegela-04110a112/",
+        linkedin:
+          "https://www.linkedin.com/in/siddardha-meher-teegela-04110a112/",
         github: "https://github.com/sidhumeher",
       },
       jobTitle: "Software Developer in Test",
@@ -15666,7 +16086,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Sameer katija",
-      img: "https://avatars0.githubusercontent.com/u/29888963?s=460&u=65e550dd78a70d3b2f9c44c4b3d7183bef64ebf8&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/29888963?s=460&u=65e550dd78a70d3b2f9c44c4b3d7183bef64ebf8&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/sameerkatija/",
