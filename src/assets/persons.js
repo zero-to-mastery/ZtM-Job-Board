@@ -21,6 +21,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Khaled Mohamed Hassan",
+      img: "https://avatars2.githubusercontent.com/u/68192463?s=400&u=21cfabaf531ec65dfc121a85389d5c39c96fecdc&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/khaled-m-hassan/",
+        github: "https://github.com/kh-khalil"
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "El Shorouk",
+        state: "Cairo",
+        country: "Egypt"
+      }
+    },
+    {
+      id: uuidv4(),
       name: "Catana Andrei - Adrian",
       img: "https://avatars0.githubusercontent.com/u/44205366?v=4",
       links: {
