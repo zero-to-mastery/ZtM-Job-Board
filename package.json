@@ -2,11 +2,11 @@
   "name": "jobboard",
   "version": "0.2.0",
   "private": true,
-  "homepage": "https://zero-to-mastery.github.io/ZtM-Job-Board",
+  "homepage": "https://alumni-board.netlify.app/",
   "dependencies": {
     "@types/jest": "^25.1.4",
     "@types/node": "^13.9.5",
-    "@types/react": "^16.9.27",
+    "@types/react": "^16.9.41",
     "@types/react-dom": "^16.9.5",
     "@types/react-lazyload": "^2.6.0",
     "@types/react-leaflet": "^2.5.1",
@@ -28,6 +28,14 @@
     "uuid": "^8.2.0",
     "webfontloader": "^1.6.28"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --write"
+  },
   "scripts": {
     "start": "npm-run-all -p watch-css start-js",
     "watch-css": "npm run build-css && node-sass-chokidar ./src/ --output ./src/ --output-style compressed --watch --recursive",
@@ -43,7 +51,10 @@
     "@babel/helper-call-delegate": "^7.10.3",
     "gh-pages": "^2.1.1",
     "glob-all": "^3.1.0",
+    "husky": "^4.2.5",
     "jsonlint": "^1.6.3",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
     "purgecss-webpack-plugin": "^1.6.0"
   },
   "browserslist": [
