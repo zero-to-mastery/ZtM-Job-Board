@@ -13358,5 +13358,21 @@ export const data = {
         "country": "South Africa"
       }
     },
+    {
+      "id": uuidv4(),
+      "name": "Avinash Konduri",
+      "img": "https://photos.app.goo.gl/u3zmdifVgoNhv7rQ9",
+      "links": {
+        "website": "https://avinashkonduri.github.io/PersonalSite/",
+        "linkedin": "https://www.linkedin.com/in/avinash-konduri-b212a711/",
+        "github": "https://github.com/avinashkonduri/"
+      },
+      "jobTitle": "Full Stack Developer",
+      "location": {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "country": "India"
+      }
+    },
   ]
 }
