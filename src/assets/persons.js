@@ -16116,5 +16116,21 @@ export const data = {
         country: "India",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Cris Vizcaino",
+      img: "https://bit.ly/34yhexk",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/cristobalvizcaino/",
+        github: "https://github.com/Grizzly82"
+      },
+      jobTitle: "Developer/Analyst",
+      location: {
+        city: "Redmond",
+        state: "Washington",
+        country: "USA"
+      },
+    },
   ],
 }
