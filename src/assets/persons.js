@@ -13708,11 +13708,6 @@ export const data = {
       "location": {
         "city": "Hyderabad",
         "state": "Telangana",
-        "country": "India"
-      }
-    },
-  ]
-=======
         country: "India",
       },
     },
