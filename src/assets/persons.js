@@ -13698,7 +13698,7 @@ export const data = {
     {
       "id": uuidv4(),
       "name": "Avinash Konduri",
-      "img": "https://photos.app.goo.gl/u3zmdifVgoNhv7rQ9",
+      "img": "https://avatars1.githubusercontent.com/u/29941976?v=4",
       "links": {
         "website": "https://avinashkonduri.github.io/PersonalSite/",
         "linkedin": "https://www.linkedin.com/in/avinash-konduri-b212a711/",
