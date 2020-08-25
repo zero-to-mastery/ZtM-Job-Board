@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react"
 import LazyLoad from "react-lazyload"
 
 const defaultImageDataURI =
@@ -8,12 +8,11 @@ const addDefaultImg = (e: any) => {
   // prevent infinite callbacks if 404 image fails
   e.target.onError = null
   e.target.src = defaultImageDataURI
-  console.log("Image not found!")
 }
 const Card = ({ user }: any) => {
   let { id, img, name, jobTitle, location, links } = user
 
-  if (id !== undefined) {
+  if (id) {
     return (
       <div
         id={`person-${id}`}
@@ -25,10 +24,10 @@ const Card = ({ user }: any) => {
               className="photo relative br-100 bw2 b--solid custom--b--primary bg-center object-fit-cover"
               height="128px"
               width="128px"
-              src={img !== "" ? `${img}` : defaultImageDataURI}
+              src={img || defaultImageDataURI}
               alt={name}
               loading="lazy"
-              onError={e => addDefaultImg(e)}
+              onError={(e) => addDefaultImg(e)}
             />
           </LazyLoad>
           <h2 className="name mt3 mb1 ph3 w-100 flex items-center justify-center">

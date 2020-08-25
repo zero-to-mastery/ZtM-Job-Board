@@ -1,4 +1,4 @@
-import React, { useState, lazy, Suspense } from 'react';
+import React, { useState, lazy, Suspense } from "react"
 import Search from "./components/Search"
 import { createFilter } from "react-search-input"
 import { shuffle } from "./util/shuffle"
@@ -6,6 +6,7 @@ import "./styles/SearchBarMobileView.scss"
 import BatchCards from "./components/BatchCards"
 import Navbar from "./components/Navbar"
 import { data } from "./assets/persons.js"
+import { pageNames } from "./util/pageNames"
 const SimpleMap = lazy(() => import("./components/Map"))
 
 const people: any = data.people
@@ -35,7 +36,7 @@ function App() {
   const [searchfield, setSearchfield] = useState("")
 
   const [map, setMap] = useState(false)
-  const [mapOrHomeTitle, setMapOrHomeTitle] = useState("Map")
+  const [mapOrHomeTitle, setMapOrHomeTitle] = useState(pageNames.map) // pageNames.map is default
 
   const filteredPersons = (searchFilter: any) =>
     people.filter(createFilter(searchFilter, KEYS_TO_FILTERS))
@@ -52,7 +53,7 @@ function App() {
           onSearchChange={(e: any) => setSearchfield(e.target.value)}
           onMapClick={() => {
             setMap(!map)
-            setMapOrHomeTitle(map ? "Map" : "Home")
+            setMapOrHomeTitle(map ? pageNames.map : pageNames.home)
           }}
           mapOrHomeTitle={mapOrHomeTitle}
         />
