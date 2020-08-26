@@ -16310,6 +16310,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Bharat Kammakatla",
+      img: "https://avatars1.githubusercontent.com/u/28840761?v=4",
+      links: {
+        website: "https://bharatkammakatla.com",
+        linkedin: "https://www.linkedin.com/in/bharatkammakatla/",
+        github: "https://github.com/BharatKammakatla"
+      },
+      jobTitle: "Data Scientist",
+      location: {
+        city: "Chennai",
+        state: "Tamilnadu",
+        country: "India"
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Prabhat Kr.",
       img: "https://avatars0.githubusercontent.com/u/23253492?v=4",
       links: {
