@@ -1,6 +1,7 @@
 import React from "react"
 import Search from "./Search"
 import "../styles/SearchBarDesktopView.scss"
+import { pageNames } from "../util/pageNames"
 
 const Navbar = ({
   onSearchChange,
@@ -25,12 +26,14 @@ const Navbar = ({
         <span className="f3 mr4 pointer" onClick={onMapClick}>
           {mapOrHomeTitle}
         </span>
-        <div
-          style={{ margin: 0, padding: 0 }}
-          className="visible-on-desktopview-only"
-        >
-          <Search onSearchChange={onSearchChange} />
-        </div>
+        {mapOrHomeTitle === pageNames.map && (
+          <div
+            style={{ margin: 0, padding: 0 }}
+            className="visible-on-desktopview-only"
+          >
+            <Search onSearchChange={onSearchChange} />
+          </div>
+        )}
       </div>
     </div>
   )

@@ -3,20 +3,15 @@ import { Map as LeafletMap, Marker, Popup, TileLayer } from "react-leaflet"
 
 import { countriesWithNumOfDevsObj } from "../util/UsersDataCleanup"
 
-// console.log(countriesWithNumOfDevsObj);
-
 // Array of country names and number of devs in those countries
 /* Needed to match country names from countriesWithNumOfDevsObj against 
 country names fetched from API to get their latitude and longitude for markers */
 const countryNamesAndNumOfDevsArr = Object.entries(countriesWithNumOfDevsObj)
 
-// console.log(countryNamesAndNumOfDevsArr);
-
 let centerLatLngArr: any = []
 
 function SimpleMap({ zoom = 3 }) {
   const [allCountriesLatLang, setAllCountriesLatLang] = useState([])
-
   useEffect(() => {
     // If the user goes back to home before map has loaded, the Map component will unmount
     // but since fetch cannot be cancelled, react will try to setSate on an unmounted component
@@ -38,13 +33,10 @@ function SimpleMap({ zoom = 3 }) {
     }
   }, [])
 
-  // console.log(allCountriesLatLang);
-
   let countriesLatLngArr: any = allCountriesLatLang.map(({ name, latlng }) => ({
     name,
     latlng,
   }))
-  // console.log(countriesLatLngArr);
 
   /* 
   Made separate variable for UK because name of UK in API is "United Kingdom 
