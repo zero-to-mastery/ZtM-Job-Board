@@ -16308,5 +16308,21 @@ export const data = {
         country: "USA"
       },
     },
+    {
+      id: uuidv4(),
+      name: "Prabhat Kr.",
+      img: "https://avatars0.githubusercontent.com/u/23253492?v=4",
+      links: {
+        website: "https://unlikelyusual.github.io/portfolio/index",
+        linkedin: "https://www.linkedin.com/in/prabhat-kumar-b3283012b/",
+        github: "https://github.com/unlikelyUsual"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Gurugram",
+        state: "Haryana",
+        country: "India"
+      }
+    }
   ],
 }
