@@ -16363,5 +16363,23 @@ export const data = {
         country: "India",
       },
     },
+
+    {
+      id: uuidv4(),
+      name: "Rahul Kumar",
+      img:
+        "https://avatars3.githubusercontent.com/u/61938434?v=4",
+      links: {
+        website: "www.rahul1402.me",
+        linkedin: "https://www.linkedin.com/in/rahul-kumar-092ab31a9/",
+        github: "https://github.com/I-rk1413",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Kolkata",
+        state: "West Bengal",
+        country: "India",
+      },
+    },
   ],
 }
