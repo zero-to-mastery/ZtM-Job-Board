@@ -16367,8 +16367,7 @@ export const data = {
     {
       id: uuidv4(),
       name: "Rahul Kumar",
-      img:
-        "https://avatars3.githubusercontent.com/u/61938434?v=4",
+      img: "https://avatars3.githubusercontent.com/u/61938434?v=4",
       links: {
         website: "www.rahul1402.me",
         linkedin: "https://www.linkedin.com/in/rahul-kumar-092ab31a9/",
@@ -16397,5 +16396,21 @@ export const data = {
       country: "India"
     },
   },
+    {
+      id: uuidv4(),
+      name: "Aditya Bargisen Bante",
+      img: "http://www.adityabante.com/images/aditya.png",
+      links: {
+        website: "http://www.adityabante.com/",
+        linkedin: "https://www.linkedin.com/in/adityabante/",
+        github: "https://github.com/Aditya24",
+      },
+      jobTitle: "Frontend Developer",
+      location: {
+        city: "Aarhus",
+        state: "Jylland",
+        country: "Denmark",
+      },
+    },
   ],
 }
