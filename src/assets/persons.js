@@ -16381,6 +16381,22 @@ export const data = {
       },
     },
     {
+    id: uuidv4(),
+    name: "Priyanka Singh",
+    img: "https://avatars1.githubusercontent.com/u/70145106?v=4",
+    links: {
+      website: "https://lifewithpriyanka.wordpress.com/",
+      linkedin: "https://www.linkedin.com/in/priyankaasingh2400/",
+      github: "https://github.com/Priicoder"
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "Noida",
+      state: "Uttar Pradesh",
+      country: "India"
+    },
+  },
+    {
       id: uuidv4(),
       name: "Aditya Bargisen Bante",
       img: "http://www.adityabante.com/images/aditya.png",
