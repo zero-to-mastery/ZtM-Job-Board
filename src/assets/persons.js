@@ -54,6 +54,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Adam Stokowski",
+      img: "https://avatars1.githubusercontent.com/u/62621336?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/coding-benefits-7373a21aa/",
+        github: "https://github.com/adamstok",
+      },
+      jobTitle: "Python Developer",
+      location: {
+        city: "Warsaw",
+        state: "Masovia",
+        country: "Poland",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Atique Ahmed",
       img: "https://atiqueahmed.com/assets/img/mypic.png",
       links: {
@@ -16381,21 +16397,21 @@ export const data = {
       },
     },
     {
-    id: uuidv4(),
-    name: "Priyanka Singh",
-    img: "https://avatars1.githubusercontent.com/u/70145106?v=4",
-    links: {
-      website: "https://lifewithpriyanka.wordpress.com/",
-      linkedin: "https://www.linkedin.com/in/priyankaasingh2400/",
-      github: "https://github.com/Priicoder"
+      id: uuidv4(),
+      name: "Priyanka Singh",
+      img: "https://avatars1.githubusercontent.com/u/70145106?v=4",
+      links: {
+        website: "https://lifewithpriyanka.wordpress.com/",
+        linkedin: "https://www.linkedin.com/in/priyankaasingh2400/",
+        github: "https://github.com/Priicoder",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Noida",
+        state: "Uttar Pradesh",
+        country: "India",
+      },
     },
-    jobTitle: "Full Stack Developer",
-    location: {
-      city: "Noida",
-      state: "Uttar Pradesh",
-      country: "India"
-    },
-  },
     {
       id: uuidv4(),
       name: "Aditya Bargisen Bante",
