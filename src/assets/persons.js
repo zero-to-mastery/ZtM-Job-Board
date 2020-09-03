@@ -16428,5 +16428,21 @@ export const data = {
         country: "Denmark",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Mabast Ahmad",
+      img: "https://avatars2.githubusercontent.com/u/16745236?v=4",
+      links: {
+        website: "https://github.com/Mabast1",
+        linkedin: "https://www.linkedin.com/in/mabast/",
+        github: "https://github.com/Mabast1"
+      },
+      jobTitle: "Full-Stack Web Developer",
+      location: {
+        city: "Houston",
+        state: "Texas",
+        country: "USA"
+      }
+    }
   ],
 }
