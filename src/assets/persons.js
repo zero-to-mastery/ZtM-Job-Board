@@ -16443,6 +16443,22 @@ export const data = {
         state: "Texas",
         country: "USA"
       }
+    },
+    {
+      id: uuidv4(),
+      name: "Tushar Nankani",
+      img: "https://avatars1.githubusercontent.com/u/61280281?v=4",
+      links: {
+        website: "https://github.com/tusharnankani",
+        linkedin: "https://www.linkedin.com/in/tusharnankani/",
+        github: "https://github.com/tusharnankani"
+      },
+      jobTitle: "Aspiring Software Developer",
+      location: {
+        city: "Mumbai",
+        state: "Maharashtra",
+        country: "India"
+      }
     }
   ],
 }
