@@ -16435,14 +16435,14 @@ export const data = {
       links: {
         website: "https://github.com/Mabast1",
         linkedin: "https://www.linkedin.com/in/mabast/",
-        github: "https://github.com/Mabast1"
+        github: "https://github.com/Mabast1",
       },
       jobTitle: "Full-Stack Web Developer",
       location: {
         city: "Houston",
         state: "Texas",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -16451,14 +16451,30 @@ export const data = {
       links: {
         website: "https://github.com/tusharnankani",
         linkedin: "https://www.linkedin.com/in/tusharnankani/",
-        github: "https://github.com/tusharnankani"
+        github: "https://github.com/tusharnankani",
       },
       jobTitle: "Aspiring Software Developer",
       location: {
         city: "Mumbai",
         state: "Maharashtra",
-        country: "India"
-      }
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Adil Nawaz",
+      img: "https://avatars2.githubusercontent.com/u/61464438?v=4",
+      links: {
+        website: "https://portfolio-an.web.app/",
+        linkedin: "https://www.linkedin.com/in/adil-nawaz-0a1294152/",
+        github: "https://github.com/naw7az",
+      },
+      jobTitle: "Software and Fullstack Developer",
+      location: {
+        city: "Port Blair",
+        state: "Andaman and Nicobar Islands",
+        country: "India",
+      },
     }
   ],
 }
