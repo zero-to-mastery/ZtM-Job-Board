@@ -16508,5 +16508,21 @@ export const data = {
         country: "USA",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Rahul PM",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/rahul-pm-67420a14b/",
+        github: "https://github.com/Rahul-PM",
+      },
+      jobTitle: "Front End Developer",
+      location: {
+        city: "Kochi",
+        state: "Kerala",
+        country: "India",
+      },
+    }
   ],
 }
