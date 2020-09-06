@@ -16501,7 +16501,7 @@ export const data = {
         linkedin: "https://www.linkedin.com/in/giuliano-gabella-821b0a5a/",
         github: "https://github.com/ggabella91",
       },
-      jobTitle: "Software Engineer",
+      jobTitle: "Full Stack Developer",
       location: {
         city: "El Segundo",
         state: "California",
