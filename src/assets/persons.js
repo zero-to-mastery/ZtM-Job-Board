@@ -16492,5 +16492,21 @@ export const data = {
         country: "USA",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Giuliano Gabella",
+      img: "https://avatars1.githubusercontent.com/u/65468674?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/giuliano-gabella-821b0a5a/",
+        github: "",
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "El Segundo",
+        state: "California",
+        country: "USA",
+      },
+    },
   ],
 }
