@@ -16499,7 +16499,7 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/giuliano-gabella-821b0a5a/",
-        github: "",
+        github: "https://github.com/ggabella91",
       },
       jobTitle: "Software Engineer",
       location: {
