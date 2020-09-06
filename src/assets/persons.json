@@ -12657,6 +12657,22 @@
         "state": "Telangana",
         "country": "India"
       }
-    }
+    },
+    {
+  "id":876,
+  "name": "MD Rakibul Hassan",
+  "img":"https://media-exp1.licdn.com/dms/image/C4E03AQH0kuO7pfNBqQ/profile-displayphoto-shrink_400_400/0?e=1605139200&v=beta&t=RiBhwLN99QWuU2J6BH9c5Tr38-BCBfoGSPK154VNbZM",
+  "links": {
+    "website": "https://rakibul.pythonanywhere.com/",
+    "linkedin": "https://www.linkedin.com/in/tanvirakibul/",
+    "github": "https://github.com/tanvirakibul"
+  },
+  "jobtitle": "Web Developer, Machine Learning Engineer",
+  "location": {
+    "city": "Dhaka",
+    "state": "Dhaka",
+    "country": "Bangladesh"
+  }
+}
   ]
 }
