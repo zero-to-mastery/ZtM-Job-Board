@@ -16475,6 +16475,22 @@ export const data = {
         state: "Andaman and Nicobar Islands",
         country: "India",
       },
-    }
+    },
+    {
+      id: uuidv4(),
+      name: "Ben Hsieh",
+      img: "https://avatars2.githubusercontent.com/u/43966507?v=4",
+      links: {
+        website: "https://benhsieh-dev.github.io/",
+        linkedin: "https://www.linkedin.com/in/ben-hsieh-05522542/",
+        github: "https://github.com/benhsieh-dev",
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "Elmhurst",
+        state: "New York",
+        country: "USA",
+      },
+    },
   ],
 }
