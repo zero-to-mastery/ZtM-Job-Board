@@ -16541,5 +16541,21 @@ export const data = {
         country: "India",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Sadegh Khan",
+      img: "https://avatars2.githubusercontent.com/u/10074809?v=4",
+      links: {
+        website: "http://sadegh-khan.ir",
+        linkedin: "https://www.linkedin.com/in/mohammad-sadegh-salehi-6917436b/",
+        github: "https://github.com/sadegh-khan",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Tehran",
+        state: "Tehran Province",
+        country: "Iran",
+      },
+    },
   ],
 }
