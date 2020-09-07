@@ -16526,6 +16526,23 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Yoginder Kumar",
+      img:
+        "https://res.cloudinary.com/complex-coder/image/upload/v1583047820/complex%20coder/abhishek/IMG-20181021-WA0018_hew1hp.jpg",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/yoginderkumar/",
+        github: "https://github.com/yoginderkumar2510",
+      },
+      jobTitle: "Frontend Engineer",
+      location: {
+        city: "New Delhi",
+        state: "Delhi",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Sadegh Khan",
       img: "https://avatars2.githubusercontent.com/u/10074809?v=4",
       links: {
@@ -16539,6 +16556,6 @@ export const data = {
         state: "Tehran Province",
         country: "Iran",
       },
-    }
+    },
   ],
 }
