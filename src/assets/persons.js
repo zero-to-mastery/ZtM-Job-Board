@@ -16557,5 +16557,21 @@ export const data = {
         country: "Iran",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Igor Azikov",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/igor-azikov-1a2a481b5/",
+        github: "https://github.com/Garrik777"
+      },
+      jobTitle: "Backend developer",
+      location: {
+        city: "Las Americas",
+        state: "Arona",
+        country: "Spain"
+      },
+    }
   ],
 }
