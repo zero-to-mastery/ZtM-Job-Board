@@ -16379,7 +16379,6 @@ export const data = {
         country: "India",
       },
     },
-
     {
       id: uuidv4(),
       name: "Rahul Kumar",
@@ -16556,6 +16555,39 @@ export const data = {
         city: "Tehran",
         state: "Tehran Province",
         country: "Iran",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Philip Cook",
+      img:
+        "https://avatars2.githubusercontent.com/u/48547265?s=400&u=de28b2d9f83226fc90b49ea3a0d39201049d7c85&v=4",
+      links: {
+        website: "VoodooScience1.github.io",
+        linkedin: "https://www.linkedin.com/in/philipdavidcook/",
+        github: "https://github.com/VoodooScience1/VoodooScience1.github.io",
+      },
+      jobTitle: "Commercial Engineer, Aerospace",
+      location: {
+        city: "Portsmouth",
+        state: "Hampshire",
+        country: "UK",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Chansoo Kim",
+      img: "https://avatars3.githubusercontent.com/u/58630853?v=4",
+      links: {
+        website: "https://chansoo-portfolio.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/chansoo-kim/",
+        github: "https://github.com/ChansooKim316",
+      },
+      jobTitle: "Junior Web Developer",
+      location: {
+        city: "Boston",
+        state: "Massachusetts",
+        country: "United States",
       },
     },
     {
