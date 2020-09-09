@@ -1,11 +1,20 @@
+import { data } from "../assets/persons.js"
 /* CLEAN UP THE persons.json DATA TO MAKE IT EASIER 
 TO MAKE FETCH REQUESTS FOR COUNTRIES AND COORDINATES 
 (LATITUDE, LONGITUDE) AND COMPARE AND MATCH THEM */
 
 import Person from "../interfaces/person"
-import data from "../assets/persons.json"
 
 const people: any = data.people
+
+// Using uuid for the person id
+// const normalizeIDs = () => {
+//   people.forEach((person: Person, index: number) => {
+//     person.id = index + 1
+//   })
+// }
+
+// normalizeIDs()
 
 // Removed all the brackets, extra spaces, symbols and unnecessary stuff from country names
 const allCountryNamesCleaned = people.map((person: Person) => {

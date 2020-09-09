@@ -11475,22 +11475,6 @@
                 "state": "",
                 "country": "United Kingdom"
             }
-        },
-        {
-            "id": 812,
-            "name": "Min Shin Khant",
-            "img": "https://raw.githubusercontent.com/minshinkhant/minshinkhant.github.io/master/static/assets/images/profile.JPG?token=ALJFDG6LMY73IWYYLREO65K7MF6PE",
-            "links": {
-                "website": "https://minshinkhant.github.io/",
-                "linkedin": "https://www.linkedin.com/in/minshinkhant/",
-                "github": "https://github.com/minshinkhant"
-            },
-            "jobTitle": "Python Developer",
-            "location": {
-                "city": "Brooklyn",
-                "state": "New York",
-                "country": "United States"
-            }
         }
     ]
 }

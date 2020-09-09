@@ -1,8 +1,14 @@
 import React from "react"
 import Search from "./Search"
 import "../styles/SearchBarDesktopView.scss"
+import { pageNames } from "../util/pageNames"
 
-const Navbar = ({ onSearchChange, onMapClick, onLogoClick }: any) => {
+const Navbar = ({
+  onSearchChange,
+  onMapClick,
+  onLogoClick,
+  mapOrHomeTitle,
+}: any) => {
   return (
     <div className="header-items flex flex-wrap justify-between">
       <h1
@@ -18,14 +24,16 @@ const Navbar = ({ onSearchChange, onMapClick, onLogoClick }: any) => {
       </h1>
       <div className="flex items-center">
         <span className="f3 mr4 pointer" onClick={onMapClick}>
-          Map
+          {mapOrHomeTitle}
         </span>
-        <div
-          style={{ margin: 0, padding: 0 }}
-          className="visible-on-desktopview-only"
-        >
-          <Search onSearchChange={onSearchChange} />
-        </div>
+        {mapOrHomeTitle === pageNames.map && (
+          <div
+            style={{ margin: 0, padding: 0 }}
+            className="visible-on-desktopview-only"
+          >
+            <Search onSearchChange={onSearchChange} />
+          </div>
+        )}
       </div>
     </div>
   )

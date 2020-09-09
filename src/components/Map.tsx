@@ -1,35 +1,42 @@
 import React, { useEffect, useState } from "react"
-import { Map as LeafletMap, TileLayer, Marker, Popup } from "react-leaflet"
-import { countriesWithNumOfDevsObj } from "../util/UsersDataCleanup"
+import { Map as LeafletMap, Marker, Popup, TileLayer } from "react-leaflet"
 
-// console.log(countriesWithNumOfDevsObj);
+import { countriesWithNumOfDevsObj } from "../util/UsersDataCleanup"
 
 // Array of country names and number of devs in those countries
 /* Needed to match country names from countriesWithNumOfDevsObj against 
 country names fetched from API to get their latitude and longitude for markers */
 const countryNamesAndNumOfDevsArr = Object.entries(countriesWithNumOfDevsObj)
 
-// console.log(countryNamesAndNumOfDevsArr);
-
 let centerLatLngArr: any = []
 
 function SimpleMap({ zoom = 3 }) {
   const [allCountriesLatLang, setAllCountriesLatLang] = useState([])
-
   useEffect(() => {
-    fetch(`https://restcountries.eu/rest/v2/all`)
-      .then(resp => resp.json())
-      .then(data => setAllCountriesLatLang(data))
-      .catch(err => console.error(err))
+    // If the user goes back to home before map has loaded, the Map component will unmount
+    // but since fetch cannot be cancelled, react will try to setSate on an unmounted component
+    // when the fetch Promise resolves
+    // This throws memory leak error so isComponentSubscribedToPromise is used as a flag
+    // to check if the component was unmounted before setting state
+    // and setAllCountriesLatLang is not called if Map component has unmounted
+    let isComponentSubscribedToPromise = true
+    if (isComponentSubscribedToPromise) {
+      fetch(`https://restcountries.eu/rest/v2/all`)
+        .then((resp) => resp.json())
+        .then((data) => {
+          if (isComponentSubscribedToPromise) setAllCountriesLatLang(data)
+        })
+        .catch((err) => console.error(err))
+    }
+    return () => {
+      isComponentSubscribedToPromise = false
+    }
   }, [])
-
-  // console.log(allCountriesLatLang);
 
   let countriesLatLngArr: any = allCountriesLatLang.map(({ name, latlng }) => ({
     name,
-    latlng
+    latlng,
   }))
-  // console.log(countriesLatLngArr);
 
   /* 
   Made separate variable for UK because name of UK in API is "United Kingdom 
@@ -38,7 +45,7 @@ function SimpleMap({ zoom = 3 }) {
   const UK = {
     country: "United Kingdom",
     latlng: [54, -2], // copied from API
-    numberOfDevs: countriesWithNumOfDevsObj["United Kingdom"]
+    numberOfDevs: countriesWithNumOfDevsObj["United Kingdom"],
   }
 
   // Two nested for loops are okay as array items will always be < 250 in both arrays
@@ -53,7 +60,7 @@ function SimpleMap({ zoom = 3 }) {
           finalArrayWithCountryAndLatLng.push({
             country: countryNamesAndNumOfDevsArr[i][0],
             latlng: countriesLatLngArr[j].latlng,
-            numberOfDevs: countryNamesAndNumOfDevsArr[i][1]
+            numberOfDevs: countryNamesAndNumOfDevsArr[i][1],
           })
         }
       }
@@ -107,7 +114,7 @@ function SimpleMap({ zoom = 3 }) {
     }
   )
 
-  const center =
+  const center: any =
     centerLatLngArr.length > 0
       ? [centerLatLngArr[0].lat, centerLatLngArr[0].lng]
       : [55.378052, -3.435973]
@@ -115,6 +122,7 @@ function SimpleMap({ zoom = 3 }) {
   return (
     <div style={{ height: "90vh", width: "100%", margin: 0 }}>
       <LeafletMap
+        center={center}
         zoom={zoom}
         minZoom={1}
         maxZoom={10}
