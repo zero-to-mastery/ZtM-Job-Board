@@ -16573,5 +16573,21 @@ export const data = {
                 country: "UK",
             },
         },
+        {
+            id: uuidv4(),
+            name: "Chansoo Kim",
+            img: "https://avatars3.githubusercontent.com/u/58630853?v=4",
+            links: {
+              website: "https://chansoo-portfolio.netlify.app/",
+              linkedin: "https://www.linkedin.com/in/chansoo-kim/",
+              github: "https://github.com/ChansooKim316"
+            },
+            jobTitle: "Junior Web Developer",
+            location: {
+              city: "Boston",
+              state: "Massachusetts",
+              country: "United States"
+            }
+        }
     ],
 }
