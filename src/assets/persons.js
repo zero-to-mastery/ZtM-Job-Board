@@ -16547,7 +16547,8 @@ export const data = {
       img: "https://avatars2.githubusercontent.com/u/10074809?v=4",
       links: {
         website: "http://sadegh-khan.ir",
-        linkedin: "https://www.linkedin.com/in/mohammad-sadegh-salehi-6917436b/",
+        linkedin:
+          "https://www.linkedin.com/in/mohammad-sadegh-salehi-6917436b/",
         github: "https://github.com/sadegh-khan",
       },
       jobTitle: "Full Stack Developer",
@@ -16555,6 +16556,22 @@ export const data = {
         city: "Tehran",
         state: "Tehran Province",
         country: "Iran",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Gary Hagen",
+      img: "https://i.imgur.com/Xl7oz7S.jpg",
+      links: {
+        website: "https://hagengaryp.com/",
+        linkedin: "https://www.linkedin.com/in/HagenGaryP",
+        github: "https://github.com/HagenGaryP",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Lindenhurst",
+        state: "New York",
+        country: "United States",
       },
     },
   ],
