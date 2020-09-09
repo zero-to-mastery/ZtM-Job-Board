@@ -16588,6 +16588,22 @@ export const data = {
               state: "Massachusetts",
               country: "United States"
             }
+        },
+        {
+            id: uuidv4(),
+            name: "Alex Vihman",
+            img: "https://avatars1.githubusercontent.com/u/19237582?v=4",
+            links: {
+              website: "",
+              linkedin: "https://www.linkedin.com/in/alex-vihman-065b201b1/",
+              github: "https://github.com/alexg657"
+            },
+            jobTitle: "Full Stack Developer",
+            location: {
+              city: "Hadera",
+              state: "",
+              country: "Israel"
+            }
         }
     ],
 }
