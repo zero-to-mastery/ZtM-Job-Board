@@ -16593,6 +16593,23 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Luis Roman",
+      img: "https://avatars3.githubusercontent.com/u/43737954?v=4",
+      links: {
+        website: "https://anzu.netlify.app/",
+        linkedin:
+          "https://www.linkedin.com/in/luis-enrique-roman-pardo-998006164/",
+        github: "https://github.com/goodlucklan",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Lima",
+        state: "Lima",
+        country: "Peru",
+    }
+    },
+    {
+      id: uuidv4(),
       name: "Chansoo Kim",
       img: "https://avatars3.githubusercontent.com/u/58630853?v=4",
       links: {
