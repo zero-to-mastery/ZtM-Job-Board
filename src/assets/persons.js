@@ -16640,5 +16640,21 @@ export const data = {
         country: "Israel",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Furkan Aydogan",
+      img: "https://avatars2.githubusercontent.com/u/28219369?v=4",
+      links: {
+        website: "https://furkanaydgan.github.io/mywebsite.github.io/",
+        linkedin: "https://www.linkedin.com/in/furkanaydogan/",
+        github: "https://github.com/FurkanAydgan",
+      },
+      jobTitle: "Mobile and Web Developer",
+      location: {
+        city: "Istanbul",
+        state: "",
+        country: "Turkey",
+      },
+    },
   ],
 }
