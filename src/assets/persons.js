@@ -16395,7 +16395,6 @@ export const data = {
         country: "India",
       },
     },
-
     {
       id: uuidv4(),
       name: "Rahul Kumar",
@@ -16623,6 +16622,22 @@ export const data = {
         state: "Massachusetts",
         country: "United States",
       },
+    },
+    {
+      id: uuidv4(),
+      name: "Gary Hagen",
+      img: "https://i.imgur.com/Xl7oz7S.jpg",
+      links: {
+        website: "https://hagengaryp.com/",
+        linkedin: "https://www.linkedin.com/in/HagenGaryP",
+        github: "https://github.com/HagenGaryP",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Lindenhurst",
+        state: "New York",
+        country: "United States",
+      }
     },
     {
       id: uuidv4(),
