@@ -54,6 +54,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Musawenkosi Thubane",
+      img: "https://avatars2.githubusercontent.com/u/58530808?v=4",
+      links: {
+        website: "http://musa-thubane96.herokuapp.com/",
+        linkedin: "https://www.linkedin.com/in/musawenkosi-thubane-b08630162",
+        github: "https://github.com/thubane96",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Port Elizabeth",
+        state: "Eastern Cape",
+        country: "South Africa",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Adam Stokowski",
       img: "https://avatars1.githubusercontent.com/u/62621336?v=4",
       links: {
@@ -16576,6 +16592,23 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Luis Roman",
+      img: "https://avatars3.githubusercontent.com/u/43737954?v=4",
+      links: {
+        website: "https://anzu.netlify.app/",
+        linkedin:
+          "https://www.linkedin.com/in/luis-enrique-roman-pardo-998006164/",
+        github: "https://github.com/goodlucklan",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Lima",
+        state: "Lima",
+        country: "Peru",
+    }
+    },
+    {
+      id: uuidv4(),
       name: "Chansoo Kim",
       img: "https://avatars3.githubusercontent.com/u/58630853?v=4",
       links: {
@@ -16604,6 +16637,38 @@ export const data = {
         city: "Lindenhurst",
         state: "New York",
         country: "United States",
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Alex Vihman",
+      img: "https://avatars1.githubusercontent.com/u/19237582?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/alex-vihman-065b201b1/",
+        github: "https://github.com/alexg657",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Hadera",
+        state: "",
+        country: "Israel",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Furkan Aydogan",
+      img: "https://avatars2.githubusercontent.com/u/28219369?v=4",
+      links: {
+        website: "https://furkanaydgan.github.io/mywebsite.github.io/",
+        linkedin: "https://www.linkedin.com/in/furkanaydogan/",
+        github: "https://github.com/FurkanAydgan",
+      },
+      jobTitle: "Mobile and Web Developer",
+      location: {
+        city: "Istanbul",
+        state: "",
+        country: "Turkey",
       },
     },
   ],
