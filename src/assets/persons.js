@@ -16671,5 +16671,20 @@ export const data = {
         country: "Turkey",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Chris Fonseca",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/christopher-fonseca-822434b9/",
+        github: "https://github.com/cfonseca2013",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Miami",
+        state: "Florida",
+        country: "United States",
+      },
   ],
 }
