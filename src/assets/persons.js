@@ -16688,5 +16688,22 @@ export const data = {
         country: "Czech Republic",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Chaitanya Deshpande",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C5603AQHHQfMbdtzAIw/profile-displayphoto-shrink_200_200/0?e=1605139200&v=beta&t=iK0lNbA4c3ihz1ulBD9Z7gzV88PLQK2QqDScoFrhAJI",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/cdeshpa2",
+        github: "https://github.com/ajax90",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "San Francisco",
+        state: "California",
+        country: "United States",
+      },
+    },
   ],
 }
