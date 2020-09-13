@@ -16605,7 +16605,7 @@ export const data = {
         city: "Lima",
         state: "Lima",
         country: "Peru",
-    }
+      },
     },
     {
       id: uuidv4(),
@@ -16637,7 +16637,7 @@ export const data = {
         city: "Lindenhurst",
         state: "New York",
         country: "United States",
-      }
+      },
     },
     {
       id: uuidv4(),
@@ -16669,6 +16669,23 @@ export const data = {
         city: "Istanbul",
         state: "",
         country: "Turkey",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Marta Kočmídová",
+      img:
+        "https://avatars0.githubusercontent.com/u/32037668?s=460&u=2637c164039e227985600c445297c55b42e68ead&v=4",
+      links: {
+        website: "https://martakocmidova.cz/",
+        linkedin: "https://www.linkedin.com/in/marta-kocmidova/",
+        github: "https://github.com/asashi26",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Prague",
+        state: "",
+        country: "Czech Republic",
       },
     },
   ],
