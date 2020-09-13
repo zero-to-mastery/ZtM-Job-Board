@@ -16605,7 +16605,7 @@ export const data = {
         city: "Lima",
         state: "Lima",
         country: "Peru",
-    }
+      },
     },
     {
       id: uuidv4(),
@@ -16637,7 +16637,7 @@ export const data = {
         city: "Lindenhurst",
         state: "New York",
         country: "United States",
-      }
+      },
     },
     {
       id: uuidv4(),
@@ -16670,6 +16670,19 @@ export const data = {
         state: "",
         country: "Turkey",
       },
+    },
+    {
+      id: uuidv4(),
+      name: "Muhammad Rohadi",
+      img:
+        "https://avatars0.githubusercontent.com/u/55712332?s=460&u=20590195d2cd25620795e5bf3f41e0e8f88fe977&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/muhammad-rohadi-3b5844142/",
+        github: "https://github.com/mrohadi",
+      },
+      jobTitle: "Full-Stack Developer",
+      location: { city: "Jakarta", state: "", country: "Indonesia" },
     },
   ],
 }
