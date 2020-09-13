@@ -16685,6 +16685,7 @@ export const data = {
         city: "Miami",
         state: "Florida",
         country: "United States",
+        },
       },
-  ],
-}
+    ],
+  }
