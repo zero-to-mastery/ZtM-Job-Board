@@ -16605,7 +16605,7 @@ export const data = {
         city: "Lima",
         state: "Lima",
         country: "Peru",
-    }
+      },
     },
     {
       id: uuidv4(),
@@ -16637,7 +16637,7 @@ export const data = {
         city: "Lindenhurst",
         state: "New York",
         country: "United States",
-      }
+      },
     },
     {
       id: uuidv4(),
@@ -16669,6 +16669,23 @@ export const data = {
         city: "Istanbul",
         state: "",
         country: "Turkey",
+      },
+    },
+    ,
+    {
+      id: uuidv4(),
+      name: "Michaela Gombalova",
+      img: "https://avatars1.githubusercontent.com/u/38184455?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/michaela-gombalova/",
+        github: "https://github.com/mgombalova",
+      },
+      jobTitle: "Front End Developer",
+      location: {
+        city: "Laives",
+        state: "South Tyrol",
+        country: "Italy",
       },
     },
   ],
