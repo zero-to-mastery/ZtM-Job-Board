@@ -16673,6 +16673,19 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Muhammad Rohadi",
+      img:
+        "https://avatars0.githubusercontent.com/u/55712332?s=460&u=20590195d2cd25620795e5bf3f41e0e8f88fe977&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/muhammad-rohadi-3b5844142/",
+        github: "https://github.com/mrohadi",
+      },
+      jobTitle: "Full-Stack Developer",
+      location: { city: "Jakarta", state: "", country: "Indonesia" },
+    },
+    {
+      id: uuidv4(),
       name: "Marta Kočmídová",
       img:
         "https://avatars0.githubusercontent.com/u/32037668?s=460&u=2637c164039e227985600c445297c55b42e68ead&v=4",
