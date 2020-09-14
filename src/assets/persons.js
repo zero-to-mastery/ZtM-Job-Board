@@ -16673,6 +16673,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Chris Fonseca",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/christopher-fonseca-822434b9/",
+        github: "https://github.com/cfonseca2013",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Miami",
+        state: "Florida",
+        country: "United States",
+        },
+      },
+    {
+      id: uuidv4(),
       name: "Muhammad Rohadi",
       img:
         "https://avatars0.githubusercontent.com/u/55712332?s=460&u=20590195d2cd25620795e5bf3f41e0e8f88fe977&v=4",
