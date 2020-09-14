@@ -16688,5 +16688,21 @@ export const data = {
         country: "Czech Republic",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Mikolaj Paczkowski",
+      img: "https://avatars2.githubusercontent.com/u/1311358?v=4",
+      links: {
+        website: "https://mikowhy.pl",
+        linkedin: "https://www.linkedin.com/in/mikolajpaczkowski/",
+        github: "https://github.com/mikowhy",
+      },
+      jobTitle: "Junior Python Developer",
+      location: {
+        city: "Poznan",
+        state: "Great Poland",
+        country: "Poland",
+      },
+    },
   ],
 }
