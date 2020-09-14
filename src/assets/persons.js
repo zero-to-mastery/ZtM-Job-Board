@@ -16605,7 +16605,7 @@ export const data = {
         city: "Lima",
         state: "Lima",
         country: "Peru",
-    }
+      },
     },
     {
       id: uuidv4(),
@@ -16637,7 +16637,7 @@ export const data = {
         city: "Lindenhurst",
         state: "New York",
         country: "United States",
-      }
+      },
     },
     {
       id: uuidv4(),
@@ -16687,5 +16687,68 @@ export const data = {
         country: "United States",
         },
       },
-    ],
-  }
+    {
+      id: uuidv4(),
+      name: "Muhammad Rohadi",
+      img:
+        "https://avatars0.githubusercontent.com/u/55712332?s=460&u=20590195d2cd25620795e5bf3f41e0e8f88fe977&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/muhammad-rohadi-3b5844142/",
+        github: "https://github.com/mrohadi",
+      },
+      jobTitle: "Full-Stack Developer",
+      location: { city: "Jakarta", state: "", country: "Indonesia" },
+    },
+    {
+      id: uuidv4(),
+      name: "Marta Kočmídová",
+      img:
+        "https://avatars0.githubusercontent.com/u/32037668?s=460&u=2637c164039e227985600c445297c55b42e68ead&v=4",
+      links: {
+        website: "https://martakocmidova.cz/",
+        linkedin: "https://www.linkedin.com/in/marta-kocmidova/",
+        github: "https://github.com/asashi26",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Prague",
+        state: "",
+        country: "Czech Republic",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Chaitanya Deshpande",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C5603AQHHQfMbdtzAIw/profile-displayphoto-shrink_200_200/0?e=1605139200&v=beta&t=iK0lNbA4c3ihz1ulBD9Z7gzV88PLQK2QqDScoFrhAJI",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/cdeshpa2",
+        github: "https://github.com/ajax90",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "San Francisco",
+        state: "California",
+        country: "United States",
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Mikolaj Paczkowski",
+      img: "https://avatars2.githubusercontent.com/u/1311358?v=4",
+      links: {
+        website: "https://mikowhy.pl",
+        linkedin: "https://www.linkedin.com/in/mikolajpaczkowski/",
+        github: "https://github.com/mikowhy",
+      },
+      jobTitle: "Junior Python Developer",
+      location: {
+        city: "Poznan",
+        state: "Great Poland",
+        country: "Poland",
+      },
+    },
+  ],
+}
