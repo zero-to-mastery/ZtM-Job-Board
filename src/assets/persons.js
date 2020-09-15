@@ -16685,8 +16685,8 @@ export const data = {
         city: "Miami",
         state: "Florida",
         country: "United States",
-        },
       },
+    },
     {
       id: uuidv4(),
       name: "Muhammad Rohadi",
@@ -16732,7 +16732,7 @@ export const data = {
         city: "San Francisco",
         state: "California",
         country: "United States",
-      }
+      },
     },
     {
       id: uuidv4(),
@@ -16748,6 +16748,23 @@ export const data = {
         city: "Poznan",
         state: "Great Poland",
         country: "Poland",
+      },
+    },
+    ,
+    {
+      id: uuidv4(),
+      name: "Michaela Gombalova",
+      img: "https://avatars1.githubusercontent.com/u/38184455?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/michaela-gombalova/",
+        github: "https://github.com/mgombalova",
+      },
+      jobTitle: "Front End Developer",
+      location: {
+        city: "Laives",
+        state: "South Tyrol",
+        country: "Italy",
       },
     },
   ],
