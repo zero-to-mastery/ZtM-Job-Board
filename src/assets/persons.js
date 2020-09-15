@@ -16685,8 +16685,8 @@ export const data = {
         city: "Miami",
         state: "Florida",
         country: "United States",
-        },
       },
+    },
     {
       id: uuidv4(),
       name: "Muhammad Rohadi",
@@ -16732,7 +16732,7 @@ export const data = {
         city: "San Francisco",
         state: "California",
         country: "United States",
-      }
+      },
     },
     {
       id: uuidv4(),
@@ -16748,6 +16748,22 @@ export const data = {
         city: "Poznan",
         state: "Great Poland",
         country: "Poland",
+      },
+    },
+    {
+      id: RobertoCroesy(),
+      name: "Roberto Croesy",
+      img: "https://avatars1.githubusercontent.com/u/71331993?s=460&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/roberto-croesy-a8140590/",
+        github: "https://github.com/RobertoCroesy",
+      },
+      jobTitle: "Junior Front End Developer I",
+      location: {
+        city: "Rio de Janeiro",
+        state: "Rio de Janeiro",
+        country: "Brazil",
       },
     },
   ],
