@@ -16766,5 +16766,21 @@ export const data = {
         country: "Brazil",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Deni Toshevski",
+      img: "https://avatars3.githubusercontent.com/u/22860901?v=4",
+      links: {
+        website: "https://deni404.github.io/portfolio/",
+        linkedin: "https://www.linkedin.com/in/deni-toshevski/",
+        github: "https://github.com/deni404",
+      },
+      jobTitle: "Front End Developer",
+      location: {
+        city: "Skopje",
+        state: "",
+        country: "Macedonia",
+      },
+    },
   ],
 }
