@@ -16782,5 +16782,21 @@ export const data = {
         country: "Macedonia",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Agustin Grassi",
+      img: "https://avatars3.githubusercontent.com/u/44591340?v=4",
+      links: {
+        website: "http://www.hermesdesignstudio.com/",
+        linkedin: "",
+        github: "https://github.com/sugusgrassi"
+      },
+      jobTitle: "Graphic designer | Junior web dev",
+      location: {
+        city: "CABA",
+        state: "Buenos Aires",
+        country: "Argentina"
+      }
+    },
   ],
 }
