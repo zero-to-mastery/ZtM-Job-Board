@@ -16798,5 +16798,21 @@ export const data = {
         country: "Argentina"
       }
     },
+    {
+    id: uuidv4(),
+    name: "Min Shin Khant",
+    img: "https://avatars2.githubusercontent.com/u/47337883?s=400&u=180116e1471ae3ab4cd515bfea088da4725fce02&v=4",
+    links: {
+      website: "https://minshinkhant.github.io/",
+      linkedin: "https://www.linkedin.com/in/minshinkhant/",
+      github: "https://github.com/minshinkhant"
+    },
+    jobTitle: "Python Web Developer",
+    location: {
+      city: "Brooklyn",
+      state: "New York",
+      country: "United States"
+    }
+  },
   ],
 }
