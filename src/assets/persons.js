@@ -4153,6 +4153,23 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Hrushikesh Das",
+      img:
+        "https://avatars1.githubusercontent.com/u/62418363?s=460&u=7be39752d2048ef44aca0812358da449db8a320c&v=4",
+      links: {
+        website: "https://rishi-121.github.io/Portfolio-Website/",
+        linkedin: "https://www.linkedin.com/in/hrushikesh-das-468101171/",
+        github: "https://github.com/Rishi-121",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Paradip",
+        state: "Odisha",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Hareth Naji",
       img:
         "https://lh6.googleusercontent.com/t9VL3Ru-F44W5s_eQ8rhx-UHtYu_iE6BGDtvdyj6FBOVMZV6WvltFWBfASO4HADgvc6tukAqzJ1C0Q=w1432-h892",
@@ -16606,7 +16623,7 @@ export const data = {
         city: "Lima",
         state: "Lima",
         country: "Peru",
-    }
+      },
     },
     {
       id: uuidv4(),
