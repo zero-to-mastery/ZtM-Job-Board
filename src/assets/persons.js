@@ -16864,5 +16864,21 @@ export const data = {
         country: "United States",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Grant Rudow",
+      img: "https://avatars1.githubusercontent.com/u/58617204?v=4",
+      links: {
+        website: "https://www.grantrudow.com",
+        linkedin: "https://www.linkedin.com/in/grant-rudow/",
+        github: "https://github.com/grantrudow",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "",
+        state: "Mississippi",
+        country: "United States",
+      },
+    },
   ],
 }
