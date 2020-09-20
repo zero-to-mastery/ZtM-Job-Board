@@ -16831,5 +16831,21 @@ export const data = {
       country: "United States"
     }
   },
+  {
+    id: uuidv4(),
+    name: "Bellout Aziz",
+    img: "https://avatars0.githubusercontent.com/u/63014105?v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/bellout-abdelaaziz-itil-f-013568a/",
+      github: "https://github.com/bellapp",
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "",
+      state: "Agadir",
+      country: "Morocco",
+    },
+  },
   ],
 }
