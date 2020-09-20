@@ -16806,30 +16806,47 @@ export const data = {
       links: {
         website: "http://www.hermesdesignstudio.com/",
         linkedin: "",
-        github: "https://github.com/sugusgrassi"
+        github: "https://github.com/sugusgrassi",
       },
       jobTitle: "Graphic designer | Junior web dev",
       location: {
         city: "CABA",
         state: "Buenos Aires",
-        country: "Argentina"
-      }
+        country: "Argentina",
+      },
     },
     {
-    id: uuidv4(),
-    name: "Min Shin Khant",
-    img: "https://avatars2.githubusercontent.com/u/47337883?s=400&u=180116e1471ae3ab4cd515bfea088da4725fce02&v=4",
-    links: {
-      website: "https://minshinkhant.github.io/",
-      linkedin: "https://www.linkedin.com/in/minshinkhant/",
-      github: "https://github.com/minshinkhant"
+      id: uuidv4(),
+      name: "Min Shin Khant",
+      img:
+        "https://avatars2.githubusercontent.com/u/47337883?s=400&u=180116e1471ae3ab4cd515bfea088da4725fce02&v=4",
+      links: {
+        website: "https://minshinkhant.github.io/",
+        linkedin: "https://www.linkedin.com/in/minshinkhant/",
+        github: "https://github.com/minshinkhant",
+      },
+      jobTitle: "Python Web Developer",
+      location: {
+        city: "Brooklyn",
+        state: "New York",
+        country: "United States",
+      },
     },
-    jobTitle: "Python Web Developer",
-    location: {
-      city: "Brooklyn",
-      state: "New York",
-      country: "United States"
-    }
-  },
+    {
+      id: uuidv4(),
+      name: "Jared Matta",
+      img: "https://avatars1.githubusercontent.com/u/56903918?v=4",
+      links: {
+        website: "https://jared-matta.web.app",
+        linkedin: "https://www.linkedin.com/in/jared-matta/",
+        github: "https://github.com/AlteredArt",
+      },
+      jobTitle: "Front End Developer",
+      location: {
+        city: "",
+        state: "Colorado",
+        country: "United States",
+      },
+    },
   ],
 }
