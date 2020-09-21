@@ -16896,5 +16896,21 @@ export const data = {
         country: "United States",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Felipe J. O. Ribeiro",
+      img: "https://avatars1.githubusercontent.com/u/39244876?v=4",
+      links: {
+        website: "https://feliperibeiro.space/",
+        linkedin: "https://www.linkedin.com/in/felipejoribeiro/",
+        github: "https://github.com/felipejoribeiro",
+      },
+      jobTitle: "Junior web dev | Researcher",
+      location: {
+        city: "Uberlândia",
+        state: "Minas Gerais",
+        country: "Brazil",
+      },
+    },
   ],
 }
