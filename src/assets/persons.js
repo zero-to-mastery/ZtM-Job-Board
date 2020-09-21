@@ -16864,5 +16864,21 @@ export const data = {
         country: "United States",
       },
     },
+    {
+      id: uuidv4(),
+      name: "[Phan Công Thắng]",
+      img: "https://avatars2.githubusercontent.com/u/28696907?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/thangpc/",
+        github: "https://github.com/thangphan37",
+      },
+      jobTitle: "Frontend Developer",
+      location: {
+        city: "",
+        state: "Ha Noi",
+        country: "Viet Nam",
+      },
+    },
   ],
 }
