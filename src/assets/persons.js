@@ -16828,26 +16828,42 @@ export const data = {
       location: {
         city: "CABA",
         state: "Buenos Aires",
-        country: "Argentina",
-      },
+        country: "Argentina"
+      }
     },
     {
-      id: uuidv4(),
-      name: "Min Shin Khant",
-      img:
-        "https://avatars2.githubusercontent.com/u/47337883?s=400&u=180116e1471ae3ab4cd515bfea088da4725fce02&v=4",
-      links: {
-        website: "https://minshinkhant.github.io/",
-        linkedin: "https://www.linkedin.com/in/minshinkhant/",
-        github: "https://github.com/minshinkhant",
-      },
-      jobTitle: "Python Web Developer",
-      location: {
-        city: "Brooklyn",
-        state: "New York",
-        country: "United States",
-      },
+    id: uuidv4(),
+    name: "Min Shin Khant",
+    img: "https://avatars2.githubusercontent.com/u/47337883?s=400&u=180116e1471ae3ab4cd515bfea088da4725fce02&v=4",
+    links: {
+      website: "https://minshinkhant.github.io/",
+      linkedin: "https://www.linkedin.com/in/minshinkhant/",
+      github: "https://github.com/minshinkhant"
     },
+    jobTitle: "Python Web Developer",
+    location: {
+      city: "Brooklyn",
+      state: "New York",
+      country: "United States"
+    }
+  },
+  {
+    id: uuidv4(),
+    name: "Bellout Aziz",
+    img: "https://avatars0.githubusercontent.com/u/63014105?v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/bellout-abdelaaziz-itil-f-013568a/",
+      github: "https://github.com/bellapp",
+    },
+    jobTitle: "Full Stack Developer",
+    location: {
+      city: "",
+      state: "Agadir",
+      country: "Morocco",
+    },
+  },
+       
     {
       id: uuidv4(),
       name: "Jared Matta",
@@ -16866,7 +16882,23 @@ export const data = {
     },
     {
       id: uuidv4(),
-      name: "[Phan Công Thắng]",
+      name: "Grant Rudow",
+      img: "https://avatars1.githubusercontent.com/u/58617204?v=4",
+      links: {
+        website: "https://www.grantrudow.com",
+        linkedin: "https://www.linkedin.com/in/grant-rudow/",
+        github: "https://github.com/grantrudow",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "",
+        state: "Mississippi",
+        country: "United States",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Phan Công Thắng",
       img: "https://avatars2.githubusercontent.com/u/28696907?v=4",
       links: {
         website: "",
@@ -16878,6 +16910,22 @@ export const data = {
         city: "",
         state: "Ha Noi",
         country: "Viet Nam",
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Felipe J. O. Ribeiro",
+      img: "https://avatars1.githubusercontent.com/u/39244876?v=4",
+      links: {
+        website: "https://feliperibeiro.space/",
+        linkedin: "https://www.linkedin.com/in/felipejoribeiro/",
+        github: "https://github.com/felipejoribeiro",
+      },
+      jobTitle: "Junior web dev | Researcher",
+      location: {
+        city: "Uberlândia",
+        state: "Minas Gerais",
+        country: "Brazil",
       },
     },
   ],
