@@ -16928,5 +16928,19 @@ export const data = {
         country: "Brazil",
       },
     },
-  ],
-}
+{
+    id: uuidv4(),
+    name: "Akinsanya Ebenezer Oluwadamilare",
+    img: "https://avatars2.githubusercontent.com/u/52239629?v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/ebenezer-akinsanya/",
+      github: "https://github.com/Akinebee/"
+    },
+    jobTitle: "Web Developer | Enginner",
+    location: {
+      city: "Somolu",
+      state: "Lagos",
+      country: "Nigeria"
+    },
+  }
