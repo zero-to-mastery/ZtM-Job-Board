@@ -15828,9 +15828,9 @@ export const data = {
       img:
         "https://avatars3.githubusercontent.com/u/48496170?s=460&u=2b7c7b73eb00d5b90bef96e6903d82dcb1522eea&v=4",
       links: {
-        website: "https://sites.google.com/view/hamzaeportfolio ",
-        linkedin: "https://www.linkedin.com/in/hamzayousuf121/ ",
-        github: "https://github.com/hamzayousuf121 ",
+        website: "https://sites.google.com/view/hamzaeportfolio",
+        linkedin: "https://www.linkedin.com/in/hamzayousuf121/",
+        github: "https://github.com/hamzayousuf121",
       },
       jobTitle: "Full Stack Web Developer ",
       location: {
@@ -16928,19 +16928,22 @@ export const data = {
         country: "Brazil",
       },
     },
-{
-    id: uuidv4(),
-    name: "Akinsanya Ebenezer Oluwadamilare",
-    img: "https://avatars2.githubusercontent.com/u/52239629?v=4",
-    links: {
-      website: "",
-      linkedin: "https://www.linkedin.com/in/ebenezer-akinsanya/",
-      github: "https://github.com/Akinebee/"
+    {
+      id: uuidv4(),
+      name: "Akinsanya Ebenezer Oluwadamilare",
+      img: "https://avatars2.githubusercontent.com/u/52239629?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/ebenezer-akinsanya/",
+        github: "https://github.com/Akinebee/"
+      },
+      jobTitle: "Web Developer | Enginner",
+      location: {
+        city: "Somolu",
+        state: "Lagos",
+        country: "Nigeria"
+      },
     },
-    jobTitle: "Web Developer | Enginner",
-    location: {
-      city: "Somolu",
-      state: "Lagos",
-      country: "Nigeria"
-    },
-  }
+  ]
+}
+
