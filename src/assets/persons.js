@@ -16960,6 +16960,22 @@ export const data = {
         country: "Nigeria",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Oryam Ne",
+      img: "https://avatars1.githubusercontent.com/u/48219965?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/oryamne/",
+        github: "https://github.com/or-yam"
+      },
+      jobTitle: "Full-Stack Web Developer",
+      location: {
+        city: "",
+        state: "",
+        country: "Israel"
+      }
+    }
   ]
 }
 
