@@ -15240,7 +15240,7 @@ export const data = {
       country: "Nigeria"
     }
   },
-    {
+  {
     id: uuidv4(),
     name: "Oussama Bouchikhi",
     img: "https://avatars0.githubusercontent.com/u/45850487?v=4",
@@ -15271,8 +15271,8 @@ export const data = {
       state: "Delhi",
       country: "India"
     }
-},
-    {
+  },
+  {
     id: uuidv4(),
     name: "Mayank Pandey",
     img: "https://avatars3.githubusercontent.com/u/61725107?v=4",
@@ -15287,22 +15287,23 @@ export const data = {
       state: "Florida",
       country: "United States"
     }
-},
-  {
-  id: uuidv4(),
-  name: "Iris Diakoumi",
-  img: "https://avatars3.githubusercontent.com/u/3638718?v=4",
-  links: {
-    website: "https://iridium.codes/",
-    linkedin: "https://www.linkedin.com/in/irisdiakoumi/",
-    github: "https://github.com/iridiumCodes"
   },
-  jobTitle: "Front-End Web Developer",
-  location: {
-    city: "Athens",
-    state: "",
-    country: "Greece"
-  }
+
+  {
+    id: uuidv4(),
+    name: "Iris Diakoumi",
+    img: "https://avatars3.githubusercontent.com/u/3638718?v=4",
+    links: {
+      website: "https://iridium.codes/",
+      linkedin: "https://www.linkedin.com/in/irisdiakoumi/",
+      github: "https://github.com/iridiumCodes"
+    },
+    jobTitle: "Front-End Web Developer",
+    location: {
+      city: "Athens",
+      state: "",
+      country: "Greece"
+    }
   },
     {
     id: uuidv4(),
@@ -15321,20 +15322,36 @@ export const data = {
     }
   },
   {
-id: uuidv4(),
-name: "Shane Sharareh",
-img: "https://avatars3.githubusercontent.com/u/11878070?v=4",
-links: {
-  website: "https://www.shanesharareh.com/",
-  linkedin: "https://www.linkedin.com/in/shanesharareh",
-  github: "https://github.com/ShaneSharareh"
-},
-jobTitle: "Emerging Software Engineer",
-location: {
-  city: "San Diego",
-  state: "California",
-  country: "United States"
-}
-}
+    id: uuidv4(),
+    name: "Shane Sharareh",
+    img: "https://avatars3.githubusercontent.com/u/11878070?v=4",
+    links: {
+      website: "https://www.shanesharareh.com/",
+      linkedin: "https://www.linkedin.com/in/shanesharareh",
+      github: "https://github.com/ShaneSharareh"
+    },
+    jobTitle: "Emerging Software Engineer",
+    location: {
+      city: "San Diego",
+      state: "California",
+      country: "United States"
+    }
+  }, 
+  {
+    id: uuidv4(),
+    name: "Dheeraj Nagpal",
+    img: "https://avatars1.githubusercontent.com/u/43142189?v=4",
+    links: {
+      website: "https://web-resume-dng.herokuapp.com/",
+      linkedin: "https://www.linkedin.com/in/dheeraj-nagpal-861a5a169/",
+      github: "https://github.com/Dheeraj-1999"
+    },
+    jobTitle: "Data Science and Machine Learning",
+    location: {
+      city: "",
+      state: "",
+      country: "India"
+    }
+  }, 
   ],
 }
