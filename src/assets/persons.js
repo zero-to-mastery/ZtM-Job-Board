@@ -17012,5 +17012,53 @@ export const data = {
         country: "USA",
       },
     },
-  ],
+    {
+      id: uuidv4(),
+      name: "Hieu Pham",
+      img: "https://avatars2.githubusercontent.com/u/69702997?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/hieu-pham-6404b5148/",
+        github: "https://github.com/hieupham-thedreamer",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Ho Chi Minh",
+        state: "",
+        country: "Vietnam",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Pedro D. Rocha",
+      img: "https://pedrodrocha.com/img/fotoMain1.jpg",
+      links: {
+        website: "https://pedrodrocha.com/",
+        linkedin: "https://www.linkedin.com/in/pedrodrocha/",
+        github: "https://github.com/pedrodrocha"
+      },
+      jobTitle: "Data Analyst | Political Scientist",
+      location: {
+        city: "São Paulo",
+        state: "São Paulo",
+        country: "Brazil"
+      }
+    }
+    ,{
+    id: uuidv4(),
+    name: "Uday Kumar Madarapu",
+    img: "https://avatars0.githubusercontent.com/u/32547287?v=4",
+    links: {
+      website: "https://udaykumaruking.github.io",
+      linkedin: "https://www.linkedin.com/in/uday-kumar-uking/",
+      github: "https://github.com/udaykumaruking"
+    },
+    jobTitle: "Web and Graphic Designer",
+    location: {
+      city: "Warangal",
+      state: "Telangana",
+      country: "India"
+    }
+  }
+  ]
 }
