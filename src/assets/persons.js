@@ -16992,6 +16992,22 @@ export const data = {
         country: "Egypt"
       }
     }
+    ,{
+    id: uuidv4(),
+    name: "Uday Kumar Madarapu",
+    img: "https://avatars0.githubusercontent.com/u/32547287?v=4",
+    links: {
+      website: "https://udaykumaruking.github.io",
+      linkedin: "https://www.linkedin.com/in/uday-kumar-uking/",
+      github: "https://github.com/udaykumaruking"
+    },
+    jobTitle: "Web and Graphic Designer",
+    location: {
+      city: "Warangal",
+      state: "Telangana",
+      country: "India"
+    }
+  }
   ]
 }
 
