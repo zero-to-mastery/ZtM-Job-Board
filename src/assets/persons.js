@@ -16828,42 +16828,44 @@ export const data = {
       location: {
         city: "CABA",
         state: "Buenos Aires",
-        country: "Argentina"
-      }
+        country: "Argentina",
+      },
     },
     {
-    id: uuidv4(),
-    name: "Min Shin Khant",
-    img: "https://avatars2.githubusercontent.com/u/47337883?s=400&u=180116e1471ae3ab4cd515bfea088da4725fce02&v=4",
-    links: {
-      website: "https://minshinkhant.github.io/",
-      linkedin: "https://www.linkedin.com/in/minshinkhant/",
-      github: "https://github.com/minshinkhant"
+      id: uuidv4(),
+      name: "Min Shin Khant",
+      img:
+        "https://avatars2.githubusercontent.com/u/47337883?s=400&u=180116e1471ae3ab4cd515bfea088da4725fce02&v=4",
+      links: {
+        website: "https://minshinkhant.github.io/",
+        linkedin: "https://www.linkedin.com/in/minshinkhant/",
+        github: "https://github.com/minshinkhant",
+      },
+      jobTitle: "Python Web Developer",
+      location: {
+        city: "Brooklyn",
+        state: "New York",
+        country: "United States",
+      },
     },
-    jobTitle: "Python Web Developer",
-    location: {
-      city: "Brooklyn",
-      state: "New York",
-      country: "United States"
-    }
-  },
-  {
-    id: uuidv4(),
-    name: "Bellout Aziz",
-    img: "https://avatars0.githubusercontent.com/u/63014105?v=4",
-    links: {
-      website: "",
-      linkedin: "https://www.linkedin.com/in/bellout-abdelaaziz-itil-f-013568a/",
-      github: "https://github.com/bellapp",
+    {
+      id: uuidv4(),
+      name: "Bellout Aziz",
+      img: "https://avatars0.githubusercontent.com/u/63014105?v=4",
+      links: {
+        website: "",
+        linkedin:
+          "https://www.linkedin.com/in/bellout-abdelaaziz-itil-f-013568a/",
+        github: "https://github.com/bellapp",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "",
+        state: "Agadir",
+        country: "Morocco",
+      },
     },
-    jobTitle: "Full Stack Developer",
-    location: {
-      city: "",
-      state: "Agadir",
-      country: "Morocco",
-    },
-  },
-       
+
     {
       id: uuidv4(),
       name: "Jared Matta",
@@ -16910,7 +16912,7 @@ export const data = {
         city: "",
         state: "Ha Noi",
         country: "Viet Nam",
-      }
+      },
     },
     {
       id: uuidv4(),
@@ -16935,13 +16937,13 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ebenezer-akinsanya/",
-        github: "https://github.com/Akinebee/"
+        github: "https://github.com/Akinebee/",
       },
       jobTitle: "Web Developer | Enginner",
       location: {
         city: "Somolu",
         state: "Lagos",
-        country: "Nigeria"
+        country: "Nigeria",
       },
     },
     {
@@ -16953,7 +16955,8 @@ export const data = {
         linkedin: "",
         github: "https://github.com/andreyscott",
       },
-      jobTitle: "Junior web developer | Front-End Webdeveloper | Full-Stack Webdeveloper",
+      jobTitle:
+        "Junior web developer | Front-End Webdeveloper | Full-Stack Webdeveloper",
       location: {
         city: "Benin City",
         state: "Edo state",
@@ -16967,30 +16970,47 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/oryamne/",
-        github: "https://github.com/or-yam"
+        github: "https://github.com/or-yam",
       },
       jobTitle: "Full-Stack Web Developer",
       location: {
         city: "",
         state: "",
-        country: "Israel"
-      }
+        country: "Israel",
+      },
     },
     {
       id: uuidv4(),
       name: "Michael George",
-      img: "https://avatars0.githubusercontent.com/u/61880954?s=400&u=5c7d5af814ed572c1d685ec41160b6c49c155f9b&v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/61880954?s=400&u=5c7d5af814ed572c1d685ec41160b6c49c155f9b&v=4",
       links: {
         website: "http://mico52000.pythonanywhere.com/index.html",
         linkedin: "https://www.linkedin.com/in/michael-zakhary-25ab101b2/",
-        github: "https://github.com/Mico52000"
+        github: "https://github.com/Mico52000",
       },
       jobTitle: "Full-Stack Web Developer and Python Developer",
       location: {
         city: "Cairo",
         state: "",
-        country: "Egypt"
-      }
+        country: "Egypt",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Hieu Pham",
+      img: "https://avatars2.githubusercontent.com/u/69702997?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/hieu-pham-6404b5148/",
+        github: "https://github.com/hieupham-thedreamer",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Ho Chi Minh",
+        state: "",
+        country: "Vietnam",
+      },
     },
     {
       id: uuidv4(),
@@ -17026,4 +17046,3 @@ export const data = {
   }
   ]
 }
-
