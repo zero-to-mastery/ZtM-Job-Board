@@ -16982,8 +16982,7 @@ export const data = {
     {
       id: uuidv4(),
       name: "Michael George",
-      img:
-        "https://avatars0.githubusercontent.com/u/61880954?s=400&u=5c7d5af814ed572c1d685ec41160b6c49c155f9b&v=4",
+      img: "https://avatars1.githubusercontent.com/u/52582725?v=4",
       links: {
         website: "http://mico52000.pythonanywhere.com/index.html",
         linkedin: "https://www.linkedin.com/in/michael-zakhary-25ab101b2/",
@@ -16994,6 +16993,23 @@ export const data = {
         city: "Cairo",
         state: "",
         country: "Egypt",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Ana Tulea",
+      img:
+        "https://avatars2.githubusercontent.com/u/52582725?s=400&u=46e6689255d9273eedf6d4ac06cb5385a6d3eb94&v=4",
+      links: {
+        website: "https://www.anatulea.com/",
+        linkedin: "https://www.linkedin.com/in/anatulea/",
+        github: "https://github.com/anatulea",
+      },
+      jobTitle: "Full-Stack Web Developer ",
+      location: {
+        city: "Las Vegas",
+        state: "Nevada",
+        country: "USA",
       },
     },
     {
