@@ -16990,6 +16990,21 @@ export const data = {
         city: "Cairo",
         state: "",
         country: "Egypt"
+      }  ,{
+        id: uuidv4(),
+        name: "Pedro D. Rocha",
+        img: "https://pedrodrocha.com/img/fotoMain1.jpg",
+        links: {
+          website: "https://pedrodrocha.com/",
+          linkedin: "https://www.linkedin.com/in/pedrodrocha/",
+          github: "https://github.com/pedrodrocha"
+        },
+        jobTitle: "Data Analyst | Political Scientist ",
+        location: {
+          city: "São Paulo",
+          state: "São Paulo",
+          country: "Brazil"
+        }
       }
     }
   ]
