@@ -17062,6 +17062,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Prakhar Tiwari",
+      img: "https://avatars3.githubusercontent.com/u/10178031?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/prakhar-tiwari-42521853/",
+        github: "https://github.com/prak281993",
+      },
+      jobTitle:
+        "Full Stack Developer, MERN developer, Backend developer, Frontend developer",
+      location: {
+        city: "Kanpur",
+        state: "Uttar Pradesh",
+        country: "India",
+      }},
+    {
+      id: uuidv4(),
       name: "Chieh (Stephanie) Wang",
       img: "https://avatars3.githubusercontent.com/u/31616284?v=4",
       links: {
