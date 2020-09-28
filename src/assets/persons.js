@@ -17075,6 +17075,21 @@ export const data = {
         city: "Kanpur",
         state: "Uttar Pradesh",
         country: "India",
+      }},
+    {
+      id: uuidv4(),
+      name: "Chieh (Stephanie) Wang",
+      img: "https://avatars3.githubusercontent.com/u/31616284?v=4",
+      links: {
+        website: "https://stephanieportfolio-39f22.firebaseapp.com/#home",
+        linkedin: "https://www.linkedin.com/in/chieh-stephanie-wang-aa2732151",
+        github: "https://github.com/Stephanie1226",
+      },
+      jobTitle: "Sofeware/Full Stack/Web Developer",
+      location: {
+        city: "Calgary",
+        state: "Alberta",
+        country: "Canada",
       },
     },
   ],
