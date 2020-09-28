@@ -17035,30 +17035,46 @@ export const data = {
       links: {
         website: "https://pedrodrocha.com/",
         linkedin: "https://www.linkedin.com/in/pedrodrocha/",
-        github: "https://github.com/pedrodrocha"
+        github: "https://github.com/pedrodrocha",
       },
       jobTitle: "Data Analyst | Political Scientist",
       location: {
         city: "São Paulo",
         state: "São Paulo",
-        country: "Brazil"
-      }
-    }
-    ,{
-    id: uuidv4(),
-    name: "Uday Kumar Madarapu",
-    img: "https://avatars0.githubusercontent.com/u/32547287?v=4",
-    links: {
-      website: "https://udaykumaruking.github.io",
-      linkedin: "https://www.linkedin.com/in/uday-kumar-uking/",
-      github: "https://github.com/udaykumaruking"
+        country: "Brazil",
+      },
     },
-    jobTitle: "Web and Graphic Designer",
-    location: {
-      city: "Warangal",
-      state: "Telangana",
-      country: "India"
-    }
-  }
-  ]
+    {
+      id: uuidv4(),
+      name: "Uday Kumar Madarapu",
+      img: "https://avatars0.githubusercontent.com/u/32547287?v=4",
+      links: {
+        website: "https://udaykumaruking.github.io",
+        linkedin: "https://www.linkedin.com/in/uday-kumar-uking/",
+        github: "https://github.com/udaykumaruking",
+      },
+      jobTitle: "Web and Graphic Designer",
+      location: {
+        city: "Warangal",
+        state: "Telangana",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Chieh (Stephanie) Wang",
+      img: "https://avatars3.githubusercontent.com/u/31616284?v=4",
+      links: {
+        website: "https://stephanieportfolio-39f22.firebaseapp.com/#home",
+        linkedin: "https://www.linkedin.com/in/chieh-stephanie-wang-aa2732151",
+        github: "https://github.com/Stephanie1226",
+      },
+      jobTitle: "Sofeware/Full Stack/Web Developer",
+      location: {
+        city: "Calgary",
+        state: "Alberta",
+        country: "Canada",
+      },
+    },
+  ],
 }
