@@ -17075,7 +17075,8 @@ export const data = {
         city: "Kanpur",
         state: "Uttar Pradesh",
         country: "India",
-      }},
+      },
+    },
     {
       id: uuidv4(),
       name: "Chieh (Stephanie) Wang",
@@ -17090,6 +17091,22 @@ export const data = {
         city: "Calgary",
         state: "Alberta",
         country: "Canada",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Gabi Brouze",
+      img: "https://avatars2.githubusercontent.com/u/52550101?v=4",
+      links: {
+        website: "https://gabibrouze.herokuapp.com/",
+        linkedin: "https://www.linkedin.com/in/gabi-brouze/",
+        github: "https://github.com/gabibrouze",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Johannesburg",
+        state: "",
+        country: "South Africa",
       },
     },
   ],
