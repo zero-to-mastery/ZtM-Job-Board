@@ -17092,5 +17092,21 @@ export const data = {
         country: "Canada",
       },
     },
+    ,{
+      id: uuidv4(),
+      name: "Alexander Triece",
+      img: "https://avatars3.githubusercontent.com/u/17958683?v=4",
+      links: {
+        website: "[YOUR_WEBSITE_URL]",
+        linkedin: "https://www.linkedin.com/in/alex-triece-a3ab7429/",
+        github: "https://github.com/atrieceeph289"
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Moline",
+        state: "Illinois",
+        country: "USA"
+      }
+    }
   ],
 }
