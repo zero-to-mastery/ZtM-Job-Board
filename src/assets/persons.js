@@ -17110,7 +17110,7 @@ export const data = {
       },
     },
 
-    ,{
+    {
       id: uuidv4(),
       name: "Alexander Triece",
       img: "https://avatars3.githubusercontent.com/u/17958683?v=4",
