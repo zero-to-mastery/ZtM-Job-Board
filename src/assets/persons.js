@@ -17075,7 +17075,8 @@ export const data = {
         city: "Kanpur",
         state: "Uttar Pradesh",
         country: "India",
-      }},
+      },
+    },
     {
       id: uuidv4(),
       name: "Chieh (Stephanie) Wang",
@@ -17090,6 +17091,23 @@ export const data = {
         city: "Calgary",
         state: "Alberta",
         country: "Canada",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Cassio Groh",
+      img:
+        "https://avatars1.githubusercontent.com/u/66094520?s=460&u=271d91dfee4ab83fc01e3f380b4d3a0c8bfc2828&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/cassiogroh/",
+        github: "https://github.com/cassiogroh",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Brusque",
+        state: "Santa Catarina",
+        country: "Brazil",
       },
     },
   ],
