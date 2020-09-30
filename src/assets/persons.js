@@ -17111,6 +17111,21 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Gabi Brouze",
+      img: "https://avatars2.githubusercontent.com/u/52550101?v=4",
+      links: {
+        website: "https://gabibrouze.herokuapp.com/",
+        linkedin: "https://www.linkedin.com/in/gabi-brouze/",
+        github: "https://github.com/gabibrouze",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Johannesburg",
+        state: "",
+        country: "South Africa",
+      },
+    },
+    {
       name: "Cassio Groh",
       img:
         "https://avatars1.githubusercontent.com/u/66094520?s=460&u=271d91dfee4ab83fc01e3f380b4d3a0c8bfc2828&v=4",
@@ -17124,7 +17139,7 @@ export const data = {
         city: "Brusque",
         state: "Santa Catarina",
         country: "Brazil",
-      },
-    },
+      }
+    }
   ],
 }
