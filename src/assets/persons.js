@@ -4,6 +4,22 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Mani",
+      img: "https://avatars0.githubusercontent.com/u/8047068?s=460&v=4",
+      links: {
+        website: "",
+        linkedin: "",
+        github: "https://github.com/mani9896",
+      },
+      jobTitle: "Full Stack Developer, Web Developer",
+      location: {
+        city: "Ambala",
+        state: "Haryana",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Lucas Penz",
       img: "https://avatars0.githubusercontent.com/u/8047068?s=460&v=4",
       links: {
@@ -7287,11 +7303,11 @@ export const data = {
     {
       id: uuidv4(),
       name: "Shashank Singh",
-      img: "https://imgur.com/a/jzGrGcK",
+      img: "https://avatars3.githubusercontent.com/u/48752899?v=4",
       links: {
-        website: "shashankcic.github.io",
-        linkedin: "www.linkedin.com/in/shashankcic/",
-        github: "https://github.com/shashankcic",
+        website: "https://singhshashank.tech/",
+        linkedin: "https://www.linkedin.com/in/shashankcic/",
+        github: "https://github.com/shashankcic/",
       },
       jobTitle: "Web Developer",
       location: {
@@ -17109,10 +17125,25 @@ export const data = {
         state: "Illinois",
         country: "USA"
       }
-    }
+    },
 
     {
       id: uuidv4(),
+      name: "Gabi Brouze",
+      img: "https://avatars2.githubusercontent.com/u/52550101?v=4",
+      links: {
+        website: "https://gabibrouze.herokuapp.com/",
+        linkedin: "https://www.linkedin.com/in/gabi-brouze/",
+        github: "https://github.com/gabibrouze",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Johannesburg",
+        state: "",
+        country: "South Africa",
+      },
+    },
+    {
       name: "Cassio Groh",
       img:
         "https://avatars1.githubusercontent.com/u/66094520?s=460&u=271d91dfee4ab83fc01e3f380b4d3a0c8bfc2828&v=4",
@@ -17126,6 +17157,7 @@ export const data = {
         city: "Brusque",
         state: "Santa Catarina",
         country: "Brazil",
+
       },
     },
 
