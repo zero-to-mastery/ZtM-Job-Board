@@ -17075,7 +17075,8 @@ export const data = {
         city: "Kanpur",
         state: "Uttar Pradesh",
         country: "India",
-      }},
+      },
+    },
     {
       id: uuidv4(),
       name: "Chieh (Stephanie) Wang",
@@ -17092,12 +17093,13 @@ export const data = {
         country: "Canada",
       },
     },
+
     ,{
       id: uuidv4(),
       name: "Alexander Triece",
       img: "https://avatars3.githubusercontent.com/u/17958683?v=4",
       links: {
-        website: "[YOUR_WEBSITE_URL]",
+        website: "",
         linkedin: "https://www.linkedin.com/in/alex-triece-a3ab7429/",
         github: "https://github.com/atrieceeph289"
       },
@@ -17108,5 +17110,24 @@ export const data = {
         country: "USA"
       }
     }
+
+    {
+      id: uuidv4(),
+      name: "Cassio Groh",
+      img:
+        "https://avatars1.githubusercontent.com/u/66094520?s=460&u=271d91dfee4ab83fc01e3f380b4d3a0c8bfc2828&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/cassiogroh/",
+        github: "https://github.com/cassiogroh",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Brusque",
+        state: "Santa Catarina",
+        country: "Brazil",
+      },
+    },
+
   ],
 }
