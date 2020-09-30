@@ -7287,11 +7287,11 @@ export const data = {
     {
       id: uuidv4(),
       name: "Shashank Singh",
-      img: "https://imgur.com/a/jzGrGcK",
+      img: "https://avatars3.githubusercontent.com/u/48752899?v=4",
       links: {
-        website: "shashankcic.github.io",
-        linkedin: "www.linkedin.com/in/shashankcic/",
-        github: "https://github.com/shashankcic",
+        website: "https://singhshashank.tech/",
+        linkedin: "https://www.linkedin.com/in/shashankcic/",
+        github: "https://github.com/shashankcic/",
       },
       jobTitle: "Web Developer",
       location: {
