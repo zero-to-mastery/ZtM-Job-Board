@@ -4,6 +4,22 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Mani",
+      img: "https://avatars0.githubusercontent.com/u/8047068?s=460&v=4",
+      links: {
+        website: "",
+        linkedin: "",
+        github: "https://github.com/mani9896",
+      },
+      jobTitle: "Full Stack Developer, Web Developer",
+      location: {
+        city: "Ambala",
+        state: "Haryana",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Lucas Penz",
       img: "https://avatars0.githubusercontent.com/u/8047068?s=460&v=4",
       links: {
