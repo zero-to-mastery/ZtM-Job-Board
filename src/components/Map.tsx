@@ -1,5 +1,11 @@
 import React, { useEffect, useState } from "react"
-import { Map as LeafletMap, Marker, Popup, TileLayer } from "react-leaflet"
+import {
+  Map as LeafletMap,
+  Marker,
+  Popup,
+  TileLayer,
+  Tooltip,
+} from "react-leaflet"
 
 import { countriesWithNumOfDevsObj } from "../util/UsersDataCleanup"
 
@@ -92,23 +98,20 @@ function SimpleMap({ zoom = 3 }) {
 
   const markersArray = finalArrayWithCountryAndLatLng.map(
     ({ country, latlng, numberOfDevs }: any) => {
+      let numberOfDevsText =
+        numberOfDevs === 1
+          ? numberOfDevs + " Developer from " + country
+          : numberOfDevs + " Developers from " + country
       return (
         <Marker
           key={country}
           position={[latlng[0], latlng[1]]}
           color="royalblue"
-          title={
-            numberOfDevs === 1
-              ? numberOfDevs + " Developer from " + country
-              : numberOfDevs + " Developers from " + country
-          }
+          title={numberOfDevsText}
           text={numberOfDevs}
         >
-          <Popup>
-            {numberOfDevs === 1
-              ? numberOfDevs + " Developer from " + country
-              : numberOfDevs + " Developers from " + country}
-          </Popup>
+          <Tooltip>{numberOfDevsText}</Tooltip>
+          <Popup>{numberOfDevsText}</Popup>
         </Marker>
       )
     }
