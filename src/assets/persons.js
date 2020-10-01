@@ -17176,6 +17176,22 @@ export const data = {
         country: "Brazil",
       },
     },
+{
+      id: uuidv4(),
+      name: "Edwin Boon",
+      img: "https://www.github.com/edwinboon.png",
+      links: {
+        website: "https://www.edwinboon.dev/",
+        linkedin: "",
+        github: "https://github.com/edwinboon",
+      },
+      jobTitle: "Frontend Developer",
+      location: {
+        city: "Ermelo",
+        state: "Ermelo",
+        country: "Netherlands",
+      }
+},
     {
       id: uuidv4(),
       name: "Ritu Bala",
