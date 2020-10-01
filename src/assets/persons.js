@@ -17289,5 +17289,21 @@ export const data = {
         country: "Nigeria",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Michael Joy",
+      img: "https://avatars1.githubusercontent.com/u/11379243?v=4",
+      links: {
+        website: "",
+        linkedin: "",
+        github: "https://github.com/Udaygajavalli",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "",
+        state: "",
+        country: "USA",
+      },
+    },
   ],
 }
