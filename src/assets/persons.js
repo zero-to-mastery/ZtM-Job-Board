@@ -16944,22 +16944,23 @@ export const data = {
         country: "Nigeria"
       },
     },
-    {
-      id: uuidv4(),
-      name: "Andrew osayande Irorere",
-      img: "https://avatars3.githubusercontent.com/u/62455784?v=4",
-      links: {
-        website: "https://andreyscott.github.io/index.index.html",
-        linkedin: "",
-        github: "https://github.com/andreyscott",
-      },
-      jobTitle: "Junior web developer | Front-End Webdeveloper | Full-Stack Webdeveloper",
-      location: {
-        city: "Benin City",
-        state: "Edo state",
-        country: "Nigeria",
-      },
+      ,{
+    id: uuidv4(),
+    name: "Andrew osayande Irorere",
+    img: "https://avatars3.githubusercontent.com/u/62455784?v=4",
+    links: {
+      website: "https://andreyscott.github.io/index.index.html",
+      linkedin: "https://www.linkedin.com/in/andrey-scott-b63a601b8/",
+      github: "https://github.com/andreyscott",
     },
+    jobTitle: "Full-stack Web developer",
+    location: {
+      city: "Benin City",
+      state: "Edo state",
+      country: "Nigeria"
+    }
+  }
+
   ]
 }
 
