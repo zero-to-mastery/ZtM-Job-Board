@@ -17117,14 +17117,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/alex-triece-a3ab7429/",
-        github: "https://github.com/atrieceeph289"
+        github: "https://github.com/atrieceeph289",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Moline",
         state: "Illinois",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
 
     {
@@ -17144,6 +17144,7 @@ export const data = {
       },
     },
     {
+      id: uuidv4(),
       name: "Cassio Groh",
       img:
         "https://avatars1.githubusercontent.com/u/66094520?s=460&u=271d91dfee4ab83fc01e3f380b4d3a0c8bfc2828&v=4",
@@ -17157,10 +17158,40 @@ export const data = {
         city: "Brusque",
         state: "Santa Catarina",
         country: "Brazil",
-
+      },
+    },{
+    id: uuidv4(),
+    name: "Abhishek Rathore",
+    img: "https://avatars3.githubusercontent.com/u/40576705?v=4",
+    links: {
+      website: "",
+      linkedin: "www.linkedin.com/in/abhishek-rathore-666972127",
+      github: "https://github.com/abhishekra07"
+    },
+    jobTitle: "Assistance System Engineer",
+    location: {
+      city: "Indore",
+      state: "Madhya Pradesh",
+      country: "India"
+    }
+    },
+    {
+      id: uuidv4(),
+      name: "Manoj Jasoliya",
+      img:
+        "https://avatars0.githubusercontent.com/u/48120921?s=460&u=59aee8c853b4db000da402dde710648b90123eac&v=4",
+      links: {
+        website: "https://manojjasoliya.tech/",
+        linkedin: "https://www.linkedin.com/in/manoj-jasoliya/",
+        github: "https://github.com/Manojj999",
+      },
+      jobTitle: "Front-End Developer",
+      location: {
+        city: "Surat",
+        state: "Gujarat",
+        country: "India",
       },
     },
-
     {
       id: uuidv4(),
       name: "Jamiu Jimoh",
@@ -17177,6 +17208,5 @@ export const data = {
         country: "Nigeria",
       },
     },
-
   ],
 }
