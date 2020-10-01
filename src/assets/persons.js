@@ -17176,6 +17176,22 @@ export const data = {
         country: "Brazil",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Parth Kanani",
+      img: "https://avatars0.githubusercontent.com/u/47061736?v=4",
+      links: {
+        website: "https://parth-portfolio.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/parth-kanani-1251a3162/",
+        github: "https://github.com/parthkanani93"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Surat",
+        state: "Gujarat",
+        country: "India"
+      }
+    },
 {
       id: uuidv4(),
       name: "Edwin Boon",
