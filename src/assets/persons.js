@@ -4,6 +4,22 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Uday Bhaskar Gajavalli",
+      img: "https://avatars2.githubusercontent.com/u/37218552?s=460&u=656991e27606629e826958ddbadbb989f92b8d8e&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/udaygajavalli/",
+        github: "https://github.com/Udaygajavalli",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Hyderabad",
+        state: "Telangana",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Mani",
       img: "https://avatars0.githubusercontent.com/u/8047068?s=460&v=4",
       links: {
