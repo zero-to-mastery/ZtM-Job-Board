@@ -17175,6 +17175,23 @@ export const data = {
         state: "Santa Catarina",
         country: "Brazil",
       },
+    },
+    {
+      id: uuidv4(),
+      name: "Aditya Tarale",
+      img:
+        "https://avatars0.githubusercontent.com/u/67708581?s=400&u=a76517830e4d15c59bc0b1f2a8ce9be41858a011&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/aditya-tarale-8234261b2/",
+        github: "https://github.com/AdityaTarale",
+      },
+      jobTitle: "Front-end developer",
+      location: {
+        city: "Nagpur",
+        state: "Maharashtra",
+        country: "India",
+      },
     },{
     id: uuidv4(),
     name: "Abhishek Rathore",
