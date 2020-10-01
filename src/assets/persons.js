@@ -17159,7 +17159,22 @@ export const data = {
         country: "Brazil",
 
       },
+    },{
+    id: uuidv4(),
+    name: "Abhishek Rathore",
+    img: "https://avatars3.githubusercontent.com/u/40576705?v=4",
+    links: {
+      website: "",
+      linkedin: "www.linkedin.com/in/abhishek-rathore-666972127",
+      github: "https://github.com/abhishekra07"
     },
+    jobTitle: "Assistance System Engineer",
+    location: {
+      city: "Indore",
+      state: "Madhya Pradesh",
+      country: "India"
+    }
+  },
 
   ],
 }
