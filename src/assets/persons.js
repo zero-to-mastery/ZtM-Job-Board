@@ -17296,7 +17296,7 @@ export const data = {
       links: {
         website: "",
         linkedin: "",
-        github: "https://github.com/Udaygajavalli",
+        github: "https://github.com/michaeljoy255",
       },
       jobTitle: "Web Developer",
       location: {
