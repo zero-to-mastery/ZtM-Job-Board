@@ -6634,6 +6634,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Nitin K",
+      img: "https://avatars2.githubusercontent.com/u/60770391?s=460&v=4",
+      links: {
+        website: "https://aawara.me",
+        linkedin: "https://www.linkedin.com/in/nitin-k-74598512b/",
+        github: "https://github.com/nitink66",
+      },
+      jobTitle: "Front-End Developer(ReactJs)",
+      location: {
+        city: "Davangere",
+        state: "Karnataka",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Daniel Hardiman",
       img: "https://avatars1.githubusercontent.com/u/38153501?s=460&v=4",
       links: {
@@ -17117,14 +17133,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/alex-triece-a3ab7429/",
-        github: "https://github.com/atrieceeph289"
+        github: "https://github.com/atrieceeph289",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Moline",
         state: "Illinois",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
 
     {
@@ -17157,9 +17173,7 @@ export const data = {
         city: "Brusque",
         state: "Santa Catarina",
         country: "Brazil",
-
       },
     },
-
   ],
 }
