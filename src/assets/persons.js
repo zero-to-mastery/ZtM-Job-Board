@@ -6637,7 +6637,7 @@ export const data = {
       name: "Nitin K",
       img: "https://avatars2.githubusercontent.com/u/60770391?s=460&v=4",
       links: {
-        website: "https://aawara.me",
+        website: "https://aawara.me/",
         linkedin: "https://www.linkedin.com/in/nitin-k-74598512b/",
         github: "https://github.com/nitink66",
       },
