@@ -17192,5 +17192,21 @@ export const data = {
         country: "India",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Jamiu Jimoh",
+      img: "https://avatars0.githubusercontent.com/u/60991680?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/jamiu-jimoh/",
+        github: "https://github.com/JamiuJimoh",
+      },
+      jobTitle: "Full Stack/MERN Developer",
+      location: {
+        city: "Lagos",
+        state: "Lagos",
+        country: "Nigeria",
+      },
+    },
   ],
 }
