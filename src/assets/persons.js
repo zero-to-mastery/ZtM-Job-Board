@@ -17144,6 +17144,7 @@ export const data = {
       },
     },
     {
+      id: uuidv4(),
       name: "Cassio Groh",
       img:
         "https://avatars1.githubusercontent.com/u/66094520?s=460&u=271d91dfee4ab83fc01e3f380b4d3a0c8bfc2828&v=4",
@@ -17160,6 +17161,21 @@ export const data = {
 
       },
     },
-
+{
+      id: uuidv4(),
+      name: "Edwin Boon",
+      img: "https://www.github.com/edwinboon.png",
+      links: {
+        website: "https://www.edwinboon.dev/",
+        linkedin: "",
+        github: "https://github.com/edwinboon",
+      },
+      jobTitle: "Frontend Developer",
+      location: {
+        city: "Ermelo",
+        state: "Ermelo",
+        country: "Netherlands",
+      },
+    },
   ],
 }
