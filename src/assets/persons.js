@@ -17175,5 +17175,4 @@ export const data = {
         country: "Brazil",
       },
     },
-  ],
-}
+
