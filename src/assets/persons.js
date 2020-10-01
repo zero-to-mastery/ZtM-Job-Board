@@ -17178,6 +17178,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Ritu Bala",
+      img: "https://avatars3.githubusercontent.com/u/16570797?v=4",
+      links: {
+        website: "https://ritubala.com/",
+        linkedin: "https://www.linkedin.com/in/balaritu/",
+        github: "https://github.com/Ritu734/",
+      },
+      jobTitle: "Senior Software Engineer - iOS",
+      location: {
+        city: "New Delhi",
+        state: "Delhi",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Aditya Tarale",
       img:
         "https://avatars0.githubusercontent.com/u/67708581?s=400&u=a76517830e4d15c59bc0b1f2a8ce9be41858a011&v=4",
