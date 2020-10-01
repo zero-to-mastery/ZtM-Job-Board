@@ -4,6 +4,22 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Uday Bhaskar Gajavalli",
+      img: "https://avatars2.githubusercontent.com/u/37218552?s=460&u=656991e27606629e826958ddbadbb989f92b8d8e&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/udaygajavalli/",
+        github: "https://github.com/Udaygajavalli",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Hyderabad",
+        state: "Telangana",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Mani",
       img: "https://avatars0.githubusercontent.com/u/8047068?s=460&v=4",
       links: {
@@ -17117,14 +17133,14 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/alex-triece-a3ab7429/",
-        github: "https://github.com/atrieceeph289"
+        github: "https://github.com/atrieceeph289",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Moline",
         state: "Illinois",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
 
     {
@@ -17144,6 +17160,7 @@ export const data = {
       },
     },
     {
+      id: uuidv4(),
       name: "Cassio Groh",
       img:
         "https://avatars1.githubusercontent.com/u/66094520?s=460&u=271d91dfee4ab83fc01e3f380b4d3a0c8bfc2828&v=4",
@@ -17157,7 +17174,6 @@ export const data = {
         city: "Brusque",
         state: "Santa Catarina",
         country: "Brazil",
-
       },
     },
     {
@@ -17176,6 +17192,70 @@ export const data = {
         country: "India",
       },
     },
-
+    {
+      id: uuidv4(),
+      name: "Aditya Tarale",
+      img:
+        "https://avatars0.githubusercontent.com/u/67708581?s=400&u=a76517830e4d15c59bc0b1f2a8ce9be41858a011&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/aditya-tarale-8234261b2/",
+        github: "https://github.com/AdityaTarale",
+      },
+      jobTitle: "Front-end developer",
+      location: {
+        city: "Nagpur",
+        state: "Maharashtra",
+        country: "India",
+      },
+    },{
+    id: uuidv4(),
+    name: "Abhishek Rathore",
+    img: "https://avatars3.githubusercontent.com/u/40576705?v=4",
+    links: {
+      website: "",
+      linkedin: "www.linkedin.com/in/abhishek-rathore-666972127",
+      github: "https://github.com/abhishekra07"
+    },
+    jobTitle: "Assistance System Engineer",
+    location: {
+      city: "Indore",
+      state: "Madhya Pradesh",
+      country: "India"
+    }
+    },
+    {
+      id: uuidv4(),
+      name: "Manoj Jasoliya",
+      img:
+        "https://avatars0.githubusercontent.com/u/48120921?s=460&u=59aee8c853b4db000da402dde710648b90123eac&v=4",
+      links: {
+        website: "https://manojjasoliya.tech/",
+        linkedin: "https://www.linkedin.com/in/manoj-jasoliya/",
+        github: "https://github.com/Manojj999",
+      },
+      jobTitle: "Front-End Developer",
+      location: {
+        city: "Surat",
+        state: "Gujarat",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Jamiu Jimoh",
+      img: "https://avatars0.githubusercontent.com/u/60991680?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/jamiu-jimoh/",
+        github: "https://github.com/JamiuJimoh",
+      },
+      jobTitle: "Full Stack/MERN Developer",
+      location: {
+        city: "Lagos",
+        state: "Lagos",
+        country: "Nigeria",
+      },
+    },
   ],
 }
