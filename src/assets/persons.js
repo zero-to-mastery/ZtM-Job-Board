@@ -4,6 +4,38 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Uday Bhaskar Gajavalli",
+      img: "https://avatars2.githubusercontent.com/u/37218552?s=460&u=656991e27606629e826958ddbadbb989f92b8d8e&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/udaygajavalli/",
+        github: "https://github.com/Udaygajavalli",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Hyderabad",
+        state: "Telangana",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Mani",
+      img: "https://avatars0.githubusercontent.com/u/8047068?s=460&v=4",
+      links: {
+        website: "",
+        linkedin: "",
+        github: "https://github.com/mani9896",
+      },
+      jobTitle: "Full Stack Developer, Web Developer",
+      location: {
+        city: "Ambala",
+        state: "Haryana",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Lucas Penz",
       img: "https://avatars0.githubusercontent.com/u/8047068?s=460&v=4",
       links: {
@@ -7287,11 +7319,11 @@ export const data = {
     {
       id: uuidv4(),
       name: "Shashank Singh",
-      img: "https://imgur.com/a/jzGrGcK",
+      img: "https://avatars3.githubusercontent.com/u/48752899?v=4",
       links: {
-        website: "shashankcic.github.io",
-        linkedin: "www.linkedin.com/in/shashankcic/",
-        github: "https://github.com/shashankcic",
+        website: "https://singhshashank.tech/",
+        linkedin: "https://www.linkedin.com/in/shashankcic/",
+        github: "https://github.com/shashankcic/",
       },
       jobTitle: "Web Developer",
       location: {
@@ -16828,42 +16860,44 @@ export const data = {
       location: {
         city: "CABA",
         state: "Buenos Aires",
-        country: "Argentina"
-      }
+        country: "Argentina",
+      },
     },
     {
-    id: uuidv4(),
-    name: "Min Shin Khant",
-    img: "https://avatars2.githubusercontent.com/u/47337883?s=400&u=180116e1471ae3ab4cd515bfea088da4725fce02&v=4",
-    links: {
-      website: "https://minshinkhant.github.io/",
-      linkedin: "https://www.linkedin.com/in/minshinkhant/",
-      github: "https://github.com/minshinkhant"
+      id: uuidv4(),
+      name: "Min Shin Khant",
+      img:
+        "https://avatars2.githubusercontent.com/u/47337883?s=400&u=180116e1471ae3ab4cd515bfea088da4725fce02&v=4",
+      links: {
+        website: "https://minshinkhant.github.io/",
+        linkedin: "https://www.linkedin.com/in/minshinkhant/",
+        github: "https://github.com/minshinkhant",
+      },
+      jobTitle: "Python Web Developer",
+      location: {
+        city: "Brooklyn",
+        state: "New York",
+        country: "United States",
+      },
     },
-    jobTitle: "Python Web Developer",
-    location: {
-      city: "Brooklyn",
-      state: "New York",
-      country: "United States"
-    }
-  },
-  {
-    id: uuidv4(),
-    name: "Bellout Aziz",
-    img: "https://avatars0.githubusercontent.com/u/63014105?v=4",
-    links: {
-      website: "",
-      linkedin: "https://www.linkedin.com/in/bellout-abdelaaziz-itil-f-013568a/",
-      github: "https://github.com/bellapp",
+    {
+      id: uuidv4(),
+      name: "Bellout Aziz",
+      img: "https://avatars0.githubusercontent.com/u/63014105?v=4",
+      links: {
+        website: "",
+        linkedin:
+          "https://www.linkedin.com/in/bellout-abdelaaziz-itil-f-013568a/",
+        github: "https://github.com/bellapp",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "",
+        state: "Agadir",
+        country: "Morocco",
+      },
     },
-    jobTitle: "Full Stack Developer",
-    location: {
-      city: "",
-      state: "Agadir",
-      country: "Morocco",
-    },
-  },
-       
+
     {
       id: uuidv4(),
       name: "Jared Matta",
@@ -16910,7 +16944,7 @@ export const data = {
         city: "",
         state: "Ha Noi",
         country: "Viet Nam",
-      }
+      },
     },
     {
       id: uuidv4(),
@@ -16935,32 +16969,325 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/ebenezer-akinsanya/",
-        github: "https://github.com/Akinebee/"
+        github: "https://github.com/Akinebee/",
       },
       jobTitle: "Web Developer | Enginner",
       location: {
         city: "Somolu",
         state: "Lagos",
-        country: "Nigeria"
+        country: "Nigeria",
       },
     },
-      ,{
-    id: uuidv4(),
-    name: "Andrew osayande Irorere",
-    img: "https://avatars3.githubusercontent.com/u/62455784?v=4",
-    links: {
-      website: "https://andreyscott.github.io/index.index.html",
-      linkedin: "https://www.linkedin.com/in/andrey-scott-b63a601b8/",
-      github: "https://github.com/andreyscott",
+    {
+      id: uuidv4(),
+      name: "Andrew osayande Irorere",
+      img: "https://avatars3.githubusercontent.com/u/62455784?v=4",
+      links: {
+        website: "https://andreyscott.github.io/index.index.html",
+        linkedin: "https://www.linkedin.com/in/andrey-scott-b63a601b8/",
+        github: "https://github.com/andreyscott",
+      },
+      jobTitle:
+        "Junior web developer | Front-End Webdeveloper | Full-Stack Webdeveloper",
+      location: {
+        city: "Benin City",
+        state: "Edo state",
+        country: "Nigeria",
+      },
     },
-    jobTitle: "Full-stack Web developer",
+    {
+      id: uuidv4(),
+      name: "Oryam Ne",
+      img: "https://avatars1.githubusercontent.com/u/48219965?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/oryamne/",
+        github: "https://github.com/or-yam",
+      },
+      jobTitle: "Full-Stack Web Developer",
+      location: {
+        city: "",
+        state: "",
+        country: "Israel",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Michael George",
+      img: "https://avatars1.githubusercontent.com/u/52582725?v=4",
+      links: {
+        website: "http://mico52000.pythonanywhere.com/index.html",
+        linkedin: "https://www.linkedin.com/in/michael-zakhary-25ab101b2/",
+        github: "https://github.com/Mico52000",
+      },
+      jobTitle: "Full-Stack Web Developer and Python Developer",
+      location: {
+        city: "Cairo",
+        state: "",
+        country: "Egypt",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Ana Tulea",
+      img:
+        "https://avatars2.githubusercontent.com/u/52582725?s=400&u=46e6689255d9273eedf6d4ac06cb5385a6d3eb94&v=4",
+      links: {
+        website: "https://www.anatulea.com/",
+        linkedin: "https://www.linkedin.com/in/anatulea/",
+        github: "https://github.com/anatulea",
+      },
+      jobTitle: "Full-Stack Web Developer ",
+      location: {
+        city: "Las Vegas",
+        state: "Nevada",
+        country: "USA",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Hieu Pham",
+      img: "https://avatars2.githubusercontent.com/u/69702997?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/hieu-pham-6404b5148/",
+        github: "https://github.com/hieupham-thedreamer",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Ho Chi Minh",
+        state: "",
+        country: "Vietnam",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Pedro D. Rocha",
+      img: "https://pedrodrocha.com/img/fotoMain1.jpg",
+      links: {
+        website: "https://pedrodrocha.com/",
+        linkedin: "https://www.linkedin.com/in/pedrodrocha/",
+        github: "https://github.com/pedrodrocha",
+      },
+      jobTitle: "Data Analyst | Political Scientist",
+      location: {
+        city: "São Paulo",
+        state: "São Paulo",
+        country: "Brazil",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Uday Kumar Madarapu",
+      img: "https://avatars0.githubusercontent.com/u/32547287?v=4",
+      links: {
+        website: "https://udaykumaruking.github.io",
+        linkedin: "https://www.linkedin.com/in/uday-kumar-uking/",
+        github: "https://github.com/udaykumaruking",
+      },
+      jobTitle: "Web and Graphic Designer",
+      location: {
+        city: "Warangal",
+        state: "Telangana",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Prakhar Tiwari",
+      img: "https://avatars3.githubusercontent.com/u/10178031?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/prakhar-tiwari-42521853/",
+        github: "https://github.com/prak281993",
+      },
+      jobTitle:
+        "Full Stack Developer, MERN developer, Backend developer, Frontend developer",
+      location: {
+        city: "Kanpur",
+        state: "Uttar Pradesh",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Chieh (Stephanie) Wang",
+      img: "https://avatars3.githubusercontent.com/u/31616284?v=4",
+      links: {
+        website: "https://stephanieportfolio-39f22.firebaseapp.com/#home",
+        linkedin: "https://www.linkedin.com/in/chieh-stephanie-wang-aa2732151",
+        github: "https://github.com/Stephanie1226",
+      },
+      jobTitle: "Sofeware/Full Stack/Web Developer",
+      location: {
+        city: "Calgary",
+        state: "Alberta",
+        country: "Canada",
+      },
+    },
+    
+    {
+      id: uuidv4(),
+      name: "Alexander Triece",
+      img: "https://avatars3.githubusercontent.com/u/17958683?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/alex-triece-a3ab7429/",
+        github: "https://github.com/atrieceeph289",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Moline",
+        state: "Illinois",
+        country: "USA",
+      },
+    },
+
+    {
+      id: uuidv4(),
+      name: "Gabi Brouze",
+      img: "https://avatars2.githubusercontent.com/u/52550101?v=4",
+      links: {
+        website: "https://gabibrouze.herokuapp.com/",
+        linkedin: "https://www.linkedin.com/in/gabi-brouze/",
+        github: "https://github.com/gabibrouze",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Johannesburg",
+        state: "",
+        country: "South Africa",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Cassio Groh",
+      img:
+        "https://avatars1.githubusercontent.com/u/66094520?s=460&u=271d91dfee4ab83fc01e3f380b4d3a0c8bfc2828&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/cassiogroh/",
+        github: "https://github.com/cassiogroh",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Brusque",
+        state: "Santa Catarina",
+        country: "Brazil",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Parth Kanani",
+      img: "https://avatars0.githubusercontent.com/u/47061736?v=4",
+      links: {
+        website: "https://parth-portfolio.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/parth-kanani-1251a3162/",
+        github: "https://github.com/parthkanani93"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Surat",
+        state: "Gujarat",
+        country: "India"
+      }
+    },
+{
+      id: uuidv4(),
+      name: "Edwin Boon",
+      img: "https://www.github.com/edwinboon.png",
+      links: {
+        website: "https://www.edwinboon.dev/",
+        linkedin: "",
+        github: "https://github.com/edwinboon",
+      },
+      jobTitle: "Frontend Developer",
+      location: {
+        city: "Ermelo",
+        state: "Ermelo",
+        country: "Netherlands",
+      }
+},
+    {
+      id: uuidv4(),
+      name: "Ritu Bala",
+      img: "https://avatars3.githubusercontent.com/u/16570797?v=4",
+      links: {
+        website: "https://ritubala.com/",
+        linkedin: "https://www.linkedin.com/in/balaritu/",
+        github: "https://github.com/Ritu734/",
+      },
+      jobTitle: "Senior Software Engineer - iOS",
+      location: {
+        city: "New Delhi",
+        state: "Delhi",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Aditya Tarale",
+      img:
+        "https://avatars0.githubusercontent.com/u/67708581?s=400&u=a76517830e4d15c59bc0b1f2a8ce9be41858a011&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/aditya-tarale-8234261b2/",
+        github: "https://github.com/AdityaTarale",
+      },
+      jobTitle: "Front-end developer",
+      location: {
+        city: "Nagpur",
+        state: "Maharashtra",
+        country: "India",
+      },
+    },{
+    id: uuidv4(),
+    name: "Abhishek Rathore",
+    img: "https://avatars3.githubusercontent.com/u/40576705?v=4",
+    links: {
+      website: "",
+      linkedin: "www.linkedin.com/in/abhishek-rathore-666972127",
+      github: "https://github.com/abhishekra07"
+    },
+    jobTitle: "Assistance System Engineer",
     location: {
-      city: "Benin City",
-      state: "Edo state",
-      country: "Nigeria"
+      city: "Indore",
+      state: "Madhya Pradesh",
+      country: "India"
     }
-  }
-
-  ]
+    },
+    {
+      id: uuidv4(),
+      name: "Manoj Jasoliya",
+      img:
+        "https://avatars0.githubusercontent.com/u/48120921?s=460&u=59aee8c853b4db000da402dde710648b90123eac&v=4",
+      links: {
+        website: "https://manojjasoliya.tech/",
+        linkedin: "https://www.linkedin.com/in/manoj-jasoliya/",
+        github: "https://github.com/Manojj999",
+      },
+      jobTitle: "Front-End Developer",
+      location: {
+        city: "Surat",
+        state: "Gujarat",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Jamiu Jimoh",
+      img: "https://avatars0.githubusercontent.com/u/60991680?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/jamiu-jimoh/",
+        github: "https://github.com/JamiuJimoh",
+      },
+      jobTitle: "Full Stack/MERN Developer",
+      location: {
+        city: "Lagos",
+        state: "Lagos",
+        country: "Nigeria",
+      },
+    },
+  ],
 }
-
