@@ -12282,9 +12282,9 @@ export const data = {
     {
       id: uuidv4(),
       name: "Aayush Rajput",
-      img: "",
+      img: "https://github.com/aayushhh.png",
       links: {
-        website: "",
+        website: "https://aayushhh.github.io/website",
         linkedin: "https://www.linkedin.com/in/aayush-r-44a33a108/",
         github: "https://github.com/aayushhh/",
       },
