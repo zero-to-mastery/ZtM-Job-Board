@@ -17289,5 +17289,21 @@ export const data = {
         country: "Nigeria",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Bhavansh Gupta",
+      img: "https://avatars3.githubusercontent.com/u/45139041?v=4",
+      links: {
+        website: "https://bhavansh.tech/",
+        linkedin: "https://www.linkedin.com/in/bhavanshgupta",
+        github: "https://github.com/bhavansh",
+      },
+      jobTitle: "Full Stack/MERN Developer",
+      location: {
+        city: "Pune",
+        state: "Maharashtra",
+        country: "India",
+      },
+    },
   ],
 }
