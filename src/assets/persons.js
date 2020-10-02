@@ -4,8 +4,26 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Nitin K",
+      img:
+        "https://avatars2.githubusercontent.com/u/60770391?s=460&u=ef1677b0ccb737b3737eb76cc4a8f917a4a707c5&v=4",
+      links: {
+        website: "https://aawara.me",
+        linkedin: "https://www.linkedin.com/in/nitin-k-74598512b/",
+        github: "https://github.com/nitink66",
+      },
+      jobTitle: "Front-End Developer (ReactJs)",
+      location: {
+        city: "Davangere",
+        state: "Karnataka",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Uday Bhaskar Gajavalli",
-      img: "https://avatars2.githubusercontent.com/u/37218552?s=460&u=656991e27606629e826958ddbadbb989f92b8d8e&v=4",
+      img:
+        "https://avatars2.githubusercontent.com/u/37218552?s=460&u=656991e27606629e826958ddbadbb989f92b8d8e&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/udaygajavalli/",
@@ -17183,16 +17201,16 @@ export const data = {
       links: {
         website: "https://parth-portfolio.netlify.app/",
         linkedin: "https://www.linkedin.com/in/parth-kanani-1251a3162/",
-        github: "https://github.com/parthkanani93"
+        github: "https://github.com/parthkanani93",
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Surat",
         state: "Gujarat",
-        country: "India"
-      }
+        country: "India",
+      },
     },
-{
+    {
       id: uuidv4(),
       name: "Edwin Boon",
       img: "https://www.github.com/edwinboon.png",
@@ -17206,8 +17224,8 @@ export const data = {
         city: "Ermelo",
         state: "Ermelo",
         country: "Netherlands",
-      }
-},
+      },
+    },
     {
       id: uuidv4(),
       name: "Ritu Bala",
@@ -17240,21 +17258,22 @@ export const data = {
         state: "Maharashtra",
         country: "India",
       },
-    },{
-    id: uuidv4(),
-    name: "Abhishek Rathore",
-    img: "https://avatars3.githubusercontent.com/u/40576705?v=4",
-    links: {
-      website: "",
-      linkedin: "www.linkedin.com/in/abhishek-rathore-666972127",
-      github: "https://github.com/abhishekra07"
     },
-    jobTitle: "Assistance System Engineer",
-    location: {
-      city: "Indore",
-      state: "Madhya Pradesh",
-      country: "India"
-    }
+    {
+      id: uuidv4(),
+      name: "Abhishek Rathore",
+      img: "https://avatars3.githubusercontent.com/u/40576705?v=4",
+      links: {
+        website: "",
+        linkedin: "www.linkedin.com/in/abhishek-rathore-666972127",
+        github: "https://github.com/abhishekra07",
+      },
+      jobTitle: "Assistance System Engineer",
+      location: {
+        city: "Indore",
+        state: "Madhya Pradesh",
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
