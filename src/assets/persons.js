@@ -17192,7 +17192,7 @@ export const data = {
         country: "India"
       }
     },
-{
+    {
       id: uuidv4(),
       name: "Edwin Boon",
       img: "https://www.github.com/edwinboon.png",
@@ -17207,7 +17207,7 @@ export const data = {
         state: "Ermelo",
         country: "Netherlands",
       }
-},
+    },
     {
       id: uuidv4(),
       name: "Ritu Bala",
@@ -17240,21 +17240,21 @@ export const data = {
         state: "Maharashtra",
         country: "India",
       },
-    },{
-    id: uuidv4(),
-    name: "Abhishek Rathore",
-    img: "https://avatars3.githubusercontent.com/u/40576705?v=4",
-    links: {
-      website: "",
-      linkedin: "www.linkedin.com/in/abhishek-rathore-666972127",
-      github: "https://github.com/abhishekra07"
-    },
-    jobTitle: "Assistance System Engineer",
-    location: {
-      city: "Indore",
-      state: "Madhya Pradesh",
-      country: "India"
-    }
+    }, {
+      id: uuidv4(),
+      name: "Abhishek Rathore",
+      img: "https://avatars3.githubusercontent.com/u/40576705?v=4",
+      links: {
+        website: "",
+        linkedin: "www.linkedin.com/in/abhishek-rathore-666972127",
+        github: "https://github.com/abhishekra07"
+      },
+      jobTitle: "Assistance System Engineer",
+      location: {
+        city: "Indore",
+        state: "Madhya Pradesh",
+        country: "India"
+      }
     },
     {
       id: uuidv4(),
@@ -17290,20 +17290,36 @@ export const data = {
       },
     },
     {
-    id: uuidv4(),
-    name: "Abhishek Singh",
-    img: "https://avatars2.githubusercontent.com/u/28640901?v=4",
-    links: {
-      website: "https://singhabhishek16.github.io/",
-      linkedin: "https://www.linkedin.com/in/abhisheklinkings/",
-      github: "https://github.com/singhAbhishek16"
+      id: uuidv4(),
+      name: "Abhishek Singh",
+      img: "https://avatars2.githubusercontent.com/u/28640901?v=4",
+      links: {
+        website: "https://singhabhishek16.github.io/",
+        linkedin: "https://www.linkedin.com/in/abhisheklinkings/",
+        github: "https://github.com/singhAbhishek16"
+      },
+      jobTitle: "aspiring Data Scientist",
+      location: {
+        city: "",
+        state: "",
+        country: "India"
+      },
     },
-    jobTitle: "aspiring Data Scientist",
-    location: {
-      city: "",
-      state: "",
-      country: "India"
-    },
-  },
+    {
+      id: uuidv4(),
+      name: "George Trakas",
+      img: "https://avatars1.githubusercontent.com/u/29389969?s=460&u=521c5e7bff94259d495a807536942703609846b5&v=4",
+      links: {
+        website: "https://gtrakas1.github.io/george_trakas/",
+        linkedin: "https://www.linkedin.com/in/george-trakas-0b665516a/",
+        github: "https://www.github.com/Gtrakas1"
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Toronto",
+        state: "Ontario",
+        country: "Canada"
+      }
+    }
   ],
 }
