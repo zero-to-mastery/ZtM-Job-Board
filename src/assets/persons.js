@@ -17289,5 +17289,21 @@ export const data = {
         country: "Nigeria",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Danish Shaikh",
+      img: "https://avatars3.githubusercontent.com/u/22702540?v=4",
+      links: {
+        website: "https://danishsshaikh.github.io/",
+        linkedin: "https://www.linkedin.com/in/danishsshaikh/",
+        github: "https://github.com/danishsshaikh",
+      },
+      jobTitle: "Unity Developer, App Developer",
+      location: {
+        city: "Mumbai",
+        state: "Maharashtra",
+        country: "India",
+      },
+    },
   ],
 }
