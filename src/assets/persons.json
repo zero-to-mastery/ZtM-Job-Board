@@ -12098,6 +12098,22 @@
         "state": "Hamburg",
         "country": "Germany"
       }
+    },
+    {
+    "id": 846,
+    "name": "Kumar Aditya",
+    "img": "https://avatars3.githubusercontent.com/u/50402733?s=60&v=4",
+    "links": {
+      "website": "https://kumaraditya.netlify.app/",
+      "linkedin": "https://www.linkedin.com/in/kumar-aditya-77a2b4194/",
+      "github": "https://github.com/nnhhiilliisstt"
+    },
+    "jobTitle": "Front end Developer",
+    "location": {
+      "city": "Muzaffarpur",
+      "state": "Bihar",
+      "country": "India"
     }
+  }
   ]
 }
