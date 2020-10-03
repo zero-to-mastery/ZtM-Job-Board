@@ -11919,8 +11919,7 @@ export const data = {
     {
       id: uuidv4(),
       name: "Paramjeet Dhiman",
-      img:
-        "https://avatars3.githubusercontent.com/u/48877846?v=4",
+      img: "https://avatars3.githubusercontent.com/u/48877846?v=4",
       links: {
         website: "https://paramjeetdhiman.github.io",
         linkedin: "https://www.linkedin.com/in/paramjeetdhiman",
@@ -17143,7 +17142,7 @@ export const data = {
         country: "Canada",
       },
     },
-    
+
     {
       id: uuidv4(),
       name: "Alexander Triece",
@@ -17310,6 +17309,21 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Michael Joy",
+      img: "https://avatars1.githubusercontent.com/u/11379243?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/mjoylink/",
+        github: "https://github.com/michaeljoy255",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "",
+        state: "",
+        country: "USA",
+      },
+    },
+    {
       name: "Abhishek Singh",
       img: "https://avatars2.githubusercontent.com/u/28640901?v=4",
       links: {
