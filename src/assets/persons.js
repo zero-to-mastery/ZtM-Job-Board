@@ -17305,5 +17305,21 @@ export const data = {
       country: "India"
     },
   },
+  {
+    id: uuidv4(),
+    name: "Yousef Awad",
+    img: "https://avatars3.githubusercontent.com/u/47591863?v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/yousef-awad-hr-assistant-069834a7",
+      github: "https://github.com/Yousef1986"
+    },
+    jobTitle: "An Aspiring Full-Stack Developer",
+    location: {
+      city: "Dubai",
+      state: "",
+      country: "United Arab Emirates"
+    },
+  },
   ],
 }
