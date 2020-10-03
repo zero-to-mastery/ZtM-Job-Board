@@ -11919,8 +11919,7 @@ export const data = {
     {
       id: uuidv4(),
       name: "Paramjeet Dhiman",
-      img:
-        "https://avatars3.githubusercontent.com/u/48877846?v=4",
+      img: "https://avatars3.githubusercontent.com/u/48877846?v=4",
       links: {
         website: "https://paramjeetdhiman.github.io",
         linkedin: "https://www.linkedin.com/in/paramjeetdhiman",
@@ -17143,7 +17142,7 @@ export const data = {
         country: "Canada",
       },
     },
-    
+
     {
       id: uuidv4(),
       name: "Alexander Triece",
@@ -17338,6 +17337,22 @@ export const data = {
         city: "Kathmandu",
         state: "",
         country: "Nepal",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Med EL BOUDALI",
+      img: "https://avatars1.githubusercontent.com/u/53059156",
+      links: {
+        website: "Medelboudali.github.io",
+        linkedin: "",
+        github: "https://github.com/MedElBoudali",
+      },
+      jobTitle: "undefined",
+      location: {
+        city: "",
+        state: "",
+        country: "Sweden",
       },
     },
   ],
