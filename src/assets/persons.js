@@ -17310,8 +17310,7 @@ export const data = {
     {
       id: uuidv4(),
       name: "Samip Poudel",
-      img:
-        "https://pbs.twimg.com/profile_images/1261589727649476610/K93xBTTy_400x400.jpg",
+      img: "https://avatars1.githubusercontent.com/u/59493809?v=4",
       links: {
         website: "https://samip.ml/",
         linkedin: "https://www.linkedin.com/in/samip-poudel-570a371a6/",
