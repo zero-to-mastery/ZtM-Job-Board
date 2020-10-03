@@ -17662,5 +17662,21 @@ export const data = {
                 country: "India",
             },
         },
+        {
+            id: uuidv4(),
+            name: "Ali Raza",
+            img: "https://avatars0.githubusercontent.com/u/64375853?v=4",
+            links: {
+                website: "https://romantic-colden-5824fb.netlify.app/",
+                linkedin: "https://www.linkedin.com/in/ali-raza-1b26171b0/",
+                github: "https://github.com/RazaMunir824",
+            },
+            jobTitle: "Full-Stack Developer",
+            location: {
+                city: "Lahore",
+                state: "",
+                country: "Pakistan",
+            },
+        },
     ],
 };
