@@ -17002,7 +17002,7 @@ export const data = {
       img: "https://avatars3.githubusercontent.com/u/62455784?v=4",
       links: {
         website: "https://andreyscott.github.io/index.index.html",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/andrey-scott-b63a601b8/",
         github: "https://github.com/andreyscott",
       },
       jobTitle:
@@ -17143,7 +17143,7 @@ export const data = {
         country: "Canada",
       },
     },
-
+    
     {
       id: uuidv4(),
       name: "Alexander Triece",
