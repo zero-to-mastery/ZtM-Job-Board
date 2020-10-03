@@ -41,7 +41,7 @@
     "start": "npm-run-all -p watch-css start-js",
     "watch-css": "npm run build-css && node-sass-chokidar ./src/ --output ./src/ --output-style compressed --watch --recursive",
     "start-js": "react-scripts start",
-    "build": "npm-run-all build-css build-js",
+    "build": "react-scripts test --no-watchman --watchAll=false && npm-run-all build-css build-js",
     "build-css": "node-sass-chokidar ./src/ --output ./src/ --output-style compressed",
     "build-js": "react-scripts build",
     "postbuild": "mv ./build/favicons/* ./build/ && rm -r ./build/favicons && purgecss --css build/static/css/*.css --content build/static/index.html build/static/js/*.js --out build/static/css",
