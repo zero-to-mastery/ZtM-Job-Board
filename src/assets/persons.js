@@ -4,6 +4,23 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Nitin K",
+      img:
+        "https://avatars2.githubusercontent.com/u/60770391?s=460&u=ef1677b0ccb737b3737eb76cc4a8f917a4a707c5&v=4",
+      links: {
+        website: "https://aawara.me",
+        linkedin: "https://www.linkedin.com/in/nitin-k-74598512b/",
+        github: "https://github.com/nitink66",
+      },
+      jobTitle: "Front-End Developer (ReactJs)",
+      location: {
+        city: "Davangere",
+        state: "Karnataka",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Uday Bhaskar Gajavalli",
       img:
         "https://avatars2.githubusercontent.com/u/37218552?s=460&u=656991e27606629e826958ddbadbb989f92b8d8e&v=4",
