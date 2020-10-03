@@ -4,6 +4,23 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Nitin K",
+      img:
+        "https://avatars2.githubusercontent.com/u/60770391?s=460&u=ef1677b0ccb737b3737eb76cc4a8f917a4a707c5&v=4",
+      links: {
+        website: "https://aawara.me",
+        linkedin: "https://www.linkedin.com/in/nitin-k-74598512b/",
+        github: "https://github.com/nitink66",
+      },
+      jobTitle: "Front-End Developer (ReactJs)",
+      location: {
+        city: "Davangere",
+        state: "Karnataka",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Uday Bhaskar Gajavalli",
       img:
         "https://avatars2.githubusercontent.com/u/37218552?s=460&u=656991e27606629e826958ddbadbb989f92b8d8e&v=4",
@@ -11903,16 +11920,16 @@ export const data = {
       id: uuidv4(),
       name: "Paramjeet Dhiman",
       img:
-        "https://scontent.fhyd5-1.fna.fbcdn.net/v/t1.0-1/c60.0.240.240a/p240x240/90170088_1570467313105651_7051108845623443456_o.jpg?_nc_cat=108&_nc_sid=dbb9e7&_nc_ohc=Ipi2IGMZPxsAX_SKRWe&_nc_ht=scontent.fhyd5-1.fna&oh=a354d5e07f5072e7c79642cca644b748&oe=5EA6DA17https://scontent.fhyd5-1.fna.fbcdn.net/v/t1.0-1/c60.0.240.240a/p240x240/90170088_1570467313105651_7051108845623443456_o.jpg?_nc_cat=108&_nc_sid=dbb9e7&_nc_ohc=Ipi2IGMZPxsAX_SKRWe&_nc_ht=scontent.fhyd5-1.fna&oh=a354d5e07f5072e7c79642cca644b748&oe=5EA6DA17",
+        "https://avatars3.githubusercontent.com/u/48877846?v=4",
       links: {
-        website: "https://about.me/paramjeetdhiman",
+        website: "https://paramjeetdhiman.github.io",
         linkedin: "https://www.linkedin.com/in/paramjeetdhiman",
         github: "https://github.com/paramjeetdhiman",
       },
       jobTitle: "Front-End Developer",
       location: {
-        city: "Hyderabad",
-        state: "Telangana",
+        city: "Jind",
+        state: "Haryana",
         country: "India",
       },
     },
@@ -16985,7 +17002,7 @@ export const data = {
       img: "https://avatars3.githubusercontent.com/u/62455784?v=4",
       links: {
         website: "https://andreyscott.github.io/index.index.html",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/andrey-scott-b63a601b8/",
         github: "https://github.com/andreyscott",
       },
       jobTitle:
@@ -17126,7 +17143,7 @@ export const data = {
         country: "Canada",
       },
     },
-
+    
     {
       id: uuidv4(),
       name: "Alexander Triece",
@@ -17308,5 +17325,53 @@ export const data = {
         country: "United Kingdom",
       },
     },
+{
+      id: uuidv4(),
+      name: "Abhishek Singh",
+      img: "https://avatars2.githubusercontent.com/u/28640901?v=4",
+      links: {
+        website: "https://singhabhishek16.github.io/",
+        linkedin: "https://www.linkedin.com/in/abhisheklinkings/",
+        github: "https://github.com/singhAbhishek16",
+      },
+      jobTitle: "aspiring Data Scientist",
+      location: {
+        city: "",
+        state: "",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Samip Poudel",
+      img: "https://avatars1.githubusercontent.com/u/59493809?v=4",
+      links: {
+        website: "https://samip.ml/",
+        linkedin: "https://www.linkedin.com/in/samip-poudel-570a371a6/",
+        github: "https://github.com/SamipPoudel58",
+      },
+      jobTitle: "Full-Stack Developer",
+      location: {
+        city: "Kathmandu",
+        state: "",
+        country: "Nepal",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Aditya Singh",
+      img: "https://avatars3.githubusercontent.com/u/68491442?v=4",
+      links: {
+        website: "https://adityasingh0925.github.io/",
+        linkedin: "https://www.linkedin.com/in/aditya2509/",
+        github: "https://github.com/adityasingh2509"
+      },
+      jobTitle: "Student",
+      location: {
+        city: "Mumbai",
+        state: "",
+        country: "India"
+      }
+    }
   ],
 }
