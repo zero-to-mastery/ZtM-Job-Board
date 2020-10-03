@@ -6,8 +6,8 @@ import Person from "../interfaces/person"
 const CardList = ({ persons }: any) => {
   return (
     <>
-      {persons.map((user: Person, i: any) => (
-        <Card key={i} user={user} />
+      {persons.map((user: Person) => (
+        <Card key={user.id} user={user} />
       ))}
     </>
   )

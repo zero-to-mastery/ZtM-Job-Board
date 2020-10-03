@@ -1,21 +1,23 @@
 import React, { useEffect, useState } from "react"
-import { Map as LeafletMap, TileLayer, Marker, Popup } from "react-leaflet"
-import { countriesWithNumOfDevsObj } from "../util/UsersDataCleanup"
+import {
+  Map as LeafletMap,
+  Marker,
+  Popup,
+  TileLayer,
+  Tooltip,
+} from "react-leaflet"
 
-// console.log(countriesWithNumOfDevsObj);
+import { countriesWithNumOfDevsObj } from "../util/UsersDataCleanup"
 
 // Array of country names and number of devs in those countries
 /* Needed to match country names from countriesWithNumOfDevsObj against 
 country names fetched from API to get their latitude and longitude for markers */
 const countryNamesAndNumOfDevsArr = Object.entries(countriesWithNumOfDevsObj)
 
-// console.log(countryNamesAndNumOfDevsArr);
-
 let centerLatLngArr: any = []
 
 function SimpleMap({ zoom = 3 }) {
   const [allCountriesLatLang, setAllCountriesLatLang] = useState([])
-
   useEffect(() => {
     // If the user goes back to home before map has loaded, the Map component will unmount
     // but since fetch cannot be cancelled, react will try to setSate on an unmounted component
@@ -37,13 +39,10 @@ function SimpleMap({ zoom = 3 }) {
     }
   }, [])
 
-  // console.log(allCountriesLatLang);
-
   let countriesLatLngArr: any = allCountriesLatLang.map(({ name, latlng }) => ({
     name,
     latlng,
   }))
-  // console.log(countriesLatLngArr);
 
   /* 
   Made separate variable for UK because name of UK in API is "United Kingdom 
@@ -99,23 +98,20 @@ function SimpleMap({ zoom = 3 }) {
 
   const markersArray = finalArrayWithCountryAndLatLng.map(
     ({ country, latlng, numberOfDevs }: any) => {
+      let numberOfDevsText =
+        numberOfDevs === 1
+          ? numberOfDevs + " Developer from " + country
+          : numberOfDevs + " Developers from " + country
       return (
         <Marker
           key={country}
           position={[latlng[0], latlng[1]]}
           color="royalblue"
-          title={
-            numberOfDevs === 1
-              ? numberOfDevs + " Developer from " + country
-              : numberOfDevs + " Developers from " + country
-          }
+          title={numberOfDevsText}
           text={numberOfDevs}
         >
-          <Popup>
-            {numberOfDevs === 1
-              ? numberOfDevs + " Developer from " + country
-              : numberOfDevs + " Developers from " + country}
-          </Popup>
+          <Tooltip>{numberOfDevsText}</Tooltip>
+          <Popup>{numberOfDevsText}</Popup>
         </Marker>
       )
     }
