@@ -17305,5 +17305,21 @@ export const data = {
       country: "India"
     },
   },
+  ,{
+    id: uuidv4(),
+    name: "Aditya Singh",
+    img: "https://avatars3.githubusercontent.com/u/68491442?v=4",
+    links: {
+      website: "https://adityasingh0925.github.io/",
+      linkedin: "https://www.linkedin.com/in/aditya2509/",
+      github: "https://github.com/adityasingh2509"
+    },
+    jobTitle: "Student",
+    location: {
+      city: "",
+      state: "",
+      country: "India"
+    }
+  }
   ],
 }
