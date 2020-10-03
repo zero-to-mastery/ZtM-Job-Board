@@ -17290,6 +17290,7 @@ export const data = {
       },
     },
     {
+
       id: uuidv4(),
       name: "Bhavansh Gupta",
       img: "https://avatars3.githubusercontent.com/u/45139041?v=4",
@@ -17305,5 +17306,22 @@ export const data = {
         country: "India",
       },
     },
+    {
+    id: uuidv4(),
+    name: "Abhishek Singh",
+    img: "https://avatars2.githubusercontent.com/u/28640901?v=4",
+    links: {
+      website: "https://singhabhishek16.github.io/",
+      linkedin: "https://www.linkedin.com/in/abhisheklinkings/",
+      github: "https://github.com/singhAbhishek16"
+    },
+    jobTitle: "aspiring Data Scientist",
+    location: {
+      city: "",
+      state: "",
+      country: "India"
+    },
+  },
+
   ],
 }
