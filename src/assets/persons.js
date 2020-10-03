@@ -15,9 +15,9 @@ export const data = {
     location: {
       city: "Karachi",
       state: "Sindh",
-      country: "Pakistan"
-    }
-  },
+      country: "Pakistan",
+      },
+    },
     {
       id: uuidv4(),
       name: "Uday Bhaskar Gajavalli",
