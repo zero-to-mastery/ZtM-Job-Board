@@ -17678,5 +17678,21 @@ export const data = {
                 country: "Pakistan",
             },
         },
+        {
+            id: uuidv4(),
+            name: "Med EL BOUDALI",
+            img: "https://avatars1.githubusercontent.com/u/53059156",
+            links: {
+                website: "Medelboudali.github.io",
+                linkedin: "",
+                github: "https://github.com/MedElBoudali",
+            },
+            jobTitle: "undefined",
+            location: {
+                city: "",
+                state: "",
+                country: "Sweden",
+            },
+        },
     ],
 };
