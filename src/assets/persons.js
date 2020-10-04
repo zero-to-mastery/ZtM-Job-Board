@@ -17859,5 +17859,21 @@ export const data = {
                 country: "India",
             },
         },
+        {
+            id: uuidv4(),
+            name: "Swaroop Sambhayya",
+            img: "https://avatars1.githubusercontent.com/u/31922733?v=4",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/swaroop-sambhayya-72757a136/",
+                github: "https://github.com/SwaroopSambhayya",
+            },
+            jobTitle: "Full Stack Mobile/Web Developer",
+            location: {
+                city: "Bangalore",
+                state: "Karnataka",
+                country: "India",
+            }
+        },
     ],
 };
