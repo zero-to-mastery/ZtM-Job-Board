@@ -17826,5 +17826,21 @@ export const data = {
                 country: "Canada",
             },
         },
+        {
+            id: uuidv4(),
+            name: "Pei-Lun Hsu",
+            img: "https://drive.google.com/file/d/1zVl__5ZQIP22D6ZSC85MGuyiTbMEg5Q0/view?usp=sharing",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/pei-lun-hsu-b53492178/",
+                github: "https://github.com/plhsu19",
+            },
+            jobTitle: "Computer Science Master Student",
+            location: {
+                city: "Berlin",
+                state: "Berlin",
+                country: "Germany",
+            },
+        },
     ],
 };
