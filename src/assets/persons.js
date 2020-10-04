@@ -12486,13 +12486,13 @@ export const data = {
         {
             id: uuidv4(),
             name: "Aayush Rajput",
-            img: "",
+            img: "https://images.app.goo.gl/kB6SdLVpBtr75frZ9",
             links: {
-                website: "",
+                website: "https://aayushhh.github.io/website",
                 linkedin: "https://www.linkedin.com/in/aayush-r-44a33a108/",
                 github: "https://github.com/aayushhh/",
             },
-            jobTitle: "Full Stack Web Developer",
+            jobTitle: "Full Stack Web Developer, Data Science",
             location: {
                 city: "Gurugram",
                 state: "Haryana",
@@ -17757,6 +17757,90 @@ export const data = {
                 city: "Pune",
                 state: "Maharashtra",
                 country: "India",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Gail Valerie Padel",
+            img: "https://avatars2.githubusercontent.com/u/17189918?v=4",
+            links: {
+                website: "",
+                linkedin:
+                    "https://www.linkedin.com/in/valerie-padel-5a35a4158/",
+                github: "https://github.com/valeriepadel",
+            },
+            jobTitle: "Front-End Web Developer",
+            location: {
+                city: "Pasay",
+                state: "NCR",
+                country: "Philippines",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Saurabh Kumar Agarwal",
+            img: "",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/saurabh619/",
+                github: "https://github.com/saurabh618",
+            },
+            jobTitle: "Python Developer",
+            location: {
+                city: "Hyderabad",
+                state: "Telangana",
+                country: "India",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Danish Shaikh",
+            img: "https://avatars3.githubusercontent.com/u/22702540?v=4",
+            links: {
+                website: "https://danishsshaikh.github.io/",
+                linkedin: "https://www.linkedin.com/in/danishsshaikh/",
+                github: "https://github.com/danishsshaikh",
+            },
+            jobTitle: "Unity Developer, App Developer",
+            location: {
+                city: "Mumbai",
+                state: "Maharashtra",
+                country: "India",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "George Trakas",
+            img:
+                "https://avatars1.githubusercontent.com/u/29389969?s=460&u=521c5e7bff94259d495a807536942703609846b5&v=4",
+            links: {
+                website: "https://gtrakas1.github.io/george_trakas/",
+                linkedin:
+                    "https://www.linkedin.com/in/george-trakas-0b665516a/",
+                github: "https://www.github.com/Gtrakas1",
+            },
+            jobTitle: "Web Developer",
+            location: {
+                city: "Toronto",
+                state: "Ontario",
+                country: "Canada",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Pei-Lun Hsu",
+            img:
+                "https://drive.google.com/file/d/1zVl__5ZQIP22D6ZSC85MGuyiTbMEg5Q0/view?usp=sharing",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/pei-lun-hsu-b53492178/",
+                github: "https://github.com/plhsu19",
+            },
+            jobTitle: "Computer Science Master Student",
+            location: {
+                city: "Berlin",
+                state: "Berlin",
+                country: "Germany",
             },
         },
         {
