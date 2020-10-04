@@ -17829,7 +17829,8 @@ export const data = {
         {
             id: uuidv4(),
             name: "Pei-Lun Hsu",
-            img: "https://drive.google.com/file/d/1zVl__5ZQIP22D6ZSC85MGuyiTbMEg5Q0/view?usp=sharing",
+            img:
+                "https://drive.google.com/file/d/1zVl__5ZQIP22D6ZSC85MGuyiTbMEg5Q0/view?usp=sharing",
             links: {
                 website: "",
                 linkedin: "https://www.linkedin.com/in/pei-lun-hsu-b53492178/",
@@ -17840,6 +17841,22 @@ export const data = {
                 city: "Berlin",
                 state: "Berlin",
                 country: "Germany",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Jayesh Ghosh",
+            img: "",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/jayeshghosh/",
+                github: "https://github.com/JayeshGhosh",
+            },
+            jobTitle: "Undergrad Student",
+            location: {
+                city: "Mumbai",
+                state: "Maharashtra",
+                country: "India",
             },
         },
     ],
