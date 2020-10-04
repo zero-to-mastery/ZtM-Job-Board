@@ -17759,5 +17759,21 @@ export const data = {
                 country: "India",
             },
         },
+        {
+            id: uuidv4(),
+            name: "Jayesh Ghosh",
+            img: "",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/jayeshghosh/",
+                github: "https://github.com/JayeshGhosh",
+            },
+            jobTitle: "Undergrad Student",
+            location: {
+                city: "Mumbai",
+                state: "Maharashtra",
+                country: "India",
+            },
+        },
     ],
 };
