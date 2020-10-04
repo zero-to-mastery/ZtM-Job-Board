@@ -17907,5 +17907,21 @@ export const data = {
                 country: "Colombia",
             }
         },
+        {
+            id: uuidv4(),
+            name: "Jude Savio",
+            img: "https://avatars0.githubusercontent.com/u/60323225?v=4",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/jude-savio97/",
+                github: "https://github.com/JudeSavio",
+            },
+            jobTitle: "Software Developer",
+            location: {
+                city: "Chennai",
+                state: "Tamil Nadu",
+                country: "India",
+            }
+        },
     ],
 };
