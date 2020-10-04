@@ -17891,5 +17891,21 @@ export const data = {
                 country: "Iraq",
             }
         },
+      {
+            id: uuidv4(),
+            name: "Diego A Cruz",
+            img: "https://avatars0.githubusercontent.com/u/7905143?s=60&v=4",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/abejacruz/",
+                github: "https://github.com/AbejaCruz",
+            },
+            jobTitle: "AR/VR Developer",
+            location: {
+                city: "Bogotá",
+                state: "Suba",
+                country: "Colombia",
+            }
+        },
     ],
 };
