@@ -17743,5 +17743,21 @@ export const data = {
                 country: "Nigeria",
             },
         },
+        {
+            id: uuidv4(),
+            name: "Chirag Bagde",
+            img: "https://avatars3.githubusercontent.com/u/47323008?v=4",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/chirag-bagde-1301j/",
+                github: "https://github.com/bagdechirag",
+            },
+            jobTitle: "Undergrad Student",
+            location: {
+                city: "Pune",
+                state: "Maharashtra",
+                country: "India",
+            },
+        },
     ],
 };
