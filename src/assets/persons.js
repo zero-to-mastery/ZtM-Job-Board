@@ -12486,13 +12486,13 @@ export const data = {
         {
             id: uuidv4(),
             name: "Aayush Rajput",
-            img: "",
+            img: "https://images.app.goo.gl/kB6SdLVpBtr75frZ9",
             links: {
-                website: "",
+                website: "https://aayushhh.github.io/website",
                 linkedin: "https://www.linkedin.com/in/aayush-r-44a33a108/",
                 github: "https://github.com/aayushhh/",
             },
-            jobTitle: "Full Stack Web Developer",
+            jobTitle: "Full Stack Web Developer, Data Science",
             location: {
                 city: "Gurugram",
                 state: "Haryana",
