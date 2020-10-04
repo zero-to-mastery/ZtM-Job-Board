@@ -17808,5 +17808,23 @@ export const data = {
                 country: "India",
             },
         },
+        {
+            id: uuidv4(),
+            name: "George Trakas",
+            img:
+                "https://avatars1.githubusercontent.com/u/29389969?s=460&u=521c5e7bff94259d495a807536942703609846b5&v=4",
+            links: {
+                website: "https://gtrakas1.github.io/george_trakas/",
+                linkedin:
+                    "https://www.linkedin.com/in/george-trakas-0b665516a/",
+                github: "https://www.github.com/Gtrakas1",
+            },
+            jobTitle: "Web Developer",
+            location: {
+                city: "Toronto",
+                state: "Ontario",
+                country: "Canada",
+            },
+        },
     ],
 };
