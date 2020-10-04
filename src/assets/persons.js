@@ -17759,5 +17759,22 @@ export const data = {
                 country: "India",
             },
         },
+        {
+            id: uuidv4(),
+            name: "Gail Valerie Padel",
+            img: "https://avatars2.githubusercontent.com/u/17189918?v=4",
+            links: {
+                website: "",
+                linkedin:
+                    "https://www.linkedin.com/in/valerie-padel-5a35a4158/",
+                github: "https://github.com/valeriepadel",
+            },
+            jobTitle: "Front-End Web Developer",
+            location: {
+                city: "Pasay",
+                state: "NCR",
+                country: "Philippines",
+            },
+        },
     ],
 };
