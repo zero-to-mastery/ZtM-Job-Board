@@ -17907,5 +17907,21 @@ export const data = {
                 country: "Colombia",
             }
         },
+        {
+            id: uuidv4(),
+            name: "Sara-Maria Schitelea",
+            img: "https://avatars1.githubusercontent.com/u/43610407?v=4",
+            links: {
+                website: "https://saramariasc.github.io/",
+                linkedin: "https://www.linkedin.com/in/sara-maria-s-4091251b3/",
+                github: "https://github.com/SaraMariaSc",
+            },
+            jobTitle: "Junior Front End Web Developer",
+            location: {
+                city: "London",
+                state: "",
+                country: "United Kingdom",
+            }
+        },
     ],
 };
