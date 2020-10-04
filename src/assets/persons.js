@@ -17776,5 +17776,21 @@ export const data = {
                 country: "Philippines",
             },
         },
+        {
+            id: uuidv4(),
+            name: "Saurabh Kumar Agarwal",
+            img: "",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/saurabh619/",
+                github: "https://github.com/saurabh618",
+            },
+            jobTitle: "Python Developer",
+            location: {
+                city: "Hyderabad",
+                state: "Telangana",
+                country: "India",
+            },
+        },
     ],
 };
