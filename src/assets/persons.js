@@ -17875,5 +17875,21 @@ export const data = {
                 country: "India",
             }
         },
+        {
+            id: uuidv4(),
+            name: "Hasty Azad",
+            img: "https://avatars3.githubusercontent.com/u/70016209?v=4",
+            links: {
+                website: "",
+                linkedin: "",
+                github: "https://github.com/HastyAzad",
+            },
+            jobTitle: "Undergrad Student",
+            location: {
+                city: "Sulaimany",
+                state: "Kurdistan",
+                country: "Iraq",
+            }
+        },
     ],
 };
