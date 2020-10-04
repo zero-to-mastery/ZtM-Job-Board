@@ -4113,13 +4113,13 @@ export const data = {
             id: uuidv4(),
             name: "Uriel Hayon",
             img:
-                "https://instagram.faep11-1.fna.fbcdn.net/vp/15a806cc0355ab0df6233dcb220e863c/5C89B2E4/t51.2885-19/11377620_961066340581973_1665338264_a.jpg",
+                "https://media-exp1.licdn.com/dms/image/C4E03AQGi2Qn4KjIZVg/profile-displayphoto-shrink_200_200/0?e=1607558400&v=beta&t=OR453N-Aa9-O1dBAJvgFu_Teh-BNqjAd8mLYFWO4Eo0",
             links: {
-                website: "",
+                website: "https://uhayon.github.io/portfolio/",
                 linkedin: "https://www.linkedin.com/in/uriel-hayon-4354626b/",
                 github: "https://github.com/uhayon",
             },
-            jobTitle: "Full Stack Developer (Front End mainly)",
+            jobTitle: "Full Stack Developer (React, Node, Typescript)",
             location: {
                 city: "CABA",
                 state: "Buenos Aires",
