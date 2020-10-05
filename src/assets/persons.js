@@ -17923,5 +17923,21 @@ export const data = {
                 country: "United Kingdom",
             }
         },
+           {
+            id: uuidv4(),
+            name: "Ayushi",
+            img: "https://avatars2.githubusercontent.com/u/51434799?v=4",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/ayushi-singh-98a9151ab/",
+                github: "https://github.com/ayushi2410",
+            },
+            jobTitle: "Web Developer",
+            location: {
+                city: "",
+                state: "Jharkhand",
+                country: "India",
+            }
+        },
     ],
 };
