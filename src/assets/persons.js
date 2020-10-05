@@ -17939,5 +17939,21 @@ export const data = {
                 country: "India",
             }
         },
+        {
+            id: uuidv4(),
+            name: "Shivam Sharma",
+            img: "https://avatars1.githubusercontent.com/u/32218762?v=4",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/shivams136/",
+                github: "https://github.com/ShivamS136",
+            },
+            jobTitle: "Full Stack Web Developer",
+            location: {
+                city: "Noida",
+                state: "Uttar Pradesh",
+                country: "India",
+            },
+        },
     ],
 };
