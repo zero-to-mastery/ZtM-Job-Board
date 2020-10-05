@@ -248,7 +248,24 @@ export const data = {
                 state: "Uttar-Pradesh",
                 country: "India",
             },
-        },
+        }, 
+         {
+            id: uuidv4(),
+            name: "Ogedengbe Tosin Samuel",
+            img:
+                "https://avatars3.githubusercontent.com/u/68618796?s=460&u=4db031f886ad245249355de4ba21f26c3671c0d1&v=4",
+            links: {
+            	website:"https://keen-payne-6bb943.netlify.app/",
+                github: "https://github.com/Samuellyworld",
+                linkedin: "https://www.linkedin.com/in/samuel-tosin-3b20991b4/"
+            },
+            jobTitle: "Front-End developer, Software-Engineer",
+            location: {
+                city: "Ikeja",
+                state: "Lagos",
+                country: "Nigeria",
+            },
+        }, 
         {
             id: uuidv4(),
             name: "Dhruva Srinivas",
@@ -4113,13 +4130,13 @@ export const data = {
             id: uuidv4(),
             name: "Uriel Hayon",
             img:
-                "https://media-exp1.licdn.com/dms/image/C4E03AQGi2Qn4KjIZVg/profile-displayphoto-shrink_200_200/0?e=1607558400&v=beta&t=OR453N-Aa9-O1dBAJvgFu_Teh-BNqjAd8mLYFWO4Eo0",
+                "https://instagram.faep11-1.fna.fbcdn.net/vp/15a806cc0355ab0df6233dcb220e863c/5C89B2E4/t51.2885-19/11377620_961066340581973_1665338264_a.jpg",
             links: {
-                website: "https://uhayon.github.io/portfolio/",
+                website: "",
                 linkedin: "https://www.linkedin.com/in/uriel-hayon-4354626b/",
                 github: "https://github.com/uhayon",
             },
-            jobTitle: "Full Stack Developer (React, Node, Typescript)",
+            jobTitle: "Full Stack Developer (Front End mainly)",
             location: {
                 city: "CABA",
                 state: "Buenos Aires",
@@ -12486,13 +12503,13 @@ export const data = {
         {
             id: uuidv4(),
             name: "Aayush Rajput",
-            img: "https://images.app.goo.gl/kB6SdLVpBtr75frZ9",
+            img: "",
             links: {
-                website: "https://aayushhh.github.io/website",
+                website: "",
                 linkedin: "https://www.linkedin.com/in/aayush-r-44a33a108/",
                 github: "https://github.com/aayushhh/",
             },
-            jobTitle: "Full Stack Web Developer, Data Science",
+            jobTitle: "Full Stack Web Developer",
             location: {
                 city: "Gurugram",
                 state: "Haryana",
@@ -17758,186 +17775,6 @@ export const data = {
                 state: "Maharashtra",
                 country: "India",
             },
-        },
-        {
-            id: uuidv4(),
-            name: "Gail Valerie Padel",
-            img: "https://avatars2.githubusercontent.com/u/17189918?v=4",
-            links: {
-                website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/valerie-padel-5a35a4158/",
-                github: "https://github.com/valeriepadel",
-            },
-            jobTitle: "Front-End Web Developer",
-            location: {
-                city: "Pasay",
-                state: "NCR",
-                country: "Philippines",
-            },
-        },
-        {
-            id: uuidv4(),
-            name: "Saurabh Kumar Agarwal",
-            img: "",
-            links: {
-                website: "",
-                linkedin: "https://www.linkedin.com/in/saurabh619/",
-                github: "https://github.com/saurabh618",
-            },
-            jobTitle: "Python Developer",
-            location: {
-                city: "Hyderabad",
-                state: "Telangana",
-                country: "India",
-            },
-        },
-        {
-            id: uuidv4(),
-            name: "Danish Shaikh",
-            img: "https://avatars3.githubusercontent.com/u/22702540?v=4",
-            links: {
-                website: "https://danishsshaikh.github.io/",
-                linkedin: "https://www.linkedin.com/in/danishsshaikh/",
-                github: "https://github.com/danishsshaikh",
-            },
-            jobTitle: "Unity Developer, App Developer",
-            location: {
-                city: "Mumbai",
-                state: "Maharashtra",
-                country: "India",
-            },
-        },
-        {
-            id: uuidv4(),
-            name: "George Trakas",
-            img:
-                "https://avatars1.githubusercontent.com/u/29389969?s=460&u=521c5e7bff94259d495a807536942703609846b5&v=4",
-            links: {
-                website: "https://gtrakas1.github.io/george_trakas/",
-                linkedin:
-                    "https://www.linkedin.com/in/george-trakas-0b665516a/",
-                github: "https://www.github.com/Gtrakas1",
-            },
-            jobTitle: "Web Developer",
-            location: {
-                city: "Toronto",
-                state: "Ontario",
-                country: "Canada",
-            },
-        },
-        {
-            id: uuidv4(),
-            name: "Pei-Lun Hsu",
-            img:
-                "https://drive.google.com/file/d/1zVl__5ZQIP22D6ZSC85MGuyiTbMEg5Q0/view?usp=sharing",
-            links: {
-                website: "",
-                linkedin: "https://www.linkedin.com/in/pei-lun-hsu-b53492178/",
-                github: "https://github.com/plhsu19",
-            },
-            jobTitle: "Computer Science Master Student",
-            location: {
-                city: "Berlin",
-                state: "Berlin",
-                country: "Germany",
-            },
-        },
-        {
-            id: uuidv4(),
-            name: "Jayesh Ghosh",
-            img: "",
-            links: {
-                website: "",
-                linkedin: "https://www.linkedin.com/in/jayeshghosh/",
-                github: "https://github.com/JayeshGhosh",
-            },
-            jobTitle: "Undergrad Student",
-            location: {
-                city: "Mumbai",
-                state: "Maharashtra",
-                country: "India",
-            },
-        },
-        {
-            id: uuidv4(),
-            name: "Swaroop Sambhayya",
-            img: "https://avatars1.githubusercontent.com/u/31922733?v=4",
-            links: {
-                website: "",
-                linkedin: "https://www.linkedin.com/in/swaroop-sambhayya-72757a136/",
-                github: "https://github.com/SwaroopSambhayya",
-            },
-            jobTitle: "Full Stack Mobile/Web Developer",
-            location: {
-                city: "Bangalore",
-                state: "Karnataka",
-                country: "India",
-            }
-        },
-        {
-            id: uuidv4(),
-            name: "Hasty Azad",
-            img: "https://avatars3.githubusercontent.com/u/70016209?v=4",
-            links: {
-                website: "",
-                linkedin: "",
-                github: "https://github.com/HastyAzad",
-            },
-            jobTitle: "Undergrad Student",
-            location: {
-                city: "Sulaimany",
-                state: "Kurdistan",
-                country: "Iraq",
-            }
-        },
-      {
-            id: uuidv4(),
-            name: "Diego A Cruz",
-            img: "https://avatars0.githubusercontent.com/u/7905143?s=60&v=4",
-            links: {
-                website: "",
-                linkedin: "https://www.linkedin.com/in/abejacruz/",
-                github: "https://github.com/AbejaCruz",
-            },
-            jobTitle: "AR/VR Developer",
-            location: {
-                city: "Bogotá",
-                state: "Suba",
-                country: "Colombia",
-            }
-        },
-        {
-            id: uuidv4(),
-            name: "Sara-Maria Schitelea",
-            img: "https://avatars1.githubusercontent.com/u/43610407?v=4",
-            links: {
-                website: "https://saramariasc.github.io/",
-                linkedin: "https://www.linkedin.com/in/sara-maria-s-4091251b3/",
-                github: "https://github.com/SaraMariaSc",
-            },
-            jobTitle: "Junior Front End Web Developer",
-            location: {
-                city: "London",
-                state: "",
-                country: "United Kingdom",
-            }
-        },
-           {
-            id: uuidv4(),
-            name: "Ayushi",
-            img: "https://avatars2.githubusercontent.com/u/51434799?v=4",
-            links: {
-                website: "",
-                linkedin: "https://www.linkedin.com/in/ayushi-singh-98a9151ab/",
-                github: "https://github.com/ayushi2410",
-            },
-            jobTitle: "Web Developer",
-            location: {
-                city: "",
-                state: "Jharkhand",
-                country: "India",
-            }
         },
     ],
 };
