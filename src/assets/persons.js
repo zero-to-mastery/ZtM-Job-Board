@@ -17830,7 +17830,7 @@ export const data = {
             id: uuidv4(),
             name: "Pei-Lun Hsu",
             img:
-                "https://drive.google.com/file/d/1zVl__5ZQIP22D6ZSC85MGuyiTbMEg5Q0/view?usp=sharing",
+                "https://avatars0.githubusercontent.com/u/54821322?v=4",
             links: {
                 website: "",
                 linkedin: "https://www.linkedin.com/in/pei-lun-hsu-b53492178/",
@@ -17839,7 +17839,7 @@ export const data = {
             jobTitle: "Computer Science Master Student",
             location: {
                 city: "Berlin",
-                state: "Berlin",
+                state: "",
                 country: "Germany",
             },
         },
