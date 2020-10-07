@@ -1,4 +1,4 @@
-import { v4 as uuidv4 } from "uuid";
+import { v4 as uuidv4 } from "uuid"
 
 export const data = {
     people: [
@@ -34,6 +34,22 @@ export const data = {
                 city: "Hyderabad",
                 state: "Telangana",
                 country: "India",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Hassan Raza",
+            img: "",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/hassan-raza-265665160/]",
+                github: "https://github.com/rza8301]",
+            },
+            jobTitle: "Full Stack Developer",
+            location: {
+                city: "Chicago",
+                state: "Illinois",
+                country: "United States Of America",
             },
         },
         {
@@ -108,8 +124,7 @@ export const data = {
             img: "https://avatars0.githubusercontent.com/u/44205366?v=4",
             links: {
                 website: "https://catanelu.github.io/CV/",
-                linkedin:
-                    "https://www.linkedin.com/in/andrei-adrian-catana-69607b1b2/",
+                linkedin: "https://www.linkedin.com/in/andrei-adrian-catana-69607b1b2/",
                 github: "https://github.com/Catanelu",
             },
             jobTitle: "Full Stack Developer, Software Engineer",
@@ -125,8 +140,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/58530808?v=4",
             links: {
                 website: "http://musa-thubane96.herokuapp.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/musawenkosi-thubane-b08630162",
+                linkedin: "https://www.linkedin.com/in/musawenkosi-thubane-b08630162",
                 github: "https://github.com/thubane96",
             },
             jobTitle: "Full Stack Web Developer",
@@ -142,8 +156,7 @@ export const data = {
             img: "https://avatars1.githubusercontent.com/u/62621336?v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/coding-benefits-7373a21aa/",
+                linkedin: "https://www.linkedin.com/in/coding-benefits-7373a21aa/",
                 github: "https://github.com/adamstok",
             },
             jobTitle: "Python Developer",
@@ -207,8 +220,7 @@ export const data = {
             img:
                 "https://avatars0.githubusercontent.com/u/28903840?s=400&u=b98b20f944a62da00dbd4881e8078744307ae62c&v=4",
             links: {
-                linkedin:
-                    "https://www.linkedin.com/in/eshwarchandravidhyasagar",
+                linkedin: "https://www.linkedin.com/in/eshwarchandravidhyasagar",
                 github: "https://github.com/EshwarCVS",
             },
             jobTitle: "Business Analyst, Web Developer",
@@ -223,8 +235,7 @@ export const data = {
             name: "Pushapak Kumar",
             img: "",
             links: {
-                linkedin:
-                    "https://www.linkedin.com/in/pushapak-kumar-pal-4a60b4127/",
+                linkedin: "https://www.linkedin.com/in/pushapak-kumar-pal-4a60b4127/",
                 github: "https://github.com/pushapak28",
             },
             jobTitle: "Web Developer,Marketing Executive",
@@ -248,24 +259,7 @@ export const data = {
                 state: "Uttar-Pradesh",
                 country: "India",
             },
-        }, 
-         {
-            id: uuidv4(),
-            name: "Ogedengbe Tosin Samuel",
-            img:
-                "https://avatars3.githubusercontent.com/u/68618796?s=460&u=4db031f886ad245249355de4ba21f26c3671c0d1&v=4",
-            links: {
-            	website:"https://keen-payne-6bb943.netlify.app/",
-                github: "https://github.com/Samuellyworld",
-                linkedin: "https://www.linkedin.com/in/samuel-tosin-3b20991b4/"
-            },
-            jobTitle: "Front-End developer, Software-Engineer",
-            location: {
-                city: "Ikeja",
-                state: "Lagos",
-                country: "Nigeria",
-            },
-        }, 
+        },
         {
             id: uuidv4(),
             name: "Dhruva Srinivas",
@@ -286,8 +280,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/64184826?v=4",
             links: {
                 website: "https://danielshanbalico.herokuapp.com",
-                linkedin:
-                    "https://www.linkedin.com/in/daniel-shan-balico-2b64b31a6/",
+                linkedin: "https://www.linkedin.com/in/daniel-shan-balico-2b64b31a6/",
                 github: "https://github.com/daniel-balico",
             },
             jobTitle: "Software Engineer",
@@ -450,8 +443,7 @@ export const data = {
                 "https://avatars1.githubusercontent.com/u/60217106?s=400&u=2eed60aadca5f6ae796764fbe2f07b4c7d73cc73&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/pedro-calvo-herranz-56561315a/",
+                linkedin: "https://www.linkedin.com/in/pedro-calvo-herranz-56561315a/",
                 github: "https://github.com/pdr-clv",
             },
             jobTitle: "FrontEnd React Developer",
@@ -593,8 +585,7 @@ export const data = {
         {
             id: uuidv4(),
             name: "Swapnil Gaikwad",
-            img:
-                "http://www.swapnilgaikwad.tech/assets/images/profile_pic1.jpg",
+            img: "http://www.swapnilgaikwad.tech/assets/images/profile_pic1.jpg",
             links: {
                 website: "http://www.swapnilgaikwad.tech",
                 linkedin: "https://www.linkedin.com/in/swapnil-gaikwad-2095",
@@ -629,8 +620,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/32417757?s=460&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/mart%C3%ADn-comito-627a32153",
+                linkedin: "https://www.linkedin.com/in/mart%C3%ADn-comito-627a32153",
                 github: "https://github.com/martincomito",
             },
             jobTitle: "Front-End Developer",
@@ -695,8 +685,7 @@ export const data = {
                 "https://media.licdn.com/dms/image/C5603AQFJuMW6DO74xw/profile-displayphoto-shrink_800_800/0?e=1528477200&v=beta&t=O952AL-tutZW3Z0aAaGIjS7jxLDFST_5Lzodga0_uj0",
             links: {
                 website: "https://iamismael.com",
-                linkedin:
-                    "https://www.linkedin.com/in/ismael-vazquez-jr-0415a1104",
+                linkedin: "https://www.linkedin.com/in/ismael-vazquez-jr-0415a1104",
                 github: "https://github.com/IsmaelVazquez",
             },
             jobTitle: "Full-stack Javascript Developer",
@@ -713,8 +702,7 @@ export const data = {
                 "https://media.licdn.com/dms/image/C4D03AQEdhmhOXXRi7g/profile-displayphoto-shrink_800_800/0?e=1528477200&v=beta&t=Ibu6t9ZiYsqch12H9_wwvvx4bT8vU95QPAq1Mubl0Dc",
             links: {
                 website: "https://wagad22.github.io",
-                linkedin:
-                    "https://www.linkedin.com/in/adrian-wagener-45b741134",
+                linkedin: "https://www.linkedin.com/in/adrian-wagener-45b741134",
                 github: "https://github.com/wagad22",
             },
             jobTitle: "Fullstack Webdeveloper",
@@ -762,8 +750,7 @@ export const data = {
             img: "https://murilomiranda.github.io/img/my_picture.jpg",
             links: {
                 website: "https://murilomiranda.github.io",
-                linkedin:
-                    "https://www.linkedin.com/in/murilo-miranda-nuesslein",
+                linkedin: "https://www.linkedin.com/in/murilo-miranda-nuesslein",
                 github: "https://github.com/murilomiranda",
             },
             jobTitle: "Front-end Web Development",
@@ -808,8 +795,7 @@ export const data = {
         {
             id: uuidv4(),
             name: "Rabin Rai",
-            img:
-                "http://rabinrai.com/wp-content/uploads/2017/11/rbn_img-300x225.jpg",
+            img: "http://rabinrai.com/wp-content/uploads/2017/11/rbn_img-300x225.jpg",
             links: {
                 website: "http://rabinrai.com",
                 linkedin: "https://www.linkedin.com/in/rabin-rai-58a43913a",
@@ -828,8 +814,7 @@ export const data = {
             img: "",
             links: {
                 website: "https://github.com/deluxscript",
-                linkedin:
-                    "https://www.linkedin.com/in/oladele-olorunsola-707a2175",
+                linkedin: "https://www.linkedin.com/in/oladele-olorunsola-707a2175",
                 github: "",
             },
             jobTitle: "Full Stack Developer",
@@ -878,8 +863,7 @@ export const data = {
                 "https://media.licdn.com/dms/image/C4D03AQGcf89ACxun0Q/profile-displayphoto-shrink_800_800/0?e=1528549200&v=beta&t=4-3H7jB8ADFrpOZDrDr9T4ZJhTFl88OVq034R3j4svU",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/piotr-kowalski-57379a120",
+                linkedin: "https://www.linkedin.com/in/piotr-kowalski-57379a120",
                 github: "https://github.com/piotrke",
             },
             jobTitle: "Full-Stack .NET Developer",
@@ -895,8 +879,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/25475754?s=460&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/kgothatso-desmond-45b380b2",
+                linkedin: "https://www.linkedin.com/in/kgothatso-desmond-45b380b2",
                 github: "https://github.com/DesmondThema",
             },
             jobTitle: "Web Developer (NodeJs, PHP and Magento)",
@@ -944,8 +927,7 @@ export const data = {
             img: "https://mohammedmulazada.nl/img/moniac/cutout2.svg",
             links: {
                 website: "https://mohammedmulazada.nl",
-                linkedin:
-                    "https://www.linkedin.com/in/mohammed-mulazada-81096b5b",
+                linkedin: "https://www.linkedin.com/in/mohammed-mulazada-81096b5b",
                 github: "https://github.com/moniac",
             },
             jobTitle: "Front-End Developer",
@@ -993,8 +975,7 @@ export const data = {
             img: "https://mikerodev.com/assets/images/HeadshotFeb18.jpg",
             links: {
                 website: "https://mikerodev.com",
-                linkedin:
-                    "https://www.linkedin.com/in/michael-j-robards-630526138",
+                linkedin: "https://www.linkedin.com/in/michael-j-robards-630526138",
                 github: "https://github.com/mikerobards",
             },
             jobTitle: "Software Engineer",
@@ -1189,8 +1170,7 @@ export const data = {
             img: "",
             links: {
                 website: "https://louisevdb.herokuapp.com",
-                linkedin:
-                    "https://www.linkedin.com/in/louise-van-den-berg-016179114",
+                linkedin: "https://www.linkedin.com/in/louise-van-den-berg-016179114",
                 github: "",
             },
             jobTitle: "Fullstack Web Developer",
@@ -1308,8 +1288,7 @@ export const data = {
                 "https://media.licdn.com/dms/image/C4E03AQFJo9NvT8gtAg/profile-displayphoto-shrink_800_800/0?e=1528549200&v=beta&t=DRZ5Q1-o5SWRSH3j-W8dHwfM6UlWCr813IsLSGuAVaQ",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/kofi-osei-nimoh-15148a73",
+                linkedin: "https://www.linkedin.com/in/kofi-osei-nimoh-15148a73",
                 github: "",
             },
             jobTitle: "Web Developer",
@@ -1341,8 +1320,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/29685827?s=460&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/wolfgang-kreminger-43386b151",
+                linkedin: "https://www.linkedin.com/in/wolfgang-kreminger-43386b151",
                 github: "https://github.com/r4pt0s",
             },
             jobTitle: "Full Stack Developer",
@@ -1358,8 +1336,7 @@ export const data = {
             img: "",
             links: {
                 website: "https://darrylferdinands.wixsite.com/education",
-                linkedin:
-                    "https://www.linkedin.com/in/darryl-ferdinands-43b89671",
+                linkedin: "https://www.linkedin.com/in/darryl-ferdinands-43b89671",
                 github: "https://github.com/darrylferdinands",
             },
             jobTitle: "Full Stack Developer",
@@ -1472,8 +1449,7 @@ export const data = {
                 "http://www.web-max-design.com/wp-content/uploads/2018/01/photographier-1.jpg",
             links: {
                 website: "http://www.web-max-design.com",
-                linkedin:
-                    "https://www.linkedin.com/in/tatyana-kasyanenko-a0056a52",
+                linkedin: "https://www.linkedin.com/in/tatyana-kasyanenko-a0056a52",
                 github: "https://github.com/TatyanaKasyanenko",
             },
             jobTitle: "Web Developer",
@@ -1525,8 +1501,7 @@ export const data = {
                 linkedin: "https://www.linkedin.com/in/mauriciospesot",
                 github: "https://github.com/mauriciospesot",
             },
-            jobTitle:
-                "Web Developer, C++ Developer, Computer Engineering student",
+            jobTitle: "Web Developer, C++ Developer, Computer Engineering student",
             location: {
                 city: "Santa Fe",
                 state: "",
@@ -1604,8 +1579,7 @@ export const data = {
             img: "https://i.imgur.com/B6GNZjt.jpg",
             links: {
                 website: "https://www.oliverdelaviadev.com",
-                linkedin:
-                    "https://www.linkedin.com/in/oliver-de-la-via-9bb2b39a",
+                linkedin: "https://www.linkedin.com/in/oliver-de-la-via-9bb2b39a",
                 github: "https://www.github.com/odelavia",
             },
             jobTitle: "Front-End Developer/Software Engineer/UI Developer",
@@ -1638,8 +1612,7 @@ export const data = {
             img: "https://k62.kn3.net/E/9/6/5/B/0/2D9.png",
             links: {
                 website: "https://saifeddin1.github.io",
-                linkedin:
-                    "https://www.linkedin.com/in/saifeddin-matoui-b34a58148",
+                linkedin: "https://www.linkedin.com/in/saifeddin-matoui-b34a58148",
                 github: "https://github.com/saifeddin1",
             },
             jobTitle: "Full stack web developer",
@@ -1688,8 +1661,7 @@ export const data = {
             img: "",
             links: {
                 website: "http://www.slavo7.com",
-                linkedin:
-                    "https://www.linkedin.com/in/slavoljub-popovic-b38404102",
+                linkedin: "https://www.linkedin.com/in/slavoljub-popovic-b38404102",
                 github: "https://github.com/slavo7",
             },
             jobTitle: "Software Developer",
@@ -1706,8 +1678,7 @@ export const data = {
                 "https://lh3.googleusercontent.com/CWv7hU4YNNaisjnxjQV5-Ts06QBPwelEFhVkttCCEPZcq1GjBjNyhfcYaom6lUgNtOX49izrgRB0YA=w1170-h1175-rw-no",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/krunal-bhadresha-7701a892",
+                linkedin: "https://www.linkedin.com/in/krunal-bhadresha-7701a892",
                 github: "https://github.com/krunalbhadresa",
             },
             jobTitle: "Web Developer/Software Developer",
@@ -1773,8 +1744,7 @@ export const data = {
                 "https://scontent.flim9-1.fna.fbcdn.net/v/t1.0-9/17155983_10211022884500815_795863402198977247_n.jpg?_nc_cat=0&oh=54644d4d9cd9b4f7240834c995f1c4ce&oe=5BC44182",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/diego-salas-noain-b11837146",
+                linkedin: "https://www.linkedin.com/in/diego-salas-noain-b11837146",
                 github: "https://github.com/DiegoSalas27",
             },
             jobTitle: "Web developer",
@@ -1969,8 +1939,7 @@ export const data = {
             img: "https://avatars1.githubusercontent.com/u/6855638?s=460&v=4",
             links: {
                 website: "http://danskii.com",
-                linkedin:
-                    "https://www.linkedin.com/in/daniel-puiatti-15688312/",
+                linkedin: "https://www.linkedin.com/in/daniel-puiatti-15688312/",
                 github: "https://github.com/Danskii",
             },
             jobTitle: "Digital Media Specialist",
@@ -1986,8 +1955,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/38929259",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/josh-broomfield-62387690/",
+                linkedin: "https://www.linkedin.com/in/josh-broomfield-62387690/",
                 github: "https://github.com/Josh-Broomfield/",
             },
             jobTitle: "Software Developer",
@@ -2021,8 +1989,7 @@ export const data = {
                 "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/33788878_1608592929190092_5238537732229169152_o.jpg?_nc_cat=0&oh=fc1ab69b5c5e365bcd6136d0b61b5081&oe=5BB80DFB",
             links: {
                 website: "https://www.facebook.com/gabrielzunigavasquez",
-                linkedin:
-                    "https://www.linkedin.com/in/gabriel-zuniga-944a86116/",
+                linkedin: "https://www.linkedin.com/in/gabriel-zuniga-944a86116/",
                 github: "https://github.com/gabriel585zv",
             },
             jobTitle: "Full Stack Web Developer",
@@ -2038,8 +2005,7 @@ export const data = {
             img: "https://avatars3.githubusercontent.com/u/39177669?s=460&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/shane-granger-8334b6136/",
+                linkedin: "https://www.linkedin.com/in/shane-granger-8334b6136/",
                 github: "https://github.com/HelmsDeap",
             },
             jobTitle: "Full Stack Web Developer",
@@ -2122,8 +2088,7 @@ export const data = {
                 "https://avatars1.githubusercontent.com/u/31882265?s=40&u=0669030af633ca5112a4ca40c0aba08a019ede4c&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/djordje-bukvic-5a0814164/",
+                linkedin: "https://www.linkedin.com/in/djordje-bukvic-5a0814164/",
                 github: "https://github.com/madcoyot",
             },
             jobTitle: "Front End Developer, React.js",
@@ -2255,8 +2220,7 @@ export const data = {
                 "https://media.licdn.com/dms/image/C4E03AQGxX4p5AqIyNg/profile-displayphoto-shrink_100_100/0?e=1534982400&v=beta&t=oUxM2RdpAf59F1vrRnA7j7YWGJwdeVkO7dPGxl8o6yE",
             links: {
                 website: "www.mercillo.com",
-                linkedin:
-                    "https://www.linkedin.com/in/marlon-ercillo-58057596/",
+                linkedin: "https://www.linkedin.com/in/marlon-ercillo-58057596/",
                 github: "https://github.com/mercillo",
             },
             jobTitle: "Front End Developer",
@@ -2289,8 +2253,7 @@ export const data = {
                 "https://media.licdn.com/dms/image/C5103AQEvo6KOpjKDPw/profile-displayphoto-shrink_200_200/0?e=1534982400&v=beta&t=LFwHESjCRP7p7JXDGU-3sYO_pZ0YQfhWu7lk8G8ZBRI",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/gabriel-lomba-aguiar-costa",
+                linkedin: "https://www.linkedin.com/in/gabriel-lomba-aguiar-costa",
                 github: "https://github.com/GabrielLomba",
             },
             jobTitle: "Full Stack Developer",
@@ -2438,8 +2401,7 @@ export const data = {
             img: "",
             links: {
                 website: "https://brittanigongre.com",
-                linkedin:
-                    "https://www.linkedin.com/in/brittani-gongre-2b82b982/",
+                linkedin: "https://www.linkedin.com/in/brittani-gongre-2b82b982/",
                 github: "https://github.com/bgongre",
             },
             jobTitle: "Front End Developer|Software Developer",
@@ -2471,8 +2433,7 @@ export const data = {
             img: "YOUR_IMG_URL",
             links: {
                 website: "https://aviwembekeni.github.io/",
-                linkedin:
-                    "https://www.linkedin.com/in/aviwe-ngqukumba-519369150",
+                linkedin: "https://www.linkedin.com/in/aviwe-ngqukumba-519369150",
                 github: "https://github.com/aviwembekeni",
             },
             jobTitle: "Full Stack Web Developer",
@@ -2572,12 +2533,10 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/christian-marca-663605167/",
+                linkedin: "https://www.linkedin.com/in/christian-marca-663605167/",
                 github: "https://github.com/ChristianMarca",
             },
-            jobTitle:
-                "Electronic Engineer in Telecommunications | WEB Developer",
+            jobTitle: "Electronic Engineer in Telecommunications | WEB Developer",
             location: {
                 city: "Cuenca",
                 state: "",
@@ -2607,8 +2566,7 @@ export const data = {
             img: "",
             links: {
                 website: "https://Radhika8818.github.io",
-                linkedin:
-                    "https://www.linkedin.com/in/radhika-maheshwari-601a0515a/",
+                linkedin: "https://www.linkedin.com/in/radhika-maheshwari-601a0515a/",
                 github: "https://github.com/Radhika8818",
             },
             jobTitle: "Full Stack Web Developer",
@@ -2658,8 +2616,7 @@ export const data = {
                 "https://kaemonisland.github.io/home/resources/images/Profileglasses.jpeg",
             links: {
                 website: "https://kaemonisland.github.io/home/",
-                linkedin:
-                    "https://www.linkedin.com/in/kaemon-lovendahl-08150564/",
+                linkedin: "https://www.linkedin.com/in/kaemon-lovendahl-08150564/",
                 github: "https://github.com/KaemonIsland",
             },
             jobTitle: "Web Developer",
@@ -2740,8 +2697,7 @@ export const data = {
             img: "",
             links: {
                 website: "www.mattgaddes.com",
-                linkedin:
-                    "https://www.linkedin.com/in/matthew-gaddes-30ba65b4/",
+                linkedin: "https://www.linkedin.com/in/matthew-gaddes-30ba65b4/",
                 github: "https://github.com/gaddes",
             },
             jobTitle: "Front-end Web Developer",
@@ -2837,12 +2793,10 @@ export const data = {
         {
             id: uuidv4(),
             name: "Efraim A. Lorenzana",
-            img:
-                "https://drive.google.com/open?id=1AwOIao9RBBIdhC7FRK0ZIkwOyB6OB6uZ",
+            img: "https://drive.google.com/open?id=1AwOIao9RBBIdhC7FRK0ZIkwOyB6OB6uZ",
             links: {
                 website: "https://efraimlorenzana.github.io/portfolio/",
-                linkedin:
-                    "https://www.linkedin.com/in/efraim-lorenzana-4bbb2575/",
+                linkedin: "https://www.linkedin.com/in/efraim-lorenzana-4bbb2575/",
                 github: "https://github.com/efraimlorenzana",
             },
             jobTitle: "Full Stack Web Developer",
@@ -2909,8 +2863,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/22848246?s=460&v=4",
             links: {
                 website: "http://www.ignaciorodrigues.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/ignaciorodriguesoficial/",
+                linkedin: "https://www.linkedin.com/in/ignaciorodriguesoficial/",
                 github: "https://www.github.com/IgnacioRodrigues",
             },
             jobTitle: "UX Full Stack Developer",
@@ -2960,8 +2913,7 @@ export const data = {
                 "https://avatars3.githubusercontent.com/u/26909188?s=400&u=ea2607b5e760996b7bc8cb3009baafb2f30a8732&v=4",
             links: {
                 website: "https://loforteluca.github.io/",
-                linkedin:
-                    "https://www.linkedin.com/in/luca-lo-forte-172462127/",
+                linkedin: "https://www.linkedin.com/in/luca-lo-forte-172462127/",
                 github: "https://github.com/Pizzu",
             },
             jobTitle: "Full Stack Web Developer & iOS Dev",
@@ -3224,8 +3176,7 @@ export const data = {
             img:
                 "https://media.licdn.com/dms/image/C4D03AQG4ep1f6b2KuA/profile-displayphoto-shrink_200_200/0?e=1539216000&v=beta&t=u-4n8_CP3k15CVvkSCKufdC3vYdIx_q2L5f7O3wgt5w",
             links: {
-                linkedin:
-                    "https://www.linkedin.com/in/f%C4%B1rat-tale-85328013a/",
+                linkedin: "https://www.linkedin.com/in/f%C4%B1rat-tale-85328013a/",
                 github: "https://github.com/firattale",
             },
             jobTitle: "Full Stack Web Developer",
@@ -3241,8 +3192,7 @@ export const data = {
             img: "https://andriusm.com/p_images/ztm_jb.JPG",
             links: {
                 website: "https://andriusm.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/andrius-mankauskas-06b684163/",
+                linkedin: "https://www.linkedin.com/in/andrius-mankauskas-06b684163/",
                 github: "https://github.com/Gandrius",
             },
             jobTitle: "Web Developer",
@@ -3340,8 +3290,7 @@ export const data = {
                 "https://avatars2.githubusercontent.com/u/42109686?s=400&u=94c83124dd077b0b6a09c226f2e87377afa9f619&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/lawrence-fidelino-383727153/",
+                linkedin: "https://www.linkedin.com/in/lawrence-fidelino-383727153/",
                 github: "https://github.com/lfidelino",
             },
             jobTitle: "Full Stack Web Developer",
@@ -3389,8 +3338,7 @@ export const data = {
             img: "https://photos.app.goo.gl/CkBYENtw5qDW7dC27",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/stephen-lonergan-8401b95a/",
+                linkedin: "https://www.linkedin.com/in/stephen-lonergan-8401b95a/",
                 github: "https://github.com/lonergans",
             },
             jobTitle: "Senior SharePoint/Full Stack Developer",
@@ -3455,8 +3403,7 @@ export const data = {
                 "https://avatars3.githubusercontent.com/u/41817383?s=400&u=c228945a296d278d62c95d688c81b0c158c29a41&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/eduard-bucataru-8400ab16b/",
+                linkedin: "https://www.linkedin.com/in/eduard-bucataru-8400ab16b/",
                 github: "https://github.com/edybn22",
             },
             jobTitle: "Full Full-stack developer",
@@ -3552,8 +3499,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/kostiantyn-borodach-4a3859152/",
+                linkedin: "https://www.linkedin.com/in/kostiantyn-borodach-4a3859152/",
                 github: "https://github.com/Kostiantyn777",
             },
             jobTitle: "Full-Stack Developer",
@@ -3598,8 +3544,7 @@ export const data = {
         {
             id: uuidv4(),
             name: "Yassire Mtioui",
-            img:
-                "https://yassiremt.github.io/pf/static/media/mypic.befc31d5.jpg",
+            img: "https://yassiremt.github.io/pf/static/media/mypic.befc31d5.jpg",
             links: {
                 website: "https://yassiremt.github.io/pf/",
                 linkedin: "https://www.linkedin.com/in/yassiremt/",
@@ -3718,8 +3663,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/shruti-shastri-307279141",
+                linkedin: "https://www.linkedin.com/in/shruti-shastri-307279141",
                 github: "https://github.com/shruti49",
             },
             jobTitle: "Front-End Developer",
@@ -3784,8 +3728,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/jakub-wojtyra-07b783129/",
+                linkedin: "https://www.linkedin.com/in/jakub-wojtyra-07b783129/",
                 github: "https://github.com/frozenfroggie",
             },
             jobTitle: "Full Stack Developer",
@@ -3802,8 +3745,7 @@ export const data = {
                 "https://i.postimg.cc/MGxfvFmm/14271_C5_F-5151-492_A-_B98_C-_CF7_BB1_DAA290.jpg",
             links: {
                 website: "https://andrewdiedrich.herokuapp.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/andrew-diedrich-a0a58893/",
+                linkedin: "https://www.linkedin.com/in/andrew-diedrich-a0a58893/",
                 github: "https://github.com/AndrewDiedrich",
             },
             jobTitle: "Developer/Analyst",
@@ -3852,8 +3794,7 @@ export const data = {
             img: "",
             links: {
                 website: "https://diogo-p-carvalho.github.io/portfolio",
-                linkedin:
-                    "https://www.linkedin.com/in/diogo-carvalho-83a96a14a",
+                linkedin: "https://www.linkedin.com/in/diogo-carvalho-83a96a14a",
                 github: "https://github.com/Diogo-P-Carvalho",
             },
             jobTitle: "Web Developer",
@@ -3885,8 +3826,7 @@ export const data = {
             img: "http://moshe-hamiel.info/wp-content/uploads/0.jpg",
             links: {
                 website: "http://www.moshe-hamiel.info",
-                linkedin:
-                    "https://www.linkedin.com/in/moshe-chamuel-761433117/",
+                linkedin: "https://www.linkedin.com/in/moshe-chamuel-761433117/",
                 github: "https://github.com/Chamuelm",
             },
             jobTitle: "SW Developer (Student)",
@@ -4130,13 +4070,13 @@ export const data = {
             id: uuidv4(),
             name: "Uriel Hayon",
             img:
-                "https://instagram.faep11-1.fna.fbcdn.net/vp/15a806cc0355ab0df6233dcb220e863c/5C89B2E4/t51.2885-19/11377620_961066340581973_1665338264_a.jpg",
+                "https://media-exp1.licdn.com/dms/image/C4E03AQGi2Qn4KjIZVg/profile-displayphoto-shrink_200_200/0?e=1607558400&v=beta&t=OR453N-Aa9-O1dBAJvgFu_Teh-BNqjAd8mLYFWO4Eo0",
             links: {
-                website: "",
+                website: "https://uhayon.github.io/portfolio/",
                 linkedin: "https://www.linkedin.com/in/uriel-hayon-4354626b/",
                 github: "https://github.com/uhayon",
             },
-            jobTitle: "Full Stack Developer (Front End mainly)",
+            jobTitle: "Full Stack Developer (React, Node, Typescript)",
             location: {
                 city: "CABA",
                 state: "Buenos Aires",
@@ -4246,12 +4186,10 @@ export const data = {
         {
             id: uuidv4(),
             name: "Marco Sciortino",
-            img:
-                "https://sciortino-mrc.netlify.com/static/media/photo.5ae776c5.jpg",
+            img: "https://sciortino-mrc.netlify.com/static/media/photo.5ae776c5.jpg",
             links: {
                 website: "http://sciortino-mrc.netlify.com",
-                linkedin:
-                    "https://www.linkedin.com/in/marco-sciortino-429938155/",
+                linkedin: "https://www.linkedin.com/in/marco-sciortino-429938155/",
                 github: "https://github.com/sciortinomrc",
             },
             jobTitle: "Full Stack Javascript Web Dev, C#",
@@ -4285,8 +4223,7 @@ export const data = {
                 "https://scontent-maa2-1.xx.fbcdn.net/v/t31.0-1/c2.0.960.960/p960x960/18209164_1116442258459101_6526383771619593096_o.jpg?_nc_cat=105&_nc_ht=scontent-maa2-1.xx&oh=9a3419b1e6589d6655700c557c61ceb9&oe=5C40EE2E",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/swaroop-sambhayya-72757a136/",
+                linkedin: "https://www.linkedin.com/in/swaroop-sambhayya-72757a136/",
                 github: "https://github.com/SwaroopSambhayya",
             },
             jobTitle: "Full stack Android and Web Developer",
@@ -4303,8 +4240,7 @@ export const data = {
                 "https://avatars1.githubusercontent.com/u/62418363?s=460&u=7be39752d2048ef44aca0812358da449db8a320c&v=4",
             links: {
                 website: "https://rishi-121.github.io/Portfolio-Website/",
-                linkedin:
-                    "https://www.linkedin.com/in/hrushikesh-das-468101171/",
+                linkedin: "https://www.linkedin.com/in/hrushikesh-das-468101171/",
                 github: "https://github.com/Rishi-121",
             },
             jobTitle: "Full Stack Web Developer",
@@ -4517,8 +4453,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/36687746?s=460&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/brian-macpherson-414b6126/",
+                linkedin: "https://www.linkedin.com/in/brian-macpherson-414b6126/",
                 github: "https://github.com/brimac1634",
             },
             jobTitle: "Full Stack Developer and Project Manager",
@@ -4636,8 +4571,7 @@ export const data = {
                 "https://pbs.twimg.com/profile_images/990422694717001728/3xT7u7rD_400x400.jpg",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/darnell-hedrick-962b65176/",
+                linkedin: "https://www.linkedin.com/in/darnell-hedrick-962b65176/",
                 github: "https://github.com/DarrnyH",
             },
             jobTitle: "Full Stack Developer(MERN) ",
@@ -4653,8 +4587,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/sina-moraddar-851708177/",
+                linkedin: "https://www.linkedin.com/in/sina-moraddar-851708177/",
                 github: "https://github.com/sinamoraddar",
             },
             jobTitle: "Full Stack Web Developer",
@@ -4687,8 +4620,7 @@ export const data = {
                 "https://avatars2.githubusercontent.com/u/35176749?s=400&u=49691a090c52d6d0ae9315f746fc41595b584e51&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/kritika-sharma-8a65687a/",
+                linkedin: "https://www.linkedin.com/in/kritika-sharma-8a65687a/",
                 github: "https://github.com/KritikaSharmaKS/",
             },
             jobTitle: "Full Stack Developer",
@@ -4738,8 +4670,7 @@ export const data = {
             img: "https://avatars3.githubusercontent.com/u/37828192?s=460&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/david-bordeleau-a39434156/",
+                linkedin: "https://www.linkedin.com/in/david-bordeleau-a39434156/",
                 github: "https://github.com/davidbordeleau",
             },
             jobTitle: "Full Stack Web Developer",
@@ -4838,8 +4769,7 @@ export const data = {
                 "https://avatars1.githubusercontent.com/u/13645745?s=400&u=cc315e581c698af75c0d2fd089aab27ae2fa5d43&v=4",
             links: {
                 website: "https://pratyakash.github.io/",
-                linkedin:
-                    "https://www.linkedin.com/in/pratyakash-s-saini-038639106",
+                linkedin: "https://www.linkedin.com/in/pratyakash-s-saini-038639106",
                 github: "https://github.com/pratyakash",
             },
             jobTitle: "Front-End Web Developer",
@@ -4856,8 +4786,7 @@ export const data = {
                 "https://avatars2.githubusercontent.com/u/46244948?s=400&u=d3103d7aff9f8bb1cb4f8b1268c43bd0162c0d3b&v=4",
             links: {
                 website: "https://waffleflopper.github.io/",
-                linkedin:
-                    "https://www.linkedin.com/in/robert-baddeley-32ba63177/",
+                linkedin: "https://www.linkedin.com/in/robert-baddeley-32ba63177/",
                 github: "https://github.com/waffleflopper",
             },
             jobTitle:
@@ -4875,8 +4804,7 @@ export const data = {
                 "https://pbs.twimg.com/profile_images/3036362618/583ba4b504a3c54698f368d41bb8cf52_400x400.jpeg",
             links: {
                 website: "https://neetishpathak.github.io/",
-                linkedin:
-                    "https://www.linkedin.com/in/neetish-pathak-63024131/",
+                linkedin: "https://www.linkedin.com/in/neetish-pathak-63024131/",
                 github: "https://github.com/NeetishPathak",
             },
             jobTitle: "Software and Systems Engineer",
@@ -4893,8 +4821,7 @@ export const data = {
                 "https://media.licdn.com/dms/image/C4D03AQECRGT3lp9axw/profile-displayphoto-shrink_200_200/0?e=1552521600&v=beta&t=Rg3feXVltdGPeGfd5C8CYdBR6qt50D_owbTaHfUFiqs",
             links: {
                 website: "https://galoncyryll.github.io/website-portfolio/",
-                linkedin:
-                    "https://www.linkedin.com/in/cyryll-joseph-galon-461710147/",
+                linkedin: "https://www.linkedin.com/in/cyryll-joseph-galon-461710147/",
                 github: "https://github.com/galoncyryll",
             },
             jobTitle: "Software Developer",
@@ -4960,8 +4887,7 @@ export const data = {
                 "https://cdn1.imggmi.com/uploads/2019/1/14/3b2a92c40be00f96e1507bc93621b851-full.jpg",
             links: {
                 website: "https://kyrolos.github.io/Myportofolio/",
-                linkedin:
-                    "https://www.linkedin.com/in/kyrolos-magdy-575055163/",
+                linkedin: "https://www.linkedin.com/in/kyrolos-magdy-575055163/",
                 github: "https://github.com/kyrolos",
             },
             jobTitle: "Senior web developer",
@@ -5012,8 +4938,7 @@ export const data = {
                 "https://media.licdn.com/dms/image/C5103AQHAsBPWl0NLsQ/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=byPaOxuWdyTrs-gxD1_C8VQtaL3z7oM5yu3FLpOaJAY",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/richard-widjaya-3a658614b/",
+                linkedin: "https://www.linkedin.com/in/richard-widjaya-3a658614b/",
                 github: "https://github.com/ricwidjaya",
             },
             jobTitle: "Digital Marketer",
@@ -5171,12 +5096,10 @@ export const data = {
         {
             id: uuidv4(),
             name: "Olakunle Makanjuola",
-            img:
-                "https://share.icloud.com/photos/01UqN19xobH_Nyuc-j4zx6jVA#Lagos",
+            img: "https://share.icloud.com/photos/01UqN19xobH_Nyuc-j4zx6jVA#Lagos",
             links: {
                 website: "https://macrichie.github.io/",
-                linkedin:
-                    "https://www.linkedin.com/in/olakunle-makanjuola-7971155a/",
+                linkedin: "https://www.linkedin.com/in/olakunle-makanjuola-7971155a/",
                 github: "https://github.com/Macrichie",
             },
             jobTitle: "Javascript Developer / Tech Recruiter",
@@ -5193,8 +5116,7 @@ export const data = {
                 "https://avatars2.githubusercontent.com/u/45207786?s=400&u=2444f25b1917724d33457950a7c23c8a6dad4f07&v=4",
             links: {
                 website: "https://shametaj.github.io",
-                linkedin:
-                    "https://gr.linkedin.com/in/taulant-shametaj-6518a191",
+                linkedin: "https://gr.linkedin.com/in/taulant-shametaj-6518a191",
                 github: "https://github.com/shametaj",
             },
             jobTitle: "Web Developer",
@@ -5357,8 +5279,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/5598052?s=460&v=4",
             links: {
                 website: "https://www.mikezaleski.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/michael-zaleski-b52b50161/",
+                linkedin: "https://www.linkedin.com/in/michael-zaleski-b52b50161/",
                 github: "https://github.com/multisonic",
             },
             jobTitle: "Full Stack Developer",
@@ -5391,8 +5312,7 @@ export const data = {
             img: "https://avatars3.githubusercontent.com/u/41324045?s=460&v=4",
             links: {
                 website: "http://www.amsauciuc.com",
-                linkedin:
-                    "https://www.linkedin.com/in/ana-maria-sauciuc-753ba8155/",
+                linkedin: "https://www.linkedin.com/in/ana-maria-sauciuc-753ba8155/",
                 github: "https://github.com/annasauciuc",
             },
             jobTitle: "Front-End Developer",
@@ -5475,8 +5395,7 @@ export const data = {
             img: "https://avatars1.githubusercontent.com/u/47087777?s=460&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/david-okonkwo-64717a12a/",
+                linkedin: "https://www.linkedin.com/in/david-okonkwo-64717a12a/",
                 github: "https://github.com/ugozeal",
             },
             jobTitle: "Software Developer",
@@ -5641,8 +5560,7 @@ export const data = {
             img: " ",
             links: {
                 website: " ",
-                linkedin:
-                    "https://www.linkedin.com/in/naela-bahurmuz-05a85012a/",
+                linkedin: "https://www.linkedin.com/in/naela-bahurmuz-05a85012a/",
                 github: "https://github.com/lollaab",
             },
             jobTitle: "Web Developer",
@@ -5658,8 +5576,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/34777376?v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/jatin-varlyani-127290150/",
+                linkedin: "https://www.linkedin.com/in/jatin-varlyani-127290150/",
                 github: "https://github.com/Jatin-8898",
             },
             jobTitle: "Full Stack Web Developer",
@@ -5692,8 +5609,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/bojana-hadzivanova-21336635/",
+                linkedin: "https://www.linkedin.com/in/bojana-hadzivanova-21336635/",
                 github: "https://github.com/bojana899",
             },
             jobTitle: "developer",
@@ -5759,8 +5675,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/harry-parkinson-418515126/",
+                linkedin: "https://www.linkedin.com/in/harry-parkinson-418515126/",
                 github: "https://github.com/hazza203/",
             },
             jobTitle:
@@ -5777,8 +5692,7 @@ export const data = {
             img: "",
             links: {
                 website: "http://www.prestondavis.io",
-                linkedin:
-                    "https://www.linkedin.com/in/preston-davis-016211139/",
+                linkedin: "https://www.linkedin.com/in/preston-davis-016211139/",
                 github: "https://www.github.com/premdav",
             },
             jobTitle: "Full Stack Web Developer",
@@ -5830,8 +5744,7 @@ export const data = {
                 "https://media.licdn.com/dms/image/C4E03AQG_S06UTIxSJw/profile-displayphoto-shrink_200_200/0?e=1557360000&v=beta&t=VNxIYWv_1rx-wJIQJcn83jpLDnJxF4LNpSiQZq6tIJo",
             links: {
                 website: "https://argenisdelarosa.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/argenis-de-la-rosa-502b18157/",
+                linkedin: "https://www.linkedin.com/in/argenis-de-la-rosa-502b18157/",
                 github: "https://github.com/ArgenisDLR",
             },
             jobTitle: "Software Engineer",
@@ -5885,8 +5798,7 @@ export const data = {
                 linkedin: "https://www.linkedin.com/in/jaytintran/",
                 github: "https://github.com/jaytintran",
             },
-            jobTitle:
-                "Front End Developer, Full Stack JavaScript, ReactJS Developer",
+            jobTitle: "Front End Developer, Full Stack JavaScript, ReactJS Developer",
             location: {
                 city: "Ho Chi Minh",
                 state: "Ho Chi Minh",
@@ -5920,8 +5832,7 @@ export const data = {
                 linkedin: "https://www.linkedin.com/in/joseph-kelly-420a81165/",
                 github: "https://github.com/josephdk",
             },
-            jobTitle:
-                "Full-stack Web Developer - Javascript, React.js, PHP, MySQL",
+            jobTitle: "Full-stack Web Developer - Javascript, React.js, PHP, MySQL",
             location: {
                 city: "Gainesville",
                 state: "Florida",
@@ -6050,8 +5961,7 @@ export const data = {
             name: "González Oviedo Tomás Emiliano",
             img: "https://avatars1.githubusercontent.com/u/24637586?s=400&v=4",
             links: {
-                website:
-                    "https://tomas95go.github.io/tomasportfolio/index.html",
+                website: "https://tomas95go.github.io/tomasportfolio/index.html",
                 linkedin:
                     "www.linkedin.com/in/tomas-emiliano-gonzalez-oviedo-897795173",
                 github: "https://github.com/tomas95go",
@@ -6069,8 +5979,7 @@ export const data = {
             img: "https://avatars3.githubusercontent.com/u/36816681?s=460&v=4",
             links: {
                 website: "http://dibellopaolo-portfolio-demo-1.rf.gd/?i=1",
-                linkedin:
-                    "https://www.linkedin.com/in/paolo-di-bello-239056151/",
+                linkedin: "https://www.linkedin.com/in/paolo-di-bello-239056151/",
                 github: "https://github.com/PaoloDiBello",
             },
             jobTitle: "Web Developer & Polyglot",
@@ -6118,8 +6027,7 @@ export const data = {
             img: "https://avatars3.githubusercontent.com/u/34345518?s=460&v=4",
             links: {
                 website: "https://tkdevlop.tk/",
-                linkedin:
-                    "https://www.linkedin.com/in/tushar-kharbanda-69841a14b/",
+                linkedin: "https://www.linkedin.com/in/tushar-kharbanda-69841a14b/",
                 github: "https://github.com/TKdevlop/",
             },
             jobTitle: "Full Stack JS Dev",
@@ -6135,8 +6043,7 @@ export const data = {
             img: "https://photos.app.goo.gl/u7QfNZT5uw7k4M7S7",
             links: {
                 website: "https://tonydc1997.github.io/Personal-Website/",
-                linkedin:
-                    "https://www.linkedin.com/in/anthony-curtis-js-developer/",
+                linkedin: "https://www.linkedin.com/in/anthony-curtis-js-developer/",
                 github: "https://github.com/tonydc1997",
             },
             jobTitle: "Full-Stack JS Developer",
@@ -6168,8 +6075,7 @@ export const data = {
             name: "Allentine Paulis",
             img: "https://imgur.com/a/bkKSeR5",
             links: {
-                website:
-                    "https://rainbowmoonlight.github.io/AllentinePortfolio/",
+                website: "https://rainbowmoonlight.github.io/AllentinePortfolio/",
                 linkedin: "https://www.linkedin.com/in/allentine/",
                 github: "https://github.com/rainbowmoonlight",
             },
@@ -6202,8 +6108,7 @@ export const data = {
             img: "https://avatars1.githubusercontent.com/u/32341221?s=460&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/peterson-oaikhenah-102645144/",
+                linkedin: "https://www.linkedin.com/in/peterson-oaikhenah-102645144/",
                 github: "https://github.com/nextwebb",
             },
             jobTitle: "Full-Stack JavaScript and PHP Developer",
@@ -6219,8 +6124,7 @@ export const data = {
             img: "https://i.imgur.com/uXvnjsc.jpg",
             links: {
                 website: "https://shubhamd99.github.io/portfolio/",
-                linkedin:
-                    "https://www.linkedin.com/in/shubham-dhage-57133a175/",
+                linkedin: "https://www.linkedin.com/in/shubham-dhage-57133a175/",
                 github: "https://github.com/shubhamd99",
             },
             jobTitle: "Full Stack Web Developer",
@@ -6273,8 +6177,7 @@ export const data = {
                 twitter: "https://twitter.com/peterson_hn",
                 facebook: "https://www.facebook.com/peterson.oaikhenah",
                 gmail: "oaikhenahpeterson@gmail.com",
-                linkedin:
-                    "https://www.linkedin.com/in/peterson-oaikhenah-102645144/",
+                linkedin: "https://www.linkedin.com/in/peterson-oaikhenah-102645144/",
                 github: "https://github.com/nextwebb",
             },
             jobTitle: "Full-Stack nodejs and PHP Developer",
@@ -6290,8 +6193,7 @@ export const data = {
             img: "http://nebivalici.com/styles/img/nikola.jpg",
             links: {
                 website: "http://nebivalici.com/webapps",
-                linkedin:
-                    "https://www.linkedin.com/in/nikola-vasilev-ab1161b9/",
+                linkedin: "https://www.linkedin.com/in/nikola-vasilev-ab1161b9/",
                 github: "https://github.com/crux-in-lan",
             },
             jobTitle: "IT/KPI specialist",
@@ -6457,8 +6359,7 @@ export const data = {
                 "https://github.com/siddharthgusain/My-Portfolio/blob/master/assets/images/sid.jpg",
             links: {
                 website: "https://siddharthgusain.github.io/My-Portfolio/",
-                linkedin:
-                    "https://in.linkedin.com/in/siddharth-gusain-355b84156",
+                linkedin: "https://in.linkedin.com/in/siddharth-gusain-355b84156",
                 github: "https://github.com/siddharthgusain",
             },
             jobTitle: "Full-Stack Developer",
@@ -6507,8 +6408,7 @@ export const data = {
             img: "https://avatars1.githubusercontent.com/u/26534702?s=460&v=4",
             links: {
                 website: "http://xammin.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/saif-ur-rehman-5311a6b7/",
+                linkedin: "https://www.linkedin.com/in/saif-ur-rehman-5311a6b7/",
                 github: "https://github.com/saifsadi",
             },
             jobTitle: "Full Stack Developer ",
@@ -6674,8 +6574,7 @@ export const data = {
             img: "http://i68.tinypic.com/8g0j.jpg",
             links: {
                 website: "http://www.rushingmarina.com/rm-demo/",
-                linkedin:
-                    "https://www.linkedin.com/in/marina-pestriacheva-107b27143/",
+                linkedin: "https://www.linkedin.com/in/marina-pestriacheva-107b27143/",
                 github: "https://github.com/rushingMarina",
             },
             jobTitle: "Full Stack Web Developer",
@@ -6708,8 +6607,7 @@ export const data = {
                 "https://media.licdn.com/dms/image/C4D03AQHIjo9Nwl45XA/profile-displayphoto-shrink_200_200/0?e=1562803200&v=beta&t=W-NCStiVinGB2rQHmVarXu8KYuX2Jj-g-S7ML3rf-Q8",
             links: {
                 website: "https://jasondsouza.dev/",
-                linkedin:
-                    "https://www.linkedin.com/in/jason-d-souza-861762100/",
+                linkedin: "https://www.linkedin.com/in/jason-d-souza-861762100/",
                 github: "https://github.com/jvdsouza",
             },
             jobTitle: "Full Stack Web Developer",
@@ -6822,8 +6720,7 @@ export const data = {
             img: "https://avatars3.githubusercontent.com/u/18669601?s=460&v=4",
             links: {
                 website: "http://sallada.org/",
-                linkedin:
-                    "https://www.linkedin.com/in/lucas-sallada-6242a4106/",
+                linkedin: "https://www.linkedin.com/in/lucas-sallada-6242a4106/",
                 github: "https://github.com/yonlu",
             },
             jobTitle: "Web Developer",
@@ -6873,8 +6770,7 @@ export const data = {
             img: "http://i65.tinypic.com/29wwepg.jpg",
             links: {
                 website: "https://yangzhao71.github.io",
-                linkedin:
-                    "https://www.linkedin.com/in/yangmengyuan-zhao-b97b13173/",
+                linkedin: "https://www.linkedin.com/in/yangmengyuan-zhao-b97b13173/",
                 github: "https://github.com/YangZhao71",
             },
             jobTitle: "Full-Stack Developer",
@@ -6906,8 +6802,7 @@ export const data = {
             img: "http://i63.tinypic.com/311qkoi.jpg",
             links: {
                 website: "https://wmm3636.github.io/",
-                linkedin:
-                    "https://www.linkedin.com/in/waleed-mastour-059b7a89/",
+                linkedin: "https://www.linkedin.com/in/waleed-mastour-059b7a89/",
                 github: "https://github.com/wmm3636",
             },
             jobTitle: "Full Stack Developer",
@@ -6939,8 +6834,7 @@ export const data = {
             img: "https://logodix.com/logo/557730.jpg",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/clifford-benjamin-mirschel/",
+                linkedin: "https://www.linkedin.com/in/clifford-benjamin-mirschel/",
                 github: "https://github.com/BlueBoi904",
             },
             jobTitle: "Full-Stack Developer",
@@ -7167,8 +7061,7 @@ export const data = {
             img: "http://estebanbarron.com/assets/images/img-01.jpg",
             links: {
                 website: "http://estebanbarron.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/esteban-barr%C3%B3n-a60a2a113/",
+                linkedin: "https://www.linkedin.com/in/esteban-barr%C3%B3n-a60a2a113/",
                 github: "https://github.com/aberro3s",
             },
             jobTitle: "Full Stack Developer",
@@ -7431,8 +7324,7 @@ export const data = {
                 "https://cdn1.imggmi.com/uploads/2019/7/7/5b930225b449c12d52f1e2d8f2f73c72-full.jpg",
             links: {
                 website: "https://karin-personal-website.herokuapp.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/karin-povolozki-rabichev/",
+                linkedin: "https://www.linkedin.com/in/karin-povolozki-rabichev/",
                 github: "https://github.com/KarinPR/",
             },
             jobTitle: "Full-Stack Developer",
@@ -7481,8 +7373,7 @@ export const data = {
                 "https://github.com/Shreeya12/Shreeya12.github.io/blob/master/images/me.jpg",
             links: {
                 website: "Shreeya12.github.io",
-                linkedin:
-                    "https://www.linkedin.com/in/shreeya-bhetwal-059453185/",
+                linkedin: "https://www.linkedin.com/in/shreeya-bhetwal-059453185/",
                 github: "https://github.com/Shreeya12",
             },
             jobTitle: "Front-End Developer",
@@ -7514,8 +7405,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/50390123?s=460&v=4",
             links: {
                 website: "https://github.com/Tanner016",
-                linkedin:
-                    "https://www.linkedin.com/in/tanner-stoker-78133a177/",
+                linkedin: "https://www.linkedin.com/in/tanner-stoker-78133a177/",
                 github: "https://github.com/Tanner016",
             },
             jobTitle: "Web Developer",
@@ -7532,8 +7422,7 @@ export const data = {
                 "https://miro.medium.com/fit/c/256/256/1*knoM7uDg8YqnxFCffX3gDg.jpeg",
             links: {
                 website: "https://prateekmadaan.me",
-                linkedin:
-                    "https://www.linkedin.com/in/prateek-madaan-08a7919a/",
+                linkedin: "https://www.linkedin.com/in/prateek-madaan-08a7919a/",
                 github: "https://github.com/prateek951",
             },
             jobTitle: "Full Stack Developer",
@@ -7565,8 +7454,7 @@ export const data = {
             img: "https://lachlanwhelan.github.io/images/logo.png",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/lachlan-whelan-666386179/",
+                linkedin: "https://www.linkedin.com/in/lachlan-whelan-666386179/",
                 github: "https://github.com/lachlanwhelan",
             },
             jobTitle: "Full-Stack Developer",
@@ -7650,8 +7538,7 @@ export const data = {
             img: "https://avatars1.githubusercontent.com/u/37538929?s=460&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/daniyal-majeed-a3821118a/",
+                linkedin: "https://www.linkedin.com/in/daniyal-majeed-a3821118a/",
                 github: "https://github.com/danymajeed",
             },
             jobTitle: "Full Stack Developer",
@@ -7734,8 +7621,7 @@ export const data = {
                 "https://avatars1.githubusercontent.com/u/28601222?s=400&u=a1d6a8de8c34a150f6ccf71f5d91508330216d47&v=4",
             links: {
                 website: "https://www.thekachi.com",
-                linkedin:
-                    "https://www.linkedin.com/in/onyedikachi-f-nze-a37938163/",
+                linkedin: "https://www.linkedin.com/in/onyedikachi-f-nze-a37938163/",
                 github: "https://github.com/TheKachi",
             },
             jobTitle: "FULL STACK DEVELOPER",
@@ -7771,8 +7657,7 @@ export const data = {
                 linkedin: "https://www.linkedin.com/in/ayoubissaad/",
                 github: "https://github.com/AyoubIssaad",
             },
-            jobTitle:
-                "Full Stack Developer, (React, NodeJS, PHP), Database Manager",
+            jobTitle: "Full Stack Developer, (React, NodeJS, PHP), Database Manager",
             location: {
                 city: "Marrakech",
                 state: "",
@@ -7831,11 +7716,9 @@ export const data = {
         {
             id: uuidv4(),
             name: "Chisom Trisha Okoye",
-            img:
-                "http://www.trishaomabu.com/wp-content/uploads/2019/07/logo1.png",
+            img: "http://www.trishaomabu.com/wp-content/uploads/2019/07/logo1.png",
             links: {
-                website:
-                    "https://trishachi.github.io/Profile-Page-Project/index.html",
+                website: "https://trishachi.github.io/Profile-Page-Project/index.html",
                 linkedin: "https://www.linkedin.com/in/chisom-trisha-okoye/",
                 github: "https://github.com/Trishachi",
             },
@@ -7870,8 +7753,7 @@ export const data = {
                 "https://www.google.com/search?q=sevilay+selecki&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiUmZOp09zjAhUuxKYKHc5MD-UQ_AUIESgB&biw=1366&bih=657#imgrc=ehQYbg5PrDHBBM:",
             links: {
                 website: "https://github.com/sevydev/my-portfolio",
-                linkedin:
-                    "https://www.linkedin.com/in/sevilay-selecki-49568a166/",
+                linkedin: "https://www.linkedin.com/in/sevilay-selecki-49568a166/",
                 github: "https://github.com/sevydev",
             },
             jobTitle: "Front-End Developer",
@@ -7887,8 +7769,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/aasim-ahmed-khan-jawaad/",
+                linkedin: "https://www.linkedin.com/in/aasim-ahmed-khan-jawaad/",
                 github: "https://github.com/AasimAhmed20",
             },
             jobTitle: "Front-End Developer",
@@ -7904,8 +7785,7 @@ export const data = {
             img: "https://avatars1.githubusercontent.com/u/34693940?s=460&v=4",
             links: {
                 website: "danieljimenez.com.ve",
-                linkedin:
-                    "https://www.linkedin.com/in/daniel-alejandro-1181a3190",
+                linkedin: "https://www.linkedin.com/in/daniel-alejandro-1181a3190",
                 github: "https://github.com/danieljimenzg",
             },
             jobTitle: "Web Developer",
@@ -7951,12 +7831,10 @@ export const data = {
         {
             id: uuidv4(),
             name: "Murtadore Olajobi",
-            img:
-                "https://drive.google.com/open?id=1Bs8pnAIwnygg3cMKRaXqcZiduJwWSnJG",
+            img: "https://drive.google.com/open?id=1Bs8pnAIwnygg3cMKRaXqcZiduJwWSnJG",
             links: {
                 website: "murtadore.com",
-                linkedin:
-                    "https://www.linkedin.com/in/murtadore-olajobi-36b473165/",
+                linkedin: "https://www.linkedin.com/in/murtadore-olajobi-36b473165/",
                 github: "https://github.com/mtdola",
             },
             jobTitle: "Full-Stack Web-Developer",
@@ -8033,12 +7911,10 @@ export const data = {
         {
             id: uuidv4(),
             name: "Obusor Ezekiel Umesi",
-            img:
-                "https://drive.google.com/open?id=14xTXWCH6nYqaFixLpQdmTAQOgFtkUQnp",
+            img: "https://drive.google.com/open?id=14xTXWCH6nYqaFixLpQdmTAQOgFtkUQnp",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/obusor-ezekiel-umesi-a66b55121/",
+                linkedin: "https://www.linkedin.com/in/obusor-ezekiel-umesi-a66b55121/",
                 github: "https://github.com/obusorezekiel",
             },
             jobTitle: "Full Stack Software Engineer & Blockchain Enthusiast",
@@ -8203,8 +8079,7 @@ export const data = {
                 "https://media.licdn.com/dms/image/C5603AQEmuhG71_ZN5A/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=yCOY_KFyQJnnYlHbhztgfrwsG1t9JOOau1DeRN4K5sY",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/marcin-selecki-595b80182/",
+                linkedin: "https://www.linkedin.com/in/marcin-selecki-595b80182/",
                 github: "https://github.com/marcindev10",
             },
             jobTitle: "Front-end Developer",
@@ -8220,8 +8095,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/prateek-gurnani-563565108/",
+                linkedin: "https://www.linkedin.com/in/prateek-gurnani-563565108/",
                 github: "https://github.com/prateekgurnani10",
             },
             jobTitle: "Full Stack Developer",
@@ -8237,8 +8111,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/shamiul-islam-882595169/",
+                linkedin: "https://www.linkedin.com/in/shamiul-islam-882595169/",
                 github: "https://github.com/Sam5180",
             },
             jobTitle: "Full-Stack Developer",
@@ -8255,8 +8128,7 @@ export const data = {
                 "https://lh3.googleusercontent.com/-5enlx2hf5pY/XcD0vO34-_I/AAAAAAAAAAs/hYepTtFV4AQrpNkK8zUB0-ONiugBYxJeACEwYBhgL/w140-h140-p/profile.png",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/satendra-chowdhary-100607185/",
+                linkedin: "https://www.linkedin.com/in/satendra-chowdhary-100607185/",
                 github: "https://github.com/satendrachowdhary",
             },
             jobTitle: "JS Full Stack Developer",
@@ -8406,8 +8278,7 @@ export const data = {
             name: "Sebastian Andrei Gruia",
             img: "https://i.postimg.cc/50MSjbvz/D80-5373.jpg",
             links: {
-                website:
-                    "https://sebagruia.github.io/SebastianGruia-Project-Page/",
+                website: "https://sebagruia.github.io/SebastianGruia-Project-Page/",
                 linkedin: "https://www.linkedin.com/in/sebastiangruia/",
                 github: "https://github.com/sebagruia",
             },
@@ -8424,8 +8295,7 @@ export const data = {
             img: "https://i.ibb.co/9V5Sysc/profile.jpg",
             links: {
                 website: "https://gigi1111.github.io/Chung-Fan-Tsai-Portfolio/",
-                linkedin:
-                    "https://www.linkedin.com/in/chung-fan-tsai-433230175/",
+                linkedin: "https://www.linkedin.com/in/chung-fan-tsai-433230175/",
                 github: "https://github.com/Gigi1111",
             },
             jobTitle: "Full Stack JS and Django Developer",
@@ -8588,8 +8458,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/ricardo-esteves-a5a971159/",
+                linkedin: "https://www.linkedin.com/in/ricardo-esteves-a5a971159/",
                 github: "https://github.com/ricksnow26",
             },
             jobTitle: "Electrical Engineer, Web Developer",
@@ -8608,8 +8477,7 @@ export const data = {
                 linkedin: "https://www.linkedin.com/in/muhammad-alikazmi/",
                 github: "https://github.com/kazmiali",
             },
-            jobTitle:
-                "Full Stack Web Developer, React Developer, NodeJS Developer",
+            jobTitle: "Full Stack Web Developer, React Developer, NodeJS Developer",
             location: {
                 city: "Hyderabad",
                 state: "Sindh",
@@ -8654,8 +8522,7 @@ export const data = {
             img: "https://avatars0.githubusercontent.com/u/18644717?s=460&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/diego-ormaza-de-paul-14453311a",
+                linkedin: "https://www.linkedin.com/in/diego-ormaza-de-paul-14453311a",
                 github: "https://github.com/eaglearg",
             },
             jobTitle: "Full Stack Developer",
@@ -8722,8 +8589,7 @@ export const data = {
                 "https://res.cloudinary.com/sammieyisau/image/upload/v1554321179/Samad_3.jpg",
             links: {
                 website: "https://abdussamadyisau.github.io",
-                linkedin:
-                    "https://www.linkedin.com/in/abdussamad-yisau-915298154/",
+                linkedin: "https://www.linkedin.com/in/abdussamad-yisau-915298154/",
                 github: "https://github.com/AbdussamadYisau",
             },
             jobTitle: "Frontend Web Developer",
@@ -8755,8 +8621,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/paul-mclaughlin-18297b29/",
+                linkedin: "https://www.linkedin.com/in/paul-mclaughlin-18297b29/",
                 github: "https://github.com/codepol",
             },
             jobTitle: "Fullstack Web Developer",
@@ -8788,8 +8653,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/bibekpreet-singh-797966166/",
+                linkedin: "https://www.linkedin.com/in/bibekpreet-singh-797966166/",
                 github: "https://github.com/bibekpreet99",
             },
             jobTitle: "Fullstack Javascript Developer",
@@ -8839,8 +8703,7 @@ export const data = {
                 "https://res.cloudinary.com/fadhil/image/upload/v1570022438/My%20Pictures/blackops3.jpg",
             links: {
                 website: " ",
-                linkedin:
-                    "https://www.linkedin.com/in/fadhil-akindele-24701310a/",
+                linkedin: "https://www.linkedin.com/in/fadhil-akindele-24701310a/",
                 github: "https://github.com/TheCount511",
             },
             jobTitle: "Frontend Developer",
@@ -8920,8 +8783,7 @@ export const data = {
             name: "Mike Damato",
             img: "",
             links: {
-                linkedin:
-                    "https://www.linkedin.com/in/michael-damato-683abb48/",
+                linkedin: "https://www.linkedin.com/in/michael-damato-683abb48/",
                 github: "https://github.com/Mike-Damato",
             },
             jobTitle: "Fullstack Developer",
@@ -9038,8 +8900,7 @@ export const data = {
             img: "ttps://i.ibb.co/WK79MB2/self.jpg",
             links: {
                 website: "http://www.bananaboom.space/",
-                linkedin:
-                    "https://www.linkedin.com/in/baiyang-sam-y-54828a140/",
+                linkedin: "https://www.linkedin.com/in/baiyang-sam-y-54828a140/",
                 github: "https://github.com/yaohuangguan",
             },
             jobTitle: "Software Engineer | Web Developer",
@@ -9122,8 +8983,7 @@ export const data = {
             img: "http://natalina-portfolio.herokuapp.com/images/pics.jpg",
             links: {
                 website: "http://natalina-portfolio.herokuapp.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/natalina-rodrigues-69ab29169/",
+                linkedin: "https://www.linkedin.com/in/natalina-rodrigues-69ab29169/",
                 github: "https://github.com/Natalina13",
             },
             jobTitle: "Full Stack and Python Developer",
@@ -9155,8 +9015,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/rucha-deshpande-087b7342/",
+                linkedin: "https://www.linkedin.com/in/rucha-deshpande-087b7342/",
                 github: "https://github.com/cha1690",
             },
             jobTitle: "Full Stack Developer",
@@ -9188,8 +9047,7 @@ export const data = {
             img: "",
             links: {
                 website: "http://cumaniar.cf",
-                linkedin:
-                    "https://www.linkedin.com/in/chiragkumar-maniyar-37017492/",
+                linkedin: "https://www.linkedin.com/in/chiragkumar-maniyar-37017492/",
                 github: "https://github.com/CUManiar",
             },
             jobTitle: "Software Engineer",
@@ -9254,8 +9112,7 @@ export const data = {
                 "https://avatars2.githubusercontent.com/u/25059239?s=400&u=804b365294eaadc66bcfadb6a7ab0b000651511b&v=4",
             links: {
                 website: "http://www.yashshelatkar.com",
-                linkedin:
-                    "https://www.linkedin.com/in/yash-shelatkar-b14bb0112",
+                linkedin: "https://www.linkedin.com/in/yash-shelatkar-b14bb0112",
                 github: "https://github.com/yashShelatkar",
             },
             jobTitle: "Fullstack Developer Intern",
@@ -9286,8 +9143,7 @@ export const data = {
             name: "Kaustuv Karan",
             img: "https://avatars2.githubusercontent.com/u/43791878?s=460&v=4",
             links: {
-                linkedin:
-                    "https://www.linkedin.com/in/kaustuv-karan-b56750169/",
+                linkedin: "https://www.linkedin.com/in/kaustuv-karan-b56750169/",
                 github: "https://github.com/kaustuvkaran01",
             },
             jobTitle: "React Developer Intern",
@@ -9304,8 +9160,7 @@ export const data = {
                 "https://media.licdn.com/dms/image/C5103AQFCTSzJ-qni8Q/profile-displayphoto-shrink_200_200/0?e=1577318400&v=beta&t=iAdUxzlVtGmSIHm9I9EzsIqIuup4kKiJdyNwuDEwCTk",
             links: {
                 website: "https://rajnishkrsingh.github.io/my_portfolio",
-                linkedin:
-                    "https://www.linkedin.com/in/rajnish-kr-singh-165272184/",
+                linkedin: "https://www.linkedin.com/in/rajnish-kr-singh-165272184/",
                 github: "https://github.com/RajnishKrSingh",
             },
             jobTitle: "Web Developer | Programmer | ReactJS Enthusiast",
@@ -9337,8 +9192,7 @@ export const data = {
             img: "https://avatars0.githubusercontent.com/u/54416476?s=460&v=4",
             links: {
                 website: "https://aynorica.github.io/",
-                linkedin:
-                    "https://www.linkedin.com/in/amir-deilamizadeh-2712a6192",
+                linkedin: "https://www.linkedin.com/in/amir-deilamizadeh-2712a6192",
                 github: "https://github.com/aynorica",
             },
             jobTitle: "Full-stack Developer",
@@ -9518,8 +9372,7 @@ export const data = {
                 "https://avatars1.githubusercontent.com/u/20223725?s=400&u=04798a90f9a065fe2eeacf92df3a2970ac5691a7&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/tomasz-bogacki-5b048b127/",
+                linkedin: "https://www.linkedin.com/in/tomasz-bogacki-5b048b127/",
                 github: "https://github.com/TheProrok29",
             },
             jobTitle: "Python Developer && IT Specialist",
@@ -9746,8 +9599,7 @@ export const data = {
         {
             id: uuidv4(),
             name: "Pancho Daskalov",
-            img:
-                "https://drive.google.com/open?id=1xAWKZ8bF_Nbzbdbh0xcMncgLGekwKr_2",
+            img: "https://drive.google.com/open?id=1xAWKZ8bF_Nbzbdbh0xcMncgLGekwKr_2",
             links: {
                 website: "https://panchodaskalov.com/",
                 linkedin: "https://www.linkedin.com/in/panchodaskalov/",
@@ -9779,8 +9631,7 @@ export const data = {
         {
             id: uuidv4(),
             name: "Shivayan Anand Bora",
-            img:
-                "https://drive.google.com/open?id=1wwjXNtK4UjRkxBajzkEMaIL2xZWcyWAQ",
+            img: "https://drive.google.com/open?id=1wwjXNtK4UjRkxBajzkEMaIL2xZWcyWAQ",
             links: {
                 website: "",
                 linkedin: "https://www.linkedin.com/in/shivayan-bora-9a858a35/",
@@ -9863,8 +9714,7 @@ export const data = {
         {
             id: uuidv4(),
             name: "Shivayan Anand Bora",
-            img:
-                "https://drive.google.com/open?id=1wwjXNtK4UjRkxBajzkEMaIL2xZWcyWAQ",
+            img: "https://drive.google.com/open?id=1wwjXNtK4UjRkxBajzkEMaIL2xZWcyWAQ",
             links: {
                 website: "",
                 linkedin: "https://www.linkedin.com/in/shivayan-bora-9a858a35/",
@@ -10032,8 +9882,7 @@ export const data = {
             name: "Dennis Palmenco",
             img: "https://avatars0.githubusercontent.com/u/25899833?s=460&v=4",
             links: {
-                website:
-                    "https://www.kickresume.com/cv/dpalmenco_support_analyst/",
+                website: "https://www.kickresume.com/cv/dpalmenco_support_analyst/",
                 linkedin: "https://www.linkedin.com/in/dennispalmenco/",
                 github: "https://github.com/dennisbp",
             },
@@ -10151,12 +10000,10 @@ export const data = {
                 "https://github.com/Oleh-Zakharchuk/Portfolio/blob/gh-pages/img/portrait.jpg",
             links: {
                 website: "https://oleh-zakharchuk.github.io/Portfolio/",
-                linkedin:
-                    "https://www.linkedin.com/in/oleh-zakharchuk-7b216b198/",
+                linkedin: "https://www.linkedin.com/in/oleh-zakharchuk-7b216b198/",
                 github: "https://github.com/Oleh-Zakharchuk",
             },
-            jobTitle:
-                "Junior Front End Developer | Junior JavaScript Developer",
+            jobTitle: "Junior Front End Developer | Junior JavaScript Developer",
             location: {
                 city: "Kyiv",
                 state: "",
@@ -10335,8 +10182,7 @@ export const data = {
                 "https://avatars3.githubusercontent.com/u/39054140?s=400&u=2e6dfce7fb25df9bcfb9058021a5438a01a5d677&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/tomasz-biernat-682307163/",
+                linkedin: "https://www.linkedin.com/in/tomasz-biernat-682307163/",
                 github: "https://github.com/tomaszbiernat",
             },
             jobTitle: "Front-end Developer",
@@ -10498,8 +10344,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/32374530?s=460&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/kutlu-devrim-ata-86a91518/",
+                linkedin: "https://www.linkedin.com/in/kutlu-devrim-ata-86a91518/",
                 github: "https://github.com/leto666",
             },
             jobTitle: "Full Stack Web Developer",
@@ -10563,8 +10408,7 @@ export const data = {
             img: "",
             links: {
                 website: "https://raja1196.github.io",
-                linkedin:
-                    "https://www.linkedin.com/in/rajaram-sivaramakrishnan/",
+                linkedin: "https://www.linkedin.com/in/rajaram-sivaramakrishnan/",
                 github: "https://github.com/raja1196",
             },
             jobTitle: "Machine Learning Engineer",
@@ -10596,8 +10440,7 @@ export const data = {
             img: "https://avatars3.githubusercontent.com/u/37311893?s=460&v=4",
             links: {
                 website: "https://gnarus-tech.github.io/",
-                linkedin:
-                    "https://www.linkedin.com/in/ghislain-deffo-312922163/",
+                linkedin: "https://www.linkedin.com/in/ghislain-deffo-312922163/",
                 github: "https://github.com/GnarusGBaby",
             },
             jobTitle: "Full Stack Software Developer",
@@ -10695,8 +10538,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/709245?s=460&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/steven-kudirka-2a38a926/",
+                linkedin: "https://www.linkedin.com/in/steven-kudirka-2a38a926/",
                 github: "https://github.com/skudirka/",
             },
             jobTitle: "Senior Software Engineer",
@@ -10744,8 +10586,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/42178733?s=460&v=4",
             links: {
                 website: "http://portfolio.projectslit.fr/",
-                linkedin:
-                    "https://www.linkedin.com/in/sa%C3%AFd-litim-105115ba/",
+                linkedin: "https://www.linkedin.com/in/sa%C3%AFd-litim-105115ba/",
                 github: "https://github.com/salitim",
             },
             jobTitle: "JS Developer",
@@ -10762,8 +10603,7 @@ export const data = {
                 "https://media.licdn.com/dms/image/C4D03AQF-NBv9wCeG1A/profile-displayphoto-shrink_200_200/0?e=1582761600&v=beta&t=dW6MWaZKwvCI2NogXUtki8lYL-OkBHrQCUtB7gleyWc",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/elizaveta-timofeeva-497158152/",
+                linkedin: "https://www.linkedin.com/in/elizaveta-timofeeva-497158152/",
                 github: "https://github.com/Lijamaija",
             },
             jobTitle: "React Developer, Frone-end developer",
@@ -10795,8 +10635,7 @@ export const data = {
             img: "https://avatars0.githubusercontent.com/u/37118877?v=4",
             links: {
                 website: "https://www.developeratease.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/akshay-sharma-7962ab13a/",
+                linkedin: "https://www.linkedin.com/in/akshay-sharma-7962ab13a/",
                 github: "https://github.com/Akshay2996",
             },
             jobTitle: "Front-End Developer",
@@ -10825,8 +10664,7 @@ export const data = {
         {
             id: uuidv4(),
             name: "Srinivasa Rao Bhandari",
-            img:
-                "https://avatars1.githubusercontent.com/u/58605019?s=460&amp;v=4",
+            img: "https://avatars1.githubusercontent.com/u/58605019?s=460&amp;v=4",
             links: {
                 website: "",
                 linkedin:
@@ -10915,8 +10753,7 @@ export const data = {
                 linkedin: "https://www.linkedin.com/in/alek-vila/",
                 github: "https://github.com/greatgraphicdesign/",
             },
-            jobTitle:
-                "Front-End Developer, Art Director, Graphic Designer, UI/UX",
+            jobTitle: "Front-End Developer, Art Director, Graphic Designer, UI/UX",
             location: {
                 city: "Bellingham",
                 state: "Washington",
@@ -11024,8 +10861,7 @@ export const data = {
             name: "Michelle Rahman",
             img: "https://i.imgur.com/65I3Y6r.jpg",
             links: {
-                website:
-                    "https://michellerahman21.github.io/portfolio.github.io/",
+                website: "https://michellerahman21.github.io/portfolio.github.io/",
                 linkedin: "https://www.linkedin.com/in/michelle-rahman/",
                 github: "https://github.com/MichelleRahman21",
             },
@@ -11188,8 +11024,7 @@ export const data = {
             img: "",
             links: {
                 website: "https://ashwani65.blogspot.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/ashwani-singh-5b1868165/",
+                linkedin: "https://www.linkedin.com/in/ashwani-singh-5b1868165/",
                 github: "https://github.com/ashwani65",
             },
             jobTitle: "Full Stack Developer | MERN Developer",
@@ -11205,8 +11040,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/amritha-marimuthu-3943b517b/",
+                linkedin: "https://www.linkedin.com/in/amritha-marimuthu-3943b517b/",
                 github: "https://github.com/AmrithaM/",
             },
             jobTitle: "Full Stack Developer | Web Developer",
@@ -11238,8 +11072,7 @@ export const data = {
             img: "https://avatars0.githubusercontent.com/u/34397487?s=460&v=4",
             links: {
                 website: "https://viktorborsodi.github.io/",
-                linkedin:
-                    "https://www.linkedin.com/in/viktor-borsodi-73690062/",
+                linkedin: "https://www.linkedin.com/in/viktor-borsodi-73690062/",
                 github: "https://github.com/ViktorBorsodi",
             },
             jobTitle: "Full-stack Web Developer",
@@ -11255,8 +11088,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/alex-gainza-cintero-76360417a/",
+                linkedin: "https://www.linkedin.com/in/alex-gainza-cintero-76360417a/",
                 github: "https://github.com/alesgainza",
             },
             jobTitle: "Full stack Developer",
@@ -11306,8 +11138,7 @@ export const data = {
             img: "https://avatars0.githubusercontent.com/u/59014867?s=460&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/eunseok-cayden-choi-2aa79a137/",
+                linkedin: "https://www.linkedin.com/in/eunseok-cayden-choi-2aa79a137/",
                 github: "https://github.com/EJ-C?tab=repositories",
             },
             jobTitle: "Full-stack Web Developer",
@@ -11337,8 +11168,7 @@ export const data = {
         {
             id: uuidv4(),
             name: "Alejandro García Iglesias",
-            img:
-                "https://alejandroiglesias.github.io/cv/images/profile-picture.jpg",
+            img: "https://alejandroiglesias.github.io/cv/images/profile-picture.jpg",
             links: {
                 website: "https://alejandroiglesias.github.io/cv/",
                 linkedin: "https://www.linkedin.com/in/alegarciaiglesias/",
@@ -11356,8 +11186,7 @@ export const data = {
             img: "https://avatars0.githubusercontent.com/u/45598232?s=460&v=4",
             links: {
                 website: "https://corycatherall.com",
-                linkedin:
-                    "https://www.linkedin.com/in/cory-catherall-9a5bb6116/",
+                linkedin: "https://www.linkedin.com/in/cory-catherall-9a5bb6116/",
                 github: "https://github.com/Tera15",
             },
             jobTitle: "Developer",
@@ -11422,8 +11251,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/eden-varsulker-88676411a/",
+                linkedin: "https://www.linkedin.com/in/eden-varsulker-88676411a/",
                 github: "https://github.com/edenv30",
             },
             jobTitle: "Full Stack Developer",
@@ -11503,8 +11331,7 @@ export const data = {
             img: "https://avatars0.githubusercontent.com/u/60618174?s=460&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/ntsako-rodney-mculu-a486bb58/",
+                linkedin: "https://www.linkedin.com/in/ntsako-rodney-mculu-a486bb58/",
                 github: "https://github.com/ntsakoMculu",
             },
             jobTitle: "Software Developer, Data science/Analyst",
@@ -11536,8 +11363,7 @@ export const data = {
             img: "https://avatars1.githubusercontent.com/u/4064474?s=460&v=4",
             links: {
                 website: "https://www.charlesloges.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/charles-loges-iv-9a534956/",
+                linkedin: "https://www.linkedin.com/in/charles-loges-iv-9a534956/",
                 github: "https://github.com/cloges4",
             },
             jobTitle: "Front End Developer",
@@ -11665,8 +11491,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/54820576?s=460&v=4",
             links: {
                 website: "https://www.popmaria.com/home",
-                linkedin:
-                    "https://www.linkedin.com/in/maria-teodora-pop-64825b156/",
+                linkedin: "https://www.linkedin.com/in/maria-teodora-pop-64825b156/",
                 github: "https://github.com/LadyShinka",
             },
             jobTitle: "Full-Stack Web Developer",
@@ -11683,8 +11508,7 @@ export const data = {
                 "https://avatars3.githubusercontent.com/u/47789898?s=400&u=103b7e4f41d70a9b06ae407ee56ae11277b2477a&v=4",
             links: {
                 website: "https://batmangoo.github.io/Javascript-Portfolio/",
-                linkedin:
-                    "https://www.linkedin.com/in/prabhjot-singh-59750199/",
+                linkedin: "https://www.linkedin.com/in/prabhjot-singh-59750199/",
                 github: "https://github.com/BATMANGOO",
             },
             jobTitle: "Full-Stack Web Developer",
@@ -11701,8 +11525,7 @@ export const data = {
                 "https://avatars1.githubusercontent.com/u/55626560?s=400&u=bbb9b547a6e0c4856997702307c52c6598c72f93&v=4",
             links: {
                 website: "https://www.mikeyneedsajob.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/michael-huber-9b567a173/",
+                linkedin: "https://www.linkedin.com/in/michael-huber-9b567a173/",
                 github: "https://github.com/mshuber1981",
             },
             jobTitle: "Front-end Web Developer",
@@ -11719,8 +11542,7 @@ export const data = {
                 "https://media-exp1.licdn.com/dms/image/C5603AQExqUsxV7_IQw/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=tFrAQCIcG1T080mPykXyD4bxTG92fUx2wTBZQcy_NE4",
             links: {
                 website: "https://chris-thedeveloper.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/christian-stevens-34367110b/",
+                linkedin: "https://www.linkedin.com/in/christian-stevens-34367110b/",
                 github: "https://github.com/stev1905",
             },
             jobTitle: "Full Stack Developer",
@@ -11737,8 +11559,7 @@ export const data = {
                 "https://avatars0.githubusercontent.com/u/33945636?s=400&u=8373f0db9292c10f86da7390d50b91debad51716&v=4",
             links: {
                 website: "https://pratik-1999.github.io/",
-                linkedin:
-                    "https://www.linkedin.com/in/pratik-pandab-193b43143/",
+                linkedin: "https://www.linkedin.com/in/pratik-pandab-193b43143/",
                 github: "https://github.com/pratik-1999",
             },
             jobTitle: "AI Researcher",
@@ -11785,8 +11606,7 @@ export const data = {
             name: "Jesus Soto",
             img: "https://avatars1.githubusercontent.com/u/16869766?s=400&v=4",
             links: {
-                website:
-                    "https://www.upwork.com/o/profiles/users/~01b278e346910606a1/",
+                website: "https://www.upwork.com/o/profiles/users/~01b278e346910606a1/",
                 linkedin: "https://www.linkedin.com/in/sotous/",
                 github: "https://github.com/sotous",
             },
@@ -11947,8 +11767,7 @@ export const data = {
         {
             id: uuidv4(),
             name: "Anurag Yadav",
-            img:
-                "https://www.gravatar.com/avatar/9159f15d1336345e5378cb5464259e04",
+            img: "https://www.gravatar.com/avatar/9159f15d1336345e5378cb5464259e04",
             links: {
                 website: "http://yadavanurag.github.io",
                 linkedin: "https://www.linkedin.com/in/yadavanurag90",
@@ -12018,8 +11837,7 @@ export const data = {
             img: "https://devevangel.github.io/assets/images/me.jpg",
             links: {
                 website: "https://devevangel.github.io/",
-                linkedin:
-                    "https://www.linkedin.com/in/evangel-iheukwumere-511a7219b/",
+                linkedin: "https://www.linkedin.com/in/evangel-iheukwumere-511a7219b/",
                 github: "https://github.com/devevangel/",
             },
             jobTitle: "Game Developer / Software Developer / Android Developer",
@@ -12054,8 +11872,7 @@ export const data = {
                 "https://lh3.googleusercontent.com/-dSTdfe93-d0fg1bc6hx8uHSYBH5FqeNaSftgWd5Vd_xln8293caccfoWsKrEc96JntGvfZxtkwer4HshgKWN4BFxfNTw5BVjuwgIfjDPoVEohpgr4EsBHPZJgb07BoLfPiagpuLjZRJb8o8hK-6IznMor5FKYKajywWsxjmxoxtSzTC0hz9JbdAeVUmukFjDqeZzXYzSI-Ix9a8MTmSfrYtkDmuYNPjlQ0nnSY3uqogmjeq5Obbh_pYBc4uL0R2IsUxuK0CjnPT8uzI14KWeNbP7GLp1SxNX6E7E8cyWAzAu2wcZA7bLj7G8Jjv_PvID5Aa5qprCHbJw_iEvpH0D--cJISyoBLv4w7SHAgfj7cMQlbHxl-80VmJGV-0KmGuUXtJh-megSIUuku0ms1IF-xrP9785TXX_mEKtU4X1L2Fna4kkcZvHcY6Lgs8Tg8P3rNgyiU5MvfDad-GoBSdQSBQSVbTA339OtF1RIQfZZ-XRylRM1VJQIGs-jy7FFlgAY95cohjOO_LXa2AdhhD4df5rYutbBplTTO8bzeU2FspNzC2cIjV9fm7JZc-yLklTjcJ-d46I_4C0-ECIoQcdBuAdyHyudZYySQ3d9XrbJGUrylpBW8rddtlVSv1Vjw7xhIt6kI5YdhNYdgnQLpICkHKveHDD7DxGG5Aa6ueKFEooAs-XPWwAfCDTZCRgBg=s231-no",
             links: {
                 website: "https://mindtaxis.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/isam-elbousserghini-874614194/",
+                linkedin: "https://www.linkedin.com/in/isam-elbousserghini-874614194/",
                 github: "https://github.com/isamelb",
             },
             jobTitle: "web developer, javascript, html, css, python",
@@ -12070,8 +11887,7 @@ export const data = {
             name: "Himanshu Kishor Gohil",
             img: "https://tghimanshu.github.io/images/photo.jpg",
             links: {
-                linkedin:
-                    "https://www.linkedin.com/in/himanshu-gohil-b21893155/",
+                linkedin: "https://www.linkedin.com/in/himanshu-gohil-b21893155/",
                 website: "https://tghimanshu.github.io/",
                 github: "https://github.com/tghimanshu",
             },
@@ -12221,8 +12037,7 @@ export const data = {
                 "https://avatars1.githubusercontent.com/u/62534347?s=460&u=5d96759c71d3b52b26f03d97d8cbd070da183950&v=4",
             links: {
                 website: "https://rjcapara.com",
-                linkedin:
-                    "https://www.linkedin.com/in/rolando-capara-536891144/",
+                linkedin: "https://www.linkedin.com/in/rolando-capara-536891144/",
                 github: "https://github.com/rjcapara",
             },
             jobTitle: "Full Stack Web Developer",
@@ -12290,8 +12105,7 @@ export const data = {
                 "https://avatars0.githubusercontent.com/u/40036238?s=400&u=c8c83a97658f9f62f32d9cbfe4334962933271a1&v=4",
             links: {
                 website: "https://www.pranav2012.github.io/",
-                linkedin:
-                    "https://www.linkedin.com/in/pranav-agarwal-579363166/",
+                linkedin: "https://www.linkedin.com/in/pranav-agarwal-579363166/",
                 github: "https://github.com/pranav2012",
             },
             jobTitle: "Full-Stack Web-Developer, Python Developer",
@@ -12437,8 +12251,7 @@ export const data = {
             img: "",
             links: {
                 website: "https://heliorochacardoso.github.io/portfolio/",
-                linkedin:
-                    "https://www.linkedin.com/in/helio-cardoso-822355116/",
+                linkedin: "https://www.linkedin.com/in/helio-cardoso-822355116/",
                 github: "https://github.com/HelioRochaCardoso",
             },
             jobTitle: "Front End Developer",
@@ -12488,8 +12301,7 @@ export const data = {
                 "https://media-exp1.licdn.com/dms/image/C5103AQF3dXY-xgSMuA/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=7q-gaMWdhbM-acrMEJyShXIwuaZWLr5RNHs-IWMnAFc",
             links: {
                 website: "https://harendra.in",
-                linkedin:
-                    "https://www.linkedin.com/in/harendra-verma-157773a9/",
+                linkedin: "https://www.linkedin.com/in/harendra-verma-157773a9/",
                 github: "https://github.com/harendra21/",
             },
             jobTitle: "Full Stack Web Developer",
@@ -12503,13 +12315,13 @@ export const data = {
         {
             id: uuidv4(),
             name: "Aayush Rajput",
-            img: "",
+            img: "https://images.app.goo.gl/kB6SdLVpBtr75frZ9",
             links: {
-                website: "",
+                website: "https://aayushhh.github.io/website",
                 linkedin: "https://www.linkedin.com/in/aayush-r-44a33a108/",
                 github: "https://github.com/aayushhh/",
             },
-            jobTitle: "Full Stack Web Developer",
+            jobTitle: "Full Stack Web Developer, Data Science",
             location: {
                 city: "Gurugram",
                 state: "Haryana",
@@ -12522,8 +12334,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/tobun-funmilayo-b7b00171/",
+                linkedin: "https://www.linkedin.com/in/tobun-funmilayo-b7b00171/",
                 github: "https://github.com/Funmilayo24",
             },
             jobTitle: "Full-Stack Web Developer",
@@ -12540,8 +12351,7 @@ export const data = {
                 "https://avatars2.githubusercontent.com/u/32195144?s=460&u=e7368131fc6cc6f55b6855cf7c2118945d111722&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/mithlesh-yadav-2aa8a316a/",
+                linkedin: "https://www.linkedin.com/in/mithlesh-yadav-2aa8a316a/",
                 github: "https://github.com/mithleshfreak",
             },
             jobTitle: "Software Developer",
@@ -12691,8 +12501,7 @@ export const data = {
             img: "https://bit.ly/2XyFqfE",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/vaibhav-kumar-singh-530928101",
+                linkedin: "https://www.linkedin.com/in/vaibhav-kumar-singh-530928101",
                 github: "https://github.com/vaivk4",
             },
             jobTitle: "Software-Developer",
@@ -12709,8 +12518,7 @@ export const data = {
                 "https://avatars2.githubusercontent.com/u/53473099?s=460&u=2120e37f1256225a73bbf2c75414e76217835d90&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/jonathan-grundy-661013190/",
+                linkedin: "https://www.linkedin.com/in/jonathan-grundy-661013190/",
                 github: "https://github.com/jonathangrundy",
             },
             jobTitle: "Junior Web Developer - Javascript",
@@ -12744,8 +12552,7 @@ export const data = {
                 "https://avatars3.githubusercontent.com/u/59569596?s=460&u=afdf6a5866ed55179fa52663f6c0d6c380e049b4&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/jorge-veronique-981a0753/",
+                linkedin: "https://www.linkedin.com/in/jorge-veronique-981a0753/",
                 github: "https://github.com/jorgey1",
             },
             jobTitle: "Software Engineer",
@@ -12798,8 +12605,7 @@ export const data = {
                 linkedin: "https://www.linkedin.com/in/caxefaizan/",
                 github: "https://github.com/caxefaizan",
             },
-            jobTitle:
-                "Python Developer|Full Stack Developer|Embedded IoT Developer",
+            jobTitle: "Python Developer|Full Stack Developer|Embedded IoT Developer",
             location: {
                 city: "Bangalore",
                 state: "Karnataka",
@@ -12960,8 +12766,7 @@ export const data = {
             img:
                 "https://media-exp1.licdn.com/dms/image/C4E03AQFlz-svFCpPKQ/profile-displayphoto-shrink_200_200/0?e=1593648000&v=beta&t=zMv14W_E4c_o_s-rD2IvdBxawOcIgY_GdNapw5weO-I",
             links: {
-                linkedin:
-                    "https://www.linkedin.com/in/mohadip-lama-taveras-961a67140/",
+                linkedin: "https://www.linkedin.com/in/mohadip-lama-taveras-961a67140/",
                 github: "https://github.com/mohadip",
             },
             jobTitle: "Web Developer | Javascript | Python | Java",
@@ -13026,8 +12831,7 @@ export const data = {
             img: "",
             links: {
                 website: "http://brittany-anderson.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/brittany-anderson-b9b835155/",
+                linkedin: "https://www.linkedin.com/in/brittany-anderson-b9b835155/",
                 github: "https://github.com/bdb5075",
             },
             jobTitle: "Front End Developer",
@@ -13043,8 +12847,7 @@ export const data = {
             img: "https://avatars3.githubusercontent.com/u/36671895?s=460&v=4",
             links: {
                 website: "https://rexxanthony.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/rexx-anthony-samuell-1282304/",
+                linkedin: "https://www.linkedin.com/in/rexx-anthony-samuell-1282304/",
                 github: "https://github.com/rsamuell",
             },
             jobTitle: "Web Developer",
@@ -13060,8 +12863,7 @@ export const data = {
             img: "YOUR_IMG_URL",
             links: {
                 website: "http://supracodes.pythonanywhere.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/supratim-sarkar-3a3299150/",
+                linkedin: "https://www.linkedin.com/in/supratim-sarkar-3a3299150/",
                 github: "https://github.com/codewithsupra",
             },
             jobTitle: "Data Analyst| Python Developer",
@@ -13106,8 +12908,7 @@ export const data = {
         {
             id: uuidv4(),
             name: "Kumar Aditya",
-            img:
-                "https://kumaraditya.herokuapp.com/about/assets/img/profile-img.jpg",
+            img: "https://kumaraditya.herokuapp.com/about/assets/img/profile-img.jpg",
             links: {
                 website: "https://kumaraditya.herokuapp.com/",
                 linkedin: "https://www.linkedin.com/in/kumar-aditya-77a2b4194/",
@@ -13276,8 +13077,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/64095520",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/arun-surendharan-3084a6142/",
+                linkedin: "https://www.linkedin.com/in/arun-surendharan-3084a6142/",
                 github: "https://github.com/arun-me",
             },
             jobTitle: "Full Stack Developer",
@@ -13325,8 +13125,7 @@ export const data = {
             img: "http://ghizlaneb.pythonanywhere.com/about.html",
             links: {
                 website: "http://ghizlaneb.pythonanywhere.com/index.html",
-                linkedin:
-                    "https://www.linkedin.com/in/ghizlane-bouskri-physics/",
+                linkedin: "https://www.linkedin.com/in/ghizlane-bouskri-physics/",
                 github: "https://github.com/GhizlaneBOUSKRI",
             },
             jobTitle: "Full stack developer",
@@ -13341,14 +13140,11 @@ export const data = {
             name: "Nikolay Almazov",
             img: "https://github.com/nalmazov.png",
             links: {
-                website:
-                    "https://www.linkedin.com/in/nikolay-almazov-10b40892/",
-                linkedin:
-                    "https://www.linkedin.com/in/nikolay-almazov-10b40892/",
+                website: "https://www.linkedin.com/in/nikolay-almazov-10b40892/",
+                linkedin: "https://www.linkedin.com/in/nikolay-almazov-10b40892/",
                 github: "https://github.com/NAlmazov",
             },
-            jobTitle:
-                "Product Manager|Consultant|Aspiring Full-Stack Developer",
+            jobTitle: "Product Manager|Consultant|Aspiring Full-Stack Developer",
             location: {
                 city: "Boston",
                 state: "Massachusetts",
@@ -13378,8 +13174,7 @@ export const data = {
             img: "https://github.com/hmvitous.png",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/hunter-vitous-07839a10b/",
+                linkedin: "https://www.linkedin.com/in/hunter-vitous-07839a10b/",
                 github: "https://github.com/hmvitous",
             },
             jobTitle: "Full-Stack Developer",
@@ -13466,8 +13261,7 @@ export const data = {
                 linkedin: "https://www.linkedin.com/in/rudi-bester-a18878199/",
                 github: "https://github.com/rudibester",
             },
-            jobTitle:
-                "Software Developer|Aspiring Data Scientist|ML Enthusiast",
+            jobTitle: "Software Developer|Aspiring Data Scientist|ML Enthusiast",
             location: {
                 city: "Cape Town",
                 state: "",
@@ -13494,12 +13288,10 @@ export const data = {
         {
             id: uuidv4(),
             name: "Ujjwal Adhikari",
-            img:
-                "https://www.photobox.co.uk/my/photo/full?photo_id=503026919760",
+            img: "https://www.photobox.co.uk/my/photo/full?photo_id=503026919760",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/ujjwal-adhikari-3a946418b/",
+                linkedin: "https://www.linkedin.com/in/ujjwal-adhikari-3a946418b/",
                 github: "https://github.com/ujjwal66",
             },
             jobTitle: "Fullstack Developer",
@@ -13516,8 +13308,7 @@ export const data = {
                 "https://manas588.github.io/portfo/static/media/thatsme.755846f5.jpg",
             links: {
                 website: "https://manas588.github.io/portfo/",
-                linkedin:
-                    "https://www.linkedin.com/in/manas-kulkarni-093900162/",
+                linkedin: "https://www.linkedin.com/in/manas-kulkarni-093900162/",
                 github: "https://github.com/Manas588",
             },
             jobTitle: "Web Developer",
@@ -13618,8 +13409,7 @@ export const data = {
             img: "https://twitter.com/spctr01/photo",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/rakshit-kumar-52b040165/",
+                linkedin: "https://www.linkedin.com/in/rakshit-kumar-52b040165/",
                 github: "https://github.com/spctr01",
             },
             jobTitle: "Data Scientist | ML Engineer",
@@ -13735,8 +13525,7 @@ export const data = {
             img: "",
             links: {
                 website: "https://biancascode.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/bianca-goncalves-247a301a5/",
+                linkedin: "https://www.linkedin.com/in/bianca-goncalves-247a301a5/",
                 github: "https://github.com/biancadevelop",
             },
             jobTitle: "Front-End Developer",
@@ -14032,8 +13821,7 @@ export const data = {
             img: "https://photos.app.goo.gl/6cnfe2rBfuLFBKgG7",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/sheldon-hooper-626822144/",
+                linkedin: "https://www.linkedin.com/in/sheldon-hooper-626822144/",
                 github: "https://github.com/SheldonEHooper",
             },
             jobTitle: "Freelance Developer",
@@ -14049,8 +13837,7 @@ export const data = {
             img: "https://avatars1.githubusercontent.com/u/29941976?v=4",
             links: {
                 website: "https://avinashkonduri.github.io/PersonalSite/",
-                linkedin:
-                    "https://www.linkedin.com/in/avinash-konduri-b212a711/",
+                linkedin: "https://www.linkedin.com/in/avinash-konduri-b212a711/",
                 github: "https://github.com/avinashkonduri/",
             },
             jobTitle: "Full Stack Developer",
@@ -14232,8 +14019,7 @@ export const data = {
             img: "https://photos.app.goo.gl/6cnfe2rBfuLFBKgG7",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/sheldon-hooper-626822144/",
+                linkedin: "https://www.linkedin.com/in/sheldon-hooper-626822144/",
                 github: "https://github.com/SheldonEHooper",
             },
             jobTitle: "Freelance Developer",
@@ -14282,8 +14068,7 @@ export const data = {
             img: "https://avatars0.githubusercontent.com/u/55747508?v=4",
             links: {
                 website: "http://www.bamz.xyz/",
-                linkedin:
-                    "https://www.linkedin.com/in/adeoluwa-fabamise-46a694198/",
+                linkedin: "https://www.linkedin.com/in/adeoluwa-fabamise-46a694198/",
                 github: "https://github.com/Bamz-west",
             },
             jobTitle: "Full-stack Developer",
@@ -14349,8 +14134,7 @@ export const data = {
             img: "https://ibb.co/vzRXC7W",
             links: {
                 website: "https://www.trenishagoslee.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/trenisha-goslee-92769358/",
+                linkedin: "https://www.linkedin.com/in/trenisha-goslee-92769358/",
                 github: "https://github.com/tgoslee",
             },
             jobTitle: "Front End Web Developer",
@@ -14383,8 +14167,7 @@ export const data = {
                 "https://avatars0.githubusercontent.com/u/42907572?s=460&u=3c5c03fdddeec2483819b845bd549616d48b71e5&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/ashutosh-dwivedi-b3025b196/",
+                linkedin: "https://www.linkedin.com/in/ashutosh-dwivedi-b3025b196/",
                 github: "https://github.com/Ashutosh00710",
             },
             jobTitle: "Full Stack Developer",
@@ -14418,8 +14201,7 @@ export const data = {
                 "https://portfolioebraheem.herokuapp.com/assets/img/testimonial-2.jpg",
             links: {
                 website: "https://portfolioebraheem.herokuapp.com/portfolio",
-                linkedin:
-                    "https://www.linkedin.com/in/ebraheem-ijaz-0a685a122/",
+                linkedin: "https://www.linkedin.com/in/ebraheem-ijaz-0a685a122/",
                 github: "https://github.com/ebraheemijaz/",
             },
             jobTitle: "MERN Stack Developer",
@@ -14452,8 +14234,7 @@ export const data = {
                 "https://media-exp1.licdn.com/dms/image/C4E03AQHa_p4Z5ChE2Q/profile-displayphoto-shrink_200_200/0?e=1594857600&v=beta&t=94ZUHVReFbMjOaLIF5oQRHsra0RD-qo0snMVkf8P84s",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/ali-mirmohammad-786640158/",
+                linkedin: "https://www.linkedin.com/in/ali-mirmohammad-786640158/",
                 github: "https://github.com/alimirmohammad",
             },
             jobTitle: "Web Developer",
@@ -14537,8 +14318,7 @@ export const data = {
                 "https://avatars1.githubusercontent.com/u/49900199?s=460&u=4746331f3f58fdd1aea38ff6187cee90e1fe331e&v=4",
             links: {
                 website: "https://ibrahimsatria.xyz/",
-                linkedin:
-                    "https://www.linkedin.com/in/ibrahim-satria-56a779185/",
+                linkedin: "https://www.linkedin.com/in/ibrahim-satria-56a779185/",
                 github: "https://github.com/shipdyded",
             },
             jobTitle: "Full Stack Web Developer",
@@ -14606,8 +14386,7 @@ export const data = {
                 "https://avatars0.githubusercontent.com/u/43927184?s=460&u=8fb16f130dd0c6f19e35d0c8295adc9bf6b5ff5a&v=4",
             links: {
                 website: "https://www.nickapic.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/aniket-chauhan-09642536/",
+                linkedin: "https://www.linkedin.com/in/aniket-chauhan-09642536/",
                 github: "https://github.com/nickapic",
             },
             jobTitle: "Full Stack Developer",
@@ -14624,8 +14403,7 @@ export const data = {
                 "https://user-images.githubusercontent.com/46509072/88485710-d9c35c80-cf6f-11ea-8022-93c172a5bc89.jpeg",
             links: {
                 website: "https://iamnotstatic.github.io",
-                linkedin:
-                    "https://www.linkedin.com/in/abdulfatai-suleiman-706ba6172",
+                linkedin: "https://www.linkedin.com/in/abdulfatai-suleiman-706ba6172",
                 github: "https://github.com/iamnotstatic",
             },
             jobTitle: "Software Developer",
@@ -14688,8 +14466,7 @@ export const data = {
         {
             id: uuidv4(),
             name: "Jasper Beachy",
-            img:
-                "https://www.dropbox.com/s/wurudmom8pqqgwu/20190312_171808.jpg?dl=0",
+            img: "https://www.dropbox.com/s/wurudmom8pqqgwu/20190312_171808.jpg?dl=0",
             links: {
                 website: "https://jasperbeachy.now.sh/",
                 linkedin: "https://www.linkedin.com/in/jasperbeachy/",
@@ -14738,8 +14515,7 @@ export const data = {
         {
             id: uuidv4(),
             name: "Jeff Landers",
-            img:
-                "http://jlanders12.pythonanywhere.com/static/images/profile3.jpg",
+            img: "http://jlanders12.pythonanywhere.com/static/images/profile3.jpg",
             links: {
                 website: "http://jlanders12.pythonanywhere.com/",
                 linkedin: "",
@@ -14770,7 +14546,7 @@ export const data = {
         },
         {
             id: uuidv4(),
-            name: "Haoli Yang",
+            name: "Haoli Yang",
             img:
                 "https://media-exp1.licdn.com/dms/image/C4D03AQFoZs5Ko4iTaw/profile-displayphoto-shrink_800_800/0?e=1596067200&v=beta&t=8OtfU2QeNkrabcPgm7_JmfeAXPB4HraSTUM_F4gxRe0",
             links: {
@@ -14778,11 +14554,11 @@ export const data = {
                 linkedin: "https://www.linkedin.com/in/haoliyang0312/",
                 github: "https://github.com/hyang77/",
             },
-            jobTitle: "Front-End Developer",
+            jobTitle: "Front-End Developer",
             location: {
                 city: "Chicago",
                 state: "Illinois",
-                country: "United States",
+                country: "United States",
             },
         },
         {
@@ -14791,8 +14567,7 @@ export const data = {
             img: "",
             links: {
                 website: "https://ankithac.github.io//",
-                linkedin:
-                    "https://www.linkedin.com/in/ankitha-chowlur-0a47821a4/",
+                linkedin: "https://www.linkedin.com/in/ankitha-chowlur-0a47821a4/",
                 github: "https://github.com/ankithac",
             },
             jobTitle: "Full Stack Web Developer",
@@ -14809,8 +14584,7 @@ export const data = {
                 "https://media-exp1.licdn.com/dms/image/C4E03AQHfmQq52tuq1w/profile-displayphoto-shrink_400_400/0?e=1596672000&v=beta&t=IxTdhudi0BkJSyUw3ms2Jx2iNQ2WbTzEFgT4cPsT6-Ig",
             links: {
                 website: "https://magnus-cromwell-portfolio1.herokuapp.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/magnus-cromwell-517b59191/",
+                linkedin: "https://www.linkedin.com/in/magnus-cromwell-517b59191/",
                 github: "https://github.com/magpiet",
             },
             jobTitle: "Web Developer",
@@ -14827,8 +14601,7 @@ export const data = {
                 "https://drive.google.com/file/d/1f7T8c0nMzGTED24jdh6OPIHpp31Sg_HQ/view?usp=sharing",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/priyanka-wankhade-277134155",
+                linkedin: "https://www.linkedin.com/in/priyanka-wankhade-277134155",
                 github: "https://github.com/pgwankhade",
             },
             jobTitle: "Full-Stack Web Developer",
@@ -14862,8 +14635,7 @@ export const data = {
                 "https://avatars1.githubusercontent.com/u/28651112?s=400&u=05e78471150e7d1cd2561cc88fb67f026768628c&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/savvas-giannoukas-824b2a138/",
+                linkedin: "https://www.linkedin.com/in/savvas-giannoukas-824b2a138/",
                 github: "https://github.com/savvasg35",
             },
             jobTitle: "Full Stack Developer",
@@ -14880,8 +14652,7 @@ export const data = {
                 "https://avatars3.githubusercontent.com/u/21057939?s=400&u=2495152160f48382892b4772a57ccf97be7e5e3f&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/nicholas-chun-markus-0b0136a2/",
+                linkedin: "https://www.linkedin.com/in/nicholas-chun-markus-0b0136a2/",
                 github: "https://github.com/nicxzmiller",
             },
             jobTitle: "UI Designer | Frontend Developer",
@@ -14914,8 +14685,7 @@ export const data = {
                 "https://photos.google.com/photo/AF1QipOSrma-fypcHtEVq67ajFBi-wpQrWfGqNqcW2by",
             links: {
                 website: "https://sainithin-bit.github.io/Sainitin/",
-                linkedin:
-                    "https://www.linkedin.com/in/sainithin-artham-735241164/",
+                linkedin: "https://www.linkedin.com/in/sainithin-artham-735241164/",
                 github: "https://github.com/Sainithin-bit",
             },
             jobTitle: "Full-Stack JavaScript Dev",
@@ -14982,8 +14752,7 @@ export const data = {
             img: "https://www.linkedin.com/in/rakibul-hassan-designer/",
             links: {
                 website: "http://rakibul.pythonanywhere.com/",
-                linkedin:
-                    "https://www.linkedin.com/in/rakibul-hassan-designer/",
+                linkedin: "https://www.linkedin.com/in/rakibul-hassan-designer/",
                 github: "https://github.com/tanvirakibul",
             },
             jobTitle: "Machine Learning Engineer",
@@ -15000,8 +14769,7 @@ export const data = {
                 "https://gitlab.com/uploads/-/system/user/avatar/6062175/avatar.png?width=400",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/alabi-muhydeen-o-46a9348a/",
+                linkedin: "https://www.linkedin.com/in/alabi-muhydeen-o-46a9348a/",
                 github: "https://github.com/muhydeen95",
             },
             jobTitle: "Jnr Frontend Developer",
@@ -15034,8 +14802,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/58746428?v=4",
             links: {
                 website: "https://thenoobcoderd.github.io/startup-of-the-year/",
-                linkedin:
-                    "https://www.linkedin.com/in/ismail-ramjean-9a063018a/",
+                linkedin: "https://www.linkedin.com/in/ismail-ramjean-9a063018a/",
                 github: "https://github.com/theNoobCoderd",
             },
             jobTitle: "FullStack Developer",
@@ -15054,8 +14821,7 @@ export const data = {
                 linkedin: "https://www.linkedin.com/in/pavan-t/",
                 github: "https://github.com/pavanskipo",
             },
-            jobTitle:
-                "Software Developer | Aspiring Data Scientist | ML Enthusiast",
+            jobTitle: "Software Developer | Aspiring Data Scientist | ML Enthusiast",
             location: {
                 city: "Chennai",
                 state: "Tamil Nadu",
@@ -15105,8 +14871,7 @@ export const data = {
                 linkedin: "https://www.linkedin.com/in/peterswkang/",
                 github: "https://github.com/pswk1",
             },
-            jobTitle:
-                "Software Engineer | Web Developer | Javascript Developer",
+            jobTitle: "Software Engineer | Web Developer | Javascript Developer",
             location: {
                 city: "Los Angeles",
                 state: "California",
@@ -15268,8 +15033,7 @@ export const data = {
                 "https://avatars1.githubusercontent.com/u/54947439?s=460&u=db1c8d20adbb31328a878cc95e6467135b9ad144&v=4",
             links: {
                 website: "https://rishikeshmishra.netlify.app/",
-                linkedin:
-                    "https://www.linkedin.com/in/rishikesh-mishra-b98a20156/",
+                linkedin: "https://www.linkedin.com/in/rishikesh-mishra-b98a20156/",
                 github: "https://github.com/Rishikesh-12",
             },
             jobTitle: "Frontend Developer",
@@ -15301,8 +15065,7 @@ export const data = {
                 "https://avatars3.githubusercontent.com/u/38507921?s=400&u=e9dad4aee381e105510cb01ff6957e8dd054f148&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/andre-derjagin-94b0271a6/",
+                linkedin: "https://www.linkedin.com/in/andre-derjagin-94b0271a6/",
                 github: "https://github.com/ExziiL",
             },
             jobTitle: "Junior Web Developer",
@@ -15351,10 +15114,8 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/abhishek-chaturvedi-6930a49b/",
-                github:
-                    "https://github.com/Abhishek9320/my-first-blog.github.io",
+                linkedin: "https://www.linkedin.com/in/abhishek-chaturvedi-6930a49b/",
+                github: "https://github.com/Abhishek9320/my-first-blog.github.io",
             },
             jobTitle: "Software Engineer",
             location: {
@@ -15376,7 +15137,7 @@ export const data = {
             location: {
                 city: "Boston",
                 state: "Massachusetts",
-                country: "United States",
+                country: "United States",
             },
         },
         {
@@ -15408,7 +15169,7 @@ export const data = {
             location: {
                 city: "Stamford",
                 state: "Connecticut",
-                country: "United States",
+                country: "United States",
             },
         },
         {
@@ -15417,8 +15178,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/39680633?v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/olayiwola-gbenga-852060134/",
+                linkedin: "https://www.linkedin.com/in/olayiwola-gbenga-852060134/",
                 github: "https://github.com/raphenium",
             },
             jobTitle: "Software Engineer",
@@ -15434,8 +15194,7 @@ export const data = {
             img: "https://avatars3.githubusercontent.com/u/14870157?v=4",
             links: {
                 website: "https://vikrantuk.github.io/",
-                linkedin:
-                    "https://www.linkedin.com/in/vikrant-karawande-a1229534/",
+                linkedin: "https://www.linkedin.com/in/vikrant-karawande-a1229534/",
                 github: "https://github.com/vikrantuk",
             },
             jobTitle: "Software Engineer",
@@ -15467,8 +15226,7 @@ export const data = {
             img: "https://github.com/peteruche21.png",
             links: {
                 website: "https://peteruche21.pythonanywhere.com",
-                linkedin:
-                    "https://www.linkedin.com/in/peter-anyaogu-a002a8192/",
+                linkedin: "https://www.linkedin.com/in/peter-anyaogu-a002a8192/",
                 github: "https://github.com/peteruche21",
             },
             jobTitle: "Software engineer || Back end developer",
@@ -15585,8 +15343,7 @@ export const data = {
                 "https://avatars1.githubusercontent.com/u/59444018?s=400&u=40c2ca897c4ced6f000428cbb6c56e3c35f4b5de&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/siddharth-singh-539a581a4/",
+                linkedin: "https://www.linkedin.com/in/siddharth-singh-539a581a4/",
                 github: "https://github.com/44t4nk1",
             },
             jobTitle: "Flutter Developer",
@@ -15684,8 +15441,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/21302475?v=4",
             links: {
                 website: "www.isaqlain.com",
-                linkedin:
-                    "https://www.linkedin.com/in/saqlain-shaikh-a71577170/",
+                linkedin: "https://www.linkedin.com/in/saqlain-shaikh-a71577170/",
                 github: "https://github.com/isaqlain",
             },
             jobTitle: "UI & UX DESIGNER",
@@ -15701,8 +15457,7 @@ export const data = {
             img: "https://avatars1.githubusercontent.com/u/47188223?v=4",
             links: {
                 website: "http://jaworski.website",
-                linkedin:
-                    "https://www.linkedin.com/in/aleksander-jaworski-3874471aa/",
+                linkedin: "https://www.linkedin.com/in/aleksander-jaworski-3874471aa/",
                 github: "https://github.com/JaworskiAleksander",
             },
             jobTitle: "Front-End Web Dev / Python + Django",
@@ -15735,8 +15490,7 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/21302475?v=4",
             links: {
                 website: "www.isaqlain.com",
-                linkedin:
-                    "https://www.linkedin.com/in/saqlain-shaikh-a71577170/",
+                linkedin: "https://www.linkedin.com/in/saqlain-shaikh-a71577170/",
                 github: "https://github.com/isaqlain",
             },
             jobTitle: "UI & UX DESIGNER",
@@ -15752,8 +15506,7 @@ export const data = {
             img: "https://avatars3.githubusercontent.com/u/35425722?v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/ashraf-hussain-0a13a9148/",
+                linkedin: "https://www.linkedin.com/in/ashraf-hussain-0a13a9148/",
                 github: "https://github.com/ashrafhussain17",
             },
             jobTitle: "Full Stack Software Developer",
@@ -15769,8 +15522,7 @@ export const data = {
             img: "https://avatars1.githubusercontent.com/u/63576478?v=4",
             links: {
                 website: "https://jayanthanala.github.io/cv/",
-                linkedin:
-                    "https://www.linkedin.com/in/jayanth-anala-53b1781b3/",
+                linkedin: "https://www.linkedin.com/in/jayanth-anala-53b1781b3/",
                 github: "https://github.com/jayanthanala",
             },
             jobTitle: "Backend Developer",
@@ -15835,8 +15587,7 @@ export const data = {
                 "https://avatars3.githubusercontent.com/u/60648209?s=460&u=41cd26225a006c91e19719aeee4b1e88559befda&v=4",
             links: {
                 website: "http://www.mjfuller.uk/",
-                linkedin:
-                    "https://www.linkedin.com/in/matthew-fuller-2101071a9/",
+                linkedin: "https://www.linkedin.com/in/matthew-fuller-2101071a9/",
                 github: "https://github.com/Wrecket",
             },
             jobTitle: "Front-end Developer",
@@ -15901,8 +15652,7 @@ export const data = {
             img: "https://avatars3.githubusercontent.com/u/30759580?v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/mohamed-mufassal-a5b439150/",
+                linkedin: "https://www.linkedin.com/in/mohamed-mufassal-a5b439150/",
                 github: "https://github.com/dpcoolmufa",
             },
             jobTitle: "Web Developer & Data Scientist",
@@ -15918,8 +15668,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/abdelkader-guendouz-490818187/",
+                linkedin: "https://www.linkedin.com/in/abdelkader-guendouz-490818187/",
                 github: "https://github.com/ican17",
             },
             jobTitle: "Software Engineer | Full-Stack Web Developer",
@@ -15984,8 +15733,7 @@ export const data = {
             img: "https://avatars0.githubusercontent.com/u/45850487?v=4",
             links: {
                 website: "https://oussamabouchikhi.github.io/",
-                linkedin:
-                    "https://www.linkedin.com/in/oussama-bouchikhi-49a0b6193/",
+                linkedin: "https://www.linkedin.com/in/oussama-bouchikhi-49a0b6193/",
                 github: "https://github.com/oussamabouchikhi",
             },
             jobTitle: "Full-Stack Web Developer",
@@ -16129,8 +15877,7 @@ export const data = {
             img: "https://github.com/krishan93985.png",
             links: {
                 website: "https://krishan93985.github.io/myportfolio",
-                linkedin:
-                    "https://www.linkedin.com/in/krishan-gopal-1a05a7175/",
+                linkedin: "https://www.linkedin.com/in/krishan-gopal-1a05a7175/",
                 github: "https://github.com/krishan93985",
             },
             jobTitle: "Full Stack Web Developer, Competitive Programmer",
@@ -16179,8 +15926,7 @@ export const data = {
             img: "https://avatars3.githubusercontent.com/u/44367769?v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/emmanuel-ezenwigbo-194299195/",
+                linkedin: "https://www.linkedin.com/in/emmanuel-ezenwigbo-194299195/",
                 github: "https://github.com/SkyC0der",
             },
             jobTitle: "Front-End Developer",
@@ -16289,12 +16035,10 @@ export const data = {
         {
             id: uuidv4(),
             name: "Malik Mukhtar",
-            img:
-                "https://drive.google.com/open?id=1skkGEeXSIU0JWcmN0S7Lp5rHRaPPp8WA",
+            img: "https://drive.google.com/open?id=1skkGEeXSIU0JWcmN0S7Lp5rHRaPPp8WA",
             links: {
                 website: "https://malikmukhtar.com",
-                linkedin:
-                    "https://www.linkedin.com/in/malik-mukhtar-danjuma-449720a6/",
+                linkedin: "https://www.linkedin.com/in/malik-mukhtar-danjuma-449720a6/",
                 github: "https://github.com/malikmukhtar",
             },
             jobTitle: "Front-End Developer",
@@ -16343,8 +16087,7 @@ export const data = {
             img: "",
             links: {
                 website: "https://robert-torres-c920b1.netlify.app/",
-                linkedin:
-                    "https://www.linkedin.com/in/robert-torres-495921141/",
+                linkedin: "https://www.linkedin.com/in/robert-torres-495921141/",
                 github: "https://github.com/rtorres61595",
             },
             jobTitle: "Full Stack Web Developer",
@@ -16379,8 +16122,7 @@ export const data = {
                 "https://avatars3.githubusercontent.com/u/65813366?s=400&u=4752dadd33efe830a095a2306ef5f4e797315bda&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/mohammad-solgi-a68841111/",
+                linkedin: "https://www.linkedin.com/in/mohammad-solgi-a68841111/",
                 github: "https://github.com/SolgiDeveloper",
             },
             jobTitle:
@@ -16445,8 +16187,7 @@ export const data = {
             img: "https://avatars1.githubusercontent.com/u/25585850?v=4",
             links: {
                 website: "https://ridwanabiola.netlify.app/",
-                linkedin:
-                    "https://www.linkedin.com/in/ridwan-abiola-06002b114/",
+                linkedin: "https://www.linkedin.com/in/ridwan-abiola-06002b114/",
                 github: "https://github.com/abu-hasib",
             },
             jobTitle: "Full Stack Developer",
@@ -16479,8 +16220,7 @@ export const data = {
             img: "https://avatars3.githubusercontent.com/u/46571439?v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/hamza-kyamanywa-98010913a/",
+                linkedin: "https://www.linkedin.com/in/hamza-kyamanywa-98010913a/",
                 github: "https://github.com/hsanshine",
             },
             jobTitle: "Full Stack Developer",
@@ -16513,8 +16253,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/shubham-dandekar-a959b41b0/",
+                linkedin: "https://www.linkedin.com/in/shubham-dandekar-a959b41b0/",
                 github: "https://github.com/shubham-sd",
             },
             jobTitle: "Web Developer | Software Engineer",
@@ -16564,8 +16303,7 @@ export const data = {
             img: "https://avatars1.githubusercontent.com/u/63955272?v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/chukwudozie-emeka-50635515a/",
+                linkedin: "https://www.linkedin.com/in/chukwudozie-emeka-50635515a/",
                 github: "https://github.com/chukwudozie",
             },
             jobTitle: "Web Developer| Front-End Developer",
@@ -16597,8 +16335,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/vipul-chaurasia-5a950a161/",
+                linkedin: "https://www.linkedin.com/in/vipul-chaurasia-5a950a161/",
                 github: "https://github.com/vipul1298",
             },
             jobTitle: "Software Developer",
@@ -16631,11 +16368,9 @@ export const data = {
             img: "https://avatars2.githubusercontent.com/u/17814710?v=4",
             links: {
                 website: "https://damjankarlovski.github.io/CarlODE/",
-                linkedin:
-                    "https://www.linkedin.com/in/damjan-karlovski-a3844a159/",
+                linkedin: "https://www.linkedin.com/in/damjan-karlovski-a3844a159/",
                 github: "https://github.com/DamjanKarlovski",
             },
-
             jobTitle: "Front-End Web Developer",
             location: {
                 city: "Skopje",
@@ -16730,8 +16465,7 @@ export const data = {
             img: "https://avatars0.githubusercontent.com/u/23253492?v=4",
             links: {
                 website: "https://unlikelyusual.github.io/portfolio/index",
-                linkedin:
-                    "https://www.linkedin.com/in/prabhat-kumar-b3283012b/",
+                linkedin: "https://www.linkedin.com/in/prabhat-kumar-b3283012b/",
                 github: "https://github.com/unlikelyUsual",
             },
             jobTitle: "Full Stack Developer",
@@ -16748,8 +16482,7 @@ export const data = {
                 "https://avatars0.githubusercontent.com/u/42907572?s=460&u=3c5c03fdddeec2483819b845bd549616d48b71e5&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/ashutosh-dwivedi-b3025b196/",
+                linkedin: "https://www.linkedin.com/in/ashutosh-dwivedi-b3025b196/",
                 github: "https://github.com/Ashutosh00710",
             },
             jobTitle: "Full Stack Developer",
@@ -16877,8 +16610,7 @@ export const data = {
             img: "https://avatars1.githubusercontent.com/u/65468674?v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/giuliano-gabella-821b0a5a/",
+                linkedin: "https://www.linkedin.com/in/giuliano-gabella-821b0a5a/",
                 github: "https://github.com/ggabella91",
             },
             jobTitle: "Full Stack Developer",
@@ -16946,8 +16678,7 @@ export const data = {
             links: {
                 website: "VoodooScience1.github.io",
                 linkedin: "https://www.linkedin.com/in/philipdavidcook/",
-                github:
-                    "https://github.com/VoodooScience1/VoodooScience1.github.io",
+                github: "https://github.com/VoodooScience1/VoodooScience1.github.io",
             },
             jobTitle: "Commercial Engineer, Aerospace",
             location: {
@@ -17043,8 +16774,7 @@ export const data = {
             img: "",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/christopher-fonseca-822434b9/",
+                linkedin: "https://www.linkedin.com/in/christopher-fonseca-822434b9/",
                 github: "https://github.com/cfonseca2013",
             },
             jobTitle: "Web Developer",
@@ -17061,8 +16791,7 @@ export const data = {
                 "https://avatars0.githubusercontent.com/u/55712332?s=460&u=20590195d2cd25620795e5bf3f41e0e8f88fe977&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/muhammad-rohadi-3b5844142/",
+                linkedin: "https://www.linkedin.com/in/muhammad-rohadi-3b5844142/",
                 github: "https://github.com/mrohadi",
             },
             jobTitle: "Full-Stack Developer",
@@ -17124,8 +16853,7 @@ export const data = {
             img: "https://avatars1.githubusercontent.com/u/71331993?s=460&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/roberto-croesy-a8140590/",
+                linkedin: "https://www.linkedin.com/in/roberto-croesy-a8140590/",
                 github: "https://github.com/RobertoCroesy",
             },
             jobTitle: "Junior Front End Developer I",
@@ -17201,7 +16929,6 @@ export const data = {
                 country: "Morocco",
             },
         },
-
         {
             id: uuidv4(),
             name: "Jared Matta",
@@ -17321,8 +17048,7 @@ export const data = {
             img: "https://avatars1.githubusercontent.com/u/52582725?v=4",
             links: {
                 website: "http://mico52000.pythonanywhere.com/index.html",
-                linkedin:
-                    "https://www.linkedin.com/in/michael-zakhary-25ab101b2/",
+                linkedin: "https://www.linkedin.com/in/michael-zakhary-25ab101b2/",
                 github: "https://github.com/Mico52000",
             },
             jobTitle: "Full-Stack Web Developer and Python Developer",
@@ -17403,8 +17129,7 @@ export const data = {
             img: "https://avatars3.githubusercontent.com/u/10178031?v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/prakhar-tiwari-42521853/",
+                linkedin: "https://www.linkedin.com/in/prakhar-tiwari-42521853/",
                 github: "https://github.com/prak281993",
             },
             jobTitle:
@@ -17420,10 +17145,8 @@ export const data = {
             name: "Chieh (Stephanie) Wang",
             img: "https://avatars3.githubusercontent.com/u/31616284?v=4",
             links: {
-                website:
-                    "https://stephanieportfolio-39f22.firebaseapp.com/#home",
-                linkedin:
-                    "https://www.linkedin.com/in/chieh-stephanie-wang-aa2732151",
+                website: "https://stephanieportfolio-39f22.firebaseapp.com/#home",
+                linkedin: "https://www.linkedin.com/in/chieh-stephanie-wang-aa2732151",
                 github: "https://github.com/Stephanie1226",
             },
             jobTitle: "Sofeware/Full Stack/Web Developer",
@@ -17433,7 +17156,6 @@ export const data = {
                 country: "Canada",
             },
         },
-
         {
             id: uuidv4(),
             name: "Alexander Triece",
@@ -17450,7 +17172,6 @@ export const data = {
                 country: "USA",
             },
         },
-
         {
             id: uuidv4(),
             name: "Gabi Brouze",
@@ -17539,8 +17260,7 @@ export const data = {
                 "https://avatars0.githubusercontent.com/u/67708581?s=400&u=a76517830e4d15c59bc0b1f2a8ce9be41858a011&v=4",
             links: {
                 website: "",
-                linkedin:
-                    "https://www.linkedin.com/in/aditya-tarale-8234261b2/",
+                linkedin: "https://www.linkedin.com/in/aditya-tarale-8234261b2/",
                 github: "https://github.com/AdityaTarale",
             },
             jobTitle: "Front-end developer",
@@ -17776,5 +17496,313 @@ export const data = {
                 country: "India",
             },
         },
+        {
+            id: uuidv4(),
+            name: "Gail Valerie Padel",
+            img: "https://avatars2.githubusercontent.com/u/17189918?v=4",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/valerie-padel-5a35a4158/",
+                github: "https://github.com/valeriepadel",
+            },
+            jobTitle: "Front-End Web Developer",
+            location: {
+                city: "Pasay",
+                state: "NCR",
+                country: "Philippines",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Saurabh Kumar Agarwal",
+            img: "",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/saurabh619/",
+                github: "https://github.com/saurabh618",
+            },
+            jobTitle: "Python Developer",
+            location: {
+                city: "Hyderabad",
+                state: "Telangana",
+                country: "India",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Danish Shaikh",
+            img: "https://avatars3.githubusercontent.com/u/22702540?v=4",
+            links: {
+                website: "https://danishsshaikh.github.io/",
+                linkedin: "https://www.linkedin.com/in/danishsshaikh/",
+                github: "https://github.com/danishsshaikh",
+            },
+            jobTitle: "Unity Developer, App Developer",
+            location: {
+                city: "Mumbai",
+                state: "Maharashtra",
+                country: "India",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "George Trakas",
+            img:
+                "https://avatars1.githubusercontent.com/u/29389969?s=460&u=521c5e7bff94259d495a807536942703609846b5&v=4",
+            links: {
+                website: "https://gtrakas1.github.io/george_trakas/",
+                linkedin: "https://www.linkedin.com/in/george-trakas-0b665516a/",
+                github: "https://www.github.com/Gtrakas1",
+            },
+            jobTitle: "Web Developer",
+            location: {
+                city: "Toronto",
+                state: "Ontario",
+                country: "Canada",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Pei-Lun Hsu",
+            img: "https://avatars0.githubusercontent.com/u/54821322?v=4",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/pei-lun-hsu-b53492178/",
+                github: "https://github.com/plhsu19",
+            },
+            jobTitle: "Computer Science Master Student",
+            location: {
+                city: "Berlin",
+                state: "",
+                country: "Germany",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Jayesh Ghosh",
+            img: "",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/jayeshghosh/",
+                github: "https://github.com/JayeshGhosh",
+            },
+            jobTitle: "Undergrad Student",
+            location: {
+                city: "Mumbai",
+                state: "Maharashtra",
+                country: "India",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Swaroop Sambhayya",
+            img: "https://avatars1.githubusercontent.com/u/31922733?v=4",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/swaroop-sambhayya-72757a136/",
+                github: "https://github.com/SwaroopSambhayya",
+            },
+            jobTitle: "Full Stack Mobile/Web Developer",
+            location: {
+                city: "Bangalore",
+                state: "Karnataka",
+                country: "India",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Hasty Azad",
+            img: "https://avatars3.githubusercontent.com/u/70016209?v=4",
+            links: {
+                website: "",
+                linkedin: "",
+                github: "https://github.com/HastyAzad",
+            },
+            jobTitle: "Undergrad Student",
+            location: {
+                city: "Sulaimany",
+                state: "Kurdistan",
+                country: "Iraq",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Diego A Cruz",
+            img: "https://avatars0.githubusercontent.com/u/7905143?s=60&v=4",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/abejacruz/",
+                github: "https://github.com/AbejaCruz",
+            },
+            jobTitle: "AR/VR Developer",
+            location: {
+                city: "Bogotá",
+                state: "Suba",
+                country: "Colombia",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Sara-Maria Schitelea",
+            img: "https://avatars1.githubusercontent.com/u/43610407?v=4",
+            links: {
+                website: "https://saramariasc.github.io/",
+                linkedin: "https://www.linkedin.com/in/sara-maria-s-4091251b3/",
+                github: "https://github.com/SaraMariaSc",
+            },
+            jobTitle: "Junior Front End Web Developer",
+            location: {
+                city: "London",
+                state: "",
+                country: "United Kingdom",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Ayushi",
+            img: "https://avatars2.githubusercontent.com/u/51434799?v=4",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/ayushi-singh-98a9151ab/",
+                github: "https://github.com/ayushi2410",
+            },
+            jobTitle: "Web Developer",
+            location: {
+                city: "",
+                state: "Jharkhand",
+                country: "India",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Prify Philip",
+            img: "https://avatars0.githubusercontent.com/u/32680794?v=4",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/prify-philip-343b53150/",
+                github: "https://github.com/Amchuz",
+            },
+            jobTitle:
+                "Computer Engineering Graduate 2020 | Machine Learning Engineer | Python Developer",
+            location: {
+                city: "Changanassery",
+                state: "Kerala",
+                country: "India",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Jude Savio",
+            img: "https://avatars0.githubusercontent.com/u/60323225?v=4",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/jude-savio97/",
+                github: "https://github.com/JudeSavio/",
+            },
+            jobTitle: "Software Developer",
+            location: {
+                city: "Chennai",
+                state: "Tamil Nadu",
+                country: "India",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Sandeep Nanjundaswamy",
+            img: "https://avatars3.githubusercontent.com/u/7396845?v=4",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/sandeep-nanjundaswamy/",
+                github: "https://github.com/sandeepn623",
+            },
+            jobTitle: "Senior Backend Java developer",
+            location: {
+                city: "Osnabrück",
+                state: "Niedersachsen",
+                country: "Germany",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Shivam Sharma",
+            img: "https://avatars1.githubusercontent.com/u/32218762?v=4",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/shivams136/",
+                github: "https://github.com/ShivamS136",
+            },
+            jobTitle: "Full Stack Web Developer",
+            location: {
+                city: "Noida",
+                state: "Uttar Pradesh",
+                country: "India",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Thiago Viana",
+            img: "https://avatars0.githubusercontent.com/u/9078587?v=4",
+            links: {
+                website: "https://tvc95.github.io/",
+                linkedin: "https://www.linkedin.com/in/thiagovcarvalho/",
+                github: "https://github.com/tvc95/",
+            },
+            jobTitle: "Front-End Web Developer | Game Developer",
+            location: {
+                city: "João Pessoa",
+                state: "Paraíba",
+                country: "Brazil",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Krittiya Clark",
+            img: "https://avatars1.githubusercontent.com/u/3038228?v=4",
+            links: {
+                website: "https://kritttiya-clark.netlify.app",
+                linkedin: "https://www.linkedin.com/in/krittiya-clark-front-end",
+                github: "https://github.com/krittiyaclark",
+            },
+            jobTitle: "Front-End Web Developer",
+            location: {
+                city: "Colchester",
+                state: "Vermont",
+                country: "USA",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Juan García-Albea",
+            img:
+                "https://avatars2.githubusercontent.com/u/4815841?s=460&u=f9bf41fb4fe394662ec3586cdb2f684ac31e6905&v=4",
+            links: {
+                website: "https://juangalbea.netlify.app/",
+                linkedin: "https://www.linkedin.com/in/juangarcia-albea/",
+                github: "https://github.com/juangalbea",
+            },
+            jobTitle: "Full Stack Developer",
+            location: {
+                city: "London",
+                state: "UK",
+                country: "(Willing to relocate!)",
+            },
+        },
+        {
+            id: uuidv4(),
+            name: "Ogedengbe Tosin Samuel",
+            img:
+                "https://avatars3.githubusercontent.com/u/68618796?s=460&u=4db031f886ad245249355de4ba21f26c3671c0d1&v=4",
+            links: {
+                website: "https://keen-payne-6bb943.netlify.app/",
+                github: "https://github.com/Samuellyworld",
+                linkedin: "https://www.linkedin.com/in/samuel-tosin-3b20991b4/"
+            },
+            jobTitle: "Front-End developer, Software-Engineer",
+            location: {
+                city: "Ikeja",
+                state: "Lagos",
+                country: "Nigeria",
+            },
+        },
     ],
-};
+}
