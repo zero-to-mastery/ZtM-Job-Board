@@ -17158,7 +17158,6 @@ export const data = {
         country: "Canada",
       },
     },
-
     {
       id: uuidv4(),
       name: "Alexander Triece",
@@ -17709,6 +17708,22 @@ export const data = {
         city: "Chennai",
         state: "Tamil Nadu",
         country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Sandeep Nanjundaswamy",
+      img: "https://avatars3.githubusercontent.com/u/7396845?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/sandeep-nanjundaswamy/",
+        github: "https://github.com/sandeepn623",
+      },
+      jobTitle: "Senior Backend Java developer",
+      location: {
+        city: "Osnabrück",
+        state: "Niedersachsen",
+        country: "Germany",
       },
     },
   ],
