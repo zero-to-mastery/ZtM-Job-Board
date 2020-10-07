@@ -16371,7 +16371,6 @@ export const data = {
         linkedin: "https://www.linkedin.com/in/damjan-karlovski-a3844a159/",
         github: "https://github.com/DamjanKarlovski",
       },
-
       jobTitle: "Front-End Web Developer",
       location: {
         city: "Skopje",
@@ -17737,6 +17736,22 @@ export const data = {
         city: "Noida",
         state: "Uttar Pradesh",
         country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Thiago Viana",
+      img: "https://avatars0.githubusercontent.com/u/9078587?v=4",
+      links: {
+        website: "https://tvc95.github.io/",
+        linkedin: "https://www.linkedin.com/in/thiagovcarvalho/",
+        github: "https://github.com/tvc95/",
+      },
+      jobTitle: "Front-End Web Developer | Game Developer",
+      location: {
+        city: "João Pessoa",
+        state: "Paraíba",
+        country: "Brazil",
       },
     },
   ],
