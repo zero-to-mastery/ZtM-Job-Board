@@ -17756,6 +17756,22 @@ export const data = {
         },
         {
             id: uuidv4(),
+            name: "Krittiya Clark",
+            img: "https://avatars1.githubusercontent.com/u/3038228?v=4",
+            links: {
+                website: "https://kritttiya-clark.netlify.app",
+                linkedin: "https://www.linkedin.com/in/krittiya-clark-front-end",
+                github: "https://github.com/krittiyaclark",
+            },
+            jobTitle: "Front-End Web Developer",
+            location: {
+                city: "Colchester",
+                state: "Vermont",
+                country: "USA",
+            },
+        },
+        {
+            id: uuidv4(),
             name: "Juan García-Albea",
             img:
                 "https://avatars2.githubusercontent.com/u/4815841?s=460&u=f9bf41fb4fe394662ec3586cdb2f684ac31e6905&v=4",
