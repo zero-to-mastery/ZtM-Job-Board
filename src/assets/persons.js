@@ -17891,7 +17891,7 @@ export const data = {
                 country: "Iraq",
             }
         },
-      {
+        {
             id: uuidv4(),
             name: "Diego A Cruz",
             img: "https://avatars0.githubusercontent.com/u/7905143?s=60&v=4",
@@ -17923,7 +17923,7 @@ export const data = {
                 country: "United Kingdom",
             }
         },
-           {
+        {
             id: uuidv4(),
             name: "Ayushi",
             img: "https://avatars2.githubusercontent.com/u/51434799?v=4",
@@ -17939,5 +17939,20 @@ export const data = {
                 country: "India",
             }
         },
+        {
+            id: uuidv4(),
+            name: "Jeel Patel",
+            img: "https://avatars1.githubusercontent.com/u/61663153?v=4",
+            links: {
+                website: "http://jeelpatel.ml",
+                linkedin: "https://www.linkedin.com/in/jeelpatel17/",
+                github: "https://github.com/jeelpatel17",
+            },
+            jobTitle: "Frontend Developer/Designer",
+            location: {
+                city: "Anand",
+                state: "Gujarat",
+                country: "India",
+            }
     ],
 };
