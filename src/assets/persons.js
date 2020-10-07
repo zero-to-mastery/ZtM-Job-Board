@@ -17786,6 +17786,23 @@ export const data = {
                 state: "UK",
                 country: "(Willing to relocate!)",
             },
-        }
+        },
+        {
+            id: uuidv4(),
+            name: "Ogedengbe Tosin Samuel",
+            img:
+                "https://avatars3.githubusercontent.com/u/68618796?s=460&u=4db031f886ad245249355de4ba21f26c3671c0d1&v=4",
+            links: {
+                website: "https://keen-payne-6bb943.netlify.app/",
+                github: "https://github.com/Samuellyworld",
+                linkedin: "https://www.linkedin.com/in/samuel-tosin-3b20991b4/"
+            },
+            jobTitle: "Front-End developer, Software-Engineer",
+            location: {
+                city: "Ikeja",
+                state: "Lagos",
+                country: "Nigeria",
+            },
+        },
     ],
 }
