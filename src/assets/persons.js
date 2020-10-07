@@ -38,6 +38,22 @@ export const data = {
         },
         {
             id: uuidv4(),
+            name: "Hassan Raza",
+            img: "",
+            links: {
+            website: "",
+            linkedin: "https://www.linkedin.com/in/hassan-raza-265665160/]",
+            github: "https://github.com/rza8301]"
+            },
+            jobTitle: "Full Stack Developer",
+            location: {
+            city: "Chicago",
+            state: "Illinois",
+            country: "United States Of America"
+        },
+    },
+        {
+            id: uuidv4(),
             name: "Mani",
             img: "https://avatars0.githubusercontent.com/u/8047068?s=460&v=4",
             links: {
