@@ -17939,5 +17939,21 @@ export const data = {
                 country: "India",
             }
         },
+           {
+            id: uuidv4(),
+            name: "Prify Philip",
+            img: "https://avatars0.githubusercontent.com/u/32680794?v=4",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/prify-philip-343b53150/",
+                github: "https://github.com/Amchuz",
+            },
+            jobTitle: "Computer Engineering Graduate 2020 | Machine Learning Engineer | Python Developer",
+            location: {
+                city: "Changanassery",
+                state: "Kerala",
+                country: "India",
+            }
+        },
     ],
 };
