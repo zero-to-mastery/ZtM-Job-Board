@@ -17804,5 +17804,21 @@ export const data = {
                 country: "Nigeria",
             },
         },
+        {
+            id: uuidv4(),
+            name: "Juan Tellez",
+            img: "https://avatars2.githubusercontent.com/u/11323495?v=4",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/juan-tellez/",
+                github: "https://github.com/jmtellez",
+            },
+            jobTitle: "Software Developer",
+            location: {
+                city: "Dallas",
+                state: "Texas",
+                country: "United States",
+            },
+        },
     ],
 }
