@@ -17820,5 +17820,21 @@ export const data = {
                 country: "United States",
             },
         },
+        {
+            id: uuidv4(),
+            name: "Jeel Patel",
+            img: "https://avatars1.githubusercontent.com/u/61663153?v=4",
+            links: {
+                website: "http://jeelpatel.ml",
+                linkedin: "https://www.linkedin.com/in/jeelpatel17/",
+                github: "https://github.com/jeelpatel17",
+            },
+            jobTitle: "Frontend Developer/Designer",
+            location: {
+                city: "Anand",
+                state: "Gujarat",
+                country: "India",
+            },
+        },
     ],
 }
