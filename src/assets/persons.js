@@ -17820,5 +17820,21 @@ export const data = {
                 country: "United States",
             },
         },
+        {
+            id: uuidv4(),
+            name: "Cecilia Nucaza-Sy",
+            img: "https://avatars2.githubusercontent.com/u/44569794?v=4",
+            links: {
+              website: "https://cessycode.github.io/Portfolio-CeciliaSy/",
+              linkedin: "https://www.linkedin.com/in/cecilia-nucaza-sy/",
+              github: "https://github.com/cessycode"
+            },
+            jobTitle: "Full Stack Web Developer",
+            location: {
+              city: "Noord",
+              state: "",
+              country: "ARUBA"
+            }
+        },
     ],
 }
