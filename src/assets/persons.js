@@ -17820,5 +17820,21 @@ export const data = {
                 country: "United States",
             },
         },
+        {
+            id: uuidv4(),
+            name: "Akshay GS",
+            img: "https://avatars0.githubusercontent.com/u/65306128?v=4",
+            links: {
+            website: "",
+            linkedin: "https://www.linkedin.com/in/akshay-gs-a42250196/",
+            github: "https://github.com/gsakshay",
+            },
+            jobTitle: "FrontEnd Engineer",
+            location: {
+            city: "Bengaluru",
+            state: "Karnataka",
+            country: "India",
+          },
+      },
     ],
 }
