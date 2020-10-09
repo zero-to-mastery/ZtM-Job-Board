@@ -17836,5 +17836,21 @@ export const data = {
                 country: "India",
             },
         },
+		{
+		    id: uuidv4(),
+		    name: "Pasindu P Konghawaththa",
+		    img: "https://i.imgur.com/UoHp3wM.jpg",
+		    links: {
+		      website: "",
+		      linkedin: "https://www.linkedin.com/in/pasindu-p-konghawaththa-3808861a0/",
+		      github: "https://github.com/MasterBrian99"
+		    },
+		    jobTitle: "Web-Developer",
+		    location: {
+		      city: "Colombo",
+		      state: "",
+		      country: "Sri Lanka"
+		    },
+		},
     ],
 }
