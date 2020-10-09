@@ -17822,6 +17822,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Ikhuohon Eboreime Rhoda",
+      img: "https://avatars3.githubusercontent.com/u/65018340?v=4",
+      links: {
+        website: "https://eboreimerhoda.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/eboreime-rhoda-91202a197/",
+        github: "https://github.com/ivioje",
+      },
+      jobTitle: "Frontend Developer",
+      location: {
+        city: "Abuja",
+        state: "Federal Capital Territory",
+        country: "Nigeria",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Jeel Patel",
       img: "https://avatars1.githubusercontent.com/u/61663153?v=4",
       links: {
