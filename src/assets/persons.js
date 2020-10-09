@@ -26484,5 +26484,21 @@ export const data = {
         country: "India",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Mohd. Khizar Hashmi",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/khizarhashmi119/",
+        github: "https://github.com/khizarhashmi119",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "New Delhi",
+        state: "Delhi",
+        country: "India",
+      },
+    },
   ],
 }
