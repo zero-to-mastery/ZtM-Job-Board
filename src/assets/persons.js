@@ -17836,5 +17836,21 @@ export const data = {
                 country: "India",
             },
         },
+        {
+            id: uuidv4(),
+            name: "Benjamin Liu",
+            img: "https://avatars1.githubusercontent.com/u/56779944?v=4",
+            links: {
+                website: "",
+                linkedin: "https://www.linkedin.com/in/benjamin-liu-a77aa8164/",
+                github: "https://github.com/lenjaminbiu",
+            },
+            jobTitle: "Web Developer",
+            location: {
+                city: "Gold Coast",
+                state: "Queensland",
+                country: "Australia",
+            },
+        },
     ],
 }
