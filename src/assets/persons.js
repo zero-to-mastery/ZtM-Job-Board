@@ -26500,5 +26500,21 @@ export const data = {
         country: "India",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Prachi Patel",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/prachi-patel-382490196/",
+        github: "https://github.com/prachipatel01/",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Himatnagar",
+        state: "Gujarat",
+        country: "India",
+      },
+    },
   ],
 }
