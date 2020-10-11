@@ -26549,5 +26549,21 @@ export const data = {
         country: "India",
       },
     },
+      {
+    id: uuidv4(),
+    name: "Madhuri Dhangar",
+    img: "https://avatars0.githubusercontent.com/u/63837276?v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/dhangar-madhuri",
+      github: "https://github.com/madhuridhangar",
+    },
+    jobTitle: "Student",
+    location: {
+      city: "Raipur",
+      state: "Chhattisgarh",
+      country: "India",
+    }
+  }
   ],
 }
