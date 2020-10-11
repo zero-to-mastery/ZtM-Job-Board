@@ -26516,5 +26516,22 @@ export const data = {
         country: "India",
       },
     },
+     {
+      id: uuidv4(),
+      name: "ARUN KUMAR G",
+      img:
+        "https://avatars1.githubusercontent.com/u/58899747?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/arun-kumar-g-993400115/",
+        github: "https://github.com/GudlaArunKumar",
+      },
+      jobTitle: "Python Developer/ Junior Machine Learning Engineer",
+      location: {
+        city: "Chennai",
+        state: "Tamil Nadu",
+        country: "India",
+      },
+    },
   ],
 }
