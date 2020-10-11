@@ -26516,7 +26516,23 @@ export const data = {
         country: "India",
       },
     },
-     {
+    {
+      id: uuidv4(),
+      name: "Meer Estiyak",
+      img: "https://avatars3.githubusercontent.com/u/50128043?v=4",
+      links: {
+        website: "https://mmestiyak.github.io",
+        linkedin: "https://www.linkedin.com/in/mmestiyak",
+        github: "https://github.com/mmestiyak"
+      },
+      jobTitle: "Self-Taught Front End Engineer",
+      location: {
+        city: "Bogura",
+        state: "Rajshahi",
+        country: "Bangladesh"
+      }
+    },
+    {
       id: uuidv4(),
       name: "ARUN KUMAR G",
       img:
