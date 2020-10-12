@@ -26523,20 +26523,19 @@ export const data = {
       links: {
         website: "https://mmestiyak.github.io",
         linkedin: "https://www.linkedin.com/in/mmestiyak",
-        github: "https://github.com/mmestiyak"
+        github: "https://github.com/mmestiyak",
       },
       jobTitle: "Self-Taught Front End Engineer",
       location: {
         city: "Bogura",
         state: "Rajshahi",
-        country: "Bangladesh"
-      }
+        country: "Bangladesh",
+      },
     },
     {
       id: uuidv4(),
       name: "ARUN KUMAR G",
-      img:
-        "https://avatars1.githubusercontent.com/u/58899747?v=4",
+      img: "https://avatars1.githubusercontent.com/u/58899747?v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/arun-kumar-g-993400115/",
@@ -26547,6 +26546,22 @@ export const data = {
         city: "Chennai",
         state: "Tamil Nadu",
         country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Brent Beers",
+      img: "https://avatars2.githubusercontent.com/u/29563723?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/brent-beers-2394371b8/",
+        github: "https://github.com/chironjon",
+      },
+      jobTitle: "Full Stack ReactJS Web Developer",
+      location: {
+        city: "Chicago",
+        state: "Illinois",
+        country: "United States",
       },
     },
   ],
