@@ -26551,6 +26551,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Matus Cirip",
+      img:"",
+      links: {
+        website: "https://www.mmdev.sk/",
+        linkedin: "https://www.linkedin.com/in/matus-cirip-b934a812b/",
+        github: "https://github.com/MatusCirip",
+      },
+      jobTitle: "Frontend developer",
+      location: {
+        city: "Bratislava",
+        state: "",
+        country: "Slovakia",
+      }
+    },
+    {
+      id: uuidv4(),
       name: "Kevin Dormer",
       img: "https://avatars3.githubusercontent.com/u/62572140?v=4",
       links: {
