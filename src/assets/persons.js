@@ -26530,7 +26530,23 @@ export const data = {
         city: "Bogura",
         state: "Rajshahi",
         country: "Bangladesh"
-      }
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Evgeny Pletnev",
+      img: "https://avatars0.githubusercontent.com/u/57327617?v=4",
+      links: {
+        website: "",
+        linkedin: "https://uk.linkedin.com/in/evgeny-pletnev-b94a2756",
+        github: "https://github.com/epletnev"
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "London",
+        state: "",
+        country: "UK"
+      },
     },
     {
       id: uuidv4(),
