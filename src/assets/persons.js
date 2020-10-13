@@ -26523,13 +26523,13 @@ export const data = {
       links: {
         website: "https://mmestiyak.github.io",
         linkedin: "https://www.linkedin.com/in/mmestiyak",
-        github: "https://github.com/mmestiyak"
+        github: "https://github.com/mmestiyak",
       },
       jobTitle: "Self-Taught Front End Engineer",
       location: {
         city: "Bogura",
         state: "Rajshahi",
-        country: "Bangladesh"
+        country: "Bangladesh",
       },
     },
     {
@@ -26539,20 +26539,19 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://uk.linkedin.com/in/evgeny-pletnev-b94a2756",
-        github: "https://github.com/epletnev"
+        github: "https://github.com/epletnev",
       },
       jobTitle: "Web Developer",
       location: {
         city: "London",
         state: "",
-        country: "UK"
+        country: "UK",
       },
     },
     {
       id: uuidv4(),
       name: "ARUN KUMAR G",
-      img:
-        "https://avatars1.githubusercontent.com/u/58899747?v=4",
+      img: "https://avatars1.githubusercontent.com/u/58899747?v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/arun-kumar-g-993400115/",
@@ -26568,7 +26567,7 @@ export const data = {
     {
       id: uuidv4(),
       name: "Matus Cirip",
-      img:"",
+      img: "",
       links: {
         website: "https://www.mmdev.sk/",
         linkedin: "https://www.linkedin.com/in/matus-cirip-b934a812b/",
@@ -26579,7 +26578,7 @@ export const data = {
         city: "Bratislava",
         state: "",
         country: "Slovakia",
-      }
+      },
     },
     {
       id: uuidv4(),
@@ -26595,6 +26594,22 @@ export const data = {
         city: "Austin",
         state: "Texas",
         country: "United States",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Ruben Plaza",
+      img: "https://i.imgur.com/M3MOlLE.jpg",
+      links: {
+        website: "https://rubenplazaportfolio.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/rubendplaza/",
+        github: "https://github.com/rubendplaza",
+      },
+      jobTitle: "Web Developer | Computer Engineering Student",
+      location: {
+        city: "Toronto",
+        state: "Ontario",
+        country: "Canada",
       },
     },
   ],
