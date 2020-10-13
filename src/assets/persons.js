@@ -26549,5 +26549,21 @@ export const data = {
         country: "India",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Kevin Dormer",
+      img: "https://avatars3.githubusercontent.com/u/62572140?v=4",
+      links: {
+        website: "https://www.krdormer.com/",
+        linkedin: "https://www.linkedin.com/in/kevin-dormer-637310195/",
+        github: "https://github.com/krdormer",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Austin",
+        state: "Texas",
+        country: "United States",
+      },
+    },
   ],
 }
