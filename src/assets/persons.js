@@ -15204,22 +15204,6 @@ export const data = {
     },
     {
       id: uuidv4(),
-      name: "Akshay pratap singh",
-      img: "https://github.com/akshaysingh02.png",
-      links: {
-        website: "",
-        linkedin: "https://www.linkedin.com/in/akshaysingh02/",
-        github: "https://github.com/akshaysingh02",
-      },
-      jobTitle: "Software engineer || Full stack developer",
-      location: {
-        city: "Gwalior",
-        state: "M.P",
-        country: "India",
-      },
-    },
-    {
-      id: uuidv4(),
       name: "Anyaogu Peter",
       img: "https://github.com/peteruche21.png",
       links: {
