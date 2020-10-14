@@ -26502,6 +26502,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Prachi Patel",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/prachi-patel-382490196/",
+        github: "https://github.com/prachipatel01/",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Himatnagar",
+        state: "Gujarat",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Akshay GS",
       img: "",
       links: {
@@ -26534,6 +26550,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Evgeny Pletnev",
+      img: "https://avatars0.githubusercontent.com/u/57327617?v=4",
+      links: {
+        website: "",
+        linkedin: "https://uk.linkedin.com/in/evgeny-pletnev-b94a2756",
+        github: "https://github.com/epletnev"
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "London",
+        state: "",
+        country: "UK"
+      },
+    },
+    {
+      id: uuidv4(),
       name: "ARUN KUMAR G",
       img: "https://avatars1.githubusercontent.com/u/58899747?v=4",
       links: {
@@ -26562,6 +26594,87 @@ export const data = {
         city: "Chicago",
         state: "Illinois",
         country: "United States",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Rishik Goyal",
+      img:
+        "https://avatars0.githubusercontent.com/u/43490153?v=4",
+      links: {
+        website: "https://rishik-portfolio.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/rishik-goyal/",
+        github: "https://github.com/rishik-00",
+      },
+      jobTitle: "Student",
+      location: {
+        city: "Noida",
+        state: "Uttar Pradesh",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "iPiranhaa",
+      img: "https://avatars2.githubusercontent.com/u/6365230?v=4",
+      links: {
+        website: "https://www.kitchenrai.com",
+        linkedin: "https://www.linkedin.com/in/ipiranhaa",
+        github: "https://github.com/ipiranhaa",
+      },
+      jobTitle: "Front-End Developer",
+      location: {
+        city: "Bangkok",
+        state: "",
+        country: "Thailand 🇹🇭",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Matus Cirip",
+      img:"",
+      links: {
+        website: "https://www.mmdev.sk/",
+        linkedin: "https://www.linkedin.com/in/matus-cirip-b934a812b/",
+        github: "https://github.com/MatusCirip",
+      },
+      jobTitle: "Frontend developer",
+      location: {
+        city: "Bratislava",
+        state: "",
+        country: "Slovakia",
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Kevin Dormer",
+      img: "https://avatars3.githubusercontent.com/u/62572140?v=4",
+      links: {
+        website: "https://www.krdormer.com/",
+        linkedin: "https://www.linkedin.com/in/kevin-dormer-637310195/",
+        github: "https://github.com/krdormer",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Austin",
+        state: "Texas",
+        country: "United States",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Patricia Felix",
+      img: "https://avatars1.githubusercontent.com/u/49537577?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/patriciafelixx/",
+        github: "https://github.com/patriciafelixx",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "",
+        state: "São Paulo",
+        country: "Brazil",
       },
     },
   ],
