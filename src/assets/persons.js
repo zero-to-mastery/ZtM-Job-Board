@@ -26581,6 +26581,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Rishik Goyal",
+      img:
+        "https://avatars0.githubusercontent.com/u/43490153?v=4",
+      links: {
+        website: "https://rishik-portfolio.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/rishik-goyal/",
+        github: "https://github.com/rishik-00",
+      },
+      jobTitle: "Student",
+      location: {
+        city: "Noida",
+        state: "Uttar Pradesh",
+        country: "India",
+      },
+    },
+    {
       name: "iPiranhaa",
       img: "https://avatars2.githubusercontent.com/u/6365230?v=4",
       links: {
