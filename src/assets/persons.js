@@ -26516,5 +26516,117 @@ export const data = {
         country: "India",
       },
     },
+    {
+      name: "Akshay GS",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/akshay-gs-a42250196/",
+        github: "https://github.com/gsakshay",
+      },
+      jobTitle: "Frontend engineer",
+      location: {
+        city: "Bangalore",
+        state: "Karnataka",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Meer Estiyak",
+      img: "https://avatars3.githubusercontent.com/u/50128043?v=4",
+      links: {
+        website: "https://mmestiyak.github.io",
+        linkedin: "https://www.linkedin.com/in/mmestiyak",
+        github: "https://github.com/mmestiyak"
+      },
+      jobTitle: "Self-Taught Front End Engineer",
+      location: {
+        city: "Bogura",
+        state: "Rajshahi",
+        country: "Bangladesh"
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Evgeny Pletnev",
+      img: "https://avatars0.githubusercontent.com/u/57327617?v=4",
+      links: {
+        website: "",
+        linkedin: "https://uk.linkedin.com/in/evgeny-pletnev-b94a2756",
+        github: "https://github.com/epletnev"
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "London",
+        state: "",
+        country: "UK"
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "ARUN KUMAR G",
+      img:
+        "https://avatars1.githubusercontent.com/u/58899747?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/arun-kumar-g-993400115/",
+        github: "https://github.com/GudlaArunKumar",
+      },
+      jobTitle: "Python Developer/ Junior Machine Learning Engineer",
+      location: {
+        city: "Chennai",
+        state: "Tamil Nadu",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Matus Cirip",
+      img:"",
+      links: {
+        website: "https://www.mmdev.sk/",
+        linkedin: "https://www.linkedin.com/in/matus-cirip-b934a812b/",
+        github: "https://github.com/MatusCirip",
+      },
+      jobTitle: "Frontend developer",
+      location: {
+        city: "Bratislava",
+        state: "",
+        country: "Slovakia",
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Kevin Dormer",
+      img: "https://avatars3.githubusercontent.com/u/62572140?v=4",
+      links: {
+        website: "https://www.krdormer.com/",
+        linkedin: "https://www.linkedin.com/in/kevin-dormer-637310195/",
+        github: "https://github.com/krdormer",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Austin",
+        state: "Texas",
+        country: "United States",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Patricia Felix",
+      img: "https://avatars1.githubusercontent.com/u/49537577?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/patriciafelixx/",
+        github: "https://github.com/patriciafelixx",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "",
+        state: "São Paulo",
+        country: "Brazil",
+      },
+    },
   ],
 }
