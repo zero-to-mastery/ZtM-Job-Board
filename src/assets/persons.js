@@ -26529,7 +26529,23 @@ export const data = {
       location: {
         city: "Bogura",
         state: "Rajshahi",
-        country: "Bangladesh",
+        country: "Bangladesh"
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Evgeny Pletnev",
+      img: "https://avatars0.githubusercontent.com/u/57327617?v=4",
+      links: {
+        website: "",
+        linkedin: "https://uk.linkedin.com/in/evgeny-pletnev-b94a2756",
+        github: "https://github.com/epletnev"
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "London",
+        state: "",
+        country: "UK"
       },
     },
     {
@@ -26562,6 +26578,37 @@ export const data = {
         city: "Bangkok",
         state: "",
         country: "Thailand 🇹🇭",
+      },
+    },
+    {
+      name: "Matus Cirip",
+      img:"",
+      links: {
+        website: "https://www.mmdev.sk/",
+        linkedin: "https://www.linkedin.com/in/matus-cirip-b934a812b/",
+        github: "https://github.com/MatusCirip",
+      },
+      jobTitle: "Frontend developer",
+      location: {
+        city: "Bratislava",
+        state: "",
+        country: "Slovakia",
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Kevin Dormer",
+      img: "https://avatars3.githubusercontent.com/u/62572140?v=4",
+      links: {
+        website: "https://www.krdormer.com/",
+        linkedin: "https://www.linkedin.com/in/kevin-dormer-637310195/",
+        github: "https://github.com/krdormer",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Austin",
+        state: "Texas",
+        country: "United States",
       },
     },
   ],
