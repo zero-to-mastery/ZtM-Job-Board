@@ -26568,7 +26568,7 @@ export const data = {
     {
       id: uuidv4(),
       name: "Matus Cirip",
-      img:"",
+      img: "",
       links: {
         website: "https://www.mmdev.sk/",
         linkedin: "https://www.linkedin.com/in/matus-cirip-b934a812b/",
@@ -26595,6 +26595,22 @@ export const data = {
         city: "Austin",
         state: "Texas",
         country: "United States",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Rishav Kumar",
+      img: "https://avatars0.githubusercontent.com/u/57145318?v=4",
+      links: {
+        website: "https://hr1shu.pythonanywhere.com",
+        linkedin: "https://www.linkedin.com/in/rishav-kumar-b4a179191/",
+        github: "https://github.com/hr1shu",
+      },
+      jobTitle: "Python Developer",
+      location: {
+        city: "Jalandhar",
+        state: "Punjab",
+        country: "India",
       },
     },
   ],
