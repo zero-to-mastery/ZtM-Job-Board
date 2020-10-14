@@ -26598,6 +26598,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Vishnu Bochiwal",
+      img: "https://avatars2.githubusercontent.com/u/32838570?v=4",
+      links: {
+        website: "http://vishnu-sharma.ml/",
+        linkedin: "https://www.linkedin.com/in/the-vish-sharma/",
+        github: "https://github.com/the-vish-sharma"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Bengaluru",
+        state: "Karnataka",
+        country: "India"
+      }
+    },
+    {
+      id: uuidv4(),
       name: "Rishik Goyal",
       img:
         "https://avatars0.githubusercontent.com/u/43490153?v=4",
