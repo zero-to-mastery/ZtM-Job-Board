@@ -26597,5 +26597,21 @@ export const data = {
         country: "United States",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Akshay Anand",
+      img: "",
+      links: {
+        website: "https://axayjha.github.io/",
+        linkedin: "https://www.linkedin.com/in/axayjha/",
+        github: "https://github.com/axayjha",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Pune",
+        state: "Maharashtra",
+        country: "India",
+      },
+    },
   ],
 }
