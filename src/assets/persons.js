@@ -26538,7 +26538,7 @@ export const data = {
       links: {
         website: "https://mmestiyak.github.io",
         linkedin: "https://www.linkedin.com/in/mmestiyak",
-        github: "https://github.com/mmestiyak"
+        github: "https://github.com/mmestiyak",
       },
       jobTitle: "Self-Taught Front End Engineer",
       location: {
@@ -26566,8 +26566,7 @@ export const data = {
     {
       id: uuidv4(),
       name: "ARUN KUMAR G",
-      img:
-        "https://avatars1.githubusercontent.com/u/58899747?v=4",
+      img: "https://avatars1.githubusercontent.com/u/58899747?v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/arun-kumar-g-993400115/",
@@ -26582,6 +26581,21 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "iPiranhaa",
+      img: "https://avatars2.githubusercontent.com/u/6365230?v=4",
+      links: {
+        website: "https://www.kitchenrai.com",
+        linkedin: "https://www.linkedin.com/in/ipiranhaa",
+        github: "https://github.com/ipiranhaa",
+      },
+      jobTitle: "Front-End Developer",
+      location: {
+        city: "Bangkok",
+        state: "",
+        country: "Thailand 🇹🇭",
+      },
+    },
+    {
       name: "Matus Cirip",
       img:"",
       links: {
