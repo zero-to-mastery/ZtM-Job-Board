@@ -26597,5 +26597,21 @@ export const data = {
         country: "India",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Patricia Felix",
+      img: "https://avatars1.githubusercontent.com/u/49537577?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/patriciafelixx/",
+        github: "https://github.com/patriciafelixx",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "",
+        state: "São Paulo",
+        country: "Brazil",
+      },
+    },
   ],
 }
