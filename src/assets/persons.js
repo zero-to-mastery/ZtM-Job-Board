@@ -12500,7 +12500,7 @@ export const data = {
                 country: "India",
             },
         },
-=======
+
   people: [
     {
       id: uuidv4(),
