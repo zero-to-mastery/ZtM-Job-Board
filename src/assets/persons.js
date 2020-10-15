@@ -26693,5 +26693,21 @@ export const data = {
         country: "Brazil",
       },
     },
+    {
+    id: uuidv4(),
+    name: "Chandan Varma",
+    img: "https://avatars2.githubusercontent.com/u/2862345?v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/chandanvarma009/",
+      github: "https://github.com/chandanvarma009"
+    },
+    jobTitle: "Software-Engineer (iOS)",
+    location: {
+      city: "Mumbai",
+      state: "Maharashtra",
+      country: "India"
+    },
+  },
   ],
 }
