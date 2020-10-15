@@ -26693,5 +26693,21 @@ export const data = {
         country: "Brazil",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Edmond Paul Del Mundo",
+      img: "https://avatars0.githubusercontent.com/u/36507143?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/edmond-del-mundo-526a6b95/",
+        github: "https://github.com/monddelmundo",
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "Dasmariñas",
+        state: "Cavite",
+        country: "Philippines",
+      }
+    },
   ],
 }
