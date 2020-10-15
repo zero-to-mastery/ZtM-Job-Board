@@ -26429,7 +26429,7 @@ export const data = {
         github: "https://github.com/Samuellyworld",
         linkedin: "https://www.linkedin.com/in/samuel-tosin-3b20991b4/",
       },
-      jobTitle: "Front-End developer, Software-Engineer",
+      jobTitle: "Fullstack developer, Software-Engineer",
       location: {
         city: "Ikeja",
         state: "Lagos",
