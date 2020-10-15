@@ -26693,5 +26693,21 @@ export const data = {
         country: "Brazil",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Gerson E. Aguirre",
+      img: "https://avatars1.githubusercontent.com/u/10759918?v=4",
+      links: {
+        website: "http://bit.ly/gersonaguirre",
+        linkedin: "https://www.linkedin.com/in/geabenitez/",
+        github: "https://github.com/geabenitez",
+      },
+      jobTitle: "Developer enthusiast. Web • IA ",
+      location: {
+        city: "San Salvador",
+        state: "San Salvador",
+        country: "El Salvador",
+      },
+    },
   ],
 }
