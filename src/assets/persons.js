@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from "uuid"
 
 export const data = {
-<<<<<<< HEAD
+
     people: [
         { 
             id: uuidv4(),
@@ -260,7 +260,7 @@ export const data = {
                 linkedin: "https://www.linkedin.com/in/samuel-tosin-3b20991b4/",
                 github: "https://github.com/Samuellyworld",
             },
-            jobTitle: "Fullstack Developer, Software-Developer",
+            jobTitle: "Fullstack Developer, Software Engineer",
             location: {
                 city: "Ikeja",
                 state: "Lagos",
