@@ -26693,22 +26693,22 @@ export const data = {
         country: "Brazil",
       },
     },
-  ],
-}
-  ,{
-    id: uuidv4(),
-    name: "Cedric Mealin",
-    img: "https://scontent-mrs2-1.cdninstagram.com/v/t51.2885-19/s320x320/18094748_487623381569117_9197645002363109376_a.jpg?_nc_ht=scontent-mrs2-1.cdninstagram.com&_nc_ohc=FMQcrQIgmWoAX_pfkVb&oh=bb1bef6c90285b81e405cceca93afbcb&oe=5FB09B75",
-    links: {
-      website: "",
-      linkedin: "https://www.linkedin.com/in/cedric-mealin-38a97396/",
-      github: "https://github.com/cedoinukoro"
-    },
-    jobTitle: "Novice Front End Developer",
-    location: {
-      city: "Lyon",
-      state: "",
-      country: "France"
+    {
+      id: uuidv4(),
+      name: "Cedric Mealin",
+      img: "https://scontent-mrs2-1.cdninstagram.com/v/t51.2885-19/s320x320/18094748_487623381569117_9197645002363109376_a.jpg?_nc_ht=scontent-mrs2-1.cdninstagram.com&_nc_ohc=FMQcrQIgmWoAX_pfkVb&oh=bb1bef6c90285b81e405cceca93afbcb&oe=5FB09B75",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/cedric-mealin-38a97396/",
+        github: "https://github.com/cedoinukoro"
+      },
+      jobTitle: "Novice Front End Developer",
+      location: {
+        city: "Lyon",
+        state: "",
+        country: "France"
+      }
     }
-  }
-
+  
+  ]
+}
