@@ -26696,7 +26696,7 @@ export const data = {
   ],
 }
   ,{
-    id: Cedoinukoro(),
+    id: uuidv4(),
     name: "Cedric Mealin",
     img: "https://scontent-mrs2-1.cdninstagram.com/v/t51.2885-19/s320x320/18094748_487623381569117_9197645002363109376_a.jpg?_nc_ht=scontent-mrs2-1.cdninstagram.com&_nc_ohc=FMQcrQIgmWoAX_pfkVb&oh=bb1bef6c90285b81e405cceca93afbcb&oe=5FB09B75",
     links: {
