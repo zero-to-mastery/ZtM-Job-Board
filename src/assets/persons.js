@@ -26676,6 +26676,24 @@ export const data = {
         country: "United States",
       },
     },
+,
+    {
+      id: uuidv4(),
+      name: "Charles Loges IV",
+      img: "https://avatars2.githubusercontent.com/u/4064474?v=4",
+      links: {
+        website: "https://www.charlesloges.com/",
+        linkedin: "https://www.linkedin.com/in/charles-loges-iv-9a534956/",
+        github: "https://github.com/cloges4",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Erwin",
+        state: "North Carolina",
+        country: "United States",
+    },
+    },
+   
       {
       id: uuidv4(),
       name: "Mallory Jane Bruey",
@@ -26723,6 +26741,7 @@ export const data = {
         city: "Oslo",
         state: "Oslo",
         country: "Norway",
+
       },
     },
   ],
