@@ -26695,6 +26695,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Guilherme Hebling",
+      img: "https://avatars3.githubusercontent.com/u/62028115?v=4",
+      links: {
+        website: "https://gdhebling.com/",
+        linkedin: "https://www.linkedin.com/in/gdhebling/",
+        github: "https://github.com/gdhebling/",
+      },
+      jobTitle: "Front-End Developer",
+      location: {
+        city: "Oslo",
+        state: "Oslo",
+        country: "Norway",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Edmond Paul Del Mundo",
       img: "https://avatars0.githubusercontent.com/u/36507143?v=4",
       links: {
