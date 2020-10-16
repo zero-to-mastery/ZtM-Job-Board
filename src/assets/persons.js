@@ -26676,6 +26676,23 @@ export const data = {
         country: "United States",
       },
     },
+      {
+      id: uuidv4(),
+      name: "Mallory Jane Bruey",
+      img: "https://github.com/malloryjanecs.png",
+      links: {
+        website: "https://malloryjanecs.github.io/",
+        linkedin: "https://www.linkedin.com/in/mallory-bruey/",
+        github: "https://github.com/malloryjanecs"
+      },
+      jobTitle: "SQL/Java/Python | Computer Science Student",
+      location: {
+        city: "",
+        state: "OH/PA",
+        country: "USA"
+      }
+    }
+,
     {
       id: uuidv4(),
       name: "Patricia Felix",
