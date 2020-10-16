@@ -26413,7 +26413,7 @@ export const data = {
         github: "https://github.com/Samuellyworld",
         linkedin: "https://www.linkedin.com/in/samuel-tosin-3b20991b4/",
       },
-      jobTitle: "Fullstack developer, Software-Engineer",
+      jobTitle: "Front-End developer, Software-Engineer",
       location: {
         city: "Ikeja",
         state: "Lagos",
@@ -26539,13 +26539,13 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://uk.linkedin.com/in/evgeny-pletnev-b94a2756",
-        github: "https://github.com/epletnev",
+        github: "https://github.com/epletnev"
       },
       jobTitle: "Web Developer",
       location: {
         city: "London",
         state: "",
-        country: "UK",
+        country: "UK"
       },
     },
     {
@@ -26587,19 +26587,20 @@ export const data = {
       links: {
         website: "http://vishnu-sharma.ml/",
         linkedin: "https://www.linkedin.com/in/the-vish-sharma/",
-        github: "https://github.com/the-vish-sharma",
+        github: "https://github.com/the-vish-sharma"
       },
       jobTitle: "Full Stack Developer",
       location: {
         city: "Bengaluru",
         state: "Karnataka",
-        country: "India",
-      },
+        country: "India"
+      }
     },
     {
       id: uuidv4(),
       name: "Rishik Goyal",
-      img: "https://avatars0.githubusercontent.com/u/43490153?v=4",
+      img:
+        "https://avatars0.githubusercontent.com/u/43490153?v=4",
       links: {
         website: "https://rishik-portfolio.netlify.app/",
         linkedin: "https://www.linkedin.com/in/rishik-goyal/",
@@ -26631,7 +26632,7 @@ export const data = {
     {
       id: uuidv4(),
       name: "Matus Cirip",
-      img: "",
+      img:"",
       links: {
         website: "https://www.mmdev.sk/",
         linkedin: "https://www.linkedin.com/in/matus-cirip-b934a812b/",
@@ -26642,7 +26643,7 @@ export const data = {
         city: "Bratislava",
         state: "",
         country: "Slovakia",
-      },
+      }
     },
     {
       id: uuidv4(),
@@ -26773,6 +26774,22 @@ export const data = {
         country: "Norway",
 
       },
+    },
+    {
+      id: uuidv4(),
+      name: "Edmond Paul Del Mundo",
+      img: "https://avatars0.githubusercontent.com/u/36507143?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/edmond-del-mundo-526a6b95/",
+        github: "https://github.com/monddelmundo",
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "Dasmariñas",
+        state: "Cavite",
+        country: "Philippines",
+      }
     },
   ],
 }
