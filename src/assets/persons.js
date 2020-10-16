@@ -26760,6 +26760,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Gerson E. Aguirre",
+      img: "https://avatars1.githubusercontent.com/u/10759918?v=4",
+      links: {
+        website: "http://bit.ly/gersonaguirre",
+        linkedin: "https://www.linkedin.com/in/geabenitez/",
+        github: "https://github.com/geabenitez",
+      },
+      jobTitle: "Developer enthusiast. Web • IA ",
+      location: {
+        city: "San Salvador",
+        state: "San Salvador",
+        country: "El Salvador",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Cedric Mealin",
       img: "https://scontent-mrs2-1.cdninstagram.com/v/t51.2885-19/s320x320/18094748_487623381569117_9197645002363109376_a.jpg?_nc_ht=scontent-mrs2-1.cdninstagram.com&_nc_ohc=FMQcrQIgmWoAX_pfkVb&oh=bb1bef6c90285b81e405cceca93afbcb&oe=5FB09B75",
       links: {
