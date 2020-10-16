@@ -26695,7 +26695,6 @@ export const data = {
     },
     {
       id: uuidv4(),
-<<<<<<< HEAD
       name: "Guilherme Hebling",
       img: "https://avatars3.githubusercontent.com/u/62028115?v=4",
       links: {
@@ -26712,8 +26711,6 @@ export const data = {
     },
     {
       id: uuidv4(),
-=======
->>>>>>> aa9f5b7cb4c1e2d9cf5d69a0921c8d8201318141
       name: "Edmond Paul Del Mundo",
       img: "https://avatars0.githubusercontent.com/u/36507143?v=4",
       links: {
