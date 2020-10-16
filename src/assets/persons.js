@@ -26713,6 +26713,22 @@ export const data = {
 ,
     {
       id: uuidv4(),
+      name: "Ruben Plaza",
+      img: "https://i.imgur.com/M3MOlLE.jpg",
+      links: {
+        website: "https://rubenplazaportfolio.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/rubendplaza/",
+        github: "https://github.com/rubendplaza",
+      },
+      jobTitle: "Web Developer | Computer Engineering Student",
+      location: {
+        city: "Toronto",
+        state: "Ontario",
+        country: "Canada",
+      },
+    },
+    {
+       id: uuidv4(),
       name: "Patricia Felix",
       img: "https://avatars1.githubusercontent.com/u/49537577?v=4",
       links: {
