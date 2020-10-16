@@ -16777,7 +16777,11 @@ export const data = {
         github: "https://github.com/mrohadi",
       },
       jobTitle: "Full-Stack Developer",
-      location: { city: "Jakarta", state: "", country: "Indonesia" },
+      location: {
+        city: "Jakarta",
+        state: "",
+        country: "Indonesia",
+      },
     },
     {
       id: uuidv4(),
@@ -22316,7 +22320,11 @@ export const data = {
         github: "https://github.com/mrohadi",
       },
       jobTitle: "Full-Stack Developer",
-      location: { city: "Jakarta", state: "", country: "Indonesia" },
+      location: {
+        city: "Jakarta",
+        state: "",
+        country: "Indonesia",
+      },
     },
     {
       id: uuidv4(),
@@ -23855,7 +23863,11 @@ export const data = {
         github: "https://github.com/mrohadi",
       },
       jobTitle: "Full-Stack Developer",
-      location: { city: "Jakarta", state: "", country: "Indonesia" },
+      location: {
+        city: "Jakarta",
+        state: "",
+        country: "Indonesia",
+      },
     },
     {
       id: uuidv4(),
@@ -25411,7 +25423,11 @@ export const data = {
         github: "https://github.com/mrohadi",
       },
       jobTitle: "Full-Stack Developer",
-      location: { city: "Jakarta", state: "", country: "Indonesia" },
+      location: {
+        city: "Jakarta",
+        state: "",
+        country: "Indonesia",
+      },
     },
     {
       id: uuidv4(),
@@ -26690,24 +26706,24 @@ export const data = {
         city: "Erwin",
         state: "North Carolina",
         country: "United States",
+      },
     },
-    },
-   
-      {
+
+    {
       id: uuidv4(),
       name: "Mallory Jane Bruey",
       img: "https://github.com/malloryjanecs.png",
       links: {
         website: "https://malloryjanecs.github.io/",
         linkedin: "https://www.linkedin.com/in/mallory-bruey/",
-        github: "https://github.com/malloryjanecs"
+        github: "https://github.com/malloryjanecs",
       },
       jobTitle: "SQL/Java/Python | Computer Science Student",
       location: {
         city: "",
         state: "OH/PA",
-        country: "USA"
-      }
+        country: "USA",
+      },
     },
     {
       id: uuidv4(),
@@ -26742,7 +26758,7 @@ export const data = {
       },
     },
     {
-       id: uuidv4(),
+      id: uuidv4(),
       name: "Patricia Felix",
       img: "https://avatars1.githubusercontent.com/u/49537577?v=4",
       links: {
@@ -26792,33 +26808,34 @@ export const data = {
     {
       id: uuidv4(),
       name: "Cedric Mealin",
-      img: "https://scontent-mrs2-1.cdninstagram.com/v/t51.2885-19/s320x320/18094748_487623381569117_9197645002363109376_a.jpg?_nc_ht=scontent-mrs2-1.cdninstagram.com&_nc_ohc=FMQcrQIgmWoAX_pfkVb&oh=bb1bef6c90285b81e405cceca93afbcb&oe=5FB09B75",
+      img:
+        "https://scontent-mrs2-1.cdninstagram.com/v/t51.2885-19/s320x320/18094748_487623381569117_9197645002363109376_a.jpg?_nc_ht=scontent-mrs2-1.cdninstagram.com&_nc_ohc=FMQcrQIgmWoAX_pfkVb&oh=bb1bef6c90285b81e405cceca93afbcb&oe=5FB09B75",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/cedric-mealin-38a97396/",
-        github: "https://github.com/cedoinukoro"
+        github: "https://github.com/cedoinukoro",
       },
       jobTitle: "Novice Front End Developer",
       location: {
         city: "Lyon",
         state: "",
-        country: "France"
-      }
+        country: "France",
+      },
     },
     {
       id: uuidv4(),
-   name: "Chandan Varma",
+      name: "Chandan Varma",
       img: "https://avatars2.githubusercontent.com/u/2862345?v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/chandanvarma009/",
-        github: "https://github.com/chandanvarma009"
+        github: "https://github.com/chandanvarma009",
       },
       jobTitle: "Software-Engineer (iOS)",
       location: {
         city: "Mumbai",
         state: "Maharashtra",
-        country: "India"
+        country: "India",
       },
     },
     {
@@ -26835,7 +26852,6 @@ export const data = {
         city: "Oslo",
         state: "Oslo",
         country: "Norway",
-
       },
     },
     {
@@ -26852,9 +26868,23 @@ export const data = {
         city: "Dasmariñas",
         state: "Cavite",
         country: "Philippines",
-      }
-    }
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Meghal Donde",
+      img: "",
+      links: {
+        website: "https://pedantic-mayer-bf171e.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/meghal-donde-ba4559130/",
+        github: "https://github.com/meghaldonde",
+      },
+      jobTitle: "Software Developer",
+      location: {
+        city: "Boston",
+        state: "Massachusetts",
+        country: "United States",
+      },
+    },
   ],
-
-
 }
