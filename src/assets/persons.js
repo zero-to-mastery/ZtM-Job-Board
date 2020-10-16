@@ -26708,5 +26708,21 @@ export const data = {
         country: "Norway",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Sunil Behera",
+      img: "https://avatars1.githubusercontent.com/u/37134658?s=460&v=4",
+      links: {
+        website: "https://sunildipun.github.io/portfolio/",
+        linkedin: "https://www.linkedin.com/in/sunilbehera95/",
+        github: "https://github.com/sunildipun",
+      },
+      jobTitle: "Front-End Developer",
+      location: {
+        city: "Bangalore",
+        state: "Karnataka",
+        country: "India",
+      },
+    },
   ],
 }
