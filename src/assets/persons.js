@@ -26660,7 +26660,22 @@ export const data = {
         country: "United States",
       },
     },
-,
+    {
+      id: uuidv4(),
+      name: "Rishav Kumar",
+      img: "https://avatars0.githubusercontent.com/u/57145318?v=4",
+      links: {
+        website: "https://hr1shu.pythonanywhere.com",
+        linkedin: "https://www.linkedin.com/in/rishav-kumar-b4a179191/",
+        github: "https://github.com/hr1shu",
+      },
+      jobTitle: "Python Developer",
+      location: {
+        city: "Jalandhar",
+        state: "Punjab",
+        country: "India",
+      },
+    },
     {
       id: uuidv4(),
       name: "Charles Loges IV",
@@ -26693,8 +26708,7 @@ export const data = {
         state: "OH/PA",
         country: "USA"
       }
-    }
-,
+    },
     {
       id: uuidv4(),
       name: "Akshay Anand",
