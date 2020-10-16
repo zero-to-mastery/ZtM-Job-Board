@@ -15204,22 +15204,6 @@ export const data = {
     },
     {
       id: uuidv4(),
-      name: "Akshay pratap singh",
-      img: "https://github.com/akshaysingh02.png",
-      links: {
-        website: "",
-        linkedin: "https://www.linkedin.com/in/akshaysingh02/",
-        github: "https://github.com/akshaysingh02",
-      },
-      jobTitle: "Software engineer || Full stack developer",
-      location: {
-        city: "Gwalior",
-        state: "M.P",
-        country: "India",
-      },
-    },
-    {
-      id: uuidv4(),
       name: "Anyaogu Peter",
       img: "https://github.com/peteruche21.png",
       links: {
@@ -26678,6 +26662,87 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Rishav Kumar",
+      img: "https://avatars0.githubusercontent.com/u/57145318?v=4",
+      links: {
+        website: "https://hr1shu.pythonanywhere.com",
+        linkedin: "https://www.linkedin.com/in/rishav-kumar-b4a179191/",
+        github: "https://github.com/hr1shu",
+      },
+      jobTitle: "Python Developer",
+      location: {
+        city: "Jalandhar",
+        state: "Punjab",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Charles Loges IV",
+      img: "https://avatars2.githubusercontent.com/u/4064474?v=4",
+      links: {
+        website: "https://www.charlesloges.com/",
+        linkedin: "https://www.linkedin.com/in/charles-loges-iv-9a534956/",
+        github: "https://github.com/cloges4",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Erwin",
+        state: "North Carolina",
+        country: "United States",
+    },
+    },
+   
+      {
+      id: uuidv4(),
+      name: "Mallory Jane Bruey",
+      img: "https://github.com/malloryjanecs.png",
+      links: {
+        website: "https://malloryjanecs.github.io/",
+        linkedin: "https://www.linkedin.com/in/mallory-bruey/",
+        github: "https://github.com/malloryjanecs"
+      },
+      jobTitle: "SQL/Java/Python | Computer Science Student",
+      location: {
+        city: "",
+        state: "OH/PA",
+        country: "USA"
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Akshay Anand",
+      img: "",
+      links: {
+        website: "https://axayjha.github.io/",
+        linkedin: "https://www.linkedin.com/in/axayjha/",
+        github: "https://github.com/axayjha",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Pune",
+        state: "Maharashtra",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Ruben Plaza",
+      img: "https://i.imgur.com/M3MOlLE.jpg",
+      links: {
+        website: "https://rubenplazaportfolio.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/rubendplaza/",
+        github: "https://github.com/rubendplaza",
+      },
+      jobTitle: "Web Developer | Computer Engineering Student",
+      location: {
+        city: "Toronto",
+        state: "Ontario",
+        country: "Canada",
+      },
+    },
+    {
+       id: uuidv4(),
       name: "Patricia Felix",
       img: "https://avatars1.githubusercontent.com/u/49537577?v=4",
       links: {
@@ -26708,5 +26773,88 @@ export const data = {
         country: "United States",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Gerson E. Aguirre",
+      img: "https://avatars1.githubusercontent.com/u/10759918?v=4",
+      links: {
+        website: "http://bit.ly/gersonaguirre",
+        linkedin: "https://www.linkedin.com/in/geabenitez/",
+        github: "https://github.com/geabenitez",
+      },
+      jobTitle: "Developer enthusiast. Web • IA ",
+      location: {
+        city: "San Salvador",
+        state: "San Salvador",
+        country: "El Salvador",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Cedric Mealin",
+      img: "https://scontent-mrs2-1.cdninstagram.com/v/t51.2885-19/s320x320/18094748_487623381569117_9197645002363109376_a.jpg?_nc_ht=scontent-mrs2-1.cdninstagram.com&_nc_ohc=FMQcrQIgmWoAX_pfkVb&oh=bb1bef6c90285b81e405cceca93afbcb&oe=5FB09B75",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/cedric-mealin-38a97396/",
+        github: "https://github.com/cedoinukoro"
+      },
+      jobTitle: "Novice Front End Developer",
+      location: {
+        city: "Lyon",
+        state: "",
+        country: "France"
+      }
+    },
+    {
+      id: uuidv4(),
+   name: "Chandan Varma",
+      img: "https://avatars2.githubusercontent.com/u/2862345?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/chandanvarma009/",
+        github: "https://github.com/chandanvarma009"
+      },
+      jobTitle: "Software-Engineer (iOS)",
+      location: {
+        city: "Mumbai",
+        state: "Maharashtra",
+        country: "India"
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Guilherme Hebling",
+      img: "https://avatars3.githubusercontent.com/u/62028115?v=4",
+      links: {
+        website: "https://gdhebling.com/",
+        linkedin: "https://www.linkedin.com/in/gdhebling/",
+        github: "https://github.com/gdhebling/",
+      },
+      jobTitle: "Front-End Developer",
+      location: {
+        city: "Oslo",
+        state: "Oslo",
+        country: "Norway",
+
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Edmond Paul Del Mundo",
+      img: "https://avatars0.githubusercontent.com/u/36507143?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/edmond-del-mundo-526a6b95/",
+        github: "https://github.com/monddelmundo",
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "Dasmariñas",
+        state: "Cavite",
+        country: "Philippines",
+      }
+    }
   ],
+
+
 }
