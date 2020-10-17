@@ -26807,7 +26807,7 @@ export const data = {
     },
     {
       id: uuidv4(),
-   name: "Chandan Varma",
+      name: "Chandan Varma",
       img: "https://avatars2.githubusercontent.com/u/2862345?v=4",
       links: {
         website: "",
@@ -26853,8 +26853,22 @@ export const data = {
         state: "Cavite",
         country: "Philippines",
       }
-    }
+    },
+    {
+      id: uuidv4(),
+      name: "Sunil Behera",
+      img: "https://avatars1.githubusercontent.com/u/37134658?s=460&v=4",
+      links: {
+        website: "https://sunildipun.github.io/portfolio/",
+        linkedin: "https://www.linkedin.com/in/sunilbehera95/",
+        github: "https://github.com/sunildipun",
+      },
+      jobTitle: "Front-End Developer",
+      location: {
+        city: "Bangalore",
+        state: "Karnataka",
+        country: "India",
+      },
+    },
   ],
-
-
 }
