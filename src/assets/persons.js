@@ -8,7 +8,7 @@ export const data = {
       img:
         "https://avatars2.githubusercontent.com/u/18496862?v=4",
       links: {
-        website: " ",
+        website: "",
         linkedin: "https://www.linkedin.com/in/anandraj07/",
         github: "https://github.com/rosewood38",
       },
