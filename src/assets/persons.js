@@ -4,18 +4,18 @@ export const data = {
   people: [
     {
       id: uuidv4(),
-      name: "Nitin K",
+      name: "Anand Raj",
       img:
-        "https://avatars2.githubusercontent.com/u/60770391?s=460&u=ef1677b0ccb737b3737eb76cc4a8f917a4a707c5&v=4",
+        "https://avatars2.githubusercontent.com/u/18496862?v=4",
       links: {
-        website: "https://aawara.me",
-        linkedin: "https://www.linkedin.com/in/nitin-k-74598512b/",
-        github: "https://github.com/nitink66",
+        website: " ",
+        linkedin: "https://www.linkedin.com/in/anandraj07/",
+        github: "https://github.com/rosewood38",
       },
-      jobTitle: "Front-End Developer (ReactJs)",
+      jobTitle: "Python-Django Developer",
       location: {
-        city: "Davangere",
-        state: "Karnataka",
+        city: "Hyderabad",
+        state: "Telangana",
         country: "India",
       },
     },
