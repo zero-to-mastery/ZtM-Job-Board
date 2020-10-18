@@ -26856,6 +26856,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Risto Tõldsep",
+      img: "https://avatars0.githubusercontent.com/u/57298993?s=460&u=0b135fad22ea0b4a1159e6d67edeaebee28db5a7&v=4",
+      links: {
+        website: "https://ristotoldsep.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/risto-t%C3%B5ldsep-241b76199/",
+        github: "https://github.com/ristotoldsep",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Tallinn",
+        state: "",
+        country: "Estonia",
+      }
+    },
+    {
+      id: uuidv4(),
       name: "Sunil Behera",
       img: "https://avatars1.githubusercontent.com/u/37134658?s=460&v=4",
       links: {
