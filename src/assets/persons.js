@@ -2,24 +2,7 @@ import { v4 as uuidv4 } from "uuid"
 
 export const data = {
   people: [
-    {
-      id: uuidv4(),
-      name: "Anand Raj",
-      img:
-        "https://avatars2.githubusercontent.com/u/18496862?v=4",
-      links: {
-        website: " ",
-        linkedin: "https://www.linkedin.com/in/anandraj07/",
-        github: "https://github.com/rosewood38",
-      },
-      jobTitle: "Python-Django Developer",
-      location: {
-        city: "Hyderabad",
-        state: "Telangana",
-        country: "India",
-      },
-    },
-    {
+   {
       id: uuidv4(),
       name: "Uday Bhaskar Gajavalli",
       img:
