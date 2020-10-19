@@ -26886,5 +26886,21 @@ export const data = {
         country: "India",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Chase Lancaster",
+      img: "https://avatars0.githubusercontent.com/u/42326071?v=4",
+      links: {
+        website: "http://www.chaseblancaster.com/",
+        linkedin: "https://www.linkedin.com/in/chaseblancaster/",
+        github: "https://github.com/chaselancaster"
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Los Angeles",
+        state: "California",
+        country: "United States"
+      }
+    },
   ],
 }
