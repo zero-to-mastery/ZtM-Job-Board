@@ -26886,5 +26886,21 @@ export const data = {
         country: "India",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Kushal Jaiswal",
+      img: "https://avatars0.githubusercontent.com/u/68225773?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/kushal-jaiswal-23900a1b2/",
+        github: "https://github.com/kudy01",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Melbourne",
+        state: "Victoria",
+        country: "Australia",
+      },
+    },
   ],
 }
