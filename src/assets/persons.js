@@ -26934,5 +26934,19 @@ export const data = {
         country: "United States of America",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Dorell James",
+      img: "https://avatars2.githubusercontent.com/u/977413?s=96&v=4",
+      links: {
+        github: "https://github.com/dorelljames",
+      },
+      jobTitle: "Fullstack Developer",
+      location: {
+        city: "Cebu City",
+        state: "Cebu",
+        country: "Philippines",
+      },
+    },
   ],
 }
