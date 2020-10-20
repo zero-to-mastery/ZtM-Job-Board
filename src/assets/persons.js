@@ -17884,7 +17884,7 @@ export const data = {
                 linkedin: "https://www.linkedin.com/in/abejacruz/",
                 github: "https://github.com/AbejaCruz",
             },
-            jobTitle: "AR/VR Developer",
+            jobTitle: "AR/VR Developer And Js Developer",
             location: {
                 city: "Bogotá",
                 state: "Suba",
