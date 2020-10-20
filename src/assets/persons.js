@@ -26950,5 +26950,21 @@ export const data = {
         country: "Philippines",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Sai Vivek Amirishetty",
+      img: "https://avatars2.githubusercontent.com/u/31738228?v=4",
+      links: {
+        website: "https://vivekboss99.github.io/",
+        linkedin: "https://www.linkedin.com/in/sai-vivek-amirishetty-463a99b7/",
+        github: "https://github.com/vivekboss99",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Hyderabad",
+        state: "Telangana",
+        country: "India",
+      },
+    },
   ],
 }
