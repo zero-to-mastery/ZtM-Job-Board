@@ -26940,6 +26940,8 @@ export const data = {
       img: "https://avatars2.githubusercontent.com/u/977413?s=96&v=4",
       links: {
         github: "https://github.com/dorelljames",
+        website: "",
+        linkedin: "",
       },
       jobTitle: "Fullstack Developer",
       location: {
