@@ -26953,7 +26953,7 @@ export const data = {
     {
       id: uuidv4(),
       name: "Sai Vivek Amirishetty",
-      img: "https://avatars0.githubusercontent.com/u/31738228?s=400&u=3d4c2fcc9d7a1b09553321bdaa2e62dbb9e21b86&v=4",
+      img: "https://avatars2.githubusercontent.com/u/31738228?v=4",
       links: {
         website: "https://vivekboss99.github.io/",
         linkedin: "https://www.linkedin.com/in/sai-vivek-amirishetty-463a99b7/",
