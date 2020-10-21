@@ -26909,13 +26909,13 @@ export const data = {
       links: {
         website: "http://www.chaseblancaster.com/",
         linkedin: "https://www.linkedin.com/in/chaseblancaster/",
-        github: "https://github.com/chaselancaster"
+        github: "https://github.com/chaselancaster",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Los Angeles",
         state: "California",
-        country: "United States"
+        country: "United States",
       },
     },
     {
@@ -26963,6 +26963,22 @@ export const data = {
       location: {
         city: "Hyderabad",
         state: "Telangana",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Ritika Chauhan",
+      img: "",
+      links: {
+        website: "hhttps://chauhanritika.github.io/Portfolio/",
+        linkedin: "https://www.linkedin.com/in/ritika-chauhan-1413ba1b1/",
+        github: "https://github.com/ChauhanRitika",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "New Delhi",
+        state: "Delhi",
         country: "India",
       },
     },
