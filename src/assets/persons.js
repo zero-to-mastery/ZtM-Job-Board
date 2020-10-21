@@ -26988,6 +26988,7 @@ export const data = {
       img:
         "https://avatars1.githubusercontent.com/u/6916358?s=460&amp;u=d5e8faa3c16dad4e3025d1ae7061eef3aca98049&amp;v=4",
       links: {
+        website: "",
         linkedin: "https://www.linkedin.com/in/cleocredo/",
         github: "https://github.com/filipinacoder",
       },
