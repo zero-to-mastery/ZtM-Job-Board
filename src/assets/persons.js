@@ -7715,16 +7715,16 @@ export const data = {
     {
       id: uuidv4(),
       name: "Chisom Trisha Okoye",
-      img: "http://www.trishaomabu.com/wp-content/uploads/2019/07/logo1.png",
+      img: "https://github.com/Trishachi.png",
       links: {
-        website: "https://trishachi.github.io/Profile-Page-Project/index.html",
+        website: "https://trishachi.github.io/",
         linkedin: "https://www.linkedin.com/in/chisom-trisha-okoye/",
         github: "https://github.com/Trishachi",
       },
-      jobTitle: "Front End Developer | Project Management Professional",
+      jobTitle: "Full Stack Developer",
       location: {
         city: "Calgary",
-        state: "AB",
+        state: "Alberta",
         country: "Canada",
       },
     },
@@ -26909,13 +26909,13 @@ export const data = {
       links: {
         website: "http://www.chaseblancaster.com/",
         linkedin: "https://www.linkedin.com/in/chaseblancaster/",
-        github: "https://github.com/chaselancaster"
+        github: "https://github.com/chaselancaster",
       },
       jobTitle: "Web Developer",
       location: {
         city: "Los Angeles",
         state: "California",
-        country: "United States"
+        country: "United States",
       },
     },
     {
