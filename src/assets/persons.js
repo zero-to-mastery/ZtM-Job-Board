@@ -26966,5 +26966,21 @@ export const data = {
         country: "India",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Ritika Chauhan",
+      img: "",
+      links: {
+        website: "hhttps://chauhanritika.github.io/Portfolio/",
+        linkedin: "https://www.linkedin.com/in/ritika-chauhan-1413ba1b1/",
+        github: "https://github.com/ChauhanRitika",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "New Delhi",
+        state: "Delhi",
+        country: "India",
+      },
+    },
   ],
 }
