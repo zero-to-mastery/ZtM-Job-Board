@@ -4,6 +4,22 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Andre Butler",
+      img: "https://avatars1.githubusercontent.com/u/57180686?s=460&u=c28f59148243fab9e798a0ed33604d16368fb4a8&v=4",
+      links: {
+        website: "wwww.andrebutler.me",
+        linkedin: "https://www.linkedin.com/in/andre-butler-62aa387b/",
+        github: "https://github.com/abutler6588",
+      },
+      jobTitle: "React-Python Developer",
+      location: {
+        city: "Oklahoma City",
+        state: "Oklahoma",
+        country: "United States",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Anand Raj",
       img: "https://avatars2.githubusercontent.com/u/18496862?v=4",
       links: {
