@@ -4,18 +4,17 @@ export const data = {
   people: [
     {
       id: uuidv4(),
-      name: "Nitin K",
-      img:
-        "https://avatars2.githubusercontent.com/u/60770391?s=460&u=ef1677b0ccb737b3737eb76cc4a8f917a4a707c5&v=4",
+      name: "Anand Raj",
+      img: "https://avatars2.githubusercontent.com/u/18496862?v=4",
       links: {
-        website: "https://aawara.me",
-        linkedin: "https://www.linkedin.com/in/nitin-k-74598512b/",
-        github: "https://github.com/nitink66",
+        website: "",
+        linkedin: "https://www.linkedin.com/in/anandraj07/",
+        github: "https://github.com/rosewood38",
       },
-      jobTitle: "Front-End Developer (ReactJs)",
+      jobTitle: "Python-Django Developer",
       location: {
-        city: "Davangere",
-        state: "Karnataka",
+        city: "Hyderabad",
+        state: "Telangana",
         country: "India",
       },
     },
@@ -7716,16 +7715,16 @@ export const data = {
     {
       id: uuidv4(),
       name: "Chisom Trisha Okoye",
-      img: "http://www.trishaomabu.com/wp-content/uploads/2019/07/logo1.png",
+      img: "https://github.com/Trishachi.png",
       links: {
-        website: "https://trishachi.github.io/Profile-Page-Project/index.html",
+        website: "https://trishachi.github.io/",
         linkedin: "https://www.linkedin.com/in/chisom-trisha-okoye/",
         github: "https://github.com/Trishachi",
       },
-      jobTitle: "Front End Developer | Project Management Professional",
+      jobTitle: "Full Stack Developer",
       location: {
         city: "Calgary",
-        state: "AB",
+        state: "Alberta",
         country: "Canada",
       },
     },
@@ -26886,5 +26885,151 @@ export const data = {
         country: "United States",
       },
     },
+     {
+      id: uuidv4(),
+      name: "Risto Tõldsep",
+      img:
+        "https://avatars0.githubusercontent.com/u/57298993?s=460&u=0b135fad22ea0b4a1159e6d67edeaebee28db5a7&v=4",
+      links: {
+        website: "https://ristotoldsep.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/risto-t%C3%B5ldsep-241b76199/",
+        github: "https://github.com/ristotoldsep",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Tallinn",
+        state: "",
+        country: "Estonia",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Sunil Behera",
+      img: "https://avatars1.githubusercontent.com/u/37134658?s=460&v=4",
+      links: {
+        website: "https://sunildipun.github.io/portfolio/",
+        linkedin: "https://www.linkedin.com/in/sunilbehera95/",
+        github: "https://github.com/sunildipun",
+      },
+      jobTitle: "Front-End Developer",
+      location: {
+        city: "Bangalore",
+        state: "Karnataka",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Kushal Jaiswal",
+      img: "https://avatars0.githubusercontent.com/u/68225773?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/kushal-jaiswal-23900a1b2/",
+        github: "https://github.com/kudy01",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Melbourne",
+        state: "Victoria",
+        country: "Australia",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Chase Lancaster",
+      img: "https://avatars0.githubusercontent.com/u/42326071?v=4",
+      links: {
+        website: "http://www.chaseblancaster.com/",
+        linkedin: "https://www.linkedin.com/in/chaseblancaster/",
+        github: "https://github.com/chaselancaster",
+      },
+      jobTitle: "Web Developer",
+      location: {
+        city: "Los Angeles",
+        state: "California",
+        country: "United States",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Kadhirash Sivakumar",
+      img: "https://avatars1.githubusercontent.com/u/10100659?v=4",
+      links: {
+        website: "https://kadhirash.github.io/",
+        linkedin: "https://www.linkedin.com/in/kadhirash/",
+        github: "https://github.com/kadhirash",
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "",
+        state: "California",
+        country: "United States of America",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Dorell James",
+      img: "https://avatars2.githubusercontent.com/u/977413?s=96&v=4",
+      links: {
+        github: "https://github.com/dorelljames",
+        website: "",
+        linkedin: "",
+      },
+      jobTitle: "Fullstack Developer",
+      location: {
+        city: "Cebu City",
+        state: "Cebu",
+        country: "Philippines",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Sai Vivek Amirishetty",
+      img: "https://avatars2.githubusercontent.com/u/31738228?v=4",
+      links: {
+        website: "https://vivekboss99.github.io/",
+        linkedin: "https://www.linkedin.com/in/sai-vivek-amirishetty-463a99b7/",
+        github: "https://github.com/vivekboss99",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Hyderabad",
+        state: "Telangana",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Ritika Chauhan",
+      img: "",
+      links: {
+        website: "hhttps://chauhanritika.github.io/Portfolio/",
+        linkedin: "https://www.linkedin.com/in/ritika-chauhan-1413ba1b1/",
+        github: "https://github.com/ChauhanRitika",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "New Delhi",
+        state: "Delhi",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Cleo Credo",
+      img:
+        "https://avatars1.githubusercontent.com/u/6916358?s=460&amp;u=d5e8faa3c16dad4e3025d1ae7061eef3aca98049&amp;v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/cleocredo/",
+        github: "https://github.com/filipinacoder",
+      },
+      jobTitle: "Software Developer",
+      location: {
+        city: "Cebu City",
+        state: "Cebu",
+        country: "Philippines",
+      },
+    }
   ],
 }
