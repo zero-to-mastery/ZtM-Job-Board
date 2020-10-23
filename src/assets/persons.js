@@ -16776,7 +16776,11 @@ export const data = {
         github: "https://github.com/mrohadi",
       },
       jobTitle: "Full-Stack Developer",
-      location: { city: "Jakarta", state: "", country: "Indonesia" },
+      location: {
+        city: "Jakarta",
+        state: "",
+        country: "Indonesia",
+      },
     },
     {
       id: uuidv4(),
@@ -22315,7 +22319,11 @@ export const data = {
         github: "https://github.com/mrohadi",
       },
       jobTitle: "Full-Stack Developer",
-      location: { city: "Jakarta", state: "", country: "Indonesia" },
+      location: {
+        city: "Jakarta",
+        state: "",
+        country: "Indonesia",
+      },
     },
     {
       id: uuidv4(),
@@ -23854,7 +23862,11 @@ export const data = {
         github: "https://github.com/mrohadi",
       },
       jobTitle: "Full-Stack Developer",
-      location: { city: "Jakarta", state: "", country: "Indonesia" },
+      location: {
+        city: "Jakarta",
+        state: "",
+        country: "Indonesia",
+      },
     },
     {
       id: uuidv4(),
@@ -25410,7 +25422,11 @@ export const data = {
         github: "https://github.com/mrohadi",
       },
       jobTitle: "Full-Stack Developer",
-      location: { city: "Jakarta", state: "", country: "Indonesia" },
+      location: {
+        city: "Jakarta",
+        state: "",
+        country: "Indonesia",
+      },
     },
     {
       id: uuidv4(),
@@ -26854,6 +26870,22 @@ export const data = {
       },
     },
     {
+      id: uuidv4(),
+      name: "Meghal Donde",
+      img: "",
+      links: {
+        website: "https://pedantic-mayer-bf171e.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/meghal-donde-ba4559130/",
+        github: "https://github.com/meghaldonde",
+      },
+      jobTitle: "Software Developer",
+      location: {
+        city: "Boston",
+        state: "Massachusetts",
+        country: "United States",
+      },
+    },
+     {
       id: uuidv4(),
       name: "Risto Tõldsep",
       img:
