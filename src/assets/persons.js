@@ -27047,5 +27047,21 @@ export const data = {
         country: "United States of America"
       },
     },
+    {
+      id: uuidv4(),
+      name: "Takia Ross",
+      img:
+      links: {
+        website: "https://tlross.info/",
+        linkedin: "https://www.linkedin.com/in/takia-ross/",
+        github: "https://github.com/TR-1000"
+      },
+      jobTitle: "Full-Stack Developer",
+      location: {
+        city: "San Antonio",
+        state: "Texas",
+        country: "United States of America"
+      },
+    },
   ],
 }
