@@ -27047,5 +27047,21 @@ export const data = {
         country: "United States of America"
       },
     },
+    {
+      id: uuidv4(),
+      name: "Jhony Vidal",
+      img: "https://avatars2.githubusercontent.com/u/55899088?v=4",
+      links: {
+        website: "http://www.9dapps.com/",
+        linkedin: "https://www.linkedin.com/in/jhony-vidal/",
+        github: "https://github.com/sms-joliveira"
+      },
+      jobTitle: "Full-Stack Software Engineer",
+      location: {
+        city: "CABA",
+        state: "Buenos Aires",
+        country: "Argentina"
+      }
+    },
   ],
 }
