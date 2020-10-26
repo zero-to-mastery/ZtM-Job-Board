@@ -27055,8 +27055,6 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/russell-jeffrey-7369b51a4",
-        twitter: "https://twitter.com/Russell4Linux",
-        gmail: "Russell4Linux@gmail.com",
         github: "https://github.com/Russell-Jeffrey",
       },
       jobTitle: "Front-end Web Developer",
