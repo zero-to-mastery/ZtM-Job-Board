@@ -4,6 +4,22 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Abdul Noushad S.",
+      img: "https://avatars0.githubusercontent.com/u/17446181?v=4",
+      links: {
+        website: "https://abdul.co.in/",
+        linkedin: "https://www.linkedin.com/in/abdulnine7/",
+        github: "https://github.com/abdulnine7",
+      },
+      jobTitle: "Python-Django Developer",
+      location: {
+        city: "Mumbai",
+        state: "Maharashtra",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Anand Raj",
       img: "https://avatars2.githubusercontent.com/u/18496862?v=4",
       links: {
