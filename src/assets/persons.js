@@ -26901,7 +26901,7 @@ export const data = {
         country: "United States",
       },
     },
-     {
+    {
       id: uuidv4(),
       name: "Risto Tõldsep",
       img:
@@ -27050,17 +27050,34 @@ export const data = {
     {
       id: uuidv4(),
       name: "Alexander Ross Hoyer",
-      img: "https://media-exp1.licdn.com/dms/image/C5603AQGEbEZk8p_Siw/profile-displayphoto-shrink_200_200/0?e=1608768000&v=beta&t=YwkgZRin2FnDKv45NfsD_Yd2Mu_5_R4VScjfGzk29lM",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C5603AQGEbEZk8p_Siw/profile-displayphoto-shrink_200_200/0?e=1608768000&v=beta&t=YwkgZRin2FnDKv45NfsD_Yd2Mu_5_R4VScjfGzk29lM",
       links: {
         website: "https://alexhoyer.netlify.app/",
         linkedin: "https://www.linkedin.com/in/alex-hoyer-479255158/",
-        github: "https://github.com/Motohoy122"
+        github: "https://github.com/Motohoy122",
       },
       jobTitle: "Front End Web Developer",
       location: {
         city: "Huntington Beach",
         state: "California",
-        country: "United States of America"
+        country: "United States of America",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Russell Jeffrey",
+      img: "https://github.com/Russell-Jeffrey.png",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/russell-jeffrey-7369b51a4",
+        github: "https://github.com/Russell-Jeffrey",
+      },
+      jobTitle: "Front-end Web Developer",
+      location: {
+        city: "Kerman",
+        state: "Kerman",
+        country: "Iran",
       },
     },
     {
