@@ -27096,5 +27096,21 @@ export const data = {
         country: "Argentina"
       }
     },
+    {
+      id: uuidv4(),
+      name: "Osha Groetz",
+      img: "https://github.com/osha7.png",
+      links: {
+        website: "https://oshagroetz.herokuapp.com/",
+        linkedin: "https://www.linkedin.com/in/jennifer-osha-groetz-0318b16b/",
+        github: "https://github.com/osha7"
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "Denver (REMOTE)",
+        state: "CO",
+        country: "USA"
+      }
+    }
   ],
 }
