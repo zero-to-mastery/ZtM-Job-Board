@@ -27096,5 +27096,21 @@ export const data = {
         country: "Argentina"
       }
     },
+    {
+      id: uuidv4(),
+      name: "Eniola Osabiya",
+      img: "https://avatars1.githubusercontent.com/u/52782730?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/eniola-osabiya/",
+        github: "https://github.com/eni4sure"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "",
+        state: "Lagos",
+        country: "Nigeria"
+      }
+    }
   ],
 }
