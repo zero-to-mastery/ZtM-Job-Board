@@ -3935,11 +3935,10 @@ export const data = {
       id: uuidv4(),
       name: "Kanisk Chakraborty",
       img:
-        "https://avatars2.githubusercontent.com/u/41521331?s=400&u=bbce04d3a1431b93b25a3f2b01430ab6f0ae3b03&v=4",
+        "https://avatars3.githubusercontent.com/u/57884127?s=460&u=2c3776479e095e92cbc884a327a0a37348239cd2&v=4",
       links: {
-        website: "http://knsk.me/",
         linkedin: "https://www.linkedin.com/in/kaniskc/",
-        github: "https://github.com/k-n-sk"
+        github: "https://github.com/chakrakan"
       },
       jobTitle: "Software Engineer",
       location: {
