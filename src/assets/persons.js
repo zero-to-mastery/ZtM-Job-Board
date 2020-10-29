@@ -27097,20 +27097,36 @@ export const data = {
       }
     },
     {
-    id: uuidv4(),
-    name: "Abhishek Huddar",
-    img: "https://avatars1.githubusercontent.com/u/61642154?v=4",
-    links: {
-      website: "https://stoic-leavitt-12a377.netlify.app/",
-      linkedin: "https://www.linkedin.com/in/abhishek-huddar/",
-      github: "https://github.com/AbhishekHuddar"
+      id: uuidv4(),
+      name: "Eniola Osabiya",
+      img: "https://avatars1.githubusercontent.com/u/52782730?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/eniola-osabiya/",
+        github: "https://github.com/eni4sure"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "",
+        state: "Lagos",
+        country: "Nigeria"
+      }
     },
-    jobTitle: "Full Stack Developer",
-    location: {
-      city: "Baton Rouge",
-      state: "Louisiana",
-      country: "USA"
-    }
-  }
+    {
+     id: uuidv4(),
+     name: "Abhishek Huddar",
+     img: "https://avatars1.githubusercontent.com/u/61642154?v=4",
+     links: {
+       website: "https://stoic-leavitt-12a377.netlify.app/",
+       linkedin: "https://www.linkedin.com/in/abhishek-huddar/",
+       github: "https://github.com/AbhishekHuddar"
+     },
+     jobTitle: "Full Stack Developer",
+     location: {
+       city: "Baton Rouge",
+       state: "Louisiana",
+       country: "USA"
+     }
+    },
   ],
 }
