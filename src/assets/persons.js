@@ -27143,7 +27143,8 @@ export const data = {
         state: "CO",
         country: "USA"
       }
-    },{
+    },
+    {
       id: uuidv4(),
       name: "Mukesh Gehani",
       img: "https://avatars3.githubusercontent.com/u/32665328?v=4",
