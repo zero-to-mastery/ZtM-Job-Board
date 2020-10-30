@@ -27144,5 +27144,21 @@ export const data = {
         country: "USA"
       }
     },
+    {
+      id: uuidv4(),
+      name: "Mukesh Gehani",
+      img: "https://avatars3.githubusercontent.com/u/32665328?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/mukesh-gehani-3b644579/",
+        github: "https://github.com/mukeshmgehani"
+      },
+      jobTitle: "Java Backend Developer",
+      location: {
+        city: "Frankfurt",
+        state: "Hessen",
+        country: "Germany"
+      }
+    },
   ]
 }
