@@ -27160,5 +27160,21 @@ export const data = {
         country: "Germany"
       }
     },
+    {
+      id: uuidv4(),
+      name: "David Mamulia",
+      img: "https://i.ibb.co/3fNjcr4/profile-photo.jpg",
+      links: {
+        website: "https://david-mamulia.site",
+        linkedin: "https://www.linkedin.com/in/david-mamulia/",
+        github: "https://github.com/mamulini"
+      },
+      jobTitle: "Front-end Developer",
+      location: {
+        city: "Kyiv",
+        state: "",
+        country: "Ukraine"
+      }
+    }
   ]
 }
