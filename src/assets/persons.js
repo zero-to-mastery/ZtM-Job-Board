@@ -27178,6 +27178,55 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Ekin Karadag",
+      img: "https://pbs.twimg.com/profile_images/1279109891492384768/yVCv9_-0_400x400.png",
+      links: {
+        website: "https://ekinkaradag.com",
+        linkedin: "https://www.linkedin.com/in/ekinkaradag/",
+        github: "https://github.com/ekinkaradag"
+      },
+      jobTitle: "Software Developer",
+      location: {
+        city: "Istanbul",
+        state: "",
+        country: "Turkey"
+
+      }
+    },
+    {      
+      id: uuidv4(),
+      name: "Vipul Jain",
+      img: "https://avatars3.githubusercontent.com/u/27679225?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/vipul-jain-38ba98160/",
+        github: "https://github.com/vipuljain08"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "New Delhi",
+        state: "Delhi",
+        country: "India"
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Tomas Ramirez",
+      img: "https://avatars1.githubusercontent.com/u/38819979?s=460&u=d910d85c5e360dbe46eacfdc5286194db20d8cf7&v=4",
+      links: {
+        website: "https://www.ramireztomas.com/",
+        linkedin: "www.linkedin.com/in/tomas-ramirez-156820149",
+        github: "https://github.com/tramirez30"
+      },
+      jobTitle: "UX Designer/Front End Dev",
+      location: {
+        city: "Los Angeles (REMOTE)",
+        state: "CA",
+        country: "US"
+      }
+    },
+    {
+      id: uuidv4(),
       name: "Aman Shrivastava",
       img: "",
       links: {
@@ -27190,7 +27239,7 @@ export const data = {
         city: "Thane",
         state: "Maharashtra",
         country: "India",
-      },
+      }
     },
   ]
 }
