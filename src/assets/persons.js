@@ -27175,6 +27175,22 @@ export const data = {
         state: "",
         country: "Ukraine"
       }
+    },
+    {
+      id: uuidv4(),
+      name: "Vipul Jain",
+      img: "https://avatars3.githubusercontent.com/u/27679225?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/vipul-jain-38ba98160/",
+        github: "https://github.com/vipuljain08"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "New Delhi",
+        state: "Delhi",
+        country: "India"
+      }
     }
   ]
 }
