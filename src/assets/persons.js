@@ -27175,6 +27175,22 @@ export const data = {
         state: "",
         country: "Ukraine"
       }
+    },
+    {
+      id: uuidv4(),
+      name: "Ekin Karadag",
+      img: "https://pbs.twimg.com/profile_images/1279109891492384768/yVCv9_-0_400x400.png",
+      links: {
+        website: "https://ekinkaradag.com",
+        linkedin: "https://www.linkedin.com/in/ekinkaradag/",
+        github: "https://github.com/ekinkaradag"
+      },
+      jobTitle: "Software Developer",
+      location: {
+        city: "Istanbul",
+        state: "",
+        country: "Turkey"
+      }
     }
   ]
 }
