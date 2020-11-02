@@ -27175,6 +27175,22 @@ export const data = {
         state: "",
         country: "Ukraine"
       }
+    },
+    {
+      id: uuidv4(),
+      name: "Tomas Ramirez",
+      img: "https://avatars1.githubusercontent.com/u/38819979?s=460&u=d910d85c5e360dbe46eacfdc5286194db20d8cf7&v=4",
+      links: {
+        website: "https://www.ramireztomas.com/",
+        linkedin: "www.linkedin.com/in/tomas-ramirez-156820149",
+        github: "https://github.com/tramirez30"
+      },
+      jobTitle: "UX Designer/Front End Dev",
+      location: {
+        city: "Los Angeles (REMOTE)",
+        state: "CA",
+        country: "US"
+      }
     }
   ]
 }
