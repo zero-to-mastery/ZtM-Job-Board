@@ -27225,5 +27225,21 @@ export const data = {
         country: "US"
       }
     },
+    {
+      id: uuidv4(),
+      name: "Aman Shrivastava",
+      img: "",
+      links: {
+        website: "https://aman23ks.github.io/aman/",
+        linkedin: "https://www.linkedin.com/in/aman-shrivastava-a132b2169/",
+        github: "https://github.com/aman23ks",
+      },
+      jobTitle: "Software Developer",
+      location: {
+        city: "Thane",
+        state: "Maharashtra",
+        country: "India",
+      }
+    },
   ]
 }
