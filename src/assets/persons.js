@@ -27241,5 +27241,21 @@ export const data = {
         country: "India",
       }
     },
+    {
+      id: uuidv4(),
+      name: "Jordan George",
+      img: "",
+      links: {
+        website: "https://jordan-george-portfolio.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/jordan-george5/",
+        github: "https://github.com/jgeo777",
+      },
+      jobTitle: "Front-End Developer",
+      location: {
+        city: "London",
+        state: "England",
+        country: "United Kingdom"
+      }
+    }
   ]
 }
