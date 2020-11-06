@@ -27242,5 +27242,21 @@ export const data = {
         country: "India",
       },
     },
+    {
+      id: uuidv4(),
+      name: "Simon Lee",
+      img: "https://avatars1.githubusercontent.com/u/22103041?v=4",
+      links: {
+        website: "https://simonhlee97.github.io/",
+        linkedin: "https://www.linkedin.com/in/simon-h-lee/",
+        github: "https://github.com/simonhlee97",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Seoul",
+        state: "",
+        country: "South Korea",
+      },
+    },
   ],
 }
