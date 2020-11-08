@@ -27241,5 +27241,21 @@ export const data = {
         country: "India",
       }
     },
+    {
+      id: uuidv4(),
+      name: "Ibrahim Kaiser",
+      img: "https://github.com/ikReza.png",
+      links: {
+        website: "https://ibrahim-kaiser.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/ibrahim-kaiser/",
+        github: "https://github.com/ikReza"
+      },
+      jobTitle: "Frontend Developer",
+      location: {
+        city: "Dhaka",
+        state: "",
+        country: "Bangladesh"
+      }
+    },
   ]
 }
