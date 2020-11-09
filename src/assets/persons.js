@@ -27257,5 +27257,21 @@ export const data = {
         country: "Bangladesh"
       }
     },
+    {
+      id: uuidv4(),
+      name: "Hrithik Bansal",
+      img: "https://avatars2.githubusercontent.com/u/26538582?v=4",
+      links: {
+        website: "https://hrithikbansal.com/",
+        linkedin: "https://www.linkedin.com/in/bansalhrithik07/",
+        github: "https://github.com/lasnab"
+      },
+      jobTitle: "Full Stack Web Development",
+      location: {
+        city: "College Park",
+        state: "Maryland",
+        country: "United States"
+      }
+    }
   ]
 }
