@@ -27193,7 +27193,7 @@ export const data = {
 
       }
     },
-    {      
+    {
       id: uuidv4(),
       name: "Vipul Jain",
       img: "https://avatars3.githubusercontent.com/u/27679225?v=4",
@@ -27273,5 +27273,21 @@ export const data = {
         country: "United States"
       }
     }
+    ,{
+    id: uuidv4(),
+    name: "Simon Barrett",
+    img: "https://avatars3.githubusercontent.com/u/65019944?s=400&u=59717c531f8941d7eaca4ce1251cd1e0ae0a57c8&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/sgb-codes/",
+      github: "https://github.com/sgb-codes"
+    },
+    jobTitle: "Software Engineer",
+    location: {
+      city: "Vancouver",
+      state: "BC",
+      country: "Canada"
+    }
+  }
   ]
 }
