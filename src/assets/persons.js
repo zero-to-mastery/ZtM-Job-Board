@@ -27166,14 +27166,31 @@ export const data = {
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/mukesh-gehani-3b644579/",
-        github: "https://github.com/mukeshmgehani"
+        github: "https://github.com/mukeshmgehani",
       },
       jobTitle: "Java Backend Developer",
       location: {
         city: "Frankfurt",
         state: "Hessen",
-        country: "Germany"
-      }
+        country: "Germany",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Abhishek Kumar",
+      img:
+        "https://avatars2.githubusercontent.com/u/67912369?s=460&u=f33d40116a55d844794f9e2c38bd6e47fd5c38ab&v=4",
+      links: {
+        website: "https://devlearning9874.github.io/my_portfolio/",
+        linkedin: "https://www.linkedin.com/in/abhishek-kumar-6ab448149/",
+        github: "https://github.com/devlearning9874",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "New Delhi",
+        state: "Delhi",
+        country: "India",
+      },
     },
     {
       id: uuidv4(),
