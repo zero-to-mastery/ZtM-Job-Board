@@ -27272,22 +27272,38 @@ export const data = {
         state: "Maryland",
         country: "United States"
       }
-    }
-    ,{
-    id: uuidv4(),
-    name: "Simon Barrett",
-    img: "https://avatars3.githubusercontent.com/u/65019944?s=400&u=59717c531f8941d7eaca4ce1251cd1e0ae0a57c8&v=4",
-    links: {
-      website: "",
-      linkedin: "https://www.linkedin.com/in/sgb-codes/",
-      github: "https://github.com/sgb-codes"
     },
-    jobTitle: "Software Engineer",
-    location: {
-      city: "Vancouver",
-      state: "BC",
-      country: "Canada"
+    {
+      id: uuidv4(),
+      name: "Simon Barrett",
+      img: "https://avatars3.githubusercontent.com/u/65019944?s=400&u=59717c531f8941d7eaca4ce1251cd1e0ae0a57c8&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/sgb-codes/",
+        github: "https://github.com/sgb-codes"
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "Vancouver",
+        state: "BC",
+        country: "Canada"
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Jose L Saboya",
+      img: "https://personal-portfolio-2020.s3.amazonaws.com/profile1.jpg",
+      links: {
+        website: "www.SaboyaDev.com",
+        linkedin: "https://www.linkedin.com/in/joseluissaboya/",
+        github: "https://github.com/SaboyaDev"
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Garfield",
+        state: "New Jersey",
+        country: "United States"
+      }
     }
-  }
   ]
 }
