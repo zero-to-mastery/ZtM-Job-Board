@@ -27160,5 +27160,150 @@ export const data = {
         country: "USA",
       },
     },
-  ],
+    {
+      id: uuidv4(),
+      name: "Mukesh Gehani",
+      img: "https://avatars3.githubusercontent.com/u/32665328?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/mukesh-gehani-3b644579/",
+        github: "https://github.com/mukeshmgehani"
+      },
+      jobTitle: "Java Backend Developer",
+      location: {
+        city: "Frankfurt",
+        state: "Hessen",
+        country: "Germany"
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "David Mamulia",
+      img: "https://i.ibb.co/3fNjcr4/profile-photo.jpg",
+      links: {
+        website: "https://david-mamulia.site",
+        linkedin: "https://www.linkedin.com/in/david-mamulia/",
+        github: "https://github.com/mamulini"
+      },
+      jobTitle: "Front-end Developer",
+      location: {
+        city: "Kyiv",
+        state: "",
+        country: "Ukraine"
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Ekin Karadag",
+      img: "https://pbs.twimg.com/profile_images/1279109891492384768/yVCv9_-0_400x400.png",
+      links: {
+        website: "https://ekinkaradag.com",
+        linkedin: "https://www.linkedin.com/in/ekinkaradag/",
+        github: "https://github.com/ekinkaradag"
+      },
+      jobTitle: "Software Developer",
+      location: {
+        city: "Istanbul",
+        state: "",
+        country: "Turkey"
+
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Vipul Jain",
+      img: "https://avatars3.githubusercontent.com/u/27679225?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/vipul-jain-38ba98160/",
+        github: "https://github.com/vipuljain08"
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "New Delhi",
+        state: "Delhi",
+        country: "India"
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Tomas Ramirez",
+      img: "https://avatars1.githubusercontent.com/u/38819979?s=460&u=d910d85c5e360dbe46eacfdc5286194db20d8cf7&v=4",
+      links: {
+        website: "https://www.ramireztomas.com/",
+        linkedin: "www.linkedin.com/in/tomas-ramirez-156820149",
+        github: "https://github.com/tramirez30"
+      },
+      jobTitle: "UX Designer/Front End Dev",
+      location: {
+        city: "Los Angeles (REMOTE)",
+        state: "CA",
+        country: "US"
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Aman Shrivastava",
+      img: "",
+      links: {
+        website: "https://aman23ks.github.io/aman/",
+        linkedin: "https://www.linkedin.com/in/aman-shrivastava-a132b2169/",
+        github: "https://github.com/aman23ks",
+      },
+      jobTitle: "Software Developer",
+      location: {
+        city: "Thane",
+        state: "Maharashtra",
+        country: "India",
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Ibrahim Kaiser",
+      img: "https://github.com/ikReza.png",
+      links: {
+        website: "https://ibrahim-kaiser.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/ibrahim-kaiser/",
+        github: "https://github.com/ikReza"
+      },
+      jobTitle: "Frontend Developer",
+      location: {
+        city: "Dhaka",
+        state: "",
+        country: "Bangladesh"
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Hrithik Bansal",
+      img: "https://avatars2.githubusercontent.com/u/26538582?v=4",
+      links: {
+        website: "https://hrithikbansal.com/",
+        linkedin: "https://www.linkedin.com/in/bansalhrithik07/",
+        github: "https://github.com/lasnab"
+      },
+      jobTitle: "Full Stack Web Development",
+      location: {
+        city: "College Park",
+        state: "Maryland",
+        country: "United States"
+      }
+    }
+    ,{
+    id: uuidv4(),
+    name: "Simon Barrett",
+    img: "https://avatars3.githubusercontent.com/u/65019944?s=400&u=59717c531f8941d7eaca4ce1251cd1e0ae0a57c8&v=4",
+    links: {
+      website: "",
+      linkedin: "https://www.linkedin.com/in/sgb-codes/",
+      github: "https://github.com/sgb-codes"
+    },
+    jobTitle: "Software Engineer",
+    location: {
+      city: "Vancouver",
+      state: "BC",
+      country: "Canada"
+    }
+  }
+  ]
 }
