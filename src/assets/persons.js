@@ -27274,7 +27274,23 @@ export const data = {
         state: "Maharashtra",
         country: "India",
       },
-
+    },
+    {
+      id: uuidv4(),
+      name: "ChingPing Yang",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C5103AQEDv5pJhy4fmg/profile-displayphoto-shrink_200_200/0?e=1609977600&v=beta&t=ltME8w6gAhtDnBOsMLAI0oiRCTHTf_HgEdfqfNcS3p8",
+      links: {
+        website: "https://chingpingyang.com/",
+        linkedin: "https://www.linkedin.com/in/chingpingyang/",
+        github: "https://github.com/ChingPingYang",
+      },
+      jobTitle: "Front-end Developer",
+      location: {
+        city: "Vancouver",
+        state: "",
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
