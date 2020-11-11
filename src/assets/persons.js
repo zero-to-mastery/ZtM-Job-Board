@@ -4,6 +4,22 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Kevin adam",
+      img: "https://avatars3.githubusercontent.com/u/33047790?s=460&v=4",
+      links: {
+        website: "http://bykevin.work/",
+        linkedin: "https://www.linkedin.com/in/kevinputraadam/",
+        github: "https://github.com/vnxx/"
+      },
+      jobTitle: "Full-Stack Developer",
+      location: {
+        city: "Kab Bogor",
+        state: "Jawa Barat",
+        country: "Indonesia"
+      }
+    },
+    {
+      id: uuidv4(),
       name: "Abdul Noushad S.",
       img: "https://avatars0.githubusercontent.com/u/17446181?v=4",
       links: {
@@ -3935,11 +3951,12 @@ export const data = {
       id: uuidv4(),
       name: "Kanisk Chakraborty",
       img:
-        "https://avatars2.githubusercontent.com/u/41521331?s=400&u=bbce04d3a1431b93b25a3f2b01430ab6f0ae3b03&v=4",
+        "https://avatars3.githubusercontent.com/u/57884127?s=460&u=2c3776479e095e92cbc884a327a0a37348239cd2&v=4",
       links: {
-        website: "http://knsk.me/",
         linkedin: "https://www.linkedin.com/in/kaniskc/",
-        github: "https://github.com/k-n-sk",
+
+        github: "https://github.com/chakrakan"
+
       },
       jobTitle: "Software Engineer",
       location: {
@@ -27178,6 +27195,23 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Abhishek Kumar",
+      img:
+        "https://avatars2.githubusercontent.com/u/67912369?s=460&u=f33d40116a55d844794f9e2c38bd6e47fd5c38ab&v=4",
+      links: {
+        website: "https://devlearning9874.github.io/my_portfolio/",
+        linkedin: "https://www.linkedin.com/in/abhishek-kumar-6ab448149/",
+        github: "https://github.com/devlearning9874",
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "New Delhi",
+        state: "Delhi",
+        country: "India",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "David Mamulia",
       img: "https://i.ibb.co/3fNjcr4/profile-photo.jpg",
       links: {
@@ -27195,7 +27229,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Ekin Karadag",
-      img: "https://pbs.twimg.com/profile_images/1279109891492384768/yVCv9_-0_400x400.png",
+      img:
+        "https://pbs.twimg.com/profile_images/1279109891492384768/yVCv9_-0_400x400.png",
       links: {
         website: "https://ekinkaradag.com",
         linkedin: "https://www.linkedin.com/in/ekinkaradag/",
@@ -27206,10 +27241,9 @@ export const data = {
         city: "Istanbul",
         state: "",
         country: "Turkey"
-
       }
     },
-    {      
+    {
       id: uuidv4(),
       name: "Vipul Jain",
       img: "https://avatars3.githubusercontent.com/u/27679225?v=4",
@@ -27228,7 +27262,8 @@ export const data = {
     {
       id: uuidv4(),
       name: "Tomas Ramirez",
-      img: "https://avatars1.githubusercontent.com/u/38819979?s=460&u=d910d85c5e360dbe46eacfdc5286194db20d8cf7&v=4",
+      img:
+        "https://avatars1.githubusercontent.com/u/38819979?s=460&u=d910d85c5e360dbe46eacfdc5286194db20d8cf7&v=4",
       links: {
         website: "https://www.ramireztomas.com/",
         linkedin: "www.linkedin.com/in/tomas-ramirez-156820149",
@@ -27248,13 +27283,78 @@ export const data = {
       links: {
         website: "https://aman23ks.github.io/aman/",
         linkedin: "https://www.linkedin.com/in/aman-shrivastava-a132b2169/",
-        github: "https://github.com/aman23ks",
+        github: "https://github.com/aman23ks"
       },
       jobTitle: "Software Developer",
       location: {
         city: "Thane",
         state: "Maharashtra",
-        country: "India",
+        country: "India"
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Ibrahim Kaiser",
+      img: "https://github.com/ikReza.png",
+      links: {
+        website: "https://ibrahim-kaiser.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/ibrahim-kaiser/",
+        github: "https://github.com/ikReza"
+      },
+      jobTitle: "Frontend Developer",
+      location: {
+        city: "Dhaka",
+        state: "",
+        country: "Bangladesh"
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Hrithik Bansal",
+      img: "https://avatars2.githubusercontent.com/u/26538582?v=4",
+      links: {
+        website: "https://hrithikbansal.com/",
+        linkedin: "https://www.linkedin.com/in/bansalhrithik07/",
+        github: "https://github.com/lasnab"
+      },
+      jobTitle: "Full Stack Web Development",
+      location: {
+        city: "College Park",
+        state: "Maryland",
+        country: "United States"
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Simon Barrett",
+      img:
+        "https://avatars3.githubusercontent.com/u/65019944?s=400&u=59717c531f8941d7eaca4ce1251cd1e0ae0a57c8&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/sgb-codes/",
+        github: "https://github.com/sgb-codes"
+      },
+      jobTitle: "Software Engineer",
+      location: {
+        city: "Vancouver",
+        state: "BC",
+        country: "Canada"
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Alexandru Hutupasu",
+      img: "https://github.com/Alexandrusandy.png",
+      links: {
+        website: "https://alexandrundy-portofolio.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/alexandru-hutupasu-60a05b1bb/",
+        github: "https://github.com/Alexandrusandy"
+      },
+      jobTitle: "Fullstack Web Developer",
+      location: {
+        city: "Bucharest",
+        state: "",
+        country: "Romania"
       }
     },
   ]
