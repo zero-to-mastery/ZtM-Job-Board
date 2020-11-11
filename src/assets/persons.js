@@ -7925,15 +7925,16 @@ export const data = {
     {
       id: uuidv4(),
       name: "Elissavet Triantafyllopoulou",
-      img: "https://avatars3.githubusercontent.com/u/13526047?s=460&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/13526047?s=460&u=c4539cc5d6d75615d2d38bf3b6aa51322c1ccc11&v=4",
       links: {
-        website: "https://www.elissavet.me",
+        website: "https://elissavet.me",
         linkedin: "https://www.linkedin.com/in/elitriant/",
         github: "https://github.com/elisavetTriant",
       },
-      jobTitle: "IT Professional | Full Stack PHP Web Developer",
+      jobTitle: "IT Professional | Full Stack Web Developer",
       location: {
-        city: "",
+        city: "Thessaloniki",
         state: "",
         country: "Greece",
       },
@@ -27174,7 +27175,6 @@ export const data = {
         state: "Hessen",
         country: "Germany",
       },
-
     },
     {
       id: uuidv4(),
@@ -27274,6 +27274,7 @@ export const data = {
         state: "Maharashtra",
         country: "India",
       },
+
     },
     {
       id: uuidv4(),
