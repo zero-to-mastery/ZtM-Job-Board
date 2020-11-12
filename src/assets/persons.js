@@ -27390,12 +27390,7 @@ export const data = {
     {
       id: uuidv4(),
       name: "Simon Barrett",
-<<<<<<< HEAD
-      img: "https://avatars3.githubusercontent.com/u/65019944?s=400&u=59717c531f8941d7eaca4ce1251cd1e0ae0a57c8&v=4",
-=======
-      img:
-        "https://avatars3.githubusercontent.com/u/65019944?s=400&u=59717c531f8941d7eaca4ce1251cd1e0ae0a57c8&v=4",
->>>>>>> bf135400f90ae49112e51b54e13cb4d5c6ca880c
+      img:"https://avatars3.githubusercontent.com/u/65019944?s=400&u=59717c531f8941d7eaca4ce1251cd1e0ae0a57c8&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/sgb-codes/",
@@ -27410,20 +27405,6 @@ export const data = {
     },
     {
       id: uuidv4(),
-<<<<<<< HEAD
-      name: "Jose L Saboya",
-      img: "https://personal-portfolio-2020.s3.amazonaws.com/profile1.jpg",
-      links: {
-        website: "www.SaboyaDev.com",
-        linkedin: "https://www.linkedin.com/in/joseluissaboya/",
-        github: "https://github.com/SaboyaDev"
-      },
-      jobTitle: "Full Stack Web Developer",
-      location: {
-        city: "Garfield",
-        state: "New Jersey",
-        country: "United States"
-=======
       name: "Alexandru Hutupasu",
       img: "https://github.com/Alexandrusandy.png",
       links: {
@@ -27452,7 +27433,22 @@ export const data = {
         city: "London",
         state: "England",
         country: "United Kingdom"
->>>>>>> bf135400f90ae49112e51b54e13cb4d5c6ca880c
+      }
+    },
+    {
+      id: uuidv4(),
+      name: "Jose L Saboya",
+      img: "https://personal-portfolio-2020.s3.amazonaws.com/profile1.jpg",
+      links: {
+        website: "https://saboyadev.com",
+        linkedin: "https://www.linkedin.com/in/joseluissaboya/",
+        github: "https://github.com/SaboyaDev"
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "Garfield",
+        state: "New Jersey",
+        country: "United States"
       }
     }
   ]
