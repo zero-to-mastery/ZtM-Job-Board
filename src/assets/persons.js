@@ -4,22 +4,6 @@ export const data = {
   people: [
     {
       id: uuidv4(),
-      name: "Ruixiang Ding",
-      img: "",
-      links: {
-        website: "https://zealous-swanson-729a74.netlify.app/",
-        linkedin: "https://www.linkedin.com/in/ruixiang-ding-13bbb7148/",
-        github: "https://github.com/Tintindrx66",
-      },
-      jobTitle: "Software Developer",
-      location: {
-        city: "Toronto",
-        state: "ON",
-        country: "Canada",
-      },
-    },
-    {
-      id: uuidv4(),
       name: "Kevin adam",
       img: "https://avatars3.githubusercontent.com/u/33047790?s=460&v=4",
       links: {
@@ -27484,6 +27468,22 @@ export const data = {
         city: "Garfield",
         state: "New Jersey",
         country: "United States",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Ruixiang Ding",
+      img: "",
+      links: {
+        website: "https://zealous-swanson-729a74.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/ruixiang-ding-13bbb7148/",
+        github: "https://github.com/Tintindrx66",
+      },
+      jobTitle: "Software Developer",
+      location: {
+        city: "Toronto",
+        state: "ON",
+        country: "Canada",
       },
     },
   ],
