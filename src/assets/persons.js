@@ -27330,14 +27330,30 @@ export const data = {
       links: {
         website: "https://ibrahim-kaiser.netlify.app/",
         linkedin: "https://www.linkedin.com/in/ibrahim-kaiser/",
-        github: "https://github.com/ikReza"
+        github: "https://github.com/ikReza",
       },
       jobTitle: "Frontend Developer",
       location: {
         city: "Dhaka",
         state: "",
-        country: "Bangladesh"
-      }
+        country: "Bangladesh",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Sunny Lee",
+      img: "https://avatars3.githubusercontent.com/u/46906883?v=4",
+      links: {
+        website: "https://sunny-portfolio.vercel.app/",
+        linkedin: "https://www.linkedin.com/in/leesunny507/",
+        github: "https://github.com/LSunny5",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "",
+        state: "New Jersey",
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
