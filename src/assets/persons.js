@@ -3970,7 +3970,7 @@ export const data = {
         "https://avatars3.githubusercontent.com/u/57884127?s=460&u=2c3776479e095e92cbc884a327a0a37348239cd2&v=4",
       links: {
         linkedin: "https://www.linkedin.com/in/kaniskc/",
-        github: "https://github.com/k-n-sk",
+        github: "https://github.com/chakrakan"
       },
       jobTitle: "Software Engineer",
       location: {
@@ -27190,6 +27190,22 @@ export const data = {
         city: "Frankfurt",
         state: "Hessen",
         country: "Germany",
+      },
+    },
+    {
+      id: uuidv4(),
+      name: "Dimitrios Zervas",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "",
+        github: "https://github.com/dimitrisz123",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Athens",
+        state: "",
+        country: "Greece",
       },
     },
     {
