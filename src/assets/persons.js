@@ -27277,6 +27277,21 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Simon Lee",
+      img: "https://avatars1.githubusercontent.com/u/22103041?v=4",
+      links: {
+        website: "https://simonhlee97.github.io/",
+        linkedin: "https://www.linkedin.com/in/simon-h-lee/",
+        github: "https://github.com/simonhlee97",
+      },
+      jobTitle: "Full Stack Developer",
+      location: {
+        city: "Seoul",
+        state: "",
+        country: "South Korea",
+      },
+    },
+    {
       name: "ChingPing Yang",
       img:
         "https://media-exp1.licdn.com/dms/image/C5103AQEDv5pJhy4fmg/profile-displayphoto-shrink_200_200/0?e=1609977600&v=beta&t=ltME8w6gAhtDnBOsMLAI0oiRCTHTf_HgEdfqfNcS3p8",
