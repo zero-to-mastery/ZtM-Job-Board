@@ -36,6 +36,22 @@ export const data = {
     },
     {
       id: uuidv4(),
+      name: "Alejandro Rodriguez Lopez",
+      img: "https://media-exp1.licdn.com/dms/image/C4E35AQEf6BK2xV7kMA/profile-framedphoto-shrink_200_200/0?e=1605049200&v=beta&t=-Ah0QWlNqzABQGNxoE780e7-zG-VwuiLgSAF7JasJW4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/alejandro-rodriguez-lopez-57b150194/",
+        github: "https://github.com/AlejandroRdzLpz"
+      },
+      jobTitle: "Full Stack Web Developer",
+      location: {
+        city: "CDMX",
+        state: "CDMX",
+        country: "Mexico"
+      }
+    },
+    {
+      id: uuidv4(),
       name: "Anand Raj",
       img: "https://avatars2.githubusercontent.com/u/18496862?v=4",
       links: {
