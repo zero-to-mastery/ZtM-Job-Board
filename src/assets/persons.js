@@ -4,19 +4,35 @@ export const data = {
   people: [
     {
       id: uuidv4(),
+      name: "Ruixiang Ding",
+      img: "",
+      links: {
+        website: "https://zealous-swanson-729a74.netlify.app/",
+        linkedin: "https://www.linkedin.com/in/ruixiang-ding-13bbb7148/",
+        github: "https://github.com/Tintindrx66",
+      },
+      jobTitle: "Software Developer",
+      location: {
+        city: "Toronto",
+        state: "ON",
+        country: "Canada",
+      },
+    },
+    {
+      id: uuidv4(),
       name: "Kevin adam",
       img: "https://avatars3.githubusercontent.com/u/33047790?s=460&v=4",
       links: {
         website: "http://bykevin.work/",
         linkedin: "https://www.linkedin.com/in/kevinputraadam/",
-        github: "https://github.com/vnxx/"
+        github: "https://github.com/vnxx/",
       },
       jobTitle: "Full-Stack Developer",
       location: {
         city: "Kab Bogor",
         state: "Jawa Barat",
-        country: "Indonesia"
-      }
+        country: "Indonesia",
+      },
     },
     {
       id: uuidv4(),
@@ -37,18 +53,20 @@ export const data = {
     {
       id: uuidv4(),
       name: "Alejandro Rodriguez Lopez",
-      img: "https://media-exp1.licdn.com/dms/image/C4E35AQEf6BK2xV7kMA/profile-framedphoto-shrink_200_200/0?e=1605049200&v=beta&t=-Ah0QWlNqzABQGNxoE780e7-zG-VwuiLgSAF7JasJW4",
+      img:
+        "https://media-exp1.licdn.com/dms/image/C4E35AQEf6BK2xV7kMA/profile-framedphoto-shrink_200_200/0?e=1605049200&v=beta&t=-Ah0QWlNqzABQGNxoE780e7-zG-VwuiLgSAF7JasJW4",
       links: {
         website: "",
-        linkedin: "https://www.linkedin.com/in/alejandro-rodriguez-lopez-57b150194/",
-        github: "https://github.com/AlejandroRdzLpz"
+        linkedin:
+          "https://www.linkedin.com/in/alejandro-rodriguez-lopez-57b150194/",
+        github: "https://github.com/AlejandroRdzLpz",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "CDMX",
         state: "CDMX",
-        country: "Mexico"
-      }
+        country: "Mexico",
+      },
     },
     {
       id: uuidv4(),
@@ -3970,7 +3988,7 @@ export const data = {
         "https://avatars3.githubusercontent.com/u/57884127?s=460&u=2c3776479e095e92cbc884a327a0a37348239cd2&v=4",
       links: {
         linkedin: "https://www.linkedin.com/in/kaniskc/",
-        github: "https://github.com/chakrakan"
+        github: "https://github.com/chakrakan",
       },
       jobTitle: "Software Engineer",
       location: {
@@ -27298,7 +27316,7 @@ export const data = {
       links: {
         website: "https://aman23ks.github.io/aman/",
         linkedin: "https://www.linkedin.com/in/aman-shrivastava-a132b2169/",
-        github: "https://github.com/aman23ks"
+        github: "https://github.com/aman23ks",
       },
       jobTitle: "Software Developer",
       location: {
@@ -27394,30 +27412,31 @@ export const data = {
       links: {
         website: "https://hrithikbansal.com/",
         linkedin: "https://www.linkedin.com/in/bansalhrithik07/",
-        github: "https://github.com/lasnab"
+        github: "https://github.com/lasnab",
       },
       jobTitle: "Full Stack Web Development",
       location: {
         city: "College Park",
         state: "Maryland",
-        country: "United States"
-      }
+        country: "United States",
+      },
     },
     {
       id: uuidv4(),
       name: "Simon Barrett",
-      img:"https://avatars3.githubusercontent.com/u/65019944?s=400&u=59717c531f8941d7eaca4ce1251cd1e0ae0a57c8&v=4",
+      img:
+        "https://avatars3.githubusercontent.com/u/65019944?s=400&u=59717c531f8941d7eaca4ce1251cd1e0ae0a57c8&v=4",
       links: {
         website: "",
         linkedin: "https://www.linkedin.com/in/sgb-codes/",
-        github: "https://github.com/sgb-codes"
+        github: "https://github.com/sgb-codes",
       },
       jobTitle: "Software Engineer",
       location: {
         city: "Vancouver",
         state: "BC",
-        country: "Canada"
-      }
+        country: "Canada",
+      },
     },
     {
       id: uuidv4(),
@@ -27426,14 +27445,14 @@ export const data = {
       links: {
         website: "https://alexandrundy-portofolio.netlify.app/",
         linkedin: "https://www.linkedin.com/in/alexandru-hutupasu-60a05b1bb/",
-        github: "https://github.com/Alexandrusandy"
+        github: "https://github.com/Alexandrusandy",
       },
       jobTitle: "Fullstack Web Developer",
       location: {
         city: "Bucharest",
         state: "",
-        country: "Romania"
-      }
+        country: "Romania",
+      },
     },
     {
       id: uuidv4(),
@@ -27448,8 +27467,8 @@ export const data = {
       location: {
         city: "London",
         state: "England",
-        country: "United Kingdom"
-      }
+        country: "United Kingdom",
+      },
     },
     {
       id: uuidv4(),
@@ -27458,14 +27477,14 @@ export const data = {
       links: {
         website: "https://saboyadev.com",
         linkedin: "https://www.linkedin.com/in/joseluissaboya/",
-        github: "https://github.com/SaboyaDev"
+        github: "https://github.com/SaboyaDev",
       },
       jobTitle: "Full Stack Web Developer",
       location: {
         city: "Garfield",
         state: "New Jersey",
-        country: "United States"
-      }
-    }
-  ]
+        country: "United States",
+      },
+    },
+  ],
 }
