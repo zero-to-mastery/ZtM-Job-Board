@@ -27486,6 +27486,22 @@ export const data = {
         state: "DC",
         country: "United States"
       }
-    }
+    },
+    {
+      id: uuidv4(),
+      name: "Marvin Turner",
+      img: "https://avatars3.githubusercontent.com/u/8616618?v=4",
+      links: {
+        website: "https://mkturner.com",
+        linkedin: "https://www.linkedin.com/in/marvinkturner/",
+        github: "https://github.com/mkturner"
+      },
+      jobTitle: "Fullstack & DevOps Engineer",
+      location: {
+        city: "Atlanta",
+        state: "GA",
+        country: "USA"
+      }
+    },
   ]
 }
