@@ -27470,6 +27470,22 @@ export const data = {
         state: "",
         country: "Canada"
       }
+    },
+    {
+      id: uuidv4(),
+      name: "Brandon Galloway",
+      img: "https://avatars1.githubusercontent.com/u/72318141?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/brandon-galloway-5211b9b7",
+        github: "https://github.com/thingetoo/"
+      },
+      jobTitle: "Front-end Developer",
+      location: {
+        city: "Washington",
+        state: "DC",
+        country: "United States"
+      }
     }
   ]
 }
