@@ -27472,20 +27472,36 @@ export const data = {
       }
     },
     {
-    id: uuidv4(),
-    name: "Marvin Turner",
-    img: "https://avatars3.githubusercontent.com/u/8616618?v=4",
-    links: {
-      website: "https://mkturner.com",
-      linkedin: "https://www.linkedin.com/in/marvinkturner/",
-      github: "https://github.com/mkturner"
+      id: uuidv4(),
+      name: "Brandon Galloway",
+      img: "https://avatars1.githubusercontent.com/u/72318141?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/brandon-galloway-5211b9b7",
+        github: "https://github.com/thingetoo/"
+      },
+      jobTitle: "Front-end Developer",
+      location: {
+        city: "Washington",
+        state: "DC",
+        country: "United States"
+      }
     },
-    jobTitle: "Fullstack & DevOps Engineer",
-    location: {
-      city: "Atlanta",
-      state: "GA",
-      country: "USA"
-    }
-  }
+    {
+      id: uuidv4(),
+      name: "Marvin Turner",
+      img: "https://avatars3.githubusercontent.com/u/8616618?v=4",
+      links: {
+        website: "https://mkturner.com",
+        linkedin: "https://www.linkedin.com/in/marvinkturner/",
+        github: "https://github.com/mkturner"
+      },
+      jobTitle: "Fullstack & DevOps Engineer",
+      location: {
+        city: "Atlanta",
+        state: "GA",
+        country: "USA"
+      }
+    },
   ]
 }
