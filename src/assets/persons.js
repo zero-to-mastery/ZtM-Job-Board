@@ -27503,5 +27503,21 @@ export const data = {
         country: "USA"
       }
     },
+    {
+      id: uuidv4(),
+      name: "Abdelwahab Ahmed",
+      img: "https://avatars3.githubusercontent.com/u/59283912?s=400&u=7def4bb94adbfb5770ffe8571e53c4a3d9f01d40&v=4",
+      links: {
+        website: "https://github.com/Abdelwahab0/Abdelwahab-portfolio",
+        linkedin: "https://www.linkedin.com/in/abd-el-wahab-ahmed-476593156/",
+        github: "https://github.com/Abdelwahab0"
+      },
+      jobTitle: "Front-End Developer",
+      location: {
+        city: "Alexandria",
+        state: "",
+        country: "Egypt"
+      }
+    },
   ]
 }
