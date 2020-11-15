@@ -15144,52 +15144,68 @@ export const data = {
       },
     },
     {
-    id: uuidv4(),
-    name: "Mohamed Mufassal Sultan",
-    img: "https://avatars3.githubusercontent.com/u/30759580?v=4",
-    links: {
-      website: "",
-      linkedin: "https://www.linkedin.com/in/mohamed-mufassal-a5b439150/",
-      github: "https://github.com/dpcoolmufa"
+      id: uuidv4(),
+      name: "Mohamed Mufassal Sultan",
+      img: "https://avatars3.githubusercontent.com/u/30759580?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/mohamed-mufassal-a5b439150/",
+        github: "https://github.com/dpcoolmufa",
+      },
+      jobTitle: "Web Developer & Data Scientist",
+      location: {
+        city: "Madurai",
+        state: "Tamil Nadu",
+        country: "India",
+      },
     },
-    jobTitle: "Web Developer & Data Scientist",
-    location: {
-      city: "Madurai",
-      state: "Tamil Nadu",
-      country: "India"
-    }
-  },
-  {
-    id: uuidv4(),
-    name: "Guendouz Abdelkader",
-    img: "",
-    links: {
-      website: "",
-      linkedin: "https://www.linkedin.com/in/abdelkader-guendouz-490818187/",
-      github: "https://github.com/ican17"
+    {
+      id: uuidv4(),
+      name: "Guendouz Abdelkader",
+      img: "",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/abdelkader-guendouz-490818187/",
+        github: "https://github.com/ican17",
+      },
+      jobTitle: "Software Engineer | Full-Stack Web Developer",
+      location: {
+        city: "Hassi Bahbah",
+        state: "Djefla",
+        country: "Algeria",
+      },
     },
-    jobTitle: "Software Engineer | Full-Stack Web Developer",
-    location: {
-      city: "Hassi Bahbah",
-      state: "Djefla",
-      country: "Algeria"
-    }
-  },
-  {
-    id: uuidv4(),
-    name: "Gustavo Varallo",
-    img: "https://avatars0.githubusercontent.com/u/4613916?v=4",
-    links: {
-      website: "http://www.varallo.me",
-      linkedin: "",
-      github: "https://github.com/guvarallo"
+    {
+      id: uuidv4(),
+      name: "Gustavo Varallo",
+      img: "https://avatars0.githubusercontent.com/u/4613916?v=4",
+      links: {
+        website: "http://www.varallo.me",
+        linkedin: "",
+        github: "https://github.com/guvarallo",
+      },
+      jobTitle: "Software Engineer | Full-Stack Web Developer",
+      location: {
+        city: "",
+        state: "",
+        country: "Brazil",
+      },
     },
-    jobTitle: "Software Engineer | Full-Stack Web Developer",
-    location: {
-      city: "",
-      state: "",
-      country: "Brazil"
-    }
-  }
+    {
+      id: uuidv4(),
+      name: "Mad3Trip",
+      img: "https://avatars1.githubusercontent.com/u/50635477?s=60&v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/Roman Sestina/",
+        github: "https://github.com/Mad3Trip",
+      },
+      jobTitle: "Full-Stack Web Developer",
+      location: {
+        city: "Torquay",
+        state: "Devon",
+        country: "UK",
+      },
+    },
   ],
 }
