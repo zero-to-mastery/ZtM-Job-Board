@@ -27519,5 +27519,21 @@ export const data = {
         country: "Egypt"
       }
     },
+    {
+      id: uuidv4(),
+      name: "Hyunji Kim",
+      img: "https://avatars1.githubusercontent.com/u/69276681?v=4",
+      links: {
+        website: "",
+        linkedin: "https://www.linkedin.com/in/creativehkim/",
+        github: "https://github.com/creativehkim"
+      },
+      jobTitle: "Front-End Developer",
+      location: {
+        city: "Toronto",
+        state: "ON",
+        country: "Canada"
+      }
+    }
   ]
 }
