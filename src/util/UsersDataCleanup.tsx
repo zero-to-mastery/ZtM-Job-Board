@@ -1,11 +1,11 @@
-import { data } from "../assets/persons.js"
+import persons from "../assets/persons.json"
 /* CLEAN UP THE persons.json DATA TO MAKE IT EASIER 
 TO MAKE FETCH REQUESTS FOR COUNTRIES AND COORDINATES 
 (LATITUDE, LONGITUDE) AND COMPARE AND MATCH THEM */
 
 import Person from "../interfaces/person"
 
-const people: any = data.people
+const people: any = persons
 
 // Using uuid for the person id
 // const normalizeIDs = () => {

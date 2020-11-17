@@ -15,7 +15,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
       - name: Run Script
         run: |
-          NODE_OUTPUT=`node scripts/aggregrate-json.mjs 2>&1`
+          NODE_OUTPUT=`node scripts/aggregate-json.mjs 2>&1`
 
           if [[ $NODE_OUTPUT ]];then
             exit 0
@@ -28,12 +28,12 @@ jobs:
             exit 0
           fi
 
-            jq -n --arg body "$(echo $NODE_OUTPUT)" '{ body: $body }' |\
-            curl -sL  -X POST -d @- \
-            -H "Content-Type: application/json" \
-            -H "Accept: application/vnd.github.v3+json" \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            "https://api.github.com/repos/${{ github.repository }}/commits/$GITHUB_SHA/comments"
+          jq -n --arg body "$(echo $NODE_OUTPUT)" '{ body: $body }' |\
+          curl -sL  -X POST -d @- \
+          -H "Content-Type: application/json" \
+          -H "Accept: application/vnd.github.v3+json" \
+          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          "https://api.github.com/repos/${{ github.repository }}/commits/$GITHUB_SHA/comments"
 
       - name: Build Project
         run: |
