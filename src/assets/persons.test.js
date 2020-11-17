@@ -1,13 +1,12 @@
-import { data } from "./persons.js"
+import persons from "./persons.json"
 import jsonlint from "jsonlint"
 
 test("Persons object is a valid JSON object", () => {
-  const peopleString = JSON.stringify(data)
+  const peopleString = JSON.stringify(persons)
   jsonlint.parse(peopleString)
 })
 
 // Test if image URLs are longer than 200 characters to reduce file size
-const persons = data.people
 const personsLength = persons.length
 // to reduce file size and disallow large image URLs or base64 encoded images
 it("img url is not base64 or too long", () => {
