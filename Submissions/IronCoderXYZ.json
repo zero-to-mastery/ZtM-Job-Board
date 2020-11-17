@@ -1,0 +1,16 @@
+{
+  "id": "1775d34c-e9a4-487d-b35c-60d896e3a519",
+  "name": "Mitch Hankins",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/IronCoderXYZ",
+    "github": "https://github.com/IronCoderXYZ"
+  },
+  "jobTitle": "Full-Stack JavaScript Dev",
+  "location": {
+    "city": "Denver",
+    "state": "CO",
+    "country": "USA"
+  }
+}

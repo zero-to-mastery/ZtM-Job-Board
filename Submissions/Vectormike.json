@@ -1,0 +1,16 @@
+{
+  "id": "cccccdbf-6e16-472c-9741-fc570318001d",
+  "name": "Victor Jonah",
+  "img": "https://avatars2.githubusercontent.com/u/30151767?s=400&u=6e371cca7372e7627d27dacd64abfdb213053229&v=4",
+  "links": {
+    "website": "https://www.vectormike.codes/",
+    "linkedin": "https://www.linkedin.com/in/victor-jonah-abb1a1120/",
+    "github": "https://github.com/Vectormike"
+  },
+  "jobTitle": "Full Stack JavaScript Developer",
+  "location": {
+    "city": "Uyo",
+    "state": "AkwaIbom",
+    "country": "Nigeria"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "f266d0ce-e724-4c11-a47d-00678d200634",
+  "name": "Piotr Kowalski",
+  "img": "https://media.licdn.com/dms/image/C4D03AQGcf89ACxun0Q/profile-displayphoto-shrink_800_800/0?e=1528549200&v=beta&t=4-3H7jB8ADFrpOZDrDr9T4ZJhTFl88OVq034R3j4svU",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/piotr-kowalski-57379a120",
+    "github": "https://github.com/piotrke"
+  },
+  "jobTitle": "Full-Stack .NET Developer",
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "Poland"
+  }
+}

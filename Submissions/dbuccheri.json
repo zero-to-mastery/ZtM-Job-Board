@@ -1,0 +1,16 @@
+{
+  "id": "4ee17dfa-d6fa-4d0d-beff-cf530f8b4753",
+  "name": "Daniele Buccheri",
+  "img": "https://avatars2.githubusercontent.com/u/9345854?s=460&v=4",
+  "links": {
+    "website": "https://dbuccheri.github.io",
+    "linkedin": "https://www.linkedin.com/in/danielebuccheri/",
+    "github": "https://github.com/dbuccheri"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Los Angeles",
+    "state": "California",
+    "country": "United States"
+  }
+}

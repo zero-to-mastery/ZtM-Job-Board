@@ -1,0 +1,16 @@
+{
+  "id": "1e4ec686-d97c-4926-89e4-7b63bd0206e4",
+  "name": "David Yang",
+  "img": "https://www.gravatar.com/avatar/f73911268c7b1cfa458988828ed89d80?d=mm&s=120",
+  "links": {
+    "website": "https://aodabo.tech",
+    "linkedin": "https://www.linkedin.com/in/zhiyuan-yang-9204b8134/",
+    "github": "https://github.com/yzyly1992"
+  },
+  "jobTitle": "Full-Stack Web Developer",
+  "location": {
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "USA"
+  }
+}

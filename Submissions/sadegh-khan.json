@@ -1,0 +1,16 @@
+{
+  "id": "f878a9c6-1553-4cf2-a21c-bccbf64a6ab9",
+  "name": "Sadegh Khan",
+  "img": "https://avatars2.githubusercontent.com/u/10074809?v=4",
+  "links": {
+    "website": "http://sadegh-khan.ir",
+    "linkedin": "https://www.linkedin.com/in/mohammad-sadegh-salehi-6917436b/",
+    "github": "https://github.com/sadegh-khan"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Tehran",
+    "state": "Tehran Province",
+    "country": "Iran"
+  }
+}

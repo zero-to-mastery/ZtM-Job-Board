@@ -1,0 +1,16 @@
+{
+  "id": "55992e42-8344-4364-baba-d88a465777e0",
+  "name": "Prabhjot Singh",
+  "img": "https://avatars3.githubusercontent.com/u/47789898?s=400&u=103b7e4f41d70a9b06ae407ee56ae11277b2477a&v=4",
+  "links": {
+    "website": "https://batmangoo.github.io/Javascript-Portfolio/",
+    "linkedin": "https://www.linkedin.com/in/prabhjot-singh-59750199/",
+    "github": "https://github.com/BATMANGOO"
+  },
+  "jobTitle": "Full-Stack Web Developer",
+  "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States"
+  }
+}

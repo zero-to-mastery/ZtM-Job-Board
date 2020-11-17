@@ -1,0 +1,16 @@
+{
+  "id": "77d2b86e-e24f-44f5-ac09-4e8a10340e0e",
+  "name": "Pavan T",
+  "img": "https://pavanskipo.com/assets/img/me.png",
+  "links": {
+    "website": "https://pavanskipo.com/",
+    "linkedin": "https://www.linkedin.com/in/pavan-t/",
+    "github": "https://github.com/pavanskipo"
+  },
+  "jobTitle": "Software Developer | Aspiring Data Scientist | ML Enthusiast",
+  "location": {
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India"
+  }
+}

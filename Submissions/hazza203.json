@@ -1,0 +1,16 @@
+{
+  "id": "8e9eca79-e75e-4d4d-89b1-68e38c5cc5bb",
+  "name": "Harry Parkinson",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/harry-parkinson-418515126/",
+    "github": "https://github.com/hazza203/"
+  },
+  "jobTitle": "Full Stack Web Developer (Javascript, React) and Software Developer (Java, Python)",
+  "location": {
+    "city": "Melbourne",
+    "state": "Victoria",
+    "country": "Australia"
+  }
+}

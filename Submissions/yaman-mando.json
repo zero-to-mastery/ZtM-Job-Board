@@ -1,0 +1,16 @@
+{
+  "id": "15d4263e-8440-4d79-b082-0ca14fbf592f",
+  "name": "Yaman Mando",
+  "img": "https://i.ibb.co/HHs5HYV/yaman.jpg",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/yaman-mando/",
+    "github": "https://github.com/yaman-mando"
+  },
+  "jobTitle": "Frontend And Mobile Developer,Ionic,Angular,React js",
+  "location": {
+    "city": "Istanbul",
+    "state": "",
+    "country": "Turkey"
+  }
+}

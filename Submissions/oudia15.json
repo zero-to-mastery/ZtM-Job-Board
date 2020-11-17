@@ -1,0 +1,16 @@
+{
+  "id": "8ef16988-ac92-42e6-a494-f5251a3de6b1",
+  "name": "Oumar Diarra",
+  "img": "https://oudia15.github.io/Images/me_linkedin.jpg",
+  "links": {
+    "website": "https://oudia15.github.io",
+    "linkedin": "https://www.linkedin.com/in/diarraoumar",
+    "github": "https://github.com/oudia15"
+  },
+  "jobTitle": "Full stack Developer",
+  "location": {
+    "city": "Louisiana",
+    "state": "",
+    "country": "USA (Willing to relocate!)"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "b117fee7-a2c0-4937-ab19-fa86aa6712bd",
+  "name": "Damyan Peykov",
+  "img": "",
+  "links": {
+    "website": "https://dppeykov.github.io/",
+    "linkedin": "https://www.linkedin.com/in/damyan-peykov/",
+    "github": "https://github.com/dppeykov"
+  },
+  "jobTitle": "Full Stack Developer/System Administrator",
+  "location": {
+    "city": "Brno",
+    "state": "South Moravia",
+    "country": "Czech Republic"
+  }
+}

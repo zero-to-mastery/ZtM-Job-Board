@@ -1,0 +1,16 @@
+{
+  "id": "cf303bae-2feb-496d-a143-28a991acfdee",
+  "name": "Vanessa Wang",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/vanessawpwang/",
+    "github": "https://github.com/sanguliupo"
+  },
+  "jobTitle": "Front-end Web Developer",
+  "location": {
+    "city": "San Francisco",
+    "state": "California",
+    "country": "United States"
+  }
+}

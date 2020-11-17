@@ -1,0 +1,16 @@
+{
+  "id": "404acb19-6ebb-4102-b53f-eeb8aed20f48",
+  "name": "Petar Dyakov",
+  "img": "",
+  "links": {
+    "website": "https://dyakov.cc",
+    "linkedin": "https://www.linkedin.com/in/petar-dyakov",
+    "github": "https://github.com/PepoDyakov"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Sofia",
+    "state": "",
+    "country": "Bulgaria"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "b7dfd02d-b28c-41ea-9844-35f73f264296",
+  "name": "Pedro P. Medina",
+  "img": "",
+  "links": {
+    "website": "https://pedropmedina.github.io",
+    "linkedin": "https://www.linkedin.com/in/pedro-medina-65999b13a",
+    "github": "https://github.com/pedropmedina"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Miami/Fort Lauderdale",
+    "state": "FL",
+    "country": "USA"
+  }
+}

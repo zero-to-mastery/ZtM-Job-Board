@@ -1,0 +1,16 @@
+{
+  "id": "11474fb6-141a-4239-9719-527a26fe0be4",
+  "name": "Andrej Zadnik",
+  "img": "",
+  "links": {
+    "website": "http://www.hipervision.eu",
+    "linkedin": "https://www.linkedin.com/in/andrej-zadnik-3929233a",
+    "github": "https://github.com/andrejza"
+  },
+  "jobTitle": "Full-Stack Dev, C++",
+  "location": {
+    "city": "Stuttgart",
+    "state": "",
+    "country": "Germany"
+  }
+}

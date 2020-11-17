@@ -1,0 +1,16 @@
+{
+  "id": "ffaa348b-29c7-4d8a-b874-141fe305744d",
+  "name": "AHNM Ebn Sina",
+  "img": "https://scontent.fdac1-1.fna.fbcdn.net/v/t1.0-9/55853478_109250640254050_4847091024142532608_n.jpg?_nc_cat=109&_nc_eui2=AeG1d3hmax9FFRFicbOl2KLJ3Renr-G9DI72BYhvTplee9lsl4-w4Iq1DHqyPJrjpQdvffVniosXBoqjyXX98n3W-KgUYir-VVUHdLTDuL0WgA&_nc_oc=AQl4iZpNSeBbP-evgA5W8Dh_J7sRdAf4mvz_t44IoywmYBAt_JpQLtgVqLUaCKjdESI&_nc_ht=scontent.fdac1-1.fna&oh=5c62ec340dd79922ef1a2820d0b07202&oe=5E0D5D84",
+  "links": {
+    "website": "https://ebnsina.me",
+    "linkedin": "https://www.linkedin.com/in/ebn-sina",
+    "github": "https://github.com/ebnsina"
+  },
+  "jobTitle": "Full-Stack Web Dev",
+  "location": {
+    "city": "Dhaka",
+    "state": "",
+    "country": "Bangladesh"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "6c3efac2-461a-477f-a010-ca01be104527",
+  "name": "Anand Raj",
+  "img": "https://avatars2.githubusercontent.com/u/18496862?v=4",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/anandraj07/",
+    "github": "https://github.com/rosewood38"
+  },
+  "jobTitle": "Python-Django Developer",
+  "location": {
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India"
+  }
+}

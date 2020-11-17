@@ -1,0 +1,16 @@
+{
+  "id": "95ede834-c9b6-4e38-b652-1a6ccac8adee",
+  "name": "Rishav Kumar",
+  "img": "https://avatars0.githubusercontent.com/u/57145318?v=4",
+  "links": {
+    "website": "https://hr1shu.pythonanywhere.com",
+    "linkedin": "https://www.linkedin.com/in/rishav-kumar-b4a179191/",
+    "github": "https://github.com/hr1shu"
+  },
+  "jobTitle": "Python Developer",
+  "location": {
+    "city": "Jalandhar",
+    "state": "Punjab",
+    "country": "India"
+  }
+}

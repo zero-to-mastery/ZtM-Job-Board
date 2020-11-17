@@ -1,0 +1,16 @@
+{
+  "id": "2534c5a1-671e-4161-9706-05ee261586bc",
+  "name": "Wilfred Morgan",
+  "img": "https://wilfredmorgan.com/images/wmeheadshot.jpg",
+  "links": {
+    "website": "https://wilfredmorgan.com",
+    "linkedin": "https://www.linkedin.com/in/wilfredmorgan",
+    "github": "https://github.com/wmemorgan"
+  },
+  "jobTitle": "Software & Data Engineer",
+  "location": {
+    "city": "Orlando",
+    "state": "FL",
+    "country": "USA"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "94fca791-531e-4067-bdb7-09109d2f0814",
+  "name": "James Nutter",
+  "img": "",
+  "links": {
+    "website": "https://codepen.io/chaznut",
+    "linkedin": "",
+    "github": "https://github.com/chaznut"
+  },
+  "jobTitle": "Full-Stack Developer",
+  "location": {
+    "city": "Washington DC",
+    "state": "Baltimore",
+    "country": "USA"
+  }
+}

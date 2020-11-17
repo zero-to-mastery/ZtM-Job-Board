@@ -1,0 +1,16 @@
+{
+  "id": "aa83a2d3-7c1c-40c6-a6f0-803566f417f4",
+  "name": "Sagi Hillel",
+  "img": "https://serving.photos.photobox.com/82771602922062b44917e977afcd494bd289d99063ebaf2fef0cee96d5469f6b3210f9eb.jpg",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/sagihillel",
+    "github": "https://github.com/sagihill/"
+  },
+  "jobTitle": "Full-Stack Developer",
+  "location": {
+    "city": "Tel-Aviv",
+    "state": "",
+    "country": "Israel"
+  }
+}

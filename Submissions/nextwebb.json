@@ -1,0 +1,20 @@
+{
+  "id": "41e5d248-c250-48ee-b34f-78a364bedab3",
+  "name": "Peterson Oaikhenah",
+  "img": "https://nextwebb.github.io/profilepics/gitProfile.jpeg",
+  "links": {
+    "website": "nextwebb.com.ng",
+    "instagram": "www.instagram.com/peterson_hn",
+    "twitter": "https://twitter.com/peterson_hn",
+    "facebook": "https://www.facebook.com/peterson.oaikhenah",
+    "gmail": "oaikhenahpeterson@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/peterson-oaikhenah-102645144/",
+    "github": "https://github.com/nextwebb"
+  },
+  "jobTitle": "Full-Stack nodejs and PHP Developer",
+  "location": {
+    "city": "ogba",
+    "state": "Lagos",
+    "country": "Nigeria"
+  }
+}

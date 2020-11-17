@@ -1,0 +1,16 @@
+{
+  "id": "ef24e5c6-8152-45a3-a5ce-962e3176b7e9",
+  "name": "Jim Wright",
+  "img": "",
+  "links": {
+    "website": "https://diskomotech.github.io",
+    "linkedin": "https://www.linkedin.com/in/jimwright808/",
+    "github": "https://github.com/diskomotech"
+  },
+  "jobTitle": "Front-End Developer",
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "United Kingdom"
+  }
+}

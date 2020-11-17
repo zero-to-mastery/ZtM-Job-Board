@@ -1,0 +1,16 @@
+{
+  "id": "c7419a9d-976a-464a-95bb-a9f112afc171",
+  "name": "Akshay Anand",
+  "img": "",
+  "links": {
+    "website": "https://axayjha.github.io/",
+    "linkedin": "https://www.linkedin.com/in/axayjha/",
+    "github": "https://github.com/axayjha"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Pune",
+    "state": "Maharashtra",
+    "country": "India"
+  }
+}

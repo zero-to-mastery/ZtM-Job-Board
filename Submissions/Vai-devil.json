@@ -1,0 +1,16 @@
+{
+  "id": "1f4fa656-bf6b-453f-a24f-fc0b1748736b",
+  "name": "Vaibhav Heda",
+  "img": "http://estebanbarron.com/assets/images/img-01.jpg",
+  "links": {
+    "website": "https://vaibhav-heda.netlify.com/",
+    "linkedin": "https://www.linkedin.com/in/vaibhav-h-a5383b109/",
+    "github": "https://github.com/Vai-devil"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "country": "India"
+  }
+}

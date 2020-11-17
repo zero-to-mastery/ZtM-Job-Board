@@ -1,0 +1,16 @@
+{
+  "id": "8f0e3e8f-23d5-48b9-bf82-3276257768ab",
+  "name": "Hulya Karakaya",
+  "img": "https://twitter.com/hulyakarakayaa/photo",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/hulya-karakaya/",
+    "github": "https://github.com/hulyak"
+  },
+  "jobTitle": "Front End Developer",
+  "location": {
+    "city": "Seattle",
+    "state": "Washington",
+    "country": "United States"
+  }
+}

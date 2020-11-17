@@ -1,0 +1,16 @@
+{
+  "id": "7e026100-00df-46be-9ce9-43b1eb8edfb1",
+  "name": "Constantino Saldana",
+  "img": "https://avatars3.githubusercontent.com/u/45720754?s=460&v=4",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/constantinosaldana/",
+    "github": "https://github.com/antinomezco"
+  },
+  "jobTitle": "Web Developer (Python, JavaScript)",
+  "location": {
+    "city": "Montreal",
+    "state": "Quebec",
+    "country": "Canada"
+  }
+}

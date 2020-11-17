@@ -1,0 +1,16 @@
+{
+  "id": "a524e785-9903-4164-bc91-cee9a58879f3",
+  "name": "Jasper Beachy",
+  "img": "https://www.dropbox.com/s/wurudmom8pqqgwu/20190312_171808.jpg?dl=0",
+  "links": {
+    "website": "https://jasperbeachy.now.sh/",
+    "linkedin": "https://www.linkedin.com/in/jasperbeachy/",
+    "github": "https://github.com/jbeachy21"
+  },
+  "jobTitle": "Front-end web developer",
+  "location": {
+    "city": "Minneapolis",
+    "state": "MN",
+    "country": "USA"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "05ef0ffc-b3d8-49a1-ab2a-cc8e9d0039db",
+  "name": "Kay Nguyen",
+  "img": "https://kaynguyen.dev/static/media/profileImg.6745890d.jpeg",
+  "links": {
+    "website": "https://kaynguyen.dev",
+    "linkedin": "https://www.linkedin.com/in/kaynguyen-dev/",
+    "github": "https://github.com/k-awe-some"
+  },
+  "jobTitle": "React Developer",
+  "location": {
+    "city": "Toronto",
+    "state": "Ontario",
+    "country": "Canada"
+  }
+}

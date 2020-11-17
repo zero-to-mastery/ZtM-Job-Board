@@ -1,0 +1,16 @@
+{
+  "id": "3e775691-c745-4a21-8e92-4cb3d3dd1883",
+  "name": "Jugal Bhatt",
+  "img": "https://photos.app.goo.gl/dvU4hCMCkJPwht397",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/jugal-bhatt14",
+    "github": "https://github.com/jugaldb"
+  },
+  "jobTitle": "Backend Web developer and DevOps",
+  "location": {
+    "city": "Surat",
+    "state": "Gujarat",
+    "country": "India"
+  }
+}

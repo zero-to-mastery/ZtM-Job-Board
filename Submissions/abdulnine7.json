@@ -1,0 +1,16 @@
+{
+  "id": "50a5ea4d-faa1-4be8-92ae-9bed8b3fbb65",
+  "name": "Abdul Noushad S.",
+  "img": "https://avatars0.githubusercontent.com/u/17446181?v=4",
+  "links": {
+    "website": "https://abdul.co.in/",
+    "linkedin": "https://www.linkedin.com/in/abdulnine7/",
+    "github": "https://github.com/abdulnine7"
+  },
+  "jobTitle": "Python-Django Developer",
+  "location": {
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India"
+  }
+}

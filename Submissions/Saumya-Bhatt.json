@@ -1,0 +1,16 @@
+{
+  "id": "c637225b-722b-4abd-ac3b-7236b9f825c8",
+  "name": "Saumya Bhatt",
+  "img": "https://saumya-bhatt.github.io/img/profile.jpeg",
+  "links": {
+    "website": "https://saumya-bhatt.github.io/",
+    "linkedin": "https://www.linkedin.com/in/saumya-bhatt-2000/",
+    "github": "https://github.com/Saumya-Bhatt"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Panji",
+    "state": "Goa",
+    "country": "India"
+  }
+}

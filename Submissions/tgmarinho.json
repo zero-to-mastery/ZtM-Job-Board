@@ -1,0 +1,16 @@
+{
+  "id": "cae76f91-882e-4a86-8a9c-8389eb551d31",
+  "name": "Thiago Marinho",
+  "img": "https://avatars2.githubusercontent.com/u/380327?s=150&v=3",
+  "links": {
+    "website": "http://tgmarinho.com",
+    "linkedin": "https://www.linkedin.com/in/tgmarinho",
+    "github": "https://github.com/tgmarinho"
+  },
+  "jobTitle": "React Developer - Home Office",
+  "location": {
+    "city": "Dourados",
+    "state": "MS",
+    "country": "Brazil"
+  }
+}

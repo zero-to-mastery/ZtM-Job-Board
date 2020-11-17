@@ -1,0 +1,16 @@
+{
+  "id": "7b4afb6b-c772-4edd-9cae-ae4d237a9e1c",
+  "name": "Adi Gutner",
+  "img": "https://avatars1.githubusercontent.com/u/42630221",
+  "links": {
+    "website": "https://www.gooties.com",
+    "linkedin": "https://www.linkedin.com/in/adi-gutner/",
+    "github": "https://github.com/AdiGutner"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA"
+  }
+}

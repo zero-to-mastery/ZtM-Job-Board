@@ -1,0 +1,16 @@
+{
+  "id": "aeb0caab-d991-403a-a134-9f1dcb5fd8a0",
+  "name": "Andy Nguyen",
+  "img": "https://avatars2.githubusercontent.com/u/6422752?s=460&v=4",
+  "links": {
+    "website": "https://andycodes.io/",
+    "linkedin": "https://www.linkedin.com/in/andydnguyen/",
+    "github": "https://github.com/andydnguyen"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Toronto",
+    "state": "Ontario",
+    "country": "Canada"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "5aac5654-1173-4893-a01a-9842fd3367ba",
+  "name": "Sunny Lee",
+  "img": "https://avatars3.githubusercontent.com/u/46906883?v=4",
+  "links": {
+    "website": "https://sunny-portfolio.vercel.app/",
+    "linkedin": "https://www.linkedin.com/in/leesunny507/",
+    "github": "https://github.com/LSunny5"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "",
+    "state": "New Jersey",
+    "country": "United States"
+  }
+}

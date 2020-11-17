@@ -1,0 +1,16 @@
+{
+  "id": "866bbf8a-83b8-44ab-aead-93c4a32a3ec4",
+  "name": "Mehdi E.Manioui",
+  "img": "https://i.ibb.co/zPFG407/Photo.jpg",
+  "links": {
+    "website": "https://www.strengthauthority.com/",
+    "linkedin": "https://www.linkedin.com/in/mehdi-e-m-2a4826121/",
+    "github": "https://github.com/eemanioui"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Winnipeg",
+    "state": "Manitoba",
+    "country": "Canada"
+  }
+}

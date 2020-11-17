@@ -1,0 +1,16 @@
+{
+  "id": "2a2cabc6-ed9e-43c2-8773-be6222f9514e",
+  "name": "Sina Moraddar",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/sina-moraddar-851708177/",
+    "github": "https://github.com/sinamoraddar"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Shahriar",
+    "state": "Tehran",
+    "country": "Iran"
+  }
+}

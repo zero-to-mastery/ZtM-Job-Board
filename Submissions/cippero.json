@@ -1,0 +1,16 @@
+{
+  "id": "972af967-9652-4d86-b0d5-1578a21ef00c",
+  "name": "Gil Weinstock",
+  "img": "https://avatars1.githubusercontent.com/u/37132245?s=400&u=cc8b69cae1e4c6f6e6394a3b297df7fa60c94bac&v=4",
+  "links": {
+    "website": "https://gildw.com",
+    "linkedin": "https://www.linkedin.com/in/gilweinstock/",
+    "github": "https://github.com/cippero"
+  },
+  "jobTitle": "Full Stack Developer (JS/TS/Python/C#)",
+  "location": {
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA"
+  }
+}

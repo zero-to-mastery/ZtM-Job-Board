@@ -1,0 +1,16 @@
+{
+  "id": "2d781e32-e429-4f49-b828-6f72ff6613b7",
+  "name": "Shubham Dhage",
+  "img": "https://i.imgur.com/uXvnjsc.jpg",
+  "links": {
+    "website": "https://shubhamd99.github.io/portfolio/",
+    "linkedin": "https://www.linkedin.com/in/shubham-dhage-57133a175/",
+    "github": "https://github.com/shubhamd99"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Banglore",
+    "state": "KA",
+    "country": "India"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "17bb3260-5cc6-41b4-8958-462618b6602a",
+  "name": "Daniel Alviso",
+  "img": "https://avatars0.githubusercontent.com/u/25121780?s=460&v=4",
+  "links": {
+    "website": "https://dan-alviso.com",
+    "linkedin": "https://www.linkedin.com/in/dan-alviso",
+    "github": "https://github.com/dan-alviso"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "San Francisco Bay Area",
+    "state": "CA",
+    "country": "USA"
+  }
+}

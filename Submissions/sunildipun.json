@@ -1,0 +1,16 @@
+{
+  "id": "6f469de6-e2f8-420e-bcf5-a87e2c9bc070",
+  "name": "Sunil Behera",
+  "img": "https://avatars1.githubusercontent.com/u/37134658?s=460&v=4",
+  "links": {
+    "website": "https://sunildipun.github.io/portfolio/",
+    "linkedin": "https://www.linkedin.com/in/sunilbehera95/",
+    "github": "https://github.com/sunildipun"
+  },
+  "jobTitle": "Front-End Developer",
+  "location": {
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India"
+  }
+}

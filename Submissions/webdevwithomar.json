@@ -1,0 +1,16 @@
+{
+  "id": "ff1aed11-819c-415f-ba2a-ba7b62651fbd",
+  "name": "Omar Faruque",
+  "img": "https://avatars3.githubusercontent.com/u/40371523?s=400&u=a7b2d51c745c57d058a8e3f1eba1569a44b763c1&v=4",
+  "links": {
+    "website": "https://www.omarfaruque.dev/",
+    "linkedin": "https://www.linkedin.com/in/webdevwithomar/",
+    "github": "https://github.com/webdevwithomar"
+  },
+  "jobTitle": "Full Stack Javascript Developer",
+  "location": {
+    "city": "Dhaka",
+    "state": "",
+    "country": "Bangladesh"
+  }
+}

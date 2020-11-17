@@ -1,0 +1,16 @@
+{
+  "id": "c1df1939-3a3c-4252-b641-f0084bf885eb",
+  "name": "Luiz Felipe Neves",
+  "img": "https://avatars2.githubusercontent.com/u/14094719??s=460&v=4",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/luizfelipeneves0/",
+    "github": "https://github.com/luizfelipeneves"
+  },
+  "jobTitle": "Full-Stack Developer (MERN)",
+  "location": {
+    "city": "Lorena",
+    "state": "São Paulo",
+    "country": "Brazil"
+  }
+}

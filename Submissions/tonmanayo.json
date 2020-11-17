@@ -1,0 +1,15 @@
+{
+  "id": "08cae4bd-7938-4ffc-a69d-533dab58eb98",
+  "name": "Tony Mack",
+  "img": "https://media.licdn.com/dms/image/C4D03AQEr5VmiOWVTSg/profile-displayphoto-shrink_200_200/0?e=1583971200&v=beta&t=vO61QsF0sEwHlXyeu2EvTXNzrQbMPPdJ5UBpyFVkIPg",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/tmack123/",
+    "github": "https://github.com/tonmanayo"
+  },
+  "jobTitle": "Full Stack Software Developer",
+  "location": {
+    "city": "Bryanston",
+    "state": "Gauteng",
+    "country": "South Africa"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "dad5904c-ba01-4d48-9e0d-06d8b6c3f16c",
+  "name": "Hrithik Bansal",
+  "img": "https://avatars2.githubusercontent.com/u/26538582?v=4",
+  "links": {
+    "website": "https://hrithikbansal.com/",
+    "linkedin": "https://www.linkedin.com/in/bansalhrithik07/",
+    "github": "https://github.com/lasnab"
+  },
+  "jobTitle": "Full Stack Web Development",
+  "location": {
+    "city": "College Park",
+    "state": "Maryland",
+    "country": "United States"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "3bfab5df-1231-45fd-bd71-84c13b613a0b",
+  "name": "Risto Tõldsep",
+  "img": "https://avatars0.githubusercontent.com/u/57298993?s=460&u=0b135fad22ea0b4a1159e6d67edeaebee28db5a7&v=4",
+  "links": {
+    "website": "https://ristotoldsep.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/risto-t%C3%B5ldsep-241b76199/",
+    "github": "https://github.com/ristotoldsep"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Tallinn",
+    "state": "",
+    "country": "Estonia"
+  }
+}

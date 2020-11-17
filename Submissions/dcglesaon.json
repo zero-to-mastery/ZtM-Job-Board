@@ -1,0 +1,16 @@
+{
+  "id": "2d0bc00c-97a2-4845-b53f-5c8cb48dffae",
+  "name": "Daniel Gleason",
+  "img": "https://ibb.co/fF39wtk",
+  "links": {
+    "website": "https://danny-gleason.netlify.com/",
+    "linkedin": "https://www.linkedin.com/in/dcglesaon/",
+    "github": "https://github.com/dcglesaon"
+  },
+  "jobTitle": "Full Stack Developer | Software Engineer",
+  "location": {
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA"
+  }
+}

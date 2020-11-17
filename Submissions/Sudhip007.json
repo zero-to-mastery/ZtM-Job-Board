@@ -1,0 +1,16 @@
+{
+  "id": "d72ef5bf-1631-4f51-8a6a-fb9ce7910405",
+  "name": "Sudhip Chandra",
+  "img": "",
+  "links": {
+    "website": "http://sudhip.pythonanywhere.com/",
+    "linkedin": "https://www.linkedin.com/in/sudhip",
+    "github": "https://github.com/Sudhip007"
+  },
+  "jobTitle": " Python Developer ",
+  "location": {
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India"
+  }
+}

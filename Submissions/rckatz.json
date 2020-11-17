@@ -1,0 +1,16 @@
+{
+  "id": "22256588-38d5-4451-b211-1ad939fd49d1",
+  "name": "Sam Poe",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/sampoe/",
+    "github": "https://github.com/rckatz"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Greater Boston",
+    "state": "Massachusetts",
+    "country": "USA"
+  }
+}

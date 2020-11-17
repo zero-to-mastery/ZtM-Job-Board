@@ -1,0 +1,16 @@
+{
+  "id": "ae19b9b8-71f8-43b0-8792-50bac5ca2a08",
+  "name": "Abdus Samad",
+  "img": "https://abdusdev.me/assets/img/profile.jpg",
+  "links": {
+    "website": "https://abdusdev.me",
+    "linkedin": "https://www.linkedin.com/in/thisisabdus",
+    "github": "https://github.com/thisisabdus"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Assam",
+    "state": "",
+    "country": "India"
+  }
+}

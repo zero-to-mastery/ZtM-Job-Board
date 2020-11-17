@@ -1,0 +1,16 @@
+{
+  "id": "8036f210-8d9c-45b2-a0b4-db118497a7e3",
+  "name": "Angel Tat",
+  "img": "https://i.imgur.com/siAUyvM.jpg",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/tat-angel-10668b117/",
+    "github": "https://github.com/angeltat"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Timisoara",
+    "state": "Timis",
+    "country": "Romania"
+  }
+}

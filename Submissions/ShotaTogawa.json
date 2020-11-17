@@ -1,0 +1,16 @@
+{
+  "id": "93c0cbd5-25bb-4fb9-b641-73c8799b64f5",
+  "name": "Shota Togawa",
+  "img": "",
+  "links": {
+    "website": "https://www.shotatogawa.site/",
+    "linkedin": "https://www.linkedin.com/in/shota-togawa-ba8235185/",
+    "github": "https://github.com/ShotaTogawa"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Vancouver",
+    "state": "BC",
+    "country": "Canada"
+  }
+}

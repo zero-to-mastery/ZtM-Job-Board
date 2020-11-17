@@ -1,0 +1,16 @@
+{
+  "id": "4dedeab0-c223-4a68-9c33-e67f39b31347",
+  "name": "Pranav Agarwal",
+  "img": "https://avatars0.githubusercontent.com/u/40036238?s=400&u=c8c83a97658f9f62f32d9cbfe4334962933271a1&v=4",
+  "links": {
+    "website": "https://www.pranav2012.github.io/",
+    "linkedin": "https://www.linkedin.com/in/pranav-agarwal-579363166/",
+    "github": "https://github.com/pranav2012"
+  },
+  "jobTitle": "Full-Stack Web-Developer, Python Developer",
+  "location": {
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India"
+  }
+}

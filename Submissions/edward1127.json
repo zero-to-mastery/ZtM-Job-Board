@@ -1,0 +1,16 @@
+{
+  "id": "2f4c8333-b366-4129-97e1-ea7d33e6479f",
+  "name": "Edward Liu",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/etotheipipower/",
+    "github": "https://github.com/edward1127"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA"
+  }
+}

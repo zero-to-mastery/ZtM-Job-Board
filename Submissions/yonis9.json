@@ -1,0 +1,16 @@
+{
+  "id": "05101b04-4c46-4a5f-9e30-d57baf34ff03",
+  "name": "Yoni Sisso",
+  "img": "",
+  "links": {
+    "website": "https://yonis9.github.io/portfolio/",
+    "linkedin": "https://www.linkedin.com/in/yonisisso/",
+    "github": "https://github.com/yonis9"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Tel-Aviv",
+    "state": "",
+    "country": "Israel"
+  }
+}

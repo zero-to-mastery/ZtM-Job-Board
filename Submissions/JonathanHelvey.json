@@ -1,0 +1,16 @@
+{
+  "id": "3557e103-3e03-45f1-a618-101c6c45ad44",
+  "name": "Jonathan Helvey",
+  "img": "https://avatars3.githubusercontent.com/u/33816020?s=460&v=4",
+  "links": {
+    "website": "www.jonathanhelvey.com",
+    "linkedin": "https://www.linkedin.com/in/jonathanhelvey/",
+    "github": "https://github.com/JonathanHelvey"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA"
+  }
+}

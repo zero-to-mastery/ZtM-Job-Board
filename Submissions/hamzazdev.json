@@ -1,0 +1,16 @@
+{
+  "id": "26e0d4b9-fe22-45f9-8f5e-dd7a3f5acf89",
+  "name": "Hamza Abdalmajeed",
+  "img": "https://media-exp1.licdn.com/dms/image/C4E35AQH5xBoMp7xCkg/profile-framedphoto-shrink_200_200/0?e=1601676000&v=beta&t=J5p5HX22O8PZ4mEGLHg3cfKR0nfZC-5lbva-Zmu8I1U",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/hamzazz/",
+    "github": "https://github.com/hamzazdev/"
+  },
+  "jobTitle": "Full Stack JavaScript Developer",
+  "location": {
+    "city": "Manchester",
+    "state": "",
+    "country": "United Kingdom"
+  }
+}

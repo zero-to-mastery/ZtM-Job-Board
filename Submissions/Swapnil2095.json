@@ -1,0 +1,16 @@
+{
+  "id": "f4b84773-69f5-4226-8cfd-724993567bfc",
+  "name": "Swapnil Gaikwad",
+  "img": "http://www.swapnilgaikwad.tech/assets/images/profile_pic1.jpg",
+  "links": {
+    "website": "http://www.swapnilgaikwad.tech",
+    "linkedin": "https://www.linkedin.com/in/swapnil-gaikwad-2095",
+    "github": "https://github.com/Swapnil2095"
+  },
+  "jobTitle": "Fullstack Developer, Data Scientist (BigData, ML, NLP)",
+  "location": {
+    "city": "Pune",
+    "state": "",
+    "country": "India"
+  }
+}

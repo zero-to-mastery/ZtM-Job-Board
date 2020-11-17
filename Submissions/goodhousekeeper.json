@@ -1,0 +1,16 @@
+{
+  "id": "a1f7fd7b-59c5-44f8-b439-00f6dba0833e",
+  "name": "Alexander Tryastsyn",
+  "img": "https://goodhousekeeper.ru/style/images/photo.jpg",
+  "links": {
+    "website": "https://goodhousekeeper.ru",
+    "linkedin": "",
+    "github": "https://github.com/goodhousekeeper"
+  },
+  "jobTitle": "Team leader, full stack web developer",
+  "location": {
+    "city": "Saint-Petersburg",
+    "state": "",
+    "country": "RU"
+  }
+}

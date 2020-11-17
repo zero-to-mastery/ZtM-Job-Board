@@ -1,0 +1,16 @@
+{
+  "id": "f76a0f88-542b-47fa-9d20-baca96d3a31b",
+  "name": "Abhishek Kumar",
+  "img": "https://avatars2.githubusercontent.com/u/67912369?s=460&u=f33d40116a55d844794f9e2c38bd6e47fd5c38ab&v=4",
+  "links": {
+    "website": "https://devlearning9874.github.io/my_portfolio/",
+    "linkedin": "https://www.linkedin.com/in/abhishek-kumar-6ab448149/",
+    "github": "https://github.com/devlearning9874"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India"
+  }
+}

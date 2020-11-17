@@ -1,0 +1,16 @@
+{
+  "id": "31f8d0f1-7d11-45f3-9497-4196c9e03146",
+  "name": "Spencer Dedrick",
+  "img": "https://media.licdn.com/dms/image/C4E03AQHuxk2aTvEIcQ/profile-displayphoto-shrink_200_200/0?e=1578528000&v=beta&t=9rWDXrBPrn-FZR0tUCaouRbu6Q3wjOz0P27dUH7J7MM",
+  "links": {
+    "website": "https://spencerdedrick.github.io/Portfolio/",
+    "linkedin": "https://www.linkedin.com/in/spencer-dedrick/",
+    "github": "https://github.com/SpencerDedrick/"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Houston",
+    "state": "Texas",
+    "country": "United States"
+  }
+}

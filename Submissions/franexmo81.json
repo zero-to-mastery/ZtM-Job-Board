@@ -1,0 +1,16 @@
+{
+  "id": "eb599bf4-d24e-4166-9a19-37f797793e28",
+  "name": "Fran Extremera",
+  "img": "http://www.franextremera.com/images/about/profile_image.jpg",
+  "links": {
+    "website": "https://franextremera.com/",
+    "linkedin": "https://www.linkedin.com/in/francisco-extremera/",
+    "github": "https://github.com/franexmo81"
+  },
+  "jobTitle": "Front-end Web Developer",
+  "location": {
+    "city": "Jaen",
+    "state": "Andalusia",
+    "country": "Spain"
+  }
+}

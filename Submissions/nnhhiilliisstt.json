@@ -1,0 +1,16 @@
+{
+  "id": "139a2999-91a3-4b03-a1df-ddc252f4b30e",
+  "name": "Kumar Aditya",
+  "img": "https://kumaraditya.herokuapp.com/about/assets/img/profile-img.jpg",
+  "links": {
+    "website": "https://kumaraditya.herokuapp.com/",
+    "linkedin": "https://www.linkedin.com/in/kumar-aditya-77a2b4194/",
+    "github": "https://github.com/nnhhiilliisstt"
+  },
+  "jobTitle": "Full stack web developer| Flutter Developer",
+  "location": {
+    "city": "Gurgaon",
+    "state": "Haryana",
+    "country": "India"
+  }
+}

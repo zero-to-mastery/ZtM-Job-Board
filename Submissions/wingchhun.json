@@ -1,0 +1,16 @@
+{
+  "id": "4714f499-7c8f-4fcc-8d0a-e71e48d305eb",
+  "name": "James Chhun",
+  "img": "",
+  "links": {
+    "website": "https://wingchhun.github.io/portfolio.github.io",
+    "linkedin": "https://www.linkedin.com/in/james-chhun-16b1b5120",
+    "github": "https://github.com/wingchhun"
+  },
+  "jobTitle": "Front-End Developer",
+  "location": {
+    "city": "San Diego",
+    "state": "CA",
+    "country": "USA"
+  }
+}

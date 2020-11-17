@@ -1,0 +1,16 @@
+{
+  "id": "a4bbf861-75c1-4e5d-b97e-797b692f293a",
+  "name": "Michael Huber",
+  "img": "https://avatars1.githubusercontent.com/u/55626560?s=400&u=bbb9b547a6e0c4856997702307c52c6598c72f93&v=4",
+  "links": {
+    "website": "https://www.mikeyneedsajob.com/",
+    "linkedin": "https://www.linkedin.com/in/michael-huber-9b567a173/",
+    "github": "https://github.com/mshuber1981"
+  },
+  "jobTitle": "Front-end Web Developer",
+  "location": {
+    "city": "Des Moines",
+    "state": "IA",
+    "country": "United States"
+  }
+}

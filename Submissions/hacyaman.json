@@ -1,0 +1,16 @@
+{
+  "id": "b01c50de-b2c7-41fb-8ace-df9b8c203fe9",
+  "name": "Michio Hayakawa",
+  "img": "https://media-exp1.licdn.com/dms/image/C4D03AQE0hpBDzsfFMg/profile-displayphoto-shrink_200_200/0?e=1594857600&v=beta&t=7L0lsWuedUqgZWMdqirKTYQW8NPV-eCJZ_8MeqRbLH8",
+  "links": {
+    "website": "http://wwww.hacya.com",
+    "linkedin": "https://www.linkedin.com/in/michio-hayakawa-664507/",
+    "github": "https://github.com/hacyaman"
+  },
+  "jobTitle": "Software Engineering Manager",
+  "location": {
+    "city": "Yokohama",
+    "state": "Kanagawa",
+    "country": "Japan"
+  }
+}

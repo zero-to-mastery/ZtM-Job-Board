@@ -1,0 +1,16 @@
+{
+  "id": "456ee1b3-11cc-49ce-9931-57f0d401e8a2",
+  "name": "Przemyslaw Gilewski",
+  "img": "https://avatars2.githubusercontent.com/u/35427990?s=460&v=4",
+  "links": {
+    "website": "http://pgilewski.com/",
+    "linkedin": "https://www.linkedin.com/in/przemyslaw-gilewski/",
+    "github": "https://github.com/pgilewski"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Szczecin",
+    "state": "zachodnio-pomorskie",
+    "country": "Poland"
+  }
+}

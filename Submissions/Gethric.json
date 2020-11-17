@@ -1,0 +1,16 @@
+{
+  "id": "3fccc3c5-2d38-4ebd-b7e7-2788e24473ad",
+  "name": "Ric Thomas",
+  "img": "https://avatars0.githubusercontent.com/u/54208612?s=400&v=4",
+  "links": {
+    "website": "www.gethric.com",
+    "linkedin": "https://www.linkedin.com/in/ric-thomas-221b10176/",
+    "github": "https://github.com/Gethric"
+  },
+  "jobTitle": "Front-end Developer",
+  "location": {
+    "city": "Leon",
+    "state": "Guanajuato",
+    "country": "Mexico"
+  }
+}

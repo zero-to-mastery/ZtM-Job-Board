@@ -1,0 +1,16 @@
+{
+  "id": "a2f1595b-f941-4229-b7b6-957785c5ed21",
+  "name": "Fanni Takacs",
+  "img": "",
+  "links": {
+    "website": "http://FanniTakax.github.io/my_experimental_page",
+    "linkedin": "https://www.linkedin.com/in/fanni-takacs-profile/",
+    "github": "https://github.com/FanniTakax"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Budapest",
+    "state": "",
+    "country": "Hungary"
+  }
+}

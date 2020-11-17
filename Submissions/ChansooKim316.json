@@ -1,0 +1,16 @@
+{
+  "id": "22c91e98-348d-4ba3-b2da-e13e50d5bed6",
+  "name": "Chansoo Kim",
+  "img": "https://avatars3.githubusercontent.com/u/58630853?v=4",
+  "links": {
+    "website": "https://chansoo-portfolio.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/chansoo-kim/",
+    "github": "https://github.com/ChansooKim316"
+  },
+  "jobTitle": "Junior Web Developer",
+  "location": {
+    "city": "Boston",
+    "state": "Massachusetts",
+    "country": "United States"
+  }
+}

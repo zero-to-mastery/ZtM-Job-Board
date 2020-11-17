@@ -1,0 +1,16 @@
+{
+  "id": "0ec998ba-405d-4ab0-a8b3-6659aa5627a4",
+  "name": "Merlin Förster",
+  "img": "https://avatars0.githubusercontent.com/u/44608877",
+  "links": {
+    "website": "merlinfoerster.com",
+    "linkedin": "https://www.linkedin.com/in/merlinfoerster/",
+    "github": "https://github.com/r3m00n"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Hamburg",
+    "state": "Hamburg",
+    "country": "Germany"
+  }
+}

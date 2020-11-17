@@ -1,0 +1,16 @@
+{
+  "id": "337281ec-c8f0-49a2-be67-35b77de8bbf0",
+  "name": "Vishal Malik",
+  "img": "http://malikvishal.me/assets/images/vishal.jpg",
+  "links": {
+    "website": "http://malikvishal.me",
+    "linkedin": "https://www.linkedin.com/in/vishal0027",
+    "github": "https://github.com/vishal0027"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada"
+  }
+}

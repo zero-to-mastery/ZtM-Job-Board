@@ -1,0 +1,16 @@
+{
+  "id": "64407816-816b-49f9-9bf3-aa26f8f471c5",
+  "name": "Fyodor Prokofiev",
+  "img": "https://avatars1.githubusercontent.com/u/9195737?s=460&v=4",
+  "links": {
+    "website": "https://fprokofiev.ru",
+    "linkedin": "https://www.linkedin.com/in/fpro/",
+    "github": "https://github.com/fprokofiev"
+  },
+  "jobTitle": "Full Stack Developer, Project Manager",
+  "location": {
+    "city": "Saint-Petersburg",
+    "state": "St.Petersburg",
+    "country": "Russia"
+  }
+}

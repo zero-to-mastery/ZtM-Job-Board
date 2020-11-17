@@ -1,0 +1,16 @@
+{
+  "id": "82ae754f-f2aa-4c04-a4f7-950a47900314",
+  "name": "Milton Neto",
+  "img": "https://media.licdn.com/dms/image/C4E03AQEyZRJXT8uy9A/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=iBsGK_DnM5KnP-85PA1_SgNYHX3zWQSUtNOVrLLQfwA",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/milton-omena/",
+    "github": "https://github.com/omenaneto"
+  },
+  "jobTitle": "Full Stack Dev.",
+  "location": {
+    "city": "Maceió",
+    "state": "Alagoas",
+    "country": "Brazil"
+  }
+}

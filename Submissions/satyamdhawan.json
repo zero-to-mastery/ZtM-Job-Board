@@ -1,0 +1,16 @@
+{
+  "id": "bd102190-f354-4f31-991e-7598c2c4262b",
+  "name": "Satyam Dhawam",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "",
+    "github": "https://github.com/satyamdhawan"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India"
+  }
+}
