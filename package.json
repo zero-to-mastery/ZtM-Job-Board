@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "private": true,
   "type": "module",
-  "homepage": "https://alumni-board.netlify.app/",
+  "homepage": ".",
   "dependencies": {
     "@types/jest": "^25.1.4",
     "@types/node": "^13.13.21",
