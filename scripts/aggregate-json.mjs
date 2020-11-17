@@ -1,5 +1,6 @@
 import fs from "fs"
 import path from "path"
+import { v4 as uuidv4 } from "uuid"
 
 const JSON_SOURCE_DIR = "Submissions"
 const FINAL_JSON_FILE = "src/assets/persons.json"
@@ -20,6 +21,7 @@ try {
     )
 
     const jsonContent__parsed = JSON.parse(jsonContent__raw)
+    jsonContent__parsed.id = uuidv4()
     finalJSON.push(jsonContent__parsed)
   }
 } catch (e) {
