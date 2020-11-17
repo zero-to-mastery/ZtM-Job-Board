@@ -14,7 +14,9 @@ jobs:
           fetch-depth: 0
           ref: ${{ github.event.pull_request.head.ref }}
       - name: Run Script
+        shell: bash
         run: |
+          set -x
           NODE_OUTPUT=`node scripts/aggregate-json.mjs 2>&1`
 
           if [[ $NODE_OUTPUT ]];then
