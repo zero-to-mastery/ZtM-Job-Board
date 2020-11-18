@@ -46,7 +46,7 @@
     "build-css": "node-sass-chokidar ./src/ --output ./src/ --output-style compressed",
     "build-js": "react-scripts build",
     "postbuild": "mv ./build/favicons/* ./build/ && rm -r ./build/favicons && purgecss --css build/static/css/*.css --content build/static/index.html build/static/js/*.js --out build/static/css",
-    "test": "npm-run-all build-css build-js && react-scripts test --env=jsdom",
+    "test": "npm-run-all aggregate-json build-css build-js && react-scripts test --env=jsdom",
     "deploy": "gh-pages -d build",
     "aggregate-json": "node scripts/aggregate-json.mjs"
   },
