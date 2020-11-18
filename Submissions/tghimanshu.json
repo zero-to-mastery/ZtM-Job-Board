@@ -1,0 +1,16 @@
+{
+  "id": "fd44f81d-7b05-4a0e-86bd-946614385618",
+  "name": "Himanshu Kishor Gohil",
+  "img": "https://tghimanshu.github.io/images/photo.jpg",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/himanshu-gohil-b21893155/",
+    "website": "https://tghimanshu.github.io/",
+    "github": "https://github.com/tghimanshu"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Mumbai",
+    "state": "Maharastra",
+    "country": "India"
+  }
+}

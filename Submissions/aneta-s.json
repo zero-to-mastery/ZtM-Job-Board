@@ -1,0 +1,16 @@
+{
+  "id": "0f969720-8ad3-441e-8b6a-b9761bb4d15b",
+  "name": "Aneta Stojanowska",
+  "img": "https://avatars2.githubusercontent.com/u/54153719?v=4",
+  "links": {
+    "website": "https://aneta.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/stojanowska",
+    "github": "https://github.com/aneta-s"
+  },
+  "jobTitle": "Frontend Web Developer",
+  "location": {
+    "city": "Amsterdam",
+    "state": "Noord Holland",
+    "country": "The Netherlands"
+  }
+}

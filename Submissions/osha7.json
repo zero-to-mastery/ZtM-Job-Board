@@ -1,0 +1,16 @@
+{
+  "id": "af36cb1c-2012-4e3c-8d04-9efb80fca3b6",
+  "name": "Osha Groetz",
+  "img": "https://github.com/osha7.png",
+  "links": {
+    "website": "https://oshagroetz.herokuapp.com/",
+    "linkedin": "https://www.linkedin.com/in/jennifer-osha-groetz-0318b16b/",
+    "github": "https://github.com/osha7"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "Denver (REMOTE)",
+    "state": "CO",
+    "country": "USA"
+  }
+}

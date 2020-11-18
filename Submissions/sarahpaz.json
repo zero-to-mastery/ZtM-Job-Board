@@ -1,0 +1,16 @@
+{
+  "id": "e303f210-ec61-4957-bc61-2894a090bc43",
+  "name": "Sarah Paz",
+  "img": "https://sarahpaz.ca/images/sarahpaz-headshot-2019.jpg",
+  "links": {
+    "website": "www.sarahpaz.ca",
+    "linkedin": "https://www.linkedin.com/in/sarahpaz/",
+    "github": "https://github.com/sarahpaz"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada"
+  }
+}

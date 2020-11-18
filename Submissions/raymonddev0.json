@@ -1,0 +1,16 @@
+{
+  "id": "54f421ba-2f78-41b0-95a0-8138bf0fff49",
+  "name": "Raymond Lim",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/raymonddev0/",
+    "github": "https://github.com/raymonddev0"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "Singapore"
+  }
+}

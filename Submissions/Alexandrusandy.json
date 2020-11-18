@@ -1,0 +1,16 @@
+{
+  "id": "777fd3a2-fc35-4e85-8bdb-89aeb5504cde",
+  "name": "Alexandru Hutupasu",
+  "img": "https://github.com/Alexandrusandy.png",
+  "links": {
+    "website": "https://alexandrundy-portofolio.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/alexandru-hutupasu-60a05b1bb/",
+    "github": "https://github.com/Alexandrusandy"
+  },
+  "jobTitle": "Fullstack Web Developer",
+  "location": {
+    "city": "Bucharest",
+    "state": "",
+    "country": "Romania"
+  }
+}

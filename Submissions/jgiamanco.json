@@ -1,0 +1,16 @@
+{
+  "id": "7708e5b5-810c-4357-ad84-4b99c51ee7ea",
+  "name": "Jacob Giamanco",
+  "img": "https://avatars2.githubusercontent.com/u/52183478?s=460&v=4",
+  "links": {
+    "website": "https://jgiamanco.netlify.com",
+    "linkedin": "https://linkedin.com/in/jacob-giamanco",
+    "github": "https://github.com/jgiamanco"
+  },
+  "jobTitle": "Front-End Web Developer",
+  "location": {
+    "city": "San Diego",
+    "state": "CA",
+    "country": "USA"
+  }
+}

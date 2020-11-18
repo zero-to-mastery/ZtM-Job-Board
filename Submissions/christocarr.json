@@ -1,0 +1,16 @@
+{
+  "id": "b8a4e1cc-549c-4bb0-bd1a-1fa9a86d129a",
+  "name": "Christopher Carr",
+  "img": "https://imgur.com/WKGieRB",
+  "links": {
+    "website": "https://www.chriscarr.dev",
+    "linkedin": "https://www.linkedin.com/in/chris-carr-93288820",
+    "github": "https://github.com/christocarr"
+  },
+  "jobTitle": "Frontend Web Developer",
+  "location": {
+    "city": "Wembley",
+    "state": "London",
+    "country": "United Kingdom"
+  }
+}

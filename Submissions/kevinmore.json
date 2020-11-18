@@ -1,0 +1,16 @@
+{
+  "id": "32f2c268-eada-4f2b-9949-e4e60c4b6afa",
+  "name": "Kevin Wang",
+  "img": "https://www.kevinwang.space/avatar.jpeg",
+  "links": {
+    "website": "https://kevinwang.space/",
+    "linkedin": "https://www.linkedin.com/in/huanxiangwang/",
+    "github": "https://github.com/kevinmore"
+  },
+  "jobTitle": "Game Engine Developer",
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "United Kingdom"
+  }
+}

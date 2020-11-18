@@ -1,0 +1,16 @@
+{
+  "id": "ff3b4842-7cb5-424e-b06f-c4a7035867aa",
+  "name": "Joe Domingo",
+  "img": "https://contentapi.joedomingo.online/wp-content/uploads/joed-prof-pic-02.png",
+  "links": {
+    "website": "https://joedomingo.online",
+    "linkedin": "https://www.linkedin.com/in/joe-domingo-front-end-developer/",
+    "github": "https://github.com/joedonline"
+  },
+  "jobTitle": "Front End Developer, UI/UX, Graphic Design",
+  "location": {
+    "city": "NY Metropolitan",
+    "state": "New York",
+    "country": "USA"
+  }
+}

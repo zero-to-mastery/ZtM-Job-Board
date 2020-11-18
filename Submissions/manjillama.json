@@ -1,0 +1,16 @@
+{
+  "id": "db773be1-dc24-45cf-a9f0-bd19411cd52e",
+  "name": "Manjil Tamang",
+  "img": "https://github.com/manjillama.png",
+  "links": {
+    "website": "https://manjiltamang.com",
+    "linkedin": "http://linkedin.com/in/manjiltamang/",
+    "github": "https://github.com/manjillama"
+  },
+  "jobTitle": "Full stack developer",
+  "location": {
+    "city": "Boudha",
+    "state": "Kathmandu",
+    "country": "Nepal"
+  }
+}

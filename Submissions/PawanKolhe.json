@@ -1,0 +1,16 @@
+{
+  "id": "09f214be-a774-4d3a-905d-bc9cfe78e210",
+  "name": "Pawan Ashish Kolhe",
+  "img": "https://pawankolhe.com/img/pawankolhe.jpg",
+  "links": {
+    "website": "https://pawankolhe.com/",
+    "linkedin": "https://www.linkedin.com/in/kolhepawan/",
+    "github": "https://github.com/PawanKolhe"
+  },
+  "jobTitle": "Front End Developer",
+  "location": {
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India"
+  }
+}

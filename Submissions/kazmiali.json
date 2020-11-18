@@ -1,0 +1,16 @@
+{
+  "id": "6c16f4f5-a28c-4edb-b635-e2aa87c288f2",
+  "name": "Muhammad Ali Kazmi",
+  "img": "https://avatars.githubusercontent.com/kazmiali",
+  "links": {
+    "website": "https://kazmiali.github.io",
+    "linkedin": "https://www.linkedin.com/in/muhammad-alikazmi/",
+    "github": "https://github.com/kazmiali"
+  },
+  "jobTitle": "Full Stack Web Developer, React Developer, NodeJS Developer",
+  "location": {
+    "city": "Hyderabad",
+    "state": "Sindh",
+    "country": "Pakistan"
+  }
+}

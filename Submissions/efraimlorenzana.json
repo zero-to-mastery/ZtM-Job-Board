@@ -1,0 +1,16 @@
+{
+  "id": "90997195-3d5a-4122-a8ca-b74c7f7881d8",
+  "name": "Efraim A. Lorenzana",
+  "img": "https://drive.google.com/open?id=1AwOIao9RBBIdhC7FRK0ZIkwOyB6OB6uZ",
+  "links": {
+    "website": "https://efraimlorenzana.github.io/portfolio/",
+    "linkedin": "https://www.linkedin.com/in/efraim-lorenzana-4bbb2575/",
+    "github": "https://github.com/efraimlorenzana"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Taytay",
+    "state": "Rizal",
+    "country": "Philippines"
+  }
+}

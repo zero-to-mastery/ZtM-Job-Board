@@ -1,0 +1,16 @@
+{
+  "id": "4655e267-af78-4fec-a3de-b5f15efe3ac6",
+  "name": "Gabriel Cadiz",
+  "img": "https://avatars0.githubusercontent.com/u/42247905?s=460&v=4",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/gabriel-cadiz/",
+    "github": "https://github.com/gabecadiz"
+  },
+  "jobTitle": "Full-Stack Javascript Developer",
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada"
+  }
+}

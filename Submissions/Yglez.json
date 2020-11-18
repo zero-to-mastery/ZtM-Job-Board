@@ -1,0 +1,16 @@
+{
+  "id": "3ff19142-9f44-49ab-a091-da7b155c6a8f",
+  "name": "Yesenia Gonzalez",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "www.linkedin.com/in/yglez",
+    "github": "https://github.com/Yglez"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "San Diego",
+    "state": "CA",
+    "country": "USA"
+  }
+}

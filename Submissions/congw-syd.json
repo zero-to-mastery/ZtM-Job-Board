@@ -1,0 +1,16 @@
+{
+  "id": "16b58db9-5f37-44ff-a98a-734e3ddc8146",
+  "name": "Britta Wang",
+  "img": "https://avatars3.githubusercontent.com/u/41138162?s=400&u=6ffe0c724e97c3de98b73c51bd5797b79711f9df&v=4",
+  "links": {
+    "website": "https://congw-syd.github.io",
+    "linkedin": "https://www.linkedin.com/in/cong-wang-374483172/",
+    "github": "https://github.com/congw-syd"
+  },
+  "jobTitle": "Front-End Developer",
+  "location": {
+    "city": "Sydney",
+    "state": "NSW",
+    "country": "Australia"
+  }
+}

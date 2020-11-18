@@ -1,0 +1,16 @@
+{
+  "id": "6e94e0d0-da64-4dc0-ae49-b1bf48f771cf",
+  "name": "Jordan George",
+  "img": "",
+  "links": {
+    "website": "https://jordan-george-portfolio.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/jordan-george5/",
+    "github": "https://github.com/jgeo777"
+  },
+  "jobTitle": "Front-End Developer",
+  "location": {
+    "city": "London",
+    "state": "England",
+    "country": "United Kingdom"
+  }
+}

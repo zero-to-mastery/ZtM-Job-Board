@@ -1,0 +1,16 @@
+{
+  "id": "ffbdb61c-9959-4d27-acc5-c6dafb130db1",
+  "name": "Thimothé Lamoureux",
+  "img": "",
+  "links": {
+    "website": "https://wcubemedia.com",
+    "linkedin": "https://www.linkedin.com/in/thimothe-lamoureux",
+    "github": "https://github.com/aparadox"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Whitehorse",
+    "state": "Yukon",
+    "country": "Canada"
+  }
+}

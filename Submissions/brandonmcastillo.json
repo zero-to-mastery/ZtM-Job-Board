@@ -1,0 +1,16 @@
+{
+  "id": "627f6b25-955e-4147-acd5-d5816da055d6",
+  "name": "Brandon Castillo",
+  "img": "",
+  "links": {
+    "website": "https://brandonmcastillo.com/",
+    "linkedin": "https://www.linkedin.com/in/brandonmcastillo/",
+    "github": "https://github.com/brandonmcastillo"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "San Francisco",
+    "state": "California",
+    "country": "USA"
+  }
+}

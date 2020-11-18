@@ -1,0 +1,16 @@
+{
+  "id": "33f0bfe8-1186-4e8e-a20b-c4f5e36c5127",
+  "name": "Rahul Kumar",
+  "img": "https://media.licdn.com/dms/image/C5103AQENiohRy39XzQ/profile-displayphoto-shrink_200_200/0?e=1539820800&v=beta&t=FCh-bKc-Ag-fZqh2v-Xk_Tyfigg_zQpTBoV282tbQc0",
+  "links": {
+    "website": "https://kumarrahul123.herokuapp.com/",
+    "linkedin": "https://www.linkedin.com/in/rahul-kumar943/",
+    "github": "https://github.com/rahuls321"
+  },
+  "jobTitle": "Web Developer ",
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "India"
+  }
+}

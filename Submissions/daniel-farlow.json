@@ -1,0 +1,16 @@
+{
+  "id": "657e5a60-af27-4f23-9967-6cdde6b04485",
+  "name": "Daniel Farlow",
+  "img": "https://avatars0.githubusercontent.com/u/52146855?s=460&v=4",
+  "links": {
+    "website": "https://daniel-farlow.com/",
+    "linkedin": "https://www.linkedin.com/in/daniel-farlow/",
+    "github": "https://github.com/daniel-farlow"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "Atlanta",
+    "state": "Georgia",
+    "country": "United States"
+  }
+}

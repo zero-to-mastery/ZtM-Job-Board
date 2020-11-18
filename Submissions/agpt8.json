@@ -1,0 +1,16 @@
+{
+  "id": "afdd31ba-19dd-48db-9644-36c9040a2fab",
+  "name": "Ayush Gupta",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/agpt8",
+    "github": "https://github.com/agpt8"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "2e11a560-880d-4666-b885-9ee7c862176f",
+  "name": "Ahmed Hajat",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "www.linkedin.com/in/ahmed-hajat",
+    "github": "https://www.github.com/AhmedH14"
+  },
+  "jobTitle": "Project Manager and Frontend Developer",
+  "location": {
+    "city": "Johannesburg",
+    "state": "Gauteng",
+    "country": "South Africa"
+  }
+}

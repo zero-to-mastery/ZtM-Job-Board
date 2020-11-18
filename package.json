@@ -2,7 +2,8 @@
   "name": "jobboard",
   "version": "0.2.0",
   "private": true,
-  "homepage": "https://alumni-board.netlify.app/",
+  "type": "module",
+  "homepage": ".",
   "dependencies": {
     "@types/jest": "^25.1.4",
     "@types/node": "^13.13.21",
@@ -38,7 +39,7 @@
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --write"
   },
   "scripts": {
-    "start": "npm-run-all -p watch-css start-js",
+    "start": "npm-run-all -p watch-css start-js aggregate-json",
     "watch-css": "npm run build-css && node-sass-chokidar ./src/ --output ./src/ --output-style compressed --watch --recursive",
     "start-js": "react-scripts start",
     "build": "react-scripts test --no-watchman --watchAll=false && npm-run-all build-css build-js",
@@ -46,7 +47,8 @@
     "build-js": "react-scripts build",
     "postbuild": "mv ./build/favicons/* ./build/ && rm -r ./build/favicons && purgecss --css build/static/css/*.css --content build/static/index.html build/static/js/*.js --out build/static/css",
     "test": "npm-run-all build-css build-js && react-scripts test --env=jsdom",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "aggregate-json": "node scripts/aggregate-json.mjs"
   },
   "devDependencies": {
     "@babel/helper-call-delegate": "^7.11.4",

@@ -1,0 +1,16 @@
+{
+  "id": "03cd9625-0742-44c4-96cc-6f847808981f",
+  "name": "Hassan Zain",
+  "img": "http://hassanzain.com/images/pic00.jpg",
+  "links": {
+    "website": "http://hassanzain.com/",
+    "linkedin": "https://www.linkedin.com/in/hassan-zain-delgadillo-b2056156/",
+    "github": "https://github.com/hassanzd"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Torreon",
+    "state": "Coahuila",
+    "country": "Mexico"
+  }
+}

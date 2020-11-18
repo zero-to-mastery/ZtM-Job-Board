@@ -1,0 +1,16 @@
+{
+  "id": "6ed8d396-929f-417a-8d15-e75ef8fc2bb7",
+  "name": "Paul Marik",
+  "img": "https://i.imgur.com/ZazkmQd.jpg",
+  "links": {
+    "website": "http://marik.tech/",
+    "linkedin": "www.linkedin.com/in/paul-marik-web-developer",
+    "github": "https://github.com/pmarik"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Salt Lake City",
+    "state": "Utah",
+    "country": "USA"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "5b4f5193-96cd-4bb9-b4f9-594f581ab3d8",
+  "name": "Ibrahim Kaiser",
+  "img": "https://github.com/ikReza.png",
+  "links": {
+    "website": "https://ibrahim-kaiser.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/ibrahim-kaiser/",
+    "github": "https://github.com/ikReza"
+  },
+  "jobTitle": "Frontend Developer",
+  "location": {
+    "city": "Dhaka",
+    "state": "",
+    "country": "Bangladesh"
+  }
+}

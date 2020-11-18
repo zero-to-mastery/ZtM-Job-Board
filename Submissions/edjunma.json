@@ -1,0 +1,16 @@
+{
+  "id": "13f116dd-e5f4-4d75-a811-9483dfa5b432",
+  "name": "Edmond Ma",
+  "img": "https://avatars2.githubusercontent.com/u/12569803?s=400&u=6f74a7b55e6b23de8e99b7321589a2e9ea2b6815&v=4",
+  "links": {
+    "website": "https://edjunma.dev",
+    "linkedin": "https://www.linkedin.com/in/edjunma/",
+    "github": "https://github.com/edjunma"
+  },
+  "jobTitle": "Freelance Web Developer, Front-End Developer",
+  "location": {
+    "city": "New York City",
+    "state": "NY",
+    "country": "USA"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "8ee7f6cd-74d0-4f1a-9cd2-1d90ffdf5294",
+  "name": "Mikolaj Paczkowski",
+  "img": "https://avatars2.githubusercontent.com/u/1311358?v=4",
+  "links": {
+    "website": "https://mikowhy.pl",
+    "linkedin": "https://www.linkedin.com/in/mikolajpaczkowski/",
+    "github": "https://github.com/mikowhy"
+  },
+  "jobTitle": "Junior Python Developer",
+  "location": {
+    "city": "Poznan",
+    "state": "Great Poland",
+    "country": "Poland"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "8fb424bf-aa11-4f35-9e4b-1c7f9b7561ca",
+  "name": "Pourush Shrestha",
+  "img": "https://media.licdn.com/dms/image/C4E03AQH-QmWXVwAo2A/profile-displayphoto-shrink_100_100/0?e=1562198400&v=beta&t=KGHdy-AAuYuwr-dzi5JY9xFQquwphRnGvXoRp_RA874",
+  "links": {
+    "website": "https://pourushshrestha.com",
+    "linkedin": "https://www.linkedin.com/in/pourush-shrestha/",
+    "github": "https://github.com/Pourush1"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Philadelphia",
+    "state": "Pennsylvania",
+    "country": "United States"
+  }
+}

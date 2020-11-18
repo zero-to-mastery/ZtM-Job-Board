@@ -1,0 +1,16 @@
+{
+  "id": "f01f39ff-f989-4650-8630-ab2e7dc66d05",
+  "name": "Natalina Rodrigues",
+  "img": "http://natalina-portfolio.herokuapp.com/images/pics.jpg",
+  "links": {
+    "website": "http://natalina-portfolio.herokuapp.com/",
+    "linkedin": "https://www.linkedin.com/in/natalina-rodrigues-69ab29169/",
+    "github": "https://github.com/Natalina13"
+  },
+  "jobTitle": "Full Stack and Python Developer",
+  "location": {
+    "city": "Fremont",
+    "state": "CA",
+    "country": "USA"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "eacdf0d6-3586-448f-a44e-39557baaf4d9",
+  "name": "Gary Hagen",
+  "img": "https://i.imgur.com/Xl7oz7S.jpg",
+  "links": {
+    "website": "https://hagengaryp.com/",
+    "linkedin": "https://www.linkedin.com/in/HagenGaryP",
+    "github": "https://github.com/HagenGaryP"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Lindenhurst",
+    "state": "New York",
+    "country": "United States"
+  }
+}

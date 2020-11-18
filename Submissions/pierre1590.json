@@ -1,0 +1,16 @@
+{
+  "id": "cdfcca2a-2d2a-4e66-b302-db27d81c0e95",
+  "name": "Piero Sabino",
+  "img": "https://imgur.com/lbrbLvs",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/piero-sabino-15a1b671/",
+    "github": "https://github.com/pierre1590"
+  },
+  "jobTitle": "Junior Web Developer",
+  "location": {
+    "city": "Turi",
+    "state": "Puglia",
+    "country": "Italy"
+  }
+}

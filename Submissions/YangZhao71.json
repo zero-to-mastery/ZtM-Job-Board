@@ -1,0 +1,16 @@
+{
+  "id": "606439bc-190a-49b9-82c5-5c0d6416c28f",
+  "name": "Yang Zhao",
+  "img": "http://i65.tinypic.com/29wwepg.jpg",
+  "links": {
+    "website": "https://yangzhao71.github.io",
+    "linkedin": "https://www.linkedin.com/in/yangmengyuan-zhao-b97b13173/",
+    "github": "https://github.com/YangZhao71"
+  },
+  "jobTitle": "Full-Stack Developer",
+  "location": {
+    "city": "Ithaca",
+    "state": "New York",
+    "country": "USA"
+  }
+}

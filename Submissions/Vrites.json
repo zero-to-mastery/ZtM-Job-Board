@@ -1,0 +1,16 @@
+{
+  "id": "11394ca7-1197-48e4-9299-af9d3c66cf42",
+  "name": "Mika Riepponen",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/mika-riepponen/",
+    "github": "https://github.com/Vrites"
+  },
+  "jobTitle": "Front-End Web Developer",
+  "location": {
+    "city": "Espoo",
+    "state": "",
+    "country": "Finland"
+  }
+}

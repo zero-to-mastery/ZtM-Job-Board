@@ -1,0 +1,16 @@
+{
+  "id": "ee77b087-a04b-4a65-a09d-e0d02eea8672",
+  "name": "Murtadore Olajobi",
+  "img": "https://drive.google.com/open?id=1Bs8pnAIwnygg3cMKRaXqcZiduJwWSnJG",
+  "links": {
+    "website": "murtadore.com",
+    "linkedin": "https://www.linkedin.com/in/murtadore-olajobi-36b473165/",
+    "github": "https://github.com/mtdola"
+  },
+  "jobTitle": "Full-Stack Web-Developer",
+  "location": {
+    "city": "Surulere",
+    "state": "Lagos",
+    "country": "Nigeria"
+  }
+}

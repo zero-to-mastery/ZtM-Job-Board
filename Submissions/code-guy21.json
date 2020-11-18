@@ -1,0 +1,16 @@
+{
+  "id": "cec69736-0b3b-4150-bcfd-cf639f9fb4ac",
+  "name": "Alexis San Javier",
+  "img": "http://www.alexissj.com/assets/images/blackandwhite.jpg",
+  "links": {
+    "website": "http://www.alexissj.com",
+    "linkedin": "https://www.linkedin.com/in/alexissj",
+    "github": "https://github.com/code-guy21"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Orlando",
+    "state": "FL",
+    "country": "USA"
+  }
+}

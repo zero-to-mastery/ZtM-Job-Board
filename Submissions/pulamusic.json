@@ -1,0 +1,16 @@
+{
+  "id": "3f9b2618-8cd6-4bcf-b1c7-f32eeab148bd",
+  "name": "Jim Carroll",
+  "img": "https://pulamusic.github.io/images/JimHeadshot.jpg",
+  "links": {
+    "website": "https://pulamusic.github.io",
+    "linkedin": "https://www.linkedin.com/in/james-carroll-36001511a",
+    "github": "https://github.com/pulamusic"
+  },
+  "jobTitle": "Academic & Front-End Developer",
+  "location": {
+    "city": "Springfield",
+    "state": "MA",
+    "country": "USA"
+  }
+}

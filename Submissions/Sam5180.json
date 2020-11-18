@@ -1,0 +1,16 @@
+{
+  "id": "7a8d0e8e-d99a-4a88-9b65-4dc2018f9cb0",
+  "name": "Sam Islam",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/shamiul-islam-882595169/",
+    "github": "https://github.com/Sam5180"
+  },
+  "jobTitle": "Full-Stack Developer",
+  "location": {
+    "city": "New York",
+    "state": "New York",
+    "country": "United States"
+  }
+}

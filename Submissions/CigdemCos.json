@@ -1,0 +1,16 @@
+{
+  "id": "70af2d93-2988-4ace-aadc-647e38e1a13e",
+  "name": "Cigdem Coskuner",
+  "img": "https://cigdem.dev/images/myphoto.jpg",
+  "links": {
+    "website": "https://www.cigdem.dev",
+    "linkedin": "linkedin.com/in/cigdemcoskuner",
+    "github": "https://github.com/CigdemCos"
+  },
+  "jobTitle": "Engineer | Full-Stack Developer",
+  "location": {
+    "city": "Albany",
+    "state": "California",
+    "country": "United States"
+  }
+}

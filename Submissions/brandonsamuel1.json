@@ -1,0 +1,16 @@
+{
+  "id": "448aca08-333c-4247-8e5f-b282174e372a",
+  "name": "Brandon Samuel",
+  "img": "https://avatars2.githubusercontent.com/u/32402178?s=400&u=b8374e2b3868430206a09fa481356470426b071a&v=4",
+  "links": {
+    "website": "https://brandonsamuel1.github.io/mysite/",
+    "linkedin": "https://www.linkedin.com/in/brandon-samuel/",
+    "github": "https://github.com/brandonsamuel1"
+  },
+  "jobTitle": "Full Stack Javascript Developer",
+  "location": {
+    "city": "Vancouver",
+    "state": "British Columbia",
+    "country": "Canada"
+  }
+}

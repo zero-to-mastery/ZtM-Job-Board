@@ -1,0 +1,16 @@
+{
+  "id": "11263a25-987e-45f1-8ab6-42b2e316484c",
+  "name": "Brittany Anderson",
+  "img": "",
+  "links": {
+    "website": "http://brittany-anderson.com/",
+    "linkedin": "https://www.linkedin.com/in/brittany-anderson-b9b835155/",
+    "github": "https://github.com/bdb5075"
+  },
+  "jobTitle": "Front End Developer",
+  "location": {
+    "city": "",
+    "state": "Maryland",
+    "country": "USA"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "56e2fe6b-d852-4d9a-800d-a65adfc153af",
+  "name": "Harsh Patel",
+  "img": "https://avatars3.githubusercontent.com/u/41349472?s=460&v=4",
+  "links": {
+    "website": "harshpatel.io",
+    "linkedin": "https://www.linkedin.com/pateltharsh/",
+    "github": "https://github.com/Zeztron"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Columbus",
+    "state": "OH",
+    "country": "USA"
+  }
+}

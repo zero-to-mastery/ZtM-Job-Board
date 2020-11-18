@@ -1,0 +1,16 @@
+{
+  "id": "5bd38d1d-2ef5-4c25-9320-7382818620cf",
+  "name": "Kiril Delovski",
+  "img": "https://avatars.githubusercontent.com/kiril6",
+  "links": {
+    "website": "http://delovski.net",
+    "linkedin": "https://www.linkedin.com/in/kdelovski6/",
+    "github": "https://github.com/kiril6"
+  },
+  "jobTitle": "Frontend Web Developer",
+  "location": {
+    "city": "Skopje",
+    "state": "",
+    "country": "North Macedonia"
+  }
+}

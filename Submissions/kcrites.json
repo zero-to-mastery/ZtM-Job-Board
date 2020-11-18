@@ -1,0 +1,16 @@
+{
+  "id": "03fad55b-c0ca-4604-9b9a-6ec26b4d7ff8",
+  "name": "Ken Crites",
+  "img": "http://www.kencrites.com/img/KenCritesOct2018-9448.jpg",
+  "links": {
+    "website": "http://www.kencrites.com",
+    "linkedin": "https://www.linkedin.com/in/kencrites/",
+    "github": "https://github.com/kcrites"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Amsterdam",
+    "state": "Noord-Holland",
+    "country": "Netherlands"
+  }
+}

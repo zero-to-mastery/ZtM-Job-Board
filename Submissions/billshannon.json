@@ -1,0 +1,16 @@
+{
+  "id": "9fbce191-a65f-46f2-bb63-df93d491185e",
+  "name": "Bill Shannon",
+  "img": "http://i67.tinypic.com/6huw5d.jpg",
+  "links": {
+    "website": "http://www.billshamnon.com",
+    "linkedin": "https://www.linkedin.com/in/bill-shannon-734a118b/",
+    "github": "https://github.com/billshannon"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Boulder",
+    "state": "CO",
+    "country": "USA"
+  }
+}

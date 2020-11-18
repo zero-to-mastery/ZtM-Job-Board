@@ -1,0 +1,16 @@
+{
+  "id": "2c52aee5-2b3a-46b1-987a-253dd108b91b",
+  "name": "Christine Trant",
+  "img": "https://github.com/christinetrant.png",
+  "links": {
+    "website": "https://www.christinetrant.com/",
+    "linkedin": "https://www.linkedin.com/in/christinetrant/",
+    "github": "https://github.com/christinetrant"
+  },
+  "jobTitle": "Front End Web Developer",
+  "location": {
+    "city": "Peckham",
+    "state": "London",
+    "country": "UK"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "fa968126-5849-459c-9818-6a9c303facde",
+  "name": "Harry Zhang",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/harry-zhangsfsu/",
+    "github": "https://github.com/legenhairy"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "San Francisco",
+    "state": "California",
+    "country": "USA"
+  }
+}

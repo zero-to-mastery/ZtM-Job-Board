@@ -1,0 +1,54 @@
+name: Build Project
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull Repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
+      - name: Run Script
+        shell: bash
+        run: |
+          set -x
+
+          npm install # install packages
+
+          NODE_OUTPUT=`node scripts/aggregate-json.mjs 2>&1`
+
+          if [[ ! $NODE_OUTPUT ]];then
+            exit 0
+          fi
+
+          NODE_OUTPUT="<pre>${NODE_OUTPUT//$'\n'/<br />}</pre>"
+          PR_NUMBER=$(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }')
+
+          if [[ ! $PR_NUMBER ]]; then
+            exit 0
+          fi
+
+          jq -n --arg body "$(echo $NODE_OUTPUT)" '{ body: $body }' |\
+          curl -sL  -X POST -d @- \
+          -H "Content-Type: application/json" \
+          -H "Accept: application/vnd.github.v3+json" \
+          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          "https://api.github.com/repos/${{ github.repository }}/commits/$GITHUB_SHA/comments"
+
+      - name: Build Project
+        run: |
+          npm run build
+          
+
+      - name: Publish
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: build
+          CLEAN: true

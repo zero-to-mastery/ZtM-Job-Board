@@ -1,0 +1,16 @@
+{
+  "id": "efc59f84-a2b9-47ca-b095-2bdcd1abc033",
+  "name": "Oliver De La Via",
+  "img": "https://i.imgur.com/B6GNZjt.jpg",
+  "links": {
+    "website": "https://www.oliverdelaviadev.com",
+    "linkedin": "https://www.linkedin.com/in/oliver-de-la-via-9bb2b39a",
+    "github": "https://www.github.com/odelavia"
+  },
+  "jobTitle": "Front-End Developer/Software Engineer/UI Developer",
+  "location": {
+    "city": "Arlington (DC Area)",
+    "state": "Virginia",
+    "country": "USA"
+  }
+}

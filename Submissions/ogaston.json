@@ -1,0 +1,16 @@
+{
+  "id": "b29d21ee-3aac-4a4f-a603-e59dc2822746",
+  "name": "Omar Gaston",
+  "img": "https://ogaston.com/static/42fbb13abfb6167a265e357d74d55f8d/8539d/personal.jpg",
+  "links": {
+    "website": "https://ogaston.com/en/knowme/",
+    "linkedin": "https://www.linkedin.com/in/omar-gaston-chalas/",
+    "github": "https://github.com/ogaston/"
+  },
+  "jobTitle": "Software Engineer | Full-Stack JavaScript",
+  "location": {
+    "city": "Santo Domingo",
+    "state": "",
+    "country": "Dominican Republic"
+  }
+}

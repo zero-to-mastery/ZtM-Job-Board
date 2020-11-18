@@ -1,0 +1,16 @@
+{
+  "id": "1fda76a8-3ef2-41fa-9df4-5f5815b6d9f0",
+  "name": "Asam Shan",
+  "img": "https://image.ibb.co/faPFi9/profile.png",
+  "links": {
+    "website": "https://shan5742.github.io/",
+    "linkedin": "https://www.linkedin.com/in/asamshan/",
+    "github": "https://github.com/shan5742"
+  },
+  "jobTitle": "Front End Developer",
+  "location": {
+    "city": "Middlesbrough",
+    "state": "",
+    "country": "United Kingdom"
+  }
+}

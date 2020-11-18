@@ -1,0 +1,16 @@
+{
+  "id": "6a236db6-177b-4584-b4da-72cf7f3e3e2a",
+  "name": "Akshay GS",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/akshay-gs-a42250196/",
+    "github": "https://github.com/gsakshay"
+  },
+  "jobTitle": "Frontend engineer",
+  "location": {
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India"
+  }
+}

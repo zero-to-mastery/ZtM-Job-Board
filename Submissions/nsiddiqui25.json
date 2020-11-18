@@ -1,0 +1,16 @@
+{
+  "id": "21b7600b-3691-42b5-8bb8-7794a2ab23af",
+  "name": "Nabeel Siddiqui",
+  "img": "https://avatars1.githubusercontent.com/u/32341221?s=460&v=4",
+  "links": {
+    "website": "https://nsiddiqui25.github.io",
+    "linkedin": "https://www.linkedin.com/in/nsdiqui25",
+    "github": "https://github.com/nsiddiqui25"
+  },
+  "jobTitle": "Full-Stack JavaScript Developer",
+  "location": {
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "a299590f-0bb0-4b93-bdcf-d02dd737984c",
+  "name": "Esteban Barron Palma",
+  "img": "http://estebanbarron.com/assets/images/img-01.jpg",
+  "links": {
+    "website": "http://estebanbarron.com/",
+    "linkedin": "https://www.linkedin.com/in/esteban-barr%C3%B3n-a60a2a113/",
+    "github": "https://github.com/aberro3s"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Merida",
+    "state": "Yucatan",
+    "country": "Mexico"
+  }
+}

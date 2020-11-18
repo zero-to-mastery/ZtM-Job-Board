@@ -1,0 +1,16 @@
+{
+  "id": "1d4a6bf6-93a8-4955-a4f7-67a55e2d6861",
+  "name": "Danny Ferguson",
+  "img": "",
+  "links": {
+    "website": "https://dandzn.com",
+    "linkedin": "https://www.linkedin.com/in/adannyferguson",
+    "github": "https://github.com/danbzns"
+  },
+  "jobTitle": "Front-End Developer",
+  "location": {
+    "city": "Gaspésie",
+    "state": "Quebec",
+    "country": "Canada"
+  }
+}

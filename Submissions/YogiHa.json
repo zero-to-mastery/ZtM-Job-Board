@@ -1,0 +1,16 @@
+{
+  "id": "ba4bb54d-c17d-41ff-ba83-468f2421fbfd",
+  "name": "Hagai Harari",
+  "img": "",
+  "links": {
+    "website": "http://www.hagaiportfolio.ml",
+    "linkedin": "",
+    "github": "https://github.com/YogiHa"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Tel-Aviv",
+    "state": "middlecountry",
+    "country": "Israel"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "323e3db8-ac26-47f2-aa1e-acfe97c38451",
+  "name": "Adam Galek",
+  "img": "https://media-exp1.licdn.com/dms/image/C5603AQHgFFiiRJtXiw/profile-displayphoto-shrink_400_400/0?e=1598486400&v=beta&t=e8IPsJSON9zKNJG8A1lgTN0Jt8D347iIA-CasjQGvZE",
+  "links": {
+    "website": "https://www.adamgalek.ca",
+    "linkedin": "https://www.linkedin.com/in/adamgalek/",
+    "github": "https://github.com/TheGalekxy"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Toronto",
+    "state": "Ontario",
+    "country": "Canada"
+  }
+}

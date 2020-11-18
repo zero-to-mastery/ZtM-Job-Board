@@ -1,0 +1,16 @@
+{
+  "id": "ffd9e015-c67f-4dcb-8ece-e3e3361edc37",
+  "name": "Aditya Verma",
+  "img": "",
+  "links": {
+    "website": "https://ezioda004.github.io/",
+    "linkedin": "https://www.linkedin.com/in/aditya-v-16ba91137",
+    "github": "https://github.com/ezioda004"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "IN"
+  }
+}

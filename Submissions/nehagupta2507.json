@@ -1,0 +1,16 @@
+{
+  "id": "cff2f795-14a7-48f5-bac1-ad80fa1e266e",
+  "name": "Neha Gupta",
+  "img": "https://avatars3.githubusercontent.com/u/50129533?s=400&v=4",
+  "links": {
+    "website": "https://ngcodes.com/",
+    "linkedin": "https://www.linkedin.com/in/gupneha/",
+    "github": "https://github.com/nehagupta2507"
+  },
+  "jobTitle": "Full-stack Developer",
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada"
+  }
+}

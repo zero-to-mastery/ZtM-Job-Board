@@ -1,0 +1,16 @@
+{
+  "id": "8aabe698-7fa1-4ced-aced-3ea044a6c35e",
+  "name": "Brittani Gongre",
+  "img": "",
+  "links": {
+    "website": "brittanigongre.com",
+    "linkedin": "https://www.linkedin.com/in/brittani-gongre",
+    "github": "https://github.com/bgongre"
+  },
+  "jobTitle": "Front End Developer",
+  "location": {
+    "city": "Atlanta",
+    "state": "Georgia",
+    "country": "USA"
+  }
+}

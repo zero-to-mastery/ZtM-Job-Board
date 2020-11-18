@@ -1,0 +1,16 @@
+{
+  "id": "81757cdf-1882-495f-8231-94425c14a12f",
+  "name": "Ashraf Patel",
+  "img": "https://avatars1.githubusercontent.com/u/13857813?s=460&v=4",
+  "links": {
+    "website": "https://ashrafpatel.github.io/",
+    "linkedin": "https://www.linkedin.com/in/ashr4fpatel/",
+    "github": "https://github.com/AshrafPatel"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Mississauga",
+    "state": "Ontario",
+    "country": "Canada"
+  }
+}

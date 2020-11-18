@@ -1,0 +1,16 @@
+{
+  "id": "0e01df7b-1a6d-4685-9f9f-596155131237",
+  "name": "Andy Muñoz",
+  "img": "https://avatars1.githubusercontent.com/u/13410510?s=400&u=4d099e8a41a27db25c6900b15ea58df38dd03fce&v=4",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/andy-mc/",
+    "github": "https://github.com/andy-mc"
+  },
+  "jobTitle": "Full-Stack Developer | Javascript | Python",
+  "location": {
+    "city": "Quito",
+    "state": "Pichincha",
+    "country": "Ecuador"
+  }
+}

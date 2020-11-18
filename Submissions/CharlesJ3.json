@@ -1,0 +1,16 @@
+{
+  "id": "c02976eb-f47f-4254-958a-323af75868c7",
+  "name": "Charles Jones",
+  "img": "https://avatars1.githubusercontent.com/u/4614877?s=460&v=4",
+  "links": {
+    "website": "http://charlesjones.me/",
+    "linkedin": "https://www.linkedin.com/in/charlesjonesiii/",
+    "github": "https://github.com/CharlesJ3"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Colorado Springs",
+    "state": "Colorado",
+    "country": "United States"
+  }
+}

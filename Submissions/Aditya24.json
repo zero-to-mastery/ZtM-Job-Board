@@ -1,0 +1,16 @@
+{
+  "id": "2ab141d0-5f9a-48e7-ae53-ca61b6860dfd",
+  "name": "Aditya Bargisen Bante",
+  "img": "http://www.adityabante.com/images/aditya.png",
+  "links": {
+    "website": "http://www.adityabante.com/",
+    "linkedin": "https://www.linkedin.com/in/adityabante/",
+    "github": "https://github.com/Aditya24"
+  },
+  "jobTitle": "Frontend Developer",
+  "location": {
+    "city": "Aarhus",
+    "state": "Jylland",
+    "country": "Denmark"
+  }
+}

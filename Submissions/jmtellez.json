@@ -1,0 +1,16 @@
+{
+  "id": "2e4443a1-36e5-46bd-8e96-fce51c0d9a71",
+  "name": "Juan Tellez",
+  "img": "https://avatars2.githubusercontent.com/u/11323495?v=4",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/juan-tellez/",
+    "github": "https://github.com/jmtellez"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Dallas",
+    "state": "Texas",
+    "country": "United States"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "85109eb9-b066-4ce7-956a-2f7a6217fc80",
+  "name": "Anushka Beri",
+  "img": "https://res.cloudinary.com/dkksvxoms/image/upload/v1563784729/anushka_ilpacf_p7hj0u.jpg",
+  "links": {
+    "website": "https://thisbutterfly.netlify.com/",
+    "linkedin": "https://www.linkedin.com/in/anushka-beri-1b767a140/",
+    "github": "https://github.com/thisbutterfly"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Ludhiana",
+    "state": "Punjab",
+    "country": "India"
+  }
+}

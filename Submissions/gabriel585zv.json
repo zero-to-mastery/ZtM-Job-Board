@@ -1,0 +1,16 @@
+{
+  "id": "815ece12-edb8-40ff-af78-add05f31a639",
+  "name": "Gabriel Zuñiga",
+  "img": "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/33788878_1608592929190092_5238537732229169152_o.jpg?_nc_cat=0&oh=fc1ab69b5c5e365bcd6136d0b61b5081&oe=5BB80DFB",
+  "links": {
+    "website": "https://www.facebook.com/gabrielzunigavasquez",
+    "linkedin": "https://www.linkedin.com/in/gabriel-zuniga-944a86116/",
+    "github": "https://github.com/gabriel585zv"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Heredia",
+    "state": "",
+    "country": "Costa Rica"
+  }
+}

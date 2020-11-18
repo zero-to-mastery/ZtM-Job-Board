@@ -1,0 +1,16 @@
+{
+  "id": "7eb3346f-65bb-4d06-8493-df1aba0c5db7",
+  "name": "Samuel Solomon",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/samjsolomon",
+    "github": "https://github.com/samjsolomon"
+  },
+  "jobTitle": "Python Developer",
+  "location": {
+    "city": "Orlando",
+    "state": "Florida",
+    "country": "United States"
+  }
+}

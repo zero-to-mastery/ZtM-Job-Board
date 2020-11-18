@@ -1,0 +1,16 @@
+{
+  "id": "ad9bb43d-18ab-4973-b549-6c5249909599",
+  "name": "Gal Kol",
+  "img": "",
+  "links": {
+    "website": "https://github.com/settings/profile",
+    "linkedin": "https://www.linkedin.com/in/gal-kol",
+    "github": "https://github.com/999galk"
+  },
+  "jobTitle": "Junior Web Developer",
+  "location": {
+    "city": "Tel Aviv",
+    "state": "Israel",
+    "country": "Israel"
+  }
+}

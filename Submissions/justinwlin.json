@@ -1,0 +1,16 @@
+{
+  "id": "788e1deb-cf2c-4fae-89ba-e4d026b265e4",
+  "name": "Justin Lin",
+  "img": "https://photos.google.com/search/prom/photo/AF1QipPfkjqn0y2L8zWuqeqmZ2MBZmY5bGzav2FZ9rFE",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/justinlinw/",
+    "github": "https://github.com/justinwlin"
+  },
+  "jobTitle": "FullStack Developer | Software Engineer | Student",
+  "location": {
+    "city": "Irvine | NYC",
+    "state": "CA | NY",
+    "country": "USA"
+  }
+}

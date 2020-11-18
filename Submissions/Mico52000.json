@@ -1,0 +1,16 @@
+{
+  "id": "f9782574-16a7-4244-94b3-206c75b5212e",
+  "name": "Michael George",
+  "img": "https://avatars1.githubusercontent.com/u/52582725?v=4",
+  "links": {
+    "website": "http://mico52000.pythonanywhere.com/index.html",
+    "linkedin": "https://www.linkedin.com/in/michael-zakhary-25ab101b2/",
+    "github": "https://github.com/Mico52000"
+  },
+  "jobTitle": "Full-Stack Web Developer and Python Developer",
+  "location": {
+    "city": "Cairo",
+    "state": "",
+    "country": "Egypt"
+  }
+}

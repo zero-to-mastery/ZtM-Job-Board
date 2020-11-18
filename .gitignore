@@ -29,3 +29,5 @@ yarn-error.log*
 1
 
 debug.log
+
+src/assets/persons.json

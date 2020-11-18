@@ -1,0 +1,16 @@
+{
+  "id": "fcd6d7a1-ab8a-4e95-afef-d67db9b5f850",
+  "name": "Geoff Thomas",
+  "img": "http://www.thomasgeoff.com/images/bg_1.jpg",
+  "links": {
+    "website": "http://www.thomasgeoff.com",
+    "linkedin": "https://www.linkedin.com/in/geoff-thomas-01/",
+    "github": "https://github.com/thomasgeoff"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "Rohnert Park",
+    "state": "California",
+    "country": "USA"
+  }
+}

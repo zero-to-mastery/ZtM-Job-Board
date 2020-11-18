@@ -1,0 +1,16 @@
+{
+  "id": "9f3360b6-553b-47ff-a105-c1006359fdaa",
+  "name": "Ray Reside",
+  "img": "",
+  "links": {
+    "website": "https://www.rayreside.com",
+    "linkedin": "https://www.linkedin.com/in/rayreside/",
+    "github": "https://github.com/rayreside"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Jersey City",
+    "state": "New Jersey",
+    "country": "United States"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "98f75ef3-86b6-42b0-b638-8d6d1f8cb25b",
+  "name": "Marco Sciortino",
+  "img": "https://sciortino-mrc.netlify.com/static/media/photo.5ae776c5.jpg",
+  "links": {
+    "website": "http://sciortino-mrc.netlify.com",
+    "linkedin": "https://www.linkedin.com/in/marco-sciortino-429938155/",
+    "github": "https://github.com/sciortinomrc"
+  },
+  "jobTitle": "Full Stack Javascript Web Dev, C#",
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "United Kingdom"
+  }
+}

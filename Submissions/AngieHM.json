@@ -1,0 +1,16 @@
+{
+  "id": "c726924c-4deb-4db9-80b2-1e2b88f77181",
+  "name": "Angela Mizero",
+  "img": "https://github.com/AngieHM/AngieHM.github.io/blob/master/profile.png",
+  "links": {
+    "website": "https://angiehm.github.io",
+    "linkedin": "www.linkedin.com/in/angela-mizero",
+    "github": "https://github.com/AngieHM/"
+  },
+  "jobTitle": "Full stack Developer",
+  "location": {
+    "city": "Antwerp",
+    "state": "Antwerp",
+    "country": "Belgium"
+  }
+}

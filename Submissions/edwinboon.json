@@ -1,0 +1,16 @@
+{
+  "id": "129649d4-517f-4c2f-a5d1-4360884571ca",
+  "name": "Edwin Boon",
+  "img": "https://www.github.com/edwinboon.png",
+  "links": {
+    "website": "https://www.edwinboon.dev/",
+    "linkedin": "",
+    "github": "https://github.com/edwinboon"
+  },
+  "jobTitle": "Frontend Developer",
+  "location": {
+    "city": "Ermelo",
+    "state": "Ermelo",
+    "country": "Netherlands"
+  }
+}

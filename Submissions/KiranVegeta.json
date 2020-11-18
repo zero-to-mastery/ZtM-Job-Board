@@ -1,0 +1,16 @@
+{
+  "id": "b9c7728d-32fc-4145-b2f2-a8538b4ddf68",
+  "name": "Kiran A",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/kiran-anand-6b053513a/",
+    "github": "https://github.com/KiranVegeta"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India"
+  }
+}

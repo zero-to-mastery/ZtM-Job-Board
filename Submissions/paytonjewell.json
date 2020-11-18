@@ -1,0 +1,16 @@
+{
+  "id": "2ab57b1f-cbb3-44aa-bab4-588e79e4106f",
+  "name": "Payton Jewell",
+  "img": "https://avatars3.githubusercontent.com/u/18350557?s=460&u=b5237bf592833e60ba0a68842c76ae4f3d08e28e&v=4",
+  "links": {
+    "website": "https://paytonjewell.github.io/",
+    "linkedin": "https://www.linkedin.com/in/payton-jewell/",
+    "github": "https://github.com/paytonjewell"
+  },
+  "jobTitle": "Front-End Developer",
+  "location": {
+    "city": "Appleton",
+    "state": "Wisconsin",
+    "country": "United States of America"
+  }
+}

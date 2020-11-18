@@ -1,0 +1,16 @@
+{
+  "id": "7a3ffa9b-197a-4996-9f0e-b205141260bd",
+  "name": "Rolando Capara",
+  "img": "https://avatars1.githubusercontent.com/u/62534347?s=460&u=5d96759c71d3b52b26f03d97d8cbd070da183950&v=4",
+  "links": {
+    "website": "https://rjcapara.com",
+    "linkedin": "https://www.linkedin.com/in/rolando-capara-536891144/",
+    "github": "https://github.com/rjcapara"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Cainta",
+    "state": "Rizal",
+    "country": "Philippines"
+  }
+}

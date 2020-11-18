@@ -1,0 +1,16 @@
+{
+  "id": "67a5c614-3392-4280-99e7-19b4965b4300",
+  "name": "Denis Tita",
+  "img": "https://ibb.co/JjhcPhW",
+  "links": {
+    "website": "http://denistita.com/",
+    "linkedin": "https://www.linkedin.com/in/denis-tita-43a705197/",
+    "github": "https://github.com/denistita"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Caseyville",
+    "state": "Illinois",
+    "country": "USA"
+  }
+}

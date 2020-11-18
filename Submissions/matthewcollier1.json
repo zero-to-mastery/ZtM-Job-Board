@@ -1,0 +1,16 @@
+{
+  "id": "a7d02f4d-cbc7-4457-b335-61ed3cd32b99",
+  "name": "Matthew Collier",
+  "img": "https://media.licdn.com/dms/image/C4D03AQE5FEvf75CqNA/profile-displayphoto-shrink_800_800/0?e=1528552800&v=beta&t=4bxzIqg5f8nRtPzfMlWg_YvxJFqC93lg6EeMRGZHt-0",
+  "links": {
+    "website": "http://matthewcollier.ca",
+    "linkedin": "https://www.linkedin.com/in/matthewjcollier",
+    "github": "https://github.com/matthewcollier1"
+  },
+  "jobTitle": "Front-end Web Developer",
+  "location": {
+    "city": "Toronto",
+    "state": "",
+    "country": "Canada"
+  }
+}

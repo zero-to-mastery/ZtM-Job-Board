@@ -1,0 +1,16 @@
+{
+  "id": "0b2c0889-68e1-43e8-bdc2-a394e337d53f",
+  "name": "Steve Gojkov",
+  "img": "http://i65.tinypic.com/2agwbd3.png",
+  "links": {
+    "website": "http://www.stevegojkov.com",
+    "linkedin": "https://www.linkedin.com/in/stevegojkov",
+    "github": "https://github.com/gojkov/my-site"
+  },
+  "jobTitle": "Front End Developer",
+  "location": {
+    "city": "Detroit",
+    "state": "MI",
+    "country": "USA"
+  }
+}

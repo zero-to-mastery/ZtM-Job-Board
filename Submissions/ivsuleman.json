@@ -1,0 +1,16 @@
+{
+  "id": "a8f87a04-f33c-4e73-a5ff-61bcef373b67",
+  "name": "Irfan Suleman",
+  "img": "https://i.imgur.com/CotZZCa.jpg",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/ivsuleman/",
+    "github": "https://github.com/ivsuleman"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "United Kingdom"
+  }
+}

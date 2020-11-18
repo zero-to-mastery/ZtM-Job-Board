@@ -1,0 +1,16 @@
+{
+  "id": "30117a9d-4894-4dea-a3a1-0d41894b7d9e",
+  "name": "Juarez Pistore",
+  "img": "",
+  "links": {
+    "website": "www.juarezpistore.com",
+    "linkedin": "https://www.linkedin.com/in/juarez-pistore/",
+    "github": "https://github.com/juarezpistore"
+  },
+  "jobTitle": "Backend Software Developer",
+  "location": {
+    "city": "Vancouver",
+    "state": "British Columbia",
+    "country": "Canada"
+  }
+}
