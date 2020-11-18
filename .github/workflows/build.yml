@@ -22,7 +22,7 @@ jobs:
 
           NODE_OUTPUT=`node scripts/aggregate-json.mjs 2>&1`
 
-          if [[ $NODE_OUTPUT ]];then
+          if [[ ! $NODE_OUTPUT ]];then
             exit 0
           fi
 
