@@ -1,0 +1,15 @@
+{
+  "name": "Shivam Rathi",
+  "img": "https://github.com/shivamrathi99.png",
+  "links": {
+    "website": "https://shivam-rathi.web.app/",
+    "linkedin": "https://www.linkedin.com/in/rathishivam/",
+    "github": "https://github.com/shivamrathi99"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Delhi",
+    "state": "Delhi",
+    "country": "India"
+  }
+}
