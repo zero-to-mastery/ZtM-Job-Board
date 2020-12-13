@@ -1,0 +1,15 @@
+{
+    "name": "Abhinav Patel",
+    "img": "https://github.com/knackofabhinav.png",
+    "links": {
+      "website": "knackofabhinav.netlify.app",
+      "linkedin": "https://www.linkedin.com/in/knackofabhinav",
+      "github": "https://github.com/knackofabhinav"
+    },
+    "jobTitle": "Software Developer",
+    "location": {
+      "city": "Orai",
+      "state": "Uttar Pradesh",
+      "country": "India"
+    }
+  }
