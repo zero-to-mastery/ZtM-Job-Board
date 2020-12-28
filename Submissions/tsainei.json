@@ -1,0 +1,15 @@
+{
+  "name": "Tsai Nei Yuan",
+  "img": "https://github.com/tsainei.png",
+  "links": {
+    "website": "https://portfolio.tsainei.com/",
+    "linkedin": "https://www.linkedin.com/in/tsainei",
+    "github": "https://github.com/tsainei"
+  },
+  "jobTitle": "Front End Developer",
+  "location": {
+    "city": "Málaga",
+    "state": "Andalucía",
+    "country": "Spain"
+  }
+}
