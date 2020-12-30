@@ -1,0 +1,15 @@
+{
+  "name": "Alejandro La Rosa",
+  "img": "https://avatars3.githubusercontent.com/u/64037397?v=4",
+  "links": {
+    "website": "www.alejandrolarosa.com",
+    "linkedin": "https://www.linkedin.com/in/alejandro-la-rosa-4497a995/",
+    "github": "https://github.com/Alejandro1709"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Lima",
+    "state": "Lima",
+    "country": "Peru"
+  }
+}
