@@ -1,0 +1,15 @@
+{
+  "name": "Anup Das",
+  "img": "https://avatars0.githubusercontent.com/u/10906938",
+  "links": {
+    "website": "https://anuptechtips.com/",
+    "linkedin": "https://www.linkedin.com/in/the-anup-das/",
+    "github": "https://github.com/the-anup-das"
+  },
+  "jobTitle": "Python and ML Developer",
+  "location": {
+    "city": "Siliguri",
+    "state": "West Bengal",
+    "country": "India"
+  }
+}
