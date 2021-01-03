@@ -42,7 +42,7 @@ jobs:
 
       - name: Build Project
         run: |
-          npm run build
+          CI=false npm run build
           
 
       - name: Publish
