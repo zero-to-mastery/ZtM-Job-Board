@@ -1,0 +1,15 @@
+{
+  "name": "Obidiagha Stanley",
+  "img": "https://github.com/stanobi.png",
+  "links": {
+    "website": "https://stanley-obi-portfolio.herokuapp.com/",
+    "linkedin": "https://www.linkedin.com/in/stanley-obidiagha-b3b3505a/",
+    "github": "https://github.com/stanobi"
+  },
+  "jobTitle": "Backend Developer",
+  "location": {
+    "city": "Yaba",
+    "state": "Lagos",
+    "country": "Nigeria"
+  }
+}
