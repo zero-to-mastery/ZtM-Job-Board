@@ -1,0 +1,15 @@
+{
+  "name": "Abhay Yadav",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "",
+    "github": "https://github.com/abhayy947"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "country": "India"
+  }
+}
