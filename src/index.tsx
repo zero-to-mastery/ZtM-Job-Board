@@ -4,7 +4,7 @@ import WebFont from "webfontloader"
 import App from "./App"
 import "tachyons"
 import "./index.scss"
-import registerServiceWorker from "./registerServiceWorker"
+// import registerServiceWorker from "./registerServiceWorker"
 
 WebFont.load({
   google: {
