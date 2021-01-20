@@ -1,15 +1,15 @@
 {
-    "name": "Michael Dehaney",
-    "img": "https://avatars1.githubusercontent.com/u/42852447?v=4",
-    "links": {
-      "website": " ",
-      "linkedin": "https://www.linkedin.com/in/michael-dehaney-40887414a/",
-      "github": "https://github.com/michaeldehaney94"
-    },
-    "jobTitle": "Student",
-    "location": {
-      "city": "Kingston",
-      "state": "West Indies",
-      "country": "Jamaica"
-    }
+  "name": "Michael Dehaney",
+  "img": "https://avatars1.githubusercontent.com/u/42852447?v=4",
+  "links": {
+    "website": " ",
+    "linkedin": "https://www.linkedin.com/in/michael-dehaney-40887414a/",
+    "github": "https://github.com/michaeldehaney94"
+  },
+  "jobTitle": "Student",
+  "location": {
+    "city": "Kingston",
+    "state": "West Indies",
+    "country": "Jamaica"
   }
+}

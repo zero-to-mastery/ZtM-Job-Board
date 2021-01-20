@@ -1,15 +1,15 @@
 {
-    "name": "Ruixiang Ding",
-    "img": "",
-    "links": {
-      "website": "https://zealous-swanson-729a74.netlify.app/",
-      "linkedin": "https://www.linkedin.com/in/ruixiang-ding-13bbb7148/",
-      "github": "https://github.com/Tintindrx66"
-    },
-    "jobTitle": "Software Developer",
-    "location": {
-      "city": "Toronto",
-      "state": "ON",
-      "country": "Canada"
-    }
+  "name": "Ruixiang Ding",
+  "img": "",
+  "links": {
+    "website": "https://zealous-swanson-729a74.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/ruixiang-ding-13bbb7148/",
+    "github": "https://github.com/Tintindrx66"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada"
+  }
 }

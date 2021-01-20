@@ -1,15 +1,15 @@
 {
-    "name": "Demilade Oyedele",
-    "img": "https://res.cloudinary.com/doyedele/image/upload/v1566555096/Identification/IMG_3281_vcqhcg.jpg",
-    "links": {
-        "website": "https://demiladeoyedele.netlify.app",
-        "linkedin": "https://www.linkedin.com/in/oyedele-demilade",
-        "github": "https://github.com/doyedele1"
-    },
-    "jobTitle": "Full-Stack Web Developer",
-    "location": {
-        "city": "Lagos",
-        "state": "",
-        "country": "Nigeria"
-    }
+  "name": "Demilade Oyedele",
+  "img": "https://res.cloudinary.com/doyedele/image/upload/v1566555096/Identification/IMG_3281_vcqhcg.jpg",
+  "links": {
+    "website": "https://demiladeoyedele.netlify.app",
+    "linkedin": "https://www.linkedin.com/in/oyedele-demilade",
+    "github": "https://github.com/doyedele1"
+  },
+  "jobTitle": "Full-Stack Web Developer",
+  "location": {
+    "city": "Lagos",
+    "state": "",
+    "country": "Nigeria"
+  }
 }

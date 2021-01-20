@@ -1,15 +1,15 @@
 {
-    "name": "Dharmendra Kumar",
-    "img": "https://avatars2.githubusercontent.com/u/8122751?v=4",
-    "links": {
-      "website": "https://www.dharmendrakumar.me",
-      "linkedin": "https://www.linkedin.com/in/kumardh",
-      "github": "https://www.github.com/dharamhbtik"
-    },
-    "jobTitle": ".Net Developer",
-    "location": {
-      "city": "Noida",
-      "state": "Uttar Pradesh",
-      "country": "India"
-    }
+  "name": "Dharmendra Kumar",
+  "img": "https://avatars2.githubusercontent.com/u/8122751?v=4",
+  "links": {
+    "website": "https://www.dharmendrakumar.me",
+    "linkedin": "https://www.linkedin.com/in/kumardh",
+    "github": "https://www.github.com/dharamhbtik"
+  },
+  "jobTitle": ".Net Developer",
+  "location": {
+    "city": "Noida",
+    "state": "Uttar Pradesh",
+    "country": "India"
   }
+}

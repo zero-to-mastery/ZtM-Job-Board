@@ -1,15 +1,15 @@
 {
-    "name": "Marina Zujic",
-    "img": "https://avatars0.githubusercontent.com/u/58655720?v=4",
-    "links": {
-      "website": "https://marina-zujic.com/",
-      "linkedin": "https://www.linkedin.com/in/marina-zujic",
-      "github": "https://github.com/marinazzz"
-    },
-    "jobTitle": "Front-End Developer",
-    "location": {
-      "city": "Oslo",
-      "state": "",
-      "country": "Norway"
-    }
+  "name": "Marina Zujic",
+  "img": "https://avatars0.githubusercontent.com/u/58655720?v=4",
+  "links": {
+    "website": "https://marina-zujic.com/",
+    "linkedin": "https://www.linkedin.com/in/marina-zujic",
+    "github": "https://github.com/marinazzz"
+  },
+  "jobTitle": "Front-End Developer",
+  "location": {
+    "city": "Oslo",
+    "state": "",
+    "country": "Norway"
+  }
 }

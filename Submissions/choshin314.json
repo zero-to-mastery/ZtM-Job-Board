@@ -1,15 +1,15 @@
 {
-    "name": "Shin Cho",
-    "img": "https://images.ctfassets.net/1pdyfvosxic1/2SyRDuNpHlAd1Kk4ecRhxM/fd600d2de41975a0134bd723c02010fc/shincho_profile.jpg",
-    "links": {
-      "website": "https://www.shincho.me",
-      "linkedin": "https://www.linkedin.com/in/shin-cho-stlouis",
-      "github": "https://github.com/choshin314"
-    },
-    "jobTitle": "Frontend Web Developer",
-    "location": {
-      "city": "St. Louis",
-      "state": "Missouri",
-      "country": "United States"
-    }
+  "name": "Shin Cho",
+  "img": "https://images.ctfassets.net/1pdyfvosxic1/2SyRDuNpHlAd1Kk4ecRhxM/fd600d2de41975a0134bd723c02010fc/shincho_profile.jpg",
+  "links": {
+    "website": "https://www.shincho.me",
+    "linkedin": "https://www.linkedin.com/in/shin-cho-stlouis",
+    "github": "https://github.com/choshin314"
+  },
+  "jobTitle": "Frontend Web Developer",
+  "location": {
+    "city": "St. Louis",
+    "state": "Missouri",
+    "country": "United States"
+  }
 }

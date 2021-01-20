@@ -1,15 +1,15 @@
 {
-    "name": "Kolton Webber",
-    "img": "https://avatars3.githubusercontent.com/u/63945105?v=4",
-    "links": {
-      "website": "https://kwebdev.io/",
-      "linkedin": "https://www.linkedin.com/in/kolton-w-4363b74a",
-      "github": "https://github.com/kawgh1"
-    },
-    "jobTitle": "Full Stack Java Developer",
-    "location": {
-      "city": "Dallas",
-      "state": "Texas",
-      "country": "United States"
-    }
+  "name": "Kolton Webber",
+  "img": "https://avatars3.githubusercontent.com/u/63945105?v=4",
+  "links": {
+    "website": "https://kwebdev.io/",
+    "linkedin": "https://www.linkedin.com/in/kolton-w-4363b74a",
+    "github": "https://github.com/kawgh1"
+  },
+  "jobTitle": "Full Stack Java Developer",
+  "location": {
+    "city": "Dallas",
+    "state": "Texas",
+    "country": "United States"
   }
+}

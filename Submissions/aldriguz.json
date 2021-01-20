@@ -1,15 +1,15 @@
 {
-    "name": "Kevin Alama Rodriguez",
-    "img": "https://avatars0.githubusercontent.com/u/3867738?v=4",
-    "links": {
-      "website": "https://aldriguz.github.io",
-      "linkedin": "https://www.linkedin.com/in/kalama",
-      "github": "https://github.com/aldriguz"
-    },
-    "jobTitle": "Software Developer",
-    "location": {
-      "city": "Trujillo",
-      "state": "La Libertad",
-      "country": "Perú"
-    }
+  "name": "Kevin Alama Rodriguez",
+  "img": "https://avatars0.githubusercontent.com/u/3867738?v=4",
+  "links": {
+    "website": "https://aldriguz.github.io",
+    "linkedin": "https://www.linkedin.com/in/kalama",
+    "github": "https://github.com/aldriguz"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Trujillo",
+    "state": "La Libertad",
+    "country": "Perú"
   }
+}

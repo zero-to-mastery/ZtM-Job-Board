@@ -1,15 +1,15 @@
 {
-    "name": "Luke Beach",
-    "img": "https://avatars0.githubusercontent.com/u/55807998?s=400&u=baee01221933d99535a52e3c70bd567df8beb168&v=4",
-    "links": {
-      "website": "lukebeach.uk",
-      "linkedin": "https://www.linkedin.com/in/<YOUR_LINKEDIN_USERNAME>",
-      "github": "https://github.com/<YOUR_GH_USERNAME>"
-    },
-    "jobTitle": "Front End Developer",
-    "location": {
-      "city": "Andover",
-      "state": "Hampshire",
-      "country": "United Kingdom"
-    }
+  "name": "Luke Beach",
+  "img": "https://avatars0.githubusercontent.com/u/55807998?s=400&u=baee01221933d99535a52e3c70bd567df8beb168&v=4",
+  "links": {
+    "website": "lukebeach.uk",
+    "linkedin": "https://www.linkedin.com/in/<YOUR_LINKEDIN_USERNAME>",
+    "github": "https://github.com/<YOUR_GH_USERNAME>"
+  },
+  "jobTitle": "Front End Developer",
+  "location": {
+    "city": "Andover",
+    "state": "Hampshire",
+    "country": "United Kingdom"
   }
+}
