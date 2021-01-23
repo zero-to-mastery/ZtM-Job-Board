@@ -1,0 +1,15 @@
+{
+  "name": "Anja Khan",
+  "img": "https://avatars.githubusercontent.com/u/42711484?v=4",
+  "links": {
+    "website": "https://anjakhan.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/anja-khan/",
+    "github": "https://github.com/anjakhan"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Berlin",
+    "state": "",
+    "country": "Germany"
+  }
+}
