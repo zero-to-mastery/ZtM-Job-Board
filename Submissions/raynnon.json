@@ -1,0 +1,15 @@
+{
+    "name": "Florian Assante",
+    "img": "https://avatars.githubusercontent.com/u/1773651?v=4",
+    "links": {
+      "website": "https://www.florian-assante.com/",
+      "linkedin": "https://www.linkedin.com/in/florianassante/",
+      "github": "https://github.com/Raynnon"
+    },
+    "jobTitle": "Full stack web developer",
+    "location": {
+      "city": "Barcelona",
+      "state": "Cataluña",
+      "country": "Spain"
+    }
+  }
