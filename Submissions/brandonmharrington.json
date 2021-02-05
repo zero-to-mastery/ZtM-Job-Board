@@ -1,0 +1,15 @@
+{
+  "name": "Brandon Harrington",
+  "img": "",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/brandon-harrington-3v",
+    "github": "https://github.com/brandonmharrington"
+  },
+  "jobTitle": "Front-end Developer",
+  "location": {
+    "city": "Chicago",
+    "state": "IL",
+    "country": "United States of America"
+  }
+}
