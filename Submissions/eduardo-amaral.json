@@ -1,0 +1,15 @@
+{
+  "name": "Eduardo Amaral",
+  "img": "https://github.com/EduardoAmaral.png",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/eduardofsamaral",
+    "github": "https://github.com/EduardoAmaral"
+  },
+  "jobTitle": "Backend Developer",
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "Brazil"
+  }
+}
