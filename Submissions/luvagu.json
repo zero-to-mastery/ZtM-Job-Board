@@ -1,0 +1,15 @@
+{
+    "name": "Luis Vallejo",
+    "img": "https://media-exp1.licdn.com/dms/image/C4E03AQHyVZgfrVduVw/profile-displayphoto-shrink_100_100/0/1586070340832?e=1618444800&v=beta&t=knED0q-1l0ruenH9D0nn4XDfRA2X5AEU77ZpYeKJUWY",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/luis-vallejo-luvagu/",
+      "github": "https://github.com/luvagu"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Brighton",
+      "state": "East Sussex",
+      "country": "UK"
+    }
+}
