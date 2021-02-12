@@ -1,0 +1,15 @@
+{
+  "name": "Aditya Birla",
+  "img": "http://aditya190798.pythonanywhere.com/static/assets/images/profilepic.jpg",
+  "links": {
+    "website": "http://aditya190798.pythonanywhere.com/",
+    "linkedin": "https://www.linkedin.com/in/igneous8k",
+    "github": "https://github.com/igneous8k"
+  },
+  "jobTitle": "Junior Full Stack Developer / Junior Graphics Desginer",
+  "location": {
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India"
+  }
+}
