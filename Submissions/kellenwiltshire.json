@@ -1,0 +1,15 @@
+{
+  "name": "Kellen Wiltshire",
+  "img": "https://avatars.githubusercontent.com/u/31140634?v=4",
+  "links": {
+    "website": "https://kellenwiltshire.com/",
+    "linkedin": "https://www.linkedin.com/in/kellenwiltshire/",
+    "github": "https://github.com/kellenwiltshire>"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Kingston",
+    "state": "Ontario",
+    "country": "Canada"
+  }
+}
