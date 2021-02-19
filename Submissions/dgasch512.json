@@ -1,0 +1,15 @@
+{
+  "name": "David Gasch",
+  "img": "https://avatars.githubusercontent.com/u/17347836?v=4",
+  "links": {
+    "website": "https://davidgasch.herokuapp.com/",
+    "linkedin": "https://www.linkedin.com/in/david-gasch",
+    "github": "https://github.com/dgasch512"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Boise",
+    "state": "Idaho",
+    "country": "United States"
+  }
+}
