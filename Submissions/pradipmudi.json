@@ -1,16 +1,16 @@
 {
-  "id": "cddf1c1e-3676-4f55-89de-6c5ed80a9fe4",
-  "name": "Pradip Mudi",
-  "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.linkedin.com%2Fin%2Fpradip-mudi-5a418b8a&psig=AOvVaw0adVK0FIvuqlrFReHDMBhD&ust=1590227599502000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDBkMuZx-kCFQAAAAAdAAAAABAJ",
-  "links": {
-    "website": "",
-    "linkedin": "https://www.linkedin.com/in/pradip-mudi-5a418b8a/",
-    "github": "https://github.com/pradipmudi"
+  "id":"cddf1c1e-3676-4f55-89de-6c5ed80a9fe4",
+  "name":"Pradip Kumar Mudi",
+  "img":"https://github.com/pradipmudi/pradipmudi/blob/master/me.png",
+  "links":{
+    "website":"https://about.me/p.mudi/",
+    "linkedin":"https://www.linkedin.com/in/pradip-mudi-5a418b8a/",
+    "github":"https://github.com/pradipmudi"
   },
-  "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Hyderabad",
-    "state": "Telangana",
-    "country": "India"
+  "jobTitle":"Software Engineer",
+  "location":{
+    "city":"Hyderabad",
+    "state":"Telangana",
+    "country":"India"
   }
 }
