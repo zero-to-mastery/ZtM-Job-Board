@@ -8,9 +8,5 @@
     "github": "https://github.com/nickapic"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Kaunas",
-    "state": "",
-    "country": "Lithuania"
-  }
+  "location": { "city": "Kaunas", "state": "", "country": "Lithuania" }
 }

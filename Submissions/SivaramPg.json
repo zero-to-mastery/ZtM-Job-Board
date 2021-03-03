@@ -8,9 +8,5 @@
     "github": "https://github.com/SivaramPg"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Panvel",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Panvel", "state": "Maharashtra", "country": "India" }
 }

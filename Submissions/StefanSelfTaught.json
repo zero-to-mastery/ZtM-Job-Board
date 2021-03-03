@@ -8,9 +8,5 @@
     "github": "https://github.com/StefanSelfTaught"
   },
   "jobTitle": "Front End Developer",
-  "location": {
-    "city": "Targu-Mures",
-    "state": "Mures",
-    "country": "Romania"
-  }
+  "location": { "city": "Targu-Mures", "state": "Mures", "country": "Romania" }
 }

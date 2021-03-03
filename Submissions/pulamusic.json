@@ -8,9 +8,5 @@
     "github": "https://github.com/pulamusic"
   },
   "jobTitle": "Academic & Front-End Developer",
-  "location": {
-    "city": "Springfield",
-    "state": "MA",
-    "country": "USA"
-  }
+  "location": { "city": "Springfield", "state": "MA", "country": "USA" }
 }

@@ -7,9 +7,6 @@
     "github": "https://github.com/Tintindrx66"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "Toronto",
-    "state": "ON",
-    "country": "Canada"
-  }
+  "location": { "city": "Toronto", "state": "ON", "country": "Canada" },
+  "id": "fa099271-1036-ee79-0960-31cfe776288e"
 }

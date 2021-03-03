@@ -8,9 +8,5 @@
     "github": "https://www.github.com/Scramblelock"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Montréal",
-    "state": "QC",
-    "country": "Canada"
-  }
+  "location": { "city": "Montréal", "state": "QC", "country": "Canada" }
 }

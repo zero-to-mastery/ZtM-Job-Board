@@ -8,9 +8,5 @@
     "github": "https://github.com/mauriciospesot"
   },
   "jobTitle": "Web Developer, C++ Developer, Computer Engineering student",
-  "location": {
-    "city": "Santa Fe",
-    "state": "",
-    "country": "Argentina"
-  }
+  "location": { "city": "Santa Fe", "state": "", "country": "Argentina" }
 }

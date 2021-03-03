@@ -8,9 +8,5 @@
     "github": "https://github.com/ebnsina"
   },
   "jobTitle": "Full-Stack Web Dev",
-  "location": {
-    "city": "Dhaka",
-    "state": "",
-    "country": "Bangladesh"
-  }
+  "location": { "city": "Dhaka", "state": "", "country": "Bangladesh" }
 }

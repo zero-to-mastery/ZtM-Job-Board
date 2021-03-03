@@ -8,9 +8,5 @@
     "github": "https://github.com/sanidhya2000"
   },
   "jobTitle": "Full-Stack Web Developer",
-  "location": {
-    "city": "Guna",
-    "state": "Madhya Pradesh",
-    "country": "India"
-  }
+  "location": { "city": "Guna", "state": "Madhya Pradesh", "country": "India" }
 }

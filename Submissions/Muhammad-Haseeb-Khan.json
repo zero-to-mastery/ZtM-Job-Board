@@ -8,9 +8,5 @@
     "github": "https://www.linkedin.com/in/mhkasif97/"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Karachi",
-    "state": "Sindh",
-    "country": "Pakistan"
-  }
+  "location": { "city": "Karachi", "state": "Sindh", "country": "Pakistan" }
 }

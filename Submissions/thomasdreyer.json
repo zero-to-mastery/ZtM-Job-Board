@@ -8,9 +8,5 @@
     "github": "https://github.com/thomasdreyer"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Johannesburg",
-    "state": "",
-    "country": "South Africa"
-  }
+  "location": { "city": "Johannesburg", "state": "", "country": "South Africa" }
 }

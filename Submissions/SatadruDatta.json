@@ -7,9 +7,6 @@
     "github": "https://github.com/SatadruDatta"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Bengaluru",
-    "state": "Karnataka",
-    "country": "India"
-  }
+  "location": { "city": "Bengaluru", "state": "Karnataka", "country": "India" },
+  "id": "d8cb5728-ac1a-3fa8-d6ea-4d15e2c7b791"
 }

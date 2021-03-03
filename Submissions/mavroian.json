@@ -8,9 +8,5 @@
     "github": "https://github.com/mavroian"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Tokyo",
-    "state": "Tokyo",
-    "country": "Japan"
-  }
+  "location": { "city": "Tokyo", "state": "Tokyo", "country": "Japan" }
 }

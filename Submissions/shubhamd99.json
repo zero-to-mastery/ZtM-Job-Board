@@ -8,9 +8,5 @@
     "github": "https://github.com/shubhamd99"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Banglore",
-    "state": "KA",
-    "country": "India"
-  }
+  "location": { "city": "Banglore", "state": "KA", "country": "India" }
 }

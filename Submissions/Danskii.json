@@ -8,9 +8,5 @@
     "github": "https://github.com/Danskii"
   },
   "jobTitle": "Digital Media Specialist",
-  "location": {
-    "city": "Toronto",
-    "state": "Ontario",
-    "country": "Canada"
-  }
+  "location": { "city": "Toronto", "state": "Ontario", "country": "Canada" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/tgmarinho"
   },
   "jobTitle": "React Developer - Home Office",
-  "location": {
-    "city": "Dourados",
-    "state": "MS",
-    "country": "Brazil"
-  }
+  "location": { "city": "Dourados", "state": "MS", "country": "Brazil" }
 }

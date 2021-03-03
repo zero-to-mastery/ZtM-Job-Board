@@ -8,9 +8,5 @@
     "github": "https://github.com/antonykidis"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Tel-Aviv",
-    "state": "IL",
-    "country": "Israel"
-  }
+  "location": { "city": "Tel-Aviv", "state": "IL", "country": "Israel" }
 }

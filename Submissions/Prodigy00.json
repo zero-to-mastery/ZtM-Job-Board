@@ -7,9 +7,6 @@
     "github": "https://github.com/Prodigy00"
   },
   "jobTitle": "Full-Stack Developer (Web and Mobile)",
-  "location": {
-    "city": "Wuse",
-    "state": "Abuja",
-    "country": "Nigeria"
-  }
+  "location": { "city": "Wuse", "state": "Abuja", "country": "Nigeria" },
+  "id": "c806ee79-7ef6-a3fa-4bc7-c95a1e9b0d58"
 }

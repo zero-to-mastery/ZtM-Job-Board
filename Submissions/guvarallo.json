@@ -8,9 +8,5 @@
     "github": "https://github.com/guvarallo"
   },
   "jobTitle": "Software Engineer | Full-Stack Web Developer",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "Brazil"
-  }
+  "location": { "city": "", "state": "", "country": "Brazil" }
 }

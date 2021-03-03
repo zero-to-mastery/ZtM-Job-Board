@@ -8,9 +8,5 @@
     "github": "https://github.com/jackchen1210"
   },
   "jobTitle": "FullStack Developer/Unity Developer",
-  "location": {
-    "city": "Kaohsiung",
-    "state": "Taiwan",
-    "country": "Taiwan"
-  }
+  "location": { "city": "Kaohsiung", "state": "Taiwan", "country": "Taiwan" }
 }

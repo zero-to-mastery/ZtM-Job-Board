@@ -8,9 +8,5 @@
     "github": "https://github.com/tomasbruzza"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "",
-    "state": "Buenos Aires",
-    "country": "Argentina"
-  }
+  "location": { "city": "", "state": "Buenos Aires", "country": "Argentina" }
 }

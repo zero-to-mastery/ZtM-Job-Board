@@ -8,9 +8,5 @@
     "github": "https://github.com/saifsadi"
   },
   "jobTitle": "Full Stack Developer ",
-  "location": {
-    "city": "Rawalpindi",
-    "state": "",
-    "country": "Pakistan"
-  }
+  "location": { "city": "Rawalpindi", "state": "", "country": "Pakistan" }
 }

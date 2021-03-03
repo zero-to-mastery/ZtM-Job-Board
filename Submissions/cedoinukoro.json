@@ -8,9 +8,5 @@
     "github": "https://github.com/cedoinukoro"
   },
   "jobTitle": "Novice Front End Developer",
-  "location": {
-    "city": "Lyon",
-    "state": "",
-    "country": "France"
-  }
+  "location": { "city": "Lyon", "state": "", "country": "France" }
 }

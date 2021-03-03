@@ -8,9 +8,5 @@
     "github": "https://github.com/rildev"
   },
   "jobTitle": "Full Stack ReactJS Developer",
-  "location": {
-    "city": "Bordeaux",
-    "state": "",
-    "country": "France"
-  }
+  "location": { "city": "Bordeaux", "state": "", "country": "France" }
 }

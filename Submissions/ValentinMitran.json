@@ -8,9 +8,5 @@
     "github": "https://github.com/ValentinMitran"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "",
-    "state": "Lisbon",
-    "country": "Portugal"
-  }
+  "location": { "city": "", "state": "Lisbon", "country": "Portugal" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/IvoTsochev"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Sofia",
-    "state": "Sofia",
-    "country": "Bulgaria"
-  }
+  "location": { "city": "Sofia", "state": "Sofia", "country": "Bulgaria" }
 }

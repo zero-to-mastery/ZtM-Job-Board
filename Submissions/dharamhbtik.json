@@ -7,9 +7,6 @@
     "github": "https://www.github.com/dharamhbtik"
   },
   "jobTitle": ".Net Developer",
-  "location": {
-    "city": "Noida",
-    "state": "Uttar Pradesh",
-    "country": "India"
-  }
+  "location": { "city": "Noida", "state": "Uttar Pradesh", "country": "India" },
+  "id": "c1105e58-18a0-a2fb-6475-e4d35e51cc2a"
 }

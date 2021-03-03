@@ -7,9 +7,6 @@
     "github": "https://github.com/nrobert444"
   },
   "jobTitle": "Full Stack Software Engineer | Software Developer",
-  "location": {
-    "city": "Portland",
-    "state": "OR",
-    "country": "USA"
-  }
+  "location": { "city": "Portland", "state": "OR", "country": "USA" },
+  "id": "d594e950-8675-0d75-8e7a-cb2dbe38be30"
 }

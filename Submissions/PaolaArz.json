@@ -8,9 +8,5 @@
     "github": "https://github.com/PaolaArz"
   },
   "jobTitle": "Bioinformatician, Full Stack Developer",
-  "location": {
-    "city": "Manchester",
-    "state": "",
-    "country": "UK"
-  }
+  "location": { "city": "Manchester", "state": "", "country": "UK" }
 }

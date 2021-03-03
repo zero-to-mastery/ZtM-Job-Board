@@ -8,9 +8,5 @@
     "github": "https://github.com/lasantha57"
   },
   "jobTitle": "Full-Stack Developer | Javascript",
-  "location": {
-    "city": "Colombo",
-    "state": "",
-    "country": "Sri Lanka"
-  }
+  "location": { "city": "Colombo", "state": "", "country": "Sri Lanka" }
 }

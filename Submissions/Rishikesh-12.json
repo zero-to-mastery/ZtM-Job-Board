@@ -8,9 +8,5 @@
     "github": "https://github.com/Rishikesh-12"
   },
   "jobTitle": "Frontend Developer",
-  "location": {
-    "city": "Delhi",
-    "state": "",
-    "country": "India"
-  }
+  "location": { "city": "Delhi", "state": "", "country": "India" }
 }

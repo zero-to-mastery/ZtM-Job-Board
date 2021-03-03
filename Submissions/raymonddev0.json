@@ -8,9 +8,5 @@
     "github": "https://github.com/raymonddev0"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "Singapore"
-  }
+  "location": { "city": "", "state": "", "country": "Singapore" }
 }

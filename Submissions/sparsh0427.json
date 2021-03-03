@@ -8,9 +8,5 @@
     "github": "https://github.com/sparsh0427/"
   },
   "jobTitle": "Full Stack Developer | Java Developer | ML Enthusiast",
-  "location": {
-    "city": "New Delhi",
-    "state": "Delhi",
-    "country": "India"
-  }
+  "location": { "city": "New Delhi", "state": "Delhi", "country": "India" }
 }

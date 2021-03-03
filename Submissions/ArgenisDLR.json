@@ -8,9 +8,5 @@
     "github": "https://github.com/ArgenisDLR"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Boston",
-    "state": "Massachusetts",
-    "country": "USA"
-  }
+  "location": { "city": "Boston", "state": "Massachusetts", "country": "USA" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/Carls13"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Valencia",
-    "state": "",
-    "country": "Venezuela"
-  }
+  "location": { "city": "Valencia", "state": "", "country": "Venezuela" }
 }

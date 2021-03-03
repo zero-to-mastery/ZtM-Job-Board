@@ -7,9 +7,5 @@
     "github": "https://github.com/EshwarCVS"
   },
   "jobTitle": "Business Analyst, Web Developer",
-  "location": {
-    "city": "Hyderabad",
-    "state": "",
-    "country": "India"
-  }
+  "location": { "city": "Hyderabad", "state": "", "country": "India" }
 }

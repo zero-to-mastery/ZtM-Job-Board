@@ -7,9 +7,6 @@
     "github": "https://github.com/OPerel"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Tel Aviv",
-    "state": "",
-    "country": "Israel"
-  }
+  "location": { "city": "Tel Aviv", "state": "", "country": "Israel" },
+  "id": "bb8b228b-5290-24ed-e160-014e3920275b"
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/pratik-1999"
   },
   "jobTitle": "AI Researcher",
-  "location": {
-    "city": "Vidisha",
-    "state": "M.P.",
-    "country": "India"
-  }
+  "location": { "city": "Vidisha", "state": "M.P.", "country": "India" }
 }

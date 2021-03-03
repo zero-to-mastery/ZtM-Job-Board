@@ -8,9 +8,5 @@
     "github": "https://github.com/ale917k"
   },
   "jobTitle": "Front End Developer",
-  "location": {
-    "city": "Oxford",
-    "state": "UK",
-    "country": "United Kingdom"
-  }
+  "location": { "city": "Oxford", "state": "UK", "country": "United Kingdom" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/yonis9"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Tel-Aviv",
-    "state": "",
-    "country": "Israel"
-  }
+  "location": { "city": "Tel-Aviv", "state": "", "country": "Israel" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/ivsuleman"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "London",
-    "state": "",
-    "country": "United Kingdom"
-  }
+  "location": { "city": "London", "state": "", "country": "United Kingdom" }
 }

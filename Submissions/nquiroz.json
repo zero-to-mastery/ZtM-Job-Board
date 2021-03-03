@@ -8,9 +8,5 @@
     "github": "https://github.com/nquiroz"
   },
   "jobTitle": "Full Stack Developer (Java, Javascript, Css, Angular)",
-  "location": {
-    "city": "Asunción",
-    "state": "Central",
-    "country": "Paraguay"
-  }
+  "location": { "city": "Asunción", "state": "Central", "country": "Paraguay" }
 }

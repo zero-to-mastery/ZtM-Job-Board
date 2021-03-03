@@ -8,9 +8,5 @@
     "github": "https://github.com/parthkanani93"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Surat",
-    "state": "Gujarat",
-    "country": "India"
-  }
+  "location": { "city": "Surat", "state": "Gujarat", "country": "India" }
 }

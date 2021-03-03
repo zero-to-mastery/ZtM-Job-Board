@@ -8,9 +8,5 @@
     "github": "https://github.com/HJShih/"
   },
   "jobTitle": "Software developer, Java, C++, JavaScript",
-  "location": {
-    "city": "New Taipei City",
-    "state": "",
-    "country": "Taiwan"
-  }
+  "location": { "city": "New Taipei City", "state": "", "country": "Taiwan" }
 }

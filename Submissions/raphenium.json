@@ -8,9 +8,5 @@
     "github": "https://github.com/raphenium"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Ikeja",
-    "state": "Lagos",
-    "country": "Nigeria"
-  }
+  "location": { "city": "Ikeja", "state": "Lagos", "country": "Nigeria" }
 }

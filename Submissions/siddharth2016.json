@@ -7,9 +7,6 @@
     "github": "https://github.com/siddharth2016"
   },
   "jobTitle": "Software Engineer 1",
-  "location": {
-    "city": "Chennai",
-    "state": "Tamil Nadu",
-    "country": "India"
-  }
+  "location": { "city": "Chennai", "state": "Tamil Nadu", "country": "India" },
+  "id": "a44b03d8-0fe2-7bb7-d3ed-f29d9966db0b"
 }

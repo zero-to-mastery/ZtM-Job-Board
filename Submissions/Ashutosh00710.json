@@ -8,9 +8,5 @@
     "github": "https://github.com/Ashutosh00710"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Lucknow",
-    "state": "",
-    "country": "India"
-  }
+  "location": { "city": "Lucknow", "state": "", "country": "India" }
 }

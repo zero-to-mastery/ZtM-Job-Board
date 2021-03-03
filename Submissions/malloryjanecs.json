@@ -8,9 +8,5 @@
     "github": "https://github.com/malloryjanecs"
   },
   "jobTitle": "SQL/Java/Python | Computer Science Student",
-  "location": {
-    "city": "",
-    "state": "OH/PA",
-    "country": "USA"
-  }
+  "location": { "city": "", "state": "OH/PA", "country": "USA" }
 }

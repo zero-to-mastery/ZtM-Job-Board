@@ -8,9 +8,5 @@
     "github": "https://github.com/bishtamit"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Gurugram",
-    "state": "Haryana",
-    "country": "India"
-  }
+  "location": { "city": "Gurugram", "state": "Haryana", "country": "India" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/DiptoChakrabarty"
   },
   "jobTitle": "Devops Engineer",
-  "location": {
-    "city": "Vellore",
-    "state": "Tamil Nadu",
-    "country": "India"
-  }
+  "location": { "city": "Vellore", "state": "Tamil Nadu", "country": "India" }
 }

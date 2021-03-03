@@ -8,9 +8,5 @@
     "github": "https://github.com/AndrewDiedrich"
   },
   "jobTitle": "Developer/Analyst",
-  "location": {
-    "city": "Duluth",
-    "state": "Minnesota",
-    "country": "USA"
-  }
+  "location": { "city": "Duluth", "state": "Minnesota", "country": "USA" }
 }

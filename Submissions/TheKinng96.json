@@ -8,9 +8,5 @@
     "github": "https://github.com/TheKinng96"
   },
   "jobTitle": "Frontend Developer",
-  "location": {
-    "city": "Komae",
-    "state": "Tokyo",
-    "country": "Japan"
-  }
+  "location": { "city": "Komae", "state": "Tokyo", "country": "Japan" }
 }

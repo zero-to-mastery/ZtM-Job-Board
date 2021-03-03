@@ -8,9 +8,5 @@
     "github": "https://github.com/VitoMendoza"
   },
   "jobTitle": "Web Developer & QA Engineer",
-  "location": {
-    "city": "Santa Cruz",
-    "state": "",
-    "country": "Bolivia"
-  }
+  "location": { "city": "Santa Cruz", "state": "", "country": "Bolivia" }
 }

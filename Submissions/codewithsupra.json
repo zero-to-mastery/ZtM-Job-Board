@@ -8,9 +8,5 @@
     "github": "https://github.com/codewithsupra"
   },
   "jobTitle": "Data Analyst| Python Developer",
-  "location": {
-    "city": "MUSCAT",
-    "state": "MUSCAT",
-    "country": "OMAN"
-  }
+  "location": { "city": "MUSCAT", "state": "MUSCAT", "country": "OMAN" }
 }

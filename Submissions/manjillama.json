@@ -8,9 +8,5 @@
     "github": "https://github.com/manjillama"
   },
   "jobTitle": "Full stack developer",
-  "location": {
-    "city": "Boudha",
-    "state": "Kathmandu",
-    "country": "Nepal"
-  }
+  "location": { "city": "Boudha", "state": "Kathmandu", "country": "Nepal" }
 }

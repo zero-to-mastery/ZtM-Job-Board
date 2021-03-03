@@ -8,9 +8,5 @@
     "github": "https://github.com/grantrudow"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "",
-    "state": "Mississippi",
-    "country": "United States"
-  }
+  "location": { "city": "", "state": "Mississippi", "country": "United States" }
 }

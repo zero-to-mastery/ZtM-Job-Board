@@ -8,9 +8,5 @@
     "github": "https://github.com/joejhorn"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Reno",
-    "state": "Nevada",
-    "country": "USA"
-  }
+  "location": { "city": "Reno", "state": "Nevada", "country": "USA" }
 }

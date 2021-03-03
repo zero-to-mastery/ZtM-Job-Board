@@ -8,9 +8,5 @@
     "github": "https://github.com/AbejaCruz"
   },
   "jobTitle": "AR/VR Developer",
-  "location": {
-    "city": "Bogotá",
-    "state": "Suba",
-    "country": "Colombia"
-  }
+  "location": { "city": "Bogotá", "state": "Suba", "country": "Colombia" }
 }

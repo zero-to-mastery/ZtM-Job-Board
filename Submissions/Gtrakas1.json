@@ -8,9 +8,5 @@
     "github": "https://www.github.com/Gtrakas1"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Toronto",
-    "state": "Ontario",
-    "country": "Canada"
-  }
+  "location": { "city": "Toronto", "state": "Ontario", "country": "Canada" }
 }

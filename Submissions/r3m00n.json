@@ -8,9 +8,5 @@
     "github": "https://github.com/r3m00n"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Hamburg",
-    "state": "Hamburg",
-    "country": "Germany"
-  }
+  "location": { "city": "Hamburg", "state": "Hamburg", "country": "Germany" }
 }

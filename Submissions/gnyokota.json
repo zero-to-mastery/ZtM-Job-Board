@@ -1,15 +1,12 @@
 {
-    "name": "Giovana Yokota",
-    "img": "https://avatars.githubusercontent.com/u/67924166?v=4",
-    "links": {
-      "website": "https://gnyokota.github.io/gyportfolio/",
-      "linkedin": "https://www.linkedin.com/in/gyokota",
-      "github": "https://github.com/gnyokota"
-    },
-    "jobTitle": "Front-end Developer",
-    "location": {
-      "city": "Berlin",
-      "state": "",
-      "country": "Germany"
-    }
+  "name": "Giovana Yokota",
+  "img": "https://avatars.githubusercontent.com/u/67924166?v=4",
+  "links": {
+    "website": "https://gnyokota.github.io/gyportfolio/",
+    "linkedin": "https://www.linkedin.com/in/gyokota",
+    "github": "https://github.com/gnyokota"
+  },
+  "jobTitle": "Front-end Developer",
+  "location": { "city": "Berlin", "state": "", "country": "Germany" },
+  "id": "d31c8428-0ddf-058f-3a58-4cab0f1d892c"
 }

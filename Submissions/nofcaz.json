@@ -8,9 +8,5 @@
     "github": "https://www.github.com/nofcaz"
   },
   "jobTitle": "Front-End Web Developer/Software Engineer/UI Developer",
-  "location": {
-    "city": "Simsbury",
-    "state": "Connecticut",
-    "country": "USA"
-  }
+  "location": { "city": "Simsbury", "state": "Connecticut", "country": "USA" }
 }

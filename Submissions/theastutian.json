@@ -8,9 +8,5 @@
     "github": "https://github.com/theastutian"
   },
   "jobTitle": "Full Stack Developer | Data Scientist",
-  "location": {
-    "city": "Ile-Ife",
-    "state": "Osun",
-    "country": "Nigeria"
-  }
+  "location": { "city": "Ile-Ife", "state": "Osun", "country": "Nigeria" }
 }

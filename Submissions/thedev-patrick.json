@@ -8,9 +8,5 @@
     "github": "https://github.com/thedev-patrick"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Lagos",
-    "state": "",
-    "country": "Nigeria"
-  }
+  "location": { "city": "Lagos", "state": "", "country": "Nigeria" }
 }

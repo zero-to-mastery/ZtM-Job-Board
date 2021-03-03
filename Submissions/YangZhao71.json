@@ -8,9 +8,5 @@
     "github": "https://github.com/YangZhao71"
   },
   "jobTitle": "Full-Stack Developer",
-  "location": {
-    "city": "Ithaca",
-    "state": "New York",
-    "country": "USA"
-  }
+  "location": { "city": "Ithaca", "state": "New York", "country": "USA" }
 }

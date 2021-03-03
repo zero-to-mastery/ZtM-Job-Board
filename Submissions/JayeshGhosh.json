@@ -8,9 +8,5 @@
     "github": "https://github.com/JayeshGhosh"
   },
   "jobTitle": "Undergrad Student",
-  "location": {
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" }
 }

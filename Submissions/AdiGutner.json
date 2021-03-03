@@ -8,9 +8,5 @@
     "github": "https://github.com/AdiGutner"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "New York",
-    "state": "NY",
-    "country": "USA"
-  }
+  "location": { "city": "New York", "state": "NY", "country": "USA" }
 }

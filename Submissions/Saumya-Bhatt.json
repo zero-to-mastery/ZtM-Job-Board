@@ -8,9 +8,5 @@
     "github": "https://github.com/Saumya-Bhatt"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Panji",
-    "state": "Goa",
-    "country": "India"
-  }
+  "location": { "city": "Panji", "state": "Goa", "country": "India" }
 }

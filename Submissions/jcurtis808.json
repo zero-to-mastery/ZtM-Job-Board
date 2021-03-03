@@ -8,9 +8,5 @@
     "github": "https://github.com/jcurtis808"
   },
   "jobTitle": "Self employed/freelance developer",
-  "location": {
-    "city": "Chicago",
-    "state": "Illinois",
-    "country": "USA"
-  }
+  "location": { "city": "Chicago", "state": "Illinois", "country": "USA" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/Aleksandandar-Nedelkovski"
   },
   "jobTitle": "Full-stack Web Developer",
-  "location": {
-    "city": "Chicago",
-    "state": "IL",
-    "country": "USA"
-  }
+  "location": { "city": "Chicago", "state": "IL", "country": "USA" }
 }

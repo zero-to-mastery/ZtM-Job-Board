@@ -8,9 +8,5 @@
     "github": "https://github.com/Gandrius"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Vilnius",
-    "state": "",
-    "country": "Lithuania"
-  }
+  "location": { "city": "Vilnius", "state": "", "country": "Lithuania" }
 }

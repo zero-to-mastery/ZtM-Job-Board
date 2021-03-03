@@ -8,9 +8,5 @@
     "github": "https://github.com/2nd-Runner"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Los Angeles",
-    "state": "CA",
-    "country": "USA"
-  }
+  "location": { "city": "Los Angeles", "state": "CA", "country": "USA" }
 }

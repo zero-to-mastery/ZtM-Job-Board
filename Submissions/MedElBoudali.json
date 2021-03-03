@@ -8,9 +8,5 @@
     "github": "https://github.com/MedElBoudali"
   },
   "jobTitle": "undefined",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "Sweden"
-  }
+  "location": { "city": "", "state": "", "country": "Sweden" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/Jgrabenbauer"
   },
   "jobTitle": "Full-Stack Developer",
-  "location": {
-    "city": "Quito",
-    "state": "",
-    "country": "Ecuador"
-  }
+  "location": { "city": "Quito", "state": "", "country": "Ecuador" }
 }

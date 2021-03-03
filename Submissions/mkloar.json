@@ -8,9 +8,5 @@
     "github": "https://github.com/mkloar"
   },
   "jobTitle": "Front-end Web Developer",
-  "location": {
-    "city": "Celje",
-    "state": "",
-    "country": "Slovenia"
-  }
+  "location": { "city": "Celje", "state": "", "country": "Slovenia" }
 }

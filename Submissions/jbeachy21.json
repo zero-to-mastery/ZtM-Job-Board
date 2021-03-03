@@ -8,9 +8,5 @@
     "github": "https://github.com/jbeachy21"
   },
   "jobTitle": "Front-end web developer",
-  "location": {
-    "city": "Minneapolis",
-    "state": "MN",
-    "country": "USA"
-  }
+  "location": { "city": "Minneapolis", "state": "MN", "country": "USA" }
 }

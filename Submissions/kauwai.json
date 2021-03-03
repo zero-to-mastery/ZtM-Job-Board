@@ -7,9 +7,6 @@
     "github": "https://github.com/kauwai"
   },
   "jobTitle": "Full-Stack Web Developer",
-  "location": {
-    "city": "Brasilia",
-    "state": "DF",
-    "country": "Brazil"
-  }
+  "location": { "city": "Brasilia", "state": "DF", "country": "Brazil" },
+  "id": "e8338bbd-74af-0572-dab9-ceef334fc72a"
 }

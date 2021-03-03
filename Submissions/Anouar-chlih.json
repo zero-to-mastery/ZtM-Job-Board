@@ -8,9 +8,5 @@
     "github": "https://github.com/Anouar-chlih"
   },
   "jobtitle": "Mobile developer",
-  "location": {
-    "city": "Essawira",
-    "state": "Ariha",
-    "country": "Morocco"
-  }
+  "location": { "city": "Essawira", "state": "Ariha", "country": "Morocco" }
 }

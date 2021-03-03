@@ -8,9 +8,5 @@
     "github": "https://github.com/OsherSo"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Tel Aviv",
-    "state": "Tel Aviv",
-    "country": "Israel"
-  }
+  "location": { "city": "Tel Aviv", "state": "Tel Aviv", "country": "Israel" }
 }

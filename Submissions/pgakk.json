@@ -8,9 +8,5 @@
     "github": "https://github.com/pgakk"
   },
   "jobTitle": "Web Developer, Front-End Developer",
-  "location": {
-    "city": "Atlanta",
-    "state": "GA",
-    "country": "USA"
-  }
+  "location": { "city": "Atlanta", "state": "GA", "country": "USA" }
 }

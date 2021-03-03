@@ -8,9 +8,5 @@
     "github": "https://github.com/Ajaybhardwaj90"
   },
   "jobTitle": "Android & JavaEE Developer ",
-  "location": {
-    "city": "New Delhi",
-    "state": "Delhi",
-    "country": "India"
-  }
+  "location": { "city": "New Delhi", "state": "Delhi", "country": "India" }
 }

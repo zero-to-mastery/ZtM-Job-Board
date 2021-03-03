@@ -8,9 +8,5 @@
     "github": "https://github.com/dimitrisz123"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Athens",
-    "state": "",
-    "country": "Greece"
-  }
+  "location": { "city": "Athens", "state": "", "country": "Greece" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/BShah5"
   },
   "jobTitle": "Web Developer | Javascript | Python | Ethereum | Java",
-  "location": {
-    "city": "Ahmedabad",
-    "state": "Gujarat",
-    "country": "India"
-  }
+  "location": { "city": "Ahmedabad", "state": "Gujarat", "country": "India" }
 }

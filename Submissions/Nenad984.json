@@ -7,9 +7,6 @@
     "github": "https://github.com/Nenad984"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Belgrade",
-    "state": "Serbia",
-    "country": "Serbia"
-  }
+  "location": { "city": "Belgrade", "state": "Serbia", "country": "Serbia" },
+  "id": "070c658c-62ac-ed28-f54e-cb5e56e412a3"
 }

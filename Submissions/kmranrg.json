@@ -8,9 +8,5 @@
     "github": "https://github.com/kmranrg"
   },
   "jobTitle": "Full-Stack Web Developer",
-  "location": {
-    "city": "Delhi",
-    "state": "New Delhi",
-    "country": "India"
-  }
+  "location": { "city": "Delhi", "state": "New Delhi", "country": "India" }
 }

@@ -7,9 +7,5 @@
     "github": "https://github.com/kaustuvkaran01"
   },
   "jobTitle": "React Developer Intern",
-  "location": {
-    "city": "Patiala",
-    "state": "Punjab",
-    "country": "India"
-  }
+  "location": { "city": "Patiala", "state": "Punjab", "country": "India" }
 }

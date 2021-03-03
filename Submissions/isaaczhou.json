@@ -8,9 +8,5 @@
     "github": "https://github.com/isaaczhou"
   },
   "jobTitle": "Chief Data Scientist",
-  "location": {
-    "city": "New York City",
-    "state": "NY",
-    "country": "USA"
-  }
+  "location": { "city": "New York City", "state": "NY", "country": "USA" }
 }

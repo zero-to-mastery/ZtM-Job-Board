@@ -8,9 +8,5 @@
     "github": "https://github.com/theNoobCoderd"
   },
   "jobTitle": "FullStack Developer",
-  "location": {
-    "city": "-",
-    "state": "Savanne",
-    "country": "Mauritius"
-  }
+  "location": { "city": "-", "state": "Savanne", "country": "Mauritius" }
 }

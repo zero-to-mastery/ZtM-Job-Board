@@ -8,9 +8,5 @@
     "github": "https://github.com/iggh966380"
   },
   "jobTitle": "Font-end Developer",
-  "location": {
-    "city": "New Taipei",
-    "state": "",
-    "country": "Taiwan"
-  }
+  "location": { "city": "New Taipei", "state": "", "country": "Taiwan" }
 }

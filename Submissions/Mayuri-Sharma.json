@@ -8,9 +8,5 @@
     "github": "https://github.com/Mayuri-Sharma"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Mississauga",
-    "state": "Ontario",
-    "country": "Canada"
-  }
+  "location": { "city": "Mississauga", "state": "Ontario", "country": "Canada" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/frozenfroggie"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Wrocław",
-    "state": "",
-    "country": "Poland"
-  }
+  "location": { "city": "Wrocław", "state": "", "country": "Poland" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/BeardOfDan"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Bay Area",
-    "state": "CA",
-    "country": "USA"
-  }
+  "location": { "city": "Bay Area", "state": "CA", "country": "USA" }
 }

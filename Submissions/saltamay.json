@@ -8,9 +8,5 @@
     "github": "https://github.com/saltamay"
   },
   "jobTitle": "Full-Stack JavaScript, ReactJS Developer",
-  "location": {
-    "city": "Toronto",
-    "state": "ON",
-    "country": "Canada"
-  }
+  "location": { "city": "Toronto", "state": "ON", "country": "Canada" }
 }

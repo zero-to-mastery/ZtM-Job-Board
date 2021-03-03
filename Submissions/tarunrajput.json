@@ -7,9 +7,6 @@
     "github": "https://github.com/tarunrajput"
   },
   "jobTitle": "Software Developer | DevOps Engineer",
-  "location": {
-    "city": "New Delhi",
-    "state": "Delhi",
-    "country": "India"
-  }
+  "location": { "city": "New Delhi", "state": "Delhi", "country": "India" },
+  "id": "2b920641-c50e-0d5c-334f-5afb0c1bf7ff"
 }

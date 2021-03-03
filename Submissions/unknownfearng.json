@@ -8,9 +8,5 @@
     "github": "https://github.com/unknownfearng"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Kingston",
-    "state": "",
-    "country": "Canada"
-  }
+  "location": { "city": "Kingston", "state": "", "country": "Canada" }
 }

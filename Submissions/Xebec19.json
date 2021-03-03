@@ -8,9 +8,5 @@
     "github": "https://github.com/Xebec19/Xebec19.github.io"
   },
   "jobTitle": "Front End Developer,Full Stack Web Developer",
-  "location": {
-    "city": "Delhi",
-    "state": "Delhi",
-    "country": "India"
-  }
+  "location": { "city": "Delhi", "state": "Delhi", "country": "India" }
 }

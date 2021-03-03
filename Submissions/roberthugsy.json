@@ -8,9 +8,5 @@
     "github": "https://github.com/roberthugsy/"
   },
   "jobTitle": "Fullstack Developer",
-  "location": {
-    "city": "Cluj-Napoca",
-    "state": "Cluj",
-    "country": "Romania"
-  }
+  "location": { "city": "Cluj-Napoca", "state": "Cluj", "country": "Romania" }
 }

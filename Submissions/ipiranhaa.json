@@ -8,9 +8,5 @@
     "github": "https://github.com/ipiranhaa"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Bangkok",
-    "state": "",
-    "country": "Thailand 🇹🇭"
-  }
+  "location": { "city": "Bangkok", "state": "", "country": "Thailand 🇹🇭" }
 }

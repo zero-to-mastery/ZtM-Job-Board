@@ -8,9 +8,5 @@
     "github": "https://github.com/Luca-Castelnuovo"
   },
   "jobTitle": "Full-Stack dev in training",
-  "location": {
-    "city": "Amsterdam",
-    "state": "",
-    "country": "Netherlands"
-  }
+  "location": { "city": "Amsterdam", "state": "", "country": "Netherlands" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/DamjanKarlovski"
   },
   "jobTitle": "Front-End Web Developer",
-  "location": {
-    "city": "Skopje",
-    "state": "Macedonia",
-    "country": "Macedonia"
-  }
+  "location": { "city": "Skopje", "state": "Macedonia", "country": "Macedonia" }
 }

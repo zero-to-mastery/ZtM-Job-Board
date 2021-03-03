@@ -8,9 +8,5 @@
     "github": "https://github.com/edwinboon"
   },
   "jobTitle": "Frontend Developer",
-  "location": {
-    "city": "Ermelo",
-    "state": "Ermelo",
-    "country": "Netherlands"
-  }
+  "location": { "city": "Ermelo", "state": "Ermelo", "country": "Netherlands" }
 }

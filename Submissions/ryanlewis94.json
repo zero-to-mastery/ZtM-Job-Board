@@ -8,9 +8,5 @@
     "github": "https://github.com/ryanlewis94"
   },
   "jobTitle": "Junior Web Developer",
-  "location": {
-    "city": "Cardiff",
-    "state": "",
-    "country": "United Kingdom"
-  }
+  "location": { "city": "Cardiff", "state": "", "country": "United Kingdom" }
 }

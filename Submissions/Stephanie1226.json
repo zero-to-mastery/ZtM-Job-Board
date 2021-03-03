@@ -8,9 +8,5 @@
     "github": "https://github.com/Stephanie1226"
   },
   "jobTitle": "Sofeware/Full Stack/Web Developer",
-  "location": {
-    "city": "Calgary",
-    "state": "Alberta",
-    "country": "Canada"
-  }
+  "location": { "city": "Calgary", "state": "Alberta", "country": "Canada" }
 }

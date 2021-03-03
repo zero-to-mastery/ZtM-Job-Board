@@ -8,9 +8,5 @@
     "github": "https://github.com/efraimlorenzana"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Taytay",
-    "state": "Rizal",
-    "country": "Philippines"
-  }
+  "location": { "city": "Taytay", "state": "Rizal", "country": "Philippines" }
 }

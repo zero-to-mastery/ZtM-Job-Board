@@ -8,9 +8,5 @@
     "github": "https://github.com/jsaligbon"
   },
   "jobTitle": "Software Test Engineer, Web Developer, Python Developer",
-  "location": {
-    "city": "Manila",
-    "state": "",
-    "country": "Philippines"
-  }
+  "location": { "city": "Manila", "state": "", "country": "Philippines" }
 }

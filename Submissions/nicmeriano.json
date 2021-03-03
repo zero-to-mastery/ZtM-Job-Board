@@ -8,9 +8,5 @@
     "github": "https://github.com/nicmeriano"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Alameda",
-    "state": "CA",
-    "country": "USA"
-  }
+  "location": { "city": "Alameda", "state": "CA", "country": "USA" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/anniebelkin"
   },
   "jobTitle": "Front-end Developer",
-  "location": {
-    "city": "Beer-Sheva",
-    "state": "South",
-    "country": "Israel"
-  }
+  "location": { "city": "Beer-Sheva", "state": "South", "country": "Israel" }
 }

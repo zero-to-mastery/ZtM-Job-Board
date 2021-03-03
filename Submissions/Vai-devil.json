@@ -8,9 +8,5 @@
     "github": "https://github.com/Vai-devil"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Jaipur",
-    "state": "Rajasthan",
-    "country": "India"
-  }
+  "location": { "city": "Jaipur", "state": "Rajasthan", "country": "India" }
 }

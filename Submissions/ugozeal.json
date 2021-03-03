@@ -8,9 +8,5 @@
     "github": "https://github.com/ugozeal"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "FCT Abuja",
-    "state": "Abuja",
-    "country": "Nigeria"
-  }
+  "location": { "city": "FCT Abuja", "state": "Abuja", "country": "Nigeria" }
 }

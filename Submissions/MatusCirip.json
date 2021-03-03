@@ -8,9 +8,5 @@
     "github": "https://github.com/MatusCirip"
   },
   "jobTitle": "Frontend developer",
-  "location": {
-    "city": "Bratislava",
-    "state": "",
-    "country": "Slovakia"
-  }
+  "location": { "city": "Bratislava", "state": "", "country": "Slovakia" }
 }

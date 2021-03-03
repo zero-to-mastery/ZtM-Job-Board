@@ -8,9 +8,5 @@
     "github": "https://github.com/MonkeyDChriss"
   },
   "jobTitle": "QA Engineer",
-  "location": {
-    "city": "Barcelona",
-    "state": "Catalunya",
-    "country": "Spain"
-  }
+  "location": { "city": "Barcelona", "state": "Catalunya", "country": "Spain" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/devmasf"
   },
   "jobTitle": "Remote Full Stack Developer & Digital Nomad ",
-  "location": {
-    "city": "L'Assomption",
-    "state": "Quebec",
-    "country": "Canada"
-  }
+  "location": { "city": "L'Assomption", "state": "Quebec", "country": "Canada" }
 }

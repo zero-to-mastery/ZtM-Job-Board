@@ -8,9 +8,5 @@
     "github": "https://github.com/billshannon"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Boulder",
-    "state": "CO",
-    "country": "USA"
-  }
+  "location": { "city": "Boulder", "state": "CO", "country": "USA" }
 }

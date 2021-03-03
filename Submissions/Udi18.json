@@ -8,9 +8,5 @@
     "github": "https://github.com/Udi18"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Houston",
-    "state": "Texas",
-    "country": "USA"
-  }
+  "location": { "city": "Houston", "state": "Texas", "country": "USA" }
 }

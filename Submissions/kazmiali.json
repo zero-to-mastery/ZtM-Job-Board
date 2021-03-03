@@ -8,9 +8,5 @@
     "github": "https://github.com/kazmiali"
   },
   "jobTitle": "Full Stack Web Developer, React Developer, NodeJS Developer",
-  "location": {
-    "city": "Hyderabad",
-    "state": "Sindh",
-    "country": "Pakistan"
-  }
+  "location": { "city": "Hyderabad", "state": "Sindh", "country": "Pakistan" }
 }

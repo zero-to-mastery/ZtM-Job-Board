@@ -7,9 +7,5 @@
     "github": "https://github.com/kennithnichol"
   },
   "jobTitle": "Remote Full Stack Developer",
-  "location": {
-    "city": "",
-    "state": "BC",
-    "country": "Canada"
-  }
+  "location": { "city": "", "state": "BC", "country": "Canada" }
 }

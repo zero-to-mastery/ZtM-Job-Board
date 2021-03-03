@@ -7,9 +7,5 @@
     "github": "https://github.com/w3tsa"
   },
   "jobTitle": "Software Engineer, Web Developer",
-  "location": {
-    "city": "Chandler",
-    "state": "Arizona",
-    "country": "USA"
-  }
+  "location": { "city": "Chandler", "state": "Arizona", "country": "USA" }
 }

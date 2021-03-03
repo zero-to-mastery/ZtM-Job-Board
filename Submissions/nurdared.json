@@ -8,9 +8,5 @@
     "github": "https://github.com/nurdared"
   },
   "jobTitle": "Full-Stack Developer | JavaScript",
-  "location": {
-    "city": "Aktau",
-    "state": "Mangystau",
-    "country": "Kazakhstan"
-  }
+  "location": { "city": "Aktau", "state": "Mangystau", "country": "Kazakhstan" }
 }

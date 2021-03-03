@@ -8,9 +8,5 @@
     "github": "https://github.com/rubendplaza"
   },
   "jobTitle": "Web Developer | Computer Engineering Student",
-  "location": {
-    "city": "Toronto",
-    "state": "Ontario",
-    "country": "Canada"
-  }
+  "location": { "city": "Toronto", "state": "Ontario", "country": "Canada" }
 }

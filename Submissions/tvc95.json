@@ -8,9 +8,5 @@
     "github": "https://github.com/tvc95/"
   },
   "jobTitle": "Front-End Web Developer | Game Developer",
-  "location": {
-    "city": "João Pessoa",
-    "state": "Paraíba",
-    "country": "Brazil"
-  }
+  "location": { "city": "João Pessoa", "state": "Paraíba", "country": "Brazil" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/DanielOttah"
   },
   "jobTitle": "FullStak/Software Developer",
-  "location": {
-    "city": "Calgary",
-    "state": "Alberta",
-    "country": "Canada"
-  }
+  "location": { "city": "Calgary", "state": "Alberta", "country": "Canada" }
 }

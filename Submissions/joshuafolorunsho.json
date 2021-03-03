@@ -8,9 +8,5 @@
     "github": "https://github.com/joshuafolorunsho"
   },
   "jobTitle": "Frontend Developer",
-  "location": {
-    "city": "Uyo",
-    "state": "Awka Ibom",
-    "country": "Nigeria"
-  }
+  "location": { "city": "Uyo", "state": "Awka Ibom", "country": "Nigeria" }
 }

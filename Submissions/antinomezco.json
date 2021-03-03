@@ -8,9 +8,5 @@
     "github": "https://github.com/antinomezco"
   },
   "jobTitle": "Web Developer (Python, JavaScript)",
-  "location": {
-    "city": "Montreal",
-    "state": "Quebec",
-    "country": "Canada"
-  }
+  "location": { "city": "Montreal", "state": "Quebec", "country": "Canada" }
 }

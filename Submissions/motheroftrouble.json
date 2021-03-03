@@ -1,14 +1,12 @@
 {
-	"name": "Paula Culler",
-	"img": "https://github.com/motheroftrouble.png",
-	"links": {"website": "https://motheroftrouble.github.io/Portfolio/",
-		"linkedin": "https://www.linkedin.com/in/paula-culler-94398314/",
-		"github": "https://github.com/motheroftrouble/"
-		},
-	"jobTitle": "Web Developer",
-	"location": {
-	"city": "Sparta",
-	"state": "Tennessee",
-	"country": "USA"
-	}
+  "name": "Paula Culler",
+  "img": "https://github.com/motheroftrouble.png",
+  "links": {
+    "website": "https://motheroftrouble.github.io/Portfolio/",
+    "linkedin": "https://www.linkedin.com/in/paula-culler-94398314/",
+    "github": "https://github.com/motheroftrouble/"
+  },
+  "jobTitle": "Web Developer",
+  "location": { "city": "Sparta", "state": "Tennessee", "country": "USA" },
+  "id": "987f5b95-ef3a-cd07-4ad1-b501d86f0fc9"
 }

@@ -7,9 +7,6 @@
     "github": "https://github.com/thomasmccabe44"
   },
   "jobTitle": "Front End Developer",
-  "location": {
-    "city": "",
-    "state": "MA",
-    "country": "US"
-  }
+  "location": { "city": "", "state": "MA", "country": "US" },
+  "id": "9a1f9737-cdd1-e27e-f981-3992e2967820"
 }

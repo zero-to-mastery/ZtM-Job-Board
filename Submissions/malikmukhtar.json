@@ -8,9 +8,5 @@
     "github": "https://github.com/malikmukhtar"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Abuja",
-    "state": "FCT",
-    "country": "Nigeria"
-  }
+  "location": { "city": "Abuja", "state": "FCT", "country": "Nigeria" }
 }

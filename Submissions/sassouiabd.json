@@ -8,9 +8,5 @@
     "github": "https://github.com/sassouiabd"
   },
   "jobTitle": "Technical Lead Engineer",
-  "location": {
-    "city": "Paris",
-    "state": "",
-    "country": "France"
-  }
+  "location": { "city": "Paris", "state": "", "country": "France" }
 }

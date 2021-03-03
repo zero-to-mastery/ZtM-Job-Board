@@ -8,9 +8,5 @@
     "github": "https://github.com/rizwanrajput"
   },
   "jobTitle": "Web/WordPress Developer",
-  "location": {
-    "city": "Karachi",
-    "state": "Sindh",
-    "country": "Pakistan"
-  }
+  "location": { "city": "Karachi", "state": "Sindh", "country": "Pakistan" }
 }

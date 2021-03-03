@@ -7,9 +7,6 @@
     "github": "https://github.com/heuzin"
   },
   "jobTitle": "Fullstack Web-Developer",
-  "location": {
-    "city": "",
-    "state": "Connecticut",
-    "country": "United State"
-  }
+  "location": { "city": "", "state": "Connecticut", "country": "United State" },
+  "id": "30af77e8-6e7a-6818-7045-86477f91bd18"
 }

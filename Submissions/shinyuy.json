@@ -8,9 +8,5 @@
     "github": "https://github.com/shinyuy"
   },
   "jobTitle": "Full-Stack Web Developer",
-  "location": {
-    "city": "Yaounde",
-    "state": "Centre",
-    "country": "Cameroon"
-  }
+  "location": { "city": "Yaounde", "state": "Centre", "country": "Cameroon" }
 }

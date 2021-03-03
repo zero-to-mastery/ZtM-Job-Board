@@ -7,9 +7,6 @@
     "github": "https://github.com/taichi-t"
   },
   "jobTitle": "Front end Web Developer",
-  "location": {
-    "city": "Vancouver",
-    "state": "BC",
-    "country": "Canada"
-  }
+  "location": { "city": "Vancouver", "state": "BC", "country": "Canada" },
+  "id": "06c44f7e-e716-f897-6fac-21401b4825e5"
 }

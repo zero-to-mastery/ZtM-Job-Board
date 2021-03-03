@@ -8,9 +8,5 @@
     "github": "https://github.com/AbhishekHuddar"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Baton Rouge",
-    "state": "Louisiana",
-    "country": "USA"
-  }
+  "location": { "city": "Baton Rouge", "state": "Louisiana", "country": "USA" }
 }

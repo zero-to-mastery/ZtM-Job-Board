@@ -8,9 +8,5 @@
     "github": "https://github.com/chandanvarma009"
   },
   "jobTitle": "Software-Engineer (iOS)",
-  "location": {
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" }
 }

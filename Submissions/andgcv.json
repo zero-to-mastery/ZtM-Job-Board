@@ -8,9 +8,5 @@
     "github": "https://github.com/andgcv"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Lisbon",
-    "state": "Lisbon",
-    "country": "Portugal"
-  }
+  "location": { "city": "Lisbon", "state": "Lisbon", "country": "Portugal" }
 }

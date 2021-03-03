@@ -8,9 +8,5 @@
     "github": "https://github.com/I-rk1413"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Kolkata",
-    "state": "West Bengal",
-    "country": "India"
-  }
+  "location": { "city": "Kolkata", "state": "West Bengal", "country": "India" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/t-mak/"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "Poland"
-  }
+  "location": { "city": "", "state": "", "country": "Poland" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/StanimalTheMan"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Flushing",
-    "state": "New York",
-    "country": "USA"
-  }
+  "location": { "city": "Flushing", "state": "New York", "country": "USA" }
 }

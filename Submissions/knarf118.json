@@ -8,9 +8,5 @@
     "github": "https://github.com/knarf118"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "Barbados"
-  }
+  "location": { "city": "", "state": "", "country": "Barbados" }
 }

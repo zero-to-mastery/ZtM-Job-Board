@@ -8,9 +8,5 @@
     "github": "https://github.com/jovannickovic"
   },
   "jobTitle": "Web Developer & Designer",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "Serbia"
-  }
+  "location": { "city": "", "state": "", "country": "Serbia" }
 }

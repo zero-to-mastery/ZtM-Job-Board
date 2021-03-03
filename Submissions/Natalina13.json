@@ -8,9 +8,5 @@
     "github": "https://github.com/Natalina13"
   },
   "jobTitle": "Full Stack and Python Developer",
-  "location": {
-    "city": "Fremont",
-    "state": "CA",
-    "country": "USA"
-  }
+  "location": { "city": "Fremont", "state": "CA", "country": "USA" }
 }

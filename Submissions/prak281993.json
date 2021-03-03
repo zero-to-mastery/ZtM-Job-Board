@@ -8,9 +8,5 @@
     "github": "https://github.com/prak281993"
   },
   "jobTitle": "Full Stack Developer, MERN developer, Backend developer, Frontend developer",
-  "location": {
-    "city": "Kanpur",
-    "state": "Uttar Pradesh",
-    "country": "India"
-  }
+  "location": { "city": "Kanpur", "state": "Uttar Pradesh", "country": "India" }
 }

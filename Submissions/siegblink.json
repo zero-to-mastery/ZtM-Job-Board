@@ -7,9 +7,5 @@
     "github": "https://github.com/siegblink"
   },
   "jobTitle": "Fullstack Javascript Developer",
-  "location": {
-    "city": "Cebu City",
-    "state": "Cebu",
-    "country": "Philippines"
-  }
+  "location": { "city": "Cebu City", "state": "Cebu", "country": "Philippines" }
 }

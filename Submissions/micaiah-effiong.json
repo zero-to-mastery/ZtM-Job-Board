@@ -8,9 +8,5 @@
     "github": "https://github.com/micaiah-effiong"
   },
   "jobTitle": "Web-Developer | NodeJs",
-  "location": {
-    "city": "Uyo",
-    "state": "Akwa Ibom",
-    "country": "Nigeria"
-  }
+  "location": { "city": "Uyo", "state": "Akwa Ibom", "country": "Nigeria" }
 }

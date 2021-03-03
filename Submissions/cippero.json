@@ -8,9 +8,5 @@
     "github": "https://github.com/cippero"
   },
   "jobTitle": "Full Stack Developer (JS/TS/Python/C#)",
-  "location": {
-    "city": "Seattle",
-    "state": "WA",
-    "country": "USA"
-  }
+  "location": { "city": "Seattle", "state": "WA", "country": "USA" }
 }

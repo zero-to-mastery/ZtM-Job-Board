@@ -8,9 +8,5 @@
     "github": "https://github.com/Swapnil2095"
   },
   "jobTitle": "Fullstack Developer, Data Scientist (BigData, ML, NLP)",
-  "location": {
-    "city": "Pune",
-    "state": "",
-    "country": "India"
-  }
+  "location": { "city": "Pune", "state": "", "country": "India" }
 }

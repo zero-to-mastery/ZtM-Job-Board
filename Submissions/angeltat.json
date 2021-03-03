@@ -8,9 +8,5 @@
     "github": "https://github.com/angeltat"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Timisoara",
-    "state": "Timis",
-    "country": "Romania"
-  }
+  "location": { "city": "Timisoara", "state": "Timis", "country": "Romania" }
 }

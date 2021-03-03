@@ -8,9 +8,5 @@
     "github": "https://github.com/dirk005"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Johannesburg",
-    "state": "",
-    "country": "South Africa"
-  }
+  "location": { "city": "Johannesburg", "state": "", "country": "South Africa" }
 }

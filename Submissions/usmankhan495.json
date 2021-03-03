@@ -8,9 +8,5 @@
     "github": "https://github.com/usmankhan495"
   },
   "jobTitle": "Mobile/Web (React Native | React Js)",
-  "location": {
-    "city": "Lahore",
-    "state": "Punjab",
-    "country": "Pakistan"
-  }
+  "location": { "city": "Lahore", "state": "Punjab", "country": "Pakistan" }
 }

@@ -7,9 +7,6 @@
     "github": "https://github.com/sawankhanchi"
   },
   "jobTitle": "Front-End Developer ",
-  "location": {
-    "city": "Panipat",
-    "state": "Haryana",
-    "country": "India"
-  }
+  "location": { "city": "Panipat", "state": "Haryana", "country": "India" },
+  "id": "12f7259e-77a4-f6c3-0075-db9431c84815"
 }

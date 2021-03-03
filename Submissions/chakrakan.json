@@ -7,9 +7,5 @@
     "github": "https://github.com/chakrakan"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Toronto",
-    "state": "Ontario",
-    "country": "Canada"
-  }
+  "location": { "city": "Toronto", "state": "Ontario", "country": "Canada" }
 }

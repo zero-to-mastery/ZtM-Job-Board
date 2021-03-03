@@ -8,9 +8,5 @@
     "github": "https://github.com/Rahul-PM"
   },
   "jobTitle": "Front End Developer",
-  "location": {
-    "city": "Kochi",
-    "state": "Kerala",
-    "country": "India"
-  }
+  "location": { "city": "Kochi", "state": "Kerala", "country": "India" }
 }

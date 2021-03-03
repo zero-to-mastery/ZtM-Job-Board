@@ -8,9 +8,5 @@
     "github": "https://github.com/gabecadiz"
   },
   "jobTitle": "Full-Stack Javascript Developer",
-  "location": {
-    "city": "Toronto",
-    "state": "ON",
-    "country": "Canada"
-  }
+  "location": { "city": "Toronto", "state": "ON", "country": "Canada" }
 }

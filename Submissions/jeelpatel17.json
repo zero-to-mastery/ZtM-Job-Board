@@ -8,9 +8,5 @@
     "github": "https://github.com/jeelpatel17"
   },
   "jobTitle": "Frontend Developer/Designer",
-  "location": {
-    "city": "Anand",
-    "state": "Gujarat",
-    "country": "India"
-  }
+  "location": { "city": "Anand", "state": "Gujarat", "country": "India" }
 }

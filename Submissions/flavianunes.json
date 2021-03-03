@@ -8,9 +8,5 @@
     "github": "https://github.com/flavianunes"
   },
   "jobTitle": "Computer sciene student, freelancer developer",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "Brazil"
-  }
+  "location": { "city": "", "state": "", "country": "Brazil" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/brianevans99"
   },
   "jobTitle": "Full Stack Dev",
-  "location": {
-    "city": "Canton",
-    "state": "GA",
-    "country": "USA"
-  }
+  "location": { "city": "Canton", "state": "GA", "country": "USA" }
 }

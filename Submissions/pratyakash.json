@@ -8,9 +8,5 @@
     "github": "https://github.com/pratyakash"
   },
   "jobTitle": "Front-End Web Developer",
-  "location": {
-    "city": "New Delhi",
-    "state": "Delhi",
-    "country": "India"
-  }
+  "location": { "city": "New Delhi", "state": "Delhi", "country": "India" }
 }

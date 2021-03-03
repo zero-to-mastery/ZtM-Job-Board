@@ -8,9 +8,5 @@
     "github": "https://github.com/deepak1418"
   },
   "jobTitle": "Software Developer,Data Analyst",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "INDIA"
-  }
+  "location": { "city": "", "state": "", "country": "INDIA" }
 }

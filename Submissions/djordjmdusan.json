@@ -7,9 +7,6 @@
     "github": "https://github.com/djordjmdusan"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Smederevo",
-    "state": "",
-    "country": "Serbia"
-  }
+  "location": { "city": "Smederevo", "state": "", "country": "Serbia" },
+  "id": "e6a6665e-5010-def7-0eb7-f817a0a609d7"
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/adabade1/"
   },
   "jobTitle": "Front End Web Developer (Javascript, React.js, Node.js)",
-  "location": {
-    "city": "Dublin",
-    "state": "CA",
-    "country": "US"
-  }
+  "location": { "city": "Dublin", "state": "CA", "country": "US" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/BalalonKs"
   },
   "jobTitle": "Full-Stack Web Developer",
-  "location": {
-    "city": "Bangkok",
-    "state": "",
-    "country": "Thailand"
-  }
+  "location": { "city": "Bangkok", "state": "", "country": "Thailand" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/leto666"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Belgrade",
-    "state": "",
-    "country": "Serbia"
-  }
+  "location": { "city": "Belgrade", "state": "", "country": "Serbia" }
 }

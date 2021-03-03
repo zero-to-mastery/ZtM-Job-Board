@@ -8,9 +8,5 @@
     "github": "https://github.com/gulbadam"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Rocklin",
-    "state": "California",
-    "country": "USA"
-  }
+  "location": { "city": "Rocklin", "state": "California", "country": "USA" }
 }

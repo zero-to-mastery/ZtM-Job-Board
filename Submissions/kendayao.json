@@ -7,9 +7,6 @@
     "github": "https://github.com/kendayao"
   },
   "jobTitle": "Full-Stack Developer",
-  "location": {
-    "city": "Los Angeles",
-    "state": "CA",
-    "country": "USA"
-  }
+  "location": { "city": "Los Angeles", "state": "CA", "country": "USA" },
+  "id": "9ccbbfbd-76d1-68c4-4f6f-83d1fbcafb63"
 }

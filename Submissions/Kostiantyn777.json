@@ -8,9 +8,5 @@
     "github": "https://github.com/Kostiantyn777"
   },
   "jobTitle": "Full-Stack Developer",
-  "location": {
-    "city": "Barcelona",
-    "state": "Barcelona",
-    "country": "Spain"
-  }
+  "location": { "city": "Barcelona", "state": "Barcelona", "country": "Spain" }
 }

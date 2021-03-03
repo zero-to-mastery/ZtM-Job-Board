@@ -8,9 +8,5 @@
     "github": "https://github.com/wellingtonlopes"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Manaus",
-    "state": "Amazonas",
-    "country": "Brazil"
-  }
+  "location": { "city": "Manaus", "state": "Amazonas", "country": "Brazil" }
 }

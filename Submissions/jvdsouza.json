@@ -8,9 +8,5 @@
     "github": "https://github.com/jvdsouza"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Melbourne",
-    "state": "VIC",
-    "country": "Australia"
-  }
+  "location": { "city": "Melbourne", "state": "VIC", "country": "Australia" }
 }

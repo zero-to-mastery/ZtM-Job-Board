@@ -7,9 +7,6 @@
     "github": "https://github.com/Alejandro1709"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Lima",
-    "state": "Lima",
-    "country": "Peru"
-  }
+  "location": { "city": "Lima", "state": "Lima", "country": "Peru" },
+  "id": "a8bd4f85-597f-276c-0fc3-3435f2be6124"
 }

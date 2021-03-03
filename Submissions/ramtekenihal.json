@@ -7,9 +7,5 @@
     "github": "https://github.com/ramtekenihal"
   },
   "jobTitle": "Python Developer | Javascript | Data Scientist | HTML",
-  "location": {
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" }
 }

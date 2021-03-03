@@ -7,9 +7,6 @@
     "github": "https://github.com/balaji043"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Trichy",
-    "state": "Tamil Nadu",
-    "country": "India"
-  }
+  "location": { "city": "Trichy", "state": "Tamil Nadu", "country": "India" },
+  "id": "98eab49f-0001-0daf-b941-261b7250716a"
 }

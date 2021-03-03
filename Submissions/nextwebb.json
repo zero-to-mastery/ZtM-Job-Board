@@ -12,9 +12,5 @@
     "github": "https://github.com/nextwebb"
   },
   "jobTitle": "Full-Stack nodejs and PHP Developer",
-  "location": {
-    "city": "ogba",
-    "state": "Lagos",
-    "country": "Nigeria"
-  }
+  "location": { "city": "ogba", "state": "Lagos", "country": "Nigeria" }
 }

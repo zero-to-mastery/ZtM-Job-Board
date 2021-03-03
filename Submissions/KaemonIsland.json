@@ -8,9 +8,5 @@
     "github": "https://github.com/KaemonIsland"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Salt Lake City",
-    "state": "UT",
-    "country": "USA"
-  }
+  "location": { "city": "Salt Lake City", "state": "UT", "country": "USA" }
 }

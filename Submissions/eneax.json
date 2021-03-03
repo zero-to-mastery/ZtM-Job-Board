@@ -8,9 +8,5 @@
     "github": "https://github.com/eneax"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Chiusi",
-    "state": "Tuscany",
-    "country": "Italy"
-  }
+  "location": { "city": "Chiusi", "state": "Tuscany", "country": "Italy" }
 }

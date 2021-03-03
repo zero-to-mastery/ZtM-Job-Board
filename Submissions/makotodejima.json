@@ -8,9 +8,5 @@
     "github": "https://github.com/makotodejima"
   },
   "jobTitle": "Front-End Developer / Designer",
-  "location": {
-    "city": "Berlin",
-    "state": "",
-    "country": "Germany"
-  }
+  "location": { "city": "Berlin", "state": "", "country": "Germany" }
 }

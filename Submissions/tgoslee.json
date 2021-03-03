@@ -8,9 +8,5 @@
     "github": "https://github.com/tgoslee"
   },
   "jobTitle": "Front End Web Developer",
-  "location": {
-    "city": "Washington",
-    "state": "D.C",
-    "country": "USA"
-  }
+  "location": { "city": "Washington", "state": "D.C", "country": "USA" }
 }

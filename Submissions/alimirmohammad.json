@@ -8,9 +8,5 @@
     "github": "https://github.com/alimirmohammad"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Tehran",
-    "state": "Tehran",
-    "country": "Iran"
-  }
+  "location": { "city": "Tehran", "state": "Tehran", "country": "Iran" }
 }

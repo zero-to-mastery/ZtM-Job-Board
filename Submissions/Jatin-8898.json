@@ -8,9 +8,5 @@
     "github": "https://github.com/Jatin-8898"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" }
 }

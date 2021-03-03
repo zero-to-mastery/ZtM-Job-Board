@@ -8,9 +8,5 @@
     "github": "https://github.com/aberro3s"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Merida",
-    "state": "Yucatan",
-    "country": "Mexico"
-  }
+  "location": { "city": "Merida", "state": "Yucatan", "country": "Mexico" }
 }

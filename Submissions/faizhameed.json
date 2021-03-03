@@ -8,9 +8,5 @@
     "github": "https://github.com/faizhameed"
   },
   "jobTitle": "Full Stack Web-Developer",
-  "location": {
-    "city": "Kottakal",
-    "state": "Kerala",
-    "country": "India"
-  }
+  "location": { "city": "Kottakal", "state": "Kerala", "country": "India" }
 }

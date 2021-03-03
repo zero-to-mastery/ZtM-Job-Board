@@ -8,9 +8,5 @@
     "github": "https://github.com/oluwakeye-john"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Ibadan",
-    "state": "Oyo",
-    "country": "Nigeria"
-  }
+  "location": { "city": "Ibadan", "state": "Oyo", "country": "Nigeria" }
 }

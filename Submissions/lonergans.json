@@ -8,9 +8,5 @@
     "github": "https://github.com/lonergans"
   },
   "jobTitle": "Senior SharePoint/Full Stack Developer",
-  "location": {
-    "city": "Dublin",
-    "state": "",
-    "country": "Ireland"
-  }
+  "location": { "city": "Dublin", "state": "", "country": "Ireland" }
 }

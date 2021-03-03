@@ -8,9 +8,5 @@
     "github": "https://github.com/udaykumaruking"
   },
   "jobTitle": "Web and Graphic Designer",
-  "location": {
-    "city": "Warangal",
-    "state": "Telangana",
-    "country": "India"
-  }
+  "location": { "city": "Warangal", "state": "Telangana", "country": "India" }
 }

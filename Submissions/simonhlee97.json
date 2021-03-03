@@ -8,9 +8,5 @@
     "github": "https://github.com/simonhlee97"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Seoul",
-    "state": "",
-    "country": "South Korea"
-  }
+  "location": { "city": "Seoul", "state": "", "country": "South Korea" }
 }

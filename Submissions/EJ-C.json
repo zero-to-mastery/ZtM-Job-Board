@@ -7,9 +7,6 @@
     "github": "https://github.com/EJ-C"
   },
   "jobTitle": "Full-stack Web Developer",
-  "location": {
-    "city": "Toronto",
-    "state": "ON",
-    "country": "Canada"
-  }
+  "location": { "city": "Toronto", "state": "ON", "country": "Canada" },
+  "id": "57a6f5cc-2d95-1edf-03a3-3010fade3e60"
 }

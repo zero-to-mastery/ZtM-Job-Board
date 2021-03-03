@@ -8,9 +8,5 @@
     "github": "https://github.com/ryrodrig"
   },
   "jobTitle": "Backend Developer",
-  "location": {
-    "city": "Sadashivgad",
-    "state": "Toronto",
-    "country": "Canada"
-  }
+  "location": { "city": "Sadashivgad", "state": "Toronto", "country": "Canada" }
 }

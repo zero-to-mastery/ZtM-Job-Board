@@ -7,9 +7,6 @@
     "github": "https://github.com/nusayer"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Dhaka",
-    "state": "",
-    "country": "Bangladesh"
-  }
+  "location": { "city": "Dhaka", "state": "", "country": "Bangladesh" },
+  "id": "4f1cc78d-985d-67cb-9390-d3b5388197a3"
 }

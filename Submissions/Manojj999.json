@@ -8,9 +8,5 @@
     "github": "https://github.com/Manojj999"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Surat",
-    "state": "Gujarat",
-    "country": "India"
-  }
+  "location": { "city": "Surat", "state": "Gujarat", "country": "India" }
 }

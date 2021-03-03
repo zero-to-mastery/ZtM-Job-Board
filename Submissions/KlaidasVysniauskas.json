@@ -8,9 +8,5 @@
     "github": "https://github.com/KlaidasVysniauskas"
   },
   "jobTitle": "Full-Stack Developer",
-  "location": {
-    "city": "Preston",
-    "state": "",
-    "country": "UK"
-  }
+  "location": { "city": "Preston", "state": "", "country": "UK" }
 }

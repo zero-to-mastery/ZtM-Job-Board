@@ -8,9 +8,5 @@
     "github": "https://github.com/andrejza"
   },
   "jobTitle": "Full-Stack Dev, C++",
-  "location": {
-    "city": "Stuttgart",
-    "state": "",
-    "country": "Germany"
-  }
+  "location": { "city": "Stuttgart", "state": "", "country": "Germany" }
 }

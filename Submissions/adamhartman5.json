@@ -8,9 +8,5 @@
     "github": "https://github.com/adamhartman5/"
   },
   "jobTitle": "Junior Web Developer | Junior Developer",
-  "location": {
-    "city": "Lakeland",
-    "state": "Florida",
-    "country": "USA"
-  }
+  "location": { "city": "Lakeland", "state": "Florida", "country": "USA" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/arnabuchiha"
   },
   "jobTitle": "Full Stack Developer|Deep Learning Enthusiast|Android App Developer",
-  "location": {
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" }
 }

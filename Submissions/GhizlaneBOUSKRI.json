@@ -8,9 +8,5 @@
     "github": "https://github.com/GhizlaneBOUSKRI"
   },
   "jobTitle": "Full stack developer",
-  "location": {
-    "city": "Düsseldorf",
-    "state": "NRW",
-    "country": "Germany"
-  }
+  "location": { "city": "Düsseldorf", "state": "NRW", "country": "Germany" }
 }

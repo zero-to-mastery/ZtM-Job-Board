@@ -8,9 +8,5 @@
     "github": "https://github.com/Meet1103"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Rajkot",
-    "state": "Gujarat",
-    "country": "India"
-  }
+  "location": { "city": "Rajkot", "state": "Gujarat", "country": "India" }
 }

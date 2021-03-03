@@ -8,9 +8,5 @@
     "github": "https://github.com/brimac1634"
   },
   "jobTitle": "Full Stack Developer and Project Manager",
-  "location": {
-    "city": "Hong Kong",
-    "state": "",
-    "country": "Hong Kong"
-  }
+  "location": { "city": "Hong Kong", "state": "", "country": "Hong Kong" }
 }

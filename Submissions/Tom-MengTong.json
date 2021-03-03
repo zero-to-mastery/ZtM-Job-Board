@@ -8,9 +8,5 @@
     "github": "https://github.com/Tom-MengTong"
   },
   "jobTitle": "Developer",
-  "location": {
-    "city": "Dunedin",
-    "state": "Otago",
-    "country": "New Zealand"
-  }
+  "location": { "city": "Dunedin", "state": "Otago", "country": "New Zealand" }
 }

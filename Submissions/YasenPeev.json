@@ -8,9 +8,5 @@
     "github": "https://github.com/YasenPeev"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Bracknell",
-    "state": "",
-    "country": "UK"
-  }
+  "location": { "city": "Bracknell", "state": "", "country": "UK" }
 }

@@ -7,9 +7,6 @@
     "github": "https://github.com/aldriguz"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "Trujillo",
-    "state": "La Libertad",
-    "country": "Perú"
-  }
+  "location": { "city": "Trujillo", "state": "La Libertad", "country": "Perú" },
+  "id": "e53a39fd-19e1-12f9-7ba4-9269a22127e5"
 }

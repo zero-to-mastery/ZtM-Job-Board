@@ -8,9 +8,5 @@
     "github": "https://github.com/iridiumCodes"
   },
   "jobTitle": "Front-End Web Developer",
-  "location": {
-    "city": "Athens",
-    "state": "",
-    "country": "Greece"
-  }
+  "location": { "city": "Athens", "state": "", "country": "Greece" }
 }

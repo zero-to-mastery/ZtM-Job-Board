@@ -7,9 +7,6 @@
     "github": "https://github.com/gbeto21"
   },
   "jobTitle": "JavaScript Full Stack Developer",
-  "location": {
-    "city": "León",
-    "state": "Guanajuato",
-    "country": "México"
-  }
+  "location": { "city": "León", "state": "Guanajuato", "country": "México" },
+  "id": "afbe182d-3d2f-cedc-874a-b91cc7f3a27b"
 }

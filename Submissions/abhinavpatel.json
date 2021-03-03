@@ -7,9 +7,6 @@
     "github": "https://github.com/knackofabhinav"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "Orai",
-    "state": "Uttar Pradesh",
-    "country": "India"
-  }
+  "location": { "city": "Orai", "state": "Uttar Pradesh", "country": "India" },
+  "id": "65be0c25-c3c7-36a9-8563-7b43f4364777"
 }

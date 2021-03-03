@@ -8,9 +8,5 @@
     "github": "https://github.com/envincebal"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Portland",
-    "state": "Oregon",
-    "country": "USA"
-  }
+  "location": { "city": "Portland", "state": "Oregon", "country": "USA" }
 }

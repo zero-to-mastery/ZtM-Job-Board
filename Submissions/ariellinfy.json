@@ -7,9 +7,6 @@
     "github": "https://github.com/ariellinfy"
   },
   "jobTitle": "Front-end / Full-stack Web Developer",
-  "location": {
-    "city": "Calgary",
-    "state": "Alberta",
-    "country": "Canada"
-  }
+  "location": { "city": "Calgary", "state": "Alberta", "country": "Canada" },
+  "id": "0ea4166a-f600-4485-ddbf-d65a8bdc6215"
 }

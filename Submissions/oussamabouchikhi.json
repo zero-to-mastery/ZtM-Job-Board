@@ -8,9 +8,5 @@
     "github": "https://github.com/oussamabouchikhi"
   },
   "jobTitle": "Full-Stack Web Developer",
-  "location": {
-    "city": "Oran",
-    "state": "Oran",
-    "country": "Algeria"
-  }
+  "location": { "city": "Oran", "state": "Oran", "country": "Algeria" }
 }

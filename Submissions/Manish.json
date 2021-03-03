@@ -7,9 +7,6 @@
     "github": "https://github.com/inovatormatin"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Narela",
-    "state": "New Delhi",
-    "country": "India"
-  }
+  "location": { "city": "Narela", "state": "New Delhi", "country": "India" },
+  "id": "aea41bb2-bfc2-bbcd-2712-1f179c031bf3"
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/satendrachowdhary"
   },
   "jobTitle": "JS Full Stack Developer",
-  "location": {
-    "city": "Najafgarh",
-    "state": "New Delhi",
-    "country": "India"
-  }
+  "location": { "city": "Najafgarh", "state": "New Delhi", "country": "India" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/Akshay2996"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Bengaluru",
-    "state": "Karnataka",
-    "country": "India"
-  }
+  "location": { "city": "Bengaluru", "state": "Karnataka", "country": "India" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/thangphan37"
   },
   "jobTitle": "Frontend Developer",
-  "location": {
-    "city": "",
-    "state": "Ha Noi",
-    "country": "Viet Nam"
-  }
+  "location": { "city": "", "state": "Ha Noi", "country": "Viet Nam" }
 }

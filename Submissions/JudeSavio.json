@@ -8,9 +8,5 @@
     "github": "https://github.com/JudeSavio/"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "Chennai",
-    "state": "Tamil Nadu",
-    "country": "India"
-  }
+  "location": { "city": "Chennai", "state": "Tamil Nadu", "country": "India" }
 }

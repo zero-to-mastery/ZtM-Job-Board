@@ -8,9 +8,5 @@
     "github": "https://github.com/mdpatel7"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Phoenix",
-    "state": "AZ",
-    "country": "USA"
-  }
+  "location": { "city": "Phoenix", "state": "AZ", "country": "USA" }
 }

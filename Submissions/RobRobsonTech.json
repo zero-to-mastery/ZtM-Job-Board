@@ -7,9 +7,6 @@
     "github": "https://github.com/RobRobsonTech"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "London",
-    "state": "",
-    "country": "UK"
-  }
+  "location": { "city": "London", "state": "", "country": "UK" },
+  "id": "2f4ad9ea-b7ef-ad2d-c252-27f00f5dab74"
 }

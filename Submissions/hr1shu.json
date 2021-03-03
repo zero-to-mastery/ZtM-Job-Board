@@ -8,9 +8,5 @@
     "github": "https://github.com/hr1shu"
   },
   "jobTitle": "Python Developer",
-  "location": {
-    "city": "Jalandhar",
-    "state": "Punjab",
-    "country": "India"
-  }
+  "location": { "city": "Jalandhar", "state": "Punjab", "country": "India" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/recofka"
   },
   "jobTitle": "Front-end  Developer",
-  "location": {
-    "city": "Amsterdam",
-    "state": "",
-    "country": "Netherlands"
-  }
+  "location": { "city": "Amsterdam", "state": "", "country": "Netherlands" }
 }

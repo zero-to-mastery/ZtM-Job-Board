@@ -8,9 +8,5 @@
     "github": "https://github.com/Muaykhao86"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "London",
-    "state": "",
-    "country": "UK"
-  }
+  "location": { "city": "London", "state": "", "country": "UK" }
 }

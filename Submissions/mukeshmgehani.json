@@ -8,9 +8,5 @@
     "github": "https://github.com/mukeshmgehani"
   },
   "jobTitle": "Java Backend Developer",
-  "location": {
-    "city": "Frankfurt",
-    "state": "Hessen",
-    "country": "Germany"
-  }
+  "location": { "city": "Frankfurt", "state": "Hessen", "country": "Germany" }
 }

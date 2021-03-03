@@ -8,9 +8,5 @@
     "github": "https://github.com/Roundy123"
   },
   "jobTitle": "Data Scientist",
-  "location": {
-    "city": "Bristol",
-    "state": "",
-    "country": "United Kingdom"
-  }
+  "location": { "city": "Bristol", "state": "", "country": "United Kingdom" }
 }

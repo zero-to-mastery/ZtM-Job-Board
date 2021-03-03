@@ -8,9 +8,5 @@
     "github": "https://github.com/swatiidixit"
   },
   "jobTitle": "Software-Developer",
-  "location": {
-    "city": "Kanpur",
-    "state": "Uttar-Pradesh",
-    "country": "India"
-  }
+  "location": { "city": "Kanpur", "state": "Uttar-Pradesh", "country": "India" }
 }

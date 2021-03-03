@@ -8,9 +8,5 @@
     "github": "https://github.com/cipriancozma"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Iasi",
-    "state": "",
-    "country": "Romania"
-  }
+  "location": { "city": "Iasi", "state": "", "country": "Romania" }
 }

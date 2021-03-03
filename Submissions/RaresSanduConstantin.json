@@ -8,9 +8,5 @@
     "github": "https://github.com/RaresSanduConstantin"
   },
   "jobTitle": "Front-end web development",
-  "location": {
-    "city": "Bucharest",
-    "state": "",
-    "country": "Romania"
-  }
+  "location": { "city": "Bucharest", "state": "", "country": "Romania" }
 }

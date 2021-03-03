@@ -8,9 +8,5 @@
     "github": "https://github.com/Anonster"
   },
   "jobTitle": "Full-Stack Web Developer",
-  "location": {
-    "city": "LoraLai",
-    "state": "",
-    "country": "Pakistan"
-  }
+  "location": { "city": "LoraLai", "state": "", "country": "Pakistan" }
 }

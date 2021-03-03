@@ -8,9 +8,5 @@
     "github": "https://github.com/hereisfahad"
   },
   "jobTitle": "JavaScript Developer",
-  "location": {
-    "city": "Lahore",
-    "state": "",
-    "country": "Pakistan"
-  }
+  "location": { "city": "Lahore", "state": "", "country": "Pakistan" }
 }

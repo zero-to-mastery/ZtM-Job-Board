@@ -8,9 +8,5 @@
     "github": "https://github.com/MikeLegemah5799"
   },
   "jobTitle": "Senior Front End Web Engineer",
-  "location": {
-    "city": "New York",
-    "state": "NY",
-    "country": "United States"
-  }
+  "location": { "city": "New York", "state": "NY", "country": "United States" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/pierre1590"
   },
   "jobTitle": "Junior Web Developer",
-  "location": {
-    "city": "Turi",
-    "state": "Puglia",
-    "country": "Italy"
-  }
+  "location": { "city": "Turi", "state": "Puglia", "country": "Italy" }
 }

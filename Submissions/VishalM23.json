@@ -8,9 +8,5 @@
     "github": "https://github.com/VishalM23"
   },
   "jobTitle": "Deep Learning Enthusisast",
-  "location": {
-    "city": "Bengaluru",
-    "state": "Karnataka",
-    "country": "India"
-  }
+  "location": { "city": "Bengaluru", "state": "Karnataka", "country": "India" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/Toro2018"
   },
   "jobTitle": "Javascript Engineer",
-  "location": {
-    "city": "Hangzhou",
-    "state": "Zhejiang",
-    "country": "China"
-  }
+  "location": { "city": "Hangzhou", "state": "Zhejiang", "country": "China" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/abbyjoe"
   },
   "jobTitle": "Front-end Developer",
-  "location": {
-    "city": "Abeokuta",
-    "state": "Ogun",
-    "country": "Nigeria"
-  }
+  "location": { "city": "Abeokuta", "state": "Ogun", "country": "Nigeria" }
 }

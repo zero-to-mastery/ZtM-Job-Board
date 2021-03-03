@@ -8,9 +8,5 @@
     "github": "https://github.com/patriciafelixx"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "",
-    "state": "São Paulo",
-    "country": "Brazil"
-  }
+  "location": { "city": "", "state": "São Paulo", "country": "Brazil" }
 }

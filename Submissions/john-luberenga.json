@@ -8,9 +8,5 @@
     "github": "https://github.com/john-luberenga/"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Kampala",
-    "state": "",
-    "country": "Uganda"
-  }
+  "location": { "city": "Kampala", "state": "", "country": "Uganda" }
 }

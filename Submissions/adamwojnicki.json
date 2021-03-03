@@ -7,9 +7,6 @@
     "github": "https://github.com/adamwojnicki"
   },
   "jobTitle": "Frontend Web Developer",
-  "location": {
-    "city": "Warsaw",
-    "state": "Masovia",
-    "country": "Poland"
-  }
+  "location": { "city": "Warsaw", "state": "Masovia", "country": "Poland" },
+  "id": "fecdcb61-6b72-cbdc-46bc-09d56377b76d"
 }

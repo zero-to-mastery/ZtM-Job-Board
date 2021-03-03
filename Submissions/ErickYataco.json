@@ -8,9 +8,5 @@
     "github": "https://github.com/ErickYataco"
   },
   "jobTitle": "K8S specialist, DevOps and Cloud Engineer",
-  "location": {
-    "city": "Lima",
-    "state": "",
-    "country": "Peru"
-  }
+  "location": { "city": "Lima", "state": "", "country": "Peru" }
 }

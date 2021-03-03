@@ -8,9 +8,5 @@
     "github": "https://github.com/Saurabh2699"
   },
   "jobTitle": "MERN Stack Developer",
-  "location": {
-    "city": "Nagpur",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Nagpur", "state": "Maharashtra", "country": "India" }
 }

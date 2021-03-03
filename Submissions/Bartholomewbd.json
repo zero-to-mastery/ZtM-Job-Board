@@ -8,9 +8,5 @@
     "github": "https://github.com/Bartholomewbd"
   },
   "jobTitle": "Front End Javascript Developer",
-  "location": {
-    "city": "Torrington",
-    "state": "CT",
-    "country": "USA"
-  }
+  "location": { "city": "Torrington", "state": "CT", "country": "USA" }
 }

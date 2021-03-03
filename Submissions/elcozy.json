@@ -8,9 +8,5 @@
     "github": "https://github.com/elcozy"
   },
   "jobTitle": "Front-end Web Developer",
-  "location": {
-    "city": "Debrecen",
-    "state": "",
-    "country": "Hungary"
-  }
+  "location": { "city": "Debrecen", "state": "", "country": "Hungary" }
 }

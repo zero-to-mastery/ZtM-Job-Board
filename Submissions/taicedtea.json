@@ -8,9 +8,5 @@
     "github": "https://github.com/taicedtea"
   },
   "jobTitle": "Junior Front End Developer",
-  "location": {
-    "city": "New York",
-    "state": "New York",
-    "country": "USA"
-  }
+  "location": { "city": "New York", "state": "New York", "country": "USA" }
 }

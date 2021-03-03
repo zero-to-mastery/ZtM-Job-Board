@@ -8,9 +8,5 @@
     "github": "https://n8brown1.github.io/"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Wells",
-    "state": "Maine",
-    "country": "United States"
-  }
+  "location": { "city": "Wells", "state": "Maine", "country": "United States" }
 }

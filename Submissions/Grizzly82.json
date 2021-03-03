@@ -8,9 +8,5 @@
     "github": "https://github.com/Grizzly82"
   },
   "jobTitle": "Developer/Analyst",
-  "location": {
-    "city": "Redmond",
-    "state": "Washington",
-    "country": "USA"
-  }
+  "location": { "city": "Redmond", "state": "Washington", "country": "USA" }
 }

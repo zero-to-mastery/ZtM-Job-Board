@@ -8,9 +8,5 @@
     "github": "https://github.com/saurabh2836"
   },
   "jobTitle": "Full Stack Engineer",
-  "location": {
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" }
 }

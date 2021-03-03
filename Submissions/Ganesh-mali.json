@@ -8,9 +8,5 @@
     "github": "https://github.com/Ganesh-mali"
   },
   "jobTitle": "Junior software developer",
-  "location": {
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" }
 }

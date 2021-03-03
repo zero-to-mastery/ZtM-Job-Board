@@ -8,9 +8,5 @@
     "github": "https://github.com/ArturVargas"
   },
   "jobTitle": "Full-Stack Web Developer",
-  "location": {
-    "city": "CDMX",
-    "state": "",
-    "country": "Mexico"
-  }
+  "location": { "city": "CDMX", "state": "", "country": "Mexico" }
 }

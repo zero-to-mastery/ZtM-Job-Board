@@ -7,9 +7,6 @@
     "github": "https://github.com/francism98"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "Cebu",
-    "state": "Cebu",
-    "country": "Philippines"
-  }
+  "location": { "city": "Cebu", "state": "Cebu", "country": "Philippines" },
+  "id": "5c565c53-b2ba-618e-9605-dd7288d4f0a3"
 }

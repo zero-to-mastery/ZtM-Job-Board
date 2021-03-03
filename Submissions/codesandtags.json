@@ -8,9 +8,5 @@
     "github": "https://github.com/codesandtags"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Bogota",
-    "state": "Bogota",
-    "country": "Colombia"
-  }
+  "location": { "city": "Bogota", "state": "Bogota", "country": "Colombia" }
 }

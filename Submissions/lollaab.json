@@ -8,9 +8,5 @@
     "github": "https://github.com/lollaab"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Jeddah",
-    "state": "Makkah",
-    "country": "Saudi Arabia"
-  }
+  "location": { "city": "Jeddah", "state": "Makkah", "country": "Saudi Arabia" }
 }

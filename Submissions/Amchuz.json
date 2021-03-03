@@ -8,9 +8,5 @@
     "github": "https://github.com/Amchuz"
   },
   "jobTitle": "Computer Engineering Graduate 2020 | Machine Learning Engineer | Python Developer",
-  "location": {
-    "city": "Changanassery",
-    "state": "Kerala",
-    "country": "India"
-  }
+  "location": { "city": "Changanassery", "state": "Kerala", "country": "India" }
 }

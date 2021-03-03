@@ -8,9 +8,5 @@
     "github": "https://github.com/waqar3"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Portsmouth",
-    "state": "",
-    "country": "United Kingdom"
-  }
+  "location": { "city": "Portsmouth", "state": "", "country": "United Kingdom" }
 }

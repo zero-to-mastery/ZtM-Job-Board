@@ -7,9 +7,6 @@
     "github": "https://github.com/abdus"
   },
   "jobTitle": "FullStack",
-  "location": {
-    "city": "",
-    "state": "Assam",
-    "country": "India"
-  }
+  "location": { "city": "", "state": "Assam", "country": "India" },
+  "id": "b3ef7667-281c-330e-c594-406c9e7819ae"
 }

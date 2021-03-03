@@ -7,9 +7,6 @@
     "github": "https://github.com/abhayy947"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Kolkata",
-    "state": "West Bengal",
-    "country": "India"
-  }
+  "location": { "city": "Kolkata", "state": "West Bengal", "country": "India" },
+  "id": "50f5548c-f03a-a5a3-c22e-d69884a4ea40"
 }

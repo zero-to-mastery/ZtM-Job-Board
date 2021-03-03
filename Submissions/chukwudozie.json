@@ -8,9 +8,5 @@
     "github": "https://github.com/chukwudozie"
   },
   "jobTitle": "Web Developer| Front-End Developer",
-  "location": {
-    "city": "Awka",
-    "state": "Anambra",
-    "country": "Nigeria"
-  }
+  "location": { "city": "Awka", "state": "Anambra", "country": "Nigeria" }
 }

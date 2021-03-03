@@ -8,9 +8,5 @@
     "github": "https://github.com/yusuf-delvi"
   },
   "jobTitle": "Full Stack Developer, Web Developer",
-  "location": {
-    "city": "Bangalore",
-    "state": "Karnataka",
-    "country": "India"
-  }
+  "location": { "city": "Bangalore", "state": "Karnataka", "country": "India" }
 }

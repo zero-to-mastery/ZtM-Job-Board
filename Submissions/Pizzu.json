@@ -8,9 +8,5 @@
     "github": "https://github.com/Pizzu"
   },
   "jobTitle": "Full Stack Web Developer & iOS Dev",
-  "location": {
-    "city": "Milan",
-    "state": "",
-    "country": "Italy"
-  }
+  "location": { "city": "Milan", "state": "", "country": "Italy" }
 }

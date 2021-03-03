@@ -8,9 +8,5 @@
     "github": "https://github.com/Yassiremt"
   },
   "jobTitle": "Front-end Developer",
-  "location": {
-    "city": "Fez",
-    "state": "",
-    "country": "Morocco"
-  }
+  "location": { "city": "Fez", "state": "", "country": "Morocco" }
 }

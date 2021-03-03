@@ -8,9 +8,5 @@
     "github": "https://github.com/redwanJemal/"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Addis Ababa",
-    "state": "",
-    "country": "Ethiopia"
-  }
+  "location": { "city": "Addis Ababa", "state": "", "country": "Ethiopia" }
 }

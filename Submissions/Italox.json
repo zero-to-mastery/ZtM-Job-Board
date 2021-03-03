@@ -8,9 +8,5 @@
     "github": "https://github.com/Italox"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Curitiba",
-    "state": "Paraná",
-    "country": "Brazil"
-  }
+  "location": { "city": "Curitiba", "state": "Paraná", "country": "Brazil" }
 }

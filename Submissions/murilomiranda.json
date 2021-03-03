@@ -8,9 +8,5 @@
     "github": "https://github.com/murilomiranda"
   },
   "jobTitle": "Front-end Web Development",
-  "location": {
-    "city": "Berlin",
-    "state": "",
-    "country": "Germany"
-  }
+  "location": { "city": "Berlin", "state": "", "country": "Germany" }
 }

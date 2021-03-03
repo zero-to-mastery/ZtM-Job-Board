@@ -8,9 +8,5 @@
     "github": "https://github.com/carljohanlandin/ZtM-Job-Board"
   },
   "jobTitle": "Electrical engineer, Full stack web developer",
-  "location": {
-    "city": "Gothenburg",
-    "state": "",
-    "country": "Sweden"
-  }
+  "location": { "city": "Gothenburg", "state": "", "country": "Sweden" }
 }

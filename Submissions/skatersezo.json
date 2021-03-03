@@ -8,9 +8,5 @@
     "github": "https://github.com/skatersezo"
   },
   "jobTitle": "Full-Stack Developer",
-  "location": {
-    "city": "Salzburg",
-    "state": "Salzburg",
-    "country": "Austria"
-  }
+  "location": { "city": "Salzburg", "state": "Salzburg", "country": "Austria" }
 }

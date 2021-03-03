@@ -8,9 +8,5 @@
     "github": "https://github.com/Spie1er"
   },
   "jobTitle": "FullStack Developer",
-  "location": {
-    "city": "Tbilisi",
-    "state": "",
-    "country": "Georgia"
-  }
+  "location": { "city": "Tbilisi", "state": "", "country": "Georgia" }
 }

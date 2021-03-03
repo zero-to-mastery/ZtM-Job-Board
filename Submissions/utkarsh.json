@@ -7,9 +7,6 @@
     "github": "https://github.com/utkarsh2020"
   },
   "jobTitle": "Architect and Lead Developer",
-  "location": {
-    "city": "Pune",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Pune", "state": "Maharashtra", "country": "India" },
+  "id": "367fb311-1bf8-55aa-bf5b-5ef825032295"
 }

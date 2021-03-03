@@ -8,9 +8,5 @@
     "github": "https://github.com/pengsiya"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "Vancouver",
-    "state": "BC",
-    "country": "Canada"
-  }
+  "location": { "city": "Vancouver", "state": "BC", "country": "Canada" }
 }

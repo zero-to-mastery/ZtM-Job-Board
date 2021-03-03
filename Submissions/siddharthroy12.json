@@ -7,9 +7,6 @@
     "github": "https://github.com/siddharthroy12"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Banaswara",
-    "state": "Rajasthan",
-    "country": "India"
-  }
+  "location": { "city": "Banaswara", "state": "Rajasthan", "country": "India" },
+  "id": "f8c308dd-1905-e6b2-fcb1-05cde5c811de"
 }

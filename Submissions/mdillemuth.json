@@ -7,9 +7,6 @@
     "github": "https://github.com/mdillemuth"
   },
   "jobTitle": "Full-Stack Web Developer",
-  "location": {
-    "city": "Palm City",
-    "state": "Florida",
-    "country": "USA"
-  }
+  "location": { "city": "Palm City", "state": "Florida", "country": "USA" },
+  "id": "faa29c02-06dc-f6c7-289e-97870ba5e621"
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/pmarik"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Salt Lake City",
-    "state": "Utah",
-    "country": "USA"
-  }
+  "location": { "city": "Salt Lake City", "state": "Utah", "country": "USA" }
 }

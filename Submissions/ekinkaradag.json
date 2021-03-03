@@ -8,9 +8,5 @@
     "github": "https://github.com/ekinkaradag"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "Istanbul",
-    "state": "",
-    "country": "Turkey"
-  }
+  "location": { "city": "Istanbul", "state": "", "country": "Turkey" }
 }

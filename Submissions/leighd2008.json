@@ -8,9 +8,5 @@
     "github": "https://github.com/leighd2008"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Leavittsburg",
-    "state": "Ohio",
-    "country": "USA"
-  }
+  "location": { "city": "Leavittsburg", "state": "Ohio", "country": "USA" }
 }

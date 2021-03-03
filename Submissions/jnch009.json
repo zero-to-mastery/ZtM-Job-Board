@@ -8,9 +8,5 @@
     "github": "https://github.com/jnch009"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Coquitlam",
-    "state": "BC",
-    "country": "Canada"
-  }
+  "location": { "city": "Coquitlam", "state": "BC", "country": "Canada" }
 }

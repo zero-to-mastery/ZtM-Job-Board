@@ -8,9 +8,5 @@
     "github": "https://github.com/codepol"
   },
   "jobTitle": "Fullstack Web Developer",
-  "location": {
-    "city": "Dublin",
-    "state": "",
-    "country": "Ireland"
-  }
+  "location": { "city": "Dublin", "state": "", "country": "Ireland" }
 }

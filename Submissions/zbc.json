@@ -8,9 +8,5 @@
     "github": "https://github.com/zbc"
   },
   "jobTitle": "Full-Stack Developer | Javascript",
-  "location": {
-    "city": "Toronto",
-    "state": "Ontario",
-    "country": "Canada"
-  }
+  "location": { "city": "Toronto", "state": "Ontario", "country": "Canada" }
 }

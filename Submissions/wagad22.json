@@ -8,9 +8,5 @@
     "github": "https://github.com/wagad22"
   },
   "jobTitle": "Fullstack Webdeveloper",
-  "location": {
-    "city": "Frankfurt",
-    "state": "",
-    "country": "Germany"
-  }
+  "location": { "city": "Frankfurt", "state": "", "country": "Germany" }
 }

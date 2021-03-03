@@ -8,9 +8,5 @@
     "github": "https://github.com/annpop"
   },
   "jobTitle": "Junior Front-end Developer",
-  "location": {
-    "city": "Wrocław",
-    "state": "",
-    "country": "Poland"
-  }
+  "location": { "city": "Wrocław", "state": "", "country": "Poland" }
 }

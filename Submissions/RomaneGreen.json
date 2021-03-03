@@ -8,9 +8,5 @@
     "github": "https://github.com/RomaneGreen"
   },
   "jobTitle": "Full Stack Software Developer",
-  "location": {
-    "city": "NYC",
-    "state": "New York",
-    "country": "United States"
-  }
+  "location": { "city": "NYC", "state": "New York", "country": "United States" }
 }

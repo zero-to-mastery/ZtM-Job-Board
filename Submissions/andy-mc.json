@@ -8,9 +8,5 @@
     "github": "https://github.com/andy-mc"
   },
   "jobTitle": "Full-Stack Developer | Javascript | Python",
-  "location": {
-    "city": "Quito",
-    "state": "Pichincha",
-    "country": "Ecuador"
-  }
+  "location": { "city": "Quito", "state": "Pichincha", "country": "Ecuador" }
 }

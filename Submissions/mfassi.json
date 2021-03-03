@@ -8,9 +8,5 @@
     "github": "https://github.com/mfassi"
   },
   "jobTitle": "Web Developer/Help Desk Technician",
-  "location": {
-    "city": "Catania",
-    "state": "Catania",
-    "country": "Italy"
-  }
+  "location": { "city": "Catania", "state": "Catania", "country": "Italy" }
 }

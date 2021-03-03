@@ -8,9 +8,5 @@
     "github": "https://github.com/rahuls321"
   },
   "jobTitle": "Web Developer ",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "India"
-  }
+  "location": { "city": "", "state": "", "country": "India" }
 }

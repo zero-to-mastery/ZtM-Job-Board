@@ -7,9 +7,5 @@
     "github": "https://github.com/nilkamal"
   },
   "jobTitle": "Senior Associate Technology Experience L1",
-  "location": {
-    "city": "Bangalore",
-    "state": "Karnataka",
-    "country": "INDIA"
-  }
+  "location": { "city": "Bangalore", "state": "Karnataka", "country": "INDIA" }
 }

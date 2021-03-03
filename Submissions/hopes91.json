@@ -8,9 +8,5 @@
     "github": "https://github.com/hopes91"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Kirov",
-    "state": "",
-    "country": "Russia"
-  }
+  "location": { "city": "Kirov", "state": "", "country": "Russia" }
 }

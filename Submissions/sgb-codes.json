@@ -8,9 +8,5 @@
     "github": "https://github.com/sgb-codes"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Vancouver",
-    "state": "BC",
-    "country": "Canada"
-  }
+  "location": { "city": "Vancouver", "state": "BC", "country": "Canada" }
 }

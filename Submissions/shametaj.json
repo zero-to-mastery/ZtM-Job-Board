@@ -8,9 +8,5 @@
     "github": "https://github.com/shametaj"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Saarbrücken",
-    "state": "",
-    "country": "Germany"
-  }
+  "location": { "city": "Saarbrücken", "state": "", "country": "Germany" }
 }

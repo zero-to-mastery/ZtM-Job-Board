@@ -8,9 +8,5 @@
     "github": "https://github.com/adwiteeya3"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "Bangalore",
-    "state": "Karnataka",
-    "country": "India"
-  }
+  "location": { "city": "Bangalore", "state": "Karnataka", "country": "India" }
 }

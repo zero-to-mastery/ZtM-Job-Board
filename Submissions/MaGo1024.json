@@ -8,9 +8,5 @@
     "github": "https://github.com/MaGo1024"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Ikeja",
-    "state": "Lagos",
-    "country": "Nigeria"
-  }
+  "location": { "city": "Ikeja", "state": "Lagos", "country": "Nigeria" }
 }

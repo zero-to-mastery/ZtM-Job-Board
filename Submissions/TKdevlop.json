@@ -8,9 +8,5 @@
     "github": "https://github.com/TKdevlop/"
   },
   "jobTitle": "Full Stack JS Dev",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "India"
-  }
+  "location": { "city": "", "state": "", "country": "India" }
 }

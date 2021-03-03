@@ -8,9 +8,5 @@
     "github": "https://github.com/eastcoastninja"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Philadelphia",
-    "state": "PA",
-    "country": "USA"
-  }
+  "location": { "city": "Philadelphia", "state": "PA", "country": "USA" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/a510102"
   },
   "jobTitle": "Front-endWed Developer",
-  "location": {
-    "city": "Taichung",
-    "state": "Taiwan",
-    "country": "Taiwan"
-  }
+  "location": { "city": "Taichung", "state": "Taiwan", "country": "Taiwan" }
 }

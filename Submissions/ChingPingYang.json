@@ -8,9 +8,5 @@
     "github": "https://github.com/ChingPingYang"
   },
   "jobTitle": "Front-end Developer",
-  "location": {
-    "city": "Vancouver",
-    "state": "",
-    "country": "Canada"
-  }
+  "location": { "city": "Vancouver", "state": "", "country": "Canada" }
 }

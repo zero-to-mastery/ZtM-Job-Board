@@ -8,9 +8,5 @@
     "github": "https://github.com/meyer744"
   },
   "jobTitle": "Front End Web Developer",
-  "location": {
-    "city": "Troy",
-    "state": "Ohio",
-    "country": "USA"
-  }
+  "location": { "city": "Troy", "state": "Ohio", "country": "USA" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/Tera15"
   },
   "jobTitle": "Developer",
-  "location": {
-    "city": "Toronto",
-    "state": "Ontario",
-    "country": "Canada"
-  }
+  "location": { "city": "Toronto", "state": "Ontario", "country": "Canada" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/dpcoolmufa"
   },
   "jobTitle": "Web Developer & Data Scientist",
-  "location": {
-    "city": "Madurai",
-    "state": "Tamil Nadu",
-    "country": "India"
-  }
+  "location": { "city": "Madurai", "state": "Tamil Nadu", "country": "India" }
 }

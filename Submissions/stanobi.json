@@ -7,9 +7,6 @@
     "github": "https://github.com/stanobi"
   },
   "jobTitle": "Backend Developer",
-  "location": {
-    "city": "Yaba",
-    "state": "Lagos",
-    "country": "Nigeria"
-  }
+  "location": { "city": "Yaba", "state": "Lagos", "country": "Nigeria" },
+  "id": "78284d38-1165-28e4-7e62-46dccf656416"
 }

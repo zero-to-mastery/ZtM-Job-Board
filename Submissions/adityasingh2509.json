@@ -8,9 +8,5 @@
     "github": "https://github.com/adityasingh2509"
   },
   "jobTitle": "Student",
-  "location": {
-    "city": "Mumbai",
-    "state": "",
-    "country": "India"
-  }
+  "location": { "city": "Mumbai", "state": "", "country": "India" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/rajesh13goud"
   },
   "jobTitle": "FullStack Blockchain Developer",
-  "location": {
-    "city": "Bangalore",
-    "state": "Karnataka",
-    "country": "INDIA"
-  }
+  "location": { "city": "Bangalore", "state": "Karnataka", "country": "INDIA" }
 }

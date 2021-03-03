@@ -8,9 +8,5 @@
     "github": "https://github.com/yzyly1992"
   },
   "jobTitle": "Full-Stack Web Developer",
-  "location": {
-    "city": "Berkeley",
-    "state": "CA",
-    "country": "USA"
-  }
+  "location": { "city": "Berkeley", "state": "CA", "country": "USA" }
 }

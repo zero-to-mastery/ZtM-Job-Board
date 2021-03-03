@@ -8,9 +8,5 @@
     "github": "https://github.com/cessycode"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Noord",
-    "state": "",
-    "country": "ARUBA"
-  }
+  "location": { "city": "Noord", "state": "", "country": "ARUBA" }
 }

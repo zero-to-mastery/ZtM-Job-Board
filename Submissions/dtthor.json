@@ -8,9 +8,5 @@
     "github": "https://www.github.com/dtthor"
   },
   "jobTitle": "Fullstack Web Developer",
-  "location": {
-    "city": "Austin",
-    "state": "TX",
-    "country": "USA"
-  }
+  "location": { "city": "Austin", "state": "TX", "country": "USA" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/adamstok"
   },
   "jobTitle": "Python Developer",
-  "location": {
-    "city": "Warsaw",
-    "state": "Masovia",
-    "country": "Poland"
-  }
+  "location": { "city": "Warsaw", "state": "Masovia", "country": "Poland" }
 }

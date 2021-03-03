@@ -7,9 +7,6 @@
     "github": "https://github.com/anjakhan"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Berlin",
-    "state": "",
-    "country": "Germany"
-  }
+  "location": { "city": "Berlin", "state": "", "country": "Germany" },
+  "id": "96776f10-d596-621e-0d2a-2fbb3e51b273"
 }

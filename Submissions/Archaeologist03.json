@@ -8,9 +8,5 @@
     "github": "https://github.com/Archaeologist03"
   },
   "jobTitle": "JavaScript | React Developer",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "Serbia"
-  }
+  "location": { "city": "", "state": "", "country": "Serbia" }
 }

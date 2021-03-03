@@ -8,9 +8,5 @@
     "github": "https://github.com/IsmaelVazquez"
   },
   "jobTitle": "Full-stack Javascript Developer",
-  "location": {
-    "city": "Los Angeles",
-    "state": "CA",
-    "country": "USA"
-  }
+  "location": { "city": "Los Angeles", "state": "CA", "country": "USA" }
 }

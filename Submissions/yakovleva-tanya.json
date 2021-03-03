@@ -8,9 +8,5 @@
     "github": "https://github.com/yakovleva-tanya/"
   },
   "jobTitle": "Front End Developer",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": ""
-  }
+  "location": { "city": "", "state": "", "country": "" }
 }

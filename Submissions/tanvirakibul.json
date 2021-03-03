@@ -8,9 +8,5 @@
     "github": "https://github.com/tanvirakibul"
   },
   "jobTitle": "Machine Learning Engineer",
-  "location": {
-    "city": "Dhaka",
-    "state": "",
-    "country": "Bangladesh"
-  }
+  "location": { "city": "Dhaka", "state": "", "country": "Bangladesh" }
 }

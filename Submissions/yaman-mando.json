@@ -8,9 +8,5 @@
     "github": "https://github.com/yaman-mando"
   },
   "jobTitle": "Frontend And Mobile Developer,Ionic,Angular,React js",
-  "location": {
-    "city": "Istanbul",
-    "state": "",
-    "country": "Turkey"
-  }
+  "location": { "city": "Istanbul", "state": "", "country": "Turkey" }
 }

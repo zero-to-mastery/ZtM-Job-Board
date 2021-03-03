@@ -8,9 +8,5 @@
     "github": "https://github.com/YuLogun"
   },
   "jobTitle": "Front End Developer",
-  "location": {
-    "city": "Samara",
-    "state": "",
-    "country": "Russia"
-  }
+  "location": { "city": "Samara", "state": "", "country": "Russia" }
 }

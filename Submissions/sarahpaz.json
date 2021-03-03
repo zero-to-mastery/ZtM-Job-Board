@@ -8,9 +8,5 @@
     "github": "https://github.com/sarahpaz"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Toronto",
-    "state": "ON",
-    "country": "Canada"
-  }
+  "location": { "city": "Toronto", "state": "ON", "country": "Canada" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/manojbaddi"
   },
   "jobTitle": "Full Stack C# developer",
-  "location": {
-    "city": "Bangalore",
-    "state": "",
-    "country": "India"
-  }
+  "location": { "city": "Bangalore", "state": "", "country": "India" }
 }

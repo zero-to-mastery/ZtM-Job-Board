@@ -8,9 +8,5 @@
     "github": "https://github.com/raviraka"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Milan",
-    "state": "",
-    "country": "Italy"
-  }
+  "location": { "city": "Milan", "state": "", "country": "Italy" }
 }

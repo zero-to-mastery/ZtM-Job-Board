@@ -8,9 +8,5 @@
     "github": "https://github.com/rosewood38"
   },
   "jobTitle": "Python-Django Developer",
-  "location": {
-    "city": "Hyderabad",
-    "state": "Telangana",
-    "country": "India"
-  }
+  "location": { "city": "Hyderabad", "state": "Telangana", "country": "India" }
 }

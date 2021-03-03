@@ -8,9 +8,5 @@
     "github": "https://github.com/JaworskiAleksander"
   },
   "jobTitle": "Front-End Web Dev / Python + Django",
-  "location": {
-    "city": "Krakow",
-    "state": "Malopolska",
-    "country": "Poland"
-  }
+  "location": { "city": "Krakow", "state": "Malopolska", "country": "Poland" }
 }

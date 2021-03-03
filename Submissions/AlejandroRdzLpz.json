@@ -8,9 +8,5 @@
     "github": "https://github.com/AlejandroRdzLpz"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "CDMX",
-    "state": "CDMX",
-    "country": "Mexico"
-  }
+  "location": { "city": "CDMX", "state": "CDMX", "country": "Mexico" }
 }

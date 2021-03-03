@@ -8,9 +8,5 @@
     "github": "https://github.com/Iharson"
   },
   "jobTitle": "Front End Developer",
-  "location": {
-    "city": "Minsk",
-    "state": "",
-    "country": "Belarus"
-  }
+  "location": { "city": "Minsk", "state": "", "country": "Belarus" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/Udaygajavalli"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Hyderabad",
-    "state": "Telangana",
-    "country": "India"
-  }
+  "location": { "city": "Hyderabad", "state": "Telangana", "country": "India" }
 }

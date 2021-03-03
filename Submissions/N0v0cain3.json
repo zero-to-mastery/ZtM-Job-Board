@@ -8,9 +8,5 @@
     "github": "https://github.com/N0v0cain3"
   },
   "jobTitle": "Backend Developer",
-  "location": {
-    "city": "Ahmedabad",
-    "state": "Gujarat",
-    "country": "India"
-  }
+  "location": { "city": "Ahmedabad", "state": "Gujarat", "country": "India" }
 }

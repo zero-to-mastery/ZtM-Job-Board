@@ -8,9 +8,5 @@
     "github": "https://github.com/SelmiAhmed"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Tunis",
-    "state": "Tunis",
-    "country": "Tunisia"
-  }
+  "location": { "city": "Tunis", "state": "Tunis", "country": "Tunisia" }
 }

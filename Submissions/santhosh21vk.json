@@ -8,9 +8,5 @@
     "github": "https://github.com/santhosh21vk"
   },
   "jobTitle": "Front End Web Developer (Javascript, React.js)",
-  "location": {
-    "city": "Bangalore",
-    "state": "Karnataka",
-    "country": "India"
-  }
+  "location": { "city": "Bangalore", "state": "Karnataka", "country": "India" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/Rishi-121"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Paradip",
-    "state": "Odisha",
-    "country": "India"
-  }
+  "location": { "city": "Paradip", "state": "Odisha", "country": "India" }
 }

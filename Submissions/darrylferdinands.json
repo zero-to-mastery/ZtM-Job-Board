@@ -8,9 +8,5 @@
     "github": "https://github.com/darrylferdinands"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "New Delhi",
-    "state": "",
-    "country": "India"
-  }
+  "location": { "city": "New Delhi", "state": "", "country": "India" }
 }

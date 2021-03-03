@@ -8,9 +8,5 @@
     "github": "https://github.com/Cyph3r"
   },
   "jobTitle": "Full-Stack Dev, JavaScript",
-  "location": {
-    "city": "Tulsa",
-    "state": "Oklahoma",
-    "country": "USA"
-  }
+  "location": { "city": "Tulsa", "state": "Oklahoma", "country": "USA" }
 }

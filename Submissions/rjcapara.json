@@ -8,9 +8,5 @@
     "github": "https://github.com/rjcapara"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Cainta",
-    "state": "Rizal",
-    "country": "Philippines"
-  }
+  "location": { "city": "Cainta", "state": "Rizal", "country": "Philippines" }
 }

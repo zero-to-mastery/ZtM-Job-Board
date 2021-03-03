@@ -8,9 +8,5 @@
     "github": "https://github.com/mieragil"
   },
   "jobTitle": "Full-Stack Web Developer",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "Philippines"
-  }
+  "location": { "city": "", "state": "", "country": "Philippines" }
 }

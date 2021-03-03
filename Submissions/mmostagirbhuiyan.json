@@ -8,9 +8,5 @@
     "github": "https://github.com/mmostagirbhuiyan"
   },
   "jobTitle": "Sr. DevOps Engineer | Full Stack Web Developer | Sr. React Developer| Python | Java",
-  "location": {
-    "city": "New York City",
-    "state": "NY",
-    "country": "USA"
-  }
+  "location": { "city": "New York City", "state": "NY", "country": "USA" }
 }

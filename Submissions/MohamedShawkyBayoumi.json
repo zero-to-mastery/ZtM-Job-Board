@@ -8,9 +8,5 @@
     "github": "https://github.com/MohamedShawkyBayoumi/"
   },
   "jobTitle": "Front End Web Developer | React Developer",
-  "location": {
-    "city": "Cairo",
-    "state": "",
-    "country": "Egypt"
-  }
+  "location": { "city": "Cairo", "state": "", "country": "Egypt" }
 }

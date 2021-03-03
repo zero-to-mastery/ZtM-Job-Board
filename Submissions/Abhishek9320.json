@@ -8,9 +8,5 @@
     "github": "https://github.com/Abhishek9320/my-first-blog.github.io"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" }
 }

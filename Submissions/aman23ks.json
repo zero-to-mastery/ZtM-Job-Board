@@ -8,9 +8,5 @@
     "github": "https://github.com/aman23ks"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "Thane",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Thane", "state": "Maharashtra", "country": "India" }
 }

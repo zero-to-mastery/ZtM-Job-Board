@@ -7,9 +7,6 @@
     "github": "https://github.com/tejasmorkar"
   },
   "jobTitle": "Machine Learning Enthusiast",
-  "location": {
-    "city": "Pune",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Pune", "state": "Maharashtra", "country": "India" },
+  "id": "9213307c-9556-5462-f760-dd0d1676a727"
 }

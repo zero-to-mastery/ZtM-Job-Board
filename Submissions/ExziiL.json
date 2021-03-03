@@ -8,9 +8,5 @@
     "github": "https://github.com/ExziiL"
   },
   "jobTitle": "Junior Web Developer",
-  "location": {
-    "city": "Bamberg",
-    "state": "Bayern",
-    "country": "Germany"
-  }
+  "location": { "city": "Bamberg", "state": "Bayern", "country": "Germany" }
 }

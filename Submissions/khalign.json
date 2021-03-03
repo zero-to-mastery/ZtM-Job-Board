@@ -8,9 +8,5 @@
     "github": "https://github.com/khalign"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Bandirma",
-    "state": "Balikesir",
-    "country": "Turkey"
-  }
+  "location": { "city": "Bandirma", "state": "Balikesir", "country": "Turkey" }
 }

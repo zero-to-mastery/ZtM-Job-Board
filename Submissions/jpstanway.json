@@ -8,9 +8,5 @@
     "github": "https://github.com/jpstanway"
   },
   "jobTitle": "Full Stack React Developer",
-  "location": {
-    "city": "Vancouver",
-    "state": "BC",
-    "country": "Canada"
-  }
+  "location": { "city": "Vancouver", "state": "BC", "country": "Canada" }
 }

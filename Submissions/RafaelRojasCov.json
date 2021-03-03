@@ -8,9 +8,5 @@
     "github": "https://www.github.com/RafaelRojasCov"
   },
   "jobTitle": "Front-End React Developer",
-  "location": {
-    "city": "Santiago",
-    "state": "RM",
-    "country": "Chile"
-  }
+  "location": { "city": "Santiago", "state": "RM", "country": "Chile" }
 }

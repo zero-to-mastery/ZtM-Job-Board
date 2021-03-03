@@ -8,9 +8,5 @@
     "github": "https://github.com/ashwani65"
   },
   "jobTitle": "Full Stack Developer | MERN Developer",
-  "location": {
-    "city": "Kanpur",
-    "state": "Uttar Pradesh",
-    "country": "India"
-  }
+  "location": { "city": "Kanpur", "state": "Uttar Pradesh", "country": "India" }
 }

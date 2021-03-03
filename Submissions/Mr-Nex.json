@@ -8,9 +8,5 @@
     "github": "https://github.com/Mr-Nex"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Bengaluru",
-    "state": "Karnataka",
-    "country": "India"
-  }
+  "location": { "city": "Bengaluru", "state": "Karnataka", "country": "India" }
 }

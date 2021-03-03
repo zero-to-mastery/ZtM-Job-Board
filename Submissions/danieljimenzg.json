@@ -8,9 +8,5 @@
     "github": "https://github.com/danieljimenzg"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Caracas",
-    "state": "Caracas",
-    "country": "Venezuela"
-  }
+  "location": { "city": "Caracas", "state": "Caracas", "country": "Venezuela" }
 }

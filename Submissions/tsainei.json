@@ -7,9 +7,6 @@
     "github": "https://github.com/tsainei"
   },
   "jobTitle": "Front End Developer",
-  "location": {
-    "city": "Málaga",
-    "state": "Andalucía",
-    "country": "Spain"
-  }
+  "location": { "city": "Málaga", "state": "Andalucía", "country": "Spain" },
+  "id": "472dd8dd-804f-9449-7d11-4b1bb430a6f7"
 }

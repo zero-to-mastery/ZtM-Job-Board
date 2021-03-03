@@ -8,9 +8,5 @@
     "github": "https://github.com/benhsieh-dev"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Elmhurst",
-    "state": "New York",
-    "country": "USA"
-  }
+  "location": { "city": "Elmhurst", "state": "New York", "country": "USA" }
 }

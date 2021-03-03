@@ -8,9 +8,5 @@
     "github": "https://github.com/caxefaizan"
   },
   "jobTitle": "Python Developer|Full Stack Developer|Embedded IoT Developer",
-  "location": {
-    "city": "Bangalore",
-    "state": "Karnataka",
-    "country": "India"
-  }
+  "location": { "city": "Bangalore", "state": "Karnataka", "country": "India" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/tomas95go"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Formosa",
-    "state": "FSA",
-    "country": "Argentina"
-  }
+  "location": { "city": "Formosa", "state": "FSA", "country": "Argentina" }
 }

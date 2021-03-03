@@ -8,9 +8,5 @@
     "github": "https://github.com/sirianw"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "Los Angeles",
-    "state": "CA",
-    "country": "USA"
-  }
+  "location": { "city": "Los Angeles", "state": "CA", "country": "USA" }
 }

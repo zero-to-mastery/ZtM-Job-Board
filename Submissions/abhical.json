@@ -7,9 +7,6 @@
     "github": "https://github.com/abhical"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Chennai",
-    "state": "Tamil Naidu",
-    "country": "India"
-  }
+  "location": { "city": "Chennai", "state": "Tamil Naidu", "country": "India" },
+  "id": "b81c7aa2-75b6-d72e-7233-1dfed702763b"
 }

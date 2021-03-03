@@ -8,9 +8,5 @@
     "github": "https://github.com/hieupham-thedreamer"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Ho Chi Minh",
-    "state": "",
-    "country": "Vietnam"
-  }
+  "location": { "city": "Ho Chi Minh", "state": "", "country": "Vietnam" }
 }

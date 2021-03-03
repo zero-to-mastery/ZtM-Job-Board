@@ -8,9 +8,5 @@
     "github": "https://github.com/ayushi2410"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "",
-    "state": "Jharkhand",
-    "country": "India"
-  }
+  "location": { "city": "", "state": "Jharkhand", "country": "India" }
 }

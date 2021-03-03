@@ -8,9 +8,5 @@
     "github": "https://github.com/franexmo81"
   },
   "jobTitle": "Front-end Web Developer",
-  "location": {
-    "city": "Jaen",
-    "state": "Andalusia",
-    "country": "Spain"
-  }
+  "location": { "city": "Jaen", "state": "Andalusia", "country": "Spain" }
 }

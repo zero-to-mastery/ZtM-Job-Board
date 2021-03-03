@@ -8,9 +8,5 @@
     "github": "https://github.com/kavyavsagar"
   },
   "jobTitle": "Full Stack Developer|Software Engineer",
-  "location": {
-    "city": "DSO",
-    "state": "Dubai",
-    "country": "UAE"
-  }
+  "location": { "city": "DSO", "state": "Dubai", "country": "UAE" }
 }

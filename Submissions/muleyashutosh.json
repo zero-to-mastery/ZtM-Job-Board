@@ -7,9 +7,6 @@
     "github": "https://github.com/muleyashutosh"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Pune",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Pune", "state": "Maharashtra", "country": "India" },
+  "id": "28b1b80a-18fe-1023-a392-baaccb68d116"
 }

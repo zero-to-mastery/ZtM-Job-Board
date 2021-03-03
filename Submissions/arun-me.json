@@ -8,9 +8,5 @@
     "github": "https://github.com/arun-me"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Tirupur",
-    "state": "Tamil Nadu",
-    "country": "India"
-  }
+  "location": { "city": "Tirupur", "state": "Tamil Nadu", "country": "India" }
 }

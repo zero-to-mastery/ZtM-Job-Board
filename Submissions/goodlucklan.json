@@ -8,9 +8,5 @@
     "github": "https://github.com/goodlucklan"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Lima",
-    "state": "Lima",
-    "country": "Peru"
-  }
+  "location": { "city": "Lima", "state": "Lima", "country": "Peru" }
 }

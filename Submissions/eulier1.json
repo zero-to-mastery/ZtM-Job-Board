@@ -7,9 +7,6 @@
     "github": "https://github.com/eulier1"
   },
   "jobTitle": "Full-Stack Web Developer",
-  "location": {
-    "city": "",
-    "state": "Buenos Aires",
-    "country": "Argentina"
-  }
+  "location": { "city": "", "state": "Buenos Aires", "country": "Argentina" },
+  "id": "611e4bce-8dd5-9b96-4c7f-05099a16a3a6"
 }

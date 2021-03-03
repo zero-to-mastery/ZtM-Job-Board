@@ -8,8 +8,5 @@
     "github": "https://github.com/alejandroiglesias"
   },
   "jobTitle": "Senior Frontend Developer",
-  "location": {
-    "state": "Buenos Aires",
-    "country": "Argentina"
-  }
+  "location": { "state": "Buenos Aires", "country": "Argentina" }
 }

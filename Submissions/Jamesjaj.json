@@ -8,9 +8,5 @@
     "github": "https://github.com/Jamesjaj"
   },
   "jobTitle": "Full-Stack Developer",
-  "location": {
-    "city": "Toronto",
-    "state": "Ontario",
-    "country": "Canada"
-  }
+  "location": { "city": "Toronto", "state": "Ontario", "country": "Canada" }
 }

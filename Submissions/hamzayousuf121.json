@@ -8,9 +8,5 @@
     "github": "https://github.com/hamzayousuf121"
   },
   "jobTitle": "Full Stack Web Developer ",
-  "location": {
-    "city": "Karachi",
-    "state": "Sindh",
-    "country": "Pakistan"
-  }
+  "location": { "city": "Karachi", "state": "Sindh", "country": "Pakistan" }
 }

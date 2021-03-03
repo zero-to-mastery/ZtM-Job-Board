@@ -8,9 +8,5 @@
     "github": "https://github.com/Lijamaija"
   },
   "jobTitle": "React Developer, Frone-end developer",
-  "location": {
-    "city": "Prague",
-    "state": "",
-    "country": "Czech Republic"
-  }
+  "location": { "city": "Prague", "state": "", "country": "Czech Republic" }
 }

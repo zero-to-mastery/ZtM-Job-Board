@@ -8,9 +8,5 @@
     "github": "https://github.com/greatgraphicdesign/"
   },
   "jobTitle": "Front-End Developer, Art Director, Graphic Designer, UI/UX",
-  "location": {
-    "city": "Bellingham",
-    "state": "Washington",
-    "country": "USA"
-  }
+  "location": { "city": "Bellingham", "state": "Washington", "country": "USA" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/bstaub/"
   },
   "jobTitle": "Full Stack Developer (Javascript, PHP)",
-  "location": {
-    "city": "Luzern",
-    "state": "LU",
-    "country": "CH"
-  }
+  "location": { "city": "Luzern", "state": "LU", "country": "CH" }
 }

@@ -8,9 +8,5 @@
     "github": "https://www.github.com/dga"
   },
   "jobTitle": "Python Developer",
-  "location": {
-    "city": "Folsom",
-    "state": "CA",
-    "country": "USA"
-  }
+  "location": { "city": "Folsom", "state": "CA", "country": "USA" }
 }

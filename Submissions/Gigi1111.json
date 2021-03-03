@@ -8,9 +8,5 @@
     "github": "https://github.com/Gigi1111"
   },
   "jobTitle": "Full Stack JS and Django Developer",
-  "location": {
-    "city": "Berlin",
-    "state": "Berlin",
-    "country": "Germany"
-  }
+  "location": { "city": "Berlin", "state": "Berlin", "country": "Germany" }
 }

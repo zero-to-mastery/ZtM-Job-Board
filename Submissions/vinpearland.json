@@ -8,9 +8,5 @@
     "github": "https://github.com/vinpearland"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Kansas City",
-    "state": "MO",
-    "country": "USA"
-  }
+  "location": { "city": "Kansas City", "state": "MO", "country": "USA" }
 }

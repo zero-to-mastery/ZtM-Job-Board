@@ -8,9 +8,5 @@
     "github": "https://github.com/whitneyscott"
   },
   "jobTitle": "Full-Stack Web Developer",
-  "location": {
-    "city": "Nacogdoches",
-    "state": "TX",
-    "country": "USA"
-  }
+  "location": { "city": "Nacogdoches", "state": "TX", "country": "USA" }
 }

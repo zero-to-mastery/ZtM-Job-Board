@@ -8,9 +8,5 @@
     "github": "https://github.com/danielguitara"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "Jakarta",
-    "state": "",
-    "country": "Indonesia"
-  }
+  "location": { "city": "Jakarta", "state": "", "country": "Indonesia" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/anatulea"
   },
   "jobTitle": "Full-Stack Web Developer ",
-  "location": {
-    "city": "Las Vegas",
-    "state": "Nevada",
-    "country": "USA"
-  }
+  "location": { "city": "Las Vegas", "state": "Nevada", "country": "USA" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/lfidelino"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Davao",
-    "state": "",
-    "country": "Philippines"
-  }
+  "location": { "city": "Davao", "state": "", "country": "Philippines" }
 }

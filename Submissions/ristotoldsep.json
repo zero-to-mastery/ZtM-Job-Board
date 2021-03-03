@@ -8,9 +8,5 @@
     "github": "https://github.com/ristotoldsep"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Tallinn",
-    "state": "",
-    "country": "Estonia"
-  }
+  "location": { "city": "Tallinn", "state": "", "country": "Estonia" }
 }

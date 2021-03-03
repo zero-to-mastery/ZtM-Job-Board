@@ -8,9 +8,5 @@
     "github": "https://github.com/danishsshaikh"
   },
   "jobTitle": "Unity Developer, App Developer",
-  "location": {
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" }
 }

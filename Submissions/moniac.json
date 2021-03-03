@@ -8,9 +8,5 @@
     "github": "https://github.com/moniac"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Amsterdam",
-    "state": "",
-    "country": "Netherlands"
-  }
+  "location": { "city": "Amsterdam", "state": "", "country": "Netherlands" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/abdulg95"
   },
   "jobTitle": "Full-Stack Developer",
-  "location": {
-    "city": "Ottawa",
-    "state": "Ontario",
-    "country": "Canada"
-  }
+  "location": { "city": "Ottawa", "state": "Ontario", "country": "Canada" }
 }

@@ -7,9 +7,5 @@
     "github": "https://github.com/pushapak28"
   },
   "jobTitle": "Web Developer,Marketing Executive",
-  "location": {
-    "city": "Orai",
-    "state": "Uttar Pradesh",
-    "country": "India"
-  }
+  "location": { "city": "Orai", "state": "Uttar Pradesh", "country": "India" }
 }

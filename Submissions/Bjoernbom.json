@@ -8,9 +8,5 @@
     "github": "https://github.com/Bjoernbom"
   },
   "jobTitle": "Software Engineer/Front-End Developer",
-  "location": {
-    "city": "Örebro",
-    "state": "",
-    "country": "Sweden"
-  }
+  "location": { "city": "Örebro", "state": "", "country": "Sweden" }
 }

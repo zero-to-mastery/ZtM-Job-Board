@@ -8,9 +8,5 @@
     "github": "https://github.com/rffffy"
   },
   "jobTitle": "Fullstack Web Developer",
-  "location": {
-    "city": "Berlin",
-    "state": "",
-    "country": "Germany"
-  }
+  "location": { "city": "Berlin", "state": "", "country": "Germany" }
 }

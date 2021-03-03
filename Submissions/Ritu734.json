@@ -8,9 +8,5 @@
     "github": "https://github.com/Ritu734/"
   },
   "jobTitle": "Senior Software Engineer - iOS",
-  "location": {
-    "city": "New Delhi",
-    "state": "Delhi",
-    "country": "India"
-  }
+  "location": { "city": "New Delhi", "state": "Delhi", "country": "India" }
 }

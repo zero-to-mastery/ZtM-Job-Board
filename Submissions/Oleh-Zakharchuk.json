@@ -8,9 +8,5 @@
     "github": "https://github.com/Oleh-Zakharchuk"
   },
   "jobTitle": "Junior Front End Developer | Junior JavaScript Developer",
-  "location": {
-    "city": "Kyiv",
-    "state": "",
-    "country": "Ukraine"
-  }
+  "location": { "city": "Kyiv", "state": "", "country": "Ukraine" }
 }

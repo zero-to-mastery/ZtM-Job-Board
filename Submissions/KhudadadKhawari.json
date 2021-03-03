@@ -8,9 +8,5 @@
     "github": "https://github.com/KhudadadKhawari"
   },
   "jobTitle": "Back-End Developer",
-  "location": {
-    "city": "Kabul",
-    "state": "",
-    "country": "Afghanistan"
-  }
+  "location": { "city": "Kabul", "state": "", "country": "Afghanistan" }
 }

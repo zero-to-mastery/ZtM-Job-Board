@@ -8,9 +8,5 @@
     "github": "https://www.github.com/premdav"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Oklahoma City",
-    "state": "OK",
-    "country": "USA"
-  }
+  "location": { "city": "Oklahoma City", "state": "OK", "country": "USA" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/krunalbhadresa"
   },
   "jobTitle": "Web Developer/Software Developer",
-  "location": {
-    "city": "Kitchener",
-    "state": "Ontario",
-    "country": "Canada"
-  }
+  "location": { "city": "Kitchener", "state": "Ontario", "country": "Canada" }
 }

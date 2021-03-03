@@ -7,9 +7,5 @@
     "github": "https://github.com/MrChe"
   },
   "jobTitle": "Senior Front End Developer",
-  "location": {
-    "city": "Kyiv",
-    "state": "Kyiv",
-    "country": "Ukraine"
-  }
+  "location": { "city": "Kyiv", "state": "Kyiv", "country": "Ukraine" }
 }

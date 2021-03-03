@@ -8,9 +8,5 @@
     "github": "https://github.com/abdulnine7"
   },
   "jobTitle": "Python-Django Developer",
-  "location": {
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" }
 }

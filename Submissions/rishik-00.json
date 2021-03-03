@@ -8,9 +8,5 @@
     "github": "https://github.com/rishik-00"
   },
   "jobTitle": "Student",
-  "location": {
-    "city": "Noida",
-    "state": "Uttar Pradesh",
-    "country": "India"
-  }
+  "location": { "city": "Noida", "state": "Uttar Pradesh", "country": "India" }
 }

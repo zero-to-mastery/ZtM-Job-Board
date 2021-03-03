@@ -8,9 +8,5 @@
     "github": "https://github.com/WCPeragine"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Oxford",
-    "state": "PA",
-    "country": "USA"
-  }
+  "location": { "city": "Oxford", "state": "PA", "country": "USA" }
 }

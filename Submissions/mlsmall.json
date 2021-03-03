@@ -8,9 +8,5 @@
     "github": "https://github.com/mlsmall"
   },
   "jobTitle": "Machine Learning Practitioner",
-  "location": {
-    "city": "Montreal",
-    "state": "",
-    "country": "Canada"
-  }
+  "location": { "city": "Montreal", "state": "", "country": "Canada" }
 }

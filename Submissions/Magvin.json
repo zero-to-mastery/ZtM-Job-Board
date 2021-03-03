@@ -8,9 +8,5 @@
     "github": "https://github.com/Magvin"
   },
   "jobTitle": "Freelance Front-end Web Developer",
-  "location": {
-    "city": "Eastbourne",
-    "state": "",
-    "country": "United Kingdom"
-  }
+  "location": { "city": "Eastbourne", "state": "", "country": "United Kingdom" }
 }

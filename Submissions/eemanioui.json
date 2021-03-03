@@ -8,9 +8,5 @@
     "github": "https://github.com/eemanioui"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Winnipeg",
-    "state": "Manitoba",
-    "country": "Canada"
-  }
+  "location": { "city": "Winnipeg", "state": "Manitoba", "country": "Canada" }
 }

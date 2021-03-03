@@ -8,9 +8,5 @@
     "github": "https://github.com/tonvlad88"
   },
   "jobTitle": "PHP Developer, Delphi Developer, Full-Stack Developer in training",
-  "location": {
-    "city": "Cebu",
-    "state": "",
-    "country": "Philippines"
-  }
+  "location": { "city": "Cebu", "state": "", "country": "Philippines" }
 }

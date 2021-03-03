@@ -8,9 +8,5 @@
     "github": "https://github.com/ruturajjadeja"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Chicago",
-    "state": "IL",
-    "country": "USA"
-  }
+  "location": { "city": "Chicago", "state": "IL", "country": "USA" }
 }

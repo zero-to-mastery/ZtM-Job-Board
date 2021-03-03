@@ -8,9 +8,5 @@
     "github": "https://github.com/hacyaman"
   },
   "jobTitle": "Software Engineering Manager",
-  "location": {
-    "city": "Yokohama",
-    "state": "Kanagawa",
-    "country": "Japan"
-  }
+  "location": { "city": "Yokohama", "state": "Kanagawa", "country": "Japan" }
 }

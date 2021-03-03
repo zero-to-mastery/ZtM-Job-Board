@@ -7,9 +7,5 @@
     "github": "https://github.com/alvesfc"
   },
   "jobTitle": "Backend Developer",
-  "location": {
-    "city": "São Paulo",
-    "state": "São Paulo",
-    "country": "Brazil"
-  }
+  "location": { "city": "São Paulo", "state": "São Paulo", "country": "Brazil" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/ricksnow26"
   },
   "jobTitle": "Electrical Engineer, Web Developer",
-  "location": {
-    "city": "Porto",
-    "state": "",
-    "country": "Portugal"
-  }
+  "location": { "city": "Porto", "state": "", "country": "Portugal" }
 }

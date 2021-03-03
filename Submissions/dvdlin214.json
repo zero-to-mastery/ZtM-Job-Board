@@ -8,9 +8,5 @@
     "github": "https://github.com/dvdlin214"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "New York",
-    "state": "New York",
-    "country": "USA"
-  }
+  "location": { "city": "New York", "state": "New York", "country": "USA" }
 }

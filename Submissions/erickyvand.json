@@ -7,9 +7,6 @@
     "github": "https://github.com/erickyvand"
   },
   "jobTitle": "Full Stack Software Developer",
-  "location": {
-    "city": "Kigali",
-    "state": "",
-    "country": "Rwanda"
-  }
+  "location": { "city": "Kigali", "state": "", "country": "Rwanda" },
+  "id": "625ce968-b57d-541c-77cd-3c7c79149baf"
 }

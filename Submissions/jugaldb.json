@@ -8,9 +8,5 @@
     "github": "https://github.com/jugaldb"
   },
   "jobTitle": "Backend Web developer and DevOps",
-  "location": {
-    "city": "Surat",
-    "state": "Gujarat",
-    "country": "India"
-  }
+  "location": { "city": "Surat", "state": "Gujarat", "country": "India" }
 }

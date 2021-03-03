@@ -8,9 +8,5 @@
     "github": "https://github.com/AndrzejHarnas"
   },
   "jobTitle": "Research Assistant/IT Specialist",
-  "location": {
-    "city": "Krosno",
-    "state": "",
-    "country": "Poland"
-  }
+  "location": { "city": "Krosno", "state": "", "country": "Poland" }
 }

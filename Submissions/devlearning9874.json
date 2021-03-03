@@ -8,9 +8,5 @@
     "github": "https://github.com/devlearning9874"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "New Delhi",
-    "state": "Delhi",
-    "country": "India"
-  }
+  "location": { "city": "New Delhi", "state": "Delhi", "country": "India" }
 }

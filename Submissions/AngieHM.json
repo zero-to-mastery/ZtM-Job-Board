@@ -8,9 +8,5 @@
     "github": "https://github.com/AngieHM/"
   },
   "jobTitle": "Full stack Developer",
-  "location": {
-    "city": "Antwerp",
-    "state": "Antwerp",
-    "country": "Belgium"
-  }
+  "location": { "city": "Antwerp", "state": "Antwerp", "country": "Belgium" }
 }

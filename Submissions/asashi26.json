@@ -8,9 +8,5 @@
     "github": "https://github.com/asashi26"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Prague",
-    "state": "",
-    "country": "Czech Republic"
-  }
+  "location": { "city": "Prague", "state": "", "country": "Czech Republic" }
 }

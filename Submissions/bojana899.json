@@ -8,9 +8,5 @@
     "github": "https://github.com/bojana899"
   },
   "jobTitle": "developer",
-  "location": {
-    "city": "Skopje",
-    "state": "",
-    "country": "Macedonia"
-  }
+  "location": { "city": "Skopje", "state": "", "country": "Macedonia" }
 }

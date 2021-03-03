@@ -8,9 +8,5 @@
     "github": "https://github.com/alesgainza"
   },
   "jobTitle": "Full stack Developer",
-  "location": {
-    "city": "Zumaia",
-    "state": "Gipuzkoa",
-    "country": "Spain"
-  }
+  "location": { "city": "Zumaia", "state": "Gipuzkoa", "country": "Spain" }
 }

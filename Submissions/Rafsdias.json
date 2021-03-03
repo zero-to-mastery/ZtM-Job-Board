@@ -8,9 +8,5 @@
     "github": "https://github.com/Rafsdias"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Viseu",
-    "state": "",
-    "country": "Portugal"
-  }
+  "location": { "city": "Viseu", "state": "", "country": "Portugal" }
 }

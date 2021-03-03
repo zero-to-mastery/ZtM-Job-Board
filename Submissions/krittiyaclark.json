@@ -8,9 +8,5 @@
     "github": "https://github.com/krittiyaclark"
   },
   "jobTitle": "Front-End Web Developer",
-  "location": {
-    "city": "Colchester",
-    "state": "Vermont",
-    "country": "USA"
-  }
+  "location": { "city": "Colchester", "state": "Vermont", "country": "USA" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/tramirez30"
   },
   "jobTitle": "UX Designer/Front End Dev",
-  "location": {
-    "city": "Los Angeles (REMOTE)",
-    "state": "CA",
-    "country": "US"
-  }
+  "location": { "city": "Los Angeles (REMOTE)", "state": "CA", "country": "US" }
 }

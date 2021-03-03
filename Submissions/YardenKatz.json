@@ -8,9 +8,5 @@
     "github": "https://github.com/YardenKatz"
   },
   "jobTitle": "Fullstack Developer | JavaScript | C++ | Java | Python | Django",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "Israel"
-  }
+  "location": { "city": "", "state": "", "country": "Israel" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/Gobinath24"
   },
   "jobTitle": "Junior Web Developer",
-  "location": {
-    "city": "Udumalpet",
-    "state": "Tamilnadu",
-    "country": "INDIA"
-  }
+  "location": { "city": "Udumalpet", "state": "Tamilnadu", "country": "INDIA" }
 }

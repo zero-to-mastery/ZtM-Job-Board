@@ -8,9 +8,5 @@
     "github": "https://github.com/ahmed-abdelhamid"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Riyadh",
-    "state": "",
-    "country": "Saudi Arabia"
-  }
+  "location": { "city": "Riyadh", "state": "", "country": "Saudi Arabia" }
 }

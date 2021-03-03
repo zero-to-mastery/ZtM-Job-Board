@@ -8,9 +8,5 @@
     "github": "https://github.com/pdr-clv"
   },
   "jobTitle": "FrontEnd React Developer",
-  "location": {
-    "city": "Moscow",
-    "state": "",
-    "country": "Russia"
-  }
+  "location": { "city": "Moscow", "state": "", "country": "Russia" }
 }

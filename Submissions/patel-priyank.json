@@ -8,9 +8,5 @@
     "github": "https://github.com/patel-priyank"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "India"
-  }
+  "location": { "city": "", "state": "", "country": "India" }
 }

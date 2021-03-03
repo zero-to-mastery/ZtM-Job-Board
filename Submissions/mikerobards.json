@@ -8,9 +8,5 @@
     "github": "https://github.com/mikerobards"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Atlanta",
-    "state": "GA",
-    "country": "USA"
-  }
+  "location": { "city": "Atlanta", "state": "GA", "country": "USA" }
 }

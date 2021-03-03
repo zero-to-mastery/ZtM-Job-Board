@@ -8,9 +8,5 @@
     "github": "https://github.com/mayureshzende/"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "pune",
-    "state": "Maharastra",
-    "country": "India"
-  }
+  "location": { "city": "pune", "state": "Maharastra", "country": "India" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/gsakshay"
   },
   "jobTitle": "Frontend engineer",
-  "location": {
-    "city": "Bangalore",
-    "state": "Karnataka",
-    "country": "India"
-  }
+  "location": { "city": "Bangalore", "state": "Karnataka", "country": "India" }
 }

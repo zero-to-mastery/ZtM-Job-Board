@@ -8,9 +8,5 @@
     "github": "https://github.com/codeztech-atique"
   },
   "jobTitle": "Lead Full Stack Developer, Cloud Solution Architect",
-  "location": {
-    "city": "Kolkata",
-    "state": "West bengal",
-    "country": "India"
-  }
+  "location": { "city": "Kolkata", "state": "West bengal", "country": "India" }
 }

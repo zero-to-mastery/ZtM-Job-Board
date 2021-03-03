@@ -8,9 +8,5 @@
     "github": "https://github.com/reizariva-hale"
   },
   "jobTitle": "Front End Developer",
-  "location": {
-    "city": "Sydney",
-    "state": "NSW",
-    "country": "Australia"
-  }
+  "location": { "city": "Sydney", "state": "NSW", "country": "Australia" }
 }

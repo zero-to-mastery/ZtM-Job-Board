@@ -8,9 +8,5 @@
     "github": "https://github.com/rperry99"
   },
   "jobTitle": "Front End Developer",
-  "location": {
-    "city": "Cleveland",
-    "state": "OH",
-    "country": "US"
-  }
+  "location": { "city": "Cleveland", "state": "OH", "country": "US" }
 }

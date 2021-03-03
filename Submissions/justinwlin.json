@@ -8,9 +8,5 @@
     "github": "https://github.com/justinwlin"
   },
   "jobTitle": "FullStack Developer | Software Engineer | Student",
-  "location": {
-    "city": "Irvine | NYC",
-    "state": "CA | NY",
-    "country": "USA"
-  }
+  "location": { "city": "Irvine | NYC", "state": "CA | NY", "country": "USA" }
 }

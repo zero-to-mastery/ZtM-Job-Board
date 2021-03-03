@@ -8,9 +8,5 @@
     "github": "https://github.com/sunildipun"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Bangalore",
-    "state": "Karnataka",
-    "country": "India"
-  }
+  "location": { "city": "Bangalore", "state": "Karnataka", "country": "India" }
 }

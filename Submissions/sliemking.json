@@ -8,9 +8,5 @@
     "github": "https://github.com/sliemking"
   },
   "jobTitle": "Fullstack Developer",
-  "location": {
-    "city": "Yenagoa",
-    "state": "State",
-    "country": "Nigeria"
-  }
+  "location": { "city": "Yenagoa", "state": "State", "country": "Nigeria" }
 }

@@ -7,9 +7,6 @@
     "github": "https://github.com/Ochanissi"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Bucharest",
-    "state": "",
-    "country": "Romania"
-  }
+  "location": { "city": "Bucharest", "state": "", "country": "Romania" },
+  "id": "a490db7c-d293-36eb-5824-046d16971dd4"
 }

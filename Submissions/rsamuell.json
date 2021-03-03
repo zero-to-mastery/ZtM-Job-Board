@@ -8,9 +8,5 @@
     "github": "https://github.com/rsamuell"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Washington",
-    "state": "DC",
-    "country": "USA"
-  }
+  "location": { "city": "Washington", "state": "DC", "country": "USA" }
 }

@@ -7,9 +7,6 @@
     "github": "https://github.com/starique04"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "USA"
-  }
+  "location": { "city": "", "state": "", "country": "USA" },
+  "id": "23f6223d-b08a-aa2e-b814-47b96f686bf2"
 }

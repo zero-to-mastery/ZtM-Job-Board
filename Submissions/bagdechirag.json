@@ -8,9 +8,5 @@
     "github": "https://github.com/bagdechirag"
   },
   "jobTitle": "Undergrad Student",
-  "location": {
-    "city": "Pune",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Pune", "state": "Maharashtra", "country": "India" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/YufeiZhang2"
   },
   "jobTitle": "Junior Software Developer",
-  "location": {
-    "city": "Sydney",
-    "state": "NSW",
-    "country": "Australia"
-  }
+  "location": { "city": "Sydney", "state": "NSW", "country": "Australia" }
 }

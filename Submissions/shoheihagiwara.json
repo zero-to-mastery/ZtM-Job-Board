@@ -8,9 +8,5 @@
     "github": "https://github.com/shoheihagiwara"
   },
   "jobTitle": "Web Application Developer",
-  "location": {
-    "city": "Tokyo",
-    "state": "Tokyo",
-    "country": "Japan"
-  }
+  "location": { "city": "Tokyo", "state": "Tokyo", "country": "Japan" }
 }

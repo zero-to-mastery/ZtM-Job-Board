@@ -8,9 +8,5 @@
     "github": "https://github.com/Zeztron"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Columbus",
-    "state": "OH",
-    "country": "USA"
-  }
+  "location": { "city": "Columbus", "state": "OH", "country": "USA" }
 }

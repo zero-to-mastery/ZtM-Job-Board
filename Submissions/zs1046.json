@@ -8,9 +8,5 @@
     "github": "https://github.com/zs1046"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Austin",
-    "state": "Texas",
-    "country": "USA"
-  }
+  "location": { "city": "Austin", "state": "Texas", "country": "USA" }
 }

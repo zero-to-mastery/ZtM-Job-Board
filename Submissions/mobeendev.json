@@ -7,9 +7,6 @@
     "github": "https://github.com/mobeendev"
   },
   "jobTitle": "PHP◆JS◆Frameworks◆APIs◆Microservices◆Cloud◆SQL",
-  "location": {
-    "city": "Doha",
-    "state": "",
-    "country": "Qatar"
-  }
+  "location": { "city": "Doha", "state": "", "country": "Qatar" },
+  "id": "e6917eef-3e97-2ffb-9529-a92df5901415"
 }

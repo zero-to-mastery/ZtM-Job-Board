@@ -8,9 +8,5 @@
     "github": "https://github.com/ssal-man"
   },
   "jobTitle": "Full-Stack Developer , Python Developer , Javascript Developer , Android Developer",
-  "location": {
-    "city": "Bhilai",
-    "state": "Chhattisgarh",
-    "country": "India"
-  }
+  "location": { "city": "Bhilai", "state": "Chhattisgarh", "country": "India" }
 }

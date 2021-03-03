@@ -8,9 +8,5 @@
     "github": "https://github.com/chrisnjw"
   },
   "jobTitle": "Solution Engineer",
-  "location": {
-    "city": "",
-    "state": "Singapore",
-    "country": "Singapore"
-  }
+  "location": { "city": "", "state": "Singapore", "country": "Singapore" }
 }

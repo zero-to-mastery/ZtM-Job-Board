@@ -8,9 +8,5 @@
     "github": "https://github.com/matthewcollier1"
   },
   "jobTitle": "Front-end Web Developer",
-  "location": {
-    "city": "Toronto",
-    "state": "",
-    "country": "Canada"
-  }
+  "location": { "city": "Toronto", "state": "", "country": "Canada" }
 }

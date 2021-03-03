@@ -8,9 +8,5 @@
     "github": "https://github.com/DarrnyH"
   },
   "jobTitle": "Full Stack Developer(MERN) ",
-  "location": {
-    "city": "",
-    "state": "Mississippi",
-    "country": "United States"
-  }
+  "location": { "city": "", "state": "Mississippi", "country": "United States" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/rxsh96"
   },
   "jobTitle": "Computer Science Engineering Student",
-  "location": {
-    "city": "Guayaquil",
-    "state": "Guayas",
-    "country": "Ecuador"
-  }
+  "location": { "city": "Guayaquil", "state": "Guayas", "country": "Ecuador" }
 }

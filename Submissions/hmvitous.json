@@ -8,9 +8,5 @@
     "github": "https://github.com/hmvitous"
   },
   "jobTitle": "Full-Stack Developer",
-  "location": {
-    "city": "Bromma",
-    "state": "Stockholm",
-    "country": "Sweden"
-  }
+  "location": { "city": "Bromma", "state": "Stockholm", "country": "Sweden" }
 }

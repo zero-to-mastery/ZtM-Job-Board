@@ -8,9 +8,5 @@
     "github": "https://github.com/gorniczy"
   },
   "jobTitle": "Frontend Developer",
-  "location": {
-    "city": "Warsaw",
-    "state": "",
-    "country": "Poland"
-  }
+  "location": { "city": "Warsaw", "state": "", "country": "Poland" }
 }

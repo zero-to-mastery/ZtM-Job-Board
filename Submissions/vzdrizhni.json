@@ -1,15 +1,12 @@
 {
-    "name": "Roman Nikolaev",
-    "img": "https://avatars.githubusercontent.com/u/43777458?v=4",
-    "links": {
-      "website": "https://roman-nikolaev.netlify.app/",
-      "linkedin": "https://www.linkedin.com/in/romannikolaev/",
-      "github": "https://github.com/vzdrizhni"
-    },
-    "jobTitle": "Full-Stack Web Developer",
-    "location": {
-      "city": "Orenburg",
-      "state": "",
-      "country": "Russia"
-    }
+  "name": "Roman Nikolaev",
+  "img": "https://avatars.githubusercontent.com/u/43777458?v=4",
+  "links": {
+    "website": "https://roman-nikolaev.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/romannikolaev/",
+    "github": "https://github.com/vzdrizhni"
+  },
+  "jobTitle": "Full-Stack Web Developer",
+  "location": { "city": "Orenburg", "state": "", "country": "Russia" },
+  "id": "fa891780-ffe0-6ad0-e4e2-4266d2ba4be9"
 }

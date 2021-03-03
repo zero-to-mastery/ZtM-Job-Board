@@ -8,9 +8,5 @@
     "github": "https://github.com/theja-m"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "Hyderabad",
-    "state": "Telangana",
-    "country": "India"
-  }
+  "location": { "city": "Hyderabad", "state": "Telangana", "country": "India" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/AyoubIssaad"
   },
   "jobTitle": "Full Stack Developer, (React, NodeJS, PHP), Database Manager",
-  "location": {
-    "city": "Marrakech",
-    "state": "",
-    "country": "Morocco"
-  }
+  "location": { "city": "Marrakech", "state": "", "country": "Morocco" }
 }

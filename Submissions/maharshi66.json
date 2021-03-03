@@ -7,9 +7,6 @@
     "github": "https://github.com/maharshi66"
   },
   "jobTitle": "Full Stack Web and Mobile Developer",
-  "location": {
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" },
+  "id": "0e6630b6-f190-5a96-ef7c-fb528f816fc7"
 }

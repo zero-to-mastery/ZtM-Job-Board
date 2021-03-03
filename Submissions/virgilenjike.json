@@ -8,9 +8,5 @@
     "github": "https://github.com/virgilenjike"
   },
   "jobTitle": "Full-Stack Web, C# and Python Developer",
-  "location": {
-    "city": "Douala",
-    "state": "Littoral",
-    "country": "Cameroon"
-  }
+  "location": { "city": "Douala", "state": "Littoral", "country": "Cameroon" }
 }

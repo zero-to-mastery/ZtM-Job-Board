@@ -1,16 +1,12 @@
 {
-    "name": "Chris Wozniczka",
-    "img": "https://avatars.githubusercontent.com/u/25441120?v=4",
-    "links": {
-      "website": "https://www.cwozni.com/",
-      "linkedin": "https://www.linkedin.com/in/cwozni",
-      "github": "https://github.com/wozni87"
-    },
-    "jobTitle": "Technical Data Analyst",
-    "location": {
-      "city": "Chicago",
-      "state": "IL",
-      "country": "United States"
-    }
-  }
-  
+  "name": "Chris Wozniczka",
+  "img": "https://avatars.githubusercontent.com/u/25441120?v=4",
+  "links": {
+    "website": "https://www.cwozni.com/",
+    "linkedin": "https://www.linkedin.com/in/cwozni",
+    "github": "https://github.com/wozni87"
+  },
+  "jobTitle": "Technical Data Analyst",
+  "location": { "city": "Chicago", "state": "IL", "country": "United States" },
+  "id": "455c7ddb-6444-e774-bdcb-cb236ba333e9"
+}

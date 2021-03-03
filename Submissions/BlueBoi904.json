@@ -8,9 +8,5 @@
     "github": "https://github.com/BlueBoi904"
   },
   "jobTitle": "Full-Stack Developer",
-  "location": {
-    "city": "Jacksonville",
-    "state": "FL",
-    "country": "USA"
-  }
+  "location": { "city": "Jacksonville", "state": "FL", "country": "USA" }
 }

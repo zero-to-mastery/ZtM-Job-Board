@@ -8,9 +8,5 @@
     "github": "https://github.com/tomerguttman"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "Haifa",
-    "state": "",
-    "country": "Israel"
-  }
+  "location": { "city": "Haifa", "state": "", "country": "Israel" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/fahad-zakir"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Chicago",
-    "state": "IL",
-    "country": "US"
-  }
+  "location": { "city": "Chicago", "state": "IL", "country": "US" }
 }

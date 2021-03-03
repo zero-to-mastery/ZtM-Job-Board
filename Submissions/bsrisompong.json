@@ -8,9 +8,5 @@
     "github": "https://github.com/bsrisompong"
   },
   "jobTitle": "Full Stack Javascript Developer",
-  "location": {
-    "city": "Bangkok",
-    "state": "",
-    "country": "Thailand🇹🇭"
-  }
+  "location": { "city": "Bangkok", "state": "", "country": "Thailand🇹🇭" }
 }

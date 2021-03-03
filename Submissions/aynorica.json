@@ -8,9 +8,5 @@
     "github": "https://github.com/aynorica"
   },
   "jobTitle": "Full-stack Developer",
-  "location": {
-    "city": "Istanbul",
-    "state": "Istanbul",
-    "country": "Turkey"
-  }
+  "location": { "city": "Istanbul", "state": "Istanbul", "country": "Turkey" }
 }

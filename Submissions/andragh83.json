@@ -7,9 +7,6 @@
     "github": "https://github.com/andragh83"
   },
   "jobTitle": "Web designer and developer",
-  "location": {
-    "city": "London",
-    "state": "",
-    "country": "UK"
-  }
+  "location": { "city": "London", "state": "", "country": "UK" },
+  "id": "1465d68e-22a8-98ee-4e4c-f9f3f479ea7f"
 }

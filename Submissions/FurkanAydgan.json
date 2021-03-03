@@ -8,9 +8,5 @@
     "github": "https://github.com/FurkanAydgan"
   },
   "jobTitle": "Mobile and Web Developer",
-  "location": {
-    "city": "Istanbul",
-    "state": "",
-    "country": "Turkey"
-  }
+  "location": { "city": "Istanbul", "state": "", "country": "Turkey" }
 }

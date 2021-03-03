@@ -8,9 +8,5 @@
     "github": "https://github.com/ehtsham333"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Islamabad",
-    "state": "",
-    "country": "Pakistan"
-  }
+  "location": { "city": "Islamabad", "state": "", "country": "Pakistan" }
 }

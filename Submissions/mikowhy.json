@@ -8,9 +8,5 @@
     "github": "https://github.com/mikowhy"
   },
   "jobTitle": "Junior Python Developer",
-  "location": {
-    "city": "Poznan",
-    "state": "Great Poland",
-    "country": "Poland"
-  }
+  "location": { "city": "Poznan", "state": "Great Poland", "country": "Poland" }
 }

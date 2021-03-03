@@ -8,9 +8,5 @@
     "github": "https://github.com/narayanhari"
   },
   "jobTitle": "Computer Science Undergraduate",
-  "location": {
-    "city": "Manipal",
-    "state": "Manipal",
-    "country": "India"
-  }
+  "location": { "city": "Manipal", "state": "Manipal", "country": "India" }
 }

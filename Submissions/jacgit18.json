@@ -1,15 +1,12 @@
 {
-    "name": "Joshua Carpentier",
-    "img": "https://avatars.githubusercontent.com/u/26654892?v=4",
-    "links": {
-      "website": "",
-      "linkedin": "https://www.linkedin.com/in/joshua-carpentier/",
-      "github": "https://github.com/jacgit18"
-    },
-    "jobTitle": "Web Developer",
-    "location": {
-      "city": "Brooklyn",
-      "state": "NY",
-      "country": "USA"
-    }
-  } 
+  "name": "Joshua Carpentier",
+  "img": "https://avatars.githubusercontent.com/u/26654892?v=4",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/joshua-carpentier/",
+    "github": "https://github.com/jacgit18"
+  },
+  "jobTitle": "Web Developer",
+  "location": { "city": "Brooklyn", "state": "NY", "country": "USA" },
+  "id": "f7bc4557-09f3-429d-7bbd-9c70fa57627b"
+}

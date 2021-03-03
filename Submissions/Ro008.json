@@ -8,9 +8,5 @@
     "github": "https://github.com/Ro008"
   },
   "jobTitle": "Full stack web developer",
-  "location": {
-    "city": "Luxembourg",
-    "state": "",
-    "country": "Luxembourg"
-  }
+  "location": { "city": "Luxembourg", "state": "", "country": "Luxembourg" }
 }

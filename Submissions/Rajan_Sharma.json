@@ -7,9 +7,6 @@
     "github": "https://github.com/<YOUR_GH_USERNAME>"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "Hyderabad",
-    "state": "Telangana",
-    "country": "India"
-  }
+  "location": { "city": "Hyderabad", "state": "Telangana", "country": "India" },
+  "id": "a09bedf5-cb41-863f-4357-f8e8ed928e67"
 }

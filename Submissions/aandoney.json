@@ -8,9 +8,5 @@
     "github": "https://github.com/aandoney"
   },
   "jobTitle": "Full Stack Engineer",
-  "location": {
-    "city": "Queretaro",
-    "state": "",
-    "country": "Mexico"
-  }
+  "location": { "city": "Queretaro", "state": "", "country": "Mexico" }
 }

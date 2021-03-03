@@ -8,9 +8,5 @@
     "github": "https://github.com/RazaMunir824"
   },
   "jobTitle": "Full-Stack Developer",
-  "location": {
-    "city": "Lahore",
-    "state": "",
-    "country": "Pakistan"
-  }
+  "location": { "city": "Lahore", "state": "", "country": "Pakistan" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/DesmondThema"
   },
   "jobTitle": "Web Developer (NodeJs, PHP and Magento)",
-  "location": {
-    "city": "Cape Town",
-    "state": "",
-    "country": "South Africa"
-  }
+  "location": { "city": "Cape Town", "state": "", "country": "South Africa" }
 }

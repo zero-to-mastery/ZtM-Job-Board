@@ -8,9 +8,5 @@
     "github": "https://github.com/krdormer"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Austin",
-    "state": "Texas",
-    "country": "United States"
-  }
+  "location": { "city": "Austin", "state": "Texas", "country": "United States" }
 }

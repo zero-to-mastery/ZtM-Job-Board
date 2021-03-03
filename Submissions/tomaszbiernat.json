@@ -8,9 +8,5 @@
     "github": "https://github.com/tomaszbiernat"
   },
   "jobTitle": "Front-end Developer",
-  "location": {
-    "city": "Kraków",
-    "state": "Małopolska",
-    "country": "Poland"
-  }
+  "location": { "city": "Kraków", "state": "Małopolska", "country": "Poland" }
 }

@@ -8,9 +8,5 @@
     "github": "https://dogbeide.github.com"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Toronto",
-    "state": "Ontario",
-    "country": "Canada"
-  }
+  "location": { "city": "Toronto", "state": "Ontario", "country": "Canada" }
 }

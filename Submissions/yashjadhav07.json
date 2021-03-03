@@ -8,9 +8,5 @@
     "github": "https://github.com/yashjadhav07"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Pune",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Pune", "state": "Maharashtra", "country": "India" }
 }

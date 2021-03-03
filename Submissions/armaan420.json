@@ -7,10 +7,6 @@
     "github": "https://github.com/armaan420"
   },
   "jobTitle": "",
-  "location": {
-    "city": "Montreal",
-    "state": "Quebec",
-    "country": "Canada"
-  }
-}
+  "location": { "city": "Montreal", "state": "Quebec", "country": "Canada" },
+  "id": "094399d0-a936-339a-98f0-b15ad3a99e55"
 }

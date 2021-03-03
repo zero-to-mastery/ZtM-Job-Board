@@ -8,9 +8,5 @@
     "linkedin": "https://www.linkedin.com/in/samuel-tosin-3b20991b4/"
   },
   "jobTitle": "Front-End developer, Software-Engineer",
-  "location": {
-    "city": "Ikeja",
-    "state": "Lagos",
-    "country": "Nigeria"
-  }
+  "location": { "city": "Ikeja", "state": "Lagos", "country": "Nigeria" }
 }

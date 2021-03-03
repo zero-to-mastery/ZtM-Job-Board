@@ -8,9 +8,5 @@
     "github": "https://github.com/Gethric"
   },
   "jobTitle": "Front-end Developer",
-  "location": {
-    "city": "Leon",
-    "state": "Guanajuato",
-    "country": "Mexico"
-  }
+  "location": { "city": "Leon", "state": "Guanajuato", "country": "Mexico" }
 }

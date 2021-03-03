@@ -8,9 +8,5 @@
     "github": "https://www.bitbucket.org/kmist1/"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "New Haven",
-    "state": "CT",
-    "country": "USA"
-  }
+  "location": { "city": "New Haven", "state": "CT", "country": "USA" }
 }

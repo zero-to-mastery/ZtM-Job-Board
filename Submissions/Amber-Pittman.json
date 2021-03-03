@@ -7,9 +7,6 @@
     "github": "https://github.com/Amber-Pittman"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "Atlanta",
-    "state": "Georgia",
-    "country": "USA"
-  }
+  "location": { "city": "Atlanta", "state": "Georgia", "country": "USA" },
+  "id": "b2ee7603-d984-c25b-be51-afa8afd8af42"
 }

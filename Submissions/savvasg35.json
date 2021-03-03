@@ -8,9 +8,5 @@
     "github": "https://github.com/savvasg35"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Rhodes",
-    "state": "",
-    "country": "Greece"
-  }
+  "location": { "city": "Rhodes", "state": "", "country": "Greece" }
 }

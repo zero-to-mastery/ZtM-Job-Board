@@ -8,9 +8,5 @@
     "github": "https://github.com/gdhebling/"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Oslo",
-    "state": "Oslo",
-    "country": "Norway"
-  }
+  "location": { "city": "Oslo", "state": "Oslo", "country": "Norway" }
 }

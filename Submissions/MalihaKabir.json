@@ -8,9 +8,5 @@
     "github": "https://github.com/MalihaKabir"
   },
   "jobTitle": "Full-Stack JavaScript Developer",
-  "location": {
-    "city": "Dhaka",
-    "state": "",
-    "country": "Bangladesh"
-  }
+  "location": { "city": "Dhaka", "state": "", "country": "Bangladesh" }
 }

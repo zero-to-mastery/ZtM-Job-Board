@@ -8,9 +8,5 @@
     "github": "https://www.github.com/rahulmarupaka"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Chicago",
-    "state": "Illinois",
-    "country": "USA"
-  }
+  "location": { "city": "Chicago", "state": "Illinois", "country": "USA" }
 }

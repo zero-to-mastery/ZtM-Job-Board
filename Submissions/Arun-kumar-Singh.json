@@ -8,9 +8,5 @@
     "github": "https://www.linkedin.com/in/arun-singh1999/"
   },
   "jobTitle": "Full-Stack Developer",
-  "location": {
-    "city": "Dhanbad",
-    "state": "Jharkhand",
-    "country": "India"
-  }
+  "location": { "city": "Dhanbad", "state": "Jharkhand", "country": "India" }
 }

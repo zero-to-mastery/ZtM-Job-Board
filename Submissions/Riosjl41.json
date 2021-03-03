@@ -8,9 +8,5 @@
     "github": "https://github.com/Riosjl41"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "",
-    "state": "Nevada",
-    "country": "USA"
-  }
+  "location": { "city": "", "state": "Nevada", "country": "USA" }
 }

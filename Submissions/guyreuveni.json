@@ -1,15 +1,12 @@
 {
-    "name": "Guy Reuveni",
-    "img": "https://avatars.githubusercontent.com/u/65397497?v=4",
-    "links": {
-        "website": "",
-        "linkedin": "https://www.linkedin.com/in/guy-reuveni-137109202/",
-        "github": "https://github.com/guyreuveni"
-    },
-    "jobTitle": "Full Stack Developer",
-    "location": {
-        "city": "Tel Aviv",
-        "state": "",
-        "country": "Israel"
-    }
+  "name": "Guy Reuveni",
+  "img": "https://avatars.githubusercontent.com/u/65397497?v=4",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/guy-reuveni-137109202/",
+    "github": "https://github.com/guyreuveni"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": { "city": "Tel Aviv", "state": "", "country": "Israel" },
+  "id": "ffc7a5df-51b1-4e8e-c81c-092c3f26da3a"
 }

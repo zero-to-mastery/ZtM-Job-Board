@@ -8,9 +8,5 @@
     "github": "https://github.com/PanchoDaskalov"
   },
   "jobTitle": "UI/UX Design | Front-end Development",
-  "location": {
-    "city": "Munich",
-    "state": "Bavaria",
-    "country": "Germany"
-  }
+  "location": { "city": "Munich", "state": "Bavaria", "country": "Germany" }
 }

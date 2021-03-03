@@ -8,9 +8,5 @@
     "github": "https://github.com/RobinKartikeyaKhatri"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Barmer",
-    "state": "Rajasthan",
-    "country": "India"
-  }
+  "location": { "city": "Barmer", "state": "Rajasthan", "country": "India" }
 }

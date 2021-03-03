@@ -8,9 +8,5 @@
     "github": "https://github.com/sagihill/"
   },
   "jobTitle": "Full-Stack Developer",
-  "location": {
-    "city": "Tel-Aviv",
-    "state": "",
-    "country": "Israel"
-  }
+  "location": { "city": "Tel-Aviv", "state": "", "country": "Israel" }
 }

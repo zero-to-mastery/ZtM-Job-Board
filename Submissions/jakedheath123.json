@@ -8,9 +8,5 @@
     "github": "https://github.com/jakedheath123"
   },
   "jobTitle": "Junior Full Stack Developer | Northcoders Graduate",
-  "location": {
-    "city": "Leeds",
-    "state": "",
-    "country": "United Kingdom"
-  }
+  "location": { "city": "Leeds", "state": "", "country": "United Kingdom" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/SangilYun"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "Korea (Republic of)"
-  }
+  "location": { "city": "", "state": "", "country": "Korea (Republic of)" }
 }

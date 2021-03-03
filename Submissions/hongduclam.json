@@ -8,9 +8,5 @@
     "github": "https://github.com/hongduclam"
   },
   "jobTitle": "Sr Full-Stack Engineer",
-  "location": {
-    "city": "Ho Chi Minh",
-    "state": "",
-    "country": "Viet Nam"
-  }
+  "location": { "city": "Ho Chi Minh", "state": "", "country": "Viet Nam" }
 }

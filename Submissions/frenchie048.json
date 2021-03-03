@@ -8,9 +8,5 @@
     "github": "https://github.com/frenchie048"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Scottsdale",
-    "state": "AZ",
-    "country": "USA"
-  }
+  "location": { "city": "Scottsdale", "state": "AZ", "country": "USA" }
 }

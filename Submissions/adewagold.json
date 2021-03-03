@@ -8,9 +8,5 @@
     "github": "https://github.com/adewagold"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Lagos",
-    "state": "Lagos",
-    "country": "Nigeria"
-  }
+  "location": { "city": "Lagos", "state": "Lagos", "country": "Nigeria" }
 }

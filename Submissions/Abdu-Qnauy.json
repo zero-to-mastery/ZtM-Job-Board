@@ -8,9 +8,5 @@
     "github": "https://www.linkedin.com/in/abdurhman-magdy-muhammad-a588a2103/"
   },
   "jobTitle": "Front End Developer",
-  "location": {
-    "city": "Cairo",
-    "state": "Cairo",
-    "country": "Egypt"
-  }
+  "location": { "city": "Cairo", "state": "Cairo", "country": "Egypt" }
 }

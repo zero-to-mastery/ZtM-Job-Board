@@ -8,9 +8,5 @@
     "github": "https://github.com/omenaneto"
   },
   "jobTitle": "Full Stack Dev.",
-  "location": {
-    "city": "Maceió",
-    "state": "Alagoas",
-    "country": "Brazil"
-  }
+  "location": { "city": "Maceió", "state": "Alagoas", "country": "Brazil" }
 }

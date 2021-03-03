@@ -8,9 +8,5 @@
     "github": "https://github.com/nicxzmiller"
   },
   "jobTitle": "UI Designer | Frontend Developer",
-  "location": {
-    "city": "Valletta",
-    "state": "Malta",
-    "country": "Malta"
-  }
+  "location": { "city": "Valletta", "state": "Malta", "country": "Malta" }
 }

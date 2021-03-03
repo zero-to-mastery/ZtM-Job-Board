@@ -8,9 +8,5 @@
     "github": "https://github.com/wangyulinaaron"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "ChongQing",
-    "state": "ChongQing",
-    "country": "China"
-  }
+  "location": { "city": "ChongQing", "state": "ChongQing", "country": "China" }
 }

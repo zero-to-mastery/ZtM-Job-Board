@@ -8,9 +8,5 @@
     "github": "https://github.com/PaoloDiBello"
   },
   "jobTitle": "Web Developer & Polyglot",
-  "location": {
-    "city": "Casapesenna",
-    "state": "Campania",
-    "country": "Italy"
-  }
+  "location": { "city": "Casapesenna", "state": "Campania", "country": "Italy" }
 }

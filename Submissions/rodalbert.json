@@ -8,9 +8,5 @@
     "github": "https://github.com/rodalbert"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "Lisbon",
-    "state": "",
-    "country": "Portugal"
-  }
+  "location": { "city": "Lisbon", "state": "", "country": "Portugal" }
 }

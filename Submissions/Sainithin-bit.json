@@ -8,9 +8,5 @@
     "github": "https://github.com/Sainithin-bit"
   },
   "jobTitle": "Full-Stack JavaScript Dev",
-  "location": {
-    "city": "Gurgaon",
-    "state": "Haryana",
-    "country": "INDIA"
-  }
+  "location": { "city": "Gurgaon", "state": "Haryana", "country": "INDIA" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/LSunny5"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "",
-    "state": "New Jersey",
-    "country": "United States"
-  }
+  "location": { "city": "", "state": "New Jersey", "country": "United States" }
 }

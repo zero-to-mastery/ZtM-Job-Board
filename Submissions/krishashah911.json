@@ -8,9 +8,5 @@
     "github": "https://github.com/krishashah911"
   },
   "jobTitle": "Data Analyst",
-  "location": {
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" }
 }

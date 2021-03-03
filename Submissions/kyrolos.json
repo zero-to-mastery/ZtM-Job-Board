@@ -8,9 +8,5 @@
     "github": "https://github.com/kyrolos"
   },
   "jobTitle": "Senior web developer",
-  "location": {
-    "city": "Ismailia",
-    "state": "",
-    "country": "Egypt"
-  }
+  "location": { "city": "Ismailia", "state": "", "country": "Egypt" }
 }

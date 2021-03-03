@@ -8,9 +8,5 @@
     "github": "https://github.com/tghimanshu"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Mumbai",
-    "state": "Maharastra",
-    "country": "India"
-  }
+  "location": { "city": "Mumbai", "state": "Maharastra", "country": "India" }
 }

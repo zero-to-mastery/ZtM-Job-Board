@@ -8,9 +8,5 @@
     "github": "https://github.com/VoodooScience1/VoodooScience1.github.io"
   },
   "jobTitle": "Commercial Engineer, Aerospace",
-  "location": {
-    "city": "Portsmouth",
-    "state": "Hampshire",
-    "country": "UK"
-  }
+  "location": { "city": "Portsmouth", "state": "Hampshire", "country": "UK" }
 }

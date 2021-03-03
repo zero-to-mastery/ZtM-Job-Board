@@ -7,9 +7,5 @@
     "github": "https://github.com/firattale"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Istanbul",
-    "state": "",
-    "country": "Turkey"
-  }
+  "location": { "city": "Istanbul", "state": "", "country": "Turkey" }
 }

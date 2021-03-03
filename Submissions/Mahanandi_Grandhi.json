@@ -7,9 +7,6 @@
     "github": "https://github.com/mahanandig"
   },
   "jobTitle": "Full Stack Java Developer",
-  "location": {
-    "city": "New York",
-    "state": "New York",
-    "country": "USA"
-  }
+  "location": { "city": "New York", "state": "New York", "country": "USA" },
+  "id": "ef93cb22-9b1e-591f-d393-c0a82113b4b8"
 }

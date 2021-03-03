@@ -8,9 +8,5 @@
     "github": "https://github.com/hs950559"
   },
   "jobTitle": "Front End Developer, UI Developer, Senior Web Developer",
-  "location": {
-    "city": "Hyderabad",
-    "state": "Telangana",
-    "country": "India"
-  }
+  "location": { "city": "Hyderabad", "state": "Telangana", "country": "India" }
 }

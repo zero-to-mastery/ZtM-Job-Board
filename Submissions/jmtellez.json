@@ -8,9 +8,5 @@
     "github": "https://github.com/jmtellez"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "Dallas",
-    "state": "Texas",
-    "country": "United States"
-  }
+  "location": { "city": "Dallas", "state": "Texas", "country": "United States" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/lntelliMed"
   },
   "jobTitle": "Fullstack Software Engineer",
-  "location": {
-    "city": "New York City",
-    "state": "New York",
-    "country": "USA"
-  }
+  "location": { "city": "New York City", "state": "New York", "country": "USA" }
 }

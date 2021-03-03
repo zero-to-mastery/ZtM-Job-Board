@@ -8,9 +8,5 @@
     "github": "https://github.com/riketag"
   },
   "jobTitle": "Freelancer",
-  "location": {
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" }
 }

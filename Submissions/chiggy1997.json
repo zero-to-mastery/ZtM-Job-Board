@@ -8,9 +8,5 @@
     "github": "https://github.com/chiggy1997"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Mumbai",
-    "state": "",
-    "country": "India"
-  }
+  "location": { "city": "Mumbai", "state": "", "country": "India" }
 }

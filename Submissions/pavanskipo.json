@@ -8,9 +8,5 @@
     "github": "https://github.com/pavanskipo"
   },
   "jobTitle": "Software Developer | Aspiring Data Scientist | ML Enthusiast",
-  "location": {
-    "city": "Chennai",
-    "state": "Tamil Nadu",
-    "country": "India"
-  }
+  "location": { "city": "Chennai", "state": "Tamil Nadu", "country": "India" }
 }

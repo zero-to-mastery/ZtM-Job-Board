@@ -8,9 +8,5 @@
     "github": "https://github.com/osha7"
   },
   "jobTitle": "Software Engineer",
-  "location": {
-    "city": "Denver (REMOTE)",
-    "state": "CO",
-    "country": "USA"
-  }
+  "location": { "city": "Denver (REMOTE)", "state": "CO", "country": "USA" }
 }

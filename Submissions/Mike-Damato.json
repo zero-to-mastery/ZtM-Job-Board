@@ -7,9 +7,5 @@
     "github": "https://github.com/Mike-Damato"
   },
   "jobTitle": "Fullstack Developer",
-  "location": {
-    "city": "New York",
-    "state": "New York",
-    "country": "USA"
-  }
+  "location": { "city": "New York", "state": "New York", "country": "USA" }
 }

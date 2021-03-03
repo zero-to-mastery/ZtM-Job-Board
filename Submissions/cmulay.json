@@ -7,9 +7,6 @@
     "github": "https://github.com/cmulay"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" },
+  "id": "9d0a9baa-5e9b-459e-8850-a3de5033206a"
 }

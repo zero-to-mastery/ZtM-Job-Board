@@ -8,9 +8,5 @@
     "github": "https://github.com/MageshSundarG"
   },
   "jobTitle": "Python Developer|Data Scientist|Full Stack Developer",
-  "location": {
-    "city": "Chennai",
-    "state": "Tamilnadu",
-    "country": "india"
-  }
+  "location": { "city": "Chennai", "state": "Tamilnadu", "country": "india" }
 }

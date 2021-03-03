@@ -8,9 +8,5 @@
     "github": "https://github.com/andres-cruz"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Buenos Aires",
-    "state": "",
-    "country": "Argentina"
-  }
+  "location": { "city": "Buenos Aires", "state": "", "country": "Argentina" }
 }

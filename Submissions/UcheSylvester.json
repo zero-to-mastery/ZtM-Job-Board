@@ -8,9 +8,5 @@
     "github": "https://github.com/UcheSylvester"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "",
-    "state": "Abia State",
-    "country": "Nigeria"
-  }
+  "location": { "city": "", "state": "Abia State", "country": "Nigeria" }
 }

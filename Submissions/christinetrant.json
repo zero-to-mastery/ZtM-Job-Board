@@ -8,9 +8,5 @@
     "github": "https://github.com/christinetrant"
   },
   "jobTitle": "Front End Web Developer",
-  "location": {
-    "city": "Peckham",
-    "state": "London",
-    "country": "UK"
-  }
+  "location": { "city": "Peckham", "state": "London", "country": "UK" }
 }

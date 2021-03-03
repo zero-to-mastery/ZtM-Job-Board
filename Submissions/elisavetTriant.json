@@ -8,9 +8,5 @@
     "github": "https://github.com/elisavetTriant"
   },
   "jobTitle": "IT Professional | Full Stack Web Developer",
-  "location": {
-    "city": "Thessaloniki",
-    "state": "",
-    "country": "Greece"
-  }
+  "location": { "city": "Thessaloniki", "state": "", "country": "Greece" }
 }

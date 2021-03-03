@@ -8,9 +8,5 @@
     "github": "https://github.com/sohail019"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Thane",
-    "state": "Maharashtra",
-    "country": "India"
-  }
+  "location": { "city": "Thane", "state": "Maharashtra", "country": "India" }
 }

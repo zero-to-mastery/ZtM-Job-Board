@@ -8,9 +8,5 @@
     "github": "https://github.com/Haroonsaad247622"
   },
   "jobTitle": "Full-Stack Developer",
-  "location": {
-    "city": "Bahawalpur",
-    "state": "Punjab",
-    "country": "Pakistan"
-  }
+  "location": { "city": "Bahawalpur", "state": "Punjab", "country": "Pakistan" }
 }

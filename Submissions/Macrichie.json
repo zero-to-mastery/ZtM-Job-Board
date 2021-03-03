@@ -8,9 +8,5 @@
     "github": "https://github.com/Macrichie"
   },
   "jobTitle": "Javascript Developer / Tech Recruiter",
-  "location": {
-    "city": "Lekki",
-    "state": "Lagos",
-    "country": "Nigeria"
-  }
+  "location": { "city": "Lekki", "state": "Lagos", "country": "Nigeria" }
 }

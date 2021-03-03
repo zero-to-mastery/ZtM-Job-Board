@@ -8,9 +8,5 @@
     "github": "https://github.com/aparadox"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Whitehorse",
-    "state": "Yukon",
-    "country": "Canada"
-  }
+  "location": { "city": "Whitehorse", "state": "Yukon", "country": "Canada" }
 }

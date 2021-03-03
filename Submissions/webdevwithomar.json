@@ -8,9 +8,5 @@
     "github": "https://github.com/webdevwithomar"
   },
   "jobTitle": "Full Stack Javascript Developer",
-  "location": {
-    "city": "Dhaka",
-    "state": "",
-    "country": "Bangladesh"
-  }
+  "location": { "city": "Dhaka", "state": "", "country": "Bangladesh" }
 }

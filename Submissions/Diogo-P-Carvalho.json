@@ -8,9 +8,5 @@
     "github": "https://github.com/Diogo-P-Carvalho"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Aveiro",
-    "state": "",
-    "country": "Portugal"
-  }
+  "location": { "city": "Aveiro", "state": "", "country": "Portugal" }
 }

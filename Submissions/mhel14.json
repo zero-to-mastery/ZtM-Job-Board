@@ -8,9 +8,5 @@
     "github": "https://github.com/mhel14"
   },
   "jobTitle": "Full Stack Engineer",
-  "location": {
-    "city": "Pampanga",
-    "state": "",
-    "country": "Philippines"
-  }
+  "location": { "city": "Pampanga", "state": "", "country": "Philippines" }
 }

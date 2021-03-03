@@ -8,9 +8,5 @@
     "github": "https://github.com/tonydc1997"
   },
   "jobTitle": "Full-Stack JS Developer",
-  "location": {
-    "city": "Los Angeles County",
-    "state": "CA",
-    "country": "U.S."
-  }
+  "location": { "city": "Los Angeles County", "state": "CA", "country": "U.S." }
 }

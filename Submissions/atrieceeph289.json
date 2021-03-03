@@ -8,9 +8,5 @@
     "github": "https://github.com/atrieceeph289"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Moline",
-    "state": "Illinois",
-    "country": "USA"
-  }
+  "location": { "city": "Moline", "state": "Illinois", "country": "USA" }
 }

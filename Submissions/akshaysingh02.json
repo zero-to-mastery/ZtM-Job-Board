@@ -8,9 +8,5 @@
     "github": "https://github.com/akshaysingh02"
   },
   "jobTitle": "Software engineer || Full stack developer",
-  "location": {
-    "city": "Gwalior",
-    "state": "M.P",
-    "country": "India"
-  }
+  "location": { "city": "Gwalior", "state": "M.P", "country": "India" }
 }

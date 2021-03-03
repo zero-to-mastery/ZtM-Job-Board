@@ -8,9 +8,5 @@
     "github": "https://github.com/yonlu"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Beaver Falls",
-    "state": "PA",
-    "country": "USA"
-  }
+  "location": { "city": "Beaver Falls", "state": "PA", "country": "USA" }
 }

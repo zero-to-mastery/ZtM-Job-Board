@@ -8,9 +8,5 @@
     "github": "https://github.com/KarinPR/"
   },
   "jobTitle": "Full-Stack Developer",
-  "location": {
-    "city": "Ashdod",
-    "state": "",
-    "country": "Israel"
-  }
+  "location": { "city": "Ashdod", "state": "", "country": "Israel" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/mortenkos"
   },
   "jobTitle": "Front End Developer",
-  "location": {
-    "city": "Tartu",
-    "state": "Tartumaa",
-    "country": "Estonia"
-  }
+  "location": { "city": "Tartu", "state": "Tartumaa", "country": "Estonia" }
 }

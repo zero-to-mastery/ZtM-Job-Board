@@ -8,9 +8,5 @@
     "github": "https://github.com/FanniTakax"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Budapest",
-    "state": "",
-    "country": "Hungary"
-  }
+  "location": { "city": "Budapest", "state": "", "country": "Hungary" }
 }

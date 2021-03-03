@@ -1,15 +1,12 @@
 {
-    "name": "Shivam Kumar",
-    "img": "https://avatars.githubusercontent.com/u/63391294?v=4",
-    "links": {
-      "website": "https://shivamtiwari2112.github.io/simplefolio/",
-      "linkedin": "https://www.linkedin.com/in/shivamtiwari2112",
-      "github": "https://github.com/shivamtiwari2112"
-    },
-    "jobTitle": "Full Stack Developer",
-    "location": {
-      "city": "Patna",
-      "state": "Bihar",
-      "country": "India"
-    }
-  }
+  "name": "Shivam Kumar",
+  "img": "https://avatars.githubusercontent.com/u/63391294?v=4",
+  "links": {
+    "website": "https://shivamtiwari2112.github.io/simplefolio/",
+    "linkedin": "https://www.linkedin.com/in/shivamtiwari2112",
+    "github": "https://github.com/shivamtiwari2112"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": { "city": "Patna", "state": "Bihar", "country": "India" },
+  "id": "4c68a8f5-240a-0245-540b-e70a49f7c074"
+}

@@ -8,9 +8,5 @@
     "github": "https://github.com/ileanahi/"
   },
   "jobTitle": "Front End Developer",
-  "location": {
-    "city": "",
-    "state": "Hawaii",
-    "country": "USA"
-  }
+  "location": { "city": "", "state": "Hawaii", "country": "USA" }
 }

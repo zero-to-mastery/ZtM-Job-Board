@@ -8,9 +8,5 @@
     "github": "https://github.com/pgwankhade"
   },
   "jobTitle": "Full-Stack Web Developer",
-  "location": {
-    "city": "Pune",
-    "state": "Maharashtra",
-    "country": "INDIA"
-  }
+  "location": { "city": "Pune", "state": "Maharashtra", "country": "INDIA" }
 }

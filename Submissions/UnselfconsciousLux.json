@@ -8,9 +8,5 @@
     "github": "https://github.com/UnselfconsciousLux"
   },
   "jobTitle": "Product Designer, Full-Stack Developer, Illustrator",
-  "location": {
-    "city": "Dallas",
-    "state": "Texas",
-    "country": "USA"
-  }
+  "location": { "city": "Dallas", "state": "Texas", "country": "USA" }
 }

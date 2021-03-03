@@ -7,9 +7,5 @@
     "github": "https://github.com/rainoverme002"
   },
   "jobTitle": "Software Engineer | Nuclear Engineer",
-  "location": {
-    "city": "Jakarta",
-    "state": "",
-    "country": "Indonesia"
-  }
+  "location": { "city": "Jakarta", "state": "", "country": "Indonesia" }
 }

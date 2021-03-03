@@ -8,9 +8,5 @@
     "github": "https://github.com/amin135"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Totowa",
-    "state": "NJ",
-    "country": "USA"
-  }
+  "location": { "city": "Totowa", "state": "NJ", "country": "USA" }
 }

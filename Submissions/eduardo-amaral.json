@@ -7,9 +7,6 @@
     "github": "https://github.com/EduardoAmaral"
   },
   "jobTitle": "Backend Developer",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "Brazil"
-  }
+  "location": { "city": "", "state": "", "country": "Brazil" },
+  "id": "ec3a4be6-21af-8aeb-f90f-da4d4515390e"
 }

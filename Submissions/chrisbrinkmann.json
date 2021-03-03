@@ -8,9 +8,5 @@
     "github": "https://github.com/chrisbrinkmann"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Washington",
-    "state": "DC",
-    "country": "USA"
-  }
+  "location": { "city": "Washington", "state": "DC", "country": "USA" }
 }

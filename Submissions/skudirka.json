@@ -8,9 +8,5 @@
     "github": "https://github.com/skudirka/"
   },
   "jobTitle": "Senior Software Engineer",
-  "location": {
-    "city": "Madisonville",
-    "state": "LA",
-    "country": "USA"
-  }
+  "location": { "city": "Madisonville", "state": "LA", "country": "USA" }
 }

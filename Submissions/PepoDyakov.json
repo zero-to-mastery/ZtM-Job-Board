@@ -8,9 +8,5 @@
     "github": "https://github.com/PepoDyakov"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Sofia",
-    "state": "",
-    "country": "Bulgaria"
-  }
+  "location": { "city": "Sofia", "state": "", "country": "Bulgaria" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/funand"
   },
   "jobTitle": "Software Engineer/Front-End Developer",
-  "location": {
-    "city": "New York City",
-    "state": "New York",
-    "country": "USA"
-  }
+  "location": { "city": "New York City", "state": "New York", "country": "USA" }
 }

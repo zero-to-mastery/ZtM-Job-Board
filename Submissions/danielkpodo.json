@@ -8,9 +8,5 @@
     "github": "https://github.com/danielkpodo"
   },
   "jobTitle": "Full Stack Developer | MERN Developer",
-  "location": {
-    "city": "Accra",
-    "state": "Greater-Accra",
-    "country": "Ghana"
-  }
+  "location": { "city": "Accra", "state": "Greater-Accra", "country": "Ghana" }
 }

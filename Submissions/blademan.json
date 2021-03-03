@@ -7,9 +7,6 @@
     "github": "https://github.com/blademan"
   },
   "jobTitle": "Web/WordPress Developer",
-  "location": {
-    "city": "Riga",
-    "state": "",
-    "country": "Latvia"
-  }
+  "location": { "city": "Riga", "state": "", "country": "Latvia" },
+  "id": "1bc8c0ef-17d2-feeb-54ec-366d77d0fc33"
 }

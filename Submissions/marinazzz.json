@@ -7,9 +7,6 @@
     "github": "https://github.com/marinazzz"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Oslo",
-    "state": "",
-    "country": "Norway"
-  }
+  "location": { "city": "Oslo", "state": "", "country": "Norway" },
+  "id": "143827b8-f9e1-1dd4-8aa0-06d14241c215"
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/Vrites"
   },
   "jobTitle": "Front-End Web Developer",
-  "location": {
-    "city": "Espoo",
-    "state": "",
-    "country": "Finland"
-  }
+  "location": { "city": "Espoo", "state": "", "country": "Finland" }
 }

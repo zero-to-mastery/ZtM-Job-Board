@@ -8,9 +8,5 @@
     "github": "https://github.com/sgtbrunner"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "São Paulo",
-    "state": "",
-    "country": "Brazil"
-  }
+  "location": { "city": "São Paulo", "state": "", "country": "Brazil" }
 }

@@ -7,9 +7,6 @@
     "github": "https://github.com/dgasch512"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Boise",
-    "state": "Idaho",
-    "country": "United States"
-  }
+  "location": { "city": "Boise", "state": "Idaho", "country": "United States" },
+  "id": "3ff3c897-f425-0dcb-95d7-99990291fc36"
 }

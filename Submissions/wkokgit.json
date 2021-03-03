@@ -8,9 +8,5 @@
     "github": "https://github.com/wkokgit"
   },
   "jobTitle": "Web & Software Developer",
-  "location": {
-    "city": "Amsterdam",
-    "state": "",
-    "country": "Nederland"
-  }
+  "location": { "city": "Amsterdam", "state": "", "country": "Nederland" }
 }

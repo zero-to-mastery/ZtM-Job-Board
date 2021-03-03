@@ -8,9 +8,5 @@
     "github": "https://github.com/vishal0027"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Toronto",
-    "state": "ON",
-    "country": "Canada"
-  }
+  "location": { "city": "Toronto", "state": "ON", "country": "Canada" }
 }

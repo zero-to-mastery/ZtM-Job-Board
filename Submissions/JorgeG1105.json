@@ -8,9 +8,5 @@
     "github": "https://github.com/JorgeG1105"
   },
   "jobTitle": "Full-Stack Developer",
-  "location": {
-    "city": "Bronx",
-    "state": "NY",
-    "country": "United States"
-  }
+  "location": { "city": "Bronx", "state": "NY", "country": "United States" }
 }

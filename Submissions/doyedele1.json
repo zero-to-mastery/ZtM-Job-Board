@@ -7,9 +7,6 @@
     "github": "https://github.com/doyedele1"
   },
   "jobTitle": "Full-Stack Web Developer",
-  "location": {
-    "city": "Lagos",
-    "state": "",
-    "country": "Nigeria"
-  }
+  "location": { "city": "Lagos", "state": "", "country": "Nigeria" },
+  "id": "7368c7c1-94a4-4fd8-da2a-c29918e82846"
 }

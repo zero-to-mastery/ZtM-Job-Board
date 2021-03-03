@@ -8,9 +8,5 @@
     "github": "https://github.com/Trejon"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Denver",
-    "state": "Colorado",
-    "country": "USA"
-  }
+  "location": { "city": "Denver", "state": "Colorado", "country": "USA" }
 }

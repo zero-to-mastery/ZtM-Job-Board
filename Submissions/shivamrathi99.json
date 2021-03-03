@@ -7,9 +7,6 @@
     "github": "https://github.com/shivamrathi99"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Delhi",
-    "state": "Delhi",
-    "country": "India"
-  }
+  "location": { "city": "Delhi", "state": "Delhi", "country": "India" },
+  "id": "cba7be68-67ef-857a-11be-78d24035105f"
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/AshrafPatel"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Mississauga",
-    "state": "Ontario",
-    "country": "Canada"
-  }
+  "location": { "city": "Mississauga", "state": "Ontario", "country": "Canada" }
 }

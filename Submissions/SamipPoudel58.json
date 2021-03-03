@@ -8,9 +8,5 @@
     "github": "https://github.com/SamipPoudel58"
   },
   "jobTitle": "Full-Stack Developer",
-  "location": {
-    "city": "Kathmandu",
-    "state": "",
-    "country": "Nepal"
-  }
+  "location": { "city": "Kathmandu", "state": "", "country": "Nepal" }
 }

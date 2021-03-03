@@ -8,9 +8,5 @@
     "github": "https://github.com/cobimr"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Caracas",
-    "state": "",
-    "country": "Venezuela"
-  }
+  "location": { "city": "Caracas", "state": "", "country": "Venezuela" }
 }

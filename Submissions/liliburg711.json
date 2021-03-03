@@ -8,9 +8,5 @@
     "github": "https://github.com/liliburg711"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Miaoli",
-    "state": "",
-    "country": "Taiwan"
-  }
+  "location": { "city": "Miaoli", "state": "", "country": "Taiwan" }
 }

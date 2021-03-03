@@ -7,9 +7,6 @@
     "github": "https://github.com/kellenwiltshire>"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "Kingston",
-    "state": "Ontario",
-    "country": "Canada"
-  }
+  "location": { "city": "Kingston", "state": "Ontario", "country": "Canada" },
+  "id": "2ec26621-3c2f-1a0c-0c28-f960c4616f5e"
 }

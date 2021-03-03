@@ -8,9 +8,5 @@
     "github": "https://github.com/danbzns"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Gaspésie",
-    "state": "Quebec",
-    "country": "Canada"
-  }
+  "location": { "city": "Gaspésie", "state": "Quebec", "country": "Canada" }
 }

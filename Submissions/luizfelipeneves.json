@@ -8,9 +8,5 @@
     "github": "https://github.com/luizfelipeneves"
   },
   "jobTitle": "Full-Stack Developer (MERN)",
-  "location": {
-    "city": "Lorena",
-    "state": "São Paulo",
-    "country": "Brazil"
-  }
+  "location": { "city": "Lorena", "state": "São Paulo", "country": "Brazil" }
 }

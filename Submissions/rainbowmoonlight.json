@@ -8,9 +8,5 @@
     "github": "https://github.com/rainbowmoonlight"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Los Angeles",
-    "state": "CA",
-    "country": "USA"
-  }
+  "location": { "city": "Los Angeles", "state": "CA", "country": "USA" }
 }

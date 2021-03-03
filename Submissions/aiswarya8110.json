@@ -8,9 +8,5 @@
     "github": "https://github.com/aiswarya8110"
   },
   "jobTitle": "Front End Developer",
-  "location": {
-    "city": "Bhubaneswar",
-    "state": "Odisha",
-    "country": "India"
-  }
+  "location": { "city": "Bhubaneswar", "state": "Odisha", "country": "India" }
 }

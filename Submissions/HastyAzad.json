@@ -8,9 +8,5 @@
     "github": "https://github.com/HastyAzad"
   },
   "jobTitle": "Undergrad Student",
-  "location": {
-    "city": "Sulaimany",
-    "state": "Kurdistan",
-    "country": "Iraq"
-  }
+  "location": { "city": "Sulaimany", "state": "Kurdistan", "country": "Iraq" }
 }

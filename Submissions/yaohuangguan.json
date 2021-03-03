@@ -8,9 +8,5 @@
     "github": "https://github.com/yaohuangguan"
   },
   "jobTitle": "Software Engineer | Web Developer",
-  "location": {
-    "city": "Columbus",
-    "state": "OH",
-    "country": "United States"
-  }
+  "location": { "city": "Columbus", "state": "OH", "country": "United States" }
 }

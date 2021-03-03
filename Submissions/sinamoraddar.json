@@ -8,9 +8,5 @@
     "github": "https://github.com/sinamoraddar"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Shahriar",
-    "state": "Tehran",
-    "country": "Iran"
-  }
+  "location": { "city": "Shahriar", "state": "Tehran", "country": "Iran" }
 }

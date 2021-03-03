@@ -8,9 +8,5 @@
     "github": "https://github.com/SolgiDeveloper"
   },
   "jobTitle": "Software Engineer | Full Stack Developer | Javascript Developer",
-  "location": {
-    "city": "Nahavand",
-    "state": "Hamedan",
-    "country": "Iran"
-  }
+  "location": { "city": "Nahavand", "state": "Hamedan", "country": "Iran" }
 }

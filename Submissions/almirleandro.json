@@ -7,9 +7,6 @@
     "github": "https://github.com/almirleandro"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Salvador",
-    "state": "Bahia",
-    "country": "Brazil"
-  }
+  "location": { "city": "Salvador", "state": "Bahia", "country": "Brazil" },
+  "id": "ef622e78-6da7-f183-2709-7f8f93c38d1c"
 }

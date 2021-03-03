@@ -8,9 +8,5 @@
     "github": "https://github.com/vvarthan7"
   },
   "jobTitle": "Sr. Software Engineer (Javascript, React.js, AEM UI(Sightly, HTL), Bootstrap)",
-  "location": {
-    "city": "Bangalore",
-    "state": "Karnataka",
-    "country": "INDIA"
-  }
+  "location": { "city": "Bangalore", "state": "Karnataka", "country": "INDIA" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/salitim"
   },
   "jobTitle": "JS Developer",
-  "location": {
-    "city": "Lyon",
-    "state": "",
-    "country": "France"
-  }
+  "location": { "city": "Lyon", "state": "", "country": "France" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/TheProrok29"
   },
   "jobTitle": "Python Developer && IT Specialist",
-  "location": {
-    "city": "Wrocław",
-    "state": "",
-    "country": "Poland"
-  }
+  "location": { "city": "Wrocław", "state": "", "country": "Poland" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/tjhooper1"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "Daytona Beach",
-    "state": "Fl",
-    "country": "USA"
-  }
+  "location": { "city": "Daytona Beach", "state": "Fl", "country": "USA" }
 }

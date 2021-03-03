@@ -8,9 +8,5 @@
     "github": "https://github.com/moguljon/"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Elizabeth",
-    "state": "New Jersey",
-    "country": "USA"
-  }
+  "location": { "city": "Elizabeth", "state": "New Jersey", "country": "USA" }
 }

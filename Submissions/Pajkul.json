@@ -8,9 +8,5 @@
     "github": "https://github.com/Pajkul"
   },
   "jobTitle": "Freelancer",
-  "location": {
-    "city": "Kraków",
-    "state": "",
-    "country": "Poland"
-  }
+  "location": { "city": "Kraków", "state": "", "country": "Poland" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/surelinks"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Abuja",
-    "state": "FCT",
-    "country": "Nigeria"
-  }
+  "location": { "city": "Abuja", "state": "FCT", "country": "Nigeria" }
 }

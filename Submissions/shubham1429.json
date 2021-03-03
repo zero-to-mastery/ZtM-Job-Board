@@ -7,9 +7,6 @@
     "github": "https://github.com/shubham1429/"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "New Delhi",
-    "state": "Delhi",
-    "country": "India"
-  }
+  "location": { "city": "New Delhi", "state": "Delhi", "country": "India" },
+  "id": "f6d85c17-3d5d-03a9-efd9-374cf4b0b79a"
 }

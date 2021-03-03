@@ -8,9 +8,5 @@
     "github": "https://github.com/rahilhasnani95"
   },
   "jobTitle": "Front End Developer",
-  "location": {
-    "city": "Houston",
-    "state": "TX",
-    "country": "USA"
-  }
+  "location": { "city": "Houston", "state": "TX", "country": "USA" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/rojasleon"
   },
   "jobTitle": "Software Developer",
-  "location": {
-    "city": "",
-    "state": "Guanajuato",
-    "country": "Mexico"
-  }
+  "location": { "city": "", "state": "Guanajuato", "country": "Mexico" }
 }

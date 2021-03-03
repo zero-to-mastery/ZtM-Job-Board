@@ -8,9 +8,5 @@
     "github": "https://github.com/TzuHsuan"
   },
   "jobTitle": "Full Stack Developer",
-  "location": {
-    "city": "Sydney",
-    "state": "NSW",
-    "country": "Australia"
-  }
+  "location": { "city": "Sydney", "state": "NSW", "country": "Australia" }
 }

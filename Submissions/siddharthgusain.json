@@ -8,9 +8,5 @@
     "github": "https://github.com/siddharthgusain"
   },
   "jobTitle": "Full-Stack Developer",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "India"
-  }
+  "location": { "city": "", "state": "", "country": "India" }
 }

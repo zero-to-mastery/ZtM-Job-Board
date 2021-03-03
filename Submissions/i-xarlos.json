@@ -8,9 +8,5 @@
     "github": "https://github.com/i-xarlos"
   },
   "jobTitle": "Web Developer Team Leader",
-  "location": {
-    "city": "Lima",
-    "state": "",
-    "country": "Perú"
-  }
+  "location": { "city": "Lima", "state": "", "country": "Perú" }
 }

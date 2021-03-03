@@ -8,9 +8,5 @@
     "github": "https://github.com/gabriel585zv"
   },
   "jobTitle": "Full Stack Web Developer",
-  "location": {
-    "city": "Heredia",
-    "state": "",
-    "country": "Costa Rica"
-  }
+  "location": { "city": "Heredia", "state": "", "country": "Costa Rica" }
 }

@@ -7,9 +7,6 @@
     "github": "https://github.com/warfunk"
   },
   "jobTitle": "Web Developer",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "United States"
-  }
+  "location": { "city": "", "state": "", "country": "United States" },
+  "id": "ddde7b51-7a25-0165-05c0-9d1c7bbfb990"
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/laurenmayers"
   },
   "jobTitle": "Front-End Developer",
-  "location": {
-    "city": "Ottawa",
-    "state": "ON",
-    "country": "Canada"
-  }
+  "location": { "city": "Ottawa", "state": "ON", "country": "Canada" }
 }

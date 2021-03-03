@@ -7,9 +7,6 @@
     "github": "https://github.com/VishwanathAsundi"
   },
   "jobTitle": "Software Developer / Front end Developer",
-  "location": {
-    "city": "Hyderabad",
-    "state": "Telangana",
-    "country": "India"
-  }
+  "location": { "city": "Hyderabad", "state": "Telangana", "country": "India" },
+  "id": "82f8ab26-9619-e2af-b482-f6dc645ee883"
 }

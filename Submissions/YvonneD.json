@@ -8,9 +8,5 @@
     "github": "https://github.com/YvonneD"
   },
   "jobTitle": "Front-end Web Developer",
-  "location": {
-    "city": "Flint",
-    "state": "MI",
-    "country": "USA"
-  }
+  "location": { "city": "Flint", "state": "MI", "country": "USA" }
 }

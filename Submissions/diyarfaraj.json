@@ -8,9 +8,5 @@
     "github": "https://github.com/diyarfaraj"
   },
   "jobTitle": "Developer",
-  "location": {
-    "city": "",
-    "state": "",
-    "country": "Sweden"
-  }
+  "location": { "city": "", "state": "", "country": "Sweden" }
 }

@@ -8,9 +8,5 @@
     "github": "https://github.com/utechpia"
   },
   "jobTitle": "Coder, Developer Advocate, YouTuber, Photographer",
-  "location": {
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "USA"
-  }
+  "location": { "city": "San Francisco", "state": "CA", "country": "USA" }
 }

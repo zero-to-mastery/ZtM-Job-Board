@@ -7,9 +7,6 @@
     "github": "https://github.com/KillerCoderPT"
   },
   "jobTitle": "Junior Full Stack Developer",
-  "location": {
-    "city": "Palmela",
-    "state": "Setubal",
-    "country": "Portugal"
-  }
+  "location": { "city": "Palmela", "state": "Setubal", "country": "Portugal" },
+  "id": "254fff4d-db12-c353-9237-04d9761c69fc"
 }
