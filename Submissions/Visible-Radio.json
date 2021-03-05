@@ -1,0 +1,15 @@
+{
+  "name": "Patrick Kaipainen",
+  "img": "https://avatars.githubusercontent.com/u/67694551?v=4",
+  "links": {
+    "website": "http://www.patrickkaipainen.com",
+    "linkedin": "https://www.linkedin.com/in/patrick-kaipainen-02745a58/",
+    "github": "https://github.com/Visible-Radio"
+  },
+  "jobTitle": "Front End Developer",
+  "location": {
+    "city": "Toronto",
+    "state": "Ontario",
+    "country": "Canada"
+  }
+}
