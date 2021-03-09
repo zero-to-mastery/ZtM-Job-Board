@@ -1,15 +1,15 @@
 {
-    "name": "York, Chen",
-    "img": "https://github.com/tcssh611503/portfolio/blob/gh-pages/image/profilepicture.jpg?raw=true",
-    "links": {
-      "website": "https://www.hsuanyi.org/",
-      "linkedin": "https://www.linkedin.com/in/york-lis/",
-      "github": "https://github.com/tcssh611503",
-      "codepen": "https://codepen.io/tcssh611503"
-    },
-    "jobTitle": "front-end engineer",
-    "location": {
-      "city": "tokyo",
-      "country": "Japan"
-    }
+  "name": "York, Chen",
+  "img": "https://github.com/tcssh611503/portfolio/blob/gh-pages/image/profilepicture.jpg?raw=true",
+  "links": {
+    "website": "https://www.hsuanyi.org/",
+    "linkedin": "https://www.linkedin.com/in/york-lis/",
+    "github": "https://github.com/tcssh611503",
+  },
+  "jobTitle": "Front-end Web Developer",
+  "location": {
+    "city": "tokyo",
+    "state": "",
+    "country": "Japan"
   }
+}
