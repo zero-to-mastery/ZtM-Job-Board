@@ -5,10 +5,11 @@
     "website": "",
     "linkedin": "linkedin.com/in/dmitri-adriaanse-cert-he-open-29412a7",
     "github": "https://github.com/lankjan007"
-    },
-    "jobTitle": "React Developer",
-    "location": {
-      "city": "Cadiz",
-      "country": "Spain",
-      }
-     }
+  },
+  "jobTitle": "React Developer",
+  "location": {
+    "city": "Cadiz",
+    "country": "Spain",
+    "state": ""
+  }
+}
