@@ -1,0 +1,15 @@
+{
+    "name": "Sarah Sipple",
+    "img": "https://avatars.githubusercontent.com/u/8299640?v=4",
+    "links": {
+      "website": "https://sarahsipple.com/",
+      "linkedin": "https://www.linkedin.com/in/sarahsipple",
+      "github": "https://github.com/sarahsipple"
+    },
+    "jobTitle": "Front End Web Developer",
+    "location": {
+      "city": "Grand Rapids",
+      "state": "Michigan",
+      "country": "United States"
+    }
+  }
