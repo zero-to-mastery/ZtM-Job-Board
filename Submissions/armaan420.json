@@ -1,4 +1,5 @@
 {
+  "id": "094399d0-a936-339a-98f0-b15ad3a99e55",
   "name": "Armaan Singh",
   "img": "https://avatars.githubusercontent.com/u/64493642?s=400&u=8aae10595727ce69798ac8b577cc16279c880478&v=4",
   "links": {
@@ -7,6 +8,9 @@
     "github": "https://github.com/armaan420"
   },
   "jobTitle": "",
-  "location": { "city": "Montreal", "state": "Quebec", "country": "Canada" },
-  "id": "094399d0-a936-339a-98f0-b15ad3a99e55"
+  "location": {
+    "city": "Montreal",
+    "state": "Quebec",
+    "country": "Canada"
+  }
 }
