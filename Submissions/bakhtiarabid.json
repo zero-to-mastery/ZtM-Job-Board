@@ -1,0 +1,15 @@
+{
+  "name": "Md. Bakhtiar Abid",
+  "img": "https://github.com/bakhtiarabid/cv/blob/main/image/circle-cropped.png?raw=true",
+  "links": {
+    "website": "https://bakhtiarabid.github.io/About-Me/",
+    "linkedin": "https://www.linkedin.com/in/bakhtiar-abid-3a902215b/",
+    "github": "https://github.com/bakhtiarabid"
+  },
+  "jobTitle": "Full-Stack Web Developer",
+  "location": {
+    "city": "Dhaka",
+    "state": "[YOUR_STATE_OR_PROVINCE]",
+    "country": "Bangladesh"
+  }
+}
