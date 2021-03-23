@@ -1,0 +1,15 @@
+{
+  "name": "Peter Rawlings",
+  "img": "",
+  "links": {
+    "website": "https://pedginald.github.io/Personal-portfolio/",
+    "linkedin": "https://www.linkedin.com/in/peter-rawlings/",
+    "github": "https://github.com/Pedginald/"
+  },
+  "jobTitle": "Web developer",
+  "location": {
+    "city": "Toronto",
+    "state": "Ontario",
+    "country": "Canada"
+  }
+}
