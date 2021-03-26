@@ -1,0 +1,15 @@
+{
+  "name": "Robert Benett",
+  "img": "https://avatars.githubusercontent.com/u/72089231?v=4",
+  "links": {
+    "website": "https://www.robertbbenett.com",
+    "linkedin": "https://www.linkedin.com/in/robert-benett",
+    "github": "https://github.com/rbbenett"
+  },
+  "jobTitle": "Junior Back End Developer",
+  "location": {
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA"
+  }
+}
