@@ -31,6 +31,7 @@ are just there to indicate an example placeholder.** )
 {
   "name": "[YOUR_FULL_NAME]",
   "img": "[YOUR_IMG_URL]",
+  "email": "[YOUR_EMAIL_ADDRESS]",
   "links": {
     "website": "[YOUR_WEBSITE_URL]",
     "linkedin": "https://www.linkedin.com/in/<YOUR_LINKEDIN_USERNAME>",
