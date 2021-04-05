@@ -10,7 +10,7 @@ const addDefaultImg = (e: any) => {
   e.target.src = defaultImageDataURI
 }
 const Card = ({ user }: any) => {
-  let { id, img, name, jobTitle, location, links } = user
+  let { id, img, name, email, jobTitle, location, links } = user
 
   if (id) {
     return (
@@ -36,6 +36,21 @@ const Card = ({ user }: any) => {
           <p className="title text-center">{jobTitle}</p>
         </div>
         <div className="main pv2 ph3 flex items-center justify-center">
+          {/* adding email button  */}
+          <a
+            href={"mailto:" + email}
+            className="w2 h2 ma2"
+            title="email"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                fill="black"
+                d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"
+              />
+            </svg>
+          </a>
           {links.website === "" ? (
             ""
           ) : (
