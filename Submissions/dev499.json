@@ -1,0 +1,16 @@
+{
+    "name": "Dev Agarwal",
+    "img": "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "email": "dagarwal499@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/dev-agarwal-5a0696170",
+      "github": "https://github.com/dev499"
+    },
+    "jobTitle": "Front End Developer",
+    "location": {
+      "city": "Bareilly",
+      "state": "Uttar Pradesh ",
+      "country": "India"
+    }
+  }
