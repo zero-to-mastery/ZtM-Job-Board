@@ -1,0 +1,35 @@
+name: Test
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12, 14, 16]
+    steps:
+      - name: Check out source code
+        uses: actions/checkout@v2
+        
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+          
+      - name: Use cache 
+        uses: actions/cache@v2
+        with:
+          path: |
+            node_modules
+            */*/node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+          
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Run tests 
+        run: npm test
