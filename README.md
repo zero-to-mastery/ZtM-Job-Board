@@ -1,4 +1,4 @@
-# ZtM-Job-Board
+# ZtM-Job-Board &emsp; ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/zero-to-mastery/ZtM-Job-Board/Build%20Project)
 
 A place for developers from the [**Zero To Mastery Community**](https://zerotomastery.io/?utm_source=github&utm_medium=ZtM-Job-Board) to show recruiters that they are available for hire. Feel free to contribute and improve this in any way you see fit.
 
