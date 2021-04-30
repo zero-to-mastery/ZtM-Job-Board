@@ -1,0 +1,16 @@
+{
+  "name": "David Borja Martinez",
+  "img": "https://avatars.githubusercontent.com/u/43451878?s=400&u=f5a25f0f5f96cb5cacf2e0127a65f3eabee3c4f9&v=4",
+  "email": "davidborjamartinez@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/david-borja",
+    "github": "https://github.com/david-borja"
+  },
+  "jobTitle": "Front-End Developer",
+  "location": {
+    "city": "Valencia",
+    "state": "",
+    "country": "Spain"
+  }
+}
