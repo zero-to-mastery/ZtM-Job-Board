@@ -1,0 +1,16 @@
+{
+    "name": "Anunay Anand",
+    "img": "https://i.ibb.co/PYmsfNG/IMG-20210415-131553-060.jpg",
+    "email": "anunayanand@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/anunay-anand/",
+      "github": "https://github.com/Anunay-Anand"
+    },
+    "jobTitle": "Student(Btech CSE)",
+    "location": {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "country": "India"
+    }
+  }
