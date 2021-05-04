@@ -1,0 +1,16 @@
+{
+    "name": "Mehul Garg",
+    "img": "https://github.com/MehulGarg22.png",
+    "email": "mehul.garg104@gmail.com",
+    "links": {
+        "website": "https://www.mehulgarg.me/",
+        "linkedin": "https://www.linkedin.com/in/mehulgarg22/",
+        "github": "https://github.com/MehulGarg22"
+    },
+    "jobTitle": "Software Engineer | Full Stack Developer",
+    "location": {
+        "city": "",
+        "state": "",
+        "country": "India"
+    }
+}

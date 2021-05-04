@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "private": true,
   "type": "module",
-  "homepage": ".",
+  "homepage": "http://.",
   "dependencies": {
     "@types/jest": "^25.1.4",
     "@types/node": "^13.13.21",
@@ -23,7 +23,7 @@
     "react-favicon": "0.0.17",
     "react-lazyload": "^2.6.9",
     "react-leaflet": "^2.6.1",
-    "react-scripts": "^3.4.3",
+    "react-scripts": "^4.0.3",
     "react-search-input": "^0.11.3",
     "tachyons": "^4.11.1",
     "typescript": "^3.9.7",
@@ -65,5 +65,16 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "A place for developers from the [**Zero To Mastery Community**](https://zerotomastery.io/?utm_source=github&utm_medium=ZtM-Job-Board) to show recruiters that they are available for hire. Feel free to contribute and improve this in any way you see fit.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeshavTyagi2021/ZtM-Job-Board.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeshavTyagi2021/ZtM-Job-Board/issues"
+  }
 }
