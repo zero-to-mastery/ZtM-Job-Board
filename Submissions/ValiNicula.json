@@ -1,0 +1,16 @@
+{
+  "name": "Valentin Nicula",
+  "img": "https://avatars.githubusercontent.com/u/83613699?v=4",
+  "email":"constantin.nicula@gmail.com",
+  "links": {
+    "website": "https://valinicula.github.io",
+    "linkedin": "https://www.linkedin.com/in/valentinnicula/",
+    "github": "https://github.com/ValiNicula"
+  },
+  "jobTitle": "Front End Developer",
+  "location": {
+    "city": "Malaga",
+    "state": "Andalucia",
+    "country": "Spain"
+  }
+}
