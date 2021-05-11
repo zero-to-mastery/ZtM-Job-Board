@@ -1,0 +1,16 @@
+{
+    "name": "Aaron DCosta",
+    "img": "https://github.com/aarondcosta99.png",
+    "email": "aarondcosta99@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/aarondcosta99",
+      "github": "https://github.com/aarondcosta99"
+    },
+    "jobTitle": "Developer",
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
+    }
+  }
