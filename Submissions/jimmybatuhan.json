@@ -1,0 +1,16 @@
+{
+    "name": "Jimmy B. Batuhan",
+    "img": "https://avatars.githubusercontent.com/u/6374351?v=4",
+    "email": "jimmybatuhan@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/<YOUR_LINKEDIN_USERNAME>",
+      "github": "https://github.com/jimmybatuhan"
+    },
+    "jobTitle": "Full-Stack Software Developer",
+    "location": {
+      "city": "Caloocan",
+      "state": "Metro Manila",
+      "country": "Philippines"
+    }
+  }
