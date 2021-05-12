@@ -1,0 +1,16 @@
+{
+  "name": "Joe Santhosh",
+  "img": "",
+  "email": "joe.santhosh88@yahoo.com",
+  "links": {
+    "website": "https://portfolio-joesanthosh.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/joe-santhosh-183770123",
+    "github": "https://github.com/joesanthosh24"
+  },
+  "jobTitle": "Front End Web Developer",
+  "location": {
+    "city": "Ottawa",
+    "state": "Ontario",
+    "country": "Canada"
+  }
+}
