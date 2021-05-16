@@ -1,0 +1,17 @@
+{
+  "id": "187f49f9-b433-44d3-a841-d2dde8363501",
+  "name": "Carlos De La Cruz",
+  "img": "https://scontent.fhex4-1.fna.fbcdn.net/v/t1.6435-9/94351071_10221673214160588_6664154175112216576_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=174925&_nc_eui2=AeFvYGJko-DWdXOWJW6-eyGDhjHpjAy_UAGGMemMDL9QAd5jsxVUZeIZsIhWBS7IK1s&_nc_ohc=pIJjpEuzq90AX-2j3h1&_nc_ht=scontent.fhex4-1.fna&oh=3cdaf8f6738e5cb4756538d215392f7f&oe=60C7D0AC",
+  "email":"carlos.delacruz228@gmail.com",
+  "links": {
+    "website": "https://ahcomjs.github.io/",
+    "linkedin": "https://www.linkedin.com/in/carlos-de-la-cruz-meregildo-5673b1141/",
+    "github": "https://github.com/Ahcomjs"
+  },
+  "jobTitle": "Senior FullStack Web Developer",
+  "location": {
+    "city": "Santo Domingo",
+    "state": "National District",
+    "country": "Dominican Republic"
+  }
+}
