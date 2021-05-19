@@ -1,0 +1,16 @@
+{
+   "name": "Linas Geležauskas",
+   "img": "https://avatars.githubusercontent.com/u/44196223?v=4",
+   "email": "gelezhinis@gmail.com",
+   "links": {
+     "website": "",
+     "linkedin": "https://www.linkedin.com/in/linas-gele%C5%BEauskas-82742611a/",
+     "github": "https://github.com/gelezhinis"
+   },
+   "jobTitle": "Full Stack Web Developer (Student)",
+   "location": {
+     "city": "Alytus",
+     "state": "",
+     "country": "Lithuania"
+   }
+ }
