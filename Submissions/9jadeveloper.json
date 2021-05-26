@@ -1,0 +1,15 @@
+{
+  "name": "Olanrewaju Ibrahim",
+  "img": "https://media-exp1.licdn.com/dms/image/C5603AQGffnRKQKcGGQ/profile-displayphoto-shrink_200_200/0/1543480805271?e=1627516800&v=beta&t=BIlI2YUuyQxexr_yCr-QJB4ImnVfRdbyEUWwikutmhQ",
+  "email":"iolawale46@yahoo.com",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/ibrahim-olanrewaju-2a7619167/",
+    "github": "https://github.com/9jadeveloper"
+  },
+  "jobTitle": "Front-end Developer",
+  "location": {
+    "city": "Yaba",
+    "state": "Lagos",
+    "country": "Nigeria"
+  }
+}
