@@ -1,0 +1,16 @@
+{
+    "name": "Neha Gadge",
+    "img": "https://avatars.githubusercontent.com/u/28638625?v=4",
+    "email": "gadge.neha@gmail.com",
+    "links": {
+      "website": "https://nehagadge.github.io",
+      "linkedin": "https://www.linkedin.com/in/nehagadge/",
+      "github": "https://github.com/nehagadge"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+      "city": "San Jose",
+      "state": "California",
+      "country": "United States"
+    }
+  }
