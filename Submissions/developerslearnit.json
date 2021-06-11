@@ -1,0 +1,17 @@
+{
+  "id": "b64468f4-e016-4496-8b3c-ebeabc0061a1",
+  "name": "Mark Adesina Omoniyi",
+  "img": "https://avatars.githubusercontent.com/u/19668944?s=400&u=716f672327e3586cf503a66b7bc8d55f2943b6bf&v=4",
+  "email":"",
+  "links": {
+    "website": "http://www.developerslearnit.com/",
+    "linkedin": "https://www.linkedin.com/in/adesina-mark-omoniyi",
+    "github": "https://github.com/developerslearnit"
+  },
+  "jobTitle": "Full stack Developer",
+  "location": {
+    "city": "Lagos",
+    "state": "Lagos",
+    "country": "Nigeria"
+  }
+}
