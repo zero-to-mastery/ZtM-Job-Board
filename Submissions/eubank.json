@@ -1,0 +1,16 @@
+{
+  "name": "Steven Eubank",
+  "img": "https://avatars.githubusercontent.com/u/47563310?v=4",
+  "email": "eubank.steven88@gmail.com",
+  "links": {
+    "website": "https://steven-eubank.com/",
+    "linkedin": "https://www.linkedin.com/in/steven-eubank-72a2316b/",
+    "github": "https://github.com/smeubank/"
+  },
+  "jobTitle": "Solution Architect",
+  "location": {
+    "city": "Vienna",
+    "state": "Vienna",
+    "country": "Austria"
+  }
+}
