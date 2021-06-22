@@ -1,8 +1,8 @@
-# ZtM-Job-Board &emsp; [![TravisCI Build Status](https://travis-ci.org/zero-to-mastery/ZtM-Job-Board.svg?branch=master)](https://travis-ci.org/zero-to-mastery/ZtM-Job-Board)
+# ZtM-Job-Board &emsp; [![Build Project](https://github.com/zero-to-mastery/ZtM-Job-Board/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/zero-to-mastery/ZtM-Job-Board/actions/workflows/build.yml)
 
 A place for developers from the [**Zero To Mastery Community**](https://zerotomastery.io/?utm_source=github&utm_medium=ZtM-Job-Board) to show recruiters that they are available for hire. Feel free to contribute and improve this in any way you see fit.
 
-Link to the webpage: [**ZtM JOB Board**](https://alumni-board.netlify.app/).
+Link to the webpage: [**ZtM JOB Board**](https://zero-to-mastery.github.io/ZtM-Job-Board/).
 
 ### How to run the project in your local machine
 
@@ -31,6 +31,7 @@ are just there to indicate an example placeholder.** )
 {
   "name": "[YOUR_FULL_NAME]",
   "img": "[YOUR_IMG_URL]",
+  "email": "[YOUR_EMAIL_ADDRESS]",
   "links": {
     "website": "[YOUR_WEBSITE_URL]",
     "linkedin": "https://www.linkedin.com/in/<YOUR_LINKEDIN_USERNAME>",

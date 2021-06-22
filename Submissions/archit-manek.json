@@ -1,0 +1,16 @@
+{
+    "name": "Archit Manek",
+    "img": "https://avatars.githubusercontent.com/u/47469057?v=4",
+    "email": "architmanek@gmail.com",
+    "links": {
+      "website": "www.architmanek.com",
+      "linkedin": "https://www.linkedin.com/in/architmanek",
+      "github": "https://github.com/archit-manek"
+    },
+    "jobTitle": "Student (MS in CS)",
+    "location": {
+      "city": "Boston",
+      "state": "MA",
+      "country": "USA"
+    }
+}

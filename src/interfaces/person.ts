@@ -2,6 +2,7 @@ export default interface Person {
   id: string
   img: string
   name: string
+  email?: string
   jobTitle: string
   location: {
     city?: string

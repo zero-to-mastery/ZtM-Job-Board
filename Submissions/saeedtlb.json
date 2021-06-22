@@ -1,0 +1,16 @@
+{
+    "name": "Saeed Talebi",
+    "img": "",
+    "email": "saeedt7879s@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/saeed-talebi-a55624193/",
+      "github": "https://github.com/saeedtlb"
+    },
+    "jobTitle": "Front End (React.js)",
+    "location": {
+      "city": "Tehran",
+      "state": "Tehran",
+      "country": "Iran"
+    }
+}

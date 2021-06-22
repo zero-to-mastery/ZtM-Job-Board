@@ -1,0 +1,16 @@
+{
+    "name": "John Wang",
+    "img": "https://avatars.githubusercontent.com/u/29056808?v=4",
+    "email": "jwang4059@gmail.com",
+    "links": {
+      "website": "https://johnwang.netlify.app/",
+      "linkedin": "https://www.linkedin.com/in/jwang4059",
+      "github": "https://github.com/jwang4059"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Castro Valley",
+      "state": "California",
+      "country": "USA"
+    }
+  }

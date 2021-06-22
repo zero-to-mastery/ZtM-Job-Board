@@ -1,0 +1,16 @@
+{
+    "name": "Nancy Kwan",
+    "img": "https://avatars.githubusercontent.com/u/62155216?v=4",
+    "email": "nancykwantify@gmail.com",
+    "links": {
+      "website": "nancykwan.dev",
+      "linkedin": "https://www.linkedin.com/in/nancykwan",
+      "github": "https://github.com/nancykwantify"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+      "city": "New York City",
+      "state": "New York",
+      "country": "United States"
+    }
+  }

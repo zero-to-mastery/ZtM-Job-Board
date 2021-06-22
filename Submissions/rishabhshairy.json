@@ -1,0 +1,16 @@
+{
+    "name": "Rishabh Shairy",
+    "img": "",
+    "email": "",
+    "links": {
+      "website": "https://rishabhshairy.github.io/portfolio/",
+      "linkedin": "https://www.linkedin.com/in/rishabhshairy",
+      "github": "https://github.com/rishabhshairy"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India"
+    }
+ }
