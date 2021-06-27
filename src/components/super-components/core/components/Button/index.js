@@ -4,7 +4,7 @@ import './index.css';
 
 export const Button = props => {
   const { theme } = useTheme();
-  const { children, style } = props;
+  const { children, style, onClick } = props;
   return (
     <button
       className="btn"
@@ -16,6 +16,7 @@ export const Button = props => {
         padding: '0.5rem 2rem',
         ...style,
       }}
+      onClick={onClick}
     >
       {children}
     </button>
