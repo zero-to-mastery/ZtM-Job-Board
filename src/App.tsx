@@ -1,114 +1,138 @@
-import React, { useState, lazy, Suspense } from "react"
-import Search from "./components/Search"
-import { createFilter } from "react-search-input"
-import { shuffle } from "./util/shuffle"
-import "./styles/SearchBarMobileView.scss"
-import BatchCards from "./components/BatchCards"
-import Navbar from "./components/Navbar"
-import persons from "./assets/persons.json"
-import { pageNames } from "./util/pageNames"
-const SimpleMap = lazy(() => import("./components/Map"))
+import React, { useState, lazy } from 'react';
+import { createFilter } from 'react-search-input';
+import { shuffle } from './util/shuffle';
+import persons from './assets/persons.json';
+import { pageNames } from './util/pageNames';
+import {
+  Card,
+  ThemeProvider,
+  light,
+  useTheme,
+  Searcher,
+  Navbar as SNavbar,
+} from './components/super-components/core';
+import Banner from './assets/002.png';
+import R from './assets/003.png';
+import { Logo } from './components/Brand/Logo';
+import { UsersGridContainer } from './components/UsersGrid/index';
 
-const people: any = persons
+import './styles/SearchBarMobileView.scss';
+
+const SimpleMap = lazy(() => import('./components/Map'));
+
+const people: any = persons;
 
 const style: React.CSSProperties = {
-  background: "#fff",
-  padding: "1rem",
-  width: "100%",
-  margin: "0 0 2rem 0",
+  background: '#fff',
+  padding: '1rem',
+  width: '100%',
+  margin: '0 0 2rem 0',
   zIndex: 1,
-  borderRadius: "5px",
-}
+  borderRadius: '5px',
+};
 const responsiveSearch = {
-  width: "100%",
-  marginBottom: "0.5rem",
-  padding: "0.5rem",
-}
+  width: '100%',
+  marginBottom: '0.5rem',
+  padding: '0.5rem',
+};
 const KEYS_TO_FILTERS = [
-  "name",
-  "jobTitle",
-  "location.city",
-  "location.state",
-  "location.country",
-]
+  'name',
+  'jobTitle',
+  'location.city',
+  'location.state',
+  'location.country',
+];
+
+const AppWrapper = (props: any) => {
+  const { children } = props;
+  return <ThemeProvider theme={light}>{children}</ThemeProvider>;
+};
 
 function App() {
-  const [searchfield, setSearchfield] = useState("")
+  const { theme } = useTheme();
+  const [searchfield, setSearchfield] = useState('');
 
-  const [map, setMap] = useState(false)
-  const [mapOrHomeTitle, setMapOrHomeTitle] = useState(pageNames.map) // pageNames.map is default
+  const [map, setMap] = useState(false);
+  const [mapOrHomeTitle, setMapOrHomeTitle] = useState(pageNames.map); // pageNames.map is default
 
   const filteredPersons = (searchFilter: any) =>
-    people.filter(createFilter(searchFilter, KEYS_TO_FILTERS))
+    people.filter(createFilter(searchFilter, KEYS_TO_FILTERS));
 
   //note: shuffle function is not pure function, it mutates original array
   //in order to avoid memory duplication
-  shuffle(people)
+  shuffle(people);
 
   return (
-    <div className="flex flex-column min-vh-100 tc">
-      <header className="custom--unselectable fixed top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-9999">
-        <Navbar
-          onLogoClick={() => setMap(false)}
-          onSearchChange={(e: any) => setSearchfield(e.target.value)}
-          onMapClick={() => {
-            setMap(!map)
-            setMapOrHomeTitle(map ? pageNames.map : pageNames.home)
-          }}
-          mapOrHomeTitle={mapOrHomeTitle}
-        />
-      </header>
-      <main className="flex-auto">
-        {map ? (
-          <Suspense
-            fallback={
-              <div>
-                <p>Loading Map...</p>
-                <p>
-                  Try refreshing if it doesn't load or check internet connection
-                  and try again later.
-                </p>
-              </div>
-            }
-          >
-            <SimpleMap />
-          </Suspense>
-        ) : (
-          <div id="sketch-particles">
-            <div className="visible-on-mobileview-only" style={style}>
-              <Search
-                onSearchChange={(e: any) => setSearchfield(e.target.value)}
-                responsiveSearch={responsiveSearch}
-              />
-            </div>
+    <AppWrapper>
+      <div style={{ height: '100vh' }}>
+        <Card style={{ height: '100%', borderRadius: 0, overflowY: 'auto' }}>
+          <SNavbar>
+            <Logo style={{ width: '7rem' }} />
+            Home
+          </SNavbar>
 
-            <BatchCards
-              persons={filteredPersons(searchfield)}
-              numberPerBatch={16}
-            />
-          </div>
-        )}
-      </main>
-      <footer className="custom--unselectable w-100 h3 flex items-center justify-center justify-end-l white custom--bg-additional3 z-2">
-        <a
-          href="https://github.com/zero-to-mastery/ZtM-Job-Board"
-          title="Repository"
-        >
-          <svg
-            className="repo w2 h2"
-            viewBox="0 0 12 16"
-            version="1.1"
-            aria-hidden="true"
+          <div
+            style={{
+              width: '100%',
+              position: 'relative',
+              backgroundColor: '#D8F1FD',
+              height: '16rem',
+            }}
           >
-            <path
-              fillRule="evenodd"
-              d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"
-            />
-          </svg>
-        </a>
-      </footer>
-    </div>
-  )
+            <img src={Banner} alt="" />
+
+            <div
+              style={{
+                padding: '1rem',
+                width: '50rem',
+                position: 'absolute',
+                bottom: '2rem',
+
+                textAlign: 'center',
+                left: '50%',
+                transform: 'translate(-50%)',
+              }}
+            >
+              <h1
+                style={{
+                  fontFamily: `'Roboto', sans-serif`,
+
+                  margin: 0,
+                  fontSize: '4rem',
+                  color: '#1D2346',
+                  fontWeight: 'bold',
+                }}
+              >
+                A free code project
+              </h1>
+              <h1>Let's create a better web!</h1>
+            </div>
+            <Searcher
+              style={{
+                padding: '1rem',
+                width: '50rem',
+                position: 'absolute',
+                bottom: '-1rem',
+                left: '50%',
+                transform: 'translate(-50%)',
+              }}
+            >
+              Search
+            </Searcher>
+
+            <img src={R} alt="" />
+          </div>
+
+          <br />
+          <br />
+
+          <div style={{ padding: '2rem' }}>
+            <UsersGridContainer people={people} />
+          </div>
+        </Card>
+      </div>
+    </AppWrapper>
+  );
 }
 
-export default App
+export default App;
