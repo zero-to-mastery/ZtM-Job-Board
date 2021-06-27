@@ -62,6 +62,8 @@ function Appaaa() {
             padding: "2rem",
             position: "relative",
             backgroundImage: `url(${Banner})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "100%",
             backgroundColor: theme.palette.primary.light,
           }}
         >
