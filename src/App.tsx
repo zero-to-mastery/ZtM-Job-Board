@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react"
 
-import { shuffle } from './util/shuffle';
-import persons from './assets/persons.json';
+import { shuffle } from "./util/shuffle"
+import persons from "./assets/persons.json"
 
 import {
   Card,
@@ -9,62 +9,60 @@ import {
   light,
   Searcher,
   Navbar as SNavbar,
-} from './components/super-components/core';
-import Banner from './assets/002.png';
-import R from './assets/003.png';
-import { Logo } from './components/Brand/Logo';
-import { UsersGridContainer } from './components/UsersGrid/index';
-import { PaginationContextProvider } from './context/PaginationContext';
-import './styles/SearchBarMobileView.scss';
-import { useData } from './hooks/useData';
-import { DataProvider } from './context/DataContext';
-import { useDataPage } from './hooks/useDataPage';
+} from "./components/super-components/core"
+import Banner from "./assets/002.png"
+import R from "./assets/003.png"
+import { Logo } from "./components/Brand/Logo"
+import { UsersGridContainer } from "./components/UsersGrid/index"
+import { PaginationContextProvider } from "./context/PaginationContext"
+import { useData } from "./hooks/useData"
+import { DataProvider } from "./context/DataContext"
 
-const people: any = persons;
+import "./styles/SearchBarMobileView.scss"
 
-//
+const people: any = persons
 
 const AppWrapper = (props: any) => {
-  const { children } = props;
-  const { data } = useData();
+  const { children } = props
+  const { data } = useData()
   return (
     <PaginationContextProvider dataSource={data}>
       <ThemeProvider theme={light}>{children}</ThemeProvider>;
     </PaginationContextProvider>
-  );
-};
+  )
+}
 
 function Appaaa() {
-  const { filterData } = useData();
-  shuffle(people);
+  const { filterData } = useData()
+  shuffle(people)
 
   return (
     <>
-      <div style={{ height: '100vh' }}>
-        <Card style={{ height: '100%', borderRadius: 0, overflowY: 'auto' }}>
+      <div style={{ height: "100vh" }}>
+        <Card style={{ height: "100%", borderRadius: 0, overflowY: "auto" }}>
           <SNavbar>
-            <Logo style={{ width: '7rem' }} />
+            <Logo style={{ width: "7rem" }} />
             Home
           </SNavbar>
           <div
             style={{
-              width: '100%',
-              position: 'relative',
-              backgroundColor: '#D8F1FD',
-              height: '16rem',
+              width: "100%",
+              position: "relative",
+              backgroundColor: "#D8F1FD",
+              height: "16rem",
             }}
           >
             <img src={Banner} alt="" />
 
             <div
               style={{
-                padding: '1rem',
-                width: '50rem',
-                position: 'absolute',
-                bottom: '2rem',
-                textAlign: 'center',
-                left: '50%',
-                transform: 'translate(-50%)',
+                padding: "1rem",
+                width: "50rem",
+                position: "absolute",
+                bottom: "2rem",
+                textAlign: "center",
+                left: "50%",
+                transform: "translate(-50%)",
               }}
             >
               <h1
@@ -72,9 +70,9 @@ function Appaaa() {
                   fontFamily: `'Roboto', sans-serif`,
 
                   margin: 0,
-                  fontSize: '4rem',
-                  color: '#1D2346',
-                  fontWeight: 'bold',
+                  fontSize: "4rem",
+                  color: "#1D2346",
+                  fontWeight: "bold",
                 }}
               >
                 A free code project
@@ -84,18 +82,18 @@ function Appaaa() {
             <Searcher
               name="name"
               style={{
-                padding: '1rem',
+                padding: "1rem",
 
-                width: '50rem',
-                position: 'absolute',
-                bottom: '-1rem',
-                left: '50%',
-                transform: 'translate(-50%)',
+                width: "50rem",
+                position: "absolute",
+                bottom: "-1rem",
+                left: "50%",
+                transform: "translate(-50%)",
               }}
               onChange={(e: any) => {
-                console.log(e);
+                console.log(e)
 
-                filterData(e);
+                filterData(e)
               }}
             >
               Search
@@ -107,13 +105,13 @@ function Appaaa() {
           <br />
           <br />
 
-          <div style={{ padding: '2rem' }}>
+          <div style={{ padding: "2rem" }}>
             <UsersGridContainer people={people} />
           </div>
         </Card>
       </div>
     </>
-  );
+  )
 }
 
 const App = () => {
@@ -123,7 +121,7 @@ const App = () => {
         <Appaaa />
       </AppWrapper>
     </DataProvider>
-  );
-};
+  )
+}
 
-export default App;
+export default App

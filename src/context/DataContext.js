@@ -1,32 +1,36 @@
-import React from 'react';
-import { test } from '../util/paginator';
+import React from "react"
+import { test } from "../util/paginator"
 
-export const DataContext = React.createContext();
+export const DataContext = React.createContext()
 
-export const DataProvider = props => {
-  const { dataSource } = props;
-  const [data, setData] = React.useState(dataSource);
+export const DataProvider = (props) => {
+  const { dataSource } = props
+  const [data, setData] = React.useState(dataSource)
 
-  const filterData = filters => {
-    console.log(filters);
-    const filtersName = Object.keys(filters);
-    filtersName.forEach(name => {
-      const value = filters[name];
-      if (value == '') {
-        setData(dataSource);
+  const filterData = (filters) => {
+    console.log(filters)
+    const filtersName = Object.keys(filters)
+    filtersName.forEach((name) => {
+      const value = filters[name]
+      if (value == "") {
+        setData(dataSource)
       } else {
-        const aux = data.filter(item => test(item[name], value));
-        setData(aux);
+        const aux = data.filter((item) => {
+          const va = test(item[name], value)
+          console.log(item[name], value)
+          return va
+        })
+        setData(aux)
       }
-    });
-  };
+    })
+  }
 
   const value = React.useMemo(() => {
     return {
       data,
       filterData,
-    };
-  }, [data]);
+    }
+  }, [data])
 
-  return <DataContext.Provider value={value} {...props} />;
-};
+  return <DataContext.Provider value={value} {...props} />
+}
