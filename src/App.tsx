@@ -34,7 +34,7 @@ const AppWrapper = (props: any) => {
 }
 
 function Appaaa() {
-  const { filterData } = useData()
+  const { filterData, data } = useData()
   const { theme } = useTheme()
   shuffle(people)
 
@@ -51,7 +51,9 @@ function Appaaa() {
         <SNavbar>
           <h1 id="title" className="relative ma0 pa0 fl-l pointer">
             <span className="fw3">Job</span>
-            <span className="fw7 custom--text-primary">Board</span>
+            <span className="fw7" style={{ color: theme.palette.primary.main }}>
+              Board
+            </span>
           </h1>
         </SNavbar>
         <div
@@ -62,8 +64,6 @@ function Appaaa() {
             height: "16rem",
           }}
         >
-          <img src={Banner} alt="" />
-
           <div
             style={{
               padding: "1rem",
@@ -91,9 +91,9 @@ function Appaaa() {
           </div>
           <Searcher
             name="name"
+            placeholder=" search by name, job, city, state or country..."
             style={{
               padding: "1rem",
-
               width: "50rem",
               position: "absolute",
               bottom: "-1rem",
@@ -102,20 +102,17 @@ function Appaaa() {
             }}
             onChange={(e: any) => {
               console.log(e)
-
               filterData(e)
             }}
-          >
-            Search
-          </Searcher>
-
-          <img src={R} alt="" />
+          />
         </div>
-
         <br />
-        <br />
-
-        <div style={{ padding: "2rem" }}>
+        <div style={{ textAlign: "center", padding: "1rem" }}>
+          <p style={{ color: theme.palette.primary.main }}>
+            {data.length} Users
+          </p>
+        </div>
+        <div style={{ padding: "0 2rem 2rem 2rem" }}>
           <UsersGridContainer people={people} />
         </div>
       </div>

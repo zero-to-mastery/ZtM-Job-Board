@@ -32,7 +32,8 @@ const useStyles = (theme: Theme) => {
 }
 
 const UserCard = (props: any) => {
-  const { name, jobTitle, img, links } = props
+  const { name, jobTitle, img, links, location } = props
+
   const { theme } = useTheme()
   const styles = useStyles(theme)
 
@@ -42,14 +43,23 @@ const UserCard = (props: any) => {
       <br />
       <h2 style={styles.userName}>{name}</h2>
       <p style={styles.jobName}>{jobTitle}</p>
-      <br />
 
+      <small style={{ color: theme.palette.primary.main }}>
+        {Object.keys(location).map((n, i) => {
+          const aux = location[n],
+            l = Object.keys(location).length
+          return aux ? `${aux} ${i < l - 1 ? "•" : ""} ` : null
+        })}
+      </small>
+
+      <br />
       <div style={{ display: "flex" }}>
         {Object.keys(links).map((name, i) => {
           const link = links[name]
           const Icon = IconsDictionary[name]
           return (
             <a
+              target="_blank"
               key={i}
               href={link}
               style={{ padding: "0.5rem", color: theme.palette.text.disabled }}

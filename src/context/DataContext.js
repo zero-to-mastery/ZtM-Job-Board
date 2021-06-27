@@ -8,16 +8,17 @@ export const DataProvider = (props) => {
   const [data, setData] = React.useState(dataSource)
 
   const filterData = (filters) => {
-    console.log(filters)
     const filtersName = Object.keys(filters)
     filtersName.forEach((name) => {
       const value = filters[name]
       if (value == "") {
         setData(dataSource)
       } else {
-        const aux = data.filter((item) => {
-          const va = test(item[name], value)
-          return va
+        const aux = dataSource.filter((item) => {
+          const { name: uName, jobTitle, location } = item
+          const { city, state, country } = location
+          const str = `${uName} ${jobTitle} ${city} ${state} ${country}`
+          return test(str, value)
         })
         setData(aux)
       }
