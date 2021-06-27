@@ -18,7 +18,7 @@ export const DataProvider = (props) => {
           const { name: uName, jobTitle, location } = item
           const { city, state, country } = location
           const str = `${uName} ${jobTitle} ${city} ${state} ${country}`
-          return test(str, value)
+          return str.includes(value)
         })
         setData(aux)
       }
