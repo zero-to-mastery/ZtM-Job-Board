@@ -19,6 +19,7 @@ import { useData } from "./hooks/useData"
 import { DataProvider } from "./context/DataContext"
 
 import "./styles/SearchBarMobileView.scss"
+import { useTheme } from "./components/super-components/core/hooks/useTheme"
 
 const people: any = persons
 
@@ -34,81 +35,89 @@ const AppWrapper = (props: any) => {
 
 function Appaaa() {
   const { filterData } = useData()
+  const { theme } = useTheme()
   shuffle(people)
 
   return (
     <>
-      <div style={{ height: "100vh" }}>
-        <Card style={{ height: "100%", borderRadius: 0, overflowY: "auto" }}>
-          <SNavbar>
-            <Logo style={{ width: "7rem" }} />
-            Home
-          </SNavbar>
+      <div
+        style={{
+          height: "100%",
+          borderRadius: 0,
+          overflowY: "auto",
+          background: theme.palette.common.light,
+        }}
+      >
+        <SNavbar>
+          <h1 id="title" className="relative ma0 pa0 fl-l pointer">
+            <span className="fw3">Job</span>
+            <span className="fw7 custom--text-primary">Board</span>
+          </h1>
+        </SNavbar>
+        <div
+          style={{
+            width: "100%",
+            position: "relative",
+            backgroundColor: "#D8F1FD",
+            height: "16rem",
+          }}
+        >
+          <img src={Banner} alt="" />
+
           <div
             style={{
-              width: "100%",
-              position: "relative",
-              backgroundColor: "#D8F1FD",
-              height: "16rem",
+              padding: "1rem",
+              width: "50rem",
+              position: "absolute",
+              bottom: "2rem",
+              textAlign: "center",
+              left: "50%",
+              transform: "translate(-50%)",
             }}
           >
-            <img src={Banner} alt="" />
-
-            <div
+            <h1
               style={{
-                padding: "1rem",
-                width: "50rem",
-                position: "absolute",
-                bottom: "2rem",
-                textAlign: "center",
-                left: "50%",
-                transform: "translate(-50%)",
+                fontFamily: `'Roboto', sans-serif`,
+
+                margin: 0,
+                fontSize: "4rem",
+                color: "#1D2346",
+                fontWeight: "bold",
               }}
             >
-              <h1
-                style={{
-                  fontFamily: `'Roboto', sans-serif`,
-
-                  margin: 0,
-                  fontSize: "4rem",
-                  color: "#1D2346",
-                  fontWeight: "bold",
-                }}
-              >
-                A free code project
-              </h1>
-              <h1>Let's create a better web!</h1>
-            </div>
-            <Searcher
-              name="name"
-              style={{
-                padding: "1rem",
-
-                width: "50rem",
-                position: "absolute",
-                bottom: "-1rem",
-                left: "50%",
-                transform: "translate(-50%)",
-              }}
-              onChange={(e: any) => {
-                console.log(e)
-
-                filterData(e)
-              }}
-            >
-              Search
-            </Searcher>
-
-            <img src={R} alt="" />
+              A free code project
+            </h1>
+            <h1>Let's create a better web!</h1>
           </div>
+          <Searcher
+            name="name"
+            style={{
+              padding: "1rem",
 
-          <br />
-          <br />
+              width: "50rem",
+              position: "absolute",
+              bottom: "-1rem",
+              left: "50%",
+              transform: "translate(-50%)",
+            }}
+            onChange={(e: any) => {
+              console.log(e)
 
-          <div style={{ padding: "2rem" }}>
-            <UsersGridContainer people={people} />
-          </div>
-        </Card>
+              filterData(e)
+            }}
+          >
+            Search
+          </Searcher>
+
+          <img src={R} alt="" />
+        </div>
+
+        <br />
+        <br />
+
+        <div style={{ padding: "2rem" }}>
+          <UsersGridContainer people={people} />
+        </div>
       </div>
     </>
   )

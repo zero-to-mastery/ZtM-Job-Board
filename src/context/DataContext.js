@@ -17,7 +17,6 @@ export const DataProvider = (props) => {
       } else {
         const aux = data.filter((item) => {
           const va = test(item[name], value)
-          console.log(item[name], value)
           return va
         })
         setData(aux)
