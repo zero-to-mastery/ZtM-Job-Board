@@ -1,0 +1,17 @@
+{
+    "id": "c875bd74-cd83-439d-96b4-9b5d86e37000",
+    "name": "Jose Aburto",
+    "img": "https://media-exp3.licdn.com/dms/image/C4D03AQFEvfVLdcIr0A/profile-displayphoto-shrink_800_800/0/1553727303871?e=1629936000&v=beta&t=Tp52gpniGyvWnsM9zHHXxQJ8WuU_0xKhWaz5VEykVXs",
+    "email": "",
+    "links": {
+        "website": "https://www.google.com",
+        "linkedin": "https://www.linkedin.com/in/jose-aburto-92468a13b/",
+        "github": "https://github.com/PinoFlores"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+        "city": "Tortosa",
+        "state": "Tarragona",
+        "country": "Spain"
+    }
+}
