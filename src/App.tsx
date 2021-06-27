@@ -4,22 +4,22 @@ import { shuffle } from "./util/shuffle"
 import persons from "./assets/persons.json"
 
 import {
-  Card,
   ThemeProvider,
   light,
   Searcher,
   Navbar as SNavbar,
 } from "./components/super-components/core"
-import Banner from "./assets/002.png"
-import R from "./assets/003.png"
-import { Logo } from "./components/Brand/Logo"
+import { Icons } from "./components/super-components/core/Icons"
 import { UsersGridContainer } from "./components/UsersGrid/index"
 import { PaginationContextProvider } from "./context/PaginationContext"
 import { useData } from "./hooks/useData"
 import { DataProvider } from "./context/DataContext"
-
-import "./styles/SearchBarMobileView.scss"
 import { useTheme } from "./components/super-components/core/hooks/useTheme"
+import { countriesWithNumOfDevsObj } from "./util/UsersDataCleanup"
+import Banner from "./assets/banner/banner.png"
+import "./styles/SearchBarMobileView.scss"
+
+const countryNamesAndNumOfDevsArr = Object.entries(countriesWithNumOfDevsObj)
 
 const people: any = persons
 
@@ -59,36 +59,44 @@ function Appaaa() {
         <div
           style={{
             width: "100%",
+            padding: "2rem",
             position: "relative",
-            backgroundColor: "#D8F1FD",
-            height: "16rem",
+            backgroundImage: `url(${Banner})`,
+            backgroundColor: theme.palette.primary.light,
           }}
         >
           <div
             style={{
               padding: "1rem",
+              margin: "0 auto",
               width: "50rem",
-              position: "absolute",
-              bottom: "2rem",
               textAlign: "center",
-              left: "50%",
-              transform: "translate(-50%)",
             }}
           >
             <h1
               style={{
                 fontFamily: `'Roboto', sans-serif`,
-
                 margin: 0,
-                fontSize: "4rem",
-                color: "#1D2346",
+                fontSize: "3rem",
+                color: theme.palette.common.light,
                 fontWeight: "bold",
               }}
             >
-              A free code project
+              Do you need a software engineer?
             </h1>
-            <h1>Let's create a better web!</h1>
+
+            <h2 style={{ color: theme.palette.common.light }}>
+              {" "}
+              <span>
+                <Icons.TeamIcon style={{ width: "1.5rem" }} /> {people.length}{" "}
+                Users
+              </span>{" "}
+              &nbsp;&nbsp;&nbsp; <Icons.WorldIcon />{" "}
+              {countryNamesAndNumOfDevsArr.length} Countries
+            </h2>
           </div>
+          <br />
+          <br />
           <Searcher
             name="name"
             placeholder=" search by name, job, city, state or country..."
@@ -109,7 +117,7 @@ function Appaaa() {
         <br />
         <div style={{ textAlign: "center", padding: "1rem" }}>
           <p style={{ color: theme.palette.primary.main }}>
-            {data.length} Users
+            {data.length} Users Found
           </p>
         </div>
         <div style={{ padding: "0 2rem 2rem 2rem" }}>
