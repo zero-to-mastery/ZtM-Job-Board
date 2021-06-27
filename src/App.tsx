@@ -1,13 +1,12 @@
-import React, { useState, lazy } from 'react';
-import { createFilter } from 'react-search-input';
+import React from 'react';
+
 import { shuffle } from './util/shuffle';
 import persons from './assets/persons.json';
-import { pageNames } from './util/pageNames';
+
 import {
   Card,
   ThemeProvider,
   light,
-  useTheme,
   Searcher,
   Navbar as SNavbar,
 } from './components/super-components/core';
@@ -15,62 +14,38 @@ import Banner from './assets/002.png';
 import R from './assets/003.png';
 import { Logo } from './components/Brand/Logo';
 import { UsersGridContainer } from './components/UsersGrid/index';
-
+import { PaginationContextProvider } from './context/PaginationContext';
 import './styles/SearchBarMobileView.scss';
-
-const SimpleMap = lazy(() => import('./components/Map'));
+import { useData } from './hooks/useData';
+import { DataProvider } from './context/DataContext';
+import { useDataPage } from './hooks/useDataPage';
 
 const people: any = persons;
 
-const style: React.CSSProperties = {
-  background: '#fff',
-  padding: '1rem',
-  width: '100%',
-  margin: '0 0 2rem 0',
-  zIndex: 1,
-  borderRadius: '5px',
-};
-const responsiveSearch = {
-  width: '100%',
-  marginBottom: '0.5rem',
-  padding: '0.5rem',
-};
-const KEYS_TO_FILTERS = [
-  'name',
-  'jobTitle',
-  'location.city',
-  'location.state',
-  'location.country',
-];
+//
 
 const AppWrapper = (props: any) => {
   const { children } = props;
-  return <ThemeProvider theme={light}>{children}</ThemeProvider>;
+  const { data } = useData();
+  return (
+    <PaginationContextProvider dataSource={data}>
+      <ThemeProvider theme={light}>{children}</ThemeProvider>;
+    </PaginationContextProvider>
+  );
 };
 
-function App() {
-  const { theme } = useTheme();
-  const [searchfield, setSearchfield] = useState('');
-
-  const [map, setMap] = useState(false);
-  const [mapOrHomeTitle, setMapOrHomeTitle] = useState(pageNames.map); // pageNames.map is default
-
-  const filteredPersons = (searchFilter: any) =>
-    people.filter(createFilter(searchFilter, KEYS_TO_FILTERS));
-
-  //note: shuffle function is not pure function, it mutates original array
-  //in order to avoid memory duplication
+function Appaaa() {
+  const { filterData } = useData();
   shuffle(people);
 
   return (
-    <AppWrapper>
+    <>
       <div style={{ height: '100vh' }}>
         <Card style={{ height: '100%', borderRadius: 0, overflowY: 'auto' }}>
           <SNavbar>
             <Logo style={{ width: '7rem' }} />
             Home
           </SNavbar>
-
           <div
             style={{
               width: '100%',
@@ -87,7 +62,6 @@ function App() {
                 width: '50rem',
                 position: 'absolute',
                 bottom: '2rem',
-
                 textAlign: 'center',
                 left: '50%',
                 transform: 'translate(-50%)',
@@ -108,13 +82,20 @@ function App() {
               <h1>Let's create a better web!</h1>
             </div>
             <Searcher
+              name="name"
               style={{
                 padding: '1rem',
+
                 width: '50rem',
                 position: 'absolute',
                 bottom: '-1rem',
                 left: '50%',
                 transform: 'translate(-50%)',
+              }}
+              onChange={(e: any) => {
+                console.log(e);
+
+                filterData(e);
               }}
             >
               Search
@@ -131,8 +112,18 @@ function App() {
           </div>
         </Card>
       </div>
-    </AppWrapper>
+    </>
   );
 }
+
+const App = () => {
+  return (
+    <DataProvider dataSource={people}>
+      <AppWrapper>
+        <Appaaa />
+      </AppWrapper>
+    </DataProvider>
+  );
+};
 
 export default App;
