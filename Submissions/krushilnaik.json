@@ -1,0 +1,16 @@
+{
+  "name": "Krushil Naik",
+  "img": "https://media-exp1.licdn.com/dms/image/D5635AQGICEWXZeI0GQ/profile-framedphoto-shrink_200_200/0/1625150436309?e=1625245200&v=beta&t=RVqTM7eNpGdRLjvpNraykCYcKlgJU4CgpM701hE7les",
+  "email": "krushilnaik06@gmail.com",
+  "links": {
+    "website": "https://krushilnaik.dev",
+    "linkedin": "https://www.linkedin.com/in/krushilnaik",
+    "github": "https://github.com/krushilnaik"
+  },
+  "jobTitle": "React Developer",
+  "location": {
+    "city": "Wayne",
+    "state": "New Jersey",
+    "country": "USA"
+  }
+}
