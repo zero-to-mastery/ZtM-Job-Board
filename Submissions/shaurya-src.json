@@ -1,0 +1,16 @@
+{
+    "name": "Shaurya Choudhary",
+    "img": "https://www.shauryasrc.com/assets/img/profile-img_comp.jpg",
+    "email": "shaurya.src@gmail.com",
+    "links": {
+      "website": "https://www.shauryasrc.com",
+      "linkedin": "https://www.linkedin.com/in/shaurya-src",
+      "github": "https://github.com/shaurya-src"
+    },
+    "jobTitle": "Software Developer",
+    "location": {
+      "city": "Chirimiri",
+      "state": "Chhattisgarh",
+      "country": "India"
+    }
+  }
