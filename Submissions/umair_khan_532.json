@@ -1,0 +1,16 @@
+{
+  "name": "Moahmmed Umair Kaleem Khan",
+  "img": "photo.jpeg",
+  "email": "umairkhan1131178@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/mohammed-umair-kaleem-khan-4022001a9/",
+    "github": "https://github.com/umairkhan532"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Plano",
+    "state": "Texas",
+    "country": "United States"
+  }
+}
