@@ -1,0 +1,16 @@
+{
+  "name": "Momoh Taiwo",
+  "img": "",
+  "email":"tylerjusfly1@gmail.com",
+  "links": {
+    "website": "https://tylerjusfly-portfolio.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/momoh-taiwo-tylerjusfly-135a131aa",
+    "github": "https://github.com/tylerjusfly/"
+  },
+  "jobTitle": "BackEnd Developer",
+  "location": {
+    "city": "",
+    "state": "Lagos",
+    "country": "Nigeria"
+  }
+}
