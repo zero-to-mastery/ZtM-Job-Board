@@ -1,0 +1,16 @@
+{
+  "name": "Tristan Deane",
+  "img": "https://github.com/IM-Deane/images/blob/main/assets/images/portfolio-smiling-400w.jpg",
+  "email": "tristandeane93@gmail.com",
+  "links": {
+    "website": "https://tristandeaneportfolio.com/",
+    "linkedin": "https://www.linkedin.com/in/tristan-deane-278781102/",
+    "github": "https://github.com/IM-Deane"
+  },
+  "jobTitle": "Fullstack Developer",
+  "location": {
+    "city": "Edmonton",
+    "state": "Alberta",
+    "country": "Canada"
+  }
+}
