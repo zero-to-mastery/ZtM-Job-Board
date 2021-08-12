@@ -1,0 +1,16 @@
+{
+    "name": "Flavio Jara Rebolledo",
+    "img": "https://github.com/fjarar.png",
+    "email": "fhjarar@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/flavio-jara-r/",
+      "github": "https://github.com/fjarar/"
+    },
+    "jobTitle": "Junior Developer",
+    "location": {
+      "city": "Chillan",
+      "state": "Ñuble",
+      "country": "Chile"
+    }
+  }
