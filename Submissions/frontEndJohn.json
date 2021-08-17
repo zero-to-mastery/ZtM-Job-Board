@@ -1,0 +1,16 @@
+{
+    "name": "John Rama",
+    "img": "",
+    "email":"",
+  "links": {
+      "website": "",
+      "linkedin": "",
+      "github": "https://github.com/frontEndJohn"
+    },
+    "jobTitle": "Cool Web Developer &#128522",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "United Kingdom"
+    }
+  }
