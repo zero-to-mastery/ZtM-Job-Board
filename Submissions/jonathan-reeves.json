@@ -1,0 +1,16 @@
+{
+    "name": "Jonathan Reeves",
+    "img": "https://avatars.githubusercontent.com/u/31198731?v=4",
+    "email": "jonathanedwardreeves1988@gmail.com",
+    "links": {
+        "website": "https://programmingwithjon.netlify.app",
+        "linkedin": "https://www.linkedin.com/in/jonathan-reeves",
+        "github": "https://github.com/RedHoodJT1988"
+    },
+    "jobTitle": "Frontend Engineer",
+    "location": {
+        "city": "Mineral Wells",
+        "state": "Texas",
+        "country": "US"
+    }
+}
