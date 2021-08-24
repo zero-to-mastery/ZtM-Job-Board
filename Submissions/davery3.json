@@ -1,0 +1,16 @@
+{
+  "name": "David Avery",
+  "img": "https://avatars.githubusercontent.com/u/80860555?v=4",
+  "email": "davery700@gmail.com",
+  "links": {
+    "website": "https://davery3.github.io/personal-portfolio/",
+    "linkedin": "https://www.linkedin.com/in/davery3",
+    "github": "https://github.com/davery3"
+  },
+  "jobTitle": "Front-End Developer",
+  "location": {
+    "city": "",
+    "state": "California",
+    "country": "USA"
+  }
+}
