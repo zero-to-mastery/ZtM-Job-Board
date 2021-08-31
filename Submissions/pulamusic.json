@@ -1,16 +1,16 @@
 {
   "id": "3f9b2618-8cd6-4bcf-b1c7-f32eeab148bd",
   "name": "Jim Carroll",
-  "img": "https://pulamusic.github.io/images/JimHeadshot.jpg",
-  "email":"",
+  "img": "https://github.com/pulamusic.png",
+  "email":"contact@pulamusic.com",
   "links": {
-    "website": "https://pulamusic.github.io",
+    "website": "https://pulablog.com/",
     "linkedin": "https://www.linkedin.com/in/james-carroll-36001511a",
     "github": "https://github.com/pulamusic"
   },
-  "jobTitle": "Academic & Front-End Developer",
+  "jobTitle": "Cultural Historian, Instructional Designer, Musician",
   "location": {
-    "city": "Springfield",
+    "city": "Brewster",
     "state": "MA",
     "country": "USA"
   }

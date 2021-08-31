@@ -1,0 +1,16 @@
+{
+  "name": "Nishant Kumar",
+  "img": "https://github.com/nishantminerva/ZtM-Job-Board.git",
+  "email": "nishantcafe@gmail.com",
+  "links": {
+    "website": "nishantminerva.com",
+    "linkedin": "https://www.linkedin.com/in/nishantminerva>",
+    "github": "https://github.com/nishantminerva>"
+  },
+  "jobTitle": "IOS Developer,Full Stack Developer",
+  "location": {
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "country": "India"
+  }
+}

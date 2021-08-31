@@ -1,0 +1,16 @@
+{
+    "name": "Abhinav Mukherjee",
+    "img": "[YOUR_IMG_URL]",
+    "email": "abhinavmukherjee100@gmail.com",
+    "links": {
+      "website": "[YOUR_WEBSITE_URL]",
+      "linkedin": "https://www.linkedin.com/in/abhinav-mukherjee-100/",
+      "github": "https://github.com/abhinav-193"
+    },
+    "jobTitle": "Full Stack",
+    "location": {
+      "city": "Jamshedpur",
+      "state": "Jharkhand",
+      "country": "India"
+    }
+  }
