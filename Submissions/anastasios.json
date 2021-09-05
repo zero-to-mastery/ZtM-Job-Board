@@ -1,0 +1,16 @@
+{
+  "name": "Anastasios Pasalis",
+  "img": "",
+  "email": "tassos_pasalis@mac.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/anastasiospas/",
+    "github": "https://github.com/AnastasiosPas"
+  },
+  "jobTitle": "Full-stack web developer",
+  "location": {
+    "city": "Amsterdam",
+    "state": "",
+    "country": "Netherlands"
+  }
+}
