@@ -1,13 +1,13 @@
 {
     "name": "Jacob Tucker",
     "img": "https://avatars.githubusercontent.com/u/83474789?v=4",
-    "email": "jaketucker7@gmail.com",
+    "email": "",
     "links": {
-      "website":"",
+      "website":"https://jacobtucker.dev/",
       "linkedin": "https://www.linkedin.com/in/jacob-tucker-044508218/",
       "github": "https://github.com/Dysrhythmic"
     },
-    "jobTitle": "Software Engineer",
+    "jobTitle": "Software Developer",
     "location": {
       "city": "",
       "state": "Mississippi",
