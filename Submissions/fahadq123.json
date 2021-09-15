@@ -1,0 +1,16 @@
+{
+  "name": "Fahad Qayyum",
+  "img": "https://fahadq.ca/formalPic.png",
+  "email": "",
+  "links": {
+    "website": "https://fahadq.ca/",
+    "linkedin": "https://www.linkedin.com/in/fahad-q-95663b178/",
+    "github": "https://github.com/fahadq123"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Toronto",
+    "state": "Ontario",
+    "country": "Canada"
+  }
+}
