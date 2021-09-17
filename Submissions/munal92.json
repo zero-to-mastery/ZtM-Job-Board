@@ -1,0 +1,16 @@
+{
+    "name": "Mucteba Fatih Unal",
+    "img": "[YOUR_IMG_URL]",
+    "email": "",
+    "links": {
+      "website": "https://mfatihunal.com/",
+      "linkedin": "https://www.linkedin.com/in/munal92",
+      "github": "https://github.com/munal92"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "location": {
+      "city": "San Francisco",
+      "state": "California",
+      "country": "USA"
+    }
+  }

@@ -1,8 +1,8 @@
-# ZtM-Job-Board &emsp; [![TravisCI Build Status](https://travis-ci.org/zero-to-mastery/ZtM-Job-Board.svg?branch=master)](https://travis-ci.org/zero-to-mastery/ZtM-Job-Board)
+# ZtM-Job-Board &emsp; [![Build Project](https://github.com/zero-to-mastery/ZtM-Job-Board/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/zero-to-mastery/ZtM-Job-Board/actions/workflows/build.yml)
 
 A place for developers from the [**Zero To Mastery Community**](https://zerotomastery.io/?utm_source=github&utm_medium=ZtM-Job-Board) to show recruiters that they are available for hire. Feel free to contribute and improve this in any way you see fit.
 
-Link to the webpage: [**ZtM JOB Board**](https://alumni-board.netlify.app/).
+Link to the webpage: [**ZtM JOB Board**](https://zero-to-mastery.github.io/ZtM-Job-Board/).
 
 ### How to run the project in your local machine
 
@@ -14,7 +14,15 @@ Link to the webpage: [**ZtM JOB Board**](https://alumni-board.netlify.app/).
 
 ### How to add your name to the list
 
-To add your name to the list, simply create a file `<YOUR_GH_USERNAME>.json`
+Note: **You will first need to make a fork of the project!**
+
+![fork image](https://help.github.com/assets/images/help/repository/fork_button.jpg)
+
+If you are unclear on how the GitHub workflow works, you can check the [Make a Pull Request guide](https://makeapullrequest.com/).
+
+---
+
+To add your name to the list, create a file `<YOUR_GH_USERNAME>.json`
 inside `Submissions/` folder, and then fill it up with following content.
 ( **Don't include the square brackets "[ ]" or angle brackets "< >" !!! They
 are just there to indicate an example placeholder.** )
@@ -23,6 +31,7 @@ are just there to indicate an example placeholder.** )
 {
   "name": "[YOUR_FULL_NAME]",
   "img": "[YOUR_IMG_URL]",
+  "email": "[YOUR_EMAIL_ADDRESS]",
   "links": {
     "website": "[YOUR_WEBSITE_URL]",
     "linkedin": "https://www.linkedin.com/in/<YOUR_LINKEDIN_USERNAME>",

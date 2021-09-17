@@ -1,0 +1,16 @@
+{
+  "name": "Chieh-Yin Wang",
+  "img": "https://raw.githubusercontent.com/SavaSava1209/profile/main/img/profile_pic.jpg",
+  "email": "cwang1209@ufl.edu",
+  "links": {
+    "website": "https://savasava1209.github.io/profile/",
+    "linkedin": "https://www.linkedin.com/in/d2324378129/",
+    "github": "https://github.com/<YOUR_GH_USERNAME>"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "San Francisco Bay Area",
+    "state": "CA",
+    "country": "USA"
+  }
+}

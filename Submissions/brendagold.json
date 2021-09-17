@@ -1,0 +1,16 @@
+{
+    "name": "Chukwuma Brenda",
+    "img": "https://media-exp1.licdn.com/dms/image/C4D03AQF9oqg8eaEbEg/profile-displayphoto-shrink_800_800/0/1621095834305?e=1626912000&v=beta&t=PUddDREAxMjAgEh7zuqFYgQvnF1CyZeojcdC2LkB538",
+    "email": "chukwumamary2@gmail.com",
+    "links": {
+      "website": "devmary.online",
+      "linkedin": "https://www.linkedin.com/in/marychuks",
+      "github": "https://github.com/brendagold"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "location": {
+      "city": "Lekki",
+      "state": "Lagos",
+      "country": "Nigeria"
+    }
+  }

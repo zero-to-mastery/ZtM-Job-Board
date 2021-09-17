@@ -1,0 +1,16 @@
+{
+  "name": "Korakot Santiudommongkol",
+  "img": "https://avatars.githubusercontent.com/u/47130579?v=4",
+  "email":"",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/korakotsan",
+    "github": "https://github.com/KorakotSanti"
+  },
+  "jobTitle": "Fullstack Developer",
+  "location": {
+    "city": "San Francisco",
+    "state": "California",
+    "country": "USA"
+  }
+}

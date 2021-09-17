@@ -1,0 +1,15 @@
+{
+  "name": "Huckleberry Ginesta",
+  "email": "ginestah@gmail.com",
+  "links": {
+    "website": "https://huck.tech/",
+    "linkedin": "https://www.linkedin.com/in/huckleberry-ginesta",
+    "github": "https://github.com/ginestah"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "Denver",
+    "state": "Colorado",
+    "country": "United States of America"
+  }
+}
