@@ -1,0 +1,17 @@
+{
+  "id": "1e39be66-94cd-4f78-92b3-93a0a7391311",
+  "name": "Arvin Mostafaei",
+  "img": "https://avatars.githubusercontent.com/u/70845998?v=4",
+  "email":"arvinmostafaeii@gmail.com",
+  "links": {
+    "website": "https://arvin.vercel.app/",
+    "linkedin": "https://www.linkedin.com/in/arvinmostafaei/",
+    "github": "https://github.com/arviinmo"
+  },
+  "jobTitle": "Front-end Web Developer",
+  "location": {
+    "city": "Saqqez",
+    "state": "",
+    "country": "Iran"
+  }
+}
