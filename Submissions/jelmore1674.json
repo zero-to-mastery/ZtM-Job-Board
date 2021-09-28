@@ -1,0 +1,16 @@
+{
+    "name": "Justin Elmore",
+    "img": "https://avatars.githubusercontent.com/u/80555099?v=4",
+    "email": "jelmore1674@pm.me",
+    "links": {
+        "website": "https://justinelmore.dev",
+        "linkedin": "https://www.linkedin.com/in/justin-elmore-05087819a",
+        "github": "https://github.com/jelmore1674"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+        "city": "Athens",
+        "state": "Alabama",
+        "country": "United States"
+    }
+}

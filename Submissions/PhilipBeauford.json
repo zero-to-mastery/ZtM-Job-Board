@@ -1,0 +1,16 @@
+{
+    "name": "Philip Beauford",
+    "img": "https://avatars.githubusercontent.com/u/42252825?v=4",
+    "email": "philipbeauford@hotmail.com",
+    "links": {
+      "website": "https://www.philipbeauford.com/",
+      "linkedin": "https://www.linkedin.com/in/philip-beauford-5a569629/",
+      "github": "https://github.com/PhilipBeauford"
+    },
+    "jobTitle": "Front End Developer",
+    "location": {
+      "city": "Bakersfield",
+      "state": "CA",
+      "country": "USA"
+    }
+  }
