@@ -1,0 +1,16 @@
+{
+  "name": "Walter Junior Caraza Barrera",
+  "img": "https://media-exp1.licdn.com/dms/image/C4D03AQHg1jaDe16xXg/profile-displayphoto-shrink_800_800/0/1622157277137?e=1638403200&v=beta&t=749JJKbZyqbvKSdBHLimMJGHGk4OeyE4kQ37Eomv5uU",
+  "email": "waltercaraza@gmail.com",
+  "links": {
+    "website": "https://about.me/walter.caraza",
+    "linkedin": "https://www.linkedin.com/in/wcaraza",
+    "github": "https://github.com/wcaraza"
+  },
+  "jobTitle": "Backend Engineer",
+  "location": {
+    "city": "Lima",
+    "state": "Lima",
+    "country": "Perú"
+  }
+}
