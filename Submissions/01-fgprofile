@@ -1,0 +1,16 @@
+{
+  "name": "Francesca Giammichele",
+  "img": "",
+  "email": "francesca.giammichele@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/francesca-giammichele-61805715/",
+    "github": "https://github.com/ranran2121"
+  },
+  "jobTitle": "Juniore Javascript Developer",
+  "location": {
+    "city": "Vasto",
+    "state": "Abruzzo",
+    "country": "Italy"
+  }
+}
