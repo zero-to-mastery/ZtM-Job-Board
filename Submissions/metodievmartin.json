@@ -1,0 +1,16 @@
+{
+  "name": "Martin Metodiev",
+  "img": "https://avatars.githubusercontent.com/u/62406556?v=4",
+  "email": "martin.metodiew@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/metodievmartin",
+    "github": "https://github.com/metodievmartin"
+  },
+  "jobTitle": "Full-Stack Developer - Angular | Node JS",
+  "location": {
+    "city": "Barcelona",
+    "state": "Catalonia",
+    "country": "Spain"
+  }
+}
