@@ -1,0 +1,16 @@
+{
+    "name": "Rayner E Mendez Garcia",
+    "img": "https://avatars.githubusercontent.com/u/34711027?v=4",
+    "email": "raynermendezg@gmail.com",
+    "links": {
+        "website": "http://raynermendezportfolio.azurewebsites.net/",
+        "linkedin": "https://www.linkedin.com/in/raynermendez/",
+        "github": "https://github.com/raynermdz"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+        "city": "Yonkers",
+        "state": "New York",
+        "country": "United States of America"
+    }
+}

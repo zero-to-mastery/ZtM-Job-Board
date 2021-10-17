@@ -1,0 +1,15 @@
+{
+   "name": "Marek Maciejewski",
+   "img": "http://marekmac.com/fcc/profile.jpg",
+   "links": {
+     "website": "https://marekmac.com/",
+     "linkedin": "https://www.linkedin.com/in/marek-maciejewski-b3b28abb/",
+     "github": "https://github.com/MarekMac"
+   },
+   "jobTitle": "Front End Web Developer",
+   "location": {
+     "city": "Mt. Prospect",
+     "state": "IL",
+     "country": "United States"
+   }
+ }

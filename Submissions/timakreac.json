@@ -1,0 +1,16 @@
+{
+  "name": "Tima Kreac",
+  "img": "https://avatars.githubusercontent.com/u/32876800?v=4",
+  "email": "tkreac@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/timakreac",
+    "github": "https://github.com/TimaKreac"
+  },
+  "jobTitle": "Frontend React Developer",
+  "location": {
+    "city": "Kostanay",
+    "state": "",
+    "country": "Kazakhstan"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Arvind Kumar",
+    "img": "https://avatars.githubusercontent.com/u/21969893?v=4",
+    "email":"tsarvind996@gmail.com",
+  "links": {
+      "website": "https://arvind-thoppe.netlify.app/",
+      "linkedin": "https://www.linkedin.com/in/arvindkumarts/",
+      "github": "https://github.com/ARVINDTRONICS"
+    },
+    "jobTitle": "UI Engineer",
+    "location": {
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "country": "India"
+    }
+  }

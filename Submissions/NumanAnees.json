@@ -1,0 +1,16 @@
+{
+  "name": "Numan Anees",
+  "img": "https://avatars.githubusercontent.com/u/67089723?s=400&u=19d007692ac3ac9eb91d7deb403b35a79dfebbd0&v=4",
+  "email": "numananees44@gmail.com",
+  "links": {
+    "website": "https://numananees.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/NumanAnees",
+    "github": "https://github.com/NumanAnees"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Lahore",
+    "state": "Punjab",
+    "country": "Pakistan"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Ali Safinal",
+  "img": "https://s4.uupload.ir/files/safinal_etnv.jpg",
+  "email": "alisafinal2001@gmail.com",
+  "links": {
+    "website": "https://safinal.pythonanywhere.com",
+    "linkedin": "https://www.linkedin.com/in/safinal",
+    "github": "https://github.com/safinal"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "Iran"
+  }
+}

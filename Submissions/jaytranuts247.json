@@ -1,0 +1,16 @@
+{
+  "name": "Jay Tran",
+  "img": "https://avatars.githubusercontent.com/u/34260590?s=400&u=edb4b98a073ea9da23bc8a979dec01ac8fd89e67&v=4",
+  "email": "tranquang2407@gmail.com",
+  "links": {
+    "website": "https://jaytranuts.herokuapp.com/",
+    "linkedin": "https://www.linkedin.com/in/jaytranuts/",
+    "github": "https://github.com/jaytranuts247"
+  },
+  "jobTitle": "Front End Developer, Full Stack JavaScript, ReactJS Developer, Nodejs Developer, Backend Developer",
+  "location": {
+    "city": "Sanford",
+    "state": "North Carolina",
+    "country": "United State"
+  }
+}

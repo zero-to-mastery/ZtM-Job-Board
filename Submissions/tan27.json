@@ -1,0 +1,17 @@
+{
+    "name": "Tammy Nguyen",
+    "img": "https://github.com/tan27.png",
+    "email": "",
+    "links": {
+      "website": "https://tan27.github.io/Portfolio/",
+      "linkedin": "https://www.linkedin.com/in/tammyangu/",
+      "github": "https://github.com/tan27"
+    },
+    "jobTitle": "Full-Stack Developer",
+    "location": {
+      "city": "Bay Area",
+      "state": "CA",
+      "country": "United States"
+    }
+  }
+  

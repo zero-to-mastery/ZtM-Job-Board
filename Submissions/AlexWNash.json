@@ -1,0 +1,16 @@
+{
+  "name": "Alex Nash",
+  "img": "https://avatars.githubusercontent.com/u/23345365?v=4",
+  "email": "nash.alexander.w@gmail.com",
+  "links": {
+    "website": "https://alexwnash.pythonanywhere.com/",
+    "linkedin": "https://www.linkedin.com/in/alex-nash-919971a2",
+    "github": "https://github.com/AlexWNash"
+  },
+  "jobTitle": "Python Developer",
+  "location": {
+    "city": "Portland",
+    "state": "Oregon",
+    "country": "United States"
+  }
+}

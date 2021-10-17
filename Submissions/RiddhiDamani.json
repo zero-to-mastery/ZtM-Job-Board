@@ -1,0 +1,16 @@
+{
+  "name": "Riddhi Damani",
+  "img": "https://avatars.githubusercontent.com/u/19336011?v=4",
+  "email": "riddhidamani90@gmail.com",
+  "links": {
+    "website": "https://riddhidamani.github.io/Portfolio/",
+    "linkedin": "https://www.linkedin.com/in/riddhidamani/",
+    "github": "https://github.com/RiddhiDamani/"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Chicago",
+    "state": "Illinois",
+    "country": "USA"
+  }
+}

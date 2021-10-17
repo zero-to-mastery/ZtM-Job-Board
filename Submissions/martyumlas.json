@@ -1,0 +1,16 @@
+{
+    "name": "Marty Umlas",
+    "img": "https://martyumlas.github.io/images/avatar.jpg",
+    "email": "martyumlas@yahoo.com",
+    "links": {
+      "website": "https://martyumlas.github.io/",
+      "linkedin": "https://www.linkedin.com/in/martyumlas/",
+      "github": "https://github.com/martyumlas"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Quezon City",
+      "state": "Manila",
+      "country": "Philippines"
+    }
+  }

@@ -1,0 +1,16 @@
+{
+  "name": "CHUONG TANG",
+  "img": "https://avatars.githubusercontent.com/u/75117692?v=4",
+  "email": "chuongtang@icloud.com",
+  "links": {
+    "website": "https://chuongtang.github.io/aboutme",
+    "linkedin": "https://www.linkedin.com/in/chuong-tang",
+    "github": "https://github.com/chuongtang"
+  },
+  "jobTitle": "MERN stack developer",
+  "location": {
+    "city": "Calgary",
+    "state": "Alberta",
+    "country": "Canada"
+  }
+}

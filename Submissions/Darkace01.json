@@ -1,0 +1,17 @@
+{
+  "id": "d0a33127-5208-4c66-b605-30c24f19430a",
+  "name": "Kazeem Quadri",
+  "img": "https://avatars.githubusercontent.com/u/33027659?s=400&u=444883eb7710d011d33992f9df3a0b9befc6f2f1&v=4",
+  "email":"",
+  "links": {
+    "website": "http://www.kaz.com.ng/",
+    "linkedin": "https://www.linkedin.com/in/kazeemquadri01",
+    "github": "https://github.com/darkace01"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Lagos",
+    "state": "Lagos",
+    "country": "Nigeria"
+  }
+}

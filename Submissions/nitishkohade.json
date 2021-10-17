@@ -1,0 +1,16 @@
+{
+    "name": "Nitish Kohade",
+    "img": "https://avatars.githubusercontent.com/u/8028627?v=4",
+    "email": "nitish.kohade@gmail.com",
+    "links": {
+        "website": "https://nitishkohade.herokuapp.com/",
+        "linkedin": "https://www.linkedin.com/in/nitishkohade",
+        "github": "https://github.com/nitishkohade"
+    },
+    "jobTitle": "Full Stack developer",
+    "location": {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "country": "India"
+    }
+}

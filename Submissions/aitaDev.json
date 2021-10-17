@@ -1,0 +1,16 @@
+{
+	"name": "Dan Aita",
+	"img": "",
+	"email": "dan@aita.dev",
+	"links": {
+	  "website": "https://aita.dev",
+	  "linkedin": "https://www.linkedin.com/in/daniel-aita-0117551b0/",
+	  "github": "https://github.com/aitaDev"
+	},
+	"jobTitle": "Full Stack Developer",
+	"location": {
+	  "city": "Dallas Fort Worth",
+	  "state": "Texas",
+	  "country": "USA"
+	}
+  }

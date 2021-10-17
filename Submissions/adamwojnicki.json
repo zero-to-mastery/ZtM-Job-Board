@@ -1,0 +1,16 @@
+{
+  "name": "Adam Wojnicki",
+  "img": "https://github.com/adamwojnicki.png",
+  "email":"",
+  "links": {
+    "website": "https://adamwojnicki.github.io/",
+    "linkedin": "https://www.linkedin.com/in/adam-wojnicki-58a58215b/",
+    "github": "https://github.com/adamwojnicki"
+  },
+  "jobTitle": "Frontend Web Developer",
+  "location": {
+    "city": "Warsaw",
+    "state": "Masovia",
+    "country": "Poland"
+  }
+}

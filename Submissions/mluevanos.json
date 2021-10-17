@@ -1,0 +1,16 @@
+  {
+    "name": "Michael Luevanos",
+    "img": "https://github.com/mluevanos.png",
+    "email": "",
+    "links": {
+      "website": "https://michaelluevanos.com/",
+      "linkedin": "https://www.linkedin.com/in/michael-luevanos/",
+      "github": "https://github.com/mluevanos"
+    },
+    "jobTitle": "Full Stack Developer | Data Science",
+    "location": {
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States"
+    }
+  }

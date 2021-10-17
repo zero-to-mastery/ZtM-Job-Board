@@ -1,0 +1,16 @@
+{
+  "name": "Joseph Harrison",
+  "img": "",
+  "email": "joe@joescript.io",
+  "links": {
+    "website": "https://joescript.io",
+    "linkedin": "https://www.linkedin.com/in/joescript>",
+    "github": "https://github.com/BanJoeH"
+  },
+  "jobTitle": "Front-end Web Developer, React",
+  "location": {
+    "city": "London",
+    "state": "London",
+    "country": "UK"
+  }
+}

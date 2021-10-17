@@ -1,0 +1,16 @@
+{
+  "name": "Priyank Harjilawala",
+  "img": "",
+  "email": "pharjilawala07@gmail.com",
+  "links": {
+    "website": "https://priyank1712.github.io/About-me/",
+    "linkedin": "https://www.linkedin.com/in/priyank-harjilawala-308939177/",
+    "github": "https://github.com/priyank1712"
+  },
+  "jobTitle": "Front-End Web Developer",
+  "location": {
+    "city": "Surat",
+    "state": "Gujarat",
+    "country": "India"
+  }
+}

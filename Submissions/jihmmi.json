@@ -1,0 +1,16 @@
+{
+  "name": "Jaime Hernandez",
+  "img": "https://avatars.githubusercontent.com/u/23367108?v=4",
+  "email":"",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/jaime-israel-hernandez-martinez-5094ba25",
+    "github": "https://github.com/jihmmi"
+  },
+  "jobTitle": "Epicor 10 Developer (C#) | Full Stack Web Developer",
+  "location": {
+    "city": "Montreal",
+    "state": "Quebec",
+    "country": "Canada"
+  }
+}

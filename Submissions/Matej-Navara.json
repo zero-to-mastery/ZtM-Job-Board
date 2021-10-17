@@ -1,0 +1,16 @@
+{
+  "name": "Matej Navara",
+  "img": "https://matejnavara.com/assets/images/profile.gif",
+  "email":"",
+  "links": {
+    "website": "https://www.matejnavara.com",
+    "linkedin": "https://www.linkedin.com/in/matejnavara",
+    "github": "https://github.com/matejnavara"
+  },
+  "jobTitle": "Full-Stack Developer (Javascript || C# || Python || Java)",
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "Anywhere (Remotely) "
+  }
+}

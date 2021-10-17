@@ -1,0 +1,16 @@
+{
+  "name": "Michael Falat",
+  "img": "https://github.com/FalatM.png",
+  "email": "Michael@MichaelFalat.Dev",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/michaelfalat/",
+    "github": "https://github.com/FalatM"
+  },
+  "jobTitle": "Full Stack Developer | Electronics Specialist",
+  "location": {
+    "city": "Richmond",
+    "state": "Virginia",
+    "country": "USA"
+  }
+}

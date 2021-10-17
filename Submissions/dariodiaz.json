@@ -1,0 +1,16 @@
+{
+    "name": "Dario Diaz",
+    "img": "https://github.com/dariodiaz.png",
+    "email":"diazdarioalejandro@gmail.com",
+    "links": {
+      "website": "https://darioalejandrodiaz.com",
+      "linkedin": "https://www.linkedin.com/in/darioalejandrodiaz/",
+      "github": "https://github.com/dariodiaz"
+    },
+    "jobTitle": "QA Engineer",
+    "location": {
+      "city": "San Rafael",
+      "state": "Mendoza",
+      "country": "Argentina"
+    }
+  }

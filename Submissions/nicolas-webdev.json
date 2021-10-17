@@ -1,0 +1,16 @@
+{
+  "name": "Nicolas Giaconia",
+  "img": "https://avatars.githubusercontent.com/u/73022145?v=4",
+  "email": "nicobsas+webdev@gmail.com",
+  "links": {
+    "website": "https://nicolas-webdev.github.io/",
+    "linkedin": "https://www.linkedin.com/in/nikorasu",
+    "github": "https://github.com/nicolas-webdev"
+  },
+  "jobTitle": "React Developer",
+  "location": {
+    "city": "Osaka",
+    "state": "Osaka",
+    "country": "Japan"
+  }
+}

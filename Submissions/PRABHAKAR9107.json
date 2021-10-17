@@ -1,0 +1,16 @@
+{
+    "name": "Prabhakar Kumar",
+    "img": "https://res.cloudinary.com/djnxdb9dr/image/upload/v1548192150/41955085_2229675423936147_1220212264766799872_o-c_scale_q_100_w_200.jpg",
+    "email": "prabhakarku98@gmail.com",
+    "links": {
+      "website": "https://prabhakar9107.github.io/",
+      "linkedin": "https://www.linkedin.com/in/prabhakar-kumar-1b3944147/",
+      "github": "https://github.com/PRABHAKAR9107"
+    },
+    "jobTitle": "Front-End Engineer",
+    "location": {
+      "city": "Bhagalpur",
+      "state": "Bihar",
+      "country": "India"
+    }
+  }

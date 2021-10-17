@@ -1,0 +1,15 @@
+{
+  "name": "Ryan Nicoletti",
+  "img": "unnamed.jpg",
+  "email":"",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/christophernicoletti/",
+    "github": "https://github.com/RyanNicoletti"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Fairfax",
+    "state": "Virginia",
+    "country": "United States"
+  }
+}

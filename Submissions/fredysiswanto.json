@@ -1,0 +1,16 @@
+{
+  "name": "Fredy Siswanto",
+  "img": "https://avatars.githubusercontent.com/u/45227018?v=4",
+  "email":"idloginfredy@gmail.com",
+  "links": {
+    "website": "https://siwanto.web.id/",
+    "linkedin": "https://www.linkedin.com/in/fredy-siswanto/",
+    "github": "https://github.com/fredysiswanto"
+  },
+  "jobTitle": "Frontend Web Developer",
+  "location": {
+    "city": "Batam",
+    "state": "Kepri",
+    "country": "Indonesia"
+  }
+}
