@@ -1,0 +1,16 @@
+{
+  "name": "Rajat Mandar",
+  "img": "https://avatars.githubusercontent.com/u/42696800?v=4",
+  "email": "rajat.mandar@gmail.com",
+  "links": {
+    "website": "https://rajatm.netlify.app",
+    "linkedin": "https://www.linkedin.com/in/rajat--m/",
+    "github": "https://github.com/Rajatm544"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India"
+  }
+}
