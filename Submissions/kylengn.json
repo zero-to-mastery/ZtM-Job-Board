@@ -1,0 +1,17 @@
+{
+    "name": "Kyle Nguyen",
+    "img": "[YOUR_IMG_URL]",
+    "email": "kyle.nguyen304@gmail.com",
+    "links": {
+      "website": "https://kylengn.github.io/portfolio/",
+      "linkedin": "https://www.linkedin.com/in/kyle-ngn",
+      "github": "https://github.com/kylengn"
+    },
+    "jobTitle": "Full Stack Developer 🚀",
+    "location": {
+      "city": "Toronto",
+      "state": "Ontario",
+      "country": "Canada"
+    }
+  }
+  

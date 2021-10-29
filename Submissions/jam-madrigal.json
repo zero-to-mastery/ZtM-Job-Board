@@ -1,0 +1,17 @@
+{
+    "name": "Alex Madrigal",
+    "img": "https://avatars.githubusercontent.com/u/65047802?v=4l",
+    "email": "jam.madrigal@gmail.com",
+    "links": {
+      "website": "https://portfolio-jammadrigal.herokuapp.com/",
+      "linkedin": "https://www.linkedin.com/in/alex-madrigal-b5b8461a9/",
+      "github": "https://github.com/jam-madrigal"
+    },
+    "jobTitle": "Full-Stack Web Developer",
+    "location": {
+      "city": "Lakewood",
+      "state": "Washington",
+      "country": "United States"
+    }
+  }
+  
