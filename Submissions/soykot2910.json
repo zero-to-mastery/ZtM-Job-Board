@@ -1,0 +1,16 @@
+{ 
+    "name": "Md.Soykot",
+     "img": "https://avatars.githubusercontent.com/u/44709658?v=4", 
+     "email": "md.soykot2910@gmail.com", 
+     "links":{ 
+        "website": "https://www.soykot.info/", 
+        "linkedin": "https://www.linkedin.com/in/soykot2910/", 
+        "github": "https://github.com/soykot2910/"
+    }, 
+    "jobTitle": "Full Stack Developer", 
+    "location":{ 
+        "city": "Dhaka", 
+        "state": "Dhaka", 
+        "country": "Bangladesh" 
+        } 
+}
