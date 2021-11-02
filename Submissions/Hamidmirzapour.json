@@ -1,0 +1,16 @@
+{
+  "name": "hamid Mirzapour",
+  "img": "https://hamidmirzapour.ir/wp-content/uploads/2021/09/hamid-300x300.jpg",
+  "email": "h.r.mirzapour@gmail.com",
+  "links": {
+    "website": "https://hamidmirzapour.ir/",
+    "linkedin": "https://www.linkedin.com/in/hamid-mirzapour/",
+    "github": "https://github.com/Hamidmirzapour"
+  },
+  "jobTitle": "Machine Learning Engineer and Algorithmic Trader",
+  "location": {
+    "city": "Tehran",
+    "state": "Tehran",
+    "country": "Iran"
+  }
+}
