@@ -1,0 +1,16 @@
+{
+  "name": "Sarah Schmidt",
+  "img": "https://avatars.githubusercontent.com/u/47662713?s=400&u=122f9ad3ec9a5fbfc07a178350140d31cc96429f&v=4",
+  "email": "sschmidt0@uoc.edu",
+  "links": {
+    "website": "https://portfolio-schmidt.vercel.app",
+    "linkedin": "https://www.linkedin.com/in/sschmidt0/",
+    "github": "https://github.com/sschmidt0"
+  },
+  "jobTitle": "Frontend Developer",
+  "location": {
+    "city": "Barcelona",
+    "state": "Catalonia",
+    "country": "Spain"
+  }
+}
