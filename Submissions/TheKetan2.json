@@ -1,0 +1,16 @@
+{
+  "name": "Ketan Ramteke",
+  "img": "https://avatars.githubusercontent.com/u/8502835?v=4",
+  "email": "ketantooforhire@gmail.com",
+  "links": {
+    "website": "[YOUR_WEBSITE_URL]",
+    "linkedin": "https://www.linkedin.com/in/theketan2",
+    "github": "https://github.com/theketan2"
+  },
+  "jobTitle": "React Native + React JS + Flutter",
+  "location": {
+    "city": "Pune",
+    "state": "Maharashtra",
+    "country": "India"
+  }
+}
