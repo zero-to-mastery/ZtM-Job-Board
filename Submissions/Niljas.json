@@ -1,0 +1,16 @@
+{
+  "name": "Nilay Jasapara",
+  "img": "",
+  "email": "Nilayjasapara@gmail.com",
+  "links": {
+    "website": "https://niljas.pythonanywhere.com/",
+    "linkedin": "https://www.linkedin.com/in/NilayJasapara",
+    "github": "https://github.com/Niljas"
+  },
+  "jobTitle": "Python Developer"
+  "location": {
+    "city": "Frisco"
+    "state": "Texas"
+    "country": "USA"
+  }
+}
