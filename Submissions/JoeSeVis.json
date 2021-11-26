@@ -1,0 +1,16 @@
+{
+    "name": "Josephus Johannes van der Vyver",
+    "img": "https://ibb.co/S0kpdm9",
+    "email": "joe@uluru.host",
+    "links": {
+      "website": "uluru.host",
+      "linkedin": "https://www.linkedin.com/in/joe-van-der-vyver-5aa63a203/",
+      "github": "https://github.com/JoeSeVis"
+    },
+    "jobTitle": "Director",
+    "location": {
+      "city": "Durbanville",
+      "state": "Western Cape",
+      "country": "South Africa"
+    }
+  }
