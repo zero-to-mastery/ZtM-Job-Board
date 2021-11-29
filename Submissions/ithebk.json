@@ -1,0 +1,16 @@
+{
+  "name": "Bharath Kumar",
+  "img": "https://ithebk.com/images/prof.jpg",
+  "email": "bharath7242@gmail.com",
+  "links": {
+    "website": "https://ithebk.com/",
+    "linkedin": "https://www.linkedin.com/in/ithebk/",
+    "github": "https://github.com/ithebk"
+  },
+  "jobTitle": "Senior Mobile Engineer",
+  "location": {
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India"
+  }
+}
