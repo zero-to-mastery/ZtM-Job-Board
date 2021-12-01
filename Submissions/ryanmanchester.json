@@ -1,0 +1,16 @@
+{
+  "name": "Ryan Manchester",
+  "img": "https://avatars.githubusercontent.com/u/30186945?v=4",
+  "email": "info@ryanmanchester.info",
+  "links": {
+    "website": "http://ryanmanchester.info",
+    "linkedin": "https://www.linkedin.com/in/ryan-manchester",
+    "github": "https://github.com/ryanmanchester"
+  },
+  "jobTitle": "Frontend Developer | Full Stack Developer",
+  "location": {
+    "city": "Brooklyn",
+    "state": "NY",
+    "country": "USA"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Serge Kostrikin",
+  "img": "https://avatars.githubusercontent.com/u/22800914?v=4",
+  "email": "",
+  "links": {
+    "website": "https://serge-k-portfolio.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/serge-kos/",
+    "github": "https://github.com/SergeiKOS"
+  },
+  "jobTitle": "React Front-end developer",
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada"
+  }
+}

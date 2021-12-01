@@ -1,0 +1,16 @@
+{
+  "name": "Kenneth Hsu",
+  "img": "https://keihsu.dev/images/profilepic.png",
+  "email": "kenneth@keihsu.dev",
+  "links": {
+    "website": "https://keihsu.dev",
+    "linkedin": "https://www.linkedin.com/in/keihsu",
+    "github": "https://github.com/keihsu"
+  },
+  "jobTitle": "Full Stack Developer | Software Engineer",
+  "location": {
+    "city": "Los Angeles",
+    "state": "California",
+    "country": "United States"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Jon Tran",
+  "img": "https://avatars.githubusercontent.com/u/45698148?v=4",
+  "email":"trungt8998@gmail.com",
+"links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/jon-tran-b7b637133/",
+    "github": "https://github.com/javie1199"
+  },
+  "jobTitle": "Front End Web Developer",
+  "location": {
+    "city": "Winnipeg",
+    "state": "Manitoba",
+    "country": "Canada"
+  }
+}
