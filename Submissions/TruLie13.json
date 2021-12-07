@@ -1,0 +1,17 @@
+{
+    "name": "Jonathan Zayan",
+    "img": "https://media-exp1.licdn.com/dms/image/C4E03AQHviYu8A7UTOQ/profile-displayphoto-shrink_200_200/0/1634090085061?e=1644451200&v=beta&t=bocQXGOPnxmzYmAok64XZ3MV22ZCxvYPOckThlTEsig",
+    "email":"J.Zayan@yahoo.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/jzayan/",
+      "github": "https://github.com/TruLie13"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "El Paso",
+      "state": "Texas",
+      "country": "USA"
+    }
+  }
+  
