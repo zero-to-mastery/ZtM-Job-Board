@@ -100,17 +100,9 @@ const Card = ({ user }: any) => {
         </div>
         <div style={{ margin: 0, padding: 0 }}>
           <p className="footer items-center justify-center br2 br--bottom">
-            {location.city === "" ? "" : location.city}
-            {(location.city !== "" && location.state !== "") ||
-            (location.city !== "" && location.country !== "")
-              ? ", "
-              : ""}
-            {location.state === "" ? "" : location.state}
-            {(location.city !== "" && location.state !== "") ||
-            (location.state !== "" && location.country !== "")
-              ? ", "
-              : ""}
-            {location.country === "" ? "" : location.country}
+            {location.city ? `${location.city}, `: ""}
+            {location.state ? `${location.state}, ` : ""}
+            {location.country || ""}
           </p>
         </div>
       </div>
