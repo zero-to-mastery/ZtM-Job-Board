@@ -10,7 +10,7 @@ const addDefaultImg = (e: any) => {
   e.target.src = defaultImageDataURI
 }
 const Card = ({ user }: any) => {
-  let { id, img, name, email, jobTitle, location, links } = user
+  let { id, img, name, email, jobTitle, location, links: {website, github, linkedin} } = user
 
   if (id) {
     return (
@@ -37,9 +37,7 @@ const Card = ({ user }: any) => {
         </div>
         <div className="main pv2 ph3 flex items-center justify-center">
           {/* adding email button  */}
-          {email === "" ? (
-            ""
-          ) : (
+          {email && (
             <a
               href={"mailto:" + email}
               className="w2 h2 ma2"
@@ -52,11 +50,9 @@ const Card = ({ user }: any) => {
               </svg>
             </a>
           )}
-          {links.website === "" ? (
-            ""
-          ) : (
+          {website &&(
             <a
-              href={links.website}
+              href={website}
               className="w2 h2 ma2"
               title="Website/Portfolio"
               target="_blank"
@@ -67,11 +63,9 @@ const Card = ({ user }: any) => {
               </svg>
             </a>
           )}
-          {links.github === "" ? (
-            ""
-          ) : (
+          {github && (
             <a
-              href={links.github}
+              href={github}
               className="w2 h2 ma2"
               title="GitHub profile"
               target="_blank"
@@ -82,11 +76,9 @@ const Card = ({ user }: any) => {
               </svg>
             </a>
           )}
-          {links.linkedin === "" ? (
-            ""
-          ) : (
+          {linkedin && (
             <a
-              href={links.linkedin}
+              href={linkedin}
               className="w2 h2 ma2"
               title="LinkedIn profile"
               target="_blank"
