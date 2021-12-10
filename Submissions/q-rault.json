@@ -1,0 +1,16 @@
+{
+  "name": "Quentin Rault",
+  "img": "https://avatars.githubusercontent.com/u/94388164?v=4",
+  "email": "",
+  "links": {
+    "website": "https://q-rault.github.io/",
+    "linkedin": "https://www.linkedin.com/in/quentinrault/",
+    "github": "https://github.com/q-rault"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Nantes",
+    "state": "Pays de La Loire",
+    "country": "France"
+  }
+}
