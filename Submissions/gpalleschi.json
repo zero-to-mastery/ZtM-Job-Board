@@ -1,0 +1,16 @@
+{
+  "name": "Giovanni Palleschi",
+  "img": "https://avatars2.githubusercontent.com/u/12493269?v=4",
+  "email":"gpalleschi@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/gpalleschi/",
+    "github": "https://github.com/gpalleschi"
+  },
+  "jobTitle": "Full-Stack Developer",
+  "location": {
+    "city": "Rome",
+    "state": "Rome",
+    "country": "Italy"
+  }
+}
