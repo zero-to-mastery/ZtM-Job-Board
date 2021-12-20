@@ -9,8 +9,28 @@ const addDefaultImg = (e: any) => {
   e.target.onError = null
   e.target.src = defaultImageDataURI
 }
-const Card = ({ user }: any) => {
-  let { id, img, name, email, jobTitle, location, links: {website, github, linkedin} } = user
+
+type CardProps = {
+  user: {
+    id: number
+    img?: string
+    name: string
+    email: string
+    jobTitle: string
+    location: { city?: string; state?: string; country?: string }
+    links: { website?: string; github?: string; linkedin?: string }
+  }
+}
+const Card: React.FC<CardProps> = ({ user }) => {
+  const {
+    id,
+    img,
+    name,
+    email,
+    jobTitle,
+    location: { city = "", state = "", country = "" },
+    links: { website = "", github = "", linkedin = "" },
+  } = user
 
   if (id) {
     return (
@@ -50,7 +70,7 @@ const Card = ({ user }: any) => {
               </svg>
             </a>
           )}
-          {website &&(
+          {website && (
             <a
               href={website}
               className="w2 h2 ma2"
@@ -92,9 +112,8 @@ const Card = ({ user }: any) => {
         </div>
         <div style={{ margin: 0, padding: 0 }}>
           <p className="footer items-center justify-center br2 br--bottom">
-            {location.city ? `${location.city}, `: ""}
-            {location.state ? `${location.state}, ` : ""}
-            {location.country || ""}
+            {city ? `${city}, ` : ""}
+            {state && country ? `${state}, ${country} ` : state || ""}
           </p>
         </div>
       </div>
