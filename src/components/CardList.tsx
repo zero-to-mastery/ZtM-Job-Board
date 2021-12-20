@@ -3,7 +3,11 @@ import Card from "./Card"
 
 import Person from "../interfaces/person"
 
-const CardList = ({ persons }: any) => {
+type CardListProps = {
+  persons: Person[]
+}
+
+const CardList: React.FC<CardListProps> = ({ persons }) => {
   return (
     <>
       {persons.map((user: Person) => (
