@@ -1,0 +1,16 @@
+{
+  "name": "Matthew L King",
+  "img": "[YOUR_IMG_URL]",
+  "email": "mattking89@gmail.com",
+  "links": {
+    "website": "https://www.mattkingit.com",
+    "linkedin": "https://www.linkedin.com/in/mattkingit",
+    "github": "https://github.com/mattkingit"
+  },
+  "jobTitle": "Programmer",
+  "location": {
+    "city": "Clarksville",
+    "state": "TN",
+    "country": "USA"
+  }
+}
