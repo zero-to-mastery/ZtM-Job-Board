@@ -1,0 +1,16 @@
+{
+  "name": "Dan D.",
+  "img": "https://avatars.githubusercontent.com/u/56956062?v=4",
+  "email": "dan.donica.a@gmail.com",
+  "links": {
+    "website": "https://koders.ro",
+    "linkedin": "https://www.linkedin.com/in/dan-sftdev/",
+    "github": "https://github.com/dan-sftdev"
+  },
+  "jobTitle": "Web Application Developer",
+  "location": {
+    "city": "Timisoara",
+    "state": "Timis",
+    "country": "Romania"
+  }
+}
