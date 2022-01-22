@@ -1,0 +1,16 @@
+{
+    "name": "Matthew Van Pelt",
+    "img": "",
+    "email":"matthewvanpelt92@gmail.com",
+  "links": {
+      "website": "https://www.matthewvanpelt.com/",
+      "linkedin": "https://www.linkedin.com/in/matthew-van-pelt-9304975a/",
+      "github": "https://github.com/mattvp21"
+    },
+    "jobTitle": "Front End Developer || React",
+    "location": {
+      "city": "New Haven",
+      "state": "Connecticut",
+      "country": "USA"
+    }
+  }

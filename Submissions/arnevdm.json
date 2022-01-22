@@ -1,0 +1,16 @@
+{
+  "name": "Arné van der Merwe",
+  "img": "https://avatars.githubusercontent.com/u/59360930?v=4",
+  "email": "arnevanimus@gmail.com",
+  "links": {
+    "website": "https://thirsty-noyce-343516.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/arnevdm",
+    "github": "https://github.com/arnevdm"
+  },
+  "jobTitle": "Front-End Developer",
+  "location": {
+    "city": "Cape Town",
+    "state": "Western Cape",
+    "country": "South Africa"
+  }
+}

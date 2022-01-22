@@ -1,0 +1,16 @@
+{
+  "name": "Ngima Sherpa",
+  "img": "https://www.ngima.me/PP.png",
+  "email": "",
+  "links": {
+    "website": "https://ngima.me",
+    "linkedin": "https://www.linkedin.com/in/ngimasherpa",
+    "github": "https://github.com/ngima"
+  },
+  "jobTitle": "Senior Android Developer",
+  "location": {
+    "city": "Kathmandu",
+    "state": "Bagmati",
+    "country": "Nepal"
+  }
+}
