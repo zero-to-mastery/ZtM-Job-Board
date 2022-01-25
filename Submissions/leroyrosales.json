@@ -1,0 +1,16 @@
+{
+  "name": "Leroy Rosales",
+  "img": "https://avatars.githubusercontent.com/u/3495164?s=400&u=d2dbf9e5a83292d1856f16c6bfdad67ae67b8786&v=4",
+  "email": "leroyrosales@gmail.com",
+  "links": {
+    "website": "https://leroyrosales.com",
+    "linkedin": "https://www.linkedin.com/in/leroyrosales",
+    "github": "https://github.com/leroyrosales"
+  },
+  "jobTitle": "WordPress Engineer",
+  "location": {
+    "city": "Austin",
+    "state": "Texas",
+    "country": "USA"
+  }
+}
