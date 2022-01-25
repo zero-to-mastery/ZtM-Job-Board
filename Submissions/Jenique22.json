@@ -1,0 +1,16 @@
+{
+    "name": "Jenique Knoesen",
+    "img": "https://github.com/Jenique22.png",
+    "email": "jenique82@gmail.com",
+    "links": {
+      "website": "https://distracted-swartz-5b72af.netlify.app/",
+      "linkedin": "https://www.linkedin.com/in/jenique-knoesen-9a8060178/",
+      "github": "https://github.com/Jenique22"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "location": {
+      "city": "Pretoria",
+      "state": "Gauteng",
+      "country": "South Africa"
+    }
+  }
