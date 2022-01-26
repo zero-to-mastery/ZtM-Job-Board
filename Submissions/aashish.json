@@ -1,0 +1,16 @@
+{
+  "name": "Aashish Parajuli",
+  "img": "https://parajuliaashish.com.np/images/myself.jpg",
+  "email": "aashishparajuli4@gmail.com",
+  "links": {
+    "website": "https://parajuliaashish.com.np",
+    "linkedin": "https://www.linkedin.com/in/aashish-parajuli-575a181b0",
+    "github": "https://github.com/asis-parajuli"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Pokhara",
+    "state": "Gandaki Province",
+    "country": "Nepal"
+  }
+}
