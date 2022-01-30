@@ -1,0 +1,16 @@
+{
+  "name": "Riely Moore",
+  "img": "https://drive.google.com/drive/u/0/my-drive",
+  "email": "riley_moore1@outlook.com",
+  "links": {
+    "website": "[YOUR_WEBSITE_URL]",
+    "linkedin": "https://www.linkedin.com/in/riley-moore-659bb9169/",
+    "github": "https://github.com/zebu-lord/Portfolio"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "Denton",
+    "state": "Texas",
+    "country": "United States of America"
+  }
+}
