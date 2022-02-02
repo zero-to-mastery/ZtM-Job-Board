@@ -13,6 +13,7 @@ jobs:
         with:
           fetch-depth: 0
           ref: ${{ github.event.pull_request.head.ref }}
+          node-version: '16'
       - name: Run Script
         shell: bash
         run: |

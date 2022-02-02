@@ -8,9 +8,9 @@ Link to the webpage: [**ZtM JOB Board**](https://zero-to-mastery.github.io/ZtM-J
 
 - `git clone https://github.com/zero-to-mastery/ZtM-Job-Board.git`
 
-- `yarn install` or `npm install`
+- `npm ci`
 
-- `yarn start` or `npm start`
+- `npm start`
 
 ### How to add your name to the list
 
