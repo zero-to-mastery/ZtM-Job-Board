@@ -1,0 +1,16 @@
+{
+  "name": "Jan Tutakiewicz",
+  "img": "https://avatars.githubusercontent.com/u/62543982?v=4",
+  "email": "jan.tut.cz@gmail.com",
+  "links": {
+    "website": "https://elastic-jang-7fee8e.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/jan-tut/",
+    "github": "https://github.com/xts7"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Warsaw",
+    "state": "Mazowieckie",
+    "country": "Poland"
+  }
+}
