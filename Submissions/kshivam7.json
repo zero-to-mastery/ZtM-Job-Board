@@ -1,0 +1,16 @@
+{
+    "name": "Shivam Kumar",
+    "img": "[]",
+    "email": "shivamkumartor40@gmail.com",
+    "links": {
+      "website": "[YOUR_WEBSITE_URL]",
+      "linkedin": "www.linkedin.com/in/shivam-kumar-072793187",
+      "github": "https://github.com/kshivam7"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "location": {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "country": "India"
+    }
+  }
