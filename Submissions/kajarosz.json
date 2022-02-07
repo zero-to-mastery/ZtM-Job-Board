@@ -1,0 +1,16 @@
+{
+    "name": "Karolina Jarosz",
+    "img": "https://avatars.githubusercontent.com/u/62209292?v=4",
+    "email":"karolinaannajarosz@gmail.com",
+  "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/karolinajarosz/",
+      "github": "https://github.com/kajarosz"
+    },
+    "jobTitle": "Python Developer",
+    "location": {
+      "city": "Warsaw",
+      "state": "",
+      "country": "Poland"
+    }
+  }
