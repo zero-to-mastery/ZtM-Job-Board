@@ -1,0 +1,16 @@
+{
+    "name": "Piyush",
+    "img": "https://my-pic.netlify.app/",
+    "email": "piyusharora596@gmail.com",
+    "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/piyush-arora2212/",
+        "github": "https://github.com/piyusharora91"
+    },
+    "jobTitle": "Operations Exceutive",
+    "location": {
+        "city": "YamunaNagar",
+        "state": "Haryana",
+        "country": "India"
+    }
+}
