@@ -1,0 +1,16 @@
+{
+    "name": "Jon Faldmo",
+    "img": "https://media-exp1.licdn.com/dms/image/C4E03AQFQLbGH_fWt2g/profile-displayphoto-shrink_800_800/0/1517230357804?e=1649894400&v=beta&t=ukvrNLot4TVYtGkgRGbGVUBuIgbIyZDJ_iSB1GksrGc",
+    "email": "jondfaldmo@gmail.com",
+    "links": {
+      "website": "splatterlab.com",
+      "linkedin": "https://www.linkedin.com/in/jonfaldmo",
+      "github": "https://github.com/jonfaldmo"
+    },
+    "jobTitle": "Front End Developer",
+    "location": {
+      "city": "Rexburg",
+      "state": "Idaho",
+      "country": "USA"
+    }
+  }
