@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import {
-  Map as LeafletMap,
+  MapContainer as LeafletMap,
   Marker,
   Popup,
   TileLayer,
@@ -103,13 +103,7 @@ function SimpleMap({ zoom = 3 }) {
           ? numberOfDevs + " Developer from " + country
           : numberOfDevs + " Developers from " + country
       return (
-        <Marker
-          key={country}
-          position={[latlng[0], latlng[1]]}
-          color="royalblue"
-          title={numberOfDevsText}
-          text={numberOfDevs}
-        >
+        <Marker key={country} position={[latlng[0], latlng[1]]}>
           <Tooltip>{numberOfDevsText}</Tooltip>
           <Popup>{numberOfDevsText}</Popup>
         </Marker>

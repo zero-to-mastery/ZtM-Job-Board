@@ -1,0 +1,17 @@
+
+{
+    "name": "AnubhavNegi",
+    "img": "https://media-exp1.licdn.com/dms/image/C5103AQGd0nFVbSujeQ/profile-displayphoto-shrink_800_800/0/1554133979796?e=1650499200&v=beta&t=Fel3nLuUvq2NmZYdvUF5v1TE1Ht1w5gHjJm2J1Jn8f8",
+    "email": "anubhavnegi54@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/guyfromhills",
+      "github": "https://github.com/guyfromhills"
+    },
+    "jobTitle": "Front end engineer",
+    "location": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India"
+    }
+  }
