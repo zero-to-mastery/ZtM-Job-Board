@@ -1,0 +1,16 @@
+{
+  "name": "Josef Kohoutek",
+  "img": "https://avatars.githubusercontent.com/u/10513549?v=4",
+  "email": "kohojo@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/josef-kohoutek",
+    "github": "https://github.com/kohojo"
+  },
+  "jobTitle": "C# Developer",
+  "location": {
+    "city": "Brno",
+    "state": "Czech Republic",
+    "country": "Czech Republic"
+  }
+}
