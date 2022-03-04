@@ -1,0 +1,16 @@
+{
+  "name": "Obed Boakye Danquah Quavo",
+  "img": "https://github.com/lucky-chap/huncho.dev/tree/main/public/static/images/quavo.jpg",
+  "email": "hunchodotdev@gmail.com",
+  "links": {
+    "website": "huncho-dev.vercel.app",
+    "linkedin": "https://www.linkedin.com/in/obedboakyedanquah",
+    "github": "https://github.com/lucky-chap"
+  },
+  "jobTitle": "Fullstack Web Developer",
+  "location": {
+    "city": "Tema",
+    "state": "Accra",
+    "country": "Ghana"
+  }
+}
