@@ -1,0 +1,16 @@
+{ 
+    "name": "Chisombiri Leonard NLEWEDIM", 
+    "img": "https://avatars.githubusercontent.com/u/32229401?v=4", 
+    "email":"chisombiri@gmail.com", 
+    "links": { 
+        "website": "", 
+        "linkedin": "https://www.linkedin.com/in/chisombiri-nlewedim-81570596/", 
+        "github": "https://github.com/chisombiri" 
+    }, 
+    "jobTitle": "Frontend Web Developer", 
+    "location": { 
+        "city": "Lekki", 
+        "state": "Lagos", 
+        "country": "Nigeria" 
+    } 
+}
