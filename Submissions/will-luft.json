@@ -1,0 +1,16 @@
+{
+  "name": "Will Luft",
+  "img": "https://avatars.githubusercontent.com/u/18623078?v=4",
+  "email": "william.d.luft@gmail.com",
+  "links": {
+    "website": "https://willluft.com/",
+    "linkedin": "https://www.linkedin.com/in/william-luft-42ab9258/",
+    "github": "https://github.com/wdluft"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Long Island",
+    "state": "New York",
+    "country": "USA"
+  }
+}
