@@ -1,0 +1,16 @@
+{
+    "name": "Michael Hamilton",
+    "img": "https://avatars.githubusercontent.com/u/62978640?v=4",
+    "email": "",
+    "links": {
+        "website": "https://michaelhamilton.netlify.app",
+        "linkedin": "https://www.linkedin.com/in/mikehamdev",
+        "github": "https://github.com/hamilton-mike"
+    },
+    "jobTitle": "Full-Stack Developer",
+    "location": {
+        "city": "Mesa",
+        "state": "Arizona",
+        "country": "USA"
+    }
+}
