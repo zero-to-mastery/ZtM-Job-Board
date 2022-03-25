@@ -1,0 +1,16 @@
+{
+  "name": "Brian W Brown",
+  "img": "https://bwbrown-portfolio.netlify.app/profile.c757801b.jpg",
+  "email": "",
+  "links": {
+    "website": "https://bwbrown-portfolio.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/brianwbrown75",
+    "github": "https://github.com/bwbrown75"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Boulder County",
+    "state": "Colorado",
+    "country": "USA"
+  }
+}
