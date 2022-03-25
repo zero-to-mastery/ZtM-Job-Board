@@ -1,0 +1,16 @@
+{
+    "name": "Simon Yank",
+    "img": "https://scontent.fvno3-1.fna.fbcdn.net/v/t39.30808-6/274748286_143811844774831_3106587718568088792_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=aivL6RUGzHwAX80jtxr&_nc_ht=scontent.fvno3-1.fna&oh=00_AT8DdpF6VOz5ZvK0ypkGNhVuoQbA0h6gC6HvhqD61ibtHA&oe=623F309A",
+    "email": "simon@reactit.co.uk",
+    "links": {
+        "website": "https://reactit.co.uk",
+        "linkedin": "",
+        "github": "https://github.com/simonyank"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "location": {
+        "city": "London",
+        "state": "",
+        "country": "United Kingdom"
+    }
+}
