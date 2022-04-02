@@ -1,0 +1,16 @@
+{
+  "name": "Abhisek Paul",
+  "img": "https://avatars.githubusercontent.com/u/48186101?v=4.png",
+  "email": "abhisek529@gmail.com",
+  "links": {
+    "website": "https://fueler.io/abhisek",
+    "linkedin": "https://www.linkedin.com/in/abhisek47",
+    "github": "https://github.com/abhisek47"
+  },
+  "jobTitle": "Fullstack Developer",
+  "location": {
+    "city": "Raiganj",
+    "state": "West Bengal",
+    "country": "India"
+  }
+}
