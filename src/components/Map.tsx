@@ -21,33 +21,13 @@ let centerLatLngArr: any = []
 function SimpleMap({ zoom = 3 }) {
   const [allCountriesLatLang, setAllCountriesLatLang] = useState([])
   useEffect(() => {
-    // If the user goes back to home before map has loaded, the Map component will unmount
-    // but since fetch cannot be cancelled, react will try to setSate on an unmounted component
-    // when the fetch Promise resolves
-    // This throws memory leak error so isComponentSubscribedToPromise is used as a flag
-    // to check if the component was unmounted before setting state
-    // and setAllCountriesLatLang is not called if Map component has unmounted
-//    let isComponentSubscribedToPromise = true
     setAllCountriesLatLang(countriesWithLatLng)
-//    return () => {
-//      isComponentSubscribedToPromise = false
-//    }
   }, [])
 
   let countriesLatLngArr: any = allCountriesLatLang.map(({ name, latlng }) => ({
     name,
     latlng,
   }))
-
-  /* 
-  Made separate variable for UK because name of UK in API is "United Kingdom 
-  of Great Britain and Northern Ireland" which probably none of the users will use
-  */
-  //const UK = {
-  //  country: "United Kingdom",
-  //  latlng: [54, -2], // copied from API
-  //  numberOfDevs: countriesWithNumOfDevsObj["United Kingdom"],
-  //}
 
   // Two nested for loops are okay as array items will always be < 250 in both arrays
   let finalArrayWithCountryAndLatLng: any = []
@@ -66,12 +46,10 @@ function SimpleMap({ zoom = 3 }) {
         }
       }
     }
-    // Add UK to final array of countries and co-ordinates
-    //finalArrayWithCountryAndLatLng.push(UK)
+
     return finalArrayWithCountryAndLatLng
   }
   finalCountryAndLocationArray()
-  // console.log(finalArrayWithCountryAndLatLng);
 
   // DO NOT DELETE THIS COMMENTED OUT CODE BELOW
   // Might need it to check for unexpected repeated entries which is easier with sorted countries
