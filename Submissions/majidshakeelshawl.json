@@ -1,0 +1,16 @@
+{
+    "name": "Majid Shakeel Shawl",
+    "img": "https://media-exp1.licdn.com/dms/image/C5103AQEo6Qk2el3-Yg/profile-displayphoto-shrink_800_800/0/1563339423792?e=1655337600&v=beta&t=VIaafWoefkKlz3VUjl8luio1rdpZrdha2HQish-AN-I",
+    "email": "majidshakeelshawl@gmail.com",
+    "links": {
+        "website": "https://majidshakeelshawl.github.io/PersonalWebsite/index.html",
+        "linkedin": "https://www.linkedin.com/in/majidshakeelshawl/",
+        "github": "https://github.com/majidshakeelshawl"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+        "city": "Srinagar",
+        "state": "Jammu & Kashmir",
+        "country": "INDIA"
+    }
+}
