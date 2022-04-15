@@ -1,0 +1,16 @@
+{
+    "name": "Konstantyn Romanowski",
+    "img": "https://avatars.githubusercontent.com/u/96599233?v=4",
+    "email": "kn.romanowski@icloud.com",
+    "links": {
+      "website": "http://konstantynromanowski.pythonanywhere.com",
+      "linkedin": "https://www.linkedin.com/in/konstantyn-romanowski/",
+      "github": "https://github.com/KonstantynRomanowski"
+    },
+    "jobTitle": "Python developer",
+    "location": {
+      "city": "Poznan",
+      "state": "Greater Poland",
+      "country": "Poland"
+    }
+  }
