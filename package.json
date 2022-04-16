@@ -49,6 +49,7 @@
     "test": "npm-run-all aggregate-json && react-scripts test --env=jsdom",
     "deploy": "gh-pages -d build",
     "aggregate-json": "node scripts/aggregate-json.mjs",
+    "countries-json": "node scripts/countries-json.mjs",
     "prepare": "husky install"
   },
   "devDependencies": {
@@ -58,6 +59,7 @@
     "husky": "^7.0.4",
     "jsonlint": "^1.6.3",
     "lint-staged": "^12.3.4",
+    "node-fetch": "^3.2.3",
     "prettier": "^2.5.1",
     "purgecss-webpack-plugin": "^4.1.3"
   },
