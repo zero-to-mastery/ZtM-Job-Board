@@ -1,15 +1,15 @@
 {
   "name": "Hanan Awwad",
-  "img": "https://avatars.githubusercontent.com/u/6022364?s=40&v=4",
+  "img": "https://avatars.githubusercontent.com/u/6022364?v=4",
   "email": "eng.hanan.awwad@gmail.com",
   "links": {
-    "linkedin": "https://www.linkedin.com/in/hanansameerrafiqawwad/",
+    "linkedin": "https://www.linkedin.com/in/hanansameerrafiqawwad",
     "github": "https://github.com/HananAwwad"
   },
   "jobTitle": "Senior Software Engineer",
   "location": {
     "city": "Ramallah",
-    "state": "Ramallah",
+    "state": "",
     "country": "Palestine"
   }
 }
