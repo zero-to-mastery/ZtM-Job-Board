@@ -1,0 +1,16 @@
+{
+    "name": "Ashu kumar",
+    "img": "https://drive.google.com/file/d/1_PZzX2THmPPFzNcgXzh-q0rdU8GE35a7/view?usp=sharing",
+    "email": "ashuk1545@gmail.com",
+    "links": {
+      "website": "aashu1.pythonanywhere.com/",
+      "linkedin": "https://www.linkedin.com/in/ashu-kumar-470380153/",
+      "github": "https://github.com/ashuspy"
+    },
+    "jobTitle": "Software engineer",
+    "location": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India"
+    }
+  }
