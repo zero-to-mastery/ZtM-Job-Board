@@ -1,0 +1,16 @@
+{
+  "name": "Xavier Val",
+  "img": "https://avatars.githubusercontent.com/u/4479644?v=4",
+  "email": "info@xavierval.com",
+  "links": {
+    "website": "xavierval.com",
+    "linkedin": "https://www.linkedin.com/in/xavierval",
+    "github": "https://github.com/xavierval"
+  },
+  "jobTitle": "QA",
+  "location": {
+    "city": "Madrid",
+    "state": "EU",
+    "country": "Spain"
+  }
+}
