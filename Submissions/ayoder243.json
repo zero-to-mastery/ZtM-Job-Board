@@ -1,0 +1,16 @@
+{
+  "name": "Aaron Yoder",
+  "img": "http://ayoder243.pythonanywhere.com/static/images/avatar.png",
+  "email": "ayoder243@gmail.com",
+  "links": {
+    "website": "http://ayoder243.pythonanywhere.com/",
+    "linkedin": "https://www.linkedin.com/in/aaron-yoder-b58bb8236/",
+    "github": "https://github.com/ayoder243"
+  },
+  "jobTitle": "IT Tech",
+  "location": {
+    "city": "",
+    "state": "Missouri",
+    "country": "USA"
+  }
+}
