@@ -1,0 +1,16 @@
+{
+  "name": "Hyerin Cheon",
+  "img": "[YOUR_IMG_URL]",
+  "email": "hlyni22@gmail.com",
+  "links": {
+    "website": "https://www.hyerincheon.ca/",
+    "linkedin": "https://www.linkedin.com/in/hyerin-cheon/",
+    "github": "https://github.com/hyerin22"
+  },
+  "jobTitle": "Front-end Developer",
+  "location": {
+    "city": "Vancouver",
+    "state": "British Columbia",
+    "country": "Canada"
+  }
+}
