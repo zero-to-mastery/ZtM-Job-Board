@@ -17,6 +17,22 @@
     "id": "f81f28e5-f8de-4526-9ebe-63883de2d4de"
   },
   {
+    "name": "Shubham Vishwakarma",
+    "img": "https://media-exp1.licdn.com/dms/image/C5603AQF-040uaYs7Ag/profile-displayphoto-shrink_200_200/0/1620112108406?e=1658361600&v=beta&t=opeIiGvGIqseuaG0jZosbz_o-_-Zb0-vtA97ksGCLNM",
+    "email": "shubham@vshubham.com",
+    "links": {
+      "website": "https://vshubham.com",
+      "linkedin": "https://www.linkedin.com/in/shubhamvs",
+      "github": "https://github.com/shubhamvs"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "country": "INDIA"
+    }
+  },
+  {
     "name": "Eudinson Uy",
     "img": "https://media-exp1.licdn.com/dms/image/C4D03AQEput_UocJ_HQ/profile-displayphoto-shrink_200_200/0/1606740828039?e=1617235200&v=beta&t=BNEEcHKabPFQu0-uN8EfbRXRU6pziUGtp-pZK5U0yPM",
     "email": "",
