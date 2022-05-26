@@ -1,0 +1,16 @@
+{
+  "name": "Michelle Zheng",
+  "img": "[YOUR_IMG_URL]",
+  "email": "[YOUR_EMAIL_ADDRESS]",
+  "links": {
+    "website": "[YOUR_WEBSITE_URL]",
+    "linkedin": "https://www.linkedin.com/in/michelle-zheng-586959201/",
+    "github": "https://github.com/michymichelle"
+  },
+  "jobTitle": "Student at Yale, Looking for CS Internships",
+  "location": {
+    "city": "[YOUR_CITY]",
+    "state": "Connecticut",
+    "country": "USA"
+  }
+}
