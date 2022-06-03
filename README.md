@@ -24,8 +24,8 @@ If you are unclear on how the GitHub workflow works, you can check the [Make a P
 
 To add your name to the list, create a file `<YOUR_GH_USERNAME>.json`
 inside `Submissions/` folder, and then fill it up with following content.
-( **Don't include the square brackets "[ ]" or angle brackets "< >" !!! They
-are just there to indicate an example placeholder.** )
+(**Don't include the square brackets "[ ]" or angle brackets "< >" !!! They
+are just there to indicate an example placeholder.**)
 
 ```json
 {
