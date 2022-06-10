@@ -1,0 +1,16 @@
+{
+    "name": "Jahmal Camp",
+    "img": "https://media-exp2.licdn.com/dms/image/C4D03AQHeTK5qGkyrNQ/profile-displayphoto-shrink_400_400/0/1566489605183?e=1660176000&v=beta&t=Wu2DjGeAYyI4z8muArXzg2HXW4DuxRdSefg3OQ9OP4w",
+    "email": "j.senju1919@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/jahmalcamp/",
+      "github": "https://github.com/SenjuSama2012"
+    },
+    "jobTitle": "Rust Developer | Software Developer",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA",
+      "country": "USA"
+    }
+  }
