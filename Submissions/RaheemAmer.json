@@ -1,0 +1,16 @@
+{
+    "name": "Raheem Amer",
+    "img": "https://avatars.githubusercontent.com/u/18606136?v=4",
+    "email": "raheem.amer22@gmail.com",
+    "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/raheem-amer/",
+        "github": "https://github.com/RaheemAmer"
+    },
+    "jobTitle": "Software Engineer(Frontend)",
+    "location": {
+        "city": "6th Of October",
+        "state": "Cairo",
+        "country": "Egypt"
+    }
+}
