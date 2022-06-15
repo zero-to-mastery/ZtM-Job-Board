@@ -1,0 +1,16 @@
+{
+  "name": "Mike Lam",
+  "img": "https://github.com/mike-photo.png",
+  "email": "mdlam88@gmail.com",
+  "links": {
+    "website": "https://mikelammy.github.io/landingPage/",
+    "linkedin": "https://www.linkedin.com/in/mike-t-lam",
+    "github": "https://github.com/mikelammy"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "San Jose",
+    "state": "California",
+    "country": "United States"
+  }
+}
