@@ -1,0 +1,16 @@
+{
+    "name": "Karan Chandekar",
+    "img": "https://avatars.githubusercontent.com/u/93200960?v=4",
+    "email": "karanchandekar431@gmail.com",
+    "links": {
+      "website": "https://portfolio-me-karanchandekar.vercel.app/",
+      "linkedin": "https://www.linkedin.com/in/karan-chandekar-a87263219/",
+      "github": "https://github.com/KaranChandekar"
+    },
+    "jobTitle": "Front-End Developer",
+    "location": {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "country": "India"
+    }
+  }
