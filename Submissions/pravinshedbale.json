@@ -1,0 +1,16 @@
+{
+    "name": "Pravin Shedbale",
+    "img": "[YOUR_IMG_URL]",
+    "email": "pravin.shedbale@outlook.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/pravinshedbale",
+      "github": "https://github.com/pravinshedbale"
+    },
+    "jobTitle": "Frontend Web Developer",
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India"
+    }
+  }
