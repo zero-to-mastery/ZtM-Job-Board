@@ -1,9 +1,9 @@
 {
   "name": "Aaron Yoder",
-  "img": "http://ayoder243.pythonanywhere.com/static/images/avatar.png",
+  "img": "https://randomflea.dev/static/images/avatar.png",
   "email": "ayoder243@gmail.com",
   "links": {
-    "website": "http://ayoder243.pythonanywhere.com/",
+    "website": "https://randomflea.dev/",
     "linkedin": "https://www.linkedin.com/in/aaron-yoder-b58bb8236/",
     "github": "https://github.com/ayoder243"
   },
