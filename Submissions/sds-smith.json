@@ -1,0 +1,16 @@
+{
+    "name": "Shawn Smith",
+    "img": "https://avatars.githubusercontent.com/u/90342433?v=4",
+    "email": "sds.smith24@gmail.com",
+    "links": {
+      "website": "https://sds-smith.dev",
+      "linkedin": "https://www.linkedin.com/in/shawn-smith-3379ab13/",
+      "github": "https://github.com/sds-smith"
+    },
+    "jobTitle": "Web and Mobile Developer",
+    "location": {
+      "city": "Hanover",
+      "state": "PA",
+      "country": "USA"
+    }
+  }
