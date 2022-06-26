@@ -1,0 +1,16 @@
+{
+    "name": "Patrick Lesiewicz",
+    "img": "https://avatars.githubusercontent.com/u/105363801?v=4",
+    "email": "lesiewicz.patrick@gmail.com",
+    "links": {
+      "website": "https://krspatrick.github.io/My_Portfolio/",
+      "linkedin": "https://www.linkedin.com/in/patrick-lesiewicz-1004a41a3/",
+      "github": "https://github.com/KrsPatrick"
+    },
+    "jobTitle": "Back-end Developer",
+    "location": {
+      "city": "Marktredwitz",
+      "state": "Bayern",
+      "country": "Germany"
+    }
+  }
