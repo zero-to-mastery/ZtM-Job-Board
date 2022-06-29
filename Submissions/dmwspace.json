@@ -1,0 +1,16 @@
+{
+    "name": "Dean Wright",
+    "img": "",
+    "email": "dmwspace@gmail.com",
+    "links": {
+      "website": "https://dmwspace.github.io/portfolio-page/",
+      "linkedin": "https://www.linkedin.com/in/dean-wright-73125669/",
+      "github": "https://github.com/dmwspace"
+    },
+    "jobTitle": "Frontend Web Developer",
+    "location": {
+      "city": "Shoreline",
+      "state": "Washington",
+      "country": "USA"
+    }
+  }
