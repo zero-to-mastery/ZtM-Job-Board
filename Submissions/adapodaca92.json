@@ -1,0 +1,16 @@
+{
+    "name": "Anthony Apodaca",
+    "img": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/240936465_1959830074204585_4163234236910133602_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=OxqQK3JN-lkAX_WrjzK&tn=2fjtmZhFbFVwOMK1&_nc_ht=scontent-sjc3-1.xx&oh=00_AT8n6QmoeV61c5OtOAr7-WR-FT7tzQVu61fFpy3HDXc_RA&oe=62CFD3E8",
+    "email": "adapodaca92@gmail.com",
+    "links": {
+      "website": "https://my-portfolio2-smoky.vercel.app/",
+      "linkedin": "https://www.linkedin.com/in/anthonyapodaca92/",
+      "github": "https://github.com/adapodaca92"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Anderson",
+      "state": "California",
+      "country": "United States"
+    }
+  }
