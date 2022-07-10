@@ -1,0 +1,16 @@
+{
+  "name": "Damian Padilla",
+  "img": "https://avatars.githubusercontent.com/u/62222815?v=4",
+  "email": "damipad4@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/damian-padilla-9031287a/",
+    "github": "https://github.com/Damianpad"
+  },
+  "jobTitle": "React Frontend Developer",
+  "location": {
+    "city": "Dallas",
+    "state": "Texas",
+    "country": "USA"
+  }
+}
