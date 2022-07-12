@@ -1,0 +1,16 @@
+{
+  "name": "James Boon",
+  "img": "https://avatars.githubusercontent.com/u/61937112?v=4",
+  "email": "jwboon@pm.me",
+  "links": {
+    "website": "https://jamesboon.dev/",
+    "linkedin": "https://www.linkedin.com/in/jamesboon-dev/",
+    "github": "https://github.com/JimmyBoon"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "Brisbane",
+    "state": "Queensland",
+    "country": "Australia"
+  }
+}
