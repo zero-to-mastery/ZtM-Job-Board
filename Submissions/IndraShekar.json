@@ -1,0 +1,16 @@
+{
+  "name": "Indra Shekar G",
+  "img": "https://media-exp2.licdn.com/dms/image/C5603AQHqRzuNb2Y6hQ/profile-displayphoto-shrink_800_800/0/1638792766687?e=1663200000&v=beta&t=jpA-lPWh7qFBtZ8UnuWf1wasFNwfF5OShL0AF0Uv4nE",
+  "email": "indrashekar406@gmail.com",
+  "links": {
+    "website": "https://portfolio-indra.herokuapp.com/",
+    "linkedin": "https://www.linkedin.com/in/indra-shekar-g/",
+    "github": "https://github.com/indra-g"
+  },
+  "jobTitle": "Full Stack Web & Android Developer",
+  "location": {
+    "city": "bangalore",
+    "state": "Karnataka",
+    "country": "India"
+  }
+}
