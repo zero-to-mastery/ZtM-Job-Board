@@ -1,0 +1,16 @@
+{
+    "name": "Szymon Kupisz",
+    "img": "https://avatars.githubusercontent.com/u/34217509?v=4",
+    "email": "szym-ku@wp.pl",
+    "links": {
+      "website": "https://skupisz.netlify.app",
+      "linkedin": "https://www.linkedin.com/in/szymon-kupisz-0a8a91193/",
+      "github": "https://github.com/SKupisz"
+    },
+    "jobTitle": "FrontEnd React Developer | SEO positioner",
+    "location": {
+      "city": "Warsaw",
+      "state": "Mazowieckie",
+      "country": "Poland"
+    }
+}
