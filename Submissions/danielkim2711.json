@@ -1,0 +1,16 @@
+{
+  "name": "Daniel Kim",
+  "img": "https://avatars.githubusercontent.com/u/80291484?v=4",
+  "email": "danielkim2711@gmail.com",
+  "links": {
+    "website": "https://www.danielkim2711.com",
+    "linkedin": "https://www.linkedin.com/in/danielkim2711",
+    "github": "https://github.com/danielkim2711"
+  },
+  "jobTitle": "Front End Developer",
+  "location": {
+    "city": "Auckland",
+    "state": "",
+    "country": "New Zealand"
+  }
+}
