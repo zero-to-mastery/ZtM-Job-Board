@@ -1,0 +1,16 @@
+{
+  "name": "Betty",
+  "img": "https://avatars.githubusercontent.com/u/88605013?v=4",
+  "email": "betty2002o@gmail.com",
+  "links": {
+    "website": "https://bettychiang-portfolio.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/betty-chiang/",
+    "github": "https://github.com/betty2002o"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Vancouver",
+    "state": "British Columbia",
+    "country": "Canada"
+  }
+}
