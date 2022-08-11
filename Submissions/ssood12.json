@@ -1,0 +1,16 @@
+{
+  "name": "Shivangi Sood",
+  "img": "",
+  "email": "shivangi.sood0012@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/shivangi-sood/",
+    "github": "https://github.com/ssood12"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Toronto",
+    "state": "Ontario",
+    "country": "Canada"
+  }
+}
