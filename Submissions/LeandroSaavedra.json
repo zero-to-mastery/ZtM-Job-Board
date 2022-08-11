@@ -1,0 +1,16 @@
+{
+  "name": "Leandro Saavedra",
+  "img": "https://media-exp1.licdn.com/dms/image/C4D03AQHovDP6ljz-bg/profile-displayphoto-shrink_200_200/0/1646252255086?e=1665619200&v=beta&t=Nw5X4qHGfi6KvBBzN-3on6uPMdMrJz58ykehpXfYNew",
+  "email": "leandro.saavedra19@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/lsaavedra-arg/",
+    "github": "https://github.com/lsaavedra"
+  },
+  "jobTitle": "Senior Software Engineer | Golang Backend Developer",
+  "location": {
+    "city": "Cordoba",
+    "state": "Cordoba",
+    "country": "Argentina"
+  }
+}
