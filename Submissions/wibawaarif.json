@@ -1,0 +1,16 @@
+{
+  "name": "Arif Wibawa",
+  "img": "https://avatars.githubusercontent.com/u/105232319?v=4",
+  "email": "arifwb.work@gmail.com",
+  "links": {
+    "website": "https://wibawaarif-portofolio.herokuapp.com/",
+    "linkedin": "https://www.linkedin.com/in/arifwibawaa/",
+    "github": "https://github.com/wibawaarif"
+  },
+  "jobTitle": "Fullstack Developer",
+  "location": {
+    "city": "Bandung",
+    "state": "West Java",
+    "country": "Indonesia"
+  }
+}
