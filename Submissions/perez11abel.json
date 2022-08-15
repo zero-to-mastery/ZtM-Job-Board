@@ -1,0 +1,16 @@
+{
+  "name": "Abel Perez",
+  "img": "https://media-exp1.licdn.com/dms/image/D5635AQFTbOROV_9TbQ/profile-framedphoto-shrink_400_400/0/1658167250053?e=1661187600&v=beta&t=2cfxGKQb_PMl_0Ng_QD7Touxi8QvV9e7hY0C-jejzLY",
+  "email": "abel_perez9@hotmail.com",
+  "links": {
+    "website": "https://perez11abel-portfolio.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/abel-perez-developer/",
+    "github": "https://github.com/perez11abel"
+  },
+  "jobTitle": "Front-End Developer",
+  "location": {
+    "city": "Fort Worth",
+    "state": "Texas",
+    "country": "United States"
+  }
+}
