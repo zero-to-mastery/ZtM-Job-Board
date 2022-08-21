@@ -1,0 +1,16 @@
+  {
+  "name": "Kunal Keshan",
+  "img": "https://avatars.githubusercontent.com/u/68579547?v=4",
+  "email": "kunalkeshan12@gmail.com",
+  "links": {
+    "website": "https://kunalkeshan.dev",
+    "linkedin": "https://www.linkedin.com/in/kunalkeshan",
+    "github": "https://github.com/kunalkeshan"
+  },
+  "jobTitle": "Full-Stack Developer",
+  "location": {
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India"
+  }
+}
