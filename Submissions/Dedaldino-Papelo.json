@@ -1,0 +1,16 @@
+{
+    "name": "Dedaldino Papelo",
+    "img": "https://github.com/Dedaldino-Papelo.png",
+    "email":"kelsonpapelo18@gmail.com",
+    "links": {
+      "website": "https://dedaldino-papelo.vercel.app/",
+      "linkedin": "https://www.linkedin.com/in/dedaldino-papelo",
+      "github": "https://github.com/Dedaldino-Papelo"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "location": {
+      "city": "Luanda",
+      "state": "",
+      "country": "Angola"
+    }
+  }
