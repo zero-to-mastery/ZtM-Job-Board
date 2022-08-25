@@ -1,0 +1,16 @@
+{
+    "name": "Stepan Matysik",
+    "img": "https://avatars.githubusercontent.com/u/17432633?v=4",
+    "email": "stepanmatysik@gmail.com",
+    "links": {
+      "website": "https://elfsvet.github.io/stepan-react-portfolio/",
+      "linkedin": "https://www.linkedin.com/in/stepanmatysik",
+      "github": "https://github.com/elfsvet"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Fort Lauderdale",
+      "state": "Florida",
+      "country": "United States"
+    }
+  }
