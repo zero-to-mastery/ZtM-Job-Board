@@ -1,0 +1,16 @@
+{
+  "name": "Pratama Andiko",
+  "img": "https://github.com/pratamaandiko.png",
+  "email": "pratamandiko@gmail.com",
+  "links": {
+    "website": "https://pratamaandiko.site",
+    "linkedin": "https://www.linkedin.com/in/pratamaandiko",
+    "github": "https://github.com/pratamaandiko"
+  },
+  "jobTitle": "Front-end Developer",
+  "location": {
+    "city": "Bandung",
+    "state": "Jawa Barat",
+    "country": "Indonesia"
+  }
+}
