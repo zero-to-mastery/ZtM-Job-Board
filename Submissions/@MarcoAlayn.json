@@ -1,0 +1,16 @@
+{
+    "name": "Marco Alayn Robles",
+    "img": "https://github.com/MarcoAlayn.png",
+    "email": "Marc_rob92@hotmail.com",
+    "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/marco-alayn-robles-olivas-890259174",
+        "github": "https://github.com/MarcoAlayn"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+        "city": "Hermosillo",
+        "state": "Sonora",
+        "country": "México"
+    }
+}
