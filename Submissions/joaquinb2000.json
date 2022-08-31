@@ -1,0 +1,16 @@
+{
+    "name": "Joaquin Berrios",
+    "img": "https://drive.google.com/file/d/1qeRzp2zEUlO9UHh5SnreQYg4xLVrqcZq/view?usp=sharing",
+    "email": "joaquinberon2000@gmail.com",
+    "links": {
+      "website": "https://joaquinb2000.github.io/Portfolio-site/",
+      "linkedin": "https://www.linkedin.com/in/joaquin-berrios-826001172/",
+      "github": "https://github.com/Joaquinb2000"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "location": {
+      "city": "Valera",
+      "state": "Trujillo",
+      "country": "Venezuela"
+    }
+  }

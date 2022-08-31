@@ -1,0 +1,16 @@
+{
+  "name": "Elvin Yekayev",
+  "img": "https://avatars.githubusercontent.com/u/64169101?s=96&v=4",
+  "email": "elvinyeka@gmail.com",
+  "links": {
+    "website": "https://elvindev.com/",
+    "github": "https://github.com/elvinyeka",
+    "linkedin": "https://www.linkedin.com/in/elvin-yekayev/"
+  },
+  "jobTitle": "Front-End React Developer",
+  "location": {
+    "city": "Baku",
+    "state": "",
+    "country": "Azerbaijan"
+  }
+}

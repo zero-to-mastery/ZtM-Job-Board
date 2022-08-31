@@ -1,0 +1,16 @@
+{
+  "name": "Dyshine Hill",
+  "img": "",
+  "email": "issiahmckeil2@gmail.com",
+  "links": {
+    "website": "dyshinehill.com",
+    "linkedin": "https://www.linkedin.com/in/<YOUR_LINKEDIN_USERNAME>",
+    "github": "https://github.com/shyned"
+  },
+  "jobTitle": "Full STACK WEB DEVELOPER",
+  "location": {
+    "city": "Houston",
+    "state": "Texas",
+    "country": "United States"
+  }
+}

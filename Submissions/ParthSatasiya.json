@@ -1,0 +1,16 @@
+{
+  "img": "https://media-exp1.licdn.com/dms/image/C4E03AQFmEeHvUXjeKw/profile-displayphoto-shrink_800_800/0/1636139454464?e=1652918400&v=beta&t=aZ7_UdVLkYtYaSBpdkWqqK76k4z3brihKAwrupzCvwg",
+  "name": "Parth Satasiya",
+  "email": "parthsatasiya51@gmail.com",
+  "links": {
+    "website": "https://healthi.tresata.com/",
+    "linkedin": "https://www.linkedin.com/in/parth-satasiya-569104151/",
+    "github": "https://github.com/ParthSatasiya"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "country": "India"
+  }
+}

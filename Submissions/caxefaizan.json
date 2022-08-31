@@ -1,14 +1,16 @@
 {
   "id": "c90015e9-73af-423b-9ad0-4af41f90650c",
   "name": "Faizan Qazi",
-  "img": "https://drive.google.com/file/d/1SCvbLjEEMXRP8erjEmMe2wqoVoI3zB9M/view?usp=drivesdk",
-  "email":"",
+  "img": "https://media-exp1.licdn.com/dms/image/C5603AQEH-mPDUUYgbQ/profile-displayphoto-shrink_800_800/0/1584121609542?e=1659571200&v=beta&t=sNTtpsAV6IGxzyqdfYBrBm-Qx-wchC-Mmy-5m4KqOhE",
+  "email":"faizanzahid09@hotmail.com",
   "links": {
-    "website": "http://caxefaizan.pythonanywhere.com",
+    "website": "https://caxefaizan.pythonanywhere.com/",
     "linkedin": "https://www.linkedin.com/in/caxefaizan/",
-    "github": "https://github.com/caxefaizan"
+    "github": "https://github.com/caxefaizan",
+    "medium": "https://medium.com/@caxefaizan",
+    "stackoverflow": "https://stackoverflow.com/users/14091289/caxefaizan"
   },
-  "jobTitle": "Python Developer|Full Stack Developer|Embedded IoT Developer",
+  "jobTitle": "Full Stack Python Developer | Analyst- API Management and Integration",
   "location": {
     "city": "Bangalore",
     "state": "Karnataka",

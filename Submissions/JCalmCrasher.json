@@ -1,0 +1,16 @@
+{
+    "name": "Joshua Osagie",
+    "img": "https://media-exp1.licdn.com/dms/image/C4D03AQEbR8Ut9coQOA/profile-displayphoto-shrink_800_800/0/1608434541035?e=1649894400&v=beta&t=7JdZmw7gTNW5I2d1LZLbrKRFStYGfwluaQCv91ENZaE",
+    "email": "joshua.osagie01@gmail.com",
+    "links": {
+      "website": "https://joshxtreme.vercel.app",
+      "linkedin": "https://www.linkedin.com/in/joshua-osagie-159102149/",
+      "github": "https://github.com/JCalmCrasher"
+    },
+    "jobTitle": "Frontend Developer",
+    "location": {
+      "city": "Abuja",
+      "state": "FCT",
+      "country": "Nigeria"
+    }
+  }
