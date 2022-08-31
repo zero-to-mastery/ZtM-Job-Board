@@ -1,0 +1,15 @@
+{
+    "name":"Anup Bhandari",
+    "img":"https://avatars.githubusercontent.com/u/55269672?s=40&v=4",
+    "email":"anup.daron@gmail.com",
+    "links":{
+        "website":"",
+        "github":"https://github.com/anupdaron",
+        "linkedin":"https://www.linkedin.com/in/anup-bhandari-484271144/"
+    },"jobTitle":"Full-stack Developer",
+    "location":{
+        "city":"kathmandu",
+        "state":"Bagmati",
+        "country":"Nepal"
+    }
+}
