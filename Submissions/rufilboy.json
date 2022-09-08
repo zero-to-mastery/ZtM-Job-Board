@@ -1,16 +1,16 @@
 {
-  "name": "[ILYAS RUFAI]",
-  "img": "[https://github.com/rufilboy.png]",
+  "name": "ILYAS RUFAI",
+  "img": "https://github.com/rufilboy.png",
   "email": "[rufaiilyas@gmail.com]",
   "links": {
-    "website": "[https://www.rufilboy.netlify.app]",
+    "website": "https://www.rufilboy.netlify.app",
     "linkedin": "https://www.linkedin.com/in/rufilboy",
     "github": "https://github.com/rufilboy"
   },
-  "jobTitle": "[DevOps Engineer]",
+  "jobTitle": "DevOps Engineer",
   "location": {
-    "city": "[Ibadan]",
-    "state": "[Oyo State]",
-    "country": "[Nigeria]"
+    "city": "Ibadan",
+    "state": "Oyo State",
+    "country": "Nigeria"
   }
 }
