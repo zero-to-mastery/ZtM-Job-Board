@@ -1,0 +1,16 @@
+{
+  "name": "Dan Marius Dumitrescu",
+  "img": "https://avatars.githubusercontent.com/u/58673649?v=4",
+  "email": "dm@danmarius.dev",
+  "links": {
+    "website": "https://danmarius.dev",
+    "linkedin": "https://www.linkedin.com/in/danmariusdumitrescu",
+    "github": "https://github.com/dan-d"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Barcelona",
+    "state": "Cataluña",
+    "country": "Spain"
+  }
+}
