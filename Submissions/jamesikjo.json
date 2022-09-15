@@ -1,0 +1,16 @@
+{
+    "name": "James Jo",
+    "img": "https://avatars.githubusercontent.com/u/57969414?v=4",
+    "email": "jamesikjo@gmail.com",
+    "links": {
+      "website": "jamesjo.dev",
+      "linkedin": "https://www.linkedin.com/in/jamesikjo",
+      "github": "https://github.com/jamesikjo"
+    },
+    "jobTitle": "Front-End Developer",
+    "location": {
+      "city": "San Francisco Bay Area",
+      "state": "CA",
+      "country": "USA"
+    }
+  }
