@@ -1,0 +1,16 @@
+{ 
+  "name": "Kris Hu",
+  "img": "https://avatars.githubusercontent.com/u/96692347?v=4",
+  "email": "z416854@hotmail.com",
+  "links": {
+    "website": "https://za416854.github.io/",
+    "linkedin": "https://www.linkedin.com/in/kris-wen-hsuan-hu-a71b51183/",
+    "github": "https://github.com/za416854"
+  },
+  "jobTitle": "Junior C# Software developer",
+  "location": {
+    "city": "Taipei",
+    "state": "",
+    "country": "Taiwan"
+  }
+}
