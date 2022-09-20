@@ -1,0 +1,16 @@
+{
+  "name": "Angela Sullivan",
+  "img": "https://avatars.githubusercontent.com/u/93938033?v=4",
+  "email": "angelasullivan0407@gmail.com",
+  "links": {
+    "website": "https://angela-sullivan-portfolio.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/angela-sullivan-20036916/",
+    "github": "https://github.com/angv2852"
+  },
+  "jobTitle": "Front-end Developer",
+  "location": {
+    "city": "St. George",
+    "state": "Utah",
+    "country": "USA"
+  }
+}
