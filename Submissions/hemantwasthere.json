@@ -1,0 +1,16 @@
+{
+  "name": "Hemant",
+  "img": "https://avatars.githubusercontent.com/u/85151171?v=4",
+  "email": "hemant.is.there@gmail.com",
+  "links": {
+    "website": "https://itsmehemant.tech",
+    "linkedin": "https://linkedin.com/in/hemantwasthere",
+    "github": "https://github.com/hemantwasthere"
+  },
+  "jobTitle": "FRONTEND DEVELOPER",
+  "location": {
+    "city": "Rohini",
+    "state": "New Delhi",
+    "country": "INDIA"
+  }
+}
