@@ -1,0 +1,16 @@
+{
+    "name": "Paarit Verma",
+    "img": "https://avatars.githubusercontent.com/u/14869829?v=4",
+    "email": "paaritvermaa@gmail.com",
+    "links": {
+      "website": "[YOUR_WEBSITE_URL]",
+      "linkedin": "https://www.linkedin.com/in/paarit-verma-058724134/",
+      "github": "https://github.com/Paarit"
+    },
+    "jobTitle": "Front-End Web Developer",
+    "location": {
+      "city": "Toronto",
+      "state": "Ontario",
+      "country": "Canada"
+    }
+  }
