@@ -1,0 +1,16 @@
+{
+    "name": "Kenneth Lamb",
+    "img": "https://kennethlamb.me/images/kenny.jpg",
+    "email": "lambkenny77@gmail.com",
+    "links": {
+      "website": "https://kennethlamb.me/",
+      "linkedin": "https://www.linkedin.com/in/kenneth-lamb/",
+      "github": "https://github.com/slurrps-mcgee"
+    },
+    "jobTitle": "Software Developer",
+    "location": {
+      "city": "Glens Falls",
+      "state": "NY",
+      "country": "US"
+    }
+  }
