@@ -1,0 +1,16 @@
+{
+    "name": "Samantha Crespo",
+    "img": "https://avatars.githubusercontent.com/u/100810716?v=4",
+    "email": "samkcrespo@gmail.com",
+    "links": {
+      "website": "https://samcrespo.com/",
+      "linkedin": "https://www.linkedin.com/in/samantha-crespo-tech/",
+      "github": "https://github.com/samkcrespo"
+    },
+    "jobTitle": "Full Stack Software Engineer",
+    "location": {
+      "city": "Richland",
+      "state": "Washington",
+      "country": "USA"
+    }
+  }
