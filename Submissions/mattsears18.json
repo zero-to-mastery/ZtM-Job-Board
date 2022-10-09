@@ -1,0 +1,16 @@
+{
+  "name": "Dr. Matt Sears",
+  "img": "https://github.com/mattsears18.png",
+  "email": "mattsears18@gmail.com",
+  "links": {
+    "website": "https://mattsears18.com",
+    "linkedin": "https://www.linkedin.com/in/mattsears18",
+    "github": "https://github.com/mattsears18"
+  },
+  "jobTitle": "Senior Software Engineer",
+  "location": {
+    "city": "Richmond",
+    "state": "KY",
+    "country": "USA"
+  }
+}
