@@ -1,0 +1,16 @@
+{
+  "name": "Emmanuel Omulo",
+  "img": "https://avatars.githubusercontent.com/u/53110935?v=4",
+  "email": "omuloemmanuel@gmail.com",
+  "links": {
+    "website": "emmanuelomulo.com",
+    "linkedin": "https://www.linkedin.com/in/emmanuel-omulo/",
+    "github": "https://github.com/ManuOmulo"
+  },
+  "jobTitle": "Full-Stack Developer (MERN, Django, AWS)",
+  "location": {
+    "city": "Nairobi",
+    "state": "",
+    "country": "Kenya"
+  }
+}
