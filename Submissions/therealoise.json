@@ -1,0 +1,16 @@
+{
+    "name": "Godsent Abode",
+    "img": "https://github.com/therealoise.png",
+    "email": "godsentabode@gmail.com",
+    "links": {
+      "website": "https://godsentabode.com/",
+      "linkedin": "https://www.linkedin.com/in/oiseabode",
+      "github": "https://github.com/therealoise"
+    },
+    "jobTitle": "Data Scientist",
+    "location": {
+      "city": "Esenyurt",
+      "state": "Istanbul",
+      "country": "Turkey"
+    }
+  }
