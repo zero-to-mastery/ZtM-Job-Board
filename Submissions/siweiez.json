@@ -1,0 +1,16 @@
+{
+  "name": "Siwei Zhang",
+  "img": "",
+  "email": "siweiezhang@gmail.com",
+  "links": {
+    "website": "https://siweiez.github.io/",
+    "linkedin": "https://www.linkedin.com/in/zsiwei/",
+    "github": "https://github.com/siweiez"
+  },
+  "jobTitle": "Front-end Developer",
+  "location": {
+    "city": "Vancouver",
+    "state": "BC",
+    "country": "Canada"
+  }
+}
