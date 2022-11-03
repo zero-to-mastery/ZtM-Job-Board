@@ -1,0 +1,16 @@
+{
+    "name": "Soumik Das",
+    "img": "https://media-exp1.licdn.com/dms/image/D4D03AQH1pw1nom2TuA/profile-displayphoto-shrink_800_800/0/1667370849057?e=1672876800&v=beta&t=K7gtfcaVtY_dRz2OyIyq9HoYbnz4gTIRrhix8Ng2FC8",
+    "email": "mail2soumikdas@gmail.com",
+    "links": {
+      "website": "https://www.soumik-das.com/",
+      "linkedin": "https://www.linkedin.com/in/soumik-das-profile/",
+      "github": "https://github.com/FalconEthics"
+    },
+    "jobTitle": "Front-End Web Developer",
+    "location": {
+      "city": "Kokrajhar",
+      "state": "Assam",
+      "country": "India"
+    }
+  }
