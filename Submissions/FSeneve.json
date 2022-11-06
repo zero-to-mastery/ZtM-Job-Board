@@ -1,0 +1,16 @@
+{
+    "name": "Francis Seneve",
+    "img": "",
+    "email": "francisseneve@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/francis-seneve-manyenye-2a079b175/",
+      "github": "https://github.com/FSeneve"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+      "city": "Libreville",
+      "state": "Estuaire",
+      "country": "Gabon"
+    }
+  }
