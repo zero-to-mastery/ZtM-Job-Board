@@ -1,0 +1,16 @@
+{
+  "name": "Amrindra Ouk",
+  "img": "https://avatars.githubusercontent.com/u/70451928?s=400&u=bfab26dfd314a0523a033ed62974820eed69ca3e&v=4",
+  "email": "oamrindra@gmail.com",
+  "links": {
+    "website": "https://amrindraouk.com/",
+    "linkedin": "https://www.linkedin.com/in/amrindra-ouk-0960161a4/",
+    "github": "https://github.com/Amrindra"
+  },
+  "jobTitle": "Frontend Developer",
+  "location": {
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA"
+  }
+}
