@@ -1,0 +1,16 @@
+{
+    "name": "David Sallusti",
+    "img": "https://media-exp1.licdn.com/dms/image/C5603AQGnHmxv-dyFiw/profile-displayphoto-shrink_400_400/0/1517552281544?e=1674086400&v=beta&t=KpkHdR1dz65NNUzHkwqYFNUGCh18OmRszDwt9J72LpQ",
+    "email": "davidsallusti@me.com",
+    "links": {
+      "website": "https://flowmatics.io",
+      "linkedin": "https://www.linkedin.com/in/davidsallusti",
+      "github": "https://github.com/davidsallusti"
+    },
+    "jobTitle": "Director, Technical Services",
+    "location": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    }
+  }
