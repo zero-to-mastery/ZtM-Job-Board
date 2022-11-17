@@ -1,0 +1,16 @@
+{
+  "name": "Huseyin Oztas",
+  "img": "https://media-exp1.licdn.com/dms/image/C4D03AQEbOLFSUY4dyw/profile-displayphoto-shrink_200_200/0/1631081483326?e=1674086400&v=beta&t=8kKFNPmoKjmIq93DLW8PVuBhyIabjJrR9b9BBqFP4ag",
+  "email": "huseyinooztas@gmail.com",
+  "links": {
+    "website": "[YOUR_WEBSITE_URL]",
+    "linkedin": "https://www.linkedin.com/in/hüseyin-ö-674873b5/",
+    "github": "https://github.com/huseyinoztas"
+  },
+  "jobTitle": "Front-end Developer",
+  "location": {
+    "city": "Turkey",
+    "state": "Bursa",
+    "country": "Bursa"
+  }
+}
