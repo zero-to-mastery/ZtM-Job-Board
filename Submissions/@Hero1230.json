@@ -1,0 +1,16 @@
+{
+    "name": "Max Mogilski",
+    "img": "",
+    "email": "maxmogilski@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/max-mogilski/",
+      "github": "https://github.com/Hero1230"
+    },
+    "jobTitle": "Frontend Developer",
+    "location": {
+      "city": "Horsens",
+      "state": "",
+      "country": "Denmark"
+    }
+  }
