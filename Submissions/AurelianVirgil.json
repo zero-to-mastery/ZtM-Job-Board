@@ -1,0 +1,16 @@
+{
+  "name": "Aurelian Virgil Dragne",
+  "img": "https://avatars.githubusercontent.com/u/106430923?v=4",
+  "email": "dragneaurelian@gmail.com",
+  "links": {
+    "website": "https://aurelianvirgil.github.io/my-first-website/",
+    "linkedin": "https://www.linkedin.com/in/<YOUR_LINKEDIN_USERNAME>",
+    "github": "https://github.com/AurelianVirgil"
+  },
+  "jobTitle": "FullStack Developer",
+  "location": {
+    "city": "Bucharest",
+    "state": "Bucharest",
+    "country": "Romania"
+  }
+}
