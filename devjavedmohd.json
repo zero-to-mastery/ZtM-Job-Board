@@ -1,0 +1,16 @@
+{
+  "name": "Mohd Javed",
+  "img": "https://avatars.githubusercontent.com/u/8804681?s=400",
+  "email":"dev.javedmohd@gmail.com",
+  "links": {
+    "website": "https://devjavedmohd.github.io/",
+    "linkedin": "https://www.linkedin.com/in/mohammadjaved01/",
+    "github": "https://github.com/devjavedmohd"
+  },
+  "jobTitle": "Software Engineer, Web Developer",
+  "location": {
+    "city": "Delhi",
+    "state": "Delhi",
+    "country": "India"
+  }
+}
