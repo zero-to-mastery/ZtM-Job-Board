@@ -1,0 +1,16 @@
+{
+  "name": "Phuc Le",
+  "img": "https://avatars.githubusercontent.com/u/88473384?v=4",
+  "email": "phucnh.le@gmail.com",
+  "links": {
+    "website": "https://phucle.org",
+    "linkedin": "https://www.linkedin.com/in/phucnguyenhoangle/",
+    "github": "https://github.com/phucle-gin"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Ho Chi Minh",
+    "state": "",
+    "country": "Viet Nam"
+  }
+}
