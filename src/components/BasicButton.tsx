@@ -13,7 +13,6 @@ const BasicButton: React.FC<BasicButtonProps> = ({
   children,
   disabled,
 }: any) => {
-  console.log("BasicButton", action, children, disabled)
   return (
     <div className="flex items-center justify-center pa4 custom--basic-button">
       <button
