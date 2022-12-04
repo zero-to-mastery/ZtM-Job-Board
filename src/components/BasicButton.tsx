@@ -2,7 +2,18 @@ import React from "react"
 
 import "../styles/BasicButton.scss"
 
-const BasicButton = ({ action, children, disabled }: any) => {
+interface BasicButtonProps {
+  action: () => void
+  children: string
+  disabled?: boolean
+}
+
+const BasicButton: React.FC<BasicButtonProps> = ({
+  action,
+  children,
+  disabled,
+}: any) => {
+  console.log("BasicButton", action, children, disabled)
   return (
     <div className="flex items-center justify-center pa4 custom--basic-button">
       <button
