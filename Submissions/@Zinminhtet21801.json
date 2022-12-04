@@ -1,0 +1,16 @@
+{
+    "name": "Zin Min Htet",
+    "img": "https://iili.io/HBt8wzu.jpg",
+    "email":"",
+  "links": {
+      "website": "https://zekes.vercel.app/",
+      "linkedin": "https://www.linkedin.com/in/zin-min-htet-704971215/",
+      "github": "https://github.com/Zinminhtet21801/"
+    },
+    "jobTitle": "Full-Stack Developer",
+    "location": {
+      "city": "Yangon",
+      "state": "Yangon",
+      "country": "Myanmar"
+    }
+  }
