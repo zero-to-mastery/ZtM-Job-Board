@@ -69,4 +69,4 @@ https://github.com/aneta-s.png
 
 ### Resources
 
-All icons have been sourced from [Material Design Icons](https://materialdesignicons.com) and [Octicons](https://octicons.github.com/)
+All icons have been sourced from [Material Design Icons](https://materialdesignicons.com) and [Octicons](https://octicons.github.com/) 
