@@ -1,0 +1,16 @@
+{
+  "name": "Nestor Peña",
+  "img": "https://avatars.githubusercontent.com/u/31867207?v=4",
+  "email": "penalopez.nestor@gmail.com",
+  "links": {
+    "website": "www.nestor-pena.ch",
+    "linkedin": "https://www.linkedin.com/in/nestor-pena/",
+    "github": "https://github.com/npenalopez"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "Biel",
+    "state": "Bern",
+    "country": "Switzerland"
+  }
+}

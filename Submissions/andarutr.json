@@ -1,0 +1,16 @@
+{
+  "name": "Andaru Triadi",
+  "img": "https://github.com/andarutr.png",
+  "email": "andarutr@gmail.com",
+  "links": {
+    "website": "https://andarutriadi.my.id",
+    "linkedin": "https://www.linkedin.com/in/andaru-triadi-b33a78189/",
+    "github": "https://github.com/andarutr"
+  },
+  "jobTitle": "Back-End Developer",
+  "location": {
+    "city": "Jakarta Timur",
+    "state": "DKI Jakarta",
+    "country": "Indonesia"
+  }
+}
