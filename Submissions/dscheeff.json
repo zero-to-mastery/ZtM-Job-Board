@@ -1,0 +1,16 @@
+{
+  "name": "David Scheeff",
+  "img": "https://media-exp1.licdn.com/dms/image/C5603AQH7vW4H1yLqnQ/profile-displayphoto-shrink_200_200/0/1592710679495?e=1675900800&v=beta&t=wVPiq45stx-NMAOyMS--RC5Sbcnj0uFSgo2em3g61_s",
+  "email": "david.ml.chef@gmail.com",
+  "links": {
+    "website": "https://kdstechnologies.com/",
+    "linkedin": "https://www.linkedin.com/in/davidscheeff",
+    "github": "https://github.com/dscheeff"
+  },
+  "jobTitle": "Technology Consultant / Machine Learning Engineer",
+  "location": {
+    "city": "Irvine",
+    "state": "California",
+    "country": "USA"
+  }
+}
