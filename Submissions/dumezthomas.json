@@ -1,0 +1,16 @@
+{
+  "name": "Thomas Dumez",
+  "img": "https://github.com/dumezthomas.png",
+  "email": "info@dumezthomas.dev",
+  "links": {
+    "website": "https://dumezthomas.dev/",
+    "linkedin": "https://www.linkedin.com/in/dumezthomas/",
+    "github": "https://github.com/dumezthomas"
+  },
+  "jobTitle": "MERN Stack Developer",
+  "location": {
+    "city": "Whistler",
+    "state": "BC",
+    "country": "Canada"
+  }
+}
