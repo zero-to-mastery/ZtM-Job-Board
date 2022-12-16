@@ -1,0 +1,15 @@
+{
+  "name": "Victor Augusto Dias Bernardes",
+  "img": "https://media.licdn.com/dms/image/D4D35AQELt3bV89Bz3w/profile-framedphoto-shrink_400_400/0/1668951887401?e=1671793200&v=beta&t=1OgzEN5HHBW6av9R25hpJKJmL4CZsNRmtJf5sJl39e0",
+  "email": "vdbernardes@gmail.com",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/victor-aug/",
+    "github": "https://github.com/VictorAugDB/"
+  },
+  "jobTitle": "Full stack developer",
+  "location": {
+    "city": "Sorocaba",
+    "state": "São Paulo",
+    "country": "Brasil"
+  }
+}
