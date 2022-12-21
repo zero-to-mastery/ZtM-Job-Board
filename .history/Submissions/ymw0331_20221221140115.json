@@ -1,0 +1,16 @@
+{
+  "name": "Yong Ming Wei(Wayne)",
+  "img": "https://res.cloudinary.com/ddojsg1fy/image/upload/v1671485815/profile-picture_tagzlx.jpg",
+  "email": "",
+  "links": {
+    "website": "https://wayneyong.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/ymw0331",
+    "github": "https://github.com/ymw0331"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Kuala Lumpur",
+    "state": "Wilayah Persekutuan KL",
+    "country": "Malaysia"
+  }
+}
