@@ -1,0 +1,16 @@
+{
+  "name": "Nikesh Dhakal",
+  "img": "",
+  "email": "dhakalnikesh2001@gmail.com",
+  "links": {
+    "website": "https://nikeshd10.github.io/Personal-Portfolio/",
+    "linkedin": "https://www.linkedin.com/in/nikesh-dhakal-7102491b7/",
+    "github": "https://github.com/nikeshD10"
+  },
+  "jobTitle": "React Web & Mobile Developer",
+  "location": {
+    "city": "Lisbon",
+    "state": "Lisbon",
+    "country": "Portugal"
+  }
+}
