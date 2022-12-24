@@ -45,16 +45,18 @@ function App() {
   //in order to avoid memory duplication
   shuffle(people)
 
+  function goBack() {
+    setMap(!map);
+    setMapOrHomeTitle(map ? pageNames.map : pageNames.home);
+  }
+
   return (
     <div className="flex flex-column min-vh-100 tc">
       <header className="custom--unselectable fixed top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-9999">
         <Navbar
-          onLogoClick={() => setMap(false)}
+          onLogoClick={goBack}
           onSearchChange={(e: any) => setSearchfield(e.target.value)}
-          onMapClick={() => {
-            setMap(!map)
-            setMapOrHomeTitle(map ? pageNames.map : pageNames.home)
-          }}
+          onMapClick={goBack}
           mapOrHomeTitle={mapOrHomeTitle}
         />
       </header>
