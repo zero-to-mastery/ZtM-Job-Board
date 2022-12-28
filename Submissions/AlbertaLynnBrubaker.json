@@ -1,0 +1,16 @@
+{
+  "name": "Alie Brubaker",
+  "img": "https://avatars.githubusercontent.com/AlbertaLynnBrubaker",
+  "email": "findingalberta@gmail.com",
+  "links": {
+      "website": "https://discover-aliebrubaker.net/",
+      "linkedin": "https://www.linkedin.com/in/alie-brubaker/",
+      "github": "https://github.com/AlbertaLynnBrubaker"
+  },
+  "jobTitle": "Software Engineer * React * Ruby on Rails",
+  "location": {
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "USA"
+  }
+}
