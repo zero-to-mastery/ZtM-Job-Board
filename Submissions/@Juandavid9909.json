@@ -1,0 +1,15 @@
+{
+    "name": "Juan David Varela",
+    "img": "https://i.ibb.co/232XrN2/Foto-3x4-fondo-blanco-1.jpg",
+    "email": "juandavid918@gmail.com",
+    "links": {
+        "linkedin": "https://www.linkedin.com/in/Juandavid9909",
+        "github": "https://github.com/Juandavid9909"
+    },
+    "jobTitle": "Full-Stack Developer",
+    "location": {
+        "city": "Cali",
+        "state": "Valle del Cauca",
+        "country": "Colombia"
+    }
+}
