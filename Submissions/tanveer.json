@@ -1,0 +1,16 @@
+{
+  "name": "Tanveer Hoque",
+  "img": "https://i.imgur.com/EBoqit7.jpg",
+  "email": "tanvoid0@gmail.com",
+  "links": {
+    "website": "https://tanvoid0.github.io",
+    "linkedin": "https://www.linkedin.com/in/tanvoid0",
+    "github": "https://github.com/tanvoid0"
+  },
+  "jobTitle": "Backend Developer",
+  "location": {
+    "city": "Cardiff",
+    "state": "Wales",
+    "country": "United Kingdom"
+  }
+}
