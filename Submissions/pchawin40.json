@@ -1,0 +1,16 @@
+{
+  "name": "Chawin Pathompornvivat",
+  "img": "https://res.cloudinary.com/dfz7bzhoi/image/upload/v1670455733/PersonalPortfolio/profile_picture_o5bgwu.jpg",
+  "email": "pchawin40@gmail.com",
+  "links": {
+    "website": "https://pchawin40.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/chawin-pathompornvivat/",
+    "github": "https://github.com/pchawin40"
+  },
+  "jobTitle": "Full-Stack Software Engineer",
+  "location": {
+    "city": "Bellevue",
+    "state": "Washington",
+    "country": "United States"
+  }
+}
