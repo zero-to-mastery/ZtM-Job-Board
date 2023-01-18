@@ -1,0 +1,16 @@
+{
+    "name": "Ayodele Aransiola",
+    "img": "https://res.cloudinary.com/leomiscoding/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1672144042/ayodele_picture.jpg",
+    "email": "ayodele@worka.ng",
+    "links": {
+      "website": "#",
+      "linkedin": "https://www.linkedin.com/in/aransiolaayo/",
+      "github": "https://github.com/CodeLeom"
+    },
+    "jobTitle": "Frontend Developer/Project Manager",
+    "location": {
+      "city": "Abuja",
+      "state": "FCT",
+      "country": "Nigeria"
+    }
+  }
