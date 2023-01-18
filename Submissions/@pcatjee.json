@@ -1,0 +1,16 @@
+{
+  "name": "Piyush Chatterjee",
+  "img": "https://avatars.githubusercontent.com/u/39117349?v=4",
+  "email": "pcatjee@gmail.com",
+  "links": {
+    "website": "https://pcatjee.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/piyushchatterjee",
+    "github": "https://github.com/pcatjee"
+  },
+  "jobTitle": "Front End (ReactJS Developer)",
+  "location": {
+    "city": "Noida",
+    "state": "UP",
+    "country": "India"
+  }
+}
