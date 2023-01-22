@@ -1,0 +1,16 @@
+{
+  "name": "Artur Furtak",
+  "img": "https://avatars.githubusercontent.com/u/104138140?v=4",
+  "email": "arturfurtak5@gmail.com",
+  "links": {
+    "website": "arturfurtak.online",
+    "linkedin": "https://www.linkedin.com/in/artur-furtak",
+    "github": "https://github.com/huanamigo"
+  },
+  "jobTitle": "Frontend React Developer",
+  "location": {
+    "city": "Katowice",
+    "state": "",
+    "country": "Poland"
+  }
+}
