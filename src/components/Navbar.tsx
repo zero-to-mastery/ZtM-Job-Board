@@ -2,12 +2,14 @@ import React from "react"
 import Search from "./Search"
 import "../styles/SearchBarDesktopView.scss"
 import { pageNames } from "../util/pageNames"
+import { shuffle } from "../util/shuffle"
 
 const Navbar = ({
   onSearchChange,
   onMapClick,
   onLogoClick,
   mapOrHomeTitle,
+  shufflePeopleOnClick,
 }: any) => {
   return (
     <div className="header-items flex flex-wrap justify-between">
@@ -25,6 +27,9 @@ const Navbar = ({
       <div className="flex items-center">
         <span className="f3 mr4 pointer" onClick={onMapClick}>
           {mapOrHomeTitle}
+        </span>
+        <span className="f3 mr4 pointer" onClick={shufflePeopleOnClick}>
+          Shuffle
         </span>
         {mapOrHomeTitle === pageNames.map && (
           <div
