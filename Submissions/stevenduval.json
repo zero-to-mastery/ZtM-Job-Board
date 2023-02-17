@@ -1,0 +1,16 @@
+{
+    "name": "Steven Duval",
+    "img": "https://github.com/stevenduval.png",
+    "email": "stevenduval@gmail.com",
+    "links": {
+        "website": "https://www.stevenmduval.com/",
+        "linkedin": "https://www.linkedin.com/in/stevenduval/",
+        "github": "https://github.com/stevenduval"
+    },
+    "jobTitle": "Front-End Developer",
+    "location": {
+        "city": "Chicago",
+        "state": "IL",
+        "country": "USA"
+    }
+}
