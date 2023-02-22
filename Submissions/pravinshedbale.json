@@ -1,0 +1,16 @@
+{
+    "name": "Pravin Shedbale",
+    "img": "https://media-exp2.licdn.com/dms/image/C4E03AQFFyCIxj19peg/profile-displayphoto-shrink_800_800/0/1631701793019?e=1661385600&v=beta&t=Z-f47_XHirCkMXC0osxvsLl4l-NzWlXeOtwKVSrUoGU",
+    "email": "pravin.shedbale@outlook.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/pravinshedbale",
+      "github": "https://github.com/pravinshedbale"
+    },
+    "jobTitle": "Frontend Web Developer",
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India"
+    }
+  }

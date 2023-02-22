@@ -1,0 +1,16 @@
+{
+    "name": "Leonardo Oliveira Freitas",
+    "img": "https://github.com/leo3965.png",
+    "email": "leofreitas.engineer@gmail.com",
+    "links": {
+      "website": "https://portfolio-leofreitas.vercel.app/",
+      "linkedin": "https://www.linkedin.com/in/leonardo3965/",
+      "github": "https://github.com/leo3965"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "São Paulo",
+      "state": "SP",
+      "country": "Brazil"
+    }
+  }

@@ -1,0 +1,16 @@
+{
+    "name": "Seamus English",
+    "img": "https://avatars.githubusercontent.com/u/72629167?v=4",
+    "email": "theseamusenglish@gmail.com",
+    "links": {
+      "website": "https://seamus2002.github.io/",
+      "linkedin": "https://www.linkedin.com/in/seamusenglish/",
+      "github": "https://github.com/seamus2002"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "location": {
+      "city": "Brooklyn",
+      "state": "New York",
+      "country": "United States"
+    }
+  }

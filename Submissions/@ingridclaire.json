@@ -1,0 +1,16 @@
+{
+  "name": "Ingrid Kelsey",
+  "img": "https://ingridckelsey.s3.us-east-2.amazonaws.com/about-ingrid-1.jpg",
+  "email": "ingridckelsey@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/ingridclaire",
+    "github": "https://github.com/ingridclaire"
+  },
+  "jobTitle": "Full Stack Software Engineer",
+  "location": {
+    "city": "Kalamazoo",
+    "state": "Michigan",
+    "country": "USA"
+  }
+}

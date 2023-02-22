@@ -1,0 +1,16 @@
+{
+  "name": "Zain Sadaqat",
+  "img": "https://avatars3.githubusercontent.com/u/47591863?v=4",
+  "email": "zain.sadaqet@gmail.com",
+  "links": {
+    "website": "https://www.zainsadaqat.dev/",
+    "linkedin": "https://www.linkedin.com/in/zain-sadaqat/",
+    "github": "https://github.com/zainsadaqat"
+  },
+  "jobTitle": "Frontend Web (React) Developer",
+  "location": {
+    "city": "Gujrat",
+    "state": "Punjab",
+    "country": "Pakistan"
+  }
+}

@@ -42,13 +42,13 @@ const allCountryNamesFixedToMatchAPINames = allCountryNamesCleaned.map(
   (country: any) => {
     switch (country) {
       case "US":
-        return "United States of America"
+        return "United States"
       case "USA":
-        return "United States of America"
+        return "United States"
       case "United States":
-        return "United States of America"
+        return "United States"
       case "United States Of America":
-        return "United States of America"
+        return "United States"
       case "UAE":
         return "United Arab Emirates"
       case "UK":

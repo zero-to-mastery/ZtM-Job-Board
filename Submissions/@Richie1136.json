@@ -1,0 +1,15 @@
+{
+  "name": "Richard Hagenah",
+  "img": "https://avatars.githubusercontent.com/u/69161935?v=4",
+  "email": "richardthagenah@gmail.com",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/richardthagenah/",
+    "github": "https://github.com/Richie1136"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "United States"
+  }
+}

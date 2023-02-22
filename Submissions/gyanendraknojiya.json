@@ -1,17 +1,16 @@
 {
-  "id": "7650ed88-7ba9-49da-b38a-6bd537ddfe96",
   "name": "Gyanendra Knojiya",
-  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR6mgU_w1eipap7G0A4UcaEFH2yxnBfk5uaQj0d3EhF2y_qn185fkzi49yx&usqp=CAU&ec=45673586",
-  "email":"",
+  "img": "https://avatars.githubusercontent.com/u/36006908?v=4",
+  "email": "gyanendrak064@gmail.com",
   "links": {
-    "website": "https://gyanendraknojiya.github.io",
+    "website": "https://gyanendra.tech/",
     "linkedin": "https://www.linkedin.com/in/gyanendraknojiya/",
     "github": "https://github.com/gyanendraknojiya"
   },
-  "jobTitle": "Full-Stack Web Developer",
+  "jobTitle": "Full Stack Developer",
   "location": {
-    "city": "Lucknow",
+    "city": "Lakhimpur Kheri",
     "state": "Uttar Pradesh",
-    "country": "India"
+    "country": "[India"
   }
 }

@@ -8,51 +8,24 @@ import {
 } from "react-leaflet"
 
 import { countriesWithNumOfDevsObj } from "../util/UsersDataCleanup"
+import { countriesWithLatLng } from "../util/CountriesDataFilter"
 
 // Array of country names and number of devs in those countries
 /* Needed to match country names from countriesWithNumOfDevsObj against 
 country names fetched from API to get their latitude and longitude for markers */
 const countryNamesAndNumOfDevsArr = Object.entries(countriesWithNumOfDevsObj)
-
 let centerLatLngArr: any = []
 
 function SimpleMap({ zoom = 3 }) {
   const [allCountriesLatLang, setAllCountriesLatLang] = useState([])
   useEffect(() => {
-    // If the user goes back to home before map has loaded, the Map component will unmount
-    // but since fetch cannot be cancelled, react will try to setSate on an unmounted component
-    // when the fetch Promise resolves
-    // This throws memory leak error so isComponentSubscribedToPromise is used as a flag
-    // to check if the component was unmounted before setting state
-    // and setAllCountriesLatLang is not called if Map component has unmounted
-    let isComponentSubscribedToPromise = true
-    if (isComponentSubscribedToPromise) {
-      fetch(`https://restcountries.eu/rest/v2/all`)
-        .then((resp) => resp.json())
-        .then((data) => {
-          if (isComponentSubscribedToPromise) setAllCountriesLatLang(data)
-        })
-        .catch((err) => console.error(err))
-    }
-    return () => {
-      isComponentSubscribedToPromise = false
-    }
+    setAllCountriesLatLang(countriesWithLatLng)
   }, [])
 
   let countriesLatLngArr: any = allCountriesLatLang.map(({ name, latlng }) => ({
     name,
     latlng,
   }))
-
-  /* 
-  Made separate variable for UK because name of UK in API is "United Kingdom 
-  of Great Britain and Northern Ireland" which probably none of the users will use
-  */
-  const UK = {
-    country: "United Kingdom",
-    latlng: [54, -2], // copied from API
-    numberOfDevs: countriesWithNumOfDevsObj["United Kingdom"],
-  }
 
   // Two nested for loops are okay as array items will always be < 250 in both arrays
   let finalArrayWithCountryAndLatLng: any = []
@@ -61,22 +34,25 @@ function SimpleMap({ zoom = 3 }) {
       for (let j = 0; j < countriesLatLngArr.length; j++) {
         if (
           countryNamesAndNumOfDevsArr[i][0].toLowerCase() ===
-          countriesLatLngArr[j].name.toLowerCase()
+            countriesLatLngArr[j].name.toLowerCase() &&
+          !finalArrayWithCountryAndLatLng.some(
+            (entry: any) =>
+              entry.country.toLowerCase() ===
+              countriesLatLngArr[j].name.toLowerCase()
+          )
         ) {
           finalArrayWithCountryAndLatLng.push({
-            country: countryNamesAndNumOfDevsArr[i][0],
+            country: countriesLatLngArr[j].name,
             latlng: countriesLatLngArr[j].latlng,
             numberOfDevs: countryNamesAndNumOfDevsArr[i][1],
           })
         }
       }
     }
-    // Add UK to final array of countries and co-ordinates
-    finalArrayWithCountryAndLatLng.push(UK)
+
     return finalArrayWithCountryAndLatLng
   }
   finalCountryAndLocationArray()
-  // console.log(finalArrayWithCountryAndLatLng);
 
   // DO NOT DELETE THIS COMMENTED OUT CODE BELOW
   // Might need it to check for unexpected repeated entries which is easier with sorted countries

@@ -16,7 +16,7 @@ Link to the webpage: [**ZtM JOB Board**](https://zero-to-mastery.github.io/ZtM-J
 
 Note: **You will first need to make a fork of the project!**
 
-![fork image](https://help.github.com/assets/images/help/repository/fork_button.jpg)
+![fork image](https://docs.github.com/assets/cb-23088/images/help/repository/fork_button.png)
 
 If you are unclear on how the GitHub workflow works, you can check the [Make a Pull Request guide](https://makeapullrequest.com/).
 
@@ -24,8 +24,8 @@ If you are unclear on how the GitHub workflow works, you can check the [Make a P
 
 To add your name to the list, create a file `<YOUR_GH_USERNAME>.json`
 inside `Submissions/` folder, and then fill it up with following content.
-( **Don't include the square brackets "[ ]" or angle brackets "< >" !!! They
-are just there to indicate an example placeholder.** )
+(**Don't include the square brackets "[ ]" or angle brackets "< >" !!! They
+are just there to indicate an example placeholder.**)
 
 ```json
 {
