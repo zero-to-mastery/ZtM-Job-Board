@@ -1,16 +1,16 @@
 {
-  "name": "[Oluwasegun Idowu]",
-  "img": "[https://avatars.githubusercontent.com/u/52855925?v=4]",
-  "email": "[engrshege@gmail.com]",
+  "name": "Oluwasegun Idowu",
+  "img": "https://avatars.githubusercontent.com/u/52855925?v=4",
+  "email": "engrshege@gmail.com",
   "links": {
-    "website": "[https://engrshege.github.io/myportfolio/]",
+    "website": "https://engrshege.github.io/myportfolio/",
     "linkedin": "https://www.linkedin.com/in/engrshege",
     "github": "https://github.com/engrshege"
   },
-  "jobTitle": "[Frontend Engineer]",
+  "jobTitle": "Frontend Engineer",
   "location": {
-    "city": "[Ikotun]",
-    "state": "[Lagos]",
-    "country": "[Nigeria]"
+    "city": "Ikotun",
+    "state": "Lagos",
+    "country": "Nigeria"
   }
 }
