@@ -1,0 +1,16 @@
+{
+  "name": "Chukwuma Ucheoma",
+  "img": "https://avatars.githubusercontent.com/u/76457560?v=4",
+  "email": "calvinchukwuma@gmail.com",
+  "links": {
+    "website": "https://chukwuma-ucheoma-portfolio.netlify.app",
+    "linkedin": "https://www.linkedin.com/in/chukwumaucheoma",
+    "github": "https://github.com/calvinucheoma"
+  },
+  "jobTitle": "Full Stack Web Developer(MERN)",
+  "location": {
+    "city": "Aba",
+    "state": "Abia",
+    "country": "Nigeria"
+  }
+}
