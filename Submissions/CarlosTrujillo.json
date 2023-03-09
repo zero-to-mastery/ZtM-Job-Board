@@ -1,0 +1,16 @@
+{
+  "name": "Carlos Trujillo",
+  "img": "https://avatars.githubusercontent.com/u/10585033?v=4",
+  "email": "krloslao90@gmail.com",
+  "links": {
+    "website": "https://realcarlostrujillo.com",
+    "linkedin": "https://www.linkedin.com/in/realcarlostrujillo",
+    "github": "https://github.com/realcarlostrujillo"
+  },
+  "jobTitle": "Full Stack Engineer",
+  "location": {
+    "city": "Fort Myers",
+    "state": "Florida",
+    "country": "United States"
+  }
+}
