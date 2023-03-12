@@ -1,0 +1,16 @@
+{
+  "name": "Carlos Vinicius M. Oliveira",
+  "img": "https://avatars.githubusercontent.com/u/52833750?s=400&u=7d1103b1c6ac512e8918e4969fa2bf5668cb8153&v=4",
+  "email": "hello@carlosmoliveira.com",
+  "links": {
+    "website": "https://carlosmoliveira.com",
+    "linkedin": "https://www.linkedin.com/in/carlosmoliveira",
+    "github": "https://github.com/carlosmoliv"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Itaperuna",
+    "state": "Rio de Janeiro",
+    "country": "Brazil"
+  }
+}
