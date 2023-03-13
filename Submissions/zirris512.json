@@ -1,0 +1,16 @@
+{
+    "name": "Brent Edwards",
+    "img": "https://avatars.githubusercontent.com/u/52513767?v=4",
+    "email": "brentedwards512@gmail.com",
+    "links": {
+      "website": "https://brent-edwards.vercel.app/",
+      "linkedin": "https://www.linkedin.com/in/brentleigh-edwards-0b29a3140/",
+      "github": "https://github.com/zirris512"
+    },
+    "jobTitle": "Full-Stack Developer",
+    "location": {
+      "city": "Wichita",
+      "state": "KS",
+      "country": "USA"
+    }
+  }
