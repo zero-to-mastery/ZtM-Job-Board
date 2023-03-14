@@ -1,0 +1,16 @@
+{
+  "name": "Emad Mohamed",
+  "img": "https://avatars.githubusercontent.com/u/69079622?s=400&u=d95cd7b71c0384e90817432fc6ba68c6d888b362&v=4",
+  "email": "eng.emadmohamedphp@gmail.com",
+  "links": {
+    "website": "https://emadmohdev.github.io/emad-mohamed-cv/",
+    "linkedin": "https://www.linkedin.com/in/emad-mohamed-software-engineer/",
+    "github": "https://github.com/EmadMohDev"
+  },
+  "jobTitle": "Senior Software Engineer",
+  "location": {
+    "city": "Cairo",
+    "state": "Giza",
+    "country": "Egypt"
+  }
+}
