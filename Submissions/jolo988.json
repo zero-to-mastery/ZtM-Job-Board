@@ -1,0 +1,16 @@
+{
+  "name": "Jonathan Lo",
+  "img": "https://github.com/jolo988.png",
+  "email": "jonathanlo88@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/jonathan-lo-ab51a612/",
+    "github": "https://github.com/jolo988"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "New York",
+    "state": "New York",
+    "country": "USA"
+  }
+}
