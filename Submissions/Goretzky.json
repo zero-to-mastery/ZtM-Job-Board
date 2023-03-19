@@ -1,0 +1,16 @@
+{
+  "name": "Kern Goretzky",
+  "img": "https://kerngoretzky.com/view/images/kern-goretzky.webp",
+  "email": "kern.goretzky@gmail.com",
+  "links": {
+    "website": "https://coderleaf.com/",
+    "linkedin": "https://www.linkedin.com/in/goretzky",
+    "github": "https://github.com/Goretzky"
+  },
+  "jobTitle": "Full-Stack Web Developer",
+  "location": {
+    "city": "Toronto",
+    "state": "Ontario",
+    "country": "Canada"
+  }
+}
