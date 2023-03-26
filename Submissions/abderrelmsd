@@ -1,0 +1,16 @@
+{
+    "name": "Abderrahmane El Massaoudi",
+    "img": "https://github.com/abderrelmsd.png",
+    "email": "info@abderrahmaneelmassaoudi.com",
+    "links": {
+      "website": "https://abderrahmaneelmassaoudi.com",
+      "linkedin": "https://www.linkedin.com/in/abderrelmsd",
+      "github": "https://github.com/abderrelmsd"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+      "city": "Tangier",
+      "state": "",
+      "country": "Morocco"
+    }
+  }
