@@ -1,0 +1,16 @@
+{
+    "name": "Daniel Shalem",
+    "img": "",
+    "email": "dshctr1993@gmail.com",
+    "links": {
+        "website": "www.danielshalem.com",
+        "linkedin": "https://www.linkedin.com/in/daniel-shalem-990429211/",
+        "github": "https://github.com/Daniel1231234>"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "location": {
+        "city": "Haifa",
+        "state": "",
+        "country": "Israel"
+    }
+}

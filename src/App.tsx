@@ -34,10 +34,10 @@ const KEYS_TO_FILTERS = [
 ]
 
 function App() {
-  const [searchfield, setSearchfield] = useState("")
+  const [searchfield, setSearchfield] = useState<string>("")
 
-  const [map, setMap] = useState(false)
-  const [mapOrHomeTitle, setMapOrHomeTitle] = useState(pageNames.map) // pageNames.map is default
+  const [map, setMap] = useState<boolean>(false)
+  const [mapOrHomeTitle, setMapOrHomeTitle] = useState<string>(pageNames.map) // pageNames.map is default
 
   const filteredPersons = (searchFilter: any) =>
     people.filter(createFilter(searchFilter, KEYS_TO_FILTERS))
@@ -63,7 +63,9 @@ function App() {
       <header className="custom--unselectable fixed top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-9999">
         <Navbar
           onLogoClick={goBack}
-          onSearchChange={(e: any) => setSearchfield(e.target.value)}
+          onSearchChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+            setSearchfield(e.target.value)
+          }
           onMapClick={goBack}
           mapOrHomeTitle={mapOrHomeTitle}
           shufflePeopleOnClick={shufflePeopleOnClick}

@@ -1,9 +1,16 @@
-import React from "react"
+import React, { MouseEventHandler } from "react"
 import Search from "./Search"
 import "../styles/SearchBarDesktopView.scss"
 import { pageNames } from "../util/pageNames"
-import { shuffle } from "../util/shuffle"
 import { Pointer } from "./Pointer"
+
+type Props = {
+  onLogoClick: MouseEventHandler<HTMLHeadingElement>
+  onSearchChange: Function
+  onMapClick: Function
+  mapOrHomeTitle: string
+  shufflePeopleOnClick: Function
+}
 
 const Navbar = ({
   onSearchChange,
@@ -11,7 +18,7 @@ const Navbar = ({
   onLogoClick,
   mapOrHomeTitle,
   shufflePeopleOnClick,
-}: any) => {
+}: Props) => {
   return (
     <div className="header-items flex flex-wrap justify-between">
       <h1
