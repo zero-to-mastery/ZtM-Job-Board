@@ -1,0 +1,15 @@
+{
+  "name": "Andrew Mostella",
+  "img": "https://www.github.com/MrMostellar.png",
+  "email": "mr.mostellar@gmail.com",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/AndrewMostella",
+    "github": "https://github.com/MrMostellar"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Denver",
+    "state": "Colorado",
+    "country": "United States"
+  }
+}
