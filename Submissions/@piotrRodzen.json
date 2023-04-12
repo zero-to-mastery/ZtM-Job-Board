@@ -1,0 +1,17 @@
+{
+    "name": "Piotr Rodzen",
+    "img": "https://res.cloudinary.com/dvagn6szo/image/upload/v1681313063/091a5442863d6dcf073cbd8f105ab5ac_xpv2vi.jpg",
+    "email": "techpietrek@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/piotr-rodzen-a60501158/",
+      "github": "https://github.com/Pietrek1989"
+    },
+    "jobTitle": "Fullstack Web Developer",
+    "location": {
+      "city": "Munich",
+      "state": "Bavaria",
+      "country": "Germany"
+    }
+  }
+  
