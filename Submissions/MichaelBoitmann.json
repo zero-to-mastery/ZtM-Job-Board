@@ -1,0 +1,16 @@
+{
+    "name": "Micheal Boitmann",
+    "img": "https://avatars.githubusercontent.com/u/99659402?v=4",
+    "email": "michael_boitmann@yahoo.com",
+    "links": {
+        "website":"",
+        "linkedin": "https://www.linkedin.com/in/michael-boitmann-85905a33/",
+        "github": "https://github.com/MichaelBoitmann"
+    },
+    "jobTitle": "ReactJS | Django | Python Developer",
+    "location": {
+        "city": "Sunnyvale",
+        "state": "Auckland",
+        "country": "New Zealand"
+    }
+}
