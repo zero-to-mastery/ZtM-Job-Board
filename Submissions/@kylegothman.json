@@ -1,0 +1,16 @@
+{
+  "name": "Kyle Gothman",
+  "img": "https://avatars.githubusercontent.com/u/3959032?v=4",
+  "email": "kyle.gothman@gmail.com",
+  "links": {
+    "website": "https://kylegothman.github.io/goth-os/",
+    "linkedin": "https://www.linkedin.com/in/kylegothman/",
+    "github": "https://github.com/kylegothman"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "Dallas",
+    "state": "TX",
+    "country": "USA"
+  }
+}

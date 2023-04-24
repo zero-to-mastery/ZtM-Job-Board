@@ -1,0 +1,18 @@
+```json
+{
+    "name": "Kyle Gothman",
+    "img": "https://github.com/kylegothman.png",
+    "email": "kyle.gothman@gmail.com",
+    "links": {
+        "website": "[YOUR_WEBSITE_URL]",
+        "linkedin": "https://www.https://www.linkedin.com/in/kylegothman/",
+        "github": "https://github.com/kylegothman"
+    },
+    "jobTitle": "Full Stack Python Developer",
+    "location": {
+        "city": "Dallas",
+        "state": "TX",
+        "country": "United States"
+    }
+}
+```
