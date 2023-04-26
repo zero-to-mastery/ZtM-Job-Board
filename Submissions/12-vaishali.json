@@ -1,0 +1,16 @@
+{
+    "name": "Vaishali",
+    "img": "",
+    "email": "vaishali120895@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/vaishali-singh-a31b9231/",
+      "github": "https://github.com/12-vaishali"
+    },
+    "jobTitle": "Frontend Developer",
+    "location": {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "country": "India"
+    }
+  }
