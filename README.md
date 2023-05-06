@@ -8,6 +8,8 @@ Link to the webpage: [**ZtM JOB Board**](https://zero-to-mastery.github.io/ZtM-J
 
 - `git clone https://github.com/zero-to-mastery/ZtM-Job-Board.git`
 
+- `cd ZtM-Job-Board`
+
 - `npm ci`
 
 - `npm start`
