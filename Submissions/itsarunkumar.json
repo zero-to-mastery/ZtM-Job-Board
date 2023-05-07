@@ -1,0 +1,16 @@
+{
+    "name": "Arunkumar",
+    "img": "",
+    "email": "003arunkumark@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "",
+      "github": "https://github.com/itsarunkumar"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Chennai",
+      "state": "TamilNadu",
+      "country": "India"
+    }
+  }
