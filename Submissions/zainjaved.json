@@ -1,0 +1,16 @@
+{
+    "name": "Muhammad Zain Javed",
+    "img": " ",
+    "email": "zainjaved742@gmail.com",
+    "links": {
+      "website": " ",
+      "linkedin": "https://www.linkedin.com/in/iamzainjaved",
+      "github": "https://github.com/engr-zainjaved"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Lahore",
+      "state": "Punjab",
+      "country": "Pakistan"
+    }
+  }
