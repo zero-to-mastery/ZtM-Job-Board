@@ -1,0 +1,16 @@
+{
+    "name": "Andres T. Romero",
+    "img": "https://avatars.githubusercontent.com/u/85530349?v=4",
+    "email": "romeroandre801@gmail.com",
+    "links": {
+        "website": "https://www.andrestromero.com",
+        "linkedin": "https://www.linkedin.com/in/andrestromero",
+        "github": "https://github.com/aromero18020"
+    },
+    "jobTitle": "Front End Web Developer",
+    "location": {
+        "city": "Syracuse",
+        "state": "UT",
+        "country": "USA"
+    }
+}
