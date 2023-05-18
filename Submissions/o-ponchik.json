@@ -1,0 +1,16 @@
+{
+  "name": "Mariia Matviian",
+  "img": "https://avatars.githubusercontent.com/u/105226321?v=4",
+  "email": "matviyanm@gmail.com",
+  "links": {
+    "website": "https://mariia-matviian.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/maria-matviian/",
+    "github": "https://github.com/o-ponchik"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada"
+  }
+}

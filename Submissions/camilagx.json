@@ -1,0 +1,16 @@
+{
+  "name": "Camila",
+  "img": "https://avatars.githubusercontent.com/u/99628526?v=4",
+  "email": "camilax.gomez97@gmail.com",
+  "links": {
+    "website": "https://devmila.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/camilagx/",
+    "github": "https://github.com/camilagx"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Phoenix",
+    "state": "Arizona",
+    "country": "US"
+  }
+}

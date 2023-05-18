@@ -1,0 +1,16 @@
+{
+  "name": "Tri Denda",
+  "img": "https://avatars.githubusercontent.com/u/34482931?v=4",
+  "email": "tridenda.nk@gmail.com",
+  "links": {
+    "website": "https://tridenda.github.io/",
+    "linkedin": "https://www.linkedin.com/in/tridenda",
+    "github": "https://github.com/tridenda"
+  },
+  "jobTitle": "Full-Stack Developer",
+  "location": {
+    "city": "Karawang",
+    "state": "West Java",
+    "country": "Indonesia"
+  }
+}

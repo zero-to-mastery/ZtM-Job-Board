@@ -1,0 +1,16 @@
+{
+    "name": "Mariusz Bielesz",
+    "img": "https://avatars.githubusercontent.com/u/105352756?v=4",
+    "email":"",
+    "links": {
+      "website": "https://bielesz.netlify.app",
+      "linkedin": "https://www.linkedin.com/in/mariusz-bielesz/",
+      "github": "https://github.com/Bielesz"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Istebna",
+      "state": "Śląsk",
+      "country": "Poland"
+    }
+  }

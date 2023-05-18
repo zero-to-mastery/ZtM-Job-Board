@@ -1,0 +1,16 @@
+{
+  "name": "Jadson Medeiros",
+  "img": "https://avatars.githubusercontent.com/u/41479996?v=4",
+  "email":"developer.medeiros@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/jadsonmedeiros/",
+    "github": "https://github.com/jadson-medeiros"
+  },
+  "jobTitle": "Backend Software Engineer",
+  "location": {
+    "city": "Cabo Frio",
+    "state": "Rio de Janeiro",
+    "country": "Brazil"
+  }
+}

@@ -8,14 +8,12 @@ import {
 } from "react-leaflet"
 
 import { countriesWithNumOfDevsObj } from "../util/UsersDataCleanup"
-
 import { countriesWithLatLng } from "../util/CountriesDataFilter"
 
 // Array of country names and number of devs in those countries
 /* Needed to match country names from countriesWithNumOfDevsObj against 
 country names fetched from API to get their latitude and longitude for markers */
 const countryNamesAndNumOfDevsArr = Object.entries(countriesWithNumOfDevsObj)
-
 let centerLatLngArr: any = []
 
 function SimpleMap({ zoom = 3 }) {
@@ -36,7 +34,12 @@ function SimpleMap({ zoom = 3 }) {
       for (let j = 0; j < countriesLatLngArr.length; j++) {
         if (
           countryNamesAndNumOfDevsArr[i][0].toLowerCase() ===
-          countriesLatLngArr[j].name.toLowerCase()
+            countriesLatLngArr[j].name.toLowerCase() &&
+          !finalArrayWithCountryAndLatLng.some(
+            (entry: any) =>
+              entry.country.toLowerCase() ===
+              countriesLatLngArr[j].name.toLowerCase()
+          )
         ) {
           finalArrayWithCountryAndLatLng.push({
             country: countriesLatLngArr[j].name,

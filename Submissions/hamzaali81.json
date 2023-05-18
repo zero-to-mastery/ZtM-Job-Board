@@ -1,0 +1,16 @@
+{
+    "name": "Hamza Ali",
+    "img": "https://avatars.githubusercontent.com/u/41760022?v=4.png",
+    "email":"hamza54834@gmail.com",
+  "links": {
+      "website": "www.hamzaali81.com",
+      "linkedin": "https://www.linkedin.com/in/hamza-ali-124653162/",
+      "github": "https://github.com/hamzaali81"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Karachi",
+      "state": "Sindh",
+      "country": "Pakistan"
+    }
+  }

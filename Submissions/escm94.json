@@ -1,0 +1,16 @@
+{
+  "name": "Matt Escalante",
+  "img": "",
+  "email": "m.escalante94@gmail.com",
+  "links": {
+    "website": "https://www.mattitothedev.com",
+    "linkedin": "https://www.linkedin.com/in/matthew-escalante-4b391bb0",
+    "github": "https://github.com/escm94"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "Grand Rapids",
+    "state": "Michigan",
+    "country": "US"
+  }
+}

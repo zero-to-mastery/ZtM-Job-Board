@@ -1,0 +1,16 @@
+{
+  "name": "Samuele Niccolai",
+  "img": "",
+  "email": "samuniccolai@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/samueleniccolai",
+    "github": "https://github.com/samuniccolai"
+  },
+  "jobTitle": "Full-Stack Developer",
+  "location": {
+    "city": "Bientina",
+    "state": "Pisa",
+    "country": "Italy"
+  }
+}

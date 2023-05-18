@@ -1,0 +1,16 @@
+{
+    "name": "Faisal Khan",
+    "img": "https://avatars.githubusercontent.com/u/25315418?v=4",
+    "email": "faisalkhan91@gmail.com",
+    "links": {
+      "website": "https://faisalkhan91.github.io/",
+      "linkedin": "https://www.linkedin.com/in/faisalkhan91/",
+      "github": "https://github.com/faisalkhan91"
+    },
+    "jobTitle": "Python Developer",
+    "location": {
+      "city": "New Haven",
+      "state": "CT",
+      "country": "USA"
+    }
+  }

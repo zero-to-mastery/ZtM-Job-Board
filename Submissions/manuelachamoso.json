@@ -1,0 +1,16 @@
+{
+    "name": "Manuela Chamoso",
+    "img": "https://avatars.githubusercontent.com/u/89460249?v=4",
+    "email": "manuela.chamoso@gmail.com",
+    "links": {
+      "website": "https://manuelachamoso.com/",
+      "linkedin": "https://www.linkedin.com/in/manuela-chamoso-cunha-55168776/",
+      "github": "https://github.com/manuelachamoso"
+    },
+    "jobTitle": "Front-end Developer",
+    "location": {
+      "city": "Barcelona",
+      "state": "Catalonia",
+      "country": "Spain"
+    }
+  }

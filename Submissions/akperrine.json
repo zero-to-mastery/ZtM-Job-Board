@@ -1,0 +1,16 @@
+{
+    "name": "Austin Perrine",
+    "img": "https://avatars.githubusercontent.com/u/101884495?v=4",
+    "email": "akperrine",
+    "links": {
+      "website": "https://akperrine.github.io/portfolio-site/",
+      "linkedin": "https://www.linkedin.com/in/austin-perrine",
+      "github": "https://github.com/akperrine"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+      "city": "South Salt Lake",
+      "state": "UT",
+      "country": "USA"
+    }
+  }

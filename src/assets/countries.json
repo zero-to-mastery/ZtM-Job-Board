@@ -1982,5 +1982,13 @@
     "ISO": "ZW",
     "COUNTRYAFF": "Zimbabwe",
     "AFF_ISO": "ZW"
+  },
+  {
+    "longitude": "120.6847786",
+    "latitude": "23.8171616",
+    "COUNTRY": "Taiwan",
+    "ISO": "TW",
+    "COUNTRYAFF": "Taiwan",
+    "AFF_ISO": "TW"
   }
 ]

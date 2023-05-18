@@ -1,0 +1,16 @@
+{
+  "name": "Anthony Rosman",
+  "img": "https://avatars.githubusercontent.com/u/79771334?v=4",
+  "email": "anthonyrosman20@gmail.com",
+  "links": {
+    "website": "https://www.anthonyrosman.com",
+    "linkedin": "https://www.linkedin.com/in/anthonyrosman",
+    "github": "https://github.com/D3press3dd"
+  },
+  "jobTitle": "React frontend developer",
+  "location": {
+    "city": "Guayana",
+    "state": "Bolivar",
+    "country": "Venezuela"
+  }
+}

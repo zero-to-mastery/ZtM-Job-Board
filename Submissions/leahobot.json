@@ -1,0 +1,17 @@
+
+{
+  "name": "Leah Obot",
+  "img": "https://avatars.githubusercontent.com/u/97891846?v=4",
+  "email": "leahobot@gmail.com",
+  "links": {
+    "website": "https://leahobot.github.com/portfolio",
+    "linkedin": "https://www.linkedin.com/in/leahobot",
+    "github": "https://github.com/leahobot"
+  },
+  "jobTitle": "Frontend Developer",
+  "location": {
+    "city": "",
+    "state": "Lagos",
+    "country": "Nigeria"
+  }
+}

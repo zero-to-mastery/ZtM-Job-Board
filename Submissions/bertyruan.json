@@ -1,0 +1,16 @@
+{
+  "name": "Berty Ruan",
+  "img": "https://avatars.githubusercontent.com/u/5183841?v=4",
+  "email": "berty.ruan@gmail.com",
+  "links": {
+    "website": "http://bertydev.com",
+    "linkedin": "https://www.linkedin.com/in/bertyruan",
+    "github": "https://github.com/bertyran"
+  },
+  "jobTitle": "React Web Developer",
+  "location": {
+    "city": "Pittsburgh",
+    "state": "PA",
+    "country": "USA"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Guilherme Silva",
+  "img": "https://github.com/Guilherme013S.png",
+  "email": "guilhermemagno09@gmail.com",
+  "links": {
+    "website": "https://pessoal-portfolio.vercel.app/",
+    "linkedin": "https://www.linkedin.com/in/guilherme-so/",
+    "github": "https://github.com/Guilherme013S"
+  },
+  "jobTitle": "Frontend Developer",
+  "location": {
+    "city": "",
+    "state": "Minas Gerais",
+    "country": "Brazil"
+  }
+}
