@@ -1,0 +1,16 @@
+{
+    "name": "Joseph Consolino",
+    "img": "https://avatars.githubusercontent.com/u/81104289?v=4",
+    "email": "consolinojoe@gmail.com",
+    "links": {
+        "website": "https://www.joeconsolino.com/portfolio/",
+        "linkedin": "https://www.linkedin.com/in/joseph-consolino-750bb0a4/",
+        "github": "https://github.com/jcon306"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "location": {
+        "city": "Wyckoff",
+        "state": "New Jersey",
+        "country": "United States"
+    }
+}
