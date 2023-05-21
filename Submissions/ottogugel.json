@@ -1,0 +1,17 @@
+{
+  "id": "",
+  "name": "Otto Gugel",
+  "img": "",
+  "email":"",
+  "links": {
+    "website": "https://ottogugel.github.io/",
+    "linkedin": "https://www.linkedin.com/in/ottogugel/",
+    "github": "https://github.com/ottogugel/"
+  },
+  "jobTitle": "Front-End Web Developer",
+  "location": {
+    "city": "João Pessoa",
+    "state": "Paraíba",
+    "country": "Brazil"
+  }
+}
