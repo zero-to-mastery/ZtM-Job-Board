@@ -1,0 +1,16 @@
+{
+  "name": "Hanieh Zaab",
+  "img": "https://d38we5ntdyxyje.cloudfront.net/1606051/profile/LZPQNBVN_avatar_medium_square.jpg",
+  "email": "hanieh.zaab@gmail.com",
+  "links": {
+    "website": "https://hanieh-portfolio.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/hanieh-z-45970a175/",
+    "github": "https://github.com/Hanieh73"
+  },
+  "jobTitle": "Full-Stack Developer",
+  "location": {
+    "city": "London",
+    "state": "England",
+    "country": "United Kingdom"
+  }
+}
