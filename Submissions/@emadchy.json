@@ -1,0 +1,16 @@
+{
+  "name": "Emad Chowdhury",
+  "img": "",
+  "email": "emadchowdhury.1996@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/emadchowdhury",
+    "github": "https://github.com/emadchy"
+  },
+  "jobTitle": "Full-Stack Web Developer",
+  "location": {
+    "city": "Dhaka",
+    "state": "",
+    "country": "Bangladesh"
+  }
+}
