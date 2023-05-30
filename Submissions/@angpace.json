@@ -1,0 +1,16 @@
+{
+    "name": "Angela Pace",
+    "img": "https://avatars.githubusercontent.com/u/108838753?v=4",
+    "email": "angpace13@gmail.com",
+    "links": {
+      "website": "https://www.kitchenandcode.com/",
+      "linkedin": "https://www.linkedin.com/in/angpace/",
+      "github": "https://github.com/angpace"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+      "city": "NYC",
+      "state": "NY",
+      "country": "USA"
+    }
+  }
