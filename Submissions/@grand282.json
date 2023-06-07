@@ -1,0 +1,16 @@
+{
+  "name": "Grand Gize",
+  "img": "",
+  "email": "grandgize0@gmail.com",
+  "links": {
+    "website": "https://grand-personal.vercel.app/",
+    "linkedin": "https://www.linkedin.com/in/grand-gize-2b8127256",
+    "github": "https://github.com/grand282"
+  },
+  "jobTitle": "frontend developer",
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "zambia"
+  }
+}
