@@ -1,0 +1,16 @@
+{
+  "name": "John Phelps",
+  "img": "https://avatars.githubusercontent.com/u/79060419?v=4",
+  "email": "johnphelps1971@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/johnphelpsa",
+    "github": "https://github.com/JohnPhelps1971"
+  },
+  "jobTitle": "Technical Account Manager",
+  "location": {
+    "city": "Johannesburg",
+    "state": "Gauteng",
+    "country": "South Africa"
+  }
+}
