@@ -1,0 +1,16 @@
+{
+  "name": "Sravanth Baratam",
+  "img": "",
+  "email": "sravanthbaratam@gmail.com",
+  "links": {
+    "website": "https://sravanth.co.uk",
+    "linkedin": "https://www.linkedin.com/in/sravanth-baratam",
+    "github": "https://github.com/sravanth299"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "United Kingdom"
+  }
+}

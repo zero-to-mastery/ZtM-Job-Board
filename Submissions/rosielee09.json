@@ -1,0 +1,16 @@
+{
+  "name": "Rosie Lee",
+  "img": "https://avatars.githubusercontent.com/u/123128268?v=4",
+  "email": "rosie.bh.lee@gmail.com",
+  "links": {
+    "website": "https://rosielee09.github.io/portfolio/",
+    "linkedin": "https://www.linkedin.com/in/rosie-bh-lee/",
+    "github": "https://github.com/rosielee09"
+  },
+  "jobTitle": "Front End Developer",
+  "location": {
+    "city": "Vancouver",
+    "state": "BC",
+    "country": "Canada"
+  }
+}

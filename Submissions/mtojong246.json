@@ -1,0 +1,16 @@
+{
+  "name": "Melanie Tojong",
+  "img": "https://avatars.githubusercontent.com/u/120267213?v=4",
+  "email": "mtojong@gmail.com",
+  "links": {
+    "website": "https://melanie-tojong.dev/",
+    "linkedin": "https://www.linkedin.com/in/melanie-tojong-4b5149158/",
+    "github": "https://github.com/mtojong246"
+  },
+  "jobTitle": "Frontend Developer",
+  "location": {
+    "city": "Miami",
+    "state": "FL",
+    "country": "USA"
+  }
+}
