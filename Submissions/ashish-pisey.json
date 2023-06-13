@@ -1,0 +1,16 @@
+{
+  "name": "Ashish Pisey",
+  "img": "https://avatars.githubusercontent.com/u/3750312?s=96&v=4",
+  "email":"",
+  "links": {
+    "website": "https://ashishpisey.medium.com",
+    "linkedin": "https://www.linkedin.com/in/ashishpisey/",
+    "github": "https://github.com/ashishpatill"
+  },
+  "jobTitle": "iOS Developer",
+  "location": {
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India"
+  }
+}
