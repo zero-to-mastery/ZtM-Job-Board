@@ -1,0 +1,16 @@
+{
+  "name": "Shriprasad Bhamare",
+  "img": "",
+  "email": "sbhamar@binghamton.edu",
+  "links": {
+    "website": "https://shrib.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/shriprasad-bhamare-4b999b45/",
+    "github": "https://github.com/ShriprasadB"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "New York City",
+    "state": "New York",
+    "country": "United States of America"
+  }
+}

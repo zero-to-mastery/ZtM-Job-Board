@@ -1,0 +1,16 @@
+{
+  "name": "Tomer Baranes",
+  "img": "https://media-exp1.licdn.com/dms/image/C4E03AQEyvIsn4xSssg/profile-displayphoto-shrink_200_200/0/1629118044742?e=1651104000&v=beta&t=qbehg4Cc9PCAYyQsKl_nliBXu8DJRNEhJR3ERJPtlB8",
+  "email": "",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/tomer-baranes",
+    "github": "https://github.com/TomerBaranes"
+  },
+  "jobTitle": "Fullstack Web Developer",
+  "location": {
+    "city": "Hadera",
+    "state": "",
+    "country": "Israel"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Riley Moore",
+  "img": "",
+  "email": "riley_moore1@outlook.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/riley-moore-659bb9169/",
+    "github": "https://github.com/zebu-lord/Portfolio"
+  },
+  "jobTitle": "Software engineer",
+  "location": {
+    "city": "Denton",
+    "state": "Texas",
+    "country": "United States of America"
+  }
+}

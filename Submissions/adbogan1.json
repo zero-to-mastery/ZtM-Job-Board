@@ -1,0 +1,16 @@
+{
+    "name": "Anders Bogan",
+    "img": "https://github.com/adbogan1.png",
+    "email": "adbogan@cox.net",
+    "links": {
+      "website": "https://adbogan1.github.io/",
+      "linkedin": "https://www.linkedin.com/in/anders-bogan-28b8bb194/",
+      "github": "https://github.com/adbogan1/"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Oceanside",
+      "state": "California",
+      "country": "USA"
+    }
+  }

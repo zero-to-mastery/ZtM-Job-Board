@@ -1,0 +1,16 @@
+{
+    "name": "Dare Oyasope",
+    "img": "https://media-exp1.licdn.com/dms/image/C5603AQG6qaJMAN6Nzg/profile-displayphoto-shrink_200_200/0/1648244271760?e=1658966400&v=beta&t=RYeSdQWFjIaVTybmDytjLbKHjl18fTynuuD0lJ53w64",
+    "email": "dareemmanuelmail@gmail.com",
+    "links": {
+      "website": "https://dareoyasopeportfolio.netlify.app/",
+      "linkedin": "https://www.linkedin.com/in/dareoyasope/",
+      "github": "https://github.com/dare789"
+    },
+    "jobTitle": "Front-End Engineer",
+    "location": {
+      "city": "",
+      "state": "Lagos",
+      "country": "Nigeria"
+    }
+  }

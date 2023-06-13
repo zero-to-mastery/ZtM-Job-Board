@@ -1,0 +1,16 @@
+{
+    "name": "David Rausch",
+    "img": "https://avatars.githubusercontent.com/u/35150986?v=4",
+    "email": "rauschdevelopment.io@gmail.com",
+    "links": {
+      "website": "https://rauschdevelopment.com",
+      "linkedin": "https://www.linkedin.com/in/david-rausch-52444878/",
+      "github": "https://github.com/drausch84"
+    },
+    "jobTitle": "Full Stack Engineer",
+    "location": {
+      "city": "Denver",
+      "state": "Colorado",
+      "country": "United States"
+    }
+  }

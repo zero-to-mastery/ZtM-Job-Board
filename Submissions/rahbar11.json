@@ -1,0 +1,16 @@
+{
+  "name": "Rahbar Khan",
+  "img": "https://raw.githubusercontent.com/rahbar11/Portfolio/master/src/Project%20Images/Portfolio.png",
+  "email": "rahbarkhan97@gmail.com",
+  "links": {
+    "website": "https://rahbar11.github.io/Portfolio/",
+    "linkedin": "https://www.linkedin.com/in/rahbar11",
+    "github": "https://github.com/rahbar11"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "country": "India"
+  }
+}

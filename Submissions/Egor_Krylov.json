@@ -1,0 +1,16 @@
+{
+    "name": "Egor Krylov",
+    "img": "https://avatars.githubusercontent.com/u/98567943?v=4",
+    "email": "krylov.yegor96@gmail.com",
+    "links": {
+      "website": "https://egorkrylov.netlify.app/",
+      "linkedin": "https://www.linkedin.com/in/egor-krylov/",
+      "github": "https://github.com/egorKry1ov"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "country": "USA"
+    }
+  }

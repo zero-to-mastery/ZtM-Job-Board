@@ -1,0 +1,16 @@
+{
+  "name": "Kamil Bednarz",
+  "img": "",
+  "email": "kamilbednarz91@gmail.com",
+  "links": {
+    "website": "https://www.kamilbednarz.me/",
+    "linkedin": "https://www.linkedin.com/in/kamilbednarz",
+    "github": "https://github.com/Bednak"
+  },
+  "jobTitle": "Front End Web Developer",
+  "location": {
+    "city": "Chicago",
+    "state": "Illinois",
+    "country": "United States"
+  }
+}

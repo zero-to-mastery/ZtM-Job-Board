@@ -1,0 +1,16 @@
+{
+  "name": "FREDERICK ATABO",
+  "img": "https://avatars.githubusercontent.com/u/14001215?s=400&u=f75d85451b00c09e825f5459fec1233c2058aab2&v=4",
+  "email": "fredatabo@gmail.com",
+  "links": {
+    "website": "https://fredatabo.com/",
+    "linkedin": "https://www.linkedin.com/in/frederick-atabo-509440174/",
+    "github": "https://github.com/fredatabo"
+  },
+  "jobTitle": "Backend Developer (PHP/LARAVEL)",
+  "location": {
+    "city": "Abuja",
+    "state": "Abuja",
+    "country": "Nigeria"
+  }
+}

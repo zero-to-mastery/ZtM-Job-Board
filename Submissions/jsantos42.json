@@ -1,0 +1,16 @@
+{
+  "name": "João Almeida Santos",
+  "img": "https://github.com/jsantos42.png",
+  "email":"j-almeidasantos@hotmail.com",
+  "links": {
+    "website": "https://j-almeidasantos.tech/",
+    "linkedin": "https://www.linkedin.com/in/j-almeidasantos",
+    "github": "https://github.com/jsantos42"
+  },
+  "jobTitle": "Frontend Developer | Former Medical Doctor",
+  "location": {
+    "city": "Lisbon",
+    "state": "",
+    "country": "Portugal"
+  }
+}

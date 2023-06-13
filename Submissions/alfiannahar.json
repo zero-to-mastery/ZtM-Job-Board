@@ -1,0 +1,16 @@
+{
+    "name": "Alfian Nahar A.",
+    "img": "https://raw.githubusercontent.com/alfianahar/alfianahar-portofolio-site/main/public/ava-bg.png",
+    "email": "alfian.aswinda@gmail.com",
+    "links": {
+      "website": "https://www.alfianahar.com",
+      "linkedin": "https://www.linkedin.com/in/alfianahar/",
+      "github": "https://github.com/alfianahar"
+    },
+    "jobTitle": "Fullstack Developer",
+    "location": {
+      "city": "Malang",
+      "state": "East Java",
+      "country": "Indonesia"
+    }
+  }

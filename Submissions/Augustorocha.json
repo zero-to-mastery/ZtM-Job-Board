@@ -1,0 +1,16 @@
+{
+    "name": "Augusto Araujo da Rocha",
+    "img": "https://avatars.githubusercontent.com/u/81258318?v=4",
+    "email": "rochaaugustoaraujo@gmail.com",
+    "links": {
+      "website": "https://www.npmjs.com/package/repo-express-example-node",
+      "linkedin": "https://www.linkedin.com/in/augusto-araujo-18243b1a6/",
+      "github": "https://github.com/augustoaraujoo"
+    },
+    "jobTitle": "Software developer",
+    "location": {
+      "city": "São Paulo",
+      "state": "São paulo",
+      "country": "Brazil"
+    }
+  }

@@ -1,0 +1,16 @@
+{
+  "name": "Reinier Garcia",
+  "img": "https://avatars.githubusercontent.com/u/16376436?v=4",
+  "email": "reymillenium@gmail.com",
+  "links": {
+    "website": "https://reiniergarcia.dev/",
+    "linkedin": "https://www.linkedin.com/in/reymillenium/",
+    "github": "https://github.com/reymillenium"
+  },
+  "jobTitle": "Ruby on Rails Developer",
+  "location": {
+    "city": "Miami",
+    "state": "Florida",
+    "country": "USA"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Vanessa Vun",
+    "img": "https://avatars.githubusercontent.com/u/94583613?v=4",
+    "email": "vanessavun@gmail.com",
+    "links": {
+      "website": "http://vanessavun.tech/",
+      "linkedin": "https://www.linkedin.com/in/vanessavun/",
+      "github": "https://github.com/vanessavun"
+    },
+    "jobTitle": "Frontend Developer",
+    "location": {
+      "city": "San Francisco Bay Area",
+      "state": "California",
+      "country": "United States"
+    }
+  }

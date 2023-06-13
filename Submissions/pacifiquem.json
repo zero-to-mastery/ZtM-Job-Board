@@ -1,0 +1,16 @@
+ {
+    "id": 1716,
+    "name": "Pacifique Murangwa",
+    "img": "https://github.com/pacifiquem.png",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/pacifique-murangwa-10394722b/",
+      "github": "https://github.com/pacifiquem"
+    },
+    "jobTitle": "Fullstack Software Engineer",
+    "location": {
+      "city": "Kigali",
+      "state": "Kigali",
+      "country": "Rwanda"
+    }
+  }

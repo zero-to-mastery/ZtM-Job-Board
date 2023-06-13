@@ -1,0 +1,16 @@
+{
+  "name": "Aasim Syed",
+  "img": "https://media-exp2.licdn.com/dms/image/C4D03AQGGIyRHjEUl7A/profile-displayphoto-shrink_800_800/0/1655472726254?e=1660780800&v=beta&t=CGDibig_QrEwEcWCuA7hsArBtegjFI_-FfOQ9zWEIkU",
+  "email": "syedaasim133@gmail.com",
+  "links": {
+    "website": "https://me-aasim-syed.vercel.app/",
+    "linkedin": "https://www.linkedin.com/in/syed-aasim/",
+    "github": "https://github.com/aasim-syed"
+  },
+  "jobTitle": "Full stack developer",
+  "location": {
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "country": "India"
+  }
+}

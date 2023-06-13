@@ -1,0 +1,16 @@
+{
+  "name": "Ken Umeda",
+  "img": "https://media.licdn.com/dms/image/D5603AQHkdPKmMMGE0Q/profile-displayphoto-shrink_400_400/0/1671852131577?e=1681344000&v=beta&t=2layvLryv-x8KtbRnks9uKzS6vBymUR9cHXQEZydqMo",
+  "email": "kenumeda1@gmail.com",
+  "links": {
+    "website": "www.kenumeda.com",
+    "linkedin": "https://www.linkedin.com/in/ken-umeda-01538392/",
+    "github": "https://github.com/kenumeda"
+  },
+  "jobTitle": "UX/UI Designer and Developer",
+  "location": {
+    "city": "Sydney",
+    "state": "New South Wales",
+    "country": "Australia"
+  }
+}

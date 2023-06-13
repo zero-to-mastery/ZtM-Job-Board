@@ -1,0 +1,16 @@
+{
+  "name": "Thierry Rakotomanana",
+  "img": "",
+  "email": "ThierryRktm@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "",
+    "github": "https://github.com/ThierryRakotomanana"
+  },
+  "jobTitle": "Fullstack JS",
+  "location": {
+    "city": "Antananarivo",
+    "state": "MALAGASY",
+    "country": "MADAGASCAR"
+  }
+}

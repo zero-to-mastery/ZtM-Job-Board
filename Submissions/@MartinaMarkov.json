@@ -1,0 +1,16 @@
+{
+    "name": "Martina Markovic",
+    "img": "",
+    "email": "tinamarkovic90@gmail.com",
+    "links": {
+      "website": "https://github.com/MartinaMarkov",
+      "linkedin": "https://www.linkedin.com/in/martina-markovic-b2955ba5/",
+      "github": "https://github.com/MartinaMarkov"
+    },
+    "jobTitle": "Front end developer",
+    "location": {
+      "city": "Belgrade",
+      "state": "Belgrade",
+      "country": "Serbia"
+    }
+  }

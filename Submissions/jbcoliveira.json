@@ -1,0 +1,16 @@
+{
+  "name": "Joao Batista Costa Oliveira",
+  "img": "https://media.licdn.com/dms/image/D4E03AQH_3DaiRJiRcg/profile-displayphoto-shrink_400_400/0/1675764347051?e=1685577600&v=beta&t=UvLGZlZD_lvEH2gpToNCJ9t7Zz9hJq7p_lCvUfa94ZQ",
+  "email": "joao.bcoliveira@outlook.com",
+  "links": {
+    "website": "https://dev.to/jbcoliveira",
+    "linkedin": "https://www.linkedin.com/in/joaobcoliveira",
+    "github": "https://github.com/jbcoliveira"
+  },
+  "jobTitle": "Senior .NET Developer",
+  "location": {
+    "city": "Lisbon",
+    "state": "Lisbon",
+    "country": "Portugal"
+  }
+}
