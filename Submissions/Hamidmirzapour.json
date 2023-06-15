@@ -1,16 +1,16 @@
 {
-  "name": "hamid Mirzapour",
-  "img": "https://hamidmirzapour.ir/wp-content/uploads/2021/09/hamid-300x300.jpg",
-  "email": "h.r.mirzapour@gmail.com",
+  "name": "Hamid Mirzapour",
+  "img": "https://avatars.githubusercontent.com/u/44247918?v=4",
+  "email": "dev.hmdmrzpr@gmail.com",
   "links": {
-    "website": "https://hamidmirzapour.ir/",
-    "linkedin": "https://www.linkedin.com/in/hamid-mirzapour/",
+    "website": "https://hamidmirzapour.ir",
+    "linkedin": "https://www.linkedin.com/in/hamid-mirzapour",
     "github": "https://github.com/Hamidmirzapour"
   },
-  "jobTitle": "Machine Learning Engineer and Algorithmic Trader",
+  "jobTitle": "Full Stack Web Developer (Odoo)",
   "location": {
-    "city": "Tehran",
-    "state": "Tehran",
+    "city": "Mashhad",
+    "state": "Khorasan Razavi",
     "country": "Iran"
   }
 }
