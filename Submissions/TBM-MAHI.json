@@ -1,0 +1,16 @@
+{
+    "name": "Tasnimul Mahi",
+    "img": "https://tasnimul-mahi.netlify.app/public/profilePic.JPG",
+    "email": "tasnimulmahi1998@gmail.com",
+    "links": {
+        "website": "https://tasnimul-mahi.netlify.app/",
+        "linkedin": "https://www.linkedin.com/in/tasnimul-moshiur/",
+        "github": "https://github.com/TBM-MAHI"
+    },
+    "jobTitle": "Backend Developer",
+    "location": {
+        "city": "Dhaka",
+        "state": "",
+        "country": "Bangladesh"
+    }
+}
