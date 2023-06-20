@@ -1,0 +1,16 @@
+{
+  "name": "Chinmay Bhole",
+  "img": "https://media.licdn.com/dms/image/D4D03AQEBp0l9h0P0QA/profile-displayphoto-shrink_800_800/0/1684773278174?e=1691020800&v=beta&t=tnYve1rGTK-A6S4uj5dyVmgkWw_JwA3w6-gbGR9UcrY",
+  "email": "chinmaymotog5@gmail.com",
+  "links": {
+    "website": "http://chinmaybhole.live/",
+    "linkedin": "https://www.linkedin.com/in/chinmay-bhole-193182222/",
+    "github": "https://github.com/chinmaybhole"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India"
+  }
+}
