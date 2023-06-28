@@ -1,0 +1,16 @@
+{
+    "name": "David Medina Ovando",
+    "img": "",
+    "email": "Dave52193@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/david-medina",
+      "github": "https://github.com/Ovando21"
+    },
+    "jobTitle": "Junior Full Stack Developer",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "United States"
+    }
+  }
