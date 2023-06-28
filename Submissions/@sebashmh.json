@@ -1,0 +1,16 @@
+{
+  "name": "Sebastian Madrigal",
+  "img": "https://sebas.io/static/media/Sebastian_Henao_Madrigal_Engineering_Manager_S.6f6eb456.webp",
+  "email": "sebas.hmh@gmail.com",
+  "links": {
+    "website": "https://sebas.io",
+    "linkedin": "https://www.linkedin.com/in/sebastianhenaomadrigal/",
+    "github": "https://github.com/sebashmh"
+  },
+  "jobTitle": "Engineering Manager",
+  "location": {
+    "city": "Atlanta",
+    "state": "Georgia",
+    "country": "USA"
+  }
+}
