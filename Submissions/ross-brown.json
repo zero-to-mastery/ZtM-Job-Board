@@ -1,0 +1,16 @@
+{
+  "name": "Ross Brown",
+  "img": "https://avatars.githubusercontent.com/u/111411908?v=4",
+  "email": "rbrown_98@yahoo.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/ross-brown-/",
+    "github": "https://github.com/ross-brown"
+  },
+  "jobTitle": "Front End Developer",
+  "location": {
+    "city": "Austin",
+    "state": "Texas",
+    "country": "USA"
+  }
+}

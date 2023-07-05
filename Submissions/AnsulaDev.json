@@ -1,0 +1,16 @@
+{
+    "name": "Ansula Wary",
+    "img": "https://ansuladev.github.io/portfolio/images/ans.jpg",
+    "email": "ansulaoari88@gmail.com",
+    "links": {
+      "website": "https://ansuladev.github.io/portfolio/",
+      "linkedin": "https://www.linkedin.com/in/ansula-wary-844487217/",
+      "github": "https://github.com/AnsulaDev"
+    },
+    "jobTitle": "fullstack developer",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "India"
+    }
+  }

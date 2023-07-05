@@ -1,0 +1,16 @@
+{
+  "name": "Maryam",
+  "img": "https://avatars.githubusercontent.com/u/46193126?s=400&u=b37e675433483ee30d15b695cc252e99a5fae635&v=4",
+  "email": "maryam.rpour@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/maryamrmz",
+    "github": "https://github.com/maryamrmz"
+  },
+  "jobTitle": "Frontend Developer",
+  "location": {
+    "city": "Tehran",
+    "state": "Tehran Province",
+    "country": "Iran"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Danilo Batson",
+  "img": "https://danilobatson.github.io/portfolio/src/danilo-headshot.jpg",
+  "email": "djbatson19@gmail.com",
+  "links": {
+    "website": "https://danilobatson.github.io/portfolio/",
+    "linkedin": "https://www.linkedin.com/in/danilo-batson/",
+    "github": "https://github.com/danilobatson"
+  },
+  "jobTitle": "Developer",
+  "location": {
+    "city": "Anaheim",
+    "state": "CA",
+    "country": "USA"
+  }
+}

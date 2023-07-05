@@ -1,0 +1,16 @@
+{
+  "name": "A.Rahman Mufarrah",
+  "img": "https://cdn.sanity.io/images/sval94ce/production/9c0636d26ab3cb525fc143f8c21c2c6f2f98d5a9-2048x2261.png",
+  "email": "a.mufarrah@gmail.com",
+  "links": {
+    "website": "https://mufarrah.com/",
+    "linkedin": "https://www.linkedin.com/in/rahman-mufarrah/",
+    "github": "https://github.com/mufarrah"
+  },
+  "jobTitle": "Frontend Developer",
+  "location": {
+    "city": "Hamad Town",
+    "state": "",
+    "country": "Bahrain"
+  }
+}

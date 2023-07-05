@@ -1,0 +1,16 @@
+{
+    "name": "Elise Madsen",
+    "img": "https://avatars.githubusercontent.com/u/110583073?s=400&u=c88126292bd7aad5089125ee7c28e0b3f6b25a04&v=4.png",
+    "email": "elisethedev@gmail.com",
+    "links": {
+      "website": "http://elisethedev.com/" ,
+      "linkedin": "https://www.linkedin.com/in/elise-madsen-11a00285/",
+      "github": "https://github.com/elisethedev"
+    },
+    "jobTitle": "Software Developer",
+    "location": {
+      "city": "Sandy",
+      "state": "Utah",
+      "country": "USA"
+    }
+  }

@@ -1,0 +1,16 @@
+{
+  "name": "Myshawne Stallings",
+  "img": "https://avatars.githubusercontent.com/u/44353909?v=4",
+  "email": "myshawnestallings@gmail.com",
+  "links": {
+    "website": "https://myshawnestallings.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/myshawne-stallings",
+    "github": "https://github.com/Mysta3"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "Oxnard",
+    "state": "California",
+    "country": "USA"
+  }
+}

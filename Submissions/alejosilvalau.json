@@ -1,0 +1,16 @@
+{
+  "name": "Alejo Silva",
+  "img": "https://avatars.githubusercontent.com/u/73258757?v=4",
+  "email": "alejo.lautaro@hotmail.com",
+  "links": {
+    "website": "https://alejosilvalau.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/alejosilvalau",
+    "github": "https://github.com/alejosilvalau"
+  },
+  "jobTitle": "Web Developer and Designer",
+  "location": {
+    "city": "Rosario",
+    "state": "Santa Fe",
+    "country": "Argentina"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Henry Lee",
+  "img": "https://i.postimg.cc/Bn0n35wb/Dream.jpg",
+  "email": "henrylee0041@gmail.com",
+  "links": {
+    "website": "https://dreamdev.vercel.app",
+    "linkedin": "https://www.linkedin.com/in/dragonstar-dreamdev",
+    "github": "https://github.com/dreamdev41"
+  },
+  "jobTitle": "Senior Full Stack Web Developer",
+  "location": {
+    "city": "Hamburg",
+    "state": "Hamburg",
+    "country": "Germany"
+  }
+}

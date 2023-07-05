@@ -1,0 +1,16 @@
+{
+  "name": "John McKinnon",
+  "img": "",
+  "email": "johnmckinnon23@yahoo.com",
+  "links": {
+    "website": "https://johns-portfolio.s3.amazonaws.com/index.html",
+    "linkedin": "https://www.linkedin.com/in/john-l-mckinnon",
+    "github": "https://github.com/Jmckinnon10"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "Denver",
+    "state": "Colorado",
+    "country": "United States"
+  }
+}
