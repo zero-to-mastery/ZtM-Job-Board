@@ -1,0 +1,16 @@
+{
+    "name": "Gal Reshef",
+    "img": "https://avatars.githubusercontent.com/u/55948045?s=400&u=eedba25a8f08c2ae181e7e5d2d0cb80f9a516c55&v=4",
+    "email": "Galsreshef@gmail.com",
+    "links": {
+      "website": "http://gal-reshef.com/",
+      "linkedin": "https://www.linkedin.com/in/gal-reshef-software-developer/",
+      "github": "https://github.com/galsreshe"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Tel Aviv",
+      "state": "Central",
+      "country": "Israel"
+    }
+  }

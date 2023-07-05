@@ -1,0 +1,16 @@
+{
+  "name": "Saida Murtazali",
+  "img": "https://www.saidamurtazali.com/assets/saida-img.png",
+  "email": "murtazalisaida@gmail.com",
+  "links": {
+    "website": "https://www.saidamurtazali.com",
+    "linkedin": "https://www.linkedin.com/in/saida-murtazali/",
+    "github": "https://github.com/saidam90"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Baku",
+    "state": "",
+    "country": "Azerbaijan"
+  }
+}

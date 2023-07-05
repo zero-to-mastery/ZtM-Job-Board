@@ -1,0 +1,16 @@
+{
+  "name": "Aluku Damian",
+  "img": "",
+  "email": "damaluku@gmail.com",
+  "links": {
+    "website": "https://damianaluku.netlify.app",
+    "linkedin": "https://www.linkedin.com/in/damian-aluku-59b06023a",
+    "github": "https://github.com/damaluku"
+  },
+  "jobTitle": "ReactJS | NextJS Frontend Developer",
+  "location": {
+    "city": "Lugbe",
+    "state": "Abuja",
+    "country": "Nigeria"
+  }
+}

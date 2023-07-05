@@ -1,0 +1,16 @@
+{
+    "name": "Abhishek Singh",
+    "img": "",
+    "email": "iamdevabhi@gmail.com",
+    "links": {
+      "website": "https://meabhishekportfolio.vercel.app/",
+      "linkedin": "https://www.linkedin.com/in/kunwarabhi7",
+      "github": "https://github.com/kunwarabhi7"
+    },
+    "jobTitle": "Front End Web Developer",
+    "location": {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "country": "India"
+    }
+  }

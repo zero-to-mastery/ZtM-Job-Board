@@ -1,0 +1,16 @@
+{
+  "name": "Julien Muke",
+  "img": "https://avatars.githubusercontent.com/u/110755734?s=400&v=4",
+  "email": "hello@julienmuke.com",
+  "links": {
+    "website": "https://julienmuke.com/",
+    "linkedin": "https://www.linkedin.com/in/julien-muke/",
+    "github": "https://github.com/julien-muke"
+  },
+  "jobTitle": "Web Designer and Developer",
+  "location": {
+    "city": "Bukavu",
+    "state": "South Kivu",
+    "country": "Democratic Republic of the Congo"
+  }
+}

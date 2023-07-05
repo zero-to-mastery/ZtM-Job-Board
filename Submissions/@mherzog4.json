@@ -1,0 +1,16 @@
+{
+  "name": "Matt Herzog",
+  "img": "https://avatars.githubusercontent.com/u/68869045?v=4",
+  "email": "matt@mattherzog.me",
+  "links": {
+    "website": "https://mattherzog.me/",
+    "linkedin": "https://www.linkedin.com/in/mattherzog3/",
+    "github": "https://github.com/mherzog4"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "Tampa",
+    "state": "Florida",
+    "country": "USA"
+  }
+}

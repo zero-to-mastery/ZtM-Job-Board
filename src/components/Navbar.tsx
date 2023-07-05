@@ -2,12 +2,15 @@ import React from "react"
 import Search from "./Search"
 import "../styles/SearchBarDesktopView.scss"
 import { pageNames } from "../util/pageNames"
+import { shuffle } from "../util/shuffle"
+import { Pointer } from "./Pointer"
 
 const Navbar = ({
   onSearchChange,
   onMapClick,
   onLogoClick,
   mapOrHomeTitle,
+  shufflePeopleOnClick,
 }: any) => {
   return (
     <div className="header-items flex flex-wrap justify-between">
@@ -23,9 +26,18 @@ const Navbar = ({
         <span className="fw7 custom--text-primary">Board</span>
       </h1>
       <div className="flex items-center">
-        <span className="f3 mr4 pointer" onClick={onMapClick}>
-          {mapOrHomeTitle}
-        </span>
+        <Pointer
+          onClick={onMapClick}
+          Text={mapOrHomeTitle}
+          TooltipText={
+            mapOrHomeTitle === "Home" ? "Go to Home Page" : "See the Map"
+          }
+        />
+        <Pointer
+          onClick={shufflePeopleOnClick}
+          Text="Shuffle"
+          TooltipText="Click to shuffle the Cards"
+        />
         {mapOrHomeTitle === pageNames.map && (
           <div
             style={{ margin: 0, padding: 0 }}

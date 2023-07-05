@@ -1,0 +1,16 @@
+{
+  "name": "Mahmoud Zanoun",
+  "img": "https://avatars.githubusercontent.com/u/73674139?v=4",
+  "email": "mahmoudzanoun35@yahoo.com",
+  "links": {
+    "website": "https://mahmoud-zanoun.vercel.app",
+    "linkedin": "https://www.linkedin.com/in/mahmoud-zanoun-517b14222",
+    "github": "https://github.com/mahmoudzanoun13"
+  },
+  "jobTitle": "Frontend Developer | ReactJS",
+  "location": {
+    "city": "Ashmoun",
+    "state": "Menoufia",
+    "country": "Egypt"
+  }
+}

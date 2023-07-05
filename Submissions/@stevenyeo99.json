@@ -1,0 +1,16 @@
+{
+  "name": "Steven",
+  "img": "https://avatars.githubusercontent.com/u/21187338?v=4",
+  "email": "yeomandeveloper@gmail.com",
+  "links": {
+    "website": "https://stevenyeo.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/steven-yeo-152111154/",
+    "github": "https://github.com/stevenyeo99"
+  },
+  "jobTitle": "Software Engineer | Full Stack Developer",
+  "location": {
+    "city": "Batam",
+    "state": "Kepulauan Riau",
+    "country": "Indonesia"
+  }
+}

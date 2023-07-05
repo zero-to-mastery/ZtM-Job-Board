@@ -1,0 +1,16 @@
+{
+  "name": "Daniel Bartolini",
+  "img": "https://media.licdn.com/dms/image/C4E03AQFyCBnlWQRNOw/profile-displayphoto-shrink_200_200/0/1607840797856?e=1686182400&v=beta&t=cwJUlYJ69o-HGRb58N4dwnu3Y5zUlfK0Ou-elK1AvNY",
+  "email": "dannybart22@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/daniel-bartolini",
+    "github": "https://github.com/dannybartolini"
+  },
+  "jobTitle": "iOS Developer",
+  "location": {
+    "city": "Miami",
+    "state": "Florida",
+    "country": "U.S."
+  }
+}
