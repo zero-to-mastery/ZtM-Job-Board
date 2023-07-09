@@ -1,0 +1,16 @@
+{
+  "name": "Saieswar Reddy Vaka",
+  "img": "[YOUR_IMG_URL]",
+  "email": "saieswarreddy.vaka@sjsu.edu",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/<YOUR_LINKEDIN_USERNAME>",
+    "github": "https://github.com/sai6221"
+  },
+  "jobTitle": "MS CS Student @SJSU",
+  "location": {
+    "city": "San Jose",
+    "state": "California",
+    "country": "USA"
+  }
+}
