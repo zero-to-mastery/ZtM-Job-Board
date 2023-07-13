@@ -1,0 +1,16 @@
+{
+  "name": "Jack Aba",
+  "img": "https://res.cloudinary.com/dhisxuick/image/upload/v1689289778/bellsofaba_uool5d.jpg",
+  "email": "bellsofaba@gmail.com",
+  "links": {
+    "website": "bellsofaba.netlify.app",
+    "linkedin": "https://www.linkedin.com/in/bellsofaba/",
+    "github": "https://github.com/bellsofaba"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Nicosia, Cyprus",
+    "state": "[YOUR_STATE_OR_PROVINCE]",
+    "country": "[YOUR_COUNTRY]"
+  }
+}
