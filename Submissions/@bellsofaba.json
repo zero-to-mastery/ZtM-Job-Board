@@ -9,6 +9,8 @@
   },
   "jobTitle": "Software Developer",
   "location": {
-    "city": "Nicosia, Cyprus"
+   "city": "Nicosia",
+   "state": "",
+   "country": "Cyprus"
   }
 }
