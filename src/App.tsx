@@ -51,6 +51,7 @@ function App() {
   function goBack() {
     setMap(!map)
     setMapOrHomeTitle(map ? pageNames.map : pageNames.home)
+    setSearchfield("");
   }
 
   function shufflePeopleOnClick() {
