@@ -1,0 +1,16 @@
+{
+    "name": "Mohit Kumar Singh",
+    "img": "https://avatars.githubusercontent.com/u/90032935?v=4",
+    "email": "mohitkumarsingh12344@gmail.com",
+    "links": {
+        "website": "https://mksio.vercel.app",
+        "linkedin": "https://www.linkedin.com/in/mohit-kumar-singh-128ab4217",
+        "github": "https://github.com/mohit-kumar-singh55"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+        "city": "Haridwar",
+        "state": "Uttarakhand",
+        "country": "India"
+    }
+}
