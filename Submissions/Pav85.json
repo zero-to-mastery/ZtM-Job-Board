@@ -1,0 +1,16 @@
+{
+    "name": "Pawel Werbowy",
+    "img": "https://drive.google.com/file/d/17cwcFZEIoOVepDUskdnijEkwK-tHxKZG/view?usp=sharing",
+    "email": "pawel.werbowy@gmail.com",
+    "links": {
+      "website": "https://pawel-werbowy.co.uk/",
+      "linkedin": "https://www.linkedin.com/in/pawel-werbowy/",
+      "github": "https://github.com/Pav85"
+    },
+    "jobTitle": "Web Developer, JavaScript Developer",
+    "location": {
+      "city": "London",
+      "state": "",
+      "country": "United Kingdom",
+    }
+  }
