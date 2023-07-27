@@ -1,0 +1,16 @@
+{
+    "name": "Mohtady Ekmail",
+    "img": "",
+    "email": "[YOUR_EMAIL_ADDRESS]",
+    "links": {
+      "website": "[YOUR_WEBSITE_URL]",
+      "linkedin": "https://www.linkedin.com/in/mohtady-ekmail-35ab08b",
+      "github": "https://github.com/MohtadyDeveloper"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Roseville",
+      "state": "Sacramento, California",
+      "country": "USA"
+    }
+  }
