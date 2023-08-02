@@ -105,6 +105,7 @@ function App() {
         <a
           href="https://github.com/zero-to-mastery/ZtM-Job-Board"
           title="Repository"
+          target="_blank"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
