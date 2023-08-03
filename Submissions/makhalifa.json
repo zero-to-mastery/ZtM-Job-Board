@@ -10,6 +10,7 @@
   "jobTitle": "Software Engineer",
   "location": {
     "city": "Alexandria",
+    "state": "",
     "country": "Egypt"
   }
 }
