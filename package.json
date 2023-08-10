@@ -68,5 +68,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "volta": {
+    "node": "18.17.1"
+  }
 }
