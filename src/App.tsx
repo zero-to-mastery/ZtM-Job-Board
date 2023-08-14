@@ -100,7 +100,7 @@ function App() {
                         </div>
 
                         <BatchCards
-                            persons={filteredPersons(searchfield)}
+                            persons={shuffle(filteredPersons(searchfield))}
                             numberPerBatch={16}
                         />
                     </div>

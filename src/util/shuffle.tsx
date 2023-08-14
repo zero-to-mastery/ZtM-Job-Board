@@ -3,21 +3,14 @@
 //note: shuffle function is not pure function, it mutates original array
 //in order to avoid memory duplication
 export const shuffle = (array: any) => {
-    var currentIndex = array.length,
-        temporaryValue,
-        randomIndex
+    const isOpenToWork = (item: any) =>
+        item.hasOwnProperty('isOpenToWork') && item.isOpenToWork === true
 
-    // While there remain elements to shuffle...
-    while (0 !== currentIndex) {
-        // Pick a remaining element...
-        randomIndex = Math.floor(Math.random() * currentIndex)
-        currentIndex -= 1
+    const openToWork = array.filter(isOpenToWork)
+    const notOpenToWork = array.filter((item: any) => !isOpenToWork(item))
 
-        // And swap it with the current element.
-        temporaryValue = array[currentIndex]
-        array[currentIndex] = array[randomIndex]
-        array[randomIndex] = temporaryValue
-    }
+    const shuffledOpenToWork = openToWork.sort(() => Math.random() - 0.5)
+    const shuffledNotOpenToWork = notOpenToWork.sort(() => Math.random() - 0.5)
 
-    return array.length
+    return [...shuffledOpenToWork, ...shuffledNotOpenToWork]
 }

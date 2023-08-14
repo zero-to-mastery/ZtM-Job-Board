@@ -4,6 +4,7 @@ export default interface Person {
     name: string
     email?: string
     jobTitle: string
+    isOpenToWork?: boolean
     location: {
         city?: string
         state?: string

@@ -40,6 +40,7 @@ inside `Submissions/` folder, and then fill it up with following content.
     "github": "https://github.com/<YOUR_GH_USERNAME>"
   },
   "jobTitle": "[YOUR_TITLE]",
+  "isOpenToWork": false,
   "location": {
     "city": "[YOUR_CITY]",
     "state": "[YOUR_STATE_OR_PROVINCE]",
@@ -47,7 +48,6 @@ inside `Submissions/` folder, and then fill it up with following content.
   }
 }
 ```
-
 
 ### Please note!
 

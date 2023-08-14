@@ -1,0 +1,26 @@
+.estrellas {
+  position: relative;
+}
+.estrellas span {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 10px;
+  height: 205px;
+  margin-left: -5px;
+  line-height: 100px;
+  text-align: center;
+  transform-origin: top center;
+  z-index: 10000;
+  color: rgb(8, 181, 77);
+  font-weight: 600;
+}
+.estrellas span:nth-of-type(1) {
+  transform: rotate(50deg);
+}
+.estrellas span:nth-of-type(2) {
+  transform: rotate(0deg);
+}
+.estrellas span:nth-of-type(3) {
+  transform: rotate(-35deg);
+}
