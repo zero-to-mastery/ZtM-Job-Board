@@ -1,0 +1,16 @@
+{
+    "name": "Vlk samotář",
+    "img": "https://avatars.githubusercontent.com/u/105735165?v=4",
+    "email": "spravce@vlksamotar.cz",
+    "links": {
+      "website": "https://vlksamotar.cz/",
+      "linkedin": " ",
+      "github": "https://github.com/lonelyWolf-developer"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Slany",
+      "state": "Central Bohemia",
+      "country": "Czech Republic"
+    }
+  }
