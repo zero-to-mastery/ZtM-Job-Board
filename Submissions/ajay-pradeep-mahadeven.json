@@ -1,0 +1,16 @@
+{
+    "name": "Ajay Pradeep Mahadeven",
+    "img": "https://thenameisajay.dev/images/about-me.webp",
+    "email": "m.ajaypradeep@icloud.com",
+    "links": {
+      "website": "https://thenameisajay.dev",
+      "linkedin": "https://linkedin.com/in/ajaypradeepm",
+      "github": "https://github.com/thenameisajay"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "London",
+      "state": "London",
+      "country": "United Kingdom"
+    }
+  }
