@@ -5,4 +5,4 @@ export default interface Country {
     ISO: string
     COUNTRYAFF: string
     AFF_ISO: string
-  }
+}

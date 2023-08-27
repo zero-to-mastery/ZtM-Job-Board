@@ -1,1 +1,1 @@
-declare module 'react-search-input';
+declare module 'react-search-input'
