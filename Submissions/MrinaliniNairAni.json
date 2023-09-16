@@ -1,0 +1,16 @@
+{
+  "name": "Mrinalini Nair Ani",
+  "img": "[YOUR_IMG_URL]",
+  "email": "mrinalsnair@gmail.com",
+  "links": {
+    "website": "[YOUR_WEBSITE_URL]",
+    "linkedin": "https://www.linkedin.com/in/mrinalini-nair-ani",
+    "github": "https://github.com/hacksh4w"
+  },
+  "jobTitle": "Full Stack Developer | Gen AI Enthusiast",
+  "location": {
+    "city": "Kochi",
+    "state": "Kerala",
+    "country": "India"
+  }
+}
