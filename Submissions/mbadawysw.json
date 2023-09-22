@@ -1,0 +1,17 @@
+{
+  "name": "Mohamed Badawy",
+  "img": "https://media.licdn.com/dms/image/C4D03AQGbOGkb-pSmPw/profile-displayphoto-shrink_800_800/0/1582825170733?e=1700697600&v=beta&t=72Ra4gyCck25U_C_H6RcWKDK2Lm5zaDVoI0MpBOpskc",
+  "email": "mbadawy.sw@gmail.com",
+  "links": {
+    "website": "https://azworx.com",
+    "linkedin": "https://www.linkedin.com/in/mbadawy-sw/",
+    "github": "https://github.com/mbadawysw"
+  },
+
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "Kuwait Ciry",
+    "state": "Kuwait",
+    "country": "Kuwait"
+  }
+}
