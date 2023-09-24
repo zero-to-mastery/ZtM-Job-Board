@@ -106,7 +106,6 @@ function SimpleMap({ zoom = 3 }) {
                 doubleClickZoom={true}
                 scrollWheelZoom={true}
                 dragging={true}
-                animate={true}
                 easeLinearity={0.35}
             >
                 <TileLayer
