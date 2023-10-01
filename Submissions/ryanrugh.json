@@ -1,0 +1,16 @@
+{
+    "name": "Ryan Rugh",
+    "img": "https://tse1.mm.bing.net/th?id=OIP.9XTnb891zFk-MeYxCpdsaQHaHa&pid=Api&P=0&h=220",
+    "email": "ryanrugh@gmail.com",
+    "links": {
+      "website": "https://ryanrugh.me/",
+      "linkedin": "https://www.linkedin.com/in/ryanrugh/",
+      "github": "https://github.com/ryanrugh"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "country": "USA"
+    }
+}
