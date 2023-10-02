@@ -1,0 +1,16 @@
+{
+    "name": "Robin Punnoose",
+    "img": "https://avatars.githubusercontent.com/u/101531179?v=4",
+    "email": "robin.punnoose@protonmail.com",
+    "links": {
+      "website": "https://www.robinpunn.com/",
+      "linkedin": "https://www.linkedin.com/in/robin-punnoose",
+      "github": "https://github.com/robinpunn"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "location": {
+      "city": "Addison",
+      "state": "Illinois",
+      "country": "USA"
+    }
+  }

@@ -16,525 +16,529 @@ $color--additional2: #9e9e9e;
 $color--additional3: #212121;
 
 $colors: (
-  primary-light: $color--primary-light,
-  primary: $color--primary,
-  primary-dark: $color--primary-dark,
-  secondary-light: $color--secondary-light,
-  secondary: $color--secondary,
-  secondary-dark: $color--secondary-dark,
-  additional1: $color--additional1,
-  additional2: $color--additional2,
-  additional3: $color--additional3
+    primary-light: $color--primary-light,
+    primary: $color--primary,
+    primary-dark: $color--primary-dark,
+    secondary-light: $color--secondary-light,
+    secondary: $color--secondary,
+    secondary-dark: $color--secondary-dark,
+    additional1: $color--additional1,
+    additional2: $color--additional2,
+    additional3: $color--additional3,
 );
 
 .leaflet-container {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 @mixin custom--box-shadow(
-  $h1,
-  $v1,
-  $b1,
-  $s1,
-  $h2,
-  $v2,
-  $b2,
-  $s2,
-  $h3,
-  $v3,
-  $b3,
-  $s3
+    $h1,
+    $v1,
+    $b1,
+    $s1,
+    $h2,
+    $v2,
+    $b2,
+    $s2,
+    $h3,
+    $v3,
+    $b3,
+    $s3
 ) {
-  box-shadow: #{$h1}px #{$v1}px #{$b1}px #{$s1}px rgba(0, 0, 0, 0.2),
-    #{$h2}px #{$v2}px #{$b2}px #{$s2}px rgba(0, 0, 0, 0.14),
-    #{$h3}px #{$v3}px #{$b3}px #{$s3}px rgba(0, 0, 0, 0.12);
+    box-shadow: #{$h1}px #{$v1}px #{$b1}px #{$s1}px rgba(0, 0, 0, 0.2),
+        #{$h2}px #{$v2}px #{$b2}px #{$s2}px rgba(0, 0, 0, 0.14),
+        #{$h3}px #{$v3}px #{$b3}px #{$s3}px rgba(0, 0, 0, 0.12);
 }
 
 /* ==================================================================================================== */
 
 ::selection {
-  background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.15);
 }
 
 * {
-  transition: color 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-    background-color 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-    border-color 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-    box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: color 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        background-color 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        border-color 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 *:before,
 *:after {
-  transition: inherit;
+    transition: inherit;
 }
 svg {
-  fill: currentColor;
-  transition: fill 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    fill: currentColor;
+    transition: fill 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 body {
-  min-width: 22.25rem;
-  font-family: "Roboto Condensed", sans-serif;
-  cursor: default;
+    min-width: 22.25rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: default;
 }
 
 a,
 img,
 input {
-  outline: none;
+    outline: none;
 }
 
 header {
-  padding: 0 5%;
+    padding: 0 5%;
 
-  .header-items {
-    transition: height 0.3s ease;
-    padding: 0.6rem;
-    align-items: center;
-  }
-
-  /* Some custom media queries below to properly show/hide menu bar stuff. Using tachyons size classes left the menu's layout broken on certain widths*/
-  @media screen and (max-width: 47.5rem) {
-    .hidden {
-      position: absolute;
-      top: -9999px;
-      opacity: 0;
+    .header-items {
+        transition: height 0.3s ease;
+        padding: 0.6rem;
+        align-items: center;
     }
-  }
 
-  .expand {
-    height: 9rem;
-  }
+    /* Some custom media queries below to properly show/hide menu bar stuff. Using tachyons size classes left the menu's layout broken on certain widths*/
+    @media screen and (max-width: 47.5rem) {
+        .hidden {
+            position: absolute;
+            top: -9999px;
+            opacity: 0;
+        }
+    }
 
-  @media screen and (min-width: 32rem) {
     .expand {
-      height: 7.8rem;
+        height: 9rem;
     }
-  }
 
-  @media screen and (min-width: 47.5rem) {
-    .expand {
-      height: 3rem;
+    @media screen and (min-width: 32rem) {
+        .expand {
+            height: 7.8rem;
+        }
     }
-  }
 
-  .collapse {
-    transition: opacity ease-in 0.1s;
-  }
-
-  @media screen and (max-width: 32rem) {
-    .SearchCategory {
-      margin: 1rem 0;
+    @media screen and (min-width: 47.5rem) {
+        .expand {
+            height: 3rem;
+        }
     }
-  }
 
-  /* Menu icon stuff from https://www.w3schools.com/howto/howto_css_menu_icon.asp*/
-  .menu-icon {
-    cursor: pointer;
-    margin-left: 2rem;
-  }
+    .collapse {
+        transition: opacity ease-in 0.1s;
+    }
 
-  @media screen and (min-width: 47.5rem) {
+    @media screen and (max-width: 32rem) {
+        .SearchCategory {
+            margin: 1rem 0;
+        }
+    }
+
+    /* Menu icon stuff from https://www.w3schools.com/howto/howto_css_menu_icon.asp*/
     .menu-icon {
-      display: none;
+        cursor: pointer;
+        margin-left: 2rem;
     }
-  }
 
-  .bar1,
-  .bar2,
-  .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: $color--primary;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
-
-  /* Rotate first bar */
-  .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-    background-color: $color--secondary;
-  }
-
-  /* Fade out the second bar */
-  .change .bar2 {
-    transition: 0s;
-    opacity: 0;
-  }
-
-  /* Rotate last bar */
-  .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
-    background-color: $color--secondary;
-  }
-
-  #title:hover {
-    span:nth-child(2) {
-      color: $color--secondary;
+    @media screen and (min-width: 47.5rem) {
+        .menu-icon {
+            display: none;
+        }
     }
-    span:nth-child(3) {
-      color: currentColor;
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: $color--primary;
+        margin: 6px 0;
+        transition: 0.4s;
     }
-  }
+
+    /* Rotate first bar */
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+        background-color: $color--secondary;
+    }
+
+    /* Fade out the second bar */
+    .change .bar2 {
+        transition: 0s;
+        opacity: 0;
+    }
+
+    /* Rotate last bar */
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+        background-color: $color--secondary;
+    }
+
+    #title:hover {
+        span:nth-child(2) {
+            color: $color--secondary;
+        }
+        span:nth-child(3) {
+            color: currentColor;
+        }
+    }
 }
 
 .SearchCategory .radio-box {
-  input,
-  label {
-    cursor: pointer;
-  }
-  input {
-    visibility: hidden;
-    margin: 0 -0.05rem 0 0.6rem;
-  }
-  input::before,
-  input:checked::before,
-  input::after,
-  .input:checked::after {
-    content: "";
-    visibility: visible;
-    box-sizing: border-box;
-    position: absolute;
-    border-radius: 50%;
-  }
-  input::before {
-    width: 0.5rem;
-    height: 0.5rem;
-    margin: 0.1875rem;
-    background-color: transparent;
-  }
-  input:checked::before {
-    background-color: $color--primary;
-  }
-  input::after {
-    height: 0.875rem;
-    width: 0.875rem;
-    border: 0.125rem solid $color--secondary;
-  }
-  input:checked::after {
-    border-color: #ffffff;
-  }
+    input,
+    label {
+        cursor: pointer;
+    }
+    input {
+        visibility: hidden;
+        margin: 0 -0.05rem 0 0.6rem;
+    }
+    input::before,
+    input:checked::before,
+    input::after,
+    .input:checked::after {
+        content: '';
+        visibility: visible;
+        box-sizing: border-box;
+        position: absolute;
+        border-radius: 50%;
+    }
+    input::before {
+        width: 0.5rem;
+        height: 0.5rem;
+        margin: 0.1875rem;
+        background-color: transparent;
+    }
+    input:checked::before {
+        background-color: $color--primary;
+    }
+    input::after {
+        height: 0.875rem;
+        width: 0.875rem;
+        border: 0.125rem solid $color--secondary;
+    }
+    input:checked::after {
+        border-color: #ffffff;
+    }
 }
 
 .searchbox {
-  margin: 0 0.6rem 0 0;
+    margin: 0 0.6rem 0 0;
 
-  input {
-    width: 11rem;
-    padding: 0.3rem;
-  }
-  input::selection {
-    background: rgba(255, 255, 255, 0.15);
-  }
-  input::-moz-selection {
-    background: rgba(255, 255, 255, 0.15);
-  }
-  input::placeholder {
-    color: $color--additional2;
-    opacity: 1;
-  }
-  input:focus::-ms-input-placeholder {
-    color: $color--additional2;
-  }
-  input:focus:-ms-input-placeholder {
-    color: $color--additional2;
-  }
-  input:focus,
-  input:not(:placeholder-shown) {
-    color: #000000;
-    border-color: $color--primary;
-  }
+    input {
+        width: 11rem;
+        padding: 0.3rem;
+    }
+    input::selection {
+        background: rgba(255, 255, 255, 0.15);
+    }
+    input::-moz-selection {
+        background: rgba(255, 255, 255, 0.15);
+    }
+    input::placeholder {
+        color: $color--additional2;
+        opacity: 1;
+    }
+    input:focus::-ms-input-placeholder {
+        color: $color--additional2;
+    }
+    input:focus:-ms-input-placeholder {
+        color: $color--additional2;
+    }
+    input:focus,
+    input:not(:placeholder-shown) {
+        color: #000000;
+        border-color: $color--primary;
+    }
 }
 
 /* Tooltip container */
 .searchbox-tooltip {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 /* Tooltip text */
 .searchbox-tooltip .tooltiptext {
-  /* Position the tooltip text - see examples below! */
-  position: absolute;
-  z-index: 1;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
 
-  /* For Bottom Tooltip */
-  width: 220px;
-  top: 110%;
-  left: 50%;
-  margin-left: -110px; /* Use half of the width (200/2 = 100), to center the tooltip */
+    /* For Bottom Tooltip */
+    width: 220px;
+    top: 110%;
+    left: 50%;
+    margin-left: -110px; /* Use half of the width (200/2 = 100), to center the tooltip */
 
-  visibility: hidden;
-  width: 220px;
-  background-color: rgba(0, 0, 0, 0.75);
-  color: #dddddd;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
+    visibility: hidden;
+    width: 220px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #dddddd;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .searchbox-tooltip:hover .tooltiptext {
-  visibility: visible;
+    visibility: visible;
 }
 
 main {
-  margin: 5rem 5% 1rem 5%;
+    margin: 5rem 5% 1rem 5%;
 
-  .card {
-    min-height: 26rem;
-    height: auto;
+    .card {
+        min-height: 26rem;
+        height: auto;
 
-    .header {
-      padding-top: 1.5rem;
+        .header {
+            padding-top: 1.5rem;
+        }
+
+        .header .photo {
+            margin: 0;
+            box-sizing: border-box;
+            // to maintain aspect ratio of images
+            object-fit: cover;
+            // to keep the card size same as it was before replacing div with background to img
+            margin-bottom: -1rem;
+        }
+
+        .header .name {
+            height: 3.5rem;
+        }
+        .footer {
+            box-sizing: border-box;
+            justify-content: center;
+            font-size: 1rem;
+            height: 100%;
+            max-height: 4.5rem;
+            min-height: 5rem;
+            width: auto;
+            padding: 1.5rem 1rem 2rem !important;
+            margin: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .header .title {
+            box-sizing: border-box;
+            justify-content: center;
+            height: auto;
+            max-height: 4.5rem;
+            min-height: 5rem;
+            width: auto;
+            padding: 1.2rem 1rem 2rem !important;
+            font-size: 18px;
+            margin: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .main {
+            height: 4.25rem;
+        }
+
+        .main a {
+            position: relative;
+            z-index: 1;
+
+            svg {
+                fill: #000000;
+
+                path {
+                    cursor: pointer;
+                }
+            }
+        }
+        .main a::before {
+            content: '';
+            width: 2.7rem;
+            height: 2.7rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            border-radius: 100%;
+            background-color: transparent;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        &:hover .header {
+            background-color: $color--primary;
+        }
+        &:hover .header .photo {
+            border: 0.25rem solid $color--secondary;
+            @include custom--box-shadow(0, 3, 3, -2, 0, 3, 4, 0, 0, 1, 8, 0);
+        }
+        &:hover .header .personId {
+            opacity: 1;
+        }
+        &:hover .header .title {
+            color: #ffffff;
+            background-color: $color--primary-dark;
+            word-break: break-word;
+            white-space: normal;
+            overflow: hidden;
+        }
+        &:hover .footer {
+            background-color: $color--additional1;
+            word-break: break-word;
+            white-space: normal;
+            overflow: hidden;
+        }
+
+        .main a:hover svg {
+            fill: #ffffff;
+        }
+        .main a:hover::before {
+            background-color: $color--additional3;
+        }
     }
 
-    .header .photo {
-      margin: 0;
-      box-sizing: border-box;
-      // to maintain aspect ratio of images
-      object-fit: cover;
-      // to keep the card size same as it was before replacing div with background to img
-      margin-bottom: -1rem;
+    canvas.sketch {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
     }
-
-    .header .name {
-      height: 3.5rem;
-    }
-    .footer {
-      box-sizing: border-box;
-      justify-content: center;
-      font-size: 1rem;
-      height: 100%;
-      max-height: 4.5rem;
-      min-height: 5rem;
-      width: auto;
-      padding: 1.5rem 1rem 2rem  !important;
-      margin: 0;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    .header .title {
-      box-sizing: border-box;
-      justify-content: center;
-      height: auto;
-      max-height: 4.5rem;
-      min-height: 5rem;
-      width: auto;
-      padding: 1.2rem 1rem 2rem  !important;
-      font-size: 18px;
-      margin: 0;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    .main {
-      height: 4.25rem;
-    }
-
-    .main a {
-      position: relative;
-      z-index: 1;
-
-      svg {
-        fill: #000000;
-      }
-    }
-    .main a::before {
-      content: "";
-      width: 2.7rem;
-      height: 2.7rem;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      border-radius: 100%;
-      background-color: transparent;
-      transform: translate(-50%, -50%);
-      z-index: -1;
-    }
-
-    &:hover .header {
-      background-color: $color--primary;
-    }
-    &:hover .header .photo {
-      border: 0.25rem solid $color--secondary;
-      @include custom--box-shadow(0, 3, 3, -2, 0, 3, 4, 0, 0, 1, 8, 0);
-    }
-    &:hover .header .personId {
-      opacity: 1;
-    }
-    &:hover .header .title {
-      color: #ffffff;
-      background-color: $color--primary-dark;
-      word-break: break-word;
-      white-space: normal;
-      overflow: hidden;
-    }
-    &:hover .footer {
-      background-color: $color--additional1;
-      word-break: break-word;
-      white-space: normal;
-      overflow: hidden;
-    }
-
-    .main a:hover svg {
-      fill: #ffffff;
-    }
-    .main a:hover::before {
-      background-color: $color--additional3;
-    }
-  }
-
-  canvas.sketch {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
 }
 
 footer {
-  padding: 0 5%;
+    padding: 0 5%;
 
-  .repo {
-    fill: #ffffff;
+    .repo {
+        fill: #ffffff;
 
-    &:hover {
-      fill: $color--primary;
+        &:hover {
+            fill: $color--primary;
+        }
     }
-  }
 }
 
 /* ==================================================================================================== */
 
 @each $name, $color in $colors {
-  .custom--text-#{$name} {
-    color: $color;
-  }
-  .custom--bg-#{$name} {
-    background-color: $color;
-  }
-  .custom--b--#{$name} {
-    border-color: $color;
-  }
+    .custom--text-#{$name} {
+        color: $color;
+    }
+    .custom--bg-#{$name} {
+        background-color: $color;
+    }
+    .custom--b--#{$name} {
+        border-color: $color;
+    }
 }
 
 .custom--o-95 {
-  opacity: 0.95;
+    opacity: 0.95;
 }
 
 .custom--shadow-0,
 .custom--shadow-hover-0:hover {
-  box-shadow: none;
+    box-shadow: none;
 }
 .custom--shadow-1,
 .custom--shadow-hover-1:hover {
-  @include custom--box-shadow(0, 2, 1, -1, 0, 1, 1, 0, 0, 1, 3, 0);
+    @include custom--box-shadow(0, 2, 1, -1, 0, 1, 1, 0, 0, 1, 3, 0);
 }
 .custom--shadow-2,
 .custom--shadow-hover-2:hover {
-  @include custom--box-shadow(0, 3, 1, -2, 0, 2, 2, 0, 0, 1, 5, 0);
+    @include custom--box-shadow(0, 3, 1, -2, 0, 2, 2, 0, 0, 1, 5, 0);
 }
 .custom--shadow-3,
 .custom--shadow-hover-3:hover {
-  @include custom--box-shadow(0, 3, 3, -2, 0, 3, 4, 0, 0, 1, 8, 0);
+    @include custom--box-shadow(0, 3, 3, -2, 0, 3, 4, 0, 0, 1, 8, 0);
 }
 .custom--shadow-4,
 .custom--shadow-hover-4:hover {
-  @include custom--box-shadow(0, 2, 4, -1, 0, 4, 5, 0, 0, 1, 10, 0);
+    @include custom--box-shadow(0, 2, 4, -1, 0, 4, 5, 0, 0, 1, 10, 0);
 }
 .custom--shadow-5,
 .custom--shadow-hover-5:hover {
-  @include custom--box-shadow(0, 3, 5, -1, 0, 5, 8, 0, 0, 1, 14, 0);
+    @include custom--box-shadow(0, 3, 5, -1, 0, 5, 8, 0, 0, 1, 14, 0);
 }
 .custom--shadow-6,
 .custom--shadow-hover-6:hover {
-  @include custom--box-shadow(0, 3, 5, -1, 0, 6, 10, 0, 0, 1, 18, 0);
+    @include custom--box-shadow(0, 3, 5, -1, 0, 6, 10, 0, 0, 1, 18, 0);
 }
 .custom--shadow-7,
 .custom--shadow-hover-7:hover {
-  @include custom--box-shadow(0, 4, 5, -2, 0, 7, 10, 1, 0, 2, 16, 1);
+    @include custom--box-shadow(0, 4, 5, -2, 0, 7, 10, 1, 0, 2, 16, 1);
 }
 .custom--shadow-8,
 .custom--shadow-hover-8:hover {
-  @include custom--box-shadow(0, 5, 5, -3, 0, 8, 10, 1, 0, 3, 14, 2);
+    @include custom--box-shadow(0, 5, 5, -3, 0, 8, 10, 1, 0, 3, 14, 2);
 }
 .custom--shadow-9,
 .custom--shadow-hover-9:hover {
-  @include custom--box-shadow(0, 5, 6, -3, 0, 9, 12, 1, 0, 3, 16, 2);
+    @include custom--box-shadow(0, 5, 6, -3, 0, 9, 12, 1, 0, 3, 16, 2);
 }
 .custom--shadow-10,
 .custom--shadow-hover-10:hover {
-  @include custom--box-shadow(0, 6, 6, -3, 0, 10, 14, 1, 0, 4, 18, 3);
+    @include custom--box-shadow(0, 6, 6, -3, 0, 10, 14, 1, 0, 4, 18, 3);
 }
 .custom--shadow-11,
 .custom--shadow-hover-11:hover {
-  @include custom--box-shadow(0, 6, 7, -4, 0, 11, 15, 1, 0, 4, 20, 3);
+    @include custom--box-shadow(0, 6, 7, -4, 0, 11, 15, 1, 0, 4, 20, 3);
 }
 .custom--shadow-12,
 .custom--shadow-hover-12:hover {
-  @include custom--box-shadow(0, 7, 8, -4, 0, 12, 17, 2, 0, 5, 22, 4);
+    @include custom--box-shadow(0, 7, 8, -4, 0, 12, 17, 2, 0, 5, 22, 4);
 }
 .custom--shadow-13,
 .custom--shadow-hover-13:hover {
-  @include custom--box-shadow(0, 7, 8, -4, 0, 13, 19, 2, 0, 5, 24, 4);
+    @include custom--box-shadow(0, 7, 8, -4, 0, 13, 19, 2, 0, 5, 24, 4);
 }
 .custom--shadow-14,
 .custom--shadow-hover-14:hover {
-  @include custom--box-shadow(0, 7, 9, -4, 0, 14, 21, 2, 0, 5, 26, 4);
+    @include custom--box-shadow(0, 7, 9, -4, 0, 14, 21, 2, 0, 5, 26, 4);
 }
 .custom--shadow-15,
 .custom--shadow-hover-15:hover {
-  @include custom--box-shadow(0, 8, 9, -5, 0, 15, 22, 2, 0, 6, 28, 5);
+    @include custom--box-shadow(0, 8, 9, -5, 0, 15, 22, 2, 0, 6, 28, 5);
 }
 .custom--shadow-16,
 .custom--shadow-hover-16:hover {
-  @include custom--box-shadow(0, 8, 10, -5, 0, 16, 24, 2, 0, 6, 30, 5);
+    @include custom--box-shadow(0, 8, 10, -5, 0, 16, 24, 2, 0, 6, 30, 5);
 }
 .custom--shadow-17,
 .custom--shadow-hover-17:hover {
-  @include custom--box-shadow(0, 8, 11, -5, 0, 17, 26, 2, 0, 6, 32, 5);
+    @include custom--box-shadow(0, 8, 11, -5, 0, 17, 26, 2, 0, 6, 32, 5);
 }
 .custom--shadow-18,
 .custom--shadow-hover-18:hover {
-  @include custom--box-shadow(0, 9, 11, -5, 0, 18, 28, 2, 0, 7, 34, 6);
+    @include custom--box-shadow(0, 9, 11, -5, 0, 18, 28, 2, 0, 7, 34, 6);
 }
 .custom--shadow-19,
 .custom--shadow-hover-19:hover {
-  @include custom--box-shadow(0, 9, 12, -6, 0, 19, 29, 2, 0, 7, 36, 6);
+    @include custom--box-shadow(0, 9, 12, -6, 0, 19, 29, 2, 0, 7, 36, 6);
 }
 .custom--shadow-20,
 .custom--shadow-hover-20:hover {
-  @include custom--box-shadow(0, 10, 13, -6, 0, 20, 31, 3, 0, 8, 38, 7);
+    @include custom--box-shadow(0, 10, 13, -6, 0, 20, 31, 3, 0, 8, 38, 7);
 }
 .custom--shadow-21,
 .custom--shadow-hover-21:hover {
-  @include custom--box-shadow(0, 10, 13, -6, 0, 21, 33, 3, 0, 8, 40, 7);
+    @include custom--box-shadow(0, 10, 13, -6, 0, 21, 33, 3, 0, 8, 40, 7);
 }
 .custom--shadow-22,
 .custom--shadow-hover-22:hover {
-  @include custom--box-shadow(0, 10, 14, -6, 0, 22, 35, 3, 0, 8, 42, 7);
+    @include custom--box-shadow(0, 10, 14, -6, 0, 22, 35, 3, 0, 8, 42, 7);
 }
 .custom--shadow-23,
 .custom--shadow-hover-23:hover {
-  @include custom--box-shadow(0, 11, 14, -7, 0, 23, 36, 3, 0, 9, 44, 8);
+    @include custom--box-shadow(0, 11, 14, -7, 0, 23, 36, 3, 0, 9, 44, 8);
 }
 .custom--shadow-24,
 .custom--shadow-hover-24:hover {
-  @include custom--box-shadow(0, 11, 15, -7, 0, 24, 38, 3, 0, 9, 46, 8);
+    @include custom--box-shadow(0, 11, 15, -7, 0, 24, 38, 3, 0, 9, 46, 8);
 }
 
 .custom--unselectable {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }

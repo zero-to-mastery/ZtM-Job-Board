@@ -19,7 +19,7 @@ jobs:
         run: |
           set -x
 
-          npm install # install packages
+          npm ci # install packages
 
           NODE_OUTPUT=`node scripts/aggregate-json.mjs 2>&1`
 

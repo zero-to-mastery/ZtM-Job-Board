@@ -1,0 +1,16 @@
+{
+  "name": "Sanjeev Shetty",
+  "img": "https://avatars.githubusercontent.com/u/4029801?v=4",
+  "email": "sanjeevkse@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/sanjeev-kumar-shetty-e-43865269",
+    "github": "https://github.com/sanjeevkse"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India"
+  }
+}

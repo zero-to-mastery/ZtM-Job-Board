@@ -1,0 +1,16 @@
+{
+  "name": "Gonzalo Vidal",
+  "img": "https://avatars.githubusercontent.com/u/69181178?v=4",
+  "email": "gonzalovidal.dev@gmail.com",
+  "links": {
+    "website": "https://gonzalovidal.dev",
+    "linkedin": "https://www.linkedin.com/in/gsvidal",
+    "github": "https://github.com/gsvidal"
+  },
+  "jobTitle": "Front-End React Web Developer",
+  "location": {
+    "city": "Lima",
+    "state": "Lima",
+    "country": "Peru"
+  }
+}

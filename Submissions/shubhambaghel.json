@@ -1,0 +1,16 @@
+{
+    "name": "Shubham Baghel",
+    "img": "https://avatars.githubusercontent.com/u/21123907?s=40&v=4",
+    "email":"shubhambaghel34@gmail.com",
+  "links": {
+      "website": "https://dev.to/shubhamb",
+      "linkedin": "https://www.linkedin.com/in/shubhamsinhabaghel",
+      "github": "https://github.com/shubhambaghel34"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "INDIA"
+    }
+  }

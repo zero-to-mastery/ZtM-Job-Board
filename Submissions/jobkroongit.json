@@ -1,0 +1,16 @@
+{
+  "name": "Job Kroon",
+  "img": "https://avatars.githubusercontent.com/u/70096865?v=4",
+  "email":"jobkroon@me.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/jobkroon",
+    "github": "https://github.com/jobkroongit"
+  },
+  "jobTitle": "Front-end Developer",
+  "location": {
+    "city": "Oostvoorne",
+    "state": "Zuid-Holland",
+    "country": "Netherlands"
+  }
+}

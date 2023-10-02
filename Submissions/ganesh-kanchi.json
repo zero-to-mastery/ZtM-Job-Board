@@ -1,0 +1,16 @@
+{
+    "name": "Ganesh Kanchi",
+    "img": "https://avatars.githubusercontent.com/u/86827594?v=4",
+    "email": "ganeshkanchimad@gmail.com",
+    "links": {
+      "website": "https://ganesh-k-portfolio.netlify.app/",
+      "linkedin": "https://www.linkedin.com/in/ganesh-kanchi",
+      "github": "https://github.com/ganesh-kanchi"
+    },
+    "jobTitle": "React Developer",
+    "location": {
+      "city": "Gangavathi",
+      "state": "Karnataka",
+      "country": "India"
+    }
+  }

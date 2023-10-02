@@ -1,0 +1,16 @@
+{
+  "name": "Niko Alteri",
+  "img": "",
+  "email": "nikoalteri@outlook.it",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/niko-alteri",
+    "github": "https://github.com/nikoalteri"
+  },
+  "jobTitle": "Front-End Web Developer",
+  "location": {
+    "city": "Prague",
+    "state": "",
+    "country": "Czech Republic"
+  }
+}

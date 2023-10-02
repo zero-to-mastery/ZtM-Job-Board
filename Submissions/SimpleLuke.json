@@ -1,0 +1,16 @@
+{
+  "name": "Luke Lai",
+  "img": "https://lh6.googleusercontent.com/O47-Qj_ZoIi4H2URetl2-Nz82Ix9Fo2xriuxqgdjlyC3XddeWuGK8rbgKIqaG3fnnyI=w2400",
+  "email": "lukelai.dev@gmail.com",
+  "links": {
+    "website": "www.lukelai.tech",
+    "linkedin": "https://www.linkedin.com/in/luke-lai-309a3522b/",
+    "github": "https://github.com/SimpleLuke"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "United Kingdom"
+  }
+}

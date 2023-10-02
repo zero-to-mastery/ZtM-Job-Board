@@ -1,0 +1,16 @@
+{
+  "name": "Savan Patel",
+  "img": "",
+  "email": "sawanpatel2508@gmail.com",
+  "links": {
+    "website": "https://savan2508.github.io/savan-website",
+    "linkedin": "https://www.linkedin.com/in/savan-patel-577a6669",
+    "github": "https://github.com/savan2508"
+  },
+  "jobTitle": "Software Developer || Fullstack Developer",
+  "location": {
+    "city": "Tampa",
+    "state": "Florida",
+    "country": "United States"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Liam Ha",
+    "img": "https://avatars.githubusercontent.com/u/50177344?v=4",
+    "email": "hkhanhlam99@gmail.com",
+    "links": {
+      "website": "https://portfolio-liam.netlify.app",
+      "linkedin": "https://www.linkedin.com/in/lamkhanhha",
+      "github": "https://github.com/Liam1809"
+    },
+    "jobTitle": "React Developer",
+    "location": {
+      "city": "Bristol",
+      "state": "England",
+      "country": "The United Kingdom"
+    }
+  }

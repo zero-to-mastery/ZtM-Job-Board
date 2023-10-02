@@ -1,0 +1,16 @@
+{
+  "name": "Deepak Guptha",
+  "img": "https://vzan2012.github.io/dist/img/my-profile-photo.jpg",
+  "email": "",
+  "links": {
+    "website": "https://vzan2012.github.io/",
+    "linkedin": "https://www.linkedin.com/in/deepak-guptha-s-b31a12142",
+    "github": "https://github.com/vzan2012"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Paris",
+    "state": "Ile-de-France",
+    "country": "France"
+  }
+}

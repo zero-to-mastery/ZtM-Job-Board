@@ -1,0 +1,16 @@
+{
+    "name": "Pratik Wadhai",
+    "img": "https://avatars.githubusercontent.com/u/81483293?v=4",
+    "email": "pratikwadhai001@gmail.com",
+    "links": {
+      "website": "https://deft-cobbler-5d0c2f.netlify.app/",
+      "linkedin": "https://www.linkedin.com/in/pratik-wadhai/",
+      "github": "https://github.com/pratik-wadhai"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India"
+      }
+  }

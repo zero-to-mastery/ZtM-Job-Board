@@ -1,0 +1,16 @@
+{
+  "name": "Benjamin Lefebvre",
+  "img": "https://media-exp1.licdn.com/dms/image/D5603AQHdZT56hXKe6A/profile-displayphoto-shrink_400_400/0/1660148014299?e=1666224000&v=beta&t=2O2dta0LgnZ_mt2pk2BiyFAye2SAenbDSSrE-VfMxpo",
+  "email": "benjamin.lefebvre.1024@gmail.com",
+  "links": {
+    "website": "https://benjaminlefebvre.dev",
+    "linkedin": "https://www.linkedin.com/in/benjaminlefebvre1024",
+    "github": "https://github.com/BengeeL"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "Toronto",
+    "state": "Ontario",
+    "country": "Canada"
+  }
+}

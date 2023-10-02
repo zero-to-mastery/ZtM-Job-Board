@@ -1,0 +1,16 @@
+{
+    "name": "Kyle Richey",
+    "img": "https://avatars.githubusercontent.com/u/25709474?v=4",
+    "email": "kyle@kyle-richey.com",
+    "links": {
+      "website": "https://www.kyle-richey.com/",
+      "linkedin": "https://www.linkedin.com/in/kyle-richey",
+      "github": "https://github.com/krichey15"
+    },
+    "jobTitle": "Full-Stack JavaScript Developer",
+    "location": {
+      "city": "Poulsbo",
+      "state": "Washington",
+      "country": "United States of America"
+    }
+  }

@@ -1,0 +1,16 @@
+{
+  "name": "Mahmoud Saad",
+  "img": "https://avatars.githubusercontent.com/u/60856679?v=4",
+  "email": "Mahmoud.saad@mail.uk",
+  "links": {
+    "website": "https://sa3d94.github.io/Personal-Portofolio/",
+    "linkedin": "https://www.linkedin.com/in/mahmoud-saad-333124111",
+    "github": "https://github.com/Sa3d94"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Alexandria",
+    "state": "Smouha",
+    "country": "Egypt"
+  }
+}

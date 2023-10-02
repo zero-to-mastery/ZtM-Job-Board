@@ -1,0 +1,16 @@
+{
+    "name": "Savannah Day",
+    "img": "https://media-exp1.licdn.com/dms/image/C5603AQFx-7ouXoP_fg/profile-displayphoto-shrink_400_400/0/1575574549562?e=1659571200&v=beta&t=02bM-aRPvpohfH8G6D3Ffu_tD5LYHx0tCCeh4Oz37HI",
+    "email": "savannahday99@gmail.com",
+    "links": {
+      "website": "savannahday.com",
+      "linkedin": "https://www.linkedin.com/in/savday",
+      "github": "https://github.com/savday"
+    },
+    "jobTitle": "Front End Developer",
+    "location": {
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States"
+    }
+  }

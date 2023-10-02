@@ -1,0 +1,16 @@
+{
+    "name": "Gabriel C. Moris",
+    "img": "https://avatars.githubusercontent.com/u/86617655?v=4",
+    "email": "gabrielcmoris@gmail.com",
+    "links": {
+      "website": "https://www.gabrielcmoris.com",
+      "linkedin": "https://www.linkedin.com/in/gabrielcmoris/",
+      "github": "https://github.com/gabrielmoris"
+    },
+    "jobTitle": "Frontend developer",
+    "location": {
+      "city": "Frankfurt",
+      "state": "Hesse",
+      "country": "Germany"
+    }
+  }

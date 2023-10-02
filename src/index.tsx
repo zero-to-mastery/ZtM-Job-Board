@@ -1,18 +1,26 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import WebFont from "webfontloader"
-import App from "./App"
-import "tachyons"
-import "./index.scss"
-// import registerServiceWorker from "./registerServiceWorker"
+import './index.scss'
+import 'tachyons'
+import App from './App'
+import React from 'react'
+import WebFont from 'webfontloader'
+import { createRoot } from 'react-dom/client'
 
 WebFont.load({
-  google: {
-    // families: ["Roboto Condensed:300,400,700", "sans-serif"]
-    // families: ["Roboto Condensed:300,400,700&display=swap"]
-    families: ["Roboto Condensed:300,400,700&display=swap&subset=latin-ext"],
-  },
+    google: {
+        families: [
+            'Roboto Condensed:300,400,700&display=swap&subset=latin-ext',
+        ],
+    },
 })
 
-ReactDOM.render(<App />, document.getElementById("root"))
-//registerServiceWorker()
+const container = document.getElementById('root')
+
+if (!container) {
+    throw new Error('Failed to find the root element for React rendering.')
+}
+
+const root = createRoot(container)
+root.render(<App />)
+
+// import registerServiceWorker from "./registerServiceWorker";
+// registerServiceWorker()
