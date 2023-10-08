@@ -1,0 +1,16 @@
+{
+    "name": "Samil Abud",
+    "img": "https://avatars.githubusercontent.com/u/5216036?v=4",
+    "email": "samilabud@gmail.com",
+    "links": {
+      "website": "https://samilabud.netlify.app",
+      "linkedin": "https://www.linkedin.com/in/samil-abud",
+      "github": "https://github.com/samilabud"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "location": {
+      "city": "Santo Domingo",
+      "state": "Santo Domingo Este",
+      "country": "Dominican Republic"
+    }
+  }
