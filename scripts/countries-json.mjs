@@ -95,6 +95,7 @@ const countryFixes = {
   'Portugal' : ['39.399872', '-8.224454'],
   'Sweden' : ['60.128161', '18.643501'],
   'United States' : ['37.09024', '-95.712891'],
+  'Egypt' : ['26.820553', '30.802498'],
 };
 
 const countriesThatNeedFixes = new Set(Object.keys(countryFixes));

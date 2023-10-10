@@ -1,0 +1,16 @@
+{
+    "name": "Mohamed Tarek",
+    "img": "https://github.com/mado01.png",
+    "email": "m.tarek.98@outlook.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/mohamed-tarek-bb692a172/",
+      "github": "https://github.com/mado01"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "Egypt"
+    }
+  }
