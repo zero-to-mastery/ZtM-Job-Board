@@ -16,7 +16,7 @@ const Card = ({ user }: any) => {
         return (
             <div
                 id={`person-${id}`}
-                className="card ma4 w5 tc bg-white br2 custom--shadow-2 custom--shadow-hover-8 custom--o-95 z-1"
+                className="card ma3 w5 tc bg-white br3 custom--shadow-2 custom--shadow-hover-8 custom--o-95 z-1"
             >
                 <div className="header relative pt3 br2 br--top z-0">
                     <LazyLoad
