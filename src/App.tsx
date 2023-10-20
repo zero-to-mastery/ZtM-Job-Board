@@ -108,8 +108,8 @@ function App() {
             </main>
             <footer className="custom--unselectable w-100 h3 flex items-center justify-center white custom--bg-additional3 z-2">
                 <div className="flex items-center">
-                    Copyright © {new Date().getFullYear()} by Verge Inc. All
-                    Rights Reserved. &nbsp;&nbsp;
+                    Copyright © {new Date().getFullYear()} by Zero to Mastery.
+                    All Rights Reserved. &nbsp;&nbsp;
                     <a
                         href="https://github.com/zero-to-mastery/ZtM-Job-Board"
                         title="Repository"
