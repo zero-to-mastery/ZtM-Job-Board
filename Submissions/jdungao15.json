@@ -1,0 +1,16 @@
+{
+    "name": "John Miguel Dungao",
+    "img": "https://avatars.githubusercontent.com/u/32146283?v=4",
+    "email": "johnmiguel.dungao@gmail.com",
+    "links": {
+        "website": "https://john-dungao-personal-website.github.io/Portfolio/",
+        "linkedin": "https://www.linkedin.com/in/johndungao/",
+        "github": "https://github.com/jdungao15"
+    },
+    "jobTitle": "Fullstack Developer | Software Developer | Python",
+    "location": {
+        "city": "Bergenfield",
+        "state": "New Jersey",
+        "country": "USA"
+    }
+}
