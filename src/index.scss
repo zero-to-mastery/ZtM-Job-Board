@@ -89,7 +89,7 @@ header {
 
     .header-items {
         transition: height 0.3s ease;
-        padding: 0.6rem;
+        padding: 1.6rem;
         align-items: center;
     }
 
@@ -281,7 +281,7 @@ header {
 }
 
 main {
-    margin: 5rem 5% 1rem 5%;
+    margin: 7rem 5% 1rem 5%;
 
     .card {
         min-height: 26rem;
@@ -541,4 +541,20 @@ footer {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+.custom--top-buttom {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+
+    div {
+        background-color: #2196f3;
+        color: white;
+        width: 40px;
+        padding: 8px;
+        height: 40px;
+        border-radius: 200px;
+    }
 }
