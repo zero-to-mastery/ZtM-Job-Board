@@ -1,0 +1,16 @@
+{
+  "name": "Vishal",
+  "img": "https://avatars.githubusercontent.com/u/116289447?v=4",
+  "email": "vishalsmurali@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "",
+    "github": "https://github.com/VykSI"
+  },
+  "jobTitle": "Backend Developer",
+  "location": {
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India"
+  }
+}
