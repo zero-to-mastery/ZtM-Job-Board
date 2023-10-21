@@ -1,0 +1,16 @@
+{
+  "name": "Ahmed raza",
+  "img": "https://avatars.githubusercontent.com/u/41878215?v=4",
+  "email": "ahmed.raza1054@gmail.com",
+  "links": {
+    "website": "https://ahmedrazabaloch.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/ahmedrazabaloch",
+    "github": "https://github.com/ahmedrazabaloch"
+  },
+  "jobTitle": "Front-End Developer",
+  "location": {
+    "city": "Karachi",
+    "state": "Sindh",
+    "country": "Pakistan"
+  }
+}

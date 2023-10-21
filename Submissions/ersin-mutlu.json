@@ -1,0 +1,17 @@
+{
+    "name": "Ersin Mutlu",
+    "img": "https://avatars.githubusercontent.com/gorbadil",
+    "email":"ersin.mutlu@outlook.com.tr",
+    "links": {
+      "website": "https://www.ersinm.com",
+      "linkedin": "https://www.linkedin.com/in/ersinm",
+      "github": "https://github.com/gorbadil"
+    },
+    "jobTitle": "Frontend Web Developer",
+    "location": {
+      "city": "Ankara",
+      "state": "Ankara",
+      "country": "Turkey"
+    }
+  }
+  

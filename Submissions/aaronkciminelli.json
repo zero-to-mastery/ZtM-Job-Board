@@ -1,0 +1,16 @@
+{
+  "name": "Aaron Ciminelli",
+  "img": "https://aaronciminelli.com/assets/img/profile-img.jpg",
+  "email": "acimine@icloud.com",
+  "links": {
+    "website": "https://aaronciminelli.com/",
+    "linkedin": "www.linkedin.com/in/aaron-ciminelli-92502a1b7",
+    "github": "https://github.com/aaronkciminelli"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Ewa Beach",
+    "state": "Hawaii",
+    "country": "United States"
+  }
+}

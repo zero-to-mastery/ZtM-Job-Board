@@ -1,0 +1,16 @@
+{
+    "name": "Parker Ramey",
+    "img": "https://avatars.githubusercontent.com/u/118308320?v=4",
+    "email": "parkerramey@yahoo.com",
+    "links": {
+      "website": "https://parkerramey.super.site/",
+      "linkedin": "https://www.linkedin.com/in/parker-ramey-a27b9b257/",
+      "github": "https://github.com/ProfoundlyParker"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA",
+      "country": "USA"
+    }
+  }

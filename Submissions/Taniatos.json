@@ -1,0 +1,16 @@
+{
+  "name": "Tetiana Korchynska",
+  "img": "https://avatars.githubusercontent.com/u/124466222?v=4",
+  "email": "tanakorchynska@gmail.com",
+  "links": {
+    "website": "https://tetiana-korchynska-portfolio.netlify.app/index.html",
+    "linkedin": "https://www.linkedin.com/in/tetiana-korchynska/",
+    "github": "https://github.com/Taniatos"
+  },
+  "jobTitle": "Front End Developer",
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA"
+  }
+}

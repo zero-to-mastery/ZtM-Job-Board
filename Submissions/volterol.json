@@ -1,0 +1,16 @@
+{
+  "name": "Oleg Volter",
+  "img": "",
+  "email": "oleg.volter@gmail.com",
+  "links": {
+    "website": "https://wowtrips.eu",
+    "linkedin": "https://www.linkedin.com/in/oleg-volter/",
+    "github": "https://github.com/volterol"
+  },
+  "jobTitle": "Web Developer",
+  "location": {
+    "city": "Tallinn",
+    "state": "",
+    "country": "Estonia"
+  }
+}

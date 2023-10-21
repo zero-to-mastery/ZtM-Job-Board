@@ -1,0 +1,16 @@
+{
+    "name": "George Lin",
+    "img": "https://avatars.githubusercontent.com/u/115956879?v=4",
+    "email": "lingeorge04@gmail.com",
+    "links": {
+      "website": "https://lingeorge88.github.io/Portfiolio_ReactJS/",
+      "linkedin": "https://www.linkedin.com/in/george-lin-504b57250",
+      "github": "https://github.com/lingeorge88"
+    },
+    "jobTitle": "Front End Developer",
+    "location": {
+      "city": "Kirkland",
+      "state": "WA",
+      "country": "USA"
+    }
+  }

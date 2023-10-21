@@ -1,0 +1,16 @@
+{
+    "name": "Joe DiGioia",
+    "img": "https://avatars.githubusercontent.com/u/128264331?v=4",
+    "email": "joe.p.digioia@gmail.com",
+    "links": {
+      "website": "https://joedigioia.com",
+      "linkedin": "https://www.linkedin.com/in/joe-digioia-420a9a2a",
+      "github": "https://github.com/WatchAce0"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "country": "United States"
+    }
+  }

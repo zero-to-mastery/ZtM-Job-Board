@@ -1,0 +1,16 @@
+{
+  "name": "Sunay",
+  "img": "https://avatars.githubusercontent.com/u/8187493?v=4",
+  "email":"",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/sunayab/",
+    "github": "https://github.com/sunayab"
+  },
+  "jobTitle": "Full Stack Dev (C++, JS, Virtualization)",
+  "location": {
+    "city": "Bengaluru",
+    "state": "",
+    "country": "India"
+  }
+}
