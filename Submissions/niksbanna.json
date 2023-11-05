@@ -1,0 +1,16 @@
+{
+    "name": "Narendra Singh",
+    "img": "https://avatars.githubusercontent.com/u/45920258?v=4",
+    "email": "bannanicky0@gmail.com",
+    "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/narendrasingh7773/",
+        "github": "https://github.com/niksbanna"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+        "city": "Udaipur",
+        "state": "Rajasthan",
+        "country": "India"
+    }
+}
