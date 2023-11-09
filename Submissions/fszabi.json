@@ -1,0 +1,16 @@
+{
+    "name": "Forgács Szabolcs",
+    "img": "https://raw.githubusercontent.com/fszabi/img/main/github-image.jpg",
+    "email": "forgacsszabolcs@pm.me",
+    "links": {
+        "website": "https://www.webrebirth.hu/",
+        "linkedin": "https://www.linkedin.com/in/szabolcs-forgács-174537296/",
+        "github": "https://github.com/fszabi"
+    },
+    "jobTitle": "Front End Developer",
+    "location": {
+        "city": "Bonyhád",
+        "state": "Tolna",
+        "country": "Hungary"
+    }
+}
