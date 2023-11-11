@@ -32,10 +32,10 @@ function SimpleMap({ zoom = 3 }) {
     // Two nested for loops are okay as array items will always be < 250 in both arrays
     let finalArrayWithCountryAndLatLng: any = []
     function finalCountryAndLocationArray() {
-        for (let i = 0; i < countryNamesAndNumOfDevsArr.length; i++) {
+        for (const element of countryNamesAndNumOfDevsArr) {
             for (let j = 0; j < countriesLatLngArr.length; j++) {
                 if (
-                    countryNamesAndNumOfDevsArr[i][0].toLowerCase() ===
+                    element[0].toLowerCase() ===
                         countriesLatLngArr[j].name.toLowerCase() &&
                     !finalArrayWithCountryAndLatLng.some(
                         (entry: any) =>
@@ -46,7 +46,7 @@ function SimpleMap({ zoom = 3 }) {
                     finalArrayWithCountryAndLatLng.push({
                         country: countriesLatLngArr[j].name,
                         latlng: countriesLatLngArr[j].latlng,
-                        numberOfDevs: countryNamesAndNumOfDevsArr[i][1],
+                        numberOfDevs: element,
                     })
                 }
             }
