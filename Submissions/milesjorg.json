@@ -1,0 +1,16 @@
+{
+    "name": "Miles Jorgensen",
+    "img": "https://avatars.githubusercontent.com/u/55212275?v=4",
+    "email": "milesbjorgensen@gmail.com",
+    "links": {
+      "website": "https://milesjorg.netlify.app/",
+      "linkedin": "https://www.linkedin.com/in/milesjorg",
+      "github": "https://github.com/milesjorg"
+    },
+    "jobTitle": "Software QA Engineer",
+    "location": {
+      "city": "Long Beach",
+      "state": "CA",
+      "country": "United States"
+    }
+}
