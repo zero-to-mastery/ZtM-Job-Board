@@ -1,0 +1,16 @@
+{
+  "name": "Vianey Marcelo",
+  "img": "https://avatars.githubusercontent.com/u/69179706?v=4",
+  "email": "vianydev@gmail.com",
+  "links": {
+    "website": "https://vianydev.github.io/",
+    "linkedin": "https://www.linkedin.com/in/vianydev",
+    "github": "https://github.com/vianydev"
+  },
+  "jobTitle": "Front-End Developer",
+  "location": {
+    "city": "Coatzacoalcos",
+    "state": "Veracruz",
+    "country": "Mexico"
+  }
+}
