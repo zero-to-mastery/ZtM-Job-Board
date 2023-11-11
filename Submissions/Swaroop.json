@@ -1,0 +1,15 @@
+{
+  "name": "Swaroop Anegundi",
+  "img": "",
+  "email":"",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/swaroop-raghavendra-anegundi/",
+    "github": "https://github.com/swaroop-2021"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Hubli",
+    "state": "Karnataka",
+    "country": "India"
+  }
+}
