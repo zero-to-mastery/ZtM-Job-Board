@@ -18,7 +18,7 @@ Link to the webpage: [**ZtM JOB Board**](https://zero-to-mastery.github.io/ZtM-J
 
 Note: **You will first need to make a fork of the project!**
 
-![fork image](https://docs.github.com/assets/cb-23088/images/help/repository/fork_button.png)
+![fork image](https://docs.github.com/assets/cb-79331/mw-1440/images/help/repository/fork-button.webp)
 
 If you are unclear on how the GitHub workflow works, you can check the [Make a Pull Request guide](https://makeapullrequest.com/).
 
