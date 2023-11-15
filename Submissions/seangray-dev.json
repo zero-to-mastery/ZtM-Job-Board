@@ -1,0 +1,16 @@
+{
+    "name": "Sean Gray",
+    "img": "https://avatars.githubusercontent.com/u/100044499?v=4",
+    "email": "seangray.dev@gmail.com",
+    "links": {
+        "website": "https://www.seangray.tech",
+        "linkedin": "https://www.linkedin.com/in/seangray-dev",
+        "github": "https://github.com/seangray-dev"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+        "city": "Toronto",
+        "state": "Ontario",
+        "country": "Canada"
+    }
+}
