@@ -1,0 +1,16 @@
+{
+  "name": "Sheena Gonzalez",
+  "img": "https://avatars.githubusercontent.com/u/45454350?v=4",
+  "email": "shngonzalez@gmail.com",
+  "links": {
+    "website": "https://sheenagonzalez.github.io/",
+    "linkedin": "https://www.linkedin.com/in/sheena-gonzalez",
+    "github": "https://github.com/sheenagonzalez"
+  },
+  "jobTitle": "Software Engineer - Frontend",
+  "location": {
+    "city": "Los Angeles",
+    "state": "California",
+    "country": "US"
+  }
+}
