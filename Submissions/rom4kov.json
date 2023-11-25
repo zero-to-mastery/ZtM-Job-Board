@@ -1,0 +1,16 @@
+{
+    "name": "Roman Kowert",
+    "img": "https://media.licdn.com/dms/image/C4D03AQHXrOZhFDjeXQ/profile-displayphoto-shrink_800_800/0/1648340258241?e=1706140800&v=beta&t=xMPLwTB8i3CJGMB7ueSR_ghOnBy6SmYkTnFkVZTkciQ",
+    "email": "rkowert@posteo.de",
+    "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/roman-kowert-8887599a/",
+        "github": "https://github.com/rom4kov"
+    },
+    "jobTitle": "Fullstack Web Developer",
+    "location": {
+        "city": "Berlin",
+        "state": "Berlin",
+        "country": "Germany"
+    }
+}
