@@ -1,0 +1,16 @@
+{
+  "name": "Praveen Raj",
+  "img": "https://avatars.githubusercontent.com/u/77684640?v=4",
+  "email": "praveenrajsl02@gmail.com",
+  "links": {
+    "website": "https://praveenrajsl.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/praveenraj002/",
+    "github": "https://github.com/Praveenraj002"
+  },
+  "jobTitle": "Front-end Developer",
+  "location": {
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India"
+  }
+}
