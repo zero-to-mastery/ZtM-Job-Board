@@ -1,0 +1,16 @@
+{
+    "name": "Yash Thaker",
+    "img": "https://avatars.githubusercontent.com/u/17721892?v=4",
+    "email": "yashthaker.777@gmail.com",
+    "links": {
+      "website": "https://yash-thaker.vercel.app",
+      "linkedin": "https://www.linkedin.com/in/yash-thaker",
+      "github": "https://github.com/october7sveryown"
+    },
+    "jobTitle": "Full-stack developer",
+    "location": {
+      "city": "Toronto",
+      "state": "Ontario",
+      "country": "Canada"
+    }
+  }
