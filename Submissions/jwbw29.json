@@ -1,0 +1,16 @@
+{
+    "name": "Justin Byrd",
+    "img": "https://avatars.githubusercontent.com/u/71021894?v=4",
+    "email": "justinbyrd7@gmail.com",
+    "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/justin-byrd-7",
+        "github": "https://github.com/jwbw29"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+        "city": "Columbia",
+        "state": "MO",
+        "country": "United States"
+    }
+}
