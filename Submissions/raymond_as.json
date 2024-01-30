@@ -1,0 +1,16 @@
+{
+  "name": "Raymond As",
+  "img": "https://github.com/Abdas13.png",
+  "email": "a.rahman.sa16@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/a-rahman-javadeveloper/",
+    "github": "https://github.com/Abdas13"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Toronto",
+    "state": "Ontario",
+    "country": "Canada"
+  }
+}
