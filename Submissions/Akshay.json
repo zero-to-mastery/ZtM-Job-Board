@@ -1,0 +1,17 @@
+{
+    "name": "Akshay K",
+    "img": "",
+    "email": "akshaypmnacoc@gmail.com",
+    "links": {
+      "website": "aks-dev.vercel.app",
+      "linkedin": "https://www.linkedin.com/in/akshaypmna",
+      "github": "https://github.com/akshaypmna"
+    },
+    "jobTitle": "Front End Developer",
+    "location": {
+      "city": "Perinthalmanna",
+      "state": "Kerala",
+      "country": "India"
+    }
+  }
+
