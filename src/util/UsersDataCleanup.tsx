@@ -69,6 +69,8 @@ const allCountryNamesFixedToMatchAPINames = allCountryNamesCleaned.map(
                 return 'Sri Lanka'
             case 'NIGERIA':
                 return 'Nigeria'
+            case 'FRANCE':
+                return 'France'
             default:
                 return country
         }
