@@ -35,11 +35,13 @@ const Navbar = ({
                             : 'See the Map'
                     }
                 />
-                <Pointer
-                    onClick={shufflePeopleOnClick}
-                    Text="Shuffle"
-                    TooltipText="Click to shuffle the Cards"
-                />
+                {mapOrHomeTitle !== 'Home' && (
+                    <Pointer
+                        onClick={shufflePeopleOnClick}
+                        Text="Shuffle"
+                        TooltipText="Click to shuffle the Cards"
+                    />
+                )}
                 {mapOrHomeTitle === pageNames.map && (
                     <div
                         style={{ margin: 0, padding: 0 }}
