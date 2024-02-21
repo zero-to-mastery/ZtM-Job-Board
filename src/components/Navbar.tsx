@@ -33,7 +33,7 @@ const Navbar = ({
             mapOrHomeTitle === "Home" ? "Go to Home Page" : "See the Map"
           }
         />
-        {mapOrHomeTitle != "Home" && (
+        {mapOrHomeTitle !== "Home" && (
           <Pointer
             onClick={shufflePeopleOnClick}
             Text="Shuffle"
