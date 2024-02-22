@@ -1,0 +1,16 @@
+{
+  "name": "Sam Fisher",
+  "img": "https://avatars.githubusercontent.com/SamFisher0208",
+  "email": "",
+  "links": {
+    "website": "https://sam-fisher-portfolio.vercel.app/",
+    "linkedin": "https://www.linkedin.com/in/sam-j-fisher/",
+    "github": "https://github.com/SamFisher0208"
+  },
+  "jobTitle": "Junior Front End Dev",
+  "location": {
+    "city": "",
+    "state": "Washington",
+    "country": "US"
+  }
+}
