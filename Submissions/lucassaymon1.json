@@ -1,0 +1,16 @@
+{
+  "name": "Lucas Saymon",
+  "img": "https://avatars.githubusercontent.com/u/102837549?v=4",
+  "email": "lucassaymon.dev@gmail.com",
+  "links": {
+    "website": "portfolio-lucassaymon1.vercel.app",
+    "linkedin": "https://www.linkedin.com/in/lucas-saymon-467768241/",
+    "github": "https://github.com/lucassaymon1"
+  },
+  "jobTitle": "Full Stack Web Developer",
+  "location": {
+    "city": "Sousa",
+    "state": "Paraiba",
+    "country": "Brazil"
+  }
+}
