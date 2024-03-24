@@ -1,0 +1,16 @@
+{
+    "name": "Braulio Bolano",
+    "img": "https://avatars.githubusercontent.com/u/115350502?s=400&u=b73716232da81ce1238468ecc112161fd2934631&v=4",
+    "email": "workportfoliopersonal@gmail.com",
+    "links": {
+      "website": "https://brauliobolano.github.io/Portfolio/",
+      "linkedin": "https://www.linkedin.com/in/braulio-bolano-trujillo/",
+      "github": "https://github.com/brauliobolano"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "location": {
+      "city": "Miami",
+      "state": "Florida",
+      "country": "United States"
+    }
+  }
