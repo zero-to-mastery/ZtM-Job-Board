@@ -1,0 +1,16 @@
+{
+    "name": "Osama Ayub",
+    "img": "https://avatars.githubusercontent.com/u/77015981?v=4",
+    "email": "ayubosama416@gmail.com",
+    "links": {
+      "website": "https://osamaayub.netlify.app/",
+      "linkedin": "https://www.linkedin.com/in/osamaayub",
+      "github": "https://github.com/osamaayub"
+    },
+    "jobTitle": "Full Stack MernStack Developer",
+    "location": {
+      "city": "Lahore",
+      "state": "Pakistan",
+      "country": "Punjab"
+    }
+  }
