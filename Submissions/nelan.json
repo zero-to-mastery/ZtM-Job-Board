@@ -1,0 +1,17 @@
+{
+  "id": "5c0b2548-4463-48cf-b7ef-afdfcf7a31dd",
+  "name": "Nelan",
+  "img": "https://avatars.githubusercontent.com/u/49295389?v=4",
+  "email":"nelanjorelat@gmail.com",
+  "links": {
+    "website": "https://nelan.my.id/",
+    "linkedin": "https://www.linkedin.com/in/nelan17/",
+    "github": "https://github.com/NelanJoe"
+  },
+  "jobTitle": "Frontend Developer",
+  "location": {
+    "city": "West Java",
+    "state": "Bogor",
+    "country": "Indonesia"
+  }
+}
