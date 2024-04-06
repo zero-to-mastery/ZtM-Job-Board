@@ -1,0 +1,16 @@
+{
+    "name": "HINGA PETER ",
+    "img": "https://github.com/Hinga-inc.png",
+    "email": "hingapeter18@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/hingapeter",
+      "github": "https://github.com/Hinga-inc"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+      "city": "Nairobi",
+      "state": "Nairobi",
+      "country": "Kenya"
+    }
+  }
