@@ -1,0 +1,16 @@
+{
+    "name": "Arooj Shahid",
+    "img": "",
+    "email": "aroojshahid1999@gmail.com",
+    "links": {
+      "website": "https://portfolio-k7d4zasgf-aroojs-projects.vercel.app/",
+      "linkedin": "https://www.linkedin.com/in/arooj-shahid-22b780215",
+      "github": "https://github.com/arooj-12"
+    },
+    "jobTitle": "Full-Stack Developer",
+    "location": {
+      "city": "Lahore",
+      "state": "Punjab",
+      "country": "Pakistan"
+    }
+  }
