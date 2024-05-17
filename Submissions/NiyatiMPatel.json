@@ -1,0 +1,16 @@
+{
+ "name": "Niyati Patel",
+ "img": "https://avatars.githubusercontent.com/u/74996030?v=4",
+ "email": "patel_niyati@outlook.com",
+ "links": {
+   "website": "https://niyatipatel.netlify.app",
+   "linkedin": "https://www.linkedin.com/in/niyati-mukesh-patel",
+   "github": "https://github.com/NiyatiMPatel"
+ },
+ "jobTitle": "FRONT END DEVELOPER",
+ "location": {
+   "city": "TORONTO",
+   "state": "ONTARIO",
+   "country": "CANADA"
+ }
+}
