@@ -1,0 +1,16 @@
+{
+    "name": "Nehal Surti",
+    "img": "https://avatars.githubusercontent.com/u/127222956?v=4",
+    "email": "nehalsurti9998@gmail.com",
+    "links": {
+      "website": "https://portfolio-topaz-six-67.vercel.app",
+      "linkedin": "https://www.linkedin.com/in/NehalSurti",
+      "github": "https://github.com/NehalSurti"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "London",
+      "state": "England",
+      "country": "UK"
+    }
+}
