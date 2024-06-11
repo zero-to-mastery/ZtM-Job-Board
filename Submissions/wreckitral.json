@@ -1,0 +1,16 @@
+{
+  "name": "Defhanaya Sofhiea",
+  "img": "https://raw.githubusercontent.com/wreckitral/wreckitral/main/having-coffee.jpeg",
+  "email": "defhanayasofhiea@gmail.com",
+  "links": {
+    "website": "https://wreckitral.github.io/defha",
+    "linkedin": "https://www.linkedin.com/in/defhanaya",
+    "github": "https://github.com/wreckitral"
+  },
+  "jobTitle": "Back-end Engineer",
+  "location": {
+    "city": "Palembang",
+    "state": "South Sumatera",
+    "country": "Indonesia"
+  }
+}
