@@ -1,0 +1,16 @@
+{
+  "name": "Sachin Das",
+  "img": "https://avatars.githubusercontent.com/u/46067765?v=4",
+  "email": "sachindas246@gmail.com",
+  "links": {
+    "website": "https://sachindas246.github.io/",
+    "linkedin": "https://www.linkedin.com/in/sachindas246/",
+    "github": "https://github.com/SachinDas246"
+  },
+  "jobTitle": "Fullstack Developer",
+  "location": {
+    "city": "Alleppey",
+    "state": "Kerala",
+    "country": "India"
+  }
+}
