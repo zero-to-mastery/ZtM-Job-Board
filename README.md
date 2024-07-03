@@ -48,6 +48,25 @@ inside `Submissions/` folder, and then fill it up with following content.
 }
 ```
 
+Example with dummy values:
+```json
+{
+  "name": "John Example",
+  "img": "https://avatars.githubusercontent.com/u/57936?v=4",
+  "email": "example@example.com",
+  "links": {
+    "website": "example.com",
+    "linkedin": "https://www.linkedin.com/in/example",
+    "github": "https://github.com/example"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Example City",
+    "state": "Example State",
+    "country": "Example Country"
+  }
+}
+```
 
 ### Please note!
 
@@ -62,10 +81,11 @@ Please submit a Pull Request to be added to this list. If you are unsure how to 
 1. Go to your profile on GitHub.com
 2. Append to your GitHub profile url “.png”, so it will look like this:
 
-https://github.com/aneta-s.png
+https://github.com/example.png
 
 3. Hit enter and the browser will generate a page with your image, it look like this:
-   https://avatars2.githubusercontent.com/u/54153719?v=4
+  https://avatars.githubusercontent.com/u/57936?v=4
+
 
 4. Copy url of this page and paste it in `Submissions/<YOUR_GH_USERNAME>.json` file
 
