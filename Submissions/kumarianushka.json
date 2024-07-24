@@ -1,0 +1,15 @@
+{
+  "name": "Kumari Anushka",
+  "img": "https://media.licdn.com/dms/image/D5603AQEpyNrS_l3hvg/profile-displayphoto-shrink_400_400/0/1705872746288?e=1727308800&v=beta&t=Fh4hfFMWPtn3pwFVsHtK0UtE5cjKPvP9rdk33WTflOc",
+  "email": "anushka.ak14@gmail.com",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/kumari-anushka-1410/",
+    "github": "https://github.com/anuxoxo"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India"
+  }
+}
