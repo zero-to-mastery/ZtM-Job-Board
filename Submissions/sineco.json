@@ -1,0 +1,16 @@
+{
+  "name": "Rodrigo S. Araujo",
+  "img": "https://avatars.githubusercontent.com/u/11698225?v=4",
+  "email": "sineco@gmail.com",
+  "links": {
+    "website": "rodrigoaraujophd.com",
+    "linkedin": "https://www.linkedin.com/in/rodrigosineco",
+    "github": "https://github.com/sineco"
+  },
+  "jobTitle": "Machine Learning Scientist",
+  "location": {
+    "city": "Elmira",
+    "state": "ON",
+    "country": "Canada"
+  }
+}
