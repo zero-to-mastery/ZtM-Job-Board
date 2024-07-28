@@ -1,0 +1,16 @@
+{
+    "name": "Apsar Shaik",
+    "img": "https://avatars.githubusercontent.com/u/58771023?s=400",
+    "email": "apsar_shaik@outlook.com",
+    "links": {
+      "website": "example.com",
+      "linkedin": "https://www.linkedin.com/in/sk-apsar",
+      "github": "https://github.com/apsarsk"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India"
+    }
+  }
