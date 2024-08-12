@@ -18,24 +18,24 @@ const BatchCards = ({ persons, numberPerBatch = 16 }: any) => {
     const infoCardContainer: object = {
         padding: 20,
         backgroundColor: '#42a5f5',
-        borderRadius: 10,
+        // borderRadius: 10,
         flexDirection: 'row',
         display: 'flex',
-        justifyContent: 'space-between',
+        justifyContent: 'space-around',
     }
     const infoView: object = {
         background: '#212121',
-        padding: 10,
-        borderRadius: 10,
+        padding: 14,
+        borderRadius: 5,
     }
     const infoLabel: object = {
-        fontSize: 20,
+        fontSize: 16,
         margin: 0,
         padding: 0,
         color: 'white',
     }
     const infoValue: object = {
-        fontSize: 25,
+        fontSize: 16,
         margin: 0,
         padding: 0,
         color: 'white',

@@ -16,7 +16,7 @@ const style: React.CSSProperties = {
     background: '#fff',
     padding: '1rem',
     width: '100%',
-    margin: '0 0 2rem 0',
+    margin: '1rem 0 2rem 0',
     zIndex: 1,
     borderRadius: '5px',
 }
@@ -118,8 +118,8 @@ function App() {
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
+                            width="16"
+                            height="16"
                             viewBox="0 0 24 24"
                             fill="white"
                         >
@@ -136,8 +136,8 @@ function App() {
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="20"
-                        height="20"
+                        width="21"
+                        height="21"
                         fill="currentColor"
                         className="bi bi-arrow-up"
                         viewBox="0 0 16 16"

@@ -4,6 +4,10 @@ import '../styles/SearchBarDesktopView.scss'
 import { pageNames } from '../util/pageNames'
 import { shuffle } from '../util/shuffle'
 import { Pointer } from './Pointer'
+import { FaMapMarkedAlt } from 'react-icons/fa'
+import { FiRefreshCw } from 'react-icons/fi'
+import { MdHome } from 'react-icons/md'
+import { AiFillHome } from 'react-icons/ai'
 
 const Navbar = ({
     onSearchChange,
@@ -32,7 +36,14 @@ const Navbar = ({
                     TooltipText={
                         mapOrHomeTitle === 'Home'
                             ? 'Go to Home Page'
-                            : 'See the Map'
+                            : 'See the Global Map'
+                    }
+                    Icon={
+                        mapOrHomeTitle === 'Home' ? (
+                            <AiFillHome />
+                        ) : (
+                            <FaMapMarkedAlt />
+                        )
                     }
                 />
                 {mapOrHomeTitle !== 'Home' && (
@@ -40,6 +51,7 @@ const Navbar = ({
                         onClick={shufflePeopleOnClick}
                         Text="Shuffle"
                         TooltipText="Click to shuffle the Cards"
+                        Icon={<FiRefreshCw />}
                     />
                 )}
                 {mapOrHomeTitle === pageNames.map && (
