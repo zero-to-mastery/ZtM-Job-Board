@@ -46,7 +46,8 @@ $colors: (
     $b3,
     $s3
 ) {
-    box-shadow: #{$h1}px #{$v1}px #{$b1}px #{$s1}px rgba(0, 0, 0, 0.2),
+    box-shadow:
+        #{$h1}px #{$v1}px #{$b1}px #{$s1}px rgba(0, 0, 0, 0.2),
         #{$h2}px #{$v2}px #{$b2}px #{$s2}px rgba(0, 0, 0, 0.14),
         #{$h3}px #{$v3}px #{$b3}px #{$s3}px rgba(0, 0, 0, 0.12);
 }
@@ -58,15 +59,18 @@ $colors: (
 }
 
 * {
-    transition: color 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    transition:
+        color 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
         background-color 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
         border-color 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
         box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
+
 *:before,
 *:after {
     transition: inherit;
 }
+
 svg {
     fill: currentColor;
     transition: fill 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
@@ -74,7 +78,7 @@ svg {
 
 body {
     min-width: 22.25rem;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Arial', sans-serif;
     cursor: default;
 }
 
@@ -85,11 +89,13 @@ input {
 }
 
 header {
-    padding: 0 5%;
+    padding: 0 3.6%;
 
     .header-items {
         transition: height 0.3s ease;
-        padding: 1.6rem;
+        padding: 1rem;
+        margin: 0 1rem;
+        display: flex;
         align-items: center;
     }
 
@@ -174,6 +180,7 @@ header {
         span:nth-child(2) {
             color: $color--secondary;
         }
+
         span:nth-child(3) {
             color: currentColor;
         }
@@ -185,10 +192,12 @@ header {
     label {
         cursor: pointer;
     }
+
     input {
         visibility: hidden;
         margin: 0 -0.05rem 0 0.6rem;
     }
+
     input::before,
     input:checked::before,
     input::after,
@@ -199,48 +208,60 @@ header {
         position: absolute;
         border-radius: 50%;
     }
+
     input::before {
         width: 0.5rem;
         height: 0.5rem;
         margin: 0.1875rem;
         background-color: transparent;
     }
+
     input:checked::before {
         background-color: $color--primary;
     }
+
     input::after {
         height: 0.875rem;
         width: 0.875rem;
         border: 0.125rem solid $color--secondary;
     }
+
     input:checked::after {
         border-color: #ffffff;
     }
 }
 
 .searchbox {
-    margin: 0 0.6rem 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
 
     input {
-        width: 11rem;
+        width: 14rem;
         padding: 0.3rem;
     }
+
     input::selection {
         background: rgba(255, 255, 255, 0.15);
     }
+
     input::-moz-selection {
         background: rgba(255, 255, 255, 0.15);
     }
+
     input::placeholder {
         color: $color--additional2;
         opacity: 1;
     }
+
     input:focus::-ms-input-placeholder {
         color: $color--additional2;
     }
+
     input:focus:-ms-input-placeholder {
         color: $color--additional2;
     }
+
     input:focus,
     input:not(:placeholder-shown) {
         color: #000000;
@@ -251,7 +272,11 @@ header {
 /* Tooltip container */
 .searchbox-tooltip {
     position: relative;
-    display: inline-block;
+    // display: inline-block;
+
+    .icon {
+        margin-right: 10px;
+    }
 }
 
 /* Tooltip text */
@@ -264,15 +289,18 @@ header {
     width: 220px;
     top: 110%;
     left: 50%;
-    margin-left: -110px; /* Use half of the width (200/2 = 100), to center the tooltip */
+    transform: translate(-60%, -16%);
+    // margin-left: -110px;
+    /* Use half of the width (200/2 = 100), to center the tooltip */
 
     visibility: hidden;
-    width: 220px;
-    background-color: rgba(0, 0, 0, 0.75);
+    width: max-content;
+    background-color: rgba(0, 0, 0, 0.7);
     color: #dddddd;
     text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
+    padding: 5px;
+    border-radius: 5px;
+    overflow-x: auto;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
@@ -281,139 +309,150 @@ header {
 }
 
 main {
-    margin: 7rem 5% 1rem 5%;
-
-    .card {
-        min-height: 26rem;
-        height: auto;
-
-        .header {
-            padding-top: 1.5rem;
-        }
-
-        .header .photo {
-            margin: 0;
-            box-sizing: border-box;
-            // to maintain aspect ratio of images
-            object-fit: cover;
-            // to keep the card size same as it was before replacing div with background to img
-            margin-bottom: -1rem;
-        }
-
-        .header .name {
-            height: 3.5rem;
-        }
-        .footer {
-            box-sizing: border-box;
-            justify-content: center;
-            font-size: 1rem;
-            height: 100%;
-            max-height: 4.5rem;
-            min-height: 5rem;
-            width: auto;
-            padding: 1.5rem 1rem 2rem !important;
-            margin: 0;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        .header .title {
-            box-sizing: border-box;
-            justify-content: center;
-            height: auto;
-            max-height: 4.5rem;
-            min-height: 5rem;
-            width: auto;
-            padding: 1.2rem 1rem 2rem !important;
-            font-size: 18px;
-            margin: 0;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        .main {
-            height: 4.25rem;
-        }
-
-        .main a {
-            position: relative;
-            z-index: 1;
-
-            svg {
-                fill: #000000;
-
-                path {
-                    cursor: pointer;
-                }
-            }
-        }
-        .main a::before {
-            content: '';
-            width: 2.7rem;
-            height: 2.7rem;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            border-radius: 100%;
-            background-color: transparent;
-            transform: translate(-50%, -50%);
-            z-index: -1;
-        }
-
-        &:hover .header {
-            background-color: $color--primary;
-        }
-        &:hover .header .photo {
-            border: 0.25rem solid $color--secondary;
-            @include custom--box-shadow(0, 3, 3, -2, 0, 3, 4, 0, 0, 1, 8, 0);
-        }
-        &:hover .header .personId {
-            opacity: 1;
-        }
-        &:hover .header .title {
-            color: #ffffff;
-            background-color: $color--primary-dark;
-            word-break: break-word;
-            white-space: normal;
-            overflow: hidden;
-        }
-        &:hover .footer {
-            background-color: $color--additional1;
-            word-break: break-word;
-            white-space: normal;
-            overflow: hidden;
-        }
-
-        .main a:hover svg {
-            fill: #ffffff;
-        }
-        .main a:hover::before {
-            background-color: $color--additional3;
-        }
-    }
-
-    canvas.sketch {
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-    }
+    margin-top: 4.2rem;
 }
 
-footer {
-    padding: 0 5%;
+// main {
+//     margin: 7rem 5% 1rem 5%;
 
-    .repo {
-        fill: #ffffff;
+//     .card {
+//         min-height: 21rem;
+//         height: auto;
 
-        &:hover {
-            fill: $color--primary;
-        }
-    }
-}
+//         .header {
+//             padding-top: 1.5rem;
+//         }
+
+//         .header .photo {
+//             margin: 0;
+//             box-sizing: border-box;
+//             // to maintain aspect ratio of images
+//             object-fit: cover;
+//             // to keep the card size same as it was before replacing div with background to img
+//             margin-bottom: -1rem;
+//         }
+
+//         .header .name {
+//             // height: 3rem;
+//         }
+
+//         .footer {
+//             box-sizing: border-box;
+//             justify-content: center;
+//             font-size: 1rem;
+//             height: 100%;
+//             max-height: 4.5rem;
+//             min-height: 5rem;
+//             width: auto;
+//             padding: 1.5rem 1rem 2rem !important;
+//             margin: 0;
+//             white-space: nowrap;
+//             overflow: hidden;
+//             text-overflow: ellipsis;
+//         }
+
+//         .header .title {
+//             box-sizing: border-box;
+//             justify-content: center;
+//             height: auto;
+//             // max-height: 4.5rem;
+//             // min-height: 5rem;
+//             width: auto;
+//             padding: 1rem;
+//             font-size: 18px;
+//             margin: 0;
+//             white-space: nowrap;
+//             overflow: hidden;
+//             text-overflow: ellipsis;
+//         }
+
+//         .main {
+//             height: 4.25rem;
+//         }
+
+//         .main a {
+//             position: relative;
+//             z-index: 1;
+
+//             svg {
+//                 fill: #000000;
+
+//                 path {
+//                     cursor: pointer;
+//                 }
+//             }
+//         }
+
+//         .main a::before {
+//             content: '';
+//             width: 2.7rem;
+//             height: 2.7rem;
+//             position: absolute;
+//             top: 50%;
+//             left: 50%;
+//             border-radius: 100%;
+//             background-color: transparent;
+//             transform: translate(-50%, -50%);
+//             z-index: -1;
+//         }
+
+//         &:hover .header {
+//             background-color: $color--primary;
+//         }
+
+//         &:hover .header .photo {
+//             border: 0.25rem solid $color--secondary;
+//             @include custom--box-shadow(0, 3, 3, -2, 0, 3, 4, 0, 0, 1, 8, 0);
+//         }
+
+//         &:hover .header .personId {
+//             opacity: 1;
+//         }
+
+//         &:hover .header .title {
+//             color: #ffffff;
+//             background-color: $color--primary-dark;
+//             word-break: break-word;
+//             white-space: normal;
+//             overflow: hidden;
+//         }
+
+//         &:hover .footer {
+//             background-color: $color--additional1;
+//             word-break: break-word;
+//             white-space: normal;
+//             overflow: hidden;
+//         }
+
+//         .main a:hover svg {
+//             fill: #ffffff;
+//         }
+
+//         .main a:hover::before {
+//             background-color: $color--additional3;
+//         }
+//     }
+
+//     canvas.sketch {
+//         position: fixed;
+//         top: 0;
+//         right: 0;
+//         bottom: 0;
+//         left: 0;
+//     }
+// }
+
+// footer {
+//     padding: 0 5%;
+
+//     .repo {
+//         fill: #ffffff;
+
+//         &:hover {
+//             fill: $color--primary;
+//         }
+//     }
+// }
 
 /* ==================================================================================================== */
 
@@ -421,9 +460,11 @@ footer {
     .custom--text-#{$name} {
         color: $color;
     }
+
     .custom--bg-#{$name} {
         background-color: $color;
     }
+
     .custom--b--#{$name} {
         border-color: $color;
     }
@@ -437,98 +478,122 @@ footer {
 .custom--shadow-hover-0:hover {
     box-shadow: none;
 }
+
 .custom--shadow-1,
 .custom--shadow-hover-1:hover {
     @include custom--box-shadow(0, 2, 1, -1, 0, 1, 1, 0, 0, 1, 3, 0);
 }
+
 .custom--shadow-2,
 .custom--shadow-hover-2:hover {
     @include custom--box-shadow(0, 3, 1, -2, 0, 2, 2, 0, 0, 1, 5, 0);
 }
+
 .custom--shadow-3,
 .custom--shadow-hover-3:hover {
     @include custom--box-shadow(0, 3, 3, -2, 0, 3, 4, 0, 0, 1, 8, 0);
 }
+
 .custom--shadow-4,
 .custom--shadow-hover-4:hover {
     @include custom--box-shadow(0, 2, 4, -1, 0, 4, 5, 0, 0, 1, 10, 0);
 }
+
 .custom--shadow-5,
 .custom--shadow-hover-5:hover {
     @include custom--box-shadow(0, 3, 5, -1, 0, 5, 8, 0, 0, 1, 14, 0);
 }
+
 .custom--shadow-6,
 .custom--shadow-hover-6:hover {
     @include custom--box-shadow(0, 3, 5, -1, 0, 6, 10, 0, 0, 1, 18, 0);
 }
+
 .custom--shadow-7,
 .custom--shadow-hover-7:hover {
     @include custom--box-shadow(0, 4, 5, -2, 0, 7, 10, 1, 0, 2, 16, 1);
 }
+
 .custom--shadow-8,
 .custom--shadow-hover-8:hover {
     @include custom--box-shadow(0, 5, 5, -3, 0, 8, 10, 1, 0, 3, 14, 2);
 }
+
 .custom--shadow-9,
 .custom--shadow-hover-9:hover {
     @include custom--box-shadow(0, 5, 6, -3, 0, 9, 12, 1, 0, 3, 16, 2);
 }
+
 .custom--shadow-10,
 .custom--shadow-hover-10:hover {
     @include custom--box-shadow(0, 6, 6, -3, 0, 10, 14, 1, 0, 4, 18, 3);
 }
+
 .custom--shadow-11,
 .custom--shadow-hover-11:hover {
     @include custom--box-shadow(0, 6, 7, -4, 0, 11, 15, 1, 0, 4, 20, 3);
 }
+
 .custom--shadow-12,
 .custom--shadow-hover-12:hover {
     @include custom--box-shadow(0, 7, 8, -4, 0, 12, 17, 2, 0, 5, 22, 4);
 }
+
 .custom--shadow-13,
 .custom--shadow-hover-13:hover {
     @include custom--box-shadow(0, 7, 8, -4, 0, 13, 19, 2, 0, 5, 24, 4);
 }
+
 .custom--shadow-14,
 .custom--shadow-hover-14:hover {
     @include custom--box-shadow(0, 7, 9, -4, 0, 14, 21, 2, 0, 5, 26, 4);
 }
+
 .custom--shadow-15,
 .custom--shadow-hover-15:hover {
     @include custom--box-shadow(0, 8, 9, -5, 0, 15, 22, 2, 0, 6, 28, 5);
 }
+
 .custom--shadow-16,
 .custom--shadow-hover-16:hover {
     @include custom--box-shadow(0, 8, 10, -5, 0, 16, 24, 2, 0, 6, 30, 5);
 }
+
 .custom--shadow-17,
 .custom--shadow-hover-17:hover {
     @include custom--box-shadow(0, 8, 11, -5, 0, 17, 26, 2, 0, 6, 32, 5);
 }
+
 .custom--shadow-18,
 .custom--shadow-hover-18:hover {
     @include custom--box-shadow(0, 9, 11, -5, 0, 18, 28, 2, 0, 7, 34, 6);
 }
+
 .custom--shadow-19,
 .custom--shadow-hover-19:hover {
     @include custom--box-shadow(0, 9, 12, -6, 0, 19, 29, 2, 0, 7, 36, 6);
 }
+
 .custom--shadow-20,
 .custom--shadow-hover-20:hover {
     @include custom--box-shadow(0, 10, 13, -6, 0, 20, 31, 3, 0, 8, 38, 7);
 }
+
 .custom--shadow-21,
 .custom--shadow-hover-21:hover {
     @include custom--box-shadow(0, 10, 13, -6, 0, 21, 33, 3, 0, 8, 40, 7);
 }
+
 .custom--shadow-22,
 .custom--shadow-hover-22:hover {
     @include custom--box-shadow(0, 10, 14, -6, 0, 22, 35, 3, 0, 8, 42, 7);
 }
+
 .custom--shadow-23,
 .custom--shadow-hover-23:hover {
     @include custom--box-shadow(0, 11, 14, -7, 0, 23, 36, 3, 0, 9, 44, 8);
 }
+
 .custom--shadow-24,
 .custom--shadow-hover-24:hover {
     @include custom--box-shadow(0, 11, 15, -7, 0, 24, 38, 3, 0, 9, 46, 8);

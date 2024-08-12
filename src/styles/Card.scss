@@ -1,0 +1,96 @@
+$primary-color: #2c3e50;
+$secondary-color: #ecf0f1;
+$accent-color: #3498db;
+$card-background: #ffffff;
+$border-radius: 8px;
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.card {
+    background-color: $card-background;
+    border: 1px solid $secondary-color;
+    border-radius: $border-radius;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px; // Adjust card width
+    transition:
+        transform 0.3s,
+        box-shadow 0.3s;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .header {
+        text-align: center;
+        padding: 1.6rem 1rem 1rem 1rem;
+        // background-color: $accent-color;
+        color: $primary-color;
+
+        .photo {
+            width: 100px; // Adjust photo size
+            height: 100px; // Adjust photo size
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid $card-background;
+            margin-bottom: 0.5rem;
+        }
+
+        .name {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-top: 1.6rem;
+        }
+
+        .title {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    }
+
+    .main {
+        padding: 1rem;
+        text-align: center;
+
+        a {
+            color: $primary-color;
+            margin: 0 0.5rem;
+            text-decoration: none;
+
+            svg {
+                fill: $primary-color;
+                width: 24px;
+                height: 24px;
+                transition: fill 0.3s;
+            }
+
+            &:hover {
+                svg {
+                    // fill: darken($primary-color, 10%);
+                    fill: #ecf0f1;
+                    background-color: #2c3e50;
+                    padding: 0.7px;
+                    transition: all 0.3s;
+                }
+            }
+        }
+    }
+
+    .footer {
+        padding: 1rem;
+        text-align: center;
+        background-color: $secondary-color;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.875rem;
+        color: $primary-color;
+    }
+}
