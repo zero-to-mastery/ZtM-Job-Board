@@ -1,0 +1,16 @@
+{
+  "name": "Patryk Skonieczny",
+  "img": "https://avatars.githubusercontent.com/u/95172679?v=4",
+  "email": "p.skonieczny33@gmail.com",
+  "links": {
+    "website": "https://bmalvo.github.io/Profile-Page/main.html",
+    "linkedin": "https://www.linkedin.com/in/pskonieczny33/",
+    "github": "https://github.com/bmalvo"
+  },
+  "jobTitle": "Fullstack Developer",
+  "location": {
+    "city": "Żory",
+    "state": "Silesia",
+    "country": "Poland"
+  }
+}
