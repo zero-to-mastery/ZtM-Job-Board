@@ -1,0 +1,16 @@
+{
+    "name": "Jose Pablo Murillo",
+    "img": "https://github.com/coolzoa.png",
+    "email": "jp.murillo.dev@gmail.com",
+    "links": {
+      "website": "https://coolzoa.github.io/",
+      "linkedin": "https://cr.linkedin.com/in/jose-pablo-murillo",
+      "github": "https://github.com/coolzoa"
+    },
+    "jobTitle": "Software Developer",
+    "location": {
+      "city": "",
+      "state": "Heredia",
+      "country": "Costa Rica"
+    }
+  }
