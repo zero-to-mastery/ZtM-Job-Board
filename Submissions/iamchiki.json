@@ -1,0 +1,16 @@
+{
+  "name": "Nikhil Soni",
+  "img": "https://avatars.githubusercontent.com/u/25926134?v=4",
+  "email": "nikhil.soni599@gmail.com",
+  "links": {
+    "website": "https://iamchiki.me/",
+    "linkedin": "https://www.linkedin.com/in/nikhilsoni/",
+    "github": "https://github.com/iamchiki"
+  },
+  "jobTitle": "Frontend Developer",
+  "location": {
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "country": "India"
+  }
+}

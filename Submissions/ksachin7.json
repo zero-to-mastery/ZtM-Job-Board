@@ -1,0 +1,16 @@
+{
+    "name": "Sachin Kumar",
+    "img": "https://avatars.githubusercontent.com/u/134312203?v=4",
+    "email": "isachin.imp@gmail.com",
+    "links": {
+        "website": "https://dev-sachin.netlify.app",
+        "linkedin": "https://www.linkedin.com/in/sachin-k-187419184",
+        "github": "https://github.com/ksachin7"
+    },
+    "jobTitle": "Software Developer",
+    "location": {
+        "city": "",
+        "state": "",
+        "country": "India"
+    }
+}
