@@ -1,0 +1,16 @@
+{
+    "name": "Michelle Ivan",
+    "img": " file:///C:/Users/itsmi/Downloads/1A18F5EA-996C-40B2-8107-03D014C5E390.webp",
+    "email": "its.michelleivan@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/michelle-quitaneg-a0471a1b7/",
+      "github": "https://github.com/Michelleivan"
+    },
+    "jobTitle": "Aspiring Full stack Web",
+    "location": {
+      "city": "Marikina",
+      "state": "Metro-Manila",
+      "country": "Philippines"
+    }
+  }
