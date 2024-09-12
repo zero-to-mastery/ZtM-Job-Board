@@ -1,0 +1,16 @@
+{
+    "name": "Marc Dagohoy",
+    "img": "",
+    "email": "marc.dagohoy2@gmail.com",
+    "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/marc-dagohoy-043111286/",
+        "github": "https://github.com/marcgithub23"
+    },
+    "jobTitle": "Junior Fullstack Software Developer",
+    "location": {
+        "city": "",
+        "state": "Kildare",
+        "country": "Ireland"
+    }
+}
