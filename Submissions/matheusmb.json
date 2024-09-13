@@ -1,0 +1,16 @@
+{
+  "name": "Matheus Soares",
+  "img": "https://avatars.githubusercontent.com/u/116040415?v=4",
+  "email": "matts14smkd@gmail.com",
+  "links": {
+    "website": "https://matheusmb.vercel.app/",
+    "linkedin": "https://www.linkedin.com/in/matheusmaat",
+    "github": "https://github.com/maatheuus"
+  },
+  "jobTitle": "FullStack developer (Next.js && MongoDB)",
+  "location": {
+    "city": "Cricíuma",
+    "state": "Santa Catarina",
+    "country": "Brazil"
+  }
+}
