@@ -1,0 +1,16 @@
+{
+  "name": "Betty Godier",
+  "img": "https://media.licdn.com/dms/image/v2/C4E03AQHqMQ8ppfNVlw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1660575128706?e=1731542400&v=beta&t=uknH7SJOcyz35NNd5H8o5hY6PeOJoYy1S96gGemL4kM",
+  "email": "hello@betty.dev",
+  "links": {
+    "website": "https://betty.dev/",
+    "linkedin": "https://www.linkedin.com/in/betty-godier/",
+    "github": "https://github.com/betty-godier/"
+  },
+  "jobTitle": "Senior Engineering Manager",
+  "location": {
+    "city": "Amsterdam",
+    "state": "",
+    "country": "The Netherlands"
+  }
+}
