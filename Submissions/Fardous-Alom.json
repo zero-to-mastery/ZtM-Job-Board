@@ -1,0 +1,16 @@
+{
+    "name": "MD Fardous Alom",
+    "img": "https://fardous-alom.github.io/imgs/hero.jpg",
+    "email": "fardousalom42@gmail.com",
+    "links": {
+        "website": "https://fardous-alom.github.io/",
+        "linkedin": "https://www.linkedin.com/in/fardous-alom/",
+        "github": "https://github.com/Fardous-Alom"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+        "city": "Dhaka",
+        "state": "",
+        "country": "Bangladesh"
+    }
+}
