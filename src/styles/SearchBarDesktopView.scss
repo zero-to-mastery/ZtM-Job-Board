@@ -33,7 +33,7 @@ body.dark-mode {
 
 button {
     background-color: var(--primary-color);
-    color: red;
+    color: white;
     border: none;
     cursor: pointer;
     padding: 0.5rem 1rem;
@@ -45,5 +45,5 @@ button {
 /* Dark mode button styles */
 body.dark-mode button {
     background-color: var(--secondary-color);
-    color: blue;
+    color: white;
 }
