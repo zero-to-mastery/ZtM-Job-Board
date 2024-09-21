@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Search from './Search'
 import '../styles/SearchBarDesktopView.scss'
 import { pageNames } from '../util/pageNames'
@@ -12,6 +12,30 @@ const Navbar = ({
     mapOrHomeTitle,
     shufflePeopleOnClick,
 }: any) => {
+    const [isDarkMode, setIsDarkMode] = useState(false)
+
+    // Check if dark mode is already set in localStorage
+    useEffect(() => {
+        const savedTheme = localStorage.getItem('theme')
+        if (savedTheme === 'dark') {
+            setIsDarkMode(true)
+            document.body.classList.add('dark-mode')
+        }
+    }, [])
+
+    // Toggle dark mode
+    const handleDarkModeToggle = () => {
+        const newMode = !isDarkMode
+        setIsDarkMode(newMode)
+        if (newMode) {
+            document.body.classList.add('dark-mode')
+            localStorage.setItem('theme', 'dark')
+        } else {
+            document.body.classList.remove('dark-mode')
+            localStorage.setItem('theme', 'light')
+        }
+    }
+
     return (
         <div className="header-items flex flex-wrap justify-between">
             <h1
@@ -50,6 +74,10 @@ const Navbar = ({
                         <Search onSearchChange={onSearchChange} />
                     </div>
                 )}
+                {/* Dark mode toggle button */}
+                <button onClick={handleDarkModeToggle} className="ml3 pointer">
+                    {isDarkMode ? 'Light Mode' : 'Dark Mode'}
+                </button>
             </div>
         </div>
     )
