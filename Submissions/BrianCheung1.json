@@ -1,0 +1,16 @@
+{
+  "name": "Brian Cheung",
+  "img": "",
+  "email": "briancheung0899@gmail.com",
+  "links": {
+    "website": "https://briancheung.wiki/",
+    "linkedin": "https://www.linkedin.com/in/brian-cheung1",
+    "github": "https://github.com/BrianCheung1"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "Brooklyn",
+    "state": "New York",
+    "country": "USA"
+  }
+}
