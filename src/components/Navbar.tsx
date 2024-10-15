@@ -80,9 +80,6 @@ const Navbar = ({
                     Text={isDarkMode ? 'Light Mode' : 'Dark Mode'}
                     TooltipText={`Click to enable ${isDarkMode ? 'light' : 'dark'} mode`}
                 />
-                {/*<button onClick={handleDarkModeToggle} className="pointer">
-                    {isDarkMode ? 'Light Mode' : 'Dark Mode'}
-                </button>*/}
             </div>
         </div>
     )
