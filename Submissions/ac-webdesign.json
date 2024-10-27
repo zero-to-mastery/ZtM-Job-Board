@@ -1,0 +1,16 @@
+{
+    "name": "Alexander Ch",
+    "img": "[YOUR_IMG_URL]",
+    "email": "ac.masterdesign@gmail.com",
+    "links": {
+      "website": "https://ac-webdev.netlify.app/",
+      "linkedin": "https://www.linkedin.com/in/alexchorevas",
+      "github": "https://github.com/ac-webdesign"
+    },
+    "jobTitle": "Full stack developer",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "Greece"
+    }
+  }
