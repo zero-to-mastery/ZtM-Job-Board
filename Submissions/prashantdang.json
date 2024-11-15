@@ -1,0 +1,16 @@
+{
+    "name": "Prashant Dang",
+    "img": "https://github.com/prashantdang.png",
+    "email": "prashantdang@gmail.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/prashantdang/",
+      "github": "https://github.com/prashantdang"
+    },
+    "jobTitle": "Tech Lead/Full Stack Web Developer",
+    "location": {
+      "city": "Stockholm",
+      "state": "Stockholm",
+      "country": "Sweden"
+    }
+  }
