@@ -1,0 +1,16 @@
+{
+    "name": "Matthew Tompkins",
+    "img": "https://raw.githubusercontent.com/matthewtompkins/portfolio/refs/heads/main/public/images/profile.jpg",
+    "email": "matt@mtweb.dev",
+    "links": {
+      "website": "https://mtweb.dev",
+      "linkedin": "https://www.linkedin.com/in/matt-tompkins-06271539/",
+      "github": "https://github.com/matthewtompkins"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+      "city": "Elkhart",
+      "state": "Indiana",
+      "country": "United States"
+    }
+  }
