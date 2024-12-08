@@ -1,0 +1,16 @@
+{
+    "name": "Sidhant Pandey",
+    "img": "https://res.cloudinary.com/dd4xje8fc/image/upload/v1730030542/Profile-pic_tsxcqx.png",
+    "email": "sidhantpandeynp6@gmail.com",
+    "links": {
+      "website": "https://www.linkedin.com/in/sidhant-pandey01",
+      "linkedin": "https://www.linkedin.com/in/sidhant-pandey01",
+      "github": "https://github.com/SidhnatPandey"
+    },
+    "jobTitle": "Software Developer",
+    "location": {
+      "city": "Kanpur Nagar",
+      "state": "Uttar Pradesh",
+      "country": "India"
+    }
+  }
