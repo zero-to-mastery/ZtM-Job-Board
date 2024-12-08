@@ -46,7 +46,8 @@ $colors: (
     $b3,
     $s3
 ) {
-    box-shadow: #{$h1}px #{$v1}px #{$b1}px #{$s1}px rgba(0, 0, 0, 0.2),
+    box-shadow:
+        #{$h1}px #{$v1}px #{$b1}px #{$s1}px rgba(0, 0, 0, 0.2),
         #{$h2}px #{$v2}px #{$b2}px #{$s2}px rgba(0, 0, 0, 0.14),
         #{$h3}px #{$v3}px #{$b3}px #{$s3}px rgba(0, 0, 0, 0.12);
 }
@@ -58,7 +59,8 @@ $colors: (
 }
 
 * {
-    transition: color 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    transition:
+        color 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
         background-color 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
         border-color 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
         box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
@@ -85,7 +87,7 @@ input {
 }
 
 header {
-    padding: 0 5%;
+    position: sticky;
 
     .header-items {
         transition: height 0.3s ease;
@@ -281,7 +283,7 @@ header {
 }
 
 main {
-    margin: 7rem 5% 1rem 5%;
+    margin: 1rem 5%;
 
     .card {
         min-height: 26rem;

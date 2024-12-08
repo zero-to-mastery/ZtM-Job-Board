@@ -61,7 +61,7 @@ function App() {
 
     return (
         <div className="flex flex-column min-vh-100 tc">
-            <header className="custom--unselectable fixed top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-9999">
+            <header className="custom--unselectable top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-9999">
                 <Navbar
                     onLogoClick={goBack}
                     onSearchChange={(e: any) => setSearchfield(e.target.value)}
