@@ -1,0 +1,16 @@
+{
+    "name": "Alain De La Cuadra",
+    "img": "https://avatars.githubusercontent.com/u/17589134?v=4",
+    "email": "Frontend.alain.dlc@outlook.com",
+    "links": {
+        "website": "example.com",
+        "linkedin": "https://www.linkedin.com/in/alain-de-la-cuadra/",
+        "github": "https://github.com/AlainDLC"
+    },
+    "jobTitle": "Fullstack Developer",
+    "location": {
+        "city": "Gothenburg",
+        "state": "Västra Götaland",
+        "country": "Sweden"
+    }
+}
