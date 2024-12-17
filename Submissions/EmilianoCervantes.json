@@ -1,0 +1,15 @@
+{
+  "name": "Oscar Emiliano Cervantes del Valle",
+  "img": "https://emilianocervantes.github.io/images/Emi.jpeg",
+  "email": "em.cerv96@gmail.com",
+  "links": {
+    "website": "https://emilianocervantes.github.io/",
+    "linkedin": "https://www.linkedin.com/in/emiliano-cervantes/",
+    "github": "https://github.com/EmilianoCervantes"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "Orlando | CDMX",
+    "country": "USA | Mexico"
+  }
+}
