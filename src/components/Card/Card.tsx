@@ -1,5 +1,6 @@
 import React from 'react'
 import LazyLoad from 'react-lazyload'
+import './Card.scss'
 
 const defaultImageDataURI =
     "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='000000' fill-opacity='0.25' viewBox='0 0 24 24'%3E %3Cpath d='M9,11.75A1.25,1.25 0 0,0 7.75,13A1.25,1.25 0 0,0 9,14.25A1.25,1.25 0 0,0 10.25,13A1.25,1.25 0 0,0 9,11.75M15,11.75A1.25,1.25 0 0,0 13.75,13A1.25,1.25 0 0,0 15,14.25A1.25,1.25 0 0,0 16.25,13A1.25,1.25 0 0,0 15,11.75M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20C7.59,20 4,16.41 4,12C4,11.71 4,11.42 4.05,11.14C6.41,10.09 8.28,8.16 9.26,5.77C11.07,8.33 14.05,10 17.42,10C18.2,10 18.95,9.91 19.67,9.74C19.88,10.45 20,11.21 20,12C20,16.41 16.41,20 12,20Z' /%3E %3C/svg%3E"
@@ -10,44 +11,38 @@ const addDefaultImg = (e: any) => {
     e.target.src = defaultImageDataURI
 }
 const Card = ({ user }: any) => {
-    let { id, img, name, email, jobTitle, location, links } = user
+    const { id, img, name, email, jobTitle, location, links } = user
 
-    if (id) {
-        return (
-            <div
-                id={`person-${id}`}
-                className="card ma3 w5 tc bg-white br3 custom--shadow-2 custom--shadow-hover-8 custom--o-95 z-1"
-            >
-                <div className="header relative pt3 br2 br--top z-0">
-                    <LazyLoad
-                        throttle={200}
-                        height={128}
-                        offset={100}
-                        once={true}
-                    >
-                        <img
-                            className="photo relative br-100 bw2 b--solid custom--b--primary bg-center object-fit-cover"
-                            height="128px"
-                            width="128px"
-                            src={img || defaultImageDataURI}
-                            alt={name}
-                            loading="lazy"
-                            onError={(e) => addDefaultImg(e)}
-                        />
-                    </LazyLoad>
-                    <h2 className="name mt3 mb1 ph3 w-100 flex items-center justify-center">
-                        {name}
-                    </h2>
-                    <p className="title text-center">{jobTitle}</p>
-                </div>
-                <div className="main pv2 ph3 flex items-center justify-center">
+    if (!id) {
+        return <div></div>
+    }
+
+    return (
+        <div id={`person-${id}`} className="Card">
+            <div className="CardHeader">
+                <LazyLoad throttle={200} height={128} offset={100} once={true}>
+                    <img
+                        className="CardImage"
+                        height="128px"
+                        width="128px"
+                        src={img || defaultImageDataURI}
+                        alt={name}
+                        loading="lazy"
+                        onError={(e) => addDefaultImg(e)}
+                    />
+                </LazyLoad>
+            </div>
+            <div className="CardMain">
+                <h2 className="CardName">{name}</h2>
+                <p className="CardJob">{jobTitle}</p>
+                <div className="CardLinks">
                     {/* adding email button  */}
                     {email === '' ? (
                         ''
                     ) : (
                         <a
                             href={'mailto:' + email}
-                            className="w2 h2 ma2"
+                            className="CardLink"
                             title="email"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -62,7 +57,7 @@ const Card = ({ user }: any) => {
                     ) : (
                         <a
                             href={links.website}
-                            className="w2 h2 ma2"
+                            className="CardLink"
                             title="Website/Portfolio"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -77,7 +72,7 @@ const Card = ({ user }: any) => {
                     ) : (
                         <a
                             href={links.github}
-                            className="w2 h2 ma2"
+                            className="CardLink"
                             title="GitHub profile"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -92,7 +87,7 @@ const Card = ({ user }: any) => {
                     ) : (
                         <a
                             href={links.linkedin}
-                            className="w2 h2 ma2"
+                            className="CardLink"
                             title="LinkedIn profile"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -104,7 +99,7 @@ const Card = ({ user }: any) => {
                     )}
                 </div>
                 <div style={{ margin: 0, padding: 0 }}>
-                    <p className="footer items-center justify-center br2 br--bottom">
+                    <p className="CardFooter">
                         {location.city === '' ? '' : location.city}
                         {(location.city !== '' && location.state !== '') ||
                         (location.city !== '' && location.country !== '')
@@ -119,10 +114,8 @@ const Card = ({ user }: any) => {
                     </p>
                 </div>
             </div>
-        )
-    } else {
-        return <div></div>
-    }
+        </div>
+    )
 }
 
 export default Card

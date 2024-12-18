@@ -1,0 +1,71 @@
+.Card {
+    background-color: white;
+    border-radius: 1rem;
+    margin-top: 4rem;
+
+    .dark-mode & {
+        background-color: rgb(61, 61, 61);
+    }
+
+    &Header {
+        display: grid;
+        margin-top: -25%;
+    }
+
+    &Image {
+        background-color: #eeeeee;
+        border-radius: 100%;
+        border: 0.5rem solid #eeeeee;
+        height: 7rem;
+        width: 7rem;
+        overflow: hidden;
+
+        .dark-mode & {
+            background-color: rgb(51, 51, 51);
+            border: 0.5rem solid rgb(51, 51, 51);
+        }
+    }
+
+    &Main {
+        display: grid;
+        padding: 0 1rem;
+
+        .dark-mode & {
+            color: rgb(201, 201, 201);
+        }
+    }
+
+    &Links {
+        display: flex;
+        gap: 0.4rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &Link {
+        background-color: black;
+        color: inherit;
+        width: 2rem;
+        height: 2rem;
+        display: block;
+        border-radius: 100%;
+        padding: 0.5rem;
+
+        & > svg {
+            fill: white;
+            width: 100%;
+            height: 100%;
+        }
+
+        .dark-mode & {
+            background-color: rgb(129, 129, 129);
+
+            & > svg {
+                fill: rgb(33, 33, 33);
+            }
+        }
+    }
+
+    &Footer {
+    }
+}
