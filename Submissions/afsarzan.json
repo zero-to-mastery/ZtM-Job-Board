@@ -1,0 +1,16 @@
+{
+    "name": "Afsar Ahmed",
+    "img": "https://avatars.githubusercontent.com/u/4002997?v=4",
+    "email": "afsar_optimistic@yahoo.com",
+    "links": {
+      "website": "https://afsarzan.github.io",
+      "linkedin": "https://linkedin.com/in/afsarahmed",
+      "github": "https://github.com/afsarzan"
+    },
+    "jobTitle": "Software Engineering Lead",
+    "location": {
+      "city": "Vancouver",
+      "state": "British Coloumbia",
+      "country": "Canada"
+    }
+  }
