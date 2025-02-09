@@ -545,8 +545,9 @@ footer {
     user-select: none;
 }
 
-.custom--top-buttom {
+.custom--top-button {
     position: fixed;
+    cursor: pointer;
     bottom: 20px;
     right: 20px;
     z-index: 100;
