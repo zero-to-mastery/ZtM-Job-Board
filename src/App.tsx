@@ -128,7 +128,7 @@ function App() {
                     </a>
                 </div>
             </footer>
-            <div className="custom--top-buttom">
+            <div className="custom--top-button">
                 <div
                     onClick={() => {
                         window.scrollTo({ top: 0, behavior: 'smooth' })
