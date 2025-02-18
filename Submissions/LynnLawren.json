@@ -1,0 +1,16 @@
+{
+  "name": "Lynn Mary Lawrence",
+  "img": "https://avatars.githubusercontent.com/u/57936?v=4",
+  "email": "lynnmarylawrence@gmail.com",
+  "links": {
+    "website": "example.com",
+    "linkedin": "https://www.linkedin.com/in/example",
+    "github": "https://github.com/example"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Kochi",
+    "state": "Kerala",
+    "country": "India"
+  }
+}
