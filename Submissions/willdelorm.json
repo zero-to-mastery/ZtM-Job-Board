@@ -1,0 +1,16 @@
+{
+    "name": "Will Delorm",
+    "img": "https://avatars.githubusercontent.com/u/91397515?v=4",
+    "email": "will@willdelorm.com",
+    "links": {
+      "website": "https://willdelorm.com/",
+      "linkedin": "https://www.linkedin.com/in/willdelorm",
+      "github": "https://github.com/willdelorm"
+    },
+    "jobTitle": "Frontend Developer",
+    "location": {
+      "city": "Eugene",
+      "state": "OR",
+      "country": "USA"
+    }
+  }
