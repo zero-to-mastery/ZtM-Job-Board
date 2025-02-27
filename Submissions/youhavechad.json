@@ -1,0 +1,16 @@
+{
+    "name": "Chad Whitt",
+    "img": "https://avatars.githubusercontent.com/u/3453645?v=4",
+    "email": "youhavechad@icloud.com",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/youhavechad",
+      "github": "https://github.com/youhavechad"
+    },
+    "jobTitle": "AI Product Manager | Full Stack Software Engineer",
+    "location": {
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA"
+    }
+  }
