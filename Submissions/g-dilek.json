@@ -1,0 +1,16 @@
+{
+    "name": "Grace Persion",
+    "img": "https://media.licdn.com/dms/image/v2/D5603AQGLR5q0mEZF9g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731341918469?e=1749686400&v=beta&t=xc3mbozEaDCX059Qt14xZ-RbPhKr877QxqBXw-_41Lc",
+    "email": "",
+    "links": {
+      "website": "",
+      "linkedin": "https://www.linkedin.com/in/grace-persion/",
+      "github": "https://github.com/g-dilek"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "United States of America"
+    }
+  }
