@@ -1,0 +1,16 @@
+{
+    "name": "Charles Mulinga",
+    "img": " https://github.com/Mulinga.png",
+    "email": "mulingacharles@gmail.com",
+    "links": {
+      "website": "https://www.kaggle.com/charlesmulinga",
+      "linkedin": "https://www.linkedin.com/in/charles-kyalo-mulinga/",
+      "github": "https://github.com/Mulinga"
+    },
+    "jobTitle": "Data Scientist",
+    "location": {
+      "city": "Nairobi",
+      "state": "Nairobi",
+      "country": "Kenya"
+    }
+  }
