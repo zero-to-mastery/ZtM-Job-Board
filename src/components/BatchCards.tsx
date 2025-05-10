@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import CountUp from 'react-countup'
 
-import CardList from './CardList'
+import CardList from './CardList/CardList'
 import BasicButton from './BasicButton'
 import { countriesWithNumOfDevsObj } from '../util/UsersDataCleanup'
 const countryNamesAndNumOfDevsArr = Object.entries(countriesWithNumOfDevsObj)
