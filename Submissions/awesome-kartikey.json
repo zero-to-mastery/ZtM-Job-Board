@@ -1,0 +1,16 @@
+{
+  "name": "Kartikey Kumar",
+  "img": "https://avatars.githubusercontent.com/u/46820893?v=4",
+  "email": "kartikeykumar.onglobe@gmail.com",
+  "links": {
+    "website": "https://iamkartikey.vercel.app/",
+    "linkedin": "https://www.linkedin.com/in/kartikey-kumar/",
+    "github": "https://github.com/awesome-kartikey"
+  },
+  "jobTitle": "Full Stack Developer/Front-End Developer/Backend Developer",
+  "location": {
+    "city": "Roorkee",
+    "state": "Uttarakhand",
+    "country": "India"
+  }
+}
