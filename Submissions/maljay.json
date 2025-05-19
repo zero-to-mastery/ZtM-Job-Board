@@ -1,0 +1,16 @@
+{
+    "name": "Jamal Aminu",
+    "img": "https://avatars.githubusercontent.com/u/47864058?v=4",
+    "email": "mj_aminu@hotmail.com",
+    "links": {
+        "website": "maljay.github.io",
+        "linkedin": "https://www.linkedin.com/in/jamal-aminu",
+        "github": "https://github.com/maljay"
+    },
+    "jobTitle": "Web Developer - Frontend",
+    "location": {
+        "city": "Kano",
+        "state": "Kano",
+        "country": "Nigeria"
+    }
+}
