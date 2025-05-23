@@ -1,0 +1,16 @@
+{
+  "name": "Abhinav Anand",
+  "img": "[YOUR_IMG_URL]",
+  "email": "abhinavanand072@gmail.com",
+  "links": {
+    "website": "[YOUR_WEBSITE_URL]",
+    "linkedin": "https://www.linkedin.com/in/<YOUR_LINKEDIN_USERNAME>",
+    "github": "https://github.com/abhinavan00"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Palamu",
+    "state": "Jharkhand",
+    "country": "India"
+  }
+}
