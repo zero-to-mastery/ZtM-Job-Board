@@ -1,0 +1,16 @@
+{
+  "name": "Shaik Sufiyan",
+  "img": "https://github.com/Shaiksufiyan157.png",
+  "email": "shaiksufiyan157@gmail.com",
+  "links": {
+    "website": "shaiksufiyan157.github.io",
+    "linkedin": "https://www.linkedin.com/in/shaik-sufiyan-b31193243",
+    "github": "https://github.com/Shaiksufiyan157"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India"
+  }
+}
