@@ -1,0 +1,16 @@
+{
+  "name": "Syed Visal Raza Zaidi",
+  "img": "https://drive.google.com/file/d/1dnWwfTwKLYegtg0-NvW-5pzhpOoY5-gM/view?usp=sharing",
+  "email": "visalraza@gmail.com",
+  "links": {
+    "website": "https://visalraza-portfolio.vercel.app/",
+    "linkedin": "https://www.linkedin.com/in/vrzaidi",
+    "github": "https://github.com/VisalRazaZaidi"
+  },
+  "jobTitle": "MERN Stack Developer",
+  "location": {
+    "city": "Karachi",
+    "state": "",
+    "country": "Pakistan"
+  }
+}
