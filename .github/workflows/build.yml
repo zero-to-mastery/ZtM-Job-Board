@@ -9,11 +9,11 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Pull Repo
-              uses: actions/checkout@v2
+              uses: actions/checkout@v4
               with:
                   fetch-depth: 0
                   ref: ${{ github.event.pull_request.head.ref }}
-                  node-version: '20'
+                  node-version: '22'
             - name: Run Script
               shell: bash
               run: |
@@ -46,7 +46,7 @@ jobs:
                   CI=false npm run build
 
             - name: Publish
-              uses: JamesIves/github-pages-deploy-action@3.7.1
+              uses: JamesIves/github-pages-deploy-action@v4
               with:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   BRANCH: gh-pages # The branch the action should deploy to.
