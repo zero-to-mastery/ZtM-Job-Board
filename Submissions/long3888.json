@@ -1,16 +1,16 @@
 {
-  "name": "Long Le",
-  "img": "https://avatars.githubusercontent.com/u/72651866?v=4",
-  "email": "lazylee295@gmail.com",
-  "links": {
-    "website": "",
-    "linkedin": "https://www.linkedin.com/in/long-l%C3%AA-7b363b254/",
-    "github": "https://github.com/long3888"
-  },
-  "jobTitle": "Data Engineer, Web Developer",
-  "location": {
-    "city": "Ho Chi Minh City",
-    "state": "",
-    "country": "Vietnam"
-  }
+    "name": "Long Le",
+    "img": "https://avatars.githubusercontent.com/u/72651866?v=4",
+    "email": "",
+    "links": {
+        "website": "",
+        "linkedin": "",
+        "github": "https://github.com/long3888"
+    },
+    "jobTitle": "Data Analyst",
+    "location": {
+        "city": "Ho Chi Minh City",
+        "state": "",
+        "country": "Vietnam"
+    }
 }
