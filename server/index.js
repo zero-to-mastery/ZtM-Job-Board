@@ -1,4 +1,4 @@
-// index.js
+// index.js (updated with SMTP + recruiter-only send-mail)
 require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
@@ -6,6 +6,7 @@ const bcrypt = require('bcryptjs');
 const cors = require('cors');
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
+const nodemailer = require('nodemailer');
 
 console.log('Starting server debug...');
 console.log('Working directory:', process.cwd());
@@ -16,10 +17,12 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+// ---- Config / ENV ----
 const JWT_SECRET = process.env.JWT_SECRET || 'devsecret';
 const ADMIN_EMAIL = (process.env.ADMIN_EMAIL || '').toLowerCase().trim();
+const PORT = process.env.PORT || 5000;
 
-// --- Mongo ---
+// ---- Mongo ----
 const uri = process.env.MONGODB_URI;
 if (!uri) {
   console.error('MONGODB_URI missing in env — server will not attempt connection.');
@@ -29,7 +32,6 @@ if (!uri) {
     .then(async () => {
       console.log('MongoDB connected ✅');
       await ensureSingleAdmin();
-      const PORT = process.env.PORT || 5000;
       app.listen(PORT, () => console.log(`Server listening on ${PORT}`));
     })
     .catch((err) => {
@@ -37,18 +39,13 @@ if (!uri) {
     });
 }
 
-// --- Schemas & Models ---
+// ---- Schemas & Models ----
 const userSchema = new mongoose.Schema(
   {
     fullName: { type: String, required: true, trim: true },
     email: { type: String, required: true, unique: true, lowercase: true, trim: true },
     password: { type: String, required: true },
-    role: {
-      type: String,
-      enum: ['student', 'recruiter', 'admin'],
-      default: 'student',
-      index: true,
-    },
+    role: { type: String, enum: ['student', 'recruiter', 'admin'], default: 'student', index: true },
     // Students must complete profile; others can skip (default true)
     profileCompleted: {
       type: Boolean,
@@ -72,8 +69,8 @@ const userSchema = new mongoose.Schema(
         state: String,
         country: String,
       },
-      skills: [String],       // <-- (a) added
-      tracks: [String],       // <-- (a) optional: frontend/backend/ui
+      skills: [String],
+      tracks: [String],
       status: String,
     },
   },
@@ -82,7 +79,24 @@ const userSchema = new mongoose.Schema(
 
 const User = mongoose.model('User', userSchema);
 
-// --- Helpers ---
+// --- Feedback Schema ---
+const feedbackSchema = new mongoose.Schema(
+  {
+    userId: { type: mongoose.Types.ObjectId, ref: 'User' },
+    name: String,
+    email: String,
+    role: { type: String },
+    category: { type: String, default: 'general' },
+    rating: { type: Number, min: 1, max: 5 },
+    message: { type: String, required: true, trim: true },
+  },
+  { timestamps: true }
+);
+
+const Feedback = mongoose.model('Feedback', feedbackSchema);
+
+
+// ---- Helpers ----
 function signToken(user) {
   return jwt.sign(
     { userId: user._id.toString(), email: user.email, role: user.role },
@@ -147,7 +161,35 @@ async function ensureSingleAdmin() {
   console.log('  userId:', user._id.toString());
 }
 
-// --- Routes ---
+// ---- Mailer (SMTP) ----
+function createTransporter() {
+  const host = process.env.SMTP_HOST;
+  const port = process.env.SMTP_PORT ? Number(process.env.SMTP_PORT) : undefined;
+  const user = process.env.SMTP_USER;
+  const pass = process.env.SMTP_PASS;
+
+  if (host && port && user && pass) {
+    return nodemailer.createTransport({
+      host,
+      port,
+      secure: port === 465, // true for 465, false for 587/25
+      auth: { user, pass },
+    });
+  }
+
+  // Dev fallback: log instead of actually sending
+  console.warn('SMTP not fully configured — falling back to DEV logger transport.');
+  return {
+    sendMail: async (opts) => {
+      console.log('DEV SEND MAIL:', opts);
+      return { accepted: [opts.to], messageId: 'dev-log' };
+    },
+  };
+}
+const mailer = createTransporter();
+const MAIL_FROM = process.env.MAIL_FROM || 'no-reply@example.com';
+
+// ---- Routes ----
 
 // health check
 app.get('/', (req, res) => res.send('Server is running'));
@@ -278,7 +320,7 @@ app.post('/api/login', async (req, res) => {
 });
 
 /**
- * (b) Profile creation — allowed ONCE per user.
+ * Profile creation — allowed ONCE per user.
  * Use PUT /api/profile to update later.
  */
 app.post('/api/profile', auth, async (req, res) => {
@@ -310,7 +352,7 @@ app.post('/api/profile', auth, async (req, res) => {
 });
 
 /**
- * (b) Profile update — safe to call multiple times; does not create duplicates.
+ * Profile update — safe to call multiple times; does not create duplicates.
  */
 app.put('/api/profile', auth, async (req, res) => {
   try {
@@ -336,7 +378,104 @@ app.put('/api/profile', auth, async (req, res) => {
   }
 });
 
+// ---- NEW: Recruiter-only Send Mail ----
+// body: { to: string, subject: string, message: string }
+// - requires Authorization: Bearer <token>
+// - only role === 'recruiter'
+app.post('/api/send-mail', auth, async (req, res) => {
+  try {
+    if (req.user.role !== 'recruiter') {
+      return res.status(403).json({ message: 'Only recruiters are allowed to send mails' });
+    }
+
+    const { to, subject, message } = req.body || {};
+    if (!to || !subject || !message) {
+      return res.status(400).json({ message: 'Missing to/subject/message' });
+    }
+
+    // Optional safety: only send to registered users
+    const target = await User.findOne({ email: (to || '').toLowerCase().trim() });
+    if (!target) {
+      return res.status(404).json({ message: 'Recipient not found' });
+    }
+
+    const info = await mailer.sendMail({
+      from: MAIL_FROM,
+      to,
+      subject,
+      text: message,
+    });
+
+    return res.json({ message: 'Email queued/sent', info });
+  } catch (e) {
+    console.error('POST /api/send-mail error:', e);
+    return res.status(500).json({ message: 'Server error while sending email' });
+  }
+});
+
 // (Optional) Google login endpoint stub — replace with real verification later
 app.post('/api/google-login', async (req, res) => {
   return res.status(501).json({ message: 'google-login not implemented on server' });
+});
+
+// Submit feedback (auth optional)
+app.post('/api/feedback', async (req, res) => {
+  try {
+    // if a token is sent, decode it (optional)
+    const hdr = req.headers.authorization || '';
+    let authedUser = null;
+    if (hdr.startsWith('Bearer ')) {
+      try { authedUser = jwt.verify(hdr.slice(7), JWT_SECRET); } catch {}
+    }
+
+    const { message, rating, category, name, email } = req.body || {};
+    if (!message || typeof message !== 'string' || message.trim().length < 3) {
+      return res.status(400).json({ message: 'Feedback message is too short.' });
+    }
+
+    const doc = await Feedback.create({
+      message: message.trim(),
+      rating: typeof rating === 'number' ? Math.max(1, Math.min(5, rating)) : undefined,
+      category: category || 'general',
+      name: authedUser ? undefined : (name || ''),
+      email: authedUser ? undefined : (email || ''),
+      userId: authedUser ? authedUser.userId : undefined,
+      role: authedUser ? authedUser.role : undefined,
+    });
+
+    return res.status(201).json({ ok: true, feedbackId: doc._id });
+  } catch (e) {
+    console.error('POST /api/feedback error:', e);
+    return res.status(500).json({ message: 'Server error' });
+  }
+});
+
+// List recent feedback (admins only)
+
+app.get('/api/admin/feedback', auth, requireAdmin, async (req, res) => {
+  try {
+    const { limit = 50 } = req.query;
+    const items = await Feedback.find({})
+      .sort({ createdAt: -1 })
+      .limit(Number(limit) || 50)
+      .lean();
+    res.json({ count: items.length, items });
+  } catch (e) {
+    console.error('GET /api/admin/feedback error:', e);
+    res.status(500).json({ message: 'Server error' });
+  }
+});
+
+// (optional) simple stats for dashboard
+app.get('/api/admin/feedback/stats', auth, requireAdmin, async (req, res) => {
+  try {
+    const [byCategory, byRating] = await Promise.all([
+      Feedback.aggregate([{ $group: { _id: '$category', n: { $sum: 1 } } }]),
+      Feedback.aggregate([{ $group: { _id: '$rating', n: { $sum: 1 } } }]),
+    ]);
+    res.json({ byCategory, byRating });
+  } catch (e) {
+    console.error('GET /api/admin/feedback/stats error:', e);
+    res.status(500).json({ message: 'Server error' });
+  }
 });
