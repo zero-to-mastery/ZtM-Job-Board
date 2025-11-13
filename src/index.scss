@@ -74,6 +74,11 @@ svg {
     transition: fill 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 body {
     min-width: 22.25rem;
     font-family: 'Roboto Condensed', sans-serif;
