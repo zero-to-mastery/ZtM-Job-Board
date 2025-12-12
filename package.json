@@ -11,7 +11,6 @@
         "react-dom": "^18.3.1",
         "react-lazyload": "github:twobin/react-lazyload",
         "react-leaflet": "^4.2.1",
-        "react-scripts": "^5.0.1",
         "react-search-input": "^0.11.3",
         "tachyons": "^4.12.0",
         "webfontloader": "^1.6.28"
@@ -27,16 +26,17 @@
     "scripts": {
         "start": "npm-run-all -p watch-css start-js aggregate-json",
         "watch-css": "npm run build-css && sass ./src --watch",
-        "start-js": "react-scripts start",
-        "build": "react-scripts test --no-watchman --watchAll=false && npm-run-all build-css build-js",
+        "start-js": "vite",
+        "build": "npm-run-all build-css build-js",
         "build-css": "sass ./src",
-        "build-js": "react-scripts build",
+        "build-js": "vite build",
         "postbuild": "mv ./build/favicons/* ./build/ && rm -r ./build/favicons && purgecss --css build/static/css/*.css --content build/static/index.html build/static/js/*.js --output build/static/css",
-        "test": "npm-run-all aggregate-json && react-scripts test --env=jsdom",
+        "test": "npm-run-all aggregate-json && vitest --env=jsdom",
         "deploy": "gh-pages -d build",
         "aggregate-json": "node scripts/aggregate-json.mjs",
         "countries-json": "node scripts/countries-json.mjs",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "serve" : "vite preview"
     },
     "devDependencies": {
         "@babel/helper-call-delegate": "^7.12.13",
@@ -48,6 +48,7 @@
         "@types/react-dom": "^18.3.0",
         "@types/react-lazyload": "^3.2.3",
         "@types/webfontloader": "^1.6.38",
+        "@vitejs/plugin-react": "^5.1.2",
         "gh-pages": "^6.1.1",
         "husky": "^9.0.11",
         "jsonlint": "^1.6.3",
@@ -56,7 +57,8 @@
         "npm-run-all": "^4.1.5",
         "prettier": "^3.3.2",
         "sass": "^1.77.6",
-        "typescript": "^4.9.5"
+        "typescript": "^4.9.5",
+        "vite": "^7.2.7"
     },
     "browserslist": [
         ">0.2%",
