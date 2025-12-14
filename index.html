@@ -5,11 +5,16 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
-      />
+    />
     <meta
       name="description"
       content="Zero to Mastery - Job Board. Made by ZtM Community."
-      />
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="%PUBLIC_URL%/icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="%PUBLIC_URL%/icon-512x512.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
     <link rel="preconnect" href="https://cdnjs.cloudflare.com/" crossorigin />
@@ -71,6 +76,11 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running "npm run build".
     -->
+
+    <!-- PWA Manifest for installable app and theme -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#4c4c4c" />
+
     <title>Job Board •●• Zero to Mastery</title>
   </head>
   <body class="ma0 pa0 bg-light-gray">
@@ -91,5 +101,6 @@
     -->
     <!-- <script src="%PUBLIC_URL%/sketch.min.js"></script> -->
     <!-- <script defer src="%PUBLIC_URL%/sketch-particles.js"></script> -->
+
   </body>
 </html>
