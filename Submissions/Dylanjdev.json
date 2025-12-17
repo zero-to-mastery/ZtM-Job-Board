@@ -1,0 +1,16 @@
+{
+  "name": "Dylan Smith",
+  "img": "https://github.com/Dylanjdev.png",
+  "email": "dylanjsmith.dev@gmail.com",
+  "links": {
+    "website": "https://dylanjdev.github.io/Portfolio/",
+    "linkedin": "www.linkedin.com/in/dylan-smith-271b32275",
+    "github": "https://github.com/Dylanjdev"
+  },
+  "jobTitle": "Full Stack Developer / Founder",
+  "location": {
+    "city": "Pennington Gap VA",
+    "state": "VA",
+    "country": "USA"
+  }
+}
