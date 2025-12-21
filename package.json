@@ -31,12 +31,11 @@
         "build-css": "sass ./src",
         "build-js": "vite build",
         "postbuild": "mv ./build/favicons/* ./build/ && rm -r ./build/favicons && purgecss --css build/static/css/*.css --content build/static/index.html build/static/js/*.js --output build/static/css",
-        "test": "npm-run-all aggregate-json && vitest --env=jsdom",
+        "test": "npm-run-all aggregate-json && vitest",
         "deploy": "gh-pages -d build",
         "aggregate-json": "node scripts/aggregate-json.mjs",
         "countries-json": "node scripts/countries-json.mjs",
-        "prepare": "husky install",
-        "serve" : "vite preview"
+        "serve": "vite preview"
     },
     "devDependencies": {
         "@babel/helper-call-delegate": "^7.12.13",
@@ -51,6 +50,7 @@
         "@vitejs/plugin-react": "^5.1.2",
         "gh-pages": "^6.1.1",
         "husky": "^9.0.11",
+        "jsdom": "^27.3.0",
         "jsonlint": "^1.6.3",
         "lint-staged": "^15.2.7",
         "node-fetch": "^3.3.2",
@@ -58,7 +58,8 @@
         "prettier": "^3.3.2",
         "sass": "^1.77.6",
         "typescript": "^4.9.5",
-        "vite": "^7.2.7"
+        "vite": "^7.2.7",
+        "vitest": "^4.0.16"
     },
     "browserslist": [
         ">0.2%",
