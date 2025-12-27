@@ -1,11 +1,14 @@
 import React, { useRef, useEffect } from 'react'
 
-function Canvas() {
-    const canvasRef = useRef(null)
+const Canvas = () => {
+    const canvasRef = useRef<HTMLCanvasElement>(null)
 
     useEffect(() => {
-        const canvas: any = canvasRef.current
+        const canvas = canvasRef.current
+        if (!canvas) return
+
         const ctx = canvas.getContext('2d')
+        if (!ctx) return
         ctx.beginPath()
         ctx.arc(10, 10, 5, 0, 2 * Math.PI)
         ctx.strokeStyle = 'rgb(500,0,0)'
