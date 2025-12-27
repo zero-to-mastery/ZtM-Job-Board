@@ -1,6 +1,11 @@
 import React from 'react'
 
-const SearchBox = ({ searchChange, responsiveSearch }: any) => {
+interface SearchBoxProps {
+    searchChange: (event: React.ChangeEvent<HTMLInputElement>) => void
+    responsiveSearch: React.CSSProperties
+}
+
+const SearchBox = ({ searchChange, responsiveSearch }: SearchBoxProps) => {
     return (
         <div
             style={responsiveSearch}
