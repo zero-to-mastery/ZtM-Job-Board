@@ -1,0 +1,16 @@
+{
+  "name": "Wilson Costa",
+  "img": "https://avatars.githubusercontent.com/u/47864187",
+  "email": "wilson.ruben97@gmail.com",
+  "links": {
+    "website": "https://wilsoncosta-portfolio.vercel.app/",
+    "linkedin": "https://www.linkedin.com/in/wilson-costa-9a6b96159/",
+    "github": "https://github.com/WilsonRCosta"
+  },
+  "jobTitle": "Back-end Software Engineer",
+  "location": {
+    "city": "Lisbon",
+    "state": "",
+    "country": "Portugal"
+  }
+}
