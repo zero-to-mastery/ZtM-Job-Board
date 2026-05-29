@@ -1,0 +1,16 @@
+{
+    "name": "Abu Hanif",
+    "img": "https://avatars.githubusercontent.com/u/57933?v=4",
+    "email": "ahanif2500@gmail.com",
+    "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/abu-hanif-dev",
+        "github": "https://github.com/ahanif27"
+    },
+    "jobTitle": "Software Engineer",
+    "location": {
+        "city": "Narayanganj",
+        "state": "Dhaka",
+        "country": "Bangladesh"
+    }
+}
