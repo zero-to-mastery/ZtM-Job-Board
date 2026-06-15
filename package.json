@@ -46,7 +46,7 @@
         "@types/react-dom": "^19.2.3",
         "@types/react-lazyload": "^3.2.3",
         "@types/webfontloader": "^1.6.38",
-        "@vitejs/plugin-react": "^5.2.0",
+        "@vitejs/plugin-react": "^5.1.2",
         "gh-pages": "^6.3.0",
         "husky": "^9.1.7",
         "jsdom": "^27.3.0",
@@ -57,7 +57,7 @@
         "prettier": "^3.7.4",
         "sass": "^1.97.1",
         "typescript": "^5.9.3",
-        "vite": "^8.0.16",
+        "vite": "^7.3.2",
         "vitest": "^4.1.0"
     },
     "browserslist": [
