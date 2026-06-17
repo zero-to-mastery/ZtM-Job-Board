@@ -1,0 +1,16 @@
+{
+    "name": "Ali Tadayoni",
+    "img": "https://avatars.githubusercontent.com/u/176620309?s=400&u=bf1161d5d7e67ff74909a646e7145470aaf781e3&v=4",
+    "email": "tadayoni.ali.enayat@gmail.com",
+    "links": {
+        "website": "https://alitadayoni.com",
+        "linkedin": "https://www.linkedin.com/in/ali-tadayoni",
+        "github": "https://github.com/Ali-Tadayoni"
+    },
+    "jobTitle": "Frontend Engineer",
+    "location": {
+        "city": "Tehran",
+        "state": "Tehran",
+        "country": "Iran"
+    }
+}
