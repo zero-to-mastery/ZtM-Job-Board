@@ -9,6 +9,7 @@ import persons from './assets/persons.json'
 import { pageNames } from './util/pageNames'
 import useForceUpdate from './util/useForceUpdate'
 const SimpleMap = lazy(() => import('./components/Map'))
+import SimpleMapSkeleton from './components/MapSkeleton'
 
 const people: any = persons
 
@@ -72,17 +73,7 @@ function App() {
             </header>
             <main className="flex-auto">
                 {map ? (
-                    <Suspense
-                        fallback={
-                            <div>
-                                <p>Loading Map...</p>
-                                <p>
-                                    Try refreshing if it doesn't load or check
-                                    internet connection and try again later.
-                                </p>
-                            </div>
-                        }
-                    >
+                    <Suspense fallback={<SimpleMapSkeleton />}>
                         <SimpleMap />
                     </Suspense>
                 ) : (
