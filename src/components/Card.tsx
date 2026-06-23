@@ -13,9 +13,10 @@ const Card = ({ user }: any) => {
 
     if (id) {
         return (
-            <div
+            <article
                 id={`person-${id}`}
                 className="card ma3 w5 tc bg-white br3 custom--shadow-2 custom--shadow-hover-8 custom--o-95 z-1"
+                aria-labelledby={`name-${id}`}
             >
                 <div className="header relative pt3 br2 br--top z-0">
                     <img
@@ -28,7 +29,7 @@ const Card = ({ user }: any) => {
                         decoding="async"
                         onError={(e) => addDefaultImg(e)}
                     />
-                    <h2 className="name mt3 mb1 ph3 w-100 flex items-center justify-center">
+                    <h2 id={`name-${id}`} className="name mt3 mb1 ph3 w-100 flex items-center justify-center">
                         {name}
                     </h2>
                     <p className="title text-center">{jobTitle}</p>
@@ -103,10 +104,10 @@ const Card = ({ user }: any) => {
                             .join(', ')}
                     </p>
                 </div>
-            </div>
+            </article>
         )
     } else {
-        return <div></div>
+        return null
     }
 }
 

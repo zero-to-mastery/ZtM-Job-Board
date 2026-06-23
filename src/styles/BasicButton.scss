@@ -8,7 +8,7 @@
 }
 
 .custom--basic-button button {
-    background: transparent;
+    background: var(--btn-bg, transparent);
     &:hover {
         cursor: pointer;
     }
