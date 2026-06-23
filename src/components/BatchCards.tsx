@@ -45,13 +45,13 @@ const BatchCards = ({ persons, numberPerBatch = 16 }: any) => {
         <div>
             <div style={{ flex: 1 }}>
                 <div style={infoCardContainer}>
-                    <div style={infoView}>
+                    <div aria-live="polite" style={infoView}>
                         <p style={infoLabel}>Total Profiles</p>
                         <p style={infoValue}>
                             <CountUp end={persons.length} delay={1} />
                         </p>
                     </div>
-                    <div style={infoView}>
+                    <div aria-live="polite" style={infoView}>
                         <p style={infoLabel}>Total Countries</p>
                         <p style={infoValue}>
                             <CountUp
