@@ -37,7 +37,7 @@ const Navbar = ({
     }
 
     return (
-        <div className="header-items flex flex-wrap justify-between">
+        <nav className="header-items..." aria-label="Main navigation">
             <h1
                 onClick={onLogoClick}
                 id="title"
@@ -81,7 +81,7 @@ const Navbar = ({
                     TooltipText={`Click to enable ${isDarkMode ? 'light' : 'dark'} mode`}
                 />
             </div>
-        </div>
+        </nav>
     )
 }
 

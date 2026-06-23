@@ -28,7 +28,7 @@ body {
 /* Dark mode */
 body.dark-mode {
     background-color: #212121;
-    color: #212121;
+    color: #e0e0e0;
 }
 
 .header-items.dark-mode {
@@ -38,7 +38,7 @@ body.dark-mode {
 
 button {
     background-color: var(--primary-color);
-    color: red;
+    color: white;
     border: none;
     cursor: pointer;
     padding: 0.5rem 1rem;
@@ -50,5 +50,5 @@ button {
 /* Dark mode button styles */
 body.dark-mode button {
     background-color: var(--secondary-color);
-    color: blue;
+    color: white;
 }

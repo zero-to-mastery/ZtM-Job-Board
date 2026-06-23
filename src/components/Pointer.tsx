@@ -10,10 +10,19 @@ interface PointerProps {
 export const Pointer = ({ onClick, Text, TooltipText }: PointerProps) => {
     return (
         <div className="searchbox-tooltip">
-            <span className="f3 mr4 pointer" onClick={onClick}>
+            <button
+                className="f3 mr4 pointer bg-transparent bn pa0"
+                onClick={onClick}
+                onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault()
+                        onClick()
+                    }
+                }}
+                aria-label={TooltipText}
+            >
                 {Text}
-            </span>
-            <span className="tooltiptext">{TooltipText}</span>
+            </button>
         </div>
     )
 }

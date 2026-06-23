@@ -95,7 +95,7 @@ function SimpleMap({ zoom = 3 }) {
             : [55.378052, -3.435973]
 
     return (
-        <div style={{ height: '90vh', width: '100%', margin: 0 }}>
+        <div role="application" aria-label="World map showing developer distribution by country" style={{ height: '90vh', width: '100%', margin: 0 }}>
             <LeafletMap
                 center={center}
                 zoom={zoom}
