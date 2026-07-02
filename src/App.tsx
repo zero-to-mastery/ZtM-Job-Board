@@ -8,10 +8,14 @@ import Navbar from './components/Navbar'
 import persons from './assets/persons.json'
 import { pageNames } from './util/pageNames'
 import useForceUpdate from './util/useForceUpdate'
+
+// Lazy load the Map component to optimize initial bundle size and split the chunk
 const SimpleMap = lazy(() => import('./components/Map'))
 
+// Cast JSON import to 'any' type to accommodate varied profile data structures
 const people: any = persons
 
+// Inline styling fallback configurations for mobile view search header
 const style: React.CSSProperties = {
     background: '#fff',
     padding: '1rem',
@@ -20,11 +24,14 @@ const style: React.CSSProperties = {
     zIndex: 1,
     borderRadius: '5px',
 }
+
 const responsiveSearch = {
     width: '100%',
     marginBottom: '0.5rem',
     padding: '0.5rem',
 }
+
+// Allowed object keys passed down to react-search-input for parsing developer data
 const KEYS_TO_FILTERS = [
     'name',
     'jobTitle',
@@ -34,26 +41,38 @@ const KEYS_TO_FILTERS = [
 ]
 
 function App() {
+    // Component State declarations
     const [searchfield, setSearchfield] = useState('')
-
     const [map, setMap] = useState(false)
-    const [mapOrHomeTitle, setMapOrHomeTitle] = useState(pageNames.map) // pageNames.map is default
+    const [mapOrHomeTitle, setMapOrHomeTitle] = useState(pageNames.map) // Defaults to map page string
 
+    // Trigger state workarounds for array mutations via a custom React hook
+    const forceUpdate = useForceUpdate()
+
+    /**
+     * Filters developer profile objects based on search query matching against target keys
+     * @param {string} searchFilter - Current search field string query
+     */
     const filteredPersons = (searchFilter: any) =>
         people.filter(createFilter(searchFilter, KEYS_TO_FILTERS))
 
-    const forceUpdate = useForceUpdate()
-
-    //note: shuffle function is not pure function, it mutates original array
-    //in order to avoid memory duplication
+    // Note: The shuffle function is not a pure function; it mutates the original array
+    // in place to prevent memory overhead and array cloning over heavy objects.
     shuffle(people)
 
+    /**
+     * Toggles layout visibility between the main list view and the geographic map view,
+     * resetting active search fields on change.
+     */
     function goBack() {
         setMap(!map)
         setMapOrHomeTitle(map ? pageNames.map : pageNames.home)
         setSearchfield('')
     }
 
+    /**
+     * Handles user trigger click events to re-shuffle arrays in place, forcing a re-render.
+     */
     function shufflePeopleOnClick() {
         shuffle(people)
         forceUpdate()
@@ -61,6 +80,7 @@ function App() {
 
     return (
         <div className="flex flex-column min-vh-100 tc">
+            {/* Header Configuration containing Application Navigation Actions */}
             <header className="custom--unselectable top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-9999">
                 <Navbar
                     onLogoClick={goBack}
@@ -70,15 +90,17 @@ function App() {
                     shufflePeopleOnClick={shufflePeopleOnClick}
                 />
             </header>
+
+            {/* Main Application Container - Dynamically switches between Grid Cards and Lazy Map */}
             <main className="flex-auto">
                 {map ? (
                     <Suspense
                         fallback={
-                            <div>
-                                <p>Loading Map...</p>
-                                <p>
+                            <div className="pv5 text-center">
+                                <p className="f4 fw6">Loading Map...</p>
+                                <p className="f6 gray">
                                     Try refreshing if it doesn't load or check
-                                    internet connection and try again later.
+                                    your internet connection and try again later.
                                 </p>
                             </div>
                         }
@@ -87,6 +109,7 @@ function App() {
                     </Suspense>
                 ) : (
                     <div id="sketch-particles">
+                        {/* Mobile view search field visibility toggle block */}
                         <div
                             className="visible-on-mobileview-only"
                             style={style}
@@ -99,6 +122,7 @@ function App() {
                             />
                         </div>
 
+                        {/* Paginated grid renderer for matching member datasets */}
                         <BatchCards
                             persons={filteredPersons(searchfield)}
                             numberPerBatch={16}
@@ -106,6 +130,8 @@ function App() {
                     </div>
                 )}
             </main>
+
+            {/* Persistent Footer Component with Repository link mappings */}
             <footer className="custom--unselectable w-100 h3 flex items-center justify-center white custom--bg-additional3 z-2">
                 <div className="flex items-center">
                     Copyright © {new Date().getFullYear()} by Zero to Mastery.
@@ -114,6 +140,7 @@ function App() {
                         href="https://github.com/zero-to-mastery/ZtM-Job-Board"
                         title="Repository"
                         target="_blank"
+                        rel="noreferrer"
                         style={{ color: 'white' }}
                     >
                         <svg
@@ -128,6 +155,8 @@ function App() {
                     </a>
                 </div>
             </footer>
+
+            {/* Back to Top Smooth Scroll Action Button */}
             <div className="custom--top-button">
                 <div
                     onClick={() => {
