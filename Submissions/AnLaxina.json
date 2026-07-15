@@ -1,0 +1,16 @@
+{
+    "name": "Anilov Laxina",
+    "img": "https://anlaxina.com/img/profile-picture.jpg",
+    "email": "anlaxina@gmail.com",
+    "links": {
+      "website": "https://anlaxina.com/",
+      "linkedin": "https://www.linkedin.com/in/anlaxina",
+      "github": "https://github.com/AnLaxina"
+    },
+    "jobTitle": "Software Developer",
+    "location": {
+      "city": "Vancouver",
+      "state": "BC",
+      "country": "Canada"
+    }
+  }

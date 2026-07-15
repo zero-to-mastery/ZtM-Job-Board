@@ -1,0 +1,16 @@
+{
+    "name": "Raj Kishan",
+    "img": "https://avatars.githubusercontent.com/u/68591610?v=4",
+    "email": "rajkishn@gmail.com",
+    "links": {
+        "website": "https://raj-kishan.netlify.app/",
+        "linkedin": "https://www.linkedin.com/in/rajkishancode/",
+        "github": "https://github.com/rajkishancode"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "country": "India"
+    }
+}

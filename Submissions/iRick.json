@@ -1,0 +1,16 @@
+{
+  "name": "Rick Kolbaiev",
+  "img": "https://avatars.githubusercontent.com/u/103733788?v=4",
+  "email": "yaroslavkolbaiev@gmail.com",
+  "links": {
+    "website": "https://portfolio-blond-one-63.vercel.app",
+    "linkedin": "https://www.linkedin.com/in/rick-kolbaiev-616727233/",
+    "github": "https://github.com/YaroslavKolbaiev"
+  },
+  "jobTitle": "Back-End Developer",
+  "location": {
+    "city": "Alanya",
+    "state": "Antalya",
+    "country": "Turkey"
+  }
+}

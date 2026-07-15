@@ -1,0 +1,16 @@
+{
+    "name": "Frank Omondi",
+    "img": "https://crepant.com/_next/image?url=%2Fstatic%2Fimages%2Favatar.webp&w=256&q=75",
+    "email": "frankomondi311@gmail.com",
+    "links": {
+      "website": "https://crepant.com/",
+      "linkedin": "https://www.linkedin.com/in/frederick-omondi/",
+      "github": "https://github.com/Dofften"
+    },
+    "jobTitle": "Software Developer",
+    "location": {
+      "city": "Nairobi",
+      "state": "Nairobi",
+      "country": "Kenya"
+    }
+  }

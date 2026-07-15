@@ -1,0 +1,16 @@
+{
+    "name": "David Vasquez",
+    "img": "https://media.licdn.com/dms/image/D5603AQEzhLj7zor2KQ/profile-displayphoto-shrink_400_400/0/1680846796255?e=1703721600&v=beta&t=cDwHNMGlsO4UkHeV4p2W46GRwO9yNN2NPlSQ0QXZk5Q",
+    "email": "dvasquez.422@gmail.com",
+    "links": {
+      "website": "https://dvasquez08.github.io/",
+      "linkedin": "https://www.linkedin.com/in/david-vasquez-yeg/",
+      "github": "https://github.com/dvasquez08"
+    },
+    "jobTitle": "Application Developer",
+    "location": {
+      "city": "Edmonton",
+      "state": "Alberta",
+      "country": "Canada"
+    }
+  }

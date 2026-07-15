@@ -1,0 +1,16 @@
+{
+    "name": "Andrea Ferrari",
+    "img": "https://avatars.githubusercontent.com/u/131166715?v=4",
+    "email": "andreaferraridev@gmail.com",
+    "links": {
+        "website": "https://portfolio-andrea-ferrari.netlify.app/",
+        "linkedin": "https://www.linkedin.com/in/andrea-ferrari-developer/",
+        "github": "https://github.com/andreaferrari95"
+    },
+    "jobTitle": "Front-End Developer - React",
+    "location": {
+        "city": "Bonn",
+        "state": "",
+        "country": "Germany"
+    }
+}

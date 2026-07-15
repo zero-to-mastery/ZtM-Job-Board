@@ -1,0 +1,16 @@
+{
+    "name": "Melissa Cutts",
+    "img": "https://avatars.githubusercontent.com/u/121849236?v=4",
+    "email": "admin@thecodingphoenix.com",
+    "links": {
+      "website": "https://thecodingphoenix.com/",
+      "linkedin": "https://www.linkedin.com/in/melissammitchell/",
+      "github": "https://github.com/the-codingphoenix"
+    },
+    "jobTitle": "Frontend Web Developer",
+    "location": {
+      "city": "St Louis",
+      "state": "Missouri",
+      "country": "United States"
+    }
+  }

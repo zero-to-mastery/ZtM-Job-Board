@@ -1,0 +1,16 @@
+{
+  "name": "José Ricardo",
+  "img": "https://github.com/StormJose.png",
+  "email": "ricardo23feitosa@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/josé-ricardo-g",
+    "github": "https://github.com/StormJose"
+  },
+  "jobTitle": "Backend Developer",
+  "location": {
+    "city": "Guarulhos",
+    "state": "São Paulo",
+    "country": "Brazil"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Marko Mutić",
+  "img": "https://avatars.githubusercontent.com/u/101182691?v=4",
+  "email": "jthorn29@protonmail.com",
+  "links": {
+    "website": "https://thorn29.github.io",
+    "linkedin": "https://www.linkedin.com/in/marko-mutic",
+    "github": "https://github.com/Thorn29"
+  },
+  "jobTitle": "Full Stack Developer ",
+  "location": {
+    "city": "Novi Sad",
+    "state": "Vojvodina",
+    "country": "Serbia"
+  }
+}

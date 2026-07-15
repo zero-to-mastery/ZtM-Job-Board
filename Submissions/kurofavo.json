@@ -1,0 +1,16 @@
+{
+    "name": "Favour Numonde",
+    "img": "https://media.licdn.com/dms/image/D5603AQGnlrZxiHSnKQ/profile-displayphoto-shrink_800_800/0/1668152027524?e=2147483647&v=beta&t=2lvsM6dK6XT9Hp2eZ0ZIBmSRLumExpsG58cUBNwf77o",
+    "email": "kurofavo@gmail.com",
+    "links": {
+        "website": "github.com/kurofavo",
+        "linkedin": "https://www.linkedin.com/in/favour-numonde",
+        "github": "https://github.com/kurofavo"
+    },
+    "jobTitle": "FullStack Developer",
+    "location": {
+        "city": "Port Harcourt",
+        "state": "Rivers State",
+        "country": "Nigeria"
+    }
+}

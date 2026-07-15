@@ -1,0 +1,16 @@
+{
+  "name": "Trần Nhật Sang",
+  "img": "https://trannhatsang.com/wp-content/uploads/2023/10/hinh-avatar-cv-225x300.jpg",
+  "email": "trannhatsang.work@gmail.com",
+  "links": {
+    "website": "https://trannhatsang.com",
+    "linkedin": "https://www.linkedin.com/in/trannhatsang910",
+    "github": "https://github.com/sangtrandev00"
+  },
+  "jobTitle": "Fullstack Developer",
+  "location": {
+    "city": "Ho Chi Minh City",
+    "state": "Di An",
+    "country": "Viet Nam"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Antonio Rodriguez",
+    "img": "https://avatars.githubusercontent.com/u/102554647?s=400&u=2d63f3998bed5635fe5a3ead506608979acb64d4&v=4",
+    "email": "antonioinorge@hotmail.com",
+    "links": {
+        "website": "https://antoniorodr.github.io/Antonio_portfolio/",
+        "linkedin": "https://www.linkedin.com/in/antoniorodr",
+        "github": "https://github.com/antoniorodr"
+    },
+    "jobTitle": "Backend Developer",
+    "location": {
+        "city": "Trondheim",
+        "state": "",
+        "country": "Norway"
+    }
+}

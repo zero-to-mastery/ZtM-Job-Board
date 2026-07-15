@@ -1,0 +1,16 @@
+{
+  "name": "Olusegun Joseph",
+  "img": "https://avatars.githubusercontent.com/u/98201568?v=4",
+  "email": "jossychamp@gmail.com",
+  "links": {
+    "website": "https://olusegunjosephportfolio.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/olusegunjoseph/",
+    "github": "https://github.com/OlusegunJoseph"
+  },
+  "jobTitle": "Web Developer (React and Node)",
+  "location": {
+    "city": "Montreal",
+    "state": "Quebec",
+    "country": "Canada"
+  }
+}

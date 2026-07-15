@@ -1,0 +1,16 @@
+{
+    "name": "Chloé Galbert",
+    "img": "https://avatars.githubusercontent.com/u/123021501?v=4",
+    "email":"",
+    "links": {
+        "website": "",
+        "linkedin": "https://www.linkedin.com/in/chloegalbert/",
+        "github": "https://github.com/ChloeGlbrt"
+    },
+    "jobTitle": "Full-Stack Java-Angular Developer",
+    "location": {
+        "city": "Paris",
+        "state": "",
+        "country": "France"
+    }
+}

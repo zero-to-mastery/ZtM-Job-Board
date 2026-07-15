@@ -1,0 +1,16 @@
+{
+    "name": "Ali Darraji",
+    "img": "https://media.licdn.com/dms/image/C5603AQGojDTlHQDxqA/profile-displayphoto-shrink_400_400/0/1659389179248?e=1691020800&v=beta&t=EYdB3nDZqIHCeYM0Xsw2D4DKU6ivovNhauZe0KZ6oUM",
+    "email": "",
+    "links": {
+        "website": "https://adarraji.netlify.app/",
+        "linkedin": "https://www.linkedin.com/in/ali-darraji-85978828/",
+        "github": "https://github.com/adarraji"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+        "city": "Toronto",
+        "state": "Ontario",
+        "country": "Canada"
+    }
+}

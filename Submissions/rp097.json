@@ -1,0 +1,16 @@
+{
+    "name": "Rahul Prem",
+    "img": "https://avatars.githubusercontent.com/u/117741770?v=4",
+    "email": "rahulprem90@gmail.com",
+    "links": {
+      "website": "https://www.datascienceportfol.io/rahulprem",
+      "linkedin": "https://www.linkedin.com/in/rahul-prem-73558b158/",
+      "github": "https://github.com/rp097"
+    },
+    "jobTitle": "Machine Learning Engineer",
+    "location": {
+      "city": "Melbourne",
+      "state": "Victoria",
+      "country": "Australia"
+    }
+  }

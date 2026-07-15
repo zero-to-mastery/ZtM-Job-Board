@@ -1,0 +1,16 @@
+{
+    "name": "Irbaine",
+    "img": "https://avatars.githubusercontent.com/u/105754025?v=4",
+    "email": "contact@irbaine.com",
+    "links": {
+      "website": "https://www.irbaine.com",
+      "linkedin": "https://www.linkedin.com/in/Irbaine",
+      "github": "https://github.com/Irbaine"
+    },
+    "jobTitle": "Front-end developer",
+    "location": {
+      "city": "Casablanca",
+      "state": "",
+      "country": "Morocco"
+    }
+  }

@@ -1,0 +1,16 @@
+{
+  "name": "Tanvi Singh",
+  "img": "Turquoise.jpg",
+  "email": "singhvi2104@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/tanvi-singh-72695a215",
+    "github": "https://github.com/tanvi2104"
+  },
+  "jobTitle": "Front-End Developer",
+  "location": {
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "country": "India"
+  }
+}

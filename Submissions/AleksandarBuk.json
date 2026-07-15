@@ -1,0 +1,16 @@
+{
+    "name": "Aleksandar Bukvic",
+    "img": "https://avatars.githubusercontent.com/u/127892939?v=4",
+    "email": "aleksandar.buk@gmail.com",
+    "links": {
+        "website": "https://aleksandarbuk.github.io/Alex.github.io/",
+        "linkedin": "https://www.linkedin.com/in/aleksandar-buk/",
+        "github": "https://github.com/AleksandarBuk"
+    },
+    "jobTitle": "Pythoon Developer",
+    "location": {
+        "city": "Belgrade",
+        "state": "Belgrade",
+        "country": "Serbia"
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Tina Morlock",
+  "img": "https://shecoded.com/wp-content/uploads/2024/09/417372625_1753662221790490_5783188631852196474_n.jpg",
+  "email": "tinamorlock@gmail.com",
+  "links": {
+    "website": "https://tinamorlock.github.io/Dev-Portfolio/",
+    "linkedin": "https://www.linkedin.com/in/tinamorlock/",
+    "github": "https://github.com/tinamorlock"
+  },
+  "jobTitle": "Full-Stack Developer",
+  "location": {
+    "city": "Edmond",
+    "state": "Oklahoma",
+    "country": "United States"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Allen Larson",
+    "img": "https://avatars.githubusercontent.com/u/127446190?v=4",
+    "email": "",
+    "links": {
+        "website": "https://allenlarson.net",
+        "linkedin": "https://www.linkedin.com/in/allenlarson",
+        "github": "https://github.com/allenlarson"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+        "city": "Hampton",
+        "state": "Virginia",
+        "country": "USA"
+    }
+}

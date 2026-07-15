@@ -1,0 +1,16 @@
+{
+    "name": "Taha Sökmen",
+    "img": "https://avatars.githubusercontent.com/u/31169187?v=4",
+    "email": "tahasokmen222@gmail.com",
+    "links": {
+        "website": "https://tahasokmen.vercel.app/",
+        "linkedin": "https://www.linkedin.com/in/taha-sokmen/",
+        "github": "https://github.com/JustRelaxable"
+    },
+    "jobTitle": "Frontend Developer",
+    "location": {
+        "city": "Istanbul",
+        "state": "",
+        "country": "Turkey"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Muhammad Asif",
+    "img": "https://avatars.githubusercontent.com/u/26629776?v=4",
+    "email": "asif88383@gmail.com",
+    "links": {
+        "website": "https://asiflhr.vercel.app/",
+        "linkedin": "https://www.linkedin.com/in/asiflhr",
+        "github": "https://github.com/asiflhr"
+    },
+    "jobTitle": "Senior Full Stack Developer",
+    "location": {
+        "city": "Lahore",
+        "state": "Punjab",
+        "country": "Pakistan"
+    }
+}

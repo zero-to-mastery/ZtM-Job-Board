@@ -1,0 +1,16 @@
+{
+  "name": "Jimmy Beldineau",
+  "img": "",
+  "email": "jbeldine@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/jimmybeldineau",
+    "github": "https://github.com/jibgittry"
+  },
+  "jobTitle": "Data Engineer",
+  "location": {
+    "city": "Budapest",
+    "state": "",
+    "country": "Hungary"
+  }
+}

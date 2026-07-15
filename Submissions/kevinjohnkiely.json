@@ -1,0 +1,16 @@
+{
+    "name": "Kevin Kiely",
+    "img": "https://avatars.githubusercontent.com/u/62036299?v=4",
+    "email": "kevinjohnkiely@gmail.com",
+    "links": {
+        "website": "https://kevinkiely.me/",
+        "linkedin": "https://www.linkedin.com/in/kevin-kiely",
+        "github": "https://github.com/kevinjohnkiely"
+    },
+    "jobTitle": "Junior Web Developer",
+    "location": {
+        "city": "Limerick",
+        "state": "Munster",
+        "country": "Ireland"
+    }
+}

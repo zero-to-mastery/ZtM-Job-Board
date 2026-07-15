@@ -1,0 +1,16 @@
+{
+  "name": "Rohan sharma",
+  "img": "https://avatars.githubusercontent.com/u/117426013?v=4",
+  "email":"",
+  "links": {
+    "website": "http://",
+    "linkedin": "http://www.linkedin.com/in/",
+    "github": "https://github.com/RS-labhub"
+  },
+  "jobTitle": "Software Engineer",
+  "location": {
+    "city": "XXX",
+    "state": "XXXX",
+    "country": "India"
+  }
+}

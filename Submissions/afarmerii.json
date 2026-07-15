@@ -1,0 +1,16 @@
+{
+    "name": "Andrew Farmer II",
+    "img": "",
+    "email": "andrew@afarmerii.com",
+    "links": {
+      "website": "https://afarmerii.com",
+      "linkedin": "https://www.linkedin.com/in/andrew-farmer-ii-635681228/",
+      "github": "https://github.com/afarmerii"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "location": {
+      "city": "Howell",
+      "state": "New Jersey",
+      "country": "USA"
+    }
+  }

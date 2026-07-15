@@ -1,0 +1,16 @@
+{
+    "name": "Angelo Gentile III",
+    "img": "https://avatars.githubusercontent.com/u/140743863?v=4",
+    "email": "angelogentileiii@gmail.com",
+    "links": {
+        "website": "https://angelogentileiii.github.io",
+        "linkedin": "https://www.linkedin.com/in/angelogentileiii",
+        "github": "https://www.github.com/angelogentileiii"
+    },
+    "jobTitle": "Full-Stack Software Engineer",
+    "location": {
+        "city": "New York",
+        "state": "New York",
+        "country": "United States of America"
+    }
+}

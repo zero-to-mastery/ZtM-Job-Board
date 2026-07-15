@@ -1,0 +1,16 @@
+{
+  "name": "Diego Vega Centeno",
+  "img": "[YOUR_IMG_URL]",
+  "email": "diego.vega.cen@gmail.com",
+  "links": {
+    "website": "https://diego-vega-portfolio.vercel.app",
+    "linkedin": "https://www.linkedin.com/in/diego-vega-cen",
+    "github": "https://github.com/diego-vega-centeno"
+  },
+  "jobTitle": "Software Developer",
+  "location": {
+    "city": "Lima",
+    "state": "Lima",
+    "country": "Peru"
+  }
+}

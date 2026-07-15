@@ -1,0 +1,16 @@
+{
+    "name": "Thiego Moura",
+    "img": "https://avatars.githubusercontent.com/u/18420762?v=4",
+    "email": "thiegormoura@gmail.com",
+    "links": {
+        "website": "https://thiego.dev",
+        "linkedin": "https://www.linkedin.com/in/thiegomoura",
+        "github": "https://github.com/thiegomoura"
+    },
+    "jobTitle": "Backend Software Engineer • Node.js | NestJS | TypeScript",
+    "location": {
+        "city": "",
+        "state": "Mato Grosso",
+        "country": "Brazil"
+    }
+}

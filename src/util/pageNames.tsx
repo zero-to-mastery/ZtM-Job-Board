@@ -1,4 +1,4 @@
 export const pageNames = {
-  home: "Home",
-  map: "Map",
+    home: 'Home',
+    map: 'Map',
 }

@@ -1,0 +1,14 @@
+{
+    "name": "David Costa",
+    "img": "https://avatars.githubusercontent.com/u/158760400?s=400&u=ef6ae042dbe9f1f7456b0cc9c63234f27032a60a&v=4",
+    "email": "davidmoraiscosta@gmail.com",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/davidmcostaa",
+      "github": "https://github.com/davidmcosta"
+    },
+    "jobTitle": "Full Stack Developer",
+    "location": {
+      "city": "Lisbon",
+      "country": "Portugal"
+    }
+  }

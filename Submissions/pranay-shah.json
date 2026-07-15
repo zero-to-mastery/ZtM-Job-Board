@@ -1,0 +1,16 @@
+{
+  "name": "Pranay Shah",
+  "img": "https://avatars.githubusercontent.com/u/32932413?v=4",
+  "email":"pranay121096@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/pranay-shah-b3077552/",
+    "github": "https://github.com/PranayS1"
+  },
+  "jobTitle": "MEAN Stack Developer",
+  "location": {
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India"
+  }
+}

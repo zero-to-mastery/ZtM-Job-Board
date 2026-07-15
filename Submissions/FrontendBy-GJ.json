@@ -1,0 +1,16 @@
+{
+    "name": "Genaro Garcia Jr",
+    "img": "https://avatars.githubusercontent.com/u/95705896?v=4",
+    "email": "genaro.dev@outlook.com",
+    "links": {
+        "website": "https://garciadev.netlify.app/",
+        "linkedin": "",
+        "github": "https://github.com/FrontendBy-GJ"
+    },
+    "jobTitle": "Front-End Developer",
+    "location": {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "U.S."
+    }
+}

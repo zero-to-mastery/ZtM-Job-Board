@@ -1,0 +1,16 @@
+{
+    "name": "Uwe Bury",
+    "img": "https://avatars.githubusercontent.com/u/142432719?v=4",
+    "email": "",
+    "links": {
+      "website": "https://fullstack-dev-portfolio.vercel.app",
+      "linkedin": "https://www.linkedin.com/in/uwe-b-3542722a8",
+      "github": "https://github.com/uwebury"
+    },
+    "jobTitle": "Full-Stack Web Developer",
+    "location": {
+      "city": "Cologne",
+      "state": "North-Rhine Westfalia",
+      "country": "Germany"
+    }
+  }

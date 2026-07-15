@@ -1,0 +1,16 @@
+{
+    "name": "Grady Liu",
+    "img": "https://grady982.github.io/assets/images/grady.jpeg",
+    "email": "grady0902@gmail.com",
+    "links": {
+      "website": "https://grady982.github.io/",
+      "linkedin": "https://www.linkedin.com/in/grady-liu/",
+      "github": "https://github.com/grady982"
+    },
+    "jobTitle": "Senior Software Engineer",
+    "location": {
+      "city": "Taipei",
+      "state": "",
+      "country": "Taiwan"
+    }
+  }

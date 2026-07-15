@@ -1,0 +1,16 @@
+{
+  "name": "Otar Mamatsashvili",
+  "img": "https://github.com/mamatsa.png",
+  "email": "otar.mamatsashvili@gmail.com",
+  "links": {
+    "website": "https://mamatsa.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/otar-mamatsashvili",
+    "github": "https://github.com/mamatsa"
+  },
+  "jobTitle": "Full-Stack Developer",
+  "location": {
+    "city": "Tbilisi",
+    "state": "",
+    "country": "Georgia"
+  }
+}

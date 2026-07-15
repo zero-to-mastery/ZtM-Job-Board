@@ -1,0 +1,16 @@
+{
+  "name": "Vincent Anjiri",
+  "img": "https://media.licdn.com/dms/image/v2/D4D03AQEfosUFaJu5pg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1722117736174?e=1733356800&v=beta&t=Ftjzr1dDtaF0bgDxbWx-e62M3bKMHGaAZP-kaEsfqrg",
+  "email": "vincentanjiri12@gmail.com",
+  "links": {
+    "website": "https://vincentanjiriportfolio.onrender.com/",
+    "linkedin": "https://www.linkedin.com/in/vincent-anjiri-647381192/",
+    "github": "https://github.com/anjiri1684"
+  },
+  "jobTitle": "Frontend Engineer",
+  "location": {
+    "city": "Nairobi",
+    "state": "Nairobi",
+    "country": "Kenya"
+  }
+}

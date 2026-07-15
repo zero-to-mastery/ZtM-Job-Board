@@ -1,0 +1,16 @@
+{
+    "name": "Nilesh Gosavi",
+    "img": "https://github.com/itsnileshgosavi.png",
+    "email":"mailto:nilesh_gosavi@outlook.com",
+  "links": {
+      "website": "https://www.nileshgosavi.tech",
+      "linkedin": "https://www.linkedin.com/in/nilesh-gosavi77/",
+      "github": "https://github.com/itsnileshgosavi"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "India"
+    }
+  }

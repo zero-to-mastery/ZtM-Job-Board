@@ -1,0 +1,16 @@
+{
+  "name": "Gautam Nath",
+  "img": "https://avatars.githubusercontent.com/u/109888459?v=4",
+  "email": "gautamnath.in@gmail.com",
+  "links": {
+    "website": "https://gautamnath.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/webdev-gautam/",
+    "github": "https://github.com/gautamnath-in/"
+  },
+  "jobTitle": "Full Stack Developer with Expertise in UI",
+  "location": {
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India"
+  }
+}

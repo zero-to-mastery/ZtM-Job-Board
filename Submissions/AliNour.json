@@ -1,0 +1,16 @@
+{
+  "name": "Ali Nour",
+  "img": "https://media.licdn.com/dms/image/v2/D4D35AQF9Vnkq2qGf7g/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1720930184949?e=1726329600&v=beta&t=__Qzg2Hf0fNEFU17cQd1xnP4HOSJkDK9auPqFbbi7po",
+  "email": "alinour30211@gmail.com",
+  "links": {
+    "website": "alinour.tech",
+    "linkedin": "https://www.linkedin.com/in/alinourr",
+    "github": "https://github.com/alin00r"
+  },
+  "jobTitle": "Node.js Backend Developer",
+  "location": {
+    "city": "Ismailia",
+    "state": "Ismailia",
+    "country": "Egypt"
+  }
+}

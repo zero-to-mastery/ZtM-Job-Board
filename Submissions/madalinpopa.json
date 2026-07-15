@@ -1,0 +1,16 @@
+{
+    "name": "Madalin Popa",
+    "img": "https://avatars.githubusercontent.com/u/5753617?v=4",
+    "email": "contact@madalinpopa.com",
+    "links": {
+      "website": "https://madalinpopa.com",
+      "linkedin": "https://www.linkedin.com/in/madalinpopa",
+      "github": "https://github.com/madalinpopa"
+    },
+    "jobTitle": "Full-Stack Developer",
+    "location": {
+      "city": "Bucharest",
+      "state": "",
+      "country": "Romania"
+    }
+  }

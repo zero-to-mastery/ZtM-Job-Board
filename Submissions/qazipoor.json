@@ -1,0 +1,16 @@
+{
+  "name": "Ali Qazipoor",
+  "img": "https://avatars.githubusercontent.com/u/6879350?v=4",
+  "email": "qazipoor@gmail.com",
+  "links": {
+    "website": "https://antalyus.com/",
+    "linkedin": "https://www.linkedin.com/in/qazipoor",
+    "github": "https://github.com/qazipoor"
+  },
+  "jobTitle": "DevOps Practitioner",
+  "location": {
+    "city": "Muratpasa",
+    "state": "Antalya",
+    "country": "Turkiye"
+  }
+}

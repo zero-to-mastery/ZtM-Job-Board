@@ -1,0 +1,16 @@
+{
+  "name": "Natalia Ciampelletti",
+  "img": "https://avatars.githubusercontent.com/u/103954578?v=4",
+  "email": "n.ciampelletti@gmail.com",
+  "links": {
+    "website": "https://ciampelletti.vercel.app/",
+    "linkedin": "https://www.linkedin.com/in/natalia-ciampelletti-98a3313/",
+    "github": "https://github.com/nciampelletti"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "Vancouver",
+    "state": "British Columbia",
+    "country": "Canada"
+  }
+}

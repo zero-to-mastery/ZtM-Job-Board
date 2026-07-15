@@ -1,0 +1,16 @@
+{
+  "name": "Cameron McCluskey",
+  "img": "",
+  "email": "cammccluskey@protonmail.com",
+  "links": {
+    "website": "cammccluskey.com",
+    "linkedin": "",
+    "github": "https://github.com/cammccluskey"
+  },
+  "jobTitle": "JavaScript Developer",
+  "location": {
+    "city": "Oakridge",
+    "state": "Oregon",
+    "country": "USA"
+  }
+}

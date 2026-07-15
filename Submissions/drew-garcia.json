@@ -1,0 +1,16 @@
+{
+  "name": "Andrew Garcia",
+  "img": "https://avatars1.githubusercontent.com/u/116861932?v=4",
+  "email": "drew@drewgarcia.dev",
+  "links": {
+    "website": "https://drewgarcia.dev/",
+    "linkedin": "https://www.linkedin.com/in/garciadrew/",
+    "github": "https://github.com/drew-garcia"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA"
+  }
+}

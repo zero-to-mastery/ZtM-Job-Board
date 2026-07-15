@@ -1,0 +1,16 @@
+{
+    "name": "Rohit Pawar",
+    "img": "https://avatars.githubusercontent.com/u/103206980?v=4",
+    "email": "rohitpawar.skills@gmail.com",
+    "links": {
+        "website": "https://rohit-pawar-portfolio-website.netlify.app",
+        "linkedin": "https://www.linkedin.com/in/rohit-pawar-abb642279/",
+        "github": "https://github.com/rohitpawar47"
+    },
+    "jobTitle": "Front-End Developer",
+    "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India"
+    }
+}

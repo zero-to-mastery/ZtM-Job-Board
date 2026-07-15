@@ -1,0 +1,16 @@
+{
+    "name": "Jason Holm",
+    "img": "https://avatars.githubusercontent.com/u/60799980?v=4",
+    "email": "jason.m.holm@gmail.com",
+    "links": {
+        "website": "https://jasonholm-webdevportfolio.netlify.app/",
+        "linkedin": "https://www.linkedin.com/in/jason-holm",
+        "github": "https://github.com/jasonholm81"
+    },
+    "jobTitle": "Web Developer",
+    "location": {
+        "city": "Letterkenny",
+        "state": "Co. Donegal",
+        "country": "Ireland"
+    }
+}

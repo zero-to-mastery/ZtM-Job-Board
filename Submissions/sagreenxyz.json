@@ -1,0 +1,16 @@
+{
+    "name": "Scott A. Green",
+    "img": "https://github.com/sagreenxyz.png",
+    "email": "sagreenxyz@gmail.com",
+    "links": {
+        "website": "http://www.sagreenxyz.com",
+        "linkedin": "https://www.linkedin.com/in/sagreenxyz",
+        "github": "https://github.com/sagreenxyz"
+    },
+    "jobTitle": "Software and Full-Stack Developer",
+    "location": {
+        "city": "Tulsa",
+        "state": "Oklahoma",
+        "country": "United States"
+    }
+}

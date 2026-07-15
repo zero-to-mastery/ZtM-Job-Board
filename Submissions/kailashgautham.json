@@ -1,0 +1,16 @@
+{
+  "name": "Kailash Gautham",
+  "img": "https://media.licdn.com/dms/image/C4D03AQHrHE3blDRujw/profile-displayphoto-shrink_800_800/0/1663939309807?e=1711584000&v=beta&t=hnOls92U7VEcEo0ae3--yiPPgVcsDnwt9-KldfaRh-c",
+  "email": "kailash.gautham@gmail.com",
+  "links": {
+    "website": "https://www.kailashgautham.com",
+    "linkedin": "https://www.linkedin.com/in/kailashgautham",
+    "github": "https://github.com/kailashgautham"
+  },
+  "jobTitle": "Full Stack Developer",
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "Singapore"
+  }
+}

@@ -1,11 +1,49 @@
 @media screen and (min-width: 761px) {
-  .visible-on-desktopview-only {
-    display: block;
-  }
+    .visible-on-desktopview-only {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 760px) {
-  .visible-on-desktopview-only {
-    display: none;
-  }
+    .visible-on-desktopview-only {
+        display: none;
+    }
+}
+/* Light mode (default) */
+body {
+    background-color: #f5f5f5;
+    color: #212121;
+}
+
+.header-items {
+    background-color: #212121;
+    color: #ffffff;
+}
+
+/* Dark mode */
+body.dark-mode {
+    background-color: #212121;
+    color: #212121;
+}
+
+.header-items.dark-mode {
+    background-color: #333333;
+    color: #fff;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+}
+
+/* Dark mode button styles */
+body.dark-mode button {
+    background-color: var(--secondary-color);
+    color: white;
 }

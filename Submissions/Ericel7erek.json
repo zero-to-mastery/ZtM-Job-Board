@@ -1,0 +1,16 @@
+{
+    "name": "Eric Alaa",
+    "img": "https://media.licdn.com/dms/image/D4D35AQHCP-y8y3gXvQ/profile-framedphoto-shrink_400_400/0/1698884182165?e=1701691200&v=beta&t=XKwdTs8tUAMZ-m4vwnf-8lmiab6_h0vT_hbtK9INeXA",
+    "email": "ericalaa@rocketmail.com",
+    "links": {
+      "website": "[YOUR_WEBSITE_URL]",
+      "linkedin": "https://www.linkedin.com/in/eric-alaa-a1687070/",
+      "github": "https://github.com/Ericel7erek"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "location": {
+      "city": "Barcelona",
+      "state": "Barcelona",
+      "country": "Spain"
+    }
+  }

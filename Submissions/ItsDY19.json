@@ -1,0 +1,16 @@
+{
+    "name": "David Yusuf",
+    "img": "https://itsdy19.github.io/Davids-Portfolio/davidPic.jpg",
+    "email": "davidyusuf19@gmail.com",
+    "links": {
+      "website": "https://itsdy19.github.io/Davids-Portfolio/",
+      "linkedin": "https://www.linkedin.com/in/david-yusuf/",
+      "github": "https://github.com/ItsDY19"
+    },
+    "jobTitle": "Web Developer | Full Stack Developer | Internship",
+    "location": {
+      "city": "Nobleton",
+      "state": "Ontario",
+      "country": "Canada"
+    }
+  }

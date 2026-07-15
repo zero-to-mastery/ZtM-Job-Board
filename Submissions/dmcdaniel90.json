@@ -1,0 +1,16 @@
+{
+  "name": "Devin McDaniel",
+  "img": "https://avatars.githubusercontent.com/u/111747269?v=4",
+  "email": "dmcdanie9@gmail.com",
+  "links": {
+    "website": "https://devinmcdaniel.tech",
+    "linkedin": "https://www.linkedin.com/in/devinmcdaniel",
+    "github": "https://github.com/dmcdaniel90"
+  },
+  "jobTitle": "Frontend Developer",
+  "location": {
+    "city": "Swindon",
+    "state": "Wiltshire",
+    "country": "United Kingdom"
+  }
+}

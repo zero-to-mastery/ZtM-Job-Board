@@ -1,0 +1,15 @@
+{
+    "name": "Prannav Panta",
+    "img": "https://portfolio-pi-steel-50.vercel.app/assets/my-image-86003c55.jpg",
+    "email": "pantaprannav59@gmail.com",
+    "links": {
+        "linkedin": "https://www.linkedin.com/in/prannav-panta-143359193/",
+        "github": "https://github.com/prannavp"
+    },
+    "jobTitle": "Fullstack Developer",
+    "location": {
+        "city": "Kathmandu",
+        "state": "Bagmati",
+        "country": "Nepal"
+    }
+}
