@@ -1,0 +1,16 @@
+{
+  "name": "Ragavi P",
+  "img": "https://raw.githubusercontent.com/RagaviPerumal/file/main/profile.jpeg",
+  "email": "ragaviperumal9@gmail.com",
+  "links": {
+    "website": "https://ragaviperumal.com/",
+    "linkedin": "https://www.linkedin.com/in/ragavi-p",
+    "github": "https://github.com/RagaviPerumal"
+  },
+  "jobTitle": "Fresher|Backend Developer intern",
+  "location": {
+    "city": "Chennai",
+    "state": "TamilNadu",
+    "country": "India"
+  }
+}
