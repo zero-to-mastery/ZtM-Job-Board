@@ -1,6 +1,6 @@
 import React, { useState, lazy, Suspense } from 'react'
 import Search from './components/Search'
-import { createFilter } from 'react-search-input'
+import { filterPersons } from './util/searchIndex'
 import { shuffle } from './util/shuffle'
 import './styles/SearchBarMobileView.scss'
 import BatchCards from './components/BatchCards'
@@ -39,8 +39,7 @@ function App() {
     const [map, setMap] = useState(false)
     const [mapOrHomeTitle, setMapOrHomeTitle] = useState(pageNames.map) // pageNames.map is default
 
-    const filteredPersons = (searchFilter: any) =>
-        people.filter(createFilter(searchFilter, KEYS_TO_FILTERS))
+    const filteredPersons = (searchFilter: string) => filterPersons(searchFilter)
 
     const forceUpdate = useForceUpdate()
 
