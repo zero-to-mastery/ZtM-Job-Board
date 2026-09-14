@@ -1,0 +1,16 @@
+{
+  "name": "Kristofer Fangrat",
+  "img": "https://github.com/KristoferFangrat.png",
+  "email": "kristofer.fangrat@gmail.com",
+  "links": {
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/kristofer-fangrat-a741aa104/",
+    "github": "https://github.com/KristoferFangrat"
+  },
+  "jobTitle": "Data Engineer",
+  "location": {
+    "city": "Stockholm",
+    "state": "Stockholm",
+    "country": "Sweden"
+  }
+}
