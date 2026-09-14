@@ -1,7 +1,6 @@
 import fs from 'fs'
 import path from 'path'
 import crypto from 'crypto'
-import lunr from 'lunr'
 
 const JSON_SOURCE_DIR = 'Submissions'
 const FINAL_JSON_FILE = 'src/assets/persons.json'
@@ -13,6 +12,15 @@ try {
     dirContent = fs.readdirSync(path.resolve(JSON_SOURCE_DIR))
 } catch (e) {
     console.log(`error while reading "${JSON_SOURCE_DIR}": ` + e.message)
+}
+
+function tokenize(text) {
+    if (!text) return []
+    return String(text)
+        .toLowerCase()
+        .replace(/[^a-z0-9\s]/gi, ' ')
+        .split(/\s+/)
+        .filter((t) => t.length > 0)
 }
 
 try {
@@ -37,30 +45,36 @@ fs.writeFileSync(
     JSON.stringify(finalJSON, null, 2)
 )
 
-// Pre-build static search index using Lunr.js
-const idx = lunr(function () {
-    this.ref('id')
-    this.field('name')
-    this.field('jobTitle')
-    this.field('city')
-    this.field('state')
-    this.field('country')
+// Pre-build static inverted search index
+const invertedIndex = {}
 
-    finalJSON.forEach((person) => {
-        this.add({
-            id: person.id,
-            name: person.name || '',
-            jobTitle: person.jobTitle || '',
-            city: person.location?.city || '',
-            state: person.location?.state || '',
-            country: person.location?.country || '',
-        })
+finalJSON.forEach((person) => {
+    const fields = [
+        person.name,
+        person.jobTitle,
+        person.location?.city,
+        person.location?.state,
+        person.location?.country,
+    ]
+
+    const tokens = new Set()
+    fields.forEach((field) => {
+        tokenize(field).forEach((t) => tokens.add(t))
+    })
+
+    tokens.forEach((t) => {
+        if (!invertedIndex[t]) {
+            invertedIndex[t] = []
+        }
+        invertedIndex[t].push(person.id)
     })
 })
 
 fs.writeFileSync(
     path.resolve(SEARCH_INDEX_FILE),
-    JSON.stringify(idx, null, 2)
+    JSON.stringify(invertedIndex, null, 2)
 )
 
-console.log(`Aggregated ${finalJSON.length} submissions and generated static search index.`)
+console.log(
+    `Aggregated ${finalJSON.length} submissions and generated static search index.`
+)

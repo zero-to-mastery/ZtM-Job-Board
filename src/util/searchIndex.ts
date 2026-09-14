@@ -1,87 +1,77 @@
-import lunr from 'lunr'
 import persons from '../assets/persons.json'
 import searchIndexData from '../assets/search-index.json'
 import Person from '../interfaces/person'
 
 const people: Person[] = persons as Person[]
+const index: Record<string, string[]> = (searchIndexData || {}) as Record<
+    string,
+    string[]
+>
 
-let searchIndex: lunr.Index | null = null
-
-try {
-    if (searchIndexData) {
-        searchIndex = lunr.Index.load(searchIndexData as any)
-    }
-} catch (e) {
-    console.error('Failed to load pre-built search index:', e)
+function tokenize(text: string): string[] {
+    if (!text) return []
+    return text
+        .toLowerCase()
+        .replace(/[^a-z0-9\s]/gi, ' ')
+        .split(/\s+/)
+        .filter((t) => t.length > 0)
 }
 
 /**
- * Filter persons list using the pre-built Lunr.js static search index.
+ * Filter persons list using the pre-built static inverted search index.
  */
 export function filterPersons(query: string): Person[] {
-    const trimmedQuery = query ? query.trim() : ''
-    if (!trimmedQuery) {
+    const trimmed = query ? query.trim() : ''
+    if (!trimmed) {
         return people
     }
 
-    if (!searchIndex) {
-        // Fallback filter if search index is unavailable
-        const lower = trimmedQuery.toLowerCase()
-        return people.filter(
-            (p) =>
-                p.name?.toLowerCase().includes(lower) ||
-                p.jobTitle?.toLowerCase().includes(lower) ||
-                p.location?.city?.toLowerCase().includes(lower) ||
-                p.location?.state?.toLowerCase().includes(lower) ||
-                p.location?.country?.toLowerCase().includes(lower)
-        )
+    const queryTokens = tokenize(trimmed)
+    if (queryTokens.length === 0) {
+        return people
     }
 
-    try {
-        // Sanitize input terms for Lunr
-        const terms = trimmedQuery
-            .replace(/[^a-zA-Z0-9\s]/g, ' ')
-            .trim()
-            .split(/\s+/)
-            .filter(Boolean)
+    const indexKeys = Object.keys(index)
 
-        if (terms.length === 0) {
-            return people
+    // For each query token, find all indexed tokens that start with or match the token (prefix search)
+    const tokenMatchingIdsSets: Set<string>[] = queryTokens.map((qToken) => {
+        const matchingIds = new Set<string>()
+        for (const key of indexKeys) {
+            if (key.startsWith(qToken) || key.includes(qToken)) {
+                const ids = index[key]
+                if (ids) {
+                    for (const id of ids) {
+                        matchingIds.add(id)
+                    }
+                }
+            }
         }
+        return matchingIds
+    })
 
-        // Search index requiring all terms with trailing wildcards
-        let results = searchIndex.query((q) => {
-            terms.forEach((term) => {
-                q.term(term, {
-                    presence: lunr.Query.presence.REQUIRED,
-                    wildcard: lunr.Query.wildcard.TRAILING,
-                })
-            })
-        })
-
-        // Fallback to optional presence if strict AND returns no results
-        if (results.length === 0) {
-            results = searchIndex.query((q) => {
-                terms.forEach((term) => {
-                    q.term(term, {
-                        wildcard: lunr.Query.wildcard.TRAILING,
-                    })
-                })
-            })
+    // Intersection: persons must match ALL query tokens (AND search)
+    let resultIds = tokenMatchingIdsSets[0] || new Set<string>()
+    for (let i = 1; i < tokenMatchingIdsSets.length; i++) {
+        const currentSet = tokenMatchingIdsSets[i]
+        const intersected = new Set<string>()
+        for (const id of resultIds) {
+            if (currentSet.has(id)) {
+                intersected.add(id)
+            }
         }
-
-        const matchedIds = new Set(results.map((r) => r.ref))
-        return people.filter((p) => matchedIds.has(p.id))
-    } catch (e) {
-        // Fallback search in case of any search query syntax errors
-        const lower = trimmedQuery.toLowerCase()
-        return people.filter(
-            (p) =>
-                p.name?.toLowerCase().includes(lower) ||
-                p.jobTitle?.toLowerCase().includes(lower) ||
-                p.location?.city?.toLowerCase().includes(lower) ||
-                p.location?.state?.toLowerCase().includes(lower) ||
-                p.location?.country?.toLowerCase().includes(lower)
-        )
+        resultIds = intersected
     }
+
+    // Fallback to Union (OR search) if AND search returned no results
+    if (resultIds.size === 0) {
+        const unionSet = new Set<string>()
+        for (const set of tokenMatchingIdsSets) {
+            for (const id of set) {
+                unionSet.add(id)
+            }
+        }
+        resultIds = unionSet
+    }
+
+    return people.filter((person) => resultIds.has(person.id))
 }
