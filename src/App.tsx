@@ -2,6 +2,7 @@ import React, { useState, lazy, Suspense } from 'react'
 import Search from './components/Search'
 import { createFilter } from 'react-search-input'
 import { shuffle } from './util/shuffle'
+import MapSkeleton from './components/MapSkeleton'
 import './styles/SearchBarMobileView.scss'
 import BatchCards from './components/BatchCards'
 import Navbar from './components/Navbar'
@@ -72,17 +73,7 @@ function App() {
             </header>
             <main className="flex-auto">
                 {map ? (
-                    <Suspense
-                        fallback={
-                            <div>
-                                <p>Loading Map...</p>
-                                <p>
-                                    Try refreshing if it doesn't load or check
-                                    internet connection and try again later.
-                                </p>
-                            </div>
-                        }
-                    >
+                    <Suspense fallback={<MapSkeleton />}>
                         <SimpleMap />
                     </Suspense>
                 ) : (
