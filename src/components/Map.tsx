@@ -94,27 +94,29 @@ function SimpleMap({ zoom = 3 }) {
             ? [centerLatLngArr[0].lat, centerLatLngArr[0].lng]
             : [55.378052, -3.435973]
 
-    return (
-        <div style={{ height: '90vh', width: '100%', margin: 0 }}>
-            <LeafletMap
-                center={center}
-                zoom={zoom}
-                minZoom={1}
-                maxZoom={10}
-                attributionControl={true}
-                zoomControl={true}
-                doubleClickZoom={true}
-                scrollWheelZoom={true}
-                dragging={true}
-                easeLinearity={0.35}
-            >
-                <TileLayer
-                    attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
-                {markersArray}
-            </LeafletMap>
-        </div>
+        return (
+             <section aria-label="Developer locations map">
+                <div style={{ height: '90vh', width: '100%', margin: 0 }}>
+                <LeafletMap
+                    center={center}
+                    zoom={zoom}
+                    minZoom={1}
+                    maxZoom={10}
+                    attributionControl={true}
+                    zoomControl={true}
+                    doubleClickZoom={true}
+                    scrollWheelZoom={true}
+                    dragging={true}
+                    easeLinearity={0.35}
+                >
+                    <TileLayer
+                        attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    />
+                    {markersArray}
+                </LeafletMap>
+            </div>
+        </section>
     )
 }
 
