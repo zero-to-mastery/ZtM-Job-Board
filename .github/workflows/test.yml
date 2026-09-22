@@ -13,20 +13,13 @@ jobs:
                 node-version: [22, 24]
         steps:
             - name: Check out source code
-              uses: actions/checkout@v2
+              uses: actions/checkout@v4
 
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v4
               with:
                   node-version: ${{ matrix.node-version }}
-
-            - name: Use cache
-              uses: actions/cache@v3
-              with:
-                  path: |
-                      node_modules
-                      */*/node_modules
-                  key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+                  cache: npm
 
             - name: Install dependencies
               run: npm ci
