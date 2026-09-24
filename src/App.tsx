@@ -5,6 +5,7 @@ import { shuffle } from './util/shuffle'
 import MapSkeleton from './components/MapSkeleton'
 import './styles/SearchBarMobileView.scss'
 import BatchCards from './components/BatchCards'
+import ProfileFilters from './components/ProfileFilters'
 import Navbar from './components/Navbar'
 import persons from './assets/persons.json'
 import { pageNames } from './util/pageNames'
@@ -12,6 +13,21 @@ import useForceUpdate from './util/useForceUpdate'
 const SimpleMap = lazy(() => import('./components/Map'))
 
 const people: any = persons
+const countries = Array.from(
+    new Set(
+        people
+            .map((person: any) => person.location?.country)
+            .filter(Boolean)
+    )
+).sort()
+
+const jobTitles = Array.from(
+    new Set(
+        people
+            .map((person: any) => person.jobTitle)
+            .filter(Boolean)
+    )
+).sort()
 
 const style: React.CSSProperties = {
     background: '#fff',
@@ -36,12 +52,42 @@ const KEYS_TO_FILTERS = [
 
 function App() {
     const [searchfield, setSearchfield] = useState('')
+    const [selectedCountries, setSelectedCountries] = useState<string[]>([])
+    const [selectedJobTitles, setSelectedJobTitles] = useState<string[]>([])
+    const [sortOption, setSortOption] = useState('default')
 
     const [map, setMap] = useState(false)
     const [mapOrHomeTitle, setMapOrHomeTitle] = useState(pageNames.map) // pageNames.map is default
 
-    const filteredPersons = (searchFilter: any) =>
-        people.filter(createFilter(searchFilter, KEYS_TO_FILTERS))
+    const filteredPersons = (searchFilter: any) => {
+    let filtered = people.filter(createFilter(searchFilter, KEYS_TO_FILTERS))
+
+    if (selectedCountries.length > 0) {
+        filtered = filtered.filter((person: any) =>
+            selectedCountries.includes(person.location?.country)
+        )
+    }
+
+    if (selectedJobTitles.length > 0) {
+        filtered = filtered.filter((person: any) =>
+            selectedJobTitles.includes(person.jobTitle)
+        )
+    }
+
+    if (sortOption === 'name-asc') {
+        filtered = [...filtered].sort((a: any, b: any) =>
+            a.name.localeCompare(b.name)
+        )
+    }
+
+    if (sortOption === 'name-desc') {
+        filtered = [...filtered].sort((a: any, b: any) =>
+            b.name.localeCompare(a.name)
+        )
+    }
+
+    return filtered
+}
 
     const forceUpdate = useForceUpdate()
 
@@ -78,23 +124,51 @@ function App() {
                     </Suspense>
                 ) : (
                     <div id="sketch-particles">
-                        <div
-                            className="visible-on-mobileview-only"
-                            style={style}
-                        >
-                            <Search
-                                onSearchChange={(e: any) =>
-                                    setSearchfield(e.target.value)
-                                }
-                                responsiveSearch={responsiveSearch}
-                            />
-                        </div>
+    <div
+        className="visible-on-mobileview-only"
+        style={style}
+    >
+        <Search
+            onSearchChange={(e: any) =>
+                setSearchfield(e.target.value)
+            }
+            responsiveSearch={responsiveSearch}
+        />
+    </div>
 
-                        <BatchCards
-                            persons={filteredPersons(searchfield)}
-                            numberPerBatch={16}
-                        />
-                    </div>
+    <ProfileFilters
+        countries={countries}
+        selectedCountries={selectedCountries}
+        onCountryChange={(country) => {
+            setSelectedCountries((current) =>
+                current.includes(country)
+                    ? current.filter((item) => item !== country)
+                    : [...current, country]
+            )
+        }}
+        jobTitles={jobTitles}
+        selectedJobTitles={selectedJobTitles}
+        onJobTitleChange={(jobTitle) => {
+            setSelectedJobTitles((current) =>
+                current.includes(jobTitle)
+                    ? current.filter((item) => item !== jobTitle)
+                    : [...current, jobTitle]
+            )
+        }}
+        sortOption={sortOption}
+        onSortChange={setSortOption}
+        onClear={() => {
+            setSelectedCountries([])
+            setSelectedJobTitles([])
+            setSortOption('default')
+        }}
+    />
+
+    <BatchCards
+        persons={filteredPersons(searchfield)}
+        numberPerBatch={16}
+    />
+</div>
                 )}
             </main>
             <footer className="custom--unselectable w-100 h3 flex items-center justify-center white custom--bg-additional3 z-2">
