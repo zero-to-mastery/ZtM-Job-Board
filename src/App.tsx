@@ -1,6 +1,5 @@
 import React, { useState, lazy, Suspense } from 'react'
 import Search from './components/Search'
-import { createFilter } from 'react-search-input'
 import { shuffle } from './util/shuffle'
 import MapSkeleton from './components/MapSkeleton'
 import './styles/SearchBarMobileView.scss'
@@ -10,20 +9,17 @@ import Navbar from './components/Navbar'
 import persons from './assets/persons.json'
 import { pageNames } from './util/pageNames'
 import useForceUpdate from './util/useForceUpdate'
-import { getCountryOptions, filterByCountries } from './util/countryFilters'
+import { getCountryOptions } from './util/countryFilters'
+import { getRoleOptions } from './util/roleFilters'
+import { filterProfiles } from './util/profileFilters'
 const SimpleMap = lazy(() => import('./components/Map'))
 
 const people: any = persons
 // Countries are normalized to ISO codes during JSON aggregation
 const countries = getCountryOptions(people)
 
-const jobTitles = Array.from(
-    new Set(
-        people
-            .map((person: any) => person.jobTitle)
-            .filter(Boolean)
-    )
-).sort()
+// Job titles are normalized to canonical role ids during JSON aggregation
+const roles = getRoleOptions(people)
 
 const style: React.CSSProperties = {
     background: '#fff',
@@ -38,48 +34,23 @@ const responsiveSearch = {
     marginBottom: '0.5rem',
     padding: '0.5rem',
 }
-const KEYS_TO_FILTERS = [
-    'name',
-    'jobTitle',
-    'location.city',
-    'location.state',
-    'location.country',
-]
 
 function App() {
     const [searchfield, setSearchfield] = useState('')
     const [selectedCountries, setSelectedCountries] = useState<string[]>([])
-    const [selectedJobTitles, setSelectedJobTitles] = useState<string[]>([])
+    const [selectedRoles, setSelectedRoles] = useState<string[]>([])
     const [sortOption, setSortOption] = useState('default')
 
     const [map, setMap] = useState(false)
     const [mapOrHomeTitle, setMapOrHomeTitle] = useState(pageNames.map) // pageNames.map is default
 
-    const filteredPersons = (searchFilter: any) => {
-    let filtered = people.filter(createFilter(searchFilter, KEYS_TO_FILTERS))
-
-    filtered = filterByCountries(filtered, selectedCountries)
-
-    if (selectedJobTitles.length > 0) {
-        filtered = filtered.filter((person: any) =>
-            selectedJobTitles.includes(person.jobTitle)
-        )
-    }
-
-    if (sortOption === 'name-asc') {
-        filtered = [...filtered].sort((a: any, b: any) =>
-            a.name.localeCompare(b.name)
-        )
-    }
-
-    if (sortOption === 'name-desc') {
-        filtered = [...filtered].sort((a: any, b: any) =>
-            b.name.localeCompare(a.name)
-        )
-    }
-
-    return filtered
-}
+    const filteredPersons = (searchFilter: any) =>
+        filterProfiles(people, {
+            search: searchFilter,
+            countries: selectedCountries,
+            roles: selectedRoles,
+            sort: sortOption,
+        })
 
     const forceUpdate = useForceUpdate()
 
@@ -138,20 +109,20 @@ function App() {
                     : [...current, country]
             )
         }}
-        jobTitles={jobTitles}
-        selectedJobTitles={selectedJobTitles}
-        onJobTitleChange={(jobTitle) => {
-            setSelectedJobTitles((current) =>
-                current.includes(jobTitle)
-                    ? current.filter((item) => item !== jobTitle)
-                    : [...current, jobTitle]
+        roles={roles}
+        selectedRoles={selectedRoles}
+        onRoleChange={(role) => {
+            setSelectedRoles((current) =>
+                current.includes(role)
+                    ? current.filter((item) => item !== role)
+                    : [...current, role]
             )
         }}
         sortOption={sortOption}
         onSortChange={setSortOption}
         onClear={() => {
             setSelectedCountries([])
-            setSelectedJobTitles([])
+            setSelectedRoles([])
             setSortOption('default')
         }}
     />

@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
 import { CountryOption } from '../util/countryFilters'
+import { RoleOption } from '../util/roleFilters'
 
 interface ProfileFiltersProps {
     countries: CountryOption[]
     selectedCountries: string[]
     onCountryChange: (countryCode: string) => void
-    jobTitles: string[]
-    selectedJobTitles: string[]
-    onJobTitleChange: (jobTitle: string) => void
+    roles: RoleOption[]
+    selectedRoles: string[]
+    onRoleChange: (roleId: string) => void
     sortOption: string
     onSortChange: (sortOption: string) => void
     onClear: () => void
@@ -17,9 +18,9 @@ const ProfileFilters = ({
     countries,
     selectedCountries,
     onCountryChange,
-    jobTitles,
-    selectedJobTitles,
-    onJobTitleChange,
+    roles,
+    selectedRoles,
+    onRoleChange,
     sortOption,
     onSortChange,
     onClear,
@@ -32,8 +33,8 @@ const ProfileFilters = ({
         country.label.toLowerCase().includes(countrySearch.toLowerCase())
     )
 
-    const filteredJobTitles = jobTitles.filter((jobTitle) =>
-        jobTitle.toLowerCase().includes(roleSearch.toLowerCase())
+    const filteredRoles = roles.filter((role) =>
+        role.label.toLowerCase().includes(roleSearch.toLowerCase())
     )
 
     const dropdownStyle: React.CSSProperties = {
@@ -143,8 +144,8 @@ const ProfileFilters = ({
                         }
                     >
                         Role
-                        {selectedJobTitles.length > 0 &&
-                            ` (${selectedJobTitles.length})`}
+                        {selectedRoles.length > 0 &&
+                            ` (${selectedRoles.length})`}
                     </button>
 
                     {openFilter === 'role' && (
@@ -160,21 +161,21 @@ const ProfileFilters = ({
                             />
 
                             <div style={optionContainerStyle}>
-                                {filteredJobTitles.map((jobTitle) => (
+                                {filteredRoles.map((role) => (
                                     <label
-                                        key={jobTitle}
+                                        key={role.id}
                                         className="db pv2 pointer"
                                     >
                                         <input
                                             type="checkbox"
-                                            checked={selectedJobTitles.includes(
-                                                jobTitle
+                                            checked={selectedRoles.includes(
+                                                role.id
                                             )}
                                             onChange={() =>
-                                                onJobTitleChange(jobTitle)
+                                                onRoleChange(role.id)
                                             }
                                         />{' '}
-                                        {jobTitle}
+                                        {role.label}
                                     </label>
                                 ))}
                             </div>
