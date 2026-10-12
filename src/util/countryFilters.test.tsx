@@ -108,9 +108,9 @@ describe('ProfileFilters country dropdown', () => {
                     countries={getCountryOptions(PEOPLE)}
                     selectedCountries={[]}
                     onCountryChange={() => {}}
-                    jobTitles={[]}
-                    selectedJobTitles={[]}
-                    onJobTitleChange={() => {}}
+                    roles={[]}
+                    selectedRoles={[]}
+                    onRoleChange={() => {}}
                     sortOption="default"
                     onSortChange={() => {}}
                     onClear={() => {}}
