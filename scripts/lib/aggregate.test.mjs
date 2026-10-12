@@ -9,6 +9,7 @@ import {
     aggregate,
     buildCountryDiagnostics,
     buildPersons,
+    buildRoleDiagnostics,
     loadSubmissions,
     profileId,
     SubmissionLoadError,
@@ -44,6 +45,28 @@ const FIXTURES = {
         'India',
         'Spain | Looking forward to move to New Zealand'
     ),
+}
+
+// Job titles taken from real submissions
+const ROLE_FIXTURES = {
+    'romeo.json': {
+        ...submission('Romeo', 'USA'),
+        jobTitle: 'Senior Front-End React Developer',
+    },
+    'sierra.json': {
+        ...submission('Sierra', 'Canada'),
+        jobTitle: 'Frontend Developer | Full Stack Developer',
+    },
+    'tango.json': { ...submission('Tango', 'India'), jobTitle: 'Student' },
+    'uniform.json': {
+        ...submission('Uniform', 'India'),
+        jobTitle: 'Frontend Developer/Project Manager',
+    },
+    'victor.json': {
+        ...submission('Victor', 'India'),
+        jobTitle: 'Tech Lead and Senior Software Engineer',
+    },
+    'whiskey.json': { ...submission('Whiskey', 'India'), jobTitle: 'Student' },
 }
 
 let tmp
@@ -120,6 +143,49 @@ describe('aggregate', () => {
         expect(persons[0].location.country).toBe('USA (Willing to relocate!)')
     })
 
+    test('adds normalized roles, seniority and technologies', () => {
+        writeFixtures({ ...FIXTURES, ...ROLE_FIXTURES })
+        aggregate({ sourceDir, outputFile })
+        const persons = JSON.parse(fs.readFileSync(outputFile, 'utf-8'))
+        const byName = Object.fromEntries(
+            persons.map((p) => [p.name, p.normalized])
+        )
+
+        expect(byName.Romeo).toEqual({
+            countries: ['US'],
+            roles: ['frontend-developer'],
+            seniority: 'senior',
+            technologies: ['react'],
+        })
+        expect(byName.Sierra).toEqual({
+            countries: ['CA'],
+            roles: ['frontend-developer', 'full-stack-developer'],
+            seniority: null,
+            technologies: [],
+        })
+        expect(byName.Tango).toEqual({
+            countries: ['IN'],
+            roles: [],
+            seniority: null,
+            technologies: [],
+        })
+        expect(byName.Golf.roles).toEqual([])
+        expect(byName.Alpha.roles).toEqual(['web-developer'])
+        // Country normalization is unchanged by role normalization
+        expect(byName.Charlie.countries).toEqual(['US', 'BE'])
+        // Original titles are kept for display
+        expect(persons.find((p) => p.name === 'Romeo').jobTitle).toBe(
+            'Senior Front-End React Developer'
+        )
+        // Key order of the generated metadata is fixed
+        expect(Object.keys(byName.Romeo)).toEqual([
+            'countries',
+            'roles',
+            'seniority',
+            'technologies',
+        ])
+    })
+
     test('does not modify source submissions', () => {
         writeFixtures(FIXTURES)
         const before = hashDir(sourceDir)
@@ -150,6 +216,18 @@ describe('aggregate', () => {
     test('unknown countries do not fail aggregation', () => {
         writeFixtures({ 'x.json': submission('X', 'Atlantis') })
         expect(() => aggregate({ sourceDir, outputFile })).not.toThrow()
+    })
+
+    test('unknown or invalid job titles do not fail aggregation', () => {
+        writeFixtures({
+            'x.json': { ...submission('X', 'Canada'), jobTitle: 'Wizard' },
+            'y.json': { ...submission('Y', 'Canada'), jobTitle: 42 },
+            'z.json': { ...submission('Z', 'Canada'), jobTitle: null },
+        })
+        expect(aggregate({ sourceDir, outputFile }).count).toBe(3)
+        const persons = JSON.parse(fs.readFileSync(outputFile, 'utf-8'))
+        expect(persons.map((p) => p.jobTitle)).toEqual(['Wizard', 42, null])
+        persons.forEach((p) => expect(p.normalized.roles).toEqual([]))
     })
 
     test('invalid JSON fails with the filename and leaves existing output intact', () => {
@@ -268,6 +346,95 @@ describe('buildCountryDiagnostics', () => {
     })
 })
 
+describe('buildRoleDiagnostics', () => {
+    test('summarises roles and reports unresolved titles with their submissions', () => {
+        writeFixtures({ ...FIXTURES, ...ROLE_FIXTURES })
+        const report = buildRoleDiagnostics(loadSubmissions(sourceDir))
+
+        expect(report.summary).toMatchObject({
+            submissions: 15,
+            distinctRawTitles: 7,
+            distinctCanonicalRoles: 4,
+            classifiedProfiles: 12,
+            unclassifiedProfiles: 3,
+            multiRoleProfiles: 1,
+            byStatus: { classified: 10, partial: 2, unclassified: 3, empty: 0 },
+        })
+        expect(report.summary.roles).toMatchObject({
+            'frontend-developer': 3,
+            'full-stack-developer': 1,
+            'web-developer': 8,
+            'software-engineer': 1,
+            'data-scientist': 0,
+        })
+        expect(report.summary.seniority).toMatchObject({
+            senior: 1,
+            conflicting: 1,
+            unspecified: 13,
+        })
+        expect(
+            report.entries.map(({ original, status, reason, submissions }) => ({
+                original,
+                status,
+                reason,
+                submissions,
+            }))
+        ).toEqual([
+            {
+                original: 'Developer',
+                status: 'unclassified',
+                reason: 'Generic title without a specialization',
+                submissions: ['golf.json'],
+            },
+            {
+                original: 'Student',
+                status: 'unclassified',
+                reason: 'Student or academic status, not a professional role',
+                submissions: ['tango.json', 'whiskey.json'],
+            },
+            {
+                original: 'Frontend Developer/Project Manager',
+                status: 'partial',
+                reason: null,
+                submissions: ['uniform.json'],
+            },
+            {
+                original: 'Tech Lead and Senior Software Engineer',
+                status: 'partial',
+                reason: null,
+                submissions: ['victor.json'],
+            },
+        ])
+        expect(report.entries[2].unmatched).toEqual(['Project Manager'])
+        expect(report.entries[3].seniorityStatus).toBe('conflicting')
+        // No personal data beyond filenames
+        expect(JSON.stringify(report)).not.toContain('Whiskey')
+    })
+
+    test('missing titles are listed as empty', () => {
+        writeFixtures({
+            'a.json': { name: 'A' },
+            'b.json': { name: 'B', jobTitle: '  ' },
+        })
+        const report = buildRoleDiagnostics(loadSubmissions(sourceDir))
+        expect(report.summary.byStatus.empty).toBe(2)
+        expect(report.entries.map((e) => [e.original, e.submissions])).toEqual([
+            ['  ', ['b.json']],
+            [null, ['a.json']],
+        ])
+    })
+
+    test('is deterministic', () => {
+        writeFixtures({ ...FIXTURES, ...ROLE_FIXTURES })
+        const first = JSON.stringify(
+            buildRoleDiagnostics(loadSubmissions(sourceDir))
+        )
+        expect(
+            JSON.stringify(buildRoleDiagnostics(loadSubmissions(sourceDir)))
+        ).toBe(first)
+    })
+})
+
 describe('real submissions', () => {
     test('every submission is aggregated and the source is unchanged', () => {
         const realDir = path.join(REPO_ROOT, 'Submissions')
@@ -280,7 +447,13 @@ describe('real submissions', () => {
         const first = fs.readFileSync(outputFile)
         aggregate({ sourceDir: realDir, outputFile })
 
-        expect(JSON.parse(first.toString())).toHaveLength(fileCount)
+        const persons = JSON.parse(first.toString())
+        expect(persons).toHaveLength(fileCount)
+        persons.forEach((p) => {
+            expect(Array.isArray(p.normalized.countries)).toBe(true)
+            expect(Array.isArray(p.normalized.roles)).toBe(true)
+            expect(Array.isArray(p.normalized.technologies)).toBe(true)
+        })
         expect(fs.readFileSync(outputFile).equals(first)).toBe(true)
         expect(hashDir(realDir)).toBe(before)
     })

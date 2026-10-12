@@ -2,6 +2,11 @@ import fs from 'fs'
 import path from 'path'
 import crypto from 'crypto'
 import { resolveCountry } from '../../src/util/countries/resolveCountry.js'
+import { resolveRole } from '../../src/util/roles/resolveRole.js'
+import {
+    ROLE_IDS,
+    SENIORITY_LEVELS,
+} from '../../src/util/roles/roleTaxonomy.js'
 
 export class SubmissionLoadError extends Error {
     /** @param {{ file: string, message: string }[]} failures */
@@ -67,7 +72,7 @@ export function profileId(file) {
 
 /**
  * Builds the persons.json array. Original fields are kept as submitted; `id`
- * and `normalized` are added.
+ * and `normalized` (countries, roles, seniority, technologies) are added.
  *
  * @param {{ file: string, data: Record<string, any> }[]} submissions
  */
@@ -83,11 +88,15 @@ export function buildPersons(submissions) {
         }
         ids.set(id, file)
 
+        const role = resolveRole(data.jobTitle)
         return {
             ...data,
             id,
             normalized: {
                 countries: resolveCountry(data.location?.country).countries,
+                roles: role.roles,
+                seniority: role.seniority,
+                technologies: role.technologies,
             },
         }
     })
@@ -177,6 +186,80 @@ export function buildCountryDiagnostics(submissions) {
             distinctRawCountryValues: rawValues.size,
             distinctCanonicalCountries: canonical.size,
             byStatus,
+        },
+        entries,
+    }
+}
+
+/**
+ * Summarises role classification and lists every job title that is
+ * unclassified, partially classified, empty or has conflicting seniority,
+ * grouped by the original text, with the submissions that use it. Contains no
+ * personal data beyond submission filenames.
+ *
+ * @param {{ file: string, data: Record<string, any> }[]} submissions
+ */
+export function buildRoleDiagnostics(submissions) {
+    const statusOrder = ['unclassified', 'partial', 'empty', 'classified']
+    const byStatus = { classified: 0, partial: 0, unclassified: 0, empty: 0 }
+    const roleCounts = Object.fromEntries(ROLE_IDS.map((id) => [id, 0]))
+    const seniority = Object.fromEntries(
+        [...SENIORITY_LEVELS, 'unspecified', 'conflicting'].map((k) => [k, 0])
+    )
+    const rawTitles = new Set()
+    let multiRole = 0
+    const grouped = new Map()
+
+    for (const { file, data } of submissions) {
+        const title = data.jobTitle
+        const resolution = resolveRole(title)
+        byStatus[resolution.status] += 1
+        if (resolution.status !== 'empty') rawTitles.add(title)
+        resolution.roles.forEach((id) => (roleCounts[id] += 1))
+        if (resolution.roles.length > 1) multiRole += 1
+        seniority[resolution.seniority ?? resolution.seniorityStatus] += 1
+
+        if (
+            resolution.status === 'classified' &&
+            resolution.seniorityStatus !== 'conflicting'
+        ) {
+            continue
+        }
+        const key = JSON.stringify(title ?? null)
+        if (!grouped.has(key)) {
+            grouped.set(key, {
+                original: title ?? null,
+                status: resolution.status,
+                roles: resolution.roles,
+                seniority: resolution.seniority,
+                seniorityStatus: resolution.seniorityStatus,
+                reason: resolution.reason,
+                unmatched: resolution.unmatched,
+                submissions: [],
+            })
+        }
+        grouped.get(key).submissions.push(file)
+    }
+
+    const entries = [...grouped.values()].sort(
+        (a, b) =>
+            statusOrder.indexOf(a.status) - statusOrder.indexOf(b.status) ||
+            (String(a.original) < String(b.original) ? -1 : 1)
+    )
+
+    return {
+        summary: {
+            submissions: submissions.length,
+            distinctRawTitles: rawTitles.size,
+            distinctCanonicalRoles: Object.values(roleCounts).filter(
+                (n) => n > 0
+            ).length,
+            classifiedProfiles: byStatus.classified + byStatus.partial,
+            unclassifiedProfiles: byStatus.unclassified,
+            multiRoleProfiles: multiRole,
+            byStatus,
+            roles: roleCounts,
+            seniority,
         },
         entries,
     }
