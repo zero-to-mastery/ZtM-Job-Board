@@ -15,45 +15,19 @@ const BatchCards = ({ persons, numberPerBatch = 16 }: any) => {
         }
     }
 
-    const infoCardContainer: object = {
-        padding: 20,
-        backgroundColor: '#42a5f5',
-        borderRadius: 10,
-        flexDirection: 'row',
-        display: 'flex',
-        justifyContent: 'space-between',
-    }
-    const infoView: object = {
-        background: '#212121',
-        padding: 10,
-        borderRadius: 10,
-    }
-    const infoLabel: object = {
-        fontSize: 20,
-        margin: 0,
-        padding: 0,
-        color: 'white',
-    }
-    const infoValue: object = {
-        fontSize: 25,
-        margin: 0,
-        padding: 0,
-        color: 'white',
-    }
-
     return (
         <div>
             <div style={{ flex: 1 }}>
-                <div style={infoCardContainer}>
-                    <div style={infoView}>
-                        <p style={infoLabel}>Total Profiles</p>
-                        <p style={infoValue}>
+                <div className="profile-stats">
+                    <div className="profile-stats__tile">
+                        <p className="profile-stats__label">Total Profiles</p>
+                        <p className="profile-stats__value">
                             <CountUp end={persons.length} delay={1} />
                         </p>
                     </div>
-                    <div style={infoView}>
-                        <p style={infoLabel}>Total Countries</p>
-                        <p style={infoValue}>
+                    <div className="profile-stats__tile">
+                        <p className="profile-stats__label">Total Countries</p>
+                        <p className="profile-stats__value">
                             <CountUp
                                 end={countryNamesAndNumOfDevsArr.length}
                                 delay={1}
@@ -63,21 +37,18 @@ const BatchCards = ({ persons, numberPerBatch = 16 }: any) => {
                 </div>
             </div>
 
-            <div className="flex flex-wrap justify-center">
-                <CardList
-                    persons={persons.slice(0, batch * numberPerBatch)}
-                    card
-                    ma4
-                    w5
-                    tc
-                    bg-white
-                    br2
-                    custom--shadow-2
-                    custom--shadow-hover-8
-                    custom--o-95
-                    z-1
-                />
-            </div>
+            {persons.length === 0 ? (
+                <div className="empty-state" role="status">
+                    <p className="empty-state__title">No profiles found</p>
+                    <p>Try a different search or clear your filters.</p>
+                </div>
+            ) : (
+                <div className="flex flex-wrap justify-center">
+                    <CardList
+                        persons={persons.slice(0, batch * numberPerBatch)}
+                    />
+                </div>
+            )}
             {persons.length >= batch * numberPerBatch && (
                 <BasicButton action={addToBatch}>Show More</BasicButton>
             )}
