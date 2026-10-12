@@ -1,31 +1,26 @@
 import fs from 'fs'
 import path from 'path'
 import crypto from 'crypto'
+import { validateSkills } from '../src/util/skills.js'
 
 const JSON_SOURCE_DIR = 'Submissions'
 const FINAL_JSON_FILE = 'src/assets/persons.json'
-let dirContent = null
+const dirContent = fs.readdirSync(path.resolve(JSON_SOURCE_DIR))
 const finalJSON = []
 
-try {
-    dirContent = fs.readdirSync(path.resolve(JSON_SOURCE_DIR))
-} catch (e) {
-    console.log(`error while reading "${JSON_SOURCE_DIR}": ` + e.message)
-}
-
-try {
-    for (let i = 0; i < dirContent.length; i++) {
-        const jsonContent__raw = fs.readFileSync(
-            path.resolve(JSON_SOURCE_DIR, dirContent[i]),
-            { encoding: 'utf-8' }
-        )
-
-        const jsonContent__parsed = JSON.parse(jsonContent__raw)
-        jsonContent__parsed.id = crypto.randomUUID()
-        finalJSON.push(jsonContent__parsed)
+for (const file of dirContent) {
+    const raw = fs.readFileSync(path.resolve(JSON_SOURCE_DIR, file), 'utf-8')
+    let profile
+    try {
+        profile = JSON.parse(raw)
+    } catch (error) {
+        throw new Error(`${file}: Invalid JSON: ${error.message}`, {
+            cause: error,
+        })
     }
-} catch (e) {
-    console.log(`error: ` + e.message)
+    validateSkills(profile.skills, file)
+    profile.id = crypto.randomUUID()
+    finalJSON.push(profile)
 }
 
 fs.writeFileSync(
