@@ -186,6 +186,41 @@ describe('aggregate', () => {
         ])
     })
 
+    test('preserves scoped country notes and excludes relocation destination lists', () => {
+        const fixtures = {
+            'alpha.json': submission('Alpha', 'USA (remote), Belgium'),
+            'bravo.json': submission(
+                'Bravo',
+                'USA (Willing to relocate), Canada'
+            ),
+            'charlie.json': submission(
+                'Charlie',
+                'Canada, USA, willing to relocate to Germany, France'
+            ),
+            'delta.json': submission(
+                'Delta',
+                'USA/Belgium willing to relocate to Canada, China'
+            ),
+        }
+        writeFixtures(fixtures)
+        aggregate({ sourceDir, outputFile })
+        const first = fs.readFileSync(outputFile, 'utf-8')
+        const persons = JSON.parse(first)
+
+        expect(persons.map((person) => person.normalized.countries)).toEqual([
+            ['US', 'BE'],
+            ['US', 'CA'],
+            ['CA', 'US'],
+            ['US', 'BE'],
+        ])
+        persons.forEach((person, i) => {
+            const { id, normalized, ...original } = person
+            expect(original).toEqual(fixtures[Object.keys(fixtures).sort()[i]])
+        })
+        aggregate({ sourceDir, outputFile })
+        expect(fs.readFileSync(outputFile, 'utf-8')).toBe(first)
+    })
+
     test('does not modify source submissions', () => {
         writeFixtures(FIXTURES)
         const before = hashDir(sourceDir)

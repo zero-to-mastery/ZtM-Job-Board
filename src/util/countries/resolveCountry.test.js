@@ -233,6 +233,79 @@ describe('resolveCountry', () => {
             expect(codesOf('Relocating to Canada')).toEqual([])
         })
 
+        test.each([
+            ['USA (remote), Belgium', ['US', 'BE']],
+            ['USA (Willing to relocate), Canada', ['US', 'CA']],
+            ['USA (Willing to relocate to Canada) / Belgium', ['US', 'BE']],
+            ['USA [remote]; Belgium', ['US', 'BE']],
+            ['USA (remote), Belgium (remote), Canada', ['US', 'BE', 'CA']],
+            [
+                'USA (Willing to relocate to Canada, China), Belgium',
+                ['US', 'BE'],
+            ],
+        ])('keeps countries outside a scoped note: %j', (input, countries) => {
+            expect(resolveCountry(input)).toEqual({
+                original: input,
+                countries,
+                status: 'resolved',
+                issues: [],
+            })
+        })
+
+        test.each([
+            [
+                'Canada, USA, willing to relocate to Germany, France',
+                ['CA', 'US'],
+            ],
+            ['USA/Belgium willing to relocate to Canada, China', ['US', 'BE']],
+            ['USA; open to remote work in Belgium / Germany', ['US']],
+            ['USA & willing to relocate to Canada & China', ['US']],
+            [
+                'USA (remote), Belgium willing to relocate to Canada, China',
+                ['US', 'BE'],
+            ],
+            ['USA willing to relocate to Canada (China)', ['US']],
+            ['USA, willing to relocate to Germany (France), China', ['US']],
+        ])(
+            'excludes the entire preference destination list: %j',
+            (input, countries) => {
+                expect(resolveCountry(input)).toEqual({
+                    original: input,
+                    countries,
+                    status: 'resolved',
+                    issues: [],
+                })
+            }
+        )
+
+        test.each([
+            'Relocating to Canada, China',
+            'Remote (USA), Belgium',
+            'Willing to relocate to Canada (China) / Belgium',
+        ])(
+            'does not extract countries from a statement-only list: %j',
+            (input) => {
+                expect(resolveCountry(input)).toMatchObject({
+                    countries: [],
+                    status: 'unresolved',
+                    issues: [{ type: 'statement-only' }],
+                })
+            }
+        )
+
+        test.each([
+            ['Bosnia & Herzegovina Remote', ['BA']],
+            ['Bosnia & Herzegovina & willing to relocate to Canada, China', ['BA']],
+            ['Korea, Republic of willing to relocate to Canada, China', ['KR']],
+        ])('keeps a punctuated country name before a preference: %j', (input, countries) => {
+            expect(resolveCountry(input)).toEqual({
+                original: input,
+                countries,
+                status: 'resolved',
+                issues: [],
+            })
+        })
+
         test('unresolved fragments are reported alongside resolved ones', () => {
             expect(resolveCountry('Nigeria/Istanbul/North-Macedonia')).toEqual({
                 original: 'Nigeria/Istanbul/North-Macedonia',

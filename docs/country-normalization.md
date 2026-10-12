@@ -8,14 +8,14 @@ changing what contributors wrote.
 
 ## Where it happens
 
-| Step                                   | File                                                                           |
-| -------------------------------------- | ------------------------------------------------------------------------------ |
+| Step                                   | File                                                                              |
+| -------------------------------------- | --------------------------------------------------------------------------------- |
 | Resolve text → ISO codes               | [`src/util/countries/resolveCountry.js`](../src/util/countries/resolveCountry.js) |
 | Aliases, ambiguous and non-place terms | [`src/util/countries/countryAliases.js`](../src/util/countries/countryAliases.js) |
 | ISO code → display name                | [`src/util/countries/countryNames.js`](../src/util/countries/countryNames.js)     |
-| Aggregation (adds the metadata)        | [`scripts/lib/aggregate.mjs`](../scripts/lib/aggregate.mjs)                     |
-| Recruiter country filter               | [`src/util/countryFilters.ts`](../src/util/countryFilters.ts)                   |
-| Map marker counts                      | [`src/util/countryMarkers.ts`](../src/util/countryMarkers.ts)                   |
+| Aggregation (adds the metadata)        | [`scripts/lib/aggregate.mjs`](../scripts/lib/aggregate.mjs)                       |
+| Recruiter country filter               | [`src/util/countryFilters.ts`](../src/util/countryFilters.ts)                     |
+| Map marker counts                      | [`src/util/countryMarkers.ts`](../src/util/countryMarkers.ts)                     |
 
 `npm run aggregate-json` reads `Submissions/*.json` and writes
 `src/assets/persons.json`. Submissions are never modified. Each profile keeps its
@@ -23,7 +23,11 @@ original fields and gets two generated fields:
 
 ```json
 {
-    "location": { "city": "Austin", "state": "Texas", "country": "USA (Willing to relocate)" },
+    "location": {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "USA (Willing to relocate)"
+    },
     "id": "3f1c…",
     "normalized": { "countries": ["US"] }
 }
@@ -79,7 +83,10 @@ it as an alias.
 If the whole value does not match, it is split, and each piece goes through the
 same rules:
 
-1. Parenthesised text is handled separately: `Bolivia (Willing to Relocate or Work Remotely)` → `BO`.
+1. Parenthesised or bracketed text is handled separately, in order of appearance:
+   `Bolivia (Willing to Relocate or Work Remotely)` → `BO`. A preference note
+   ends at its closing bracket, so `USA (remote), Belgium` → `US, BE` and
+   `USA (Willing to relocate), Canada` → `US, CA`.
 2. Then the value is split on `,` `/` `|` `;` `<->` `->`:
    `USA/Belgium` → `US, BE` and `Poland <-> USA` → `PL, US`.
 3. Then it is split on `&`, but only if the whole value did not already
@@ -87,14 +94,18 @@ same rules:
 
 All listed countries count as current locations. A relocation destination is
 not included: `Spain | Looking forward to move to New Zealand` → `ES`.
+Outside brackets, a preference statement applies to the remainder of the
+list, including subsequent separators and bracketed destinations:
+`Canada, USA, willing to relocate to Germany, France` → `CA, US` and
+`USA/Belgium willing to relocate to Canada, China` → `US, BE`.
 Duplicate aliases are collapsed, so `United Kingdom, UK` → `GB`.
 
 ### Result status
 
 `resolveCountry()` returns `{ original, countries, status, issues }`.
 
-| Status       | Meaning                                                                   |
-| ------------ | ------------------------------------------------------------------------- |
+| Status       | Meaning                                                                    |
+| ------------ | -------------------------------------------------------------------------- |
 | `resolved`   | At least one country and nothing left over                                 |
 | `partial`    | At least one country, plus unresolved fragments (`Nigeria/Istanbul/…`)     |
 | `ambiguous`  | No country; at least one fragment is ambiguous (`Georgia`)                 |
