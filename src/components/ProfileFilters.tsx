@@ -35,39 +35,14 @@ const ProfileFilters = ({
         jobTitle.toLowerCase().includes(roleSearch.toLowerCase())
     )
 
-    const dropdownStyle: React.CSSProperties = {
-        position: 'absolute',
-        top: 'calc(100% + 0.5rem)',
-        left: 0,
-        width: '100%',
-        minWidth: '260px',
-        background: '#fff',
-        border: '1px solid #ddd',
-        borderRadius: '6px',
-        padding: '0.75rem',
-        boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)',
-        zIndex: 10,
-    }
-
-    const optionContainerStyle: React.CSSProperties = {
-        maxHeight: '220px',
-        overflowY: 'auto',
-        marginTop: '0.5rem',
-    }
-
     return (
-        <div
-            className="br2 pa3 mb3"
-            style={{
-                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.12)',
-            }}
-        >
+        <div className="profile-filters br2 pa3 mb3">
             <div className="flex justify-between items-center mb3">
                 <h2 className="f4 ma0">Filters & Sort</h2>
 
                 <button
                     type="button"
-                    className="bg-transparent bn blue pointer"
+                    className="profile-filters__clear"
                     onClick={onClear}
                 >
                     Clear
@@ -81,7 +56,8 @@ const ProfileFilters = ({
                 >
                     <button
                         type="button"
-                        className="w-100 pa2 ba b--black-20 br2 tl pointer dark-gray"
+                        className="profile-filters__control w-100 pa2 br2 tl"
+                        aria-expanded={openFilter === 'country'}
                         onClick={() =>
                             setOpenFilter(
                                 openFilter === 'country' ? '' : 'country'
@@ -94,7 +70,7 @@ const ProfileFilters = ({
                     </button>
 
                     {openFilter === 'country' && (
-                        <div style={dropdownStyle}>
+                        <div className="profile-filters__dropdown">
                             <input
                                 type="text"
                                 value={countrySearch}
@@ -102,14 +78,14 @@ const ProfileFilters = ({
                                     setCountrySearch(event.target.value)
                                 }
                                 placeholder="Search country..."
-                                className="w-100 pa2 ba b--black-20 br2"
+                                className="profile-filters__control w-100 pa2 br2"
                             />
 
-                            <div style={optionContainerStyle}>
+                            <div className="profile-filters__options">
                                 {filteredCountries.map((country) => (
                                     <label
                                         key={country}
-                                        className="db pv2 pointer"
+                                        className="profile-filters__option db pv2 ph1 pointer"
                                     >
                                         <input
                                             type="checkbox"
@@ -134,7 +110,8 @@ const ProfileFilters = ({
                 >
                     <button
                         type="button"
-                        className="w-100 pa2 ba b--black-20 br2 tl pointer dark-gray"
+                        className="profile-filters__control w-100 pa2 br2 tl"
+                        aria-expanded={openFilter === 'role'}
                         onClick={() =>
                             setOpenFilter(
                                 openFilter === 'role' ? '' : 'role'
@@ -147,7 +124,7 @@ const ProfileFilters = ({
                     </button>
 
                     {openFilter === 'role' && (
-                        <div style={dropdownStyle}>
+                        <div className="profile-filters__dropdown">
                             <input
                                 type="text"
                                 value={roleSearch}
@@ -155,14 +132,14 @@ const ProfileFilters = ({
                                     setRoleSearch(event.target.value)
                                 }
                                 placeholder="Search role..."
-                                className="w-100 pa2 ba b--black-20 br2"
+                                className="profile-filters__control w-100 pa2 br2"
                             />
 
-                            <div style={optionContainerStyle}>
+                            <div className="profile-filters__options">
                                 {filteredJobTitles.map((jobTitle) => (
                                     <label
                                         key={jobTitle}
-                                        className="db pv2 pointer"
+                                        className="profile-filters__option db pv2 ph1 pointer"
                                     >
                                         <input
                                             type="checkbox"
@@ -187,7 +164,8 @@ const ProfileFilters = ({
                         onChange={(event) =>
                             onSortChange(event.target.value)
                         }
-                        className="w-100 pa2 ba b--black-20 br2 bg-near-white dark-gray"
+                        className="profile-filters__control w-100 pa2 br2"
+                        aria-label="Sort profiles"
                     >
                         <option value="default">Sort by: Default</option>
                         <option value="name-asc">Name A–Z</option>
