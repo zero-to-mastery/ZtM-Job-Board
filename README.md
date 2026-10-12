@@ -78,6 +78,7 @@ Example with dummy values:
 - If you do not want to fill some of the fields, leave them blank (e.g. `state: "",`).
 - `skills` is optional. Omit it or use `[]` if you do not want to declare skills. When provided, it must be an array of nonblank strings.
 - Only list skills you personally claim; skills are self-reported, not verified. Whitespace is trimmed and duplicate labels are combined case-insensitively. Use familiar technology names such as `React`, `TypeScript`, or `Node.js`; aliases such as `React.js` and `React` are not automatically combined.
+- Use your country's name (e.g. `"United States"`, `"Germany"`) for `country`. It is matched to a standard country for the filters and map; see [country normalization](docs/country-normalization.md) for maintainers' notes.
 - Your pull request will only be accepted if it follows the example above. It **cannot** have anything else.
 
 Please submit a Pull Request to be added to this list. If you are unsure how to do this, please check out _Contributing To Open Source_ video in the course curriculum.

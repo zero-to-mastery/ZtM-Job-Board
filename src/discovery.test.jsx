@@ -12,6 +12,7 @@ const { profiles, counterMounted } = vi.hoisted(() => ({
         name: `Developer ${String(index + 1).padStart(2, '0')}`,
         jobTitle: index < 16 ? 'Frontend Developer' : 'Backend Developer',
         location: { country: index < 17 ? 'Canada' : 'United States' },
+        normalized: { countries: [index < 17 ? 'CA' : 'US'] },
         links: {},
         skills:
             index < 16

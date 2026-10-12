@@ -34,6 +34,7 @@
         "deploy": "gh-pages -d build",
         "aggregate-json": "node scripts/aggregate-json.mjs",
         "countries-json": "node scripts/countries-json.mjs",
+        "country-diagnostics": "node scripts/country-diagnostics.mjs",
         "serve": "vite preview"
     },
     "devDependencies": {

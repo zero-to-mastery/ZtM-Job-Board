@@ -6,6 +6,7 @@ import path from 'node:path'
 import { spawnSync } from 'node:child_process'
 import { normalizeSkills, validateSkills } from './skills'
 import { emptyCriteria, filterProfiles } from './filterProfiles'
+import { resolveCountry } from './countries/resolveCountry.js'
 
 describe('skills', () => {
     test('trims and deduplicates labels without conflating different technologies', () => {
@@ -45,6 +46,7 @@ const profile = (id, name, skills, country, jobTitle) => ({
     name,
     skills,
     location: { country },
+    normalized: { countries: resolveCountry(country).countries },
     links: {},
     jobTitle,
 })
@@ -89,7 +91,7 @@ describe('profile matching', () => {
             filterProfiles(people, {
                 ...emptyCriteria,
                 search: 'Zoe',
-                countries: ['Canada'],
+                countries: ['CA'],
                 jobTitles: ['Frontend Developer'],
                 skills: ['React', 'TypeScript'],
             }).map((person) => person.id)
@@ -97,11 +99,66 @@ describe('profile matching', () => {
         expect(
             filterProfiles(people, {
                 ...emptyCriteria,
-                countries: ['United States'],
+                countries: ['US'],
                 jobTitles: ['Frontend Developer'],
                 skills: ['React'],
             })
         ).toEqual([])
+    })
+
+    test('matches canonical countries with aliases and multiple locations alongside skills', () => {
+        const profiles = [
+            profile(
+                'us',
+                'US Developer',
+                ['React'],
+                'USA',
+                'Frontend Developer'
+            ),
+            profile(
+                'multi',
+                'Multi Developer',
+                ['react'],
+                'USA/Belgium',
+                'Frontend Developer'
+            ),
+            profile(
+                'be',
+                'Belgian Developer',
+                ['TypeScript'],
+                'Belgium',
+                'Frontend Developer'
+            ),
+            profile(
+                'unknown',
+                'Unknown Developer',
+                ['React'],
+                'Georgia',
+                'Frontend Developer'
+            ),
+        ]
+        expect(
+            filterProfiles(profiles, {
+                ...emptyCriteria,
+                countries: ['US'],
+                skills: ['React'],
+            }).map((person) => person.id)
+        ).toEqual(['us', 'multi'])
+        expect(
+            filterProfiles(profiles, {
+                ...emptyCriteria,
+                countries: ['BE'],
+                skills: ['React'],
+                jobTitles: ['Frontend Developer'],
+            }).map((person) => person.id)
+        ).toEqual(['multi'])
+        expect(
+            filterProfiles(profiles, {
+                ...emptyCriteria,
+                countries: ['US', 'BE'],
+                skills: ['React'],
+            }).map((person) => person.id)
+        ).toEqual(['us', 'multi'])
     })
 
     test('keeps default ordering stable and sorts without mutating input', () => {

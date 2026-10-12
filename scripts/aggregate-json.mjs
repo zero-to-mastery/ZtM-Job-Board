@@ -1,29 +1,18 @@
-import fs from 'fs'
 import path from 'path'
-import crypto from 'crypto'
-import { validateSkills } from '../src/util/skills.js'
+import { aggregate } from './lib/aggregate.mjs'
 
 const JSON_SOURCE_DIR = 'Submissions'
 const FINAL_JSON_FILE = 'src/assets/persons.json'
-const dirContent = fs.readdirSync(path.resolve(JSON_SOURCE_DIR))
-const finalJSON = []
 
-for (const file of dirContent) {
-    const raw = fs.readFileSync(path.resolve(JSON_SOURCE_DIR, file), 'utf-8')
-    let profile
-    try {
-        profile = JSON.parse(raw)
-    } catch (error) {
-        throw new Error(`${file}: Invalid JSON: ${error.message}`, {
-            cause: error,
-        })
-    }
-    validateSkills(profile.skills, file)
-    profile.id = crypto.randomUUID()
-    finalJSON.push(profile)
+// Prints nothing on success: the Build workflow posts any output from this
+// script as a commit comment.
+try {
+    aggregate({
+        sourceDir: path.resolve(JSON_SOURCE_DIR),
+        outputFile: path.resolve(FINAL_JSON_FILE),
+    })
+} catch (e) {
+    console.error(`error: ${e.message}`)
+    console.error(`${FINAL_JSON_FILE} was not updated.`)
+    process.exitCode = 1
 }
-
-fs.writeFileSync(
-    path.resolve(FINAL_JSON_FILE),
-    JSON.stringify(finalJSON, null, 2)
-)

@@ -1,11 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { SortOption } from '../util/filterProfiles'
+import { CountryOption } from '../util/countryFilters'
 
 interface ProfileFiltersProps {
     resetKey?: number
-    countries: string[]
+    countries: CountryOption[]
     selectedCountries: string[]
-    onCountryChange: (country: string) => void
+    onCountryChange: (countryCode: string) => void
     jobTitles: string[]
     selectedJobTitles: string[]
     onJobTitleChange: (jobTitle: string) => void
@@ -66,7 +67,7 @@ const ProfileFilters = ({
     }, [openFilter])
 
     const filteredCountries = countries.filter((country) =>
-        country.toLowerCase().includes(countrySearch.toLowerCase())
+        country.label.toLowerCase().includes(countrySearch.toLowerCase())
     )
 
     const filteredJobTitles = jobTitles.filter((jobTitle) =>
@@ -252,19 +253,19 @@ const ProfileFilters = ({
                             <div className="profile-filters__options">
                                 {filteredCountries.map((country) => (
                                     <label
-                                        key={country}
+                                        key={country.code}
                                         className="profile-filters__option db pv2 ph1 pointer"
                                     >
                                         <input
                                             type="checkbox"
                                             checked={selectedCountries.includes(
-                                                country
+                                                country.code
                                             )}
                                             onChange={() =>
-                                                onCountryChange(country)
+                                                onCountryChange(country.code)
                                             }
                                         />{' '}
-                                        {country}
+                                        {country.label}
                                     </label>
                                 ))}
                             </div>

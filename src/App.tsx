@@ -15,6 +15,7 @@ import {
     ProfileCriteria,
 } from './util/filterProfiles'
 import { normalizeSkills } from './util/skills'
+import { getCountryOptions } from './util/countryFilters'
 import './styles/DeveloperDiscovery.scss'
 import CountUp from 'react-countup'
 import { countriesWithNumOfDevsObj } from './util/UsersDataCleanup'
@@ -22,13 +23,7 @@ const SimpleMap = lazy(() => import('./components/Map'))
 
 const profiles: Person[] = persons
 const totalCountries = Object.keys(countriesWithNumOfDevsObj).length
-const countries = Array.from(
-    new Set(
-        profiles
-            .map((person) => person.location.country)
-            .filter((country): country is string => Boolean(country))
-    )
-).sort()
+const countries = getCountryOptions(profiles)
 
 const jobTitles = Array.from(
     new Set(
