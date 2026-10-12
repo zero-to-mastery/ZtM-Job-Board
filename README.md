@@ -14,6 +14,8 @@ Link to the webpage: [**ZtM JOB Board**](https://zero-to-mastery.github.io/ZtM-J
 
 - `npm start`
 
+`npm start` validates submissions while generating the profile dataset. Invalid JSON or an invalid `skills` value causes aggregation to exit with an error instead of writing a partial dataset. Fix the reported submission and rerun `npm start`; the existing generated dataset is left untouched when validation fails.
+
 ### How to add your name to the list
 
 Note: **You will first need to make a fork of the project!**
@@ -40,6 +42,7 @@ inside `Submissions/` folder, and then fill it up with following content.
     "github": "https://github.com/<YOUR_GH_USERNAME>"
   },
   "jobTitle": "[YOUR_TITLE]",
+  "skills": ["React", "TypeScript", "Node.js"],
   "location": {
     "city": "[YOUR_CITY]",
     "state": "[YOUR_STATE_OR_PROVINCE]",
@@ -60,6 +63,7 @@ Example with dummy values:
     "github": "https://github.com/example"
   },
   "jobTitle": "Software Developer",
+  "skills": ["React", "TypeScript", "Node.js"],
   "location": {
     "city": "Example City",
     "state": "Example State",
@@ -72,9 +76,17 @@ Example with dummy values:
 
 - Profile pictures and/or images\* are allowed.
 - If you do not want to fill some of the fields, leave them blank (e.g. `state: "",`).
+- `skills` is optional. Omit it or use `[]` if you do not want to declare skills. When provided, it must be an array of nonblank strings.
+- Only list skills you personally claim; skills are self-reported, not verified. Whitespace is trimmed and duplicate labels are combined case-insensitively. Use familiar technology names such as `React`, `TypeScript`, or `Node.js`; aliases such as `React.js` and `React` are not automatically combined.
 - Your pull request will only be accepted if it follows the example above. It **cannot** have anything else.
 
 Please submit a Pull Request to be added to this list. If you are unsure how to do this, please check out _Contributing To Open Source_ video in the course curriculum.
+
+### Finding developers by skills
+
+Use **Required skills** to search the declared skills and select the technologies you need. Results must match **all** selected skills, together with any text, country, or role filters. Remove an individual skill using its chip, or use **Clear filters** to reset the search and filters.
+
+Cards show self-reported skills and mark the ones matching your requirements. Profiles without declared skills still appear when no skill filter is selected. Existing contributors can add a `skills` array to their own submission in a pull request; no skills are inferred from job titles or external profiles.
 
 - How to add profile image to your ZTM JobBoard profile using Github avatars.
 
