@@ -2,13 +2,14 @@ import { createFilter } from 'react-search-input'
 import Person from '../interfaces/person'
 import { normalizeSkills } from './skills'
 import { filterByCountries } from './countryFilters'
+import { filterByRoles, getPersonRoleLabels } from './roleFilters'
 
 export type SortOption = 'default' | 'name-asc' | 'name-desc'
 
 export interface ProfileCriteria {
     search: string
     countries: string[] // ISO 3166-1 alpha-2 codes
-    jobTitles: string[]
+    roles: string[] // canonical role ids
     skills: string[]
     sort: SortOption
 }
@@ -16,7 +17,7 @@ export interface ProfileCriteria {
 export const emptyCriteria: ProfileCriteria = {
     search: '',
     countries: [],
-    jobTitles: [],
+    roles: [],
     skills: [],
     sort: 'default',
 }
@@ -27,6 +28,7 @@ const searchKeys = [
     'location.city',
     'location.state',
     'location.country',
+    'roleLabels',
 ]
 
 export function filterProfiles(
@@ -37,21 +39,20 @@ export function filterProfiles(
         skill.toLowerCase()
     )
     const matchesText = createFilter(criteria.search, searchKeys)
-    const filtered = filterByCountries([...people], criteria.countries).filter(
-        (person) => {
-            const skills = new Set(
-                normalizeSkills(person.skills).map((skill) =>
-                    skill.toLowerCase()
-                )
-            )
-            return (
-                matchesText(person) &&
-                (criteria.jobTitles.length === 0 ||
-                    criteria.jobTitles.includes(person.jobTitle || '')) &&
-                requiredSkills.every((skill) => skills.has(skill))
-            )
-        }
-    )
+    const filtered = filterByRoles(
+        filterByCountries([...people], criteria.countries),
+        criteria.roles
+    ).filter((person) => {
+        const skills = new Set(
+            normalizeSkills(person.skills).map((skill) => skill.toLowerCase())
+        )
+        return (
+            matchesText({
+                ...person,
+                roleLabels: getPersonRoleLabels(person),
+            }) && requiredSkills.every((skill) => skills.has(skill))
+        )
+    })
 
     if (criteria.sort !== 'default') {
         filtered.sort((a, b) =>

@@ -1,15 +1,16 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { SortOption } from '../util/filterProfiles'
 import { CountryOption } from '../util/countryFilters'
+import { RoleOption } from '../util/roleFilters'
 
 interface ProfileFiltersProps {
     resetKey?: number
     countries: CountryOption[]
     selectedCountries: string[]
     onCountryChange: (countryCode: string) => void
-    jobTitles: string[]
-    selectedJobTitles: string[]
-    onJobTitleChange: (jobTitle: string) => void
+    roles: RoleOption[]
+    selectedRoles: string[]
+    onRoleChange: (roleId: string) => void
     skills: string[]
     selectedSkills: string[]
     onSkillChange: (skill: string) => void
@@ -23,9 +24,9 @@ const ProfileFilters = ({
     countries,
     selectedCountries,
     onCountryChange,
-    jobTitles,
-    selectedJobTitles,
-    onJobTitleChange,
+    roles,
+    selectedRoles,
+    onRoleChange,
     skills,
     selectedSkills,
     onSkillChange,
@@ -70,8 +71,8 @@ const ProfileFilters = ({
         country.label.toLowerCase().includes(countrySearch.toLowerCase())
     )
 
-    const filteredJobTitles = jobTitles.filter((jobTitle) =>
-        jobTitle.toLowerCase().includes(roleSearch.toLowerCase())
+    const filteredRoles = roles.filter((role) =>
+        role.label.toLowerCase().includes(roleSearch.toLowerCase())
     )
     const filteredSkills = skills.filter((skill) =>
         skill.toLowerCase().includes(skillSearch.trim().toLowerCase())
@@ -288,8 +289,8 @@ const ProfileFilters = ({
                         }
                     >
                         Role
-                        {selectedJobTitles.length > 0 &&
-                            ` (${selectedJobTitles.length})`}
+                        {selectedRoles.length > 0 &&
+                            ` (${selectedRoles.length})`}
                     </button>
 
                     {openFilter === 'role' && (
@@ -309,21 +310,21 @@ const ProfileFilters = ({
                             />
 
                             <div className="profile-filters__options">
-                                {filteredJobTitles.map((jobTitle) => (
+                                {filteredRoles.map((role) => (
                                     <label
-                                        key={jobTitle}
+                                        key={role.id}
                                         className="profile-filters__option db pv2 ph1 pointer"
                                     >
                                         <input
                                             type="checkbox"
-                                            checked={selectedJobTitles.includes(
-                                                jobTitle
+                                            checked={selectedRoles.includes(
+                                                role.id
                                             )}
                                             onChange={() =>
-                                                onJobTitleChange(jobTitle)
+                                                onRoleChange(role.id)
                                             }
                                         />{' '}
-                                        {jobTitle}
+                                        {role.label}
                                     </label>
                                 ))}
                             </div>

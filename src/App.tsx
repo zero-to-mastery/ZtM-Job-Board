@@ -16,6 +16,7 @@ import {
 } from './util/filterProfiles'
 import { normalizeSkills } from './util/skills'
 import { getCountryOptions } from './util/countryFilters'
+import { getRoleOptions } from './util/roleFilters'
 import './styles/DeveloperDiscovery.scss'
 import CountUp from 'react-countup'
 import { countriesWithNumOfDevsObj } from './util/UsersDataCleanup'
@@ -25,13 +26,7 @@ const profiles: Person[] = persons
 const totalCountries = Object.keys(countriesWithNumOfDevsObj).length
 const countries = getCountryOptions(profiles)
 
-const jobTitles = Array.from(
-    new Set(
-        profiles
-            .map((person) => person.jobTitle)
-            .filter((title): title is string => Boolean(title))
-    )
-).sort()
+const roles = getRoleOptions(profiles)
 const skills = normalizeSkills(
     profiles.flatMap((person) => person.skills || [])
 ).sort((a, b) => a.localeCompare(b))
@@ -135,15 +130,12 @@ function App() {
                                     ),
                                 }))
                             }
-                            jobTitles={jobTitles}
-                            selectedJobTitles={criteria.jobTitles}
-                            onJobTitleChange={(jobTitle) =>
+                            roles={roles}
+                            selectedRoles={criteria.roles}
+                            onRoleChange={(role) =>
                                 setCriteria((current) => ({
                                     ...current,
-                                    jobTitles: toggleSelection(
-                                        current.jobTitles,
-                                        jobTitle
-                                    ),
+                                    roles: toggleSelection(current.roles, role),
                                 }))
                             }
                             skills={skills}

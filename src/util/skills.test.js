@@ -7,6 +7,7 @@ import { spawnSync } from 'node:child_process'
 import { normalizeSkills, validateSkills } from './skills'
 import { emptyCriteria, filterProfiles } from './filterProfiles'
 import { resolveCountry } from './countries/resolveCountry.js'
+import { resolveRole } from './roles/resolveRole.js'
 
 describe('skills', () => {
     test('trims and deduplicates labels without conflating different technologies', () => {
@@ -46,7 +47,10 @@ const profile = (id, name, skills, country, jobTitle) => ({
     name,
     skills,
     location: { country },
-    normalized: { countries: resolveCountry(country).countries },
+    normalized: {
+        countries: resolveCountry(country).countries,
+        roles: resolveRole(jobTitle).roles,
+    },
     links: {},
     jobTitle,
 })
@@ -92,7 +96,7 @@ describe('profile matching', () => {
                 ...emptyCriteria,
                 search: 'Zoe',
                 countries: ['CA'],
-                jobTitles: ['Frontend Developer'],
+                roles: ['frontend-developer'],
                 skills: ['React', 'TypeScript'],
             }).map((person) => person.id)
         ).toEqual(['1'])
@@ -100,7 +104,7 @@ describe('profile matching', () => {
             filterProfiles(people, {
                 ...emptyCriteria,
                 countries: ['US'],
-                jobTitles: ['Frontend Developer'],
+                roles: ['frontend-developer'],
                 skills: ['React'],
             })
         ).toEqual([])
@@ -149,7 +153,7 @@ describe('profile matching', () => {
                 ...emptyCriteria,
                 countries: ['BE'],
                 skills: ['React'],
-                jobTitles: ['Frontend Developer'],
+                roles: ['frontend-developer'],
             }).map((person) => person.id)
         ).toEqual(['multi'])
         expect(
@@ -175,6 +179,50 @@ describe('profile matching', () => {
             )
         ).toEqual(['Zoe', 'Sam', 'Lee', 'Ben', 'Ada'])
         expect(people).toEqual(original)
+    })
+
+    test('combines canonical role search and multi-role selection with countries and declared skills', () => {
+        const profiles = [
+            profile(
+                'react',
+                'React Developer',
+                ['React', 'TypeScript'],
+                'USA',
+                'React Developer'
+            ),
+            profile(
+                'multi',
+                'Multi Developer',
+                ['react', 'typescript'],
+                'USA/Belgium',
+                'Front-End Developer | Full Stack Developer'
+            ),
+            profile(
+                'undeclared',
+                'No Skills',
+                undefined,
+                'US',
+                'React Developer'
+            ),
+        ]
+        expect(
+            filterProfiles(profiles, {
+                ...emptyCriteria,
+                search: 'frontend',
+                roles: ['frontend-developer', 'full-stack-developer'],
+                countries: ['US'],
+                skills: ['React', 'TypeScript'],
+            }).map((person) => person.id)
+        ).toEqual(['react', 'multi'])
+        expect(
+            filterProfiles(profiles, {
+                ...emptyCriteria,
+                roles: ['full-stack-developer'],
+                countries: ['BE'],
+                skills: ['React'],
+            }).map((person) => person.id)
+        ).toEqual(['multi'])
+        expect(filterProfiles(profiles, emptyCriteria)).toEqual(profiles)
     })
 })
 

@@ -12,7 +12,12 @@ const { profiles, counterMounted } = vi.hoisted(() => ({
         name: `Developer ${String(index + 1).padStart(2, '0')}`,
         jobTitle: index < 16 ? 'Frontend Developer' : 'Backend Developer',
         location: { country: index < 17 ? 'Canada' : 'United States' },
-        normalized: { countries: [index < 17 ? 'CA' : 'US'] },
+        normalized: {
+            countries: [index < 17 ? 'CA' : 'US'],
+            roles: [index < 16 ? 'frontend-developer' : 'backend-developer'],
+            seniority: null,
+            technologies: [],
+        },
         links: {},
         skills:
             index < 16
@@ -104,9 +109,9 @@ describe('recruiter discovery', () => {
                 countries={[]}
                 selectedCountries={[]}
                 onCountryChange={vi.fn()}
-                jobTitles={[]}
-                selectedJobTitles={[]}
-                onJobTitleChange={vi.fn()}
+                roles={[]}
+                selectedRoles={[]}
+                onRoleChange={vi.fn()}
                 skills={['React']}
                 selectedSkills={[]}
                 onSkillChange={vi.fn()}
@@ -398,9 +403,9 @@ describe('recruiter discovery', () => {
                 countries={[]}
                 selectedCountries={[]}
                 onCountryChange={vi.fn()}
-                jobTitles={[]}
-                selectedJobTitles={[]}
-                onJobTitleChange={vi.fn()}
+                roles={[]}
+                selectedRoles={[]}
+                onRoleChange={vi.fn()}
                 skills={[]}
                 selectedSkills={[]}
                 onSkillChange={vi.fn()}
