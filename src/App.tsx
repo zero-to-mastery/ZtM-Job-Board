@@ -10,16 +10,12 @@ import Navbar from './components/Navbar'
 import persons from './assets/persons.json'
 import { pageNames } from './util/pageNames'
 import useForceUpdate from './util/useForceUpdate'
+import { getCountryOptions, filterByCountries } from './util/countryFilters'
 const SimpleMap = lazy(() => import('./components/Map'))
 
 const people: any = persons
-const countries = Array.from(
-    new Set(
-        people
-            .map((person: any) => person.location?.country)
-            .filter(Boolean)
-    )
-).sort()
+// Countries are normalized to ISO codes during JSON aggregation
+const countries = getCountryOptions(people)
 
 const jobTitles = Array.from(
     new Set(
@@ -62,11 +58,7 @@ function App() {
     const filteredPersons = (searchFilter: any) => {
     let filtered = people.filter(createFilter(searchFilter, KEYS_TO_FILTERS))
 
-    if (selectedCountries.length > 0) {
-        filtered = filtered.filter((person: any) =>
-            selectedCountries.includes(person.location?.country)
-        )
-    }
+    filtered = filterByCountries(filtered, selectedCountries)
 
     if (selectedJobTitles.length > 0) {
         filtered = filtered.filter((person: any) =>

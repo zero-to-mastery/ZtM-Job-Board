@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
+import { CountryOption } from '../util/countryFilters'
 
 interface ProfileFiltersProps {
-    countries: string[]
+    countries: CountryOption[]
     selectedCountries: string[]
-    onCountryChange: (country: string) => void
+    onCountryChange: (countryCode: string) => void
     jobTitles: string[]
     selectedJobTitles: string[]
     onJobTitleChange: (jobTitle: string) => void
@@ -28,7 +29,7 @@ const ProfileFilters = ({
     const [roleSearch, setRoleSearch] = useState('')
 
     const filteredCountries = countries.filter((country) =>
-        country.toLowerCase().includes(countrySearch.toLowerCase())
+        country.label.toLowerCase().includes(countrySearch.toLowerCase())
     )
 
     const filteredJobTitles = jobTitles.filter((jobTitle) =>
@@ -108,19 +109,19 @@ const ProfileFilters = ({
                             <div style={optionContainerStyle}>
                                 {filteredCountries.map((country) => (
                                     <label
-                                        key={country}
+                                        key={country.code}
                                         className="db pv2 pointer"
                                     >
                                         <input
                                             type="checkbox"
                                             checked={selectedCountries.includes(
-                                                country
+                                                country.code
                                             )}
                                             onChange={() =>
-                                                onCountryChange(country)
+                                                onCountryChange(country.code)
                                             }
                                         />{' '}
-                                        {country}
+                                        {country.label}
                                     </label>
                                 ))}
                             </div>
