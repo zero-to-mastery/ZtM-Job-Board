@@ -255,6 +255,39 @@ describe('multiple explicit roles', () => {
         )
         expect(resolved).toEqual(ROLE_IDS.filter((id) => resolved.includes(id)))
     })
+
+    test.each([
+        [
+            'Frontend Developer at Data Scientist / ML Engineer',
+            ['frontend-developer'],
+        ],
+        [
+            'Frontend Developer @ Data Scientist & ML Engineer',
+            ['frontend-developer'],
+        ],
+        [
+            'Frontend Developer at React / Node | Backend Developer',
+            ['frontend-developer', 'backend-developer'],
+        ],
+        [
+            'Frontend Developer @ React / Node; Software Engineer',
+            ['frontend-developer', 'software-engineer'],
+        ],
+        [
+            'Frontend Developer at React / Node. Backend Developer',
+            ['frontend-developer', 'backend-developer'],
+        ],
+    ])(
+        'ignores employer context without dropping independent roles: %j',
+        (title, roles) => {
+            expect(resolveRole(title)).toMatchObject({
+                original: title,
+                roles,
+                status: 'classified',
+                unmatched: [],
+            })
+        }
+    )
 })
 
 describe('seniority', () => {
@@ -305,6 +338,21 @@ describe('seniority', () => {
             expect.arrayContaining(['senior', 'staff', 'principal', 'lead'])
         )
         expect(resolveRole('Staff Softrware Developer').seniority).toBe('staff')
+    })
+
+    test('employer names do not introduce conflicting seniority', () => {
+        expect(
+            resolveRole('Junior Software Engineer at Staff React')
+        ).toMatchObject({
+            roles: ['software-engineer'],
+            seniority: 'junior',
+            seniorityStatus: 'explicit',
+            technologies: [],
+        })
+        expect(resolveRole('Software Engineer @ Principal')).toMatchObject({
+            seniority: null,
+            seniorityStatus: 'unspecified',
+        })
     })
 })
 
@@ -358,6 +406,18 @@ describe('technologies', () => {
         expect(
             rolesOf('Full Stack Developer (Java, Javascript, Css, Angular)')
         ).toEqual(['full-stack-developer'])
+    })
+
+    test('employers do not contribute technologies but later roles still do', () => {
+        expect(
+            resolveRole(
+                'Senior React Developer @ Node / Python | Django Developer'
+            )
+        ).toMatchObject({
+            roles: ['frontend-developer', 'backend-developer'],
+            seniority: 'senior',
+            technologies: ['react', 'django'],
+        })
     })
 })
 
@@ -413,6 +473,35 @@ describe('ambiguous and non-technical titles', () => {
         expect(
             rolesOf('Full Stack Software Engineer & Blockchain Enthusiast')
         ).toEqual(['full-stack-developer'])
+    })
+
+    test.each([
+        'Aspiring Frontend/Backend Developer',
+        'Aspiring Mobile/Web Developer',
+        'An Aspiring AI and ML Engineer',
+        'Aspiring Frontend & Backend Developer',
+        'Aspiring Frontend + Backend Developer',
+    ])('a shared aspiration qualifier is not a current role: %j', (title) => {
+        expect(resolveRole(title)).toMatchObject({
+            original: title,
+            roles: [],
+            status: 'unclassified',
+            reason: 'Describes an interest or aspiration, not a current role',
+        })
+    })
+
+    test.each([
+        'Aspiring Frontend/Backend Developer | Software Engineer',
+        'Software Engineer & Aspiring Frontend/Backend Developer',
+        'Software Engineer / AI Enthusiast',
+        'AI Enthusiast / Software Engineer',
+        'Frontend Candidate / Software Engineer',
+    ])('a separate current role survives aspiration handling: %j', (title) => {
+        expect(resolveRole(title)).toMatchObject({
+            roles: ['software-engineer'],
+            status: 'classified',
+            unmatched: [],
+        })
     })
 
     test('unrecognized parts of a classified title are reported', () => {

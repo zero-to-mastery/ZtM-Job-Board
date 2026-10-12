@@ -103,6 +103,31 @@ describe('filterByRoles', () => {
             'j',
         ])
     })
+
+    test('aspirations and employer text do not create role filter matches', () => {
+        const people = [
+            person('aspiring', 'Aspiring Frontend/Backend Developer', 'USA'),
+            person(
+                'current',
+                'Aspiring Frontend/Backend Developer | Software Engineer',
+                'Canada'
+            ),
+            person(
+                'employed',
+                'Frontend Developer at Data Scientist / ML Engineer',
+                'USA'
+            ),
+        ]
+        expect(names(filterByRoles(people, ['backend-developer']))).toEqual([])
+        expect(names(filterByRoles(people, ['ml-engineer']))).toEqual([])
+        expect(names(filterByRoles(people, ['software-engineer']))).toEqual([
+            'current',
+        ])
+        expect(names(filterByRoles(people, ['frontend-developer']))).toEqual([
+            'employed',
+        ])
+        expect(filterByRoles(people, [])).toBe(people)
+    })
 })
 
 describe('filterProfiles', () => {

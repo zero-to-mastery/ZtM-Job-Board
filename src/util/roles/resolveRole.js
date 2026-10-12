@@ -84,6 +84,13 @@ const FLAGS_AND_EMOJI = /[\u{1F1E6}-\u{1F1FF}‍️]|\p{Extended_Pictographic}/g
 // borrows the next one. The others separate independent parts.
 const SEPARATOR = /(\|+|,|;|\.\s+|\/+|&+|\+|\band\b)/i
 const TIGHT_SEPARATOR = /^(?:\/+|&+|\+|and)$/i
+const INDEPENDENT_SEPARATOR = /(\|+|,|;|\.\s+)/i
+
+const withoutEmployerContext = (text) =>
+    text
+        .split(INDEPENDENT_SEPARATOR)
+        .map((part) => part.replace(/(?:@|\bat\b)[\s\S]*$/i, ''))
+        .join('')
 
 /**
  * Removes noise and turns symbols that would otherwise be lost as punctuation
@@ -162,8 +169,7 @@ function segmentTitle(text) {
     const parts = text.split(SEPARATOR)
     const segments = []
     for (let i = 0; i < parts.length; i += 2) {
-        // Drop "at <company>" and "@ <place>"
-        const raw = parts[i].replace(/(?:@|\bat\b).*$/i, '').trim()
+        const raw = parts[i].trim()
         const key = normalizeRoleKey(raw)
         const words = wordsOf(key)
         segments.push({
@@ -180,13 +186,22 @@ function segmentTitle(text) {
     // Forward: "Mobile" in "Mobile/Web Developer" -> "mobile developer".
     for (let i = 0; i < nonEmpty.length; i++) {
         const segment = nonEmpty[i]
-        if (segment.heads.length > 0 || segment.aspirational) continue
+        if (segment.heads.length > 0) continue
+        // "Aspiring Mobile/Web Developer" shares a prefix; "AI Enthusiast"
+        // is a complete interest statement and does not qualify the next role.
+        if (
+            segment.aspirational &&
+            ASPIRATION_SET.has(wordsOf(segment.key).at(-1))
+        ) {
+            continue
+        }
         for (let j = i; j < nonEmpty.length - 1 && nonEmpty[j].tightNext; j++) {
             const next = nonEmpty[j + 1]
             if (next.aspirational) {
                 segment.aspirational = true
                 break
             }
+            if (segment.aspirational) next.aspirational = true
             if (next.heads.length > 0) {
                 const head = next.heads[next.heads.length - 1]
                 segment.key = `${segment.key} ${head}`
@@ -383,8 +398,8 @@ export function resolveRole(value) {
         return { ...base, status: 'empty', reason: null }
     }
 
-    const cleaned = cleanTitle(value)
-    const fullKey = normalizeRoleKey(value)
+    const cleaned = withoutEmployerContext(cleanTitle(value))
+    const fullKey = normalizeRoleKey(cleaned)
 
     // Parenthesised text usually lists technologies ("Full Stack Developer
     // (React, Node)"), so it is ignored for roles unless the title has no

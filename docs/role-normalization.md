@@ -97,10 +97,16 @@ Frontend Developer. A title only gets the categories it names.
     `Mobile Developer` + `Web Developer`, and `Web Designer and Developer`
     becomes `Web Designer` + `Web Developer`. A spaced hyphen does not split,
     so `Software Engineer - Frontend` is one part. `at Company` and
-    `@ Place` are dropped.
+    `@ Place` are dropped before splitting closely related parts, so an
+    employer containing `/` or `&` cannot introduce another role. Independent
+    parts after `|`, `,`, `;` or `. ` are still processed.
 4.  **Drop aspirations.** A part containing `aspiring`, `enthusiast`,
     `interest`, `candidate`, … yields no role (`AI Enthusiast`,
-    `Aspiring Data Scientist`). Other parts of the title still count.
+    `Aspiring Data Scientist`). A prefix in a shared-noun phrase applies to
+    that whole phrase: `Aspiring Frontend/Backend Developer` yields no role.
+    Separate current roles still count, including
+    `AI Enthusiast / Software Engineer` and
+    `Aspiring Frontend/Backend Developer | Software Engineer`.
 5.  **Match rules** from `roleAliases.js`, strongest tier first (see the table
     below).
 6.  **Order** the role ids by the taxonomy and remove duplicates.
@@ -123,7 +129,8 @@ added to `TOKEN_TYPOS`.
 
 ### Seniority
 
-Seniority comes only from explicit words anywhere in the title
+Seniority comes only from explicit words in the role text, excluding employer
+annotations after `at` or `@`
 (`SENIORITY_TERMS`): `Intern`/`Internship`, `Junior`/`Jr`/`Jnr`,
 `Mid`/`Intermediate`, `Senior`/`Sr`, `Staff`, `Principal`,
 `Lead`/`Leader`. It is never inferred from student status or years, and
@@ -137,7 +144,8 @@ There is no seniority filter yet; the field is metadata for later use.
 
 ### Technologies
 
-Technologies named anywhere in the title, including parentheses, are listed
+Technologies named in the role text, including parentheses but excluding
+employer annotations after `at` or `@`, are listed
 using `TECHNOLOGY_ALIASES` (`React.js` → `react`, `Node` → `nodejs`,
 `C#` → `csharp`). `React Native` is `react-native`, not `react`. Stack
 abbreviations expand: `MERN` → `mongodb, express, react, nodejs`, likewise

@@ -193,6 +193,54 @@ describe('aggregate', () => {
         expect(hashDir(sourceDir)).toBe(before)
     })
 
+    test('role metadata excludes shared aspirations and employer context', () => {
+        const fixtures = {
+            'alpha.json': {
+                ...submission('Alpha', 'USA'),
+                jobTitle: 'Aspiring Frontend/Backend Developer',
+            },
+            'bravo.json': {
+                ...submission('Bravo', 'Canada'),
+                jobTitle:
+                    'Junior Software Engineer at Staff React / ML Engineer',
+            },
+            'charlie.json': {
+                ...submission('Charlie', 'USA/Belgium'),
+                jobTitle:
+                    'Aspiring Frontend/Backend Developer | Software Engineer',
+            },
+        }
+        writeFixtures(fixtures)
+        const before = hashDir(sourceDir)
+        aggregate({ sourceDir, outputFile })
+        const first = fs.readFileSync(outputFile, 'utf-8')
+        const persons = JSON.parse(first)
+
+        expect(persons.map((person) => person.normalized)).toEqual([
+            { countries: ['US'], roles: [], seniority: null, technologies: [] },
+            {
+                countries: ['CA'],
+                roles: ['software-engineer'],
+                seniority: 'junior',
+                technologies: [],
+            },
+            {
+                countries: ['US', 'BE'],
+                roles: ['software-engineer'],
+                seniority: null,
+                technologies: [],
+            },
+        ])
+        const files = Object.keys(fixtures).sort()
+        persons.forEach((person, i) => {
+            const { id, normalized, ...original } = person
+            expect(original).toEqual(fixtures[files[i]])
+        })
+        expect(hashDir(sourceDir)).toBe(before)
+        aggregate({ sourceDir, outputFile })
+        expect(fs.readFileSync(outputFile, 'utf-8')).toBe(first)
+    })
+
     test('produces identical output across runs', () => {
         writeFixtures(FIXTURES)
         aggregate({ sourceDir, outputFile })
