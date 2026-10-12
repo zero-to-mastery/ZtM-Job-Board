@@ -2,16 +2,25 @@ import React, { useState, useEffect } from 'react'
 import Search from './Search'
 import '../styles/SearchBarDesktopView.scss'
 import { pageNames } from '../util/pageNames'
-import { shuffle } from '../util/shuffle'
 import { Pointer } from './Pointer'
+
+interface NavbarProps {
+    onSearchChange: (event: React.ChangeEvent<HTMLInputElement>) => void
+    searchValue: string
+    onMapClick: () => void
+    onLogoClick: () => void
+    mapOrHomeTitle: string
+    shufflePeopleOnClick: () => void
+}
 
 const Navbar = ({
     onSearchChange,
+    searchValue,
     onMapClick,
     onLogoClick,
     mapOrHomeTitle,
     shufflePeopleOnClick,
-}: any) => {
+}: NavbarProps) => {
     const [isDarkMode, setIsDarkMode] = useState(false)
 
     // Check if dark mode is already set in localStorage
@@ -71,7 +80,10 @@ const Navbar = ({
                         style={{ margin: 0, padding: 0 }}
                         className="visible-on-desktopview-only"
                     >
-                        <Search onSearchChange={onSearchChange} />
+                        <Search
+                            onSearchChange={onSearchChange}
+                            value={searchValue}
+                        />
                     </div>
                 )}
                 {/* Dark mode toggle button */}
