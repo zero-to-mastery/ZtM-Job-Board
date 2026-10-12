@@ -1,34 +1,18 @@
-import fs from 'fs'
 import path from 'path'
-import crypto from 'crypto'
+import { aggregate } from './lib/aggregate.mjs'
 
 const JSON_SOURCE_DIR = 'Submissions'
 const FINAL_JSON_FILE = 'src/assets/persons.json'
-let dirContent = null
-const finalJSON = []
 
+// Prints nothing on success: the Build workflow posts any output from this
+// script as a commit comment.
 try {
-    dirContent = fs.readdirSync(path.resolve(JSON_SOURCE_DIR))
+    aggregate({
+        sourceDir: path.resolve(JSON_SOURCE_DIR),
+        outputFile: path.resolve(FINAL_JSON_FILE),
+    })
 } catch (e) {
-    console.log(`error while reading "${JSON_SOURCE_DIR}": ` + e.message)
+    console.error(`error: ${e.message}`)
+    console.error(`${FINAL_JSON_FILE} was not updated.`)
+    process.exitCode = 1
 }
-
-try {
-    for (let i = 0; i < dirContent.length; i++) {
-        const jsonContent__raw = fs.readFileSync(
-            path.resolve(JSON_SOURCE_DIR, dirContent[i]),
-            { encoding: 'utf-8' }
-        )
-
-        const jsonContent__parsed = JSON.parse(jsonContent__raw)
-        jsonContent__parsed.id = crypto.randomUUID()
-        finalJSON.push(jsonContent__parsed)
-    }
-} catch (e) {
-    console.log(`error: ` + e.message)
-}
-
-fs.writeFileSync(
-    path.resolve(FINAL_JSON_FILE),
-    JSON.stringify(finalJSON, null, 2)
-)
