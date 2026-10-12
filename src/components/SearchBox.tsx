@@ -21,7 +21,7 @@ const SearchBox = ({
             </svg>
             <input
                 style={responsiveSearch}
-                className="tc text-black br2 bw1 b--solid custom--b--secondary border-box"
+                className="tc br2 bw1 b--solid border-box"
                 type="search"
                 placeholder={`Search by name, role or location`}
                 onChange={searchChange}

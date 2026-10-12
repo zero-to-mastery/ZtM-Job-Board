@@ -76,25 +76,6 @@ const ProfileFilters = ({
         skill.toLowerCase().includes(skillSearch.trim().toLowerCase())
     )
 
-    const dropdownStyle: React.CSSProperties = {
-        position: 'absolute',
-        top: 'calc(100% + 0.5rem)',
-        left: 0,
-        width: '100%',
-        background: '#fff',
-        border: '1px solid #ddd',
-        borderRadius: '6px',
-        padding: '0.75rem',
-        boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)',
-        zIndex: 10,
-    }
-
-    const optionContainerStyle: React.CSSProperties = {
-        maxHeight: '220px',
-        overflowY: 'auto',
-        marginTop: '0.5rem',
-    }
-
     return (
         <div
             ref={filterContainer}
@@ -122,16 +103,13 @@ const ProfileFilters = ({
                     setOpenFilter('')
                 }
             }}
-            style={{
-                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.12)',
-            }}
         >
             <div className="flex justify-between items-center mb3">
                 <h2 className="f4 ma0">Filters & Sort</h2>
 
                 <button
                     type="button"
-                    className="bg-transparent bn blue pointer"
+                    className="profile-filters__clear"
                     onClick={() => {
                         setCountrySearch('')
                         setRoleSearch('')
@@ -166,7 +144,7 @@ const ProfileFilters = ({
                         <>
                             <button
                                 type="button"
-                                className="w-100 pa2 ba b--black-20 br2 tl pointer dark-gray"
+                                className="profile-filters__control w-100 pa2 br2 tl"
                                 aria-expanded={openFilter === 'skills'}
                                 aria-controls="required-skills-options"
                                 aria-describedby="required-skills-help"
@@ -187,7 +165,7 @@ const ProfileFilters = ({
                             {openFilter === 'skills' && (
                                 <div
                                     id="required-skills-options"
-                                    style={dropdownStyle}
+                                    className="profile-filters__dropdown"
                                 >
                                     <label
                                         htmlFor="skill-search"
@@ -202,9 +180,9 @@ const ProfileFilters = ({
                                         onChange={(event) =>
                                             setSkillSearch(event.target.value)
                                         }
-                                        className="w-100 pa2 ba b--black-20 br2"
+                                        className="profile-filters__control w-100 pa2 br2"
                                     />
-                                    <div style={optionContainerStyle}>
+                                    <div className="profile-filters__options">
                                         {filteredSkills.length === 0 && (
                                             <p role="status">
                                                 No declared skills match this
@@ -214,7 +192,7 @@ const ProfileFilters = ({
                                         {filteredSkills.map((skill) => (
                                             <label
                                                 key={skill}
-                                                className="db pv2 pointer"
+                                                className="profile-filters__option db pv2 ph1 pointer"
                                             >
                                                 <input
                                                     type="checkbox"
@@ -241,7 +219,7 @@ const ProfileFilters = ({
                 >
                     <button
                         type="button"
-                        className="w-100 pa2 ba b--black-20 br2 tl pointer dark-gray"
+                        className="profile-filters__control w-100 pa2 br2 tl"
                         aria-expanded={openFilter === 'country'}
                         aria-controls="country-options"
                         onClick={() =>
@@ -256,7 +234,10 @@ const ProfileFilters = ({
                     </button>
 
                     {openFilter === 'country' && (
-                        <div id="country-options" style={dropdownStyle}>
+                        <div
+                            id="country-options"
+                            className="profile-filters__dropdown"
+                        >
                             <input
                                 type="text"
                                 aria-label="Search countries"
@@ -265,14 +246,14 @@ const ProfileFilters = ({
                                     setCountrySearch(event.target.value)
                                 }
                                 placeholder="Search country..."
-                                className="w-100 pa2 ba b--black-20 br2"
+                                className="profile-filters__control w-100 pa2 br2"
                             />
 
-                            <div style={optionContainerStyle}>
+                            <div className="profile-filters__options">
                                 {filteredCountries.map((country) => (
                                     <label
                                         key={country}
-                                        className="db pv2 pointer"
+                                        className="profile-filters__option db pv2 ph1 pointer"
                                     >
                                         <input
                                             type="checkbox"
@@ -298,7 +279,7 @@ const ProfileFilters = ({
                 >
                     <button
                         type="button"
-                        className="w-100 pa2 ba b--black-20 br2 tl pointer dark-gray"
+                        className="profile-filters__control w-100 pa2 br2 tl"
                         aria-expanded={openFilter === 'role'}
                         aria-controls="role-options"
                         onClick={() =>
@@ -311,7 +292,10 @@ const ProfileFilters = ({
                     </button>
 
                     {openFilter === 'role' && (
-                        <div id="role-options" style={dropdownStyle}>
+                        <div
+                            id="role-options"
+                            className="profile-filters__dropdown"
+                        >
                             <input
                                 type="text"
                                 aria-label="Search roles"
@@ -320,14 +304,14 @@ const ProfileFilters = ({
                                     setRoleSearch(event.target.value)
                                 }
                                 placeholder="Search role..."
-                                className="w-100 pa2 ba b--black-20 br2"
+                                className="profile-filters__control w-100 pa2 br2"
                             />
 
-                            <div style={optionContainerStyle}>
+                            <div className="profile-filters__options">
                                 {filteredJobTitles.map((jobTitle) => (
                                     <label
                                         key={jobTitle}
-                                        className="db pv2 pointer"
+                                        className="profile-filters__option db pv2 ph1 pointer"
                                     >
                                         <input
                                             type="checkbox"
@@ -360,7 +344,7 @@ const ProfileFilters = ({
                                 onSortChange(value)
                             }
                         }}
-                        className="w-100 pa2 ba b--black-20 br2 bg-near-white dark-gray"
+                        className="profile-filters__control w-100 pa2 br2"
                     >
                         <option value="default">Sort by: Default</option>
                         <option value="name-asc">Name A–Z</option>

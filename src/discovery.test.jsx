@@ -41,6 +41,8 @@ let container
 let root
 beforeEach(() => {
     globalThis.IS_REACT_ACT_ENVIRONMENT = true
+    localStorage.clear()
+    delete document.documentElement.dataset.theme
     container = document.createElement('div')
     document.body.appendChild(container)
     root = createRoot(container)
@@ -48,6 +50,8 @@ beforeEach(() => {
 afterEach(() => {
     act(() => root.unmount())
     container.remove()
+    localStorage.clear()
+    delete document.documentElement.dataset.theme
     vi.clearAllMocks()
 })
 
@@ -282,10 +286,7 @@ describe('recruiter discovery', () => {
         expect(inputs[0].value).toBe('')
         expect(cardNames()).toEqual(order)
         expect(shuffle).toHaveBeenCalledTimes(1)
-        const shuffleControl = [...container.querySelectorAll('span')].find(
-            (element) => element.textContent === 'Shuffle'
-        )
-        click(shuffleControl)
+        click(button('Shuffle'))
         expect(shuffle).toHaveBeenCalledTimes(2)
         expect(cardNames()).not.toEqual(order)
         expect(profiles[0].id).toBe('1')
@@ -413,5 +414,38 @@ describe('recruiter discovery', () => {
         expect(
             container.querySelector('[aria-controls="required-skills-options"]')
         ).toBeNull()
+    })
+
+    test('uses the saved theme and preserves skill criteria when toggling it', () => {
+        localStorage.setItem('theme', 'dark')
+        render()
+        expect(document.documentElement.dataset.theme).toBe('dark')
+        click(button('Required skills'))
+        const dropdown = container.querySelector('#required-skills-options')
+        expect(dropdown.classList.contains('profile-filters__dropdown')).toBe(
+            true
+        )
+        expect(dropdown.hasAttribute('style')).toBe(false)
+        expect(
+            container
+                .querySelector('#skill-search')
+                .classList.contains('profile-filters__control')
+        ).toBe(true)
+        click(checkbox('TypeScript'))
+        expect(resultCount()).toContain('16 matching developers')
+
+        click(button('Light Mode'))
+        expect(document.documentElement.dataset.theme).toBe('light')
+        expect(localStorage.getItem('theme')).toBe('light')
+        expect(resultCount()).toContain('16 matching developers')
+        expect(
+            container.querySelector(
+                '[aria-label="Remove required skill TypeScript"]'
+            )
+        ).not.toBeNull()
+        expect(container.querySelectorAll('.skill-chip--matched')).toHaveLength(
+            16
+        )
+        expect(shuffle).toHaveBeenCalledTimes(1)
     })
 })

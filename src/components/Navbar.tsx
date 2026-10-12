@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Search from './Search'
 import '../styles/SearchBarDesktopView.scss'
 import { pageNames } from '../util/pageNames'
 import { Pointer } from './Pointer'
+import useTheme from '../util/useTheme'
 
 interface NavbarProps {
     onSearchChange: (event: React.ChangeEvent<HTMLInputElement>) => void
@@ -21,29 +22,8 @@ const Navbar = ({
     mapOrHomeTitle,
     shufflePeopleOnClick,
 }: NavbarProps) => {
-    const [isDarkMode, setIsDarkMode] = useState(false)
-
-    // Check if dark mode is already set in localStorage
-    useEffect(() => {
-        const savedTheme = localStorage.getItem('theme')
-        if (savedTheme === 'dark') {
-            setIsDarkMode(true)
-            document.body.classList.add('dark-mode')
-        }
-    }, [])
-
-    // Toggle dark mode
-    const handleDarkModeToggle = () => {
-        const newMode = !isDarkMode
-        setIsDarkMode(newMode)
-        if (newMode) {
-            document.body.classList.add('dark-mode')
-            localStorage.setItem('theme', 'dark')
-        } else {
-            document.body.classList.remove('dark-mode')
-            localStorage.setItem('theme', 'light')
-        }
-    }
+    const { theme, toggleTheme } = useTheme()
+    const isDarkMode = theme === 'dark'
 
     return (
         <div className="header-items flex flex-wrap justify-between">
@@ -88,7 +68,7 @@ const Navbar = ({
                 )}
                 {/* Dark mode toggle button */}
                 <Pointer
-                    onClick={handleDarkModeToggle}
+                    onClick={toggleTheme}
                     Text={isDarkMode ? 'Light Mode' : 'Dark Mode'}
                     TooltipText={`Click to enable ${isDarkMode ? 'light' : 'dark'} mode`}
                 />

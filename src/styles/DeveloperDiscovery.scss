@@ -1,38 +1,29 @@
 body .profile-filters,
 body .developer-results__empty {
-    background: #fff;
-    color: #212121;
+    background: var(--color-surface);
+    color: var(--color-text);
 
     button {
-        background: #f5f5f5;
-        color: #212121;
         font-size: 1rem;
         line-height: 1.5;
-        border: 1px solid #bdbdbd;
-    }
-
-    button:hover {
-        background: #e3f2fd;
     }
 
     input,
     select {
-        color: #212121;
-        background: #fff;
         font-size: 1rem;
     }
 
     button:focus-visible,
     input:focus-visible,
     select:focus-visible {
-        outline: 3px solid #1565c0;
+        outline: 3px solid var(--color-focus);
         outline-offset: 2px;
     }
 }
 
 .skills-guidance {
     padding: 0.75rem;
-    border: 1px solid #bdbdbd;
+    border: 1px solid var(--color-control-border);
     border-radius: 6px;
 }
 
@@ -52,18 +43,18 @@ body .developer-results__empty {
     flex-wrap: wrap;
     gap: 0.35rem;
     padding: 0.35rem 0.65rem;
-    border: 1px solid #bdbdbd;
+    border: 1px solid var(--color-control-border);
     border-radius: 1rem;
-    background: #f5f5f5;
-    color: #212121;
+    background: var(--color-surface-muted);
+    color: var(--color-text);
     font-size: 0.875rem;
 }
 
 .skill-chip--matched,
 .profile-filters .skill-chip--selected {
-    border-color: #1565c0;
-    background: #e3f2fd;
-    color: #0d47a1;
+    border-color: var(--color-link);
+    background: var(--color-surface-muted);
+    color: var(--color-link);
 }
 
 .skill-chip__match {
@@ -73,7 +64,7 @@ body .developer-results__empty {
 
 .profile-skills {
     padding: 0 1rem 1rem;
-    color: #212121;
+    color: var(--color-text);
 
     .skill-chips {
         justify-content: center;
@@ -91,13 +82,19 @@ body .developer-results__empty {
     font-weight: 700;
 }
 
-body.dark-mode .developer-results__count {
-    color: #fff;
-}
-
 .developer-results__empty {
     padding: 2rem 1rem;
     border-radius: 6px;
+
+    button {
+        color: var(--color-text);
+        background: var(--color-surface-muted);
+        border: 1px solid var(--color-control-border);
+    }
+
+    button:hover {
+        background: var(--color-surface-raised);
+    }
 }
 
 .developer-results__stats {
@@ -106,13 +103,13 @@ body.dark-mode .developer-results__count {
     justify-content: space-between;
     gap: 1rem;
     padding: 20px;
-    background: #42a5f5;
+    background: var(--color-stats-bg);
     border-radius: 10px;
 
     > div {
         padding: 10px;
-        background: #212121;
-        color: #fff;
+        background: var(--color-stats-tile-bg);
+        color: var(--color-stats-text);
         border-radius: 10px;
     }
 
@@ -124,14 +121,4 @@ body.dark-mode .developer-results__count {
         margin: 0;
         font-size: 25px;
     }
-}
-
-.developer-results .custom--basic-button button {
-    color: #212121;
-    background: #fff;
-}
-
-.developer-results .custom--basic-button button:hover {
-    color: #fff;
-    background: #212121;
 }

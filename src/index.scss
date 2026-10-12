@@ -27,9 +27,126 @@ $colors: (
     additional3: $color--additional3,
 );
 
+/* Theme colors. The active theme is set on <html data-theme="..."> before first paint (see index.html). */
+:root {
+    --color-page-bg: #eeeeee;
+    --color-surface: #ffffff;
+    --color-surface-muted: #f5f5f5;
+    --color-surface-raised: #ffffff;
+    --color-text: #212121;
+    --color-text-muted: #595959;
+    --color-border: #e0e0e0;
+    --color-card-border: transparent;
+    --color-control-border: #767676;
+    // Deeper amber so the search box stays outlined on white panels
+    --color-search-border: #a67c00;
+    --color-input-bg: #ffffff;
+    --color-placeholder: #6b6b6b;
+    --color-link: #1565c0;
+    --color-focus: #1565c0;
+    --color-selection: rgba(0, 0, 0, 0.15);
+    --color-bar-bg: #{$color--additional3};
+    --color-bar-text: #ffffff;
+    --color-bar-focus: #{$color--secondary-light};
+    --color-icon: #212121;
+    --color-avatar: rgba(0, 0, 0, 0.5);
+    --color-avatar-hover: #212121;
+    --color-icon-hover-bg: #212121;
+    --color-icon-hover-fg: #ffffff;
+    --color-card-hover-header-bg: #{$color--primary};
+    --color-card-hover-header-text: #212121;
+    --color-card-hover-title-bg: #1565c0;
+    --color-card-hover-title-text: #ffffff;
+    --color-stats-bg: #{$color--primary-light};
+    --color-stats-tile-bg: #212121;
+    --color-stats-text: #ffffff;
+    --color-tooltip-bg: rgba(0, 0, 0, 0.85);
+    --color-tooltip-text: #eeeeee;
+    --color-panel-shadow: rgba(0, 0, 0, 0.12);
+    --color-dropdown-shadow: rgba(0, 0, 0, 0.15);
+}
+
+:root[data-theme='dark'] {
+    --color-page-bg: #121212;
+    --color-surface: #1e1e1e;
+    --color-surface-muted: #2a2a2a;
+    --color-surface-raised: #262626;
+    --color-text: #e8e8e8;
+    --color-text-muted: #b3b3b3;
+    --color-border: #3a3a3a;
+    --color-card-border: #333333;
+    --color-control-border: #8c8c8c;
+    --color-search-border: #{$color--secondary};
+    --color-input-bg: #2a2a2a;
+    --color-placeholder: #a6a6a6;
+    --color-link: #64b5f6;
+    --color-focus: #90caf9;
+    --color-selection: rgba(255, 255, 255, 0.2);
+    --color-bar-bg: #1a1a1a;
+    --color-icon: #e8e8e8;
+    --color-avatar: #b3b3b3;
+    --color-icon-hover-bg: #e8e8e8;
+    --color-icon-hover-fg: #121212;
+    --color-stats-bg: #1565c0;
+    --color-stats-tile-bg: #121212;
+    --color-tooltip-bg: #eeeeee;
+    --color-tooltip-text: #212121;
+    --color-panel-shadow: rgba(0, 0, 0, 0.5);
+    --color-dropdown-shadow: rgba(0, 0, 0, 0.6);
+}
+
 .leaflet-container {
     height: 100%;
     width: 100%;
+    background-color: var(--color-surface-muted);
+}
+
+/* App-owned Leaflet UI surfaces (map tiles keep their own colors) */
+[data-theme='dark'] {
+    .leaflet-bar a,
+    .leaflet-popup-content-wrapper,
+    .leaflet-popup-tip,
+    .leaflet-tooltip {
+        background-color: var(--color-surface-raised);
+        color: var(--color-text);
+        border-color: var(--color-border);
+    }
+
+    .leaflet-bar a:hover,
+    .leaflet-bar a:focus {
+        background-color: var(--color-surface-muted);
+    }
+
+    .leaflet-bar a.leaflet-disabled {
+        background-color: var(--color-surface);
+        color: var(--color-text-muted);
+    }
+
+    .leaflet-tooltip-top:before {
+        border-top-color: var(--color-surface-raised);
+    }
+    .leaflet-tooltip-bottom:before {
+        border-bottom-color: var(--color-surface-raised);
+    }
+    .leaflet-tooltip-left:before {
+        border-left-color: var(--color-surface-raised);
+    }
+    .leaflet-tooltip-right:before {
+        border-right-color: var(--color-surface-raised);
+    }
+
+    .leaflet-container .leaflet-control-attribution {
+        background-color: rgba(30, 30, 30, 0.85);
+        color: var(--color-text);
+
+        a {
+            color: var(--color-link);
+        }
+    }
+
+    .leaflet-container a.leaflet-popup-close-button {
+        color: var(--color-text-muted);
+    }
 }
 
 /* Map loading state */
@@ -40,13 +157,12 @@ $colors: (
     display: flex;
     align-items: center;
     justify-content: center;
-    background:
-        linear-gradient(
-            135deg,
-            rgba(33, 150, 243, 0.08),
-            rgba(255, 193, 7, 0.08)
-        );
-    color: $color--additional3;
+    background: linear-gradient(
+        135deg,
+        rgba(33, 150, 243, 0.08),
+        rgba(255, 193, 7, 0.08)
+    );
+    color: var(--color-text);
 }
 
 .map-skeleton__content {
@@ -108,7 +224,7 @@ $colors: (
 /* ==================================================================================================== */
 
 ::selection {
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: var(--color-selection);
 }
 
 * {
@@ -136,12 +252,63 @@ body {
     min-width: 22.25rem;
     font-family: 'Roboto Condensed', sans-serif;
     cursor: default;
+    background-color: var(--color-page-bg);
+    color: var(--color-text);
 }
 
-a,
-img,
-input {
+button,
+input,
+select {
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+a:focus:not(:focus-visible),
+img:focus:not(:focus-visible),
+input:focus:not(:focus-visible) {
     outline: none;
+}
+
+:focus-visible {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 2px;
+}
+
+.app-bar {
+    background-color: var(--color-bar-bg);
+    color: var(--color-bar-text);
+    --color-search-border: #{$color--secondary};
+
+    :focus-visible {
+        outline-color: var(--color-bar-focus);
+    }
+}
+
+[data-theme='dark'] header.app-bar {
+    border-bottom: 1px solid var(--color-border);
+}
+
+[data-theme='dark'] footer.app-bar {
+    border-top: 1px solid var(--color-border);
+}
+
+/* Navbar items (Map/Home, Shuffle, theme toggle) */
+.nav-button {
+    background: none;
+    border: 0;
+    padding: 0;
+    color: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    border-radius: 2px;
+}
+
+.surface-panel {
+    background-color: var(--color-surface);
+    color: var(--color-text);
 }
 
 header {
@@ -284,6 +451,9 @@ header {
     input {
         width: 11rem;
         padding: 0.3rem;
+        background-color: var(--color-input-bg);
+        color: var(--color-text);
+        border-color: var(--color-search-border);
     }
     input::selection {
         background: rgba(255, 255, 255, 0.15);
@@ -292,19 +462,13 @@ header {
         background: rgba(255, 255, 255, 0.15);
     }
     input::placeholder {
-        color: $color--additional2;
+        color: var(--color-placeholder);
         opacity: 1;
-    }
-    input:focus::-ms-input-placeholder {
-        color: $color--additional2;
-    }
-    input:focus:-ms-input-placeholder {
-        color: $color--additional2;
     }
     input:focus,
     input:not(:placeholder-shown) {
-        color: #000000;
-        border-color: $color--primary;
+        color: var(--color-text);
+        border-color: var(--color-focus);
     }
 }
 
@@ -328,15 +492,16 @@ header {
 
     visibility: hidden;
     width: 220px;
-    background-color: rgba(0, 0, 0, 0.75);
-    color: #dddddd;
+    background-color: var(--color-tooltip-bg);
+    color: var(--color-tooltip-text);
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
-.searchbox-tooltip:hover .tooltiptext {
+/* Show the tooltip text on mouse over or keyboard focus */
+.searchbox-tooltip:hover .tooltiptext,
+.searchbox-tooltip:focus-within .tooltiptext {
     visibility: visible;
 }
 
@@ -346,6 +511,9 @@ main {
     .card {
         min-height: 26rem;
         height: auto;
+        background-color: var(--color-surface);
+        color: var(--color-text);
+        border: 1px solid var(--color-card-border);
 
         .header {
             padding-top: 1.5rem;
@@ -362,6 +530,9 @@ main {
 
         .header .name {
             height: 3.5rem;
+        }
+        .header .photo--fallback {
+            color: var(--color-avatar);
         }
         .footer {
             box-sizing: border-box;
@@ -402,7 +573,7 @@ main {
             z-index: 1;
 
             svg {
-                fill: #000000;
+                fill: var(--color-icon);
 
                 path {
                     cursor: pointer;
@@ -422,35 +593,55 @@ main {
             z-index: -1;
         }
 
-        &:hover .header {
-            background-color: $color--primary;
+        &:hover .header,
+        &:focus-within .header {
+            background-color: var(--color-card-hover-header-bg);
+            color: var(--color-card-hover-header-text);
         }
-        &:hover .header .photo {
+        &:hover .header .photo,
+        &:focus-within .header .photo {
             border: 0.25rem solid $color--secondary;
             @include custom--box-shadow(0, 3, 3, -2, 0, 3, 4, 0, 0, 1, 8, 0);
         }
-        &:hover .header .personId {
+        &:hover .header .photo--fallback,
+        &:focus-within .header .photo--fallback {
+            color: var(--color-avatar-hover);
+        }
+        &:hover .header .personId,
+        &:focus-within .header .personId {
             opacity: 1;
         }
-        &:hover .header .title {
-            color: #ffffff;
-            background-color: $color--primary-dark;
+        &:hover .header .title,
+        &:focus-within .header .title {
+            color: var(--color-card-hover-title-text);
+            background-color: var(--color-card-hover-title-bg);
             word-break: break-word;
             white-space: normal;
             overflow: hidden;
         }
-        &:hover .footer {
-            background-color: $color--additional1;
+        &:hover .footer,
+        &:focus-within .footer {
+            background-color: var(--color-surface-muted);
             word-break: break-word;
             white-space: normal;
             overflow: hidden;
         }
 
-        .main a:hover svg {
-            fill: #ffffff;
+        .main a:hover svg,
+        .main a:focus-visible svg {
+            fill: var(--color-icon-hover-fg);
         }
-        .main a:hover::before {
-            background-color: $color--additional3;
+        .main a:hover::before,
+        .main a:focus-visible::before {
+            background-color: var(--color-icon-hover-bg);
+        }
+        .main a:focus-visible {
+            outline: none;
+        }
+        .main a:focus-visible::before {
+            box-shadow:
+                0 0 0 2px var(--color-surface),
+                0 0 0 4px var(--color-focus);
         }
     }
 
@@ -610,9 +801,13 @@ footer {
     right: 20px;
     z-index: 100;
 
-    div {
-        background-color: #2196f3;
-        color: white;
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $color--primary-dark;
+        color: #ffffff;
+        border: 0;
         width: 40px;
         padding: 8px;
         height: 40px;
@@ -620,13 +815,149 @@ footer {
     }
 }
 .sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+/* ==================================================================================================== */
+
+.profile-filters {
+    background-color: var(--color-surface);
+    color: var(--color-text);
+    box-shadow: 0 2px 8px var(--color-panel-shadow);
+    border: 1px solid var(--color-card-border);
+}
+
+.profile-filters__clear {
+    background: none;
+    border: 0;
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+    color: var(--color-link);
+    border-radius: 4px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.profile-filters__control {
+    font-size: 1rem;
+    background-color: var(--color-input-bg);
+    color: var(--color-text);
+    border: 1px solid var(--color-control-border);
+
+    &::placeholder {
+        color: var(--color-placeholder);
+        opacity: 1;
+    }
+}
+
+button.profile-filters__control:hover,
+button.profile-filters__control[aria-expanded='true'] {
+    background-color: var(--color-surface-muted);
+}
+
+.profile-filters__dropdown {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    left: 0;
+    width: 100%;
+    background-color: var(--color-surface-raised);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    padding: 0.75rem;
+    box-shadow: 0 4px 12px var(--color-dropdown-shadow);
+    z-index: 10;
+}
+
+.profile-filters__options {
+    max-height: 220px;
+    overflow-y: auto;
+    margin-top: 0.5rem;
+}
+
+.profile-filters__option {
+    border-radius: 4px;
+
+    &:hover {
+        background-color: var(--color-surface-muted);
+    }
+
+    input {
+        accent-color: var(--color-link);
+    }
+}
+
+.profile-stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--color-stats-bg);
+}
+
+.profile-stats__tile {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--color-stats-tile-bg);
+    color: var(--color-stats-text);
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.profile-stats__label {
+    font-size: 20px;
+}
+
+.profile-stats__value {
+    font-size: 25px;
+}
+
+.empty-state {
+    margin: 2rem auto;
+    padding: 2rem 1rem;
+    max-width: 32rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-surface);
+    color: var(--color-text-muted);
+    border: 1px solid var(--color-border);
+
+    p {
+        margin: 0;
+    }
+}
+
+.empty-state__title {
+    color: var(--color-text);
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem !important;
+}
+
+.theme-button {
+    background-color: transparent;
+    color: var(--color-text);
+    border: 1px solid var(--color-control-border);
+
+    &:hover:not(:disabled) {
+        background-color: var(--color-text);
+        color: var(--color-page-bg);
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+        color: var(--color-text-muted);
+        border-color: var(--color-border);
+    }
 }
