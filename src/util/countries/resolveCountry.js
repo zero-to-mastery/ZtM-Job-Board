@@ -115,11 +115,12 @@ const PARENTHETICAL = /[([]([^()[\]]*)(?:[)\]]|$)/g
 
 /**
  * @param {string} key a normalised key
+ * @param {boolean} [allowStatements] whether preference suffixes may be removed
  * @returns {{ kind: 'country', code: string }
  *   | { kind: 'ambiguous' | 'not-a-country', reason: string }
  *   | { kind: 'statement' | 'unknown' | 'empty' }}
  */
-function classifyKey(key) {
+function classifyKey(key, allowStatements = true) {
     if (!key) return { kind: 'empty' }
     if (AMBIGUOUS_INDEX.has(key)) {
         return { kind: 'ambiguous', reason: AMBIGUOUS_INDEX.get(key) }
@@ -133,6 +134,7 @@ function classifyKey(key) {
     if (/^[a-z]{2}$/.test(key)) {
         return { kind: 'ambiguous', reason: TWO_LETTER_REASON }
     }
+    if (!allowStatements) return { kind: 'unknown' }
 
     const statement = STATEMENT_PATTERN.exec(key)
     if (statement) {
@@ -151,20 +153,56 @@ function classifyKey(key) {
 }
 
 function collect(text, acc) {
-    const classification = classifyKey(normalizeCountryKey(text))
+    const key = normalizeCountryKey(text)
     const fragment = text.trim()
+    const direct = classifyKey(key, false)
+    const classification = classifyKey(key)
+    const hasStatement =
+        direct.kind === 'unknown' && STATEMENT_PATTERN.test(key)
+
+    // Exact names (including aliases with punctuation) win before splitting.
+    // Preference scope ends at a closing bracket, but not at a list separator.
+    if (direct.kind === 'unknown') {
+        const parentheticals = [...text.matchAll(PARENTHETICAL)]
+        if (parentheticals.length > 0) {
+            let offset = 0
+            for (const match of parentheticals) {
+                if (collect(text.slice(offset, match.index), acc)) return true
+                collect(match[1], acc)
+                offset = match.index + match[0].length
+            }
+            return collect(text.slice(offset), acc)
+        }
+
+        if (!hasStatement || classification.kind === 'unknown') {
+            const parts = text.split(LOCATION_SEPARATOR)
+            if (parts.length > 1) {
+                for (const part of parts) {
+                    if (collect(part, acc)) return true
+                }
+                return false
+            }
+
+            if (text.includes('&')) {
+                for (const part of text.split('&')) {
+                    if (collect(part, acc)) return true
+                }
+                return false
+            }
+        }
+    }
 
     switch (classification.kind) {
         case 'empty':
-            return
+            return false
         case 'country':
             if (!acc.countries.includes(classification.code)) {
                 acc.countries.push(classification.code)
             }
-            return
+            return hasStatement
         case 'statement':
             acc.statements += 1
-            return
+            return true
         case 'ambiguous':
         case 'not-a-country':
             acc.issues.push({
@@ -172,26 +210,7 @@ function collect(text, acc) {
                 type: classification.kind,
                 reason: classification.reason,
             })
-            return
-    }
-
-    // Unknown as a whole: try to split it into smaller pieces.
-    const parentheticals = [...text.matchAll(PARENTHETICAL)]
-    if (parentheticals.length > 0) {
-        collect(text.replace(PARENTHETICAL, ' '), acc)
-        for (const match of parentheticals) collect(match[1], acc)
-        return
-    }
-
-    const parts = text.split(LOCATION_SEPARATOR)
-    if (parts.length > 1) {
-        for (const part of parts) collect(part, acc)
-        return
-    }
-
-    if (text.includes('&')) {
-        for (const part of text.split('&')) collect(part, acc)
-        return
+            return hasStatement
     }
 
     acc.issues.push({
@@ -199,6 +218,7 @@ function collect(text, acc) {
         type: 'unknown',
         reason: 'Not a recognised country name or alias',
     })
+    return hasStatement
 }
 
 /**
