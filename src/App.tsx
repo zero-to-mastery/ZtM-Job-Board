@@ -97,6 +97,10 @@ function App() {
         setSearchfield('')
     }
 
+    function goHome() {
+        if (map) goBack()
+    }
+
     function shufflePeopleOnClick() {
         shuffle(people)
         forceUpdate()
@@ -106,7 +110,7 @@ function App() {
         <div className="flex flex-column min-vh-100 tc">
             <header className="custom--unselectable top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-9999">
                 <Navbar
-                    onLogoClick={goBack}
+                    onLogoClick={goHome}
                     onSearchChange={(e: any) => setSearchfield(e.target.value)}
                     onMapClick={goBack}
                     mapOrHomeTitle={mapOrHomeTitle}
