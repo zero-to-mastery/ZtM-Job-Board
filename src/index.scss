@@ -40,12 +40,11 @@ $colors: (
     display: flex;
     align-items: center;
     justify-content: center;
-    background:
-        linear-gradient(
-            135deg,
-            rgba(33, 150, 243, 0.08),
-            rgba(255, 193, 7, 0.08)
-        );
+    background: linear-gradient(
+        135deg,
+        rgba(33, 150, 243, 0.08),
+        rgba(255, 193, 7, 0.08)
+    );
     color: $color--additional3;
 }
 
@@ -620,13 +619,13 @@ footer {
     }
 }
 .sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
