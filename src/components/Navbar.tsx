@@ -4,7 +4,7 @@ import '../styles/SearchBarDesktopView.scss'
 import { pageNames } from '../util/pageNames'
 import { shuffle } from '../util/shuffle'
 import { Pointer } from './Pointer'
-import ztmMark from '../assets/ztm-mark.svg'
+import ztmLogo from '../assets/ztm-logo.svg?raw'
 
 const Navbar = ({
     onSearchChange,
@@ -46,13 +46,11 @@ const Navbar = ({
                     aria-label="Zero To Mastery Job Board, home"
                     className="title-home pointer"
                 >
-                    <img
-                        src={ztmMark}
-                        alt=""
+                    {/* Inlined so the "ZTM" letters (fill="currentColor") follow the header text color */}
+                    <span
                         aria-hidden="true"
-                        width="464"
-                        height="474"
-                        className="h2 w-auto mr2 v-top"
+                        className="title-logo"
+                        dangerouslySetInnerHTML={{ __html: ztmLogo }}
                     />
                     <span className="fw3">Job</span>
                     <span className="fw7 custom--text-primary">Board</span>

@@ -241,6 +241,9 @@ header {
 
     /* Reset the global button styles so the title looks like plain text */
     #title .title-home {
+        display: inline-flex;
+        align-items: center;
+        vertical-align: top;
         margin: 0;
         padding: 0;
         border: 0;
@@ -251,6 +254,20 @@ header {
         line-height: inherit;
         letter-spacing: inherit;
         text-align: inherit;
+    }
+
+    /* Mark + "ZTM" wordmark; the letters use currentColor, so override the SVG's own color */
+    #title .title-logo {
+        display: inline-block;
+        /* zerotomastery.io leaves about one logo height between the logo and the next item */
+        margin-right: 2rem;
+
+        svg {
+            display: block;
+            width: auto;
+            height: 2rem;
+            color: inherit;
+        }
     }
 
     /* The header is always dark, so the amber accent stays visible in both themes */
