@@ -228,9 +228,6 @@ describe('ProfileFilters role dropdown', () => {
                     skills={[]}
                     selectedSkills={[]}
                     onSkillChange={() => {}}
-                    sortOption="default"
-                    onSortChange={() => {}}
-                    onClear={() => {}}
                     {...props}
                 />
             )
@@ -248,7 +245,8 @@ describe('ProfileFilters role dropdown', () => {
             onRoleChange,
             selectedRoles: ['frontend-developer', 'mobile-developer'],
         })
-        expect(button.textContent).toBe('Role (2)')
+        // Label, then the first selection and how many more
+        expect(button.textContent).toBe('RoleFrontend Developer +1')
 
         const labels = Array.from(container.querySelectorAll('label'))
         expect(labels.map((l) => l.textContent?.trim())).toEqual([
@@ -269,7 +267,7 @@ describe('ProfileFilters role dropdown', () => {
     test('the role search filters by label', () => {
         render({})
         const input = container.querySelector(
-            'input[placeholder="Search role..."]'
+            'input[aria-label="Search roles"]'
         ) as HTMLInputElement
         const setValue = Object.getOwnPropertyDescriptor(
             HTMLInputElement.prototype,

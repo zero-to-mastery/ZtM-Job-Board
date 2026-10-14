@@ -2,8 +2,7 @@ import React, { act } from 'react'
 import { createRoot, Root } from 'react-dom/client'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { DARK_SCHEME_QUERY, THEME_STORAGE_KEY } from './theme'
-import useTheme from './useTheme'
-import { Pointer } from '../components/Pointer'
+import ThemeToggle from '../components/ThemeToggle'
 ;(globalThis as any).IS_REACT_ACT_ENVIRONMENT = true
 
 // A controllable stand-in for window.matchMedia
@@ -28,18 +27,6 @@ const mockSystemTheme = (initial: 'light' | 'dark') => {
             act(() => listeners.forEach((l) => l({ matches: query.matches })))
         },
     }
-}
-
-const ThemeToggle = () => {
-    const { theme, toggleTheme } = useTheme()
-    const isDarkMode = theme === 'dark'
-    return (
-        <Pointer
-            onClick={toggleTheme}
-            Text={isDarkMode ? 'Light Mode' : 'Dark Mode'}
-            TooltipText={`Click to enable ${isDarkMode ? 'light' : 'dark'} mode`}
-        />
-    )
 }
 
 let container: HTMLDivElement
@@ -71,7 +58,9 @@ describe('useTheme', () => {
         mockSystemTheme('dark')
         render()
         expect(activeTheme()).toBe('dark')
-        expect(getButton().textContent).toBe('Light Mode')
+        expect(getButton().getAttribute('aria-label')).toBe(
+            'Switch to light mode'
+        )
     })
 
     it('falls back to the system theme for invalid saved values', () => {
@@ -84,7 +73,9 @@ describe('useTheme', () => {
     it('falls back to light when system detection is unavailable', () => {
         render()
         expect(activeTheme()).toBe('light')
-        expect(getButton().textContent).toBe('Dark Mode')
+        expect(getButton().getAttribute('aria-label')).toBe(
+            'Switch to dark mode'
+        )
     })
 
     it('prefers a saved theme over the system theme', () => {
@@ -101,7 +92,9 @@ describe('useTheme', () => {
         act(() => getButton().click())
         expect(activeTheme()).toBe('dark')
         expect(localStorage.getItem(THEME_STORAGE_KEY)).toBe('dark')
-        expect(getButton().textContent).toBe('Light Mode')
+        expect(getButton().getAttribute('aria-label')).toBe(
+            'Switch to light mode'
+        )
         expect(container.querySelector('[role="tooltip"]')?.textContent).toBe(
             'Click to enable light mode'
         )
@@ -109,7 +102,9 @@ describe('useTheme', () => {
         act(() => getButton().click())
         expect(activeTheme()).toBe('light')
         expect(localStorage.getItem(THEME_STORAGE_KEY)).toBe('light')
-        expect(getButton().textContent).toBe('Dark Mode')
+        expect(getButton().getAttribute('aria-label')).toBe(
+            'Switch to dark mode'
+        )
     })
 
     it('restores a saved manual choice after a reload', () => {
@@ -128,7 +123,9 @@ describe('useTheme', () => {
         render()
         system.change('dark')
         expect(activeTheme()).toBe('dark')
-        expect(getButton().textContent).toBe('Light Mode')
+        expect(getButton().getAttribute('aria-label')).toBe(
+            'Switch to light mode'
+        )
         system.change('light')
         expect(activeTheme()).toBe('light')
     })
@@ -154,12 +151,16 @@ describe('useTheme', () => {
         system.change('dark')
         system.change('light')
         expect(activeTheme()).toBe('dark')
-        expect(getButton().textContent).toBe('Light Mode')
+        expect(getButton().getAttribute('aria-label')).toBe(
+            'Switch to light mode'
+        )
 
         act(() => getButton().click())
         system.change('dark')
         expect(activeTheme()).toBe('light')
-        expect(getButton().textContent).toBe('Dark Mode')
+        expect(getButton().getAttribute('aria-label')).toBe(
+            'Switch to dark mode'
+        )
     })
 
     it('keeps a manual selection when storage reads become unavailable', () => {

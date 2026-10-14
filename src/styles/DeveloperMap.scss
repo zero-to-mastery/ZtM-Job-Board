@@ -1,0 +1,498 @@
+// Developer map, results panel and popups.
+// Colors come from the custom properties in theme.scss.
+
+.devmap {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 22.5rem;
+    gap: 1rem;
+    height: 78vh;
+    min-height: 30rem;
+    text-align: left;
+    color: var(--dm-text);
+
+    @media screen and (max-width: 760px) {
+        grid-template-columns: minmax(0, 1fr);
+        height: auto;
+    }
+}
+
+.devmap__map {
+    position: relative;
+    // Keeps Leaflet's pane and control z-indexes (400–1000) inside the map
+    // so the filter dropdowns above it are not covered
+    isolation: isolate;
+    min-height: 0;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: var(--dm-shadow);
+
+    @media screen and (max-width: 760px) {
+        height: 60vh;
+    }
+}
+
+.devmap__panel {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    background: var(--dm-surface);
+    border-radius: 6px;
+    box-shadow: var(--dm-shadow);
+    overflow: hidden;
+}
+
+.devmap__panel-header {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--dm-border);
+    background: var(--dm-surface-alt);
+}
+
+.devmap__count {
+    margin: 0 0 0.4rem;
+    font-weight: 700;
+}
+
+.devmap__note {
+    margin: 0.4rem 0 0;
+    color: var(--dm-muted);
+    font-size: 0.9rem;
+}
+
+.devmap-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.devmap-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    flex: 1 1 auto;
+
+    @media screen and (max-width: 760px) {
+        overflow-y: visible;
+    }
+}
+
+.devmap-entry {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--dm-border);
+    border-left: 4px solid transparent;
+}
+
+.devmap-entry--selected {
+    background: var(--dm-selected);
+    border-left-color: var(--dm-primary);
+}
+
+// Element-level button styles elsewhere set a large font and colors;
+// two classes keep these rules ahead of them in both themes
+.devmap .devmap-entry__select {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    width: 100%;
+    padding: 0.6rem 0.75rem 0.25rem;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    color: var(--dm-text);
+    font: inherit;
+    font-size: 1rem;
+    text-align: left;
+    cursor: pointer;
+
+    &:hover {
+        background: var(--dm-selected);
+    }
+}
+
+.devmap-entry__text {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.devmap-entry__name {
+    font-weight: 700;
+    color: var(--dm-primary-text);
+}
+
+.devmap-entry__meta {
+    color: var(--dm-muted);
+    font-size: 0.9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.devmap-entry__actions {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0 0.75rem 0.5rem 3.5rem;
+}
+
+.devmap-avatar {
+    flex: 0 0 auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--dm-primary);
+    background: var(--dm-surface-alt);
+}
+
+.devmap-avatar--large {
+    width: 56px;
+    height: 56px;
+    border-width: 3px;
+}
+
+// Same placeholder colors as the profile cards
+.devmap-avatar--fallback {
+    color: var(--color-avatar);
+}
+
+.devmap-links {
+    display: flex;
+    gap: 0.25rem;
+    margin-top: 0.5rem;
+}
+
+.devmap .devmap-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    color: var(--dm-text);
+
+    &:hover {
+        background: var(--dm-text);
+        color: var(--dm-surface);
+    }
+
+    svg {
+        width: 1.25rem;
+        height: 1.25rem;
+        fill: currentColor;
+    }
+}
+
+.devmap .devmap-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.35rem 0.75rem;
+    border: 1px solid var(--dm-border);
+    border-radius: 4px;
+    background: var(--dm-surface);
+    color: var(--dm-text);
+    font: inherit;
+    font-size: 0.95rem;
+    cursor: pointer;
+
+    &:hover {
+        border-color: var(--dm-primary);
+    }
+}
+
+.devmap .devmap-more {
+    margin: 0.75rem auto;
+}
+
+.devmap-empty {
+    padding: 1rem;
+    color: var(--dm-muted);
+}
+
+.devmap-badge {
+    display: inline-block;
+    margin-left: 0.4rem;
+    padding: 0 0.35rem;
+    border: 1px dashed var(--dm-muted);
+    border-radius: 3px;
+    font-size: 0.75rem;
+    color: var(--dm-muted);
+}
+
+// Visible focus for every control in the map and panel. The global
+// stylesheet removes outlines from links and inputs, so restore them here.
+.devmap a:focus-visible,
+.devmap button:focus-visible,
+.devmap input:focus-visible,
+.devmap select:focus-visible,
+.devmap .devmap-marker:focus-visible,
+.devmap .leaflet-container:focus-visible,
+.devmap .devmap__count:focus-visible,
+.devmap .leaflet-control a:focus-visible {
+    outline: 3px solid var(--dm-focus);
+    outline-offset: 2px;
+}
+
+// Markers
+.devmap .devmap-marker {
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+}
+
+.devmap-pin {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid var(--dm-primary);
+    background: var(--dm-surface);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.devmap-pin__initials {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--dm-text);
+}
+
+.devmap-pin__photo {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+// Country-only developers: dashed amber ring, slightly see-through
+.devmap-pin--approximate {
+    border-style: dashed;
+    border-color: #b28704;
+    opacity: 0.85;
+}
+
+.devmap-pin--selected {
+    border-color: var(--dm-accent);
+    border-style: solid;
+    box-shadow:
+        0 0 0 3px var(--dm-text),
+        0 2px 8px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
+.devmap-cluster {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(33, 150, 243, 0.9);
+    border: 3px solid rgba(255, 255, 255, 0.85);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+// Popups follow the theme
+.devmap .leaflet-popup-content-wrapper,
+.devmap .leaflet-popup-tip {
+    background: var(--dm-surface);
+    color: var(--dm-text);
+    box-shadow: var(--dm-shadow);
+}
+
+.devmap .leaflet-popup-content {
+    margin: 0.75rem 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+}
+
+.devmap .leaflet-container a.leaflet-popup-close-button {
+    color: var(--dm-muted);
+}
+
+.devmap-card__header {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+}
+
+.devmap-card__text {
+    min-width: 0;
+}
+
+.devmap-card__name {
+    margin: 0;
+    font-size: 1.15rem;
+    color: var(--dm-primary-text);
+}
+
+.devmap-card__title,
+.devmap-card__location {
+    margin: 0.15rem 0 0;
+    color: var(--dm-muted);
+}
+
+.devmap-card__extra {
+    margin: 0.5rem 0 0;
+    font-size: 0.9rem;
+}
+
+// Leaflet gives popup paragraphs large default margins
+.devmap .leaflet-popup-content .devmap-card p,
+.devmap .leaflet-popup-content .devmap-card h3 {
+    margin: 0.15rem 0 0;
+}
+
+// Hidden until it receives keyboard focus
+.devmap .devmap-skip {
+    position: absolute;
+    left: -9999px;
+    z-index: 1000;
+
+    &:focus {
+        left: 1rem;
+    }
+}
+
+.devmap {
+    position: relative;
+}
+
+// Shortlist
+.devmap-shortlist {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+}
+
+.devmap .devmap-button[aria-pressed='true'] {
+    background: var(--dm-primary);
+    border-color: var(--dm-primary);
+    color: #ffffff;
+}
+
+.devmap .devmap-button--danger {
+    background: var(--dm-danger);
+    border-color: var(--dm-danger);
+    color: var(--dm-on-danger);
+    font-weight: 600;
+
+    &:hover {
+        border-color: var(--dm-text);
+    }
+}
+
+// Confirmation dialog; padding sits on the content so backdrop clicks
+// are the only clicks that land on the <dialog> itself
+.devmap-dialog {
+    width: min(26rem, calc(100vw - 2rem));
+    padding: 0;
+    border: 1px solid var(--dm-border);
+    border-radius: 10px;
+    background: var(--dm-surface);
+    color: var(--dm-text);
+    box-shadow: var(--dm-shadow);
+    text-align: left;
+
+    &::backdrop {
+        background: var(--dm-backdrop);
+    }
+}
+
+.devmap-dialog__content {
+    padding: 1.25rem;
+}
+
+.devmap-dialog__title {
+    margin: 0 0 0.5rem;
+    font-size: 1.15rem;
+}
+
+.devmap-dialog__message {
+    margin: 0;
+    color: var(--dm-muted);
+    line-height: 1.45;
+}
+
+.devmap-dialog__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    margin-top: 1.25rem;
+}
+
+.devmap .devmap-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.devmap-status {
+    flex-basis: 100%;
+    min-height: 0;
+    color: var(--dm-muted);
+    font-size: 0.85rem;
+
+    &:empty {
+        display: none;
+    }
+}
+
+.devmap .devmap-icon-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--dm-text);
+    font-size: 1.3rem;
+    line-height: 1;
+    cursor: pointer;
+
+    &:hover {
+        background: var(--dm-selected);
+    }
+
+    svg {
+        width: 1.25rem;
+        height: 1.25rem;
+        fill: currentColor;
+    }
+}
+
+// Amber star; dark outline keeps it visible on light popups
+.devmap .devmap-star-button[aria-pressed='true'] {
+    color: #b28704;
+}
+
+[data-theme='dark'] body .devmap .devmap-star-button[aria-pressed='true'] {
+    color: var(--dm-accent);
+}
+
+.devmap-pin__star {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    color: var(--dm-accent);
+    font-size: 16px;
+    line-height: 1;
+    text-shadow:
+        0 0 2px #000000,
+        0 0 2px #000000;
+}

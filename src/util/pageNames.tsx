@@ -1,4 +1,4 @@
 export const pageNames = {
-    home: 'Home',
+    directory: 'Directory',
     map: 'Map',
 }

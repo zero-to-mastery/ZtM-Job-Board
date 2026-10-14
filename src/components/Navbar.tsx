@@ -1,31 +1,22 @@
 import React from 'react'
-import Search from './Search'
-import '../styles/SearchBarDesktopView.scss'
 import { pageNames } from '../util/pageNames'
 import { Pointer } from './Pointer'
 import ztmLogo from '../assets/ztm-logo.svg?raw'
-import useTheme from '../util/useTheme'
+import ThemeToggle from './ThemeToggle'
 
 interface NavbarProps {
-    onSearchChange: (event: React.ChangeEvent<HTMLInputElement>) => void
-    searchValue: string
     onMapClick: () => void
     onTitleClick: () => void
-    mapOrHomeTitle: string
+    mapOrDirectoryTitle: string
     shufflePeopleOnClick: () => void
 }
 
 const Navbar = ({
-    onSearchChange,
-    searchValue,
     onMapClick,
     onTitleClick,
-    mapOrHomeTitle,
+    mapOrDirectoryTitle,
     shufflePeopleOnClick,
 }: NavbarProps) => {
-    const { theme, toggleTheme } = useTheme()
-    const isDarkMode = theme === 'dark'
-
     return (
         <div className="header-items flex flex-wrap justify-between">
             <h1 id="title" className="relative ma0 mr4 pa0 fl-l">
@@ -55,37 +46,21 @@ const Navbar = ({
             <div className="flex items-center">
                 <Pointer
                     onClick={onMapClick}
-                    Text={mapOrHomeTitle}
+                    Text={mapOrDirectoryTitle}
                     TooltipText={
-                        mapOrHomeTitle === 'Home'
-                            ? 'Go to Home Page'
+                        mapOrDirectoryTitle === pageNames.directory
+                            ? 'Back to the developer directory'
                             : 'See the Map'
                     }
                 />
-                {mapOrHomeTitle !== 'Home' && (
+                {mapOrDirectoryTitle !== pageNames.directory && (
                     <Pointer
                         onClick={shufflePeopleOnClick}
                         Text="Shuffle"
                         TooltipText="Click to shuffle the Cards"
                     />
                 )}
-                {mapOrHomeTitle === pageNames.map && (
-                    <div
-                        style={{ margin: 0, padding: 0 }}
-                        className="visible-on-desktopview-only"
-                    >
-                        <Search
-                            onSearchChange={onSearchChange}
-                            value={searchValue}
-                        />
-                    </div>
-                )}
-                {/* Dark mode toggle button */}
-                <Pointer
-                    onClick={toggleTheme}
-                    Text={isDarkMode ? 'Light Mode' : 'Dark Mode'}
-                    TooltipText={`Click to enable ${isDarkMode ? 'light' : 'dark'} mode`}
-                />
+                <ThemeToggle />
             </div>
         </div>
     )

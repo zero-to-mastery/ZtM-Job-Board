@@ -39,7 +39,6 @@ $colors: (
     --color-card-border: transparent;
     --color-control-border: #767676;
     // Deeper amber so the search box stays outlined on white panels
-    --color-search-border: #a67c00;
     --color-input-bg: #ffffff;
     --color-placeholder: #6b6b6b;
     --color-link: #1565c0;
@@ -76,7 +75,6 @@ $colors: (
     --color-border: #3a3a3a;
     --color-card-border: #333333;
     --color-control-border: #8c8c8c;
-    --color-search-border: #{$color--secondary};
     --color-input-bg: #2a2a2a;
     --color-placeholder: #a6a6a6;
     --color-link: #64b5f6;
@@ -280,7 +278,6 @@ input:focus:not(:focus-visible) {
 .app-bar {
     background-color: var(--color-bar-bg);
     color: var(--color-bar-text);
-    --color-search-border: #{$color--secondary};
 
     :focus-visible {
         outline-color: var(--color-bar-focus);
@@ -304,6 +301,17 @@ input:focus:not(:focus-visible) {
     font-family: inherit;
     line-height: inherit;
     border-radius: 2px;
+}
+
+.theme-toggle__icon {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 
 .surface-panel {
@@ -490,33 +498,6 @@ header {
     }
     input:checked::after {
         border-color: #ffffff;
-    }
-}
-
-.searchbox {
-    margin: 0 0.6rem 0 0;
-
-    input {
-        width: 11rem;
-        padding: 0.3rem;
-        background-color: var(--color-input-bg);
-        color: var(--color-text);
-        border-color: var(--color-search-border);
-    }
-    input::selection {
-        background: rgba(255, 255, 255, 0.15);
-    }
-    input::-moz-selection {
-        background: rgba(255, 255, 255, 0.15);
-    }
-    input::placeholder {
-        color: var(--color-placeholder);
-        opacity: 1;
-    }
-    input:focus,
-    input:not(:placeholder-shown) {
-        color: var(--color-text);
-        border-color: var(--color-focus);
     }
 }
 
@@ -874,75 +855,6 @@ footer {
     border: 0;
 }
 /* ==================================================================================================== */
-
-.profile-filters {
-    background-color: var(--color-surface);
-    color: var(--color-text);
-    box-shadow: 0 2px 8px var(--color-panel-shadow);
-    border: 1px solid var(--color-card-border);
-}
-
-.profile-filters__clear {
-    background: none;
-    border: 0;
-    padding: 0.25rem 0.5rem;
-    font-size: 1rem;
-    color: var(--color-link);
-    border-radius: 4px;
-
-    &:hover {
-        text-decoration: underline;
-    }
-}
-
-.profile-filters__control {
-    font-size: 1rem;
-    background-color: var(--color-input-bg);
-    color: var(--color-text);
-    border: 1px solid var(--color-control-border);
-
-    &::placeholder {
-        color: var(--color-placeholder);
-        opacity: 1;
-    }
-}
-
-button.profile-filters__control:hover,
-button.profile-filters__control[aria-expanded='true'] {
-    background-color: var(--color-surface-muted);
-}
-
-.profile-filters__dropdown {
-    position: absolute;
-    top: calc(100% + 0.5rem);
-    left: 0;
-    width: 100%;
-    background-color: var(--color-surface-raised);
-    color: var(--color-text);
-    border: 1px solid var(--color-border);
-    border-radius: 6px;
-    padding: 0.75rem;
-    box-shadow: 0 4px 12px var(--color-dropdown-shadow);
-    z-index: 10;
-}
-
-.profile-filters__options {
-    max-height: 220px;
-    overflow-y: auto;
-    margin-top: 0.5rem;
-}
-
-.profile-filters__option {
-    border-radius: 4px;
-
-    &:hover {
-        background-color: var(--color-surface-muted);
-    }
-
-    input {
-        accent-color: var(--color-link);
-    }
-}
 
 .profile-stats {
     display: flex;

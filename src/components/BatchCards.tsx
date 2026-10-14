@@ -20,15 +20,21 @@ const BatchCards = ({
     const visibleCount = batch * numberPerBatch
 
     return (
-        <div className="developer-results">
+        <div>
             {persons.length === 0 ? (
-                <div className="developer-results__empty">
-                    <h2>No developers match your criteria</h2>
+                <div className="empty-state" role="status">
+                    <p className="empty-state__title">
+                        No developers match your criteria
+                    </p>
                     <p>
                         Try removing a required skill or broadening your search,
                         country, or role filters.
                     </p>
-                    <button type="button" onClick={onClear}>
+                    <button
+                        type="button"
+                        className="theme-button pv2 ph3 mt3 br2 pointer"
+                        onClick={onClear}
+                    >
                         Clear filters
                     </button>
                 </div>

@@ -1,195 +1,183 @@
-import React, { useState, useMemo, lazy, Suspense } from 'react'
-import Search from './components/Search'
-import { shuffle } from './util/shuffle'
+import React, { useCallback, useEffect, useState, lazy, Suspense } from 'react'
 import MapSkeleton from './components/MapSkeleton'
-import './styles/SearchBarMobileView.scss'
 import BatchCards from './components/BatchCards'
-import ProfileFilters from './components/ProfileFilters'
+import DiscoveryFilters from './components/DiscoveryFilters'
 import Navbar from './components/Navbar'
-import persons from './assets/persons.json'
+import CountUp from 'react-countup'
+import { countryCount, people } from './data/people'
 import { pageNames } from './util/pageNames'
-import Person from './interfaces/person'
-import {
-    emptyCriteria,
-    filterProfiles,
-    ProfileCriteria,
-} from './util/filterProfiles'
-import { normalizeSkills } from './util/skills'
 import { getCountryOptions } from './util/countryFilters'
 import { getRoleOptions } from './util/roleFilters'
+import { normalizeSkills } from './util/skills'
+import { SENIORITY_LEVELS } from './util/roles/roleTaxonomy.js'
+import { LEVEL_NOT_STATED } from './util/filterPeople'
+import { contactSignals, ContactSignal } from './util/contactLinks'
+import { useDeveloperFilters } from './hooks/useDeveloperFilters'
+import { useNow } from './hooks/useNow'
+import { useShortlist } from './hooks/useShortlist'
+import { personIdFromHash } from './util/shortlist'
+import { selectedTimeZoneOffsetMinutes } from './util/timezone'
 import './styles/DeveloperDiscovery.scss'
-import CountUp from 'react-countup'
-import { countriesWithNumOfDevsObj } from './util/UsersDataCleanup'
 const SimpleMap = lazy(() => import('./components/Map'))
 
-const profiles: Person[] = persons
-const totalCountries = Object.keys(countriesWithNumOfDevsObj).length
-const countries = getCountryOptions(profiles)
-
-const roles = getRoleOptions(profiles)
+// Countries and roles are normalized during JSON aggregation
+const countries = getCountryOptions(people)
+const roles = getRoleOptions(people)
+// Self-reported skills, deduplicated case-insensitively
 const skills = normalizeSkills(
-    profiles.flatMap((person) => person.skills || [])
+    people.flatMap((person) => person.skills ?? [])
 ).sort((a, b) => a.localeCompare(b))
 
-const style: React.CSSProperties = {
-    padding: '1rem',
-    width: '100%',
-    margin: '0 0 2rem 0',
-    zIndex: 1,
-    borderRadius: '5px',
-}
-const responsiveSearch = {
-    width: '100%',
-    marginBottom: '0.5rem',
-    padding: '0.5rem',
-}
-function toggleSelection(current: string[], value: string) {
-    return current.includes(value)
-        ? current.filter((item) => item !== value)
-        : [...current, value]
-}
+// Seniority stated in job titles, in SENIORITY_LEVELS order, plus "not stated"
+const levels = [...SENIORITY_LEVELS, LEVEL_NOT_STATED]
+    .map((value) => ({
+        value,
+        count: people.filter(
+            (person) =>
+                (person.normalized?.seniority ?? LEVEL_NOT_STATED) === value
+        ).length,
+    }))
+    .filter(({ count }) => count > 0)
+
+const signalLabels: { value: ContactSignal; label: string }[] = [
+    { value: 'email', label: 'email' },
+    { value: 'portfolio', label: 'portfolio site' },
+    { value: 'linkedin', label: 'LinkedIn' },
+]
+const signals = signalLabels.map(({ value, label }) => ({
+    value,
+    label,
+    count: people.filter((person) => contactSignals(person).includes(value))
+        .length,
+}))
 
 function App() {
-    const [criteria, setCriteria] = useState<ProfileCriteria>(emptyCriteria)
-    const [filterResetKey, setFilterResetKey] = useState(0)
-    const [people, setPeople] = useState(() => {
-        const initialPeople = [...profiles]
-        shuffle(initialPeople)
-        return initialPeople
-    })
+    const now = useNow()
+    const developerFilters = useDeveloperFilters(people, now)
+    const { filters, results } = developerFilters
+
+    const shortlist = useShortlist()
 
     const [map, setMap] = useState(false)
-    const [mapOrHomeTitle, setMapOrHomeTitle] = useState(pageNames.map) // pageNames.map is default
+    const [mapOrDirectoryTitle, setMapOrDirectoryTitle] = useState(
+        pageNames.map
+    ) // pageNames.map is default
+    const [focusId, setFocusId] = useState<string | null>(null)
 
-    const filteredPersons = useMemo(
-        () => filterProfiles(people, criteria),
-        [people, criteria]
-    )
-
-    function onSearchChange(event: React.ChangeEvent<HTMLInputElement>) {
-        const search = event.target.value
-        setCriteria((current) => ({ ...current, search }))
+    function showMap(show: boolean) {
+        setMap(show)
+        setMapOrDirectoryTitle(show ? pageNames.directory : pageNames.map)
     }
 
-    function clearFilters() {
-        setCriteria(emptyCriteria)
-        setFilterResetKey((current) => current + 1)
-    }
-
+    // Search and filters are kept when switching views so both show the same developers
     function goBack() {
-        setMap(!map)
-        setMapOrHomeTitle(map ? pageNames.map : pageNames.home)
-        setCriteria((current) => ({ ...current, search: '' }))
+        if (map) {
+            // Leaving the map: drop the #person-<id> it put in the address bar
+            try {
+                window.history.replaceState(
+                    null,
+                    '',
+                    window.location.pathname + window.location.search
+                )
+            } catch {
+                // Ignore; the hash only affects the next reload
+            }
+        }
+        showMap(!map)
     }
 
+    // The "Job Board" title always leads back to the directory
     function goHome() {
         if (map) goBack()
     }
 
-    function shufflePeopleOnClick() {
-        const shuffledPeople = [...people]
-        shuffle(shuffledPeople)
-        setPeople(shuffledPeople)
-    }
+    // #person-<id> opens the map focused on that developer
+    const { reset } = developerFilters
+    useEffect(() => {
+        const openFromHash = () => {
+            const id = personIdFromHash(window.location.hash)
+            if (!id || !people.some((person) => person.id === id)) return
+            reset()
+            setFocusId(id)
+            showMap(true)
+        }
+        openFromHash()
+        window.addEventListener('hashchange', openFromHash)
+        return () => window.removeEventListener('hashchange', openFromHash)
+    }, [reset])
+    const handleFocus = useCallback(() => setFocusId(null), [])
+
+    const filterControls = (
+        <DiscoveryFilters
+            developerFilters={developerFilters}
+            countries={countries}
+            roles={roles}
+            skills={skills}
+            levels={levels}
+            signals={signals}
+            total={people.length}
+        />
+    )
 
     return (
         <div className="flex flex-column min-vh-100 tc">
             <header className="app-bar custom--unselectable top-0 w-100 custom--shadow-4 z-9999">
                 <Navbar
                     onTitleClick={goHome}
-                    onSearchChange={onSearchChange}
-                    searchValue={criteria.search}
                     onMapClick={goBack}
-                    mapOrHomeTitle={mapOrHomeTitle}
-                    shufflePeopleOnClick={shufflePeopleOnClick}
+                    mapOrDirectoryTitle={mapOrDirectoryTitle}
+                    shufflePeopleOnClick={developerFilters.shuffle}
                 />
             </header>
             <main className="flex-auto">
                 {map ? (
-                    <Suspense fallback={<MapSkeleton />}>
-                        <SimpleMap />
-                    </Suspense>
+                    <>
+                        {filterControls}
+                        <Suspense fallback={<MapSkeleton />}>
+                            <SimpleMap
+                                people={results}
+                                allPeople={people}
+                                recruiterOffset={
+                                    selectedTimeZoneOffsetMinutes(
+                                        filters.overlap.timeZone,
+                                        now
+                                    ) ?? 0
+                                }
+                                shortlist={shortlist}
+                                focusId={focusId}
+                                onFocusHandled={handleFocus}
+                            />
+                        </Suspense>
+                    </>
                 ) : (
                     <div id="sketch-particles">
-                        <div
-                            className="visible-on-mobileview-only surface-panel"
-                            style={style}
-                        >
-                            <Search
-                                onSearchChange={onSearchChange}
-                                value={criteria.search}
-                                responsiveSearch={responsiveSearch}
-                            />
+                        {filterControls}
+                        {/* Outside BatchCards so the counters do not restart when filters change */}
+                        <div className="profile-stats">
+                            <div className="profile-stats__tile">
+                                <p className="profile-stats__label">
+                                    Total Profiles
+                                </p>
+                                <p className="profile-stats__value">
+                                    <CountUp end={people.length} delay={1} />
+                                </p>
+                            </div>
+                            <div className="profile-stats__tile">
+                                <p className="profile-stats__label">
+                                    Total Countries
+                                </p>
+                                <p className="profile-stats__value">
+                                    <CountUp end={countryCount} delay={1} />
+                                </p>
+                            </div>
                         </div>
-                        <ProfileFilters
-                            resetKey={filterResetKey}
-                            countries={countries}
-                            selectedCountries={criteria.countries}
-                            onCountryChange={(country) =>
-                                setCriteria((current) => ({
-                                    ...current,
-                                    countries: toggleSelection(
-                                        current.countries,
-                                        country
-                                    ),
-                                }))
-                            }
-                            roles={roles}
-                            selectedRoles={criteria.roles}
-                            onRoleChange={(role) =>
-                                setCriteria((current) => ({
-                                    ...current,
-                                    roles: toggleSelection(current.roles, role),
-                                }))
-                            }
-                            skills={skills}
-                            selectedSkills={criteria.skills}
-                            onSkillChange={(skill) =>
-                                setCriteria((current) => ({
-                                    ...current,
-                                    skills: toggleSelection(
-                                        current.skills,
-                                        skill
-                                    ),
-                                }))
-                            }
-                            sortOption={criteria.sort}
-                            onSortChange={(sort) =>
-                                setCriteria((current) => ({ ...current, sort }))
-                            }
-                            onClear={clearFilters}
-                        />
-                        <p
-                            className="developer-results__count"
-                            role="status"
-                            aria-live="polite"
-                            aria-atomic="true"
-                        >
-                            {filteredPersons.length} matching{' '}
-                            {filteredPersons.length === 1
-                                ? 'developer'
-                                : 'developers'}
-                        </p>
-                        <dl className="developer-results__stats">
-                            <div>
-                                <dt>Total Profiles</dt>
-                                <dd>
-                                    <CountUp end={profiles.length} delay={1} />
-                                </dd>
-                            </div>
-                            <div>
-                                <dt>Total Countries</dt>
-                                <dd>
-                                    <CountUp end={totalCountries} delay={1} />
-                                </dd>
-                            </div>
-                        </dl>
                         <BatchCards
-                            key={JSON.stringify(criteria)}
-                            persons={filteredPersons}
-                            selectedSkills={criteria.skills}
+                            // Starts again from the first batch when the filters change
+                            key={JSON.stringify(filters)}
+                            persons={results}
                             numberPerBatch={16}
-                            onClear={clearFilters}
+                            selectedSkills={filters.skills}
+                            onClear={developerFilters.clear}
                         />
                     </div>
                 )}

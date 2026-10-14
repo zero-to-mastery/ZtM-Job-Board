@@ -1,31 +1,5 @@
-body .profile-filters,
-body .developer-results__empty {
-    background: var(--color-surface);
-    color: var(--color-text);
-
-    button {
-        font-size: 1rem;
-        line-height: 1.5;
-    }
-
-    input,
-    select {
-        font-size: 1rem;
-    }
-
-    button:focus-visible,
-    input:focus-visible,
-    select:focus-visible {
-        outline: 3px solid var(--color-focus);
-        outline-offset: 2px;
-    }
-}
-
-.skills-guidance {
-    padding: 0.75rem;
-    border: 1px solid var(--color-control-border);
-    border-radius: 6px;
-}
+// Self-reported skills on developer cards. The skills filter itself is
+// styled with the other filters in RecruiterFilters.scss.
 
 .skill-chips {
     display: flex;
@@ -50,8 +24,7 @@ body .developer-results__empty {
     font-size: 0.875rem;
 }
 
-.skill-chip--matched,
-.profile-filters .skill-chip--selected {
+.skill-chip--matched {
     border-color: var(--color-link);
     background: var(--color-surface-muted);
     color: var(--color-link);
@@ -74,51 +47,4 @@ body .developer-results__empty {
 .profile-skills__label {
     font-size: 0.875rem;
     margin: 0 0 0.75rem;
-}
-
-.developer-results__count {
-    text-align: left;
-    font-size: 1.25rem;
-    font-weight: 700;
-}
-
-.developer-results__empty {
-    padding: 2rem 1rem;
-    border-radius: 6px;
-
-    button {
-        color: var(--color-text);
-        background: var(--color-surface-muted);
-        border: 1px solid var(--color-control-border);
-    }
-
-    button:hover {
-        background: var(--color-surface-raised);
-    }
-}
-
-.developer-results__stats {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 20px;
-    background: var(--color-stats-bg);
-    border-radius: 10px;
-
-    > div {
-        padding: 10px;
-        background: var(--color-stats-tile-bg);
-        color: var(--color-stats-text);
-        border-radius: 10px;
-    }
-
-    dt {
-        font-size: 20px;
-    }
-
-    dd {
-        margin: 0;
-        font-size: 25px;
-    }
 }

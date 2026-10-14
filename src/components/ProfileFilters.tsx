@@ -1,26 +1,25 @@
-import React, { useEffect, useRef, useState } from 'react'
-import { SortOption } from '../util/filterProfiles'
+import React from 'react'
+import '../styles/RecruiterFilters.scss'
 import { CountryOption } from '../util/countryFilters'
 import { RoleOption } from '../util/roleFilters'
+import { FilterDropdown, MultiSelect } from './FilterDropdown'
 
 interface ProfileFiltersProps {
-    resetKey?: number
     countries: CountryOption[]
     selectedCountries: string[]
     onCountryChange: (countryCode: string) => void
     roles: RoleOption[]
     selectedRoles: string[]
     onRoleChange: (roleId: string) => void
+    // Declared skills across all profiles, see src/util/skills.js
     skills: string[]
     selectedSkills: string[]
     onSkillChange: (skill: string) => void
-    sortOption: SortOption
-    onSortChange: (sortOption: SortOption) => void
-    onClear: () => void
 }
 
+// Skill, country and role multi-selects. Sort, seniority and the other
+// recruiter filters live in DiscoveryFilters and RecruiterFilters.
 const ProfileFilters = ({
-    resetKey = 0,
     countries,
     selectedCountries,
     onCountryChange,
@@ -30,351 +29,51 @@ const ProfileFilters = ({
     skills,
     selectedSkills,
     onSkillChange,
-    sortOption,
-    onSortChange,
-    onClear,
-}: ProfileFiltersProps) => {
-    const [openFilter, setOpenFilter] = useState('')
-    const [countrySearch, setCountrySearch] = useState('')
-    const [roleSearch, setRoleSearch] = useState('')
-    const [skillSearch, setSkillSearch] = useState('')
-    const filterContainer = useRef<HTMLDivElement>(null)
-
-    useEffect(() => {
-        setCountrySearch('')
-        setRoleSearch('')
-        setSkillSearch('')
-        setOpenFilter('')
-    }, [resetKey])
-
-    useEffect(() => {
-        if (!openFilter) {
-            return
-        }
-        const activeContainer = filterContainer.current?.querySelector(
-            `[data-filter="${openFilter}"]`
-        )
-        activeContainer?.querySelector('input')?.focus()
-        function closeOutside(event: PointerEvent) {
-            if (
-                event.target instanceof Node &&
-                !activeContainer?.contains(event.target)
-            ) {
-                setOpenFilter('')
-            }
-        }
-        document.addEventListener('pointerdown', closeOutside)
-        return () => document.removeEventListener('pointerdown', closeOutside)
-    }, [openFilter])
-
-    const filteredCountries = countries.filter((country) =>
-        country.label.toLowerCase().includes(countrySearch.toLowerCase())
-    )
-
-    const filteredRoles = roles.filter((role) =>
-        role.label.toLowerCase().includes(roleSearch.toLowerCase())
-    )
-    const filteredSkills = skills.filter((skill) =>
-        skill.toLowerCase().includes(skillSearch.trim().toLowerCase())
-    )
-
-    return (
-        <div
-            ref={filterContainer}
-            className="profile-filters br2 pa3 mb3 tl"
-            onKeyDown={(event) => {
-                if (event.key === 'Escape' && openFilter) {
-                    event.stopPropagation()
-                    const trigger =
-                        filterContainer.current?.querySelector<HTMLButtonElement>(
-                            `[data-filter="${openFilter}"] button`
-                        )
-                    setOpenFilter('')
-                    trigger?.focus()
-                }
-            }}
-            onBlur={(event) => {
-                const activeContainer = filterContainer.current?.querySelector(
-                    `[data-filter="${openFilter}"]`
-                )
-                if (
-                    event.relatedTarget &&
-                    activeContainer?.contains(event.target) &&
-                    !activeContainer.contains(event.relatedTarget)
-                ) {
-                    setOpenFilter('')
-                }
-            }}
-        >
-            <div className="flex justify-between items-center mb3">
-                <h2 className="f4 ma0">Filters & Sort</h2>
-
-                <button
-                    type="button"
-                    className="profile-filters__clear"
-                    onClick={() => {
-                        setCountrySearch('')
-                        setRoleSearch('')
-                        setSkillSearch('')
-                        setOpenFilter('')
-                        onClear()
-                    }}
-                >
-                    Clear filters
-                </button>
-            </div>
-
-            <div
-                className="flex flex-wrap items-center"
-                style={{ gap: '1rem' }}
+}: ProfileFiltersProps) => (
+    <div className="profile-filters">
+        {skills.length === 0 ? (
+            <FilterDropdown
+                label="Skills"
+                value="None declared yet"
+                active={false}
             >
-                <div
-                    className="relative"
-                    style={{ flex: '1 1 260px', minWidth: 0 }}
-                    data-filter="skills"
-                >
-                    {skills.length === 0 ? (
-                        <div className="skills-guidance">
-                            <h3 className="f5 mt0 mb2">Required skills</h3>
-                            <p className="ma0">
-                                No profiles have declared skills yet. Developers
-                                can add a skills list to their submission to
-                                appear in skills-based searches.
-                            </p>
-                        </div>
-                    ) : (
-                        <>
-                            <button
-                                type="button"
-                                className="profile-filters__control w-100 pa2 br2 tl"
-                                aria-expanded={openFilter === 'skills'}
-                                aria-controls="required-skills-options"
-                                aria-describedby="required-skills-help"
-                                onClick={() =>
-                                    setOpenFilter(
-                                        openFilter === 'skills' ? '' : 'skills'
-                                    )
-                                }
-                            >
-                                Required skills
-                                {selectedSkills.length > 0 &&
-                                    ` (${selectedSkills.length})`}
-                            </button>
-                            <p id="required-skills-help" className="f6 mt2 mb0">
-                                Matches all selected skills. Skills are
-                                self-reported.
-                            </p>
-                            {openFilter === 'skills' && (
-                                <div
-                                    id="required-skills-options"
-                                    className="profile-filters__dropdown"
-                                >
-                                    <label
-                                        htmlFor="skill-search"
-                                        className="db mb2"
-                                    >
-                                        Search declared skills
-                                    </label>
-                                    <input
-                                        id="skill-search"
-                                        type="search"
-                                        value={skillSearch}
-                                        onChange={(event) =>
-                                            setSkillSearch(event.target.value)
-                                        }
-                                        className="profile-filters__control w-100 pa2 br2"
-                                    />
-                                    <div className="profile-filters__options">
-                                        {filteredSkills.length === 0 && (
-                                            <p role="status">
-                                                No declared skills match this
-                                                search.
-                                            </p>
-                                        )}
-                                        {filteredSkills.map((skill) => (
-                                            <label
-                                                key={skill}
-                                                className="profile-filters__option db pv2 ph1 pointer"
-                                            >
-                                                <input
-                                                    type="checkbox"
-                                                    checked={selectedSkills.includes(
-                                                        skill
-                                                    )}
-                                                    onChange={() =>
-                                                        onSkillChange(skill)
-                                                    }
-                                                />{' '}
-                                                {skill}
-                                            </label>
-                                        ))}
-                                    </div>
-                                </div>
-                            )}
-                        </>
-                    )}
-                </div>
-                <div
-                    className="relative"
-                    style={{ flex: '1 1 220px' }}
-                    data-filter="country"
-                >
-                    <button
-                        type="button"
-                        className="profile-filters__control w-100 pa2 br2 tl"
-                        aria-expanded={openFilter === 'country'}
-                        aria-controls="country-options"
-                        onClick={() =>
-                            setOpenFilter(
-                                openFilter === 'country' ? '' : 'country'
-                            )
-                        }
-                    >
-                        Country
-                        {selectedCountries.length > 0 &&
-                            ` (${selectedCountries.length})`}
-                    </button>
-
-                    {openFilter === 'country' && (
-                        <div
-                            id="country-options"
-                            className="profile-filters__dropdown"
-                        >
-                            <input
-                                type="text"
-                                aria-label="Search countries"
-                                value={countrySearch}
-                                onChange={(event) =>
-                                    setCountrySearch(event.target.value)
-                                }
-                                placeholder="Search country..."
-                                className="profile-filters__control w-100 pa2 br2"
-                            />
-
-                            <div className="profile-filters__options">
-                                {filteredCountries.map((country) => (
-                                    <label
-                                        key={country.code}
-                                        className="profile-filters__option db pv2 ph1 pointer"
-                                    >
-                                        <input
-                                            type="checkbox"
-                                            checked={selectedCountries.includes(
-                                                country.code
-                                            )}
-                                            onChange={() =>
-                                                onCountryChange(country.code)
-                                            }
-                                        />{' '}
-                                        {country.label}
-                                    </label>
-                                ))}
-                            </div>
-                        </div>
-                    )}
-                </div>
-
-                <div
-                    className="relative"
-                    style={{ flex: '1 1 220px' }}
-                    data-filter="role"
-                >
-                    <button
-                        type="button"
-                        className="profile-filters__control w-100 pa2 br2 tl"
-                        aria-expanded={openFilter === 'role'}
-                        aria-controls="role-options"
-                        onClick={() =>
-                            setOpenFilter(openFilter === 'role' ? '' : 'role')
-                        }
-                    >
-                        Role
-                        {selectedRoles.length > 0 &&
-                            ` (${selectedRoles.length})`}
-                    </button>
-
-                    {openFilter === 'role' && (
-                        <div
-                            id="role-options"
-                            className="profile-filters__dropdown"
-                        >
-                            <input
-                                type="text"
-                                aria-label="Search roles"
-                                value={roleSearch}
-                                onChange={(event) =>
-                                    setRoleSearch(event.target.value)
-                                }
-                                placeholder="Search role..."
-                                className="profile-filters__control w-100 pa2 br2"
-                            />
-
-                            <div className="profile-filters__options">
-                                {filteredRoles.map((role) => (
-                                    <label
-                                        key={role.id}
-                                        className="profile-filters__option db pv2 ph1 pointer"
-                                    >
-                                        <input
-                                            type="checkbox"
-                                            checked={selectedRoles.includes(
-                                                role.id
-                                            )}
-                                            onChange={() =>
-                                                onRoleChange(role.id)
-                                            }
-                                        />{' '}
-                                        {role.label}
-                                    </label>
-                                ))}
-                            </div>
-                        </div>
-                    )}
-                </div>
-
-                <div style={{ flex: '1 1 180px' }}>
-                    <select
-                        value={sortOption}
-                        aria-label="Sort developers"
-                        onChange={(event) => {
-                            const value = event.target.value
-                            if (
-                                value === 'default' ||
-                                value === 'name-asc' ||
-                                value === 'name-desc'
-                            ) {
-                                onSortChange(value)
-                            }
-                        }}
-                        className="profile-filters__control w-100 pa2 br2"
-                    >
-                        <option value="default">Sort by: Default</option>
-                        <option value="name-asc">Name A–Z</option>
-                        <option value="name-desc">Name Z–A</option>
-                    </select>
-                </div>
-            </div>
-            {selectedSkills.length > 0 && (
-                <ul
-                    className="skill-chips mt3"
-                    aria-label="Selected required skills"
-                >
-                    {selectedSkills.map((skill) => (
-                        <li key={skill}>
-                            <button
-                                type="button"
-                                className="skill-chip skill-chip--selected"
-                                aria-label={`Remove required skill ${skill}`}
-                                onClick={() => onSkillChange(skill)}
-                            >
-                                {skill} <span aria-hidden="true">&times;</span>
-                            </button>
-                        </li>
-                    ))}
-                </ul>
-            )}
-        </div>
-    )
-}
+                <p className="profile-filters__hint">
+                    No profiles have declared skills yet. Developers can add a
+                    skills list to their submission to appear in skills-based
+                    searches.
+                </p>
+            </FilterDropdown>
+        ) : (
+            <MultiSelect
+                label="Skills"
+                noun={{ one: 'skill', many: 'skills' }}
+                options={skills.map((skill) => ({
+                    value: skill,
+                    label: skill,
+                }))}
+                selected={selectedSkills}
+                onToggle={onSkillChange}
+                hint="Matches all selected skills. Skills are self-reported."
+            />
+        )}
+        <MultiSelect
+            label="Country"
+            noun={{ one: 'country', many: 'countries' }}
+            options={countries.map(({ code, label }) => ({
+                value: code,
+                label,
+            }))}
+            selected={selectedCountries}
+            onToggle={onCountryChange}
+        />
+        <MultiSelect
+            label="Role"
+            noun={{ one: 'role', many: 'roles' }}
+            options={roles.map(({ id, label }) => ({ value: id, label }))}
+            selected={selectedRoles}
+            onToggle={onRoleChange}
+        />
+    </div>
+)
 
 export default ProfileFilters

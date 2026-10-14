@@ -22,5 +22,17 @@ export default interface Person {
         roles: string[] // ids from src/util/roles/roleTaxonomy.js
         seniority: string | null // explicit level from the title, if any
         technologies: string[] // technologies named in the title
+        // Map position from the city, or the first country's center
+        geo?: {
+            lat: number
+            lng: number
+            // true when the city was not recognized
+            approximate: boolean
+        } | null
+        // IANA zone and its standard (non-DST) offset in minutes
+        timezone?: {
+            name: string
+            utcOffset: number
+        } | null
     }
 }

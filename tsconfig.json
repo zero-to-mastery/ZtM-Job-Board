@@ -3,7 +3,7 @@
     "jsx": "react",
     "target": "es2015",
     "module": "esnext",
-    "types": ["node"],
+    "types": ["node", "leaflet.markercluster"],
     "strict": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,

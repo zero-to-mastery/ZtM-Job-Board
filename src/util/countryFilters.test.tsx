@@ -114,9 +114,6 @@ describe('ProfileFilters country dropdown', () => {
                     skills={[]}
                     selectedSkills={[]}
                     onSkillChange={() => {}}
-                    sortOption="default"
-                    onSortChange={() => {}}
-                    onClear={() => {}}
                     {...props}
                 />
             )
