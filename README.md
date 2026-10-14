@@ -24,7 +24,7 @@ selection to your browser's current time zone.
 
 - `npm start`
 
-`npm start` validates submissions while generating the profile dataset. Invalid JSON or an invalid `skills` value causes aggregation to exit with an error instead of writing a partial dataset. Fix the reported submission and rerun `npm start`; the existing generated dataset is left untouched when validation fails.
+`npm start` validates submissions while generating the profile dataset. Invalid JSON, an invalid `skills` value or invalid `location.coordinates` causes aggregation to exit with an error instead of writing a partial dataset. Fix the reported submission and rerun `npm start`; the existing generated dataset is left untouched when validation fails.
 
 ### How to add your name to the list
 
@@ -89,7 +89,26 @@ Example with dummy values:
 - `skills` is optional. Omit it or use `[]` if you do not want to declare skills. When provided, it must be an array of nonblank strings.
 - Only list skills you personally claim; skills are self-reported, not verified. Whitespace is trimmed and duplicate labels are combined case-insensitively. Use familiar technology names such as `React`, `TypeScript`, or `Node.js`; aliases such as `React.js` and `React` are not automatically combined.
 - Use your country's name (e.g. `"United States"`, `"Germany"`) for `country`. It is matched to a standard country for the filters and map; see [country normalization](docs/country-normalization.md) for maintainers' notes.
-- Your pull request will only be accepted if it follows the example above. It **cannot** have anything else.
+- Your pull request will only be accepted if it follows the example above. It **cannot** have anything else, apart from the optional `coordinates` described below.
+
+#### Optional: your exact map location
+
+The map places you by your city. Small towns may not be recognized, and you are then shown at the center of your state or country. To be placed exactly, add `coordinates` to `location`:
+
+```json
+  "location": {
+    "city": "Gormania",
+    "state": "West Virginia",
+    "country": "United States",
+    "coordinates": { "lat": 39.29, "lng": -79.34 }
+  }
+```
+
+1. Find your town on [Google Maps](https://maps.google.com) or [OpenStreetMap](https://www.openstreetmap.org), right-click it, and copy the coordinates (Google Maps shows them first in the menu).
+2. The first number is `lat` (latitude), the second is `lng` (longitude). Places south of the equator have a negative `lat`, and places west of Greenwich (all of the Americas) have a negative `lng`.
+3. Round both to **2 decimal places** (about 1 km). More precise values are rejected so that a home address is never published.
+
+Leave `coordinates` out if your city is placed correctly.
 
 Please submit a Pull Request to be added to this list. If you are unsure how to do this, please check out _Contributing To Open Source_ video in the course curriculum.
 
