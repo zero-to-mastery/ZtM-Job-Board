@@ -383,6 +383,57 @@
     color: #ffffff;
 }
 
+.devmap .devmap-button--danger {
+    background: var(--dm-danger);
+    border-color: var(--dm-danger);
+    color: var(--dm-on-danger);
+    font-weight: 600;
+
+    &:hover {
+        border-color: var(--dm-text);
+    }
+}
+
+// Confirmation dialog; padding sits on the content so backdrop clicks
+// are the only clicks that land on the <dialog> itself
+.devmap-dialog {
+    width: min(26rem, calc(100vw - 2rem));
+    padding: 0;
+    border: 1px solid var(--dm-border);
+    border-radius: 10px;
+    background: var(--dm-surface);
+    color: var(--dm-text);
+    box-shadow: var(--dm-shadow);
+    text-align: left;
+
+    &::backdrop {
+        background: var(--dm-backdrop);
+    }
+}
+
+.devmap-dialog__content {
+    padding: 1.25rem;
+}
+
+.devmap-dialog__title {
+    margin: 0 0 0.5rem;
+    font-size: 1.15rem;
+}
+
+.devmap-dialog__message {
+    margin: 0;
+    color: var(--dm-muted);
+    line-height: 1.45;
+}
+
+.devmap-dialog__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    margin-top: 1.25rem;
+}
+
 .devmap .devmap-button:disabled {
     opacity: 0.5;
     cursor: not-allowed;

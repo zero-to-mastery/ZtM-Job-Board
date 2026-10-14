@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Shortlist } from '../hooks/useShortlist'
 import Person from '../interfaces/person'
 import { personUrl, shortlistCsv } from '../util/shortlist'
+import ConfirmDialog from './ConfirmDialog'
 
 /** Copies text, falling back to a hidden textarea for older browsers. */
 export async function copyText(text: string) {
@@ -90,11 +91,37 @@ function ShortlistControls({
     onShowingChange,
 }: ShortlistControlsProps) {
     const [status, setStatus] = useState('')
+    const [confirmingClear, setConfirmingClear] = useState(false)
+    const toggleRef = useRef<HTMLButtonElement>(null)
+    const clearRef = useRef<HTMLButtonElement>(null)
     const count = people.length
+
+    // Where focus goes once the dialog has closed. Moving it earlier fails
+    // because the rest of the page is inert while a modal dialog is open.
+    const focusAfterClose = useRef<HTMLButtonElement | null>(null)
+    useEffect(() => {
+        if (!confirmingClear && focusAfterClose.current) {
+            focusAfterClose.current.focus()
+            focusAfterClose.current = null
+        }
+    }, [confirmingClear])
+
+    const cancelClear = () => {
+        focusAfterClose.current = clearRef.current
+        setConfirmingClear(false)
+    }
+    const confirmClear = () => {
+        // The Clear button goes away with the shortlist
+        focusAfterClose.current = toggleRef.current
+        setConfirmingClear(false)
+        shortlist.clear()
+        setStatus('Shortlist cleared')
+    }
 
     return (
         <div className="devmap-shortlist">
             <button
+                ref={toggleRef}
                 type="button"
                 className="devmap-button"
                 aria-pressed={showing}
@@ -121,22 +148,25 @@ function ShortlistControls({
             </button>
             {count > 0 && (
                 <button
+                    ref={clearRef}
                     type="button"
                     className="devmap-button"
-                    onClick={() => {
-                        if (
-                            window.confirm(
-                                'Remove everyone from your shortlist?'
-                            )
-                        ) {
-                            shortlist.clear()
-                            setStatus('Shortlist cleared')
-                        }
-                    }}
+                    aria-haspopup="dialog"
+                    onClick={() => setConfirmingClear(true)}
                 >
                     Clear
                 </button>
             )}
+            <ConfirmDialog
+                open={confirmingClear}
+                title="Clear your shortlist?"
+                message={`This removes ${
+                    count === 1 ? people[0].name : `all ${count} developers`
+                } from your shortlist. You can't undo this.`}
+                confirmLabel="Clear shortlist"
+                onConfirm={confirmClear}
+                onCancel={cancelClear}
+            />
             <span className="devmap-status" role="status">
                 {status}
             </span>
