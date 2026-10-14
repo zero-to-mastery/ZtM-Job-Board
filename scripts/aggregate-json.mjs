@@ -36,7 +36,9 @@ try {
         const report = locationReport(persons)
         console.log(`Developers: ${report.total}`)
         console.log(`  Placed at their city:   ${report.city}`)
-        console.log(`  Country center only:    ${report.countryOnly}`)
+        console.log(
+            `  Approximate (state or country center): ${report.countryOnly}`
+        )
         console.log(`  No location:            ${report.none}`)
         console.log(`  With a time zone:       ${report.timezone}`)
         console.log(
