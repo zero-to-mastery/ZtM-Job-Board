@@ -9,7 +9,7 @@ import ztmLogo from '../assets/ztm-logo.svg?raw'
 const Navbar = ({
     onSearchChange,
     onMapClick,
-    onLogoClick,
+    onTitleClick,
     mapOrHomeTitle,
     shufflePeopleOnClick,
 }: any) => {
@@ -40,18 +40,25 @@ const Navbar = ({
     return (
         <div className="header-items flex flex-wrap justify-between">
             <h1 id="title" className="relative ma0 mr4 pa0 fl-l">
-                <button
-                    type="button"
-                    onClick={onLogoClick}
-                    aria-label="Zero To Mastery Job Board, home"
-                    className="title-home pointer"
+                <a
+                    href="https://zerotomastery.io/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Zero To Mastery (opens in a new tab)"
+                    className="title-logo"
                 >
                     {/* Inlined so the "ZTM" letters (fill="currentColor") follow the header text color */}
                     <span
                         aria-hidden="true"
-                        className="title-logo"
                         dangerouslySetInnerHTML={{ __html: ztmLogo }}
                     />
+                </a>
+                <button
+                    type="button"
+                    onClick={onTitleClick}
+                    aria-label="Job Board, home"
+                    className="title-home pointer"
+                >
                     <span className="fw3">Job</span>
                     <span className="fw7 custom--text-primary">Board</span>
                 </button>

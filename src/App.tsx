@@ -110,7 +110,7 @@ function App() {
         <div className="flex flex-column min-vh-100 tc">
             <header className="custom--unselectable top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-9999">
                 <Navbar
-                    onLogoClick={goHome}
+                    onTitleClick={goHome}
                     onSearchChange={(e: any) => setSearchfield(e.target.value)}
                     onMapClick={goBack}
                     mapOrHomeTitle={mapOrHomeTitle}
