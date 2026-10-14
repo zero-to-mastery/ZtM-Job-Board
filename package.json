@@ -29,7 +29,7 @@
         "build": "npm-run-all build-css build-js",
         "build-css": "sass ./src",
         "build-js": "vite build",
-        "postbuild": "mv ./build/favicons/* ./build/ && rm -r ./build/favicons && purgecss --css build/static/css/*.css --content build/static/index.html build/static/js/*.js --output build/static/css",
+        "postbuild": "purgecss --css build/static/css/*.css --content build/static/index.html build/static/js/*.js --output build/static/css",
         "test": "npm-run-all aggregate-json && vitest",
         "deploy": "gh-pages -d build",
         "aggregate-json": "node scripts/aggregate-json.mjs",
