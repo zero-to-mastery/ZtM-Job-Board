@@ -1,7 +1,7 @@
 import React from 'react'
 import Person from '../interfaces/person'
-import { addDefaultImg, defaultImageDataURI } from '../util/avatar'
 import { formatLocation, personGeo, safeImageUrl } from '../util/mapGeometry'
+import Avatar from './Avatar'
 import ContactLinks from './ContactLinks'
 
 interface DeveloperPopupCardProps {
@@ -19,15 +19,12 @@ function DeveloperPopupCard({
     return (
         <article className="devmap-card" aria-label={person.name}>
             <div className="devmap-card__header">
-                <img
-                    className="devmap-avatar devmap-avatar--large"
-                    src={safeImageUrl(person.img) ?? defaultImageDataURI}
+                <Avatar
+                    src={safeImageUrl(person.img)}
                     alt=""
-                    width={56}
-                    height={56}
-                    loading="lazy"
-                    decoding="async"
-                    onError={addDefaultImg}
+                    size={56}
+                    className="devmap-avatar devmap-avatar--large"
+                    fallbackClassName="devmap-avatar--fallback"
                 />
                 <div className="devmap-card__text">
                     <h3 className="devmap-card__name">{person.name}</h3>

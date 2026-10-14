@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Person from '../interfaces/person'
-import { addDefaultImg, defaultImageDataURI } from '../util/avatar'
 import { formatLocation, personGeo, safeImageUrl } from '../util/mapGeometry'
+import Avatar from './Avatar'
 import ContactLinks from './ContactLinks'
 
 const BATCH_SIZE = 50
@@ -64,18 +64,12 @@ function DeveloperList({
                                 aria-pressed={selected}
                                 onClick={() => onSelect(person.id)}
                             >
-                                <img
-                                    className="devmap-avatar"
-                                    src={
-                                        safeImageUrl(person.img) ??
-                                        defaultImageDataURI
-                                    }
+                                <Avatar
+                                    src={safeImageUrl(person.img)}
                                     alt=""
-                                    width={40}
-                                    height={40}
-                                    loading="lazy"
-                                    decoding="async"
-                                    onError={addDefaultImg}
+                                    size={40}
+                                    className="devmap-avatar"
+                                    fallbackClassName="devmap-avatar--fallback"
                                 />
                                 <span className="devmap-entry__text">
                                     <span className="devmap-entry__name">

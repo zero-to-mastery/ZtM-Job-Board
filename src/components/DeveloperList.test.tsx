@@ -139,3 +139,45 @@ describe('contact links', () => {
         expect(hrefs(container.querySelector('#list')!)).toEqual(card)
     })
 })
+
+describe('map avatars', () => {
+    test('use the same theme-aware placeholder as the cards', () => {
+        act(() =>
+            root.render(
+                <DeveloperList
+                    people={[person('a')]}
+                    selectedId={null}
+                    onSelect={() => {}}
+                />
+            )
+        )
+        const avatar = container.querySelector('svg.devmap-avatar--fallback')
+        expect(avatar?.getAttribute('aria-hidden')).toBe('true')
+        expect(container.querySelector('img.devmap-avatar')).toBeNull()
+
+        act(() => root.render(<DeveloperPopupCard person={person('a')} />))
+        expect(
+            container.querySelector('svg.devmap-avatar--fallback')
+        ).not.toBeNull()
+    })
+
+    test('fall back to the placeholder when a photo fails to load', () => {
+        act(() =>
+            root.render(
+                <DeveloperList
+                    people={[person('a', { img: 'https://example.com/a.jpg' })]}
+                    selectedId={null}
+                    onSelect={() => {}}
+                />
+            )
+        )
+        const photo = container.querySelector('img.devmap-avatar')
+        expect(photo?.getAttribute('src')).toBe('https://example.com/a.jpg')
+
+        act(() => photo?.dispatchEvent(new Event('error')))
+        expect(container.querySelector('img.devmap-avatar')).toBeNull()
+        expect(
+            container.querySelector('svg.devmap-avatar--fallback')
+        ).not.toBeNull()
+    })
+})

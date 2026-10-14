@@ -152,6 +152,11 @@
     border-width: 3px;
 }
 
+// Same placeholder colors as the profile cards
+.devmap-avatar--fallback {
+    color: var(--color-avatar);
+}
+
 .devmap-links {
     display: flex;
     gap: 0.25rem;
