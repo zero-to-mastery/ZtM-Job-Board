@@ -3,8 +3,7 @@ import CountUp from 'react-countup'
 
 import CardList from './CardList'
 import BasicButton from './BasicButton'
-import { countriesWithNumOfDevsObj } from '../util/UsersDataCleanup'
-const countryNamesAndNumOfDevsArr = Object.entries(countriesWithNumOfDevsObj)
+import { countryCount } from '../data/people'
 
 const BatchCards = ({ persons, numberPerBatch = 16 }: any) => {
     const [batch, setBatch] = useState(1)
@@ -54,29 +53,14 @@ const BatchCards = ({ persons, numberPerBatch = 16 }: any) => {
                     <div style={infoView}>
                         <p style={infoLabel}>Total Countries</p>
                         <p style={infoValue}>
-                            <CountUp
-                                end={countryNamesAndNumOfDevsArr.length}
-                                delay={1}
-                            />
+                            <CountUp end={countryCount} delay={1} />
                         </p>
                     </div>
                 </div>
             </div>
 
             <div className="flex flex-wrap justify-center">
-                <CardList
-                    persons={persons.slice(0, batch * numberPerBatch)}
-                    card
-                    ma4
-                    w5
-                    tc
-                    bg-white
-                    br2
-                    custom--shadow-2
-                    custom--shadow-hover-8
-                    custom--o-95
-                    z-1
-                />
+                <CardList persons={persons.slice(0, batch * numberPerBatch)} />
             </div>
             {persons.length >= batch * numberPerBatch && (
                 <BasicButton action={addToBatch}>Show More</BasicButton>

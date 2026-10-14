@@ -1,0 +1,87 @@
+// Role, level and time-zone filters. Colors come from theme.scss.
+
+.recruiter-filters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: -0.5rem 0 1rem;
+    border-top: 1px solid var(--dm-border);
+    padding: 0.75rem 1rem 1rem;
+    border-radius: 0 0 6px 6px;
+    background: transparent;
+    color: var(--dm-text);
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+
+    @media screen and (max-width: 960px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.recruiter-filters__group {
+    margin: 0;
+    padding: 0;
+    border: none;
+    min-width: 0;
+
+    legend {
+        padding: 0;
+        margin-bottom: 0.4rem;
+        font-weight: 700;
+    }
+}
+
+.recruiter-filters__chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+// Two classes so element-level button rules (including dark mode) do not win
+.recruiter-filters .recruiter-filters__chip {
+    padding: 0.25rem 0.7rem;
+    border: 1px solid var(--dm-border);
+    border-radius: 999px;
+    background: var(--dm-surface);
+    color: var(--dm-text);
+    font: inherit;
+    font-size: 0.95rem;
+    cursor: pointer;
+
+    &:hover {
+        border-color: var(--dm-primary);
+    }
+
+    &[aria-pressed='true'] {
+        background: var(--dm-primary);
+        border-color: var(--dm-primary);
+        color: #ffffff;
+    }
+}
+
+.recruiter-filters__count {
+    opacity: 0.75;
+    font-size: 0.85em;
+}
+
+.recruiter-filters__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    align-items: center;
+
+    select {
+        padding: 0.25rem;
+        border: 1px solid var(--dm-border);
+        border-radius: 4px;
+        background: var(--dm-surface);
+        color: var(--dm-text);
+        font: inherit;
+    }
+}
+
+.recruiter-filters button:focus-visible,
+.recruiter-filters select:focus-visible {
+    outline: 3px solid var(--dm-focus);
+    outline-offset: 2px;
+}

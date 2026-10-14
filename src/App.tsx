@@ -1,25 +1,36 @@
-import React, { useState, lazy, Suspense } from 'react'
+import React, { useCallback, useEffect, useState, lazy, Suspense } from 'react'
 import Search from './components/Search'
-import { shuffle } from './util/shuffle'
 import MapSkeleton from './components/MapSkeleton'
 import './styles/SearchBarMobileView.scss'
 import BatchCards from './components/BatchCards'
 import ProfileFilters from './components/ProfileFilters'
+import RecruiterFilters from './components/RecruiterFilters'
 import Navbar from './components/Navbar'
-import persons from './assets/persons.json'
+import { people } from './data/people'
 import { pageNames } from './util/pageNames'
-import useForceUpdate from './util/useForceUpdate'
 import { getCountryOptions } from './util/countryFilters'
 import { getRoleOptions } from './util/roleFilters'
-import { filterProfiles } from './util/profileFilters'
+import { SENIORITY_LEVELS } from './util/roles/roleTaxonomy.js'
+import { LEVEL_NOT_STATED } from './util/filterPeople'
+import { useDeveloperFilters } from './hooks/useDeveloperFilters'
+import { useShortlist } from './hooks/useShortlist'
+import { personIdFromHash } from './util/shortlist'
 const SimpleMap = lazy(() => import('./components/Map'))
 
-const people: any = persons
-// Countries are normalized to ISO codes during JSON aggregation
+// Countries and roles are normalized during JSON aggregation
 const countries = getCountryOptions(people)
-
-// Job titles are normalized to canonical role ids during JSON aggregation
 const roles = getRoleOptions(people)
+
+// Seniority stated in job titles, in SENIORITY_LEVELS order, plus "not stated"
+const levels = [...SENIORITY_LEVELS, LEVEL_NOT_STATED]
+    .map((value) => ({
+        value,
+        count: people.filter(
+            (person) =>
+                (person.normalized?.seniority ?? LEVEL_NOT_STATED) === value
+        ).length,
+    }))
+    .filter(({ count }) => count > 0)
 
 const style: React.CSSProperties = {
     background: '#fff',
@@ -36,102 +47,119 @@ const responsiveSearch = {
 }
 
 function App() {
-    const [searchfield, setSearchfield] = useState('')
-    const [selectedCountries, setSelectedCountries] = useState<string[]>([])
-    const [selectedRoles, setSelectedRoles] = useState<string[]>([])
-    const [sortOption, setSortOption] = useState('default')
+    const developerFilters = useDeveloperFilters(people)
+    const { filters, results } = developerFilters
+
+    const shortlist = useShortlist()
 
     const [map, setMap] = useState(false)
     const [mapOrHomeTitle, setMapOrHomeTitle] = useState(pageNames.map) // pageNames.map is default
+    const [focusId, setFocusId] = useState<string | null>(null)
 
-    const filteredPersons = (searchFilter: any) =>
-        filterProfiles(people, {
-            search: searchFilter,
-            countries: selectedCountries,
-            roles: selectedRoles,
-            sort: sortOption,
-        })
+    function showMap(show: boolean) {
+        setMap(show)
+        setMapOrHomeTitle(show ? pageNames.home : pageNames.map)
+    }
 
-    const forceUpdate = useForceUpdate()
-
-    //note: shuffle function is not pure function, it mutates original array
-    //in order to avoid memory duplication
-    shuffle(people)
-
+    // Search and filters are kept when switching views so both show the same developers
     function goBack() {
-        setMap(!map)
-        setMapOrHomeTitle(map ? pageNames.map : pageNames.home)
-        setSearchfield('')
+        if (map) {
+            // Leaving the map: drop the #person-<id> it put in the address bar
+            try {
+                window.history.replaceState(
+                    null,
+                    '',
+                    window.location.pathname + window.location.search
+                )
+            } catch {
+                // Ignore; the hash only affects the next reload
+            }
+        }
+        showMap(!map)
     }
 
-    function shufflePeopleOnClick() {
-        shuffle(people)
-        forceUpdate()
-    }
+    // #person-<id> opens the map focused on that developer
+    const { reset } = developerFilters
+    useEffect(() => {
+        const openFromHash = () => {
+            const id = personIdFromHash(window.location.hash)
+            if (!id || !people.some((person) => person.id === id)) return
+            reset()
+            setFocusId(id)
+            showMap(true)
+        }
+        openFromHash()
+        window.addEventListener('hashchange', openFromHash)
+        return () => window.removeEventListener('hashchange', openFromHash)
+    }, [reset])
+    const handleFocus = useCallback(() => setFocusId(null), [])
+
+    const onSearchChange = (event: React.ChangeEvent<HTMLInputElement>) =>
+        developerFilters.setSearch(event.target.value)
+
+    const filterControls = (
+        <>
+            <div className="visible-on-mobileview-only" style={style}>
+                <Search
+                    value={filters.search}
+                    onSearchChange={onSearchChange}
+                    responsiveSearch={responsiveSearch}
+                />
+            </div>
+
+            <ProfileFilters
+                countries={countries}
+                selectedCountries={filters.countries}
+                onCountryChange={developerFilters.toggleCountry}
+                roles={roles}
+                selectedRoles={filters.roles}
+                onRoleChange={developerFilters.toggleRole}
+                sortOption={filters.sort}
+                onSortChange={developerFilters.setSort}
+                onClear={developerFilters.clear}
+            />
+
+            <RecruiterFilters
+                levels={levels}
+                filters={filters}
+                onLevelChange={developerFilters.toggleLevel}
+                onOverlapChange={developerFilters.setOverlap}
+            />
+        </>
+    )
 
     return (
         <div className="flex flex-column min-vh-100 tc">
             <header className="custom--unselectable top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-9999">
                 <Navbar
                     onLogoClick={goBack}
-                    onSearchChange={(e: any) => setSearchfield(e.target.value)}
+                    searchValue={filters.search}
+                    onSearchChange={onSearchChange}
                     onMapClick={goBack}
                     mapOrHomeTitle={mapOrHomeTitle}
-                    shufflePeopleOnClick={shufflePeopleOnClick}
+                    shufflePeopleOnClick={developerFilters.shuffle}
                 />
             </header>
             <main className="flex-auto">
                 {map ? (
-                    <Suspense fallback={<MapSkeleton />}>
-                        <SimpleMap />
-                    </Suspense>
+                    <>
+                        {filterControls}
+                        <Suspense fallback={<MapSkeleton />}>
+                            <SimpleMap
+                                people={results}
+                                allPeople={people}
+                                recruiterOffset={filters.overlap.offset}
+                                shortlist={shortlist}
+                                focusId={focusId}
+                                onFocusHandled={handleFocus}
+                            />
+                        </Suspense>
+                    </>
                 ) : (
                     <div id="sketch-particles">
-    <div
-        className="visible-on-mobileview-only"
-        style={style}
-    >
-        <Search
-            onSearchChange={(e: any) =>
-                setSearchfield(e.target.value)
-            }
-            responsiveSearch={responsiveSearch}
-        />
-    </div>
-
-    <ProfileFilters
-        countries={countries}
-        selectedCountries={selectedCountries}
-        onCountryChange={(country) => {
-            setSelectedCountries((current) =>
-                current.includes(country)
-                    ? current.filter((item) => item !== country)
-                    : [...current, country]
-            )
-        }}
-        roles={roles}
-        selectedRoles={selectedRoles}
-        onRoleChange={(role) => {
-            setSelectedRoles((current) =>
-                current.includes(role)
-                    ? current.filter((item) => item !== role)
-                    : [...current, role]
-            )
-        }}
-        sortOption={sortOption}
-        onSortChange={setSortOption}
-        onClear={() => {
-            setSelectedCountries([])
-            setSelectedRoles([])
-            setSortOption('default')
-        }}
-    />
-
-    <BatchCards
-        persons={filteredPersons(searchfield)}
-        numberPerBatch={16}
-    />
-</div>
+                        {filterControls}
+                        <BatchCards persons={results} numberPerBatch={16} />
+                    </div>
                 )}
             </main>
             <footer className="custom--unselectable w-100 h3 flex items-center justify-center white custom--bg-additional3 z-2">

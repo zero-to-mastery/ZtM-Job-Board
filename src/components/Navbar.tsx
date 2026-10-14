@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react'
 import Search from './Search'
 import '../styles/SearchBarDesktopView.scss'
 import { pageNames } from '../util/pageNames'
-import { shuffle } from '../util/shuffle'
 import { Pointer } from './Pointer'
 
 const Navbar = ({
     onSearchChange,
+    searchValue,
     onMapClick,
     onLogoClick,
     mapOrHomeTitle,
@@ -66,14 +66,15 @@ const Navbar = ({
                         TooltipText="Click to shuffle the Cards"
                     />
                 )}
-                {mapOrHomeTitle === pageNames.map && (
-                    <div
-                        style={{ margin: 0, padding: 0 }}
-                        className="visible-on-desktopview-only"
-                    >
-                        <Search onSearchChange={onSearchChange} />
-                    </div>
-                )}
+                <div
+                    style={{ margin: 0, padding: 0 }}
+                    className="visible-on-desktopview-only"
+                >
+                    <Search
+                        onSearchChange={onSearchChange}
+                        value={searchValue}
+                    />
+                </div>
                 {/* Dark mode toggle button */}
                 <Pointer
                     onClick={handleDarkModeToggle}

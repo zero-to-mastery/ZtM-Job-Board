@@ -43,8 +43,8 @@ const ProfileFilters = ({
         left: 0,
         width: '100%',
         minWidth: '260px',
-        background: '#fff',
-        border: '1px solid #ddd',
+        background: 'var(--dm-surface)',
+        border: '1px solid var(--dm-border)',
         borderRadius: '6px',
         padding: '0.75rem',
         boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)',
@@ -62,6 +62,7 @@ const ProfileFilters = ({
             className="br2 pa3 mb3"
             style={{
                 boxShadow: '0 2px 8px rgba(0, 0, 0, 0.12)',
+                color: 'var(--dm-text)',
             }}
         >
             <div className="flex justify-between items-center mb3">
@@ -76,11 +77,11 @@ const ProfileFilters = ({
                 </button>
             </div>
 
-            <div className="flex flex-wrap items-center" style={{ gap: '1rem' }}>
-                <div
-                    className="relative"
-                    style={{ flex: '1 1 220px' }}
-                >
+            <div
+                className="flex flex-wrap items-center"
+                style={{ gap: '1rem' }}
+            >
+                <div className="relative" style={{ flex: '1 1 220px' }}>
                     <button
                         type="button"
                         className="w-100 pa2 ba b--black-20 br2 tl pointer dark-gray"
@@ -130,17 +131,12 @@ const ProfileFilters = ({
                     )}
                 </div>
 
-                <div
-                    className="relative"
-                    style={{ flex: '1 1 220px' }}
-                >
+                <div className="relative" style={{ flex: '1 1 220px' }}>
                     <button
                         type="button"
                         className="w-100 pa2 ba b--black-20 br2 tl pointer dark-gray"
                         onClick={() =>
-                            setOpenFilter(
-                                openFilter === 'role' ? '' : 'role'
-                            )
+                            setOpenFilter(openFilter === 'role' ? '' : 'role')
                         }
                     >
                         Role
@@ -186,9 +182,7 @@ const ProfileFilters = ({
                 <div style={{ flex: '1 1 180px' }}>
                     <select
                         value={sortOption}
-                        onChange={(event) =>
-                            onSortChange(event.target.value)
-                        }
+                        onChange={(event) => onSortChange(event.target.value)}
                         className="w-100 pa2 ba b--black-20 br2 bg-near-white dark-gray"
                     >
                         <option value="default">Sort by: Default</option>

@@ -1,4 +1,5 @@
 import './index.scss'
+import './styles/theme.scss'
 import 'tachyons'
 import App from './App'
 import React from 'react'
