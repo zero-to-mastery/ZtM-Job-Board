@@ -425,7 +425,7 @@
     color: #b28704;
 }
 
-body.dark-mode .devmap .devmap-star-button[aria-pressed='true'] {
+[data-theme='dark'] body .devmap .devmap-star-button[aria-pressed='true'] {
     color: var(--dm-accent);
 }
 

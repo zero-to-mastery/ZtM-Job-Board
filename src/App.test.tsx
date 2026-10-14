@@ -71,7 +71,9 @@ const typeSearch = (text: string) => {
 }
 
 const switchView = async () => {
-    const mapLink = Array.from(container.querySelectorAll('span.pointer')).find(
+    const mapLink = Array.from(
+        container.querySelectorAll('button.pointer')
+    ).find(
         (element) =>
             element.textContent === 'Map' || element.textContent === 'Home'
     ) as HTMLElement
@@ -119,7 +121,7 @@ describe('shared filters', () => {
         act(() => root.render(<App />))
         const before = ids(received.cards)!
         const shuffleButton = Array.from(
-            container.querySelectorAll('span.pointer')
+            container.querySelectorAll('button.pointer')
         ).find((element) => element.textContent === 'Shuffle') as HTMLElement
         act(() => shuffleButton.click())
         const after = ids(received.cards)!

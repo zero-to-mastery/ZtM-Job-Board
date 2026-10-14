@@ -1,5 +1,5 @@
 // Color tokens for the map, results panel and recruiter filters.
-// body.dark-mode is toggled by the Navbar; components use only these
+// <html data-theme> is set by useTheme; components use only these
 // properties so they follow the active theme.
 
 body {
@@ -16,7 +16,7 @@ body {
     --dm-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
 }
 
-body.dark-mode {
+[data-theme='dark'] body {
     --dm-surface: #2b2b2b;
     --dm-surface-alt: #333333;
     --dm-text: #f5f5f5;
