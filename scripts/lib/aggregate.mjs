@@ -7,6 +7,7 @@ import {
     ROLE_IDS,
     SENIORITY_LEVELS,
 } from '../../src/util/roles/roleTaxonomy.js'
+import { validateCoordinates } from './coordinates.mjs'
 
 export class SubmissionLoadError extends Error {
     /** @param {{ file: string, message: string }[]} failures */
@@ -49,6 +50,7 @@ export function loadSubmissions(sourceDir) {
             ) {
                 throw new Error('Submission must be a JSON object')
             }
+            validateCoordinates(data.location?.coordinates)
             submissions.push({ file, data })
         } catch (e) {
             failures.push({ file, message: e.message })
