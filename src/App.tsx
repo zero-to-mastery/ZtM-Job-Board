@@ -3,8 +3,7 @@ import Search from './components/Search'
 import MapSkeleton from './components/MapSkeleton'
 import './styles/SearchBarMobileView.scss'
 import BatchCards from './components/BatchCards'
-import ProfileFilters from './components/ProfileFilters'
-import RecruiterFilters from './components/RecruiterFilters'
+import DiscoveryFilters from './components/DiscoveryFilters'
 import Navbar from './components/Navbar'
 import { people } from './data/people'
 import { pageNames } from './util/pageNames'
@@ -12,9 +11,12 @@ import { getCountryOptions } from './util/countryFilters'
 import { getRoleOptions } from './util/roleFilters'
 import { SENIORITY_LEVELS } from './util/roles/roleTaxonomy.js'
 import { LEVEL_NOT_STATED } from './util/filterPeople'
+import { contactSignals, ContactSignal } from './util/contactLinks'
 import { useDeveloperFilters } from './hooks/useDeveloperFilters'
+import { useNow } from './hooks/useNow'
 import { useShortlist } from './hooks/useShortlist'
 import { personIdFromHash } from './util/shortlist'
+import { selectedTimeZoneOffsetMinutes } from './util/timezone'
 const SimpleMap = lazy(() => import('./components/Map'))
 
 // Countries and roles are normalized during JSON aggregation
@@ -32,6 +34,18 @@ const levels = [...SENIORITY_LEVELS, LEVEL_NOT_STATED]
     }))
     .filter(({ count }) => count > 0)
 
+const signalLabels: { value: ContactSignal; label: string }[] = [
+    { value: 'email', label: 'email' },
+    { value: 'portfolio', label: 'portfolio site' },
+    { value: 'linkedin', label: 'LinkedIn' },
+]
+const signals = signalLabels.map(({ value, label }) => ({
+    value,
+    label,
+    count: people.filter((person) => contactSignals(person).includes(value))
+        .length,
+}))
+
 const style: React.CSSProperties = {
     background: '#fff',
     padding: '1rem',
@@ -47,7 +61,8 @@ const responsiveSearch = {
 }
 
 function App() {
-    const developerFilters = useDeveloperFilters(people)
+    const now = useNow()
+    const developerFilters = useDeveloperFilters(people, now)
     const { filters, results } = developerFilters
 
     const shortlist = useShortlist()
@@ -107,23 +122,13 @@ function App() {
                 />
             </div>
 
-            <ProfileFilters
+            <DiscoveryFilters
+                developerFilters={developerFilters}
                 countries={countries}
-                selectedCountries={filters.countries}
-                onCountryChange={developerFilters.toggleCountry}
                 roles={roles}
-                selectedRoles={filters.roles}
-                onRoleChange={developerFilters.toggleRole}
-                sortOption={filters.sort}
-                onSortChange={developerFilters.setSort}
-                onClear={developerFilters.clear}
-            />
-
-            <RecruiterFilters
                 levels={levels}
-                filters={filters}
-                onLevelChange={developerFilters.toggleLevel}
-                onOverlapChange={developerFilters.setOverlap}
+                signals={signals}
+                total={people.length}
             />
         </>
     )
@@ -148,7 +153,12 @@ function App() {
                             <SimpleMap
                                 people={results}
                                 allPeople={people}
-                                recruiterOffset={filters.overlap.offset}
+                                recruiterOffset={
+                                    selectedTimeZoneOffsetMinutes(
+                                        filters.overlap.timeZone,
+                                        now
+                                    ) ?? 0
+                                }
                                 shortlist={shortlist}
                                 focusId={focusId}
                                 onFocusHandled={handleFocus}

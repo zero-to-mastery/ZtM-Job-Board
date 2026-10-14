@@ -111,9 +111,6 @@ describe('ProfileFilters country dropdown', () => {
                     roles={[]}
                     selectedRoles={[]}
                     onRoleChange={() => {}}
-                    sortOption="default"
-                    onSortChange={() => {}}
-                    onClear={() => {}}
                     {...props}
                 />
             )

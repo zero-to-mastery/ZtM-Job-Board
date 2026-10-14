@@ -5,9 +5,10 @@ import {
     filterPeople,
     PeopleFilters,
 } from '../util/filterPeople'
+import { ContactSignal } from '../util/contactLinks'
 import { shuffle } from '../util/shuffle'
 
-const toggle = (values: string[], value: string) =>
+const toggle = <T extends string>(values: T[], value: T): T[] =>
     values.includes(value)
         ? values.filter((item) => item !== value)
         : [...values, value]
@@ -22,13 +23,13 @@ const shuffled = (people: Person[]) => {
  * Search, filter, sort and shuffle state shared by the card view and the map,
  * so both always show the same set of developers.
  */
-export function useDeveloperFilters(people: Person[]) {
+export function useDeveloperFilters(people: Person[], now: Date) {
     const [order, setOrder] = useState(() => shuffled(people))
     const [filters, setFilters] = useState<PeopleFilters>(DEFAULT_FILTERS)
 
     const results = useMemo(
-        () => filterPeople(order, filters),
-        [order, filters]
+        () => filterPeople(order, filters, now),
+        [order, filters, now]
     )
 
     const update = useCallback(
@@ -38,13 +39,20 @@ export function useDeveloperFilters(people: Person[]) {
     )
 
     const toggleIn = useCallback(
-        (key: 'countries' | 'roles' | 'levels', value: string) =>
+        (key: 'countries' | 'roles', value: string) =>
             setFilters((current) => ({
                 ...current,
                 [key]: toggle(current[key], value),
             })),
         []
     )
+
+    const toggleSignal = useCallback((signal: ContactSignal) => {
+        setFilters((current) => ({
+            ...current,
+            signals: toggle(current.signals, signal),
+        }))
+    }, [])
 
     return {
         filters,
@@ -61,10 +69,11 @@ export function useDeveloperFilters(people: Person[]) {
             (id: string) => toggleIn('roles', id),
             [toggleIn]
         ),
-        toggleLevel: useCallback(
-            (level: string) => toggleIn('levels', level),
-            [toggleIn]
+        setLevel: useCallback(
+            (level: string) => update({ levels: level ? [level] : [] }),
+            [update]
         ),
+        toggleSignal,
         setOverlap: useCallback(
             (overlap: Partial<PeopleFilters['overlap']>) =>
                 setFilters((current) => ({

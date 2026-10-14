@@ -1,21 +1,394 @@
-// Role, level and time-zone filters. Colors come from theme.scss.
+// Recruiter filters. Colors come from theme.scss.
 
-.recruiter-filters {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    margin: -0.5rem 0 1rem;
-    border-top: 1px solid var(--dm-border);
-    padding: 0.75rem 1rem 1rem;
-    border-radius: 0 0 6px 6px;
-    background: transparent;
+.discovery-filters {
+    width: calc(100% - 2rem);
+    max-width: 1700px;
+    margin: 1rem auto;
+    border: 1px solid var(--dm-border);
+    border-radius: 10px;
+    background: var(--dm-surface);
     color: var(--dm-text);
     text-align: left;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    box-shadow: var(--dm-shadow);
+}
 
-    @media screen and (max-width: 960px) {
+// Header: toggle, result count, sort and clear stay visible when collapsed
+.discovery-filters__header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1rem;
+    padding: 0.75rem 1rem;
+}
+
+.discovery-filters__title {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+// Two classes so element-level button rules (including dark mode) do not win
+.discovery-filters .discovery-filters__toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: -0.35rem -0.5rem;
+    padding: 0.35rem 0.5rem;
+    border: 0;
+    border-radius: 6px;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+
+    &:hover {
+        background: var(--dm-surface-alt);
+    }
+}
+
+// Chevron that points down when open and right when collapsed
+.discovery-filters__toggle-icon,
+.profile-filters__chevron {
+    flex: none;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: translateY(-2px) rotate(45deg);
+    transition: transform 0.15s ease;
+}
+
+.discovery-filters[data-collapsed='true'] .discovery-filters__toggle-icon {
+    transform: rotate(-45deg);
+}
+
+.discovery-filters__badge {
+    display: inline-grid;
+    min-width: 1.4rem;
+    height: 1.4rem;
+    padding: 0 0.35rem;
+    place-items: center;
+    border-radius: 999px;
+    background: var(--dm-primary);
+    color: #ffffff;
+    font-size: 0.8rem;
+    line-height: 1;
+}
+
+.discovery-filters__count {
+    margin: 0;
+    color: var(--dm-muted);
+    font-size: 0.95rem;
+
+    strong {
+        color: var(--dm-text);
+        font-variant-numeric: tabular-nums;
+    }
+}
+
+.discovery-filters__actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: auto;
+}
+
+.discovery-filters__sort {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.9rem;
+
+    span {
+        color: var(--dm-muted);
+    }
+
+    select {
+        min-height: 2.25rem;
+        padding: 0.3rem 0.5rem;
+        border: 1px solid var(--dm-border);
+        border-radius: 6px;
+        background: var(--dm-surface);
+        color: var(--dm-text);
+        font: inherit;
+        cursor: pointer;
+
+        &:hover {
+            border-color: var(--dm-primary);
+        }
+    }
+}
+
+.discovery-filters .discovery-filters__clear,
+.discovery-filters .profile-filters__link {
+    padding: 0.3rem 0.6rem;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: transparent;
+    color: var(--dm-primary-text);
+    font: inherit;
+    font-size: 0.9rem;
+    cursor: pointer;
+
+    &:hover:not(:disabled) {
+        border-color: var(--dm-border);
+        background: var(--dm-surface-alt);
+    }
+
+    &:disabled {
+        color: var(--dm-muted);
+        opacity: 0.6;
+        cursor: default;
+    }
+}
+
+// Removable pills for every active filter, shown even when collapsed
+.discovery-filters__active {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0;
+    padding: 0 1rem 0.75rem;
+    list-style: none;
+}
+
+.discovery-filters .discovery-filters__pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.2rem 0.35rem 0.2rem 0.7rem;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background: var(--dm-selected);
+    color: var(--dm-primary-text);
+    font: inherit;
+    font-size: 0.85rem;
+    cursor: pointer;
+
+    span {
+        display: grid;
+        width: 1.2rem;
+        height: 1.2rem;
+        place-items: center;
+        border-radius: 50%;
+        font-size: 1rem;
+        line-height: 1;
+    }
+
+    &:hover {
+        border-color: var(--dm-primary);
+
+        span {
+            background: var(--dm-primary);
+            color: #ffffff;
+        }
+    }
+}
+
+.discovery-filters__body {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem 2rem;
+    padding: 1rem;
+    border-top: 1px solid var(--dm-border);
+
+    &[hidden] {
+        display: none;
+    }
+
+    @media screen and (max-width: 900px) {
         grid-template-columns: 1fr;
     }
+}
+
+.discovery-filters__section {
+    grid-column: 1 / -1;
+
+    h3 {
+        margin: 0 0 0.6rem;
+        font-size: 0.95rem;
+    }
+}
+
+.discovery-filters__who {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem;
+
+    @media screen and (max-width: 680px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+// Country and role are cells of the "who" grid, and the overlap and
+// contact fieldsets are the two columns below it
+.profile-filters,
+.recruiter-filters {
+    display: contents;
+}
+
+.profile-filters__dropdown {
+    position: relative;
+    min-width: 0;
+}
+
+// Trigger buttons and the seniority select share one look:
+// a small label above the current value, with a chevron on the right
+.discovery-filters .profile-filters__trigger,
+.recruiter-filters__select {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    min-height: 3.25rem;
+    padding: 0.4rem 2.25rem 0.4rem 0.75rem;
+    border: 1px solid var(--dm-border);
+    border-radius: 8px;
+    background: var(--dm-surface);
+    color: var(--dm-muted);
+    font: inherit;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-align: left;
+    cursor: pointer;
+
+    &:hover,
+    &[aria-expanded='true'] {
+        border-color: var(--dm-primary);
+    }
+
+    &[data-active='true'] {
+        border-color: var(--dm-primary);
+        background: var(--dm-selected);
+    }
+
+    .profile-filters__chevron {
+        position: absolute;
+        top: 50%;
+        right: 0.9rem;
+        color: var(--dm-muted);
+        pointer-events: none;
+    }
+}
+
+.discovery-filters
+    .profile-filters__trigger[aria-expanded='true']
+    .profile-filters__chevron {
+    transform: translateY(-2px) rotate(225deg);
+}
+
+.profile-filters__trigger-value {
+    max-width: 100%;
+    overflow: hidden;
+    color: var(--dm-text);
+    font-size: 0.95rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+// The select covers the whole box so all of it opens the list;
+// the "Seniority" caption sits on top without catching clicks
+.recruiter-filters__select {
+    > span:first-child {
+        position: relative;
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    select {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        padding: 1.3rem 2.25rem 0.4rem 0.75rem;
+        border: 0;
+        border-radius: inherit;
+        background: transparent;
+        color: var(--dm-text);
+        font: inherit;
+        font-size: 0.95rem;
+        font-weight: 400;
+        letter-spacing: normal;
+        appearance: none;
+        cursor: pointer;
+
+        option {
+            background: var(--dm-surface);
+            color: var(--dm-text);
+        }
+    }
+}
+
+.profile-filters__menu {
+    position: absolute;
+    top: calc(100% + 0.4rem);
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    min-width: 260px;
+    padding: 0.5rem;
+    border: 1px solid var(--dm-border);
+    border-radius: 8px;
+    background: var(--dm-surface);
+    box-shadow: var(--dm-shadow);
+}
+
+.profile-filters__search {
+    width: 100%;
+    padding: 0.5rem 0.6rem;
+    border: 1px solid var(--dm-border);
+    border-radius: 6px;
+    background: var(--dm-surface);
+    color: var(--dm-text);
+    font: inherit;
+}
+
+.profile-filters__options {
+    max-height: 240px;
+    margin-top: 0.4rem;
+    overflow-y: auto;
+}
+
+.profile-filters__option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.45rem 0.4rem;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+        background: var(--dm-surface-alt);
+    }
+
+    &:has(input:checked) {
+        font-weight: 700;
+    }
+
+    input {
+        accent-color: var(--dm-primary);
+    }
+}
+
+.profile-filters__empty {
+    margin: 0;
+    padding: 0.6rem 0.4rem;
+    color: var(--dm-muted);
+    font-size: 0.9rem;
+}
+
+.profile-filters__menu-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.4rem;
+    padding-top: 0.4rem;
+    border-top: 1px solid var(--dm-border);
+    color: var(--dm-muted);
+    font-size: 0.85rem;
 }
 
 .recruiter-filters__group {
@@ -25,10 +398,21 @@
     min-width: 0;
 
     legend {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 0.15rem 0.5rem;
         padding: 0;
-        margin-bottom: 0.4rem;
+        margin-bottom: 0.6rem;
+        font-size: 0.95rem;
         font-weight: 700;
     }
+}
+
+.recruiter-filters__legend-hint {
+    color: var(--dm-muted);
+    font-size: 0.8rem;
+    font-weight: 400;
 }
 
 .recruiter-filters__chips {
@@ -64,24 +448,191 @@
     font-size: 0.85em;
 }
 
-.recruiter-filters__row {
+.recruiter-filters__overlap {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.recruiter-filters__timezone {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem 1rem;
     align-items: center;
+    gap: 0.5rem;
+}
 
-    select {
-        padding: 0.25rem;
+.recruiter-filters__timezone-picker {
+    position: relative;
+    width: min(100%, 320px);
+
+    input {
+        width: 100%;
+        min-height: 2.4rem;
+        padding: 0.4rem 2.25rem 0.4rem 0.6rem;
         border: 1px solid var(--dm-border);
-        border-radius: 4px;
+        border-radius: 5px;
         background: var(--dm-surface);
         color: var(--dm-text);
         font: inherit;
     }
 }
 
-.recruiter-filters button:focus-visible,
-.recruiter-filters select:focus-visible {
+.recruiter-filters .recruiter-filters__timezone-clear {
+    position: absolute;
+    top: 50%;
+    right: 0.25rem;
+    display: grid;
+    width: 1.8rem;
+    height: 1.8rem;
+    padding: 0;
+    transform: translateY(-50%);
+    place-items: center;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--dm-muted);
+    font-size: 1.25rem;
+    line-height: 1;
+    cursor: pointer;
+
+    &:hover {
+        background: var(--dm-surface-alt);
+        color: var(--dm-text);
+    }
+}
+
+.recruiter-filters__timezone-results {
+    position: absolute;
+    top: calc(100% + 0.3rem);
+    left: 0;
+    z-index: 30;
+    width: 100%;
+    max-height: 260px;
+    overflow-y: auto;
+    border: 1px solid var(--dm-border);
+    border-radius: 6px;
+    background: var(--dm-surface);
+    box-shadow: var(--dm-shadow);
+}
+
+.recruiter-filters .recruiter-filters__timezone-option {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0.55rem 0.7rem;
+    border: 0;
+    border-radius: 0;
+    background: var(--dm-surface);
+    color: var(--dm-text);
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+
+    span {
+        color: var(--dm-muted);
+        font-size: 0.8rem;
+    }
+
+    &:hover,
+    &[data-active='true'],
+    &[aria-selected='true'] {
+        background: var(--dm-selected);
+    }
+}
+
+.recruiter-filters__timezone-empty {
+    margin: 0;
+    padding: 0.75rem;
+    color: var(--dm-muted);
+}
+
+.recruiter-filters__timezone-hint {
+    flex-basis: 100%;
+    color: var(--dm-muted);
+    font-size: 0.8rem;
+}
+
+.recruiter-filters__slider {
+    min-width: 0;
+
+    input[type='range'] {
+        width: 100%;
+        margin: 0.65rem 0 0.15rem;
+        accent-color: var(--dm-primary);
+        cursor: pointer;
+    }
+}
+
+.recruiter-filters__slider-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+
+.recruiter-filters__slider-heading {
+    font-size: 0.9rem;
+    font-weight: 700;
+
+    output {
+        color: var(--dm-primary-text);
+        text-align: right;
+    }
+}
+
+.recruiter-filters__presets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: 0.35rem;
+
+    .recruiter-filters__chip {
+        font-size: 0.85rem;
+    }
+}
+
+.discovery-filters button:focus-visible,
+.discovery-filters input:focus-visible,
+.discovery-filters select:focus-visible {
     outline: 3px solid var(--dm-focus);
     outline-offset: 2px;
+}
+
+.discovery-filters input[type='range']:focus-visible {
+    outline-offset: 5px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .discovery-filters__toggle-icon,
+    .profile-filters__chevron {
+        transition: none;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .discovery-filters {
+        width: calc(100% - 1rem);
+        margin: 0.5rem auto;
+    }
+
+    .discovery-filters__header,
+    .discovery-filters__body {
+        padding: 0.75rem;
+    }
+
+    .discovery-filters__active {
+        padding: 0 0.75rem 0.75rem;
+    }
+
+    // Count sits beside the toggle; sort and clear get their own row
+    .discovery-filters__actions {
+        width: 100%;
+        margin-left: 0;
+        justify-content: space-between;
+    }
+
+    .profile-filters__menu {
+        min-width: 0;
+    }
 }

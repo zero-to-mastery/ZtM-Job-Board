@@ -2,7 +2,12 @@ import { describe, expect, test } from 'vitest'
 import {
     developerOffset,
     formatOffset,
+    getTimeZoneGroups,
     localTimeLabel,
+    parseUtcOffset,
+    selectedTimeZoneOffsetMinutes,
+    searchTimeZones,
+    timeZoneLabel,
     workdayOverlapHours,
     zoneOffsetMinutes,
 } from './timezone'
@@ -56,6 +61,98 @@ describe('zone offsets', () => {
         expect(formatOffset(-300)).toBe('UTC-5')
         expect(formatOffset(330)).toBe('UTC+5:30')
         expect(formatOffset(-570)).toBe('UTC-9:30')
+    })
+
+    test('parses signed UTC/GMT offsets, including half-hour offsets', () => {
+        expect(parseUtcOffset('GMT')).toBe(0)
+        expect(parseUtcOffset('utc')).toBe(0)
+        expect(parseUtcOffset('UTC-5')).toBe(-300)
+        expect(parseUtcOffset('gmt-5')).toBe(-300)
+        expect(parseUtcOffset('GMT +5:30')).toBe(330)
+        expect(parseUtcOffset('UTC+0530')).toBe(330)
+        expect(parseUtcOffset('UTC−4')).toBe(-240)
+        expect(parseUtcOffset('UTC+14:30')).toBeNull()
+        expect(parseUtcOffset('UTC+5:60')).toBeNull()
+        expect(parseUtcOffset('New York')).toBeNull()
+    })
+
+    describe('time-zone search', () => {
+        const zones = ['America/New_York', 'Europe/London', 'UTC']
+        const values = (query: string) =>
+            searchTimeZones(query, zones).map(({ value }) => value)
+
+        test.each(['gm', 'GMT', 'ut', 'UTC'])(
+            '%s offers a short list of selectable offsets',
+            (query) => {
+                const results = searchTimeZones(query, zones)
+                expect(results[0].value).toBe('UTC')
+                expect(results.length).toBeLessThanOrEqual(12)
+                expect(results.length).toBeGreaterThan(1)
+                expect(
+                    results.every(({ label }) => label.includes('GMT'))
+                ).toBe(true)
+            }
+        )
+
+        test.each(['GMT-', 'utc-'])('%s matches negative offsets', (query) => {
+            expect(values(query)).toContain('UTC-5')
+            expect(
+                values(query).every((value) => value.startsWith('UTC-'))
+            ).toBe(true)
+        })
+
+        test.each(['gmt-5', 'UTC-05', 'GMT − 5', 'UTC-0500'])(
+            '%s puts the exact offset first',
+            (query) => expect(values(query)[0]).toBe('UTC-5')
+        )
+
+        test.each(['GMT+5:30', 'utc + 0530', 'UTC＋5:30'])(
+            '%s finds a fractional fixed offset',
+            (query) => expect(values(query)[0]).toBe('UTC+5:30')
+        )
+
+        test('suggests completions while entering minutes', () => {
+            expect(values('GMT+5:')).toContain('UTC+5:30')
+            expect(values('UTC+5:3')).toEqual(['UTC+5:30'])
+            expect(values('UTC+05:3')).toEqual(['UTC+5:30'])
+        })
+
+        test.each(['UTC+25', 'GMT+5:60', 'GMT+14:30'])(
+            '%s does not offer an invalid offset',
+            (query) => expect(values(query)).toEqual([])
+        )
+
+        test('keeps city searches readable and supports raw IANA identifiers', () => {
+            expect(values('new york')).toEqual(['America/New_York'])
+            expect(values('America/New_York')).toEqual(['America/New_York'])
+            expect(timeZoneLabel('America/New_York')).toBe('New York · America')
+            expect(timeZoneLabel('GMT-5')).toBe('UTC-5')
+        })
+    })
+
+    test('resolves fixed offsets without applying daylight-saving changes', () => {
+        expect(selectedTimeZoneOffsetMinutes('GMT-5', january)).toBe(-300)
+        expect(selectedTimeZoneOffsetMinutes('UTC-5', july)).toBe(-300)
+        expect(selectedTimeZoneOffsetMinutes('America/New_York', january)).toBe(
+            -300
+        )
+        expect(selectedTimeZoneOffsetMinutes('America/New_York', july)).toBe(
+            -240
+        )
+    })
+
+    test('groups IANA zones and includes the current zone and UTC', () => {
+        const groups = getTimeZoneGroups('America/Example')
+        const america = groups.find(({ region }) => region === 'America')
+        const other = groups.find(({ region }) => region === 'Other')
+        const americaZones = america?.zones ?? []
+
+        expect(america).toBeDefined()
+        expect(america?.zones).toContain('America/Example')
+        expect(other?.zones).toContain('UTC')
+        expect(americaZones).toEqual(
+            [...americaZones].sort((a, b) => a.localeCompare(b))
+        )
     })
 })
 

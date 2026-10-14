@@ -1,6 +1,7 @@
 import Person from '../interfaces/person'
 
 export type ContactKind = 'email' | 'website' | 'github' | 'linkedin'
+export type ContactSignal = 'email' | 'portfolio' | 'linkedin'
 
 export interface ContactLink {
     kind: ContactKind
@@ -49,4 +50,15 @@ export function contactLinks(person: Pick<Person, 'email' | 'links'>) {
     const linkedin = safeUrl(person.links?.linkedin)
     if (linkedin) links.push({ kind: 'linkedin', href: linkedin })
     return links
+}
+
+export function contactSignals(
+    person: Pick<Person, 'email' | 'links'>
+): ContactSignal[] {
+    const kinds = new Set(contactLinks(person).map(({ kind }) => kind))
+    const signals: ContactSignal[] = []
+    if (kinds.has('email')) signals.push('email')
+    if (kinds.has('website')) signals.push('portfolio')
+    if (kinds.has('linkedin')) signals.push('linkedin')
+    return signals
 }

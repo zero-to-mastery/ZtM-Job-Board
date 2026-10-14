@@ -4,6 +4,16 @@ A place for developers from the [**Zero To Mastery Community**](https://zerotoma
 
 Link to the webpage: [**ZtM JOB Board**](https://zero-to-mastery.github.io/ZtM-Job-Board/).
 
+### Finding developers
+
+The working-hours filter compares local 9–5 workdays. Search for a city or
+region (for example, `New York`), or type `UTC`/`GMT` to browse fixed offsets.
+`UTC-5` and `GMT-5` mean the same fixed offset; unlike a named city zone,
+they do not change with daylight saving time. Fractional offsets such as
+`GMT+5:30` are supported. Click a suggestion or press Enter to select the first
+match; use the arrow keys to choose another. The clear button resets the
+selection to your browser's current time zone.
+
 ### How to run the project in your local machine
 
 - `git clone https://github.com/zero-to-mastery/ZtM-Job-Board.git`

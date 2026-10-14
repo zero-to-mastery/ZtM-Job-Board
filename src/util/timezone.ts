@@ -55,6 +55,32 @@ export function zoneOffsetMinutes(timeZone: string, date: Date) {
     return match[1] === '-' ? -minutes : minutes
 }
 
+/**
+ * Parses a fixed GMT/UTC offset such as "UTC-5" or "GMT+5:30".
+ * Returns null for text that is not a valid fixed offset.
+ */
+export function parseUtcOffset(value: string): number | null {
+    const normalized = normalizeTimeZoneSearch(value)
+    if (normalized === 'utc' || normalized === 'gmt') return 0
+    const match = /^(?:utc|gmt)\s*([+-])\s*(\d{1,2})(?::?(\d{2}))?$/i.exec(
+        normalized
+    )
+    if (!match) return null
+
+    const hours = Number(match[2])
+    const minutes = Number(match[3] ?? 0)
+    if (hours > 14 || minutes >= 60 || (hours === 14 && minutes !== 0)) {
+        return null
+    }
+    const offset = hours * 60 + minutes
+    return match[1] === '-' ? -offset : offset
+}
+
+/** Resolves either an IANA zone or a fixed UTC/GMT offset selection. */
+export function selectedTimeZoneOffsetMinutes(timeZone: string, date: Date) {
+    return parseUtcOffset(timeZone) ?? zoneOffsetMinutes(timeZone, date)
+}
+
 /** Current offset for a developer, falling back to the standard offset. */
 export function developerOffset(
     timezone: { name: string; utcOffset: number } | null,
@@ -73,6 +99,173 @@ export function formatOffset(offset: number) {
     return `UTC${sign}${hours}${minutes ? `:${String(minutes).padStart(2, '0')}` : ''}`
 }
 
+const normalizeTimeZoneSearch = (value: string) =>
+    value
+        .replace(/_/g, ' ')
+        .replace(/−/g, '-')
+        .replace(/＋/g, '+')
+        .trim()
+        .toLowerCase()
+
+export const timeZoneLabel = (timeZone: string) => {
+    const offset = parseUtcOffset(timeZone)
+    if (offset !== null) return formatOffset(offset)
+    const parts = timeZone.replace(/_/g, ' ').split('/')
+    const city = parts.pop() ?? timeZone
+    const region = parts.join('/')
+    return region ? `${city} · ${region}` : city
+}
+
+export interface TimeZoneSearchResult {
+    value: string
+    label: string
+    detail: string
+}
+
+const FIXED_OFFSETS = [
+    ...Array.from({ length: 27 }, (_, index) => (index - 12) * 60),
+    -570,
+    -210,
+    210,
+    270,
+    330,
+    345,
+    390,
+    525,
+    570,
+    630,
+    765,
+].sort((a, b) => Math.abs(a) - Math.abs(b) || a - b)
+
+/** Searches cities and fixed offsets, treating UTC and GMT as aliases. */
+export function searchTimeZones(
+    query: string,
+    timeZones: string[],
+    limit = 12
+): TimeZoneSearchResult[] {
+    const searchTerm = normalizeTimeZoneSearch(query)
+    if (searchTerm.length < 2) return []
+
+    const compact = searchTerm.replace(/\s/g, '')
+    if (/^(?:ut|gm|(?:utc|gmt)(?:[+-].*)?)$/.test(compact)) {
+        const prefix =
+            compact === 'gm'
+                ? 'ut'
+                : compact
+                      .replace(/^gmt/, 'utc')
+                      .replace(/^(utc[+-])0(?=\d)/, '$1')
+        const exact = parseUtcOffset(searchTerm)
+        const offsets = [
+            ...(exact === null ? [] : [exact]),
+            ...FIXED_OFFSETS.filter((offset) => {
+                const formatted = formatOffset(offset).toLowerCase()
+                return (
+                    formatted.startsWith(prefix) ||
+                    formatted.replace(':', '').startsWith(prefix)
+                )
+            }),
+        ]
+        return Array.from(new Set(offsets))
+            .slice(0, limit)
+            .map((offset) => {
+                const utc = formatOffset(offset)
+                return {
+                    value: utc,
+                    label: `${utc} / ${utc.replace('UTC', 'GMT')} fixed offset`,
+                    detail: 'No daylight-saving changes',
+                }
+            })
+    }
+
+    return timeZones
+        .filter((timeZone) =>
+            normalizeTimeZoneSearch(timeZone).includes(searchTerm)
+        )
+        .sort((a, b) => {
+            const cityA = normalizeTimeZoneSearch(a.split('/').pop() ?? a)
+            const cityB = normalizeTimeZoneSearch(b.split('/').pop() ?? b)
+            const matchA = cityA.startsWith(searchTerm) ? 0 : 1
+            const matchB = cityB.startsWith(searchTerm) ? 0 : 1
+            return matchA - matchB || a.localeCompare(b)
+        })
+        .slice(0, limit)
+        .map((timeZone) => ({
+            value: timeZone,
+            label: timeZoneLabel(timeZone),
+            detail: timeZone.replace(/_/g, ' '),
+        }))
+}
+
+/** The browser's current IANA time zone, or UTC when it is unavailable. */
+export const browserTimeZone = () =>
+    Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC'
+
+const FALLBACK_TIME_ZONES = [
+    'Africa/Cairo',
+    'Africa/Johannesburg',
+    'Africa/Lagos',
+    'America/Anchorage',
+    'America/Chicago',
+    'America/Denver',
+    'America/Los_Angeles',
+    'America/Mexico_City',
+    'America/New_York',
+    'America/Phoenix',
+    'America/Sao_Paulo',
+    'America/Toronto',
+    'America/Vancouver',
+    'Asia/Dubai',
+    'Asia/Hong_Kong',
+    'Asia/Kolkata',
+    'Asia/Seoul',
+    'Asia/Shanghai',
+    'Asia/Singapore',
+    'Asia/Tokyo',
+    'Australia/Perth',
+    'Australia/Sydney',
+    'Europe/Berlin',
+    'Europe/London',
+    'Europe/Paris',
+    'Pacific/Auckland',
+    'UTC',
+]
+
+export interface TimeZoneGroup {
+    region: string
+    zones: string[]
+}
+
+/** IANA zones grouped by region for a readable, keyboard-searchable select. */
+export function getTimeZoneGroups(
+    currentTimeZone = browserTimeZone()
+): TimeZoneGroup[] {
+    const supportedValuesOf = (
+        Intl as typeof Intl & {
+            supportedValuesOf?: (key: 'timeZone') => string[]
+        }
+    ).supportedValuesOf
+    const zones = supportedValuesOf
+        ? supportedValuesOf('timeZone')
+        : FALLBACK_TIME_ZONES
+    const allZones = new Set([...zones, currentTimeZone, 'UTC'])
+    const groups = new Map<string, string[]>()
+
+    allZones.forEach((timeZone) => {
+        const separator = timeZone.indexOf('/')
+        const region = separator === -1 ? 'Other' : timeZone.slice(0, separator)
+        const cities = groups.get(region) ?? []
+        cities.push(timeZone)
+        groups.set(region, cities)
+    })
+
+    return Array.from(groups.entries())
+        .sort(([regionA], [regionB]) => regionA.localeCompare(regionB))
+        .map(([region, timeZones]) => ({
+            region,
+            zones: timeZones.sort((a, b) => a.localeCompare(b)),
+        }))
+}
+
 /**
  * Local time at an offset, with the weekday so day boundaries are visible:
  * "Tue 9:05 PM".
@@ -86,12 +279,3 @@ export function localTimeLabel(offset: number, date: Date) {
         timeZone: 'UTC',
     }).format(shifted)
 }
-
-// Every offset in use worldwide, for the "my time zone" picker
-export const UTC_OFFSETS = [
-    -720, -660, -600, -570, -540, -480, -420, -360, -300, -240, -210, -180,
-    -120, -60, 0, 60, 120, 180, 210, 240, 270, 300, 330, 345, 360, 390, 420,
-    480, 525, 540, 570, 600, 630, 660, 720, 765, 780, 840,
-]
-
-export const browserOffset = (date = new Date()) => -date.getTimezoneOffset()
