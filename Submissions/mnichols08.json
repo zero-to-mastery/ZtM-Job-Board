@@ -21,6 +21,7 @@
     "location": {
         "city": "Gormania",
         "state": "West Virginia",
-        "country": "United States"
+        "country": "United States",
+        "coordinates": { "lat": 39.29, "lng": -79.34 }
     }
 }

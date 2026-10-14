@@ -1,0 +1,50 @@
+// Self-reported skills on developer cards. The skills filter itself is
+// styled with the other filters in RecruiterFilters.scss.
+
+.skill-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+    overflow-wrap: anywhere;
+}
+
+.skill-chip {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    padding: 0.35rem 0.65rem;
+    border: 1px solid var(--color-control-border);
+    border-radius: 1rem;
+    background: var(--color-surface-muted);
+    color: var(--color-text);
+    font-size: 0.875rem;
+}
+
+.skill-chip--matched {
+    border-color: var(--color-link);
+    background: var(--color-surface-muted);
+    color: var(--color-link);
+}
+
+.skill-chip__match {
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.profile-skills {
+    padding: 0 1rem 1rem;
+    color: var(--color-text);
+
+    .skill-chips {
+        justify-content: center;
+    }
+}
+
+.profile-skills__label {
+    font-size: 0.875rem;
+    margin: 0 0 0.75rem;
+}
