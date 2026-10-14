@@ -8,6 +8,7 @@ import {
     searchTimeZones,
     timeZoneLabel,
 } from '../util/timezone'
+import { FilterDropdown, MultiSelect } from './FilterDropdown'
 
 const timeZoneGroups = getTimeZoneGroups()
 const timeZones = timeZoneGroups.flatMap(({ zones }) => zones)
@@ -86,7 +87,7 @@ const Chip = ({ pressed, onClick, children }: ChipProps) => (
     </button>
 )
 
-// Time-zone overlap and contact-signal filters shared by both views.
+// Working-hours overlap and contact-signal dropdowns shared by both views.
 // Country and role filters live in ProfileFilters.
 const RecruiterFilters = ({
     signals,
@@ -101,6 +102,7 @@ const RecruiterFilters = ({
     const [activeTimeZoneIndex, setActiveTimeZoneIndex] = useState(-1)
     const [editingTimeZone, setEditingTimeZone] = useState(false)
 
+    const { minHours } = filters.overlap
     const timeZoneResults = searchTimeZones(timeZoneQuery, timeZones)
 
     const selectTimeZone = (timeZone: string) => {
@@ -130,6 +132,8 @@ const RecruiterFilters = ({
         event: React.KeyboardEvent<HTMLInputElement>
     ) => {
         if (event.key === 'Escape') {
+            // First Escape cancels the search; the next closes the dropdown
+            if (editingTimeZone) event.stopPropagation()
             setTimeZoneQuery(timeZoneLabel(filters.overlap.timeZone))
             setTimeZonePickerOpen(false)
             setEditingTimeZone(false)
@@ -156,16 +160,20 @@ const RecruiterFilters = ({
 
     return (
         <div className="recruiter-filters">
-            <fieldset className="recruiter-filters__group">
-                <legend>
-                    Working-hours overlap
-                    <span className="recruiter-filters__legend-hint">
-                        9–5 in each person's local time
-                    </span>
-                </legend>
+            <FilterDropdown
+                label="Shared hours"
+                value={`${
+                    minHours === 0 ? 'Any' : `${minHours}h+`
+                } · ${timeZoneLabel(filters.overlap.timeZone).split(' · ')[0]}`}
+                active={minHours > 0}
+                wide
+            >
                 <div className="recruiter-filters__overlap">
+                    <p className="recruiter-filters__legend-hint">
+                        Overlap of a 9–5 day in your time zone and theirs
+                    </p>
                     <div className="recruiter-filters__timezone">
-                        <span>My time zone</span>
+                        <span>Your time zone</span>
                         <div className="recruiter-filters__timezone-picker">
                             <input
                                 type="text"
@@ -326,30 +334,19 @@ const RecruiterFilters = ({
                         </div>
                     </div>
                 </div>
-            </fieldset>
+            </FilterDropdown>
 
-            <fieldset className="recruiter-filters__group">
-                <legend>
-                    How to reach them
-                    <span className="recruiter-filters__legend-hint">
-                        Profiles must have every selected link
-                    </span>
-                </legend>
-                <div className="recruiter-filters__chips">
-                    {signals.map(({ value, label, count }) => (
-                        <Chip
-                            key={value}
-                            pressed={filters.signals.includes(value)}
-                            onClick={() => onSignalChange(value)}
-                        >
-                            Has {label}{' '}
-                            <span className="recruiter-filters__count">
-                                {count}
-                            </span>
-                        </Chip>
-                    ))}
-                </div>
-            </fieldset>
+            <MultiSelect
+                label="Contact"
+                noun={{ one: 'contact', many: 'contact methods' }}
+                options={signals.map(({ value, label, count }) => ({
+                    value,
+                    label: `Has ${label} (${count})`,
+                }))}
+                selected={filters.signals}
+                onToggle={(value) => onSignalChange(value as ContactSignal)}
+                searchable={false}
+            />
         </div>
     )
 }

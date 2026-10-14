@@ -38,6 +38,11 @@ beforeEach(() => {
     document.body.appendChild(container)
     root = createRoot(container)
     act(() => root.render(<Harness />))
+    // The time-zone search lives in the "Shared hours" dropdown
+    const trigger = Array.from(container.querySelectorAll('button')).find(
+        (button) => button.textContent?.startsWith('Shared hours')
+    )
+    act(() => trigger?.click())
 })
 
 afterEach(() => {

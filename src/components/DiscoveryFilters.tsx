@@ -186,6 +186,32 @@ const DiscoveryFilters = ({
                 </div>
             </div>
 
+            <div
+                className="discovery-filters__body"
+                id={bodyId}
+                hidden={collapsed}
+            >
+                <ProfileFilters
+                    countries={countries}
+                    selectedCountries={filters.countries}
+                    onCountryChange={developerFilters.toggleCountry}
+                    roles={roles}
+                    selectedRoles={filters.roles}
+                    onRoleChange={developerFilters.toggleRole}
+                />
+                <SeniorityFilter
+                    levels={levels}
+                    value={filters.levels[0] ?? ''}
+                    onChange={developerFilters.setLevel}
+                />
+                <RecruiterFilters
+                    signals={signals}
+                    filters={filters}
+                    onSignalChange={developerFilters.toggleSignal}
+                    onOverlapChange={developerFilters.setOverlap}
+                />
+            </div>
+
             {active.length > 0 && (
                 <ul
                     className="discovery-filters__active"
@@ -206,38 +232,6 @@ const DiscoveryFilters = ({
                     ))}
                 </ul>
             )}
-
-            <div
-                className="discovery-filters__body"
-                id={bodyId}
-                hidden={collapsed}
-            >
-                <div className="discovery-filters__section">
-                    <h3>Who you're looking for</h3>
-                    <div className="discovery-filters__who">
-                        <ProfileFilters
-                            countries={countries}
-                            selectedCountries={filters.countries}
-                            onCountryChange={developerFilters.toggleCountry}
-                            roles={roles}
-                            selectedRoles={filters.roles}
-                            onRoleChange={developerFilters.toggleRole}
-                        />
-                        <SeniorityFilter
-                            levels={levels}
-                            value={filters.levels[0] ?? ''}
-                            onChange={developerFilters.setLevel}
-                        />
-                    </div>
-                </div>
-
-                <RecruiterFilters
-                    signals={signals}
-                    filters={filters}
-                    onSignalChange={developerFilters.toggleSignal}
-                    onOverlapChange={developerFilters.setOverlap}
-                />
-            </div>
         </section>
     )
 }

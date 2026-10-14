@@ -10,6 +10,14 @@
     color: var(--dm-text);
     text-align: left;
     box-shadow: var(--dm-shadow);
+
+    // Tachyons leaves label, select and button as content-box, so padded
+    // full-width controls would overflow their grid cells
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
 }
 
 // Header: toggle, result count, sort and clear stay visible when collapsed
@@ -186,42 +194,23 @@
 }
 
 .discovery-filters__body {
+    // One row of equal dropdowns on wide screens, wrapping as space runs out
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1.25rem 2rem;
-    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 0.6rem;
+    padding: 0.75rem 1rem;
     border-top: 1px solid var(--dm-border);
 
     &[hidden] {
         display: none;
     }
 
-    @media screen and (max-width: 900px) {
-        grid-template-columns: 1fr;
-    }
-}
-
-.discovery-filters__section {
-    grid-column: 1 / -1;
-
-    h3 {
-        margin: 0 0 0.6rem;
-        font-size: 0.95rem;
-    }
-}
-
-.discovery-filters__who {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.75rem;
-
     @media screen and (max-width: 680px) {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
-// Country and role are cells of the "who" grid, and the overlap and
-// contact fieldsets are the two columns below it
+// Their dropdowns are cells of the body grid
 .profile-filters,
 .recruiter-filters {
     display: contents;
@@ -241,6 +230,7 @@
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
+    min-width: 0;
     min-height: 3.25rem;
     padding: 0.4rem 2.25rem 0.4rem 0.75rem;
     border: 1px solid var(--dm-border);
@@ -334,6 +324,16 @@
     border-radius: 8px;
     background: var(--dm-surface);
     box-shadow: var(--dm-shadow);
+
+    &[data-wide='true'] {
+        width: max(100%, 340px);
+        padding: 0.75rem;
+    }
+
+    &[data-align='right'] {
+        right: 0;
+        left: auto;
+    }
 }
 
 .profile-filters__search {
@@ -391,34 +391,11 @@
     font-size: 0.85rem;
 }
 
-.recruiter-filters__group {
-    margin: 0;
-    padding: 0;
-    border: none;
-    min-width: 0;
-
-    legend {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: baseline;
-        gap: 0.15rem 0.5rem;
-        padding: 0;
-        margin-bottom: 0.6rem;
-        font-size: 0.95rem;
-        font-weight: 700;
-    }
-}
-
 .recruiter-filters__legend-hint {
+    margin: 0;
     color: var(--dm-muted);
     font-size: 0.8rem;
     font-weight: 400;
-}
-
-.recruiter-filters__chips {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem;
 }
 
 // Two classes so element-level button rules (including dark mode) do not win
@@ -443,11 +420,6 @@
     }
 }
 
-.recruiter-filters__count {
-    opacity: 0.75;
-    font-size: 0.85em;
-}
-
 .recruiter-filters__overlap {
     display: flex;
     flex-direction: column;
@@ -463,7 +435,7 @@
 
 .recruiter-filters__timezone-picker {
     position: relative;
-    width: min(100%, 320px);
+    width: 100%;
 
     input {
         width: 100%;
@@ -621,6 +593,10 @@
         padding: 0.75rem;
     }
 
+    .discovery-filters__body {
+        gap: 0.5rem;
+    }
+
     .discovery-filters__active {
         padding: 0 0.75rem 0.75rem;
     }
@@ -632,7 +608,9 @@
         justify-content: space-between;
     }
 
-    .profile-filters__menu {
+    .profile-filters__menu,
+    .profile-filters__menu[data-wide='true'] {
+        width: min(340px, calc(100vw - 2rem));
         min-width: 0;
     }
 }
