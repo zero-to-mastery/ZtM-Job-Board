@@ -39,9 +39,11 @@ original fields and gets two generated fields:
   it stays the same across runs.
 - Files are processed in filename order, so the output is byte-for-byte
   identical for identical input.
-- If any submission cannot be read or is not a JSON object, the script lists
-  every failing file, exits with status 1 and leaves the existing
-  `persons.json` untouched. An unrecognised country is **not** an error.
+- If any submission cannot be read, is not a JSON object, or has invalid
+  optional `location.coordinates` (anything other than `{ "lat", "lng" }`
+  numbers in range with at most 2 decimal places), the script lists every
+  failing file, exits with status 1 and leaves the existing `persons.json`
+  untouched. An unrecognised country is **not** an error.
 - The script prints nothing on success, because the Build workflow posts its
   output as a commit comment.
 

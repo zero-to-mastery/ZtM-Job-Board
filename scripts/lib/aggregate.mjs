@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import crypto from 'crypto'
 import { resolveCountry } from '../../src/util/countries/resolveCountry.js'
+import { validateCoordinates } from './coordinates.mjs'
 
 export class SubmissionLoadError extends Error {
     /** @param {{ file: string, message: string }[]} failures */
@@ -44,6 +45,7 @@ export function loadSubmissions(sourceDir) {
             ) {
                 throw new Error('Submission must be a JSON object')
             }
+            validateCoordinates(data.location?.coordinates)
             submissions.push({ file, data })
         } catch (e) {
             failures.push({ file, message: e.message })
