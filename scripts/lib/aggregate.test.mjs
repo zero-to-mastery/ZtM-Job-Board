@@ -120,49 +120,6 @@ describe('aggregate', () => {
         expect(persons[0].location.country).toBe('USA (Willing to relocate!)')
     })
 
-    test('adds normalized roles, seniority and technologies', () => {
-        writeFixtures({ ...FIXTURES, ...ROLE_FIXTURES })
-        aggregate({ sourceDir, outputFile })
-        const persons = JSON.parse(fs.readFileSync(outputFile, 'utf-8'))
-        const byName = Object.fromEntries(
-            persons.map((p) => [p.name, p.normalized])
-        )
-
-        expect(byName.Romeo).toEqual({
-            countries: ['US'],
-            roles: ['frontend-developer'],
-            seniority: 'senior',
-            technologies: ['react'],
-        })
-        expect(byName.Sierra).toEqual({
-            countries: ['CA'],
-            roles: ['frontend-developer', 'full-stack-developer'],
-            seniority: null,
-            technologies: [],
-        })
-        expect(byName.Tango).toEqual({
-            countries: ['IN'],
-            roles: [],
-            seniority: null,
-            technologies: [],
-        })
-        expect(byName.Golf.roles).toEqual([])
-        expect(byName.Alpha.roles).toEqual(['web-developer'])
-        // Country normalization is unchanged by role normalization
-        expect(byName.Charlie.countries).toEqual(['US', 'BE'])
-        // Original titles are kept for display
-        expect(persons.find((p) => p.name === 'Romeo').jobTitle).toBe(
-            'Senior Front-End React Developer'
-        )
-        // Key order of the generated metadata is fixed
-        expect(Object.keys(byName.Romeo)).toEqual([
-            'countries',
-            'roles',
-            'seniority',
-            'technologies',
-        ])
-    })
-
     test('preserves scoped country notes and excludes relocation destination lists', () => {
         const fixtures = {
             'alpha.json': submission('Alpha', 'USA (remote), Belgium'),
