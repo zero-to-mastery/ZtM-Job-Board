@@ -75,7 +75,7 @@ const switchView = async () => {
         container.querySelectorAll('button.pointer')
     ).find(
         (element) =>
-            element.textContent === 'Map' || element.textContent === 'Home'
+            element.textContent === 'Map' || element.textContent === 'Directory'
     ) as HTMLElement
     await act(async () => {
         mapLink.click()

@@ -52,12 +52,14 @@ function App() {
     const shortlist = useShortlist()
 
     const [map, setMap] = useState(false)
-    const [mapOrHomeTitle, setMapOrHomeTitle] = useState(pageNames.map) // pageNames.map is default
+    const [mapOrDirectoryTitle, setMapOrDirectoryTitle] = useState(
+        pageNames.map
+    ) // pageNames.map is default
     const [focusId, setFocusId] = useState<string | null>(null)
 
     function showMap(show: boolean) {
         setMap(show)
-        setMapOrHomeTitle(show ? pageNames.home : pageNames.map)
+        setMapOrDirectoryTitle(show ? pageNames.directory : pageNames.map)
     }
 
     // Search and filters are kept when switching views so both show the same developers
@@ -110,7 +112,7 @@ function App() {
                 <Navbar
                     onLogoClick={goBack}
                     onMapClick={goBack}
-                    mapOrHomeTitle={mapOrHomeTitle}
+                    mapOrDirectoryTitle={mapOrDirectoryTitle}
                     shufflePeopleOnClick={developerFilters.shuffle}
                 />
             </header>

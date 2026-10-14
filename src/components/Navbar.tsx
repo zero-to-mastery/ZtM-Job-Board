@@ -6,7 +6,7 @@ import useTheme from '../util/useTheme'
 const Navbar = ({
     onMapClick,
     onLogoClick,
-    mapOrHomeTitle,
+    mapOrDirectoryTitle,
     shufflePeopleOnClick,
 }: any) => {
     const { theme, toggleTheme } = useTheme()
@@ -28,14 +28,14 @@ const Navbar = ({
             <div className="flex items-center">
                 <Pointer
                     onClick={onMapClick}
-                    Text={mapOrHomeTitle}
+                    Text={mapOrDirectoryTitle}
                     TooltipText={
-                        mapOrHomeTitle === 'Home'
-                            ? 'Go to Home Page'
+                        mapOrDirectoryTitle === pageNames.directory
+                            ? 'Back to the developer directory'
                             : 'See the Map'
                     }
                 />
-                {mapOrHomeTitle !== 'Home' && (
+                {mapOrDirectoryTitle !== pageNames.directory && (
                     <Pointer
                         onClick={shufflePeopleOnClick}
                         Text="Shuffle"
