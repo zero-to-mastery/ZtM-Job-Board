@@ -106,7 +106,14 @@ export function cityKeys(city) {
 export function createGeocoder({ cities, countryCenters }) {
     const byKey = new Map()
     const largestCity = new Map()
+    // "US:wv" -> the dataset's cities in that state/region
+    const byRegion = new Map()
     for (const city of cities) {
+        const regionKey = `${city.country}:${compact(city.adminCode.toLowerCase())}`
+        const region = byRegion.get(regionKey)
+        if (!region) byRegion.set(regionKey, [city])
+        else region.push(city)
+
         const names = [city.name, ...city.altName.split(',')]
         for (const name of names) {
             const key = compact(cleanPlaceText(name))
@@ -122,20 +129,52 @@ export function createGeocoder({ cities, countryCenters }) {
         }
     }
 
+    // The stated state/region as a dataset admin code key: "West Virginia" -> "wv"
+    const regionKey = (state, countryCode) => {
+        const usState = countryCode === 'US' ? usStateCode(state) : null
+        if (usState) return usState.toLowerCase()
+        return typeof state === 'string' ? compact(cleanPlaceText(state)) : ''
+    }
+
     // Prefer a city in the stated state/region, then the most populous one
     const pickCity = (matches, state, countryCode) => {
-        const stateKey =
-            typeof state === 'string' ? compact(cleanPlaceText(state)) : ''
-        const usState = countryCode === 'US' ? usStateCode(state) : null
+        const region = regionKey(state, countryCode)
         const inState = matches.filter(
-            (city) =>
-                (usState && city.adminCode === usState) ||
-                (stateKey && compact(city.adminCode.toLowerCase()) === stateKey)
+            (city) => region && compact(city.adminCode.toLowerCase()) === region
         )
         const pool = inState.length ? inState : matches
         return pool.reduce((best, city) =>
             city.population > best.population ? city : best
         )
+    }
+
+    // Center of a state/region: the city nearest the average position of its
+    // cities, so the point stays inside the region whatever its shape
+    const regionCenters = new Map()
+    const regionCenter = (state, countryCode) => {
+        const region = regionKey(state, countryCode)
+        if (!region) return null
+        const key = `${countryCode}:${region}`
+        if (!regionCenters.has(key)) {
+            const regionCities = byRegion.get(key)
+            let center = null
+            if (regionCities) {
+                const mean = (index) =>
+                    regionCities.reduce(
+                        (sum, city) => sum + city.loc.coordinates[index],
+                        0
+                    ) / regionCities.length
+                const [lng, lat] = [mean(0), mean(1)]
+                const distance = (city) =>
+                    (city.loc.coordinates[0] - lng) ** 2 +
+                    (city.loc.coordinates[1] - lat) ** 2
+                center = regionCities.reduce((best, city) =>
+                    distance(city) < distance(best) ? city : best
+                )
+            }
+            regionCenters.set(key, center)
+        }
+        return regionCenters.get(key)
     }
 
     // Center of a country: its centroid, else its largest city
@@ -163,6 +202,17 @@ export function createGeocoder({ cities, countryCenters }) {
                     approximate: false,
                     adminCode: found.adminCode,
                 }
+            }
+        }
+        // City not found: the center of the stated state/region, if known
+        const inRegion = regionCenter(state, countryCode)
+        if (inRegion) {
+            const [lng, lat] = inRegion.loc.coordinates
+            return {
+                lat: round(lat),
+                lng: round(lng),
+                approximate: true,
+                adminCode: inRegion.adminCode,
             }
         }
         const center = countryCenter(countryCode)

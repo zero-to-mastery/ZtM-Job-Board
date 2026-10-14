@@ -69,6 +69,26 @@ describe('city geocoding', () => {
         expect(geocode({ city: '', countryCode: 'KE' })).toEqual(place)
     })
 
+    test('falls back to the center of a known state before the country', () => {
+        // Too small for the city dataset, so only the state places it
+        const place = geocode({
+            city: 'Gormania',
+            state: 'West Virginia',
+            countryCode: 'US',
+        })
+        expect(place).toMatchObject({ approximate: true, adminCode: 'WV' })
+        // Inside West Virginia, not at the center of the United States
+        expect(place.lat).toBeGreaterThan(37.2)
+        expect(place.lat).toBeLessThan(40.6)
+        expect(place.lng).toBeGreaterThan(-82.6)
+        expect(place.lng).toBeLessThan(-77.7)
+        expect(geocode({ state: 'WV', countryCode: 'US' })).toEqual(place)
+        // An unknown state still falls back to the country center
+        expect(
+            geocode({ city: 'Nowhere', state: 'Atlantis', countryCode: 'US' })
+        ).toEqual(geocode({ city: 'Nowhere', countryCode: 'US' }))
+    })
+
     test('falls back to the largest city when there is no centroid', () => {
         expect(countryCenters.HK).toBeUndefined()
         expect(geocode({ countryCode: 'HK' })).toMatchObject({
