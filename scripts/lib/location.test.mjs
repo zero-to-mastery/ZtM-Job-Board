@@ -174,6 +174,29 @@ describe('location enrichment', () => {
         })
     })
 
+    test('uses submitted coordinates instead of looking up the city', () => {
+        const [submitted] = buildPersons([
+            {
+                file: 'mikey.json',
+                data: {
+                    name: 'Mikey',
+                    location: {
+                        // Too small for the city dataset
+                        city: 'Gormania',
+                        state: 'West Virginia',
+                        country: 'United States',
+                        coordinates: { lat: 39.29, lng: -79.34 },
+                    },
+                    links: {},
+                },
+            },
+        ])
+        expect(addLocation(submitted).normalized).toMatchObject({
+            geo: { lat: 39.29, lng: -79.34, approximate: false },
+            timezone: { name: 'America/New_York' },
+        })
+    })
+
     test('uses the first of several countries', () => {
         const person = addLocation({
             location: { city: 'Toronto' },

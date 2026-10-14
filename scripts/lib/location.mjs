@@ -30,16 +30,23 @@ export function createLocationEnricher({
     const resolveTimezone = createTimezoneResolver({ timezones, cities })
 
     /**
-     * @param {{ location?: { city?: string, state?: string }, normalized: { countries: string[] } }} person
+     * @param {{ location?: { city?: string, state?: string, coordinates?: { lat: number, lng: number } }, normalized: { countries: string[] } }} person
      */
     return function addLocation(person) {
         const location = person.location ?? {}
         const countryCode = person.normalized?.countries?.[0] ?? null
-        const place = geocode({
-            city: location.city,
-            state: location.state,
-            countryCode,
-        })
+        // Coordinates in the submission are exact; otherwise look up the city
+        const place = location.coordinates
+            ? {
+                  lat: location.coordinates.lat,
+                  lng: location.coordinates.lng,
+                  approximate: false,
+              }
+            : geocode({
+                  city: location.city,
+                  state: location.state,
+                  countryCode,
+              })
         const timezone = resolveTimezone({
             countryCode,
             lat: place?.lat,
