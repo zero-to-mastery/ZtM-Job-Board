@@ -9,11 +9,8 @@ import {
 
 import { countriesWithNumOfDevsObj } from '../util/UsersDataCleanup'
 import { countriesWithLatLng } from '../util/CountriesDataFilter'
+import { buildCountryMarkers } from '../util/countryMarkers'
 
-// Array of country names and number of devs in those countries
-/* Needed to match country names from countriesWithNumOfDevsObj against 
-country names fetched from API to get their latitude and longitude for markers */
-const countryNamesAndNumOfDevsArr = Object.entries(countriesWithNumOfDevsObj)
 let centerLatLngArr: any = []
 
 function SimpleMap({ zoom = 3 }) {
@@ -22,39 +19,11 @@ function SimpleMap({ zoom = 3 }) {
         setAllCountriesLatLang(countriesWithLatLng)
     }, [])
 
-    let countriesLatLngArr: any = allCountriesLatLang.map(
-        ({ name, latlng }) => ({
-            name,
-            latlng,
-        })
+    // Developer counts and marker coordinates are both keyed by ISO country code
+    let finalArrayWithCountryAndLatLng: any = buildCountryMarkers(
+        countriesWithNumOfDevsObj,
+        allCountriesLatLang
     )
-
-    // Two nested for loops are okay as array items will always be < 250 in both arrays
-    let finalArrayWithCountryAndLatLng: any = []
-    function finalCountryAndLocationArray() {
-        for (const element of countryNamesAndNumOfDevsArr) {
-            for (let j = 0; j < countriesLatLngArr.length; j++) {
-                if (
-                    element[0].toLowerCase() ===
-                        countriesLatLngArr[j].name.toLowerCase() &&
-                    !finalArrayWithCountryAndLatLng.some(
-                        (entry: any) =>
-                            entry.country.toLowerCase() ===
-                            countriesLatLngArr[j].name.toLowerCase()
-                    )
-                ) {
-                    finalArrayWithCountryAndLatLng.push({
-                        country: countriesLatLngArr[j].name,
-                        latlng: countriesLatLngArr[j].latlng,
-                        numberOfDevs: element,
-                    })
-                }
-            }
-        }
-
-        return finalArrayWithCountryAndLatLng
-    }
-    finalCountryAndLocationArray()
 
     // DO NOT DELETE THIS COMMENTED OUT CODE BELOW
     // Might need it to check for unexpected repeated entries which is easier with sorted countries
@@ -75,13 +44,13 @@ function SimpleMap({ zoom = 3 }) {
   */
 
     const markersArray = finalArrayWithCountryAndLatLng.map(
-        ({ country, latlng, numberOfDevs }: any) => {
+        ({ code, country, latlng, numberOfDevs }: any) => {
             let numberOfDevsText =
                 numberOfDevs === 1
                     ? numberOfDevs + ' Developer from ' + country
                     : numberOfDevs + ' Developers from ' + country
             return (
-                <Marker key={country} position={[latlng[0], latlng[1]]}>
+                <Marker key={code} position={[latlng[0], latlng[1]]}>
                     <Tooltip>{numberOfDevsText}</Tooltip>
                     <Popup>{numberOfDevsText}</Popup>
                 </Marker>
