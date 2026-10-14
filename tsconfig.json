@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "target": "es5",
+    "target": "es2015",
     "module": "esnext",
+    "types": ["node"],
     "strict": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
@@ -15,7 +16,7 @@
     "allowJs": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "isolatedModules": true,
     "noEmit": true
   },
