@@ -39,7 +39,6 @@ $colors: (
     --color-card-border: transparent;
     --color-control-border: #767676;
     // Deeper amber so the search box stays outlined on white panels
-    --color-search-border: #a67c00;
     --color-input-bg: #ffffff;
     --color-placeholder: #6b6b6b;
     --color-link: #1565c0;
@@ -76,7 +75,6 @@ $colors: (
     --color-border: #3a3a3a;
     --color-card-border: #333333;
     --color-control-border: #8c8c8c;
-    --color-search-border: #{$color--secondary};
     --color-input-bg: #2a2a2a;
     --color-placeholder: #a6a6a6;
     --color-link: #64b5f6;
@@ -280,7 +278,6 @@ input:focus:not(:focus-visible) {
 .app-bar {
     background-color: var(--color-bar-bg);
     color: var(--color-bar-text);
-    --color-search-border: #{$color--secondary};
 
     :focus-visible {
         outline-color: var(--color-bar-focus);
@@ -442,33 +439,6 @@ header {
     }
     input:checked::after {
         border-color: #ffffff;
-    }
-}
-
-.searchbox {
-    margin: 0 0.6rem 0 0;
-
-    input {
-        width: 11rem;
-        padding: 0.3rem;
-        background-color: var(--color-input-bg);
-        color: var(--color-text);
-        border-color: var(--color-search-border);
-    }
-    input::selection {
-        background: rgba(255, 255, 255, 0.15);
-    }
-    input::-moz-selection {
-        background: rgba(255, 255, 255, 0.15);
-    }
-    input::placeholder {
-        color: var(--color-placeholder);
-        opacity: 1;
-    }
-    input:focus,
-    input:not(:placeholder-shown) {
-        color: var(--color-text);
-        border-color: var(--color-focus);
     }
 }
 

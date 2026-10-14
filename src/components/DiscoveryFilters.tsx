@@ -75,15 +75,6 @@ const DiscoveryFilters = ({
     }
 
     const active: ActiveFilter[] = [
-        ...(filters.search.trim()
-            ? [
-                  {
-                      key: 'search',
-                      label: `“${filters.search.trim()}”`,
-                      onRemove: () => developerFilters.setSearch(''),
-                  },
-              ]
-            : []),
         ...filters.countries.map((code) => ({
             key: `country-${code}`,
             label: countries.find((c) => c.code === code)?.label ?? code,
@@ -117,9 +108,12 @@ const DiscoveryFilters = ({
             onRemove: () => developerFilters.toggleSignal(signal),
         })),
     ]
-    // The search box lives in the navbar, so it is not counted as a filter here
-    const filterCount = active.filter(({ key }) => key !== 'search').length
-    const canClear = filterCount > 0 || filters.sort !== 'default'
+    // The search box stays visible in the header, so it is not counted or shown as a pill
+    const filterCount = active.length
+    const canClear =
+        filterCount > 0 ||
+        filters.sort !== 'default' ||
+        filters.search.trim() !== ''
 
     return (
         <section
@@ -150,6 +144,21 @@ const DiscoveryFilters = ({
                     </button>
                 </h2>
 
+                <label className="discovery-filters__search">
+                    <svg aria-hidden="true" viewBox="0 0 24 24">
+                        <path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.43,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.43C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+                    </svg>
+                    <input
+                        type="search"
+                        placeholder="Search by name, role or location"
+                        aria-label="Search developers by name, role or location"
+                        value={filters.search}
+                        onChange={(event) =>
+                            developerFilters.setSearch(event.target.value)
+                        }
+                    />
+                </label>
+
                 <p className="discovery-filters__count" aria-live="polite">
                     <strong>{results.length}</strong>
                     {results.length === total
@@ -179,7 +188,7 @@ const DiscoveryFilters = ({
                         className="discovery-filters__clear"
                         onClick={developerFilters.clear}
                         disabled={!canClear}
-                        aria-label="Clear filters and sorting"
+                        aria-label="Clear search, filters and sorting"
                     >
                         Clear all
                     </button>

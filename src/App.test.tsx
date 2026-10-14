@@ -58,7 +58,7 @@ afterEach(() => {
 
 const typeSearch = (text: string) => {
     const input = container.querySelector<HTMLInputElement>(
-        '.visible-on-desktopview-only input[type="search"]'
+        '.discovery-filters__search input'
     )!
     const setValue = Object.getOwnPropertyDescriptor(
         HTMLInputElement.prototype,
@@ -100,7 +100,7 @@ describe('shared filters', () => {
 
         // The search text is kept in the inputs after switching views
         const input = container.querySelector<HTMLInputElement>(
-            '.visible-on-desktopview-only input[type="search"]'
+            '.discovery-filters__search input'
         )!
         expect(input.value).toBe('india')
 

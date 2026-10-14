@@ -1,7 +1,5 @@
 import React, { useCallback, useEffect, useState, lazy, Suspense } from 'react'
-import Search from './components/Search'
 import MapSkeleton from './components/MapSkeleton'
-import './styles/SearchBarMobileView.scss'
 import BatchCards from './components/BatchCards'
 import DiscoveryFilters from './components/DiscoveryFilters'
 import Navbar from './components/Navbar'
@@ -45,19 +43,6 @@ const signals = signalLabels.map(({ value, label }) => ({
     count: people.filter((person) => contactSignals(person).includes(value))
         .length,
 }))
-
-const style: React.CSSProperties = {
-    padding: '1rem',
-    width: '100%',
-    margin: '0 0 2rem 0',
-    zIndex: 1,
-    borderRadius: '5px',
-}
-const responsiveSearch = {
-    width: '100%',
-    marginBottom: '0.5rem',
-    padding: '0.5rem',
-}
 
 function App() {
     const now = useNow()
@@ -108,31 +93,15 @@ function App() {
     }, [reset])
     const handleFocus = useCallback(() => setFocusId(null), [])
 
-    const onSearchChange = (event: React.ChangeEvent<HTMLInputElement>) =>
-        developerFilters.setSearch(event.target.value)
-
     const filterControls = (
-        <>
-            <div
-                className="visible-on-mobileview-only surface-panel"
-                style={style}
-            >
-                <Search
-                    value={filters.search}
-                    onSearchChange={onSearchChange}
-                    responsiveSearch={responsiveSearch}
-                />
-            </div>
-
-            <DiscoveryFilters
-                developerFilters={developerFilters}
-                countries={countries}
-                roles={roles}
-                levels={levels}
-                signals={signals}
-                total={people.length}
-            />
-        </>
+        <DiscoveryFilters
+            developerFilters={developerFilters}
+            countries={countries}
+            roles={roles}
+            levels={levels}
+            signals={signals}
+            total={people.length}
+        />
     )
 
     return (
@@ -140,8 +109,6 @@ function App() {
             <header className="app-bar custom--unselectable top-0 w-100 custom--shadow-4 z-9999">
                 <Navbar
                     onLogoClick={goBack}
-                    searchValue={filters.search}
-                    onSearchChange={onSearchChange}
                     onMapClick={goBack}
                     mapOrHomeTitle={mapOrHomeTitle}
                     shufflePeopleOnClick={developerFilters.shuffle}

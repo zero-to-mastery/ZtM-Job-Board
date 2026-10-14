@@ -83,13 +83,11 @@ export function useDeveloperFilters(people: Person[], now: Date) {
             []
         ),
         setSort: useCallback((sort: string) => update({ sort }), [update]),
-        // Same as the old "Clear" button: keeps the search text
-        // (and the recruiter's own time zone)
+        // Clears search, filters and sort, but keeps the recruiter's own time zone
         clear: useCallback(
             () =>
                 setFilters((current) => ({
                     ...DEFAULT_FILTERS,
-                    search: current.search,
                     overlap: { ...current.overlap, minHours: 0 },
                 })),
             []

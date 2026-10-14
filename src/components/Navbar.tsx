@@ -1,13 +1,9 @@
 import React from 'react'
-import Search from './Search'
-import '../styles/SearchBarDesktopView.scss'
 import { pageNames } from '../util/pageNames'
 import { Pointer } from './Pointer'
 import useTheme from '../util/useTheme'
 
 const Navbar = ({
-    onSearchChange,
-    searchValue,
     onMapClick,
     onLogoClick,
     mapOrHomeTitle,
@@ -46,15 +42,6 @@ const Navbar = ({
                         TooltipText="Click to shuffle the Cards"
                     />
                 )}
-                <div
-                    style={{ margin: 0, padding: 0 }}
-                    className="visible-on-desktopview-only"
-                >
-                    <Search
-                        onSearchChange={onSearchChange}
-                        value={searchValue}
-                    />
-                </div>
                 {/* Dark mode toggle button */}
                 <Pointer
                     onClick={toggleTheme}

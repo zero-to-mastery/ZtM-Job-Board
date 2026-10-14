@@ -98,3 +98,27 @@ test('collapses the body, keeps the header and remembers the choice', () => {
         'true'
     )
 })
+
+test('search lives in the header and is cleared by Clear all', () => {
+    const search = container.querySelector<HTMLInputElement>(
+        '.discovery-filters__header input[type="search"]'
+    )!
+    const setValue = Object.getOwnPropertyDescriptor(
+        HTMLInputElement.prototype,
+        'value'
+    )!.set!
+    act(() => {
+        setValue.call(search, 'b')
+        search.dispatchEvent(new Event('input', { bubbles: true }))
+    })
+
+    expect(count()).toBe('1 of 3 developers')
+    // The text is already visible in the box, so it is not a pill or badge
+    expect(container.querySelector('.discovery-filters__active')).toBeNull()
+    expect(button('Filters').textContent).toBe('Filters')
+    expect(button('Clear all').disabled).toBe(false)
+
+    act(() => button('Clear all').click())
+    expect(search.value).toBe('')
+    expect(count()).toBe('3 developers')
+})
