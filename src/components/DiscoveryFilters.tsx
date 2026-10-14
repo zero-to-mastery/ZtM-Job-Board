@@ -21,15 +21,15 @@ export const SORT_OPTIONS = [
     { value: 'name-desc', label: 'Name Z–A' },
 ]
 
-// Remembered per browser; phones start collapsed so results are visible
+// Starts collapsed so results come first; opening it is remembered per browser
 function initiallyCollapsed() {
     try {
         const stored = window.localStorage.getItem(COLLAPSED_KEY)
         if (stored !== null) return stored === 'true'
     } catch {
-        // Storage can be blocked; fall back to the screen size
+        // Storage can be blocked; fall back to collapsed
     }
-    return window.matchMedia?.('(max-width: 680px)').matches ?? false
+    return true
 }
 
 function rememberCollapsed(collapsed: boolean) {

@@ -82,21 +82,31 @@ test('shows active filters as removable pills with the result count', () => {
     expect(container.querySelector('.discovery-filters__active')).toBeNull()
 })
 
-test('collapses the body, keeps the header and remembers the choice', () => {
+test('starts collapsed, keeps the header and remembers the choice', () => {
     const toggle = button('Filters')
     const body = container.querySelector('.discovery-filters__body')
-    expect(toggle.getAttribute('aria-expanded')).toBe('true')
-    expect(body?.hasAttribute('hidden')).toBe(false)
-
-    act(() => toggle.click())
     expect(toggle.getAttribute('aria-expanded')).toBe('false')
     expect(body?.hasAttribute('hidden')).toBe(true)
+    // Search and sort stay usable while collapsed
+    expect(
+        container.querySelector('.discovery-filters__search input')
+    ).not.toBeNull()
     expect(
         container.querySelector('select[aria-label="Sort profiles"]')
     ).not.toBeNull()
+
+    act(() => toggle.click())
+    expect(toggle.getAttribute('aria-expanded')).toBe('true')
+    expect(body?.hasAttribute('hidden')).toBe(false)
     expect(window.localStorage.getItem('discovery-filters-collapsed')).toBe(
-        'true'
+        'false'
     )
+
+    // A later visit opens it the way it was left
+    act(() => root.unmount())
+    root = createRoot(container)
+    act(() => root.render(<Harness />))
+    expect(button('Filters').getAttribute('aria-expanded')).toBe('true')
 })
 
 test('search lives in the header and is cleared by Clear all', () => {
