@@ -303,6 +303,17 @@ input:focus:not(:focus-visible) {
     border-radius: 2px;
 }
 
+.theme-toggle__icon {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
 .surface-panel {
     background-color: var(--color-surface);
     color: var(--color-text);

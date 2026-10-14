@@ -1,7 +1,7 @@
 import React from 'react'
 import { pageNames } from '../util/pageNames'
 import { Pointer } from './Pointer'
-import useTheme from '../util/useTheme'
+import ThemeToggle from './ThemeToggle'
 
 const Navbar = ({
     onMapClick,
@@ -9,9 +9,6 @@ const Navbar = ({
     mapOrDirectoryTitle,
     shufflePeopleOnClick,
 }: any) => {
-    const { theme, toggleTheme } = useTheme()
-    const isDarkMode = theme === 'dark'
-
     return (
         <div className="header-items flex flex-wrap justify-between">
             <h1
@@ -42,12 +39,7 @@ const Navbar = ({
                         TooltipText="Click to shuffle the Cards"
                     />
                 )}
-                {/* Dark mode toggle button */}
-                <Pointer
-                    onClick={toggleTheme}
-                    Text={isDarkMode ? 'Light Mode' : 'Dark Mode'}
-                    TooltipText={`Click to enable ${isDarkMode ? 'light' : 'dark'} mode`}
-                />
+                <ThemeToggle />
             </div>
         </div>
     )
