@@ -14,13 +14,19 @@ const SimpleMap = lazy(() => import('./components/Map'))
 
 const people: any = persons
 const countries = Array.from(
-    new Set(
-        people.map((person: any) => person.location?.country).filter(Boolean)
+    new Set<string>(
+        people
+            .map((person: any) => person.location?.country)
+            .filter(Boolean)
     )
 ).sort()
 
 const jobTitles = Array.from(
-    new Set(people.map((person: any) => person.jobTitle).filter(Boolean))
+    new Set<string>(
+        people
+            .map((person: any) => person.jobTitle)
+            .filter(Boolean)
+    )
 ).sort()
 
 const style: React.CSSProperties = {

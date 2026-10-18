@@ -38,7 +38,7 @@
     },
     "devDependencies": {
         "@babel/helper-call-delegate": "^7.12.13",
-        "@fullhuman/postcss-purgecss": "^7.0.2",
+        "@fullhuman/postcss-purgecss": "^8.0.0",
         "@types/jest": "^30.0.0",
         "@types/leaflet": "^1.9.21",
         "@types/node": "^25.0.3",
