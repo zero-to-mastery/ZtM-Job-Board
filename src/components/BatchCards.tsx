@@ -66,16 +66,6 @@ const BatchCards = ({ persons, numberPerBatch = 16 }: any) => {
             <div className="flex flex-wrap justify-center">
                 <CardList
                     persons={persons.slice(0, batch * numberPerBatch)}
-                    card
-                    ma4
-                    w5
-                    tc
-                    bg-white
-                    br2
-                    custom--shadow-2
-                    custom--shadow-hover-8
-                    custom--o-95
-                    z-1
                 />
             </div>
             {persons.length >= batch * numberPerBatch && (
