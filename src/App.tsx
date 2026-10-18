@@ -14,7 +14,7 @@ const SimpleMap = lazy(() => import('./components/Map'))
 
 const people: any = persons
 const countries = Array.from(
-    new Set(
+    new Set<string>(
         people
             .map((person: any) => person.location?.country)
             .filter(Boolean)
@@ -22,7 +22,7 @@ const countries = Array.from(
 ).sort()
 
 const jobTitles = Array.from(
-    new Set(
+    new Set<string>(
         people
             .map((person: any) => person.jobTitle)
             .filter(Boolean)
