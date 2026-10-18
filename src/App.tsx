@@ -18,7 +18,7 @@ const people: any = persons
 const countries = getCountryOptions(people)
 
 const jobTitles = Array.from(
-    new Set(
+    new Set<string>(
         people
             .map((person: any) => person.jobTitle)
             .filter(Boolean)
