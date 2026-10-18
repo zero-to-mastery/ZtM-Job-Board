@@ -1,0 +1,26 @@
+{
+    "name": "Mikey Nichols",
+    "img": "https://avatars.githubusercontent.com/u/33106391?v=4",
+    "email": "mnix@journeytocode.io",
+    "links": {
+        "website": "https://mnix.dev",
+        "linkedin": "https://www.linkedin.com/in/mnix-dev",
+        "github": "https://github.com/mnichols08"
+    },
+    "jobTitle": "Full Stack Web Developer",
+    "skills": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Express",
+        "Web Components",
+        "Rust",
+        "WebAssembly"
+    ],
+    "location": {
+        "city": "Gormania",
+        "state": "West Virginia",
+        "country": "United States"
+    }
+}

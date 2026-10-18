@@ -7,7 +7,11 @@ interface SearchProps {
     value: string
 }
 
-const Search = ({ onSearchChange, responsiveSearch, value }: SearchProps) => {
+const Search = ({
+    onSearchChange,
+    responsiveSearch = {},
+    value,
+}: SearchProps) => {
     return (
         <div className="search-area flex flex-wrap items-center ml4 mt1 z-1">
             <SearchBox
