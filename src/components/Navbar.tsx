@@ -1,41 +1,14 @@
-import React, { useState, useEffect } from 'react'
-import Search from './Search'
-import '../styles/SearchBarDesktopView.scss'
+import React from 'react'
 import { pageNames } from '../util/pageNames'
-import { shuffle } from '../util/shuffle'
 import { Pointer } from './Pointer'
+import ThemeToggle from './ThemeToggle'
 
 const Navbar = ({
-    onSearchChange,
     onMapClick,
     onLogoClick,
-    mapOrHomeTitle,
+    mapOrDirectoryTitle,
     shufflePeopleOnClick,
 }: any) => {
-    const [isDarkMode, setIsDarkMode] = useState(false)
-
-    // Check if dark mode is already set in localStorage
-    useEffect(() => {
-        const savedTheme = localStorage.getItem('theme')
-        if (savedTheme === 'dark') {
-            setIsDarkMode(true)
-            document.body.classList.add('dark-mode')
-        }
-    }, [])
-
-    // Toggle dark mode
-    const handleDarkModeToggle = () => {
-        const newMode = !isDarkMode
-        setIsDarkMode(newMode)
-        if (newMode) {
-            document.body.classList.add('dark-mode')
-            localStorage.setItem('theme', 'dark')
-        } else {
-            document.body.classList.remove('dark-mode')
-            localStorage.setItem('theme', 'light')
-        }
-    }
-
     return (
         <div className="header-items flex flex-wrap justify-between">
             <h1
@@ -52,34 +25,21 @@ const Navbar = ({
             <div className="flex items-center">
                 <Pointer
                     onClick={onMapClick}
-                    Text={mapOrHomeTitle}
+                    Text={mapOrDirectoryTitle}
                     TooltipText={
-                        mapOrHomeTitle === 'Home'
-                            ? 'Go to Home Page'
+                        mapOrDirectoryTitle === pageNames.directory
+                            ? 'Back to the developer directory'
                             : 'See the Map'
                     }
                 />
-                {mapOrHomeTitle !== 'Home' && (
+                {mapOrDirectoryTitle !== pageNames.directory && (
                     <Pointer
                         onClick={shufflePeopleOnClick}
                         Text="Shuffle"
                         TooltipText="Click to shuffle the Cards"
                     />
                 )}
-                {mapOrHomeTitle === pageNames.map && (
-                    <div
-                        style={{ margin: 0, padding: 0 }}
-                        className="visible-on-desktopview-only"
-                    >
-                        <Search onSearchChange={onSearchChange} />
-                    </div>
-                )}
-                {/* Dark mode toggle button */}
-                <Pointer
-                    onClick={handleDarkModeToggle}
-                    Text={isDarkMode ? 'Light Mode' : 'Dark Mode'}
-                    TooltipText={`Click to enable ${isDarkMode ? 'light' : 'dark'} mode`}
-                />
+                <ThemeToggle />
             </div>
         </div>
     )

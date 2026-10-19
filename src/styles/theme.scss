@@ -1,0 +1,35 @@
+// Color tokens for the map, results panel and recruiter filters.
+// <html data-theme> is set by useTheme; components use only these
+// properties so they follow the active theme.
+
+body {
+    --dm-surface: #ffffff;
+    --dm-surface-alt: #f5f5f5;
+    --dm-text: #212121;
+    --dm-muted: #5f5f5f;
+    --dm-border: rgba(0, 0, 0, 0.14);
+    --dm-primary: #2196f3;
+    --dm-primary-text: #1565c0;
+    --dm-accent: #ffc107;
+    --dm-selected: rgba(33, 150, 243, 0.12);
+    --dm-focus: #1565c0;
+    --dm-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+    --dm-danger: #c62828;
+    --dm-on-danger: #ffffff;
+    --dm-backdrop: rgba(0, 0, 0, 0.45);
+}
+
+[data-theme='dark'] body {
+    --dm-surface: #2b2b2b;
+    --dm-surface-alt: #333333;
+    --dm-text: #f5f5f5;
+    --dm-muted: #c2c2c2;
+    --dm-border: rgba(255, 255, 255, 0.18);
+    --dm-primary-text: #90caf9;
+    --dm-selected: rgba(144, 202, 249, 0.16);
+    --dm-focus: #ffca28;
+    --dm-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    --dm-danger: #ef9a9a;
+    --dm-on-danger: #212121;
+    --dm-backdrop: rgba(0, 0, 0, 0.65);
+}
