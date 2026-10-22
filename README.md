@@ -42,7 +42,7 @@ inside `Submissions/` folder, and then fill it up with following content.
     "github": "https://github.com/<YOUR_GH_USERNAME>"
   },
   "jobTitle": "[YOUR_TITLE]",
-  "skills": ["React", "TypeScript", "Node.js"],
+  "skills": ["[SKILL_1]", "[SKILL_2]", "[SKILL_3]"],
   "location": {
     "city": "[YOUR_CITY]",
     "state": "[YOUR_STATE_OR_PROVINCE]",
