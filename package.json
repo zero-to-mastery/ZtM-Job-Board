@@ -58,7 +58,7 @@
         "sass": "^1.97.1",
         "typescript": "^5.9.3",
         "vite": "^7.3.7",
-        "vitest": "^4.1.11"
+        "vitest": "^4.1.12"
     },
     "browserslist": [
         ">0.2%",
