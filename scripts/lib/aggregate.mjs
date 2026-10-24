@@ -15,6 +15,72 @@ export class SubmissionLoadError extends Error {
         this.failures = failures
     }
 }
+/**
+ * Validates optional profile coordinates.
+ *
+ * @param {unknown} coordinates
+ * @param {string} file
+ */
+function validateCoordinates(coordinates, file) {
+    if (coordinates === undefined) return
+
+    const fail = (message) => {
+        throw new Error(`Invalid location.coordinates: ${message}`)
+    }
+
+    if (
+        coordinates === null ||
+        typeof coordinates !== 'object' ||
+        Array.isArray(coordinates)
+    ) {
+        fail('must be an object containing exactly lat and lng')
+    }
+
+    const keys = Object.keys(coordinates)
+
+    if (
+        keys.length !== 2 ||
+        !keys.includes('lat') ||
+        !keys.includes('lng')
+    ) {
+        fail('must contain exactly lat and lng')
+    }
+
+    const { lat, lng } = coordinates
+
+    if (typeof lat !== 'number' || !Number.isFinite(lat)) {
+        fail('lat must be a finite number')
+    }
+
+    if (lat < -90 || lat > 90) {
+        fail('lat must be between -90 and 90')
+    }
+
+    if (decimalPlaces(lat) > 2) {
+        fail('lat must have at most 2 decimal places for privacy')
+    }
+
+    if (typeof lng !== 'number' || !Number.isFinite(lng)) {
+        fail('lng must be a finite number')
+    }
+
+    if (lng < -180 || lng > 180) {
+        fail('lng must be between -180 and 180')
+    }
+
+    if (decimalPlaces(lng) > 2) {
+        fail('lng must have at most 2 decimal places for privacy')
+    }
+}
+
+function decimalPlaces(value) {
+    const text = String(value).toLowerCase()
+    if (text.includes('e-')) {
+        const [coefficient, exponent] = text.split('e-')
+        return Number(exponent) + (coefficient.split('.')[1]?.length ?? 0)
+    }
+    return text.split('.')[1]?.length ?? 0
+}
 
 /**
  * Reads every submission file in `sourceDir`, sorted by filename so the result
@@ -51,6 +117,7 @@ export function loadSubmissions(sourceDir) {
                 throw new Error('Submission must be a JSON object')
             }
             validateSkills(data.skills, file)
+            validateCoordinates(data.location?.coordinates, file)
             submissions.push({ file, data })
         } catch (e) {
             failures.push({ file, message: e.message })

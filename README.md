@@ -46,31 +46,24 @@ inside `Submissions/` folder, and then fill it up with following content.
   "location": {
     "city": "[YOUR_CITY]",
     "state": "[YOUR_STATE_OR_PROVINCE]",
-    "country": "[YOUR_COUNTRY]"
+    "country": "[YOUR_COUNTRY]",
+    "coordinates": {
+      "lat":39.29,
+      "lng":-79.34
+    }
   }
 }
 ```
 
-Example with dummy values:
-```json
-{
-  "name": "John Example",
-  "img": "https://avatars.githubusercontent.com/u/57936?v=4",
-  "email": "example@example.com",
-  "links": {
-    "website": "example.com",
-    "linkedin": "https://www.linkedin.com/in/example",
-    "github": "https://github.com/example"
-  },
-  "jobTitle": "Software Developer",
-  "skills": ["React", "TypeScript", "Node.js"],
-  "location": {
-    "city": "Example City",
-    "state": "Example State",
-    "country": "Example Country"
-  }
-}
-```
+**Optional map coordinates**
+
+- `coordinates` is optional. You can omit it and your profile will continue to use the existing country-level map marker.
+- If included, `coordinates` must contain exactly two numeric properties: `lat` and `lng`.
+- `lat` must be between `-90` and `90`, and `lng` must be between `-180` and `180`.
+- Both values must have at most two decimal places for privacy.
+- Use approximate city or town coordinates. Do not share your home address or precise residential location.
+- Invalid coordinates will cause aggregation to fail and report the affected submission filename.
+
 
 ### Please note!
 

@@ -7,29 +7,25 @@ import {
     Tooltip,
 } from 'react-leaflet'
 import persons from '../assets/persons.json'
-import Person from '../interfaces/person'
+import type Person from '../interfaces/person'
 import { getCountryMarkers } from '../util/personCountries'
 
 const DEFAULT_CENTER: [number, number] = [55.378052, -3.435973]
 
 const people: Person[] = persons
-const markers = getCountryMarkers(people)
 
 function SimpleMap({ zoom = 3 }) {
-    const markersArray = markers.map(
-        ({ code, country, latlng, numberOfDevs }) => {
-            const numberOfDevsText =
-                numberOfDevs === 1
-                    ? numberOfDevs + ' Developer from ' + country
-                    : numberOfDevs + ' Developers from ' + country
-            return (
-                <Marker key={code} position={latlng}>
-                    <Tooltip>{numberOfDevsText}</Tooltip>
-                    <Popup>{numberOfDevsText}</Popup>
-                </Marker>
-            )
-        }
+    // Profiles with exact coordinates get individual markers.
+    const peopleWithCoordinates = people.filter(
+        (person) => person.location?.coordinates
     )
+
+    // Profiles without coordinates remain part of country-level counts.
+    const peopleWithoutCoordinates = people.filter(
+        (person) => !person.location?.coordinates
+    )
+
+    const countryMarkers = getCountryMarkers(peopleWithoutCoordinates)
 
     return (
         <section aria-label="Developer locations map">
@@ -45,12 +41,54 @@ function SimpleMap({ zoom = 3 }) {
                     scrollWheelZoom={true}
                     dragging={true}
                     easeLinearity={0.35}
+                    style={{ height: '100%', width: '100%' }}
                 >
                     <TileLayer
-                        attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+                        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     />
-                    {markersArray}
+
+                    {countryMarkers.map(
+                        ({ code, country, latlng, numberOfDevs }) => {
+                            const countText =
+                                numberOfDevs === 1
+                                    ? '1 Developer from ' + country
+                                    : numberOfDevs + ' Developers from ' + country
+
+                            return (
+                                <Marker key={code} position={latlng}>
+                                    <Tooltip>{countText}</Tooltip>
+                                    <Popup>{countText}</Popup>
+                                </Marker>
+                            )
+                        }
+                    )}
+
+                    {peopleWithCoordinates.map((person) => {
+                        const coordinates = person.location?.coordinates
+                        if (!coordinates) return null
+
+                        const locationText = [
+                            person.location.city,
+                            person.location.state,
+                            person.location.country,
+                        ]
+                            .filter(Boolean)
+                            .join(', ')
+
+                        return (
+                            <Marker
+                                key={`person-${person.id}`}
+                                position={[coordinates.lat, coordinates.lng]}
+                            >
+                                <Tooltip>{person.name}</Tooltip>
+                                <Popup>
+                                    <strong>{person.name}</strong>
+                                    {locationText && <p>{locationText}</p>}
+                                </Popup>
+                            </Marker>
+                        )
+                    })}
                 </LeafletMap>
             </div>
         </section>
