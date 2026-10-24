@@ -44,8 +44,24 @@ original fields and gets two generated fields:
   `skills` value, the script lists every
   failing file, exits with status 1 and leaves the existing `persons.json`
   untouched. An unrecognised country is **not** an error.
-- The script prints nothing on success, because the Build workflow posts its
-  output as a commit comment.
+- Apart from the warning below, the script prints nothing on success, because
+  the Build workflow posts its output as a commit comment.
+
+The one exception is the warning for unrecognised country values, printed to
+stdout only when at least one value resolves with an `unknown` issue — the
+actionable case, fixed by adding an alias:
+
+```
+Unrecognised country value(s) (add an alias, see docs/country-normalization.md):
+- "Azad Kashmir Pakistan" (Saad-Abbasi.json)
+```
+
+Values are distinct and sorted, one line per value listing the submission
+files that use it, capped at 10 value lines plus a final `…and N more` line.
+A run with nothing to report still prints nothing, and the exit code stays 0
+either way. Ambiguous, non-location and statement-only issues are deliberate
+policy; they never appear in the warning, only in the diagnostics report
+below.
 
 ## Canonical identifiers
 
@@ -77,22 +93,32 @@ The key is then checked in this order:
    ignored. If it comes after a recognised country (`India Remote`,
    `USA willing to relocate`), only the country is kept.
 
+The whole value is looked up first, so an exact name or alias always wins
+before statement stripping or splitting: `Korea (Republic of)` stays one
+country instead of being cut at the brackets. Outside brackets a preference
+statement ends the scope — everything after it is dropped; inside brackets it
+ends only that bracket's content, so `USA (remote), Belgium (remote), Canada`
+still yields `US, BE, CA`.
+
 There is **no fuzzy matching**. `Nigerria` stays unresolved until someone adds
 it as an alias.
 
 ### Compound values
 
 If the whole value does not match, it is split, and each piece goes through the
-same rules:
+same rules. Splitting runs only where the piece has not already been
+classified — an exact name or a preference statement stays whole:
 
-1. Parenthesised or bracketed text is handled separately, in order of appearance:
-   `Bolivia (Willing to Relocate or Work Remotely)` → `BO`. A preference note
-   ends at its closing bracket, so `USA (remote), Belgium` → `US, BE` and
-   `USA (Willing to relocate), Canada` → `US, CA`.
-2. Then the value is split on `,` `/` `|` `;` `<->` `->`:
+1. Parenthesised or bracketed text is handled separately first, before any
+   list or `&` split, so `USA (remote), Canada` → `US, CA` rather than
+   `US`, `remote`, `CA`. Each closed, non-nested pair is extracted in order of
+   appearance: `Bolivia (Willing to Relocate or Work Remotely)` → `BO`, and
+   repeated pairs work too: `USA (remote), Belgium (remote), Canada` →
+   `US, BE, CA`.
+2. Then each piece is split on `,` `/` `|` `;` `<->` `->`:
    `USA/Belgium` → `US, BE` and `Poland <-> USA` → `PL, US`.
-3. Then it is split on `&`, but only if the whole value did not already
-   match, so `Bosnia & Herzegovina` stays one country.
+3. Then on `&`, but only when the piece is not itself an exact name, so
+   `Bosnia & Herzegovina` stays one country.
 
 All listed countries count as current locations. A relocation destination is
 not included: `Spain | Looking forward to move to New Zealand` → `ES`.
@@ -186,7 +212,8 @@ Up to four files, depending on what is wrong:
 
 ## Adding or changing an alias
 
-1. Run the diagnostics (below) to see what is unresolved.
+1. Run the aggregation and read its warning (above), or run the diagnostics
+   (below), to see what is unresolved.
 2. Add the spelling to `COUNTRY_ALIASES` in `countryAliases.js` as people write
    it (`'Holland': 'NL'`). Normalization is applied automatically, and a
    duplicate key pointing to a different code throws when the module loads.
@@ -204,6 +231,10 @@ npx vitest run src/util/countries scripts/lib     # resolver + aggregation only
 ```
 
 `npm test` runs the same suite, but in watch mode outside CI.
+
+The resolver tests in `src/util/countries/resolveCountry.test.js` are the
+behavioural contract for the rules above; `scripts/lib/countryWarning.test.mjs`
+covers the aggregation warning.
 
 ## Diagnostics
 
