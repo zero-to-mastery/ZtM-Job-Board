@@ -120,15 +120,17 @@ export function writeFileAtomic(file, content) {
 
 /**
  * Aggregates all submissions into a single JSON file. Nothing is written if
- * any submission fails to load.
+ * any submission fails to load. The loaded submissions are returned so callers
+ * can reuse them instead of reading every file again.
  *
  * @param {{ sourceDir: string, outputFile: string }} options
- * @returns {{ count: number }}
+ * @returns {{ count: number, submissions: { file: string, data: Record<string, any> }[] }}
  */
 export function aggregate({ sourceDir, outputFile }) {
-    const persons = buildPersons(loadSubmissions(sourceDir))
+    const submissions = loadSubmissions(sourceDir)
+    const persons = buildPersons(submissions)
     writeFileAtomic(outputFile, JSON.stringify(persons, null, 2))
-    return { count: persons.length }
+    return { count: persons.length, submissions }
 }
 
 /**
