@@ -17,14 +17,13 @@ import {
 import { normalizeSkills } from './util/skills'
 import './styles/DeveloperDiscovery.scss'
 import CountUp from 'react-countup'
-import { countriesWithNumOfDevsObj } from './util/UsersDataCleanup'
-import { getCountryOptions } from './util/countryFilters'
+import { getCountryOptions } from './util/personCountries'
 const SimpleMap = lazy(() => import('./components/Map'))
 
 const profiles: Person[] = persons
-const totalCountries = Object.keys(countriesWithNumOfDevsObj).length
 // Countries are normalized to ISO codes during JSON aggregation
 const countries = getCountryOptions(profiles)
+const totalCountries = countries.length
 
 const jobTitles = Array.from(
     new Set(

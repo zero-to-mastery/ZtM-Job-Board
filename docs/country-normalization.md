@@ -8,14 +8,15 @@ changing what contributors wrote.
 
 ## Where it happens
 
-| Step                                   | File                                                                              |
-| -------------------------------------- | --------------------------------------------------------------------------------- |
-| Resolve text → ISO codes               | [`src/util/countries/resolveCountry.js`](../src/util/countries/resolveCountry.js) |
-| Aliases, ambiguous and non-place terms | [`src/util/countries/countryAliases.js`](../src/util/countries/countryAliases.js) |
-| ISO code → display name                | [`src/util/countries/countryNames.js`](../src/util/countries/countryNames.js)     |
-| Aggregation (adds the metadata)        | [`scripts/lib/aggregate.mjs`](../scripts/lib/aggregate.mjs)                       |
-| Recruiter country filter               | [`src/util/countryFilters.ts`](../src/util/countryFilters.ts)                     |
-| Map marker counts                      | [`src/util/countryMarkers.ts`](../src/util/countryMarkers.ts)                     |
+| Step                                    | File                                                                                      |
+| --------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Resolve text to ISO codes               | [`src/util/countries/resolveCountry.js`](../src/util/countries/resolveCountry.js)         |
+| Aliases, ambiguous and non-place terms  | [`src/util/countries/countryAliases.js`](../src/util/countries/countryAliases.js)         |
+| ISO code to display name                | [`src/util/countries/countryNames.js`](../src/util/countries/countryNames.js)             |
+| ISO code to map coordinates (generated) | [`src/util/countries/countryCoordinates.js`](../src/util/countries/countryCoordinates.js) |
+| Aggregation (adds the metadata)         | [`scripts/lib/aggregate.mjs`](../scripts/lib/aggregate.mjs)                               |
+| Recruiter country filter                | [`src/util/personCountries.ts`](../src/util/personCountries.ts)                           |
+| Map marker counts                       | [`src/util/personCountries.ts`](../src/util/personCountries.ts)                           |
 
 `npm run aggregate-json` reads `Submissions/*.json` and writes
 `src/assets/persons.json`. Submissions are never modified. Each profile keeps its
@@ -43,21 +44,38 @@ original fields and gets two generated fields:
   `skills` value, the script lists every
   failing file, exits with status 1 and leaves the existing `persons.json`
   untouched. An unrecognised country is **not** an error.
-- The script prints nothing on success, because the Build workflow posts its
-  output as a commit comment.
+- Apart from the warning below, the script prints nothing on success, because
+  the Build workflow posts its output as a commit comment.
+
+The only exception is a warning for unrecognised country values. It prints
+to stdout only when at least one value resolves with an `unknown` issue, the
+actionable case that an alias fixes:
+
+```
+Unrecognised country value(s) (add an alias, see docs/country-normalization.md):
+- "Azad Kashmir Pakistan" (Saad-Abbasi.json)
+```
+
+Values are distinct and sorted. Each line lists a value and the submission
+files that use it. Output caps at 10 value lines plus a final `…and N more`
+line.
+A run with nothing to report still prints nothing, and the exit code stays 0
+either way. Ambiguous, non-location and statement-only issues are deliberate
+policy; they never appear in the warning, only in the diagnostics report
+below.
 
 ## Canonical identifiers
 
 Profiles store ISO codes only. Display names come from `COUNTRY_NAMES` in
-`countryNames.js` (for example `TR` → `Türkiye`, `KR` → `South Korea`), so a
+`countryNames.js` (for example `TR` maps to `Türkiye`, `KR` to `South Korea`), so a
 country is labelled the same way everywhere.
 
 ## Resolution rules
 
-A value is compared using a normalised key: accents, emoji/flags, punctuation,
-case and a leading "The" are removed, `&` becomes `and`, and hyphens and
-repeated whitespace become a single space. `" México 🇲🇽"` becomes `mexico`, and
-`U.S.A` becomes `usa`.
+The resolver compares each value using a normalised key: accents,
+emoji/flags, punctuation, case and a leading "The" are removed, `&` becomes
+`and`, and hyphens and repeated whitespace become a single space.
+`" México 🇲🇽"` becomes `mexico`, and `U.S.A` becomes `usa`.
 
 The key is then checked in this order:
 
@@ -76,30 +94,40 @@ The key is then checked in this order:
    ignored. If it comes after a recognised country (`India Remote`,
    `USA willing to relocate`), only the country is kept.
 
+The whole value is looked up first, so an exact name or alias always wins
+before statement stripping or splitting: `Korea (Republic of)` stays one
+country instead of being cut at the brackets. Outside brackets a preference
+statement ends the scope, and everything after it is dropped. Inside brackets
+it ends only that bracket's content, so `USA (remote), Belgium (remote),
+Canada` still yields `US, BE, CA`.
+
 There is **no fuzzy matching**. `Nigerria` stays unresolved until someone adds
 it as an alias.
 
 ### Compound values
 
 If the whole value does not match, it is split, and each piece goes through the
-same rules:
+same rules. Splitting runs only where the piece has not already been
+classified. An exact name or a preference statement stays whole:
 
-1. Parenthesised or bracketed text is handled separately, in order of appearance:
-   `Bolivia (Willing to Relocate or Work Remotely)` → `BO`. A preference note
-   ends at its closing bracket, so `USA (remote), Belgium` → `US, BE` and
-   `USA (Willing to relocate), Canada` → `US, CA`.
-2. Then the value is split on `,` `/` `|` `;` `<->` `->`:
-   `USA/Belgium` → `US, BE` and `Poland <-> USA` → `PL, US`.
-3. Then it is split on `&`, but only if the whole value did not already
-   match, so `Bosnia & Herzegovina` stays one country.
+1. Parenthesised or bracketed text is handled separately first, before any
+   list or `&` split, so `USA (remote), Canada` yields `US, CA` rather than
+   `US`, `remote`, `CA`. Each closed, non-nested pair is extracted in order of
+   appearance: `Bolivia (Willing to Relocate or Work Remotely)` yields `BO`.
+   Repeated pairs work too: `USA (remote), Belgium (remote), Canada` yields
+   `US, BE, CA`.
+2. Then each piece is split on `,` `/` `|` `;` `<->` `->`:
+   `USA/Belgium` yields `US, BE` and `Poland <-> USA` yields `PL, US`.
+3. Then on `&`, but only when the piece is not itself an exact name, so
+   `Bosnia & Herzegovina` stays one country.
 
 All listed countries count as current locations. A relocation destination is
-not included: `Spain | Looking forward to move to New Zealand` → `ES`.
+not included: `Spain | Looking forward to move to New Zealand` yields `ES`.
 Outside brackets, a preference statement applies to the remainder of the
 list, including subsequent separators and bracketed destinations:
-`Canada, USA, willing to relocate to Germany, France` → `CA, US` and
-`USA/Belgium willing to relocate to Canada, China` → `US, BE`.
-Duplicate aliases are collapsed, so `United Kingdom, UK` → `GB`.
+`Canada, USA, willing to relocate to Germany, France` yields `CA, US` and
+`USA/Belgium willing to relocate to Canada, China` yields `US, BE`.
+Duplicate aliases are collapsed, so `United Kingdom, UK` yields `GB`.
 
 ### Result status
 
@@ -115,24 +143,85 @@ Duplicate aliases are collapsed, so `United Kingdom, UK` → `GB`.
 
 ## How the data is used
 
-- **Country filter**: one option per ISO code found in `normalized.countries`,
-  labelled with `COUNTRY_NAMES` and sorted by label. Selecting a country
-  matches every profile that lists it, including multi-country profiles.
-  Profiles that did not resolve add no option. Cards and free-text search still
-  use the original `location` text.
-- **Map**: developers are counted per ISO code and placed using the `ISO`
-  column of `src/assets/countries.json`. A developer listing several countries
-  is counted once in each of them. Codes without coordinates in
-  `countries.json` (currently `AX`, `EH`, `HK`, `MO`) get no marker.
+- **Country filter**: `getCountryOptions` builds one option per ISO code
+  found in `normalized.countries`, labelled with `COUNTRY_NAMES` and sorted
+  by label. Profiles whose country did not resolve add no option. Filtering
+  goes through the `matchesCountries(person, codes)` predicate. An empty
+  selection matches everyone. Otherwise a profile matches when any of its
+  countries is in the selection, so multi-country profiles match on any of
+  theirs. Cards and free-text search still use the original `location` text.
+- **Map**: `getCountryMarkers` counts developers per ISO code. A developer
+  listing several countries counts once in each of them, never twice in the
+  same country. The counts join with `getCountryCoordinates` to produce one
+  marker per code, with `latlng` as a `[latitude, longitude]` number tuple at
+  full precision. Codes without coordinates (currently `AX`, `EH`, `HK`,
+  `MO`) get no marker.
+
+## Map coordinates
+
+`countryCoordinates.js` maps an ISO code to one `[latitude, longitude]` tuple
+(full precision). It is **generated, never hand-edited**. The file starts with
+a `// @generated — do not edit` header and is listed in `.prettierignore`, so
+the `lint-staged` prettier hook leaves it alone.
+
+```bash
+npm run countries-json   # regenerate (network; run manually)
+```
+
+The generator ([`scripts/countries-json.mjs`](../scripts/countries-json.mjs))
+reads the pinned CSV from
+[`world-countries-centroids@v0.2.0`](https://cdn.jsdelivr.net/gh/gavinr/world-countries-centroids@v0.2.0/dist/countries.csv)
+and applies, in order:
+
+1. **Name-sort** rows by country name. This order decides duplicates.
+2. **Dedupe by ISO.** The first name-sorted row wins (`BQ` maps to Bonaire,
+   `TF` maps to French Southern Territories), with one override: `ES` maps to
+   Spain, not Canarias.
+3. **ISO-keyed coordinate fixes** for centroids that land in the ocean
+   (Chile, Denmark, Greece, …). The generator stores them keyed by ISO code,
+   not by name. Denmark's old `'56.26392-35.6'` typo is fixed.
+4. **Supplements** for codes missing from the CSV entirely (`TW`, removed
+   upstream), so the marker set stays identical to the previously committed
+   data.
+
+The generator drops unused CSV columns (`COUNTRY`, `COUNTRYAFF`, `AFF_ISO`).
+Output is deterministic. The same CSV produces a byte-identical file, verified
+by running twice and diffing. `getCountryCoordinates(code)` returns the tuple
+or `undefined`.
+
+`countryCoordinates.test.js` enforces coverage. Every code in
+`COUNTRY_NAMES` must have coordinates except the documented allowlist
+`AX`, `EH`, `HK`, `MO` (no data upstream). The test fails if any code loses
+coordinates, and fails if an allowlisted code gains them, so the allowlist
+cannot go stale.
+
+## Adding or changing a country
+
+Up to four files, depending on what is wrong:
+
+1. **Label** wrong or missing: edit `countryNames.js` (`COUNTRY_NAMES`, ISO
+   code to display name). This is hand-curated UI policy; the coverage test
+   requires coordinates for any code added here.
+2. **Marker in the wrong place**: edit the `countryFixes` table in
+   `scripts/countries-json.mjs`, keyed by ISO (`DK: [lat, lng]`). Regenerate
+   with `npm run countries-json` and commit the generated file.
+3. **Country text in submissions doesn't resolve**: add it to
+   `countryAliases.js` (see "Adding or changing an alias" above).
+4. **No coordinate data exists upstream**: add an entry to
+   `coordinateSupplements` in the generator _and_ to the allowlist in
+   `countryCoordinates.test.js`. Ask the owner first (spec: filling
+   `AX`/`EH`/`HK`/`MO` coordinates needs approval).
 
 ## Adding or changing an alias
 
-1. Run the diagnostics (below) to see what is unresolved.
+1. Run the aggregation and read its warning (above), or run the diagnostics
+   (below), to see what is unresolved.
 2. Add the spelling to `COUNTRY_ALIASES` in `countryAliases.js` as people write
-   it (`'Holland': 'NL'`). Normalization is applied automatically, and a
-   duplicate key pointing to a different code throws when the module loads.
+   it (`'Holland': 'NL'`). The resolver applies normalization automatically,
+   and a duplicate key pointing to a different code throws when the module
+   loads.
 3. Use `AMBIGUOUS_COUNTRY_TERMS` instead when the value could reasonably mean
-   more than one place. When in doubt, leave it unresolved: a missing filter
+   more than one place. When in doubt, leave it unresolved. A missing filter
    entry is better than placing someone in the wrong country.
 4. Add a test case to `src/util/countries/resolveCountry.test.js`.
 
@@ -146,6 +235,10 @@ npx vitest run src/util/countries scripts/lib     # resolver + aggregation only
 
 `npm test` runs the same suite, but in watch mode outside CI.
 
+The resolver tests in `src/util/countries/resolveCountry.test.js` are the
+behavioural contract for the rules above; `scripts/lib/countryWarning.test.mjs`
+covers the aggregation warning.
+
 ## Diagnostics
 
 ```bash
@@ -156,8 +249,8 @@ npm run country-diagnostics -- --out country-diagnostics.json
 
 The report includes summary counts and one entry per distinct value that is
 `partial`, `ambiguous` or `unresolved`. Each entry lists the reasons and the
-submission filenames that use the value. Entries are sorted, so the output is
-deterministic. No names, emails or links are included.
+submission filenames that use the value. The report sorts entries, so the
+output is deterministic. No names, emails or links are included.
 
 ```json
 {

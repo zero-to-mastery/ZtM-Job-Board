@@ -295,16 +295,22 @@ describe('resolveCountry', () => {
 
         test.each([
             ['Bosnia & Herzegovina Remote', ['BA']],
-            ['Bosnia & Herzegovina & willing to relocate to Canada, China', ['BA']],
+            [
+                'Bosnia & Herzegovina & willing to relocate to Canada, China',
+                ['BA'],
+            ],
             ['Korea, Republic of willing to relocate to Canada, China', ['KR']],
-        ])('keeps a punctuated country name before a preference: %j', (input, countries) => {
-            expect(resolveCountry(input)).toEqual({
-                original: input,
-                countries,
-                status: 'resolved',
-                issues: [],
-            })
-        })
+        ])(
+            'keeps a punctuated country name before a preference: %j',
+            (input, countries) => {
+                expect(resolveCountry(input)).toEqual({
+                    original: input,
+                    countries,
+                    status: 'resolved',
+                    issues: [],
+                })
+            }
+        )
 
         test('unresolved fragments are reported alongside resolved ones', () => {
             expect(resolveCountry('Nigeria/Istanbul/North-Macedonia')).toEqual({

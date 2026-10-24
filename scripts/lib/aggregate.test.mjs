@@ -81,6 +81,16 @@ afterEach(() => {
 })
 
 describe('aggregate', () => {
+    test('creates a missing output directory (fresh checkout has no src/assets)', () => {
+        writeFixtures(FIXTURES)
+        const nested = path.join(tmp, 'src', 'assets', 'persons.json')
+        const { count } = aggregate({ sourceDir, outputFile: nested })
+        expect(count).toBe(Object.keys(FIXTURES).length)
+        expect(JSON.parse(fs.readFileSync(nested, 'utf-8'))).toHaveLength(
+            Object.keys(FIXTURES).length
+        )
+    })
+
     test('keeps every submission and its original fields', () => {
         writeFixtures(FIXTURES)
         const { count } = aggregate({ sourceDir, outputFile })
@@ -236,7 +246,15 @@ describe('aggregate-json CLI', () => {
     })
 
     test('prints nothing on success', () => {
-        writeFixtures(FIXTURES)
+        // Warning-free fixtures: values with `unknown` issues now make the CLI
+        // print the unrecognised-country warning (covered in
+        // countryWarning.test.mjs), so silence is asserted on resolved,
+        // ambiguous, non-location and empty values only.
+        writeFixtures({
+            'alpha.json': submission('Alpha', 'USA (Willing to relocate!)'),
+            'delta.json': submission('Delta', 'Georgia'),
+            'foxtrot.json': submission('Foxtrot', ''),
+        })
         const result = runCli()
         expect(result.status).toBe(0)
         expect(result.stdout).toBe('')
