@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { SortOption } from '../util/filterProfiles'
-import { CountryOption } from '../util/countryFilters'
+import { CountryOption } from '../util/personCountries'
 
 interface ProfileFiltersProps {
     resetKey?: number

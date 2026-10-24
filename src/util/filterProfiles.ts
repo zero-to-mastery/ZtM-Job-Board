@@ -1,7 +1,7 @@
 import { createFilter } from 'react-search-input'
 import Person from '../interfaces/person'
 import { normalizeSkills } from './skills'
-import { getPersonCountryCodes } from './countryFilters'
+import { matchesCountries } from './personCountries'
 
 export type SortOption = 'default' | 'name-asc' | 'name-desc'
 
@@ -43,10 +43,7 @@ export function filterProfiles(
         )
         return (
             matchesText(person) &&
-            (criteria.countries.length === 0 ||
-                getPersonCountryCodes(person).some((code) =>
-                    criteria.countries.includes(code)
-                )) &&
+            matchesCountries(person, criteria.countries) &&
             (criteria.jobTitles.length === 0 ||
                 criteria.jobTitles.includes(person.jobTitle || '')) &&
             requiredSkills.every((skill) => skills.has(skill))

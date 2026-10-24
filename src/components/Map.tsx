@@ -13,10 +13,10 @@ import { getCountryMarkers } from '../util/personCountries'
 const DEFAULT_CENTER: [number, number] = [55.378052, -3.435973]
 
 const people: Person[] = persons
-const countryMarkers = getCountryMarkers(people)
+const markers = getCountryMarkers(people)
 
 function SimpleMap({ zoom = 3 }) {
-    const markersArray = countryMarkers.map(
+    const markersArray = markers.map(
         ({ code, country, latlng, numberOfDevs }) => {
             const numberOfDevsText =
                 numberOfDevs === 1
