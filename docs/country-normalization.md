@@ -8,14 +8,15 @@ changing what contributors wrote.
 
 ## Where it happens
 
-| Step                                   | File                                                                              |
-| -------------------------------------- | --------------------------------------------------------------------------------- |
-| Resolve text → ISO codes               | [`src/util/countries/resolveCountry.js`](../src/util/countries/resolveCountry.js) |
-| Aliases, ambiguous and non-place terms | [`src/util/countries/countryAliases.js`](../src/util/countries/countryAliases.js) |
-| ISO code → display name                | [`src/util/countries/countryNames.js`](../src/util/countries/countryNames.js)     |
-| Aggregation (adds the metadata)        | [`scripts/lib/aggregate.mjs`](../scripts/lib/aggregate.mjs)                       |
-| Recruiter country filter               | [`src/util/countryFilters.ts`](../src/util/countryFilters.ts)                     |
-| Map marker counts                      | [`src/util/countryMarkers.ts`](../src/util/countryMarkers.ts)                     |
+| Step                                   | File                                                                                      |
+| -------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Resolve text → ISO codes               | [`src/util/countries/resolveCountry.js`](../src/util/countries/resolveCountry.js)         |
+| Aliases, ambiguous and non-place terms | [`src/util/countries/countryAliases.js`](../src/util/countries/countryAliases.js)         |
+| ISO code → display name                | [`src/util/countries/countryNames.js`](../src/util/countries/countryNames.js)             |
+| ISO code → map coordinates (generated) | [`src/util/countries/countryCoordinates.js`](../src/util/countries/countryCoordinates.js) |
+| Aggregation (adds the metadata)        | [`scripts/lib/aggregate.mjs`](../scripts/lib/aggregate.mjs)                               |
+| Recruiter country filter               | [`src/util/countryFilters.ts`](../src/util/countryFilters.ts)                             |
+| Map marker counts                      | [`src/util/countryMarkers.ts`](../src/util/countryMarkers.ts)                             |
 
 `npm run aggregate-json` reads `Submissions/*.json` and writes
 `src/assets/persons.json`. Submissions are never modified. Each profile keeps its
@@ -33,18 +34,18 @@ original fields and gets two generated fields:
 }
 ```
 
-- `normalized.countries` is a list of [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
-  codes, in order of appearance. It is empty when nothing could be resolved.
-- `id` is derived from the submission filename (SHA-256, 32 hex characters), so
-  it stays the same across runs.
-- Files are processed in filename order, so the output is byte-for-byte
-  identical for identical input.
-- If any submission cannot be read, is not a JSON object, or has an invalid
-  `skills` value, the script lists every
-  failing file, exits with status 1 and leaves the existing `persons.json`
-  untouched. An unrecognised country is **not** an error.
-- The script prints nothing on success, because the Build workflow posts its
-  output as a commit comment.
+-   `normalized.countries` is a list of [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
+    codes, in order of appearance. It is empty when nothing could be resolved.
+-   `id` is derived from the submission filename (SHA-256, 32 hex characters), so
+    it stays the same across runs.
+-   Files are processed in filename order, so the output is byte-for-byte
+    identical for identical input.
+-   If any submission cannot be read, is not a JSON object, or has an invalid
+    `skills` value, the script lists every
+    failing file, exits with status 1 and leaves the existing `persons.json`
+    untouched. An unrecognised country is **not** an error.
+-   The script prints nothing on success, because the Build workflow posts its
+    output as a commit comment.
 
 ## Canonical identifiers
 
@@ -115,15 +116,69 @@ Duplicate aliases are collapsed, so `United Kingdom, UK` → `GB`.
 
 ## How the data is used
 
-- **Country filter**: one option per ISO code found in `normalized.countries`,
-  labelled with `COUNTRY_NAMES` and sorted by label. Selecting a country
-  matches every profile that lists it, including multi-country profiles.
-  Profiles that did not resolve add no option. Cards and free-text search still
-  use the original `location` text.
-- **Map**: developers are counted per ISO code and placed using the `ISO`
-  column of `src/assets/countries.json`. A developer listing several countries
-  is counted once in each of them. Codes without coordinates in
-  `countries.json` (currently `AX`, `EH`, `HK`, `MO`) get no marker.
+-   **Country filter**: one option per ISO code found in `normalized.countries`,
+    labelled with `COUNTRY_NAMES` and sorted by label. Selecting a country
+    matches every profile that lists it, including multi-country profiles.
+    Profiles that did not resolve add no option. Cards and free-text search still
+    use the original `location` text.
+-   **Map**: developers are counted per ISO code and placed using the `ISO`
+    column of `src/assets/countries.json`. A developer listing several countries
+    is counted once in each of them. Codes without coordinates in
+    `countries.json` (currently `AX`, `EH`, `HK`, `MO`) get no marker.
+
+## Map coordinates
+
+`countryCoordinates.js` maps an ISO code to one `[latitude, longitude]` tuple
+(full precision). It is **generated — never hand-edited**; the file starts with
+a `// @generated — do not edit` header and is listed in `.prettierignore`, so
+the `lint-staged` prettier hook leaves it alone.
+
+```bash
+npm run countries-json   # regenerate (network; run manually)
+```
+
+The generator ([`scripts/countries-json.mjs`](../scripts/countries-json.mjs))
+reads the pinned CSV from
+[`world-countries-centroids@v0.2.0`](https://cdn.jsdelivr.net/gh/gavinr/world-countries-centroids@v0.2.0/dist/countries.csv)
+and applies, in order:
+
+1. **Name-sort** rows by country name. This order decides duplicates.
+2. **Dedupe by ISO** — first name-sorted row wins (`BQ` → Bonaire, `TF` →
+   French Southern Territories), with one override: `ES` → Spain, not
+   Canarias.
+3. **ISO-keyed coordinate fixes** for centroids that land in the ocean
+   (Chile, Denmark, Greece, …), stored next to the fixes in the generator —
+   keyed by code, not by name. Denmark's old `'56.26392-35.6'` typo is fixed.
+4. **Supplements** for codes missing from the CSV entirely (`TW` — removed
+   upstream), so the marker set stays identical to the previously committed
+   data.
+
+Unused CSV columns (`COUNTRY`, `COUNTRYAFF`, `AFF_ISO`) are dropped. Output is
+deterministic: same CSV → byte-identical file (verified by running twice and
+diffing). `getCountryCoordinates(code)` returns the tuple or `undefined`.
+
+Coverage is enforced by `countryCoordinates.test.js`: every code in
+`COUNTRY_NAMES` must have coordinates except the documented allowlist
+`AX`, `EH`, `HK`, `MO` (no data upstream). The test fails if any code loses
+coordinates — and fails if an allowlisted code gains them, so the list cannot
+rot.
+
+## Adding or changing a country
+
+Up to four files, depending on what is wrong:
+
+1. **Label** wrong or missing → `countryNames.js` (`COUNTRY_NAMES`, ISO code →
+   display name). This is hand-curated UI policy; the coverage test requires
+   coordinates for any code added here.
+2. **Marker in the wrong place** → the `countryFixes` table in
+   `scripts/countries-json.mjs`, keyed by ISO (`DK: [lat, lng]`). Regenerate
+   with `npm run countries-json` and commit the generated file.
+3. **Country text in submissions doesn't resolve** → `countryAliases.js`
+   (see "Adding or changing an alias" above).
+4. **No coordinate data exists upstream** → add an entry to
+   `coordinateSupplements` in the generator _and_ to the allowlist in
+   `countryCoordinates.test.js`. Ask the owner first (spec: filling
+   `AX`/`EH`/`HK`/`MO` coordinates needs approval).
 
 ## Adding or changing an alias
 
