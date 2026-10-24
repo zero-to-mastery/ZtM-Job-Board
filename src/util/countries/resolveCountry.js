@@ -187,8 +187,7 @@ function splitSegment(segment, inBracket) {
     }
 
     const parts = segment.split(LOCATION_SEPARATOR)
-    const candidates = parts.length > 1 ? parts : [segment]
-    return candidates.flatMap((part) => {
+    return parts.flatMap((part) => {
         if (
             part.includes('&') &&
             classify(normalizeCountryKey(part)).kind === 'unknown'
