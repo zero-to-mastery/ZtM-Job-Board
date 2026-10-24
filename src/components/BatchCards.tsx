@@ -1,56 +1,49 @@
 import React, { useState } from 'react'
-import CountUp from 'react-countup'
-
 import CardList from './CardList'
 import BasicButton from './BasicButton'
-import { countriesWithNumOfDevsObj } from '../util/UsersDataCleanup'
-const countryNamesAndNumOfDevsArr = Object.entries(countriesWithNumOfDevsObj)
+import Person from '../interfaces/person'
 
-const BatchCards = ({ persons, numberPerBatch = 16 }: any) => {
+interface BatchCardsProps {
+    persons: Person[]
+    numberPerBatch?: number
+    selectedSkills?: string[]
+    onClear: () => void
+}
+
+const BatchCards = ({
+    persons,
+    numberPerBatch = 16,
+    selectedSkills = [],
+    onClear,
+}: BatchCardsProps) => {
     const [batch, setBatch] = useState(1)
-
-    const addToBatch = () => {
-        if (persons.length > batch * numberPerBatch) {
-            setBatch(batch + 1)
-        }
-    }
+    const visibleCount = batch * numberPerBatch
 
     return (
-        <div>
-            <div style={{ flex: 1 }}>
-                <div className="profile-stats">
-                    <div className="profile-stats__tile">
-                        <p className="profile-stats__label">Total Profiles</p>
-                        <p className="profile-stats__value">
-                            <CountUp end={persons.length} delay={1} />
-                        </p>
-                    </div>
-                    <div className="profile-stats__tile">
-                        <p className="profile-stats__label">Total Countries</p>
-                        <p className="profile-stats__value">
-                            <CountUp
-                                end={countryNamesAndNumOfDevsArr.length}
-                                delay={1}
-                            />
-                        </p>
-                    </div>
-                </div>
-            </div>
-
+        <div className="developer-results">
             {persons.length === 0 ? (
-                <div className="empty-state" role="status">
-                    <p className="empty-state__title">No profiles found</p>
-                    <p>Try a different search or clear your filters.</p>
+                <div className="developer-results__empty">
+                    <h2>No developers match your criteria</h2>
+                    <p>
+                        Try removing a required skill or broadening your search,
+                        country, or role filters.
+                    </p>
+                    <button type="button" onClick={onClear}>
+                        Clear filters
+                    </button>
                 </div>
             ) : (
                 <div className="flex flex-wrap justify-center">
                     <CardList
-                        persons={persons.slice(0, batch * numberPerBatch)}
+                        persons={persons.slice(0, visibleCount)}
+                        selectedSkills={selectedSkills}
                     />
                 </div>
             )}
-            {persons.length >= batch * numberPerBatch && (
-                <BasicButton action={addToBatch}>Show More</BasicButton>
+            {persons.length > visibleCount && (
+                <BasicButton action={() => setBatch((current) => current + 1)}>
+                    Show More
+                </BasicButton>
             )}
         </div>
     )
