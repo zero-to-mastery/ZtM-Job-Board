@@ -1,6 +1,5 @@
-import React, { useState, lazy, Suspense } from 'react'
+import React, { useState, useMemo, lazy, Suspense } from 'react'
 import Search from './components/Search'
-import { createFilter } from 'react-search-input'
 import { shuffle } from './util/shuffle'
 import MapSkeleton from './components/MapSkeleton'
 import './styles/SearchBarMobileView.scss'
@@ -9,25 +8,38 @@ import ProfileFilters from './components/ProfileFilters'
 import Navbar from './components/Navbar'
 import persons from './assets/persons.json'
 import { pageNames } from './util/pageNames'
-import useForceUpdate from './util/useForceUpdate'
+import Person from './interfaces/person'
+import {
+    emptyCriteria,
+    filterProfiles,
+    ProfileCriteria,
+} from './util/filterProfiles'
+import { normalizeSkills } from './util/skills'
+import './styles/DeveloperDiscovery.scss'
+import CountUp from 'react-countup'
+import { countriesWithNumOfDevsObj } from './util/UsersDataCleanup'
 const SimpleMap = lazy(() => import('./components/Map'))
 
-const people: any = persons
+const profiles: Person[] = persons
+const totalCountries = Object.keys(countriesWithNumOfDevsObj).length
 const countries = Array.from(
-    new Set<string>(
-        people
-            .map((person: any) => person.location?.country)
-            .filter(Boolean)
+    new Set(
+        profiles
+            .map((person) => person.location.country)
+            .filter((country): country is string => Boolean(country))
     )
 ).sort()
 
 const jobTitles = Array.from(
-    new Set<string>(
-        people
-            .map((person: any) => person.jobTitle)
-            .filter(Boolean)
+    new Set(
+        profiles
+            .map((person) => person.jobTitle)
+            .filter((title): title is string => Boolean(title))
     )
 ).sort()
+const skills = normalizeSkills(
+    profiles.flatMap((person) => person.skills || [])
+).sort((a, b) => a.localeCompare(b))
 
 const style: React.CSSProperties = {
     background: '#fff',
@@ -42,68 +54,49 @@ const responsiveSearch = {
     marginBottom: '0.5rem',
     padding: '0.5rem',
 }
-const KEYS_TO_FILTERS = [
-    'name',
-    'jobTitle',
-    'location.city',
-    'location.state',
-    'location.country',
-]
+function toggleSelection(current: string[], value: string) {
+    return current.includes(value)
+        ? current.filter((item) => item !== value)
+        : [...current, value]
+}
 
 function App() {
-    const [searchfield, setSearchfield] = useState('')
-    const [selectedCountries, setSelectedCountries] = useState<string[]>([])
-    const [selectedJobTitles, setSelectedJobTitles] = useState<string[]>([])
-    const [sortOption, setSortOption] = useState('default')
+    const [criteria, setCriteria] = useState<ProfileCriteria>(emptyCriteria)
+    const [filterResetKey, setFilterResetKey] = useState(0)
+    const [people, setPeople] = useState(() => {
+        const initialPeople = [...profiles]
+        shuffle(initialPeople)
+        return initialPeople
+    })
 
     const [map, setMap] = useState(false)
     const [mapOrHomeTitle, setMapOrHomeTitle] = useState(pageNames.map) // pageNames.map is default
 
-    const filteredPersons = (searchFilter: any) => {
-    let filtered = people.filter(createFilter(searchFilter, KEYS_TO_FILTERS))
+    const filteredPersons = useMemo(
+        () => filterProfiles(people, criteria),
+        [people, criteria]
+    )
 
-    if (selectedCountries.length > 0) {
-        filtered = filtered.filter((person: any) =>
-            selectedCountries.includes(person.location?.country)
-        )
+    function onSearchChange(event: React.ChangeEvent<HTMLInputElement>) {
+        const search = event.target.value
+        setCriteria((current) => ({ ...current, search }))
     }
 
-    if (selectedJobTitles.length > 0) {
-        filtered = filtered.filter((person: any) =>
-            selectedJobTitles.includes(person.jobTitle)
-        )
+    function clearFilters() {
+        setCriteria(emptyCriteria)
+        setFilterResetKey((current) => current + 1)
     }
-
-    if (sortOption === 'name-asc') {
-        filtered = [...filtered].sort((a: any, b: any) =>
-            a.name.localeCompare(b.name)
-        )
-    }
-
-    if (sortOption === 'name-desc') {
-        filtered = [...filtered].sort((a: any, b: any) =>
-            b.name.localeCompare(a.name)
-        )
-    }
-
-    return filtered
-}
-
-    const forceUpdate = useForceUpdate()
-
-    //note: shuffle function is not pure function, it mutates original array
-    //in order to avoid memory duplication
-    shuffle(people)
 
     function goBack() {
         setMap(!map)
         setMapOrHomeTitle(map ? pageNames.map : pageNames.home)
-        setSearchfield('')
+        setCriteria((current) => ({ ...current, search: '' }))
     }
 
     function shufflePeopleOnClick() {
-        shuffle(people)
-        forceUpdate()
+        const shuffledPeople = [...people]
+        shuffle(shuffledPeople)
+        setPeople(shuffledPeople)
     }
 
     return (
@@ -111,7 +104,8 @@ function App() {
             <header className="custom--unselectable top-0 w-100 white custom--bg-additional3 custom--shadow-4 z-9999">
                 <Navbar
                     onLogoClick={goBack}
-                    onSearchChange={(e: any) => setSearchfield(e.target.value)}
+                    onSearchChange={onSearchChange}
+                    searchValue={criteria.search}
                     onMapClick={goBack}
                     mapOrHomeTitle={mapOrHomeTitle}
                     shufflePeopleOnClick={shufflePeopleOnClick}
@@ -124,51 +118,90 @@ function App() {
                     </Suspense>
                 ) : (
                     <div id="sketch-particles">
-    <div
-        className="visible-on-mobileview-only"
-        style={style}
-    >
-        <Search
-            onSearchChange={(e: any) =>
-                setSearchfield(e.target.value)
-            }
-            responsiveSearch={responsiveSearch}
-        />
-    </div>
-
-    <ProfileFilters
-        countries={countries}
-        selectedCountries={selectedCountries}
-        onCountryChange={(country) => {
-            setSelectedCountries((current) =>
-                current.includes(country)
-                    ? current.filter((item) => item !== country)
-                    : [...current, country]
-            )
-        }}
-        jobTitles={jobTitles}
-        selectedJobTitles={selectedJobTitles}
-        onJobTitleChange={(jobTitle) => {
-            setSelectedJobTitles((current) =>
-                current.includes(jobTitle)
-                    ? current.filter((item) => item !== jobTitle)
-                    : [...current, jobTitle]
-            )
-        }}
-        sortOption={sortOption}
-        onSortChange={setSortOption}
-        onClear={() => {
-            setSelectedCountries([])
-            setSelectedJobTitles([])
-            setSortOption('default')
-        }}
-    />
-
-    <BatchCards
-        persons={filteredPersons(searchfield)}
-        numberPerBatch={16}
-    />
-</div>
+                        <div
+                            className="visible-on-mobileview-only"
+                            style={style}
+                        >
+                            <Search
+                                onSearchChange={onSearchChange}
+                                value={criteria.search}
+                                responsiveSearch={responsiveSearch}
+                            />
+                        </div>
+                        <ProfileFilters
+                            resetKey={filterResetKey}
+                            countries={countries}
+                            selectedCountries={criteria.countries}
+                            onCountryChange={(country) =>
+                                setCriteria((current) => ({
+                                    ...current,
+                                    countries: toggleSelection(
+                                        current.countries,
+                                        country
+                                    ),
+                                }))
+                            }
+                            jobTitles={jobTitles}
+                            selectedJobTitles={criteria.jobTitles}
+                            onJobTitleChange={(jobTitle) =>
+                                setCriteria((current) => ({
+                                    ...current,
+                                    jobTitles: toggleSelection(
+                                        current.jobTitles,
+                                        jobTitle
+                                    ),
+                                }))
+                            }
+                            skills={skills}
+                            selectedSkills={criteria.skills}
+                            onSkillChange={(skill) =>
+                                setCriteria((current) => ({
+                                    ...current,
+                                    skills: toggleSelection(
+                                        current.skills,
+                                        skill
+                                    ),
+                                }))
+                            }
+                            sortOption={criteria.sort}
+                            onSortChange={(sort) =>
+                                setCriteria((current) => ({ ...current, sort }))
+                            }
+                            onClear={clearFilters}
+                        />
+                        <p
+                            className="developer-results__count"
+                            role="status"
+                            aria-live="polite"
+                            aria-atomic="true"
+                        >
+                            {filteredPersons.length} matching{' '}
+                            {filteredPersons.length === 1
+                                ? 'developer'
+                                : 'developers'}
+                        </p>
+                        <dl className="developer-results__stats">
+                            <div>
+                                <dt>Total Profiles</dt>
+                                <dd>
+                                    <CountUp end={profiles.length} delay={1} />
+                                </dd>
+                            </div>
+                            <div>
+                                <dt>Total Countries</dt>
+                                <dd>
+                                    <CountUp end={totalCountries} delay={1} />
+                                </dd>
+                            </div>
+                        </dl>
+                        <BatchCards
+                            key={JSON.stringify(criteria)}
+                            persons={filteredPersons}
+                            selectedSkills={criteria.skills}
+                            numberPerBatch={16}
+                            onClear={clearFilters}
+                        />
+                    </div>
                 )}
             </main>
             <footer className="custom--unselectable w-100 h3 flex items-center justify-center white custom--bg-additional3 z-2">
