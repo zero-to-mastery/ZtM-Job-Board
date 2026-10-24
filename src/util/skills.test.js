@@ -156,4 +156,25 @@ describe('aggregation validation', () => {
             expect(fs.readFileSync(output, 'utf8')).toBe('existing dataset')
         }
     )
+
+    test('fails before replacing the generated dataset for malformed JSON', () => {
+        directory = fs.mkdtempSync(path.join(os.tmpdir(), 'jobboard-skills-'))
+        fs.mkdirSync(path.join(directory, 'Submissions'))
+        fs.mkdirSync(path.join(directory, 'src', 'assets'), { recursive: true })
+        const output = path.join(directory, 'src', 'assets', 'persons.json')
+        fs.writeFileSync(output, 'existing dataset')
+        fs.writeFileSync(
+            path.join(directory, 'Submissions', 'broken.json'),
+            '{ "name": "Ada", }'
+        )
+        const result = spawnSync(
+            process.execPath,
+            [path.resolve('scripts', 'aggregate-json.mjs')],
+            { cwd: directory, encoding: 'utf8' }
+        )
+        expect(result.status).toBe(1)
+        expect(result.stderr).toContain('broken.json')
+        expect(result.stderr).toContain('Invalid JSON')
+        expect(fs.readFileSync(output, 'utf8')).toBe('existing dataset')
+    })
 })
