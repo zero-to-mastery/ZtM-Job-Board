@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react'
 
 interface ProfileFiltersProps {
@@ -41,6 +42,7 @@ const ProfileFilters = ({
         left: 0,
         width: '100%',
         minWidth: '260px',
+        boxSizing: 'border-box',
         background: '#fff',
         border: '1px solid #ddd',
         borderRadius: '6px',
@@ -55,6 +57,18 @@ const ProfileFilters = ({
         marginTop: '0.5rem',
     }
 
+    const filterButtonStyle: React.CSSProperties = {
+        width: '100%',
+        boxSizing: 'border-box',
+        textAlign: 'left',
+        minHeight: '40px',
+    }
+
+    const filterInputStyle: React.CSSProperties = {
+        width: '100%',
+        boxSizing: 'border-box',
+    }
+
     return (
         <div
             className="br2 pa3 mb3"
@@ -63,7 +77,7 @@ const ProfileFilters = ({
             }}
         >
             <div className="flex justify-between items-center mb3">
-                <h2 className="f4 ma0">Filters & Sort</h2>
+                <h2 className="f4 ma0">Filters &amp; Sort</h2>
 
                 <button
                     type="button"
@@ -74,14 +88,21 @@ const ProfileFilters = ({
                 </button>
             </div>
 
-            <div className="flex flex-wrap items-center" style={{ gap: '1rem' }}>
-                <div
-                    className="relative"
-                    style={{ flex: '1 1 220px' }}
-                >
+            <div
+                style={{
+                    display: 'grid',
+                    gridTemplateColumns:
+                        'repeat(auto-fit, minmax(min(100%, 220px), 1fr))',
+                    gap: '1rem',
+                    alignItems: 'start',
+                }}
+            >
+                <div className="relative">
                     <button
                         type="button"
                         className="w-100 pa2 ba b--black-20 br2 tl pointer dark-gray"
+                        style={filterButtonStyle}
+                        aria-expanded={openFilter === 'country'}
                         onClick={() =>
                             setOpenFilter(
                                 openFilter === 'country' ? '' : 'country'
@@ -102,7 +123,8 @@ const ProfileFilters = ({
                                     setCountrySearch(event.target.value)
                                 }
                                 placeholder="Search country..."
-                                className="w-100 pa2 ba b--black-20 br2"
+                                className="pa2 ba b--black-20 br2"
+                                style={filterInputStyle}
                             />
 
                             <div style={optionContainerStyle}>
@@ -123,18 +145,23 @@ const ProfileFilters = ({
                                         {country}
                                     </label>
                                 ))}
+
+                                {filteredCountries.length === 0 && (
+                                    <p className="f6 gray ma0">
+                                        No countries found.
+                                    </p>
+                                )}
                             </div>
                         </div>
                     )}
                 </div>
 
-                <div
-                    className="relative"
-                    style={{ flex: '1 1 220px' }}
-                >
+                <div className="relative">
                     <button
                         type="button"
                         className="w-100 pa2 ba b--black-20 br2 tl pointer dark-gray"
+                        style={filterButtonStyle}
+                        aria-expanded={openFilter === 'role'}
                         onClick={() =>
                             setOpenFilter(
                                 openFilter === 'role' ? '' : 'role'
@@ -155,7 +182,8 @@ const ProfileFilters = ({
                                     setRoleSearch(event.target.value)
                                 }
                                 placeholder="Search role..."
-                                className="w-100 pa2 ba b--black-20 br2"
+                                className="pa2 ba b--black-20 br2"
+                                style={filterInputStyle}
                             />
 
                             <div style={optionContainerStyle}>
@@ -176,18 +204,29 @@ const ProfileFilters = ({
                                         {jobTitle}
                                     </label>
                                 ))}
+
+                                {filteredJobTitles.length === 0 && (
+                                    <p className="f6 gray ma0">
+                                        No roles found.
+                                    </p>
+                                )}
                             </div>
                         </div>
                     )}
                 </div>
 
-                <div style={{ flex: '1 1 180px' }}>
+                <div>
                     <select
                         value={sortOption}
                         onChange={(event) =>
                             onSortChange(event.target.value)
                         }
                         className="w-100 pa2 ba b--black-20 br2 bg-near-white dark-gray"
+                        style={{
+                            width: '100%',
+                            boxSizing: 'border-box',
+                            minHeight: '40px',
+                        }}
                     >
                         <option value="default">Sort by: Default</option>
                         <option value="name-asc">Name A–Z</option>
