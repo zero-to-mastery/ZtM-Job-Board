@@ -188,3 +188,66 @@ export function buildCountryDiagnostics(submissions) {
         entries,
     }
 }
+
+/**
+ * Distinct country values whose resolution produced an `unknown` issue — the
+ * only actionable case (add an alias). Ambiguous, non-location and
+ * statement-only issues are deliberate policy and stay in the diagnostics
+ * report instead. Each value lists every submission that uses it; values are
+ * sorted, files keep filename order, so the result is deterministic.
+ *
+ * @param {{ file: string, data: Record<string, any> }[]} submissions
+ * @returns {{ value: unknown, files: string[] }[]}
+ */
+export function collectUnknownCountryValues(submissions) {
+    const grouped = new Map()
+
+    for (const { file, data } of submissions) {
+        const country = data.location?.country
+        const resolution = resolveCountry(country)
+        if (!resolution.issues.some((issue) => issue.type === 'unknown')) {
+            continue
+        }
+
+        const key = JSON.stringify(country)
+        if (!grouped.has(key)) {
+            grouped.set(key, { value: country, files: [] })
+        }
+        grouped.get(key).files.push(file)
+    }
+
+    return [...grouped.values()].sort((a, b) => {
+        const left = String(a.value)
+        const right = String(b.value)
+        return left < right ? -1 : left > right ? 1 : 0
+    })
+}
+
+/**
+ * Formats the aggregation-time warning for unknown country values: header,
+ * one line per distinct value, capped at `cap` value lines plus a remainder
+ * line. Returns an empty string when there is nothing to report, so a
+ * successful run with no unrecognised values still prints nothing.
+ *
+ * @param {{ value: unknown, files: string[] }[]} entries
+ * @param {number} [cap] maximum number of value lines
+ * @returns {string}
+ */
+export function formatCountryWarning(entries, cap = 10) {
+    if (entries.length === 0) return ''
+
+    const lines = entries
+        .slice(0, cap)
+        .map(
+            (entry) =>
+                `- ${JSON.stringify(String(entry.value))} (${entry.files.join(', ')})`
+        )
+    if (entries.length > cap) {
+        lines.push(`…and ${entries.length - cap} more`)
+    }
+
+    return (
+        'Unrecognised country value(s) (add an alias, see docs/country-normalization.md):\n' +
+        lines.join('\n')
+    )
+}
