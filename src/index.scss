@@ -44,6 +44,9 @@ $colors: (
     --color-placeholder: #6b6b6b;
     --color-link: #1565c0;
     --color-focus: #1565c0;
+    /* Accent tint for selected/highlighted states (e.g. skill chips) */
+    --color-highlight-bg: #e3f2fd;
+    --color-highlight-text: #0d47a1;
     --color-selection: rgba(0, 0, 0, 0.15);
     --color-bar-bg: #{$color--additional3};
     --color-bar-text: #ffffff;
@@ -81,6 +84,8 @@ $colors: (
     --color-placeholder: #a6a6a6;
     --color-link: #64b5f6;
     --color-focus: #90caf9;
+    --color-highlight-bg: #0d47a1;
+    --color-highlight-text: #90caf9;
     --color-selection: rgba(255, 255, 255, 0.2);
     --color-bar-bg: #1a1a1a;
     --color-icon: #e8e8e8;
