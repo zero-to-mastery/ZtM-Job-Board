@@ -15,8 +15,8 @@ changing what contributors wrote.
 | ISO code → display name                | [`src/util/countries/countryNames.js`](../src/util/countries/countryNames.js)             |
 | ISO code → map coordinates (generated) | [`src/util/countries/countryCoordinates.js`](../src/util/countries/countryCoordinates.js) |
 | Aggregation (adds the metadata)        | [`scripts/lib/aggregate.mjs`](../scripts/lib/aggregate.mjs)                               |
-| Recruiter country filter               | [`src/util/countryFilters.ts`](../src/util/countryFilters.ts)                             |
-| Map marker counts                      | [`src/util/countryMarkers.ts`](../src/util/countryMarkers.ts)                             |
+| Recruiter country filter               | [`src/util/personCountries.ts`](../src/util/personCountries.ts)                           |
+| Map marker counts                      | [`src/util/personCountries.ts`](../src/util/personCountries.ts)                           |
 
 `npm run aggregate-json` reads `Submissions/*.json` and writes
 `src/assets/persons.json`. Submissions are never modified. Each profile keeps its
@@ -34,18 +34,18 @@ original fields and gets two generated fields:
 }
 ```
 
--   `normalized.countries` is a list of [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
-    codes, in order of appearance. It is empty when nothing could be resolved.
--   `id` is derived from the submission filename (SHA-256, 32 hex characters), so
-    it stays the same across runs.
--   Files are processed in filename order, so the output is byte-for-byte
-    identical for identical input.
--   If any submission cannot be read, is not a JSON object, or has an invalid
-    `skills` value, the script lists every
-    failing file, exits with status 1 and leaves the existing `persons.json`
-    untouched. An unrecognised country is **not** an error.
--   The script prints nothing on success, because the Build workflow posts its
-    output as a commit comment.
+- `normalized.countries` is a list of [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
+  codes, in order of appearance. It is empty when nothing could be resolved.
+- `id` is derived from the submission filename (SHA-256, 32 hex characters), so
+  it stays the same across runs.
+- Files are processed in filename order, so the output is byte-for-byte
+  identical for identical input.
+- If any submission cannot be read, is not a JSON object, or has an invalid
+  `skills` value, the script lists every
+  failing file, exits with status 1 and leaves the existing `persons.json`
+  untouched. An unrecognised country is **not** an error.
+- The script prints nothing on success, because the Build workflow posts its
+  output as a commit comment.
 
 ## Canonical identifiers
 
@@ -116,15 +116,19 @@ Duplicate aliases are collapsed, so `United Kingdom, UK` → `GB`.
 
 ## How the data is used
 
--   **Country filter**: one option per ISO code found in `normalized.countries`,
-    labelled with `COUNTRY_NAMES` and sorted by label. Selecting a country
-    matches every profile that lists it, including multi-country profiles.
-    Profiles that did not resolve add no option. Cards and free-text search still
-    use the original `location` text.
--   **Map**: developers are counted per ISO code and placed using the `ISO`
-    column of `src/assets/countries.json`. A developer listing several countries
-    is counted once in each of them. Codes without coordinates in
-    `countries.json` (currently `AX`, `EH`, `HK`, `MO`) get no marker.
+- **Country filter**: `getCountryOptions` builds one option per ISO code
+  found in `normalized.countries`, labelled with `COUNTRY_NAMES` and sorted
+  by label. Profiles whose country did not resolve add no option. Filtering
+  goes through the `matchesCountries(person, codes)` predicate: an empty
+  selection matches everyone, otherwise a profile matches when any of its
+  countries is in the selection (multi-country profiles match any of theirs).
+  Cards and free-text search still use the original `location` text.
+- **Map**: `getCountryMarkers` counts developers per ISO code — a developer
+  listing several countries is counted once in each, never twice in the same
+  country — and joins the counts with `getCountryCoordinates`, producing one
+  marker per code with `latlng` as a `[latitude, longitude]` number tuple at
+  full precision. Codes without coordinates (currently `AX`, `EH`, `HK`,
+  `MO`) get no marker.
 
 ## Map coordinates
 
