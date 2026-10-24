@@ -10,6 +10,31 @@
             name="description"
             content="Zero to Mastery - Job Board. Made by ZtM Community."
         />
+        <meta name="color-scheme" content="light dark" />
+        <!-- Apply the saved or system theme before first paint to avoid a flash.
+             Keep in sync with resolveTheme in src/util/theme.ts
+             (covered by src/util/themeBootstrap.test.ts) -->
+        <script data-theme-bootstrap>
+            ;(function () {
+                var theme = null
+                try {
+                    theme = localStorage.getItem('theme')
+                } catch (e) {}
+                if (theme !== 'light' && theme !== 'dark') {
+                    try {
+                        theme = window.matchMedia(
+                            '(prefers-color-scheme: dark)'
+                        ).matches
+                            ? 'dark'
+                            : 'light'
+                    } catch (e) {
+                        theme = 'light'
+                    }
+                }
+                document.documentElement.setAttribute('data-theme', theme)
+                document.documentElement.style.colorScheme = theme
+            })()
+        </script>
         <link
             rel="apple-touch-icon"
             sizes="180x180"
@@ -111,10 +136,10 @@
         <meta name="theme-color" content="#4c4c4c" />
 
         <title>Job Board •●• Zero to Mastery</title>
-      <script type="module" crossorigin src="./assets/index-Bcpfi0ju.js"></script>
-      <link rel="stylesheet" crossorigin href="./assets/index-Dj4fnaNe.css">
+      <script type="module" crossorigin src="./assets/index-hq9gnnax.js"></script>
+      <link rel="stylesheet" crossorigin href="./assets/index-Di1g6k2Y.css">
     </head>
-    <body class="ma0 pa0 bg-light-gray">
+    <body class="ma0 pa0">
         <noscript> You need to enable JavaScript to run this app. </noscript>
         <div id="root"></div>
         <!--
