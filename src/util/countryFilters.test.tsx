@@ -108,6 +108,9 @@ describe('ProfileFilters country dropdown', () => {
                     countries={getCountryOptions(PEOPLE)}
                     selectedCountries={[]}
                     onCountryChange={() => {}}
+                    skills={[]}
+                    selectedSkills={[]}
+                    onSkillChange={() => {}}
                     jobTitles={[]}
                     selectedJobTitles={[]}
                     onJobTitleChange={() => {}}

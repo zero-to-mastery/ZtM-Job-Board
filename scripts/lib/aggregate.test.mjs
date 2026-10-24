@@ -216,47 +216,6 @@ describe('aggregate', () => {
         )
     })
 
-    test('keeps optional coordinates as submitted', () => {
-        const withCoordinates = submission('Kilo', 'United States')
-        withCoordinates.location.coordinates = { lat: 39.29, lng: -79.34 }
-        writeFixtures({ 'kilo.json': withCoordinates })
-        aggregate({ sourceDir, outputFile })
-        const [person] = JSON.parse(fs.readFileSync(outputFile, 'utf-8'))
-        expect(person.location.coordinates).toEqual({ lat: 39.29, lng: -79.34 })
-    })
-
-    test('invalid coordinates fail with the filename', () => {
-        const withCoordinates = (coordinates) => {
-            const data = submission('Lima', 'United States')
-            data.location.coordinates = coordinates
-            return data
-        }
-        writeFixtures({
-            'ok.json': withCoordinates({ lat: -33.87, lng: 151.21 }),
-            'array.json': withCoordinates([39.29, -79.34]),
-            'strings.json': withCoordinates({ lat: '39.29', lng: '-79.34' }),
-            'range.json': withCoordinates({ lat: 91, lng: 0 }),
-            'precise.json': withCoordinates({ lat: 39.29278, lng: -79.34444 }),
-            'extra.json': withCoordinates({ lat: 1, lng: 2, zoom: 3 }),
-            'null.json': withCoordinates(null),
-        })
-        try {
-            loadSubmissions(sourceDir)
-            expect.unreachable()
-        } catch (e) {
-            expect(e).toBeInstanceOf(SubmissionLoadError)
-            expect(e.failures.map((f) => f.file).sort()).toEqual([
-                'array.json',
-                'extra.json',
-                'null.json',
-                'precise.json',
-                'range.json',
-                'strings.json',
-            ])
-            expect(e.message).toContain('at most 2 decimal places')
-        }
-    })
-
     test('a missing source directory fails', () => {
         expect(() =>
             aggregate({ sourceDir: path.join(tmp, 'missing'), outputFile })

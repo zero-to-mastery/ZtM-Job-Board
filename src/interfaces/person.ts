@@ -1,9 +1,10 @@
 export default interface Person {
     id: string
-    img: string
+    img?: string
     name: string
     email?: string
-    jobTitle: string
+    jobTitle?: string
+    skills?: string[]
     location: {
         city?: string
         state?: string

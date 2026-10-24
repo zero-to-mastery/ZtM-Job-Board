@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import crypto from 'crypto'
 import { resolveCountry } from '../../src/util/countries/resolveCountry.js'
-import { validateCoordinates } from './coordinates.mjs'
+import { validateSkills } from '../../src/util/skills.js'
 
 export class SubmissionLoadError extends Error {
     /** @param {{ file: string, message: string }[]} failures */
@@ -37,7 +37,12 @@ export function loadSubmissions(sourceDir) {
     for (const file of entries) {
         try {
             const raw = fs.readFileSync(path.join(sourceDir, file), 'utf-8')
-            const data = JSON.parse(raw)
+            let data
+            try {
+                data = JSON.parse(raw)
+            } catch (e) {
+                throw new Error(`Invalid JSON: ${e.message}`, { cause: e })
+            }
             if (
                 data === null ||
                 typeof data !== 'object' ||
@@ -45,7 +50,7 @@ export function loadSubmissions(sourceDir) {
             ) {
                 throw new Error('Submission must be a JSON object')
             }
-            validateCoordinates(data.location?.coordinates)
+            validateSkills(data.skills, file)
             submissions.push({ file, data })
         } catch (e) {
             failures.push({ file, message: e.message })
