@@ -35,6 +35,7 @@
         "aggregate-json": "node scripts/aggregate-json.mjs",
         "countries-json": "node scripts/countries-json.mjs",
         "country-diagnostics": "node scripts/country-diagnostics.mjs",
+        "validate:changed-submissions": "node scripts/validate-changed-submissions.mjs",
         "serve": "vite preview"
     },
     "devDependencies": {
