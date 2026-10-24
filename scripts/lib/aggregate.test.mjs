@@ -81,6 +81,16 @@ afterEach(() => {
 })
 
 describe('aggregate', () => {
+    test('creates a missing output directory (fresh checkout has no src/assets)', () => {
+        writeFixtures(FIXTURES)
+        const nested = path.join(tmp, 'src', 'assets', 'persons.json')
+        const { count } = aggregate({ sourceDir, outputFile: nested })
+        expect(count).toBe(Object.keys(FIXTURES).length)
+        expect(JSON.parse(fs.readFileSync(nested, 'utf-8'))).toHaveLength(
+            Object.keys(FIXTURES).length
+        )
+    })
+
     test('keeps every submission and its original fields', () => {
         writeFixtures(FIXTURES)
         const { count } = aggregate({ sourceDir, outputFile })

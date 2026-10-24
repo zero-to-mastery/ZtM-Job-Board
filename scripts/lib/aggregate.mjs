@@ -108,6 +108,7 @@ export function buildPersons(submissions) {
  * @param {string} content
  */
 export function writeFileAtomic(file, content) {
+    fs.mkdirSync(path.dirname(file), { recursive: true })
     const tmp = `${file}.${process.pid}.tmp`
     try {
         fs.writeFileSync(tmp, content, 'utf-8')
