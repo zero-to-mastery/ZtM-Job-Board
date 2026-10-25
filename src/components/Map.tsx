@@ -9,6 +9,7 @@ import {
 import persons from '../assets/persons.json'
 import type Person from '../interfaces/person'
 import { buildLocationMarkers } from '../util/locationMarkers'
+import DeveloperLocationPopup from './DeveloperLocationPopup'
 
 const DEFAULT_CENTER: [number, number] = [55.378052, -3.435973]
 
@@ -67,47 +68,7 @@ function SimpleMap({ zoom = 3 }) {
                                         : `${group.length} developers at this location`}
                                 </Tooltip>
                                 <Popup>
-                                    <strong>
-                                        {group.length === 1
-                                            ? 'Developer'
-                                            : `${group.length} developers at this location`}
-                                    </strong>
-                                    {group.map((person) => {
-                                        const locationText = [
-                                            person.location?.city,
-                                            person.location?.state,
-                                            person.location?.country,
-                                        ]
-                                            .filter(Boolean)
-                                            .join(', ')
-
-                                        return (
-                                            <div key={person.id}>
-                                                <p>
-                                                    <strong>
-                                                        {person.name}
-                                                    </strong>
-                                                </p>
-                                                {locationText && (
-                                                    <p>{locationText}</p>
-                                                )}
-                                                {person.links?.github && (
-                                                    <p>
-                                                        <a
-                                                            href={
-                                                                person.links
-                                                                    .github
-                                                            }
-                                                            target="_blank"
-                                                            rel="noreferrer"
-                                                        >
-                                                            GitHub profile
-                                                        </a>
-                                                    </p>
-                                                )}
-                                            </div>
-                                        )
-                                    })}
+                                    <DeveloperLocationPopup people={group} />
                                 </Popup>
                             </Marker>
                         )

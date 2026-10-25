@@ -19,11 +19,12 @@ export interface LocationMarkers {
 export const buildLocationMarkers = (
     people: readonly Person[]
 ): LocationMarkers => {
-    const peopleWithCoordinates: Person[] = []
+    const pinned: { person: Person; lat: number; lng: number }[] = []
     const peopleWithoutCoordinates: Person[] = []
     for (const person of people) {
-        if (person.location?.coordinates) {
-            peopleWithCoordinates.push(person)
+        const coordinates = person.location?.coordinates
+        if (coordinates) {
+            pinned.push({ person, ...coordinates })
         } else {
             peopleWithoutCoordinates.push(person)
         }
@@ -32,18 +33,11 @@ export const buildLocationMarkers = (
     const countryMarkers = getCountryMarkers(peopleWithoutCoordinates)
 
     const groups = new Map<string, CoordinateGroup>()
-    peopleWithCoordinates.forEach((person) => {
-        const coordinates = person.location?.coordinates
-        if (!coordinates) return
-        const key = `${coordinates.lat},${coordinates.lng}`
+    pinned.forEach(({ person, lat, lng }) => {
+        const key = `${lat},${lng}`
         let group = groups.get(key)
         if (!group) {
-            group = {
-                key,
-                lat: coordinates.lat,
-                lng: coordinates.lng,
-                people: [],
-            }
+            group = { key, lat, lng, people: [] }
             groups.set(key, group)
         }
         group.people.push(person)

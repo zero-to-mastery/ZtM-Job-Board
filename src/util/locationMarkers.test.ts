@@ -4,7 +4,12 @@ import { buildLocationMarkers } from './locationMarkers'
 
 const person = (
     id: string,
-    opts: { lat?: number; lng?: number; country?: string } = {}
+    opts: {
+        lat?: number
+        lng?: number
+        country?: string
+        countries?: string[]
+    } = {}
 ): Person => ({
     id,
     name: `Developer ${id}`,
@@ -15,7 +20,11 @@ const person = (
             : {}),
     },
     links: {},
-    ...(opts.country ? { normalized: { countries: [opts.country] } } : {}),
+    ...(opts.countries
+        ? { normalized: { countries: opts.countries } }
+        : opts.country
+          ? { normalized: { countries: [opts.country] } }
+          : {}),
 })
 
 describe('buildLocationMarkers', () => {
@@ -48,6 +57,26 @@ describe('buildLocationMarkers', () => {
         expect(result.countryMarkers).toEqual([
             expect.objectContaining({ code: 'US', numberOfDevs: 1 }),
         ])
+    })
+
+    test('excludes a multi-country pinned person from every country marker', () => {
+        // Relies on getCountryMarkers only emitting markers for countries it
+        // actually counted: the pinned person never reaches that side, so CA
+        // must not appear even though it is listed in their countries.
+        const result = buildLocationMarkers([
+            person('pinned', {
+                lat: 40.71,
+                lng: -74,
+                country: 'US',
+                countries: ['US', 'CA'],
+            }),
+            person('us', { country: 'US' }),
+        ])
+        expect(result.coordinateGroups).toHaveLength(1)
+        expect(result.countryMarkers).toEqual([
+            expect.objectContaining({ code: 'US', numberOfDevs: 1 }),
+        ])
+        expect(result.countryMarkers.map((m) => m.code)).not.toContain('CA')
     })
 
     test('ignores profiles without coordinates when grouping', () => {

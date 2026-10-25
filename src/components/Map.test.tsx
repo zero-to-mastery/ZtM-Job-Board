@@ -18,7 +18,24 @@ vi.mock('react-leaflet', () => ({
     ),
 }))
 
-const fixturePeople = [
+// Persistently shared with the mocked persons.json module: Map holds this
+// array reference, so tests swap contents in place via setFixturePeople.
+const fixturePeople: {
+    id: string
+    name: string
+    location: {
+        country?: string
+        coordinates?: { lat: number; lng: number }
+    }
+    links: { github?: string }
+    normalized: { countries: string[] }
+}[] = []
+
+const setFixturePeople: (people: typeof fixturePeople) => void = (people) => {
+    fixturePeople.splice(0, fixturePeople.length, ...people)
+}
+
+const defaultFixtures: typeof fixturePeople = [
     // Two devs sharing exact coordinates: one combined pin, both selectable.
     {
         id: 'a',
@@ -53,6 +70,7 @@ let root: Root
 describe('Map', () => {
     beforeEach(async () => {
         vi.stubGlobal('IS_REACT_ACT_ENVIRONMENT', true)
+        setFixturePeople(defaultFixtures)
         container = document.createElement('div')
         document.body.appendChild(container)
         root = createRoot(container)
@@ -78,6 +96,29 @@ describe('Map', () => {
         expect(container.textContent).not.toContain(
             'developers without exact pins'
         )
+    })
+
+    it('shows a lone pinned developer by name, without plural pin text', () => {
+        setFixturePeople([
+            {
+                id: 's',
+                name: 'Solo Gomez',
+                location: {
+                    country: 'US',
+                    coordinates: { lat: 51.5, lng: -0.12 },
+                },
+                links: { github: 'https://github.com/sologomez' },
+                normalized: { countries: ['US'] },
+            },
+        ])
+        act(() => root.render(<SimpleMap />))
+        const text = container.textContent ?? ''
+        // Single dev: tooltip is the plain name, popup header is 'Developer'.
+        expect(text).toContain('Solo Gomez')
+        expect(text).not.toContain('developers at this location')
+        expect(text).toContain('GitHub profile')
+        // Pinned dev must not leak into any country count.
+        expect(text).not.toContain('developer without an exact pin')
     })
 
     it('groups overlapping coordinates into one pin with both names selectable', () => {
