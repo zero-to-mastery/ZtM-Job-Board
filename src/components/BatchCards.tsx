@@ -1,22 +1,25 @@
-import React, { useState } from 'react'
+import React from 'react'
 import CardList from './CardList'
 import BasicButton from './BasicButton'
 import Person from '../interfaces/person'
 
 interface BatchCardsProps {
     persons: Person[]
+    batch: number
     numberPerBatch?: number
     selectedSkills?: string[]
+    onShowMore: () => void
     onClear: () => void
 }
 
 const BatchCards = ({
     persons,
+    batch,
     numberPerBatch = 16,
     selectedSkills = [],
+    onShowMore,
     onClear,
 }: BatchCardsProps) => {
-    const [batch, setBatch] = useState(1)
     const visibleCount = batch * numberPerBatch
 
     return (
@@ -41,9 +44,7 @@ const BatchCards = ({
                 </div>
             )}
             {persons.length > visibleCount && (
-                <BasicButton action={() => setBatch((current) => current + 1)}>
-                    Show More
-                </BasicButton>
+                <BasicButton action={onShowMore}>Show More</BasicButton>
             )}
         </div>
     )
