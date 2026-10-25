@@ -22,7 +22,7 @@ frontend, backend, and full stack, including the submitted typos `Fronted`,
 normalization. Selecting an option matches all of its variants; profile cards
 retain the submitted title.
 
-The Role dropdown offers at most 15 explicit families plus **Other roles**, rather
+The Role dropdown offers at most 21 explicit families plus **Other roles**, rather
 than one option for each submitted title. Seniority and technology qualifiers do
 not create extra options. Clear compound titles can match several families;
 within each part, a specialization takes precedence over generic web/software

@@ -69,9 +69,18 @@ const roleFamilies: [string, RegExp][] = [
         /\b(?:machine learning|ml|ai|deep learning) (?:developer|engineer)\b/,
     ],
     [
-        'DevOps / Cloud Engineer',
-        /\b(?:devops|cloud|site reliability) (?:developer|engineer)\b/,
+        'DevOps Engineer',
+        /\b(?:devops|site reliability) (?:developer|engineer)\b/,
     ],
+    ['Cloud Engineer', /\bcloud (?:developer|engineer)\b/],
+    [
+        'Blockchain / Web3 Developer',
+        /\b(?:blockchain|web3|smart contract) (?:developer|engineer)\b/,
+    ],
+    ['Solutions Architect', /\b(?:solutions?|cloud|software) architect\b/],
+    ['Engineering Manager', /\b(?:engineering|development) manager\b/],
+    ['Product Manager', /\bproduct manager\b/],
+    ['Technical Writer', /\btechnical writer\b/],
     [
         'QA / Test Engineer',
         /\b(?:qa|test|testing|automation) engineer\b|\bsdet\b/,
