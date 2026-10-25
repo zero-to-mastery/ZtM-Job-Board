@@ -51,7 +51,10 @@ function toggleSelection(current: string[], value: string) {
 
 function App() {
     const [criteria, setCriteria] = useState<ProfileCriteria>(emptyCriteria)
-    const [filterResetKey, setFilterResetKey] = useState(0)
+    const [openFilter, setOpenFilter] = useState('')
+    const [countrySearch, setCountrySearch] = useState('')
+    const [roleSearch, setRoleSearch] = useState('')
+    const [skillSearch, setSkillSearch] = useState('')
     const [people, setPeople] = useState(() => {
         const initialPeople = [...profiles]
         shuffle(initialPeople)
@@ -73,7 +76,10 @@ function App() {
 
     function clearFilters() {
         setCriteria(emptyCriteria)
-        setFilterResetKey((current) => current + 1)
+        setCountrySearch('')
+        setRoleSearch('')
+        setSkillSearch('')
+        setOpenFilter('')
     }
 
     function goBack() {
@@ -118,7 +124,14 @@ function App() {
                             />
                         </div>
                         <ProfileFilters
-                            resetKey={filterResetKey}
+                            openFilter={openFilter}
+                            onOpenFilterChange={setOpenFilter}
+                            countrySearch={countrySearch}
+                            onCountrySearchChange={setCountrySearch}
+                            roleSearch={roleSearch}
+                            onRoleSearchChange={setRoleSearch}
+                            skillSearch={skillSearch}
+                            onSkillSearchChange={setSkillSearch}
                             countries={countries}
                             selectedCountries={criteria.countries}
                             onCountryChange={(country) =>

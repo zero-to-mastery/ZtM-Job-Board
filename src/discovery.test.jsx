@@ -1,4 +1,4 @@
-import React, { act, useEffect } from 'react'
+﻿import React, { act, useEffect } from 'react'
 import { createRoot } from 'react-dom/client'
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest'
 import App from './App'
@@ -485,4 +485,21 @@ describe('recruiter discovery', () => {
             container.querySelector('[aria-controls="required-skills-options"]')
         ).toBeNull()
     })
+
+test('clears an active dropdown search and closes the dropdown', () => {
+    render()
+
+    click(button('Required skills'))
+    type(container.querySelector('#skill-search'), 'type')
+
+    expect(container.querySelector('#skill-search').value).toBe('type')
+
+    click(button('Clear filters'))
+
+    expect(container.querySelector('#required-skills-options')).toBeNull()
+
+    click(button('Required skills'))
+    expect(container.querySelector('#skill-search').value).toBe('')
+})
+
 })

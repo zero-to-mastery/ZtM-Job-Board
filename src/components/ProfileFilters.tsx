@@ -3,7 +3,14 @@ import { jobTitleKey, SortOption } from '../util/filterProfiles'
 import { CountryOption } from '../util/personCountries'
 
 interface ProfileFiltersProps {
-    resetKey?: number
+    openFilter?: string
+    onOpenFilterChange?: (value: string) => void
+    countrySearch?: string
+    onCountrySearchChange?: (value: string) => void
+    roleSearch?: string
+    onRoleSearchChange?: (value: string) => void
+    skillSearch?: string
+    onSkillSearchChange?: (value: string) => void
     countries: CountryOption[]
     selectedCountries: string[]
     onCountryChange: (countryCode: string) => void
@@ -19,7 +26,14 @@ interface ProfileFiltersProps {
 }
 
 const ProfileFilters = ({
-    resetKey = 0,
+    openFilter: controlledOpenFilter,
+    onOpenFilterChange,
+    countrySearch: controlledCountrySearch,
+    onCountrySearchChange,
+    roleSearch: controlledRoleSearch,
+    onRoleSearchChange,
+    skillSearch: controlledSkillSearch,
+    onSkillSearchChange,
     countries,
     selectedCountries,
     onCountryChange,
@@ -33,18 +47,20 @@ const ProfileFilters = ({
     onSortChange,
     onClear,
 }: ProfileFiltersProps) => {
-    const [openFilter, setOpenFilter] = useState('')
-    const [countrySearch, setCountrySearch] = useState('')
-    const [roleSearch, setRoleSearch] = useState('')
-    const [skillSearch, setSkillSearch] = useState('')
+    const [localOpenFilter, setLocalOpenFilter] = useState('')
+    const [localCountrySearch, setLocalCountrySearch] = useState('')
+    const [localRoleSearch, setLocalRoleSearch] = useState('')
+    const [localSkillSearch, setLocalSkillSearch] = useState('')
+    const openFilter = controlledOpenFilter ?? localOpenFilter
+    const setOpenFilter = onOpenFilterChange ?? setLocalOpenFilter
+    const countrySearch = controlledCountrySearch ?? localCountrySearch
+    const setCountrySearch =
+        onCountrySearchChange ?? setLocalCountrySearch
+    const roleSearch = controlledRoleSearch ?? localRoleSearch
+    const setRoleSearch = onRoleSearchChange ?? setLocalRoleSearch
+    const skillSearch = controlledSkillSearch ?? localSkillSearch
+    const setSkillSearch = onSkillSearchChange ?? setLocalSkillSearch
     const filterContainer = useRef<HTMLDivElement>(null)
-
-    useEffect(() => {
-        setCountrySearch('')
-        setRoleSearch('')
-        setSkillSearch('')
-        setOpenFilter('')
-    }, [resetKey])
 
     useEffect(() => {
         if (!openFilter) {
@@ -147,9 +163,7 @@ const ProfileFilters = ({
                                 aria-controls="required-skills-options"
                                 aria-describedby="required-skills-help"
                                 onClick={() =>
-                                    setOpenFilter(
-                                        openFilter === 'skills' ? '' : 'skills'
-                                    )
+                                    setOpenFilter(openFilter === 'skills' ? '' : 'skills')
                                 }
                             >
                                 Required skills
