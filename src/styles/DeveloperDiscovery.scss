@@ -21,6 +21,28 @@
     border-radius: 6px;
 }
 
+.profile-filters__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+    gap: 1rem;
+    align-items: start;
+
+    > div {
+        min-width: 0;
+    }
+
+    > div > button,
+    > div > select {
+        min-height: 40px;
+        box-sizing: border-box;
+    }
+
+    .profile-filters__dropdown {
+        min-width: 0;
+        box-sizing: border-box;
+    }
+}
+
 .skill-chips {
     display: flex;
     flex-wrap: wrap;
