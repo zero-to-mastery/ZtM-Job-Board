@@ -124,15 +124,8 @@ const ProfileFilters = ({
                 </button>
             </div>
 
-            <div
-                className="flex flex-wrap items-center"
-                style={{ gap: '1rem' }}
-            >
-                <div
-                    className="relative"
-                    style={{ flex: '1 1 260px', minWidth: 0 }}
-                    data-filter="skills"
-                >
+            <div className="profile-filters__grid">
+                <div className="relative" data-filter="skills">
                     {skills.length === 0 ? (
                         <div className="skills-guidance">
                             <h3 className="f5 mt0 mb2">Required skills</h3>
@@ -214,11 +207,7 @@ const ProfileFilters = ({
                         </>
                     )}
                 </div>
-                <div
-                    className="relative"
-                    style={{ flex: '1 1 220px' }}
-                    data-filter="country"
-                >
+                <div className="relative" data-filter="country">
                     <button
                         type="button"
                         className="profile-filters__control w-100 pa2 br2 tl"
@@ -274,11 +263,7 @@ const ProfileFilters = ({
                     )}
                 </div>
 
-                <div
-                    className="relative"
-                    style={{ flex: '1 1 220px' }}
-                    data-filter="role"
-                >
+                <div className="relative" data-filter="role">
                     <button
                         type="button"
                         className="profile-filters__control w-100 pa2 br2 tl"
@@ -337,7 +322,7 @@ const ProfileFilters = ({
                     )}
                 </div>
 
-                <div style={{ flex: '1 1 180px' }}>
+                <div>
                     <select
                         value={sortOption}
                         aria-label="Sort developers"
