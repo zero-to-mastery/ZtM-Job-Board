@@ -43,28 +43,85 @@ const formatJobTitle = (title: string) =>
 export const jobTitleKey = (title: string) =>
     formatJobTitle(title).toLowerCase()
 
-const roleFamilyPattern =
-    /^(?:(?:junior|jr\.?|mid|senior|sr\.?|lead|staff|principal) )?(frontend|backend|full stack)(?: (?:web|software|react|angular|vue|node\.?js|javascript|typescript|python|java|php|ruby|dotnet|\.net))* (?:developer|engineer)$/i
+const roleFamilies: [string, RegExp][] = [
+    [
+        'Frontend Developer',
+        /\bfrontend(?: [\w.+#-]+){0,3} (?:developer|engineer|dev)\b/,
+    ],
+    [
+        'Backend Developer',
+        /\bbackend(?: [\w.+#-]+){0,3} (?:developer|engineer|dev)\b/,
+    ],
+    [
+        'Full Stack Developer',
+        /\b(?:full stack|mern|mean|mevn)(?: [\w.+#-]+){0,3} (?:developer|engineer|dev)\b/,
+    ],
+    [
+        'Mobile Developer',
+        /\b(?:mobile|android|ios|react native|flutter)(?: app)? (?:developer|engineer)\b/,
+    ],
+    ['Game Developer', /\b(?:game|unity|unreal) (?:developer|engineer)\b/],
+    ['Data Scientist', /\bdata scientist\b/],
+    ['Data Analyst', /\bdata analyst\b/],
+    ['Data Engineer', /\bdata engineer\b/],
+    [
+        'Machine Learning Engineer',
+        /\b(?:machine learning|ml|ai|deep learning) (?:developer|engineer)\b/,
+    ],
+    [
+        'DevOps / Cloud Engineer',
+        /\b(?:devops|cloud|site reliability) (?:developer|engineer)\b/,
+    ],
+    [
+        'QA / Test Engineer',
+        /\b(?:qa|test|testing|automation) engineer\b|\bsdet\b/,
+    ],
+    [
+        'Security',
+        /\b(?:cybersecurity|security engineer|security analyst|ethical hacker|penetration tester)\b/,
+    ],
+    [
+        'Designer',
+        /\b(?:ui|ux|web|product|graphic)(?:[\s/]+(?:ui|ux))? designer\b/,
+    ],
+    [
+        'Web Developer',
+        /\b(?:web|wordpress|shopify)[ -](?:developer|engineer)\b/,
+    ],
+    [
+        'Software Developer',
+        /\b(?:software|application)[ -](?:developer|engineer)\b/,
+    ],
+]
 
-function jobTitleLabel(title: string): string {
-    const formatted = formatJobTitle(title)
-    const family = roleFamilyPattern.exec(formatted)?.[1].toLowerCase()
-    if (family === 'frontend') return 'Frontend Developer'
-    if (family === 'backend') return 'Backend Developer'
-    if (family === 'full stack') return 'Full Stack Developer'
-    return formatted
+function getRoleFamilies(title: string): string[] {
+    const roles = new Set<string>()
+    for (const part of jobTitleKey(title).split(/\s*(?:[|;,]|\/|\s&\s)\s*/)) {
+        if (/\b(?:aspiring|enthusiast|student|candidate|wannabe)\b/.test(part))
+            continue
+        const roleText = part.split(/\s(?:at|@)\s/)[0]
+        const matches = roleFamilies
+            .filter(([, pattern]) => pattern.test(roleText))
+            .map(([label]) => label)
+        const specific = matches.filter(
+            (label) =>
+                label !== 'Web Developer' && label !== 'Software Developer'
+        )
+        for (const label of specific.length ? specific : matches)
+            roles.add(label)
+    }
+    return roles.size ? [...roles] : ['Other roles']
 }
 
-const roleFilterKey = (title: string) => jobTitleLabel(title).toLowerCase()
-
 export function getJobTitleOptions(people: readonly Person[]): string[] {
-    const titles = new Map<string, string>()
-    for (const person of people) {
-        const label = jobTitleLabel(person.jobTitle || '')
-        const key = label.toLowerCase()
-        if (key && !titles.has(key)) titles.set(key, label)
-    }
-    return [...titles.values()].sort((a, b) => a.localeCompare(b))
+    const titles = new Set(
+        people.flatMap((person) => getRoleFamilies(person.jobTitle || ''))
+    )
+    return [...titles].sort(
+        (a, b) =>
+            Number(a === 'Other roles') - Number(b === 'Other roles') ||
+            a.localeCompare(b)
+    )
 }
 
 export function filterProfiles(
@@ -75,7 +132,7 @@ export function filterProfiles(
         skill.toLowerCase()
     )
     const matchesText = createFilter(criteria.search, searchKeys)
-    const selectedTitles = new Set(criteria.jobTitles.map(roleFilterKey))
+    const selectedTitles = new Set(criteria.jobTitles.map(jobTitleKey))
     const filtered = people.filter((person) => {
         const skills = new Set(
             normalizeSkills(person.skills).map((skill) => skill.toLowerCase())
@@ -84,7 +141,9 @@ export function filterProfiles(
             matchesText(person) &&
             matchesCountries(person, criteria.countries) &&
             (selectedTitles.size === 0 ||
-                selectedTitles.has(roleFilterKey(person.jobTitle || ''))) &&
+                getRoleFamilies(person.jobTitle || '').some((role) =>
+                    selectedTitles.has(jobTitleKey(role))
+                )) &&
             requiredSkills.every((skill) => skills.has(skill))
         )
     })

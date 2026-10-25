@@ -298,6 +298,11 @@ const ProfileFilters = ({
                             id="role-options"
                             className="profile-filters__dropdown"
                         >
+                            <p className="f6 mt0 mb2">
+                                Roles are grouped into families. Use the main
+                                search for specific titles; unmatched titles are
+                                included in Other roles.
+                            </p>
                             <input
                                 type="text"
                                 aria-label="Search roles"

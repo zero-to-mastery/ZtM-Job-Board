@@ -22,12 +22,13 @@ frontend, backend, and full stack, including the submitted typos `Fronted`,
 normalization. Selecting an option matches all of its variants; profile cards
 retain the submitted title.
 
-Recognizable single-role frontend, backend, and full-stack developer/engineer
-titles share one option per family, including explicit seniority and common
-technology qualifiers (for example, `Senior Frontend React Engineer` becomes
-`Frontend Developer` in the filter). Other professions, aspirations, compound
-titles, and unrecognized titles remain separate options. This does not infer
-roles from skills or technologies alone.
+The Role dropdown offers at most 15 explicit families plus **Other roles**, rather
+than one option for each submitted title. Seniority and technology qualifiers do
+not create extra options. Clear compound titles can match several families;
+within each part, a specialization takes precedence over generic web/software
+wording. Unrecognized, missing, or solely aspirational titles fall under Other
+roles. Use the main search for original title details. No roles are inferred from
+declared skills, and original titles remain unchanged.
 
 ### How to add your name to the list
 

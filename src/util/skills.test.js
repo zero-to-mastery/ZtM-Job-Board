@@ -90,14 +90,14 @@ describe('profile matching', () => {
         expect(
             filterProfiles(profiles, {
                 ...emptyCriteria,
-                jobTitles: [corrected],
+                jobTitles: getJobTitleOptions(profiles),
             })
         ).toEqual(profiles)
         expect(jobTitleKey(original)).toBe(jobTitleKey(corrected))
         expect(profiles[0].jobTitle).toBe(original)
     })
 
-    test('groups seniority within a family but keeps specializations, designers and compounds distinct', () => {
+    test('groups seniority and matches compound titles to each explicit family', () => {
         const titles = [
             'Frontend Developer',
             'Full Stack Developer',
@@ -115,7 +115,7 @@ describe('profile matching', () => {
                 ...emptyCriteria,
                 jobTitles: ['front-end developer'],
             })
-        ).toEqual([profiles[0], profiles[2], profiles[3]])
+        ).toEqual([profiles[0], profiles[2], profiles[3], profiles[5]])
     })
 
     test.each([
@@ -133,26 +133,65 @@ describe('profile matching', () => {
         expect(profiles[0].jobTitle).toBe(title)
     })
 
-    test('leaves aspirations, other professions and compound titles individually selectable', () => {
+    test('keeps unmatched profiles in Other roles and their original titles searchable', () => {
         const titles = [
             'Aspiring Frontend Developer',
-            'Frontend React Designer',
-            'Frontend Developer / Backend Developer',
-            'Full Stack Developer | Software Engineer',
             'Frontend Project Manager',
-            'Mobile Developer',
+            '',
+            undefined,
         ]
         const profiles = titles.map((title, index) =>
             profile(String(index), 'Developer', [], 'Canada', title)
         )
-        expect(getJobTitleOptions(profiles)).toHaveLength(titles.length)
-        for (const person of profiles) {
+        expect(getJobTitleOptions(profiles)).toEqual(['Other roles'])
+        expect(
+            filterProfiles(profiles, {
+                ...emptyCriteria,
+                jobTitles: ['Other roles'],
+            })
+        ).toEqual(profiles)
+        expect(
+            filterProfiles(profiles, {
+                ...emptyCriteria,
+                search: 'Project Manager',
+            })
+        ).toEqual([profiles[1]])
+    })
+
+    test.each([
+        ['Software Engineer', ['Software Developer']],
+        ['Software Developer', ['Software Developer']],
+        ['Full Stack Web Developer', ['Full Stack Developer']],
+        [
+            'Frontend Developer / Backend Developer',
+            ['Backend Developer', 'Frontend Developer'],
+        ],
+        ['Software Engineer | Aspiring Data Scientist', ['Software Developer']],
+        ['Senior Android Developer', ['Mobile Developer']],
+        ['Game Developer', ['Game Developer']],
+        ['Data Scientist', ['Data Scientist']],
+        ['Data Analyst', ['Data Analyst']],
+        ['Data Engineer', ['Data Engineer']],
+        ['Machine Learning Engineer', ['Machine Learning Engineer']],
+        ['DevOps Engineer', ['DevOps / Cloud Engineer']],
+        ['Cloud Engineer', ['DevOps / Cloud Engineer']],
+        ['QA Engineer', ['QA / Test Engineer']],
+        ['Security Analyst', ['Security']],
+        ['Web Developer', ['Web Developer']],
+        ['UI/UX Designer', ['Designer']],
+        ['Frontend Designer', ['Other roles']],
+        ['Student', ['Other roles']],
+        ['Developer at Frontend Company', ['Other roles']],
+    ])('maps %s to explicit filter families', (title, expected) => {
+        const profiles = [profile('1', 'Developer', [], 'Canada', title)]
+        expect(getJobTitleOptions(profiles)).toEqual(expected)
+        for (const role of expected) {
             expect(
                 filterProfiles(profiles, {
                     ...emptyCriteria,
-                    jobTitles: [person.jobTitle],
+                    jobTitles: [role],
                 })
-            ).toEqual([person])
+            ).toEqual(profiles)
         }
     })
 
@@ -176,16 +215,17 @@ describe('profile matching', () => {
         )
         expect(getJobTitleOptions(profiles)).toEqual([
             'Backend Developer',
-            'Backend Developer / Frontend Developer',
+            'Frontend Developer',
             'Full Stack Developer',
-            'Software Engineer',
+            'Software Developer',
+            'Other roles',
         ])
         expect(
             filterProfiles(profiles, {
                 ...emptyCriteria,
                 jobTitles: ['BACKEND DEVELOPER', 'Full Stack Developer'],
             }).map((person) => person.id)
-        ).toEqual(['0', '1', '2', '3', '4', '5', '6'])
+        ).toEqual(['0', '1', '2', '3', '4', '5', '6', '7'])
         expect(profiles.map((person) => person.jobTitle)).toEqual(titles)
     })
 

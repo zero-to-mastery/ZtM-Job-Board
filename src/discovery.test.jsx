@@ -14,7 +14,7 @@ const { profiles, counterMounted } = vi.hoisted(() => ({
             index < 16
                 ? [
                       'Frontend Developer',
-                      'Front-End Developer',
+                      'Frontend Developer / Backend Developer',
                       'Senior Frontend React Engineer',
                   ][index % 3]
                 : 'Backend Developer',
@@ -110,6 +110,9 @@ describe('recruiter discovery', () => {
         expect(labels).toEqual(['Backend Developer', 'Frontend Developer'])
         click(checkbox('Frontend Developer'))
         expect(resultCount()).toContain('16 matching developers')
+        expect(container.querySelector('#role-options').textContent).toContain(
+            'Other roles'
+        )
     })
 
     test('searches role options using the same spelling normalization', () => {
