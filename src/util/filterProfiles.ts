@@ -37,7 +37,8 @@ const formatJobTitle = (title: string) =>
         .replace(/\bback[- ]?end\b/gi, 'Backend')
         .replace(/\bfull[- ]?stack\b/gi, 'Full Stack')
 
-const jobTitleKey = (title: string) => formatJobTitle(title).toLowerCase()
+export const jobTitleKey = (title: string) =>
+    formatJobTitle(title).toLowerCase()
 
 export function getJobTitleOptions(people: readonly Person[]): string[] {
     const titles = new Map<string, string>()

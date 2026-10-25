@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { SortOption } from '../util/filterProfiles'
+import { jobTitleKey, SortOption } from '../util/filterProfiles'
 import { CountryOption } from '../util/personCountries'
 
 interface ProfileFiltersProps {
@@ -70,8 +70,9 @@ const ProfileFilters = ({
         country.label.toLowerCase().includes(countrySearch.toLowerCase())
     )
 
+    const roleSearchKey = jobTitleKey(roleSearch)
     const filteredJobTitles = jobTitles.filter((jobTitle) =>
-        jobTitle.toLowerCase().includes(roleSearch.toLowerCase())
+        jobTitleKey(jobTitle).includes(roleSearchKey)
     )
     const filteredSkills = skills.filter((skill) =>
         skill.toLowerCase().includes(skillSearch.trim().toLowerCase())

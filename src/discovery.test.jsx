@@ -112,6 +112,22 @@ describe('recruiter discovery', () => {
         expect(resultCount()).toContain('16 matching developers')
     })
 
+    test('searches role options using the same spelling normalization', () => {
+        render()
+        click(button('Role'))
+        const search = container.querySelector('[aria-label="Search roles"]')
+        for (const query of [' FRONT-END ', 'front end', 'frontend']) {
+            type(search, query)
+            expect(
+                [...container.querySelectorAll('label')].map((label) =>
+                    label.textContent.trim()
+                )
+            ).toEqual(['Frontend Developer'])
+        }
+        type(search, '   ')
+        expect(container.querySelectorAll('label')).toHaveLength(2)
+    })
+
     test('keeps a dropdown open when blur has no related target', () => {
         render(
             <ProfileFilters
