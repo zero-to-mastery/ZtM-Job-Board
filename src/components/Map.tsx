@@ -7,29 +7,16 @@ import {
     Tooltip,
 } from 'react-leaflet'
 import persons from '../assets/persons.json'
-import Person from '../interfaces/person'
-import { getCountryMarkers } from '../util/personCountries'
+import type Person from '../interfaces/person'
+import { buildLocationMarkers } from '../util/locationMarkers'
+import DeveloperLocationPopup from './DeveloperLocationPopup'
 
 const DEFAULT_CENTER: [number, number] = [55.378052, -3.435973]
 
 const people: Person[] = persons
-const markers = getCountryMarkers(people)
 
 function SimpleMap({ zoom = 3 }) {
-    const markersArray = markers.map(
-        ({ code, country, latlng, numberOfDevs }) => {
-            const numberOfDevsText =
-                numberOfDevs === 1
-                    ? numberOfDevs + ' Developer from ' + country
-                    : numberOfDevs + ' Developers from ' + country
-            return (
-                <Marker key={code} position={latlng}>
-                    <Tooltip>{numberOfDevsText}</Tooltip>
-                    <Popup>{numberOfDevsText}</Popup>
-                </Marker>
-            )
-        }
-    )
+    const { countryMarkers, coordinateGroups } = buildLocationMarkers(people)
 
     return (
         <section aria-label="Developer locations map">
@@ -45,12 +32,47 @@ function SimpleMap({ zoom = 3 }) {
                     scrollWheelZoom={true}
                     dragging={true}
                     easeLinearity={0.35}
+                    style={{ height: '100%', width: '100%' }}
                 >
                     <TileLayer
-                        attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+                        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     />
-                    {markersArray}
+
+                    {countryMarkers.map(
+                        ({ code, country, latlng, numberOfDevs }) => {
+                            const countText =
+                                numberOfDevs === 1
+                                    ? '1 developer without an exact pin from ' +
+                                      country
+                                    : numberOfDevs +
+                                      ' developers without exact pins from ' +
+                                      country
+                            return (
+                                <Marker key={code} position={latlng}>
+                                    <Tooltip>{countText}</Tooltip>
+                                    <Popup>{countText}</Popup>
+                                </Marker>
+                            )
+                        }
+                    )}
+                    {coordinateGroups.map(
+                        ({ key, lat, lng, people: group }) => (
+                            <Marker
+                                key={`coordinates-${key}`}
+                                position={[lat, lng]}
+                            >
+                                <Tooltip>
+                                    {group.length === 1
+                                        ? group[0].name
+                                        : `${group.length} developers at this location`}
+                                </Tooltip>
+                                <Popup>
+                                    <DeveloperLocationPopup people={group} />
+                                </Popup>
+                            </Marker>
+                        )
+                    )}
                 </LeafletMap>
             </div>
         </section>

@@ -15,6 +15,57 @@ export class SubmissionLoadError extends Error {
         this.failures = failures
     }
 }
+function validateCoordinates(coordinates) {
+    if (coordinates === undefined) return
+
+    const fail = (message) => {
+        throw new Error(`Invalid location.coordinates: ${message}`)
+    }
+
+    if (
+        coordinates === null ||
+        typeof coordinates !== 'object' ||
+        Array.isArray(coordinates)
+    ) {
+        fail('must be an object containing exactly lat and lng')
+    }
+
+    const keys = Object.keys(coordinates)
+
+    if (
+        keys.length !== 2 ||
+        !keys.includes('lat') ||
+        !keys.includes('lng')
+    ) {
+        fail('must contain exactly lat and lng')
+    }
+
+    const { lat, lng } = coordinates
+
+    const checkAxis = (name, value, min, max) => {
+        if (typeof value !== 'number' || !Number.isFinite(value)) {
+            fail(`${name} must be a finite number`)
+        }
+        if (value < min || value > max) {
+            fail(`${name} must be between ${min} and ${max}`)
+        }
+        if (decimalPlaces(value) > 2) {
+            fail(`${name} must have at most 2 decimal places for privacy`)
+        }
+    }
+
+    checkAxis('lat', lat, -90, 90)
+    checkAxis('lng', lng, -180, 180)
+}
+
+function decimalPlaces(value) {
+    const text = String(value).toLowerCase()
+    if (text.includes('e-')) {
+        const [coefficient, exponent] = text.split('e-')
+        return Number(exponent) + (coefficient.split('.')[1]?.length ?? 0)
+    }
+    return text.split('.')[1]?.length ?? 0
+}
 
 /**
  * Reads every submission file in `sourceDir`, sorted by filename so the result
@@ -51,6 +102,7 @@ export function loadSubmissions(sourceDir) {
                 throw new Error('Submission must be a JSON object')
             }
             validateSkills(data.skills, file)
+            validateCoordinates(data.location?.coordinates)
             submissions.push({ file, data })
         } catch (e) {
             failures.push({ file, message: e.message })

@@ -107,6 +107,125 @@ describe('aggregate', () => {
         })
     })
 
+    test('accepts valid optional coordinates and preserves them', () => {
+        const profile = submission('Coordinates', 'United States')
+        profile.location.coordinates = { lat: 39.29, lng: -79.34 }
+
+        writeFixtures({ 'coordinates.json': profile })
+        aggregate({ sourceDir, outputFile })
+
+        const [person] = JSON.parse(fs.readFileSync(outputFile, 'utf-8'))
+        expect(person.location.coordinates).toEqual({
+            lat: 39.29,
+            lng: -79.34,
+        })
+    })
+
+    test('accepts submissions without coordinates', () => {
+        writeFixtures({
+            'no-coordinates.json': submission('No coordinates', 'India'),
+        })
+
+        expect(() => aggregate({ sourceDir, outputFile })).not.toThrow()
+    })
+
+    test.each([
+        ['minimum latitude and longitude', { lat: -90, lng: -180 }],
+        ['maximum latitude and longitude', { lat: 90, lng: 180 }],
+        ['integer coordinates', { lat: 40, lng: -74 }],
+        ['one decimal place', { lat: 40.7, lng: -74.1 }],
+        ['negative coordinates', { lat: -79.34, lng: -39.29 }],
+    ])('accepts valid coordinates: %s', (_label, coordinates) => {
+        const profile = submission('Valid coordinates', 'United States')
+        profile.location.coordinates = coordinates
+
+        writeFixtures({ 'valid-coordinates.json': profile })
+
+        expect(() => aggregate({ sourceDir, outputFile })).not.toThrow()
+
+        const [person] = JSON.parse(fs.readFileSync(outputFile, 'utf-8'))
+        expect(person.location.coordinates).toEqual(coordinates)
+    })
+
+    test.each([
+        [
+            'latitude out of range',
+            { lat: 90.01, lng: 20 },
+            /lat must be between/,
+        ],
+        [
+            'longitude out of range',
+            { lat: 20, lng: 180.01 },
+            /lng must be between/,
+        ],
+        [
+            'too many latitude decimals',
+            { lat: 39.291, lng: -79.34 },
+            /lat must have at most 2 decimal places/,
+        ],
+        [
+            'too many longitude decimals',
+            { lat: 39.29, lng: -79.341 },
+            /lng must have at most 2 decimal places/,
+        ],
+        [
+            'string latitude',
+            { lat: '39.29', lng: -79.34 },
+            /lat must be a finite number/,
+        ],
+        [
+            'extra coordinate key',
+            { lat: 39.29, lng: -79.34, address: 'private' },
+            /must contain exactly lat and lng/,
+        ],
+        [
+            'missing longitude',
+            { lat: 39.29 },
+            /must contain exactly lat and lng/,
+        ],
+        [
+            'null coordinates',
+            null,
+            /must be an object containing exactly lat and lng/,
+        ],
+        [
+            'array coordinates',
+            [39.29, -79.34],
+            /must be an object containing exactly lat and lng/,
+        ],
+        [
+            'latitude below minimum',
+            { lat: -90.01, lng: 20 },
+            /lat must be between/,
+        ],
+        [
+            'longitude below minimum',
+            { lat: 20, lng: -180.01 },
+            /lng must be between/,
+        ],
+        [
+            'boolean latitude',
+            { lat: true, lng: 20 },
+            /lat must be a finite number/,
+        ],
+        [
+            'null latitude',
+            { lat: null, lng: 20 },
+            /lat must be a finite number/,
+        ],
+        ['missing latitude', { lng: -74 }, /must contain exactly lat and lng/],
+    ])('rejects invalid coordinates: %s', (_label, coordinates, message) => {
+        const profile = submission('Invalid coordinates', 'United States')
+        profile.location.coordinates = coordinates
+
+        writeFixtures({ 'invalid-coordinates.json': profile })
+
+        expect(() => loadSubmissions(sourceDir)).toThrow(message)
+        expect(() => loadSubmissions(sourceDir)).toThrow(
+            /invalid-coordinates\.json/
+        )
+    })
+
     test('adds normalized country codes', () => {
         writeFixtures(FIXTURES)
         aggregate({ sourceDir, outputFile })
