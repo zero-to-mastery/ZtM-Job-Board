@@ -48,29 +48,20 @@ function validateCoordinates(coordinates, file) {
 
     const { lat, lng } = coordinates
 
-    if (typeof lat !== 'number' || !Number.isFinite(lat)) {
-        fail('lat must be a finite number')
+    const checkAxis = (name, value, min, max) => {
+        if (typeof value !== 'number' || !Number.isFinite(value)) {
+            fail(`${name} must be a finite number`)
+        }
+        if (value < min || value > max) {
+            fail(`${name} must be between ${min} and ${max}`)
+        }
+        if (decimalPlaces(value) > 2) {
+            fail(`${name} must have at most 2 decimal places for privacy`)
+        }
     }
 
-    if (lat < -90 || lat > 90) {
-        fail('lat must be between -90 and 90')
-    }
-
-    if (decimalPlaces(lat) > 2) {
-        fail('lat must have at most 2 decimal places for privacy')
-    }
-
-    if (typeof lng !== 'number' || !Number.isFinite(lng)) {
-        fail('lng must be a finite number')
-    }
-
-    if (lng < -180 || lng > 180) {
-        fail('lng must be between -180 and 180')
-    }
-
-    if (decimalPlaces(lng) > 2) {
-        fail('lng must have at most 2 decimal places for privacy')
-    }
+    checkAxis('lat', lat, -90, 90)
+    checkAxis('lng', lng, -180, 180)
 }
 
 function decimalPlaces(value) {

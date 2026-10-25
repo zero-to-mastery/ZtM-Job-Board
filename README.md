@@ -33,28 +33,27 @@ inside `Submissions/` folder, and then fill it up with following content.
 
 ```json
 {
-    "name": "[YOUR_FULL_NAME]",
-    "img": "[YOUR_IMG_URL]",
-    "email": "[YOUR_EMAIL_ADDRESS]",
-    "links": {
-        "website": "[YOUR_WEBSITE_URL]",
-        "linkedin": "https://www.linkedin.com/in/<YOUR_LINKEDIN_USERNAME>",
-        "github": "https://github.com/<YOUR_GH_USERNAME>"
-    },
-    "jobTitle": "[YOUR_TITLE]",
-    "skills": ["[SKILL_1]", "[SKILL_2]", "[SKILL_3]"],
-    "location": {
-        "city": "[YOUR_CITY]",
-        "state": "[YOUR_STATE_OR_PROVINCE]",
-        "country": "[YOUR_COUNTRY]"
-    }
+  "name": "[YOUR_FULL_NAME]",
+  "img": "[YOUR_IMG_URL]",
+  "email": "[YOUR_EMAIL_ADDRESS]",
+  "links": {
+    "website": "[YOUR_WEBSITE_URL]",
+    "linkedin": "https://www.linkedin.com/in/<YOUR_LINKEDIN_USERNAME>",
+    "github": "https://github.com/<YOUR_GH_USERNAME>"
+  },
+  "jobTitle": "[YOUR_TITLE]",
+  "skills": ["[SKILL_1]", "[SKILL_2]", "[SKILL_3]"],
+  "location": {
+    "city": "[YOUR_CITY]",
+    "state": "[YOUR_STATE_OR_PROVINCE]",
+    "country": "[YOUR_COUNTRY]"
+  }
 }
 ```
 
 **Optional map coordinates**
 
-- `coordinates` is optional. If omitted, your profile will continue to use the existing country-level map marker.
-- Add `coordinates` only if you want an individual map pin for your profile. If you do not want an exact pin, leave out the entire `coordinates` object.
+- `coordinates` is optional. Leave the whole object out to keep the country-level marker. Add it only for an individual pin.
 - If included, `coordinates` must contain exactly two numeric properties: `lat` and `lng`. For example:
 
     ```json
@@ -94,7 +93,7 @@ Cards show self-reported skills and mark the ones matching your requirements. Pr
 https://github.com/example.png
 
 3. Hit enter and the browser will generate a page with your image, it look like this:
-   https://avatars.githubusercontent.com/u/57936?v=4
+  https://avatars.githubusercontent.com/u/57936?v=4
 
 4. Copy url of this page and paste it in `Submissions/<YOUR_GH_USERNAME>.json` file
 
