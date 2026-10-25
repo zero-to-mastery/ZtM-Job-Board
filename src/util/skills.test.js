@@ -77,25 +77,43 @@ const people = [
 
 describe('profile matching', () => {
     test.each([
-        ['Dot Net Devoloper', 'Dot Net Developer'],
-        ['Fronted Web Developer', 'Frontend Web Developer'],
-        ['FullStak/Software Developer', 'Full Stack/Software Developer'],
-        ['Senior FrontEnd Developper', 'Senior Frontend Developer'],
-        ['Web developper', 'Web Developer'],
-    ])('groups the submitted typo %s with %s', (original, corrected) => {
-        const profiles = [original, corrected].map((title, index) =>
-            profile(String(index), 'Developer', [], 'Canada', title)
-        )
-        expect(getJobTitleOptions(profiles)).toHaveLength(1)
-        expect(
-            filterProfiles(profiles, {
-                ...emptyCriteria,
-                jobTitles: getJobTitleOptions(profiles),
-            })
-        ).toEqual(profiles)
-        expect(jobTitleKey(original)).toBe(jobTitleKey(corrected))
-        expect(profiles[0].jobTitle).toBe(original)
-    })
+        ['Dot Net Devoloper', 'Dot Net Developer', ['Other roles']],
+        [
+            'Fronted Web Developer',
+            'Frontend Web Developer',
+            ['Frontend Developer', 'Web Developer'],
+        ],
+        [
+            'FullStak/Software Developer',
+            'Full Stack/Software Developer',
+            ['Full Stack Developer', 'Software Developer'],
+        ],
+        [
+            'Senior FrontEnd Developper',
+            'Senior Frontend Developer',
+            ['Frontend Developer'],
+        ],
+        ['Web developper', 'Web Developer', ['Web Developer']],
+    ])(
+        'groups the submitted typo %s with %s',
+        (original, corrected, families) => {
+            const profiles = [original, corrected].map((title, index) =>
+                profile(String(index), 'Developer', [], 'Canada', title)
+            )
+            expect(getJobTitleOptions(profiles)).toEqual(families)
+            expect(getJobTitleOptions([profiles[0]])).toEqual(
+                getJobTitleOptions([profiles[1]])
+            )
+            expect(
+                filterProfiles(profiles, {
+                    ...emptyCriteria,
+                    jobTitles: families,
+                })
+            ).toEqual(profiles)
+            expect(jobTitleKey(original)).toBe(jobTitleKey(corrected))
+            expect(profiles[0].jobTitle).toBe(original)
+        }
+    )
 
     test('groups seniority and matches compound titles to each explicit family', () => {
         const titles = [
@@ -119,19 +137,31 @@ describe('profile matching', () => {
     })
 
     test.each([
-        ['Frontend Engineer', 'Frontend Developer'],
-        ['Senior Frontend React Developer', 'Frontend Developer'],
-        ['Junior Backend Python Engineer', 'Backend Developer'],
-        ['Lead Full-Stack Web Developer', 'Full Stack Developer'],
-        ['Full Stack Software Engineer', 'Full Stack Developer'],
-    ])('groups %s under %s without changing the title', (title, family) => {
-        const profiles = [profile('1', 'Developer', [], 'Canada', title)]
-        expect(getJobTitleOptions(profiles)).toEqual([family])
-        expect(
-            filterProfiles(profiles, { ...emptyCriteria, jobTitles: [family] })
-        ).toEqual(profiles)
-        expect(profiles[0].jobTitle).toBe(title)
-    })
+        ['Frontend Engineer', ['Frontend Developer']],
+        ['Senior Frontend React Developer', ['Frontend Developer']],
+        ['Junior Backend Python Engineer', ['Backend Developer']],
+        [
+            'Lead Full-Stack Web Developer',
+            ['Full Stack Developer', 'Web Developer'],
+        ],
+        [
+            'Full Stack Software Engineer',
+            ['Full Stack Developer', 'Software Developer'],
+        ],
+    ])(
+        'groups %s under its matching families without changing the title',
+        (title, families) => {
+            const profiles = [profile('1', 'Developer', [], 'Canada', title)]
+            expect(getJobTitleOptions(profiles)).toEqual(families)
+            expect(
+                filterProfiles(profiles, {
+                    ...emptyCriteria,
+                    jobTitles: families,
+                })
+            ).toEqual(profiles)
+            expect(profiles[0].jobTitle).toBe(title)
+        }
+    )
 
     test('keeps unmatched profiles in Other roles and their original titles searchable', () => {
         const titles = [
@@ -161,11 +191,48 @@ describe('profile matching', () => {
     test.each([
         ['Software Engineer', ['Software Developer']],
         ['Software Developer', ['Software Developer']],
-        ['Full Stack Web Developer', ['Full Stack Developer']],
+        ['Full Stack Web Developer', ['Full Stack Developer', 'Web Developer']],
         [
             'Frontend Developer / Backend Developer',
             ['Backend Developer', 'Frontend Developer'],
         ],
+        [
+            'Frontend/Backend Developer',
+            ['Backend Developer', 'Frontend Developer'],
+        ],
+        [
+            'Front-end / Full-stack Web Developer',
+            ['Frontend Developer', 'Full Stack Developer', 'Web Developer'],
+        ],
+        [
+            'FullStak/Software Developer',
+            ['Full Stack Developer', 'Software Developer'],
+        ],
+        [
+            'Sofeware/Full Stack/Web Developer',
+            ['Full Stack Developer', 'Software Developer', 'Web Developer'],
+        ],
+        [
+            'Full Stack Mobile/Web Developer',
+            ['Full Stack Developer', 'Mobile Developer', 'Web Developer'],
+        ],
+        [
+            'Software Engineer, Full-stack/Frontend',
+            [
+                'Frontend Developer',
+                'Full Stack Developer',
+                'Software Developer',
+            ],
+        ],
+        [
+            'Software Engineer and Product Designer',
+            ['Designer', 'Software Developer'],
+        ],
+        [
+            'Software Engineer and Product Designer and Frontend',
+            ['Designer', 'Software Developer'],
+        ],
+        ['DevOps & Cybersecurity', ['DevOps Engineer', 'Security']],
         ['Software Engineer | Aspiring Data Scientist', ['Software Developer']],
         ['Senior Android Developer', ['Mobile Developer']],
         ['Game Developer', ['Game Developer']],

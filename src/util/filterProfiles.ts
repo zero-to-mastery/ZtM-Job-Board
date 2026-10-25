@@ -35,6 +35,7 @@ const formatJobTitle = (title: string) =>
         .replace(/\s+/g, ' ')
         .replace(/\bfronted\b/gi, 'Frontend')
         .replace(/\bfullstak\b/gi, 'Full Stack')
+        .replace(/\bsof[te]ware\b/gi, 'Software')
         .replace(/\b(?:developper|devoloper)\b/gi, 'Developer')
         .replace(/\bfront[- ]?end\b/gi, 'Frontend')
         .replace(/\bback[- ]?end\b/gi, 'Backend')
@@ -70,7 +71,7 @@ const roleFamilies: [string, RegExp][] = [
     ],
     [
         'DevOps Engineer',
-        /\b(?:devops|site reliability) (?:developer|engineer)\b/,
+        /\bdevops(?: (?:developer|engineer))?\b|\bsite reliability (?:developer|engineer)\b/,
     ],
     ['Cloud Engineer', /\bcloud (?:developer|engineer)\b/],
     [
@@ -105,19 +106,59 @@ const roleFamilies: [string, RegExp][] = [
 
 function getRoleFamilies(title: string): string[] {
     const roles = new Set<string>()
-    for (const part of jobTitleKey(title).split(/\s*(?:[|;,]|\/|\s&\s)\s*/)) {
+    const parts = jobTitleKey(title).split(/\s*(?:[|;,/]|&|\band\b)\s*/i)
+    const roleParts = parts.map((part) => {
         if (/\b(?:aspiring|enthusiast|student|candidate|wannabe)\b/.test(part))
-            continue
-        const roleText = part.split(/\s(?:at|@)\s/)[0]
-        const matches = roleFamilies
-            .filter(([, pattern]) => pattern.test(roleText))
+            return ''
+        return part.split(/\s(?:at|@)\s/)[0]
+    })
+    const jobWords = roleParts.map(
+        (part) => /\b(developer|engineer|dev)\b$/.exec(part)?.[1]
+    )
+    const partMatches = roleParts.map((part) =>
+        roleFamilies
+            .filter(([, pattern]) => pattern.test(part))
             .map(([label]) => label)
-        const specific = matches.filter(
-            (label) =>
-                label !== 'Web Developer' && label !== 'Software Developer'
-        )
-        for (const label of specific.length ? specific : matches)
-            roles.add(label)
+    )
+
+    for (const [index, part] of roleParts.entries()) {
+        if (!part) continue
+        let matches = partMatches[index]
+        if (matches.length === 0) {
+            const candidates = jobWords
+                .map((word, candidate) => ({
+                    word,
+                    index: candidate,
+                    distance: Math.abs(index - candidate),
+                }))
+                .filter(
+                    (
+                        candidate
+                    ): candidate is {
+                        word: string
+                        index: number
+                        distance: number
+                    } => {
+                        if (candidate.word === undefined) return false
+                        const start = Math.min(index, candidate.index) + 1
+                        const end = Math.max(index, candidate.index)
+                        return roleParts
+                            .slice(start, end)
+                            .every((_, offset) => {
+                                const between = start + offset
+                                return partMatches[between].length === 0
+                            })
+                    }
+                )
+                .sort((a, b) => a.distance - b.distance)
+            const jobWord = candidates[0]?.word
+            if (jobWord) {
+                matches = roleFamilies
+                    .filter(([, pattern]) => pattern.test(`${part} ${jobWord}`))
+                    .map(([label]) => label)
+            }
+        }
+        for (const label of matches) roles.add(label)
     }
     return roles.size ? [...roles] : ['Other roles']
 }
