@@ -90,10 +90,7 @@ const roleFamilies: [string, RegExp][] = [
         'Security',
         /\b(?:cybersecurity|security engineer|security analyst|ethical hacker|penetration tester)\b/,
     ],
-    [
-        'Designer',
-        /\b(?:ui|ux|web|product|graphic)(?:[\s/]+(?:ui|ux))? designer\b/,
-    ],
+    ['Designer', /\b(?:ui|ux|web|product|graphic)(?:\s+(?:ui|ux))? designer\b/],
     [
         'Web Developer',
         /\b(?:web|wordpress|shopify)[ -](?:developer|engineer)\b/,
@@ -125,33 +122,26 @@ function getRoleFamilies(title: string): string[] {
         if (!part) continue
         let matches = partMatches[index]
         if (matches.length === 0) {
-            const candidates = jobWords
-                .map((word, candidate) => ({
-                    word,
-                    index: candidate,
-                    distance: Math.abs(index - candidate),
-                }))
-                .filter(
-                    (
-                        candidate
-                    ): candidate is {
-                        word: string
-                        index: number
-                        distance: number
-                    } => {
-                        if (candidate.word === undefined) return false
-                        const start = Math.min(index, candidate.index) + 1
-                        const end = Math.max(index, candidate.index)
-                        return roleParts
-                            .slice(start, end)
-                            .every((_, offset) => {
-                                const between = start + offset
-                                return partMatches[between].length === 0
-                            })
-                    }
-                )
-                .sort((a, b) => a.distance - b.distance)
-            const jobWord = candidates[0]?.word
+            let jobWord: string | undefined
+            for (
+                let distance = 0;
+                jobWord === undefined && distance < roleParts.length;
+                distance++
+            ) {
+                for (const candidate of [index - distance, index + distance]) {
+                    if (candidate < 0 || candidate >= roleParts.length) continue
+                    const word = jobWords[candidate]
+                    if (word === undefined) continue
+                    const start = Math.min(index, candidate) + 1
+                    const end = Math.max(index, candidate)
+                    const blocked = partMatches
+                        .slice(start, end)
+                        .some((labels) => labels.length > 0)
+                    if (blocked) continue
+                    jobWord = word
+                    break
+                }
+            }
             if (jobWord) {
                 matches = roleFamilies
                     .filter(([, pattern]) => pattern.test(`${part} ${jobWord}`))

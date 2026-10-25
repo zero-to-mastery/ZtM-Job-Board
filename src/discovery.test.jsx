@@ -308,6 +308,42 @@ describe('recruiter discovery', () => {
         expect(container.querySelector('#required-skills-options')).toBeNull()
     })
 
+    test('searches country options case-insensitively with whitespace normalization and no typo correction', () => {
+        render()
+        click(button('Country'))
+        const search = container.querySelector(
+            '[aria-label="Search countries"]'
+        )
+        const labels = () =>
+            [...container.querySelectorAll('#country-options label')].map(
+                (label) => label.textContent.trim()
+            )
+        type(search, '  uNiTeD    StAtEs  ')
+        expect(labels()).toEqual(['United States'])
+        type(search, 'Canda')
+        expect(labels()).toEqual([])
+        type(search, '   ')
+        expect(labels()).toEqual(['Canada', 'United States'])
+    })
+
+    test('searches skill options case-insensitively with whitespace normalization and no typo correction', () => {
+        render()
+        click(button('Required skills'))
+        const search = container.querySelector('#skill-search')
+        const matches = () =>
+            container.querySelectorAll(
+                '#required-skills-options input[type="checkbox"]'
+            ).length
+        type(search, '  typescript  ')
+        expect(matches()).toBe(1)
+        type(search, 'typscript')
+        expect(container.textContent).toContain(
+            'No declared skills match this search.'
+        )
+        type(search, '   ')
+        expect(matches()).toBe(2)
+    })
+
     test('keeps order stable during searches and shuffles only when explicitly requested', () => {
         render()
         const order = cardNames()

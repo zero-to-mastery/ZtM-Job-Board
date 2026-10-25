@@ -66,8 +66,11 @@ const ProfileFilters = ({
         return () => document.removeEventListener('pointerdown', closeOutside)
     }, [openFilter])
 
+    const searchKey = (value: string) =>
+        value.trim().replace(/\s+/g, ' ').toLowerCase()
+
     const filteredCountries = countries.filter((country) =>
-        country.label.toLowerCase().includes(countrySearch.toLowerCase())
+        searchKey(country.label).includes(searchKey(countrySearch))
     )
 
     const roleSearchKey = jobTitleKey(roleSearch)
@@ -75,7 +78,7 @@ const ProfileFilters = ({
         jobTitleKey(jobTitle).includes(roleSearchKey)
     )
     const filteredSkills = skills.filter((skill) =>
-        skill.toLowerCase().includes(skillSearch.trim().toLowerCase())
+        searchKey(skill).includes(searchKey(skillSearch))
     )
 
     return (

@@ -18,8 +18,10 @@ Link to the webpage: [**ZtM JOB Board**](https://zero-to-mastery.github.io/ZtM-J
 
 The Role filter groups case and whitespace variations and common spellings of
 frontend, backend, and full stack, including the submitted typos `Fronted`,
-`FullStak`, `Sofeware`, `Developper`, and `Devoloper`. Role dropdown search uses
-the same normalization. Selecting an option matches all of its variants;
+`FullStak`, `Sofeware`, `Developper`, and `Devoloper`. All three dropdown
+searches (roles, countries, skills) match case-insensitively on
+whitespace-normalized text; only the role search applies the typo corrections
+above. Selecting an option matches all of its variants;
 profile cards retain the submitted title.
 
 The Role dropdown offers at most 21 explicit families plus **Other roles**, rather
