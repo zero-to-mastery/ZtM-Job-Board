@@ -10,7 +10,14 @@ const { profiles, counterMounted } = vi.hoisted(() => ({
     profiles: Array.from({ length: 18 }, (_, index) => ({
         id: String(index + 1),
         name: `Developer ${String(index + 1).padStart(2, '0')}`,
-        jobTitle: index < 16 ? 'Frontend Developer' : 'Backend Developer',
+        jobTitle:
+            index < 16
+                ? [
+                      'Frontend Developer',
+                      'Front-End Developer',
+                      ' front end  developer ',
+                  ][index % 3]
+                : 'Backend Developer',
         location: { country: index < 17 ? 'Canada' : 'United States' },
         normalized: { countries: [index < 17 ? 'CA' : 'US'] },
         links: {},
@@ -94,6 +101,17 @@ const resultCount = () =>
     container.querySelector('.developer-results__count').textContent
 
 describe('recruiter discovery', () => {
+    test('lists role spelling variants once and matches every variant', () => {
+        render()
+        click(button('Role'))
+        const labels = [...container.querySelectorAll('label')].map((label) =>
+            label.textContent.trim()
+        )
+        expect(labels).toEqual(['Backend Developer', 'Frontend Developer'])
+        click(checkbox('Frontend Developer'))
+        expect(resultCount()).toContain('16 matching developers')
+    })
+
     test('keeps a dropdown open when blur has no related target', () => {
         render(
             <ProfileFilters
