@@ -29,6 +29,26 @@ const searchKeys = [
     'location.country',
 ]
 
+const formatJobTitle = (title: string) =>
+    title
+        .trim()
+        .replace(/\s+/g, ' ')
+        .replace(/\bfront[- ]?end\b/gi, 'Frontend')
+        .replace(/\bback[- ]?end\b/gi, 'Backend')
+        .replace(/\bfull[- ]?stack\b/gi, 'Full Stack')
+
+const jobTitleKey = (title: string) => formatJobTitle(title).toLowerCase()
+
+export function getJobTitleOptions(people: readonly Person[]): string[] {
+    const titles = new Map<string, string>()
+    for (const person of people) {
+        const label = formatJobTitle(person.jobTitle || '')
+        const key = label.toLowerCase()
+        if (key && !titles.has(key)) titles.set(key, label)
+    }
+    return [...titles.values()].sort((a, b) => a.localeCompare(b))
+}
+
 export function filterProfiles(
     people: readonly Person[],
     criteria: ProfileCriteria
@@ -37,6 +57,7 @@ export function filterProfiles(
         skill.toLowerCase()
     )
     const matchesText = createFilter(criteria.search, searchKeys)
+    const selectedTitles = new Set(criteria.jobTitles.map(jobTitleKey))
     const filtered = people.filter((person) => {
         const skills = new Set(
             normalizeSkills(person.skills).map((skill) => skill.toLowerCase())
@@ -44,8 +65,8 @@ export function filterProfiles(
         return (
             matchesText(person) &&
             matchesCountries(person, criteria.countries) &&
-            (criteria.jobTitles.length === 0 ||
-                criteria.jobTitles.includes(person.jobTitle || '')) &&
+            (selectedTitles.size === 0 ||
+                selectedTitles.has(jobTitleKey(person.jobTitle || ''))) &&
             requiredSkills.every((skill) => skills.has(skill))
         )
     })

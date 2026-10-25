@@ -5,7 +5,11 @@ import os from 'node:os'
 import path from 'node:path'
 import { spawnSync } from 'node:child_process'
 import { normalizeSkills, validateSkills } from './skills'
-import { emptyCriteria, filterProfiles } from './filterProfiles'
+import {
+    emptyCriteria,
+    filterProfiles,
+    getJobTitleOptions,
+} from './filterProfiles'
 import { resolveCountry } from './countries/resolveCountry.js'
 
 describe('skills', () => {
@@ -71,6 +75,40 @@ const people = [
 ]
 
 describe('profile matching', () => {
+    test('groups role spelling variants without merging distinct titles or changing profiles', () => {
+        const titles = [
+            'Backend Developer',
+            ' back-end  developer ',
+            'BACK END DEVELOPER',
+            'Fullstack Developer',
+            'Full-Stack Developer',
+            'full stack developer',
+            'Senior Backend Developer',
+            'Backend Developer / Frontend Developer',
+            'Software Engineer',
+            '',
+            '   ',
+            undefined,
+        ]
+        const profiles = titles.map((title, index) =>
+            profile(String(index), 'Developer', [], 'Canada', title)
+        )
+        expect(getJobTitleOptions(profiles)).toEqual([
+            'Backend Developer',
+            'Backend Developer / Frontend Developer',
+            'Full Stack Developer',
+            'Senior Backend Developer',
+            'Software Engineer',
+        ])
+        expect(
+            filterProfiles(profiles, {
+                ...emptyCriteria,
+                jobTitles: ['BACKEND DEVELOPER', 'Full Stack Developer'],
+            }).map((person) => person.id)
+        ).toEqual(['0', '1', '2', '3', '4', '5'])
+        expect(profiles.map((person) => person.jobTitle)).toEqual(titles)
+    })
+
     test('includes profiles without skills when no skills are required', () => {
         expect(filterProfiles(people, emptyCriteria)).toEqual(people)
     })
