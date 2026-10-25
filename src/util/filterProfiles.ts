@@ -1,6 +1,6 @@
 import { createFilter } from 'react-search-input'
 import Person from '../interfaces/person'
-import { normalizeSkills } from './skills'
+import { normalizeSkills, skillKey } from './skills'
 import { matchesCountries } from './personCountries'
 
 export type SortOption = 'default' | 'name-asc' | 'name-desc'
@@ -33,13 +33,11 @@ export function filterProfiles(
     people: readonly Person[],
     criteria: ProfileCriteria
 ): Person[] {
-    const requiredSkills = normalizeSkills(criteria.skills).map((skill) =>
-        skill.toLowerCase()
-    )
+    const requiredSkills = normalizeSkills(criteria.skills).map(skillKey)
     const matchesText = createFilter(criteria.search, searchKeys)
     const filtered = people.filter((person) => {
         const skills = new Set(
-            normalizeSkills(person.skills).map((skill) => skill.toLowerCase())
+            normalizeSkills(person.skills).map(skillKey)
         )
         return (
             matchesText(person) &&
