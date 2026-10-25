@@ -15,7 +15,7 @@ const { profiles, counterMounted } = vi.hoisted(() => ({
                 ? [
                       'Frontend Developer',
                       'Front-End Developer',
-                      ' front end  developer ',
+                      'Senior Frontend React Engineer',
                   ][index % 3]
                 : 'Backend Developer',
         location: { country: index < 17 ? 'Canada' : 'United States' },

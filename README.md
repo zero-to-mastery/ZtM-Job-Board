@@ -20,7 +20,14 @@ The Role filter groups case and whitespace variations and common spellings of
 frontend, backend, and full stack, including the submitted typos `Fronted`,
 `FullStak`, `Developper`, and `Devoloper`. Role dropdown search uses the same
 normalization. Selecting an option matches all of its variants; profile cards
-retain the submitted title. Distinct and compound titles remain separate.
+retain the submitted title.
+
+Recognizable single-role frontend, backend, and full-stack developer/engineer
+titles share one option per family, including explicit seniority and common
+technology qualifiers (for example, `Senior Frontend React Engineer` becomes
+`Frontend Developer` in the filter). Other professions, aspirations, compound
+titles, and unrecognized titles remain separate options. This does not infer
+roles from skills or technologies alone.
 
 ### How to add your name to the list
 

@@ -43,10 +43,24 @@ const formatJobTitle = (title: string) =>
 export const jobTitleKey = (title: string) =>
     formatJobTitle(title).toLowerCase()
 
+const roleFamilyPattern =
+    /^(?:(?:junior|jr\.?|mid|senior|sr\.?|lead|staff|principal) )?(frontend|backend|full stack)(?: (?:web|software|react|angular|vue|node\.?js|javascript|typescript|python|java|php|ruby|dotnet|\.net))* (?:developer|engineer)$/i
+
+function jobTitleLabel(title: string): string {
+    const formatted = formatJobTitle(title)
+    const family = roleFamilyPattern.exec(formatted)?.[1].toLowerCase()
+    if (family === 'frontend') return 'Frontend Developer'
+    if (family === 'backend') return 'Backend Developer'
+    if (family === 'full stack') return 'Full Stack Developer'
+    return formatted
+}
+
+const roleFilterKey = (title: string) => jobTitleLabel(title).toLowerCase()
+
 export function getJobTitleOptions(people: readonly Person[]): string[] {
     const titles = new Map<string, string>()
     for (const person of people) {
-        const label = formatJobTitle(person.jobTitle || '')
+        const label = jobTitleLabel(person.jobTitle || '')
         const key = label.toLowerCase()
         if (key && !titles.has(key)) titles.set(key, label)
     }
@@ -61,7 +75,7 @@ export function filterProfiles(
         skill.toLowerCase()
     )
     const matchesText = createFilter(criteria.search, searchKeys)
-    const selectedTitles = new Set(criteria.jobTitles.map(jobTitleKey))
+    const selectedTitles = new Set(criteria.jobTitles.map(roleFilterKey))
     const filtered = people.filter((person) => {
         const skills = new Set(
             normalizeSkills(person.skills).map((skill) => skill.toLowerCase())
@@ -70,7 +84,7 @@ export function filterProfiles(
             matchesText(person) &&
             matchesCountries(person, criteria.countries) &&
             (selectedTitles.size === 0 ||
-                selectedTitles.has(jobTitleKey(person.jobTitle || ''))) &&
+                selectedTitles.has(roleFilterKey(person.jobTitle || ''))) &&
             requiredSkills.every((skill) => skills.has(skill))
         )
     })
