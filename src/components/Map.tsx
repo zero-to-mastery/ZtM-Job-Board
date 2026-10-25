@@ -9,6 +9,7 @@ import {
 import persons from '../assets/persons.json'
 import type Person from '../interfaces/person'
 import { getCountryMarkers } from '../util/personCountries'
+import { groupPeopleByCoordinates } from '../util/groupPeopleByCoordinates'
 
 const DEFAULT_CENTER: [number, number] = [55.378052, -3.435973]
 
@@ -26,6 +27,7 @@ function SimpleMap({ zoom = 3 }) {
     )
 
     const countryMarkers = getCountryMarkers(peopleWithoutCoordinates)
+    const coordinateGroups = groupPeopleByCoordinates(peopleWithCoordinates)
 
     return (
         <section aria-label="Developer locations map">
@@ -52,9 +54,11 @@ function SimpleMap({ zoom = 3 }) {
                         ({ code, country, latlng, numberOfDevs }) => {
                             const countText =
                                 numberOfDevs === 1
-                                    ? '1 Developer from ' + country
-                                    : numberOfDevs + ' Developers from ' + country
-
+                                    ? '1 developer without an exact pin from ' +
+                                      country
+                                    : numberOfDevs +
+                                      ' developers without exact pins from ' +
+                                      country
                             return (
                                 <Marker key={code} position={latlng}>
                                     <Tooltip>{countText}</Tooltip>
@@ -63,32 +67,58 @@ function SimpleMap({ zoom = 3 }) {
                             )
                         }
                     )}
+                    {coordinateGroups.map(({ key, lat, lng, people }) => (
+                        <Marker
+                            key={`coordinates-${key}`}
+                            position={[lat, lng]}
+                        >
+                            <Tooltip>
+                                {people.length === 1
+                                    ? people[0].name
+                                    : `${people.length} developers at this location`}
+                            </Tooltip>
+                            <Popup>
+                                <strong>
+                                    {people.length === 1
+                                        ? 'Developer'
+                                        : `${people.length} developers at this location`}
+                                </strong>
+                                {people.map((person) => {
+                                    const locationText = [
+                                        person.location?.city,
+                                        person.location?.state,
+                                        person.location?.country,
+                                    ]
+                                        .filter(Boolean)
+                                        .join(', ')
 
-                    {peopleWithCoordinates.map((person) => {
-                        const coordinates = person.location?.coordinates
-                        if (!coordinates) return null
-
-                        const locationText = [
-                            person.location.city,
-                            person.location.state,
-                            person.location.country,
-                        ]
-                            .filter(Boolean)
-                            .join(', ')
-
-                        return (
-                            <Marker
-                                key={`person-${person.id}`}
-                                position={[coordinates.lat, coordinates.lng]}
-                            >
-                                <Tooltip>{person.name}</Tooltip>
-                                <Popup>
-                                    <strong>{person.name}</strong>
-                                    {locationText && <p>{locationText}</p>}
-                                </Popup>
-                            </Marker>
-                        )
-                    })}
+                                    return (
+                                        <div key={person.id}>
+                                            <p>
+                                                <strong>{person.name}</strong>
+                                            </p>
+                                            {locationText && (
+                                                <p>{locationText}</p>
+                                            )}
+                                            {person.links?.github && (
+                                                <p>
+                                                    <a
+                                                        href={
+                                                            person.links.github
+                                                        }
+                                                        target="_blank"
+                                                        rel="noreferrer"
+                                                    >
+                                                        GitHub profile
+                                                    </a>
+                                                </p>
+                                            )}
+                                        </div>
+                                    )
+                                })}
+                            </Popup>
+                        </Marker>
+                    ))}
                 </LeafletMap>
             </div>
         </section>

@@ -130,6 +130,24 @@ describe('aggregate', () => {
     })
 
     test.each([
+        ['minimum latitude and longitude', { lat: -90, lng: -180 }],
+        ['maximum latitude and longitude', { lat: 90, lng: 180 }],
+        ['integer coordinates', { lat: 40, lng: -74 }],
+        ['one decimal place', { lat: 40.7, lng: -74.1 }],
+        ['negative coordinates', { lat: -79.34, lng: -39.29 }],
+    ])('accepts valid coordinates: %s', (_label, coordinates) => {
+        const profile = submission('Valid coordinates', 'United States')
+        profile.location.coordinates = coordinates
+
+        writeFixtures({ 'valid-coordinates.json': profile })
+
+        expect(() => aggregate({ sourceDir, outputFile })).not.toThrow()
+
+        const [person] = JSON.parse(fs.readFileSync(outputFile, 'utf-8'))
+        expect(person.location.coordinates).toEqual(coordinates)
+    })
+
+    test.each([
         [
             'latitude out of range',
             { lat: 90.01, lng: 20 },
@@ -175,26 +193,41 @@ describe('aggregate', () => {
             [39.29, -79.34],
             /must be an object containing exactly lat and lng/,
         ],
-    ])(
-        'rejects invalid coordinates: %s',
-        (_label, coordinates, message) => {
-            const profile = submission(
-                'Invalid coordinates',
-                'United States'
-            )
-            profile.location.coordinates = coordinates
+        [
+            'latitude below minimum',
+            { lat: -90.01, lng: 20 },
+            /lat must be between/,
+        ],
+        [
+            'longitude below minimum',
+            { lat: 20, lng: -180.01 },
+            /lng must be between/,
+        ],
+        [
+            'boolean latitude',
+            { lat: true, lng: 20 },
+            /lat must be a finite number/,
+        ],
+        [
+            'null latitude',
+            { lat: null, lng: 20 },
+            /lat must be a finite number/,
+        ],
+        ['missing latitude', { lng: -74 }, /must contain exactly lat and lng/],
+    ])('rejects invalid coordinates: %s', (_label, coordinates, message) => {
+        const profile = submission('Invalid coordinates', 'United States')
+        profile.location.coordinates = coordinates
 
-            writeFixtures({ 'invalid-coordinates.json': profile })
+        writeFixtures({ 'invalid-coordinates.json': profile })
 
-            expect(() => loadSubmissions(sourceDir)).toThrow(message)
+        expect(() => loadSubmissions(sourceDir)).toThrow(message)
 
-            try {
-                loadSubmissions(sourceDir)
-            } catch (error) {
-                expect(error.message).toContain('invalid-coordinates.json')
-            }
+        try {
+            loadSubmissions(sourceDir)
+        } catch (error) {
+            expect(error.message).toContain('invalid-coordinates.json')
         }
-    )
+    })
 
     test('adds normalized country codes', () => {
         writeFixtures(FIXTURES)

@@ -33,37 +33,41 @@ inside `Submissions/` folder, and then fill it up with following content.
 
 ```json
 {
-  "name": "[YOUR_FULL_NAME]",
-  "img": "[YOUR_IMG_URL]",
-  "email": "[YOUR_EMAIL_ADDRESS]",
-  "links": {
-    "website": "[YOUR_WEBSITE_URL]",
-    "linkedin": "https://www.linkedin.com/in/<YOUR_LINKEDIN_USERNAME>",
-    "github": "https://github.com/<YOUR_GH_USERNAME>"
-  },
-  "jobTitle": "[YOUR_TITLE]",
-  "skills": ["[SKILL_1]", "[SKILL_2]", "[SKILL_3]"],
-  "location": {
-    "city": "[YOUR_CITY]",
-    "state": "[YOUR_STATE_OR_PROVINCE]",
-    "country": "[YOUR_COUNTRY]",
-    "coordinates": {
-      "lat":39.29,
-      "lng":-79.34
+    "name": "[YOUR_FULL_NAME]",
+    "img": "[YOUR_IMG_URL]",
+    "email": "[YOUR_EMAIL_ADDRESS]",
+    "links": {
+        "website": "[YOUR_WEBSITE_URL]",
+        "linkedin": "https://www.linkedin.com/in/<YOUR_LINKEDIN_USERNAME>",
+        "github": "https://github.com/<YOUR_GH_USERNAME>"
+    },
+    "jobTitle": "[YOUR_TITLE]",
+    "skills": ["[SKILL_1]", "[SKILL_2]", "[SKILL_3]"],
+    "location": {
+        "city": "[YOUR_CITY]",
+        "state": "[YOUR_STATE_OR_PROVINCE]",
+        "country": "[YOUR_COUNTRY]"
     }
-  }
 }
 ```
 
 **Optional map coordinates**
 
-- `coordinates` is optional. You can omit it and your profile will continue to use the existing country-level map marker.
-- If included, `coordinates` must contain exactly two numeric properties: `lat` and `lng`.
+- `coordinates` is optional. If omitted, your profile will continue to use the existing country-level map marker.
+- Add `coordinates` only if you want an individual map pin for your profile. If you do not want an exact pin, leave out the entire `coordinates` object.
+- If included, `coordinates` must contain exactly two numeric properties: `lat` and `lng`. For example:
+
+    ```json
+    "coordinates": {
+      "lat": 40.71,
+      "lng": -74.00
+    }
+    ```
+
 - `lat` must be between `-90` and `90`, and `lng` must be between `-180` and `180`.
 - Both values must have at most two decimal places for privacy.
 - Use approximate city or town coordinates. Do not share your home address or precise residential location.
 - Invalid coordinates will cause aggregation to fail and report the affected submission filename.
-
 
 ### Please note!
 
@@ -90,8 +94,7 @@ Cards show self-reported skills and mark the ones matching your requirements. Pr
 https://github.com/example.png
 
 3. Hit enter and the browser will generate a page with your image, it look like this:
-  https://avatars.githubusercontent.com/u/57936?v=4
-
+   https://avatars.githubusercontent.com/u/57936?v=4
 
 4. Copy url of this page and paste it in `Submissions/<YOUR_GH_USERNAME>.json` file
 
