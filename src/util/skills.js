@@ -1,10 +1,15 @@
+/** @param {string} skill */
+export function skillKey(skill) {
+    return skill.trim().toLowerCase()
+}
+
 /** @param {readonly string[]} [skills] */
 export function normalizeSkills(skills = []) {
     /** @type {Map<string, string>} */
     const labels = new Map()
     for (const skill of skills) {
         const label = skill.trim()
-        const key = label.toLowerCase()
+        const key = skillKey(label)
         if (!labels.has(key)) {
             labels.set(key, label)
         }

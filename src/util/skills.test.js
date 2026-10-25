@@ -4,11 +4,24 @@ import fs from 'node:fs'
 import os from 'node:os'
 import path from 'node:path'
 import { spawnSync } from 'node:child_process'
-import { normalizeSkills, validateSkills } from './skills'
+import { normalizeSkills, skillKey, validateSkills } from './skills'
 import { emptyCriteria, filterProfiles } from './filterProfiles'
 import { resolveCountry } from './countries/resolveCountry.js'
 
 describe('skills', () => {
+    test.each([
+        [' React ', 'react'],
+        ['REACT', 'react'],
+        [' TypeScript\t', 'typescript'],
+        [' Node.js ', 'node.js'],
+        ['React.js', 'react.js'],
+        ['C', 'c'],
+        ['C++', 'c++'],
+        ['C#', 'c#'],
+    ])('compares %j using the key %j', (skill, expected) => {
+        expect(skillKey(skill)).toBe(expected)
+    })
+
     test('trims and deduplicates labels without conflating different technologies', () => {
         expect(
             normalizeSkills([
