@@ -8,26 +8,14 @@ import {
 } from 'react-leaflet'
 import persons from '../assets/persons.json'
 import type Person from '../interfaces/person'
-import { getCountryMarkers } from '../util/personCountries'
-import { groupPeopleByCoordinates } from '../util/groupPeopleByCoordinates'
+import { buildLocationMarkers } from '../util/locationMarkers'
 
 const DEFAULT_CENTER: [number, number] = [55.378052, -3.435973]
 
 const people: Person[] = persons
 
 function SimpleMap({ zoom = 3 }) {
-    const peopleWithCoordinates = []
-    const peopleWithoutCoordinates = []
-    for (const person of people) {
-        if (person.location?.coordinates) {
-            peopleWithCoordinates.push(person)
-        } else {
-            peopleWithoutCoordinates.push(person)
-        }
-    }
-
-    const countryMarkers = getCountryMarkers(peopleWithoutCoordinates)
-    const coordinateGroups = groupPeopleByCoordinates(peopleWithCoordinates)
+    const { countryMarkers, coordinateGroups } = buildLocationMarkers(people)
 
     return (
         <section aria-label="Developer locations map">
