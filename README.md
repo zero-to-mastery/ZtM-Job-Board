@@ -18,17 +18,18 @@ Link to the webpage: [**ZtM JOB Board**](https://zero-to-mastery.github.io/ZtM-J
 
 The Role filter groups case and whitespace variations and common spellings of
 frontend, backend, and full stack, including the submitted typos `Fronted`,
-`FullStak`, `Developper`, and `Devoloper`. Role dropdown search uses the same
-normalization. Selecting an option matches all of its variants; profile cards
-retain the submitted title.
+`FullStak`, `Sofeware`, `Developper`, and `Devoloper`. Role dropdown search uses
+the same normalization. Selecting an option matches all of its variants;
+profile cards retain the submitted title.
 
 The Role dropdown offers at most 21 explicit families plus **Other roles**, rather
 than one option for each submitted title. Seniority and technology qualifiers do
-not create extra options. Clear compound titles can match several families;
-within each part, a specialization takes precedence over generic web/software
-wording. Unrecognized, missing, or solely aspirational titles fall under Other
-roles. Use the main search for original title details. No roles are inferred from
-declared skills, and original titles remain unchanged.
+not create extra options. Compound titles can match every family they name,
+including roles that share a trailing "Developer" or "Engineer" and generic
+web/software roles alongside specializations. Unrecognized, missing, or solely
+aspirational titles fall under Other roles. Use the main search for original
+title details. No roles are inferred from declared skills, and original titles
+remain unchanged.
 
 ### How to add your name to the list
 
