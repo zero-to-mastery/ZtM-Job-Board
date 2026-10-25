@@ -17,6 +17,7 @@ interface CheckboxDropdownProps<T> {
     searchPlaceholder: string
     searchAriaLabel: string
     searchLabel?: string
+    description?: string
     describedBy?: string
     inputType?: 'text' | 'search'
     noResultsMessage?: string
@@ -42,6 +43,7 @@ function CheckboxDropdown<T>({
     describedBy,
     inputType = 'text',
     noResultsMessage,
+    description,
 }: CheckboxDropdownProps<T>) {
     return (
         <>
@@ -62,6 +64,9 @@ function CheckboxDropdown<T>({
                     id={id}
                     className="profile-filters__dropdown"
                 >
+                    {description && (
+                       <p className="f6 mt0 mb2">{description}</p>
+                        )}
                     {searchLabel && (
                         <label
                             htmlFor={searchInputId}

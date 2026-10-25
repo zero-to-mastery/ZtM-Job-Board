@@ -10,7 +10,14 @@ const { profiles, counterMounted } = vi.hoisted(() => ({
     profiles: Array.from({ length: 18 }, (_, index) => ({
         id: String(index + 1),
         name: `Developer ${String(index + 1).padStart(2, '0')}`,
-        jobTitle: index < 16 ? 'Frontend Developer' : 'Backend Developer',
+        jobTitle:
+            index < 16
+                ? [
+                      'Frontend Developer',
+                      'Frontend Developer / Backend Developer',
+                      'Senior Frontend React Engineer',
+                  ][index % 3]
+                : 'Backend Developer',
         location: { country: index < 17 ? 'Canada' : 'United States' },
         normalized: { countries: [index < 17 ? 'CA' : 'US'] },
         links: {},
@@ -94,6 +101,36 @@ const resultCount = () =>
     container.querySelector('.developer-results__count').textContent
 
 describe('recruiter discovery', () => {
+    test('lists role spelling variants once and matches every variant', () => {
+        render()
+        click(button('Role'))
+        const labels = [...container.querySelectorAll('label')].map((label) =>
+            label.textContent.trim()
+        )
+        expect(labels).toEqual(['Backend Developer', 'Frontend Developer'])
+        click(checkbox('Frontend Developer'))
+        expect(resultCount()).toContain('16 matching developers')
+        expect(container.querySelector('#role-options').textContent).toContain(
+            'Other roles'
+        )
+    })
+
+    test('searches role options using the same spelling normalization', () => {
+        render()
+        click(button('Role'))
+        const search = container.querySelector('[aria-label="Search roles"]')
+        for (const query of [' FRONT-END ', 'front end', 'frontend']) {
+            type(search, query)
+            expect(
+                [...container.querySelectorAll('label')].map((label) =>
+                    label.textContent.trim()
+                )
+            ).toEqual(['Frontend Developer'])
+        }
+        type(search, '   ')
+        expect(container.querySelectorAll('label')).toHaveLength(2)
+    })
+
     test('keeps a dropdown open when blur has no related target', () => {
         render(
             <ProfileFilters
@@ -269,6 +306,42 @@ describe('recruiter discovery', () => {
             )
         )
         expect(container.querySelector('#required-skills-options')).toBeNull()
+    })
+
+    test('searches country options case-insensitively with whitespace normalization and no typo correction', () => {
+        render()
+        click(button('Country'))
+        const search = container.querySelector(
+            '[aria-label="Search countries"]'
+        )
+        const labels = () =>
+            [...container.querySelectorAll('#country-options label')].map(
+                (label) => label.textContent.trim()
+            )
+        type(search, '  uNiTeD    StAtEs  ')
+        expect(labels()).toEqual(['United States'])
+        type(search, 'Canda')
+        expect(labels()).toEqual([])
+        type(search, '   ')
+        expect(labels()).toEqual(['Canada', 'United States'])
+    })
+
+    test('searches skill options case-insensitively with whitespace normalization and no typo correction', () => {
+        render()
+        click(button('Required skills'))
+        const search = container.querySelector('#skill-search')
+        const matches = () =>
+            container.querySelectorAll(
+                '#required-skills-options input[type="checkbox"]'
+            ).length
+        type(search, '  typescript  ')
+        expect(matches()).toBe(1)
+        type(search, 'typscript')
+        expect(container.textContent).toContain(
+            'No declared skills match this search.'
+        )
+        type(search, '   ')
+        expect(matches()).toBe(2)
     })
 
     test('keeps order stable during searches and shuffles only when explicitly requested', () => {

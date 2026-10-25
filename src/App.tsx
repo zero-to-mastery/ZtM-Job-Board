@@ -12,6 +12,7 @@ import Person from './interfaces/person'
 import {
     emptyCriteria,
     filterProfiles,
+    getJobTitleOptions,
     ProfileCriteria,
 } from './util/filterProfiles'
 import { normalizeSkills } from './util/skills'
@@ -25,13 +26,7 @@ const profiles: Person[] = persons
 const countries = getCountryOptions(profiles)
 const totalCountries = countries.length
 
-const jobTitles = Array.from(
-    new Set(
-        profiles
-            .map((person) => person.jobTitle)
-            .filter((title): title is string => Boolean(title))
-    )
-).sort()
+const jobTitles = getJobTitleOptions(profiles)
 const skills = normalizeSkills(
     profiles.flatMap((person) => person.skills || [])
 ).sort((a, b) => a.localeCompare(b))

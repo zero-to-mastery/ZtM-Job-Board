@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { SortOption } from '../util/filterProfiles'
+import { jobTitleKey, SortOption } from '../util/filterProfiles'
 import { CountryOption } from '../util/personCountries'
 import CheckboxDropdown from './CheckboxDropdown'
 
@@ -73,16 +73,20 @@ const ProfileFilters = ({
             document.removeEventListener('pointerdown', closeOutside)
     }, [openFilter])
 
+    const searchKey = (value: string) =>
+        value.trim().replace(/\s+/g, ' ').toLowerCase()
+
     const filteredCountries = countries.filter((country) =>
-        country.label.toLowerCase().includes(countrySearch.toLowerCase())
+        searchKey(country.label).includes(searchKey(countrySearch))
     )
 
+    const roleSearchKey = jobTitleKey(roleSearch)
     const filteredJobTitles = jobTitles.filter((jobTitle) =>
-        jobTitle.toLowerCase().includes(roleSearch.toLowerCase())
+        jobTitleKey(jobTitle).includes(roleSearchKey)
     )
 
     const filteredSkills = skills.filter((skill) =>
-        skill.toLowerCase().includes(skillSearch.trim().toLowerCase())
+        searchKey(skill).includes(searchKey(skillSearch))
     )
 
     const toggleFilter = (filter: string) => {
@@ -204,25 +208,25 @@ const ProfileFilters = ({
                 </div>
 
                 <div className="relative" data-filter="role">
-                    <CheckboxDropdown
-                        id="role-options"
-                        searchInputId="role-search"
-                        label="Role"
-                        isOpen={openFilter === 'role'}
-                        selectedCount={selectedJobTitles.length}
-                        options={filteredJobTitles}
-                        selectedValues={selectedJobTitles}
-                        getOptionValue={(jobTitle) => jobTitle}
-                        getOptionLabel={(jobTitle) => jobTitle}
-                        searchValue={roleSearch}
-                        onSearchChange={setRoleSearch}
-                        onOptionChange={onJobTitleChange}
-                        onToggle={() => toggleFilter('role')}
-                        searchPlaceholder="Search role..."
-                        searchAriaLabel="Search roles"
-                    />
-                </div>
-
+    <CheckboxDropdown
+        id="role-options"
+        searchInputId="role-search"
+        label="Role"
+        isOpen={openFilter === 'role'}
+        selectedCount={selectedJobTitles.length}
+        options={filteredJobTitles}
+        selectedValues={selectedJobTitles}
+        getOptionValue={(jobTitle) => jobTitle}
+        getOptionLabel={(jobTitle) => jobTitle}
+        searchValue={roleSearch}
+        onSearchChange={setRoleSearch}
+        onOptionChange={onJobTitleChange}
+        onToggle={() => toggleFilter('role')}
+        searchPlaceholder="Search role..."
+        searchAriaLabel="Search roles"
+        description="Roles are grouped into families. Use the main search for specific titles; unmatched titles are included in Other roles."
+    />
+</div>
                 <div>
                     <select
                         value={sortOption}
