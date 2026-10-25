@@ -17,8 +17,10 @@ Link to the webpage: [**ZtM JOB Board**](https://zero-to-mastery.github.io/ZtM-J
 `npm start` validates submissions while generating the profile dataset. Invalid JSON or an invalid `skills` value causes aggregation to exit with an error instead of writing a partial dataset. Fix the reported submission and rerun `npm start`; the existing generated dataset is left untouched when validation fails.
 
 The Role filter groups case and whitespace variations and common spellings of
-frontend, backend, and full stack. Selecting an option matches all of its variants;
-profile cards retain the submitted title. Distinct and compound titles remain separate.
+frontend, backend, and full stack, including the submitted typos `Fronted`,
+`FullStak`, `Developper`, and `Devoloper`. Role dropdown search uses the same
+normalization. Selecting an option matches all of its variants; profile cards
+retain the submitted title. Distinct and compound titles remain separate.
 
 ### How to add your name to the list
 

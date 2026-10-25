@@ -33,6 +33,9 @@ const formatJobTitle = (title: string) =>
     title
         .trim()
         .replace(/\s+/g, ' ')
+        .replace(/\bfronted\b/gi, 'Frontend')
+        .replace(/\bfullstak\b/gi, 'Full Stack')
+        .replace(/\b(?:developper|devoloper)\b/gi, 'Developer')
         .replace(/\bfront[- ]?end\b/gi, 'Frontend')
         .replace(/\bback[- ]?end\b/gi, 'Backend')
         .replace(/\bfull[- ]?stack\b/gi, 'Full Stack')

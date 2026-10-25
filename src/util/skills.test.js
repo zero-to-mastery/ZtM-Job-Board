@@ -9,6 +9,7 @@ import {
     emptyCriteria,
     filterProfiles,
     getJobTitleOptions,
+    jobTitleKey,
 } from './filterProfiles'
 import { resolveCountry } from './countries/resolveCountry.js'
 
@@ -75,6 +76,48 @@ const people = [
 ]
 
 describe('profile matching', () => {
+    test.each([
+        ['Dot Net Devoloper', 'Dot Net Developer'],
+        ['Fronted Web Developer', 'Frontend Web Developer'],
+        ['FullStak/Software Developer', 'Full Stack/Software Developer'],
+        ['Senior FrontEnd Developper', 'Senior Frontend Developer'],
+        ['Web developper', 'Web Developer'],
+    ])('groups the submitted typo %s with %s', (original, corrected) => {
+        const profiles = [original, corrected].map((title, index) =>
+            profile(String(index), 'Developer', [], 'Canada', title)
+        )
+        expect(getJobTitleOptions(profiles)).toEqual([corrected])
+        expect(
+            filterProfiles(profiles, {
+                ...emptyCriteria,
+                jobTitles: [corrected],
+            })
+        ).toEqual(profiles)
+        expect(jobTitleKey(original)).toBe(jobTitleKey(corrected))
+        expect(profiles[0].jobTitle).toBe(original)
+    })
+
+    test('keeps seniority, specializations, designers and compound titles distinct', () => {
+        const titles = [
+            'Frontend Developer',
+            'Full Stack Developer',
+            'Senior Frontend Developer',
+            'Junior Frontend Developer',
+            'Frontend Designer',
+            'Frontend Developer / Backend Developer',
+        ]
+        const profiles = titles.map((title, index) =>
+            profile(String(index), 'Developer', [], 'Canada', title)
+        )
+        expect(getJobTitleOptions(profiles)).toHaveLength(titles.length)
+        expect(
+            filterProfiles(profiles, {
+                ...emptyCriteria,
+                jobTitles: ['front-end developer'],
+            })
+        ).toEqual([profiles[0]])
+    })
+
     test('groups role spelling variants without merging distinct titles or changing profiles', () => {
         const titles = [
             'Backend Developer',
