@@ -15,13 +15,7 @@ export class SubmissionLoadError extends Error {
         this.failures = failures
     }
 }
-/**
- * Validates optional profile coordinates.
- *
- * @param {unknown} coordinates
- * @param {string} file
- */
-function validateCoordinates(coordinates, file) {
+function validateCoordinates(coordinates) {
     if (coordinates === undefined) return
 
     const fail = (message) => {
@@ -108,7 +102,7 @@ export function loadSubmissions(sourceDir) {
                 throw new Error('Submission must be a JSON object')
             }
             validateSkills(data.skills, file)
-            validateCoordinates(data.location?.coordinates, file)
+            validateCoordinates(data.location?.coordinates)
             submissions.push({ file, data })
         } catch (e) {
             failures.push({ file, message: e.message })

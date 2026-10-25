@@ -13,17 +13,17 @@ export const groupPeopleByCoordinates = (
         const coordinates = person.location?.coordinates
         if (!coordinates) return
         const key = `${coordinates.lat},${coordinates.lng}`
-        const existing = groups.get(key)
-        if (existing) {
-            existing.people.push(person)
-        } else {
-            groups.set(key, {
+        let group = groups.get(key)
+        if (!group) {
+            group = {
                 key,
                 lat: coordinates.lat,
                 lng: coordinates.lng,
-                people: [person],
-            })
+                people: [],
+            }
+            groups.set(key, group)
         }
+        group.people.push(person)
     })
     return Array.from(groups.values())
 }

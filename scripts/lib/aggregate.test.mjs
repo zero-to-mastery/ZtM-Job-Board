@@ -221,12 +221,9 @@ describe('aggregate', () => {
         writeFixtures({ 'invalid-coordinates.json': profile })
 
         expect(() => loadSubmissions(sourceDir)).toThrow(message)
-
-        try {
-            loadSubmissions(sourceDir)
-        } catch (error) {
-            expect(error.message).toContain('invalid-coordinates.json')
-        }
+        expect(() => loadSubmissions(sourceDir)).toThrow(
+            /invalid-coordinates\.json/
+        )
     })
 
     test('adds normalized country codes', () => {
