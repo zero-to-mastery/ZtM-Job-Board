@@ -1,0 +1,17 @@
+{
+  "name": "Jedidiah Amaraegbu",
+  "img": "https://avatars.githubusercontent.com/u/17021436?v=5",
+  "email":"imunacode@gmail.com",
+  "links": {
+    "website": "https://amjedidiah.vercel.app",
+    "linkedin": "https://www.linkedin.com/in/am-jedidiah",
+    "github": "https://github.com/amjedidiah"
+  },
+  "jobTitle": "Full Stack Engineer | Web | Mobile | AI | Stripe",
+  "skills": ["Express", "JavaScript", "Node.js" "React", "TypeScript"],
+  "location": {
+    "city": "Lagos, Remote",
+    "state": "Lagos, Remote",
+    "country": "Nigeria"
+  }
+}
