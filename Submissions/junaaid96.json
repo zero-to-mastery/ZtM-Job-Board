@@ -1,16 +1,16 @@
 {
     "name": "Md. Junaidul Islam",
-    "img": "https://avatars.githubusercontent.com/u/75936347?v=4",
+    "img": "https://www.mdjunaidulislam.live/static/media/pro1.950774f0d2f957501148.png",
     "email": "info.junaidulislam@gmail.com",
     "links": {
-        "website": "https://mdjunaidulislam.netlify.app/",
+        "website": "https://junaidul.pro.bd/",
         "linkedin": "https://www.linkedin.com/in/md-junaidul-islam",
         "github": "https://github.com/junaaid96"
     },
-    "jobTitle": "Full-Stack Developer",
+    "jobTitle": "Software Engineer",
     "location": {
         "city": "Dhaka",
-        "state": "",
+        "state": "Dhaka",
         "country": "Bangladesh"
     }
 }
