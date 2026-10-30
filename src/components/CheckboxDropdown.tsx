@@ -1,50 +1,39 @@
-import React from 'react'
+import React, { useId } from 'react'
 
-interface CheckboxDropdownProps<T> {
+interface CheckboxDropdownProps {
     id: string
-    searchInputId: string
     label: string
     isOpen: boolean
     selectedCount: number
-    options: T[]
+    options: ReadonlyArray<{ value: string; label: string }>
     selectedValues: string[]
-    getOptionValue: (option: T) => string
-    getOptionLabel: (option: T) => string
     searchValue: string
     onSearchChange: (value: string) => void
     onOptionChange: (value: string) => void
     onToggle: () => void
-    searchPlaceholder: string
-    searchAriaLabel: string
     searchLabel?: string
-    description?: string
-    describedBy?: string
-    inputType?: 'text' | 'search'
-    noResultsMessage?: string
+    helpText?: string
+    noResultsMessage?: string // default: "No matches found."
 }
 
-function CheckboxDropdown<T>({
+function CheckboxDropdown({
     id,
-    searchInputId,
     label,
     isOpen,
     selectedCount,
     options,
     selectedValues,
-    getOptionValue,
-    getOptionLabel,
     searchValue,
     onSearchChange,
     onOptionChange,
     onToggle,
-    searchPlaceholder,
-    searchAriaLabel,
     searchLabel,
-    describedBy,
-    inputType = 'text',
+    helpText,
     noResultsMessage,
-    description,
-}: CheckboxDropdownProps<T>) {
+}: CheckboxDropdownProps) {
+    const helpId = useId()
+    const searchInputId = `${id}-search`
+
     return (
         <>
             <button
@@ -52,50 +41,45 @@ function CheckboxDropdown<T>({
                 className="profile-filters__control w-100 pa2 br2 tl"
                 aria-expanded={isOpen}
                 aria-controls={id}
-                aria-describedby={describedBy}
+                aria-describedby={helpText ? helpId : undefined}
                 onClick={onToggle}
             >
                 {label}
                 {selectedCount > 0 && ` (${selectedCount})`}
             </button>
 
+            {helpText && (
+                <p id={helpId} className="f6 mt2 mb0">
+                    {helpText}
+                </p>
+            )}
+
             {isOpen && (
-                <div
-                    id={id}
-                    className="profile-filters__dropdown"
-                >
-                    {description && (
-                       <p className="f6 mt0 mb2">{description}</p>
-                        )}
+                <div id={id} className="profile-filters__dropdown">
                     {searchLabel && (
-                        <label
-                            htmlFor={searchInputId}
-                            className="db mb2"
-                        >
+                        <label htmlFor={searchInputId} className="db mb2">
                             {searchLabel}
                         </label>
                     )}
 
                     <input
                         id={searchInputId}
-                        type={inputType}
-                        aria-label={searchAriaLabel}
+                        type="search"
                         value={searchValue}
-                        onChange={(event) =>
-                            onSearchChange(event.target.value)
-                        }
-                        placeholder={searchPlaceholder}
+                        onChange={(event) => onSearchChange(event.target.value)}
                         className="profile-filters__control w-100 pa2 br2"
                     />
 
                     <div className="profile-filters__options">
-                        {options.length === 0 && noResultsMessage && (
-                            <p role="status">{noResultsMessage}</p>
+                        {options.length === 0 && (
+                            <p role="status">
+                                {noResultsMessage ?? 'No matches found.'}
+                            </p>
                         )}
 
                         {options.map((option) => {
-                            const value = getOptionValue(option)
-                            const optionLabel = getOptionLabel(option)
+                            const value = option.value
+                            const optionLabel = option.label
 
                             return (
                                 <label

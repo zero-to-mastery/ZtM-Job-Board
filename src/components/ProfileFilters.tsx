@@ -69,8 +69,7 @@ const ProfileFilters = ({
 
         document.addEventListener('pointerdown', closeOutside)
 
-        return () =>
-            document.removeEventListener('pointerdown', closeOutside)
+        return () => document.removeEventListener('pointerdown', closeOutside)
     }, [openFilter])
 
     const searchKey = (value: string) =>
@@ -150,39 +149,31 @@ const ProfileFilters = ({
                         <div className="skills-guidance">
                             <h3 className="f5 mt0 mb2">Required skills</h3>
                             <p className="ma0">
-                                No profiles have declared skills yet.
-                                Developers can add a skills list to their
-                                submission to appear in skills-based searches.
+                                No profiles have declared skills yet. Developers
+                                can add a skills list to their submission to
+                                appear in skills-based searches.
                             </p>
                         </div>
                     ) : (
                         <>
                             <CheckboxDropdown
                                 id="required-skills-options"
-                                searchInputId="skill-search"
                                 label="Required skills"
                                 isOpen={openFilter === 'skills'}
                                 selectedCount={selectedSkills.length}
-                                options={filteredSkills}
+                                options={filteredSkills.map((skill) => ({
+                                    value: skill,
+                                    label: skill,
+                                }))}
                                 selectedValues={selectedSkills}
-                                getOptionValue={(skill) => skill}
-                                getOptionLabel={(skill) => skill}
                                 searchValue={skillSearch}
                                 onSearchChange={setSkillSearch}
                                 onOptionChange={onSkillChange}
                                 onToggle={() => toggleFilter('skills')}
-                                searchPlaceholder=""
-                                searchAriaLabel="Search declared skills"
                                 searchLabel="Search declared skills"
-                                describedBy="required-skills-help"
-                                inputType="search"
+                                helpText="Matches all selected skills. Skills are self-reported."
                                 noResultsMessage="No declared skills match this search."
                             />
-
-                            <p id="required-skills-help" className="f6 mt2 mb0">
-                                Matches all selected skills. Skills are
-                                self-reported.
-                            </p>
                         </>
                     )}
                 </div>
@@ -190,43 +181,41 @@ const ProfileFilters = ({
                 <div className="relative" data-filter="country">
                     <CheckboxDropdown
                         id="country-options"
-                        searchInputId="country-search"
                         label="Country"
                         isOpen={openFilter === 'country'}
                         selectedCount={selectedCountries.length}
-                        options={filteredCountries}
+                        options={filteredCountries.map((country) => ({
+                            value: country.code,
+                            label: country.label,
+                        }))}
                         selectedValues={selectedCountries}
-                        getOptionValue={(country) => country.code}
-                        getOptionLabel={(country) => country.label}
                         searchValue={countrySearch}
                         onSearchChange={setCountrySearch}
                         onOptionChange={onCountryChange}
                         onToggle={() => toggleFilter('country')}
-                        searchPlaceholder="Search country..."
-                        searchAriaLabel="Search countries"
+                        searchLabel="Search countries"
                     />
                 </div>
 
                 <div className="relative" data-filter="role">
-    <CheckboxDropdown
-        id="role-options"
-        searchInputId="role-search"
-        label="Role"
-        isOpen={openFilter === 'role'}
-        selectedCount={selectedJobTitles.length}
-        options={filteredJobTitles}
-        selectedValues={selectedJobTitles}
-        getOptionValue={(jobTitle) => jobTitle}
-        getOptionLabel={(jobTitle) => jobTitle}
-        searchValue={roleSearch}
-        onSearchChange={setRoleSearch}
-        onOptionChange={onJobTitleChange}
-        onToggle={() => toggleFilter('role')}
-        searchPlaceholder="Search role..."
-        searchAriaLabel="Search roles"
-        description="Roles are grouped into families. Use the main search for specific titles; unmatched titles are included in Other roles."
-    />
-</div>
+                    <CheckboxDropdown
+                        id="role-options"
+                        label="Role"
+                        isOpen={openFilter === 'role'}
+                        selectedCount={selectedJobTitles.length}
+                        options={filteredJobTitles.map((jobTitle) => ({
+                            value: jobTitle,
+                            label: jobTitle,
+                        }))}
+                        selectedValues={selectedJobTitles}
+                        searchValue={roleSearch}
+                        onSearchChange={setRoleSearch}
+                        onOptionChange={onJobTitleChange}
+                        onToggle={() => toggleFilter('role')}
+                        searchLabel="Search roles"
+                        helpText="Roles are grouped into families. Use the main search for specific titles; unmatched titles are included in Other roles."
+                    />
+                </div>
                 <div>
                     <select
                         value={sortOption}
@@ -264,8 +253,7 @@ const ProfileFilters = ({
                                 aria-label={`Remove required skill ${skill}`}
                                 onClick={() => onSkillChange(skill)}
                             >
-                                {skill}{' '}
-                                <span aria-hidden="true">&times;</span>
+                                {skill} <span aria-hidden="true">&times;</span>
                             </button>
                         </li>
                     ))}

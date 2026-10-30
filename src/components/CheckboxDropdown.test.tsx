@@ -7,28 +7,27 @@ let container: HTMLDivElement
 let root: Root
 
 const renderDropdown = (
-    overrides: Partial<React.ComponentProps<typeof CheckboxDropdown<string>>> = {}
+    overrides: Partial<React.ComponentProps<typeof CheckboxDropdown>> = {}
 ) => {
-    const props: React.ComponentProps<typeof CheckboxDropdown<string>> = {
+    const props: React.ComponentProps<typeof CheckboxDropdown> = {
         id: 'test-options',
-        searchInputId: 'test-search',
         label: 'Test options',
         isOpen: true,
         selectedCount: 1,
-        options: ['React', 'TypeScript'],
+        options: [
+            { value: 'React', label: 'React' },
+            { value: 'TypeScript', label: 'TypeScript' },
+        ],
         selectedValues: ['React'],
-        getOptionValue: (option) => option,
-        getOptionLabel: (option) => option,
         searchValue: '',
         onSearchChange: vi.fn(),
         onOptionChange: vi.fn(),
         onToggle: vi.fn(),
-        searchPlaceholder: 'Search options...',
-        searchAriaLabel: 'Search options',
         ...overrides,
     }
 
     act(() => root.render(<CheckboxDropdown {...props} />))
+
     return props
 }
 
@@ -76,60 +75,83 @@ describe('CheckboxDropdown', () => {
         expect(onOptionChange).toHaveBeenCalledWith('TypeScript')
     })
 
-it('renders an accessible search field and reports search changes', () => {
-    const onSearchChange = vi.fn()
-    renderDropdown({
-        onSearchChange,
-        searchLabel: 'Search declared skills',
-        searchAriaLabel: 'Search declared skills',
+    it('renders an accessible search field and reports search changes', () => {
+        const onSearchChange = vi.fn()
+        renderDropdown({
+            onSearchChange,
+            searchLabel: 'Search declared skills',
+        })
+
+        const input = container.querySelector<HTMLInputElement>(
+            '#test-options-search'
+        )
+
+        expect(input).not.toBeNull()
+        expect(input?.getAttribute('aria-label')).toBeNull()
+        expect(
+            container.querySelector('label[for="test-options-search"]')
+                ?.textContent
+        ).toBe('Search declared skills')
+
+        act(() => {
+            if (input) {
+                Object.getOwnPropertyDescriptor(
+                    HTMLInputElement.prototype,
+                    'value'
+                )!.set!.call(input, 'Type')
+
+                input.dispatchEvent(new Event('input', { bubbles: true }))
+            }
+        })
+
+        expect(onSearchChange).toHaveBeenCalledWith('Type')
     })
 
-    const input = container.querySelector<HTMLInputElement>(
-        '#test-search'
-    )
+    it('associates help text with the trigger via aria-describedby while closed', () => {
+        renderDropdown({
+            isOpen: false,
+            helpText: 'Some help text',
+        })
 
-    expect(input?.getAttribute('aria-label')).toBe(
-        'Search declared skills'
-    )
-    expect(
-        container.querySelector('label[for="test-search"]')?.textContent
-    ).toBe('Search declared skills')
+        const trigger = container.querySelector('button')
+        const describedBy = trigger?.getAttribute('aria-describedby')
+        const described = describedBy
+            ? container.querySelector(`#${describedBy}`)
+            : null
 
-    act(() => {
-        if (input) {
-            Object.getOwnPropertyDescriptor(
-                HTMLInputElement.prototype,
-                'value'
-            )!.set!.call(input, 'Type')
-
-            input.dispatchEvent(new Event('input', { bubbles: true }))
-        }
+        expect(describedBy).not.toBeNull()
+        expect(described?.textContent).toBe('Some help text')
     })
 
-    expect(onSearchChange).toHaveBeenCalledWith('Type')
-})
+    it('emits no aria-describedby when help text is omitted', () => {
+        renderDropdown({ isOpen: false })
 
+        const trigger = container.querySelector('button')
 
-    it('shows the empty-state message when there are no matching options', () => {
+        expect(trigger?.hasAttribute('aria-describedby')).toBe(false)
+    })
+
+    it('shows the custom empty-state message when there are no matching options', () => {
         renderDropdown({
             options: [],
             noResultsMessage: 'No options match this search.',
         })
 
-        expect(container.textContent).toContain(
-            'No options match this search.'
-        )
+        expect(container.textContent).toContain('No options match this search.')
+        expect(container.querySelector('[role="status"]')).not.toBeNull()
+    })
+
+    it('shows the default empty-state message when none is provided', () => {
+        renderDropdown({ options: [] })
+
+        expect(container.textContent).toContain('No matches found.')
         expect(container.querySelector('[role="status"]')).not.toBeNull()
     })
 
     it('does not render the options panel when closed', () => {
         renderDropdown({ isOpen: false })
 
-        expect(
-            container.querySelector('#test-options')
-        ).toBeNull()
-        expect(
-            container.querySelector('#test-search')
-        ).toBeNull()
+        expect(container.querySelector('#test-options')).toBeNull()
+        expect(container.querySelector('#test-options-search')).toBeNull()
     })
 })
