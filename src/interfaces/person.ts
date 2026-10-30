@@ -9,6 +9,10 @@ export default interface Person {
         city?: string
         state?: string
         country?: string
+        coordinates?: {
+            lat: number
+            lng: number
+        }
     }
     links: {
         website?: string

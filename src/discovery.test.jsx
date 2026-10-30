@@ -10,7 +10,14 @@ const { profiles, counterMounted } = vi.hoisted(() => ({
     profiles: Array.from({ length: 18 }, (_, index) => ({
         id: String(index + 1),
         name: `Developer ${String(index + 1).padStart(2, '0')}`,
-        jobTitle: index < 16 ? 'Frontend Developer' : 'Backend Developer',
+        jobTitle:
+            index < 16
+                ? [
+                      'Frontend Developer',
+                      'Frontend Developer / Backend Developer',
+                      'Senior Frontend React Engineer',
+                  ][index % 3]
+                : 'Backend Developer',
         location: { country: index < 17 ? 'Canada' : 'United States' },
         normalized: { countries: [index < 17 ? 'CA' : 'US'] },
         links: {},
@@ -79,11 +86,17 @@ function type(input, value) {
 }
 
 function checkbox(text) {
-    const label = [...container.querySelectorAll('label')].find(
+    const label = checkboxLabels(container).find(
         (element) => element.textContent.trim() === text
     )
     if (!label) throw new Error(`Checkbox label not found: ${text}`)
     return label.querySelector('input')
+}
+
+function checkboxLabels(element) {
+    return [...element.querySelectorAll('label')].filter((label) =>
+        label.querySelector('input[type="checkbox"]')
+    )
 }
 
 const cardNames = () =>
@@ -94,6 +107,34 @@ const resultCount = () =>
     container.querySelector('.developer-results__count').textContent
 
 describe('recruiter discovery', () => {
+    test('lists role spelling variants once and matches every variant', () => {
+        render()
+        click(button('Role'))
+        const labels = checkboxLabels(container).map((label) =>
+            label.textContent.trim()
+        )
+        expect(labels).toEqual(['Backend Developer', 'Frontend Developer'])
+        click(checkbox('Frontend Developer'))
+        expect(resultCount()).toContain('16 matching developers')
+        expect(container.textContent).toContain('Other roles')
+    })
+
+    test('searches role options using the same spelling normalization', () => {
+        render()
+        click(button('Role'))
+        const search = container.querySelector('#role-options-search')
+        for (const query of [' FRONT-END ', 'front end', 'frontend']) {
+            type(search, query)
+            expect(
+                checkboxLabels(container).map((label) =>
+                    label.textContent.trim()
+                )
+            ).toEqual(['Frontend Developer'])
+        }
+        type(search, '   ')
+        expect(checkboxLabels(container)).toHaveLength(2)
+    })
+
     test('keeps a dropdown open when blur has no related target', () => {
         render(
             <ProfileFilters
@@ -113,7 +154,9 @@ describe('recruiter discovery', () => {
         )
 
         click(button('Required skills'))
-        const search = container.querySelector('#skill-search')
+        const search = container.querySelector(
+            '#required-skills-options-search'
+        )
         act(() => {
             search.dispatchEvent(
                 new FocusEvent('focusout', {
@@ -210,7 +253,7 @@ describe('recruiter discovery', () => {
         render()
         expect(resultCount()).toContain('18 matching developers')
         click(button('Required skills'))
-        expect(document.activeElement.id).toBe('skill-search')
+        expect(document.activeElement.id).toBe('required-skills-options-search')
         expect(
             container.querySelectorAll(
                 '#required-skills-options input[type="checkbox"]'
@@ -244,7 +287,7 @@ describe('recruiter discovery', () => {
     test('searches skill options and supports Escape and outside dismissal', () => {
         render()
         click(button('Required skills'))
-        const input = container.querySelector('#skill-search')
+        const input = container.querySelector('#required-skills-options-search')
         type(input, 'type')
         expect(
             container.querySelectorAll(
@@ -269,6 +312,42 @@ describe('recruiter discovery', () => {
             )
         )
         expect(container.querySelector('#required-skills-options')).toBeNull()
+    })
+
+    test('searches country options case-insensitively with whitespace normalization and no typo correction', () => {
+        render()
+        click(button('Country'))
+        const search = container.querySelector('#country-options-search')
+        const labels = () =>
+            checkboxLabels(container.querySelector('#country-options')).map(
+                (label) => label.textContent.trim()
+            )
+        type(search, '  uNiTeD    StAtEs  ')
+        expect(labels()).toEqual(['United States'])
+        type(search, 'Canda')
+        expect(labels()).toEqual([])
+        type(search, '   ')
+        expect(labels()).toEqual(['Canada', 'United States'])
+    })
+
+    test('searches skill options case-insensitively with whitespace normalization and no typo correction', () => {
+        render()
+        click(button('Required skills'))
+        const search = container.querySelector(
+            '#required-skills-options-search'
+        )
+        const matches = () =>
+            container.querySelectorAll(
+                '#required-skills-options input[type="checkbox"]'
+            ).length
+        type(search, '  typescript  ')
+        expect(matches()).toBe(1)
+        type(search, 'typscript')
+        expect(container.textContent).toContain(
+            'No declared skills match this search.'
+        )
+        type(search, '   ')
+        expect(matches()).toBe(2)
     })
 
     test('keeps order stable during searches and shuffles only when explicitly requested', () => {
@@ -318,18 +397,54 @@ describe('recruiter discovery', () => {
         expect(cardNames()).toHaveLength(16)
         expect(cardNames()[0]).toBe('Developer 01')
         click(button('Required skills'))
-        type(container.querySelector('#skill-search'), 'type')
+        type(container.querySelector('#required-skills-options-search'), 'type')
         click(checkbox('TypeScript'))
         click(button('Clear filters'))
         expect(select.value).toBe('default')
         expect(resultCount()).toContain('18 matching developers')
         click(button('Required skills'))
-        expect(container.querySelector('#skill-search').value).toBe('')
+        expect(
+            container.querySelector('#required-skills-options-search').value
+        ).toBe('')
         expect(
             container.querySelectorAll(
                 '#required-skills-options input[type="checkbox"]'
             )
         ).toHaveLength(2)
+    })
+
+    test.each([
+        ['Country', 'Canada'],
+        ['Role', 'Frontend Developer'],
+    ])('resets pagination when a %s filter changes', (filterLabel, option) => {
+        render()
+        click(button('Show More'))
+        expect(cardNames()).toHaveLength(18)
+        click(button(filterLabel))
+        click(checkbox(option))
+        click(checkbox(option))
+        expect(resultCount()).toContain('18 matching developers')
+        expect(cardNames()).toHaveLength(16)
+        expect(button('Show More')).toBeTruthy()
+    })
+
+    test('keeps the results list mounted when criteria change', () => {
+        render()
+        const results = container.querySelector('.developer-results')
+        type(container.querySelector('input[type="search"]'), 'Developer')
+        click(button('Country'))
+        click(checkbox('Canada'))
+        click(button('Role'))
+        click(checkbox('Frontend Developer'))
+        click(button('Required skills'))
+        click(checkbox('React'))
+        const select = container.querySelector('[aria-label="Sort developers"]')
+        act(() => {
+            select.value = 'name-asc'
+            select.dispatchEvent(new Event('change', { bubbles: true }))
+        })
+        click(button('Clear filters'))
+        expect(container.querySelector('.developer-results')).toBe(results)
     })
 
     test('clear filters from the empty-results message also clears open option searches', () => {
@@ -339,7 +454,7 @@ describe('recruiter discovery', () => {
         click(button('Role'))
         type(container.querySelector('#role-options input'), 'Backend')
         click(button('Required skills'))
-        type(container.querySelector('#skill-search'), 'type')
+        type(container.querySelector('#required-skills-options-search'), 'type')
         click(checkbox('TypeScript'))
         type(
             container.querySelector('input[type="search"]'),
@@ -350,7 +465,9 @@ describe('recruiter discovery', () => {
         expect(resultCount()).toContain('18 matching developers')
         expect(container.querySelector('#required-skills-options')).toBeNull()
         click(button('Required skills'))
-        expect(container.querySelector('#skill-search').value).toBe('')
+        expect(
+            container.querySelector('#required-skills-options-search').value
+        ).toBe('')
     })
 
     test('combines country, role and text with skills, and clears all filters from zero results', () => {

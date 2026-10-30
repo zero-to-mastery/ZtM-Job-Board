@@ -12,6 +12,7 @@ import Person from './interfaces/person'
 import {
     emptyCriteria,
     filterProfiles,
+    getJobTitleOptions,
     ProfileCriteria,
 } from './util/filterProfiles'
 import { normalizeSkills } from './util/skills'
@@ -25,13 +26,7 @@ const profiles: Person[] = persons
 const countries = getCountryOptions(profiles)
 const totalCountries = countries.length
 
-const jobTitles = Array.from(
-    new Set(
-        profiles
-            .map((person) => person.jobTitle)
-            .filter((title): title is string => Boolean(title))
-    )
-).sort()
+const jobTitles = getJobTitleOptions(profiles)
 const skills = normalizeSkills(
     profiles.flatMap((person) => person.skills || [])
 ).sort((a, b) => a.localeCompare(b))
@@ -57,6 +52,7 @@ function toggleSelection(current: string[], value: string) {
 function App() {
     const [criteria, setCriteria] = useState<ProfileCriteria>(emptyCriteria)
     const [filterResetKey, setFilterResetKey] = useState(0)
+    const [batch, setBatch] = useState(1)
     const [people, setPeople] = useState(() => {
         const initialPeople = [...profiles]
         shuffle(initialPeople)
@@ -71,20 +67,26 @@ function App() {
         [people, criteria]
     )
 
+    // Any change to search, filters, or sort starts pagination over
+    function updateCriteria(update: React.SetStateAction<ProfileCriteria>) {
+        setCriteria(update)
+        setBatch(1)
+    }
+
     function onSearchChange(event: React.ChangeEvent<HTMLInputElement>) {
         const search = event.target.value
-        setCriteria((current) => ({ ...current, search }))
+        updateCriteria((current) => ({ ...current, search }))
     }
 
     function clearFilters() {
-        setCriteria(emptyCriteria)
+        updateCriteria(emptyCriteria)
         setFilterResetKey((current) => current + 1)
     }
 
     function goBack() {
         setMap(!map)
         setMapOrHomeTitle(map ? pageNames.map : pageNames.home)
-        setCriteria((current) => ({ ...current, search: '' }))
+        updateCriteria((current) => ({ ...current, search: '' }))
     }
 
     function shufflePeopleOnClick() {
@@ -127,7 +129,7 @@ function App() {
                             countries={countries}
                             selectedCountries={criteria.countries}
                             onCountryChange={(country) =>
-                                setCriteria((current) => ({
+                                updateCriteria((current) => ({
                                     ...current,
                                     countries: toggleSelection(
                                         current.countries,
@@ -138,7 +140,7 @@ function App() {
                             jobTitles={jobTitles}
                             selectedJobTitles={criteria.jobTitles}
                             onJobTitleChange={(jobTitle) =>
-                                setCriteria((current) => ({
+                                updateCriteria((current) => ({
                                     ...current,
                                     jobTitles: toggleSelection(
                                         current.jobTitles,
@@ -149,7 +151,7 @@ function App() {
                             skills={skills}
                             selectedSkills={criteria.skills}
                             onSkillChange={(skill) =>
-                                setCriteria((current) => ({
+                                updateCriteria((current) => ({
                                     ...current,
                                     skills: toggleSelection(
                                         current.skills,
@@ -159,7 +161,10 @@ function App() {
                             }
                             sortOption={criteria.sort}
                             onSortChange={(sort) =>
-                                setCriteria((current) => ({ ...current, sort }))
+                                updateCriteria((current) => ({
+                                    ...current,
+                                    sort,
+                                }))
                             }
                             onClear={clearFilters}
                         />
@@ -189,10 +194,12 @@ function App() {
                             </div>
                         </dl>
                         <BatchCards
-                            key={JSON.stringify(criteria)}
                             persons={filteredPersons}
+                            batch={batch}
                             selectedSkills={criteria.skills}
-                            numberPerBatch={16}
+                            onShowMore={() =>
+                                setBatch((current) => current + 1)
+                            }
                             onClear={clearFilters}
                         />
                     </div>
