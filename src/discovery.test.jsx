@@ -413,6 +413,40 @@ describe('recruiter discovery', () => {
         ).toHaveLength(2)
     })
 
+    test.each([
+        ['Country', 'Canada'],
+        ['Role', 'Frontend Developer'],
+    ])('resets pagination when a %s filter changes', (filterLabel, option) => {
+        render()
+        click(button('Show More'))
+        expect(cardNames()).toHaveLength(18)
+        click(button(filterLabel))
+        click(checkbox(option))
+        click(checkbox(option))
+        expect(resultCount()).toContain('18 matching developers')
+        expect(cardNames()).toHaveLength(16)
+        expect(button('Show More')).toBeTruthy()
+    })
+
+    test('keeps the results list mounted when criteria change', () => {
+        render()
+        const results = container.querySelector('.developer-results')
+        type(container.querySelector('input[type="search"]'), 'Developer')
+        click(button('Country'))
+        click(checkbox('Canada'))
+        click(button('Role'))
+        click(checkbox('Frontend Developer'))
+        click(button('Required skills'))
+        click(checkbox('React'))
+        const select = container.querySelector('[aria-label="Sort developers"]')
+        act(() => {
+            select.value = 'name-asc'
+            select.dispatchEvent(new Event('change', { bubbles: true }))
+        })
+        click(button('Clear filters'))
+        expect(container.querySelector('.developer-results')).toBe(results)
+    })
+
     test('clear filters from the empty-results message also clears open option searches', () => {
         render()
         click(button('Country'))
