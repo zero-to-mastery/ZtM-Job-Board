@@ -100,7 +100,7 @@ Please submit a Pull Request to be added to this list. If you are unsure how to 
 
 Use **Required skills** to search the declared skills and select the technologies you need. Results must match **all** selected skills, together with any text, country, or role filters. Remove an individual skill using its chip, or use **Clear filters** to reset the search and filters.
 
-Cards show self-reported skills and mark the ones matching your requirements. Profiles without declared skills still appear when no skill filter is selected. Existing contributors can add a `skills` array to their own submission in a pull request; no skills are inferred from job titles or external profiles.
+Cards show self-reported skills and mark the ones matching your requirements. Filtering and matching marks both ignore case and surrounding whitespace without changing displayed labels. Profiles without declared skills still appear when no skill filter is selected. Existing contributors can add a `skills` array to their own submission in a pull request; no skills are inferred from job titles or external profiles.
 
 - How to add profile image to your ZTM JobBoard profile using Github avatars.
 

@@ -251,13 +251,16 @@ describe('ProfileFilters country dropdown', () => {
 
         const labels = Array.from(container.querySelectorAll('label'))
         expect(labels.map((l) => l.textContent?.trim())).toEqual([
+            'Search countries',
             'Belgium',
             'Brazil',
             'United Kingdom',
             'United States',
         ])
 
-        const us = labels[3].querySelector('input') as HTMLInputElement
+        const us = labels
+            .find((l) => l.textContent?.trim() === 'United States')
+            ?.querySelector('input') as HTMLInputElement
         expect(us.checked).toBe(true)
         act(() => us.click())
         expect(onCountryChange).toHaveBeenCalledWith('US')

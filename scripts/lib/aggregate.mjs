@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import crypto from 'crypto'
 import { resolveCountry } from '../../src/util/countries/resolveCountry.js'
-import { validateSkills } from '../../src/util/skills.js'
+import { validateSkills } from '../../src/util/skills.ts'
 
 export class SubmissionLoadError extends Error {
     /** @param {{ file: string, message: string }[]} failures */
