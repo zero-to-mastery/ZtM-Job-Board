@@ -197,7 +197,6 @@ function App() {
                             persons={filteredPersons}
                             batch={batch}
                             selectedSkills={criteria.skills}
-                            numberPerBatch={16}
                             onShowMore={() =>
                                 setBatch((current) => current + 1)
                             }
