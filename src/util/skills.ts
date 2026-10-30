@@ -1,12 +1,12 @@
-/** @param {string} skill */
-export function skillKey(skill) {
+// Locale-independent case folding is deliberate: `toLocaleLowerCase()` would
+// vary with the user's locale (e.g. Turkish dotless/dotted I) and silently
+// break skill matching for everyone else.
+export function skillKey(skill: string): string {
     return skill.trim().toLowerCase()
 }
 
-/** @param {readonly string[]} [skills] */
-export function normalizeSkills(skills = []) {
-    /** @type {Map<string, string>} */
-    const labels = new Map()
+export function normalizeSkills(skills: readonly string[] = []): string[] {
+    const labels = new Map<string, string>()
     for (const skill of skills) {
         const label = skill.trim()
         const key = skillKey(label)
@@ -17,11 +17,7 @@ export function normalizeSkills(skills = []) {
     return Array.from(labels.values())
 }
 
-/**
- * @param {unknown} skills
- * @param {string} filename
- */
-export function validateSkills(skills, filename) {
+export function validateSkills(skills: unknown, filename: string): void {
     if (skills === undefined) {
         return
     }

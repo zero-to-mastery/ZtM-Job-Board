@@ -7,6 +7,7 @@ import { spawnSync } from 'node:child_process'
 import { normalizeSkills, skillKey, validateSkills } from './skills'
 import { emptyCriteria, filterProfiles } from './filterProfiles'
 import { resolveCountry } from './countries/resolveCountry.js'
+import type Person from '../interfaces/person'
 
 describe('skills', () => {
     test.each([
@@ -54,7 +55,13 @@ describe('skills', () => {
     )
 })
 
-const profile = (id, name, skills, country, jobTitle) => ({
+const profile = (
+    id: string,
+    name: string,
+    skills: string[] | undefined,
+    country: string,
+    jobTitle: string
+): Person => ({
     id,
     name,
     skills,
@@ -137,7 +144,7 @@ describe('profile matching', () => {
 })
 
 describe('aggregation validation', () => {
-    let directory
+    let directory: string | undefined
     afterEach(() => {
         if (directory) {
             fs.rmSync(directory, { recursive: true, force: true })

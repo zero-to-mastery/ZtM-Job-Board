@@ -36,9 +36,7 @@ export function filterProfiles(
     const requiredSkills = normalizeSkills(criteria.skills).map(skillKey)
     const matchesText = createFilter(criteria.search, searchKeys)
     const filtered = people.filter((person) => {
-        const skills = new Set(
-            normalizeSkills(person.skills).map(skillKey)
-        )
+        const skills = new Set(normalizeSkills(person.skills).map(skillKey))
         return (
             matchesText(person) &&
             matchesCountries(person, criteria.countries) &&
