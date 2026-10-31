@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import { validateSubmission } from './validate-submission.mjs'
+import { validateSubmission } from './validate-submission.ts'
 const validSubmission = {
     name: 'Test Developer',
     jobTitle: 'Full Stack Developer',

@@ -23,7 +23,7 @@ jobs:
 
                   npm ci # install packages
 
-                  NODE_OUTPUT=`node scripts/aggregate-json.mjs 2>&1`
+                  NODE_OUTPUT=`node scripts/aggregate-json.ts 2>&1`
 
                   if [[ ! $NODE_OUTPUT ]];then
                     exit 0
@@ -42,6 +42,9 @@ jobs:
                   -H "Accept: application/vnd.github.v3+json" \
                   -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                   "https://api.github.com/repos/${{ github.repository }}/commits/$GITHUB_SHA/comments"
+
+            - name: Type-check
+              run: npm run typecheck
 
             - name: Build Project
               run: |
