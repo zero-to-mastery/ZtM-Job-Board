@@ -88,6 +88,10 @@ function App() {
         updateCriteria((current) => ({ ...current, search: '' }))
     }
 
+    function goHome() {
+        if (map) goBack()
+    }
+
     function shufflePeopleOnClick() {
         const shuffledPeople = [...people]
         shuffle(shuffledPeople)
@@ -98,7 +102,7 @@ function App() {
         <div className="flex flex-column min-vh-100 tc">
             <header className="app-bar custom--unselectable top-0 w-100 custom--shadow-4 z-9999">
                 <Navbar
-                    onLogoClick={goBack}
+                    onTitleClick={goHome}
                     onSearchChange={onSearchChange}
                     searchValue={criteria.search}
                     onMapClick={goBack}
