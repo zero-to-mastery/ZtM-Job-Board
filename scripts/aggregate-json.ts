@@ -3,7 +3,7 @@ import {
     aggregate,
     collectUnknownCountryValues,
     formatCountryWarning,
-} from './lib/aggregate.mjs'
+} from './lib/aggregate.ts'
 
 const JSON_SOURCE_DIR = 'Submissions'
 const FINAL_JSON_FILE = 'src/assets/persons.json'
@@ -20,8 +20,8 @@ try {
         collectUnknownCountryValues(submissions)
     )
     if (warning !== '') console.log(warning)
-} catch (e) {
-    console.error(`error: ${e.message}`)
+} catch (e: unknown) {
+    console.error(`error: ${e instanceof Error ? e.message : String(e)}`)
     console.error(`${FINAL_JSON_FILE} was not updated.`)
     process.exitCode = 1
 }

@@ -8,26 +8,26 @@ import {
     collectUnknownCountryValues,
     formatCountryWarning,
     loadSubmissions,
-} from './aggregate.mjs'
+} from './aggregate.ts'
 
 const REPO_ROOT = path.resolve(
     path.dirname(fileURLToPath(import.meta.url)),
     '..',
     '..'
 )
-const AGGREGATE_CLI = path.join(REPO_ROOT, 'scripts', 'aggregate-json.mjs')
+const AGGREGATE_CLI = path.join(REPO_ROOT, 'scripts', 'aggregate-json.ts')
 
-const submission = (name, country) => ({
+const submission = (name: string, country: string) => ({
     name,
     jobTitle: 'Developer',
     links: {},
     location: { city: 'City', state: '', country },
 })
 
-let tmp
-let sourceDir
+let tmp: any
+let sourceDir: string
 
-const writeFixtures = (fixtures) => {
+const writeFixtures = (fixtures: Record<string, unknown>) => {
     for (const [file, data] of Object.entries(fixtures)) {
         fs.writeFileSync(
             path.join(sourceDir, file),
@@ -36,7 +36,7 @@ const writeFixtures = (fixtures) => {
     }
 }
 
-const collectFromFixtures = (fixtures) => {
+const collectFromFixtures = (fixtures: Record<string, unknown>) => {
     writeFixtures(fixtures)
     return collectUnknownCountryValues(loadSubmissions(sourceDir))
 }
@@ -124,7 +124,7 @@ describe('formatCountryWarning', () => {
     })
 
     test('caps at 10 value lines and reports the remainder', () => {
-        const entries = Array.from({ length: 13 }, (_, i) => ({
+        const entries = Array.from({ length: 13 }, (_: unknown, i: number) => ({
             value: `Mysteryland ${String(i + 1).padStart(2, '0')}`,
             files: [`mystery-${i + 1}.json`],
         }))
@@ -137,7 +137,7 @@ describe('formatCountryWarning', () => {
 })
 
 describe('aggregate-json CLI warning', () => {
-    let outputFile
+    let outputFile: any
 
     const runCli = () =>
         spawnSync(process.execPath, [AGGREGATE_CLI], {
@@ -183,7 +183,7 @@ describe('aggregate-json CLI warning', () => {
     })
 
     test('caps the warning at 10 value lines', () => {
-        const fixtures = {}
+        const fixtures: Record<string, unknown> = {}
         for (let i = 1; i <= 12; i += 1) {
             fixtures[`mystery-${String(i).padStart(2, '0')}.json`] = submission(
                 `Mystery ${i}`,
