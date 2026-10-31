@@ -1,0 +1,50 @@
+{
+    "name": "Job Board - Zero to Mastery",
+    "short_name": "Job Board - ZtM",
+    "icons": [
+        {
+            "src": "/android-chrome-36x36.png?v=1",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-48x48.png?v=1",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-72x72.png?v=1",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-96x96.png?v=1",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-144x144.png?v=1",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-192x192.png?v=1",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-256x256.png?v=1",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-384x384.png?v=1",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#212121",
+    "background_color": "#EEEEEE",
+    "start_url": "https://zero-to-mastery.github.io/ZtM-Job-Board/",
+    "display": "browser"
+}
