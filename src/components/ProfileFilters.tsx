@@ -16,6 +16,7 @@ interface ProfileFiltersProps {
     sortOption: SortOption
     onSortChange: (sortOption: SortOption) => void
     onClear: () => void
+    onOpenCommandPalette?: () => void
 }
 
 const ProfileFilters = forwardRef<{ clearFilters: () => void }, ProfileFiltersProps>(({
@@ -31,6 +32,7 @@ const ProfileFilters = forwardRef<{ clearFilters: () => void }, ProfileFiltersPr
     sortOption,
     onSortChange,
     onClear,
+    onOpenCommandPalette,
 }: ProfileFiltersProps, ref) => {
     const [openFilter, setOpenFilter] = useState('')
     const [countrySearch, setCountrySearch] = useState('')
@@ -135,13 +137,25 @@ const ProfileFilters = forwardRef<{ clearFilters: () => void }, ProfileFiltersPr
             <div className="flex justify-between items-center mb3">
                 <h2 className="f4 ma0">Filters &amp; Sort</h2>
 
-                <button
-                    type="button"
-                    className="profile-filters__clear"
-                    onClick={clearFilters}
-                >
-                    Clear filters
-                </button>
+                <div className="flex items-center">
+                    {onOpenCommandPalette && (
+                        <button
+                            type="button"
+                            className="command-palette-trigger"
+                            aria-keyshortcuts="Meta+K Control+K"
+                            onClick={onOpenCommandPalette}
+                        >
+                            Quick filter (Cmd+K / Ctrl+K)
+                        </button>
+                    )}
+                    <button
+                        type="button"
+                        className="profile-filters__clear"
+                        onClick={clearFilters}
+                    >
+                        Clear filters
+                    </button>
+                </div>
             </div>
 
             <div className="profile-filters__grid">
