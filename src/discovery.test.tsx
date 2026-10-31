@@ -45,6 +45,8 @@ vi.mock('react-countup', () => ({
     },
 }))
 
+vi.mock('./components/Map', () => ({ default: () => null }))
+
 let container: any
 let root: ReturnType<typeof createRoot>
 beforeEach(() => {
@@ -555,3 +557,147 @@ describe('recruiter discovery', () => {
         ).toBe('')
     })
 })
+
+describe('command palette', () => {
+    const palette = () => container.querySelector('.command-palette')
+    const paletteInput = () =>
+        container.querySelector('.command-palette__input')
+
+    function pressKey(
+        init: KeyboardEventInit,
+        target: EventTarget = document.activeElement ?? document.body
+    ) {
+        let event!: KeyboardEvent
+        act(() => {
+            event = new KeyboardEvent('keydown', {
+                bubbles: true,
+                cancelable: true,
+                ...init,
+            })
+            target.dispatchEvent(event)
+        })
+        return event
+    }
+
+    const openPalette = () => pressKey({ key: 'k', ctrlKey: true })
+
+    test('opens with Cmd+K or Ctrl+K and ignores a plain k', () => {
+        render()
+        const plain = pressKey({ key: 'k' })
+        expect(plain.defaultPrevented).toBe(false)
+        expect(palette()).toBeNull()
+
+        const meta = pressKey({ key: 'k', metaKey: true })
+        expect(meta.defaultPrevented).toBe(true)
+        expect(palette()).not.toBeNull()
+        expect(document.activeElement).toBe(paletteInput())
+        pressKey({ key: 'Escape' }, paletteInput())
+
+        const ctrl = openPalette()
+        expect(ctrl.defaultPrevented).toBe(true)
+        expect(palette()).not.toBeNull()
+    })
+
+    test('opens from the visible trigger button', () => {
+        render()
+        click(button('Quick filter (Cmd+K / Ctrl+K)'))
+        expect(palette()).not.toBeNull()
+    })
+
+    test('does nothing on the map view', async () => {
+        render()
+        await act(async () => button('Map').click())
+        const event = openPalette()
+        expect(event.defaultPrevented).toBe(false)
+        expect(palette()).toBeNull()
+    })
+
+    test('Escape closes the palette and returns focus to the opener', () => {
+        render()
+        const clear = button('Clear filters')
+        act(() => clear.focus())
+        openPalette()
+        expect(document.activeElement).toBe(paletteInput())
+        pressKey({ key: 'Escape' }, paletteInput())
+        expect(palette()).toBeNull()
+        expect(document.activeElement).toBe(clear)
+    })
+
+    test('Ctrl+K toggles the palette closed while it is open', () => {
+        render()
+        openPalette()
+        openPalette()
+        expect(palette()).toBeNull()
+    })
+
+    test('opening the palette from an open dropdown closes that dropdown', () => {
+        render()
+        click(button('Required skills'))
+        openPalette()
+        expect(palette()).not.toBeNull()
+        expect(container.querySelector('#required-skills-options')).toBeNull()
+    })
+
+    function pick(query: string) {
+        openPalette()
+        type(paletteInput(), query)
+        pressKey({ key: 'Enter' }, paletteInput())
+    }
+
+    test('a skill picked in the palette updates the shared count and dropdown', () => {
+        render()
+        pick('typescript')
+        expect(palette()).toBeNull()
+        expect(resultCount()).toContain('16 matching developers')
+        click(button('Required skills (1)'))
+        expect(checkbox('TypeScript').checked).toBe(true)
+    })
+
+    test('country, role and sort picks update the count and visible controls', () => {
+        render()
+        pick('canada')
+        expect(resultCount()).toContain('17 matching developers')
+        expect(button('Country (1)')).toBeTruthy()
+        pick('backend developer')
+        expect(resultCount()).toContain('6 matching developers')
+        expect(button('Role (1)')).toBeTruthy()
+        pick('name z-a')
+        expect(
+            container.querySelector('[aria-label="Sort developers"]').value
+        ).toBe('name-desc')
+    })
+
+    test('picking the same row again removes it', () => {
+        render()
+        pick('canada')
+        expect(resultCount()).toContain('17 matching developers')
+        pick('canada')
+        expect(resultCount()).toContain('18 matching developers')
+        expect(button('Country')).toBeTruthy()
+    })
+
+    test('Clear all filters from the palette clears open dropdown searches', () => {
+        render()
+        click(button('Required skills'))
+        type(container.querySelector('#required-skills-options-search'), 'type')
+        pick('clear')
+        expect(container.querySelector('#required-skills-options')).toBeNull()
+        expect(resultCount()).toContain('18 matching developers')
+        click(button('Required skills'))
+        expect(
+            container.querySelector('#required-skills-options-search').value
+        ).toBe('')
+    })
+
+    test('focus returns to the trigger after a palette pick', () => {
+        render()
+        const trigger = button('Quick filter (Cmd+K / Ctrl+K)')
+        act(() => trigger.focus())
+        click(trigger)
+        expect(document.activeElement).toBe(paletteInput())
+        type(paletteInput(), 'canada')
+        pressKey({ key: 'Enter' }, paletteInput())
+        expect(document.activeElement).toBe(trigger)
+    })
+})
+

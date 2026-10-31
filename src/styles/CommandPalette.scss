@@ -1,0 +1,102 @@
+/* Command palette overlay. Colors come from the theme variables in
+   src/index.scss so the palette follows light and dark mode. */
+
+.command-palette-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10vh 1rem 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.command-palette {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 560px;
+    max-height: 70vh;
+    overflow: hidden;
+    text-align: left;
+    background-color: var(--color-surface-raised);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px var(--color-dropdown-shadow);
+}
+
+.command-palette__input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 0;
+    border-bottom: 1px solid var(--color-border);
+    background-color: var(--color-input-bg);
+    color: var(--color-text);
+
+    &:focus-visible {
+        outline: 3px solid var(--color-focus);
+        outline-offset: -3px;
+    }
+}
+
+.command-palette__list {
+    margin: 0;
+    padding: 0.25rem;
+    list-style: none;
+    overflow-y: auto;
+}
+
+.command-palette__option {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.command-palette__option--active {
+    background-color: var(--color-highlight-bg);
+    color: var(--color-highlight-text);
+}
+
+.command-palette__category {
+    flex: 0 0 6.5rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    opacity: 0.75;
+}
+
+.command-palette__label {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.command-palette__state {
+    flex: 0 0 auto;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+/* Visible entry point beside "Clear filters". Shortcut hint is text only. */
+.command-palette-trigger {
+    margin-right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+    background: none;
+    border: 1px solid var(--color-control-border);
+    border-radius: 4px;
+    color: var(--color-link);
+
+    &:hover {
+        background-color: var(--color-surface-muted);
+    }
+}
