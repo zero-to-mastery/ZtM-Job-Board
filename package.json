@@ -10,7 +10,6 @@
     "react-countup": "^6.5.3",
     "react-dom": "^19.2.3",
     "react-leaflet": "^5.0.0",
-    "react-search-input": "^0.11.3",
     "tachyons": "^4.12.0",
     "webfontloader": "^1.6.28"
   },
