@@ -46,7 +46,6 @@
         "@types/node": "^25.0.3",
         "@types/react": "^19.2.7",
         "@types/react-dom": "^19.2.3",
-        "@types/react-lazyload": "^3.2.3",
         "@types/webfontloader": "^1.6.38",
         "@vitejs/plugin-react": "^5.1.2",
         "gh-pages": "^6.3.0",
