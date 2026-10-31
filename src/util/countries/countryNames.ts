@@ -266,8 +266,8 @@ export const COUNTRY_NAMES = Object.freeze({
  * @param {string} code
  * @returns {string}
  */
-export function getCountryName(code) {
+export function getCountryName(code: string): string {
     return Object.prototype.hasOwnProperty.call(COUNTRY_NAMES, code)
-        ? COUNTRY_NAMES[code]
+        ? COUNTRY_NAMES[code as keyof typeof COUNTRY_NAMES]
         : code
 }

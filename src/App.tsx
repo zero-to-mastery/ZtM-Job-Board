@@ -116,7 +116,7 @@ function App() {
                         <SimpleMap />
                     </Suspense>
                 ) : (
-                    <div id="sketch-particles">
+                    <>
                         <div
                             className="visible-on-mobileview-only surface-panel"
                             style={style}
@@ -207,7 +207,7 @@ function App() {
                                 profileFiltersRef.current?.clearFilters()
                             }
                         />
-                    </div>
+                    </>
                 )}
             </main>
             <footer className="app-bar custom--unselectable w-100 h3 flex items-center justify-center z-2">

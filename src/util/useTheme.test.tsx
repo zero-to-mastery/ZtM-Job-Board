@@ -6,6 +6,31 @@ import useTheme from './useTheme'
 import { Pointer } from '../components/Pointer'
 ;(globalThis as any).IS_REACT_ACT_ENVIRONMENT = true
 
+// Mock localStorage for jsdom/Node 22 compatibility
+class MockStorage implements Storage {
+    private store: Record<string, string> = {}
+    getItem(key: string) {
+        return this.store[key] ?? null
+    }
+    setItem(key: string, value: string) {
+        this.store[key] = String(value)
+    }
+    removeItem(key: string) {
+        delete this.store[key]
+    }
+    clear() {
+        this.store = {}
+    }
+    get length() {
+        return Object.keys(this.store).length
+    }
+    key(index: number) {
+        return Object.keys(this.store)[index] ?? null
+    }
+}
+const mockStorage = new MockStorage()
+Object.defineProperty(window, 'localStorage', { value: mockStorage })
+
 // A controllable stand-in for window.matchMedia
 const mockSystemTheme = (initial: 'light' | 'dark') => {
     const listeners = new Set<(event: { matches: boolean }) => void>()
@@ -53,7 +78,7 @@ const activeTheme = () => document.documentElement.dataset.theme
 
 describe('useTheme', () => {
     beforeEach(() => {
-        localStorage.clear()
+        window.localStorage.clear()
         delete document.documentElement.dataset.theme
         container = document.createElement('div')
         document.body.appendChild(container)
@@ -75,7 +100,7 @@ describe('useTheme', () => {
     })
 
     it('falls back to the system theme for invalid saved values', () => {
-        localStorage.setItem(THEME_STORAGE_KEY, 'purple')
+        window.localStorage.setItem(THEME_STORAGE_KEY, 'purple')
         mockSystemTheme('dark')
         render()
         expect(activeTheme()).toBe('dark')
@@ -88,7 +113,7 @@ describe('useTheme', () => {
     })
 
     it('prefers a saved theme over the system theme', () => {
-        localStorage.setItem(THEME_STORAGE_KEY, 'light')
+        window.localStorage.setItem(THEME_STORAGE_KEY, 'light')
         mockSystemTheme('dark')
         render()
         expect(activeTheme()).toBe('light')
@@ -100,7 +125,7 @@ describe('useTheme', () => {
 
         act(() => getButton().click())
         expect(activeTheme()).toBe('dark')
-        expect(localStorage.getItem(THEME_STORAGE_KEY)).toBe('dark')
+        expect(window.localStorage.getItem(THEME_STORAGE_KEY)).toBe('dark')
         expect(getButton().textContent).toBe('Light Mode')
         expect(container.querySelector('[role="tooltip"]')?.textContent).toBe(
             'Click to enable light mode'
@@ -108,7 +133,7 @@ describe('useTheme', () => {
 
         act(() => getButton().click())
         expect(activeTheme()).toBe('light')
-        expect(localStorage.getItem(THEME_STORAGE_KEY)).toBe('light')
+        expect(window.localStorage.getItem(THEME_STORAGE_KEY)).toBe('light')
         expect(getButton().textContent).toBe('Dark Mode')
     })
 
@@ -144,13 +169,13 @@ describe('useTheme', () => {
     it('keeps manual selections when storage writes fail', () => {
         const system = mockSystemTheme('light')
         render()
-        vi.spyOn(Storage.prototype, 'setItem').mockImplementation(() => {
+        vi.spyOn(mockStorage, 'setItem').mockImplementation(() => {
             throw new Error('blocked')
         })
 
         act(() => getButton().click())
         expect(activeTheme()).toBe('dark')
-        expect(localStorage.getItem(THEME_STORAGE_KEY)).toBeNull()
+        expect(window.localStorage.getItem(THEME_STORAGE_KEY)).toBeNull()
         system.change('dark')
         system.change('light')
         expect(activeTheme()).toBe('dark')

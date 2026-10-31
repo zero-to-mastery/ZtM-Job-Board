@@ -13,6 +13,19 @@ WebFont.load({
     },
 })
 
+// Older versions of the app registered a service worker. Unregister any
+// registrations left behind so returning visitors do not keep serving stale,
+// pre-Vite cached assets.
+if ('serviceWorker' in navigator) {
+    void navigator.serviceWorker
+        .getRegistrations()
+        .then((registrations) =>
+            Promise.all(
+                registrations.map((registration) => registration.unregister())
+            )
+        )
+}
+
 const container = document.getElementById('root')
 
 if (!container) {
@@ -21,6 +34,3 @@ if (!container) {
 
 const root = createRoot(container)
 root.render(<App />)
-
-// import registerServiceWorker from "./registerServiceWorker";
-// registerServiceWorker()

@@ -8,27 +8,32 @@
 //
 // See docs/country-normalization.md for the full rules.
 
-import { COUNTRY_NAMES } from './countryNames.js'
+import { COUNTRY_NAMES } from './countryNames.ts'
 import {
     COUNTRY_ALIASES,
     AMBIGUOUS_COUNTRY_TERMS,
     NON_LOCATION_TERMS,
-} from './countryAliases.js'
+} from './countryAliases.ts'
 
-/**
- * @typedef {'resolved' | 'partial' | 'ambiguous' | 'unresolved' | 'empty'} CountryStatus
- *
- * @typedef {object} CountryIssue
- * @property {string} fragment The part of the original text that was not resolved.
- * @property {'ambiguous' | 'not-a-country' | 'statement-only' | 'unknown'} type
- * @property {string} reason
- *
- * @typedef {object} CountryResolution
- * @property {unknown} original The value exactly as submitted.
- * @property {string[]} countries ISO codes, in order of appearance, without duplicates.
- * @property {CountryStatus} status
- * @property {CountryIssue[]} issues
- */
+export type CountryStatus =
+    | 'resolved'
+    | 'partial'
+    | 'ambiguous'
+    | 'unresolved'
+    | 'empty'
+
+export interface CountryIssue {
+    fragment: string
+    type: 'ambiguous' | 'not-a-country' | 'statement-only' | 'unknown'
+    reason: string
+}
+
+export interface CountryResolution {
+    original: unknown
+    countries: string[]
+    status: CountryStatus
+    issues: CountryIssue[]
+}
 
 const FLAGS_AND_EMOJI = /[\u{1F1E6}-\u{1F1FF}‍️]|\p{Extended_Pictographic}/gu
 
@@ -44,7 +49,7 @@ const FLAGS_AND_EMOJI = /[\u{1F1E6}-\u{1F1FF}‍️]|\p{Extended_Pictographic}/g
  * @param {unknown} value
  * @returns {string}
  */
-export function normalizeCountryKey(value) {
+export function normalizeCountryKey(value: unknown): string {
     if (typeof value !== 'string') return ''
     return value
         .normalize('NFKD')
@@ -58,7 +63,7 @@ export function normalizeCountryKey(value) {
         .replace(/^the /, '')
 }
 
-function buildIndex(entries, describe) {
+function buildIndex(entries: [string, string][], describe: string) {
     const index = new Map()
     for (const [name, value] of entries) {
         const key = normalizeCountryKey(name)
@@ -83,7 +88,9 @@ for (const [alias, code] of Object.entries(COUNTRY_ALIASES)) {
 
 const COUNTRY_INDEX = buildIndex(
     [
-        ...Object.entries(COUNTRY_NAMES).map(([code, name]) => [name, code]),
+        ...Object.entries(COUNTRY_NAMES).map(
+            ([code, name]): [string, string] => [name, code]
+        ),
         ...Object.entries(COUNTRY_ALIASES),
     ],
     'country alias'
@@ -123,7 +130,12 @@ const PARENTHETICAL = /[([]([^()[\]]*)[)\]]/g
  *   | { kind: 'ambiguous' | 'not-a-country', reason: string }
  *   | undefined} undefined when nothing matched
  */
-function lookupExact(key) {
+function lookupExact(
+    key: string
+):
+    | { kind: 'country'; code: string }
+    | { kind: 'ambiguous' | 'not-a-country'; reason: string }
+    | undefined {
     if (AMBIGUOUS_INDEX.has(key)) {
         return { kind: 'ambiguous', reason: AMBIGUOUS_INDEX.get(key) }
     }
@@ -149,7 +161,12 @@ function lookupExact(key) {
  * @returns {{ kind: 'country', code?: string, reason?: string,
  *   endsScope: boolean }}
  */
-function classify(key) {
+function classify(key: string): {
+    kind: string
+    code?: string
+    reason?: string
+    endsScope: boolean
+} {
     if (!key) return { kind: 'empty', endsScope: false }
     const exact = lookupExact(key)
     if (exact) return { ...exact, endsScope: false }
@@ -180,7 +197,10 @@ function classify(key) {
  * @param {boolean} inBracket
  * @returns {{ text: string, inBracket: boolean }[]}
  */
-function splitSegment(segment, inBracket) {
+function splitSegment(
+    segment: string,
+    inBracket: boolean
+): { text: string; inBracket: boolean }[] {
     const key = normalizeCountryKey(segment)
     if (classify(key).kind !== 'unknown') {
         return [{ text: segment, inBracket }]
@@ -209,7 +229,7 @@ function splitSegment(segment, inBracket) {
  * @param {string} text
  * @returns {{ text: string, inBracket: boolean }[]}
  */
-function fragments(text) {
+function fragments(text: string): { text: string; inBracket: boolean }[] {
     if (lookupExact(normalizeCountryKey(text))) {
         return [{ text, inBracket: false }]
     }
@@ -236,7 +256,7 @@ function fragments(text) {
  * @param {unknown} value
  * @returns {CountryResolution}
  */
-export function resolveCountry(value) {
+export function resolveCountry(value: unknown): CountryResolution {
     const original = value === undefined ? null : value
 
     if (value === null || value === undefined) {
@@ -260,12 +280,15 @@ export function resolveCountry(value) {
         return { original, countries: [], status: 'empty', issues: [] }
     }
 
-    const acc = { countries: [], issues: [] }
+    const acc: { countries: string[]; issues: CountryIssue[] } = {
+        countries: [],
+        issues: [],
+    }
     for (const { text, inBracket } of fragments(value)) {
         const classification = classify(normalizeCountryKey(text))
         const fragment = text.trim()
 
-        if (classification.kind === 'country') {
+        if (classification.kind === 'country' && classification.code) {
             if (!acc.countries.includes(classification.code)) {
                 acc.countries.push(classification.code)
             }
@@ -275,8 +298,8 @@ export function resolveCountry(value) {
         ) {
             acc.issues.push({
                 fragment,
-                type: classification.kind,
-                reason: classification.reason,
+                type: classification.kind as 'ambiguous' | 'not-a-country',
+                reason: classification.reason ?? '',
             })
         } else if (classification.kind === 'unknown') {
             acc.issues.push({
@@ -300,7 +323,7 @@ export function resolveCountry(value) {
         })
     }
 
-    let status
+    let status: CountryStatus
     if (acc.countries.length > 0) {
         status = acc.issues.length > 0 ? 'partial' : 'resolved'
     } else if (acc.issues.some((issue) => issue.type === 'ambiguous')) {
