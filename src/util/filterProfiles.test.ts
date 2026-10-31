@@ -260,3 +260,62 @@ describe('role families', () => {
         expect(profiles.map((person) => person.jobTitle)).toEqual(titles)
     })
 })
+describe('search index compatibility', () => {
+    test('rebuilds the index when profile data changes but IDs remain the same', () => {
+        const profiles = [
+            profile('1', 'Rahul Sharma', [], 'India', 'Software Developer'),
+        ]
+
+        const staleIndex = {
+            alex: ['1'],
+            morgan: ['1'],
+        }
+
+        expect(
+            filterProfiles(
+                profiles,
+                { ...emptyCriteria, search: 'Rahul' },
+                staleIndex
+            )
+        ).toEqual(profiles)
+    })
+    test('rebuilds the cached index when profile data changes in place', () => {
+        const profiles = [
+            profile('1', 'Alex Morgan', [], 'Canada', 'Software Developer'),
+        ]
+
+        const staleIndex = {
+            alex: ['1'],
+            morgan: ['1'],
+        }
+
+        filterProfiles(
+            profiles,
+            { ...emptyCriteria, search: 'Alex' },
+            staleIndex
+        )
+
+        profiles[0].name = 'Rahul Sharma'
+
+        expect(
+            filterProfiles(
+                profiles,
+                { ...emptyCriteria, search: 'Rahul' },
+                staleIndex
+            )
+        ).toEqual(profiles)
+    })
+    test('returns no matches when a profile has no searchable tokens', () => {
+        const profiles = [profile('1', '', [], '', '')]
+
+        const emptyIndex = {}
+
+        expect(
+            filterProfiles(
+                profiles,
+                { ...emptyCriteria, search: 'anything' },
+                emptyIndex
+            )
+        ).toEqual([])
+    })
+})

@@ -31,7 +31,54 @@ const peopleIndexCache = new WeakMap<
     { source: SearchIndex; active: SearchIndex }
 >()
 
-const indexedIdsCache = new WeakMap<SearchIndex, Set<string>>()
+const indexedTokensCache = new WeakMap<SearchIndex, Map<string, Set<string>>>()
+
+function getIndexedTokens(sourceIndex: SearchIndex): Map<string, Set<string>> {
+    const cached = indexedTokensCache.get(sourceIndex)
+
+    if (cached) {
+        return cached
+    }
+
+    const tokensById = new Map<string, Set<string>>()
+
+    for (const [token, ids] of Object.entries(sourceIndex)) {
+        for (const id of ids) {
+            if (!tokensById.has(id)) {
+                tokensById.set(id, new Set())
+            }
+
+            tokensById.get(id)!.add(token)
+        }
+    }
+
+    indexedTokensCache.set(sourceIndex, tokensById)
+
+    return tokensById
+}
+
+function getProfileTokens(person: Person): Set<string> {
+    const fields = [
+        person.name,
+        person.jobTitle,
+        person.location?.city,
+        person.location?.state,
+        person.location?.country,
+    ]
+
+    return new Set(
+        fields
+            .filter((field) => typeof field === 'string')
+            .flatMap((field) =>
+                field
+                    .toLowerCase()
+                    .normalize('NFKD')
+                    .replace(/[\u0300-\u036f]/g, '')
+                    .split(/[^a-z0-9]+/)
+                    .filter(Boolean)
+            )
+    )
+}
 
 function getSearchIndex(
     people: readonly Person[],
@@ -40,17 +87,34 @@ function getSearchIndex(
     const cached = peopleIndexCache.get(people)
 
     if (cached?.source === sourceIndex) {
-        return cached.active
+        const indexedTokens = getIndexedTokens(cached.active)
+
+        const isCacheValid = people.every((person) => {
+            const expectedTokens = getProfileTokens(person)
+            const actualTokens = indexedTokens.get(person.id)
+
+            return (
+                (actualTokens?.size ?? 0) === expectedTokens.size &&
+                [...expectedTokens].every((token) => actualTokens?.has(token))
+            )
+        })
+
+        if (isCacheValid) {
+            return cached.active
+        }
     }
 
-    let indexedIds = indexedIdsCache.get(sourceIndex)
+    const indexedTokens = getIndexedTokens(sourceIndex)
 
-    if (!indexedIds) {
-        indexedIds = new Set(Object.values(sourceIndex).flat())
-        indexedIdsCache.set(sourceIndex, indexedIds)
-    }
+    const isCompatible = people.every((person) => {
+        const expectedTokens = getProfileTokens(person)
+        const actualTokens = indexedTokens.get(person.id)
 
-    const isCompatible = people.every((person) => indexedIds!.has(person.id))
+        return (
+            (actualTokens?.size ?? 0) === expectedTokens.size &&
+            [...expectedTokens].every((token) => actualTokens?.has(token))
+        )
+    })
 
     const activeIndex = isCompatible
         ? sourceIndex
