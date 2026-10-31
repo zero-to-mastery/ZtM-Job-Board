@@ -66,7 +66,7 @@
         "not ie <= 11",
         "not op_mini all"
     ],
-    "volta": {
-        "node": "20.15.0"
+    "engines": {
+        "node": ">=22.18"
     }
 }

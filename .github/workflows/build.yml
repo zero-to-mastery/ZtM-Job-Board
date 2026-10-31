@@ -3,7 +3,6 @@ on:
     push:
         branches:
             - master
-
 jobs:
     build:
         runs-on: ubuntu-latest
@@ -13,6 +12,9 @@ jobs:
               with:
                   fetch-depth: 0
                   ref: ${{ github.event.pull_request.head.ref }}
+            - name: Use Node.js
+              uses: actions/setup-node@v4
+              with:
                   node-version: '22'
             - name: Run Script
               shell: bash
@@ -49,6 +51,6 @@ jobs:
               uses: JamesIves/github-pages-deploy-action@v4
               with:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                  BRANCH: gh-pages # The branch the action should deploy to.
+                  BRANCH: gh-pages # The branch the action is deployed to.
                   FOLDER: build
                   CLEAN: true

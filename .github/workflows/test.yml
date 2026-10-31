@@ -1,34 +1,24 @@
-name: Test
-
+name: Continuous Integration
 on:
     pull_request:
         branches:
             - master
-
 jobs:
     test:
         runs-on: ubuntu-latest
         strategy:
             matrix:
-                node-version: [22, 24]
+                node-version: [22]
         steps:
             - name: Check out source code
-              uses: actions/checkout@v2
+              uses: actions/checkout@v4
               with:
                   fetch-depth: 0
 
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v4
               with:
                   node-version: ${{ matrix.node-version }}
-
-            - name: Use cache
-              uses: actions/cache@v3
-              with:
-                  path: |
-                      node_modules
-                      */*/node_modules
-                  key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
 
             - name: Install dependencies
               run: npm ci
@@ -36,9 +26,7 @@ jobs:
             - name: Validate changed submissions
               env:
                   GITHUB_BASE_REF: ${{ github.base_ref }}
-              run: |
-                  git fetch origin "${GITHUB_BASE_REF}"
-                  npm run validate:changed-submissions
+              run: node scripts/validate-changed-submissions.mjs
 
-            - name: Run tests
+            - name: Run Tests
               run: npm test
