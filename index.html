@@ -15,6 +15,31 @@
       under the GitHub Pages subpath (vite.config.js sets base: '').
     -->
         <link rel="icon" type="image/svg+xml" href="favicons/favicon.svg" />
+        <meta name="color-scheme" content="light dark" />
+        <!-- Apply the saved or system theme before first paint to avoid a flash.
+             Keep in sync with resolveTheme in src/util/theme.ts
+             (covered by src/util/themeBootstrap.test.ts) -->
+        <script data-theme-bootstrap>
+            ;(function () {
+                var theme = null
+                try {
+                    theme = localStorage.getItem('theme')
+                } catch (e) {}
+                if (theme !== 'light' && theme !== 'dark') {
+                    try {
+                        theme = window.matchMedia(
+                            '(prefers-color-scheme: dark)'
+                        ).matches
+                            ? 'dark'
+                            : 'light'
+                    } catch (e) {
+                        theme = 'light'
+                    }
+                }
+                document.documentElement.setAttribute('data-theme', theme)
+                document.documentElement.style.colorScheme = theme
+            })()
+        </script>
         <link
             rel="icon"
             type="image/png"
@@ -61,7 +86,7 @@
 
         <title>Job Board •●• Zero to Mastery</title>
     </head>
-    <body class="ma0 pa0 bg-light-gray">
+    <body class="ma0 pa0">
         <noscript> You need to enable JavaScript to run this app. </noscript>
         <div id="root"></div>
         <script type="module" src="/src/index.tsx"></script>

@@ -34,6 +34,8 @@
         "deploy": "gh-pages -d build",
         "aggregate-json": "node scripts/aggregate-json.mjs",
         "countries-json": "node scripts/countries-json.mjs",
+        "country-diagnostics": "node scripts/country-diagnostics.mjs",
+        "validate:changed-submissions": "node scripts/validate-changed-submissions.mjs",
         "serve": "vite preview"
     },
     "devDependencies": {
@@ -56,8 +58,8 @@
         "prettier": "^3.7.4",
         "sass": "^1.97.1",
         "typescript": "^5.9.3",
-        "vite": "^7.3.2",
-        "vitest": "^4.1.11"
+        "vite": "^7.3.7",
+        "vitest": "^4.1.12"
     },
     "browserslist": [
         ">0.2%",

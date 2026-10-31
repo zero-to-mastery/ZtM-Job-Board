@@ -2,10 +2,15 @@ import React from 'react'
 
 interface SearchBoxProps {
     searchChange: (event: React.ChangeEvent<HTMLInputElement>) => void
-    responsiveSearch: React.CSSProperties
+    responsiveSearch?: React.CSSProperties
+    value: string
 }
 
-const SearchBox = ({ searchChange, responsiveSearch }: SearchBoxProps) => {
+const SearchBox = ({
+    searchChange,
+    responsiveSearch,
+    value,
+}: SearchBoxProps) => {
     return (
         <div
             style={responsiveSearch}
@@ -16,10 +21,11 @@ const SearchBox = ({ searchChange, responsiveSearch }: SearchBoxProps) => {
             </svg>
             <input
                 style={responsiveSearch}
-                className="tc text-black br2 bw1 b--solid custom--b--secondary border-box"
+                className="tc br2 bw1 b--solid border-box"
                 type="search"
                 placeholder={`Search by name, role or location`}
                 onChange={searchChange}
+                value={value}
                 aria-label="Search for developers by name, role or location"
             />
             <span className="tooltiptext">

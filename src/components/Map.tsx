@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import {
     MapContainer as LeafletMap,
     Marker,
@@ -6,99 +6,23 @@ import {
     TileLayer,
     Tooltip,
 } from 'react-leaflet'
+import persons from '../assets/persons.json'
+import type Person from '../interfaces/person'
+import { buildLocationMarkers } from '../util/locationMarkers'
+import DeveloperLocationPopup from './DeveloperLocationPopup'
 
-import { countriesWithNumOfDevsObj } from '../util/UsersDataCleanup'
-import { countriesWithLatLng } from '../util/CountriesDataFilter'
+const DEFAULT_CENTER: [number, number] = [55.378052, -3.435973]
 
-// Array of country names and number of devs in those countries
-/* Needed to match country names from countriesWithNumOfDevsObj against 
-country names fetched from API to get their latitude and longitude for markers */
-const countryNamesAndNumOfDevsArr = Object.entries(countriesWithNumOfDevsObj)
-let centerLatLngArr: any = []
+const people: Person[] = persons
 
 function SimpleMap({ zoom = 3 }) {
-    const [allCountriesLatLang, setAllCountriesLatLang] = useState([])
-    useEffect(() => {
-        setAllCountriesLatLang(countriesWithLatLng)
-    }, [])
+    const { countryMarkers, coordinateGroups } = buildLocationMarkers(people)
 
-    let countriesLatLngArr: any = allCountriesLatLang.map(
-        ({ name, latlng }) => ({
-            name,
-            latlng,
-        })
-    )
-
-    // Two nested for loops are okay as array items will always be < 250 in both arrays
-    let finalArrayWithCountryAndLatLng: any = []
-    function finalCountryAndLocationArray() {
-        for (const element of countryNamesAndNumOfDevsArr) {
-            for (let j = 0; j < countriesLatLngArr.length; j++) {
-                if (
-                    element[0].toLowerCase() ===
-                        countriesLatLngArr[j].name.toLowerCase() &&
-                    !finalArrayWithCountryAndLatLng.some(
-                        (entry: any) =>
-                            entry.country.toLowerCase() ===
-                            countriesLatLngArr[j].name.toLowerCase()
-                    )
-                ) {
-                    finalArrayWithCountryAndLatLng.push({
-                        country: countriesLatLngArr[j].name,
-                        latlng: countriesLatLngArr[j].latlng,
-                        numberOfDevs: element,
-                    })
-                }
-            }
-        }
-
-        return finalArrayWithCountryAndLatLng
-    }
-    finalCountryAndLocationArray()
-
-    // DO NOT DELETE THIS COMMENTED OUT CODE BELOW
-    // Might need it to check for unexpected repeated entries which is easier with sorted countries
-    /*
-  let sorterFunction = finalArrayWithCountryAndLatLng.sort(function(a, b) {
-    var nameA = a.country.toUpperCase(); // ignore upper and lowercase
-    var nameB = b.country.toUpperCase(); // ignore upper and lowercase
-    if (nameA < nameB) {
-      return -1;
-    }
-    if (nameA > nameB) {
-      return 1;
-    }
-    // names must be equal
-    return 0;
-  });
-  console.log(sorterFunction);
-  */
-
-    const markersArray = finalArrayWithCountryAndLatLng.map(
-        ({ country, latlng, numberOfDevs }: any) => {
-            let numberOfDevsText =
-                numberOfDevs === 1
-                    ? numberOfDevs + ' Developer from ' + country
-                    : numberOfDevs + ' Developers from ' + country
-            return (
-                <Marker key={country} position={[latlng[0], latlng[1]]}>
-                    <Tooltip>{numberOfDevsText}</Tooltip>
-                    <Popup>{numberOfDevsText}</Popup>
-                </Marker>
-            )
-        }
-    )
-
-    const center: any =
-        centerLatLngArr.length > 0
-            ? [centerLatLngArr[0].lat, centerLatLngArr[0].lng]
-            : [55.378052, -3.435973]
-
-        return (
-             <section aria-label="Developer locations map">
-                <div style={{ height: '90vh', width: '100%', margin: 0 }}>
+    return (
+        <section aria-label="Developer locations map">
+            <div style={{ height: '90vh', width: '100%', margin: 0 }}>
                 <LeafletMap
-                    center={center}
+                    center={DEFAULT_CENTER}
                     zoom={zoom}
                     minZoom={1}
                     maxZoom={10}
@@ -108,12 +32,47 @@ function SimpleMap({ zoom = 3 }) {
                     scrollWheelZoom={true}
                     dragging={true}
                     easeLinearity={0.35}
+                    style={{ height: '100%', width: '100%' }}
                 >
                     <TileLayer
-                        attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+                        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     />
-                    {markersArray}
+
+                    {countryMarkers.map(
+                        ({ code, country, latlng, numberOfDevs }) => {
+                            const countText =
+                                numberOfDevs === 1
+                                    ? '1 developer without an exact pin from ' +
+                                      country
+                                    : numberOfDevs +
+                                      ' developers without exact pins from ' +
+                                      country
+                            return (
+                                <Marker key={code} position={latlng}>
+                                    <Tooltip>{countText}</Tooltip>
+                                    <Popup>{countText}</Popup>
+                                </Marker>
+                            )
+                        }
+                    )}
+                    {coordinateGroups.map(
+                        ({ key, lat, lng, people: group }) => (
+                            <Marker
+                                key={`coordinates-${key}`}
+                                position={[lat, lng]}
+                            >
+                                <Tooltip>
+                                    {group.length === 1
+                                        ? group[0].name
+                                        : `${group.length} developers at this location`}
+                                </Tooltip>
+                                <Popup>
+                                    <DeveloperLocationPopup people={group} />
+                                </Popup>
+                            </Marker>
+                        )
+                    )}
                 </LeafletMap>
             </div>
         </section>

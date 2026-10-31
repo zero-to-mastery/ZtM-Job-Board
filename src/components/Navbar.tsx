@@ -1,41 +1,30 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Search from './Search'
 import '../styles/SearchBarDesktopView.scss'
 import { pageNames } from '../util/pageNames'
-import { shuffle } from '../util/shuffle'
 import { Pointer } from './Pointer'
 import ztmLogo from '../assets/ztm-logo.svg?raw'
+import useTheme from '../util/useTheme'
+
+interface NavbarProps {
+    onSearchChange: (event: React.ChangeEvent<HTMLInputElement>) => void
+    searchValue: string
+    onMapClick: () => void
+    onTitleClick: () => void
+    mapOrHomeTitle: string
+    shufflePeopleOnClick: () => void
+}
 
 const Navbar = ({
     onSearchChange,
+    searchValue,
     onMapClick,
     onTitleClick,
     mapOrHomeTitle,
     shufflePeopleOnClick,
-}: any) => {
-    const [isDarkMode, setIsDarkMode] = useState(false)
-
-    // Check if dark mode is already set in localStorage
-    useEffect(() => {
-        const savedTheme = localStorage.getItem('theme')
-        if (savedTheme === 'dark') {
-            setIsDarkMode(true)
-            document.body.classList.add('dark-mode')
-        }
-    }, [])
-
-    // Toggle dark mode
-    const handleDarkModeToggle = () => {
-        const newMode = !isDarkMode
-        setIsDarkMode(newMode)
-        if (newMode) {
-            document.body.classList.add('dark-mode')
-            localStorage.setItem('theme', 'dark')
-        } else {
-            document.body.classList.remove('dark-mode')
-            localStorage.setItem('theme', 'light')
-        }
-    }
+}: NavbarProps) => {
+    const { theme, toggleTheme } = useTheme()
+    const isDarkMode = theme === 'dark'
 
     return (
         <div className="header-items flex flex-wrap justify-between">
@@ -85,12 +74,15 @@ const Navbar = ({
                         style={{ margin: 0, padding: 0 }}
                         className="visible-on-desktopview-only"
                     >
-                        <Search onSearchChange={onSearchChange} />
+                        <Search
+                            onSearchChange={onSearchChange}
+                            value={searchValue}
+                        />
                     </div>
                 )}
                 {/* Dark mode toggle button */}
                 <Pointer
-                    onClick={handleDarkModeToggle}
+                    onClick={toggleTheme}
                     Text={isDarkMode ? 'Light Mode' : 'Dark Mode'}
                     TooltipText={`Click to enable ${isDarkMode ? 'light' : 'dark'} mode`}
                 />
