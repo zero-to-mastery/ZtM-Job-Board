@@ -1,17 +1,9 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { forwardRef, useEffect, useImperativeHandle, useRef, useState } from 'react'
 import { jobTitleKey, SortOption } from '../util/filterProfiles'
 import { CountryOption } from '../util/personCountries'
 import CheckboxDropdown from './CheckboxDropdown'
 
 interface ProfileFiltersProps {
-    openFilter?: string
-    onOpenFilterChange?: (value: string) => void
-    countrySearch?: string
-    onCountrySearchChange?: (value: string) => void
-    roleSearch?: string
-    onRoleSearchChange?: (value: string) => void
-    skillSearch?: string
-    onSkillSearchChange?: (value: string) => void
     countries: CountryOption[]
     selectedCountries: string[]
     onCountryChange: (countryCode: string) => void
@@ -26,15 +18,7 @@ interface ProfileFiltersProps {
     onClear: () => void
 }
 
-const ProfileFilters = ({
-    openFilter: controlledOpenFilter,
-    onOpenFilterChange,
-    countrySearch: controlledCountrySearch,
-    onCountrySearchChange,
-    roleSearch: controlledRoleSearch,
-    onRoleSearchChange,
-    skillSearch: controlledSkillSearch,
-    onSkillSearchChange,
+const ProfileFilters = forwardRef<{ clearFilters: () => void }, ProfileFiltersProps>(({
     countries,
     selectedCountries,
     onCountryChange,
@@ -47,20 +31,22 @@ const ProfileFilters = ({
     sortOption,
     onSortChange,
     onClear,
-}: ProfileFiltersProps) => {
-    const [localOpenFilter, setLocalOpenFilter] = useState('')
-    const [localCountrySearch, setLocalCountrySearch] = useState('')
-    const [localRoleSearch, setLocalRoleSearch] = useState('')
-    const [localSkillSearch, setLocalSkillSearch] = useState('')
-    const openFilter = controlledOpenFilter ?? localOpenFilter
-    const setOpenFilter = onOpenFilterChange ?? setLocalOpenFilter
-    const countrySearch = controlledCountrySearch ?? localCountrySearch
-    const setCountrySearch = onCountrySearchChange ?? setLocalCountrySearch
-    const roleSearch = controlledRoleSearch ?? localRoleSearch
-    const setRoleSearch = onRoleSearchChange ?? setLocalRoleSearch
-    const skillSearch = controlledSkillSearch ?? localSkillSearch
-    const setSkillSearch = onSkillSearchChange ?? setLocalSkillSearch
+}: ProfileFiltersProps, ref) => {
+    const [openFilter, setOpenFilter] = useState('')
+    const [countrySearch, setCountrySearch] = useState('')
+    const [roleSearch, setRoleSearch] = useState('')
+    const [skillSearch, setSkillSearch] = useState('')
     const filterContainer = useRef<HTMLDivElement>(null)
+
+    useImperativeHandle(ref, () => ({
+        clearFilters: () => {
+            setCountrySearch('')
+            setRoleSearch('')
+            setSkillSearch('')
+            setOpenFilter('')
+            onClear()
+        },
+    }))
 
     useEffect(() => {
         if (!openFilter) {
@@ -104,7 +90,7 @@ const ProfileFilters = ({
     )
 
     const toggleFilter = (filter: string) => {
-        setOpenFilter(openFilter === filter ? '' : filter)
+        setOpenFilter((current) => (current === filter ? '' : filter))
     }
 
     const clearFilters = () => {
@@ -276,6 +262,6 @@ const ProfileFilters = ({
             )}
         </div>
     )
-}
+})
 
 export default ProfileFilters
