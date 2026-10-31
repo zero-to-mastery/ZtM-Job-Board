@@ -260,3 +260,101 @@ describe('role families', () => {
         expect(profiles.map((person) => person.jobTitle)).toEqual(titles)
     })
 })
+
+describe('text search', () => {
+    const searchable: Person[] = [
+        {
+            id: '1',
+            name: 'Ada Lovelace',
+            jobTitle: 'Frontend Developer',
+            location: {
+                city: 'London',
+                state: 'Greater London',
+                country: 'United Kingdom',
+            },
+            links: {},
+        },
+        {
+            id: '2',
+            name: 'Grace Hopper',
+            jobTitle: 'Project Manager',
+            email: 'grace@example.org',
+            skills: ['Rust'],
+            location: {
+                city: 'Arlington',
+                state: 'Virginia',
+                country: 'United States',
+            },
+            links: { github: 'gracehopper' },
+        },
+        {
+            id: '3',
+            name: 'Linus C++',
+            location: { country: 'Finland' },
+            links: {},
+        },
+        {
+            id: '4',
+            name: 'Dot Net Dev',
+            jobTitle: 'Engineer.',
+            location: { city: 'Paris' },
+            links: {},
+        },
+    ]
+    const search = (text: string) =>
+        filterProfiles(searchable, { ...emptyCriteria, search: text }).map(
+            (person) => person.id
+        )
+
+    test.each<[string, string[]]>([
+        ['hopper', ['2']],
+        ['frontend', ['1']],
+        ['arlington', ['2']],
+        ['virginia', ['2']],
+        ['finland', ['3']],
+    ])('matches %j in a searched field', (text, ids) => {
+        expect(search(text)).toEqual(ids)
+    })
+
+    test('ignores case', () => {
+        expect(search('ADA LoVeLaCe')).toEqual(['1'])
+        expect(search('FINLAND')).toEqual(['3'])
+    })
+
+    test('requires every term to match, across different fields', () => {
+        expect(search('ada london')).toEqual(['1'])
+        expect(search('frontend united')).toEqual(['1'])
+        expect(search('grace virginia')).toEqual(['2'])
+        expect(search('ada arlington')).toEqual([])
+        expect(search('ada grace')).toEqual([])
+    })
+
+    test('splits terms on any whitespace and ignores surrounding whitespace', () => {
+        expect(search('  ada \t  lovelace  ')).toEqual(['1'])
+        expect(search('ada\tlondon')).toEqual(['1'])
+    })
+
+    test('returns everyone for an empty or whitespace-only search', () => {
+        expect(search('')).toEqual(['1', '2', '3', '4'])
+        expect(search('   ')).toEqual(['1', '2', '3', '4'])
+    })
+
+    test('treats punctuation and regular expression syntax as plain text', () => {
+        expect(search('c++')).toEqual(['3'])
+        expect(search('.')).toEqual(['4'])
+        expect(search('^ada')).toEqual([])
+        expect(search('(')).toEqual([])
+    })
+
+    test('does not search skills, email or links', () => {
+        expect(search('rust')).toEqual([])
+        expect(search('example')).toEqual([])
+        expect(search('gracehopper')).toEqual([])
+    })
+
+    test('tolerates missing job titles and location fields', () => {
+        expect(search('linus')).toEqual(['3'])
+        expect(search('linus finland')).toEqual(['3'])
+        expect(search('paris')).toEqual(['4'])
+    })
+})

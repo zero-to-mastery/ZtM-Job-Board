@@ -1,4 +1,3 @@
-import { createFilter } from 'react-search-input'
 import Person from '../interfaces/person'
 import { normalizeSkills, skillKey } from './skills'
 import { matchesCountries } from './personCountries'
@@ -21,13 +20,29 @@ export const emptyCriteria: ProfileCriteria = {
     sort: 'default',
 }
 
-const searchKeys = [
-    'name',
-    'jobTitle',
-    'location.city',
-    'location.state',
-    'location.country',
+// Fields the text search matches. Skills, links and other fields are ignored.
+const searchFields: ((person: Person) => string | undefined)[] = [
+    (person) => person.name,
+    (person) => person.jobTitle,
+    (person) => person.location?.city,
+    (person) => person.location?.state,
+    (person) => person.location?.country,
 ]
+
+// Every whitespace-separated term must appear, ignoring case, in at least one
+// searched field. Terms are literal text, so "." and "c++" are not regexes.
+const createTextFilter = (search: string) => {
+    const terms = search
+        .toLowerCase()
+        .split(/\s+/)
+        .filter((term) => term !== '')
+    return (person: Person) =>
+        terms.every((term) =>
+            searchFields.some((field) =>
+                (field(person) ?? '').toLowerCase().includes(term)
+            )
+        )
+}
 
 const formatJobTitle = (title: string) =>
     title
@@ -169,7 +184,7 @@ export function filterProfiles(
     criteria: ProfileCriteria
 ): Person[] {
     const requiredSkills = normalizeSkills(criteria.skills).map(skillKey)
-    const matchesText = createFilter(criteria.search, searchKeys)
+    const matchesText = createTextFilter(criteria.search)
     const selectedTitles = new Set(criteria.jobTitles.map(jobTitleKey))
     const filtered = people.filter((person) => {
         const skills = new Set(normalizeSkills(person.skills).map(skillKey))
