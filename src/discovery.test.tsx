@@ -1,4 +1,4 @@
-﻿import React, { act, useEffect } from 'react'
+import React, { act, useEffect } from 'react'
 import { createRoot } from 'react-dom/client'
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest'
 import App from './App'
@@ -37,7 +37,7 @@ vi.mock('./util/shuffle', () => ({
     }),
 }))
 vi.mock('react-countup', () => ({
-    default: ({ end }) => {
+    default: ({ end }: { end: number }) => {
         useEffect(() => {
             counterMounted()
         }, [])
@@ -45,10 +45,10 @@ vi.mock('react-countup', () => ({
     },
 }))
 
-let container
-let root
+let container: any
+let root: ReturnType<typeof createRoot>
 beforeEach(() => {
-    globalThis.IS_REACT_ACT_ENVIRONMENT = true
+    vi.stubGlobal('IS_REACT_ACT_ENVIRONMENT', true)
     container = document.createElement('div')
     document.body.appendChild(container)
     root = createRoot(container)
@@ -63,37 +63,39 @@ function render(element = <App />) {
     act(() => root.render(element))
 }
 
-function button(text) {
+function button(text: string) {
     const found = [...container.querySelectorAll('button')].find(
-        (element) => element.textContent.trim() === text
+        (element: Element) => element.textContent.trim() === text
     )
     if (!found) throw new Error(`Button not found: ${text}`)
-    return found
+    return found as HTMLElement
 }
 
-function click(element) {
+function click(element: HTMLElement) {
     act(() => element.click())
 }
 
-function type(input, value) {
+function type(input: HTMLInputElement, value: string) {
     act(() => {
         Object.getOwnPropertyDescriptor(
             HTMLInputElement.prototype,
             'value'
-        ).set.call(input, value)
+        )!.set!.call(input, value)
         input.dispatchEvent(new Event('input', { bubbles: true }))
     })
 }
 
-function checkbox(text) {
+function checkbox(text: string): HTMLInputElement {
     const label = checkboxLabels(container).find(
-        (element) => element.textContent.trim() === text
+        (element: Element) => element.textContent.trim() === text
     )
     if (!label) throw new Error(`Checkbox label not found: ${text}`)
-    return label.querySelector('input')
+    const input = label.querySelector('input')
+    if (!input) throw new Error(`Checkbox input not found: ${text}`)
+    return input as HTMLInputElement
 }
 
-function checkboxLabels(element) {
+function checkboxLabels(element: Element) {
     return [...element.querySelectorAll('label')].filter((label) =>
         label.querySelector('input[type="checkbox"]')
     )
@@ -253,7 +255,9 @@ describe('recruiter discovery', () => {
         render()
         expect(resultCount()).toContain('18 matching developers')
         click(button('Required skills'))
-        expect(document.activeElement.id).toBe('required-skills-options-search')
+        expect((document.activeElement as HTMLElement).id).toBe(
+            'required-skills-options-search'
+        )
         expect(
             container.querySelectorAll(
                 '#required-skills-options input[type="checkbox"]'

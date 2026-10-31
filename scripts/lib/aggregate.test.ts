@@ -12,16 +12,30 @@ import {
     loadSubmissions,
     profileId,
     SubmissionLoadError,
-} from './aggregate.mjs'
+} from './aggregate.ts'
 
 const REPO_ROOT = path.resolve(
     path.dirname(fileURLToPath(import.meta.url)),
     '..',
     '..'
 )
-const AGGREGATE_CLI = path.join(REPO_ROOT, 'scripts', 'aggregate-json.mjs')
+const AGGREGATE_CLI = path.join(REPO_ROOT, 'scripts', 'aggregate-json.ts')
 
-const submission = (name, country) => ({
+interface SubmissionFixture {
+    name: string
+    img: string
+    email: string
+    links: { website: string; linkedin: string; github: string }
+    jobTitle: string
+    location: {
+        city: string
+        state: string
+        country: string
+        coordinates?: unknown
+    }
+}
+
+const submission = (name: string, country: string): SubmissionFixture => ({
     name,
     img: '',
     email: '',
@@ -31,7 +45,7 @@ const submission = (name, country) => ({
 })
 
 // Country values taken from real submissions
-const FIXTURES = {
+const FIXTURES: Record<string, Record<string, any>> = {
     'alpha.json': submission('Alpha', 'USA (Willing to relocate!)'),
     'bravo.json': submission('Bravo', 'United States of America'),
     'charlie.json': submission('Charlie', 'USA/Belgium'),
@@ -46,11 +60,11 @@ const FIXTURES = {
     ),
 }
 
-let tmp
-let sourceDir
-let outputFile
+let tmp: string
+let sourceDir: string
+let outputFile: string
 
-const writeFixtures = (fixtures) => {
+const writeFixtures = (fixtures: Record<string, unknown>) => {
     for (const [file, data] of Object.entries(fixtures)) {
         fs.writeFileSync(
             path.join(sourceDir, file),
@@ -59,7 +73,7 @@ const writeFixtures = (fixtures) => {
     }
 }
 
-const hashDir = (dir) =>
+const hashDir = (dir: string) =>
     fs
         .readdirSync(dir)
         .sort()
@@ -100,7 +114,7 @@ describe('aggregate', () => {
         expect(persons).toHaveLength(Object.keys(FIXTURES).length)
 
         const files = Object.keys(FIXTURES).sort()
-        persons.forEach((person, i) => {
+        persons.forEach((person: Record<string, any>, i: number) => {
             const { id, normalized, ...original } = person
             expect(original).toEqual(FIXTURES[files[i]])
             expect(id).toBe(profileId(files[i]))
@@ -231,7 +245,10 @@ describe('aggregate', () => {
         aggregate({ sourceDir, outputFile })
         const persons = JSON.parse(fs.readFileSync(outputFile, 'utf-8'))
         const byName = Object.fromEntries(
-            persons.map((p) => [p.name, p.normalized.countries])
+            persons.map((p: Record<string, any>) => [
+                p.name,
+                p.normalized.countries,
+            ])
         )
 
         expect(byName).toEqual({
@@ -250,7 +267,7 @@ describe('aggregate', () => {
     })
 
     test('preserves scoped country notes and excludes relocation destination lists', () => {
-        const fixtures = {
+        const fixtures: Record<string, SubmissionFixture> = {
             'alpha.json': submission('Alpha', 'USA (remote), Belgium'),
             'bravo.json': submission(
                 'Bravo',
@@ -270,15 +287,19 @@ describe('aggregate', () => {
         const first = fs.readFileSync(outputFile, 'utf-8')
         const persons = JSON.parse(first)
 
-        expect(persons.map((person) => person.normalized.countries)).toEqual([
+        expect(
+            persons.map(
+                (person: Record<string, any>) => person.normalized.countries
+            )
+        ).toEqual([
             ['US', 'BE'],
             ['US', 'CA'],
             ['CA', 'US'],
             ['US', 'BE'],
         ])
-        persons.forEach((person, i) => {
+        persons.forEach((person: Record<string, any>, i: number) => {
             const { id, normalized, ...original } = person
-            expect(original).toEqual(fixtures[Object.keys(fixtures).sort()[i]])
+            expect(original).toEqual(fixtures[Object.keys(fixtures).sort()[i]!])
         })
         aggregate({ sourceDir, outputFile })
         expect(fs.readFileSync(outputFile, 'utf-8')).toBe(first)
@@ -307,7 +328,7 @@ describe('aggregate', () => {
         fs.rmSync(path.join(sourceDir, 'alpha.json'))
         writeFixtures({ 'zulu.json': submission('Zulu', 'Canada') })
         const after = buildPersons(loadSubmissions(sourceDir))
-        expect(after.find((p) => p.name === 'Bravo').id).toBe(ids[1])
+        expect(after.find((p) => p.name === 'Bravo')!.id).toBe(ids[1]!)
         ids.forEach((id) => expect(id).toMatch(/^[0-9a-f]{32}$/))
     })
 
@@ -326,8 +347,10 @@ describe('aggregate', () => {
         try {
             aggregate({ sourceDir, outputFile })
         } catch (e) {
-            expect(e.failures.map((f) => f.file)).toEqual(['broken.json'])
-            expect(e.message).toContain('broken.json')
+            expect(e).toBeInstanceOf(SubmissionLoadError)
+            const error = e as SubmissionLoadError
+            expect(error.failures.map((f) => f.file)).toEqual(['broken.json'])
+            expect(error.message).toContain('broken.json')
         }
         expect(fs.readFileSync(outputFile, 'utf-8')).toBe(
             '["previous valid output"]'
@@ -367,7 +390,7 @@ describe('aggregate-json CLI', () => {
     test('prints nothing on success', () => {
         // Warning-free fixtures: values with `unknown` issues now make the CLI
         // print the unrecognised-country warning (covered in
-        // countryWarning.test.mjs), so silence is asserted on resolved,
+        // countryWarning.test.ts), so silence is asserted on resolved,
         // ambiguous, non-location and empty values only.
         writeFixtures({
             'alpha.json': submission('Alpha', 'USA (Willing to relocate!)'),

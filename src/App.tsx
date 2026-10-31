@@ -1,4 +1,4 @@
-import React, { useRef, useState, useMemo, lazy, Suspense } from "react"
+import React, { useRef, useState, useMemo, lazy, Suspense } from 'react'
 import Search from './components/Search'
 import { shuffle } from './util/shuffle'
 import MapSkeleton from './components/MapSkeleton'
@@ -112,7 +112,7 @@ function App() {
                         <SimpleMap />
                     </Suspense>
                 ) : (
-                    <div id="sketch-particles">
+                    <>
                         <div
                             className="visible-on-mobileview-only surface-panel"
                             style={style}
@@ -199,9 +199,11 @@ function App() {
                             onShowMore={() =>
                                 setBatch((current) => current + 1)
                             }
-                            onClear={() => profileFiltersRef.current?.clearFilters()}
+                            onClear={() =>
+                                profileFiltersRef.current?.clearFilters()
+                            }
                         />
-                    </div>
+                    </>
                 )}
             </main>
             <footer className="app-bar custom--unselectable w-100 h3 flex items-center justify-center z-2">

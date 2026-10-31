@@ -1,9 +1,9 @@
 import { describe, expect, test } from 'vitest'
-import { resolveCountry, normalizeCountryKey } from './resolveCountry.js'
-import { COUNTRY_NAMES, getCountryName } from './countryNames.js'
-import { COUNTRY_ALIASES, AMBIGUOUS_COUNTRY_TERMS } from './countryAliases.js'
+import { resolveCountry, normalizeCountryKey } from './resolveCountry.ts'
+import { COUNTRY_NAMES, getCountryName } from './countryNames.ts'
+import { COUNTRY_ALIASES, AMBIGUOUS_COUNTRY_TERMS } from './countryAliases.ts'
 
-const codesOf = (value) => resolveCountry(value).countries
+const codesOf = (value: unknown) => resolveCountry(value).countries
 
 describe('normalizeCountryKey', () => {
     test.each([

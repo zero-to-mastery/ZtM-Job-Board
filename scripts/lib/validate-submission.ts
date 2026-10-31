@@ -1,4 +1,4 @@
-const isObject = (value) =>
+const isObject = (value: unknown) =>
     value !== null && typeof value === 'object' && !Array.isArray(value)
 /**
  * Validates the structure and field types of a new or updated submission.
@@ -8,9 +8,12 @@ const isObject = (value) =>
  * @param {string} filename
  * @returns {string[]}
  */
-export function validateSubmission(data, filename = 'submission.json') {
-    const errors = []
-    const add = (message) => errors.push(`${filename}: ${message}`)
+export function validateSubmission(
+    data: any,
+    filename: string = 'submission.json'
+): string[] {
+    const errors: string[] = []
+    const add = (message: string) => errors.push(`${filename}: ${message}`)
     if (!isObject(data)) {
         return [`${filename}: submission must be a JSON object`]
     }
@@ -19,10 +22,7 @@ export function validateSubmission(data, filename = 'submission.json') {
     }
     // Optional fields must have the correct type when provided.
     for (const field of ['img', 'email', 'jobTitle']) {
-        if (
-            data[field] !== undefined &&
-            typeof data[field] !== 'string'
-        ) {
+        if (data[field] !== undefined && typeof data[field] !== 'string') {
             add(`"${field}" must be a string when provided`)
         }
     }
@@ -56,7 +56,7 @@ export function validateSubmission(data, filename = 'submission.json') {
         if (
             !Array.isArray(data.skills) ||
             data.skills.some(
-                (skill) => typeof skill !== 'string' || !skill.trim()
+                (skill: any) => typeof skill !== 'string' || !skill.trim()
             )
         ) {
             add('"skills" must be an array of nonblank strings')
