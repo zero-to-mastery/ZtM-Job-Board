@@ -9,6 +9,11 @@ import Navbar from './components/Navbar'
 import persons from './assets/persons.json'
 import { pageNames } from './util/pageNames'
 import Person from './interfaces/person'
+import ProfileCompare from './components/ProfileCompare'
+import {
+    MAX_COMPARE_PROFILES,
+    toggleProfileComparison,
+} from './util/profileComparison'
 import {
     emptyCriteria,
     filterProfiles,
@@ -53,6 +58,9 @@ function App() {
     const profileFiltersRef = useRef<{ clearFilters: () => void } | null>(null)
     const [criteria, setCriteria] = useState<ProfileCriteria>(emptyCriteria)
     const [batch, setBatch] = useState(1)
+    const [selectedProfileIds, setSelectedProfileIds] = useState<string[]>([])
+    const [isCompareOpen, setIsCompareOpen] = useState(false)
+    const [comparisonLimitMessage, setComparisonLimitMessage] = useState('')
     const [people, setPeople] = useState(() => {
         const initialPeople = [...profiles]
         shuffle(initialPeople)
@@ -66,6 +74,36 @@ function App() {
         () => filterProfiles(people, criteria),
         [people, criteria]
     )
+    const selectedProfiles = useMemo(
+    () =>
+        selectedProfileIds
+            .map((id) => profiles.find((person) => person.id === id))
+            .filter((person): person is Person => person !== undefined),
+    [selectedProfileIds]
+)
+
+function handleCompareToggle(profileId: string) {
+    if (
+        !selectedProfileIds.includes(profileId) &&
+        selectedProfileIds.length >= MAX_COMPARE_PROFILES
+    ) {
+        setComparisonLimitMessage(
+            `You can compare up to ${MAX_COMPARE_PROFILES} developers at a time.`
+        )
+        return
+    }
+
+    setComparisonLimitMessage('')
+    setSelectedProfileIds((current) =>
+        toggleProfileComparison(current, profileId)
+    )
+}
+
+function clearComparison() {
+    setSelectedProfileIds([])
+    setComparisonLimitMessage('')
+    setIsCompareOpen(false)
+}
 
     // Any change to search, filters, or sort starts pagination over
     function updateCriteria(update: React.SetStateAction<ProfileCriteria>) {
@@ -192,17 +230,56 @@ function App() {
                                 </dd>
                             </div>
                         </dl>
-                        <BatchCards
-                            persons={filteredPersons}
-                            batch={batch}
-                            selectedSkills={criteria.skills}
-                            onShowMore={() =>
-                                setBatch((current) => current + 1)
-                            }
-                            onClear={() =>
-                                profileFiltersRef.current?.clearFilters()
-                            }
-                        />
+                        <div className="profile-compare-entry">
+    <div>
+        <strong>
+            {selectedProfileIds.length} of {MAX_COMPARE_PROFILES} developers
+            selected
+        </strong>
+
+        {comparisonLimitMessage && (
+            <p role="status">{comparisonLimitMessage}</p>
+        )}
+    </div>
+
+    <div className="profile-compare-entry__actions">
+        {selectedProfileIds.length > 0 && (
+            <button type="button" onClick={clearComparison}>
+                Clear selection
+            </button>
+        )}
+
+        <button
+            type="button"
+            disabled={selectedProfileIds.length < 2}
+            onClick={() => setIsCompareOpen(true)}
+        >
+            Compare developers
+        </button>
+    </div>
+</div>
+
+{isCompareOpen ? (
+    <ProfileCompare
+        persons={selectedProfiles}
+        selectedSkills={criteria.skills}
+        onClear={clearComparison}
+        onBack={() => setIsCompareOpen(false)}
+    />
+) : (
+    <BatchCards
+        persons={filteredPersons}
+        batch={batch}
+        selectedSkills={criteria.skills}
+        selectedProfileIds={selectedProfileIds}
+        comparisonLimitReached={
+            selectedProfileIds.length >= MAX_COMPARE_PROFILES
+        }
+        onCompareToggle={handleCompareToggle}
+        onShowMore={() => setBatch((current) => current + 1)}
+        onClear={() => profileFiltersRef.current?.clearFilters()}
+    />
+)}
                     </>
                 )}
             </main>

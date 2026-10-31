@@ -8,9 +8,20 @@ const defaultAvatarPath =
 interface CardProps {
     user: Person
     selectedSkills?: string[]
+    isCompareSelected?: boolean
+    isCompareDisabled?: boolean
+    onCompareToggle?: (profileId: string) => void
+    comparisonMode?: boolean
 }
 
-const Card = ({ user, selectedSkills = [] }: CardProps) => {
+const Card = ({
+    user,
+    comparisonMode = false,
+    selectedSkills = [],
+    isCompareSelected = false,
+    isCompareDisabled = false,
+    onCompareToggle,
+}: CardProps) => {
     let { id, img, name, email, jobTitle, location, links } = user
     const [failedImage, setFailedImage] = useState<string | null>(null)
     const photoClassName =
@@ -22,7 +33,9 @@ const Card = ({ user, selectedSkills = [] }: CardProps) => {
         return (
             <div
                 id={`person-${id}`}
-                className="card ma3 w5 tc br3 custom--shadow-2 custom--shadow-hover-8 custom--o-95 z-1"
+                className={`card tc br3 custom--shadow-2 custom--shadow-hover-8 custom--o-95 z-1 ${
+                            comparisonMode ? 'profile-compare__card' : 'ma3 w5'
+                }`}
             >
                 <div className="header relative pt3 br2 br--top z-0">
                     {!img || failedImage === img ? (
@@ -53,6 +66,24 @@ const Card = ({ user, selectedSkills = [] }: CardProps) => {
                         {name}
                     </h2>
                     <p className="title text-center">{jobTitle}</p>
+                    {onCompareToggle && (
+    <button
+        type="button"
+        className={`profile-compare-toggle${
+            isCompareSelected ? ' profile-compare-toggle--selected' : ''
+        }`}
+        aria-pressed={isCompareSelected}
+        aria-label={
+            isCompareSelected
+                ? `Remove ${name} from comparison`
+                : `Add ${name} to comparison`
+        }
+        disabled={isCompareDisabled && !isCompareSelected}
+        onClick={() => onCompareToggle(id)}
+    >
+        {isCompareSelected ? 'Selected for comparison' : 'Compare'}
+    </button>
+)}
                 </div>
                 {skills.length > 0 && (
                     <section

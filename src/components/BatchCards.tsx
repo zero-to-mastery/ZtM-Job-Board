@@ -1,3 +1,4 @@
+
 import React from 'react'
 import CardList from './CardList'
 import BasicButton from './BasicButton'
@@ -8,6 +9,9 @@ interface BatchCardsProps {
     batch: number
     numberPerBatch?: number
     selectedSkills?: string[]
+    selectedProfileIds?: string[]
+    comparisonLimitReached?: boolean
+    onCompareToggle?: (profileId: string) => void
     onShowMore: () => void
     onClear: () => void
 }
@@ -17,6 +21,9 @@ const BatchCards = ({
     batch,
     numberPerBatch = 16,
     selectedSkills = [],
+    selectedProfileIds = [],
+    comparisonLimitReached = false,
+    onCompareToggle,
     onShowMore,
     onClear,
 }: BatchCardsProps) => {
@@ -40,9 +47,13 @@ const BatchCards = ({
                     <CardList
                         persons={persons.slice(0, visibleCount)}
                         selectedSkills={selectedSkills}
+                        selectedProfileIds={selectedProfileIds}
+                        comparisonLimitReached={comparisonLimitReached}
+                        onCompareToggle={onCompareToggle}
                     />
                 </div>
             )}
+
             {persons.length > visibleCount && (
                 <BasicButton action={onShowMore}>Show More</BasicButton>
             )}
