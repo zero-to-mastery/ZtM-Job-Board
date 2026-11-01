@@ -1,0 +1,197 @@
+import path from 'path'
+import allCities from 'all-the-cities'
+import timezones from 'countries-and-timezones'
+import { describe, expect, test } from 'vitest'
+import { buildPersons, loadSubmissions, type Person } from './aggregate.ts'
+import type { City } from './geocode.ts'
+import { createLocationEnricher, locationReport } from './location.ts'
+import { getCountryCoordinates } from '../../src/util/countries/countryCoordinates.ts'
+
+const cities: City[] = [
+    {
+        cityId: 1,
+        name: 'Springfield',
+        altName: '',
+        country: 'US',
+        adminCode: 'IL',
+        population: 100,
+        loc: { coordinates: [-89.65, 39.8] },
+    },
+]
+
+const countryCenter = (code: string): [number, number] | undefined =>
+    code === 'US' ? [37.09, -95.71] : undefined
+
+const addLocation = createLocationEnricher({
+    cities,
+    countryCenter,
+    timezones,
+})
+
+const person = (
+    location: Record<string, unknown>,
+    countries: string[] = ['US']
+): Person => ({
+    id: 'abc',
+    name: 'Test',
+    location,
+    normalized: { countries },
+})
+
+describe('createLocationEnricher', () => {
+    test('explicit coordinates win over the city lookup and are not rewritten', () => {
+        const input = person({
+            city: 'Springfield',
+            state: 'IL',
+            coordinates: { lat: 40.12, lng: -80.34 },
+        })
+
+        const output = addLocation(input)
+
+        expect(output.normalized.geo).toEqual({
+            lat: 40.12,
+            lng: -80.34,
+            approximate: false,
+        })
+        expect(output.location.coordinates).toEqual({
+            lat: 40.12,
+            lng: -80.34,
+        })
+    })
+
+    test('geocodes a known city without coordinates', () => {
+        const output = addLocation(person({ city: 'Springfield', state: 'IL' }))
+
+        expect(output.normalized.geo).toEqual({
+            lat: 39.8,
+            lng: -89.65,
+            approximate: false,
+        })
+    })
+
+    test('falls back to the country center and marks it approximate', () => {
+        const output = addLocation(person({ city: 'Nowhere' }))
+
+        expect(output.normalized.geo).toEqual({
+            lat: 37.09,
+            lng: -95.71,
+            approximate: true,
+        })
+    })
+
+    test('sets geo to an explicit null when nothing can be placed', () => {
+        const output = addLocation(person({ city: 'Nowhere' }, ['XX']))
+
+        expect(output.normalized).toHaveProperty('geo', null)
+    })
+
+    test('sets geo to null when there is no normalized country', () => {
+        const output = addLocation(person({ city: 'Springfield' }, []))
+
+        expect(output.normalized.geo).toBeNull()
+    })
+
+    test('does not mutate the input or change the id and countries', () => {
+        const input = person({ city: 'Springfield', state: 'IL' })
+        const snapshot = JSON.stringify(input)
+
+        const output = addLocation(input)
+
+        expect(JSON.stringify(input)).toBe(snapshot)
+        expect(output.id).toBe('abc')
+        expect(output.normalized.countries).toEqual(['US'])
+        expect(output).not.toBe(input)
+    })
+})
+
+describe('locationReport', () => {
+    test('counts each placement bucket and keeps them summing to total', () => {
+        const persons = [
+            addLocation(person({ city: 'Springfield', state: 'IL' })),
+            addLocation(
+                person({
+                    city: 'Springfield',
+                    coordinates: { lat: 40.12, lng: -80.34 },
+                })
+            ),
+            addLocation(person({ city: 'Nowhere' })),
+            addLocation(person({ city: 'Nowhere' }, ['XX'])),
+        ]
+
+        const report = locationReport(persons)
+
+        expect(report).toMatchObject({
+            total: 4,
+            exact: { explicit: 1, city: 1 },
+            approximate: 1,
+            unplaced: 1,
+            timezone: 3,
+        })
+        expect(
+            report.exact.explicit +
+                report.exact.city +
+                report.approximate +
+                report.unplaced
+        ).toBe(report.total)
+    })
+
+    test('lists approximate cities with their country, most frequent first', () => {
+        const persons = [
+            addLocation(person({ city: 'Nowhere' })),
+            addLocation(person({ city: 'Gormania' })),
+            addLocation(person({ city: 'Nowhere' })),
+        ]
+
+        expect(locationReport(persons).approximateCities).toEqual([
+            { city: 'Nowhere', country: 'US', count: 2 },
+            { city: 'Gormania', country: 'US', count: 1 },
+        ])
+    })
+
+    test('an empty list reports zero everywhere', () => {
+        expect(locationReport([])).toEqual({
+            total: 0,
+            exact: { explicit: 0, city: 0 },
+            approximate: 0,
+            unplaced: 0,
+            timezone: 0,
+            approximateCities: [],
+        })
+    })
+})
+
+describe('real submissions', () => {
+    // Reads Submissions/ and builds profiles in memory only. Nothing is
+    // written, so generated src/assets/persons.json is never touched.
+    const persons = buildPersons(
+        loadSubmissions(path.resolve('Submissions'))
+    ).map(
+        createLocationEnricher({
+            cities: allCities,
+            countryCenter: getCountryCoordinates,
+            timezones,
+        })
+    )
+
+    test('every profile with a resolved country is placed and has a time zone', () => {
+        const withCountry = persons.filter(
+            (p) => p.normalized.countries.length > 0
+        )
+        expect(withCountry.length).toBeGreaterThan(0)
+        expect(withCountry.every((p) => p.normalized.geo)).toBe(true)
+        expect(withCountry.every((p) => p.normalized.timezone)).toBe(true)
+    })
+
+    test('the report accounts for every real submission', () => {
+        const report = locationReport(persons)
+
+        expect(report.total).toBe(persons.length)
+        expect(
+            report.exact.explicit +
+                report.exact.city +
+                report.approximate +
+                report.unplaced
+        ).toBe(report.total)
+        expect(report.exact.city).toBeGreaterThan(report.approximate)
+    })
+})

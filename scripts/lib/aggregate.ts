@@ -20,7 +20,11 @@ export interface SubmissionFailure {
 
 export interface Person {
     id: string
-    normalized: { countries: string[] }
+    normalized: {
+        countries: string[]
+        geo?: { lat: number; lng: number; approximate: boolean } | null
+        timezone?: { name: string; utcOffset: number } | null
+    }
     [key: string]: any
 }
 
@@ -233,19 +237,22 @@ export function writeFileAtomic(file: string, content: string): void {
  * can reuse them instead of reading every file again.
  *
  * @param {{ sourceDir: string, outputFile: string }} options
- * @returns {{ count: number, submissions: Submission[] }}
+ * @returns {{ count: number, persons: Person[], submissions: Submission[] }}
  */
 export function aggregate({
     sourceDir,
     outputFile,
+    enrich,
 }: {
     sourceDir: string
     outputFile: string
-}): { count: number; submissions: Submission[] } {
+    enrich?: (person: Person) => Person
+}): { count: number; persons: Person[]; submissions: Submission[] } {
     const submissions = loadSubmissions(sourceDir)
-    const persons = buildPersons(submissions)
+    const built = buildPersons(submissions)
+    const persons = enrich ? built.map(enrich) : built
     writeFileAtomic(outputFile, JSON.stringify(persons, null, 2))
-    return { count: persons.length, submissions }
+    return { count: persons.length, persons, submissions }
 }
 
 /**

@@ -89,3 +89,92 @@ describe('buildLocationMarkers', () => {
         ).toEqual([['b']])
     })
 })
+
+const withGeo = (
+    id: string,
+    geo: { lat: number; lng: number; approximate: boolean } | null,
+    country?: string
+): Person => ({
+    id,
+    name: `Developer ${id}`,
+    location: country ? { country } : {},
+    links: {},
+    normalized: { countries: country ? [country] : [], geo },
+})
+
+describe('buildLocationMarkers with normalized geo fallback', () => {
+    test('places a profile without coordinates in a normalized geo group', () => {
+        const result = buildLocationMarkers([
+            withGeo('g', { lat: 6.45, lng: 3.39, approximate: true }, 'NG'),
+        ])
+        expect(result.inferredGroups).toEqual([
+            expect.objectContaining({
+                lat: 6.45,
+                lng: 3.39,
+                approximate: true,
+                people: [expect.objectContaining({ id: 'g' })],
+            }),
+        ])
+        expect(result.coordinateGroups).toEqual([])
+        expect(result.countryMarkers).toEqual([])
+    })
+
+    test('keeps approximate false for a city-matched geo fallback', () => {
+        const result = buildLocationMarkers([
+            withGeo('g', { lat: 6.45, lng: 3.39, approximate: false }, 'NG'),
+        ])
+        expect(result.inferredGroups).toEqual([
+            expect.objectContaining({ approximate: false }),
+        ])
+    })
+
+    test('submitted coordinates win over a differing normalized geo', () => {
+        const pinned: Person = {
+            id: 'p',
+            name: 'Developer p',
+            location: { country: 'NG', coordinates: { lat: 51.5, lng: -0.12 } },
+            links: {},
+            normalized: {
+                countries: ['NG'],
+                geo: { lat: 6.45, lng: 3.39, approximate: true },
+            },
+        }
+        const result = buildLocationMarkers([pinned])
+        expect(result.coordinateGroups).toEqual([
+            expect.objectContaining({ lat: 51.5, lng: -0.12 }),
+        ])
+        expect(result.inferredGroups).toEqual([])
+        expect(result.countryMarkers).toEqual([])
+    })
+
+    test('keeps a profile with null geo in its country marker', () => {
+        const result = buildLocationMarkers([withGeo('u', null, 'NG')])
+        expect(result.inferredGroups).toEqual([])
+        expect(result.countryMarkers).toEqual([
+            expect.objectContaining({ code: 'NG', numberOfDevs: 1 }),
+        ])
+    })
+
+    test('treats non-finite geo coordinates as unplaced', () => {
+        const result = buildLocationMarkers([
+            withGeo('n', { lat: NaN, lng: 3.39, approximate: true }, 'NG'),
+        ])
+        expect(result.inferredGroups).toEqual([])
+        expect(result.countryMarkers).toEqual([
+            expect.objectContaining({ code: 'NG', numberOfDevs: 1 }),
+        ])
+    })
+
+    test('groups fallback profiles at identical geo into one reachable marker', () => {
+        const geo = { lat: 9.08, lng: 8.68, approximate: true }
+        const result = buildLocationMarkers([
+            withGeo('x', geo, 'NG'),
+            withGeo('y', geo, 'NG'),
+        ])
+        expect(result.inferredGroups).toHaveLength(1)
+        expect(result.inferredGroups[0].people.map((p) => p.id)).toEqual([
+            'x',
+            'y',
+        ])
+    })
+})

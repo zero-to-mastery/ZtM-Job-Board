@@ -13,10 +13,15 @@ import DeveloperLocationPopup from './DeveloperLocationPopup'
 
 const DEFAULT_CENTER: [number, number] = [55.378052, -3.435973]
 
+// Inferred pins use the default icon, like submitted-coordinate pins, but are
+// drawn faded so the map never presents generated positions as user supplied.
+const INFERRED_OPACITY = 0.6
+
 const people: Person[] = persons
 
 function SimpleMap({ zoom = 3 }) {
-    const { countryMarkers, coordinateGroups } = buildLocationMarkers(people)
+    const { countryMarkers, coordinateGroups, inferredGroups } =
+        buildLocationMarkers(people)
 
     return (
         <section aria-label="Developer locations map">
@@ -73,8 +78,39 @@ function SimpleMap({ zoom = 3 }) {
                             </Marker>
                         )
                     )}
+                    {inferredGroups.map(
+                        ({ key, people: group, lat, lng, approximate }) => {
+                            const placementText = approximate
+                                ? 'Approximate location: region or country centre'
+                                : 'Estimated from city name'
+                            return (
+                                <Marker
+                                    key={`inferred-${key}`}
+                                    position={[lat, lng]}
+                                    opacity={INFERRED_OPACITY}
+                                >
+                                    <Tooltip>
+                                        {group.length === 1
+                                            ? group[0].name
+                                            : `${group.length} developers at this location`}
+                                    </Tooltip>
+                                    <Popup>
+                                        <DeveloperLocationPopup
+                                            people={group}
+                                            placementText={placementText}
+                                        />
+                                    </Popup>
+                                </Marker>
+                            )
+                        }
+                    )}
                 </LeafletMap>
             </div>
+            <p className="f6 ph3 pv2 ma0">
+                Faded pins are inferred from profile location text. Their popups
+                distinguish matched cities from approximate region or country
+                centres.
+            </p>
         </section>
     )
 }

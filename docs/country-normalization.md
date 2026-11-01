@@ -156,6 +156,13 @@ Duplicate aliases are collapsed, so `United Kingdom, UK` yields `GB`.
   marker per code, with `latlng` as a `[latitude, longitude]` number tuple at
   full precision. Codes without coordinates (currently `AX`, `EH`, `HK`,
   `MO`) get no marker.
+- **Map pins**: a profile with submitted `location.coordinates` gets a solid
+  exact pin, grouped by position. Otherwise a profile with a valid
+  `normalized.geo` contributes to a faded inferred pin. Profiles sharing the
+  same inferred position and approximation class share one reachable popup,
+  and the popup says whether the position is a city match or an approximate
+  region or country centre. Only profiles with neither fall back to the country
+  marker. Submitted coordinates always win over `normalized.geo`.
 
 ## Map coordinates
 
@@ -238,6 +245,54 @@ npx vitest run src/util/countries scripts/lib     # resolver + aggregation only
 The resolver tests in `src/util/countries/resolveCountry.test.js` are the
 behavioural contract for the rules above; `scripts/lib/countryWarning.test.mjs`
 covers the aggregation warning.
+
+## Location coverage report
+
+`npm run aggregate-json -- --report` prints a JSON summary of how each profile
+was placed on the map, after the normal aggregation. It is for people running
+the script by hand. The Build workflow never passes `--report`, because its
+output is posted as a commit comment.
+
+```json
+{
+    "total": 2365,
+    "exact": { "explicit": 1, "city": 2028 },
+    "approximate": 305,
+    "unplaced": 31,
+    "timezone": 2334,
+    "approximateCities": [{ "city": "Tanta", "country": "EG", "count": 1 }]
+}
+```
+
+The figures above are from one run over the current `Submissions/` and will
+change as submissions change. Run the command to get the current counts.
+
+- **`exact.explicit`**: the contributor submitted coordinates. These are used
+  as given and are never changed.
+- **`exact.city`**: the city was matched in the offline city dataset. The
+  position is that city's centre, which can still differ from where the person
+  actually lives when several cities share a name.
+- **`approximate`**: no city matched, so the position is the centre of the
+  stated state or region, or failing that the centre of the country. These
+  points are **not** the person's location. They only show roughly where to
+  look. Each one is marked `approximate: true` in `normalized.geo`, and
+  `approximateCities` lists the unmatched cities behind them, most frequent
+  first, so they can be fixed.
+- **`unplaced`**: nothing could be placed, usually because no country resolved.
+  These profiles are left off the map.
+- **`timezone`**: the number of profiles with a time zone. It is inferred from
+  the country, the US state, or the nearest zone city. It is a guess that
+  depends on the placement, so it is not a confirmed local time.
+
+The four placement buckets always add up to `total`. Unlike the other
+buckets, `timezone` is counted separately and does not add to it. A profile
+can be placed and still have no time zone.
+
+Approximate placement is never silent. A profile only counts as `exact` when
+its position came from submitted coordinates or a matched city. Any fallback
+is reported as `approximate`. The real-submission test in
+`scripts/lib/location.test.ts` fails if a profile with a resolved country ends
+up unplaced or without a time zone, so a gap in coverage can't pass unnoticed.
 
 ## Diagnostics
 

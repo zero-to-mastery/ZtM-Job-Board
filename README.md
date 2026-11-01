@@ -70,7 +70,11 @@ inside `Submissions/` folder, and then fill it up with following content.
 
 **Optional map coordinates**
 
-- `coordinates` is optional. Leave the whole object out to keep the country-level marker. Add it only for an individual pin.
+- `coordinates` is optional. When it is omitted, the build may infer a faded
+  map pin from the existing city, state and country text using offline data.
+  The popup identifies city matches and approximate region or country centres.
+  Profiles that cannot be inferred remain in the country-level marker. Add
+  `coordinates` only to supply your own individual pin.
 - If included, `coordinates` must contain exactly two numeric properties: `lat` and `lng`. For example:
 
     ```json

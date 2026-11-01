@@ -7,8 +7,16 @@ vi.mock('react-leaflet', () => ({
         <div data-testid="map">{children}</div>
     ),
     TileLayer: () => null,
-    Marker: ({ children }: { children: React.ReactNode }) => (
-        <div data-testid="marker">{children}</div>
+    Marker: ({
+        children,
+        opacity,
+    }: {
+        children: React.ReactNode
+        opacity?: number
+    }) => (
+        <div data-testid="marker" data-opacity={opacity ?? ''}>
+            {children}
+        </div>
     ),
     Popup: ({ children }: { children: React.ReactNode }) => (
         <div data-testid="popup">{children}</div>
@@ -24,11 +32,15 @@ const fixturePeople: {
     id: string
     name: string
     location: {
+        city?: string
         country?: string
         coordinates?: { lat: number; lng: number }
     }
     links: { github?: string }
-    normalized: { countries: string[] }
+    normalized: {
+        countries: string[]
+        geo?: { lat: number; lng: number; approximate: boolean } | null
+    }
 }[] = []
 
 const setFixturePeople: (people: typeof fixturePeople) => void = (people) => {
@@ -58,6 +70,17 @@ const defaultFixtures: typeof fixturePeople = [
         location: { country: 'US' },
         links: {},
         normalized: { countries: ['US'] },
+    },
+    // Dev placed from normalized geo only, shown as an approximate pin.
+    {
+        id: 'g',
+        name: 'Gbenga Ade',
+        location: { country: 'NG', city: 'Nowhereville' },
+        links: {},
+        normalized: {
+            countries: ['NG'],
+            geo: { lat: 9.08, lng: 8.68, approximate: true },
+        },
     },
 ]
 
@@ -130,5 +153,98 @@ describe('Map', () => {
         expect(coordinatePopup).toBeTruthy()
         expect(coordinatePopup?.textContent).toContain('Ada Lovelace')
         expect(coordinatePopup?.textContent).toContain('Bodhi Lin')
+    })
+
+    it('shows a geo-only dev as its own faded marker', () => {
+        act(() => root.render(<SimpleMap />))
+        const faded = Array.from(
+            container.querySelectorAll('[data-testid="marker"]')
+        ).filter((marker) => marker.getAttribute('data-opacity') === '0.6')
+        expect(faded).toHaveLength(1)
+        expect(faded[0].textContent).toContain('Gbenga Ade')
+        expect(faded[0].textContent).toContain('Approximate location')
+    })
+
+    it('keeps profiles at the same inferred position reachable through one marker', () => {
+        const geo = { lat: 9.08, lng: 8.68, approximate: true }
+        setFixturePeople([
+            {
+                id: 'x',
+                name: 'Developer X',
+                location: { country: 'NG' },
+                links: {},
+                normalized: { countries: ['NG'], geo },
+            },
+            {
+                id: 'y',
+                name: 'Developer Y',
+                location: { country: 'NG' },
+                links: {},
+                normalized: { countries: ['NG'], geo },
+            },
+        ])
+        act(() => root.render(<SimpleMap />))
+        const faded = container.querySelectorAll('[data-opacity="0.6"]')
+        expect(faded).toHaveLength(1)
+        expect(faded[0].textContent).toContain('2 developers at this location')
+        expect(faded[0].textContent).toContain('Developer X')
+        expect(faded[0].textContent).toContain('Developer Y')
+        expect(container.textContent).toContain('Faded pins are inferred')
+    })
+
+    it('keeps exact pins and country markers at full opacity', () => {
+        act(() => root.render(<SimpleMap />))
+        const fadedTexts = Array.from(
+            container.querySelectorAll('[data-opacity="0.6"]')
+        ).map((marker) => marker.textContent ?? '')
+        expect(fadedTexts.join(' ')).not.toContain('Ada Lovelace')
+        expect(fadedTexts.join(' ')).not.toContain('Cora Diaz')
+        expect(fadedTexts.join(' ')).not.toContain(
+            'developers without exact pins'
+        )
+    })
+
+    it('labels a city-matched fallback differently from a region or country centre', () => {
+        setFixturePeople([
+            {
+                id: 'c1',
+                name: 'City Match',
+                location: { country: 'NG', city: 'Lagos' },
+                links: {},
+                normalized: {
+                    countries: ['NG'],
+                    geo: { lat: 6.45, lng: 3.39, approximate: false },
+                },
+            },
+        ])
+        act(() => root.render(<SimpleMap />))
+        const text = container.textContent ?? ''
+        expect(text).toContain('Estimated from city name')
+        expect(text).not.toContain('Approximate location')
+    })
+
+    it('lets submitted coordinates win over a differing normalized geo', () => {
+        setFixturePeople([
+            {
+                id: 'p',
+                name: 'Pinned Dev',
+                location: {
+                    country: 'NG',
+                    coordinates: { lat: 51.5, lng: -0.12 },
+                },
+                links: {},
+                normalized: {
+                    countries: ['NG'],
+                    geo: { lat: 9.08, lng: 8.68, approximate: true },
+                },
+            },
+        ])
+        act(() => root.render(<SimpleMap />))
+        const text = container.textContent ?? ''
+        expect(text).toContain('Pinned Dev')
+        expect(text).not.toContain('Approximate location')
+        expect(container.querySelectorAll('[data-opacity="0.6"]')).toHaveLength(
+            0
+        )
     })
 })

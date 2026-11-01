@@ -22,5 +22,9 @@ export default interface Person {
     // Added by scripts/aggregate-json.mjs; see docs/country-normalization.md
     normalized?: {
         countries: string[] // ISO 3166-1 alpha-2 codes
+        // Added by scripts/lib/location.ts; null when the place cannot be resolved
+        geo?: { lat: number; lng: number; approximate: boolean } | null
+        // Standard (non-DST) offset in minutes; the browser applies DST from name
+        timezone?: { name: string; utcOffset: number } | null
     }
 }
