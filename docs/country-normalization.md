@@ -158,9 +158,11 @@ Duplicate aliases are collapsed, so `United Kingdom, UK` yields `GB`.
   `MO`) get no marker.
 - **Map pins**: a profile with submitted `location.coordinates` gets a solid
   exact pin, grouped by position. Otherwise a profile with a valid
-  `normalized.geo` gets its own pin, drawn faded with the default icon, one per
-  profile, and its popup says whether the position is approximate. Only profiles with neither fall back to
-  the country marker. Submitted coordinates always win over `normalized.geo`.
+  `normalized.geo` contributes to a faded inferred pin. Profiles sharing the
+  same inferred position and approximation class share one reachable popup,
+  and the popup says whether the position is a city match or an approximate
+  region or country centre. Only profiles with neither fall back to the country
+  marker. Submitted coordinates always win over `normalized.geo`.
 
 ## Map coordinates
 
