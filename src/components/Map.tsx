@@ -13,13 +13,14 @@ import DeveloperLocationPopup from './DeveloperLocationPopup'
 
 const DEFAULT_CENTER: [number, number] = [55.378052, -3.435973]
 
-// Approximate pins use the default icon, like exact pins, but are drawn faded
-const APPROXIMATE_OPACITY = 0.6
+// Inferred pins use the default icon, like submitted-coordinate pins, but are
+// drawn faded so the map never presents generated positions as user supplied.
+const INFERRED_OPACITY = 0.6
 
 const people: Person[] = persons
 
 function SimpleMap({ zoom = 3 }) {
-    const { countryMarkers, coordinateGroups, approximateMarkers } =
+    const { countryMarkers, coordinateGroups, inferredGroups } =
         buildLocationMarkers(people)
 
     return (
@@ -77,40 +78,27 @@ function SimpleMap({ zoom = 3 }) {
                             </Marker>
                         )
                     )}
-                    {approximateMarkers.map(
-                        ({ person, lat, lng, approximate }) => {
-                            const locationText = [
-                                person.location?.city,
-                                person.location?.state,
-                                person.location?.country,
-                            ]
-                                .filter(Boolean)
-                                .join(', ')
+                    {inferredGroups.map(
+                        ({ key, people: group, lat, lng, approximate }) => {
                             const placementText = approximate
                                 ? 'Approximate location: region or country centre'
                                 : 'Estimated from city name'
                             return (
                                 <Marker
-                                    key={`approximate-${person.id}`}
+                                    key={`inferred-${key}`}
                                     position={[lat, lng]}
-                                    opacity={APPROXIMATE_OPACITY}
+                                    opacity={INFERRED_OPACITY}
                                 >
-                                    <Tooltip>{person.name}</Tooltip>
+                                    <Tooltip>
+                                        {group.length === 1
+                                            ? group[0].name
+                                            : `${group.length} developers at this location`}
+                                    </Tooltip>
                                     <Popup>
-                                        <strong>{person.name}</strong>
-                                        {locationText && <p>{locationText}</p>}
-                                        <p>{placementText}</p>
-                                        {person.links?.github && (
-                                            <p>
-                                                <a
-                                                    href={person.links.github}
-                                                    target="_blank"
-                                                    rel="noreferrer"
-                                                >
-                                                    GitHub profile
-                                                </a>
-                                            </p>
-                                        )}
+                                        <DeveloperLocationPopup
+                                            people={group}
+                                            placementText={placementText}
+                                        />
                                     </Popup>
                                 </Marker>
                             )
@@ -119,8 +107,9 @@ function SimpleMap({ zoom = 3 }) {
                 </LeafletMap>
             </div>
             <p className="f6 ph3 pv2 ma0">
-                Faded pins are approximate: they show a city, region or country
-                centre, not an exact location.
+                Faded pins are inferred from profile location text. Their popups
+                distinguish matched cities from approximate region or country
+                centres.
             </p>
         </section>
     )

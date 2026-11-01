@@ -165,6 +165,33 @@ describe('Map', () => {
         expect(faded[0].textContent).toContain('Approximate location')
     })
 
+    it('keeps profiles at the same inferred position reachable through one marker', () => {
+        const geo = { lat: 9.08, lng: 8.68, approximate: true }
+        setFixturePeople([
+            {
+                id: 'x',
+                name: 'Developer X',
+                location: { country: 'NG' },
+                links: {},
+                normalized: { countries: ['NG'], geo },
+            },
+            {
+                id: 'y',
+                name: 'Developer Y',
+                location: { country: 'NG' },
+                links: {},
+                normalized: { countries: ['NG'], geo },
+            },
+        ])
+        act(() => root.render(<SimpleMap />))
+        const faded = container.querySelectorAll('[data-opacity="0.6"]')
+        expect(faded).toHaveLength(1)
+        expect(faded[0].textContent).toContain('2 developers at this location')
+        expect(faded[0].textContent).toContain('Developer X')
+        expect(faded[0].textContent).toContain('Developer Y')
+        expect(container.textContent).toContain('Faded pins are inferred')
+    })
+
     it('keeps exact pins and country markers at full opacity', () => {
         act(() => root.render(<SimpleMap />))
         const fadedTexts = Array.from(

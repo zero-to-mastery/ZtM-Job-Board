@@ -3,17 +3,22 @@ import type Person from '../interfaces/person'
 
 interface DeveloperLocationPopupProps {
     people: readonly Person[]
+    placementText?: string
 }
 
 // Popup body for one coordinate pin: header (singular/plural) plus one entry
 // per developer with location line and optional GitHub link.
-const DeveloperLocationPopup = ({ people }: DeveloperLocationPopupProps) => (
+const DeveloperLocationPopup = ({
+    people,
+    placementText,
+}: DeveloperLocationPopupProps) => (
     <>
         <strong>
             {people.length === 1
                 ? 'Developer'
                 : `${people.length} developers at this location`}
         </strong>
+        {placementText && <p>{placementText}</p>}
         {people.map((person) => {
             const locationText = [
                 person.location?.city,

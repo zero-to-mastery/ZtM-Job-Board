@@ -8,29 +8,30 @@ export interface CoordinateGroup {
     people: Person[]
 }
 
-export interface ApproximateMarker {
-    person: Person
+export interface InferredCoordinateGroup {
+    key: string
     lat: number
     lng: number
     approximate: boolean
+    people: Person[]
 }
 
 export interface LocationMarkers {
     countryMarkers: CountryMarker[]
     coordinateGroups: CoordinateGroup[]
-    approximateMarkers: ApproximateMarker[]
+    inferredGroups: InferredCoordinateGroup[]
 }
 
 // Single owner of the placement rule, in priority order: submitted
 // `location.coordinates` gives an exact pin grouped by position; otherwise a
-// valid `normalized.geo` gives an individual approximate marker; otherwise the
-// person is counted toward their country's marker. A person is never counted
-// in more than one of these.
+// valid `normalized.geo` gives a faded inferred pin grouped by position and
+// approximation class; otherwise the person is counted toward their country's
+// marker. A person is never counted in more than one of these.
 export const buildLocationMarkers = (
     people: readonly Person[]
 ): LocationMarkers => {
     const pinned: { person: Person; lat: number; lng: number }[] = []
-    const approximateMarkers: ApproximateMarker[] = []
+    const inferredGroups = new Map<string, InferredCoordinateGroup>()
     const peopleWithoutCoordinates: Person[] = []
     for (const person of people) {
         const coordinates = person.location?.coordinates
@@ -42,12 +43,19 @@ export const buildLocationMarkers = (
             Number.isFinite(geo.lat) &&
             Number.isFinite(geo.lng)
         ) {
-            approximateMarkers.push({
-                person,
-                lat: geo.lat,
-                lng: geo.lng,
-                approximate: geo.approximate,
-            })
+            const key = `${geo.lat},${geo.lng},${geo.approximate}`
+            let group = inferredGroups.get(key)
+            if (!group) {
+                group = {
+                    key,
+                    lat: geo.lat,
+                    lng: geo.lng,
+                    approximate: geo.approximate,
+                    people: [],
+                }
+                inferredGroups.set(key, group)
+            }
+            group.people.push(person)
         } else {
             peopleWithoutCoordinates.push(person)
         }
@@ -69,6 +77,6 @@ export const buildLocationMarkers = (
     return {
         countryMarkers,
         coordinateGroups: Array.from(groups.values()),
-        approximateMarkers,
+        inferredGroups: Array.from(inferredGroups.values()),
     }
 }
