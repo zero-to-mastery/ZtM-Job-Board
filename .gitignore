@@ -31,3 +31,4 @@ yarn-error.log*
 debug.log
 
 src/assets/persons.json
+src/assets/search-index.json
