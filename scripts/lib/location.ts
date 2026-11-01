@@ -12,6 +12,15 @@ export interface Geo {
     approximate: boolean
 }
 
+export interface LocationReport {
+    total: number
+    exact: { explicit: number; city: number }
+    approximate: number
+    unplaced: number
+    timezone: number
+    approximateCities: { city: string; country: string | null; count: number }[]
+}
+
 /**
  * Adds `normalized.geo` and `normalized.timezone` to profiles built by
  * `buildPersons`. Explicit submitted coordinates win and are never rewritten;
@@ -76,4 +85,57 @@ export function createLocationEnricher({
             normalized: { ...person.normalized, geo, timezone },
         }
     }
+}
+
+/**
+ * Counts how each enriched profile was placed, for `aggregate-json --report`.
+ * Every profile falls into exactly one of `explicit`, `city`, `approximate` or
+ * `unplaced`, so those four always add up to `total`. `timezone` counts
+ * profiles with a time zone and is independent of placement.
+ * `approximateCities` lists the cities that only fell back to a state or
+ * country center, most frequent first.
+ *
+ * @param {Person[]} persons profiles that have been through `addLocation`
+ */
+export function locationReport(persons: Person[]): LocationReport {
+    const report: LocationReport = {
+        total: persons.length,
+        exact: { explicit: 0, city: 0 },
+        approximate: 0,
+        unplaced: 0,
+        timezone: 0,
+        approximateCities: [],
+    }
+    const fallbacks = new Map<
+        string,
+        { city: string; country: string | null; count: number }
+    >()
+
+    for (const person of persons) {
+        const geo = person.normalized.geo
+        if (person.normalized.timezone) report.timezone++
+
+        if (!geo) {
+            report.unplaced++
+        } else if (geo.approximate) {
+            report.approximate++
+            const city = person.location?.city?.trim()
+            if (city) {
+                const country = person.normalized.countries?.[0] ?? null
+                const key = `${country}:${city}`
+                const entry = fallbacks.get(key) ?? { city, country, count: 0 }
+                entry.count++
+                fallbacks.set(key, entry)
+            }
+        } else if (person.location?.coordinates) {
+            report.exact.explicit++
+        } else {
+            report.exact.city++
+        }
+    }
+
+    report.approximateCities = [...fallbacks.values()].sort(
+        (a, b) => b.count - a.count || a.city.localeCompare(b.city)
+    )
+    return report
 }

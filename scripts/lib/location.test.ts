@@ -2,7 +2,7 @@ import timezones from 'countries-and-timezones'
 import { describe, expect, test } from 'vitest'
 import type { Person } from './aggregate.ts'
 import type { City } from './geocode.ts'
-import { createLocationEnricher } from './location.ts'
+import { createLocationEnricher, locationReport } from './location.ts'
 
 const cities: City[] = [
     {
@@ -98,5 +98,61 @@ describe('createLocationEnricher', () => {
         expect(output.id).toBe('abc')
         expect(output.normalized.countries).toEqual(['US'])
         expect(output).not.toBe(input)
+    })
+})
+
+describe('locationReport', () => {
+    test('counts each placement bucket and keeps them summing to total', () => {
+        const persons = [
+            addLocation(person({ city: 'Springfield', state: 'IL' })),
+            addLocation(
+                person({
+                    city: 'Springfield',
+                    coordinates: { lat: 40.12, lng: -80.34 },
+                })
+            ),
+            addLocation(person({ city: 'Nowhere' })),
+            addLocation(person({ city: 'Nowhere' }, ['XX'])),
+        ]
+
+        const report = locationReport(persons)
+
+        expect(report).toMatchObject({
+            total: 4,
+            exact: { explicit: 1, city: 1 },
+            approximate: 1,
+            unplaced: 1,
+            timezone: 3,
+        })
+        expect(
+            report.exact.explicit +
+                report.exact.city +
+                report.approximate +
+                report.unplaced
+        ).toBe(report.total)
+    })
+
+    test('lists approximate cities with their country, most frequent first', () => {
+        const persons = [
+            addLocation(person({ city: 'Nowhere' })),
+            addLocation(person({ city: 'Gormania' })),
+            addLocation(person({ city: 'Nowhere' })),
+        ]
+
+        expect(locationReport(persons).approximateCities).toEqual([
+            { city: 'Nowhere', country: 'US', count: 2 },
+            { city: 'Gormania', country: 'US', count: 1 },
+        ])
+    })
+
+    test('an empty list reports zero everywhere', () => {
+        expect(locationReport([])).toEqual({
+            total: 0,
+            exact: { explicit: 0, city: 0 },
+            approximate: 0,
+            unplaced: 0,
+            timezone: 0,
+            approximateCities: [],
+        })
     })
 })
