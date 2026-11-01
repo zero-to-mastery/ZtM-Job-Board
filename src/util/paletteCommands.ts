@@ -30,7 +30,6 @@ export interface PaletteSource {
     sortOption: SortOption
     onSortChange: (sortOption: SortOption) => void
     onClear: () => void
-    onSearch: (search: string) => void
 }
 
 const sortLabels: [SortOption, string][] = [
@@ -90,7 +89,7 @@ export function buildPaletteCommands(source: PaletteSource): PaletteCommand[] {
     return [...skills, ...countries, ...roles, ...sorts, clear]
 }
 
-// Every whitespace-separated term must appear in the category plus label.
+// Every whitespace-separated term must appear in the command label.
 export function filterPaletteCommands(
     commands: PaletteCommand[],
     query: string
@@ -100,7 +99,7 @@ export function filterPaletteCommands(
         .filter((term) => term !== '')
     if (terms.length === 0) return commands
     return commands.filter((command) => {
-        const haystack = paletteKey(`${command.category} ${command.label}`)
+        const haystack = paletteKey(command.label)
         return terms.every((term) => haystack.includes(term))
     })
 }

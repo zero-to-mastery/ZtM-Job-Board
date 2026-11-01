@@ -2,12 +2,17 @@ import React, { act } from 'react'
 import { createRoot, Root } from 'react-dom/client'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import CommandPalette from './CommandPalette'
-import type { PaletteSource } from '../util/paletteCommands'
+import {
+    buildPaletteCommands,
+    type PaletteSource,
+} from '../util/paletteCommands'
 
 let container: HTMLDivElement
 let root: Root
 
-const sourceProps = (): PaletteSource => ({
+const sourceProps = (
+    overrides: Partial<PaletteSource> = {}
+): PaletteSource => ({
     countries: [
         { code: 'DE', label: 'Germany' },
         { code: 'CA', label: 'Canada' },
@@ -23,20 +28,23 @@ const sourceProps = (): PaletteSource => ({
     sortOption: 'default',
     onSortChange: vi.fn(),
     onClear: vi.fn(),
-    onSearch: vi.fn(),
+    ...overrides,
 })
 
 const renderPalette = (
-    overrides: Partial<React.ComponentProps<typeof CommandPalette>> = {}
+    overrides: Partial<React.ComponentProps<typeof CommandPalette>> = {},
+    sourceOverrides: Partial<PaletteSource> = {}
 ) => {
+    const source = sourceProps(sourceOverrides)
     const props = {
         open: true,
         onClose: vi.fn(),
-        ...sourceProps(),
+        commands: buildPaletteCommands(source),
+        onSearch: vi.fn(),
         ...overrides,
     }
     act(() => root.render(<CommandPalette {...props} />))
-    return props
+    return { ...props, ...source }
 }
 
 const input = () =>
@@ -148,10 +156,10 @@ describe('CommandPalette', () => {
     })
 
     it('marks the commands that are already applied', () => {
-        renderPalette({
-            selectedSkills: ['React'],
-            sortOption: 'name-desc',
-        })
+        renderPalette(
+            {},
+            { selectedSkills: ['React'], sortOption: 'name-desc' }
+        )
 
         const applied = options()
             .filter((option) => option.querySelector('.command-palette__state'))

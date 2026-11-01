@@ -35,7 +35,6 @@ const source = (overrides: Partial<PaletteSource> = {}): PaletteSource => ({
     sortOption: 'default',
     onSortChange: vi.fn(),
     onClear: vi.fn(),
-    onSearch: vi.fn(),
     ...overrides,
 })
 
@@ -141,9 +140,9 @@ describe('filterPaletteCommands', () => {
         expect(labels('front-end')).toEqual(['Frontend Developer'])
     })
 
-    test('requires every term and can match on the category name', () => {
-        expect(labels('country canada')).toEqual(['Canada'])
-        expect(labels('country react')).toEqual([])
+    test('matches labels rather than category names', () => {
+        expect(labels('country')).toEqual([])
+        expect(labels('canada')).toEqual(['Canada'])
     })
 
     test('returns nothing for an unmatched query', () => {

@@ -28,7 +28,7 @@ import './styles/DeveloperDiscovery.scss'
 import CountUp from 'react-countup'
 import { getCountryOptions } from './util/personCountries'
 import CommandPalette from './components/CommandPalette'
-import { isPaletteShortcut } from './util/paletteCommands'
+import { buildPaletteCommands, isPaletteShortcut } from './util/paletteCommands'
 const SimpleMap = lazy(() => import('./components/Map'))
 
 const profiles: Person[] = persons
@@ -149,6 +149,27 @@ function App() {
         setPeople(shuffledPeople)
     }
 
+    const filterProps = {
+        countries,
+        selectedCountries: criteria.countries,
+        onCountryChange: toggleCountry,
+        jobTitles,
+        selectedJobTitles: criteria.jobTitles,
+        onJobTitleChange: toggleJobTitle,
+        skills,
+        selectedSkills: criteria.skills,
+        onSkillChange: toggleSkill,
+        sortOption: criteria.sort,
+        onSortChange: setSort,
+        onClear: clearFilters,
+    }
+    const paletteCommands = paletteOpen
+        ? buildPaletteCommands({
+              ...filterProps,
+              onClear: () => profileFiltersRef.current?.clearFilters(),
+          })
+        : []
+
     return (
         <div className="flex flex-column min-vh-100 tc">
             <header className="app-bar custom--unselectable top-0 w-100 custom--shadow-4 z-9999">
@@ -180,37 +201,13 @@ function App() {
                         </div>
                         <ProfileFilters
                             ref={profileFiltersRef}
-                            countries={countries}
-                            selectedCountries={criteria.countries}
-                            onCountryChange={toggleCountry}
-                            jobTitles={jobTitles}
-                            selectedJobTitles={criteria.jobTitles}
-                            onJobTitleChange={toggleJobTitle}
-                            skills={skills}
-                            selectedSkills={criteria.skills}
-                            onSkillChange={toggleSkill}
-                            sortOption={criteria.sort}
-                            onSortChange={setSort}
-                            onClear={clearFilters}
+                            {...filterProps}
                             onOpenCommandPalette={() => setPaletteOpen(true)}
                         />
                         <CommandPalette
                             open={paletteOpen}
                             onClose={() => setPaletteOpen(false)}
-                            countries={countries}
-                            selectedCountries={criteria.countries}
-                            onCountryChange={toggleCountry}
-                            jobTitles={jobTitles}
-                            selectedJobTitles={criteria.jobTitles}
-                            onJobTitleChange={toggleJobTitle}
-                            skills={skills}
-                            selectedSkills={criteria.skills}
-                            onSkillChange={toggleSkill}
-                            sortOption={criteria.sort}
-                            onSortChange={setSort}
-                            onClear={() =>
-                                profileFiltersRef.current?.clearFilters()
-                            }
+                            commands={paletteCommands}
                             onSearch={setSearch}
                         />
                         <p

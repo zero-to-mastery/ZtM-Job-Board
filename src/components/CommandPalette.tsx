@@ -1,31 +1,29 @@
 import React, { useEffect, useId, useRef, useState } from 'react'
 import '../styles/CommandPalette.scss'
 import {
-    buildPaletteCommands,
     filterPaletteCommands,
     PaletteCommand,
     searchCommand,
-    PaletteSource,
 } from '../util/paletteCommands'
 
-interface CommandPaletteProps extends PaletteSource {
+interface CommandPaletteProps {
     open: boolean
     onClose: () => void
+    commands: PaletteCommand[]
+    onSearch: (search: string) => void
 }
 
-function CommandPalette({ open, onClose, ...source }: CommandPaletteProps) {
-    if (!open) return null
-    return <PaletteDialog source={source} onClose={onClose} />
-}
-
-interface PaletteDialogProps {
-    source: PaletteSource
-    onClose: () => void
+function CommandPalette({ open, ...dialogProps }: CommandPaletteProps) {
+    return open ? <PaletteDialog {...dialogProps} /> : null
 }
 
 // Mounted only while open, so the input focuses on mount and focus is
 // restored on unmount.
-function PaletteDialog({ source, onClose }: PaletteDialogProps) {
+function PaletteDialog({
+    commands,
+    onSearch,
+    onClose,
+}: Omit<CommandPaletteProps, 'open'>) {
     const [query, setQuery] = useState('')
     const [activeIndex, setActiveIndex] = useState(0)
     const inputRef = useRef<HTMLInputElement>(null)
@@ -35,8 +33,8 @@ function PaletteDialog({ source, onClose }: PaletteDialogProps) {
     const baseId = useId()
     const listId = `${baseId}-list`
 
-    const matches = filterPaletteCommands(buildPaletteCommands(source), query)
-    const search = searchCommand(query, source.onSearch)
+    const matches = filterPaletteCommands(commands, query)
+    const search = searchCommand(query, onSearch)
     const rows = search ? [...matches, search] : matches
     const active =
         rows.length === 0 ? -1 : Math.min(activeIndex, rows.length - 1)
