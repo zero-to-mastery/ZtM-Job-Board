@@ -1,5 +1,6 @@
 import path from 'path'
 import cities from 'all-the-cities'
+import timezones from 'countries-and-timezones'
 import {
     aggregate,
     collectUnknownCountryValues,
@@ -21,6 +22,7 @@ try {
         enrich: createLocationEnricher({
             cities,
             countryCenter: getCountryCoordinates,
+            timezones,
         }),
     })
     const warning = formatCountryWarning(

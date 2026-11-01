@@ -1,3 +1,4 @@
+import timezones from 'countries-and-timezones'
 import { describe, expect, test } from 'vitest'
 import type { Person } from './aggregate.ts'
 import type { City } from './geocode.ts'
@@ -18,7 +19,11 @@ const cities: City[] = [
 const countryCenter = (code: string): [number, number] | undefined =>
     code === 'US' ? [37.09, -95.71] : undefined
 
-const addLocation = createLocationEnricher({ cities, countryCenter })
+const addLocation = createLocationEnricher({
+    cities,
+    countryCenter,
+    timezones,
+})
 
 const person = (
     location: Record<string, unknown>,
