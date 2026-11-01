@@ -20,7 +20,10 @@ export interface SubmissionFailure {
 
 export interface Person {
     id: string
-    normalized: { countries: string[] }
+    normalized: {
+        countries: string[]
+        geo?: { lat: number; lng: number; approximate: boolean } | null
+    }
     [key: string]: any
 }
 
@@ -238,12 +241,15 @@ export function writeFileAtomic(file: string, content: string): void {
 export function aggregate({
     sourceDir,
     outputFile,
+    enrich,
 }: {
     sourceDir: string
     outputFile: string
+    enrich?: (person: Person) => Person
 }): { count: number; submissions: Submission[] } {
     const submissions = loadSubmissions(sourceDir)
-    const persons = buildPersons(submissions)
+    const built = buildPersons(submissions)
+    const persons = enrich ? built.map(enrich) : built
     writeFileAtomic(outputFile, JSON.stringify(persons, null, 2))
     return { count: persons.length, submissions }
 }
