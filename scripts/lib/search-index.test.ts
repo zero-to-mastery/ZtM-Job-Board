@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import { buildSearchIndex } from './search-index.ts'
+import { buildSearchIndex, tokenizeSearchText } from './search-index.ts'
 
 const persons = [
     {
@@ -23,6 +23,13 @@ const persons = [
 ]
 
 describe('buildSearchIndex', () => {
+    test('tokenizes search text with shared case and diacritic normalization', () => {
+        expect(tokenizeSearchText('Frontend, Crème!')).toEqual([
+            'frontend',
+            'creme',
+        ])
+    })
+
     test('indexes searchable fields against profile IDs', () => {
         const index = buildSearchIndex(persons)
         expect(index.alex).toEqual(['profile-2'])
@@ -64,5 +71,16 @@ describe('buildSearchIndex', () => {
     })
     test('returns an empty index for no profiles', () => {
         expect(buildSearchIndex([])).toEqual({})
+    })
+})
+
+describe('Unicode search tokens', () => {
+    test('indexes non-Latin letters', () => {
+        expect(
+            buildSearchIndex([{ id: 'profile-ru', name: 'Иван Петров' }])
+        ).toEqual({
+            иван: ['profile-ru'],
+            петров: ['profile-ru'],
+        })
     })
 })

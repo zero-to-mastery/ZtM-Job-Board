@@ -2,7 +2,11 @@ import Person from '../interfaces/person'
 import searchIndex from '../assets/search-index.json'
 import { normalizeSkills, skillKey } from './skills'
 import { matchesCountries } from './personCountries'
-import { buildSearchIndex } from '../../scripts/lib/search-index.ts'
+import {
+    buildSearchIndex,
+    getSearchableTokens,
+    tokenizeSearchText,
+} from '../../scripts/lib/search-index.ts'
 
 export type SortOption = 'default' | 'name-asc' | 'name-desc'
 
@@ -57,29 +61,6 @@ function getIndexedTokens(sourceIndex: SearchIndex): Map<string, Set<string>> {
     return tokensById
 }
 
-function getProfileTokens(person: Person): Set<string> {
-    const fields = [
-        person.name,
-        person.jobTitle,
-        person.location?.city,
-        person.location?.state,
-        person.location?.country,
-    ]
-
-    return new Set(
-        fields
-            .filter((field) => typeof field === 'string')
-            .flatMap((field) =>
-                field
-                    .toLowerCase()
-                    .normalize('NFKD')
-                    .replace(/[\u0300-\u036f]/g, '')
-                    .split(/[^a-z0-9]+/)
-                    .filter(Boolean)
-            )
-    )
-}
-
 function getSearchIndex(
     people: readonly Person[],
     sourceIndex: SearchIndex
@@ -87,27 +68,13 @@ function getSearchIndex(
     const cached = peopleIndexCache.get(people)
 
     if (cached?.source === sourceIndex) {
-        const indexedTokens = getIndexedTokens(cached.active)
-
-        const isCacheValid = people.every((person) => {
-            const expectedTokens = getProfileTokens(person)
-            const actualTokens = indexedTokens.get(person.id)
-
-            return (
-                (actualTokens?.size ?? 0) === expectedTokens.size &&
-                [...expectedTokens].every((token) => actualTokens?.has(token))
-            )
-        })
-
-        if (isCacheValid) {
-            return cached.active
-        }
+        return cached.active
     }
 
     const indexedTokens = getIndexedTokens(sourceIndex)
 
     const isCompatible = people.every((person) => {
-        const expectedTokens = getProfileTokens(person)
+        const expectedTokens = getSearchableTokens(person)
         const actualTokens = indexedTokens.get(person.id)
 
         return (
@@ -128,23 +95,13 @@ function getSearchIndex(
     return activeIndex
 }
 
-function normalizeToken(value: string): string {
-    return value
-        .toLowerCase()
-        .normalize('NFKD')
-        .replace(/[\u0300-\u036f]/g, '')
-}
-
 function findMatchingProfileIds(
     query: string,
     activeIndex: SearchIndex
 ): Set<string> | null {
-    const tokens = normalizeToken(query)
-        .split(/[^a-z0-9]+/)
-        .filter(Boolean)
-
+    const tokens = tokenizeSearchText(query)
     if (tokens.length === 0) {
-        return null
+        return new Set()
     }
 
     let matchingIds: Set<string> | null = null

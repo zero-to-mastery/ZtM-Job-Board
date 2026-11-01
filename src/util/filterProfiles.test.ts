@@ -7,6 +7,7 @@ import {
     jobTitleKey,
 } from './filterProfiles'
 import { resolveCountry } from './countries/resolveCountry.ts'
+import { buildSearchIndex } from '../../scripts/lib/search-index.ts'
 import type Person from '../interfaces/person'
 
 const profile = (
@@ -279,11 +280,10 @@ describe('search index compatibility', () => {
             )
         ).toEqual(profiles)
     })
-    test('rebuilds the cached index when profile data changes in place', () => {
+    test('rebuilds the cached index when profile data uses a new array reference', () => {
         const profiles = [
             profile('1', 'Alex Morgan', [], 'Canada', 'Software Developer'),
         ]
-
         const staleIndex = {
             alex: ['1'],
             morgan: ['1'],
@@ -295,15 +295,53 @@ describe('search index compatibility', () => {
             staleIndex
         )
 
-        profiles[0].name = 'Rahul Sharma'
+        const updatedProfiles = [{ ...profiles[0], name: 'Rahul Sharma' }]
+
+        expect(
+            filterProfiles(
+                updatedProfiles,
+                { ...emptyCriteria, search: 'Rahul' },
+                staleIndex
+            )
+        ).toEqual(updatedProfiles)
+    })
+
+    test('reuses searchable tokens for repeated filtering of same array reference', () => {
+        const person = profile('1', 'Alex Morgan', [], 'Canada', 'Developer')
+        let nameReads = 0
+        Object.defineProperty(person, 'name', {
+            get() {
+                nameReads++
+                return 'Alex Morgan'
+            },
+        })
+        const profiles = [person]
+        const searchIndex = buildSearchIndex([
+            {
+                id: '1',
+                name: 'Alex Morgan',
+                jobTitle: 'Developer',
+                location: { country: 'Canada' },
+            },
+        ])
 
         expect(
             filterProfiles(
                 profiles,
-                { ...emptyCriteria, search: 'Rahul' },
-                staleIndex
+                { ...emptyCriteria, search: 'Alex' },
+                searchIndex
             )
         ).toEqual(profiles)
+        const readsAfterFirstSearch = nameReads
+
+        expect(
+            filterProfiles(
+                profiles,
+                { ...emptyCriteria, search: 'Morgan' },
+                searchIndex
+            )
+        ).toEqual(profiles)
+        expect(nameReads).toBe(readsAfterFirstSearch)
     })
     test('returns no matches when a profile has no searchable tokens', () => {
         const profiles = [profile('1', '', [], '', '')]
@@ -317,5 +355,64 @@ describe('search index compatibility', () => {
                 emptyIndex
             )
         ).toEqual([])
+    })
+})
+
+describe('search matching edge cases', () => {
+    test('finds non-Latin profile names', () => {
+        const profiles = [
+            profile('ru', 'Иван Петров', [], 'Russia', 'Developer'),
+            profile('en', 'Alex Morgan', [], 'Canada', 'Developer'),
+        ]
+
+        expect(
+            filterProfiles(profiles, {
+                ...emptyCriteria,
+                search: 'Иван',
+            })
+        ).toEqual([profiles[0]])
+    })
+
+    test.each(['---', '...'])(
+        'returns no profiles for tokenless query %s',
+        (search) => {
+            const profiles = [
+                profile('1', 'Alex Morgan', [], 'Canada', 'Developer'),
+            ]
+
+            expect(
+                filterProfiles(profiles, { ...emptyCriteria, search })
+            ).toEqual([])
+        }
+    )
+})
+
+describe('partial and multiword search', () => {
+    const profiles = [
+        profile('alex', 'Alex Morgan', [], 'Canada', 'Frontend Engineer'),
+        profile('alexia', 'Alexia Chen', [], 'Canada', 'Backend Developer'),
+        profile('morgan', 'Morgan Lee', [], 'Canada', 'Frontend Engineer'),
+    ]
+
+    test('matches partial tokens', () => {
+        expect(
+            filterProfiles(profiles, { ...emptyCriteria, search: 'lex' }).map(
+                (person) => person.id
+            )
+        ).toEqual(['alex', 'alexia'])
+    })
+
+    test('requires every multiword token on same profile regardless of order', () => {
+        const forward = filterProfiles(profiles, {
+            ...emptyCriteria,
+            search: 'lex front',
+        })
+        const reversed = filterProfiles(profiles, {
+            ...emptyCriteria,
+            search: 'front lex',
+        })
+
+        expect(forward.map((person) => person.id)).toEqual(['alex'])
+        expect(reversed.map((person) => person.id)).toEqual(['alex'])
     })
 })

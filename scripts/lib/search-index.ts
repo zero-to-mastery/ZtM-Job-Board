@@ -13,32 +13,38 @@ interface SearchablePerson {
     }
 }
 
+export function tokenizeSearchText(value: string): string[] {
+    return value
+        .toLowerCase()
+        .normalize('NFKD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .split(/[^\p{L}\p{N}]+/u)
+        .filter(Boolean)
+}
+
+export function getSearchableTokens(person: SearchablePerson): Set<string> {
+    const fields = [
+        person.name,
+        person.jobTitle,
+        person.location?.city,
+        person.location?.state,
+        person.location?.country,
+    ]
+
+    return new Set(
+        fields
+            .filter((field): field is string => typeof field === 'string')
+            .flatMap(tokenizeSearchText)
+    )
+}
+
 export function buildSearchIndex(
-    persons: SearchablePerson[]
+    persons: readonly SearchablePerson[]
 ): Record<string, string[]> {
     const index: Record<string, Set<string>> = Object.create(null)
 
     for (const person of persons) {
-        const fields = [
-            person.name,
-            person.jobTitle,
-            person.location?.city,
-            person.location?.state,
-            person.location?.country,
-        ]
-        const tokens = new Set(
-            fields
-                .filter((field): field is string => typeof field === 'string')
-                .flatMap((field) =>
-                    field
-                        .toLowerCase()
-                        .normalize('NFKD')
-                        .replace(/[\u0300-\u036f]/g, '')
-                        .split(/[^a-z0-9]+/)
-                        .filter(Boolean)
-                )
-        )
-        for (const token of tokens) {
+        for (const token of getSearchableTokens(person)) {
             if (!index[token]) index[token] = new Set()
             index[token].add(person.id)
         }
