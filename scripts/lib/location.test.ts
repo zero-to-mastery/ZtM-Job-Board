@@ -1,8 +1,11 @@
+import path from 'path'
+import allCities from 'all-the-cities'
 import timezones from 'countries-and-timezones'
 import { describe, expect, test } from 'vitest'
-import type { Person } from './aggregate.ts'
+import { buildPersons, loadSubmissions, type Person } from './aggregate.ts'
 import type { City } from './geocode.ts'
 import { createLocationEnricher, locationReport } from './location.ts'
+import { getCountryCoordinates } from '../../src/util/countries/countryCoordinates.ts'
 
 const cities: City[] = [
     {
@@ -154,5 +157,41 @@ describe('locationReport', () => {
             timezone: 0,
             approximateCities: [],
         })
+    })
+})
+
+describe('real submissions', () => {
+    // Reads Submissions/ and builds profiles in memory only. Nothing is
+    // written, so generated src/assets/persons.json is never touched.
+    const persons = buildPersons(
+        loadSubmissions(path.resolve('Submissions'))
+    ).map(
+        createLocationEnricher({
+            cities: allCities,
+            countryCenter: getCountryCoordinates,
+            timezones,
+        })
+    )
+
+    test('every profile with a resolved country is placed and has a time zone', () => {
+        const withCountry = persons.filter(
+            (p) => p.normalized.countries.length > 0
+        )
+        expect(withCountry.length).toBeGreaterThan(0)
+        expect(withCountry.every((p) => p.normalized.geo)).toBe(true)
+        expect(withCountry.every((p) => p.normalized.timezone)).toBe(true)
+    })
+
+    test('the report accounts for every real submission', () => {
+        const report = locationReport(persons)
+
+        expect(report.total).toBe(persons.length)
+        expect(
+            report.exact.explicit +
+                report.exact.city +
+                report.approximate +
+                report.unplaced
+        ).toBe(report.total)
+        expect(report.exact.city).toBeGreaterThan(report.approximate)
     })
 })
