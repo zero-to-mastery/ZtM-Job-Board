@@ -68,6 +68,11 @@ describe('place text', () => {
         expect(cleanPlaceText('Łódź')).toBe('lodz')
     })
 
+    test('transliterates dotless ı to i instead of undefined', () => {
+        expect(cleanPlaceText('Kırklareli')).toBe('kirklareli')
+        expect(cleanPlaceText('Diyarbakır')).toBe('diyarbakir')
+    })
+
     test('maps aliases and drops a city/metro suffix', () => {
         expect(cityKeys('NYC')).toEqual(['newyorkcity'])
         expect(cityKeys('Greater Lagos, Nigeria')).toEqual([

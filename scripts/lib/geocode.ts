@@ -86,7 +86,7 @@ const TRANSLITERATIONS: Readonly<Record<string, string>> = {
     ß: 'ss',
     đ: 'd',
     ð: 'd',
-    l: 'i',
+    ı: 'i',
     þ: 'th',
 }
 
