@@ -49,6 +49,8 @@
     "@types/react-dom": "^19.2.3",
     "@types/webfontloader": "^1.6.38",
     "@vitejs/plugin-react": "^5.1.2",
+    "all-the-cities": "^3.1.0",
+    "countries-and-timezones": "^3.11.0",
     "gh-pages": "^6.3.0",
     "husky": "^9.1.7",
     "jsdom": "^27.3.0",
