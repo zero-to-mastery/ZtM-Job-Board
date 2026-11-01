@@ -1,4 +1,10 @@
-import React, { forwardRef, useEffect, useImperativeHandle, useRef, useState } from 'react'
+import React, {
+    forwardRef,
+    useEffect,
+    useImperativeHandle,
+    useRef,
+    useState,
+} from 'react'
 import { jobTitleKey, SortOption } from '../util/filterProfiles'
 import { CountryOption } from '../util/personCountries'
 import CheckboxDropdown from './CheckboxDropdown'
@@ -19,21 +25,27 @@ interface ProfileFiltersProps {
     onOpenCommandPalette?: () => void
 }
 
-const ProfileFilters = forwardRef<{ clearFilters: () => void }, ProfileFiltersProps>(({
-    countries,
-    selectedCountries,
-    onCountryChange,
-    jobTitles,
-    selectedJobTitles,
-    onJobTitleChange,
-    skills,
-    selectedSkills,
-    onSkillChange,
-    sortOption,
-    onSortChange,
-    onClear,
-    onOpenCommandPalette,
-}: ProfileFiltersProps, ref) => {
+const ProfileFilters = forwardRef<
+    { clearFilters: () => void },
+    ProfileFiltersProps
+>(function ProfileFilters(
+    {
+        countries,
+        selectedCountries,
+        onCountryChange,
+        jobTitles,
+        selectedJobTitles,
+        onJobTitleChange,
+        skills,
+        selectedSkills,
+        onSkillChange,
+        sortOption,
+        onSortChange,
+        onClear,
+        onOpenCommandPalette,
+    }: ProfileFiltersProps,
+    ref
+) {
     const [openFilter, setOpenFilter] = useState('')
     const [countrySearch, setCountrySearch] = useState('')
     const [roleSearch, setRoleSearch] = useState('')
@@ -170,26 +182,24 @@ const ProfileFilters = forwardRef<{ clearFilters: () => void }, ProfileFiltersPr
                             </p>
                         </div>
                     ) : (
-                        <>
-                            <CheckboxDropdown
-                                id="required-skills-options"
-                                label="Required skills"
-                                isOpen={openFilter === 'skills'}
-                                selectedCount={selectedSkills.length}
-                                options={filteredSkills.map((skill) => ({
-                                    value: skill,
-                                    label: skill,
-                                }))}
-                                selectedValues={selectedSkills}
-                                searchValue={skillSearch}
-                                onSearchChange={setSkillSearch}
-                                onOptionChange={onSkillChange}
-                                onToggle={() => toggleFilter('skills')}
-                                searchLabel="Search declared skills"
-                                helpText="Matches all selected skills. Skills are self-reported."
-                                noResultsMessage="No declared skills match this search."
-                            />
-                        </>
+                        <CheckboxDropdown
+                            id="required-skills-options"
+                            label="Required skills"
+                            isOpen={openFilter === 'skills'}
+                            selectedCount={selectedSkills.length}
+                            options={filteredSkills.map((skill) => ({
+                                value: skill,
+                                label: skill,
+                            }))}
+                            selectedValues={selectedSkills}
+                            searchValue={skillSearch}
+                            onSearchChange={setSkillSearch}
+                            onOptionChange={onSkillChange}
+                            onToggle={() => toggleFilter('skills')}
+                            searchLabel="Search declared skills"
+                            helpText="Matches all selected skills. Skills are self-reported."
+                            noResultsMessage="No declared skills match this search."
+                        />
                     )}
                 </div>
 

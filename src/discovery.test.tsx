@@ -700,4 +700,3 @@ describe('command palette', () => {
         expect(document.activeElement).toBe(trigger)
     })
 })
-
