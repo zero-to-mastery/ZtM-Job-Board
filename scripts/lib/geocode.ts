@@ -1,7 +1,9 @@
 // Offline city lookup for free-text locations. A city is matched by normalized
 // name within its country. A stated US state breaks ties between same-named
-// cities, then the most populous match wins. Unmatched text returns null; the
-// approximate state/country fallback is handled separately.
+// cities, then the most populous match wins. When no city matches, the center
+// of the stated state/region is used, then the center of the country. Those
+// fallbacks are marked approximate. A country with no center and no cities
+// returns null. Nothing here calls out to the network.
 
 import { usStateCode } from './usStates.ts'
 
@@ -18,8 +20,14 @@ export interface City {
 export interface Place {
     lat: number
     lng: number
-    adminCode: string
+    approximate: boolean
+    adminCode?: string
 }
+
+// [lat, lng] for an ISO 3166-1 alpha-2 code, or undefined when unknown
+export type CountryCenter = (
+    countryCode: string
+) => [number, number] | undefined
 
 // Common short or historic names that the city dataset does not list
 export const CITY_ALIASES: Readonly<Record<string, string>> = {
@@ -78,7 +86,7 @@ const TRANSLITERATIONS: Readonly<Record<string, string>> = {
     ß: 'ss',
     đ: 'd',
     ð: 'd',
-    ı: 'i',
+    l: 'i',
     þ: 'th',
 }
 
@@ -121,9 +129,34 @@ export function cityKeys(city: string | undefined): string[] {
     return [...new Set(keys)]
 }
 
-export function createGeocoder({ cities }: { cities: readonly City[] }) {
+export function createGeocoder({
+    cities,
+    countryCenter,
+}: {
+    cities: readonly City[]
+    countryCenter: CountryCenter
+}) {
     const byKey = new Map<string, City[]>()
+    // "US:wv" -> the dataset's cities in that state/region
+    const byRegion = new Map<string, City[]>()
+    // "US" -> the most populous city, used when no country center is known
+    const largestCity = new Map<string, City>()
     for (const city of cities) {
+        const regionKey = `${city.country}:${compact(city.adminCode.toLowerCase())}`
+        const region = byRegion.get(regionKey)
+        if (!region) byRegion.set(regionKey, [city])
+        else region.push(city)
+
+        const largest = largestCity.get(city.country)
+        if (
+            !largest ||
+            city.population > largest.population ||
+            (city.population === largest.population &&
+                city.cityId < largest.cityId)
+        ) {
+            largestCity.set(city.country, city)
+        }
+
         for (const name of [city.name, ...city.altName.split(',')]) {
             const key = compact(cleanPlaceText(name))
             if (!key) continue
@@ -133,6 +166,42 @@ export function createGeocoder({ cities }: { cities: readonly City[] }) {
             else if (!list.includes(city)) list.push(city)
         }
     }
+
+    // Center of a state/region: the city nearest the mean position of its
+    // cities, so the point stays inside the region whatever its shape. Cached
+    // per region because the scan is linear in the region's city count.
+    const regionCenters = new Map<string, City | null>()
+    const regionCenterOf = (
+        region: string,
+        countryCode: string
+    ): City | null => {
+        const key = `${countryCode}:${region}`
+        const cached = regionCenters.get(key)
+        if (cached !== undefined) return cached
+        const regionCities = byRegion.get(key)
+        let center: City | null = null
+        if (regionCities) {
+            const mean = (index: 0 | 1): number =>
+                regionCities.reduce(
+                    (sum, city) => sum + city.loc.coordinates[index],
+                    0
+                ) / regionCities.length
+            const meanLng = mean(0)
+            const meanLat = mean(1)
+            const distance = (city: City): number =>
+                (city.loc.coordinates[0] - meanLng) ** 2 +
+                (city.loc.coordinates[1] - meanLat) ** 2
+            center = regionCities.reduce((best, city) =>
+                distance(city) < distance(best) ? city : best
+            )
+        }
+        regionCenters.set(key, center)
+        return center
+    }
+
+    // [lat, lng] of a dataset city, from its GeoJSON-ordered [lng, lat]
+    const coordinatesOf = (city: City | undefined): [number, number] | null =>
+        city ? [city.loc.coordinates[1], city.loc.coordinates[0]] : null
 
     // The stated region as a dataset admin code: "West Virginia" -> "wv"
     const regionOf = (
@@ -183,9 +252,32 @@ export function createGeocoder({ cities }: { cities: readonly City[] }) {
             return {
                 lat: round(lat),
                 lng: round(lng),
+                approximate: false,
                 adminCode: found.adminCode,
             }
         }
-        return null
+
+        // No city matched: the stated state/region, then the country
+        const region = regionOf(state, countryCode)
+        const regionCity = region ? regionCenterOf(region, countryCode) : null
+        if (regionCity) {
+            const [lng, lat] = regionCity.loc.coordinates
+            return {
+                lat: round(lat),
+                lng: round(lng),
+                approximate: true,
+                adminCode: regionCity.adminCode,
+            }
+        }
+
+        const center =
+            countryCenter(countryCode) ??
+            coordinatesOf(largestCity.get(countryCode))
+        if (!center) return null
+        return {
+            lat: round(center[0]),
+            lng: round(center[1]),
+            approximate: true,
+        }
     }
 }
