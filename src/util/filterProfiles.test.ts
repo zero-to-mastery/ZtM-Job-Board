@@ -6,7 +6,7 @@ import {
     getJobTitleOptions,
     jobTitleKey,
 } from './filterProfiles'
-import { resolveCountry } from './countries/resolveCountry.js'
+import { resolveCountry } from './countries/resolveCountry.ts'
 import type Person from '../interfaces/person'
 
 const profile = (

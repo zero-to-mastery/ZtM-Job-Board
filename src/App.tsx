@@ -1,4 +1,4 @@
-import React, { useState, useMemo, lazy, Suspense } from 'react'
+import React, { useRef, useState, useMemo, lazy, Suspense } from 'react'
 import Search from './components/Search'
 import { shuffle } from './util/shuffle'
 import MapSkeleton from './components/MapSkeleton'
@@ -50,8 +50,8 @@ function toggleSelection(current: string[], value: string) {
 }
 
 function App() {
+    const profileFiltersRef = useRef<{ clearFilters: () => void } | null>(null)
     const [criteria, setCriteria] = useState<ProfileCriteria>(emptyCriteria)
-    const [filterResetKey, setFilterResetKey] = useState(0)
     const [batch, setBatch] = useState(1)
     const [people, setPeople] = useState(() => {
         const initialPeople = [...profiles]
@@ -80,7 +80,6 @@ function App() {
 
     function clearFilters() {
         updateCriteria(emptyCriteria)
-        setFilterResetKey((current) => current + 1)
     }
 
     function goBack() {
@@ -113,7 +112,7 @@ function App() {
                         <SimpleMap />
                     </Suspense>
                 ) : (
-                    <div id="sketch-particles">
+                    <>
                         <div
                             className="visible-on-mobileview-only surface-panel"
                             style={style}
@@ -125,7 +124,7 @@ function App() {
                             />
                         </div>
                         <ProfileFilters
-                            resetKey={filterResetKey}
+                            ref={profileFiltersRef}
                             countries={countries}
                             selectedCountries={criteria.countries}
                             onCountryChange={(country) =>
@@ -200,9 +199,11 @@ function App() {
                             onShowMore={() =>
                                 setBatch((current) => current + 1)
                             }
-                            onClear={clearFilters}
+                            onClear={() =>
+                                profileFiltersRef.current?.clearFilters()
+                            }
                         />
-                    </div>
+                    </>
                 )}
             </main>
             <footer className="app-bar custom--unselectable w-100 h3 flex items-center justify-center z-2">

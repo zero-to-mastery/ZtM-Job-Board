@@ -1,10 +1,9 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { forwardRef, useEffect, useImperativeHandle, useRef, useState } from 'react'
 import { jobTitleKey, SortOption } from '../util/filterProfiles'
 import { CountryOption } from '../util/personCountries'
 import CheckboxDropdown from './CheckboxDropdown'
 
 interface ProfileFiltersProps {
-    resetKey?: number
     countries: CountryOption[]
     selectedCountries: string[]
     onCountryChange: (countryCode: string) => void
@@ -19,8 +18,7 @@ interface ProfileFiltersProps {
     onClear: () => void
 }
 
-const ProfileFilters = ({
-    resetKey = 0,
+const ProfileFilters = forwardRef<{ clearFilters: () => void }, ProfileFiltersProps>(({
     countries,
     selectedCountries,
     onCountryChange,
@@ -33,19 +31,22 @@ const ProfileFilters = ({
     sortOption,
     onSortChange,
     onClear,
-}: ProfileFiltersProps) => {
+}: ProfileFiltersProps, ref) => {
     const [openFilter, setOpenFilter] = useState('')
     const [countrySearch, setCountrySearch] = useState('')
     const [roleSearch, setRoleSearch] = useState('')
     const [skillSearch, setSkillSearch] = useState('')
     const filterContainer = useRef<HTMLDivElement>(null)
 
-    useEffect(() => {
-        setCountrySearch('')
-        setRoleSearch('')
-        setSkillSearch('')
-        setOpenFilter('')
-    }, [resetKey])
+    useImperativeHandle(ref, () => ({
+        clearFilters: () => {
+            setCountrySearch('')
+            setRoleSearch('')
+            setSkillSearch('')
+            setOpenFilter('')
+            onClear()
+        },
+    }))
 
     useEffect(() => {
         if (!openFilter) {
@@ -261,6 +262,6 @@ const ProfileFilters = ({
             )}
         </div>
     )
-}
+})
 
 export default ProfileFilters

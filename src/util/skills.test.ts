@@ -6,7 +6,7 @@ import path from 'node:path'
 import { spawnSync } from 'node:child_process'
 import { normalizeSkills, skillKey, validateSkills } from './skills'
 import { emptyCriteria, filterProfiles } from './filterProfiles'
-import { resolveCountry } from './countries/resolveCountry.js'
+import { resolveCountry } from './countries/resolveCountry.ts'
 import type Person from '../interfaces/person'
 
 describe('skills', () => {
@@ -169,7 +169,7 @@ describe('aggregation validation', () => {
             )
             const result = spawnSync(
                 process.execPath,
-                [path.resolve('scripts', 'aggregate-json.mjs')],
+                [path.resolve('scripts', 'aggregate-json.ts')],
                 { cwd: directory, encoding: 'utf8' }
             )
             expect(result.status).toBe(1)
@@ -191,7 +191,7 @@ describe('aggregation validation', () => {
         )
         const result = spawnSync(
             process.execPath,
-            [path.resolve('scripts', 'aggregate-json.mjs')],
+            [path.resolve('scripts', 'aggregate-json.ts')],
             { cwd: directory, encoding: 'utf8' }
         )
         expect(result.status).toBe(1)

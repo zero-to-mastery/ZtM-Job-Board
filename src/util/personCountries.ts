@@ -1,6 +1,6 @@
 import Person from '../interfaces/person'
-import { getCountryName } from './countries/countryNames.js'
-import { getCountryCoordinates } from './countries/countryCoordinates.js'
+import { getCountryName } from './countries/countryNames.ts'
+import { getCountryCoordinates } from './countries/countryCoordinates.ts'
 
 export interface CountryOption {
     code: string

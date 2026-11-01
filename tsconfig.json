@@ -3,7 +3,9 @@
     "jsx": "react",
     "target": "es2015",
     "module": "esnext",
-    "types": ["node"],
+    "types": [
+      "node"
+    ],
     "strict": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
@@ -13,14 +15,17 @@
       "dom.iterable",
       "esnext"
     ],
-    "allowJs": true,
+    "allowJs": false,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "bundler",
     "isolatedModules": true,
-    "noEmit": true
+    "noEmit": true,
+    "allowImportingTsExtensions": true
   },
   "include": [
-    "src"
+    "src",
+    "scripts",
+    "vite.config.ts"
   ]
 }

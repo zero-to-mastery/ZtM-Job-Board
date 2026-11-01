@@ -1,6 +1,6 @@
 import { execFileSync } from 'node:child_process'
 import fs from 'node:fs'
-import { validateSubmission } from './lib/validate-submission.mjs'
+import { validateSubmission } from './lib/validate-submission.ts'
 
 const base = process.env.GITHUB_BASE_REF
     ? `origin/${process.env.GITHUB_BASE_REF}`
@@ -22,8 +22,10 @@ for (const file of changedFiles) {
     let data
     try {
         data = JSON.parse(fs.readFileSync(file, 'utf8'))
-    } catch (error) {
-        failures.push(`${file}: invalid JSON (${error.message})`)
+    } catch (error: unknown) {
+        failures.push(
+            `${file}: invalid JSON (${error instanceof Error ? error.message : String(error)})`
+        )
         continue
     }
 

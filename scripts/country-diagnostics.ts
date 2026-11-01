@@ -7,7 +7,7 @@
 
 import fs from 'fs'
 import path from 'path'
-import { loadSubmissions, buildCountryDiagnostics } from './lib/aggregate.mjs'
+import { loadSubmissions, buildCountryDiagnostics } from './lib/aggregate.ts'
 
 const JSON_SOURCE_DIR = 'Submissions'
 
@@ -29,12 +29,12 @@ try {
         )
     } else {
         // Allow piping into tools that close early, e.g. `| head`
-        process.stdout.on('error', (e) => {
+        process.stdout.on('error', (e: NodeJS.ErrnoException) => {
             if (e.code !== 'EPIPE') throw e
         })
         process.stdout.write(json)
     }
 } catch (e) {
-    console.error(`error: ${e.message}`)
+    console.error(`error: ${e instanceof Error ? e.message : String(e)}`)
     process.exitCode = 1
 }

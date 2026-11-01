@@ -7,8 +7,8 @@ import {
     getCountryOptions,
     matchesCountries,
 } from './personCountries'
-import { resolveCountry } from './countries/resolveCountry.js'
-import { getCountryCoordinates } from './countries/countryCoordinates.js'
+import { resolveCountry } from './countries/resolveCountry.ts'
+import { getCountryCoordinates } from './countries/countryCoordinates.ts'
 import ProfileFilters from '../components/ProfileFilters'
 
 // Profiles as produced by scripts/aggregate-json.mjs, using real country values

@@ -250,8 +250,12 @@ const COUNTRY_COORDINATES = {
     ZM: [-13.162832953186246, 27.75521363430896],
     ZW: [-18.92700121981475, 29.717829640720844],
     TW: [23.8171616, 120.6847786],
-};
+}
 
-export function getCountryCoordinates(code) {
-    return COUNTRY_COORDINATES[code];
+export function getCountryCoordinates(
+    code: string
+): [number, number] | undefined {
+    return COUNTRY_COORDINATES[code as keyof typeof COUNTRY_COORDINATES] as
+        | [number, number]
+        | undefined
 }

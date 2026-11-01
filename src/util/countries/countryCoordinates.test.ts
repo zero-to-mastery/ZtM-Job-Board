@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest'
-import { getCountryCoordinates } from './countryCoordinates.js'
-import { COUNTRY_NAMES } from './countryNames.js'
+import { getCountryCoordinates } from './countryCoordinates.ts'
+import { COUNTRY_NAMES } from './countryNames.ts'
 
 // Codes with no entry in the pinned coordinate CSV (and no supplement entry).
 // Adding to this list requires updating the "how to add a country" checklist

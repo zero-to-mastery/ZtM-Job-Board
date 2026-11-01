@@ -4,7 +4,7 @@ import {
     collectUnknownCountryValues,
     formatCountryWarning,
     writeFileAtomic,
-} from './lib/aggregate.mjs'
+} from './lib/aggregate.ts'
 import { buildSearchIndex } from './lib/search-index.mjs'
 const JSON_SOURCE_DIR = 'Submissions'
 const FINAL_JSON_FILE = 'src/assets/persons.json'
@@ -30,7 +30,7 @@ try {
     )
     if (warning !== '') console.log(warning)
 } catch (e) {
-    console.error(`error: ${e.message}`)
+    console.error(`error: ${e instanceof Error ? e.message : String(e)}`)
     console.error(
         `${FINAL_JSON_FILE} or ${SEARCH_INDEX_FILE} may not be updated.`
     )
