@@ -23,6 +23,7 @@ export interface Person {
     normalized: {
         countries: string[]
         geo?: { lat: number; lng: number; approximate: boolean } | null
+        timezone?: { name: string; utcOffset: number } | null
     }
     [key: string]: any
 }
