@@ -2,7 +2,7 @@ import Person from '../interfaces/person'
 import searchIndex from '../assets/search-index.json'
 import { normalizeSkills, skillKey } from './skills'
 import { matchesCountries } from './personCountries'
-import { buildSearchIndex } from '../../scripts/lib/search-index.mjs'
+import { buildSearchIndex } from '../../scripts/lib/search-index.ts'
 
 export type SortOption = 'default' | 'name-asc' | 'name-desc'
 

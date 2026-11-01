@@ -1,5 +1,6 @@
 import { describe, expect, test } from 'vitest'
-import { buildSearchIndex } from './search-index.mjs'
+import { buildSearchIndex } from './search-index.ts'
+
 const persons = [
     {
         id: 'profile-2',
@@ -20,6 +21,7 @@ const persons = [
         location: { city: 'Toronto', country: 'Canada' },
     },
 ]
+
 describe('buildSearchIndex', () => {
     test('indexes searchable fields against profile IDs', () => {
         const index = buildSearchIndex(persons)

@@ -1,18 +1,22 @@
 /**
  * Builds a deterministic inverted index for developer profile search.
  * Only public search fields are indexed; email and profile links are excluded.
- *
- * @param {Array<{
- *   id: string,
- *   name?: string,
- *   jobTitle?: string,
- *   location?: { city?: string, state?: string, country?: string }
- * }>} persons
- * @returns {Record<string, string[]>}
  */
-export function buildSearchIndex(persons) {
-    /** @type {Record<string, Set<string>>} */
-    const index = Object.create(null)
+interface SearchablePerson {
+    id: string
+    name?: string
+    jobTitle?: string
+    location?: {
+        city?: string
+        state?: string
+        country?: string
+    }
+}
+
+export function buildSearchIndex(
+    persons: SearchablePerson[]
+): Record<string, string[]> {
+    const index: Record<string, Set<string>> = Object.create(null)
 
     for (const person of persons) {
         const fields = [
@@ -24,7 +28,7 @@ export function buildSearchIndex(persons) {
         ]
         const tokens = new Set(
             fields
-                .filter((field) => typeof field === 'string')
+                .filter((field): field is string => typeof field === 'string')
                 .flatMap((field) =>
                     field
                         .toLowerCase()
