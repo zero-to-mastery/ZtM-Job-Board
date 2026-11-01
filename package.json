@@ -30,6 +30,7 @@
     "build": "npm-run-all build-css build-js",
     "build-css": "sass ./src",
     "build-js": "vite build",
+    "postbuild": "purgecss --css build/assets/*.css --content build/index.html build/assets/*.js --safelist leaflet-popup-content-wrapper leaflet-popup-tip leaflet-popup-close-button --output build/assets",
     "test": "npm-run-all aggregate-json && vitest",
     "deploy": "gh-pages -d build",
     "aggregate-json": "node scripts/aggregate-json.ts",
