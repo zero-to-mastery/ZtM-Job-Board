@@ -156,6 +156,11 @@ Duplicate aliases are collapsed, so `United Kingdom, UK` yields `GB`.
   marker per code, with `latlng` as a `[latitude, longitude]` number tuple at
   full precision. Codes without coordinates (currently `AX`, `EH`, `HK`,
   `MO`) get no marker.
+- **Map pins**: a profile with submitted `location.coordinates` gets a solid
+  exact pin, grouped by position. Otherwise a profile with a valid
+  `normalized.geo` gets its own pin, drawn faded with the default icon, one per
+  profile, and its popup says whether the position is approximate. Only profiles with neither fall back to
+  the country marker. Submitted coordinates always win over `normalized.geo`.
 
 ## Map coordinates
 
