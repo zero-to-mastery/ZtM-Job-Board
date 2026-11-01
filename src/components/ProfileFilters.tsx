@@ -52,15 +52,7 @@ const ProfileFilters = forwardRef<
     const [skillSearch, setSkillSearch] = useState('')
     const filterContainer = useRef<HTMLDivElement>(null)
 
-    useImperativeHandle(ref, () => ({
-        clearFilters: () => {
-            setCountrySearch('')
-            setRoleSearch('')
-            setSkillSearch('')
-            setOpenFilter('')
-            onClear()
-        },
-    }))
+    useImperativeHandle(ref, () => ({ clearFilters }))
 
     useEffect(() => {
         if (!openFilter) {
