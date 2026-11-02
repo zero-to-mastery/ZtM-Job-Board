@@ -402,13 +402,61 @@ header {
         background-color: $color--secondary;
     }
 
-    #title:hover {
-        span:nth-child(2) {
+    /* Logo link to zerotomastery.io, then the "Job Board" home button */
+    #title {
+        display: flex;
+        align-items: center;
+    }
+
+    #title .title-home:hover,
+    #title .title-home:focus-visible {
+        span:nth-child(1) {
             color: $color--secondary;
         }
-        span:nth-child(3) {
+        span:nth-child(2) {
             color: currentColor;
         }
+    }
+
+    /* Reset the global button styles so the title looks like plain text */
+    #title .title-home {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        border-radius: 0.25rem;
+        background: none;
+        color: inherit;
+        font: inherit;
+        line-height: inherit;
+        letter-spacing: inherit;
+        text-align: inherit;
+    }
+
+    /* Mark + "ZTM" wordmark; the letters use currentColor, so override the SVG's own color */
+    #title .title-logo {
+        display: block;
+        border-radius: 0.25rem;
+        color: inherit;
+        /* zerotomastery.io leaves about one logo height between the logo and the next item */
+        margin-right: 2rem;
+
+        span,
+        svg {
+            display: block;
+        }
+
+        svg {
+            width: auto;
+            height: 2rem;
+            color: inherit;
+        }
+    }
+
+    /* The header is always dark, so the amber accent stays visible in both themes */
+    #title .title-home:focus-visible,
+    #title .title-logo:focus-visible {
+        outline: 0.125rem solid $color--secondary;
+        outline-offset: 0.25rem;
     }
 }
 
