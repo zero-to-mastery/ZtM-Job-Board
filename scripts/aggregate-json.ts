@@ -3,25 +3,40 @@ import {
     aggregate,
     collectUnknownCountryValues,
     formatCountryWarning,
+    writeFileAtomic,
 } from './lib/aggregate.ts'
-
+import { buildSearchIndex } from './lib/search-index.ts'
 const JSON_SOURCE_DIR = 'Submissions'
 const FINAL_JSON_FILE = 'src/assets/persons.json'
-
-// Prints nothing on success apart from the warning for unrecognised country
-// values (unknown issues only), because the Build workflow posts any output
-// from this script as a commit comment.
-try {
-    const { submissions } = aggregate({
-        sourceDir: path.resolve(JSON_SOURCE_DIR),
-        outputFile: path.resolve(FINAL_JSON_FILE),
-    })
-    const warning = formatCountryWarning(
-        collectUnknownCountryValues(submissions)
-    )
-    if (warning !== '') console.log(warning)
-} catch (e: unknown) {
-    console.error(`error: ${e instanceof Error ? e.message : String(e)}`)
-    console.error(`${FINAL_JSON_FILE} was not updated.`)
-    process.exitCode = 1
+const SEARCH_INDEX_FILE = 'src/assets/search-index.json'
+// Generate the profile data and search index from the same submissions.
+async function main() {
+    try {
+        const { submissions } = aggregate({
+            sourceDir: path.resolve(JSON_SOURCE_DIR),
+            outputFile: path.resolve(FINAL_JSON_FILE),
+        })
+        const persons = JSON.parse(
+            await import('node:fs/promises').then((fs) =>
+                fs.readFile(path.resolve(FINAL_JSON_FILE), 'utf-8')
+            )
+        )
+        const searchIndex = buildSearchIndex(persons)
+        writeFileAtomic(
+            path.resolve(SEARCH_INDEX_FILE),
+            JSON.stringify(searchIndex, null, 2)
+        )
+        const warning = formatCountryWarning(
+            collectUnknownCountryValues(submissions)
+        )
+        if (warning !== '') console.log(warning)
+    } catch (e) {
+        console.error(`error: ${e instanceof Error ? e.message : String(e)}`)
+        console.error(
+            `${FINAL_JSON_FILE} or ${SEARCH_INDEX_FILE} may not be updated.`
+        )
+        process.exitCode = 1
+    }
 }
+
+void main()

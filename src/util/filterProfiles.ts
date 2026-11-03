@@ -1,7 +1,12 @@
-import { createFilter } from 'react-search-input'
 import Person from '../interfaces/person'
+import searchIndex from '../assets/search-index.json'
 import { normalizeSkills, skillKey } from './skills'
 import { matchesCountries } from './personCountries'
+import {
+    buildSearchIndex,
+    getSearchableTokens,
+    tokenizeSearchText,
+} from '../../scripts/lib/search-index.ts'
 
 export type SortOption = 'default' | 'name-asc' | 'name-desc'
 
@@ -21,13 +26,115 @@ export const emptyCriteria: ProfileCriteria = {
     sort: 'default',
 }
 
-const searchKeys = [
-    'name',
-    'jobTitle',
-    'location.city',
-    'location.state',
-    'location.country',
-]
+type SearchIndex = Record<string, string[]>
+
+const index = searchIndex as SearchIndex
+
+const peopleIndexCache = new WeakMap<
+    readonly Person[],
+    { source: SearchIndex; active: SearchIndex }
+>()
+
+const indexedTokensCache = new WeakMap<SearchIndex, Map<string, Set<string>>>()
+
+function getIndexedTokens(sourceIndex: SearchIndex): Map<string, Set<string>> {
+    const cached = indexedTokensCache.get(sourceIndex)
+
+    if (cached) {
+        return cached
+    }
+
+    const tokensById = new Map<string, Set<string>>()
+
+    for (const [token, ids] of Object.entries(sourceIndex)) {
+        for (const id of ids) {
+            if (!tokensById.has(id)) {
+                tokensById.set(id, new Set())
+            }
+
+            tokensById.get(id)!.add(token)
+        }
+    }
+
+    indexedTokensCache.set(sourceIndex, tokensById)
+
+    return tokensById
+}
+
+function getSearchIndex(
+    people: readonly Person[],
+    sourceIndex: SearchIndex
+): SearchIndex {
+    const cached = peopleIndexCache.get(people)
+
+    if (cached?.source === sourceIndex) {
+        return cached.active
+    }
+
+    const indexedTokens = getIndexedTokens(sourceIndex)
+
+    const isCompatible = people.every((person) => {
+        const expectedTokens = getSearchableTokens(person)
+        const actualTokens = indexedTokens.get(person.id)
+
+        return (
+            (actualTokens?.size ?? 0) === expectedTokens.size &&
+            [...expectedTokens].every((token) => actualTokens?.has(token))
+        )
+    })
+
+    const activeIndex = isCompatible
+        ? sourceIndex
+        : buildSearchIndex([...people])
+
+    peopleIndexCache.set(people, {
+        source: sourceIndex,
+        active: activeIndex,
+    })
+
+    return activeIndex
+}
+
+function findMatchingProfileIds(
+    query: string,
+    activeIndex: SearchIndex
+): Set<string> | null {
+    const tokens = tokenizeSearchText(query)
+    if (tokens.length === 0) {
+        return new Set()
+    }
+
+    let matchingIds: Set<string> | null = null
+
+    for (const token of tokens) {
+        const ids = new Set<string>()
+
+        for (const [indexedToken, profileIds] of Object.entries(activeIndex)) {
+            if (indexedToken.includes(token)) {
+                profileIds.forEach((id) => ids.add(id))
+            }
+        }
+
+        if (ids.size === 0) {
+            return new Set()
+        }
+
+        if (matchingIds === null) {
+            matchingIds = ids
+        } else {
+            const currentIds: Set<string> = matchingIds
+            matchingIds = new Set<string>(
+                Array.from(currentIds).filter((id: string) => ids.has(id))
+            )
+        }
+
+        if (matchingIds.size === 0) {
+            return matchingIds
+        }
+    }
+
+    return matchingIds
+}
 
 const formatJobTitle = (title: string) =>
     title
@@ -166,15 +273,24 @@ export function getJobTitleOptions(people: readonly Person[]): string[] {
 
 export function filterProfiles(
     people: readonly Person[],
-    criteria: ProfileCriteria
+    criteria: ProfileCriteria,
+    searchIndex: SearchIndex = index
 ): Person[] {
     const requiredSkills = normalizeSkills(criteria.skills).map(skillKey)
-    const matchesText = createFilter(criteria.search, searchKeys)
+
+    const activeIndex = getSearchIndex(people, searchIndex)
+
+    const matchingIds = criteria.search.trim()
+        ? findMatchingProfileIds(criteria.search, activeIndex)
+        : null
+
     const selectedTitles = new Set(criteria.jobTitles.map(jobTitleKey))
+
     const filtered = people.filter((person) => {
         const skills = new Set(normalizeSkills(person.skills).map(skillKey))
+
         return (
-            matchesText(person) &&
+            (matchingIds === null || matchingIds.has(person.id)) &&
             matchesCountries(person, criteria.countries) &&
             (selectedTitles.size === 0 ||
                 getRoleFamilies(person.jobTitle || '').some((role) =>
@@ -191,5 +307,6 @@ export function filterProfiles(
                 : b.name.localeCompare(a.name)
         )
     }
+
     return filtered
 }

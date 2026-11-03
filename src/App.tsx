@@ -1,8 +1,8 @@
 import React, {
+    useEffect,
     useRef,
     useState,
     useMemo,
-    useEffect,
     lazy,
     Suspense,
 } from 'react'
@@ -26,11 +26,14 @@ import {
     filterProfiles,
     getJobTitleOptions,
     ProfileCriteria,
+    SortOption,
 } from './util/filterProfiles'
 import { normalizeSkills } from './util/skills'
 import './styles/DeveloperDiscovery.scss'
 import CountUp from 'react-countup'
 import { getCountryOptions } from './util/personCountries'
+import CommandPalette from './components/CommandPalette'
+import { buildPaletteCommands, isPaletteShortcut } from './util/paletteCommands'
 const SimpleMap = lazy(() => import('./components/Map'))
 
 const profiles: Person[] = persons
@@ -77,6 +80,20 @@ function App() {
 
     const [map, setMap] = useState(false)
     const [mapOrHomeTitle, setMapOrHomeTitle] = useState(pageNames.map) // pageNames.map is default
+    const [paletteOpen, setPaletteOpen] = useState(false)
+
+    // Cmd+K or Ctrl+K toggles the palette on the discovery view only. The map
+    // view shows no filters, so the shortcut is ignored there.
+    useEffect(() => {
+        if (map) return
+        function onKeyDown(event: KeyboardEvent) {
+            if (!isPaletteShortcut(event)) return
+            event.preventDefault()
+            setPaletteOpen((open) => !open)
+        }
+        document.addEventListener('keydown', onKeyDown)
+        return () => document.removeEventListener('keydown', onKeyDown)
+    }, [map])
 
     const filteredPersons = useMemo(
         () => filterProfiles(people, criteria),
@@ -98,9 +115,40 @@ function App() {
     useEffect(() => {
         setBatch(1)
     }, [criteria])
-    function onSearchChange(event: React.ChangeEvent<HTMLInputElement>) {
-        const search = event.target.value
+
+    function setSearch(search: string) {
         updateCriteria((current) => ({ ...current, search }), 'replace')
+    }
+
+    function onSearchChange(event: React.ChangeEvent<HTMLInputElement>) {
+        setSearch(event.target.value)
+    }
+
+    // Shared by the visible filters and the command palette, so both paths
+    // write the same criteria state.
+    function toggleCountry(country: string) {
+        updateCriteria((current) => ({
+            ...current,
+            countries: toggleSelection(current.countries, country),
+        }))
+    }
+
+    function toggleJobTitle(jobTitle: string) {
+        updateCriteria((current) => ({
+            ...current,
+            jobTitles: toggleSelection(current.jobTitles, jobTitle),
+        }))
+    }
+
+    function toggleSkill(skill: string) {
+        updateCriteria((current) => ({
+            ...current,
+            skills: toggleSelection(current.skills, skill),
+        }))
+    }
+
+    function setSort(sort: SortOption) {
+        updateCriteria((current) => ({ ...current, sort }))
     }
 
     function clearFilters() {
@@ -108,6 +156,7 @@ function App() {
     }
 
     function goBack() {
+        setPaletteOpen(false)
         setMap(!map)
         setMapOrHomeTitle(map ? pageNames.map : pageNames.home)
         updateCriteria((current) => ({ ...current, search: '' }), 'replace')
@@ -118,6 +167,27 @@ function App() {
         shuffle(shuffledPeople)
         setPeople(shuffledPeople)
     }
+
+    const filterProps = {
+        countries,
+        selectedCountries: criteria.countries,
+        onCountryChange: toggleCountry,
+        jobTitles,
+        selectedJobTitles: criteria.jobTitles,
+        onJobTitleChange: toggleJobTitle,
+        skills,
+        selectedSkills: criteria.skills,
+        onSkillChange: toggleSkill,
+        sortOption: criteria.sort,
+        onSortChange: setSort,
+        onClear: clearFilters,
+    }
+    const paletteCommands = paletteOpen
+        ? buildPaletteCommands({
+              ...filterProps,
+              onClear: () => profileFiltersRef.current?.clearFilters(),
+          })
+        : []
 
     return (
         <div className="flex flex-column min-vh-100 tc">
@@ -150,47 +220,14 @@ function App() {
                         </div>
                         <ProfileFilters
                             ref={profileFiltersRef}
-                            countries={countries}
-                            selectedCountries={criteria.countries}
-                            onCountryChange={(country) =>
-                                updateCriteria((current) => ({
-                                    ...current,
-                                    countries: toggleSelection(
-                                        current.countries,
-                                        country
-                                    ),
-                                }))
-                            }
-                            jobTitles={jobTitles}
-                            selectedJobTitles={criteria.jobTitles}
-                            onJobTitleChange={(jobTitle) =>
-                                updateCriteria((current) => ({
-                                    ...current,
-                                    jobTitles: toggleSelection(
-                                        current.jobTitles,
-                                        jobTitle
-                                    ),
-                                }))
-                            }
-                            skills={skills}
-                            selectedSkills={criteria.skills}
-                            onSkillChange={(skill) =>
-                                updateCriteria((current) => ({
-                                    ...current,
-                                    skills: toggleSelection(
-                                        current.skills,
-                                        skill
-                                    ),
-                                }))
-                            }
-                            sortOption={criteria.sort}
-                            onSortChange={(sort) =>
-                                updateCriteria((current) => ({
-                                    ...current,
-                                    sort,
-                                }))
-                            }
-                            onClear={clearFilters}
+                            {...filterProps}
+                            onOpenCommandPalette={() => setPaletteOpen(true)}
+                        />
+                        <CommandPalette
+                            open={paletteOpen}
+                            onClose={() => setPaletteOpen(false)}
+                            commands={paletteCommands}
+                            onSearch={setSearch}
                         />
                         <p
                             className="developer-results__count"
