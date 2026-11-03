@@ -110,10 +110,12 @@ To declare your own skills, add a `skills` array to your submission in a pull re
 
 1. Go to your profile on GitHub.com
 2. Append to your GitHub profile url “.png”, so it will look like this:
-  https://github.com/example.png
+   
+    https://github.com/example.png
 
 3. Hit enter and the browser will generate a page with your image, it look like this:
-  https://avatars.githubusercontent.com/u/57936?v=4
+   
+    https://avatars.githubusercontent.com/u/57936?v=4
 
 4. Copy url of this page and paste it in `Submissions/<YOUR_GH_USERNAME>.json` file
 
