@@ -98,19 +98,24 @@ Please submit a Pull Request to be added to this list. If you are unsure how to 
 
 ### Finding developers by skills
 
-Use **Required skills** to search the declared skills and select the technologies you need. Results must match **all** selected skills, together with any text, country, or role filters. Remove an individual skill using its chip, or use **Clear filters** to reset the search and filters.
+1. Type in **Required skills** to search the declared skills, then select each technology you need. Results must match **all** selected skills.
+2. Combine the skills with any text, country, or role filters.
+3. To remove one skill, click its chip. To reset the search and all filters, click **Clear filters**.
 
-Cards show self-reported skills and mark the ones matching your requirements. Filtering and matching marks both ignore case and surrounding whitespace without changing displayed labels. Profiles without declared skills still appear when no skill filter is selected. Existing contributors can add a `skills` array to their own submission in a pull request; no skills are inferred from job titles or external profiles.
+Check the cards to see each profile's self-reported skills. Matching skills are marked for you. Matching ignores letter case and surrounding whitespace, but labels display exactly as entered. If no skill filter is selected, profiles without declared skills still appear.
 
-- How to add profile image to your ZTM JobBoard profile using Github avatars.
+To declare your own skills, add a `skills` array to your submission in a pull request. Skills are self-reported, so don't infer them from job titles or external profiles.
+
+### How to add profile image to your ZTM JobBoard profile using Github avatars.
 
 1. Go to your profile on GitHub.com
 2. Append to your GitHub profile url “.png”, so it will look like this:
-
-https://github.com/example.png
+   
+    https://github.com/example.png
 
 3. Hit enter and the browser will generate a page with your image, it look like this:
-  https://avatars.githubusercontent.com/u/57936?v=4
+   
+    https://avatars.githubusercontent.com/u/57936?v=4
 
 4. Copy url of this page and paste it in `Submissions/<YOUR_GH_USERNAME>.json` file
 
