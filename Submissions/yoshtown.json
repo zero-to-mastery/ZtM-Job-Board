@@ -1,0 +1,17 @@
+{
+  "name": "Yoshua Isreal",
+  "img": "https://avatars.githubusercontent.com/u/34357437?v=4",
+  "email": "yoshtown@gmail.com",
+  "links": {
+    "website": "https://yoshtown.github.io/",
+    "linkedin": "https://www.linkedin.com/in/yoshua-isreal/",
+    "github": "https://github.com/yoshtown"
+  },
+  "jobTitle": "SRE | Machine Learning Engineer | MLOps",
+  "skills": ["Python", "scikit-learn", "Javascript"],
+  "location": {
+    "city": "Detroit",
+    "state": "Michigan",
+    "country": "United States"
+  }
+}
